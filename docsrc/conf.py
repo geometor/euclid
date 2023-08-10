@@ -3,8 +3,8 @@ from ablog.conf import *
 org = 'geometor'
 org_name = 'GEOMETOR'
 
-repo = 'elements'
-repo_name = 'elements'
+repo = 'euclid'
+repo_name = 'euclid'
 
 blog_title = f'{org_name} • {repo_name}'
 project = f'{org_name}<br/>•<br/>{repo_name}'

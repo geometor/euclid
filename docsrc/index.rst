@@ -1,4 +1,4 @@
-GEOMETOR • elements
+GEOMETOR • euclid
 =================
 
 
