@@ -28,6 +28,8 @@ extensions.append('sphinx_rtd_theme')
 
 html_theme = 'sphinx_rtd_theme'
 
+html_css_files = [ "css/rtd-dark.css" ]
+
 html_theme_options = {
     #  'logo': 'logo.png',
     #  'logo_name': True,
