@@ -1,5 +1,5 @@
-Fundamentals of Plane Geometry
-==============================
+fundamentals
+============
 
 defining and constructing the relationships of points, lines, circles
 
