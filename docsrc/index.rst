@@ -24,6 +24,7 @@ contents
    elements/index.rst
    log </log#https://>
    refs/index.rst
+   todos
 
 todo
 ----

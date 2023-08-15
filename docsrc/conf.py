@@ -7,7 +7,8 @@ repo = 'euclid'
 repo_name = 'euclid'
 
 blog_title = f'{org_name} • {repo_name}'
-project = f'{org_name}<br/>•<br/>{repo_name}'
+html_title = f'{org_name} • {repo_name}'
+project = f'{org_name} • {repo_name}'
 version = ''  # The short X.Y version.
 release = ''  # The full version, including alpha/beta/rc tags.
 
