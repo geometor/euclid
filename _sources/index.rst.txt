@@ -1,10 +1,7 @@
 GEOMETOR • euclid
 =================
 
-
-.. include:: README.rst
-
-
+.. include:: intro.rst
 
 recent logs:
 ------------
@@ -12,25 +9,22 @@ recent logs:
 .. postlist:: 5
    :excerpts:
 
-
-
 contents
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
+   :maxdepth: 2
 
    mission/index.rst
-   elements/index.rst
-   log </log#https://>
+   usage/index.rst
+   modules/index.rst
+   demos/index.rst
    refs/index.rst
-   todos
-
-todo
-----
-
-.. todolist::
-
+   log </log#https://>
+   todos.rst
+   changelog.rst
+   glossary.rst
 
 indices
 -------
