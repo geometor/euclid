@@ -1,0 +1,4 @@
+:navigation: footer
+:order: 2
+
+.. include:: ../CHANGELOG.rst

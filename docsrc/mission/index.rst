@@ -1,0 +1,12 @@
+:navigation: header
+:order: 1
+
+mission
+=======
+
+.. todo:: complete mission statement
+
+goals
+-----
+
+.. collection:: 
