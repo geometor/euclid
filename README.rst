@@ -1,49 +1,43 @@
-euclid
-======
+GEOMETOR • euclid
+=================
+
+.. image:: https://img.shields.io/github/license/geometor/euclid.svg
+   :target: https://github.com/geometor/euclid/blob/main/LICENSE
+
+**A digital reconstruction of Euclid's Elements for dependency mapping and analysis.**
 
 
-creating semantic structure around the classic work
-
-Features
+Overview
 --------
 
-.. todo:: TODO: insert features
+**geometor.euclid** transforms Euclid's *Elements* into a structured, digital knowledge base. By parsing the classical Heath edition, we create a system that allows for:
 
-Installation
+- **Deep Analysis**: Tracing the logical flow from axioms to complex propositions.
+- **Visualization**: mapping the dependency graph of geometric logic.
+- **Cross-Referencing**: Instant navigation between definitions, postulates, and propositions.
+
+Key Features
 ------------
 
-You can install **euclid** using pip:
-
-.. code-block:: bash
-
-   pip install geometor-euclid
+- **Digital Reconstruction**: Normalized text and high-quality diagram extraction.
+- **Dependency Mapping**: Explicit modeling of logical prerequisites.
+- **Sphinx Integration**: Rich, cross-linked documentation generation.
 
 Usage
 -----
 
-
-
-After installation, you can use the ``euclid`` command to create a new project:
-
 .. code-block:: bash
 
-   euclid 
+    # Transform structured data to RST
+    euclid_transform
 
-.. todo:: TODO: list arguments
+Resources
+---------
 
-Dependencies
-------------
+- **Source Code**: https://github.com/geometor/euclid
+- **Issues**: https://github.com/geometor/euclid/issues
 
-**euclid** depends on the following Python packages:
+Related Projects
+----------------
 
-.. todo:: TODO: read from pyproject.toml 
-
-Contributing
-------------
-
-Contributions are welcome! Please see our [GitHub issues](https://github.com/geometor/euclid/issues) for ways to contribute.
-
-License
--------
-
-**euclid** is licensed under the MIT License. See the `LICENSE` file for more details.
+- `GEOMETOR Model <https://github.com/geometor/model>`_: The symbolic engine.
