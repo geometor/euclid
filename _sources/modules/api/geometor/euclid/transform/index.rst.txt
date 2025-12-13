@@ -1,0 +1,67 @@
+geometor.euclid.transform
+=========================
+
+.. py:module:: geometor.euclid.transform
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.euclid.transform.ROMAN_NUMERALS
+   geometor.euclid.transform.SECTION_TYPE_MAP
+   geometor.euclid.transform.CATEGORIES_KEYWORDS
+   geometor.euclid.transform.TAGS_KEYWORDS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.euclid.transform.get_taxonomy
+   geometor.euclid.transform.convert_inline_xml_to_rst
+   geometor.euclid.transform.parse_book_xml
+   geometor.euclid.transform.analyze_dependencies
+   geometor.euclid.transform.generate_proof_chain_dot
+   geometor.euclid.transform.generate_rst_files
+   geometor.euclid.transform.generate_dependency_graph
+   geometor.euclid.transform.main
+
+
+Module Contents
+---------------
+
+.. py:data:: ROMAN_NUMERALS
+
+.. py:data:: SECTION_TYPE_MAP
+
+.. py:data:: CATEGORIES_KEYWORDS
+   :value: ['construct', 'describe', 'bisect']
+
+
+.. py:data:: TAGS_KEYWORDS
+   :value: ['line', 'circle', 'triangle']
+
+
+.. py:function:: get_taxonomy(enunciation_text: str) -> tuple[list[str], list[str]]
+
+.. py:function:: convert_inline_xml_to_rst(element: xml.etree.ElementTree.Element | None, dependencies: list[str], is_enunciation: bool = False) -> str
+
+.. py:function:: parse_book_xml(file_path: str | pathlib.Path, entry_number_start: int = 0) -> tuple[dict, int]
+
+.. py:function:: analyze_dependencies(graph: networkx.DiGraph, element_ref: str) -> dict[str, list[str]]
+
+   Analyzes the dependency graph for a given element.
+   An edge u -> v means u depends on v.
+
+
+.. py:function:: generate_proof_chain_dot(graph: networkx.DiGraph, element_ref: str, ref_to_path_map: dict[str, tuple[str, str]]) -> str
+
+.. py:function:: generate_rst_files(book_data: dict, output_dir: str | pathlib.Path, graph: networkx.DiGraph, ref_to_path_map: dict[str, tuple[str, str]], metadata: dict) -> None
+
+.. py:function:: generate_dependency_graph(graph: networkx.DiGraph, output_dir: str | pathlib.Path = 'docsrc/elements2') -> None
+
+.. py:function:: main()
+

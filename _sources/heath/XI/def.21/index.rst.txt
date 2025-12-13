@@ -1,0 +1,11 @@
+:order: 21
+:number: 525
+:type: def
+
+
+.. _XI.def.21:
+
+XI.def.21
+=========
+
+   When, one side of those about the right angle in a rectangular parallelogram remaining fixed, the parallelogram is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a cylinder.

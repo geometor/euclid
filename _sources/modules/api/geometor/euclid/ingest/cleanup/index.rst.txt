@@ -1,0 +1,32 @@
+geometor.euclid.ingest.cleanup
+==============================
+
+.. py:module:: geometor.euclid.ingest.cleanup
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.euclid.ingest.cleanup.clean_image
+
+
+Module Contents
+---------------
+
+.. py:function:: clean_image(pil_image, white_point=226)
+
+   Applies a linear levels adjustment to the image, setting the white point.
+   This effectively removes light gray bleed-through by mapping the
+   white_point (default 226) and everything above it to pure white (255).
+
+   :param pil_image: The input image.
+   :type pil_image: PIL.Image
+   :param white_point: The pixel value (0-255) to map to pure white (255).
+   :type white_point: int
+
+   :returns: The cleaned image.
+   :rtype: PIL.Image
+
+
