@@ -1,5 +1,5 @@
 from __future__ import annotations
-from geometor.elements.xml_parser import parse_element_xml
+from .xml_parser import parse_element_xml
 from pathlib import Path
 
 def generate_rst_from_xml(xml_file_path: Path, output_dir: Path):
