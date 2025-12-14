@@ -6,7 +6,6 @@ GEOMETOR • euclid
 
 **A digital reconstruction of Euclid's Elements for dependency mapping and analysis.**
 
-
 Overview
 --------
 
