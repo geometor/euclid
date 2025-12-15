@@ -3,6 +3,11 @@ geometor.euclid.ingest.scan_propositions
 
 .. py:module:: geometor.euclid.ingest.scan_propositions
 
+.. autoapi-nested-parse::
+
+   Module for scanning propositions from text files and generating indexes.
+
+
 
 Attributes
 ----------
@@ -54,11 +59,22 @@ Module Contents
 
 .. py:data:: BOOK_MAP
 
-.. py:function:: load_json(path)
+.. py:function:: load_json(path: pathlib.Path) -> Any
 
-.. py:function:: get_book_and_volume_from_path(file_path)
+   Loads JSON data from a file.
 
-.. py:function:: scan_propositions(target_book=None)
+
+.. py:function:: get_book_and_volume_from_path(file_path: pathlib.Path) -> Tuple[Optional[str], Optional[str]]
+
+   Extracts volume key and book slug from a given file path.
+
+
+.. py:function:: scan_propositions(target_book: Optional[str] = None) -> None
+
+   Scans text files for propositions and generates index files.
+
+   :param target_book: Optional book identifier to filter scanning.
+
 
 .. py:data:: parser
 

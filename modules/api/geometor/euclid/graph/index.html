@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>geometor.euclid.graph &mdash; Project name not set  documentation</title>
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=6f7faa8d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=38c7a96b" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="../../../../../_static/favicon.ico" />
@@ -34,13 +34,13 @@
           <a href="../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
+          <a href="../../../../../usage/index.html"  >usage</a>
+        </li>
+        <li>
           <a href="../../../../../heath/index.html"  >Heath</a>
         </li>
         <li>
           <a href="../../../../../log/index.html"  >logs</a>
-        </li>
-        <li>
-          <a href="../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../index.html"  >modules</a>
@@ -75,6 +75,7 @@
       <div class="content">
         <section id="module-geometor.euclid.graph">
           <span id="geometor-euclid-graph"></span><h1>geometor.euclid.graph<a class="headerlink" href="#module-geometor.euclid.graph" title="Link to this heading">¶</a></h1>
+          <p>Module for building dependency graphs from Euclid’s Elements XML.</p>
           <section id="attributes">
           <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
@@ -102,10 +103,10 @@
           <td><p>Extract categories and tags from enunciation text.</p></td>
           </tr>
           <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.convert_inline_xml_to_rst" title="geometor.euclid.graph.convert_inline_xml_to_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_inline_xml_to_rst</span></code></a>(→ str)</p></td>
-          <td><p></p></td>
+          <td><p>Converts inline XML elements to RST format.</p></td>
           </tr>
           <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.parse_book_xml" title="geometor.euclid.graph.parse_book_xml"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_book_xml</span></code></a>(→ tuple[dict, int])</p></td>
-          <td><p></p></td>
+          <td><p>Parses a book XML file and returns structured data.</p></td>
           </tr>
           <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.build_graph" title="geometor.euclid.graph.build_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_graph</span></code></a>(→ tuple[networkx.DiGraph, list[dict]])</p></td>
           <td><p>Build a NetworkX dependency graph from the XML source files.</p></td>
@@ -155,12 +156,14 @@
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.graph.convert_inline_xml_to_rst">
           <span class="sig-prename descclassname"><span class="pre">geometor.euclid.graph.</span></span><span class="sig-name descname"><span class="pre">convert_inline_xml_to_rst</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">element</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/xml.etree.elementtree.html#xml.etree.ElementTree.Element" title="(in Python v3.13)"><span class="pre">xml.etree.ElementTree.Element</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">dependencies</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_enunciation</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.euclid.graph.convert_inline_xml_to_rst" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <dd><p>Converts inline XML elements to RST format.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.graph.parse_book_xml">
           <span class="sig-prename descclassname"><span class="pre">geometor.euclid.graph.</span></span><span class="sig-name descname"><span class="pre">parse_book_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">entry_number_start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.graph.parse_book_xml" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <dd><p>Parses a book XML file and returns structured data.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.graph.build_graph">

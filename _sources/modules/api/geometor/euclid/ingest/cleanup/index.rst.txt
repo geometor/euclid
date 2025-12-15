@@ -3,6 +3,11 @@ geometor.euclid.ingest.cleanup
 
 .. py:module:: geometor.euclid.ingest.cleanup
 
+.. autoapi-nested-parse::
+
+   Module for image cleanup operations.
+
+
 
 Functions
 ---------
@@ -15,9 +20,10 @@ Functions
 Module Contents
 ---------------
 
-.. py:function:: clean_image(pil_image, white_point=226)
+.. py:function:: clean_image(pil_image: PIL.Image.Image, white_point: int = 226) -> PIL.Image.Image
 
    Applies a linear levels adjustment to the image, setting the white point.
+
    This effectively removes light gray bleed-through by mapping the
    white_point (default 226) and everything above it to pure white (255).
 

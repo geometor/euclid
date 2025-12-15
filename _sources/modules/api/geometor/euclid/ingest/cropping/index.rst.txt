@@ -3,6 +3,11 @@ geometor.euclid.ingest.cropping
 
 .. py:module:: geometor.euclid.ingest.cropping
 
+.. autoapi-nested-parse::
+
+   Module for automated cropping of proposition images.
+
+
 
 Attributes
 ----------
@@ -28,18 +33,25 @@ Module Contents
 
 .. py:data:: CROPPED_DIR
 
-.. py:function:: ensure_dir(path)
+.. py:function:: ensure_dir(path: pathlib.Path) -> None
 
-.. py:function:: calculate_crop_box(img_height, total_lines, start_line=0, end_line=None)
+   Ensures a directory exists.
+
+
+.. py:function:: calculate_crop_box(img_height: int, total_lines: int, start_line: int = 0, end_line: Optional[int] = None) -> Tuple[int, int, int, int]
 
    Calculates the crop box based on line indices.
+
    Assumes linear distribution of lines within the text area.
 
 
-.. py:function:: process_propositions()
+.. py:function:: process_propositions() -> None
 
    Automated cropping of propositions based on analysis data.
 
 
-.. py:function:: run_cropping()
+.. py:function:: run_cropping() -> None
+
+   Runs the cropping process for all propositions.
+
 

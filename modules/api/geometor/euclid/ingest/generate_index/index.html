@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>geometor.euclid.ingest.generate_index &mdash; Project name not set  documentation</title>
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=6f7faa8d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=38c7a96b" />
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="../../../../../../_static/favicon.ico" />
@@ -34,13 +34,13 @@
           <a href="../../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
+          <a href="../../../../../../usage/index.html"  >usage</a>
+        </li>
+        <li>
           <a href="../../../../../../heath/index.html"  >Heath</a>
         </li>
         <li>
           <a href="../../../../../../log/index.html"  >logs</a>
-        </li>
-        <li>
-          <a href="../../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../../index.html"  >modules</a>
@@ -77,24 +77,25 @@
       <div class="content">
         <section id="module-geometor.euclid.ingest.generate_index">
           <span id="geometor-euclid-ingest-generate-index"></span><h1>geometor.euclid.ingest.generate_index<a class="headerlink" href="#module-geometor.euclid.ingest.generate_index" title="Link to this heading">¶</a></h1>
+          <p>Module for generating the proposition index from resources.</p>
           <section id="functions">
           <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.load_json" title="geometor.euclid.ingest.generate_index.load_json"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_json</span></code></a>(path)</p></td>
-          <td><p></p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.load_json" title="geometor.euclid.ingest.generate_index.load_json"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_json</span></code></a>(→ Any)</p></td>
+          <td><p>Loads JSON data from a file.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.normalize_label" title="geometor.euclid.ingest.generate_index.normalize_label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">normalize_label</span></code></a>(label)</p></td>
-          <td><p></p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.normalize_label" title="geometor.euclid.ingest.generate_index.normalize_label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">normalize_label</span></code></a>(→ str)</p></td>
+          <td><p>Normalizes a proposition label (e.g. 'I' -&gt; '1').</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.find_image_path" title="geometor.euclid.ingest.generate_index.find_image_path"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_image_path</span></code></a>(base_dir, volume, page_num)</p></td>
-          <td><p></p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.find_image_path" title="geometor.euclid.ingest.generate_index.find_image_path"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_image_path</span></code></a>(→ Optional[pathlib.Path])</p></td>
+          <td><p>Finds the relative path to a page image.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.get_book_roman" title="geometor.euclid.ingest.generate_index.get_book_roman"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_book_roman</span></code></a>(book_slug)</p></td>
-          <td><p></p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.get_book_roman" title="geometor.euclid.ingest.generate_index.get_book_roman"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_book_roman</span></code></a>(→ str)</p></td>
+          <td><p>Converts book slug to Roman numeral.</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.generate_index" title="geometor.euclid.ingest.generate_index.generate_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_index</span></code></a>()</p></td>
-          <td><p></p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.generate_index.generate_index" title="geometor.euclid.ingest.generate_index.generate_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_index</span></code></a>(→ None)</p></td>
+          <td><p>Generates the main proposition index JSON file.</p></td>
           </tr>
           </tbody>
           </table>
@@ -103,28 +104,33 @@
           <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.generate_index.load_json">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">load_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.load_json" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">load_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Any</span></span></span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.load_json" title="Link to this definition">¶</a></dt>
+          <dd><p>Loads JSON data from a file.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.generate_index.normalize_label">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">normalize_label</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.normalize_label" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">normalize_label</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.normalize_label" title="Link to this definition">¶</a></dt>
+          <dd><p>Normalizes a proposition label (e.g. ‘I’ -&gt; ‘1’).</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.generate_index.find_image_path">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">find_image_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">volume</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.find_image_path" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">find_image_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">page_num</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.find_image_path" title="Link to this definition">¶</a></dt>
+          <dd><p>Finds the relative path to a page image.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.generate_index.get_book_roman">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">get_book_roman</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">book_slug</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.get_book_roman" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">get_book_roman</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">book_slug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.get_book_roman" title="Link to this definition">¶</a></dt>
+          <dd><p>Converts book slug to Roman numeral.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.generate_index.generate_index">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">generate_index</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.generate_index" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.generate_index.</span></span><span class="sig-name descname"><span class="pre">generate_index</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.generate_index.generate_index" title="Link to this definition">¶</a></dt>
+          <dd><p>Generates the main proposition index JSON file.</p>
+          </dd></dl>
 
           </section>
           </section>

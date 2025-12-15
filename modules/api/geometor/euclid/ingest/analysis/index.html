@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>geometor.euclid.ingest.analysis &mdash; Project name not set  documentation</title>
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=6f7faa8d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=38c7a96b" />
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="../../../../../../_static/favicon.ico" />
@@ -34,13 +34,13 @@
           <a href="../../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
+          <a href="../../../../../../usage/index.html"  >usage</a>
+        </li>
+        <li>
           <a href="../../../../../../heath/index.html"  >Heath</a>
         </li>
         <li>
           <a href="../../../../../../log/index.html"  >logs</a>
-        </li>
-        <li>
-          <a href="../../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../../index.html"  >modules</a>
@@ -77,6 +77,7 @@
       <div class="content">
         <section id="module-geometor.euclid.ingest.analysis">
           <span id="geometor-euclid-ingest-analysis"></span><h1>geometor.euclid.ingest.analysis<a class="headerlink" href="#module-geometor.euclid.ingest.analysis" title="Link to this heading">¶</a></h1>
+          <p>Module for analyzing extracted text to identify propositions.</p>
           <section id="attributes">
           <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
@@ -94,14 +95,14 @@
           <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.analysis.get_book_from_path" title="geometor.euclid.ingest.analysis.get_book_from_path"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_book_from_path</span></code></a>(path)</p></td>
-          <td><p></p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.analysis.get_book_from_path" title="geometor.euclid.ingest.analysis.get_book_from_path"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_book_from_path</span></code></a>(→ str)</p></td>
+          <td><p>Heuristically extracts the book name from a file path.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.analysis.process_folder" title="geometor.euclid.ingest.analysis.process_folder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_folder</span></code></a>(folder_path, volume)</p></td>
-          <td><p></p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.analysis.process_folder" title="geometor.euclid.ingest.analysis.process_folder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_folder</span></code></a>(→ List[Dict[str, Any]])</p></td>
+          <td><p>Scans a folder for proposition text files.</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.analysis.run_analysis" title="geometor.euclid.ingest.analysis.run_analysis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_analysis</span></code></a>()</p></td>
-          <td><p></p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.analysis.run_analysis" title="geometor.euclid.ingest.analysis.run_analysis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_analysis</span></code></a>(→ None)</p></td>
+          <td><p>Runs the analysis process on all extracted content.</p></td>
           </tr>
           </tbody>
           </table>
@@ -120,18 +121,21 @@
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.analysis.get_book_from_path">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.analysis.</span></span><span class="sig-name descname"><span class="pre">get_book_from_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.analysis.get_book_from_path" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.analysis.</span></span><span class="sig-name descname"><span class="pre">get_book_from_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.analysis.get_book_from_path" title="Link to this definition">¶</a></dt>
+          <dd><p>Heuristically extracts the book name from a file path.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.analysis.process_folder">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.analysis.</span></span><span class="sig-name descname"><span class="pre">process_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">volume</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.analysis.process_folder" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.analysis.</span></span><span class="sig-name descname"><span class="pre">process_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.analysis.process_folder" title="Link to this definition">¶</a></dt>
+          <dd><p>Scans a folder for proposition text files.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.analysis.run_analysis">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.analysis.</span></span><span class="sig-name descname"><span class="pre">run_analysis</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.analysis.run_analysis" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.analysis.</span></span><span class="sig-name descname"><span class="pre">run_analysis</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.analysis.run_analysis" title="Link to this definition">¶</a></dt>
+          <dd><p>Runs the analysis process on all extracted content.</p>
+          </dd></dl>
 
           </section>
           </section>

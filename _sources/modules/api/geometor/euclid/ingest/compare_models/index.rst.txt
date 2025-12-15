@@ -3,6 +3,11 @@ geometor.euclid.ingest.compare_models
 
 .. py:module:: geometor.euclid.ingest.compare_models
 
+.. autoapi-nested-parse::
+
+   Module for comparing generic model outputs for graphic detection.
+
+
 
 Attributes
 ----------
@@ -59,11 +64,20 @@ Module Contents
    :value: ['I.1', 'I.2', 'I.3']
 
 
-.. py:function:: load_json(path)
+.. py:function:: load_json(path: pathlib.Path) -> Any
 
-.. py:function:: detect_graphic_with_usage(model_name, image_path)
+   Loads JSON data from a file.
 
-.. py:function:: run_comparison()
+
+.. py:function:: detect_graphic_with_usage(model_name: str, image_path: pathlib.Path) -> Tuple[Dict[str, Any], Dict[str, Any]]
+
+   Detects graphics using a specified AI model and returns result with usage stats.
+
+
+.. py:function:: run_comparison() -> None
+
+   Runs a comparison of graphic detection models for a target set of propositions.
+
 
 .. py:data:: api_key
 

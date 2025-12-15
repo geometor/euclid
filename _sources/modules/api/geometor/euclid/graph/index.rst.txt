@@ -3,6 +3,11 @@ geometor.euclid.graph
 
 .. py:module:: geometor.euclid.graph
 
+.. autoapi-nested-parse::
+
+   Module for building dependency graphs from Euclid's Elements XML.
+
+
 
 Attributes
 ----------
@@ -54,7 +59,13 @@ Module Contents
 
 .. py:function:: convert_inline_xml_to_rst(element: xml.etree.ElementTree.Element | None, dependencies: list[str], is_enunciation: bool = False) -> str
 
+   Converts inline XML elements to RST format.
+
+
 .. py:function:: parse_book_xml(file_path: str | pathlib.Path, entry_number_start: int = 0) -> tuple[dict, int]
+
+   Parses a book XML file and returns structured data.
+
 
 .. py:function:: build_graph(xml_dir: pathlib.Path | None = None) -> tuple[networkx.DiGraph, list[dict]]
 

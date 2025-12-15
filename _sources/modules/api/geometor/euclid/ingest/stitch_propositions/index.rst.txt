@@ -3,6 +3,11 @@ geometor.euclid.ingest.stitch_propositions
 
 .. py:module:: geometor.euclid.ingest.stitch_propositions
 
+.. autoapi-nested-parse::
+
+   Module for stitching cropped proposition images into single images.
+
+
 
 Attributes
 ----------
@@ -39,13 +44,27 @@ Module Contents
    :value: 640
 
 
-.. py:function:: ensure_dir(path)
+.. py:function:: ensure_dir(path: pathlib.Path) -> None
 
-.. py:function:: load_json(path)
+   Ensures a directory exists, creating it if necessary.
 
-.. py:function:: get_book_slug_from_path(path)
 
-.. py:function:: stitch_propositions(target_book=None)
+.. py:function:: load_json(path: pathlib.Path) -> Any
+
+   Loads JSON data from a file.
+
+
+.. py:function:: get_book_slug_from_path(path: pathlib.Path) -> Optional[str]
+
+   Extracts the book slug from a given path.
+
+
+.. py:function:: stitch_propositions(target_book: Optional[str] = None) -> None
+
+   Stitches cropped images for each proposition into a single image.
+
+   :param target_book: Optional book identifier to filter stitching.
+
 
 .. py:data:: parser
 

@@ -3,6 +3,11 @@ geometor.euclid.ingest.generate_index
 
 .. py:module:: geometor.euclid.ingest.generate_index
 
+.. autoapi-nested-parse::
+
+   Module for generating the proposition index from resources.
+
+
 
 Functions
 ---------
@@ -19,13 +24,28 @@ Functions
 Module Contents
 ---------------
 
-.. py:function:: load_json(path)
+.. py:function:: load_json(path: pathlib.Path) -> Any
 
-.. py:function:: normalize_label(label)
+   Loads JSON data from a file.
 
-.. py:function:: find_image_path(base_dir, volume, page_num)
 
-.. py:function:: get_book_roman(book_slug)
+.. py:function:: normalize_label(label: str) -> str
 
-.. py:function:: generate_index()
+   Normalizes a proposition label (e.g. 'I' -> '1').
+
+
+.. py:function:: find_image_path(base_dir: pathlib.Path, volume: str, page_num: int) -> Optional[pathlib.Path]
+
+   Finds the relative path to a page image.
+
+
+.. py:function:: get_book_roman(book_slug: str) -> str
+
+   Converts book slug to Roman numeral.
+
+
+.. py:function:: generate_index() -> None
+
+   Generates the main proposition index JSON file.
+
 

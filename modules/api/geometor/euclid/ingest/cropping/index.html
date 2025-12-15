@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>geometor.euclid.ingest.cropping &mdash; Project name not set  documentation</title>
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=6f7faa8d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=38c7a96b" />
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="../../../../../../_static/favicon.ico" />
@@ -34,13 +34,13 @@
           <a href="../../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
+          <a href="../../../../../../usage/index.html"  >usage</a>
+        </li>
+        <li>
           <a href="../../../../../../heath/index.html"  >Heath</a>
         </li>
         <li>
           <a href="../../../../../../log/index.html"  >logs</a>
-        </li>
-        <li>
-          <a href="../../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../../index.html"  >modules</a>
@@ -77,6 +77,7 @@
       <div class="content">
         <section id="module-geometor.euclid.ingest.cropping">
           <span id="geometor-euclid-ingest-cropping"></span><h1>geometor.euclid.ingest.cropping<a class="headerlink" href="#module-geometor.euclid.ingest.cropping" title="Link to this heading">¶</a></h1>
+          <p>Module for automated cropping of proposition images.</p>
           <section id="attributes">
           <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
@@ -91,17 +92,17 @@
           <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.ensure_dir" title="geometor.euclid.ingest.cropping.ensure_dir"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ensure_dir</span></code></a>(path)</p></td>
-          <td><p></p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.ensure_dir" title="geometor.euclid.ingest.cropping.ensure_dir"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ensure_dir</span></code></a>(→ None)</p></td>
+          <td><p>Ensures a directory exists.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.calculate_crop_box" title="geometor.euclid.ingest.cropping.calculate_crop_box"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calculate_crop_box</span></code></a>(img_height, total_lines[, ...])</p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.calculate_crop_box" title="geometor.euclid.ingest.cropping.calculate_crop_box"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calculate_crop_box</span></code></a>(→ Tuple[int, int, int, int])</p></td>
           <td><p>Calculates the crop box based on line indices.</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.process_propositions" title="geometor.euclid.ingest.cropping.process_propositions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_propositions</span></code></a>()</p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.process_propositions" title="geometor.euclid.ingest.cropping.process_propositions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_propositions</span></code></a>(→ None)</p></td>
           <td><p>Automated cropping of propositions based on analysis data.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.run_cropping" title="geometor.euclid.ingest.cropping.run_cropping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_cropping</span></code></a>()</p></td>
-          <td><p></p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.cropping.run_cropping" title="geometor.euclid.ingest.cropping.run_cropping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_cropping</span></code></a>(→ None)</p></td>
+          <td><p>Runs the cropping process for all propositions.</p></td>
           </tr>
           </tbody>
           </table>
@@ -115,26 +116,28 @@
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.cropping.ensure_dir">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">ensure_dir</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.cropping.ensure_dir" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">ensure_dir</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.cropping.ensure_dir" title="Link to this definition">¶</a></dt>
+          <dd><p>Ensures a directory exists.</p>
+          </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.cropping.calculate_crop_box">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">calculate_crop_box</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img_height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_lines</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_line</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_line</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.cropping.calculate_crop_box" title="Link to this definition">¶</a></dt>
-          <dd><p>Calculates the crop box based on line indices.
-          Assumes linear distribution of lines within the text area.</p>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">calculate_crop_box</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">img_height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">total_lines</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.cropping.calculate_crop_box" title="Link to this definition">¶</a></dt>
+          <dd><p>Calculates the crop box based on line indices.</p>
+          <p>Assumes linear distribution of lines within the text area.</p>
           </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.cropping.process_propositions">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">process_propositions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.cropping.process_propositions" title="Link to this definition">¶</a></dt>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">process_propositions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.cropping.process_propositions" title="Link to this definition">¶</a></dt>
           <dd><p>Automated cropping of propositions based on analysis data.</p>
           </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.cropping.run_cropping">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">run_cropping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.ingest.cropping.run_cropping" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.cropping.</span></span><span class="sig-name descname"><span class="pre">run_cropping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.cropping.run_cropping" title="Link to this definition">¶</a></dt>
+          <dd><p>Runs the cropping process for all propositions.</p>
+          </dd></dl>
 
           </section>
           </section>

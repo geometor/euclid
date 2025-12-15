@@ -3,6 +3,11 @@ geometor.euclid.ingest.detect_graphics_cv
 
 .. py:module:: geometor.euclid.ingest.detect_graphics_cv
 
+.. autoapi-nested-parse::
+
+   Module for standalone OpenCV graphic detection testing.
+
+
 
 Attributes
 ----------
@@ -33,9 +38,18 @@ Module Contents
 
 .. py:data:: INDEX_PATH
 
-.. py:function:: load_json(path)
+.. py:function:: load_json(path: pathlib.Path) -> Any
 
-.. py:function:: detect_graphic_cv(image_path, debug=False)
+   Loads JSON data from a file.
 
-.. py:function:: run_test()
+
+.. py:function:: detect_graphic_cv(image_path: pathlib.Path, debug: bool = False) -> Dict[str, Any]
+
+   Detects graphics in an image using OpenCV.
+
+
+.. py:function:: run_test() -> None
+
+   Runs a test of the graphic detection against known ground truth.
+
 

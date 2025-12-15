@@ -3,6 +3,11 @@ geometor.euclid.ingest.detect_graphics
 
 .. py:module:: geometor.euclid.ingest.detect_graphics
 
+.. autoapi-nested-parse::
+
+   Module for detecting graphics in proposition pages.
+
+
 
 Attributes
 ----------
@@ -30,15 +35,33 @@ Module Contents
 
 .. py:data:: HEATH_DIR
 
-.. py:function:: load_json(path)
+.. py:function:: load_json(path: pathlib.Path) -> Any
 
-.. py:function:: save_json(path, data)
+   Loads JSON data from a file.
 
-.. py:function:: get_book_slug_from_path(path)
 
-.. py:function:: detect_graphic_cv(image_path, debug=False)
+.. py:function:: save_json(path: pathlib.Path, data: Any) -> None
 
-.. py:function:: process_books(target_book=None, dry_run=False, debug=False)
+   Saves data to a JSON file.
 
-.. py:function:: main()
+
+.. py:function:: get_book_slug_from_path(path: pathlib.Path) -> Optional[str]
+
+   Extracts the book slug from a file path.
+
+
+.. py:function:: detect_graphic_cv(image_path: pathlib.Path, debug: bool = False) -> Dict[str, Any]
+
+   Detects graphics in an image using OpenCV algorithms.
+
+
+.. py:function:: process_books(target_book: Optional[str] = None, dry_run: bool = False, debug: bool = False) -> None
+
+   Processes books to detect and update graphic coordinates.
+
+
+.. py:function:: main() -> None
+
+   Main execution function.
+
 
