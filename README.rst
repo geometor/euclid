@@ -4,7 +4,8 @@ GEOMETOR • euclid
 .. image:: https://img.shields.io/github/license/geometor/euclid.svg
    :target: https://github.com/geometor/euclid/blob/main/LICENSE
 
-**A digital reconstruction of Euclid's Elements for dependency mapping and analysis.**
+    **A digital reconstruction of Euclid's Elements for dependency mapping and analysis.**
+
 
 Overview
 --------
