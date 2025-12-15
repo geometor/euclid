@@ -3,6 +3,15 @@ changelog
 
 :project: geometor.euclid
 
+0.2.1
+-----
+*2025-12-15*
+
+**changed**
+
+-   Standardized docstrings (Google style) and type hints across the codebase.
+-   Resolved all `ruff` linting errors (D and ANN rules).
+
 0.2.0
 -----
 *2025-12-12*

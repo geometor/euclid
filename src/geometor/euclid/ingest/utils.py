@@ -1,54 +1,53 @@
+"""Utility functions for ingestion processes."""
+
 import json
 import re
+from pathlib import Path
+from typing import Any, Match
 
-def load_json(path):
+
+def load_json(path: Path) -> Any:  # noqa: ANN401
+    """Loads JSON data from a file."""
     if not path.exists():
         return None
-    with open(path, 'r') as f:
+    with open(path, "r") as f:
         return json.load(f)
 
-def sanitize_title(title):
+
+def sanitize_title(title: str) -> str:
+    """Sanitizes a title string into a slug."""
     # 1. Replace multiple spaces
-    title = re.sub(r'\s+', ' ', title).strip()
-    
+    title = re.sub(r"\s+", " ", title).strip()
+
     # 2. Fix spaced out words like "C O N T E N T S"
     # Heuristic: if a sequence of single uppercase letters separated by spaces exists, join them.
     # E.g. "B O O K I" -> "BOOK I"
     # Logic: Find patterns of (Char Space)+ Char
-    def replacer(match):
+    def replacer(match: Match) -> str:
         return match.group(0).replace(" ", "")
 
-    title = re.sub(r'\b([A-Z])\s+(?=[A-Z]\b)', r'\1', title)
-    
+    title = re.sub(r"\b([A-Z])\s+(?=[A-Z]\b)", r"\1", title)
+
     # 3. Remove trailing periods
-    title = title.rstrip('.')
-    
+    title = title.rstrip(".")
+
     # 4. Convert to snake_case-ish slug
     # Remove punctuation like apostrophes
     title = title.replace("'", "")
     # Replace non-alphanumeric with _
-    slug = re.sub(r'[^a-zA-Z0-9]+', '_', title)
+    slug = re.sub(r"[^a-zA-Z0-9]+", "_", title)
     # Lowercase
     slug = slug.lower()
     # Strip underscores
-    slug = slug.strip('_')
-    
+    slug = slug.strip("_")
+
     return slug
 
-def int_to_roman(n):
+
+def int_to_roman(n: int) -> str:
     """Converts an integer to a Roman numeral."""
-    val = [
-        1000, 900, 500, 400,
-        100, 90, 50, 40,
-        10, 9, 5, 4,
-        1
-    ]
-    syb = [
-        "M", "CM", "D", "CD",
-        "C", "XC", "L", "XL",
-        "I", "IX", "V", "IV",
-        "I"
-    ]
+    val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    syb = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "I", "IX", "V", "IV", "I"]
     roman_num = ""
     i = 0
     while n > 0:

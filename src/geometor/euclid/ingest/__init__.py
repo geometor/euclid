@@ -1,5 +1,4 @@
-"""
-Geometor Elements Ingestion Pipeline
+"""Geometor Elements Ingestion Pipeline.
 
 This module contains the tools and logic for ingesting Euclid's Elements from
 PDF sources (Heath edition), organizing them, and extracting propositions and metadata.
@@ -19,7 +18,7 @@ Pipeline Stages:
 Usage:
     Run the ingestion pipeline:
     $ python -m geometor.elements.ingest.pipeline
-    
+
     Run the refinement pipeline:
     $ python -m geometor.elements.ingest.refine
 """

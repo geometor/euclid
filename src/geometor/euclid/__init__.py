@@ -1,5 +1,4 @@
-"""
-Tools for modeling and rendering geometric constructions from Euclid's Elements.
+"""Tools for modeling and rendering geometric constructions from Euclid's Elements.
 
 Key Components:
 ---------------
@@ -11,11 +10,11 @@ Usage:
 ------
 Use the provided functions to parse XML files and generate documentation.
 """
+
 from __future__ import annotations
 
 
-
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 __all__ = [
     "parse_element_xml",

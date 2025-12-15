@@ -1,8 +1,12 @@
+"""Configuration settings for ingestion processes."""
+
 import os
 from pathlib import Path
 
 # Base paths
-PROJECT_ROOT = Path(os.getenv("GEOMETOR_PROJECT_ROOT", "/home/phi/PROJECTS/geometor/elements"))
+PROJECT_ROOT = Path(
+    os.getenv("GEOMETOR_PROJECT_ROOT", "/home/phi/PROJECTS/geometor/elements")
+)
 
 RESOURCES_DIR = PROJECT_ROOT / "resources"
 
@@ -28,5 +32,5 @@ CROP_WIDTH = 640
 VOLUMES = {
     "I": "The Thirteen Books of Euclid's Elements _ Volume I _ Second Edition (35)/The Thirteen Books of Euclid's Elements _ - Euclid.pdf",
     "II": "The Thirteen Books of Euclid's Elements _ Volume II _ Second Edition (36)/The Thirteen Books of Euclid's Elements _ - Euclid.pdf",
-    "III": "The Thirteen Books of Euclid's Elements _ Volume III _ Second Edition (37)/The Thirteen Books of Euclid's Elements _ - Euclid.pdf"
+    "III": "The Thirteen Books of Euclid's Elements _ Volume III _ Second Edition (37)/The Thirteen Books of Euclid's Elements _ - Euclid.pdf",
 }

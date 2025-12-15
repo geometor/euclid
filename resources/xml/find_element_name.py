@@ -1,35 +1,34 @@
-
 # Dictionary of keywords for each element type
 element_keywords = {
-        "point": ["point", "points", "pts", "pt"],
-        "line": ["line", "lines", "segment", "segments"],
-        "triangle": ["triangle", "triangles", "tria", "tri"],
-        "circle": ["circle", "circles", "circ", "c"],
-        "angle": ["angle", "angles", "ang"],
-        "rectangle": ["rectangle", "rectangles", "rect"],
-        "diagonal": ["diagonal", "diagonals", "diag"],
-        "quadrilateral": ["quadrilateral", "quadrilaterals", "quad"],
-        "polygon": ["polygon", "polygons", "poly"],
-        "arc": ["arc", "arcs"],
-        "tangent": ["tangent", "tangents"],
-        "perpendicular": ["perpendicular", "perpendiculars"],
-        "midpoint": ["midpoint", "midpoints"],
-        "bisector": ["bisector", "bisectors"],
-        "chord": ["chord", "chords"],
-        "sector": ["sector", "sectors"],
-        "apex": ["apex", "apices"],
-        "base": ["base", "bases"],
-        "height": ["height", "heights"],
-        "hypotenuse": ["hypotenuse", "hypotenuses"],
-        "radius": ["radius", "radii"],
-        "center": ["center", "centers", "centre", "centres"],
-        "vertex": ["vertex", "vertices"],
-        "side": ["side", "sides"],
-        "opposite": ["opposite", "opposites"],
-        "adjacent": ["adjacent", "adjacents"],
-        "complement": ["complement", "complements"],
-        "supplement": ["supplement", "supplements"]
-    }
+    "point": ["point", "points", "pts", "pt"],
+    "line": ["line", "lines", "segment", "segments"],
+    "triangle": ["triangle", "triangles", "tria", "tri"],
+    "circle": ["circle", "circles", "circ", "c"],
+    "angle": ["angle", "angles", "ang"],
+    "rectangle": ["rectangle", "rectangles", "rect"],
+    "diagonal": ["diagonal", "diagonals", "diag"],
+    "quadrilateral": ["quadrilateral", "quadrilaterals", "quad"],
+    "polygon": ["polygon", "polygons", "poly"],
+    "arc": ["arc", "arcs"],
+    "tangent": ["tangent", "tangents"],
+    "perpendicular": ["perpendicular", "perpendiculars"],
+    "midpoint": ["midpoint", "midpoints"],
+    "bisector": ["bisector", "bisectors"],
+    "chord": ["chord", "chords"],
+    "sector": ["sector", "sectors"],
+    "apex": ["apex", "apices"],
+    "base": ["base", "bases"],
+    "height": ["height", "heights"],
+    "hypotenuse": ["hypotenuse", "hypotenuses"],
+    "radius": ["radius", "radii"],
+    "center": ["center", "centers", "centre", "centres"],
+    "vertex": ["vertex", "vertices"],
+    "side": ["side", "sides"],
+    "opposite": ["opposite", "opposites"],
+    "adjacent": ["adjacent", "adjacents"],
+    "complement": ["complement", "complements"],
+    "supplement": ["supplement", "supplements"],
+}
 
 
 # Function to get the element type for an emph tag in a line
@@ -53,4 +52,3 @@ def get_element_type(line, emph):
                 min_dist = dist
                 closest = element
     return closest
-

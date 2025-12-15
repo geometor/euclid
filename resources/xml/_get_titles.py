@@ -31,6 +31,7 @@ functions = [
     },
 ]
 
+
 def generate_title(doc_title, section_text):
     section_text = section_text[:1000]  # Limit to first 1000 characters
     message = f"""
@@ -44,66 +45,65 @@ def generate_title(doc_title, section_text):
     """
 
     response = openai.ChatCompletion.create(
-            model=MODEL,
-            messages=[
-                {"role": "user", "content": message},
-                ],
-            functions=[
-                {
-                    "name": "set_title",
-                    "description": "generates a concise title for the entry",
-                    "parameters": {
-                        "type": "object",
-                        "properties": {
-                            "title": {
-                                "type": "string",
-                                "description": "text to insert as title",
-                                },
-                            },
-                        "required": ["title", "format"],
+        model=MODEL,
+        messages=[
+            {"role": "user", "content": message},
+        ],
+        functions=[
+            {
+                "name": "set_title",
+                "description": "generates a concise title for the entry",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "title": {
+                            "type": "string",
+                            "description": "text to insert as title",
                         },
-                    }],
-            temperature=0.6,
-            max_tokens=60,
-            )
+                    },
+                    "required": ["title", "format"],
+                },
+            }
+        ],
+        temperature=0.6,
+        max_tokens=60,
+    )
 
-
-    response_text = response.choices[0]['message']['content']
+    response_text = response.choices[0]["message"]["content"]
     print(response_text)
     return response_text
 
+
 def get_entry_titles(json_file):
     #  with open(md_file, 'r') as file:
-        #  content = file.readlines()
+    #  content = file.readlines()
 
     book = json.load(json_file)
 
     new_book = {}
 
     for key, entry in book.items():
-        
         title = generate_title(entry)
         new_book[key] = entry
 
-        
-
     #  for line in content:
-        #  if line.strip() == '---':
-            #  title = generate_title(doc_title, section_text)
-            #  new_content.append('\n## ' + title + '\n\n')
-            #  new_content.append(section_text)
-            #  new_content.append(line)
-            #  section_text = ''  # Reset the section_text
-        #  else:
-            #  section_text += line
+    #  if line.strip() == '---':
+    #  title = generate_title(doc_title, section_text)
+    #  new_content.append('\n## ' + title + '\n\n')
+    #  new_content.append(section_text)
+    #  new_content.append(line)
+    #  section_text = ''  # Reset the section_text
+    #  else:
+    #  section_text += line
 
     #  with open(md_file, 'w') as file:
-        #  file.writelines(new_content)
+    #  file.writelines(new_content)
+
 
 def main():
     book_json = "export/euclid-01.xml.json"
     add_section_titles(md_file)
 
+
 if __name__ == "__main__":
     main()
-
