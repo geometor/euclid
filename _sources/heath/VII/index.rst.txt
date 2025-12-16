@@ -4,25 +4,28 @@
 Book VII
 ========
 
+Elementary Number Theory
+------------------------
+
+
+   The propositions contained in Books 7–9 are generally attributed to the school of Pythagoras.
+   > - Heiberg
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-vii-def:
 
 Definitions
------------
+~~~~~~~~~~~
 
 .. collection::
    :type: def
    :sort: number
 
-.. _book-vii-prop:
-
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop

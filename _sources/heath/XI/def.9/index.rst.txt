@@ -1,5 +1,5 @@
 :order: 9
-:number: 513
+:number: 9
 :type: def
 
 
@@ -9,9 +9,3 @@ XI.def.9
 ========
 
    Similar solid figures are those contained by similar planes equal in multitude.
-
-
-Required for
-------------
-
-:ref:`XI.27`, :ref:`XII.12`

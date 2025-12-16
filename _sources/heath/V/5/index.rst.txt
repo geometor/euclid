@@ -1,5 +1,5 @@
 :order: 5
-:number: 191
+:number: 23
 :type: prop
 :dependencies: V.1
 
@@ -43,19 +43,3 @@ That is, the remainder ``EB`` will be the same multiple of the remainder ``FD`` 
 
 Therefore etc. Q. E. D.
 let EB be made that multiple of CG, τοσαυταπλάσιον γεγονέτω καὶ τὸ ΕΒ τοῦ ΓΗ. From this way of stating the construction one might suppose that ``CG`` was given and ``EB`` had to be found equal to a certain multiple of it. But in fact ``EB`` is what is given and ``CG`` has to be found, i.e. ``CG`` has to be constructed as a certain ``sub``multiple of ``EB``.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "V.1" [fillcolor="#222244", URL="/heath/V/1/", target="_top"];
-     "V.5" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/V/5/", target="_top"];
-     "V.5" -> "V.1";
-   }

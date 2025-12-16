@@ -1,5 +1,5 @@
 :order: 34
-:number: 371
+:number: 34
 :type: prop
 :dependencies: VII.def.8
 
@@ -30,19 +30,3 @@ Thus A is even-times odd.
 But it was also proved even-times even.
 
 Therefore A is both even-times even and even-times odd. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "VII.def.8" [fillcolor="#224422", URL="/heath/VII/def.8/", target="_top"];
-     "IX.34" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/IX/34/", target="_top"];
-     "IX.34" -> "VII.def.8";
-   }

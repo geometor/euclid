@@ -1,5 +1,5 @@
 :order: 13
-:number: 323
+:number: 13
 :type: prop
 :dependencies: VII.14
 
@@ -34,34 +34,3 @@ And the multitude of D, L, E is equal to the multitude of E, O, F, and that of G
 
 
 and, as G is to H, so is H to K. [:ref:`VII.14 <VII.14>`] Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "VII.13" [fillcolor="#222244", URL="/heath/VII/13/", target="_top"];
-     "VII.def.20" [fillcolor="#224422", URL="/heath/VII/def.20/", target="_top"];
-     "VII.9" [fillcolor="#222244", URL="/heath/VII/9/", target="_top"];
-     "VII.10" [fillcolor="#222244", URL="/heath/VII/10/", target="_top"];
-     "VIII.13" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/VIII/13/", target="_top"];
-     "VII.14" [fillcolor="#222244", URL="/heath/VII/14/", target="_top"];
-     "VII.6" [fillcolor="#222244", URL="/heath/VII/6/", target="_top"];
-     "VII.5" [fillcolor="#222244", URL="/heath/VII/5/", target="_top"];
-     "VII.14" -> "VII.13";
-     "VII.13" -> "VII.def.20";
-     "VII.10" -> "VII.9";
-     "VII.13" -> "VII.10";
-     "VIII.13" -> "VII.14";
-     "VII.9" -> "VII.6";
-     "VII.10" -> "VII.6";
-     "VII.6" -> "VII.5";
-     "VII.9" -> "VII.5";
-     "VII.10" -> "VII.5";
-   }

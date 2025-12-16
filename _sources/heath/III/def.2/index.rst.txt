@@ -1,5 +1,5 @@
 :order: 2
-:number: 99
+:number: 2
 :type: def
 :tags: line, circle
 

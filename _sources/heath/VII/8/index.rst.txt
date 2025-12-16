@@ -1,5 +1,5 @@
 :order: 8
-:number: 279
+:number: 30
 :type: prop
 :dependencies: VII.7
 
@@ -38,28 +38,3 @@ Therefore, whatever part KH is of CD, the same part also is KN of CF; therefore 
 But the remainder MK was also proved to be the same part of the remainder FD that the whole GK is of the whole CD; therefore also the sum of MK, NH is the same parts of DF that the whole HG is of the whole CD.
 
 But the sum of MK, NH is equal to EB, and HG is equal to BA; therefore the remainder EB is the same parts of the remainder FD that the whole AB is of the whole CD. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "VII.8" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/VII/8/", target="_top"];
-     "VII.5" [fillcolor="#222244", URL="/heath/VII/5/", target="_top"];
-     "VII.7" [fillcolor="#222244", URL="/heath/VII/7/", target="_top"];
-     "VII.7" -> "VII.5";
-     "VII.8" -> "VII.7";
-   }
-
-
-
-Required for
-------------
-
-:ref:`IX.35`, :ref:`IX.36`, :ref:`VII.11`

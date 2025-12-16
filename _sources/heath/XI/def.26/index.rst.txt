@@ -1,5 +1,5 @@
 :order: 26
-:number: 530
+:number: 26
 :type: def
 :tags: triangle
 

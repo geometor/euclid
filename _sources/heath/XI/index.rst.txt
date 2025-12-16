@@ -4,25 +4,27 @@
 Book XI
 =======
 
+Elementary Stereometry
+----------------------
+
+
+   Theory of planes, coplanar lines, and solid angles
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-xi-def:
 
 Definitions
------------
+~~~~~~~~~~~
 
 .. collection::
    :type: def
    :sort: number
 
-.. _book-xi-prop:
-
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop

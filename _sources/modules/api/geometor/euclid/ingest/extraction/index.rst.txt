@@ -14,7 +14,6 @@ Functions
 
 .. autoapisummary::
 
-   geometor.euclid.ingest.extraction.ensure_dir
    geometor.euclid.ingest.extraction.extract_volume
    geometor.euclid.ingest.extraction.generate_manifest
    geometor.euclid.ingest.extraction.extract_toc_from_pdf
@@ -27,11 +26,6 @@ Functions
 Module Contents
 ---------------
 
-.. py:function:: ensure_dir(path: pathlib.Path) -> None
-
-   Ensures a directory exists.
-
-
 .. py:function:: extract_volume(vol_key: str, relative_path: str) -> None
 
    Extracts images and text from a single PDF volume.
@@ -42,12 +36,12 @@ Module Contents
    Generates manifests of extracted pages for each volume.
 
 
-.. py:function:: extract_toc_from_pdf(pdf_path: pathlib.Path) -> Optional[str]
+.. py:function:: extract_toc_from_pdf(pdf_path: Path) -> Optional[str]
 
    Extracts the table of contents from a PDF using pdftohtml.
 
 
-.. py:function:: parse_outline_recursive(outline_element: xml.etree.ElementTree.Element) -> List[Dict[str, Any]]
+.. py:function:: parse_outline_recursive(outline_element: ET.Element) -> List[Dict[str, Any]]
 
    Recursively parses XML outline elements.
 

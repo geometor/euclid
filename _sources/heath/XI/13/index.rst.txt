@@ -1,5 +1,5 @@
 :order: 13
-:number: 545
+:number: 41
 :type: prop
 :tags: line
 :dependencies: XI.3, XI.def.3
@@ -29,28 +29,3 @@ For the same reason the angle BAE is also right; therefore the angle CAE is equa
 And they are in one plane: which is impossible.
 
 Therefore etc. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "XI.3" [fillcolor="#222244", URL="/heath/XI/3/", target="_top"];
-     "XI.def.3" [fillcolor="#224422", URL="/heath/XI/def.3/", target="_top"];
-     "XI.13" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/XI/13/", target="_top"];
-     "XI.13" -> "XI.3";
-     "XI.13" -> "XI.def.3";
-   }
-
-
-
-Required for
-------------
-
-:ref:`XI.19`

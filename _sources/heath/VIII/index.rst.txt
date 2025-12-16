@@ -4,16 +4,17 @@
 Book VIII
 =========
 
+Continued Proportion
+--------------------
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-viii-prop:
 
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop
