@@ -10,23 +10,13 @@ A digital reconstruction of Euclid's Elements for semantic discovery and depende
 -   **Structure Identification**: Identifying definitions, postulates, axioms, and propositions.
 -   **Dependency Mapping**: Tracing the logical prerequisites between elements.
 -   **Semantic Tagging**: Identifying key concepts and relationships within the text.
+-   **Keyword Discovery**: Extracting terms from the original index and performing manual analysis of definitions to build a comprehensive keyword vocabulary.
 
 ## Key Repos
 
 -   **euclid**: This repository. Code for parsing and structuring the text.
 -   **elements**: The project that builds upon this structure to create the G index and symbolic models.
 
-## Development Plan
 
--   Refine text extraction algorithms.
--   Enhance semantic tagging capabilities.
--   Ensure clean API for downstream consumers (like `geometor.elements`).
 
-## Workflows
 
-### Create Branch
-
-1.  **Navigate to Repository**: `cd /home/phi/PROJECTS/geometor/euclid`
-2.  **Checkout Main**: `git checkout main`
-3.  **Pull Latest**: `git pull origin main`
-4.  **Create Branch**: `git checkout -b <branch_name>`
