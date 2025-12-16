@@ -3,6 +3,15 @@ changelog
 
 :project: geometor.euclid
 
+0.2.2
+-----
+*2025-12-15*
+
+**changed**
+
+-   Reparse Heath with book subtitles
+-   cleaned up sphinx build errors
+
 0.2.1
 -----
 *2025-12-15*

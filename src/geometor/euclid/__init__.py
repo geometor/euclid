@@ -14,7 +14,7 @@ Use the provided functions to parse XML files and generate documentation.
 from __future__ import annotations
 
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 __all__ = [
     "parse_element_xml",
