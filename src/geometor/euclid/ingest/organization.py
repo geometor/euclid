@@ -6,8 +6,12 @@ import shutil
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-from geometor.elements.ingest.config import EXTRACTED_DIR, VOLUMES, RESOURCES_DIR
-from geometor.elements.ingest.utils import load_json, sanitize_title
+from geometor.euclid.ingest.config import (
+    RESOURCES_DIR,
+    PROPOSITION_INDEX_PATH,
+    PAGE_RANGE_MAP_PATH,
+)
+from geometor.euclid.ingest.utils import load_json, save_jsonitize_title
 
 
 def ensure_dir(path: Path) -> None:

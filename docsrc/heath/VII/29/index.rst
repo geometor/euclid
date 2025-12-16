@@ -1,5 +1,5 @@
 :order: 29
-:number: 300
+:number: 51
 :type: prop
 
 
@@ -27,9 +27,3 @@ Now, since C measures B, A, therefore it also measures A which is prime, though 
 Therefore no number will measure B, A.
 
 Therefore A, B are prime to one another. Q. E. D.
-
-
-Required for
-------------
-
-:ref:`IX.12`, :ref:`IX.13`, :ref:`IX.14`, :ref:`IX.32`, :ref:`IX.36`, :ref:`VII.30`

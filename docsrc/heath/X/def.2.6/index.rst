@@ -1,5 +1,5 @@
 :order: 6
-:number: 430
+:number: 57
 :type: def
 
 
@@ -9,9 +9,3 @@ X.def.2.6
 =========
 
    and if neither, a sixth binomial.
-
-
-Required for
-------------
-
-:ref:`X.66`, :ref:`X.72`

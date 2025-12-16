@@ -4,25 +4,28 @@
 Book X
 ======
 
+Incommensurable Magnitudes
+--------------------------
+
+
+   The theory of incommensurable magntidues set out in this book is generally attributed to Theaetetus of Athens. In the footnotes throughout this book, k, k ′ , etc. stand for distinct ratios of positive integers.
+   > - Heiberg
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-x-def:
 
 Definitions
------------
+~~~~~~~~~~~
 
 .. collection::
    :type: def
    :sort: number
 
-.. _book-x-prop:
-
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop

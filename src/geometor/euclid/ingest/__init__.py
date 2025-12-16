@@ -17,10 +17,10 @@ Pipeline Stages:
 
 Usage:
     Run the ingestion pipeline:
-    $ python -m geometor.elements.ingest.pipeline
+    $ python -m geometor.euclid.ingest.pipeline
 
     Run the refinement pipeline:
-    $ python -m geometor.elements.ingest.refine
+    $ python -m geometor.euclid.ingest.refine
 """
 
 from .pipeline import run_pipeline

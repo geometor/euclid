@@ -4,25 +4,27 @@
 Book VI
 =======
 
+Similar Figures
+---------------
+
+
+   Application of the theory of proportion
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-vi-def:
 
 Definitions
------------
+~~~~~~~~~~~
 
 .. collection::
    :type: def
    :sort: number
 
-.. _book-vi-prop:
-
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop

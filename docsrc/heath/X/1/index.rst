@@ -1,5 +1,5 @@
 :order: 1
-:number: 378
+:number: 5
 :type: prop
 :dependencies: V.def.4
 
@@ -34,26 +34,3 @@ Therefore AK is less than C.
 Therefore there is left of the magnitude AB the magnitude AK which is less than the lesser magnitude set out, namely C. Q. E. D.
 
 And the theorem can be similarly proved even if the parts subtracted be halves.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "V.def.4" [fillcolor="#224422", URL="/heath/V/def.4/", target="_top"];
-     "X.1" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/X/1/", target="_top"];
-     "X.1" -> "V.def.4";
-   }
-
-
-
-Required for
-------------
-
-:ref:`XII.10`, :ref:`XII.11`, :ref:`XII.12`, :ref:`XII.13`, :ref:`XII.14`, :ref:`XII.15`, :ref:`XII.16`

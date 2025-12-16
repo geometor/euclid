@@ -5,7 +5,7 @@ import glob
 import os
 import yaml
 from pathlib import Path
-from geometor.elements.ingest.config import RESOURCES_DIR, PROJECT_ROOT, METADATA_PATH
+from geometor.euclid.ingest.config import RESOURCES_DIR, PROJECT_ROOT, METADATA_PATH
 
 
 def run_metadata_extraction() -> None:

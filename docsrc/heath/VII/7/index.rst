@@ -1,5 +1,5 @@
 :order: 7
-:number: 278
+:number: 29
 :type: prop
 :dependencies: VII.5
 
@@ -28,26 +28,3 @@ Let CF be subtracted from each; therefore the remainder GC is equal to the remai
 Now since, whatever part AE is of CF, the same part also is EB of GC, while GC is equal to FD, therefore, whatever part AE is of CF, the same part also is EB of FD.
 
 But, whatever part AE is of CF, the same part also is AB of CD; therefore also the remainder EB is the same part of the remainder FD that the whole AB is of the whole CD. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "VII.7" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/VII/7/", target="_top"];
-     "VII.5" [fillcolor="#222244", URL="/heath/VII/5/", target="_top"];
-     "VII.7" -> "VII.5";
-   }
-
-
-
-Required for
-------------
-
-:ref:`IX.35`, :ref:`IX.36`, :ref:`VII.11`, :ref:`VII.8`

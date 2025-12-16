@@ -1,5 +1,5 @@
 :order: 19
-:number: 551
+:number: 47
 :type: prop
 :dependencies: XI.13, XI.def.4
 
@@ -28,25 +28,3 @@ Therefore from the same point D two straight lines have been set up at right ang
 Therefore no straight line except the common section DB of the planes AB, BC can be set up from the point D at right angles to the plane of reference.
 
 Therefore etc. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "XI.19" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/XI/19/", target="_top"];
-     "XI.13" [fillcolor="#222244", URL="/heath/XI/13/", target="_top"];
-     "XI.3" [fillcolor="#222244", URL="/heath/XI/3/", target="_top"];
-     "XI.def.3" [fillcolor="#224422", URL="/heath/XI/def.3/", target="_top"];
-     "XI.def.4" [fillcolor="#224422", URL="/heath/XI/def.4/", target="_top"];
-     "XI.19" -> "XI.13";
-     "XI.13" -> "XI.3";
-     "XI.13" -> "XI.def.3";
-     "XI.19" -> "XI.def.4";
-   }

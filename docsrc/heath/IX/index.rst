@@ -4,16 +4,17 @@
 Book IX
 =======
 
+Applications of Number Theory
+-----------------------------
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-ix-prop:
 
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop

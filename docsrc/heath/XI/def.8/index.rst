@@ -1,5 +1,5 @@
 :order: 8
-:number: 512
+:number: 8
 :type: def
 
 
@@ -9,9 +9,3 @@ XI.def.8
 ========
 
    Parallel planes are those which do not meet.
-
-
-Required for
-------------
-
-:ref:`XI.14`, :ref:`XI.15`

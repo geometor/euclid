@@ -1,5 +1,5 @@
 :order: 19
-:number: 523
+:number: 19
 :type: def
 :tags: line, triangle
 

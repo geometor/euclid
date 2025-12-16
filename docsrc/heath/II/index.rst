@@ -4,25 +4,27 @@
 Book II
 =======
 
+Fundamentals of Geometric Algebra
+---------------------------------
+
+
+   Theory of Rectangles
+
 
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
-
-.. _book-ii-def:
 
 Definitions
------------
+~~~~~~~~~~~
 
 .. collection::
    :type: def
    :sort: number
 
-.. _book-ii-prop:
-
 Propositions
-------------
+~~~~~~~~~~~~
 
 .. collection::
    :type: prop

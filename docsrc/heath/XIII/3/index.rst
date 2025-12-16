@@ -1,5 +1,5 @@
 :order: 3
-:number: 592
+:number: 3
 :type: prop
 :tags: line
 
@@ -44,9 +44,3 @@ But the gnomon OPQ and the square FG are the square DN.
 And DN is the square on DB, and GF the square on DC.
 
 Therefore the square on DB is five times the square on DC. Q. E. D.
-
-
-Required for
-------------
-
-:ref:`XIII.16`, :ref:`XIII.18`

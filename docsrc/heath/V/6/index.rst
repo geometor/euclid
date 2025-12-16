@@ -1,5 +1,5 @@
 :order: 6
-:number: 192
+:number: 24
 :type: prop
 :dependencies: V.2
 
@@ -44,19 +44,3 @@ Hence, if ``GB`` is equal to ``E``, ``HD`` is also equal to ``F``.
 Similarly we can prove that, even if ``GB`` be a multiple of ``E``, ``HD`` is also the same multiple of ``F``.
 
 Therefore etc. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "V.6" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/V/6/", target="_top"];
-     "V.2" [fillcolor="#222244", URL="/heath/V/2/", target="_top"];
-     "V.6" -> "V.2";
-   }

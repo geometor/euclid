@@ -1,5 +1,5 @@
 :order: 9
-:number: 258
+:number: 9
 :type: def
 
 
@@ -9,9 +9,3 @@ VII.def.9
 =========
 
    An even-times odd number is that which is measured by an even number according to an odd number.
-
-
-Required for
-------------
-
-:ref:`IX.33`

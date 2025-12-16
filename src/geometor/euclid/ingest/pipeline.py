@@ -1,7 +1,7 @@
 """Main ingestion pipeline script."""
 
-from geometor.elements.ingest.extraction import run_extraction
-from geometor.elements.ingest.organization import run_organization
+from geometor.euclid.ingest.extraction import run_extraction
+from geometor.euclid.ingest.organization import run_organization
 
 
 def run_pipeline() -> None:

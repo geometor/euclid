@@ -5,7 +5,7 @@ import os
 from PIL import Image
 from pathlib import Path
 from typing import Optional, Tuple
-from geometor.elements.ingest.config import (
+from geometor.euclid.ingest.config import (
     PROPOSITION_INDEX_PATH,
     EXTRACTED_DIR,
     RESOURCES_DIR,
@@ -15,7 +15,7 @@ from geometor.elements.ingest.config import (
     PAGE_FOOTER_START,
     CROP_WIDTH,
 )
-from geometor.elements.ingest.utils import load_json
+from geometor.euclid.ingest.utils import load_json
 
 CROPPED_DIR = EXTRACTED_DIR / "cropped"
 

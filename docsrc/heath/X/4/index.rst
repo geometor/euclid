@@ -1,5 +1,5 @@
 :order: 4
-:number: 381
+:number: 8
 :type: prop
 :dependencies: X.3, X.3.p.1
 
@@ -70,25 +70,3 @@ PORISM.
 From this it is manifest that, if a magnitude measure three magnitudes, it will also measure their greatest common measure. 
 
 Similarly too, with more magnitudes, the greatest common measure can be found, and the porism can be extended. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "X.2" [fillcolor="#222244", URL="/heath/X/2/", target="_top"];
-     "X.def.1" [fillcolor="#224422", URL="/heath/X/def.1/", target="_top"];
-     "X.4" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/X/4/", target="_top"];
-     "X.3.p.1" [fillcolor="#333333"];
-     "X.3" [fillcolor="#222244", URL="/heath/X/3/", target="_top"];
-     "X.3" -> "X.2";
-     "X.2" -> "X.def.1";
-     "X.4" -> "X.3.p.1";
-     "X.4" -> "X.3";
-   }

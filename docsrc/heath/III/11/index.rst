@@ -1,5 +1,5 @@
 :order: 11
-:number: 119
+:number: 22
 :type: prop
 :tags: line, circle
 
@@ -43,9 +43,3 @@ Therefore etc. Q. E. D.
 the straight line joining their centres, literally the straight line joined to their centres
 (ἡ ἐπὶ τὰ κέντρα αὐτῶν ἐπιζευγνυμένη εὐθεῖα).
 point of contact is here συναφἡ, and in the enunciation of the next proposition ἐπαφἡ.
-
-
-Required for
-------------
-
-:ref:`III.13`

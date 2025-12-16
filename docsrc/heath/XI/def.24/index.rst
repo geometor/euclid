@@ -1,5 +1,5 @@
 :order: 24
-:number: 528
+:number: 24
 :type: def
 
 
@@ -9,9 +9,3 @@ XI.def.24
 =========
 
    Similar cones and cylinders are those in which the axes and the diameters of the bases are proportional.
-
-
-Required for
-------------
-
-:ref:`XII.12`

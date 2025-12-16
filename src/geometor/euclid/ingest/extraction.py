@@ -2,20 +2,6 @@
 
 import os
 import subprocess
-import glob
-import shutil
-import xml.etree.ElementTree as ET
-import json
-from pathlib import Path
-from typing import Any, Dict, List, Optional
-from geometor.elements.ingest.config import PDF_BASE_DIR, EXTRACTED_DIR, VOLUMES
-
-
-def ensure_dir(path: Path) -> None:
-    """Ensures a directory exists."""
-    if not path.exists():
-        path.mkdir(parents=True, exist_ok=True)
-
 
 def extract_volume(vol_key: str, relative_path: str) -> None:
     """Extracts images and text from a single PDF volume."""

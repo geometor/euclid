@@ -6,8 +6,13 @@ import json
 import glob
 from pathlib import Path
 from typing import Any, Dict, List
-from geometor.elements.ingest.config import PROPOSITION_INDEX_PATH, EXTRACTED_DIR
-from geometor.elements.ingest.utils import load_json
+from geometor.euclid.ingest.config import (
+    EXTRACTED_DIR,
+    PROPOSITION_INDEX_PATH,
+    RESOURCES_DIR,
+    VOLUMES,
+)
+from geometor.euclid.ingest.utils import load_json, save_json
 
 # Regex patterns
 PROP_START_RE = re.compile(r"^\s*PROPOSITION\s+([IVXLCDM\d]+)\.?\s*$", re.IGNORECASE)

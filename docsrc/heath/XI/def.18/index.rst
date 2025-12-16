@@ -1,5 +1,5 @@
 :order: 18
-:number: 522
+:number: 18
 :type: def
 :tags: triangle
 

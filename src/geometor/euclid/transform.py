@@ -597,7 +597,7 @@ def generate_proof_chain_dot(
     return "\n".join(dot_lines)
 
 
-def generate_rst_files(
+def generate_heath_rst(
     book_data: dict,
     output_dir: str | Path,
     graph: nx.DiGraph,
@@ -624,20 +624,34 @@ def generate_rst_files(
         f"{'=' * len(title)}\n",
     ]
 
-    if book_metadata.get("subtitle") or book_metadata.get("body"):
+    if book_metadata.get("subtitle") or book_metadata.get("description") or book_metadata.get("body"):
         if book_metadata.get("subtitle"):
             subtitle = book_metadata["subtitle"]
-            book_index_content.append(f"   **{subtitle}**\n")
-        if book_metadata.get("body"):
-            body = book_metadata["body"]
-            indented_body = "\n   ".join(body.splitlines())
-            book_index_content.append(f"   {indented_body}\n")
+            book_index_content.append(f"{subtitle}")
+            book_index_content.append(f"{'-' * len(subtitle)}\n")
+        
+        description = book_metadata.get("description") or book_metadata.get("body")
+        if description:
+            indented_desc = "\n   ".join(description.splitlines())
+            # Ensure proper blockquote formatting by adding empty line before if needed
+            # (Though previous line is "---" or "Title", so maybe just indent is enough if it follows a blank line? 
+            # RST block quotes need indentation and usually a blank line before.
+            # We are appending to a list that joins with other things.)
+            
+            # The previous logic was:
+            # book_index_content.append(f"   {indented_body}\n")
+            
+            # Let's ensure there is a blank line before the blockquote if we just added a subtitle
+            if book_metadata.get("subtitle"):
+                 book_index_content.append("")
+            
+            book_index_content.append(f"   {indented_desc}\n")
 
     # Insert contents directive after the main heading and body
     book_index_content.append("""
 .. contents::
    :local:
-   :depth: 2
+   :backlinks: none
 
 """)
 
@@ -759,11 +773,11 @@ def generate_rst_files(
     for entry_type in sorted_entry_types:
         if entry_type:
             title = type_titles.get(entry_type, entry_type.capitalize())
-            anchor = f"book-{book_roman.lower()}-{entry_type}"
+            # anchor = f"book-{book_roman.lower()}-{entry_type}"
 
-            collection_sections.append(f".. _{anchor}:\n")
+            # collection_sections.append(f".. _{anchor}:\n")
             collection_sections.append(f"{title}")
-            collection_sections.append(f"{'-' * len(title)}\n")
+            collection_sections.append(f"{'~' * len(title)}\n")
             collection_sections.append(f".. collection::")
             collection_sections.append(f"   :type: {entry_type}")
             collection_sections.append(f"   :sort: number\n")

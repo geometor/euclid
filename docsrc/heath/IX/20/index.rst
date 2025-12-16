@@ -1,5 +1,5 @@
 :order: 20
-:number: 357
+:number: 20
 :type: prop
 :dependencies: VII.31
 
@@ -42,19 +42,3 @@ Therefore G is not the same with any one of the numbers A, B, C.
 And by hypothesis it is prime.
 
 Therefore the prime numbers A, B, C, G have been found which are more than the assigned multitude of A, B, C. Q. E. D.
-
-
-Dependency Graph
-----------------
-
-.. graphviz::
-
-   digraph {
-     bgcolor="black";
-     node [shape=box, style="rounded,filled", fontname="Helvetica", color="white", fontcolor="white"];
-     edge [color="white", fontcolor="white"];
-     rankdir="TB";
-     "IX.20" [penwidth=3, color="white", fillcolor="#555555", URL="/heath/IX/20/", target="_top"];
-     "VII.31" [fillcolor="#222244", URL="/heath/VII/31/", target="_top"];
-     "IX.20" -> "VII.31";
-   }

@@ -1,8 +1,8 @@
 """Refinement pipeline script."""
 
-from geometor.elements.ingest.analysis import run_analysis
-from geometor.elements.ingest.cropping import run_cropping
-from geometor.elements.ingest.metadata_extraction.metadata_extraction import (
+from geometor.euclid.ingest.analysis import load_analysis_data
+from geometor.euclid.ingest.cropping import process_propositions
+from geometor.euclid.ingest.metadata_extraction.metadata_extraction import (
     run_metadata_extraction,
 )
 

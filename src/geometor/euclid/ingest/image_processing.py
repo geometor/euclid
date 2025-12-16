@@ -3,8 +3,15 @@
 import os
 import shutil
 from pathlib import Path
-from geometor.elements.ingest.config import RESOURCES_DIR
-from geometor.elements.ingest.utils import int_to_roman
+from geometor.euclid.ingest.config import (
+    EXTRACTED_DIR,
+    PROPOSITION_INDEX_PATH,
+    RESOURCES_DIR,
+    PAGE_HEADER_END,
+    PAGE_FOOTER_START,
+    CROP_WIDTH,
+)
+from geometor.euclid.ingest.utils import load_json_roman
 
 
 def ensure_dir(path: Path) -> None:
