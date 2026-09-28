@@ -10,3 +10,4 @@ goals
 -----
 
 .. collection:: 
+   :sort: order
