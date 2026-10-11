@@ -64,14 +64,49 @@ def cmd_crop(args: argparse.Namespace) -> None:
     print(f"Saved cropped graphic to: {out_path}")
 
     # Invert / Dark background
+    inverted_name = None
     if args.invert:
         inverted = ImageOps.invert(cropped.convert("RGB"))
         inverted_path = out_path.with_name(f"{out_path.stem}.inverted{out_path.suffix}")
         inverted.save(inverted_path)
+        inverted_name = inverted_path.name
         print(f"Saved inverted graphic to: {inverted_path}")
 
     # Markdown tag helper
     caption = args.caption or out_path.stem.replace("_", " ").title()
+
+    # Save crop info metadata JSON (<folio>.json)
+    folio_stem = out_path.name.split(".")[0]
+    graphic_subid = out_path.name.split(".")[1] if out_path.name.count(".") >= 2 else "g1"
+    json_path = out_path.parent / f"{folio_stem}.json"
+    metadata: Dict[str, Any] = {}
+    if json_path.exists():
+        try:
+            with open(json_path, "r") as jf:
+                metadata = json.load(jf)
+        except Exception:
+            metadata = {}
+    if not isinstance(metadata, dict):
+        metadata = {}
+
+    graphics_list = metadata.get("graphics", [])
+    entry = {
+        "id": graphic_subid,
+        "file": out_path.name,
+        "inverted_file": inverted_name,
+        "bbox": [x, y, w, h],
+        "white_point": args.white_point if not args.no_clean else None,
+        "caption": caption,
+    }
+    graphics_list = [g for g in graphics_list if g.get("id") != graphic_subid]
+    graphics_list.append(entry)
+    metadata["folio"] = folio_stem
+    metadata["graphics"] = graphics_list
+
+    with open(json_path, "w") as jf:
+        json.dump(metadata, jf, indent=2)
+    print(f"Updated crop metadata in: {json_path}")
+
     print(f"\nMarkdown snippet:\n![{caption}]({out_path.name})")
 
 

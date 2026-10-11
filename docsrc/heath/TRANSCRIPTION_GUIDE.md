@@ -23,27 +23,37 @@ resources/heath/volume_I/
 │   │   ├── 0168.png
 │   │   └── 0168.md
 │   ├── common_notions/
-│   │   ├── 0169.png
-│   │   ├── 0169.md
-│   │   ├── graphic_p160_conchoid_nicomedes.png
-│   │   └── graphic_p160_conchoid_nicomedes.inverted.png
+│   │   ├── 0174.png
+│   │   ├── 0174.md
+│   │   ├── 0174.json        <-- Crop info metadata
+│   │   ├── 0174.g1.png      <-- Clustered graphic 1
+│   │   └── 0174.g1.inverted.png
 │   └── propositions/
 │       ├── 0255.png
 │       ├── 0255.md
-│       ├── graphic_p241_prop_1.png
-│       └── graphic_p241_prop_1.inverted.png
+│       ├── 0255.json        <-- Crop info metadata
+│       ├── 0255.g1.png      <-- Clustered graphic 1
+│       └── 0255.g1.inverted.png
 ```
 
-### Demonstration Graphics
-When a diagram or geometric figure is extracted:
-1. **Save it in the same directory** in `resources/` next to the `.md` file (e.g. `graphic_p241_prop_1.png`).
-2. **Generate an inverted version** for dark mode backgrounds (e.g. `graphic_p241_prop_1.inverted.png`).
-3. **Reference relatively** inside the local `.md` file:
-   ```markdown
-   ![Proposition 1 figure](graphic_p241_prop_1.png)
-   ```
-4. **Mirror to documentation static assets**:
-   `docsrc/heath/_static/graphics/volume_I/` (used by Sphinx / documentation builds).
+### Demonstration Graphics Naming Standard
+All assets for a given page follow the folio number as their base:
+1. **Source Scan**: `0021.png`
+2. **Markdown Transcription**: `0021.md`
+3. **Crop Info Metadata**: `0021.json` (stores bounding boxes, crop parameters, label info, offsets)
+4. **Graphic 1**: `0021.g1.png`
+5. **Inverted Graphic 1 (Dark Mode)**: `0021.g1.inverted.png`
+6. **Subsequent Graphics** (if multiple exist on a page): `0021.g2.png`, `0021.g2.inverted.png`, etc.
+
+This naming guarantees that all related files for a page cluster together alphabetically in file managers, editors, and CLI listings.
+
+Inside the local `.md` file, reference the graphic relatively:
+```markdown
+![Proposition 1 figure](0255.g1.png)
+```
+
+> [!NOTE]
+> **No Mirroring Yet**: Do not mirror graphics to `docsrc/heath/_static/graphics/` at this stage. Our current priority is exclusively collecting and perfecting all transcription data and assets inside `resources/`. Publishing and documentation generation will occur in a later phase.
 
 ---
 
@@ -58,7 +68,8 @@ Subagents maintain significantly higher accuracy and speed when constrained to s
 When dispatching a transcription subagent, always provide:
 1. **Preceding Reference Files**: Provide paths to the immediately preceding 1–2 completed `.md` and `.png` files as concrete examples of formatting, tone, and footnote style.
 2. **Current Target Folio(s)**: Path to the target `.png` scan(s).
-3. **Output Target Path**: Specific `resources/.../XXXX.md` path.
+3. **Pre-detected Graphics (if any)**: If a graphic was detected on the page, provide the graphic path `0255.g1.png` so the subagent can insert the image tag at the appropriate place in the text.
+4. **Output Target Path**: Specific `resources/.../XXXX.md` path.
 
 ---
 
@@ -83,7 +94,10 @@ Heath restarts footnote numbering (`1`, `2`, `3`...) on every printed page. To a
 
 ## 4. Diagram Detection & Cropping Pipeline
 
-The project includes an automated image processing pipeline based on OpenCV and SciPy connected component analysis in `src/geometor/euclid/ingest/detect_graphics_cv.py` and `src/geometor/euclid/scripts/graphic_tool.py`.
+### Upfront Pre-Transcription Detection
+We run the detection script **before** launching transcription for a folio. This determines upfront whether a graphic is present, identifies its bounding box, and generates `XXXX.json` and `XXXX.g1.png`. The transcription subagent is then simply instructed to position the image tag at the correct narrative location.
+
+The automated pipeline is in `src/geometor/euclid/ingest/detect_graphics_cv.py` and `src/geometor/euclid/scripts/graphic_tool.py`.
 
 ### Running with `uv`:
 ```bash
@@ -106,12 +120,12 @@ Output:
 }
 ```
 
-#### 2. Crop, Clean, and Invert Graphic
-Crops the specified bounding box, performs linear levels adjustment (`white_point=226`) to eliminate paper bleed-through, and optionally creates an inverted dark-mode asset:
+#### 2. Crop, Clean, Invert, and Save Metadata JSON
+Crops the specified bounding box, performs linear levels adjustment (`white_point=226`) to eliminate paper bleed-through, creates `<folio>.g1.inverted.png`, and saves crop info to `<folio>.json`:
 ```bash
 /home/phi/.local/bin/uv run python src/geometor/euclid/scripts/graphic_tool.py crop \
   resources/heath/volume_I/book_i/propositions/0255.png \
-  resources/heath/volume_I/book_i/propositions/graphic_p241_prop_1.png \
+  resources/heath/volume_I/book_i/propositions/0255.g1.png \
   --bbox 343 158 287 189 \
   --invert
 ```
