@@ -1,6 +1,9 @@
 """Module for image cleanup operations."""
 
-import cv2
+try:
+    import cv2
+except ImportError:
+    cv2 = None
 import numpy as np
 from PIL import Image
 
@@ -18,11 +21,9 @@ def clean_image(pil_image: Image.Image, white_point: int = 226) -> Image.Image:
     Returns:
         PIL.Image: The cleaned image.
     """
-    # Convert PIL to OpenCV (numpy array)
-    # Handle RGB vs L
+    # Convert PIL to numpy array
     if pil_image.mode == "RGB":
         img_np = np.array(pil_image)
-        # We can apply the LUT to all channels independently
     elif pil_image.mode == "L":
         img_np = np.array(pil_image)
     else:
@@ -39,10 +40,10 @@ def clean_image(pil_image: Image.Image, white_point: int = 226) -> Image.Image:
         lut[i] = np.clip(val, 0, 255)
 
     # Apply LUT
-    # If RGB, cv2.LUT works on 3 channels if the array is right, or we can just use numpy indexing for speed if 1D LUT
-    # cv2.LUT expects 8-bit input.
-
-    cleaned_np = cv2.LUT(img_np, lut)
+    if cv2 is not None:
+        cleaned_np = cv2.LUT(img_np, lut)
+    else:
+        cleaned_np = lut[img_np]
 
     # Convert back to PIL
     cleaned_pil = Image.fromarray(cleaned_np)

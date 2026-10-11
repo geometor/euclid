@@ -2,6 +2,14 @@
 
 import os
 import subprocess
+import json
+from pathlib import Path
+from typing import Optional, List, Dict, Any
+import xml.etree.ElementTree as ET
+
+from geometor.euclid.ingest.config import PDF_BASE_DIR, EXTRACTED_DIR
+def ensure_dir(path: Path) -> None:
+    path.mkdir(parents=True, exist_ok=True)
 
 def extract_volume(vol_key: str, relative_path: str) -> None:
     """Extracts images and text from a single PDF volume."""

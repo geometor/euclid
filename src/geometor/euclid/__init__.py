@@ -24,7 +24,22 @@ __all__ = [
     "build_graph",
 ]
 
-from .xml_parser import parse_element_xml
-from .rst_generator import generate_rst_from_xml
-from .rst_builder import build_rst_docs
-from .graph import build_graph
+try:
+    from .xml_parser import parse_element_xml
+except ImportError:
+    parse_element_xml = None
+
+try:
+    from .rst_generator import generate_rst_from_xml
+except ImportError:
+    generate_rst_from_xml = None
+
+try:
+    from .rst_builder import build_rst_docs
+except ImportError:
+    build_rst_docs = None
+
+try:
+    from .graph import build_graph
+except ImportError:
+    build_graph = None

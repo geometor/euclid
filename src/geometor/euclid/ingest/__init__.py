@@ -23,5 +23,12 @@ Usage:
     $ python -m geometor.euclid.ingest.refine
 """
 
-from .pipeline import run_pipeline
-from .refine import run_refinement
+try:
+    from .pipeline import run_pipeline
+except ImportError:
+    run_pipeline = None
+
+try:
+    from .refine import run_refinement
+except ImportError:
+    run_refinement = None
