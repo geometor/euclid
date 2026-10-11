@@ -41,9 +41,10 @@ All assets for a given page follow the folio number as their base:
 1. **Source Scan**: `0021.png`
 2. **Markdown Transcription**: `0021.md`
 3. **Crop Info Metadata**: `0021.json` (stores bounding boxes, crop parameters, label info, offsets)
-4. **Graphic 1**: `0021.g1.png`
-5. **Inverted Graphic 1 (Dark Mode)**: `0021.g1.inverted.png`
-6. **Subsequent Graphics** (if multiple exist on a page): `0021.g2.png`, `0021.g2.inverted.png`, etc.
+4. **Transcription Notes (Optional)**: `0021.notes.md` (documents difficult-to-interpret passages, faint ink, polytonic Greek ambiguities, source typos corrected, or editorial decisions)
+5. **Graphic 1**: `0021.g1.png`
+6. **Inverted Graphic 1 (Dark Mode)**: `0021.g1.inverted.png`
+7. **Subsequent Graphics** (if multiple exist on a page): `0021.g2.png`, `0021.g2.inverted.png`, etc.
 
 This naming guarantees that all related files for a page cluster together alphabetically in file managers, editors, and CLI listings.
 
@@ -51,6 +52,15 @@ Inside the local `.md` file, reference the graphic relatively:
 ```markdown
 ![Proposition 1 figure](0255.g1.png)
 ```
+
+### Transcription Notes (`<folio>.notes.md`)
+Whenever an agent encounters:
+- Hard-to-read Greek characters, faint breathings/accents, or broken type requiring zoom inspection.
+- Apparent printed typographical errors in Heath's original edition.
+- Textual discrepancies between Heath's translation and the Perseus TEI XML.
+- Commentary references that are obscure or require clarification.
+
+The agent writes a `<folio>.notes.md` file in the same folder. This preserves full scholarly rigor without cluttering the clean primary transcription in `<folio>.md`.
 
 > [!NOTE]
 > **No Mirroring Yet**: Do not mirror graphics to `docsrc/heath/_static/graphics/` at this stage. Our current priority is exclusively collecting and perfecting all transcription data and assets inside `resources/`. Publishing and documentation generation will occur in a later phase.
