@@ -82,6 +82,12 @@
           <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.cv2" title="geometor.euclid.ingest.detect_graphics_cv.cv2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cv2</span></code></a></p></td>
+          <td><p></p></td>
+          </tr>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.scipy" title="geometor.euclid.ingest.detect_graphics_cv.scipy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">scipy</span></code></a></p></td>
+          <td><p></p></td>
+          </tr>
           <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.HEATH_DIR" title="geometor.euclid.ingest.detect_graphics_cv.HEATH_DIR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HEATH_DIR</span></code></a></p></td>
           <td><p></p></td>
           </tr>
@@ -101,17 +107,33 @@
           <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.load_json" title="geometor.euclid.ingest.detect_graphics_cv.load_json"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_json</span></code></a>(→ Any)</p></td>
           <td><p>Loads JSON data from a file.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphic_cv</span></code></a>(→ Dict[str, Any])</p></td>
-          <td><p>Detects graphics in an image using OpenCV.</p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphic_scipy</span></code></a>(→ Dict[str, Any])</p></td>
+          <td><p>Detects graphics using pure NumPy and SciPy algorithms.</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.run_test" title="geometor.euclid.ingest.detect_graphics_cv.run_test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_test</span></code></a>(→ None)</p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphic_cv</span></code></a>(→ Dict[str, Any])</p></td>
+          <td><p>Detects graphics in an image using OpenCV or SciPy fallback.</p></td>
+          </tr>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.run_test" title="geometor.euclid.ingest.detect_graphics_cv.run_test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_test</span></code></a>(→ None)</p></td>
           <td><p>Runs a test of the graphic detection against known ground truth.</p></td>
+          </tr>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.main" title="geometor.euclid.ingest.detect_graphics_cv.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>(→ None)</p></td>
+          <td><p>CLI entry point.</p></td>
           </tr>
           </tbody>
           </table>
           </section>
           <section id="module-contents">
           <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+          <dl class="py data">
+          <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.cv2">
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">cv2</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.cv2" title="Link to this definition">¶</a></dt>
+          <dd></dd></dl>
+
+          <dl class="py data">
+          <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.scipy">
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">scipy</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.scipy" title="Link to this definition">¶</a></dt>
+          <dd></dd></dl>
+
           <dl class="py data">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.HEATH_DIR">
           <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">HEATH_DIR</span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.HEATH_DIR" title="Link to this definition">¶</a></dt>
@@ -134,15 +156,27 @@
           </dd></dl>
 
           <dl class="py function">
+          <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy">
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">detect_graphic_scipy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy" title="Link to this definition">¶</a></dt>
+          <dd><p>Detects graphics using pure NumPy and SciPy algorithms.</p>
+          </dd></dl>
+
+          <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">detect_graphic_cv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="Link to this definition">¶</a></dt>
-          <dd><p>Detects graphics in an image using OpenCV.</p>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">detect_graphic_cv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="Link to this definition">¶</a></dt>
+          <dd><p>Detects graphics in an image using OpenCV or SciPy fallback.</p>
           </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.run_test">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">run_test</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.run_test" title="Link to this definition">¶</a></dt>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">run_test</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.run_test" title="Link to this definition">¶</a></dt>
           <dd><p>Runs a test of the graphic detection against known ground truth.</p>
+          </dd></dl>
+
+          <dl class="py function">
+          <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.main">
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.main" title="Link to this definition">¶</a></dt>
+          <dd><p>CLI entry point.</p>
           </dd></dl>
 
           </section>
@@ -221,8 +255,8 @@
   <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
   <script src="../../../../../../_static/documentation_options.js?v=5929fcd5"></script>
-  <script src="../../../../../../_static/doctools.js?v=9bcbadda"></script>
-  <script src="../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
 
 </body>

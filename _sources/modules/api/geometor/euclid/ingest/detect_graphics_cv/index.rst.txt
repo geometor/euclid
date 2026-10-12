@@ -14,6 +14,8 @@ Attributes
 
 .. autoapisummary::
 
+   geometor.euclid.ingest.detect_graphics_cv.cv2
+   geometor.euclid.ingest.detect_graphics_cv.scipy
    geometor.euclid.ingest.detect_graphics_cv.HEATH_DIR
    geometor.euclid.ingest.detect_graphics_cv.PROPOSITIONS_DIR
    geometor.euclid.ingest.detect_graphics_cv.INDEX_PATH
@@ -25,12 +27,22 @@ Functions
 .. autoapisummary::
 
    geometor.euclid.ingest.detect_graphics_cv.load_json
+   geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy
    geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv
    geometor.euclid.ingest.detect_graphics_cv.run_test
+   geometor.euclid.ingest.detect_graphics_cv.main
 
 
 Module Contents
 ---------------
+
+.. py:data:: cv2
+   :value: None
+
+
+.. py:data:: scipy
+   :value: None
+
 
 .. py:data:: HEATH_DIR
 
@@ -43,13 +55,23 @@ Module Contents
    Loads JSON data from a file.
 
 
+.. py:function:: detect_graphic_scipy(image_path: pathlib.Path, debug: bool = False) -> Dict[str, Any]
+
+   Detects graphics using pure NumPy and SciPy algorithms.
+
+
 .. py:function:: detect_graphic_cv(image_path: pathlib.Path, debug: bool = False) -> Dict[str, Any]
 
-   Detects graphics in an image using OpenCV.
+   Detects graphics in an image using OpenCV or SciPy fallback.
 
 
 .. py:function:: run_test() -> None
 
    Runs a test of the graphic detection against known ground truth.
+
+
+.. py:function:: main() -> None
+
+   CLI entry point.
 
 
