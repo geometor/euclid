@@ -34,10 +34,10 @@
           <a href="../../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
-          <a href="../../../../../../usage/index.html"  >usage</a>
+          <a href="../../../../../../heath/index.html"  >Heath</a>
         </li>
         <li>
-          <a href="../../../../../../heath/index.html"  >Heath</a>
+          <a href="../../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../../../log/index.html"  >logs</a>
@@ -110,13 +110,16 @@
           <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphic_scipy</span></code></a>(→ Dict[str, Any])</p></td>
           <td><p>Detects graphics using pure NumPy and SciPy algorithms.</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphic_cv</span></code></a>(→ Dict[str, Any])</p></td>
-          <td><p>Detects graphics in an image using OpenCV or SciPy fallback.</p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphics_cv" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphics_cv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphics_cv</span></code></a>(→ list[Dict[str, Any]])</p></td>
+          <td><p>Detects all 2D graphics in an image using OpenCV, separating distinct diagrams and ignoring single-line words.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.run_test" title="geometor.euclid.ingest.detect_graphics_cv.run_test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_test</span></code></a>(→ None)</p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_graphic_cv</span></code></a>(→ Dict[str, Any])</p></td>
+          <td><p>Detects primary graphic in an image using OpenCV or SciPy fallback.</p></td>
+          </tr>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.run_test" title="geometor.euclid.ingest.detect_graphics_cv.run_test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run_test</span></code></a>(→ None)</p></td>
           <td><p>Runs a test of the graphic detection against known ground truth.</p></td>
           </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.main" title="geometor.euclid.ingest.detect_graphics_cv.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>(→ None)</p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.detect_graphics_cv.main" title="geometor.euclid.ingest.detect_graphics_cv.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>(→ None)</p></td>
           <td><p>CLI entry point.</p></td>
           </tr>
           </tbody>
@@ -162,9 +165,15 @@
           </dd></dl>
 
           <dl class="py function">
+          <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.detect_graphics_cv">
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">detect_graphics_cv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphics_cv" title="Link to this definition">¶</a></dt>
+          <dd><p>Detects all 2D graphics in an image using OpenCV, separating distinct diagrams and ignoring single-line words.</p>
+          </dd></dl>
+
+          <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv">
           <span class="sig-prename descclassname"><span class="pre">geometor.euclid.ingest.detect_graphics_cv.</span></span><span class="sig-name descname"><span class="pre">detect_graphic_cv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">image_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv" title="Link to this definition">¶</a></dt>
-          <dd><p>Detects graphics in an image using OpenCV or SciPy fallback.</p>
+          <dd><p>Detects primary graphic in an image using OpenCV or SciPy fallback.</p>
           </dd></dl>
 
           <dl class="py function">

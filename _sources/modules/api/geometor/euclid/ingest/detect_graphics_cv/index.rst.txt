@@ -28,6 +28,7 @@ Functions
 
    geometor.euclid.ingest.detect_graphics_cv.load_json
    geometor.euclid.ingest.detect_graphics_cv.detect_graphic_scipy
+   geometor.euclid.ingest.detect_graphics_cv.detect_graphics_cv
    geometor.euclid.ingest.detect_graphics_cv.detect_graphic_cv
    geometor.euclid.ingest.detect_graphics_cv.run_test
    geometor.euclid.ingest.detect_graphics_cv.main
@@ -60,9 +61,14 @@ Module Contents
    Detects graphics using pure NumPy and SciPy algorithms.
 
 
+.. py:function:: detect_graphics_cv(image_path: pathlib.Path, debug: bool = False) -> list[Dict[str, Any]]
+
+   Detects all 2D graphics in an image using OpenCV, separating distinct diagrams and ignoring single-line words.
+
+
 .. py:function:: detect_graphic_cv(image_path: pathlib.Path, debug: bool = False) -> Dict[str, Any]
 
-   Detects graphics in an image using OpenCV or SciPy fallback.
+   Detects primary graphic in an image using OpenCV or SciPy fallback.
 
 
 .. py:function:: run_test() -> None
