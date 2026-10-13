@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 155" width="192" height="155" class="euclid-graphic" data-folio="0318" data-graphic="g1" data-proposition="I.26">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Polygons -->
+  <polygon id="el-tri-ABC" data-ref="ABC" data-type="polygon" points="23.5,25.5 23.5,130.5 176.5,130.5" class="geom-polygon" />
+  <polygon id="el-tri-ADE" data-ref="ADE" data-type="polygon" points="23.5,25.5 23.5,41.5 47,41.5" class="geom-polygon" />
+  <polygon id="el-poly-DBCE" data-ref="DBCE" data-type="polygon" points="23.5,41.5 23.5,130.5 176.5,130.5 47,41.5" class="geom-polygon" />
+
+  <!-- Lines -->
+  <!-- Tower / Perpendicular AB -->
+  <line id="el-seg-AB" data-ref="AB" data-type="segment" x1="23.5" y1="25.5" x2="23.5" y2="130.5" class="geom-line" />
+
+  <!-- Base BC (distance to ship) -->
+  <line id="el-seg-BC" data-ref="BC" data-type="segment" x1="23.5" y1="130.5" x2="176.5" y2="130.5" class="geom-line" />
+
+  <!-- Hypotenuse AC (line of sight) -->
+  <line id="el-seg-AC" data-ref="AC" data-type="segment" x1="23.5" y1="25.5" x2="176.5" y2="130.5" class="geom-line" />
+
+  <!-- Parallel / Graduated leg DE -->
+  <line id="el-seg-DE" data-ref="DE" data-type="segment" x1="23.5" y1="41.5" x2="47" y2="41.5" class="geom-line" />
+
+  <!-- Points -->
+  <circle id="el-pt-A" data-ref="A" data-type="point" cx="23.5" cy="25.5" r="3.5" class="geom-point" />
+  <circle id="el-pt-B" data-ref="B" data-type="point" cx="23.5" cy="130.5" r="3.5" class="geom-point" />
+  <circle id="el-pt-C" data-ref="C" data-type="point" cx="176.5" cy="130.5" r="3.5" class="geom-point" />
+  <circle id="el-pt-D" data-ref="D" data-type="point" cx="23.5" cy="41.5" r="3.5" class="geom-point" />
+  <circle id="el-pt-E" data-ref="E" data-type="point" cx="47" cy="41.5" r="3.5" class="geom-point" />
+
+  <!-- Labels -->
+  <text id="lbl-A" data-ref="A" x="23.5" y="18" text-anchor="middle" class="geom-label">A</text>
+  <text id="lbl-B" data-ref="B" x="23.5" y="145" text-anchor="middle" class="geom-label">B</text>
+  <text id="lbl-C" data-ref="C" x="176.5" y="145" text-anchor="middle" class="geom-label">C</text>
+  <text id="lbl-D" data-ref="D" x="14" y="44" text-anchor="end" class="geom-label">D</text>
+  <text id="lbl-E" data-ref="E" x="55" y="38" text-anchor="start" class="geom-label">E</text>
+</svg>
