@@ -207,13 +207,15 @@ def cmd_set(args: argparse.Namespace) -> None:
     graphics = metadata.get("graphics", [])
     gid = args.id
 
+    existing_entry = next((g for g in graphics if g.get("id") == gid), {})
     entry = {
+        **existing_entry,
         "id": gid,
         "file": f"{folio}.{gid}.png",
         "inverted_file": f"{folio}.{gid}.inverted.png",
         "bbox": list(args.bbox),
         "white_point": args.white_point,
-        "caption": args.caption or f"Folio {folio} Figure {gid.replace('g', '')}",
+        "caption": args.caption or existing_entry.get("caption") or f"Folio {folio} Figure {gid.replace('g', '')}",
     }
 
     # Replace or add
