@@ -100,6 +100,7 @@ class FolioScanner:
                 "transcribed_count": 0,
                 "notes_count": 0,
                 "graphics_count": 0,
+                "svg_count": 0,
                 "folios_with_graphics": 0,
                 "missing_crops_count": 0,
                 "sections": set(),
@@ -162,9 +163,11 @@ class FolioScanner:
                                 gid = g.get("id", "g1")
                                 g_file = g.get("file", f"{stem}.{gid}.png")
                                 inv_file = g.get("inverted_file", f"{stem}.{gid}.inverted.png")
+                                svg_file = g.get("svg_file", f"{stem}.{gid}.svg")
                                 
                                 file_exists = (parent_dir / g_file).exists()
                                 inv_exists = (parent_dir / inv_file).exists()
+                                svg_exists = (parent_dir / svg_file).exists()
                                 if not file_exists:
                                     missing_crops += 1
 
@@ -174,6 +177,8 @@ class FolioScanner:
                                     "file_exists": file_exists,
                                     "inverted_file": inv_file,
                                     "inverted_exists": inv_exists,
+                                    "svg_file": svg_file,
+                                    "svg_exists": svg_exists,
                                     "bbox": g.get("bbox", []),
                                     "white_point": g.get("white_point", 226),
                                     "caption": g.get("caption", f"Folio {stem} Figure {gid}"),
@@ -207,6 +212,8 @@ class FolioScanner:
                     "graphics": graphics_list,
                     "graphics_count": len(graphics_list),
                     "has_graphics": len(graphics_list) > 0,
+                    "svg_count": sum(1 for g in graphics_list if g.get("svg_exists")),
+                    "has_svg": any(g.get("svg_exists") for g in graphics_list),
                     "missing_crops_count": missing_crops,
                 }
 
@@ -222,6 +229,7 @@ class FolioScanner:
                 if graphics_list:
                     volume_stats[vol_name]["folios_with_graphics"] += 1
                     volume_stats[vol_name]["graphics_count"] += len(graphics_list)
+                    volume_stats[vol_name]["svg_count"] += sum(1 for g in graphics_list if g.get("svg_exists"))
                 volume_stats[vol_name]["missing_crops_count"] += missing_crops
 
         # Sort folios by volume and folio_num
@@ -250,6 +258,7 @@ class FolioScanner:
         total_transcribed = sum(v["transcribed_count"] for v in vol_stats.values())
         total_notes = sum(v["notes_count"] for v in vol_stats.values())
         total_graphics = sum(v["graphics_count"] for v in vol_stats.values())
+        total_svgs = sum(v.get("svg_count", 0) for v in vol_stats.values())
         total_folios_with_graphics = sum(v["folios_with_graphics"] for v in vol_stats.values())
         total_missing_crops = sum(v["missing_crops_count"] for v in vol_stats.values())
 
@@ -260,6 +269,7 @@ class FolioScanner:
             "total_notes": total_notes,
             "notes_pct": round((total_notes / total_folios * 100), 1) if total_folios else 0,
             "total_graphics": total_graphics,
+            "total_svgs": total_svgs,
             "total_folios_with_graphics": total_folios_with_graphics,
             "total_missing_crops": total_missing_crops,
             "volumes": vol_stats,
@@ -304,6 +314,8 @@ class FolioScanner:
             results = [f for f in results if not f["has_notes"]]
         elif filter_status == "has_graphics":
             results = [f for f in results if f["has_graphics"]]
+        elif filter_status == "has_svg":
+            results = [f for f in results if f.get("has_svg")]
         elif filter_status == "missing_crops":
             results = [f for f in results if f["missing_crops_count"] > 0]
 
@@ -387,6 +399,20 @@ class FolioScanner:
                 res["raw_json"] = {"error": str(e)}
         else:
             res["raw_json"] = None
+
+        # Load svg_content for graphics if svg_exists
+        for g in res.get("graphics", []):
+            if g.get("svg_exists"):
+                svg_path = full_parent / g["svg_file"]
+                if svg_path.exists():
+                    try:
+                        g["svg_content"] = svg_path.read_text(encoding="utf-8")
+                    except Exception:
+                        g["svg_content"] = None
+                else:
+                    g["svg_content"] = None
+            else:
+                g["svg_content"] = None
 
         return res
 
