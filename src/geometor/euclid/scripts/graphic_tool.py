@@ -93,11 +93,31 @@ def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool =
             print(f"Error parsing JSON {json_path}: {e}", file=sys.stderr)
             return
 
-    if not isinstance(data, dict):
+    if isinstance(data, list):
+        if not json_path.stem.isdigit():
+            return
+        folio = json_path.stem
+        graphics = data
+    elif isinstance(data, dict):
+        folio = data.get("folio", json_path.stem)
+        graphics = data.get("graphics", [])
+    else:
         return
 
-    folio = data.get("folio", json_path.stem)
-    graphics = data.get("graphics", [])
+    normalized_changed = isinstance(data, list)
+    for idx, g in enumerate(graphics, start=1):
+        gid = str(g.get("id", f"g{idx}"))
+        if not gid.startswith("g"):
+            gid = f"g{gid}"
+            normalized_changed = True
+        g["id"] = gid
+        if "bbox" not in g and "box" in g:
+            g["bbox"] = g.pop("box")
+            normalized_changed = True
+    if normalized_changed:
+        with open(json_path, "w") as f:
+            json.dump({"folio": folio, "graphics": graphics}, f, indent=2)
+            f.write("\n")
 
     # Remove any stale extracted .g*.png files for this folio that are no longer in graphics
     expected_files = set()
