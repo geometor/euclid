@@ -21,8 +21,15 @@ def detect_single_image(img_path: Path, save: bool = False, force: bool = False,
 
     folio_stem = img_path.stem
     json_path = img_path.with_name(f"{folio_stem}.json")
+    md_path = img_path.with_name(f"{folio_stem}.md")
     if save and json_path.exists() and not force:
         print(f"Skipping {json_path} (already exists). Use --force to overwrite.")
+        return
+    if save and md_path.exists() and not json_path.exists() and not force:
+        metadata = {"folio": folio_stem, "graphics": []}
+        with open(json_path, "w") as f:
+            f.write(json.dumps(metadata, indent=2) + "\n")
+        print(f"Saved empty graphics {json_path} (transcribed text-only folio).")
         return
 
     result = detect_graphic_cv(img_path, debug=debug)
