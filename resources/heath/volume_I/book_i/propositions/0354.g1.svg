@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 172" width="255" height="172">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .line { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .line-dashed { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 4, 4; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .polygon { fill: #000000; fill-opacity: 0.04; stroke: none; transition: fill 0.2s, fill-opacity 0.2s; }
+      .polygon:hover { fill: #0284c7 !important; fill-opacity: 0.15 !important; }
+      .line:hover, .line-dashed:hover { stroke: #0284c7 !important; stroke-width: 3.5 !important; }
+      .point { fill: #000000; stroke: #000000; stroke-width: 1; transition: r 0.2s, fill 0.2s; }
+      .point:hover { fill: #0284c7 !important; stroke: #0284c7 !important; r: 5 !important; }
+      .label { font-family: "Times New Roman", Times, serif; font-size: 19px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Polygons for hover/fill -->
+  <g id="polygons">
+    <!-- Whole parallelogram ABCD -->
+    <polygon id="poly-abcd" class="polygon" points="64,33 30,138 202,138 236,33" />
+    <!-- Complements about diameter: BK and KD -->
+    <polygon id="poly-ebfk" class="polygon" points="55,62 30,138 80,138 105,62" />
+    <polygon id="poly-hkgd" class="polygon" points="114,33 105,62 227,62 236,33" />
+    <!-- Parallelograms about diameter: AEKH and KFCG -->
+    <polygon id="poly-aekh" class="polygon" points="64,33 55,62 105,62 114,33" />
+    <polygon id="poly-kfcg" class="polygon" points="105,62 80,138 202,138 227,62" />
+  </g>
+
+  <!-- Geometry Lines -->
+  <g id="lines">
+    <!-- Parallelogram outer boundary -->
+    <line id="line-ad" class="line" x1="64" y1="33" x2="236" y2="33" />
+    <line id="line-bc" class="line" x1="30" y1="138" x2="202" y2="138" />
+    <line id="line-ab" class="line" x1="64" y1="33" x2="30" y2="138" />
+    <line id="line-dc" class="line" x1="236" y1="33" x2="202" y2="138" />
+    <!-- Diameter AC -->
+    <line id="line-ac" class="line" x1="64" y1="33" x2="202" y2="138" />
+    <!-- Parallels through K -->
+    <line id="line-eg" class="line" x1="55" y1="62" x2="227" y2="62" />
+    <line id="line-hf" class="line" x1="114" y1="33" x2="80" y2="138" />
+  </g>
+
+  <!-- Vertices -->
+  <g id="points">
+    <circle id="point-a" class="point" cx="64" cy="33" r="3" />
+    <circle id="point-b" class="point" cx="30" cy="138" r="3" />
+    <circle id="point-c" class="point" cx="202" cy="138" r="3" />
+    <circle id="point-d" class="point" cx="236" cy="33" r="3" />
+    <circle id="point-e" class="point" cx="55" cy="62" r="3" />
+    <circle id="point-f" class="point" cx="80" cy="138" r="3" />
+    <circle id="point-g" class="point" cx="227" cy="62" r="3" />
+    <circle id="point-h" class="point" cx="114" cy="33" r="3" />
+    <circle id="point-k" class="point" cx="105" cy="62" r="3" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text class="label" x="64" y="22">A</text>
+    <text class="label" x="22" y="148">B</text>
+    <text class="label" x="206" y="148">C</text>
+    <text class="label" x="238" y="22">D</text>
+    <text class="label" x="45" y="62">E</text>
+    <text class="label" x="80" y="148">F</text>
+    <text class="label" x="236" y="62">G</text>
+    <text class="label" x="114" y="22">H</text>
+    <text class="label" x="115" y="53">K</text>
+  </g>
+</svg>
