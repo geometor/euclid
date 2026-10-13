@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 140" width="340" height="140" class="euclid-graphic" data-folio="0261" data-graphic="g1" data-proposition="I.4">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      color-scheme: light dark;
+    }
+    .geom-line {
+      stroke: currentColor;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      transition: stroke 0.2s, stroke-width 0.2s;
+    }
+    .geom-arc {
+      stroke: currentColor;
+      stroke-width: 1.5;
+      fill: none;
+      transition: stroke 0.2s;
+    }
+    .geom-polygon {
+      fill: currentColor;
+      fill-opacity: 0.05;
+      stroke: none;
+      transition: fill-opacity 0.2s;
+    }
+    .geom-point {
+      fill: currentColor;
+      stroke: #090d16;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: currentColor;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #38bdf8 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.25 !important;
+      stroke: #38bdf8 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #38bdf8 !important;
+    }
+  </style>
+
+  <!-- Triangle ABC -->
+  <polygon id="el-tri-ABC" data-ref="ABC" data-type="polygon" points="91,23 7,111 110,111" class="geom-polygon" />
+  <line id="el-seg-AB" data-ref="AB" data-type="segment" x1="91" y1="23" x2="7" y2="111" class="geom-line" />
+  <line id="el-seg-BC" data-ref="BC" data-type="segment" x1="7" y1="111" x2="110" y2="111" class="geom-line" />
+  <line id="el-seg-CA" data-ref="CA" data-type="segment" x1="110" y1="111" x2="91" y2="23" class="geom-line" />
+
+  <!-- Triangle DEF -->
+  <polygon id="el-tri-DEF" data-ref="DEF" data-type="polygon" points="256,23 174,111 274,111" class="geom-polygon" />
+  <line id="el-seg-DE" data-ref="DE" data-type="segment" x1="256" y1="23" x2="174" y2="111" class="geom-line" />
+  <line id="el-seg-EF" data-ref="EF" data-type="segment" x1="174" y1="111" x2="274" y2="111" class="geom-line" />
+  <line id="el-seg-FD" data-ref="FD" data-type="segment" x1="274" y1="111" x2="256" y2="23" class="geom-line" />
+
+  <!-- Arc under EF illustrating superposition / non-coincidence contradiction -->
+  <path id="el-arc-EF" data-ref="EF-arc" d="M 174 111 Q 224 120 274 111" class="geom-arc" />
+
+  <!-- Points -->
+  <circle id="el-pt-A" data-ref="A" data-type="point" cx="91" cy="23" r="3.5" class="geom-point" />
+  <circle id="el-pt-B" data-ref="B" data-type="point" cx="7" cy="111" r="3.5" class="geom-point" />
+  <circle id="el-pt-C" data-ref="C" data-type="point" cx="110" cy="111" r="3.5" class="geom-point" />
+  <circle id="el-pt-D" data-ref="D" data-type="point" cx="256" cy="23" r="3.5" class="geom-point" />
+  <circle id="el-pt-E" data-ref="E" data-type="point" cx="174" cy="111" r="3.5" class="geom-point" />
+  <circle id="el-pt-F" data-ref="F" data-type="point" cx="274" cy="111" r="3.5" class="geom-point" />
+
+  <!-- Labels -->
+  <text id="lbl-A" data-ref="A" x="94" y="15" text-anchor="middle" class="geom-label">A</text>
+  <text id="lbl-B" data-ref="B" x="7" y="128" text-anchor="middle" class="geom-label">B</text>
+  <text id="lbl-C" data-ref="C" x="110" y="128" text-anchor="middle" class="geom-label">C</text>
+  <text id="lbl-D" data-ref="D" x="260" y="15" text-anchor="middle" class="geom-label">D</text>
+  <text id="lbl-E" data-ref="E" x="171" y="128" text-anchor="middle" class="geom-label">E</text>
+  <text id="lbl-F" data-ref="F" x="275" y="128" text-anchor="middle" class="geom-label">F</text>
+</svg>
