@@ -362,50 +362,134 @@
           <div class="space-y-6">
             {% for g in folio.graphics %}
               <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-xl p-4 space-y-3 transition-colors" id="graphic-card-{{ g.id }}">
-                <div class="flex items-center justify-between">
+                <div class="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-zinc-200 dark:border-zinc-800">
                   <div class="flex items-center gap-2">
                     <span class="px-2 py-0.5 rounded font-mono font-bold text-xs bg-emerald-600 text-white">{{ g.id }}</span>
-                    <span class="text-xs font-medium">{{ g.caption }}</span>
+                    <span class="text-xs font-semibold">{{ g.caption }}</span>
+                    
+                    {% if g.svg_exists %}
+                      <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800 flex items-center gap-1">
+                        <i data-lucide="sparkles" class="w-3 h-3 text-emerald-600"></i> SVG Ready
+                      </span>
+                    {% else %}
+                      <span class="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-700 flex items-center gap-1">
+                        <i data-lucide="clock" class="w-3 h-3 text-zinc-400"></i> SVG Pending
+                      </span>
+                    {% endif %}
                   </div>
-                  
-                  <button onclick="focusOnGraphicBbox('{{ g.id }}', {{ g.bbox }})" class="text-xs text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-1">
-                    <i data-lucide="crosshair" class="w-3.5 h-3.5"></i>
-                    Highlight on Scan
-                  </button>
+
+                  <div class="flex items-center gap-2">
+                    <!-- Markdown Format Status & Toggle -->
+                    {% if g.in_md_format == 'svg' %}
+                      <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-200 dark:border-blue-800 flex items-center gap-1">
+                        <i data-lucide="file-check-2" class="w-3 h-3 text-blue-500"></i> Used in MD
+                      </span>
+                      <button onclick="setGraphicFormat('{{ g.id }}', 'png')" class="text-[11px] text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 underline">
+                        Use PNG
+                      </button>
+                    {% elif g.in_md_format == 'png' %}
+                      <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
+                        <i data-lucide="image" class="w-3 h-3 text-amber-500"></i> PNG in MD
+                      </span>
+                      {% if g.svg_exists %}
+                        <button onclick="setGraphicFormat('{{ g.id }}', 'svg')" class="px-2.5 py-0.5 rounded text-[11px] font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm flex items-center gap-1 transition-colors">
+                          <i data-lucide="arrow-right-left" class="w-3 h-3"></i> Switch MD to SVG
+                        </button>
+                      {% endif %}
+                    {% endif %}
+
+                    <button onclick="focusOnGraphicBbox('{{ g.id }}', {{ g.bbox }})" class="text-xs text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-1 ml-2">
+                      <i data-lucide="crosshair" class="w-3.5 h-3.5"></i>
+                      Highlight on Scan
+                    </button>
+                  </div>
                 </div>
 
-                <!-- Crop Images Side-by-Side -->
-                <div class="grid grid-cols-2 gap-3 pt-1">
+                <!-- Three Previews Side-by-Side: Vector SVG, Normal Crop, Inverted Crop -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
+                  <!-- Vector SVG Preview -->
+                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between shadow-sm">
+                    <div>
+                      <div class="flex items-center justify-between text-[11px] font-medium mb-1.5">
+                        <span class="text-zinc-800 dark:text-zinc-200 font-semibold flex items-center gap-1">
+                          <i data-lucide="pen-tool" class="w-3 h-3 text-emerald-600"></i> Vector SVG (White BG)
+                        </span>
+                        {% if g.svg_exists %}
+                          <span class="text-[10px] font-mono text-emerald-600 font-semibold">.svg</span>
+                        {% else %}
+                          <span class="text-[10px] text-zinc-400">None</span>
+                        {% endif %}
+                      </div>
+
+                      {% if g.svg_exists %}
+                        <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2 border border-zinc-200 dark:border-zinc-700 shadow-inner overflow-hidden">
+                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.svg_file }}?v={{ range(100, 999)|random }}" alt="{{ g.id }} SVG" class="max-h-48 object-contain">
+                        </div>
+                      {% else %}
+                        <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-50 dark:bg-zinc-800/40 rounded border border-dashed border-zinc-300 dark:border-zinc-700 p-4 text-xs text-zinc-400">
+                          <i data-lucide="image-plus" class="w-6 h-6 mb-1 text-zinc-400"></i>
+                          <span>No SVG created yet</span>
+                          <span class="text-[10px] mt-0.5 text-zinc-400">Geometry model pending</span>
+                        </div>
+                      {% endif %}
+                    </div>
+
+                    <div class="pt-2 flex items-center justify-center gap-2 border-t border-zinc-100 dark:border-zinc-800">
+                      {% if g.svg_exists %}
+                        <button onclick="openSvgEditor('{{ g.id }}')" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-300 flex items-center gap-1 transition-colors">
+                          <i data-lucide="code" class="w-3 h-3"></i> Edit SVG Source
+                        </button>
+                        <a href="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.svg_file }}" target="_blank" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-300 flex items-center gap-1 transition-colors">
+                          <i data-lucide="external-link" class="w-3 h-3"></i> Open
+                        </a>
+                      {% else %}
+                        <button onclick="openSvgEditor('{{ g.id }}')" class="px-2.5 py-1 text-[11px] font-medium rounded bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1 transition-colors">
+                          <i data-lucide="plus" class="w-3 h-3"></i> Add SVG
+                        </button>
+                      {% endif %}
+                    </div>
+                  </div>
+
                   <!-- Normal Crop -->
-                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2">
-                    <div class="text-[11px] font-medium text-zinc-500">Normal Crop</div>
-                    {% if g.file_exists %}
-                      <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2">
-                        <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.file }}" alt="{{ g.id }}" class="max-h-48 object-contain">
-                      </div>
-                    {% else %}
-                      <div class="min-h-[140px] flex flex-col items-center justify-center bg-amber-50 dark:bg-amber-950/30 rounded border border-dashed border-amber-300 dark:border-amber-800 p-4 text-xs text-amber-600 dark:text-amber-400">
-                        <i data-lucide="alert-triangle" class="w-5 h-5 mb-1 text-amber-500"></i>
-                        <span>Crop file missing</span>
-                        <code class="text-[10px] mt-1">{{ g.file }}</code>
-                      </div>
-                    {% endif %}
+                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between">
+                    <div>
+                      <div class="text-[11px] font-medium text-zinc-500 mb-1.5 text-left">Scan Crop (Normal)</div>
+                      {% if g.file_exists %}
+                        <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2 border border-zinc-100 dark:border-zinc-800">
+                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.file }}" alt="{{ g.id }}" class="max-h-48 object-contain">
+                        </div>
+                      {% else %}
+                        <div class="min-h-[140px] flex flex-col items-center justify-center bg-amber-50 dark:bg-amber-950/30 rounded border border-dashed border-amber-300 dark:border-amber-800 p-4 text-xs text-amber-600 dark:text-amber-400">
+                          <i data-lucide="alert-triangle" class="w-5 h-5 mb-1 text-amber-500"></i>
+                          <span>Crop file missing</span>
+                          <code class="text-[10px] mt-1">{{ g.file }}</code>
+                        </div>
+                      {% endif %}
+                    </div>
+                    <div class="pt-2 text-[10px] font-mono text-zinc-400 border-t border-zinc-100 dark:border-zinc-800">
+                      {{ g.file }}
+                    </div>
                   </div>
 
                   <!-- Inverted Crop -->
-                  <div class="bg-zinc-900 border border-zinc-800 rounded-lg p-3 text-center space-y-2">
-                    <div class="text-[11px] font-medium text-zinc-400">Inverted Crop (Dark)</div>
-                    {% if g.inverted_exists %}
-                      <div class="flex items-center justify-center min-h-[140px] bg-black rounded p-2">
-                        <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.inverted_file }}" alt="{{ g.id }} Inverted" class="max-h-48 object-contain">
-                      </div>
-                    {% else %}
-                      <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-950 rounded border border-dashed border-zinc-800 p-4 text-xs text-zinc-500">
-                        <i data-lucide="eye-off" class="w-5 h-5 mb-1"></i>
-                        <span>Inverted file missing</span>
-                        <code class="text-[10px] mt-1">{{ g.inverted_file }}</code>
-                      </div>
-                    {% endif %}
+                  <div class="bg-zinc-900 border border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between">
+                    <div>
+                      <div class="text-[11px] font-medium text-zinc-400 mb-1.5 text-left">Scan Crop (Dark Inverted)</div>
+                      {% if g.inverted_exists %}
+                        <div class="flex items-center justify-center min-h-[140px] bg-black rounded p-2 border border-zinc-800">
+                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.inverted_file }}" alt="{{ g.id }} Inverted" class="max-h-48 object-contain">
+                        </div>
+                      {% else %}
+                        <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-950 rounded border border-dashed border-zinc-800 p-4 text-xs text-zinc-500">
+                          <i data-lucide="eye-off" class="w-5 h-5 mb-1"></i>
+                          <span>Inverted file missing</span>
+                          <code class="text-[10px] mt-1">{{ g.inverted_file }}</code>
+                        </div>
+                      {% endif %}
+                    </div>
+                    <div class="pt-2 text-[10px] font-mono text-zinc-500 border-t border-zinc-800">
+                      {{ g.inverted_file }}
+                    </div>
                   </div>
                 </div>
 
@@ -555,7 +639,44 @@
 
     </div>
 
+<!-- SVG Editor Modal -->
+<div id="svgEditorModal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl w-full max-w-4xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
+    <div class="px-6 py-4 border-b border-zinc-200 dark:border-zinc-800 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <i data-lucide="code" class="w-5 h-5 text-emerald-600"></i>
+        <h3 class="font-bold text-sm">SVG Source Editor</h3>
+        <span id="svgModalGidBadge" class="font-mono text-xs px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-semibold text-emerald-600">g1</span>
+      </div>
+      <button onclick="closeSvgEditor()" class="p-1 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-500">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <div class="p-6 flex-1 flex flex-col min-h-0 space-y-3">
+      <div class="flex items-center justify-between text-xs text-zinc-500">
+        <span>Edit or paste SVG XML markup (white background & black lines):</span>
+        <button onclick="insertStandardSvgTemplate()" class="text-xs text-emerald-600 dark:text-emerald-400 font-medium hover:underline flex items-center gap-1">
+          <i data-lucide="wand-2" class="w-3.5 h-3.5"></i> Insert Standard Template
+        </button>
+      </div>
+
+      <textarea id="svgEditorTextarea" class="w-full flex-1 min-h-[360px] font-mono text-xs p-4 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500" spellcheck="false" placeholder="<svg ...>...</svg>"></textarea>
+    </div>
+
+    <div class="px-6 py-4 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between bg-zinc-50 dark:bg-zinc-900/50">
+      <span class="text-xs text-zinc-400">Writes directly to <code class="font-mono text-zinc-600 dark:text-zinc-300" id="svgModalFilenameLabel">{{ folio.folio }}.g1.svg</code></span>
+      <div class="flex items-center gap-2">
+        <button onclick="closeSvgEditor()" class="px-4 py-2 text-xs font-medium rounded-lg border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
+          Cancel
+        </button>
+        <button onclick="saveSvgSource()" class="px-4 py-2 text-xs font-bold rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1.5 shadow-sm transition-colors">
+          <i data-lucide="save" class="w-4 h-4"></i> Save SVG to Disk
+        </button>
+      </div>
+    </div>
   </div>
+</div>
 
 </div>
 {% endblock %}
@@ -566,6 +687,148 @@
   const FOLIO_ID = "{{ folio.folio }}";
   const RAW_MD = {{ (folio.md_content or "")|tojson }};
   const RAW_NOTES = {{ (folio.notes_content or "")|tojson }};
+  const GRAPHICS_DATA = {{ folio.graphics|tojson }};
+  let currentEditingGid = null;
+
+  function openSvgEditor(gid) {
+    currentEditingGid = gid;
+    const g = (GRAPHICS_DATA || []).find(item => item.id === gid);
+    const badge = document.getElementById('svgModalGidBadge');
+    if (badge) badge.innerText = gid;
+    const fnLabel = document.getElementById('svgModalFilenameLabel');
+    if (fnLabel) fnLabel.innerText = `${FOLIO_ID}.${gid}.svg`;
+
+    const textarea = document.getElementById('svgEditorTextarea');
+    if (textarea) textarea.value = (g && g.svg_content) ? g.svg_content : '';
+    const modal = document.getElementById('svgEditorModal');
+    if (modal) modal.classList.remove('hidden');
+    if (window.lucide) lucide.createIcons();
+  }
+
+  function closeSvgEditor() {
+    const modal = document.getElementById('svgEditorModal');
+    if (modal) modal.classList.add('hidden');
+    currentEditingGid = null;
+  }
+
+  function insertStandardSvgTemplate() {
+    const textarea = document.getElementById('svgEditorTextarea');
+    if (!textarea) return;
+    const gid = currentEditingGid || 'g1';
+    textarea.value = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200" class="euclid-graphic" data-folio="${FOLIO_ID}" data-graphic="${gid}">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.6;
+      fill: none;
+      transition: stroke 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Elements -->
+
+</svg>`;
+  }
+
+  async function saveSvgSource() {
+    if (!currentEditingGid) return;
+    const svgCode = document.getElementById('svgEditorTextarea').value;
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/graphic/${currentEditingGid}/save_svg`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ svg: svgCode })
+      });
+      const data = await res.json();
+      if (data.success) {
+        showToast(`Saved ${FOLIO_ID}.${currentEditingGid}.svg to disk!`, 'success');
+        setTimeout(() => location.reload(), 500);
+      } else {
+        showToast(`Failed to save SVG: ${data.error}`, 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Error saving SVG', 'error');
+    }
+  }
+
+  async function setGraphicFormat(gid, format) {
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/set_graphic_format`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: gid, format: format })
+      });
+      const data = await res.json();
+      if (data.success) {
+        showToast(`Updated markdown to use ${format.toUpperCase()}`, 'success');
+        setTimeout(() => location.reload(), 500);
+      } else {
+        showToast(`Error: ${data.error}`, 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Failed to switch format', 'error');
+    }
+  }
 
   // State
   let zoomLevel = 1.0;
