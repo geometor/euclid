@@ -133,106 +133,125 @@ def detect_graphic_scipy(image_path: Path, debug: bool = False) -> Dict[str, Any
     return {"x_offset": int(gx), "y_offset": int(gy), "crop_box": [int(gw), int(gh)]}
 
 
-def detect_graphic_cv(image_path: Path, debug: bool = False) -> Dict[str, Any]:
-    """Detects graphics in an image using OpenCV or SciPy fallback."""
+def detect_graphics_cv(image_path: Path, debug: bool = False) -> list[Dict[str, Any]]:
+    """Detects all 2D graphics in an image using OpenCV, separating distinct diagrams and ignoring single-line words."""
     if cv2 is None:
-        return detect_graphic_scipy(image_path, debug=debug)
+        res = detect_graphic_scipy(image_path, debug=debug)
+        return [] if "error" in res else [res]
 
-    # Load image
     img = cv2.imread(str(image_path))
     if img is None:
-        return {"error": "Could not load image"}
+        return []
 
+    height, width = img.shape[:2]
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-    # 1. Binarize (Invert so ink is white, paper is black)
     _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
 
-    # 2. Connected Components
-    num_labels, labels, stats, centroids = cv2.connectedComponentsWithStats(
+    num_labels, labels, stats, _ = cv2.connectedComponentsWithStats(
         binary, connectivity=8
     )
 
-    graphics_mask = np.zeros_like(binary)
-
-    large_components = []
-
-    # Thresholds
     MIN_GRAPHIC_DIM = 60
-    MAX_TEXT_HEIGHT = 40
-    MIN_TEXT_WIDTH = 100
+    MIN_CORE_HEIGHT = 38
 
-    # Step A: Find the "Core" (the actual drawing)
+    # Step A: Find 2D core graphic components (ignoring single-line words where h < 38)
+    cores = []
     for i in range(1, num_labels):
-        w = stats[i, cv2.CC_STAT_WIDTH]
-        h = stats[i, cv2.CC_STAT_HEIGHT]
+        x = int(stats[i, cv2.CC_STAT_LEFT])
+        y = int(stats[i, cv2.CC_STAT_TOP])
+        w = int(stats[i, cv2.CC_STAT_WIDTH])
+        h = int(stats[i, cv2.CC_STAT_HEIGHT])
 
-        if w > MIN_TEXT_WIDTH and h < MAX_TEXT_HEIGHT:
+        if h < MIN_CORE_HEIGHT:
             continue
 
         if w > MIN_GRAPHIC_DIM or h > MIN_GRAPHIC_DIM:
-            large_components.append(i)
-            graphics_mask[labels == i] = 255
+            cores.append([x, y, w, h, [i]])
 
-    if not large_components:
+    if not cores:
+        return []
+
+    # Step B: Merge cores that belong to the same diagram (overlapping vertically and close horizontally, or overlapping horizontally and very close vertically)
+    merged = True
+    while merged:
+        merged = False
+        for i in range(len(cores)):
+            for j in range(i + 1, len(cores)):
+                x1, y1, w1, h1, ids1 = cores[i]
+                x2, y2, w2, h2, ids2 = cores[j]
+                v_dist = max(0, max(y1, y2) - min(y1 + h1, y2 + h2))
+                h_dist = max(0, max(x1, x2) - min(x1 + w1, x2 + w2))
+                if (v_dist == 0 and h_dist < 85) or (h_dist == 0 and v_dist < 25):
+                    nx = min(x1, x2)
+                    ny = min(y1, y2)
+                    nw = max(x1 + w1, x2 + w2) - nx
+                    nh = max(y1 + h1, y2 + h2) - ny
+                    cores[i] = [nx, ny, nw, nh, ids1 + ids2]
+                    cores.pop(j)
+                    merged = True
+                    break
+            if merged:
+                break
+
+    # Sort top-to-bottom, then left-to-right
+    cores.sort(key=lambda c: (c[1], c[0]))
+
+    LABEL_SEARCH_MARGIN = 25
+    PADDING = 15
+    results = []
+
+    for cx, cy, cw, ch, cids in cores:
+        sx = max(0, cx - LABEL_SEARCH_MARGIN)
+        sy = max(0, cy - LABEL_SEARCH_MARGIN)
+        sw = cw + 2 * LABEL_SEARCH_MARGIN
+        sh = ch + 2 * LABEL_SEARCH_MARGIN
+
+        mask = np.zeros_like(binary)
+        for cid in cids:
+            mask[labels == cid] = 255
+
+        for i in range(1, num_labels):
+            if i in cids:
+                continue
+            x = int(stats[i, cv2.CC_STAT_LEFT])
+            y = int(stats[i, cv2.CC_STAT_TOP])
+            w = int(stats[i, cv2.CC_STAT_WIDTH])
+            h = int(stats[i, cv2.CC_STAT_HEIGHT])
+
+            if w > 100 and h < 40:
+                continue
+            if w > 35 and 6 < h < 30:
+                continue
+
+            mx = x + w / 2
+            my = y + h / 2
+            if (sx <= mx <= sx + sw) and (sy <= my <= sy + sh):
+                mask[labels == i] = 255
+
+        points = cv2.findNonZero(mask)
+        if points is None:
+            continue
+        gx, gy, gw, gh = cv2.boundingRect(points)
+        gx = max(0, gx - PADDING)
+        gy = max(0, gy - PADDING)
+        gw = min(width - gx, gw + 2 * PADDING)
+        gh = min(height - gy, gh + 2 * PADDING)
+
+        results.append({
+            "x_offset": int(gx),
+            "y_offset": int(gy),
+            "crop_box": [int(gw), int(gh)],
+        })
+
+    return results
+
+
+def detect_graphic_cv(image_path: Path, debug: bool = False) -> Dict[str, Any]:
+    """Detects primary graphic in an image using OpenCV or SciPy fallback."""
+    results = detect_graphics_cv(image_path, debug=debug)
+    if not results:
         return {"error": "No large graphic components found"}
-
-    # Step B: Bounding box of the core
-    points = cv2.findNonZero(graphics_mask)
-    if points is None:
-        return {"error": "Mask empty"}
-
-    gx, gy, gw, gh = cv2.boundingRect(points)
-
-    # Step C: Add nearby labels
-    LABEL_SEARCH_MARGIN = 20
-
-    search_x = max(0, gx - LABEL_SEARCH_MARGIN)
-    search_y = max(0, gy - LABEL_SEARCH_MARGIN)
-    search_w = gw + 2 * LABEL_SEARCH_MARGIN
-    search_h = gh + 2 * LABEL_SEARCH_MARGIN
-
-    final_mask = graphics_mask.copy()
-
-    for i in range(1, num_labels):
-        if i in large_components:
-            continue
-
-        x = stats[i, cv2.CC_STAT_LEFT]
-        y = stats[i, cv2.CC_STAT_TOP]
-        w = stats[i, cv2.CC_STAT_WIDTH]
-        h = stats[i, cv2.CC_STAT_HEIGHT]
-
-        if w > MIN_TEXT_WIDTH and h < MAX_TEXT_HEIGHT:
-            continue
-
-        cx = x + w / 2
-        cy = y + h / 2
-
-        if (search_x <= cx <= search_x + search_w) and (
-            search_y <= cy <= search_y + search_h
-        ):
-            final_mask[labels == i] = 255
-
-    points = cv2.findNonZero(final_mask)
-    gx, gy, gw, gh = cv2.boundingRect(points)
-
-    PADDING = 10
-    height, width = img.shape[:2]
-
-    gx = max(0, gx - PADDING)
-    gy = max(0, gy - PADDING)
-    gw = min(width - gx, gw + 2 * PADDING)
-    gh = min(height - gy, gh + 2 * PADDING)
-
-    if debug:
-        debug_img = img.copy()
-        cv2.rectangle(debug_img, (gx, gy), (gx + gw, gy + gh), (0, 0, 255), 2)
-        debug_path = f"debug_{Path(image_path).name}"
-        cv2.imwrite(debug_path, debug_img)
-        print(f"Saved debug image to {debug_path}")
-
-    return {"x_offset": int(gx), "y_offset": int(gy), "crop_box": [int(gw), int(gh)]}
+    return results[0]
 
 
 def run_test() -> None:

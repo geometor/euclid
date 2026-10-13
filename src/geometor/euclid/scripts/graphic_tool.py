@@ -10,11 +10,11 @@ import numpy as np
 from PIL import Image, ImageOps
 
 from geometor.euclid.ingest.cleanup import clean_image
-from geometor.euclid.ingest.detect_graphics_cv import detect_graphic_cv
+from geometor.euclid.ingest.detect_graphics_cv import detect_graphics_cv
 
 
 def detect_single_image(img_path: Path, save: bool = False, force: bool = False, debug: bool = False) -> None:
-    """Detect graphic bounding box on a single folio scan and optionally save <folio>.json."""
+    """Detect graphic bounding box(es) on a single folio scan and optionally save <folio>.json."""
     if not img_path.exists():
         print(f"Error: image not found at {img_path}", file=sys.stderr)
         return
@@ -32,20 +32,21 @@ def detect_single_image(img_path: Path, save: bool = False, force: bool = False,
         print(f"Saved empty graphics {json_path} (transcribed text-only folio).")
         return
 
-    result = detect_graphic_cv(img_path, debug=debug)
+    results = detect_graphics_cv(img_path, debug=debug)
 
     graphics: List[Dict[str, Any]] = []
-    if "error" not in result:
+    for idx, result in enumerate(results, start=1):
+        gid = f"g{idx}"
         x = result["x_offset"]
         y = result["y_offset"]
         w, h = result["crop_box"]
         graphics.append({
-            "id": "g1",
-            "file": f"{folio_stem}.g1.png",
-            "inverted_file": f"{folio_stem}.g1.inverted.png",
+            "id": gid,
+            "file": f"{folio_stem}.{gid}.png",
+            "inverted_file": f"{folio_stem}.{gid}.inverted.png",
             "bbox": [x, y, w, h],
             "white_point": 226,
-            "caption": f"Folio {folio_stem} Figure 1"
+            "caption": f"Folio {folio_stem} Figure {idx}"
         })
 
     metadata = {
@@ -97,6 +98,17 @@ def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool =
 
     folio = data.get("folio", json_path.stem)
     graphics = data.get("graphics", [])
+
+    # Remove any stale extracted .g*.png files for this folio that are no longer in graphics
+    expected_files = set()
+    for g in graphics:
+        gid = g.get("id", "g1")
+        expected_files.add(g.get("file", f"{folio}.{gid}.png"))
+        expected_files.add(g.get("inverted_file", f"{folio}.{gid}.inverted.png"))
+    for existing in json_path.parent.glob(f"{folio}.g*.png"):
+        if existing.name not in expected_files:
+            existing.unlink()
+            print(f"  Removed stale graphic: {existing}")
 
     img_path = json_path.with_name(f"{folio}.png")
     if not img_path.exists():
