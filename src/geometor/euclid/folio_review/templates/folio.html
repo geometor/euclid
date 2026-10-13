@@ -2,6 +2,135 @@
 
 {% block title %}Folio {{ folio.folio }} ({{ folio.volume_label }}){% endblock %}
 
+{% block extra_head %}
+<style>
+  /* Interactive Geometric Text References */
+  .folio-book-page .katex.geom-interactive-ref {
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1.5px dotted rgba(220, 38, 38, 0.45);
+    border-radius: 2px;
+    padding: 0 1px;
+    transition: all 0.15s ease-in-out;
+  }
+  .folio-book-page .katex.geom-interactive-ref:hover {
+    border-bottom: 1.5px solid #dc2626 !important;
+  }
+
+  /* Active Highlight: Turning text RED without glow */
+  .folio-book-page .katex.geom-highlight-text,
+  .folio-book-page .katex.geom-highlight-text *,
+  .geom-highlight-text,
+  .geom-highlight-text * {
+    color: #dc2626 !important;
+    background-color: rgba(239, 68, 68, 0.08) !important;
+    border-radius: 3px;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+  }
+
+  /* Active Highlight in SVG: Turning elements RED without glow */
+  svg.euclid-graphic .geom-highlight-active {
+    stroke: #ef4444 !important;
+    stroke-width: 3.5px !important;
+    cursor: pointer;
+    transition: stroke 0.1s ease, stroke-width 0.1s ease;
+  }
+
+  svg.euclid-graphic polygon.geom-highlight-active {
+    fill: #ef4444 !important;
+    fill-opacity: 0.25 !important;
+    stroke: #ef4444 !important;
+    stroke-width: 2.5px !important;
+  }
+
+  svg.euclid-graphic circle.geom-point.geom-highlight-active {
+    r: 5px !important;
+    fill: #ef4444 !important;
+    stroke: #ffffff !important;
+    stroke-width: 1.5px !important;
+  }
+
+  svg.euclid-graphic text.geom-label.geom-highlight-active {
+    fill: #ef4444 !important;
+    font-weight: 900 !important;
+  }
+
+  /* Secondary highlight for endpoints/labels when a segment is hovered */
+  svg.euclid-graphic .geom-highlight-secondary {
+    fill: #ef4444 !important;
+    stroke: #ef4444 !important;
+    font-weight: bold !important;
+    transition: all 0.1s ease;
+  }
+  svg.euclid-graphic circle.geom-point.geom-highlight-secondary {
+    r: 4.5px !important;
+    fill: #ef4444 !important;
+    stroke: #ffffff !important;
+  }
+
+  /* Inline Figure Wrapper in Book Page */
+  .euclid-figure-container {
+    float: right;
+    clear: right;
+    margin: 0.25em 0 1.25em 1.5em;
+    max-width: 52%;
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.08);
+    user-select: none;
+    transition: max-width 0.2s ease;
+  }
+  .euclid-figure-container:hover {
+    border-color: #cbd5e1;
+  }
+  .euclid-figure-container .figure-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f4f4f5;
+  }
+  .euclid-figure-container .figure-btn {
+    font-size: 10px;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #71717a;
+    background: transparent;
+    transition: all 0.15s ease;
+    border: none;
+    cursor: pointer;
+  }
+  .euclid-figure-container .figure-btn:hover {
+    color: #18181b;
+    background: #f4f4f5;
+  }
+  .euclid-figure-container .figure-btn.active {
+    color: #047857;
+    background: #ecfdf5;
+    font-weight: 600;
+  }
+  .euclid-figure-container .figure-svg-wrapper svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .euclid-figure-container .figure-caption {
+    font-size: 11px;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    color: #71717a;
+    text-align: center;
+    margin-top: 6px;
+  }
+</style>
+{% endblock %}
+
 {% block nav_breadcrumbs %}
 <div class="hidden sm:flex items-center space-x-1.5 text-xs text-zinc-400">
   <span>/</span>
@@ -374,8 +503,8 @@
                   </button>
                 </div>
 
-                <!-- Crop Images Side-by-Side -->
-                <div class="grid grid-cols-2 gap-3 pt-1">
+                <!-- Crop Images & Vector SVG Grid -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 pt-1">
                   <!-- Normal Crop -->
                   <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2">
                     <div class="text-[11px] font-medium text-zinc-500">Normal Crop</div>
@@ -404,6 +533,25 @@
                         <i data-lucide="eye-off" class="w-5 h-5 mb-1"></i>
                         <span>Inverted file missing</span>
                         <code class="text-[10px] mt-1">{{ g.inverted_file }}</code>
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  <!-- Vector Graphic (SVG) -->
+                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2">
+                    <div class="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 flex items-center justify-center gap-1">
+                      <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                      <span>Vector Graphic (Interactive)</span>
+                    </div>
+                    {% if g.svg_exists and g.svg_content %}
+                      <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2 overflow-hidden border border-zinc-100 dark:border-zinc-800" id="tab3-svg-{{ g.id }}">
+                        {{ g.svg_content|safe }}
+                      </div>
+                    {% else %}
+                      <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-50 dark:bg-zinc-950 rounded border border-dashed border-zinc-300 dark:border-zinc-800 p-4 text-xs text-zinc-400">
+                        <i data-lucide="file-question" class="w-5 h-5 mb-1 text-zinc-400"></i>
+                        <span>Vector SVG not yet created</span>
+                        <code class="text-[10px] mt-1 text-zinc-400">{{ g.svg_file }}</code>
                       </div>
                     {% endif %}
                   </div>
@@ -566,6 +714,8 @@
   const FOLIO_ID = "{{ folio.folio }}";
   const RAW_MD = {{ (folio.md_content or "")|tojson }};
   const RAW_NOTES = {{ (folio.notes_content or "")|tojson }};
+  const FOLIO_GRAPHICS = {{ (folio.graphics or [])|tojson }};
+  const FOLIO_SECTION_PATH = {{ (folio.section_path or "")|tojson }};
 
   // State
   let zoomLevel = 1.0;
@@ -665,6 +815,12 @@
     const activeBtn = document.getElementById(`mdBtn-${view}`);
     if (activeBtn) {
       activeBtn.className = 'px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300';
+    }
+    if (view === 'rendered') {
+      renderAllMath();
+      if (window.EuclidInteractive) {
+        window.EuclidInteractive.init();
+      }
     }
   }
 
@@ -1089,10 +1245,358 @@
     }
   });
 
+  // =========================================================================
+  // EuclidInteractive: Dynamic SVG Inlining & Bi-directional Text-Diagram Hover
+  // =========================================================================
+  const EuclidInteractive = {
+    activeHighlights: new Set(),
+    svgRefMap: new Map(), // key (normalized ref string) -> Set of SVG elements
+
+    init() {
+      this.inlineFiguresInTranscription();
+      this.buildSvgIndex();
+      this.bindTextElements();
+      this.bindSvgElements();
+    },
+
+    // Inlines Vector SVGs in #mdView-rendered
+    inlineFiguresInTranscription() {
+      const container = document.getElementById('mdView-rendered');
+      if (!container || !Array.isArray(FOLIO_GRAPHICS) || FOLIO_GRAPHICS.length === 0) return;
+
+      const imgs = Array.from(container.querySelectorAll('img:not(.woodcut-img)'));
+
+      FOLIO_GRAPHICS.forEach(g => {
+        if (!g.svg_exists || !g.svg_content) return;
+
+        // Find img matching this graphic (by file, svg_file, or id)
+        let targetImg = imgs.find(img => {
+          const src = img.getAttribute('src') || '';
+          return src.includes(g.file) || (g.svg_file && src.includes(g.svg_file)) || src.includes(g.id);
+        });
+
+        if (!targetImg && imgs.length === 1 && FOLIO_GRAPHICS.length === 1) {
+          targetImg = imgs[0];
+        }
+
+        if (targetImg) {
+          const parentP = targetImg.closest('p');
+          const figureDiv = document.createElement('div');
+          figureDiv.className = 'euclid-figure-container';
+          figureDiv.setAttribute('data-graphic-id', g.id);
+          figureDiv.innerHTML = `
+            <div class="figure-toolbar">
+              <div class="flex items-center gap-1.5">
+                <span class="text-[10px] font-mono font-bold text-zinc-500 uppercase">${g.id}</span>
+                <span class="text-[10px] text-zinc-400 font-serif">· Vector</span>
+              </div>
+              <div class="flex items-center gap-0.5 bg-zinc-100 dark:bg-zinc-800 rounded p-0.5">
+                <button type="button" class="figure-btn active" onclick="EuclidInteractive.switchFigureView('${g.id}', 'svg')">Vector</button>
+                <button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'raster')">Woodcut</button>
+                ${g.inverted_exists ? `<button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'inverted')">Dark</button>` : ''}
+              </div>
+            </div>
+            <div class="figure-svg-wrapper" id="fig-view-svg-${g.id}">
+              ${g.svg_content}
+            </div>
+            <div class="figure-raster-wrapper hidden" id="fig-view-raster-${g.id}">
+              <img src="/media/${VOLUME_ID}/${FOLIO_SECTION_PATH}/${g.file}" alt="${g.caption}" class="max-w-full h-auto mx-auto block woodcut-img">
+            </div>
+            ${g.inverted_exists ? `
+              <div class="figure-inverted-wrapper hidden bg-zinc-950 p-2 rounded" id="fig-view-inverted-${g.id}">
+                <img src="/media/${VOLUME_ID}/${FOLIO_SECTION_PATH}/${g.inverted_file}" alt="${g.caption} (Dark)" class="max-w-full h-auto mx-auto block woodcut-img">
+              </div>
+            ` : ''}
+            <div class="figure-caption">${g.caption || ''}</div>
+          `;
+
+          if (parentP && parentP.children.length === 1 && parentP.firstElementChild === targetImg) {
+            parentP.replaceWith(figureDiv);
+          } else {
+            targetImg.replaceWith(figureDiv);
+          }
+        }
+      });
+    },
+
+    switchFigureView(gid, view) {
+      const svgView = document.getElementById(`fig-view-svg-${gid}`);
+      const rasterView = document.getElementById(`fig-view-raster-${gid}`);
+      const invertedView = document.getElementById(`fig-view-inverted-${gid}`);
+      const container = document.querySelector(`.euclid-figure-container[data-graphic-id="${gid}"]`);
+
+      if (svgView) svgView.classList.toggle('hidden', view !== 'svg');
+      if (rasterView) rasterView.classList.toggle('hidden', view !== 'raster');
+      if (invertedView) invertedView.classList.toggle('hidden', view !== 'inverted');
+
+      if (container) {
+        container.querySelectorAll('.figure-btn').forEach(btn => {
+          const btnText = btn.innerText.toLowerCase();
+          btn.classList.toggle('active', 
+            (view === 'svg' && btnText.includes('vector')) ||
+            (view === 'raster' && btnText.includes('woodcut')) ||
+            (view === 'inverted' && btnText.includes('dark'))
+          );
+        });
+      }
+    },
+
+    // Indexes all SVG elements by their data-ref and geometric permutations
+    buildSvgIndex() {
+      this.svgRefMap.clear();
+      const svgs = document.querySelectorAll('svg.euclid-graphic');
+
+      svgs.forEach(svg => {
+        const refElements = svg.querySelectorAll('[data-ref]');
+        refElements.forEach(el => {
+          const rawRef = (el.getAttribute('data-ref') || '').trim();
+          if (!rawRef) return;
+
+          this.registerRef(rawRef, el);
+
+          // If 2 letters (segment AB), also register reverse BA
+          if (rawRef.length === 2) {
+            const rev = rawRef[1] + rawRef[0];
+            this.registerRef(rev, el);
+          }
+
+          // If 3 letters (triangle or circle BCD), register all permutations
+          if (rawRef.length === 3) {
+            const [a, b, c] = rawRef;
+            const perms = [
+              a+b+c, a+c+b, b+a+c, b+c+a, c+a+b, c+b+a
+            ];
+            perms.forEach(p => this.registerRef(p, el));
+          }
+        });
+      });
+    },
+
+    registerRef(key, element) {
+      if (!this.svgRefMap.has(key)) {
+        this.svgRefMap.set(key, new Set());
+      }
+      this.svgRefMap.get(key).add(element);
+    },
+
+    // Find matching SVG elements for a reference string
+    getSvgElementsForRef(ref) {
+      const clean = ref.replace(/[^A-Za-z0-9]/g, '').trim();
+      if (!clean) return { primary: [], secondary: [] };
+
+      const matches = new Set();
+      if (this.svgRefMap.has(clean)) {
+        this.svgRefMap.get(clean).forEach(el => matches.add(el));
+      }
+
+      // If segment (2 letters), also look for endpoints and labels
+      const secondary = new Set();
+      if (clean.length === 2) {
+        const p1 = clean[0];
+        const p2 = clean[1];
+        if (this.svgRefMap.has(p1)) {
+          this.svgRefMap.get(p1).forEach(el => secondary.add(el));
+        }
+        if (this.svgRefMap.has(p2)) {
+          this.svgRefMap.get(p2).forEach(el => secondary.add(el));
+        }
+      }
+
+      return {
+        primary: Array.from(matches),
+        secondary: Array.from(secondary),
+      };
+    },
+
+    // Binds KaTeX math elements and plain text geometric labels in text
+    bindTextElements() {
+      const container = document.getElementById('mdView-rendered');
+      if (!container) return;
+
+      // 1. Process KaTeX math elements
+      const katexEls = container.querySelectorAll('.katex');
+      katexEls.forEach(kel => {
+        const annot = kel.querySelector('annotation');
+        const rawTex = annot ? annot.textContent.trim() : kel.innerText.trim();
+        
+        // Handle single token (e.g. "AB", "A", "BCD") or comma-separated ("CA, CB")
+        const tokens = rawTex.split(/[,;\s]+/).map(t => t.replace(/[^A-Za-z0-9]/g, '')).filter(Boolean);
+
+        // Check if any token matches our SVG index
+        const matchingTokens = tokens.filter(t => this.svgRefMap.has(t));
+
+        if (matchingTokens.length > 0) {
+          kel.classList.add('geom-interactive-ref');
+          kel.setAttribute('data-geom-tokens', matchingTokens.join(' '));
+
+          kel.addEventListener('mouseenter', () => {
+            this.highlightFromText(matchingTokens, kel);
+          });
+
+          kel.addEventListener('mouseleave', () => {
+            this.clearHighlights();
+          });
+        }
+      });
+
+      // 2. Process plain text nodes for geometric tokens not in math delimiters
+      const paragraphs = container.querySelectorAll('p, li, blockquote');
+      paragraphs.forEach(p => {
+        if (p.closest('.euclid-figure-container')) return;
+
+        // Walk through child text nodes
+        const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT, null, false);
+        const textNodes = [];
+        let node;
+        while (node = walker.nextNode()) {
+          if (!node.parentElement.closest('.katex') && !node.parentElement.closest('.geom-interactive-ref')) {
+            textNodes.push(node);
+          }
+        }
+
+        textNodes.forEach(tNode => {
+          const text = tNode.nodeValue;
+          const regex = /\b([A-Z]{2,4})\b/g;
+          let match;
+          let hasMatch = false;
+
+          while ((match = regex.exec(text)) !== null) {
+            const word = match[1];
+            if (this.svgRefMap.has(word)) {
+              hasMatch = true;
+              break;
+            }
+          }
+
+          if (hasMatch) {
+            const frag = document.createDocumentFragment();
+            let lastIdx = 0;
+            regex.lastIndex = 0;
+
+            while ((match = regex.exec(text)) !== null) {
+              const word = match[1];
+              if (this.svgRefMap.has(word)) {
+                if (match.index > lastIdx) {
+                  frag.appendChild(document.createTextNode(text.substring(lastIdx, match.index)));
+                }
+                const span = document.createElement('span');
+                span.className = 'katex geom-interactive-ref geom-text-ref';
+                span.setAttribute('data-geom-tokens', word);
+                span.textContent = word;
+                span.addEventListener('mouseenter', () => {
+                  this.highlightFromText([word], span);
+                });
+                span.addEventListener('mouseleave', () => {
+                  this.clearHighlights();
+                });
+                frag.appendChild(span);
+                lastIdx = regex.lastIndex;
+              }
+            }
+            if (lastIdx < text.length) {
+              frag.appendChild(document.createTextNode(text.substring(lastIdx)));
+            }
+            tNode.replaceWith(frag);
+          }
+        });
+      });
+    },
+
+    // Binds hover events on SVG elements (bidirectional: SVG -> Text)
+    bindSvgElements() {
+      const svgs = document.querySelectorAll('svg.euclid-graphic');
+      svgs.forEach(svg => {
+        const refElements = svg.querySelectorAll('[data-ref]');
+        refElements.forEach(el => {
+          const rawRef = (el.getAttribute('data-ref') || '').trim();
+          if (!rawRef) return;
+
+          el.style.cursor = 'pointer';
+
+          el.addEventListener('mouseenter', () => {
+            this.highlightFromSvg(rawRef, el);
+          });
+
+          el.addEventListener('mouseleave', () => {
+            this.clearHighlights();
+          });
+        });
+      });
+    },
+
+    // Highlight trigger from Text hover
+    highlightFromText(tokens, textElement) {
+      this.clearHighlights();
+
+      // Highlight text itself in red
+      textElement.classList.add('geom-highlight-text');
+      this.activeHighlights.add(textElement);
+
+      tokens.forEach(tok => {
+        const { primary, secondary } = this.getSvgElementsForRef(tok);
+
+        primary.forEach(svgEl => {
+          svgEl.classList.add('geom-highlight-active');
+          this.activeHighlights.add(svgEl);
+        });
+
+        secondary.forEach(svgEl => {
+          svgEl.classList.add('geom-highlight-secondary');
+          this.activeHighlights.add(svgEl);
+        });
+      });
+    },
+
+    // Highlight trigger from SVG hover
+    highlightFromSvg(rawRef, svgElement) {
+      this.clearHighlights();
+
+      // Highlight SVG element in red
+      svgElement.classList.add('geom-highlight-active');
+      this.activeHighlights.add(svgElement);
+
+      // If segment, secondary highlight its labels
+      const { secondary } = this.getSvgElementsForRef(rawRef);
+      secondary.forEach(svgEl => {
+        svgEl.classList.add('geom-highlight-secondary');
+        this.activeHighlights.add(svgEl);
+      });
+
+      // Find all matching text elements in rendered markdown
+      const container = document.getElementById('mdView-rendered');
+      if (!container) return;
+
+      const interactiveTexts = container.querySelectorAll('.geom-interactive-ref');
+      interactiveTexts.forEach(txtEl => {
+        const tokens = (txtEl.getAttribute('data-geom-tokens') || '').split(' ');
+        const matches = tokens.some(t => {
+          if (t === rawRef) return true;
+          if (rawRef.length === 2 && t.length === 2 && (t[0] === rawRef[1] && t[1] === rawRef[0])) return true;
+          if (rawRef.length === 3 && t.length === 3 && (t.split('').sort().join('') === rawRef.split('').sort().join(''))) return true;
+          return false;
+        });
+
+        if (matches) {
+          txtEl.classList.add('geom-highlight-text');
+          this.activeHighlights.add(txtEl);
+        }
+      });
+    },
+
+    // Clear all active highlights
+    clearHighlights() {
+      this.activeHighlights.forEach(el => {
+        el.classList.remove('geom-highlight-text', 'geom-highlight-active', 'geom-highlight-secondary');
+      });
+      this.activeHighlights.clear();
+    }
+  };
+
   // Init
   document.addEventListener('DOMContentLoaded', () => {
     applyTypographySettings();
     renderAllMath();
+    EuclidInteractive.init();
 
     const scanImg = document.getElementById('folioScanImg');
     if (scanImg) {
