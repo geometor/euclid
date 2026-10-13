@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 145" width="460" height="145">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .line { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .line-dashed { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 4, 4; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .polygon { fill: #000000; fill-opacity: 0.04; stroke: none; transition: fill 0.2s, fill-opacity 0.2s; }
+      .polygon:hover { fill: #0284c7 !important; fill-opacity: 0.15 !important; }
+      .line:hover, .line-dashed:hover { stroke: #0284c7 !important; stroke-width: 3.5 !important; }
+      .point { fill: #000000; stroke: #000000; stroke-width: 1; transition: r 0.2s, fill 0.2s; }
+      .point:hover { fill: #0284c7 !important; stroke: #0284c7 !important; r: 5 !important; }
+      .label { font-family: "Times New Roman", Times, serif; font-size: 19px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Polygons for hover/fill -->
+  <g id="polygons">
+    <polygon id="poly-abc" class="polygon" points="148,38 70,126 187,126" />
+    <polygon id="poly-def" class="polygon" points="316,36 231,125 267,125" />
+    <polygon id="poly-deh" class="polygon" points="316,36 231,125 324,55" />
+    <polygon id="poly-deg" class="polygon" points="316,36 231,125 352,125" />
+  </g>
+
+  <!-- Geometry Lines -->
+  <g id="lines">
+    <!-- Left figure: Triangle ABC -->
+    <line id="line-ab" class="line" x1="148" y1="38" x2="70" y2="126" />
+    <line id="line-ac" class="line" x1="148" y1="38" x2="187" y2="126" />
+    <line id="line-bc" class="line" x1="70" y1="126" x2="187" y2="126" />
+
+    <!-- Right figure: Triangle DEF, DEG, DEH -->
+    <line id="line-de" class="line" x1="316" y1="36" x2="231" y2="125" />
+    <line id="line-eg" class="line" x1="231" y1="125" x2="352" y2="125" />
+    <line id="line-dg" class="line" x1="316" y1="36" x2="352" y2="125" />
+    <line id="line-df" class="line" x1="316" y1="36" x2="267" y2="125" />
+    <line id="line-fh" class="line" x1="267" y1="125" x2="324" y2="55" />
+    <line id="line-eh" class="line" x1="231" y1="125" x2="324" y2="55" />
+  </g>
+
+  <!-- Vertices -->
+  <g id="points">
+    <circle id="point-a" class="point" cx="148" cy="38" r="3" />
+    <circle id="point-b" class="point" cx="70" cy="126" r="3" />
+    <circle id="point-c" class="point" cx="187" cy="126" r="3" />
+    <circle id="point-d" class="point" cx="316" cy="36" r="3" />
+    <circle id="point-e" class="point" cx="231" cy="125" r="3" />
+    <circle id="point-f" class="point" cx="267" cy="125" r="3" />
+    <circle id="point-h" class="point" cx="324" cy="55" r="3" />
+    <circle id="point-g" class="point" cx="352" cy="125" r="3" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text class="label" x="152" y="24">A</text>
+    <text class="label" x="68" y="137">B</text>
+    <text class="label" x="186" y="137">C</text>
+    <text class="label" x="319" y="24">D</text>
+    <text class="label" x="226" y="137">E</text>
+    <text class="label" x="278" y="117">F</text>
+    <text class="label" x="337" y="52">H</text>
+    <text class="label" x="353" y="137">G</text>
+  </g>
+</svg>

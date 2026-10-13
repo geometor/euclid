@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .line { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .line-dashed { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 4, 4; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .polygon { fill: #000000; fill-opacity: 0.04; stroke: none; transition: fill 0.2s, fill-opacity 0.2s; }
+      .polygon:hover { fill: #0284c7 !important; fill-opacity: 0.15 !important; }
+      .line:hover, .line-dashed:hover { stroke: #0284c7 !important; stroke-width: 3.5 !important; }
+      .point { fill: #000000; stroke: #000000; stroke-width: 1; transition: r 0.2s, fill 0.2s; }
+      .point:hover { fill: #0284c7 !important; stroke: #0284c7 !important; r: 5 !important; }
+      .label { font-family: "Times New Roman", Times, serif; font-size: 19px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Polygons for hover/fill -->
+  <g id="polygons">
+    <polygon id="poly-abc" class="polygon" points="54,35 34,110 178,110" />
+    <polygon id="poly-dbc" class="polygon" points="144,35 34,110 178,110" />
+    <polygon id="poly-ebc" class="polygon" points="125,45 34,110 178,110" />
+  </g>
+
+  <!-- Geometry Lines -->
+  <g id="lines">
+    <line id="line-bc" class="line" x1="34" y1="110" x2="178" y2="110" />
+    <line id="line-ab" class="line" x1="54" y1="35" x2="34" y2="110" />
+    <line id="line-ac" class="line" x1="54" y1="35" x2="178" y2="110" />
+    <line id="line-ad" class="line" x1="54" y1="35" x2="144" y2="35" />
+    <line id="line-bd" class="line" x1="34" y1="110" x2="144" y2="35" />
+    <line id="line-cd" class="line" x1="178" y1="110" x2="144" y2="35" />
+    <line id="line-ae" class="line" x1="54" y1="35" x2="125" y2="45" />
+    <line id="line-ec" class="line" x1="125" y1="45" x2="178" y2="110" />
+  </g>
+
+  <!-- Vertices -->
+  <g id="points">
+    <circle id="point-a" class="point" cx="54" cy="35" r="3" />
+    <circle id="point-b" class="point" cx="34" cy="110" r="3" />
+    <circle id="point-c" class="point" cx="178" cy="110" r="3" />
+    <circle id="point-d" class="point" cx="144" cy="35" r="3" />
+    <circle id="point-e" class="point" cx="125" cy="45" r="3" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text class="label" x="47" y="30">A</text>
+    <text class="label" x="34" y="122">B</text>
+    <text class="label" x="180" y="122">C</text>
+    <text class="label" x="151" y="30">D</text>
+    <text class="label" x="129" y="58">E</text>
+  </g>
+</svg>
