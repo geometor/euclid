@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Euclid Folio Review{% endblock %} | GEOMETOR Euclid</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#166534',
+              900: '#14532d',
+            },
+            parchment: {
+              50: '#fbfaf7',
+              100: '#f6f4ee',
+              200: '#ebe6db',
+              800: '#292524',
+              900: '#1c1917',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- KaTeX for Math Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Google Fonts: EB Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Custom scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.05);
+    }
+    .dark ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(100, 116, 139, 0.4);
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(100, 116, 139, 0.6);
+    }
+
+    /* Classical Heath Book Typography & Page Simulation */
+    .folio-book-page {
+      width: 100%;
+      max-width: var(--folio-width, 540px);
+      margin-left: auto;
+      margin-right: auto;
+      font-size: var(--folio-font-size, 15px);
+      line-height: 1.55;
+      font-family: 'EB Garamond', Georgia, Cambria, 'Times New Roman', serif;
+      hyphens: auto;
+      text-rendering: optimizeLegibility;
+      transition: max-width 0.2s ease, font-size 0.2s ease;
+      background-color: #ffffff !important;
+      color: #000000 !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e4e4e7;
+    }
+
+    /* Enforce pure black ink contrast across all elements inside the book page */
+    .folio-book-page,
+    .folio-book-page p,
+    .folio-book-page h1,
+    .folio-book-page h2,
+    .folio-book-page h3,
+    .folio-book-page h4,
+    .folio-book-page h5,
+    .folio-book-page h6,
+    .folio-book-page li,
+    .folio-book-page strong,
+    .folio-book-page b,
+    .folio-book-page em,
+    .folio-book-page i,
+    .folio-book-page td,
+    .folio-book-page th,
+    .folio-book-page .katex,
+    .folio-book-page .katex-display,
+    .folio-book-page .katex * {
+      color: #000000 !important;
+    }
+
+    .folio-book-page.book-indent p {
+      text-indent: 1.75em;
+      margin-top: 0;
+      margin-bottom: 0.25em;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    .folio-book-page.book-indent h1 + p,
+    .folio-book-page.book-indent h2 + p,
+    .folio-book-page.book-indent h3 + p,
+    .folio-book-page.book-indent h4 + p {
+      text-indent: 0;
+    }
+
+    .folio-book-page.block-indent p {
+      text-indent: 0;
+      margin-top: 0;
+      margin-bottom: 0.75em;
+      text-align: left;
+    }
+
+    .folio-book-page h1,
+    .folio-book-page h2,
+    .folio-book-page h3,
+    .folio-book-page h4 {
+      text-indent: 0 !important;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #000000 !important;
+    }
+
+    .folio-book-page h1 {
+      font-size: 1.35em;
+      text-align: center;
+      margin-top: 1.25em;
+      margin-bottom: 0.6em;
+      text-transform: uppercase;
+    }
+
+    .folio-book-page h2 {
+      font-size: 1.15em;
+      text-align: center;
+      margin-top: 1.1em;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+    }
+
+    .folio-book-page h3 {
+      font-size: 1.05em;
+      text-align: left;
+      margin-top: 1em;
+      margin-bottom: 0.4em;
+    }
+
+    .folio-book-page ol,
+    .folio-book-page ul {
+      text-indent: 0 !important;
+      padding-left: 1.75em;
+      margin: 0.5em 0;
+    }
+
+    .folio-book-page li {
+      margin-bottom: 0.35em;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    .folio-book-page li > p {
+      text-indent: 0 !important;
+      display: inline;
+    }
+
+    .folio-book-page blockquote {
+      text-indent: 0 !important;
+      margin: 0.75em 1.5em;
+      padding-left: 1em;
+      border-left: 2.5px solid #000000 !important;
+      font-style: italic;
+      color: #000000 !important;
+    }
+
+    /* Floating Graphics on the Right (Classical Heath Proposition Layout) */
+    .folio-book-page p:has(> img) {
+      text-indent: 0 !important;
+      margin: 0 !important;
+    }
+
+    .folio-book-page img {
+      float: right;
+      clear: right;
+      margin: 0.25em 0 1em 1.5em;
+      max-width: 50%;
+      height: auto;
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+    }
+
+    .folio-book-page figure {
+      float: right;
+      clear: right;
+      margin: 0.25em 0 1em 1.5em;
+      max-width: 50%;
+      text-align: center;
+    }
+
+    .folio-book-page figure img {
+      float: none;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .folio-book-page figcaption {
+      font-size: 0.85em;
+      color: #000000 !important;
+      margin-top: 0.35em;
+      text-align: center;
+      font-style: italic;
+    }
+
+    /* Clear floating figures before major section dividers & headings */
+    .folio-book-page h1,
+    .folio-book-page h2,
+    .folio-book-page h3,
+    .folio-book-page h4,
+    .folio-book-page hr,
+    .folio-book-page .footnotes {
+      clear: both;
+    }
+
+    .folio-book-page hr {
+      border: none;
+      border-top: 1px solid #d4d4d8;
+      margin: 1.5em 0;
+      clear: both;
+    }
+
+    .folio-book-page::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .folio-book-page table {
+      border-collapse: collapse;
+      margin: 1.25em auto;
+      color: #000000 !important;
+    }
+
+    .folio-book-page th,
+    .folio-book-page td {
+      border: 1px solid #000000 !important;
+      padding: 5px 10px;
+      color: #000000 !important;
+    }
+
+    .folio-book-page .footnotes {
+      border-top: 1px solid #71717a !important;
+      margin-top: 2em;
+      padding-top: 0.75em;
+      font-size: 0.85em;
+      line-height: 1.45;
+      color: #000000 !important;
+    }
+
+    .folio-book-page .footnotes hr {
+      display: none;
+    }
+
+    .folio-book-page .footnotes p {
+      text-indent: 1em;
+    }
+  </style>
+
+  {% block extra_head %}{% endblock %}
+</head>
+<body class="h-full bg-slate-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col font-sans transition-colors duration-200">
+
+  <!-- Top Navigation Header -->
+  <header class="bg-white dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-800 shrink-0 sticky top-0 z-30">
+    <div class="px-4 py-2.5 flex items-center justify-between">
+      
+      <!-- Brand & Title -->
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2 text-zinc-900 dark:text-white font-bold tracking-tight hover:opacity-80 transition-opacity">
+          <div class="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white shadow-sm font-serif text-lg font-bold">
+            Ε
+          </div>
+          <div>
+            <span class="text-base font-semibold">GEOMETOR Euclid</span>
+            <span class="text-xs ml-1.5 px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/80 dark:text-emerald-300 font-mono font-medium">Folio Review</span>
+          </div>
+        </a>
+
+        {% block nav_breadcrumbs %}{% endblock %}
+      </div>
+
+      <!-- Action Items & Tools -->
+      <div class="flex items-center space-x-2.5">
+        {% block header_actions %}{% endblock %}
+
+        <!-- Shortcuts Help Modal Button -->
+        <button onclick="toggleShortcutsModal()" title="Keyboard Shortcuts (?)" class="p-2 rounded-lg text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
+          <i data-lucide="keyboard" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Dark/Light Mode Toggle -->
+        <button id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Theme" class="p-2 rounded-lg text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
+          <i data-lucide="moon" class="w-4 h-4 hidden dark:inline"></i>
+          <i data-lucide="sun" class="w-4 h-4 inline dark:hidden"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content Body -->
+  <main class="flex-1 overflow-hidden flex flex-col min-h-0">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Shortcuts Modal -->
+  <div id="shortcutsModal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl shadow-2xl max-w-md w-full p-6 text-zinc-900 dark:text-zinc-100">
+      <div class="flex items-center justify-between pb-3 border-b border-zinc-100 dark:border-zinc-800">
+        <h3 class="text-lg font-bold flex items-center gap-2">
+          <i data-lucide="command" class="w-5 h-5 text-emerald-500"></i>
+          Keyboard Shortcuts
+        </h3>
+        <button onclick="toggleShortcutsModal()" class="text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="mt-4 space-y-2.5 text-sm">
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Previous Folio</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">h / k / [ / ←</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Next Folio</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">l / j / ] / →</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Switch Right Pane Tabs</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">1, 2, 3, 4</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Toggle Bounding Box Overlays</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">b</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Invert Folio Scan</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">i</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Reset Scan Zoom / Fit</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">f</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Save Review / Checklist</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">Ctrl + S</kbd>
+        </div>
+        <div class="flex justify-between items-center py-1">
+          <span class="text-zinc-600 dark:text-zinc-400">Toggle Shortcuts Help</span>
+          <kbd class="px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs border border-zinc-300 dark:border-zinc-700">?</kbd>
+        </div>
+      </div>
+      <div class="mt-6 text-center">
+        <button onclick="toggleShortcutsModal()" class="px-4 py-1.5 rounded-lg bg-zinc-100 dark:bg-zinc-800 text-xs font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- Base Scripts -->
+  <script>
+    // Theme Management
+    function initTheme() {
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    }
+    function toggleTheme() {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.theme = 'light';
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.theme = 'dark';
+      }
+      lucide.createIcons();
+    }
+    initTheme();
+
+    // Shortcuts Modal
+    function toggleShortcutsModal() {
+      const modal = document.getElementById('shortcutsModal');
+      modal.classList.toggle('hidden');
+    }
+
+    // Toast Notifications
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      
+      const colors = {
+        success: 'bg-emerald-600 text-white',
+        error: 'bg-rose-600 text-white',
+        warning: 'bg-amber-600 text-white',
+        info: 'bg-zinc-800 text-white dark:bg-zinc-100 dark:text-zinc-900',
+      };
+
+      toast.className = `px-4 py-2.5 rounded-lg shadow-lg text-sm font-medium transition-all duration-300 transform translate-y-2 opacity-0 pointer-events-auto flex items-center gap-2 ${colors[type] || colors.info}`;
+      toast.innerHTML = message;
+      container.appendChild(toast);
+
+      requestAnimationFrame(() => {
+        toast.classList.remove('translate-y-2', 'opacity-0');
+      });
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+
+    // Global Key Listener for Modal
+    window.addEventListener('keydown', (e) => {
+      if (e.key === '?' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        toggleShortcutsModal();
+      } else if (e.key === 'Escape') {
+        const modal = document.getElementById('shortcutsModal');
+        if (!modal.classList.contains('hidden')) {
+          modal.classList.add('hidden');
+        }
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+    });
+  </script>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

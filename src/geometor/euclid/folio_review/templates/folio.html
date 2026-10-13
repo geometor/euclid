@@ -1,0 +1,1107 @@
+{% extends "base.html" %}
+
+{% block title %}Folio {{ folio.folio }} ({{ folio.volume_label }}){% endblock %}
+
+{% block nav_breadcrumbs %}
+<div class="hidden sm:flex items-center space-x-1.5 text-xs text-zinc-400">
+  <span>/</span>
+  <a href="/?volume={{ folio.volume }}" class="hover:text-zinc-600 dark:hover:text-zinc-200">{{ folio.volume.replace('volume_', 'Vol ') }}</a>
+  <span>/</span>
+  <span class="text-zinc-500 font-mono">{{ folio.section_path }}</span>
+  <span>/</span>
+  <span class="font-mono font-bold text-zinc-900 dark:text-zinc-100">Folio {{ folio.folio }}</span>
+  <span class="text-zinc-400 font-mono">(p. {{ folio.page }})</span>
+</div>
+{% endblock %}
+
+{% block header_actions %}
+<!-- Navigation Buttons -->
+<div class="flex items-center bg-zinc-100 dark:bg-zinc-800 rounded-lg p-0.5 border border-zinc-200 dark:border-zinc-700">
+  {% if prev_folio %}
+    <a href="/folio/{{ prev_folio.volume }}/{{ prev_folio.folio }}" id="prevFolioLink" title="Previous Folio (h, k, [ or Left Arrow)" class="px-2.5 py-1 text-xs font-medium rounded-md hover:bg-white dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 transition-colors flex items-center gap-1">
+      <i data-lucide="chevron-left" class="w-3.5 h-3.5"></i>
+      <span class="font-mono">{{ prev_folio.folio }}</span>
+    </a>
+  {% else %}
+    <span class="px-2.5 py-1 text-xs text-zinc-400 cursor-not-allowed flex items-center gap-1">
+      <i data-lucide="chevron-left" class="w-3.5 h-3.5"></i>
+    </span>
+  {% endif %}
+
+  <!-- Quick Jump Input -->
+  <div class="px-1">
+    <input type="text" id="jumpInput" placeholder="Jump..." value="{{ folio.folio }}" onkeydown="handleJumpKey(event)" class="w-16 text-center text-xs py-0.5 px-1 rounded bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 font-mono focus:outline-none focus:ring-1 focus:ring-emerald-500 text-zinc-800 dark:text-zinc-200">
+  </div>
+
+  {% if next_folio %}
+    <a href="/folio/{{ next_folio.volume }}/{{ next_folio.folio }}" id="nextFolioLink" title="Next Folio (l, j, ] or Right Arrow)" class="px-2.5 py-1 text-xs font-medium rounded-md hover:bg-white dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 transition-colors flex items-center gap-1">
+      <span class="font-mono">{{ next_folio.folio }}</span>
+      <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+    </a>
+  {% else %}
+    <span class="px-2.5 py-1 text-xs text-zinc-400 cursor-not-allowed flex items-center gap-1">
+      <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+    </span>
+  {% endif %}
+</div>
+
+<!-- Review Status Header Dropdown -->
+<select id="headerStatusSelect" onchange="quickUpdateStatus(this.value)" class="text-xs font-medium py-1 px-2.5 rounded-lg border focus:outline-none transition-colors
+  {% if review.status == 'verified' %}
+    bg-emerald-50 text-emerald-800 border-emerald-300 dark:bg-emerald-950 dark:text-emerald-300 dark:border-emerald-800
+  {% elif review.status == 'needs_fix' %}
+    bg-amber-50 text-amber-800 border-amber-300 dark:bg-amber-950 dark:text-amber-300 dark:border-amber-800
+  {% elif review.status == 'flagged' %}
+    bg-rose-50 text-rose-800 border-rose-300 dark:bg-rose-950 dark:text-rose-300 dark:border-rose-800
+  {% else %}
+    bg-zinc-100 text-zinc-700 border-zinc-300 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700
+  {% endif %}">
+  <option value="unreviewed" {% if review.status == 'unreviewed' %}selected{% endif %}>○ Unreviewed</option>
+  <option value="verified" {% if review.status == 'verified' %}selected{% endif %}>✓ Verified</option>
+  <option value="needs_fix" {% if review.status == 'needs_fix' %}selected{% endif %}>⚠ Needs Fix</option>
+  <option value="flagged" {% if review.status == 'flagged' %}selected{% endif %}>⚑ Flagged</option>
+</select>
+{% endblock %}
+
+{% block content %}
+<div class="flex-1 flex overflow-hidden min-h-0 divide-x divide-zinc-200 dark:divide-zinc-800" id="workspaceContainer">
+
+  <!-- LEFT PANE: Scan Viewer -->
+  <div class="w-1/2 flex flex-col bg-zinc-900/90 relative select-none" id="leftPane">
+    
+    <!-- Scan Toolbar -->
+    <div class="bg-zinc-900/95 border-b border-zinc-800 px-3 py-2 flex items-center justify-between text-xs text-zinc-300 shrink-0 z-20">
+      
+      <!-- Zoom Controls -->
+      <div class="flex items-center gap-1">
+        <button onclick="zoomScan(0.2)" title="Zoom In (+)" class="p-1.5 rounded hover:bg-zinc-800 text-zinc-300 hover:text-white transition-colors">
+          <i data-lucide="zoom-in" class="w-4 h-4"></i>
+        </button>
+        <button onclick="zoomScan(-0.2)" title="Zoom Out (-)" class="p-1.5 rounded hover:bg-zinc-800 text-zinc-300 hover:text-white transition-colors">
+          <i data-lucide="zoom-out" class="w-4 h-4"></i>
+        </button>
+        <button onclick="resetZoom()" title="Fit Full Page (f)" class="px-2 py-1 rounded hover:bg-zinc-800 text-zinc-300 hover:text-white font-mono transition-colors">
+          Fit Page
+        </button>
+        {% if folio.graphics and folio.graphics|length > 0 %}
+          <button onclick="fitFirstGraphic()" title="Fit First Figure (z)" class="px-2 py-1 rounded hover:bg-zinc-800 text-emerald-400 hover:text-emerald-300 font-mono transition-colors">
+            Fit Fig
+          </button>
+        {% endif %}
+        <button onclick="setActualSize()" title="100% Scale" class="px-2 py-1 rounded hover:bg-zinc-800 text-zinc-300 hover:text-white font-mono transition-colors">
+          1:1
+        </button>
+        <span id="zoomLevelDisplay" class="font-mono text-[11px] text-zinc-400 ml-1">100%</span>
+      </div>
+
+      <!-- Overlays & Invert -->
+      <div class="flex items-center gap-2">
+        <!-- Bounding Box Toggle -->
+        <button id="bboxToggleBtn" onclick="toggleBboxOverlay()" title="Toggle Bounding Boxes (b)" class="px-2.5 py-1 rounded flex items-center gap-1.5 transition-colors bg-emerald-950/80 text-emerald-300 border border-emerald-800">
+          <i data-lucide="box-select" class="w-3.5 h-3.5"></i>
+          <span>BBoxes ({{ folio.graphics|length }})</span>
+        </button>
+
+        <!-- Invert Scan Toggle -->
+        <button id="invertScanBtn" onclick="toggleInvertScan()" title="Invert Scan (i)" class="p-1.5 rounded hover:bg-zinc-800 text-zinc-300 hover:text-white transition-colors">
+          <i data-lucide="contrast" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Mouse Coordinate Readout -->
+        <div class="font-mono text-[11px] text-zinc-400 bg-zinc-800/80 px-2 py-0.5 rounded border border-zinc-700/60 hidden md:block" id="coordHud">
+          X: 0, Y: 0
+        </div>
+      </div>
+    </div>
+
+    <!-- Scan Canvas Container (Pan & Zoom Viewport) -->
+    <div class="flex-1 overflow-hidden relative cursor-grab active:cursor-grabbing bg-zinc-950" id="scanViewport">
+      <div id="scanWrapper" class="absolute top-0 left-0 origin-top-left transition-transform duration-75">
+        <!-- Folio Scan Image -->
+        <img id="folioScanImg" 
+             src="/media/{{ folio.scan_rel_path }}" 
+             alt="Folio {{ folio.folio }}" 
+             class="max-w-none block shadow-2xl transition-all duration-200 select-none pointer-events-none">
+
+        <!-- SVG Bounding Box Overlay -->
+        <svg id="bboxSvgOverlay" 
+             class="absolute top-0 left-0 w-full h-full pointer-events-none" 
+             style="display: block;">
+          {% for g in folio.graphics %}
+            {% if g.bbox and g.bbox|length == 4 %}
+              <g class="bbox-group pointer-events-auto cursor-pointer" 
+                 id="bbox-group-{{ g.id }}" 
+                 onclick="selectGraphic('{{ g.id }}')">
+                <!-- Rectangle -->
+                <rect x="{{ g.bbox[0] }}" y="{{ g.bbox[1] }}" width="{{ g.bbox[2] }}" height="{{ g.bbox[3] }}"
+                      class="bbox-rect stroke-emerald-400 fill-emerald-500/20 stroke-2 hover:fill-amber-400/30 hover:stroke-amber-400 transition-colors"
+                      id="rect-{{ g.id }}"></rect>
+                <!-- Label Tag -->
+                <rect x="{{ g.bbox[0] }}" y="{{ g.bbox[1] - 22 if g.bbox[1] >= 22 else g.bbox[1] }}" width="36" height="20" rx="3"
+                      class="fill-emerald-600/90"></rect>
+                <text x="{{ g.bbox[0] + 6 }}" y="{{ g.bbox[1] - 7 if g.bbox[1] >= 22 else g.bbox[1] + 15 }}"
+                      class="fill-white font-mono text-xs font-bold">{{ g.id }}</text>
+              </g>
+            {% endif %}
+          {% endfor %}
+        </svg>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT PANE: Workbench & Vetting Tabs -->
+  <div class="w-1/2 flex flex-col bg-white dark:bg-zinc-900 overflow-hidden" id="rightPane">
+    
+    <!-- Tab Navigation -->
+    <div class="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900/60 px-4 shrink-0">
+      <nav class="flex space-x-1" aria-label="Tabs">
+        <!-- Tab 1: Transcription -->
+        <button onclick="switchTab('transcription')" id="tabBtn-transcription" class="px-3.5 py-2.5 text-xs font-medium border-b-2 border-emerald-500 text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5">
+          <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+          <span>Transcription</span>
+          {% if folio.has_md %}
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+          {% else %}
+            <span class="text-[10px] text-zinc-400">(missing)</span>
+          {% endif %}
+        </button>
+
+        <!-- Tab 2: Notes -->
+        <button onclick="switchTab('notes')" id="tabBtn-notes" class="px-3.5 py-2.5 text-xs font-medium border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200 flex items-center gap-1.5">
+          <i data-lucide="sticky-note" class="w-3.5 h-3.5"></i>
+          <span>Notes</span>
+          {% if folio.has_notes %}
+            <span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span>
+          {% else %}
+            <span class="text-[10px] text-zinc-400">(missing)</span>
+          {% endif %}
+        </button>
+
+        <!-- Tab 3: Graphics -->
+        <button onclick="switchTab('graphics')" id="tabBtn-graphics" class="px-3.5 py-2.5 text-xs font-medium border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200 flex items-center gap-1.5">
+          <i data-lucide="image" class="w-3.5 h-3.5"></i>
+          <span>Graphics</span>
+          {% if folio.graphics_count > 0 %}
+            <span class="px-1.5 py-0.2 rounded-full text-[10px] bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-mono">{{ folio.graphics_count }}</span>
+          {% endif %}
+        </button>
+
+        <!-- Tab 4: Vetting & Checklist -->
+        <button onclick="switchTab('vetting')" id="tabBtn-vetting" class="px-3.5 py-2.5 text-xs font-medium border-b-2 border-transparent text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200 flex items-center gap-1.5">
+          <i data-lucide="check-square" class="w-3.5 h-3.5"></i>
+          <span>Vetting</span>
+          <span id="tabVettingBadge" class="w-2 h-2 rounded-full 
+            {% if review.status == 'verified' %}bg-emerald-500
+            {% elif review.status == 'needs_fix' %}bg-amber-500
+            {% elif review.status == 'flagged' %}bg-rose-500
+            {% else %}bg-zinc-400{% endif %}"></span>
+        </button>
+      </nav>
+
+      <!-- Frontmatter Pills -->
+      <div class="text-[11px] text-zinc-400 font-mono hidden lg:flex items-center gap-2">
+        {% if folio.frontmatter.title %}
+          <span class="truncate max-w-[200px]" title="{{ folio.frontmatter.title }}">{{ folio.frontmatter.title }}</span>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Tab Content Panes -->
+    <div class="flex-1 overflow-y-auto p-5 space-y-4">
+
+      <!-- ==================== TAB 1: TRANSCRIPTION ==================== -->
+      <div id="tabContent-transcription" class="space-y-4">
+        
+        <!-- Header Card with Typographic Controls -->
+        <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-lg p-2.5 text-xs flex flex-wrap items-center justify-between gap-2">
+          <div class="flex items-center gap-3">
+            <div><span class="text-zinc-400">Book:</span> <span class="font-medium font-serif">{{ folio.frontmatter.book or folio.book }}</span></div>
+            <div><span class="text-zinc-400">Section:</span> <span class="font-medium font-mono">{{ folio.frontmatter.section or folio.section_path }}</span></div>
+            <div><span class="text-zinc-400">Page:</span> <span class="font-medium font-mono">{{ folio.page }}</span></div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <!-- Typographic Controls to Match Scan -->
+            <div class="flex items-center gap-1 bg-white dark:bg-zinc-800 rounded border border-zinc-200 dark:border-zinc-700 px-1.5 py-0.5">
+              <!-- Font Size -->
+              <button onclick="changeFontSize(-1)" title="Smaller font (A-)" class="px-1 py-0.5 rounded text-[11px] font-serif hover:bg-zinc-100 dark:hover:bg-zinc-700 font-bold">A-</button>
+              <span id="fontSizeDisplay" class="text-[10px] font-mono text-zinc-400 px-0.5">15px</span>
+              <button onclick="changeFontSize(1)" title="Larger font (A+)" class="px-1 py-0.5 rounded text-[11px] font-serif hover:bg-zinc-100 dark:hover:bg-zinc-700 font-bold">A+</button>
+
+              <span class="w-px h-3 bg-zinc-200 dark:bg-zinc-700 mx-0.5"></span>
+
+              <!-- Width Selector -->
+              <select id="widthSelect" onchange="changeColumnWidth(this.value)" class="text-[11px] bg-transparent focus:outline-none text-zinc-700 dark:text-zinc-300">
+                <option value="540px">Book (540px)</option>
+                <option value="480px">Narrow (480px)</option>
+                <option value="600px">Medium (600px)</option>
+                <option value="100%">Full Width</option>
+              </select>
+
+              <span class="w-px h-3 bg-zinc-200 dark:bg-zinc-700 mx-0.5"></span>
+
+              <!-- Indent Toggle -->
+              <button onclick="toggleParagraphIndent()" id="indentBtn" title="Toggle Paragraph Indent Style" class="px-1.5 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-700">
+                Indent
+              </button>
+            </div>
+
+            <!-- View Modes -->
+            <div class="flex items-center gap-1 bg-white dark:bg-zinc-800 rounded border border-zinc-200 dark:border-zinc-700 p-0.5">
+              <button onclick="setMdView('rendered')" id="mdBtn-rendered" class="px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">Rendered</button>
+              <button onclick="setMdView('raw')" id="mdBtn-raw" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900">Raw</button>
+              <button onclick="setMdView('edit')" id="mdBtn-edit" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900">Edit</button>
+            </div>
+          </div>
+        </div>
+
+        {% if folio.has_md and folio.md_content %}
+          <!-- Rendered View (Book Page Simulation) -->
+          <div class="bg-zinc-200/50 dark:bg-zinc-950/70 rounded-xl p-4 sm:p-8 overflow-x-auto flex justify-center border border-zinc-200 dark:border-zinc-800">
+            <div id="mdView-rendered" class="folio-book-page book-indent bg-white text-black border border-zinc-200 rounded-lg p-6 sm:p-12 shadow-sm">
+              {{ folio.md_html|safe }}
+            </div>
+          </div>
+
+          <!-- Raw View -->
+          <div id="mdView-raw" class="hidden">
+            <pre class="bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 font-mono text-xs overflow-x-auto whitespace-pre-wrap leading-relaxed text-zinc-800 dark:text-zinc-200">{{ folio.md_content }}</pre>
+          </div>
+
+          <!-- Edit View -->
+          <div id="mdView-edit" class="hidden space-y-3">
+            <textarea id="mdEditTextarea" rows="18" class="w-full font-mono text-xs p-3 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 leading-relaxed">{{ folio.md_content }}</textarea>
+            <div class="flex justify-end gap-2">
+              <button onclick="setMdView('rendered')" class="px-3 py-1.5 text-xs rounded-lg border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800">Cancel</button>
+              <button onclick="saveEditedText('md')" class="px-3.5 py-1.5 text-xs font-medium rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1.5 shadow-sm">
+                <i data-lucide="save" class="w-3.5 h-3.5"></i>
+                Save Markdown to Disk
+              </button>
+            </div>
+          </div>
+        {% else %}
+          <div class="bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-xl p-8 text-center text-amber-800 dark:text-amber-300 space-y-2">
+            <i data-lucide="file-question" class="w-8 h-8 mx-auto text-amber-500"></i>
+            <div class="font-bold text-sm">Transcription Markdown Not Found</div>
+            <div class="text-xs text-amber-600 dark:text-amber-400">
+              No markdown file exists yet at <code class="font-mono">{{ folio.folio }}.md</code>. Transcription may be in progress.
+            </div>
+          </div>
+        {% endif %}
+
+      </div>
+
+      <!-- ==================== TAB 2: NOTES ==================== -->
+      <div id="tabContent-notes" class="hidden space-y-4">
+        
+        <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-xs flex items-center justify-between">
+          <span class="text-zinc-500">Transcription Notes File: <code class="font-mono text-zinc-800 dark:text-zinc-200">{{ folio.folio }}.notes.md</code></span>
+          <div class="flex items-center gap-1 bg-white dark:bg-zinc-800 rounded border border-zinc-200 dark:border-zinc-700 p-0.5">
+            <button onclick="setNotesView('rendered')" id="notesBtn-rendered" class="px-2 py-0.5 rounded text-[11px] font-medium bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-300">Rendered</button>
+            <button onclick="setNotesView('raw')" id="notesBtn-raw" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900">Raw</button>
+            <button onclick="setNotesView('edit')" id="notesBtn-edit" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900">Edit</button>
+          </div>
+        </div>
+
+        {% if folio.has_notes and folio.notes_content %}
+          <!-- Rendered Notes View (Book Page Simulation) -->
+          <div class="bg-zinc-200/50 dark:bg-zinc-950/70 rounded-xl p-4 sm:p-8 overflow-x-auto flex justify-center border border-zinc-200 dark:border-zinc-800">
+            <div id="notesView-rendered" class="folio-book-page book-indent bg-white text-black border border-zinc-200 rounded-lg p-6 sm:p-12 shadow-sm">
+              {{ folio.notes_html|safe }}
+            </div>
+          </div>
+
+          <!-- Raw Notes -->
+          <div id="notesView-raw" class="hidden">
+            <pre class="bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 rounded-lg p-4 font-mono text-xs overflow-x-auto whitespace-pre-wrap leading-relaxed text-zinc-800 dark:text-zinc-200">{{ folio.notes_content }}</pre>
+          </div>
+
+          <!-- Edit Notes -->
+          <div id="notesView-edit" class="hidden space-y-3">
+            <textarea id="notesEditTextarea" rows="18" class="w-full font-mono text-xs p-3 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-violet-500 leading-relaxed">{{ folio.notes_content }}</textarea>
+            <div class="flex justify-end gap-2">
+              <button onclick="setNotesView('rendered')" class="px-3 py-1.5 text-xs rounded-lg border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800">Cancel</button>
+              <button onclick="saveEditedText('notes')" class="px-3.5 py-1.5 text-xs font-medium rounded-lg bg-violet-600 hover:bg-violet-700 text-white flex items-center gap-1.5 shadow-sm">
+                <i data-lucide="save" class="w-3.5 h-3.5"></i>
+                Save Notes to Disk
+              </button>
+            </div>
+          </div>
+        {% else %}
+          <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-xl p-8 text-center text-zinc-500 space-y-2">
+            <i data-lucide="file-plus" class="w-8 h-8 mx-auto text-zinc-400"></i>
+            <div class="font-bold text-sm">No Transcription Notes Yet</div>
+            <div class="text-xs text-zinc-400">
+              No notes file found at <code class="font-mono">{{ folio.folio }}.notes.md</code>.
+            </div>
+          </div>
+        {% endif %}
+
+      </div>
+
+      <!-- ==================== TAB 3: GRAPHICS ==================== -->
+      <div id="tabContent-graphics" class="hidden space-y-5">
+        
+        <div class="flex items-center justify-between pb-2 border-b border-zinc-200 dark:border-zinc-800">
+          <div>
+            <h4 class="text-sm font-bold flex items-center gap-2">
+              <span>Extracted Figures & Calibration</span>
+              <span class="font-mono text-xs font-normal text-zinc-500">({{ folio.graphics|length }} defined)</span>
+            </h4>
+            <div class="text-xs text-zinc-500">Defined in <code class="font-mono">{{ folio.folio }}.json</code></div>
+          </div>
+          
+          <button onclick="extractGraphicsNow()" class="px-3 py-1.5 rounded-lg text-xs font-medium bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 flex items-center gap-1.5 transition-colors">
+            <i data-lucide="scissors" class="w-3.5 h-3.5"></i>
+            Re-Extract Crops
+          </button>
+        </div>
+
+        {% if folio.graphics and folio.graphics|length > 0 %}
+          <div class="space-y-6">
+            {% for g in folio.graphics %}
+              <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-xl p-4 space-y-3 transition-colors" id="graphic-card-{{ g.id }}">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span class="px-2 py-0.5 rounded font-mono font-bold text-xs bg-emerald-600 text-white">{{ g.id }}</span>
+                    <span class="text-xs font-medium">{{ g.caption }}</span>
+                  </div>
+                  
+                  <button onclick="focusOnGraphicBbox('{{ g.id }}', {{ g.bbox }})" class="text-xs text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-1">
+                    <i data-lucide="crosshair" class="w-3.5 h-3.5"></i>
+                    Highlight on Scan
+                  </button>
+                </div>
+
+                <!-- Crop Images Side-by-Side -->
+                <div class="grid grid-cols-2 gap-3 pt-1">
+                  <!-- Normal Crop -->
+                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2">
+                    <div class="text-[11px] font-medium text-zinc-500">Normal Crop</div>
+                    {% if g.file_exists %}
+                      <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2">
+                        <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.file }}" alt="{{ g.id }}" class="max-h-48 object-contain">
+                      </div>
+                    {% else %}
+                      <div class="min-h-[140px] flex flex-col items-center justify-center bg-amber-50 dark:bg-amber-950/30 rounded border border-dashed border-amber-300 dark:border-amber-800 p-4 text-xs text-amber-600 dark:text-amber-400">
+                        <i data-lucide="alert-triangle" class="w-5 h-5 mb-1 text-amber-500"></i>
+                        <span>Crop file missing</span>
+                        <code class="text-[10px] mt-1">{{ g.file }}</code>
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  <!-- Inverted Crop -->
+                  <div class="bg-zinc-900 border border-zinc-800 rounded-lg p-3 text-center space-y-2">
+                    <div class="text-[11px] font-medium text-zinc-400">Inverted Crop (Dark)</div>
+                    {% if g.inverted_exists %}
+                      <div class="flex items-center justify-center min-h-[140px] bg-black rounded p-2">
+                        <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.inverted_file }}" alt="{{ g.id }} Inverted" class="max-h-48 object-contain">
+                      </div>
+                    {% else %}
+                      <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-950 rounded border border-dashed border-zinc-800 p-4 text-xs text-zinc-500">
+                        <i data-lucide="eye-off" class="w-5 h-5 mb-1"></i>
+                        <span>Inverted file missing</span>
+                        <code class="text-[10px] mt-1">{{ g.inverted_file }}</code>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+                <!-- Bounding Box Form / Calibration -->
+                <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-xs space-y-2">
+                  <div class="flex items-center justify-between text-zinc-500">
+                    <span class="font-medium">Bounding Box & Calibration</span>
+                    <span class="font-mono text-[11px]">[x, y, width, height]</span>
+                  </div>
+                  <div class="grid grid-cols-5 gap-2 items-center">
+                    <div>
+                      <label class="block text-[10px] text-zinc-400 mb-0.5">X (px)</label>
+                      <input type="number" id="bbox-x-{{ g.id }}" value="{{ g.bbox[0] if g.bbox else 0 }}" class="w-full text-xs font-mono p-1 rounded border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800">
+                    </div>
+                    <div>
+                      <label class="block text-[10px] text-zinc-400 mb-0.5">Y (px)</label>
+                      <input type="number" id="bbox-y-{{ g.id }}" value="{{ g.bbox[1] if g.bbox else 0 }}" class="w-full text-xs font-mono p-1 rounded border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800">
+                    </div>
+                    <div>
+                      <label class="block text-[10px] text-zinc-400 mb-0.5">Width (px)</label>
+                      <input type="number" id="bbox-w-{{ g.id }}" value="{{ g.bbox[2] if g.bbox else 0 }}" class="w-full text-xs font-mono p-1 rounded border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800">
+                    </div>
+                    <div>
+                      <label class="block text-[10px] text-zinc-400 mb-0.5">Height (px)</label>
+                      <input type="number" id="bbox-h-{{ g.id }}" value="{{ g.bbox[3] if g.bbox else 0 }}" class="w-full text-xs font-mono p-1 rounded border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800">
+                    </div>
+                    <div class="pt-4">
+                      <button onclick="updateGraphicBbox('{{ g.id }}')" class="w-full py-1 text-xs font-medium rounded bg-emerald-600 hover:bg-emerald-700 text-white transition-colors">
+                        Recalibrate
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-xl p-8 text-center text-zinc-500 space-y-2">
+            <i data-lucide="image-off" class="w-8 h-8 mx-auto text-zinc-400"></i>
+            <div class="font-bold text-sm">No Graphics Defined</div>
+            <div class="text-xs text-zinc-400">
+              This folio is currently marked as text-only with an empty graphics array in <code class="font-mono">{{ folio.folio }}.json</code>.
+            </div>
+          </div>
+        {% endif %}
+
+      </div>
+
+      <!-- ==================== TAB 4: VETTING & CHECKLIST ==================== -->
+      <div id="tabContent-vetting" class="hidden space-y-5">
+        
+        <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl p-5 space-y-4 shadow-sm">
+          <div class="flex items-center justify-between pb-3 border-b border-zinc-100 dark:border-zinc-800">
+            <h4 class="text-sm font-bold flex items-center gap-2">
+              <i data-lucide="clipboard-check" class="w-4 h-4 text-emerald-500"></i>
+              Folio Vetting & Quality Assurance
+            </h4>
+            <span class="text-xs text-zinc-400">Folio {{ folio.folio }}</span>
+          </div>
+
+          <!-- Status Selection Radios -->
+          <div>
+            <label class="block text-xs font-medium text-zinc-700 dark:text-zinc-300 mb-2">Review Status</label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              
+              <label class="flex items-center gap-2 p-2.5 rounded-lg border cursor-pointer transition-colors
+                {% if review.status == 'unreviewed' %}border-zinc-400 bg-zinc-50 dark:bg-zinc-800{% else %}border-zinc-200 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-800/50{% endif %}">
+                <input type="radio" name="reviewStatusRadio" value="unreviewed" {% if review.status == 'unreviewed' %}checked{% endif %} class="text-zinc-600 focus:ring-zinc-500">
+                <span class="text-xs font-medium text-zinc-700 dark:text-zinc-300">○ Unreviewed</span>
+              </label>
+
+              <label class="flex items-center gap-2 p-2.5 rounded-lg border cursor-pointer transition-colors
+                {% if review.status == 'verified' %}border-emerald-500 bg-emerald-50/50 dark:bg-emerald-950/40{% else %}border-zinc-200 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-800/50{% endif %}">
+                <input type="radio" name="reviewStatusRadio" value="verified" {% if review.status == 'verified' %}checked{% endif %} class="text-emerald-600 focus:ring-emerald-500">
+                <span class="text-xs font-medium text-emerald-800 dark:text-emerald-300">✓ Verified</span>
+              </label>
+
+              <label class="flex items-center gap-2 p-2.5 rounded-lg border cursor-pointer transition-colors
+                {% if review.status == 'needs_fix' %}border-amber-500 bg-amber-50/50 dark:bg-amber-950/40{% else %}border-zinc-200 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-800/50{% endif %}">
+                <input type="radio" name="reviewStatusRadio" value="needs_fix" {% if review.status == 'needs_fix' %}checked{% endif %} class="text-amber-600 focus:ring-amber-500">
+                <span class="text-xs font-medium text-amber-800 dark:text-amber-300">⚠ Needs Fix</span>
+              </label>
+
+              <label class="flex items-center gap-2 p-2.5 rounded-lg border cursor-pointer transition-colors
+                {% if review.status == 'flagged' %}border-rose-500 bg-rose-50/50 dark:bg-rose-950/40{% else %}border-zinc-200 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-800/50{% endif %}">
+                <input type="radio" name="reviewStatusRadio" value="flagged" {% if review.status == 'flagged' %}checked{% endif %} class="text-rose-600 focus:ring-rose-500">
+                <span class="text-xs font-medium text-rose-800 dark:text-rose-300">⚑ Flagged</span>
+              </label>
+
+            </div>
+          </div>
+
+          <!-- Vetting Checklist -->
+          <div class="pt-2">
+            <label class="block text-xs font-medium text-zinc-700 dark:text-zinc-300 mb-2">Vetting Checklist</label>
+            <div class="space-y-2 bg-zinc-50 dark:bg-zinc-800/40 rounded-lg p-3 border border-zinc-200 dark:border-zinc-800 text-xs">
+              
+              <label class="flex items-center gap-2.5 cursor-pointer">
+                <input type="checkbox" id="check-transcription" {% if review.checklist.transcription_verified %}checked{% endif %} class="rounded text-emerald-600 focus:ring-emerald-500">
+                <span>Transcription text accurately matches original folio scan</span>
+              </label>
+
+              <label class="flex items-center gap-2.5 cursor-pointer">
+                <input type="checkbox" id="check-math" {% if review.checklist.math_verified %}checked{% endif %} class="rounded text-emerald-600 focus:ring-emerald-500">
+                <span>Greek characters, mathematical letters, and formulas rendered accurately</span>
+              </label>
+
+              <label class="flex items-center gap-2.5 cursor-pointer">
+                <input type="checkbox" id="check-notes" {% if review.checklist.notes_verified %}checked{% endif %} class="rounded text-emerald-600 focus:ring-emerald-500">
+                <span>Transcription notes complete, summary & continuity verified</span>
+              </label>
+
+              <label class="flex items-center gap-2.5 cursor-pointer">
+                <input type="checkbox" id="check-graphics" {% if review.checklist.graphics_verified %}checked{% endif %} class="rounded text-emerald-600 focus:ring-emerald-500">
+                <span>Figures bounding boxes capture diagrams cleanly without clipping labels or lines</span>
+              </label>
+
+            </div>
+          </div>
+
+          <!-- Review Notes / Issue Log -->
+          <div class="pt-2">
+            <label class="block text-xs font-medium text-zinc-700 dark:text-zinc-300 mb-1">Issue Log & Review Notes</label>
+            <textarea id="reviewNotesInput" rows="4" placeholder="Log any typos, missing characters, bounding box clipping issues, or transcription questions..." class="w-full text-xs p-3 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500">{{ review.notes }}</textarea>
+          </div>
+
+          <!-- Save Actions -->
+          <div class="pt-3 flex items-center justify-between border-t border-zinc-100 dark:border-zinc-800">
+            <div class="text-[11px] text-zinc-400">
+              {% if review.updated_at %}
+                Last updated: <span class="font-mono">{{ review.updated_at[:19].replace('T', ' ') }}</span> by <span class="font-medium">{{ review.reviewer }}</span>
+              {% else %}
+                Not yet reviewed
+              {% endif %}
+            </div>
+            
+            <button onclick="saveReview()" class="px-4 py-2 text-xs font-bold rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-2 shadow-sm transition-colors">
+              <i data-lucide="check" class="w-4 h-4"></i>
+              Save Vetting Record (Ctrl+S)
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const VOLUME_ID = "{{ folio.volume }}";
+  const FOLIO_ID = "{{ folio.folio }}";
+  const RAW_MD = {{ (folio.md_content or "")|tojson }};
+  const RAW_NOTES = {{ (folio.notes_content or "")|tojson }};
+
+  // State
+  let zoomLevel = 1.0;
+  let panX = 0;
+  let panY = 0;
+  let isDragging = false;
+  let startX = 0;
+  let startY = 0;
+  let naturalW = 750;
+  let naturalH = 1200;
+  let bboxVisible = true;
+  let scanInverted = false;
+
+  // Typographic Customization (matching scan layout)
+  let currentFontSize = parseInt(localStorage.getItem('folio_font_size') || '15', 10);
+  let currentColumnWidth = localStorage.getItem('folio_column_width') || '540px';
+  let currentIndentMode = localStorage.getItem('folio_indent_mode') || 'book-indent';
+
+  function applyTypographySettings() {
+    document.documentElement.style.setProperty('--folio-font-size', `${currentFontSize}px`);
+    document.documentElement.style.setProperty('--folio-width', currentColumnWidth);
+    
+    const fontDisplay = document.getElementById('fontSizeDisplay');
+    if (fontDisplay) fontDisplay.innerText = `${currentFontSize}px`;
+
+    const widthSelect = document.getElementById('widthSelect');
+    if (widthSelect) widthSelect.value = currentColumnWidth;
+
+    ['mdView-rendered', 'notesView-rendered'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) {
+        if (currentIndentMode === 'book-indent') {
+          el.classList.add('book-indent');
+          el.classList.remove('block-indent');
+        } else {
+          el.classList.add('block-indent');
+          el.classList.remove('book-indent');
+        }
+      }
+    });
+
+    const indentBtn = document.getElementById('indentBtn');
+    if (indentBtn) {
+      indentBtn.innerText = currentIndentMode === 'book-indent' ? 'Indent' : 'Block';
+    }
+  }
+
+  function changeFontSize(delta) {
+    currentFontSize = Math.min(Math.max(12, currentFontSize + delta), 24);
+    localStorage.setItem('folio_font_size', currentFontSize);
+    applyTypographySettings();
+  }
+
+  function changeColumnWidth(w) {
+    currentColumnWidth = w;
+    localStorage.setItem('folio_column_width', currentColumnWidth);
+    applyTypographySettings();
+  }
+
+  function toggleParagraphIndent() {
+    currentIndentMode = currentIndentMode === 'book-indent' ? 'block-indent' : 'book-indent';
+    localStorage.setItem('folio_indent_mode', currentIndentMode);
+    applyTypographySettings();
+  }
+
+  // Tab switching
+  function switchTab(tabName) {
+    ['transcription', 'notes', 'graphics', 'vetting'].forEach(t => {
+      const content = document.getElementById(`tabContent-${t}`);
+      const btn = document.getElementById(`tabBtn-${t}`);
+      if (content) content.classList.add('hidden');
+      if (btn) {
+        btn.classList.remove('border-emerald-500', 'text-emerald-600', 'dark:text-emerald-400');
+        btn.classList.add('border-transparent', 'text-zinc-500');
+      }
+    });
+
+    const activeContent = document.getElementById(`tabContent-${tabName}`);
+    const activeBtn = document.getElementById(`tabBtn-${tabName}`);
+    if (activeContent) activeContent.classList.remove('hidden');
+    if (activeBtn) {
+      activeBtn.classList.remove('border-transparent', 'text-zinc-500');
+      activeBtn.classList.add('border-emerald-500', 'text-emerald-600', 'dark:text-emerald-400');
+    }
+  }
+
+  // Markdown Sub-view
+  function setMdView(view) {
+    ['rendered', 'raw', 'edit'].forEach(v => {
+      document.getElementById(`mdView-${v}`)?.classList.add('hidden');
+      const b = document.getElementById(`mdBtn-${v}`);
+      if (b) {
+        b.className = 'px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900';
+      }
+    });
+    document.getElementById(`mdView-${view}`)?.classList.remove('hidden');
+    const activeBtn = document.getElementById(`mdBtn-${view}`);
+    if (activeBtn) {
+      activeBtn.className = 'px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300';
+    }
+  }
+
+  // Notes Sub-view
+  function setNotesView(view) {
+    ['rendered', 'raw', 'edit'].forEach(v => {
+      document.getElementById(`notesView-${v}`)?.classList.add('hidden');
+      const b = document.getElementById(`notesBtn-${v}`);
+      if (b) {
+        b.className = 'px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900';
+      }
+    });
+    document.getElementById(`notesView-${view}`)?.classList.remove('hidden');
+    const activeBtn = document.getElementById(`notesBtn-${view}`);
+    if (activeBtn) {
+      activeBtn.className = 'px-2 py-0.5 rounded text-[11px] font-medium bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-300';
+    }
+  }
+
+  // Scan Pan & Zoom
+  function initScanDimensions(img) {
+    if (!img) img = document.getElementById('folioScanImg');
+    if (img && img.naturalWidth > 0) {
+      naturalW = img.naturalWidth;
+      naturalH = img.naturalHeight;
+    }
+    
+    const svg = document.getElementById('bboxSvgOverlay');
+    if (svg) {
+      svg.setAttribute('viewBox', `0 0 ${naturalW} ${naturalH}`);
+      svg.setAttribute('width', naturalW);
+      svg.setAttribute('height', naturalH);
+    }
+
+    fitScanToViewport();
+  }
+
+  function applyTransform() {
+    const wrapper = document.getElementById('scanWrapper');
+    wrapper.style.transform = `translate(${panX}px, ${panY}px) scale(${zoomLevel})`;
+    document.getElementById('zoomLevelDisplay').innerText = `${Math.round(zoomLevel * 100)}%`;
+  }
+
+  function zoomScan(delta) {
+    const newZoom = Math.min(Math.max(0.15, zoomLevel + delta), 4.5);
+    // Zoom around viewport center
+    const vp = document.getElementById('scanViewport');
+    const cx = vp.clientWidth / 2;
+    const cy = vp.clientHeight / 2;
+    const imgX = (cx - panX) / zoomLevel;
+    const imgY = (cy - panY) / zoomLevel;
+    panX = cx - (imgX * newZoom);
+    panY = cy - (imgY * newZoom);
+    zoomLevel = newZoom;
+    applyTransform();
+  }
+
+  function resetZoom() {
+    fitScanToViewport();
+  }
+
+  function fitFirstGraphic() {
+    {% if folio.graphics and folio.graphics|length > 0 and folio.graphics[0].bbox %}
+      focusOnGraphicBbox('{{ folio.graphics[0].id }}', {{ folio.graphics[0].bbox }});
+    {% else %}
+      fitScanToViewport();
+    {% endif %}
+  }
+
+  function setActualSize() {
+    zoomLevel = 1.0;
+    const vp = document.getElementById('scanViewport');
+    panX = (vp.clientWidth - naturalW) / 2;
+    panY = (vp.clientHeight - naturalH) / 2;
+    applyTransform();
+  }
+
+  function fitScanToViewport() {
+    const vp = document.getElementById('scanViewport');
+    const img = document.getElementById('folioScanImg');
+    if (img && img.naturalWidth > 0) {
+      naturalW = img.naturalWidth;
+      naturalH = img.naturalHeight;
+    }
+    const vpW = vp.clientWidth - 40;
+    const vpH = vp.clientHeight - 40;
+    
+    if (naturalW && naturalH && vpW > 0 && vpH > 0) {
+      const scaleW = vpW / naturalW;
+      const scaleH = vpH / naturalH;
+      zoomLevel = Math.min(scaleW, scaleH);
+      panX = (vp.clientWidth - naturalW * zoomLevel) / 2;
+      panY = (vp.clientHeight - naturalH * zoomLevel) / 2;
+      applyTransform();
+    }
+  }
+
+  function toggleBboxOverlay() {
+    bboxVisible = !bboxVisible;
+    const svg = document.getElementById('bboxSvgOverlay');
+    const btn = document.getElementById('bboxToggleBtn');
+    if (bboxVisible) {
+      svg.style.display = 'block';
+      btn.className = 'px-2.5 py-1 rounded flex items-center gap-1.5 transition-colors bg-emerald-950/80 text-emerald-300 border border-emerald-800';
+    } else {
+      svg.style.display = 'none';
+      btn.className = 'px-2.5 py-1 rounded flex items-center gap-1.5 transition-colors bg-zinc-800 text-zinc-400 border border-zinc-700';
+    }
+  }
+
+  function toggleInvertScan() {
+    scanInverted = !scanInverted;
+    const img = document.getElementById('folioScanImg');
+    const btn = document.getElementById('invertScanBtn');
+    if (scanInverted) {
+      img.style.filter = 'invert(1) hue-rotate(180deg)';
+      btn.classList.add('bg-zinc-700', 'text-white');
+    } else {
+      img.style.filter = 'none';
+      btn.classList.remove('bg-zinc-700', 'text-white');
+    }
+  }
+
+  function focusOnGraphicBbox(gid, bbox) {
+    if (!bbox || bbox.length !== 4) return;
+    const [x, y, w, h] = bbox;
+    const vp = document.getElementById('scanViewport');
+    
+    // Desired zoom level to comfortably view figure
+    zoomLevel = Math.min(2.0, (vp.clientWidth * 0.7) / w);
+    
+    // Center figure in viewport
+    const centerX = x + w / 2;
+    const centerY = y + h / 2;
+    panX = (vp.clientWidth / 2) - (centerX * zoomLevel);
+    panY = (vp.clientHeight / 2) - (centerY * zoomLevel);
+    applyTransform();
+
+    // Pulse highlight on rectangle
+    const rect = document.getElementById(`rect-${gid}`);
+    if (rect) {
+      rect.classList.add('stroke-amber-400', 'fill-amber-400/40');
+      setTimeout(() => {
+        rect.classList.remove('stroke-amber-400', 'fill-amber-400/40');
+      }, 1500);
+    }
+  }
+
+  function selectGraphic(gid) {
+    switchTab('graphics');
+    const card = document.getElementById(`graphic-card-${gid}`);
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.classList.add('ring-2', 'ring-emerald-500');
+      setTimeout(() => card.classList.remove('ring-2', 'ring-emerald-500'), 1500);
+    }
+  }
+
+  // Pan interaction
+  const viewport = document.getElementById('scanViewport');
+  viewport.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX - panX;
+    startY = e.clientY - panY;
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      panX = e.clientX - startX;
+      panY = e.clientY - startY;
+      applyTransform();
+    }
+
+    // Coordinate HUD calculation
+    const img = document.getElementById('folioScanImg');
+    const rect = img.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+    if (mouseX >= 0 && mouseX <= rect.width && mouseY >= 0 && mouseY <= rect.height) {
+      const realX = Math.round((mouseX / rect.width) * naturalW);
+      const realY = Math.round((mouseY / rect.height) * naturalH);
+      document.getElementById('coordHud').innerText = `X: ${realX}, Y: ${realY}`;
+    }
+  });
+
+  window.addEventListener('mouseup', () => {
+    isDragging = false;
+  });
+
+  viewport.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const vp = document.getElementById('scanViewport');
+    const rect = vp.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+
+    const delta = e.deltaY < 0 ? 0.15 : -0.15;
+    const newZoom = Math.min(Math.max(0.15, zoomLevel + delta), 4.5);
+
+    const imgX = (mouseX - panX) / zoomLevel;
+    const imgY = (mouseY - panY) / zoomLevel;
+    panX = mouseX - (imgX * newZoom);
+    panY = mouseY - (imgY * newZoom);
+    zoomLevel = newZoom;
+    applyTransform();
+  }, { passive: false });
+
+  // Render KaTeX Math
+  function renderAllMath() {
+    ['mdView-rendered', 'notesView-rendered'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el && window.renderMathInElement) {
+        try {
+          renderMathInElement(el, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+              { left: '\\(', right: '\\)', display: false },
+              { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false
+          });
+        } catch (e) {
+          console.warn('KaTeX render error:', e);
+        }
+      }
+    });
+  }
+
+  // Save Review / Vetting
+  async function saveReview() {
+    const selectedRadio = document.querySelector('input[name="reviewStatusRadio"]:checked');
+    const status = selectedRadio ? selectedRadio.value : 'unreviewed';
+
+    const checklist = {
+      transcription_verified: document.getElementById('check-transcription').checked,
+      math_verified: document.getElementById('check-math').checked,
+      notes_verified: document.getElementById('check-notes').checked,
+      graphics_verified: document.getElementById('check-graphics').checked,
+    };
+
+    const notes = document.getElementById('reviewNotesInput').value;
+
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/review`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status, checklist, notes, reviewer: 'phi' })
+      });
+      const data = await res.json();
+      if (data.success) {
+        showToast('Vetting record saved successfully', 'success');
+        document.getElementById('headerStatusSelect').value = status;
+        updateStatusStyles(status);
+      } else {
+        showToast('Failed to save review', 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Error saving review', 'error');
+    }
+  }
+
+  async function quickUpdateStatus(newStatus) {
+    const radios = document.getElementsByName('reviewStatusRadio');
+    for (const r of radios) {
+      if (r.value === newStatus) r.checked = true;
+    }
+    await saveReview();
+  }
+
+  function updateStatusStyles(st) {
+    const select = document.getElementById('headerStatusSelect');
+    select.className = 'text-xs font-medium py-1 px-2.5 rounded-lg border focus:outline-none transition-colors ';
+    if (st === 'verified') {
+      select.className += 'bg-emerald-50 text-emerald-800 border-emerald-300 dark:bg-emerald-950 dark:text-emerald-300 dark:border-emerald-800';
+    } else if (st === 'needs_fix') {
+      select.className += 'bg-amber-50 text-amber-800 border-amber-300 dark:bg-amber-950 dark:text-amber-300 dark:border-amber-800';
+    } else if (st === 'flagged') {
+      select.className += 'bg-rose-50 text-rose-800 border-rose-300 dark:bg-rose-950 dark:text-rose-300 dark:border-rose-800';
+    } else {
+      select.className += 'bg-zinc-100 text-zinc-700 border-zinc-300 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700';
+    }
+
+    const badge = document.getElementById('tabVettingBadge');
+    badge.className = 'w-2 h-2 rounded-full ';
+    if (st === 'verified') badge.className += 'bg-emerald-500';
+    else if (st === 'needs_fix') badge.className += 'bg-amber-500';
+    else if (st === 'flagged') badge.className += 'bg-rose-500';
+    else badge.className += 'bg-zinc-400';
+  }
+
+  // Save Edited Text (Markdown or Notes)
+  async function saveEditedText(target) {
+    let content = '';
+    if (target === 'md') {
+      content = document.getElementById('mdEditTextarea').value;
+    } else if (target === 'notes') {
+      content = document.getElementById('notesEditTextarea').value;
+    }
+
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/save_text`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target, content })
+      });
+      const data = await res.json();
+      if (data.success) {
+        showToast(`Saved ${target} to disk`, 'success');
+        setTimeout(() => location.reload(), 500);
+      } else {
+        showToast(`Error: ${data.error}`, 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Error saving text file', 'error');
+    }
+  }
+
+  // Re-extract Graphics
+  async function extractGraphicsNow() {
+    showToast('Extracting crops via graphic_tool...', 'info');
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/extract_graphics`, { method: 'POST' });
+      const data = await res.json();
+      if (data.success) {
+        showToast('Graphics successfully extracted!', 'success');
+        setTimeout(() => location.reload(), 600);
+      } else {
+        showToast(`Extraction failed: ${data.error}`, 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Extraction request failed', 'error');
+    }
+  }
+
+  // Recalibrate Graphic Bbox
+  async function updateGraphicBbox(gid) {
+    const x = parseInt(document.getElementById(`bbox-x-${gid}`).value, 10);
+    const y = parseInt(document.getElementById(`bbox-y-${gid}`).value, 10);
+    const w = parseInt(document.getElementById(`bbox-w-${gid}`).value, 10);
+    const h = parseInt(document.getElementById(`bbox-h-${gid}`).value, 10);
+
+    if (isNaN(x) || isNaN(y) || isNaN(w) || isNaN(h)) {
+      showToast('Coordinates must be valid numbers', 'error');
+      return;
+    }
+
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/update_graphic_bbox`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id: gid,
+          bbox: [x, y, w, h],
+          extract: true
+        })
+      });
+      const data = await res.json();
+      if (data.success) {
+        showToast(`Recalibrated ${gid} and updated crop!`, 'success');
+        setTimeout(() => location.reload(), 600);
+      } else {
+        showToast(`Error: ${data.error}`, 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Failed to update bbox', 'error');
+    }
+  }
+
+  // Jump to Folio
+  function handleJumpKey(e) {
+    if (e.key === 'Enter') {
+      let target = e.target.value.trim();
+      if (target.length > 0) {
+        if (target.length < 4 && !isNaN(target)) {
+          target = target.padStart(4, '0');
+        }
+        window.location.href = `/folio/${VOLUME_ID}/${target}`;
+      }
+    }
+  }
+
+  // Keyboard Shortcuts
+  window.addEventListener('keydown', (e) => {
+    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+      if (e.key === 's' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        saveReview();
+      }
+      return;
+    }
+
+    if (e.key === 'h' || e.key === 'k' || e.key === '[' || e.key === 'ArrowLeft') {
+      const prev = document.getElementById('prevFolioLink');
+      if (prev) prev.click();
+    } else if (e.key === 'l' || e.key === 'j' || e.key === ']' || e.key === 'ArrowRight') {
+      const next = document.getElementById('nextFolioLink');
+      if (next) next.click();
+    } else if (e.key === '1') {
+      switchTab('transcription');
+    } else if (e.key === '2') {
+      switchTab('notes');
+    } else if (e.key === '3') {
+      switchTab('graphics');
+    } else if (e.key === '4') {
+      switchTab('vetting');
+    } else if (e.key === 'b') {
+      toggleBboxOverlay();
+    } else if (e.key === 'i') {
+      toggleInvertScan();
+    } else if (e.key === 'f') {
+      fitScanToViewport();
+    } else if (e.key === 'z') {
+      fitFirstGraphic();
+    } else if (e.key === 's' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      saveReview();
+    }
+  });
+
+  // Init
+  document.addEventListener('DOMContentLoaded', () => {
+    applyTypographySettings();
+    renderAllMath();
+
+    const scanImg = document.getElementById('folioScanImg');
+    if (scanImg) {
+      if (scanImg.complete && scanImg.naturalWidth > 0) {
+        initScanDimensions(scanImg);
+      } else {
+        scanImg.addEventListener('load', () => initScanDimensions(scanImg));
+      }
+    }
+  });
+</script>
+{% endblock %}
