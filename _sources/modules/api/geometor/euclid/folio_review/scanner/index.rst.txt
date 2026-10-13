@@ -1,0 +1,85 @@
+geometor.euclid.folio_review.scanner
+====================================
+
+.. py:module:: geometor.euclid.folio_review.scanner
+
+.. autoapi-nested-parse::
+
+   Scanner and indexer for the Euclid folio resources.
+
+   Scans the resources/heath/ folder for volume_I, volume_II, volume_III folio scans,
+   markdown transcriptions, transcription notes, and graphics extraction metadata.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.euclid.folio_review.scanner.FolioScanner
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.euclid.folio_review.scanner.fix_relative_media_urls
+
+
+Module Contents
+---------------
+
+.. py:function:: fix_relative_media_urls(html: str, volume: str, section_path: str) -> str
+
+   Rewrite relative image paths (e.g. src="0225.g1.png") to /media/{volume}/{section_path}/{filename}.
+
+
+.. py:class:: FolioScanner(root_dir: Optional[pathlib.Path] = None)
+
+   Scans and indexes folios from resources/heath/.
+
+
+   .. py:method:: refresh(force: bool = False) -> None
+
+      Refresh index from disk if TTL expired or forced.
+
+
+
+   .. py:method:: get_stats() -> Dict[str, Any]
+
+      Return aggregate statistics across all volumes.
+
+
+
+   .. py:method:: get_volumes() -> List[Dict[str, Any]]
+
+      Return list of volumes.
+
+
+
+   .. py:method:: get_sections(volume_id: Optional[str] = None) -> List[str]
+
+      Return list of section relative paths.
+
+
+
+   .. py:method:: get_folios(volume_id: Optional[str] = None, section: Optional[str] = None, filter_status: Optional[str] = None, search_query: Optional[str] = None) -> List[Dict[str, Any]]
+
+      Filter folios by volume, section, status, or search query.
+
+
+
+   .. py:method:: get_folio(volume_id: str, folio_id: str) -> Optional[Dict[str, Any]]
+
+      Retrieve full details of a specific folio.
+
+
+
+   .. py:method:: get_adjacent_folios(volume_id: str, folio_id: str, section: Optional[str] = None) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]]
+
+      Return (previous_folio, next_folio) within volume or section.
+
+
+
