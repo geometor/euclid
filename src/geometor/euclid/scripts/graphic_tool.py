@@ -13,15 +13,19 @@ from geometor.euclid.ingest.cleanup import clean_image
 from geometor.euclid.ingest.detect_graphics_cv import detect_graphic_cv
 
 
-def cmd_detect(args: argparse.Namespace) -> None:
-    """Detect graphic bounding box on an image and optionally generate/save <folio>.json."""
-    img_path = Path(args.image)
+def detect_single_image(img_path: Path, save: bool = False, force: bool = False, debug: bool = False) -> None:
+    """Detect graphic bounding box on a single folio scan and optionally save <folio>.json."""
     if not img_path.exists():
         print(f"Error: image not found at {img_path}", file=sys.stderr)
-        sys.exit(1)
+        return
 
     folio_stem = img_path.stem
-    result = detect_graphic_cv(img_path, debug=args.debug)
+    json_path = img_path.with_name(f"{folio_stem}.json")
+    if save and json_path.exists() and not force:
+        print(f"Skipping {json_path} (already exists). Use --force to overwrite.")
+        return
+
+    result = detect_graphic_cv(img_path, debug=debug)
 
     graphics: List[Dict[str, Any]] = []
     if "error" not in result:
@@ -43,16 +47,29 @@ def cmd_detect(args: argparse.Namespace) -> None:
     }
 
     output_json = json.dumps(metadata, indent=2)
-    print(output_json)
+    if not save:
+        print(output_json)
+    else:
+        with open(json_path, "w") as f:
+            f.write(output_json + "\n")
+        print(f"Saved {json_path} ({len(graphics)} graphic(s))")
 
-    if args.save:
-        json_path = img_path.with_name(f"{folio_stem}.json")
-        if json_path.exists() and not args.force:
-            print(f"\nWarning: {json_path} already exists. Use --force to overwrite.", file=sys.stderr)
+
+def cmd_detect(args: argparse.Namespace) -> None:
+    """Detect graphic bounding box on one or more images or directories."""
+    for target_str in args.targets:
+        target = Path(target_str)
+        if target.is_dir():
+            png_files = sorted(
+                p for p in target.rglob("*.png")
+                if "." not in p.stem and p.stem.isdigit()
+            )
+            for pf in png_files:
+                detect_single_image(pf, save=args.save, force=args.force, debug=args.debug)
+        elif target.suffix == ".png":
+            detect_single_image(target, save=args.save, force=args.force, debug=args.debug)
         else:
-            with open(json_path, "w") as f:
-                f.write(output_json + "\n")
-            print(f"\nSaved metadata to: {json_path}")
+            print(f"Error: Unknown target format: {target}", file=sys.stderr)
 
 
 def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool = False) -> None:
@@ -67,6 +84,9 @@ def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool =
         except Exception as e:
             print(f"Error parsing JSON {json_path}: {e}", file=sys.stderr)
             return
+
+    if not isinstance(data, dict):
+        return
 
     folio = data.get("folio", json_path.stem)
     graphics = data.get("graphics", [])
@@ -125,7 +145,10 @@ def cmd_extract(args: argparse.Namespace) -> None:
     for target_str in args.targets:
         target = Path(target_str)
         if target.is_dir():
-            json_files = sorted(target.glob("*.json"))
+            json_files = sorted(
+                jf for jf in target.rglob("*.json")
+                if "." not in jf.stem and jf.stem.isdigit()
+            )
             for jf in json_files:
                 extract_from_json(jf, no_clean=args.no_clean, no_invert=args.no_invert)
         elif target.suffix == ".json":
@@ -352,7 +375,7 @@ def main() -> None:
 
     # detect
     p_detect = subparsers.add_parser("detect", help="Auto-detect graphic and output/save <folio>.json")
-    p_detect.add_argument("image", help="Scan PNG to process")
+    p_detect.add_argument("targets", nargs="+", help="Path(s) to scan PNG(s) or directory")
     p_detect.add_argument("--save", action="store_true", help="Save detected metadata to <folio>.json next to image")
     p_detect.add_argument("--force", action="store_true", help="Overwrite existing <folio>.json")
     p_detect.add_argument("--debug", action="store_true", help="Save debug visualization")
