@@ -100,9 +100,9 @@ class FolioScanner:
                 "transcribed_count": 0,
                 "notes_count": 0,
                 "graphics_count": 0,
+                "svg_count": 0,
                 "folios_with_graphics": 0,
                 "missing_crops_count": 0,
-                "svg_count": 0,
                 "folios_with_svg": 0,
                 "sections": set(),
             }
@@ -227,9 +227,9 @@ class FolioScanner:
                     "graphics": graphics_list,
                     "graphics_count": len(graphics_list),
                     "has_graphics": len(graphics_list) > 0,
-                    "missing_crops_count": missing_crops,
                     "svg_count": folio_svg_count,
                     "has_svg": folio_svg_count > 0,
+                    "missing_crops_count": missing_crops,
                 }
 
                 folios_list.append(folio_item)
@@ -244,8 +244,8 @@ class FolioScanner:
                 if graphics_list:
                     volume_stats[vol_name]["folios_with_graphics"] += 1
                     volume_stats[vol_name]["graphics_count"] += len(graphics_list)
+                    volume_stats[vol_name]["svg_count"] += folio_svg_count
                 volume_stats[vol_name]["missing_crops_count"] += missing_crops
-                volume_stats[vol_name]["svg_count"] += folio_svg_count
                 if folio_svg_count > 0:
                     volume_stats[vol_name]["folios_with_svg"] += 1
 
@@ -275,9 +275,9 @@ class FolioScanner:
         total_transcribed = sum(v["transcribed_count"] for v in vol_stats.values())
         total_notes = sum(v["notes_count"] for v in vol_stats.values())
         total_graphics = sum(v["graphics_count"] for v in vol_stats.values())
+        total_svgs = sum(v.get("svg_count", 0) for v in vol_stats.values())
         total_folios_with_graphics = sum(v["folios_with_graphics"] for v in vol_stats.values())
         total_missing_crops = sum(v["missing_crops_count"] for v in vol_stats.values())
-        total_svgs = sum(v.get("svg_count", 0) for v in vol_stats.values())
         total_folios_with_svg = sum(v.get("folios_with_svg", 0) for v in vol_stats.values())
 
         return {
@@ -287,10 +287,10 @@ class FolioScanner:
             "total_notes": total_notes,
             "notes_pct": round((total_notes / total_folios * 100), 1) if total_folios else 0,
             "total_graphics": total_graphics,
-            "total_folios_with_graphics": total_folios_with_graphics,
-            "total_missing_crops": total_missing_crops,
             "total_svgs": total_svgs,
             "svg_pct": round((total_svgs / total_graphics * 100), 1) if total_graphics else 0,
+            "total_folios_with_graphics": total_folios_with_graphics,
+            "total_missing_crops": total_missing_crops,
             "total_folios_with_svg": total_folios_with_svg,
             "volumes": vol_stats,
         }
@@ -334,10 +334,10 @@ class FolioScanner:
             results = [f for f in results if not f["has_notes"]]
         elif filter_status == "has_graphics":
             results = [f for f in results if f["has_graphics"]]
-        elif filter_status == "missing_crops":
-            results = [f for f in results if f["missing_crops_count"] > 0]
         elif filter_status == "has_svg":
             results = [f for f in results if f.get("has_svg")]
+        elif filter_status == "missing_crops":
+            results = [f for f in results if f["missing_crops_count"] > 0]
         elif filter_status == "missing_svg":
             results = [f for f in results if f.get("has_graphics") and not f.get("has_svg")]
 
@@ -428,9 +428,12 @@ class FolioScanner:
             g_copy = dict(g)
             if g_copy.get("svg_exists"):
                 svg_p = full_parent / g_copy["svg_file"]
-                try:
-                    g_copy["svg_content"] = svg_p.read_text(encoding="utf-8")
-                except Exception:
+                if svg_p.exists():
+                    try:
+                        g_copy["svg_content"] = svg_p.read_text(encoding="utf-8")
+                    except Exception:
+                        g_copy["svg_content"] = None
+                else:
                     g_copy["svg_content"] = None
             else:
                 g_copy["svg_content"] = None
