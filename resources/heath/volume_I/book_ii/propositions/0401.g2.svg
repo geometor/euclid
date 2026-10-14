@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 235" width="246" height="235" class="euclid-graphic" data-folio="0401" data-graphic="g2" data-proposition="II.6">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc-dotted {
+      stroke: #000000;
+      stroke-width: 1.5;
+      stroke-dasharray: 4 3;
+      fill: none;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Square on CD -->
+  <polygon id="el-square-CD" data-ref="sq_CD" data-type="polygon" points="104,107 217,107 217,218 104,218" class="geom-polygon" />
+  <!-- Rectangle on AD -->
+  <polygon id="el-rect-AD" data-ref="rect_AD" data-type="polygon" points="18,107 217,107 217,138 18,138" class="geom-polygon" />
+
+  <!-- Baseline AD -->
+  <line id="el-seg-AD" data-ref="AD" data-type="segment" x1="18" y1="107" x2="217" y2="107" class="geom-line" />
+  <!-- Horizontal divider at y=138 -->
+  <line id="el-line-mid" data-ref="mid_line" data-type="segment" x1="18" y1="138" x2="217" y2="138" class="geom-line" />
+  <!-- Bottom square edge -->
+  <line id="el-line-bot" data-ref="bot_line" data-type="segment" x1="104" y1="218" x2="217" y2="218" class="geom-line" />
+
+  <!-- Vertical Lines -->
+  <line id="el-line-A" data-ref="line_A" data-type="segment" x1="18" y1="107" x2="18" y2="138" class="geom-line" />
+  <line id="el-line-C" data-ref="line_C" data-type="segment" x1="104" y1="107" x2="104" y2="218" class="geom-line" />
+  <line id="el-line-B" data-ref="line_B" data-type="segment" x1="187" y1="28" x2="187" y2="218" class="geom-line" />
+  <line id="el-line-D" data-ref="line_D" data-type="segment" x1="217" y1="107" x2="217" y2="218" class="geom-line" />
+
+  <!-- Right Triangle CBQ (CQ hypotenuse) -->
+  <line id="el-seg-CQ" data-ref="CQ" data-type="segment" x1="104" y1="107" x2="187" y2="28" class="geom-line" />
+
+  <!-- Circle Arc with centre C and radius CQ cutting AB produced at D -->
+  <!-- Center (104, 107), Radius 114.5, angles from ~316 deg to 0 deg -->
+  <path id="el-arc-CQD" data-ref="arc_CQD" d="M 187,28 A 114.5,114.5 0 0,1 217,107" class="geom-arc-dotted" />
+
+  <!-- Diagonal of Square on CD -->
+  <line id="el-diag-CD" data-ref="diag_CD" data-type="line" x1="217" y1="107" x2="104" y2="218" class="geom-line" />
+
+  <!-- Points -->
+  <circle id="el-pt-A" data-ref="A" data-type="point" cx="18" cy="107" r="3.5" class="geom-point" />
+  <circle id="el-pt-C" data-ref="C" data-type="point" cx="104" cy="107" r="3.5" class="geom-point" />
+  <circle id="el-pt-B" data-ref="B" data-type="point" cx="187" cy="107" r="3.5" class="geom-point" />
+  <circle id="el-pt-D" data-ref="D" data-type="point" cx="217" cy="107" r="3.5" class="geom-point" />
+  <circle id="el-pt-Q" data-ref="Q" data-type="point" cx="187" cy="28" r="3.5" class="geom-point" />
+
+  <!-- Labels -->
+  <text id="lbl-A" data-ref="A" x="18" y="99" text-anchor="middle" class="geom-label">A</text>
+  <text id="lbl-C" data-ref="C" x="104" y="99" text-anchor="middle" class="geom-label">C</text>
+  <text id="lbl-B" data-ref="B" x="178" y="103" text-anchor="end" class="geom-label">B</text>
+  <text id="lbl-D" data-ref="D" x="225" y="103" text-anchor="start" class="geom-label">D</text>
+  <text id="lbl-Q" data-ref="Q" x="187" y="20" text-anchor="middle" class="geom-label">Q</text>
+</svg>
