@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 230" width="485" height="230" class="euclid-graphic" data-folio="0368" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-line-dashed {
+      stroke: #000000;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-dasharray: 4,4;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 13px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- LEFT FIGURE: Square partitioned into a^2, b^2 and two ab rectangles with diagonals -->
+  <!-- Polygons -->
+  <polygon class="geom-polygon" points="26,83 132,83 132,189 26,189" data-ref="L_square_a" />
+  <polygon class="geom-polygon" points="132,34 181,34 181,83 132,83" data-ref="L_square_b" />
+  <polygon class="geom-polygon" points="26,34 132,34 132,83 26,83" data-ref="L_rect_top" />
+  <polygon class="geom-polygon" points="132,83 181,83 181,189 132,189" data-ref="L_rect_bot" />
+
+  <!-- Outer perimeter of Left Square -->
+  <line class="geom-line" x1="26" y1="34" x2="181" y2="34" data-ref="L_top" />
+  <line class="geom-line" x1="181" y1="34" x2="181" y2="189" data-ref="L_right" />
+  <line class="geom-line" x1="181" y1="189" x2="26" y2="189" data-ref="L_bottom" />
+  <line class="geom-line" x1="26" y1="189" x2="26" y2="34" data-ref="L_left" />
+
+  <!-- Interior partition lines -->
+  <line class="geom-line" x1="132" y1="34" x2="132" y2="189" data-ref="L_partition_vert" />
+  <line class="geom-line" x1="26" y1="83" x2="181" y2="83" data-ref="L_partition_horiz" />
+
+  <!-- Dotted diagonals of the two complements -->
+  <line class="geom-line-dashed" x1="26" y1="34" x2="132" y2="83" data-ref="L_diagonal_top" />
+  <line class="geom-line-dashed" x1="132" y1="83" x2="181" y2="189" data-ref="L_diagonal_bot" />
+
+  <!-- Labels for Left Figure -->
+  <text class="geom-label" x="79" y="27" text-anchor="middle" data-ref="L_top_a">a</text>
+  <text class="geom-label" x="156" y="27" text-anchor="middle" data-ref="L_top_b">b</text>
+  <text class="geom-label" x="16" y="62" text-anchor="middle" data-ref="L_left_b">b</text>
+  <text class="geom-label" x="72" y="65" text-anchor="middle" data-ref="L_diag_c">c</text>
+  <text class="geom-label" x="68" y="98" text-anchor="middle" data-ref="L_inside_a">a</text>
+
+  <!-- RIGHT FIGURE: Outer square with four congruent triangles around inner square c^2 -->
+  <!-- Polygons -->
+  <polygon class="geom-polygon" points="283,34 389,34 283,83" data-ref="R_triangle_TL" />
+  <polygon class="geom-polygon" points="389,34 438,34 438,140" data-ref="R_triangle_TR" />
+  <polygon class="geom-polygon" points="438,140 438,189 332,189" data-ref="R_triangle_BR" />
+  <polygon class="geom-polygon" points="332,189 283,189 283,83" data-ref="R_triangle_BL" />
+  <polygon class="geom-polygon" points="389,34 438,140 332,189 283,83" data-ref="R_square_c" />
+
+  <!-- Outer perimeter of Right Square -->
+  <line class="geom-line" x1="283" y1="34" x2="438" y2="34" data-ref="R_top" />
+  <line class="geom-line" x1="438" y1="34" x2="438" y2="189" data-ref="R_right" />
+  <line class="geom-line" x1="438" y1="189" x2="283" y2="189" data-ref="R_bottom" />
+  <line class="geom-line" x1="283" y1="189" x2="283" y2="34" data-ref="R_left" />
+
+  <!-- Inner square sides (hypotenuses) -->
+  <line class="geom-line" x1="283" y1="83" x2="389" y2="34" data-ref="R_hyp_TL" />
+  <line class="geom-line" x1="389" y1="34" x2="438" y2="140" data-ref="R_hyp_TR" />
+  <line class="geom-line" x1="438" y1="140" x2="332" y2="189" data-ref="R_hyp_BR" />
+  <line class="geom-line" x1="332" y1="189" x2="283" y2="83" data-ref="R_hyp_BL" />
+
+  <!-- Points of Right Figure -->
+  <circle class="geom-point" cx="283" cy="34" r="3" data-ref="R_corner_TL" />
+  <circle class="geom-point" cx="438" cy="34" r="3" data-ref="R_corner_TR" />
+  <circle class="geom-point" cx="438" cy="189" r="3" data-ref="R_corner_BR" />
+  <circle class="geom-point" cx="283" cy="189" r="3" data-ref="R_corner_BL" />
+  <circle class="geom-point" cx="389" cy="34" r="3" data-ref="R_vertex_top" />
+  <circle class="geom-point" cx="438" cy="140" r="3" data-ref="R_vertex_right" />
+  <circle class="geom-point" cx="332" cy="189" r="3" data-ref="R_vertex_bot" />
+  <circle class="geom-point" cx="283" cy="83" r="3" data-ref="R_vertex_left" />
+
+  <!-- Labels for Right Figure -->
+  <!-- Outer edge labels -->
+  <text class="geom-label" x="336" y="27" text-anchor="middle" data-ref="R_edge_top_a">a</text>
+  <text class="geom-label" x="413" y="27" text-anchor="middle" data-ref="R_edge_top_b">b</text>
+  <text class="geom-label" x="449" y="87" text-anchor="start" data-ref="R_edge_right_a">a</text>
+  <text class="geom-label" x="449" y="165" text-anchor="start" data-ref="R_edge_right_b">b</text>
+  <text class="geom-label" x="385" y="201" text-anchor="middle" data-ref="R_edge_bot_a">a</text>
+  <text class="geom-label" x="307" y="201" text-anchor="middle" data-ref="R_edge_bot_b">b</text>
+  <text class="geom-label" x="272" y="63" text-anchor="end" data-ref="R_edge_left_b">b</text>
+  <text class="geom-label" x="272" y="141" text-anchor="end" data-ref="R_edge_left_a">a</text>
+  <!-- Hypotenuse c labels -->
+  <text class="geom-label" x="330" y="66" text-anchor="middle" data-ref="R_hyp_c_TL">c</text>
+  <text class="geom-label" x="402" y="93" text-anchor="middle" data-ref="R_hyp_c_TR">c</text>
+  <text class="geom-label" x="391" y="159" text-anchor="middle" data-ref="R_hyp_c_BR">c</text>
+  <text class="geom-label" x="318" y="132" text-anchor="middle" data-ref="R_hyp_c_BL">c</text>
+</svg>

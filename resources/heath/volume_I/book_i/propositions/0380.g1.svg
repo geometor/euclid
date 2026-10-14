@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 233" width="265" height="233" class="euclid-graphic" data-folio="0380" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-label {
+      font-size: 13px;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 2.5 !important;
+      cursor: pointer;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill: #0284c7 !important;
+      fill-opacity: 0.25 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Shaded Polygons for Pappus' Extension -->
+  <polygon class="geom-polygon" points="32.5,209 135,100 192,209" data-ref="poly_ABC" />
+  <polygon class="geom-polygon" points="32.5,209 135,100 126.5,60 21.5,165" data-ref="poly_ABED" />
+  <polygon class="geom-polygon" points="135,100 192,209 245,191 188,84" data-ref="poly_BCFG" />
+  <polygon class="geom-polygon" points="55,134.5 32.5,209 102.5,209 127,134.5" data-ref="poly_LAKN" />
+  <polygon class="geom-polygon" points="127,134.5 102.5,209 192,209 214.5,134.5" data-ref="poly_NKCM" />
+
+  <!-- Geometric Lines -->
+  <!-- Base Line: A to C (passes through K) -->
+  <line class="geom-line" x1="32.5" y1="209" x2="192" y2="209" data-ref="line_AC" />
+  <!-- Side AB -->
+  <line class="geom-line" x1="32.5" y1="209" x2="135" y2="100" data-ref="line_AB" />
+  <!-- Side BC -->
+  <line class="geom-line" x1="135" y1="100" x2="192" y2="209" data-ref="line_BC" />
+
+  <!-- Parallelogram ABED and extension to H -->
+  <line class="geom-line" x1="21.5" y1="165" x2="32.5" y2="209" data-ref="line_DA" />
+  <line class="geom-line" x1="126.5" y1="60" x2="135" y2="100" data-ref="line_EB" />
+  <line class="geom-line" x1="21.5" y1="165" x2="159" y2="25" data-ref="line_DH" />
+
+  <!-- Parallelogram BCFG and extension to H -->
+  <line class="geom-line" x1="135" y1="100" x2="188" y2="84" data-ref="line_BG" />
+  <line class="geom-line" x1="192" y1="209" x2="245" y2="191" data-ref="line_CF" />
+  <line class="geom-line" x1="159" y1="25" x2="245" y2="191" data-ref="line_HF" />
+
+  <!-- Center Line HK: through B and N to K -->
+  <line class="geom-line" x1="159" y1="25" x2="102.5" y2="209" data-ref="line_HK" />
+
+  <!-- Parallelogram LACM Lines -->
+  <line class="geom-line" x1="32.5" y1="209" x2="55" y2="134.5" data-ref="line_AL" />
+  <line class="geom-line" x1="192" y1="209" x2="214.5" y2="134.5" data-ref="line_CM" />
+  <line class="geom-line" x1="55" y1="134.5" x2="214.5" y2="134.5" data-ref="line_LM" />
+
+  <!-- Vertex Labels -->
+  <text class="geom-label" x="159" y="16" text-anchor="middle" data-ref="label_H">H</text>
+  <text class="geom-label" x="120" y="55" text-anchor="end" data-ref="label_E">E</text>
+  <text class="geom-label" x="198" y="82" text-anchor="start" data-ref="label_G">G</text>
+  <text class="geom-label" x="135" y="93" text-anchor="end" data-ref="label_B">B</text>
+  <text class="geom-label" x="12" y="165" text-anchor="end" data-ref="label_D">D</text>
+  <text class="geom-label" x="48" y="135" text-anchor="end" data-ref="label_L">L</text>
+  <text class="geom-label" x="133" y="146" text-anchor="start" data-ref="label_N">N</text>
+  <text class="geom-label" x="224" y="135" text-anchor="start" data-ref="label_M">M</text>
+  <text class="geom-label" x="252" y="193" text-anchor="start" data-ref="label_F">F</text>
+  <text class="geom-label" x="24" y="218" text-anchor="end" data-ref="label_A">A</text>
+  <text class="geom-label" x="102.5" y="222" text-anchor="middle" data-ref="label_K">K</text>
+  <text class="geom-label" x="195" y="222" text-anchor="start" data-ref="label_C">C</text>
+</svg>

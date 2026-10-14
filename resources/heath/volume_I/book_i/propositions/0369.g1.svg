@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 146" width="148" height="146" class="euclid-graphic" data-folio="0369" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Polygons -->
+  <polygon class="geom-polygon" points="17,7 133,7 133,122 17,122" data-ref="outer_square" />
+  <polygon class="geom-polygon" points="68,42 101,60 83,88 51,68" data-ref="inner_square" />
+  <polygon class="geom-polygon" points="17,7 133,7 101,60" data-ref="top_triangle" />
+  <polygon class="geom-polygon" points="133,7 133,122 83,88" data-ref="right_triangle" />
+  <polygon class="geom-polygon" points="133,122 17,122 51,68" data-ref="bottom_triangle" />
+  <polygon class="geom-polygon" points="17,122 17,7 68,42" data-ref="left_triangle" />
+
+  <!-- Outer Square Perimeter -->
+  <line class="geom-line" x1="17" y1="7" x2="133" y2="7" data-ref="side_top" />
+  <line class="geom-line" x1="133" y1="7" x2="133" y2="122" data-ref="side_right" />
+  <line class="geom-line" x1="133" y1="122" x2="17" y2="122" data-ref="side_bottom" />
+  <line class="geom-line" x1="17" y1="122" x2="17" y2="7" data-ref="side_left" />
+
+  <!-- 4 Dissection Lines -->
+  <line class="geom-line" x1="17" y1="7" x2="101" y2="60" data-ref="line_TL" />
+  <line class="geom-line" x1="133" y1="7" x2="83" y2="88" data-ref="line_TR" />
+  <line class="geom-line" x1="133" y1="122" x2="51" y2="68" data-ref="line_BR" />
+  <line class="geom-line" x1="17" y1="122" x2="68" y2="42" data-ref="line_BL" />
+
+  <!-- Points -->
+  <circle class="geom-point" cx="17" cy="7" r="3" data-ref="corner_TL" />
+  <circle class="geom-point" cx="133" cy="7" r="3" data-ref="corner_TR" />
+  <circle class="geom-point" cx="133" cy="122" r="3" data-ref="corner_BR" />
+  <circle class="geom-point" cx="17" cy="122" r="3" data-ref="corner_BL" />
+  <circle class="geom-point" cx="68" cy="42" r="3" data-ref="inner_T" />
+  <circle class="geom-point" cx="101" cy="60" r="3" data-ref="inner_R" />
+  <circle class="geom-point" cx="83" cy="88" r="3" data-ref="inner_B" />
+  <circle class="geom-point" cx="51" cy="68" r="3" data-ref="inner_L" />
+</svg>
