@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 148" width="392" height="148">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .line { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .line-dashed { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 4, 4; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .polygon { fill: #000000; fill-opacity: 0.04; stroke: none; transition: fill 0.2s, fill-opacity 0.2s; }
+      .polygon:hover { fill: #0284c7 !important; fill-opacity: 0.15 !important; }
+      .line:hover, .line-dashed:hover { stroke: #0284c7 !important; stroke-width: 3.5 !important; }
+      .point { fill: #000000; stroke: #000000; stroke-width: 1; transition: r 0.2s, fill 0.2s; }
+      .point:hover { fill: #0284c7 !important; stroke: #0284c7 !important; r: 5 !important; }
+      .label { font-family: "Times New Roman", Times, serif; font-size: 19px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Polygons for hover/fill -->
+  <g id="polygons">
+    <!-- Given Triangle C -->
+    <polygon id="poly-triangle-c" class="polygon" points="36,23 10,97 89,97" />
+    <!-- Parallelogram BEFG (equal to C) -->
+    <polygon id="poly-befg" class="polygon" points="316,96 353,96 375,20 338,20" />
+    <!-- Complement LB (applied to AB) -->
+    <polygon id="poly-lb" class="polygon" points="204,96 316,96 308,121 196,121" />
+    <!-- Parallelograms about diameter HK: AG and ME -->
+    <polygon id="poly-ag" class="polygon" points="225,20 338,20 316,96 204,96" />
+    <polygon id="poly-me" class="polygon" points="316,96 353,96 345,121 308,121" />
+    <!-- Whole parallelogram HLKF -->
+    <polygon id="poly-hlkf" class="polygon" points="225,20 196,121 345,121 375,20" />
+  </g>
+
+  <!-- Geometry Lines -->
+  <g id="lines">
+    <!-- Given Triangle C -->
+    <line id="line-c-base" class="line" x1="10" y1="97" x2="89" y2="97" />
+    <line id="line-c-side1" class="line" x1="10" y1="97" x2="36" y2="23" />
+    <line id="line-c-side2" class="line" x1="89" y1="97" x2="36" y2="23" />
+
+    <!-- Given Angle D -->
+    <line id="line-d-ray1" class="line" x1="184" y1="76" x2="176" y2="23" />
+    <line id="line-d-ray2" class="line" x1="184" y1="76" x2="129" y2="109" />
+
+    <!-- Main Figure Horizontal lines -->
+    <!-- Top line HF -->
+    <line id="line-hf" class="line" x1="225" y1="20" x2="375" y2="20" />
+    <!-- Middle line AE -->
+    <line id="line-ae" class="line" x1="204" y1="96" x2="353" y2="96" />
+    <!-- Bottom line LK -->
+    <line id="line-lk" class="line" x1="196" y1="121" x2="345" y2="121" />
+
+    <!-- Slanted lines -->
+    <!-- Left line HL -->
+    <line id="line-hl" class="line" x1="225" y1="20" x2="196" y2="121" />
+    <!-- Middle line GM -->
+    <line id="line-gm" class="line" x1="338" y1="20" x2="308" y2="121" />
+    <!-- Right line FK -->
+    <line id="line-fk" class="line" x1="375" y1="20" x2="345" y2="121" />
+
+    <!-- Diameter HK -->
+    <line id="line-hk" class="line" x1="225" y1="20" x2="345" y2="121" />
+  </g>
+
+  <!-- Vertices -->
+  <g id="points">
+    <!-- Triangle C -->
+    <circle id="point-c-top" class="point" cx="36" cy="23" r="3" />
+    <circle id="point-c-left" class="point" cx="10" cy="97" r="3" />
+    <circle id="point-c-right" class="point" cx="89" cy="97" r="3" />
+    <!-- Angle D -->
+    <circle id="point-d-vertex" class="point" cx="184" cy="76" r="3" />
+    <!-- Main Figure -->
+    <circle id="point-h" class="point" cx="225" cy="20" r="3" />
+    <circle id="point-g" class="point" cx="338" cy="20" r="3" />
+    <circle id="point-f" class="point" cx="375" cy="20" r="3" />
+    <circle id="point-a" class="point" cx="204" cy="96" r="3" />
+    <circle id="point-b" class="point" cx="316" cy="96" r="3" />
+    <circle id="point-e" class="point" cx="353" cy="96" r="3" />
+    <circle id="point-l" class="point" cx="196" cy="121" r="3" />
+    <circle id="point-m" class="point" cx="308" cy="121" r="3" />
+    <circle id="point-k" class="point" cx="345" cy="121" r="3" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <!-- Given figures -->
+    <text class="label" x="44" y="73">C</text>
+    <text class="label" x="170" y="70">D</text>
+    <!-- Main figure -->
+    <text class="label" x="225" y="10">H</text>
+    <text class="label" x="338" y="10">G</text>
+    <text class="label" x="375" y="10">F</text>
+    <text class="label" x="194" y="87">A</text>
+    <text class="label" x="316" y="87">B</text>
+    <text class="label" x="364" y="87">E</text>
+    <text class="label" x="194" y="133">L</text>
+    <text class="label" x="308" y="133">M</text>
+    <text class="label" x="348" y="133">K</text>
+  </g>
+</svg>

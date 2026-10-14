@@ -103,6 +103,7 @@ class FolioScanner:
                 "svg_count": 0,
                 "folios_with_graphics": 0,
                 "missing_crops_count": 0,
+                "folios_with_svg": 0,
                 "sections": set(),
             }
 
@@ -134,11 +135,12 @@ class FolioScanner:
                 book_str = ""
                 section_str = rel_sec
 
+                md_raw_text = ""
                 if has_md:
                     try:
-                        content = md_path.read_text(encoding="utf-8")
-                        if content.startswith("---"):
-                            parts = content.split("---", 2)
+                        md_raw_text = md_path.read_text(encoding="utf-8")
+                        if md_raw_text.startswith("---"):
+                            parts = md_raw_text.split("---", 2)
                             if len(parts) >= 3:
                                 parsed = yaml.safe_load(parts[1])
                                 if isinstance(parsed, dict):
@@ -154,6 +156,7 @@ class FolioScanner:
                 # Parse graphics if json exists
                 graphics_list: List[Dict[str, Any]] = []
                 missing_crops = 0
+                folio_svg_count = 0
                 if has_json:
                     try:
                         with open(json_path, "r", encoding="utf-8") as jf:
@@ -168,8 +171,18 @@ class FolioScanner:
                                 file_exists = (parent_dir / g_file).exists()
                                 inv_exists = (parent_dir / inv_file).exists()
                                 svg_exists = (parent_dir / svg_file).exists()
+
                                 if not file_exists:
                                     missing_crops += 1
+                                if svg_exists:
+                                    folio_svg_count += 1
+
+                                in_md_format = None
+                                if md_raw_text:
+                                    if svg_file in md_raw_text:
+                                        in_md_format = "svg"
+                                    elif g_file in md_raw_text:
+                                        in_md_format = "png"
 
                                 graphics_list.append({
                                     "id": gid,
@@ -179,9 +192,11 @@ class FolioScanner:
                                     "inverted_exists": inv_exists,
                                     "svg_file": svg_file,
                                     "svg_exists": svg_exists,
+                                    "in_md_format": in_md_format,
                                     "bbox": g.get("bbox", []),
                                     "white_point": g.get("white_point", 226),
                                     "caption": g.get("caption", f"Folio {stem} Figure {gid}"),
+                                    "geometry": g.get("geometry"),
                                 })
                     except Exception:
                         pass
@@ -212,8 +227,8 @@ class FolioScanner:
                     "graphics": graphics_list,
                     "graphics_count": len(graphics_list),
                     "has_graphics": len(graphics_list) > 0,
-                    "svg_count": sum(1 for g in graphics_list if g.get("svg_exists")),
-                    "has_svg": any(g.get("svg_exists") for g in graphics_list),
+                    "svg_count": folio_svg_count,
+                    "has_svg": folio_svg_count > 0,
                     "missing_crops_count": missing_crops,
                 }
 
@@ -229,8 +244,10 @@ class FolioScanner:
                 if graphics_list:
                     volume_stats[vol_name]["folios_with_graphics"] += 1
                     volume_stats[vol_name]["graphics_count"] += len(graphics_list)
-                    volume_stats[vol_name]["svg_count"] += sum(1 for g in graphics_list if g.get("svg_exists"))
+                    volume_stats[vol_name]["svg_count"] += folio_svg_count
                 volume_stats[vol_name]["missing_crops_count"] += missing_crops
+                if folio_svg_count > 0:
+                    volume_stats[vol_name]["folios_with_svg"] += 1
 
         # Sort folios by volume and folio_num
         folios_list.sort(key=lambda x: (x["volume"], x["folio_num"]))
@@ -261,6 +278,7 @@ class FolioScanner:
         total_svgs = sum(v.get("svg_count", 0) for v in vol_stats.values())
         total_folios_with_graphics = sum(v["folios_with_graphics"] for v in vol_stats.values())
         total_missing_crops = sum(v["missing_crops_count"] for v in vol_stats.values())
+        total_folios_with_svg = sum(v.get("folios_with_svg", 0) for v in vol_stats.values())
 
         return {
             "total_folios": total_folios,
@@ -270,8 +288,10 @@ class FolioScanner:
             "notes_pct": round((total_notes / total_folios * 100), 1) if total_folios else 0,
             "total_graphics": total_graphics,
             "total_svgs": total_svgs,
+            "svg_pct": round((total_svgs / total_graphics * 100), 1) if total_graphics else 0,
             "total_folios_with_graphics": total_folios_with_graphics,
             "total_missing_crops": total_missing_crops,
+            "total_folios_with_svg": total_folios_with_svg,
             "volumes": vol_stats,
         }
 
@@ -318,6 +338,8 @@ class FolioScanner:
             results = [f for f in results if f.get("has_svg")]
         elif filter_status == "missing_crops":
             results = [f for f in results if f["missing_crops_count"] > 0]
+        elif filter_status == "missing_svg":
+            results = [f for f in results if f.get("has_graphics") and not f.get("has_svg")]
 
         if search_query:
             q = search_query.strip().lower()
@@ -400,19 +422,23 @@ class FolioScanner:
         else:
             res["raw_json"] = None
 
-        # Load svg_content for graphics if svg_exists
+        # Load SVG content for any graphics that exist
+        graphics_with_content = []
         for g in res.get("graphics", []):
-            if g.get("svg_exists"):
-                svg_path = full_parent / g["svg_file"]
-                if svg_path.exists():
+            g_copy = dict(g)
+            if g_copy.get("svg_exists"):
+                svg_p = full_parent / g_copy["svg_file"]
+                if svg_p.exists():
                     try:
-                        g["svg_content"] = svg_path.read_text(encoding="utf-8")
+                        g_copy["svg_content"] = svg_p.read_text(encoding="utf-8")
                     except Exception:
-                        g["svg_content"] = None
+                        g_copy["svg_content"] = None
                 else:
-                    g["svg_content"] = None
+                    g_copy["svg_content"] = None
             else:
-                g["svg_content"] = None
+                g_copy["svg_content"] = None
+            graphics_with_content.append(g_copy)
+        res["graphics"] = graphics_with_content
 
         return res
 

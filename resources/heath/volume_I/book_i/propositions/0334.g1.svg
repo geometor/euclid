@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 130" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .geo-poly { fill: #000000; fill-opacity: 0.04; stroke: none; }
+      .geo-line { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; transition: stroke 0.15s ease, stroke-width 0.15s ease; }
+      .geo-point { fill: #000000; stroke: #ffffff; stroke-width: 1.5; transition: fill 0.15s ease, r 0.15s ease; }
+      .geo-label { font-family: Georgia, 'Times New Roman', serif; font-size: 14px; font-style: italic; fill: #000000; dominant-baseline: middle; user-select: none; }
+      .hover-group { pointer-events: all; }
+      .hover-group:hover .geo-poly { fill-opacity: 0.15; fill: #0284c7; }
+      .hover-group:hover .geo-line { stroke: #0284c7 !important; stroke-width: 3.5 !important; }
+      .hover-group:hover .geo-point { fill: #0284c7 !important; r: 5 !important; }
+      .hover-group:hover .geo-label { fill: #0284c7 !important; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Base geometry -->
+  <g id="geometry">
+    <!-- Triangle Polygon -->
+    <g id="poly-ABC" class="hover-group">
+      <polygon class="geo-poly" points="111.0,33.5 22.0,106.5 167.0,106.5" />
+    </g>
+
+    <!-- Lines -->
+    <g id="line-DE" class="hover-group">
+      <line class="geo-line" x1="37.0" y1="33.5" x2="180.0" y2="33.5" />
+    </g>
+    <g id="line-BC" class="hover-group">
+      <line class="geo-line" x1="22.0" y1="106.5" x2="167.0" y2="106.5" />
+    </g>
+    <g id="line-AB" class="hover-group">
+      <line class="geo-line" x1="111.0" y1="33.5" x2="22.0" y2="106.5" />
+    </g>
+    <g id="line-AC" class="hover-group">
+      <line class="geo-line" x1="111.0" y1="33.5" x2="167.0" y2="106.5" />
+    </g>
+
+    <!-- Points -->
+    <g id="point-D" class="hover-group">
+      <circle class="geo-point" cx="37.0" cy="33.5" r="3.5" />
+      <text class="geo-label" x="32.0" y="33.5" text-anchor="end">D</text>
+    </g>
+    <g id="point-A" class="hover-group">
+      <circle class="geo-point" cx="111.0" cy="33.5" r="3.5" />
+      <text class="geo-label" x="111.0" y="20.0" text-anchor="middle">A</text>
+    </g>
+    <g id="point-E" class="hover-group">
+      <circle class="geo-point" cx="180.0" cy="33.5" r="3.5" />
+      <text class="geo-label" x="185.0" y="33.5" text-anchor="start">E</text>
+    </g>
+    <g id="point-B" class="hover-group">
+      <circle class="geo-point" cx="22.0" cy="106.5" r="3.5" />
+      <text class="geo-label" x="16.0" y="118.0" text-anchor="middle">B</text>
+    </g>
+    <g id="point-C" class="hover-group">
+      <circle class="geo-point" cx="167.0" cy="106.5" r="3.5" />
+      <text class="geo-label" x="167.0" y="118.0" text-anchor="middle">C</text>
+    </g>
+  </g>
+</svg>

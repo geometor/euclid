@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="200" height="180" class="euclid-graphic" data-folio="0297" data-graphic="g2" data-proposition="I.18">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Triangles ABC, BCE, AEC -->
+  <polygon id="el-tri-ABC" data-ref="ABC" data-type="polygon" points="12,16 48,108 150,108" class="geom-polygon" />
+  <polygon id="el-tri-BCE" data-ref="BCE" data-type="polygon" points="48,108 82,168 150,108" class="geom-polygon" />
+
+  <!-- Line ABE (AB produced to E) -->
+  <line id="el-seg-AE" data-ref="AE" data-type="segment" x1="12" y1="16" x2="82" y2="168" class="geom-line" />
+
+  <!-- Side AC (with point D) -->
+  <line id="el-seg-AC" data-ref="AC" data-type="segment" x1="12" y1="16" x2="150" y2="108" class="geom-line" />
+
+  <!-- Base BC -->
+  <line id="el-seg-BC" data-ref="BC" data-type="segment" x1="48" y1="108" x2="150" y2="108" class="geom-line" />
+
+  <!-- Line EC -->
+  <line id="el-seg-EC" data-ref="EC" data-type="segment" x1="82" y1="168" x2="150" y2="108" class="geom-line" />
+
+  <!-- Points -->
+  <circle id="el-pt-A" data-ref="A" data-type="point" cx="12" cy="16" r="3.5" class="geom-point" />
+  <circle id="el-pt-B" data-ref="B" data-type="point" cx="48" cy="108" r="3.5" class="geom-point" />
+  <circle id="el-pt-D" data-ref="D" data-type="point" cx="68" cy="53" r="3.5" class="geom-point" />
+  <circle id="el-pt-C" data-ref="C" data-type="point" cx="150" cy="108" r="3.5" class="geom-point" />
+  <circle id="el-pt-E" data-ref="E" data-type="point" cx="82" cy="168" r="3.5" class="geom-point" />
+
+  <!-- Labels -->
+  <text id="lbl-A" data-ref="A" x="15" y="13" text-anchor="middle" class="geom-label">A</text>
+  <text id="lbl-D" data-ref="D" x="76" y="51" text-anchor="start" class="geom-label">D</text>
+  <text id="lbl-B" data-ref="B" x="42" y="112" text-anchor="end" class="geom-label">B</text>
+  <text id="lbl-C" data-ref="C" x="156" y="112" text-anchor="start" class="geom-label">C</text>
+  <text id="lbl-E" data-ref="E" x="82" y="178" text-anchor="middle" class="geom-label">E</text>
+</svg>

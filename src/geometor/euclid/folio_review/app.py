@@ -279,14 +279,17 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
         metadata["folio"] = folio_data["folio"]
         graphics = metadata.get("graphics", [])
 
-        entry = {
+        existing_entry = next((g for g in graphics if g.get("id") == gid), {})
+        entry = dict(existing_entry)
+        entry.update({
             "id": gid,
-            "file": f"{folio_data['folio']}.{gid}.png",
-            "inverted_file": f"{folio_data['folio']}.{gid}.inverted.png",
+            "file": existing_entry.get("file", f"{folio_data['folio']}.{gid}.png"),
+            "inverted_file": existing_entry.get("inverted_file", f"{folio_data['folio']}.{gid}.inverted.png"),
+            "svg_file": existing_entry.get("svg_file", f"{folio_data['folio']}.{gid}.svg"),
             "bbox": [int(v) for v in bbox],
-            "white_point": int(white_point) if white_point is not None else 226,
-            "caption": caption or f"Folio {folio_data['folio']} Figure {gid.replace('g', '')}",
-        }
+            "white_point": int(white_point) if white_point is not None else existing_entry.get("white_point", 226),
+            "caption": caption or existing_entry.get("caption", f"Folio {folio_data['folio']} Figure {gid.replace('g', '')}"),
+        })
 
         # Replace or add
         graphics = [g for g in graphics if g.get("id") != gid]
@@ -309,6 +312,92 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
             "success": True,
             "graphics": updated_folio.get("graphics", []) if updated_folio else [],
         })
+
+    @app.route("/api/folio/<volume_id>/<folio_id>/graphic/<gid>/save_svg", methods=["POST"])
+    def api_save_graphic_svg(volume_id: str, folio_id: str, gid: str):
+        """Save or update SVG markup for a graphic on disk."""
+        payload = request.get_json(force=True) or {}
+        svg_content = payload.get("svg", "").strip()
+
+        if not svg_content:
+            return jsonify({"error": "Empty SVG content"}), 400
+
+        folio_data = scanner.get_folio(volume_id, folio_id)
+        if not folio_data:
+            return jsonify({"error": "Folio not found"}), 404
+
+        parent_dir = scanner.root_dir / folio_data["volume"] / folio_data["section_path"]
+        svg_filename = f"{folio_data['folio']}.{gid}.svg"
+        svg_path = parent_dir / svg_filename
+
+        try:
+            svg_path.write_text(svg_content, encoding="utf-8")
+
+            # Also ensure svg_file is set in <folio>.json
+            json_path = parent_dir / f"{folio_data['folio']}.json"
+            if json_path.exists():
+                with open(json_path, "r", encoding="utf-8") as f:
+                    meta = json.load(f)
+                updated = False
+                for g in meta.get("graphics", []):
+                    if g.get("id") == gid:
+                        g["svg_file"] = svg_filename
+                        updated = True
+                        break
+                if updated:
+                    with open(json_path, "w", encoding="utf-8") as f:
+                        json.dump(meta, f, indent=2)
+
+            scanner.refresh(force=True)
+            updated_folio = scanner.get_folio(volume_id, folio_id)
+            return jsonify({
+                "success": True,
+                "svg_file": svg_filename,
+                "graphics": updated_folio.get("graphics", []) if updated_folio else [],
+            })
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+    @app.route("/api/folio/<volume_id>/<folio_id>/set_graphic_format", methods=["POST"])
+    def api_set_graphic_format(volume_id: str, folio_id: str):
+        """Switch markdown reference between PNG and SVG for a graphic."""
+        payload = request.get_json(force=True) or {}
+        gid = payload.get("id", "g1")
+        target_format = payload.get("format", "svg").lower()  # "svg" or "png"
+
+        folio_data = scanner.get_folio(volume_id, folio_id)
+        if not folio_data:
+            return jsonify({"error": "Folio not found"}), 404
+
+        parent_dir = scanner.root_dir / folio_data["volume"] / folio_data["section_path"]
+        md_path = parent_dir / f"{folio_data['folio']}.md"
+        if not md_path.exists():
+            return jsonify({"error": "Markdown transcription file does not exist"}), 400
+
+        png_name = f"{folio_data['folio']}.{gid}.png"
+        svg_name = f"{folio_data['folio']}.{gid}.svg"
+
+        try:
+            md_text = md_path.read_text(encoding="utf-8")
+            if target_format == "svg":
+                if png_name in md_text:
+                    md_text = md_text.replace(png_name, svg_name)
+                    md_path.write_text(md_text, encoding="utf-8")
+            elif target_format == "png":
+                if svg_name in md_text:
+                    md_text = md_text.replace(svg_name, png_name)
+                    md_path.write_text(md_text, encoding="utf-8")
+
+            scanner.refresh(force=True)
+            updated_folio = scanner.get_folio(volume_id, folio_id)
+            return jsonify({
+                "success": True,
+                "format": target_format,
+                "graphics": updated_folio.get("graphics", []) if updated_folio else [],
+                "md_html": updated_folio.get("md_html", "") if updated_folio else "",
+            })
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
 
     return app
 

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 225" width="200" height="225" class="euclid-graphic" data-folio="0310" data-graphic="g1" data-proposition="I.23">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 2;
+      fill: none;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill-opacity: 0.22 !important;
+      fill: #0284c7 !important;
+      stroke: #0284c7 !important;
+      stroke-width: 2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight {
+      r: 5 !important;
+      fill: #0284c7 !important;
+      stroke: #ffffff !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Upper Sector CDE -->
+  <polygon id="el-tri-CDE" data-ref="CDE" data-type="polygon" points="26,64.5 152.5,25 154.2,98" class="geom-polygon" />
+
+  <!-- Lower Sector FAB -->
+  <polygon id="el-tri-FAB" data-ref="FAB" data-type="polygon" points="33,168.5 159.8,130 160.9,203" class="geom-polygon" />
+
+  <!-- Arcs -->
+  <!-- Arc CE (Centre D, radius 132.5) -->
+  <path id="el-arc-CE" data-ref="CE" data-type="arc" d="M 152.5,25 A 132.5,132.5 0 0,1 154.2,98" class="geom-arc" />
+
+  <!-- Arc FB (Centre A, radius 132.5) -->
+  <path id="el-arc-FB" data-ref="FB" data-type="arc" d="M 159.8,130 A 132.5,132.5 0 0,1 160.9,203" class="geom-arc" />
+
+  <!-- Upper Sector Lines -->
+  <!-- Arm DC -->
+  <line id="el-seg-DC" data-ref="DC" data-type="segment" x1="26" y1="64.5" x2="152.5" y2="25" class="geom-line" />
+
+  <!-- Arm DE -->
+  <line id="el-seg-DE" data-ref="DE" data-type="segment" x1="26" y1="64.5" x2="154.2" y2="98" class="geom-line" />
+
+  <!-- Lower Sector Lines -->
+  <!-- Arm AF -->
+  <line id="el-seg-AF" data-ref="AF" data-type="segment" x1="33" y1="168.5" x2="159.8" y2="130" class="geom-line" />
+
+  <!-- Arm AB -->
+  <line id="el-seg-AB" data-ref="AB" data-type="segment" x1="33" y1="168.5" x2="160.9" y2="203" class="geom-line" />
+
+  <!-- Points -->
+  <!-- Upper Points -->
+  <circle id="el-pt-D" data-ref="D" data-type="point" cx="26" cy="64.5" r="3.5" class="geom-point" />
+  <circle id="el-pt-C" data-ref="C" data-type="point" cx="152.5" cy="25" r="3.5" class="geom-point" />
+  <circle id="el-pt-E" data-ref="E" data-type="point" cx="154.2" cy="98" r="3.5" class="geom-point" />
+
+  <!-- Lower Points -->
+  <circle id="el-pt-A" data-ref="A" data-type="point" cx="33" cy="168.5" r="3.5" class="geom-point" />
+  <circle id="el-pt-F" data-ref="F" data-type="point" cx="159.8" cy="130" r="3.5" class="geom-point" />
+  <circle id="el-pt-B" data-ref="B" data-type="point" cx="160.9" cy="203" r="3.5" class="geom-point" />
+
+  <!-- Labels -->
+  <!-- Upper Labels -->
+  <text id="lbl-D" data-ref="D" x="19" y="68" text-anchor="end" class="geom-label">D</text>
+  <text id="lbl-C" data-ref="C" x="153" y="16" text-anchor="middle" class="geom-label">C</text>
+  <text id="lbl-E" data-ref="E" x="152" y="110" text-anchor="middle" class="geom-label">E</text>
+
+  <!-- Lower Labels -->
+  <text id="lbl-A" data-ref="A" x="25" y="172" text-anchor="end" class="geom-label">A</text>
+  <text id="lbl-F" data-ref="F" x="166" y="124" text-anchor="start" class="geom-label">F</text>
+  <text id="lbl-B" data-ref="B" x="162" y="215" text-anchor="middle" class="geom-label">B</text>
+</svg>

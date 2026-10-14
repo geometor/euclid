@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 152" width="512" height="152">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .line { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .line-dashed { stroke: #000000; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 4, 4; fill: none; transition: stroke 0.2s, stroke-width 0.2s; }
+      .polygon { fill: #000000; fill-opacity: 0.04; stroke: none; transition: fill 0.2s, fill-opacity 0.2s; }
+      .polygon:hover { fill: #0284c7 !important; fill-opacity: 0.15 !important; }
+      .line:hover, .line-dashed:hover { stroke: #0284c7 !important; stroke-width: 3.5 !important; }
+      .point { fill: #000000; stroke: #000000; stroke-width: 1; transition: r 0.2s, fill 0.2s; }
+      .point:hover { fill: #0284c7 !important; stroke: #0284c7 !important; r: 5 !important; }
+      .label { font-family: "Times New Roman", Times, serif; font-size: 19px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Polygons for hover/fill -->
+  <g id="polygons">
+    <!-- Given Rectilineal Figure ABCD -->
+    <polygon id="poly-abcd" class="polygon" points="31,50 149,27 230,52 149,120" />
+    <polygon id="poly-abd" class="polygon" points="31,50 149,120 149,27" />
+    <polygon id="poly-dbc" class="polygon" points="149,27 149,120 230,52" />
+    <!-- Parallelogram FKHG (equal to ABD) -->
+    <polygon id="poly-fkhg" class="polygon" points="385,35 456,35 434,117 363,117" />
+    <!-- Parallelogram GHML (equal to DBC) -->
+    <polygon id="poly-ghml" class="polygon" points="456,35 498,35 476,117 434,117" />
+    <!-- Combined Parallelogram FKML (equal to ABCD) -->
+    <polygon id="poly-fkml" class="polygon" points="385,35 498,35 476,117 363,117" />
+  </g>
+
+  <!-- Geometry Lines -->
+  <g id="lines">
+    <!-- Figure ABCD -->
+    <line id="line-ad" class="line" x1="31" y1="50" x2="149" y2="27" />
+    <line id="line-ab" class="line" x1="31" y1="50" x2="149" y2="120" />
+    <line id="line-dc" class="line" x1="149" y1="27" x2="230" y2="52" />
+    <line id="line-bc" class="line" x1="149" y1="120" x2="230" y2="52" />
+    <line id="line-db" class="line" x1="149" y1="27" x2="149" y2="120" />
+
+    <!-- Angle E -->
+    <line id="line-e-ray1" class="line" x1="244" y1="93" x2="266" y2="51" />
+    <line id="line-e-ray2" class="line" x1="244" y1="93" x2="295" y2="102" />
+
+    <!-- Construction: Parallelogram FKML -->
+    <line id="line-top" class="line" x1="385" y1="35" x2="498" y2="35" />
+    <line id="line-bot" class="line" x1="363" y1="117" x2="476" y2="117" />
+    <line id="line-fk" class="line" x1="385" y1="35" x2="363" y2="117" />
+    <line id="line-gh" class="line" x1="456" y1="35" x2="434" y2="117" />
+    <line id="line-lm" class="line" x1="498" y1="35" x2="476" y2="117" />
+  </g>
+
+  <!-- Vertices -->
+  <g id="points">
+    <!-- Figure ABCD -->
+    <circle id="point-a" class="point" cx="31" cy="50" r="3" />
+    <circle id="point-d" class="point" cx="149" cy="27" r="3" />
+    <circle id="point-b" class="point" cx="149" cy="120" r="3" />
+    <circle id="point-c" class="point" cx="230" cy="52" r="3" />
+    <!-- Angle E -->
+    <circle id="point-e-vertex" class="point" cx="244" cy="93" r="3" />
+    <!-- Construction FKML -->
+    <circle id="point-f" class="point" cx="385" cy="35" r="3" />
+    <circle id="point-g" class="point" cx="456" cy="35" r="3" />
+    <circle id="point-l" class="point" cx="498" cy="35" r="3" />
+    <circle id="point-k" class="point" cx="363" cy="117" r="3" />
+    <circle id="point-h" class="point" cx="434" cy="117" r="3" />
+    <circle id="point-m" class="point" cx="476" cy="117" r="3" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <!-- Figure ABCD -->
+    <text class="label" x="21" y="47">A</text>
+    <text class="label" x="152" y="18">D</text>
+    <text class="label" x="150" y="131">B</text>
+    <text class="label" x="233" y="56">C</text>
+    <!-- Angle E -->
+    <text class="label" x="256" y="85">E</text>
+    <!-- Construction FKML -->
+    <text class="label" x="382" y="26">F</text>
+    <text class="label" x="455" y="26">G</text>
+    <text class="label" x="495" y="26">L</text>
+    <text class="label" x="363" y="125">K</text>
+    <text class="label" x="435" y="125">H</text>
+    <text class="label" x="476" y="125">M</text>
+  </g>
+</svg>
