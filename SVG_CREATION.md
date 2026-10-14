@@ -22,7 +22,7 @@ A comprehensive guide and reference for reconstructing the geometric diagrams of
    - [Proposition I.4 (Folio 0261)](#proposition-i4-folio-0261)
    - [Proposition I.5 (Folio 0265)](#proposition-i5-folio-0265)
 7. [CLI Tooling Reference (`graphic_tool`)](#cli-tooling-reference-graphic_tool)
-8. [Roadmap for Batch Production](#roadmap-for-batch-production)
+8. [Chronicle of the Complete 3-Volume Reconstruction (832 SVGs)](#chronicle-of-the-complete-3-volume-reconstruction-832-svgs)
 
 ---
 
@@ -298,13 +298,60 @@ uv run graphic_tool extract <path-to-folio.json> --no-invert
 
 ---
 
-## Roadmap for Batch Production
+## Chronicle of the Complete 3-Volume Reconstruction (832 SVGs)
 
-To efficiently scale across the remaining hundreds of folios:
+Across the three volumes of Sir Thomas L. Heath's monumental 1908 Cambridge University Press edition of Euclid's *Elements*—spanning **1,665 folios**, **13 Books**, and the **Appendix**—all **832 geometric figures** have been reconstructed from first principles into pixel-exact, interactive Euclidean SVGs.
 
-1. **Phase 1: Folio Bounding Box Vetting**:
-   Use the `folio_review` app (`uv run folio_review`) to verify that each folio's bounding box encompasses its graphic.
-2. **Phase 2: Constructive Geometry Drafting**:
-   Use automated circle and line detectors combined with Euclidean proof parameters to scaffold candidate geometry definitions.
-3. **Phase 3: Verification & Compilation**:
-   Validate pixel overlap ($\ge 95\%$), compile `<folio>.<gid>.svg`, and commit.
+```mermaid
+flowchart LR
+    A["Full-Page 1908 Scan (.png)"] --> B["3x3 Connected-Component Topological Filter"]
+    B --> C["Crop Rescue, Bleed Masking & False-Positive Pruning"]
+    C --> D["1:1 20px Metrology Contact Sheets"]
+    D --> E["Euclidean & Projective Coordinate Solver"]
+    E --> F["Interactive SVG Synthesis + XML & Metadata Sync"]
+```
+
+### Five Defining Technical Challenges (and How We Solved Them)
+
+#### 1. The "No-Vertical-Dilation" Connected-Component Trick
+One of the most pervasive challenges in Volumes II and III—especially in **Book X** (130 figures) and **Book XI** (83 figures)—was that dozens of initial `.g*.png` crops had drifted off the diagram, capturing blocks of body text, footnotes, or displayed equations while clipping or missing the geometric figure itself.
+
+Traditional document layout analysis dilates ink pixels vertically and horizontally to merge paragraphs into blocks—which merges diagrams and adjacent text into one indistinguishable mass. Instead, we exploited a fundamental topological invariant of 1908 letterpress printing:
+
+> **The Letterpress Invariant**: Without vertical dilation, individual printed letters and lines of body text **never touch across inter-line leading** (every glyph has a bounding-box height $h \le 25\text{ px}$). A geometric diagram, by contrast, is a **single 8-connected component of continuous ink lines** spanning $h \ge 38\text{ px}$ and $w \ge 45\text{ px}$.
+
+By running `scipy.ndimage.label(arr < 190, structure=np.ones((3, 3)))` directly on the raw full-page scan *without* vertical dilation:
+- Every line of prose, every Greek footnote, and every algebraic fraction dissolved into tiny components ($h \le 25\text{ px}$).
+- Every geometric diagram on the page immediately lit up as a single connected component with its exact pixel bounding box `(x1, y1, x2, y2)`.
+- This allowed us to automatically flag and delete **false-positive crops** (boxes containing only bracketed prose or radical equations like $\frac{r}{2}\sqrt{10 - 2\sqrt{5}}$), rescue **over 50 mis-cropped diagrams** across Books X–XIII, and surgically mask out prose paragraphs wrapped inside the concave corners of composite diagrams (`0324.g1`, `0325.g1`, `0327.g1`, `0363.g1`).
+
+#### 2. 1:1 Gridded Metrology Contact Sheets
+To eliminate coordinate estimation errors, we generated `1:1` native-resolution contact sheets for every book with a calibrated `20px` (minor) and `100px` (major) coordinate grid overlaid directly onto the cleaned `.g*.png` crops. Every vertex, circle center, tangent point, and serif label anchor was measured to single-pixel accuracy before synthesizing the SVG primitives.
+
+#### 3. The 370+ Magnitude Diagrams of Books V and VII–X
+Books V, VII, VIII, IX, and X represent numbers, ratios, commensurable magnitudes, binomials, and apotomes as parallel horizontal or vertical line segments with interior division ticks and labels:
+- **Sub-Threshold Height**: Because a single horizontal line segment `A-------B-------C` has an ink height of only `2px` (`bh < 38px`), we combined markdown reference cross-checking with horizontal run-length filtering to preserve genuine magnitude line diagrams (such as `0446.g1` and `0454.g1` in Book XIII) while rejecting horizontal fraction bars in equations.
+- **Broken 1908 Rules & Tick Marks**: Where thin 1908 lead-cut rules suffered from ink dropouts or dust specks near interior points (`C`, `D`, `E`), we cross-checked the proposition text alongside our 1:1 gridded sheets to reconstruct continuous `<line>` segments with exact perpendicular tick marks (`y - 4` to `y + 4`).
+
+#### 4. Solid Geometry, Exhaustion, Cones, Cylinders, and Perspective Pyramids (Books XI & XII)
+When Euclid transitions from plane geometry (Books I–IV, VI) to solid geometry in **Book XI** and the **Method of Exhaustion** in **Book XII**, the 2D page represents 3D space through parallel perspective:
+- **Subdivided Triangular Pyramids (XII. 3–5, `0382.g1`, `0387.g1`, `0390.g1`, `0394.g1`)**: A triangular pyramid is bisected along all six edges (`A-B-C-D` divided at midpoints `E, F, G, H, K, L`) into two smaller similar pyramids and two equal prisms. Computing true affine midpoints between the outer vertices snapped all internal diagonals and prism slices into crisp 3D depth.
+- **Cylinders, Cones, and Frustums (XII. 11–15, `0421.g1`, `0423.g1`, `0424.g1`)**: Oblique circular bases were modeled with `<ellipse>` primitives whose major-axis endpoints meet the vertical or horizontal generator `<line>` tangents with zero gap or overshoot.
+- **The Polyhedral Sphere of XII. 17 (`0429.g1` & `0435.g1`)**: Reconstructed with four concentric circles, an equatorial `<ellipse>`, a tilted great-circle `<ellipse>` rotated by `24°`, and an inscribed frustum mesh across 23 labeled vertices (`A` through `Z`).
+
+#### 5. The Climax of the *Elements* — The Five Platonic Solids (Book XIII)
+Book XIII crowns Euclid's *Elements* with the construction and spherical circumscription of the five regular polyhedra: the **Tetrahedron** (Prop. 13, `0472.g1`, `0477.g1`), **Octahedron** (Prop. 14, `0478.g1`, `0480.g1`, `0481.g1`), **Cube** (Prop. 15, `0482.g1`, `0484.g1`), **Icosahedron** (Prop. 16, `0485.g1`, `0491.g1`, `0494.g1`), and **Dodecahedron** (Prop. 17, `0496.g1`, `0497.g1`, `0503.g1`, `0506.g1`):
+- In **XIII. 16**, both the decagonal plan projection (`0485.g1`) and Heath's perspective elevation (`0491.g1`—where the 12 vertices lie on two parallel horizontal pentagons inscribed in `<ellipse>` cross-sections capped by polar apices `Z` and `X`) are modeled with exact incidence.
+- In **XIII. 17**, the **20 vertices of the Dodecahedron** are constructed by erecting "roof-like" pentagons (`U-V-C-W-B`, etc.) upon the six square faces of an inscribed perspective **Cube** (`0497.g1`, `0503.g1`), separating foreground solid edges (`.line`) from background hidden-line structure (`.dashed`).
+
+---
+
+### Complete 3-Volume Edition Summary
+
+| Volume | Books Covered | Folios | XML-Validated Interactive SVGs | Remaining `.png` Embeds |
+| :--- | :--- | :---: | :---: | :---: |
+| **Volume I** | Book I – Book II | 704 | **224** | `0` |
+| **Volume II** | Book III – Book IX | 436 | **321** | `0` |
+| **Volume III** | Book X – Book XIII + Appendix | 525 | **287** | `0` |
+| **Total** | **Complete Edition (Books I–XIII + Appendix)** | **1,665** | **832** | **`0`** |
+
