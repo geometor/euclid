@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 333" width="260" height="333" class="euclid-graphic" data-folio="0382" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-dashed {
+      stroke: #000000;
+      stroke-width: 1.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 4 3;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-label {
+      font-size: 13px;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 2.5 !important;
+      cursor: pointer;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill: #0284c7 !important;
+      fill-opacity: 0.25 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Shaded Polygons -->
+  <polygon class="geom-polygon" points="101,137 69,192 185,192" data-ref="poly_ABC" />
+  <polygon class="geom-polygon" points="46,105 101,26 158,55 101,137" data-ref="poly_FAHO" />
+  <polygon class="geom-polygon" points="69,192 185,192 185,307 69,307" data-ref="poly_hypot_square" />
+
+  <!-- Rectangle FAHO Lines and Diagonals -->
+  <line class="geom-line" x1="101" y1="26" x2="46" y2="105" data-ref="line_OF" />
+  <line class="geom-line" x1="101" y1="26" x2="158" y2="55" data-ref="line_OH" />
+  <line class="geom-line" x1="46" y1="105" x2="101" y2="137" data-ref="line_FA" />
+  <line class="geom-line" x1="158" y1="55" x2="101" y2="137" data-ref="line_HA" />
+  <!-- Diagonal FH -->
+  <line class="geom-line" x1="46" y1="105" x2="158" y2="55" data-ref="line_FH" />
+
+  <!-- Central Vertical Line: O - Y - A - M - K - L -->
+  <line class="geom-line" x1="101" y1="26" x2="101" y2="307" data-ref="line_OAL" />
+
+  <!-- Square on AB: A(101,137), B(69,192), E(15,162), F(46,105) -->
+  <line class="geom-line" x1="101" y1="137" x2="69" y2="192" data-ref="line_AB" />
+  <line class="geom-line" x1="69" y1="192" x2="15" y2="162" data-ref="line_BE" />
+  <line class="geom-line" x1="15" y1="162" x2="46" y2="105" data-ref="line_EF" />
+
+  <!-- Square on AC: A(101,137), C(185,192), K'(240,108), H(158,55) -->
+  <line class="geom-line" x1="101" y1="137" x2="185" y2="192" data-ref="line_AC" />
+  <line class="geom-line" x1="185" y1="192" x2="240" y2="108" data-ref="line_CKprime" />
+  <line class="geom-line" x1="240" y1="108" x2="158" y2="55" data-ref="line_KprimeH" />
+
+  <!-- Square on BC: B(69,192), C(185,192), E'(185,307), D(69,307) -->
+  <line class="geom-line" x1="69" y1="192" x2="185" y2="192" data-ref="line_BC" />
+  <line class="geom-line" x1="69" y1="192" x2="69" y2="307" data-ref="line_BD" />
+  <line class="geom-line" x1="185" y1="192" x2="185" y2="307" data-ref="line_CEprime" />
+  <line class="geom-line" x1="69" y1="307" x2="185" y2="307" data-ref="line_DEprime" />
+
+  <!-- Diagonal Line EC (E on AB square to C on triangle) -->
+  <line class="geom-line" x1="15" y1="162" x2="185" y2="192" data-ref="line_EC" />
+
+  <!-- Straight Line B-M-G -->
+  <line class="geom-line" x1="69" y1="192" x2="133" y2="162" data-ref="line_BMG" />
+
+  <!-- Parallelogram lines around M -->
+  <line class="geom-dashed" x1="46" y1="105" x2="101" y2="177" data-ref="line_FM" />
+  <line class="geom-dashed" x1="158" y1="55" x2="101" y2="177" data-ref="line_HM" />
+
+  <!-- Vertex Labels -->
+  <text class="geom-label" x="101" y="20" text-anchor="middle" data-ref="label_O">O</text>
+  <text class="geom-label" x="38" y="105" text-anchor="end" data-ref="label_F">F</text>
+  <text class="geom-label" x="166" y="55" text-anchor="start" data-ref="label_H">H</text>
+  <text class="geom-label" x="107" y="80" text-anchor="start" data-ref="label_Y">Y</text>
+  <text class="geom-label" x="88" y="142" text-anchor="end" data-ref="label_A">A</text>
+  <text class="geom-label" x="8" y="165" text-anchor="end" data-ref="label_E">E</text>
+  <text class="geom-label" x="110" y="176" text-anchor="start" data-ref="label_M">M</text>
+  <text class="geom-label" x="138" y="160" text-anchor="start" data-ref="label_G">G</text>
+  <text class="geom-label" x="61" y="195" text-anchor="end" data-ref="label_B">B</text>
+  <text class="geom-label" x="107" y="190" text-anchor="start" data-ref="label_K">K</text>
+  <text class="geom-label" x="193" y="195" text-anchor="start" data-ref="label_C">C</text>
+  <text class="geom-label" x="248" y="108" text-anchor="start" data-ref="label_Kprime">K'</text>
+  <text class="geom-label" x="69" y="322" text-anchor="middle" data-ref="label_D">D</text>
+  <text class="geom-label" x="101" y="322" text-anchor="middle" data-ref="label_L">L</text>
+</svg>

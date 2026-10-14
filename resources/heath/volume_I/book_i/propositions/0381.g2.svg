@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 130" width="190" height="130" class="euclid-graphic" data-folio="0381" data-graphic="g2">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-label {
+      font-size: 13px;
+      fill: #000000;
+      user-select: none;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight {
+      stroke: #0284c7 !important;
+      stroke-width: 2.5 !important;
+      cursor: pointer;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight {
+      fill: #0284c7 !important;
+      fill-opacity: 0.25 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight {
+      fill: #0284c7 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Shaded Polygons for Four Component Parallelograms -->
+  <polygon class="geom-polygon" points="36,31 74,31 70,55 28,55" data-ref="poly_ADGE" />
+  <polygon class="geom-polygon" points="74,31 170,31 165,55 70,55" data-ref="poly_DF" />
+  <polygon class="geom-polygon" points="28,55 70,55 50,116 10,116" data-ref="poly_CE" />
+  <polygon class="geom-polygon" points="70,55 165,55 145,116 50,116" data-ref="poly_FGCB" />
+
+  <!-- Outer Parallelogram AB Boundary -->
+  <line class="geom-line" x1="36" y1="31" x2="170" y2="31" data-ref="line_top" />
+  <line class="geom-line" x1="170" y1="31" x2="145" y2="116" data-ref="line_right" />
+  <line class="geom-line" x1="145" y1="116" x2="10" y2="116" data-ref="line_bottom" />
+  <line class="geom-line" x1="10" y1="116" x2="36" y2="31" data-ref="line_left" />
+
+  <!-- Internal Dividing Lines Meeting at G -->
+  <line class="geom-line" x1="28" y1="55" x2="165" y2="55" data-ref="line_EGC" />
+  <line class="geom-line" x1="74" y1="31" x2="50" y2="116" data-ref="line_DGF" />
+
+  <!-- Cross Lines ED and CF -->
+  <line class="geom-line" x1="28" y1="55" x2="74" y2="31" data-ref="line_ED" />
+  <line class="geom-line" x1="165" y1="55" x2="50" y2="116" data-ref="line_CF" />
+
+  <!-- Diagonal AG Produced to H and Joined to B -->
+  <line class="geom-line" x1="36" y1="31" x2="105" y2="87" data-ref="line_AGH" />
+  <line class="geom-line" x1="105" y1="87" x2="145" y2="116" data-ref="line_HB" />
+
+  <!-- Vertex Labels -->
+  <text class="geom-label" x="38" y="24" text-anchor="middle" data-ref="label_A">A</text>
+  <text class="geom-label" x="77" y="24" text-anchor="middle" data-ref="label_D">D</text>
+  <text class="geom-label" x="22" y="55" text-anchor="end" data-ref="label_E">E</text>
+  <text class="geom-label" x="48" y="42" text-anchor="end" data-ref="label_K">K</text>
+  <text class="geom-label" x="78" y="52" text-anchor="start" data-ref="label_G">G</text>
+  <text class="geom-label" x="171" y="56" text-anchor="start" data-ref="label_C">C</text>
+  <text class="geom-label" x="108" y="96" text-anchor="start" data-ref="label_H">H</text>
+  <text class="geom-label" x="49" y="126" text-anchor="middle" data-ref="label_F">F</text>
+  <text class="geom-label" x="151" y="123" text-anchor="start" data-ref="label_B">B</text>
+</svg>
