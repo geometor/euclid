@@ -108,7 +108,7 @@ The folio JSON file specifies how raster graphics are extracted and contains the
 ## The 4-Step Ink-to-Vector Process
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["1. BBox Calibration\n(graphic_tool set --extract)"] --> B["2. Parameter Recovery\n(Circle/Line Sub-pixel Fit)"]
     B --> C["3. Letter Centroids\n(Label Mapping)"]
     C --> D["4. SVG Compilation &\nOverlay Verification"]
@@ -303,7 +303,7 @@ uv run graphic_tool extract <path-to-folio.json> --no-invert
 Across the three volumes of Sir Thomas L. Heath's monumental 1908 Cambridge University Press edition of Euclid's *Elements*—spanning **1,665 folios**, **13 Books**, and the **Appendix**—all **832 geometric figures** have been reconstructed from first principles into pixel-exact, interactive Euclidean SVGs.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Full-Page 1908 Scan (.png)"] --> B["3x3 Connected-Component Topological Filter"]
     B --> C["Crop Rescue, Bleed Masking & False-Positive Pruning"]
     C --> D["1:1 20px Metrology Contact Sheets"]
