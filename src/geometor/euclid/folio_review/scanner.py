@@ -16,6 +16,20 @@ import yaml
 import markdown
 
 
+def escape_angle_brackets_in_attrs(md_text: str) -> str:
+    """Escape raw < and > inside data-* HTML attribute values (e.g. data-ref="...< A B C >...")
+    so Python-Markdown's inline HTML parser recognizes the enclosing <span> tag."""
+    if not md_text:
+        return ""
+
+    def _fix_attr(match: re.Match) -> str:
+        prefix, val, suffix = match.group(1), match.group(2), match.group(3)
+        val = val.replace("<", "&lt;").replace(">", "&gt;")
+        return f"{prefix}{val}{suffix}"
+
+    return re.sub(r'(\bdata-[a-zA-Z0-9_-]+=["\'])([^"\']*)(["\'])', _fix_attr, md_text)
+
+
 def fix_relative_media_urls(html: str, volume: str, section_path: str) -> str:
     """Rewrite relative image paths (e.g. src="0225.g1.png") to /media/{volume}/{section_path}/{filename}."""
     if not html:
@@ -381,7 +395,8 @@ class FolioScanner:
                     if len(parts) >= 3:
                         clean_text = parts[2].strip()
                 rendered_md = markdown.markdown(
-                    clean_text, extensions=["tables", "fenced_code", "footnotes"]
+                    escape_angle_brackets_in_attrs(clean_text),
+                    extensions=["tables", "fenced_code", "footnotes"],
                 )
                 res["md_html"] = fix_relative_media_urls(
                     rendered_md, res["volume"], res["section_path"]
@@ -399,7 +414,8 @@ class FolioScanner:
             try:
                 res["notes_content"] = notes_file.read_text(encoding="utf-8")
                 rendered_notes = markdown.markdown(
-                    res["notes_content"], extensions=["tables", "fenced_code", "footnotes"]
+                    escape_angle_brackets_in_attrs(res["notes_content"]),
+                    extensions=["tables", "fenced_code", "footnotes"],
                 )
                 res["notes_html"] = fix_relative_media_urls(
                     rendered_notes, res["volume"], res["section_path"]

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 171" width="340" height="171" class="euclid-graphic" data-folio="0366" data-graphic="g1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 171" width="340" height="171" class="euclid-graphic" data-graphic-id="0366.g1" data-folio="0366" data-graphic="g1" data-proposition="I.47">
   <style>
     .euclid-graphic {
       font-family: 'Times New Roman', 'Georgia', serif;
@@ -23,113 +23,137 @@
       stroke: #ffffff;
       stroke-width: 1;
     }
-    .geom-label {
-      font-size: 14px;
-      font-weight: bold;
-      fill: #000000;
-      user-select: none;
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
     }
     /* Interactive Highlight States */
-    [data-ref]:hover, .highlight {
-      stroke: #0284c7 !important;
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
       stroke-width: 3.5 !important;
       cursor: pointer;
     }
-    text[data-ref]:hover, text.highlight {
-      fill: #0284c7 !important;
-      stroke: none !important;
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 2.5 !important;
     }
-    .geom-polygon:hover, .geom-polygon.highlight {
-      fill-opacity: 0.22 !important;
-      fill: #0284c7 !important;
-      stroke: #0284c7 !important;
-      stroke-width: 2 !important;
-    }
-    .geom-point:hover, .geom-point.highlight {
-      r: 5 !important;
-      fill: #0284c7 !important;
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 5.5 !important;
+      fill: #ef4444 !important;
       stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
     }
   </style>
 
   <!-- Background -->
   <rect width="100%" height="100%" fill="#ffffff" />
 
-  <!-- LEFT FIGURE: Cantor and Allman outward squares -->
-  <!-- Polygons -->
-  <!-- Central triangle -->
-  <polygon class="geom-polygon" points="88,48 50,85 126,85" data-ref="central_triangle" />
-  <!-- Bottom square on hypotenuse -->
-  <polygon class="geom-polygon" points="50,85 126,85 126,159 50,159" data-ref="hypotenuse_square" />
-  <!-- Left square -->
-  <polygon class="geom-polygon" points="88,48 50,85 13,48 51,10" data-ref="left_square" />
-  <!-- Right square -->
-  <polygon class="geom-polygon" points="88,48 126,85 163,48 125,10" data-ref="right_square" />
+  <!-- Base Construction Elements -->
+  <g id="elements">
+    <line id="el-line-FK" data-ref="[ F K ]" data-type="line" x1="13" y1="48" x2="163" y2="48" class="geom-line" />
+    <line id="el-line-FE" data-ref="[ F E ]" data-type="line" x1="13" y1="48" x2="126" y2="159" class="geom-line" />
+    <line id="el-line-DK" data-ref="[ D K ]" data-type="line" x1="50" y1="159" x2="163" y2="48" class="geom-line" />
+    <line id="el-line-CG" data-ref="[ C G ]" data-type="line" x1="126" y1="85" x2="51" y2="10" class="geom-line" />
+    <line id="el-line-BH" data-ref="[ B H ]" data-type="line" x1="50" y1="85" x2="125" y2="10" class="geom-line" />
+  </g>
 
-  <!-- Lines of Left Figure -->
-  <!-- Continuous horizontal line across top squares -->
-  <line class="geom-line" x1="13" y1="48" x2="163" y2="48" data-ref="top_horizontal" />
-  <!-- Long diagonal 1: through left outer corner, central hypotenuse left, center of bottom square, bottom right -->
-  <line class="geom-line" x1="13" y1="48" x2="126" y2="159" data-ref="diagonal_descending" />
-  <!-- Long diagonal 2: from bottom left, through central hypotenuse right, to right outer corner -->
-  <line class="geom-line" x1="50" y1="159" x2="163" y2="48" data-ref="diagonal_ascending" />
-  <!-- Diagonal through apex to top left -->
-  <line class="geom-line" x1="126" y1="85" x2="51" y2="10" data-ref="diagonal_to_tl" />
-  <!-- Diagonal through apex to top right -->
-  <line class="geom-line" x1="50" y1="85" x2="125" y2="10" data-ref="diagonal_to_tr" />
-  <!-- Outer roof slopes -->
-  <line class="geom-line" x1="13" y1="48" x2="51" y2="10" data-ref="roof_left" />
-  <line class="geom-line" x1="125" y1="10" x2="163" y2="48" data-ref="roof_right" />
-  <!-- Hypotenuse line -->
-  <line class="geom-line" x1="50" y1="85" x2="126" y2="85" data-ref="hypotenuse_base" />
-  <!-- Bottom square outer vertical sides -->
-  <line class="geom-line" x1="50" y1="85" x2="50" y2="159" data-ref="bottom_left_side" />
-  <line class="geom-line" x1="126" y1="85" x2="126" y2="159" data-ref="bottom_right_side" />
-  <!-- Bottom square bottom horizontal -->
-  <line class="geom-line" x1="50" y1="159" x2="126" y2="159" data-ref="bottom_side" />
+  <!-- Constructed Graphics (Polygons & Segments) -->
+  <g id="graphics">
+    <!-- Left Figure: Cantor and Allman Outward Squares and Dissected Triangles -->
+    <polygon id="el-tri-ABC" data-ref="&lt; A B C &gt;" data-type="polygon" points="88,48 50,85 126,85" class="geom-polygon" />
+    <polygon id="el-sq-BDEC" data-ref="&lt; B D E C &gt;" data-type="polygon" points="50,85 50,159 126,159 126,85" class="geom-polygon" />
+    <polygon id="el-sq-BAGF" data-ref="&lt; B A G F &gt;" data-type="polygon" points="50,85 88,48 51,10 13,48" class="geom-polygon" />
+    <polygon id="el-sq-ACKH" data-ref="&lt; A C K H &gt;" data-type="polygon" points="88,48 126,85 163,48 125,10" class="geom-polygon" />
+    <polygon id="el-tri-BCM" data-ref="&lt; B C M &gt;" data-type="polygon" points="50,85 126,85 88,122" class="geom-polygon" />
+    <polygon id="el-tri-BDM" data-ref="&lt; B D M &gt;" data-type="polygon" points="50,85 50,159 88,122" class="geom-polygon" />
+    <polygon id="el-tri-DEM" data-ref="&lt; D E M &gt;" data-type="polygon" points="50,159 126,159 88,122" class="geom-polygon" />
+    <polygon id="el-tri-CEM" data-ref="&lt; C E M &gt;" data-type="polygon" points="126,85 126,159 88,122" class="geom-polygon" />
+    <polygon id="el-tri-ABF" data-ref="&lt; A B F &gt;" data-type="polygon" points="88,48 50,85 13,48" class="geom-polygon" />
+    <polygon id="el-tri-AFG" data-ref="&lt; A F G &gt;" data-type="polygon" points="88,48 13,48 51,10" class="geom-polygon" />
+    <polygon id="el-tri-ACK" data-ref="&lt; A C K &gt;" data-type="polygon" points="88,48 126,85 163,48" class="geom-polygon" />
+    <polygon id="el-tri-AKH" data-ref="&lt; A K H &gt;" data-type="polygon" points="88,48 163,48 125,10" class="geom-polygon" />
 
-  <!-- Points of Left Figure -->
-  <circle class="geom-point" cx="88" cy="48" r="3" data-ref="L_apex" />
-  <circle class="geom-point" cx="50" cy="85" r="3" data-ref="L_hyp_L" />
-  <circle class="geom-point" cx="126" cy="85" r="3" data-ref="L_hyp_R" />
-  <circle class="geom-point" cx="50" cy="159" r="3" data-ref="L_bot_L" />
-  <circle class="geom-point" cx="126" cy="159" r="3" data-ref="L_bot_R" />
-  <circle class="geom-point" cx="13" cy="48" r="3" data-ref="L_TL_outer" />
-  <circle class="geom-point" cx="51" cy="10" r="3" data-ref="L_TL_top" />
-  <circle class="geom-point" cx="125" cy="10" r="3" data-ref="L_TR_top" />
-  <circle class="geom-point" cx="163" cy="48" r="3" data-ref="L_TR_outer" />
-  <circle class="geom-point" cx="88" cy="122" r="3" data-ref="L_center" />
+    <!-- Right Figure: Bürk / Āpastamba-Śulba-Sūtra Squares and Triangles -->
+    <polygon id="el-sq-PQRS" data-ref="&lt; P Q R S &gt;" data-type="polygon" points="220,24 329,24 329,130 220,130" class="geom-polygon" />
+    <polygon id="el-sq-TUVW" data-ref="&lt; T U V W &gt;" data-type="polygon" points="275,24 329,77 275,130 220,77" class="geom-polygon" />
+    <polygon id="el-tri-TUX" data-ref="&lt; T U X &gt;" data-type="polygon" points="275,24 329,77 275,77" class="geom-polygon" />
+    <polygon id="el-tri-UVX" data-ref="&lt; U V X &gt;" data-type="polygon" points="329,77 275,130 275,77" class="geom-polygon" />
+    <polygon id="el-tri-VWX" data-ref="&lt; V W X &gt;" data-type="polygon" points="275,130 220,77 275,77" class="geom-polygon" />
+    <polygon id="el-tri-WTX" data-ref="&lt; W T X &gt;" data-type="polygon" points="220,77 275,24 275,77" class="geom-polygon" />
+    <polygon id="el-tri-PTW" data-ref="&lt; P T W &gt;" data-type="polygon" points="220,24 275,24 220,77" class="geom-polygon" />
+    <polygon id="el-tri-TQU" data-ref="&lt; T Q U &gt;" data-type="polygon" points="275,24 329,24 329,77" class="geom-polygon" />
+    <polygon id="el-tri-URV" data-ref="&lt; U R V &gt;" data-type="polygon" points="329,77 329,130 275,130" class="geom-polygon" />
+    <polygon id="el-tri-WVS" data-ref="&lt; W V S &gt;" data-type="polygon" points="220,77 275,130 220,130" class="geom-polygon" />
 
-  <!-- RIGHT FIGURE: Bürk / Āpastamba-Śulba-Sūtra inscribed square -->
-  <!-- Polygons -->
-  <!-- Outer square -->
-  <polygon class="geom-polygon" points="220,24 329,24 329,130 220,130" data-ref="burk_outer_square" />
-  <!-- Inscribed tilted square -->
-  <polygon class="geom-polygon" points="275,24 329,77 275,130 220,77" data-ref="burk_inscribed_square" />
+    <!-- Segments of Left Figure -->
+    <line id="el-seg-AB" data-ref="/ A B /" data-type="segment" x1="88" y1="48" x2="50" y2="85" class="geom-line" />
+    <line id="el-seg-AC" data-ref="/ A C /" data-type="segment" x1="88" y1="48" x2="126" y2="85" class="geom-line" />
+    <line id="el-seg-BC" data-ref="/ B C /" data-type="segment" x1="50" y1="85" x2="126" y2="85" class="geom-line" />
+    <line id="el-seg-BD" data-ref="/ B D /" data-type="segment" x1="50" y1="85" x2="50" y2="159" class="geom-line" />
+    <line id="el-seg-DE" data-ref="/ D E /" data-type="segment" x1="50" y1="159" x2="126" y2="159" class="geom-line" />
+    <line id="el-seg-CE" data-ref="/ C E /" data-type="segment" x1="126" y1="85" x2="126" y2="159" class="geom-line" />
+    <line id="el-seg-BE" data-ref="/ B E /" data-type="segment" x1="50" y1="85" x2="126" y2="159" class="geom-line" />
+    <line id="el-seg-CD" data-ref="/ C D /" data-type="segment" x1="126" y1="85" x2="50" y2="159" class="geom-line" />
+    <line id="el-seg-BF" data-ref="/ B F /" data-type="segment" x1="50" y1="85" x2="13" y2="48" class="geom-line" />
+    <line id="el-seg-FG" data-ref="/ F G /" data-type="segment" x1="13" y1="48" x2="51" y2="10" class="geom-line" />
+    <line id="el-seg-GA" data-ref="/ G A /" data-type="segment" x1="51" y1="10" x2="88" y2="48" class="geom-line" />
+    <line id="el-seg-FA" data-ref="/ F A /" data-type="segment" x1="13" y1="48" x2="88" y2="48" class="geom-line" />
+    <line id="el-seg-AH" data-ref="/ A H /" data-type="segment" x1="88" y1="48" x2="125" y2="10" class="geom-line" />
+    <line id="el-seg-HK" data-ref="/ H K /" data-type="segment" x1="125" y1="10" x2="163" y2="48" class="geom-line" />
+    <line id="el-seg-KC" data-ref="/ K C /" data-type="segment" x1="163" y1="48" x2="126" y2="85" class="geom-line" />
+    <line id="el-seg-AK" data-ref="/ A K /" data-type="segment" x1="88" y1="48" x2="163" y2="48" class="geom-line" />
 
-  <!-- Lines of Right Figure -->
-  <!-- Outer square perimeter -->
-  <line class="geom-line" x1="220" y1="24" x2="329" y2="24" data-ref="R_top" />
-  <line class="geom-line" x1="329" y1="24" x2="329" y2="130" data-ref="R_right" />
-  <line class="geom-line" x1="329" y1="130" x2="220" y2="130" data-ref="R_bottom" />
-  <line class="geom-line" x1="220" y1="130" x2="220" y2="24" data-ref="R_left" />
-  <!-- Midlines -->
-  <line class="geom-line" x1="275" y1="24" x2="275" y2="130" data-ref="R_mid_vert" />
-  <line class="geom-line" x1="220" y1="77" x2="329" y2="77" data-ref="R_mid_horiz" />
-  <!-- Inscribed square edges -->
-  <line class="geom-line" x1="275" y1="24" x2="329" y2="77" data-ref="R_tilted_TR" />
-  <line class="geom-line" x1="329" y1="77" x2="275" y2="130" data-ref="R_tilted_BR" />
-  <line class="geom-line" x1="275" y1="130" x2="220" y2="77" data-ref="R_tilted_BL" />
-  <line class="geom-line" x1="220" y1="77" x2="275" y2="24" data-ref="R_tilted_TL" />
+    <!-- Segments of Right Figure -->
+    <line id="el-seg-PQ" data-ref="/ P Q /" data-type="segment" x1="220" y1="24" x2="329" y2="24" class="geom-line" />
+    <line id="el-seg-QR" data-ref="/ Q R /" data-type="segment" x1="329" y1="24" x2="329" y2="130" class="geom-line" />
+    <line id="el-seg-RS" data-ref="/ R S /" data-type="segment" x1="329" y1="130" x2="220" y2="130" class="geom-line" />
+    <line id="el-seg-SP" data-ref="/ S P /" data-type="segment" x1="220" y1="130" x2="220" y2="24" class="geom-line" />
+    <line id="el-seg-TV" data-ref="/ T V /" data-type="segment" x1="275" y1="24" x2="275" y2="130" class="geom-line" />
+    <line id="el-seg-WU" data-ref="/ W U /" data-type="segment" x1="220" y1="77" x2="329" y2="77" class="geom-line" />
+    <line id="el-seg-TU" data-ref="/ T U /" data-type="segment" x1="275" y1="24" x2="329" y2="77" class="geom-line" />
+    <line id="el-seg-UV" data-ref="/ U V /" data-type="segment" x1="329" y1="77" x2="275" y2="130" class="geom-line" />
+    <line id="el-seg-VW" data-ref="/ V W /" data-type="segment" x1="275" y1="130" x2="220" y2="77" class="geom-line" />
+    <line id="el-seg-WT" data-ref="/ W T /" data-type="segment" x1="220" y1="77" x2="275" y2="24" class="geom-line" />
+  </g>
 
-  <!-- Points of Right Figure -->
-  <circle class="geom-point" cx="220" cy="24" r="3" data-ref="R_TL" />
-  <circle class="geom-point" cx="329" cy="24" r="3" data-ref="R_TR" />
-  <circle class="geom-point" cx="329" cy="130" r="3" data-ref="R_BR" />
-  <circle class="geom-point" cx="220" cy="130" r="3" data-ref="R_BL" />
-  <circle class="geom-point" cx="275" cy="24" r="3" data-ref="R_T_mid" />
-  <circle class="geom-point" cx="329" cy="77" r="3" data-ref="R_R_mid" />
-  <circle class="geom-point" cx="275" cy="130" r="3" data-ref="R_B_mid" />
-  <circle class="geom-point" cx="220" cy="77" r="3" data-ref="R_L_mid" />
-  <circle class="geom-point" cx="275" cy="77" r="3" data-ref="R_center" />
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-tri-ABC" data-ref="&lt; A B C &gt;" points="88,48 50,85 126,85" class="geom-polygon geom-overlay" />
+    <polygon id="hl-sq-BDEC" data-ref="&lt; B D E C &gt;" points="50,85 50,159 126,159 126,85" class="geom-polygon geom-overlay" />
+    <polygon id="hl-sq-BAGF" data-ref="&lt; B A G F &gt;" points="50,85 88,48 51,10 13,48" class="geom-polygon geom-overlay" />
+    <polygon id="hl-sq-ACKH" data-ref="&lt; A C K H &gt;" points="88,48 126,85 163,48 125,10" class="geom-polygon geom-overlay" />
+    <polygon id="hl-sq-PQRS" data-ref="&lt; P Q R S &gt;" points="220,24 329,24 329,130 220,130" class="geom-polygon geom-overlay" />
+    <polygon id="hl-sq-TUVW" data-ref="&lt; T U V W &gt;" points="275,24 329,77 275,130 220,77" class="geom-polygon geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="88" cy="48" r="3" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="50" cy="85" r="3" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="126" cy="85" r="3" class="geom-point" />
+    <circle id="el-pt-D" data-ref="D" data-type="point" cx="50" cy="159" r="3" class="geom-point" />
+    <circle id="el-pt-E" data-ref="E" data-type="point" cx="126" cy="159" r="3" class="geom-point" />
+    <circle id="el-pt-F" data-ref="F" data-type="point" cx="13" cy="48" r="3" class="geom-point" />
+    <circle id="el-pt-G" data-ref="G" data-type="point" cx="51" cy="10" r="3" class="geom-point" />
+    <circle id="el-pt-H" data-ref="H" data-type="point" cx="125" cy="10" r="3" class="geom-point" />
+    <circle id="el-pt-K" data-ref="K" data-type="point" cx="163" cy="48" r="3" class="geom-point" />
+    <circle id="el-pt-M" data-ref="M" data-type="point" cx="88" cy="122" r="3" class="geom-point" />
+    <circle id="el-pt-P" data-ref="P" data-type="point" cx="220" cy="24" r="3" class="geom-point" />
+    <circle id="el-pt-Q" data-ref="Q" data-type="point" cx="329" cy="24" r="3" class="geom-point" />
+    <circle id="el-pt-R" data-ref="R" data-type="point" cx="329" cy="130" r="3" class="geom-point" />
+    <circle id="el-pt-S" data-ref="S" data-type="point" cx="220" cy="130" r="3" class="geom-point" />
+    <circle id="el-pt-T" data-ref="T" data-type="point" cx="275" cy="24" r="3" class="geom-point" />
+    <circle id="el-pt-U" data-ref="U" data-type="point" cx="329" cy="77" r="3" class="geom-point" />
+    <circle id="el-pt-V" data-ref="V" data-type="point" cx="275" cy="130" r="3" class="geom-point" />
+    <circle id="el-pt-W" data-ref="W" data-type="point" cx="220" cy="77" r="3" class="geom-point" />
+    <circle id="el-pt-X" data-ref="X" data-type="point" cx="275" cy="77" r="3" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels" />
 </svg>
