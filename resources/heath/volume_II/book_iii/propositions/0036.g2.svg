@@ -1,79 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 173" width="100%" height="auto" class="euclid-diagram">
-<style>
-.euclid-diagram {
-    display: block;
-    max-width: 100%;
-    margin: 1.5rem auto;
-    background-color: #ffffff;
-}
-.geometry {
-    stroke: #000000;
-    stroke-width: 1.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
-}
-.construction {
-    stroke: #000000;
-    stroke-width: 1.2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-dasharray: 4, 3;
-    fill: none;
-}
-.point {
-    fill: #000000;
-}
-.label {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    font-style: italic;
-    fill: #000000;
-    text-anchor: middle;
-    dominant-baseline: central;
-}
-.interactive {
-    cursor: pointer;
-}
-.interactive:hover .geometry,
-.interactive:hover.geometry,
-.interactive:hover .construction,
-.interactive:hover.construction {
-    stroke: #0284c7;
-    stroke-width: 2.5;
-}
-.interactive:hover .point,
-.interactive:hover.point {
-    fill: #0284c7;
-}
-.interactive:hover .label,
-.interactive:hover.label {
-    fill: #0284c7;
-    font-weight: bold;
-}
-</style>
-<rect width="184" height="173" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 173" width="184" height="173" class="euclid-graphic" data-graphic-id="0036.g2" data-folio="0036" data-graphic="g2" data-proposition="III.12">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-dashed {
+      stroke-dasharray: 3, 3;
+      stroke-width: 1.8;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.6;
+      fill: none;
+      transition: stroke 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 2.5 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 5.5 !important;
+      fill: #ef4444 !important;
+      stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
+    }
+  </style>
 
-<g id="circle-O-prime" class="interactive">
-    <circle cx="92" cy="87" r="73" class="geometry"/>
-</g>
-<g id="circle-O" class="interactive">
-    <circle cx="71" cy="87" r="31" class="geometry"/>
-</g>
-<g id="line-A-prime-O-prime" class="interactive">
-    <line x1="19" y1="87" x2="102" y2="87" class="geometry"/>
-</g>
-<g id="points">
-    <circle cx="19" cy="87" r="2.5" class="point"/>
-    <circle cx="40" cy="87" r="2.5" class="point"/>
-    <circle cx="71" cy="87" r="2.5" class="point"/>
-    <circle cx="92" cy="87" r="2.5" class="point"/>
-</g>
-<g id="labels">
-    <text x="10" y="93" class="label">A'</text>
-    <text x="33" y="95" class="label">A</text>
-    <text x="71" y="99" class="label">O</text>
-    <text x="92" y="99" class="label">O'</text>
-</g>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
 
+  <!-- Base Construction Elements (Circles O' and O, Line [ O' O ]) -->
+  <g id="elements">
+    <circle id="el-circle-Oprime" data-ref="( O' A' )" data-aliases="( O' )" data-type="circle" cx="92" cy="87" r="73" class="geom-circle" />
+    <circle id="el-circle-O" data-ref="( O A )" data-aliases="( O )" data-type="circle" cx="71" cy="87" r="31" class="geom-circle" />
+    <line id="el-line-OprimeO" data-ref="[ O' O ]" data-aliases="[ O O' ]; [ O' A' ]" data-type="line" x1="19" y1="87" x2="92" y2="87" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Constructed Graphics (Collinear Segments along A'-A-O-O') -->
+  <g id="graphics">
+    <line id="el-seg-AprimeA" data-ref="/ A' A /" data-aliases="/ A A' /" data-type="segment" x1="19" y1="87" x2="40" y2="87" class="geom-line geom-dashed" />
+    <line id="el-seg-AO" data-ref="/ O A /" data-aliases="/ A O /; r" data-type="segment" x1="40" y1="87" x2="71" y2="87" class="geom-line geom-dashed" />
+    <line id="el-seg-OOprime" data-ref="/ O O' /" data-aliases="/ O' O /" data-type="segment" x1="71" y1="87" x2="92" y2="87" class="geom-line" />
+
+    <!-- Composite Segments -->
+    <line id="el-seg-OprimeA" data-ref="/ O' A /" data-aliases="/ A O' /" data-type="segment" x1="92" y1="87" x2="40" y2="87" class="geom-line geom-overlay" />
+    <line id="el-seg-OprimeAprime" data-ref="/ O' A' /" data-aliases="/ A' O' /; r'" data-type="segment" x1="92" y1="87" x2="19" y2="87" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <circle id="hl-circle-Oprime" data-ref="( O' A' )" data-aliases="( O' )" cx="92" cy="87" r="73" class="geom-circle geom-overlay" />
+    <circle id="hl-circle-O" data-ref="( O A )" data-aliases="( O )" cx="71" cy="87" r="31" class="geom-circle geom-overlay" />
+    <line id="hl-line-OprimeO" data-ref="[ O' O ]" data-aliases="[ O O' ]; [ O' A' ]" x1="19" y1="87" x2="92" y2="87" class="geom-line geom-overlay" />
+
+    <line id="hl-seg-AprimeA" data-ref="/ A' A /" data-aliases="/ A A' /" x1="19" y1="87" x2="40" y2="87" class="geom-line geom-overlay" />
+    <line id="hl-seg-AO" data-ref="/ O A /" data-aliases="/ A O /; r" x1="40" y1="87" x2="71" y2="87" class="geom-line geom-overlay" />
+    <line id="hl-seg-OOprime" data-ref="/ O O' /" data-aliases="/ O' O /" x1="71" y1="87" x2="92" y2="87" class="geom-line geom-overlay" />
+    <line id="hl-seg-OprimeA" data-ref="/ O' A /" data-aliases="/ A O' /" x1="92" y1="87" x2="40" y2="87" class="geom-line geom-overlay" />
+    <line id="hl-seg-OprimeAprime" data-ref="/ O' A' /" data-aliases="/ A' O' /; r'" x1="92" y1="87" x2="19" y2="87" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-Aprime" data-ref="A'" data-type="point" cx="19" cy="87" r="3.5" class="geom-point" />
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="40" cy="87" r="3.5" class="geom-point" />
+    <circle id="el-pt-O" data-ref="O" data-type="point" cx="71" cy="87" r="3.5" class="geom-point" />
+    <circle id="el-pt-Oprime" data-ref="O'" data-type="point" cx="92" cy="87" r="3.5" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-Aprime" data-ref="A'" x="10" y="96" text-anchor="middle" class="geom-label">A'</text>
+    <text id="lbl-A" data-ref="A" x="33" y="99" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-O" data-ref="O" x="71" y="102" text-anchor="middle" class="geom-label">O</text>
+    <text id="lbl-Oprime" data-ref="O'" x="93" y="102" text-anchor="middle" class="geom-label">O'</text>
+  </g>
 </svg>
