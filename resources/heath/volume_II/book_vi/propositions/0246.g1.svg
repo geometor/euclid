@@ -1,31 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 491 195" width="100%" height="100%" class="euclid-diagram">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 491 195" width="491" height="195" class="euclid-graphic" data-graphic-id="0246.g1" data-folio="0246" data-graphic="g1" data-proposition="VI.21">
   <style>
-    .euclid-diagram { font-family: "Times New Roman", Times, serif; }
-    .geometry { stroke: #000000; stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-    .construction { stroke: #000000; stroke-width: 1.2; stroke-dasharray: 4, 3; fill: none; stroke-linecap: round; }
-    .point { fill: #000000; }
-    .label { font-family: "Times New Roman", Times, serif; font-size: 16px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
-    .label-sub { font-family: "Times New Roman", Times, serif; font-size: 11px; font-style: normal; fill: #000000; }
-    .interactive { cursor: pointer; transition: stroke 0.15s ease, stroke-width 0.15s ease; }
-    .interactive:hover { stroke: #0284c7; stroke-width: 2.5; }
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: #000000;
+      stroke-width: 2.0;
+      stroke-linejoin: round;
+      transition: fill-opacity 0.15s, stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 2.5 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 5.5 !important;
+      fill: #ef4444 !important;
+      stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
+    }
   </style>
-  <rect width="491" height="195" fill="#ffffff"/>
-  <polygon points="16,48 166,86 179,153 52,153" class="geometry interactive"/>
-  <circle cx="16" cy="48" r="2.5" class="point"/>
-  <circle cx="166" cy="86" r="2.5" class="point"/>
-  <circle cx="179" cy="153" r="2.5" class="point"/>
-  <circle cx="52" cy="153" r="2.5" class="point"/>
-  <text x="105" y="112" class="label">A</text>
-  <polygon points="231,86 328,112 336,154 254,154" class="geometry interactive"/>
-  <circle cx="231" cy="86" r="2.5" class="point"/>
-  <circle cx="328" cy="112" r="2.5" class="point"/>
-  <circle cx="336" cy="154" r="2.5" class="point"/>
-  <circle cx="254" cy="154" r="2.5" class="point"/>
-  <text x="288" y="128" class="label">B</text>
-  <polygon points="397,102 468,121 474,154 415,154" class="geometry interactive"/>
-  <circle cx="397" cy="102" r="2.5" class="point"/>
-  <circle cx="468" cy="121" r="2.5" class="point"/>
-  <circle cx="474" cy="154" r="2.5" class="point"/>
-  <circle cx="415" cy="154" r="2.5" class="point"/>
-  <text x="440" y="134" class="label">C</text>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements -->
+  <g id="elements">
+  </g>
+
+  <!-- Constructed Graphics (Standalone Similar Figures A, B, C) -->
+  <g id="graphics">
+    <polygon id="el-poly-A" data-ref="A" data-aliases="&lt; A &gt;;/ A /" data-type="polygon" points="16.0,48.0 166.0,86.0 179.0,153.0 52.0,153.0" class="geom-polygon" />
+    <polygon id="el-poly-B" data-ref="B" data-aliases="&lt; B &gt;;/ B /" data-type="polygon" points="231.0,86.0 328.0,112.0 336.0,154.0 254.0,154.0" class="geom-polygon" />
+    <polygon id="el-poly-C" data-ref="C" data-aliases="&lt; C &gt;;/ C /" data-type="polygon" points="397.0,102.0 468.0,121.0 474.0,154.0 415.0,154.0" class="geom-polygon" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-poly-A" data-ref="A" data-aliases="&lt; A &gt;;/ A /" points="16.0,48.0 166.0,86.0 179.0,153.0 52.0,153.0" class="geom-polygon geom-overlay" />
+    <polygon id="hl-poly-B" data-ref="B" data-aliases="&lt; B &gt;;/ B /" points="231.0,86.0 328.0,112.0 336.0,154.0 254.0,154.0" class="geom-polygon geom-overlay" />
+    <polygon id="hl-poly-C" data-ref="C" data-aliases="&lt; C &gt;;/ C /" points="397.0,102.0 468.0,121.0 474.0,154.0 415.0,154.0" class="geom-polygon geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-A" data-ref="A" data-aliases="&lt; A &gt;;/ A /" x="105.0" y="117.0" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-B" data-ref="B" data-aliases="&lt; B &gt;;/ B /" x="288.0" y="133.0" text-anchor="middle" class="geom-label">B</text>
+    <text id="lbl-C" data-ref="C" data-aliases="&lt; C &gt;;/ C /" x="440.0" y="139.0" text-anchor="middle" class="geom-label">C</text>
+  </g>
 </svg>
