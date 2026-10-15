@@ -36,63 +36,90 @@
   svg.euclid-graphic .geom-overlay,
   svg.euclid-graphic #highlights > * {
     opacity: 0;
-    transition: opacity 0.12s ease, stroke 0.12s ease, stroke-width 0.12s ease, fill-opacity 0.12s ease;
+    transition: opacity 0.12s ease, stroke 0.12s ease, fill-opacity 0.12s ease;
   }
 
-  /* Active Highlight in SVG: Turning elements RED and toggling overlays ON */
+  /* Active Highlight in SVG: Change color to RED without glow or overstroke */
+  svg.euclid-graphic [data-ref]:hover,
+  svg.euclid-graphic .highlight,
   svg.euclid-graphic .geom-highlight-active {
     opacity: 1 !important;
     stroke: #ef4444 !important;
     stroke-opacity: 1 !important;
-    stroke-width: 3.5px !important;
+    filter: none !important;
     cursor: pointer;
-    transition: opacity 0.1s ease, stroke 0.1s ease, stroke-width 0.1s ease;
+    transition: opacity 0.1s ease, stroke 0.1s ease;
   }
 
+  svg.euclid-graphic polygon:hover,
+  svg.euclid-graphic polygon.highlight,
   svg.euclid-graphic polygon.geom-highlight-active,
   svg.euclid-graphic path.polygon.geom-highlight-active,
+  svg.euclid-graphic path.geom-polygon.geom-highlight-active,
   svg.euclid-graphic path.wedge.geom-highlight-active,
   svg.euclid-graphic path.angle.geom-highlight-active {
     opacity: 1 !important;
     fill: #ef4444 !important;
-    fill-opacity: 0.24 !important;
+    fill-opacity: 0.22 !important;
     stroke: #ef4444 !important;
     stroke-opacity: 1 !important;
-    stroke-width: 2.5px !important;
+    stroke-width: 1.5px !important;
+    filter: none !important;
   }
 
+  svg.euclid-graphic circle.geom-point:hover,
+  svg.euclid-graphic circle.point:hover,
+  svg.euclid-graphic #points circle:hover,
   svg.euclid-graphic circle.geom-point.geom-highlight-active,
-  svg.euclid-graphic circle.point.geom-highlight-active {
+  svg.euclid-graphic circle.point.geom-highlight-active,
+  svg.euclid-graphic #points circle.geom-highlight-active {
     opacity: 1 !important;
-    r: 5.5px !important;
     fill: #ef4444 !important;
     fill-opacity: 1 !important;
-    stroke: #ffffff !important;
-    stroke-width: 1.5px !important;
+    stroke: none !important;
+    stroke-width: 0 !important;
+    filter: none !important;
   }
 
+  svg.euclid-graphic text:hover,
+  svg.euclid-graphic text.highlight,
+  svg.euclid-graphic text.geom-highlight-active,
+  svg.euclid-graphic text.geom-highlight-Active *,
+  svg.euclid-graphic text.geom-highlight-active tspan,
   svg.euclid-graphic text.geom-label.geom-highlight-active,
   svg.euclid-graphic text.label.geom-highlight-active {
     opacity: 1 !important;
     fill: #ef4444 !important;
-    font-weight: 900 !important;
+    stroke: none !important;
+    stroke-width: 0 !important;
+    filter: none !important;
   }
 
   /* Secondary highlight for endpoints/labels when a segment, angle, or polygon is hovered */
   svg.euclid-graphic .geom-highlight-secondary {
     opacity: 1 !important;
-    fill: #ef4444 !important;
     stroke: #ef4444 !important;
-    font-weight: bold !important;
-    transition: all 0.1s ease;
+    filter: none !important;
+    transition: opacity 0.1s ease, stroke 0.1s ease, fill 0.1s ease;
+  }
+  svg.euclid-graphic text.geom-highlight-secondary,
+  svg.euclid-graphic text.geom-highlight-secondary tspan,
+  svg.euclid-graphic tspan.geom-highlight-secondary {
+    opacity: 1 !important;
+    fill: #ef4444 !important;
+    stroke: none !important;
+    stroke-width: 0 !important;
+    filter: none !important;
   }
   svg.euclid-graphic circle.geom-point.geom-highlight-secondary,
-  svg.euclid-graphic circle.point.geom-highlight-secondary {
+  svg.euclid-graphic circle.point.geom-highlight-secondary,
+  svg.euclid-graphic #points circle.geom-highlight-secondary {
     opacity: 1 !important;
-    r: 4.5px !important;
     fill: #ef4444 !important;
     fill-opacity: 1 !important;
-    stroke: #ffffff !important;
+    stroke: none !important;
+    stroke-width: 0 !important;
+    filter: none !important;
   }
 
   /* Inline Figure Wrapper in Book Page */
@@ -1981,11 +2008,22 @@
       const parsed = this.parseGeometorRef(rawRef, defaultGraphicId);
       if (!parsed) return { primary: [], secondary: [] };
 
-      const matches = new Set();
+      const rawMatches = [];
       parsed.keys.forEach(k => {
         if (this.svgRefMap.has(k)) {
-          this.svgRefMap.get(k).forEach(el => matches.add(el));
+          this.svgRefMap.get(k).forEach(el => rawMatches.push(el));
         }
+      });
+
+      const hasVisiblePrimary = rawMatches.some(el => !el.closest('#highlights') && !el.classList.contains('geom-overlay'));
+      const matches = new Set();
+      rawMatches.forEach(el => {
+        if (hasVisiblePrimary && (el.closest('#highlights') || el.classList.contains('geom-overlay'))) {
+          const tag = el.tagName.toLowerCase();
+          const isRegionOrWedge = tag === 'polygon' || el.classList.contains('wedge') || el.classList.contains('angle') || el.classList.contains('geom-polygon');
+          if (!isRegionOrWedge) return;
+        }
+        matches.add(el);
       });
 
       // Secondary highlight for constituent points/labels within the same graphic
@@ -1994,7 +2032,7 @@
         parsed.pointKeys.forEach(pk => {
           if (this.svgRefMap.has(pk)) {
             this.svgRefMap.get(pk).forEach(el => {
-              if (!matches.has(el)) secondary.add(el);
+              if (!matches.has(el) && !el.closest('#highlights')) secondary.add(el);
             });
           }
         });
