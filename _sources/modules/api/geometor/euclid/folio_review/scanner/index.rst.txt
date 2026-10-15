@@ -25,11 +25,18 @@ Functions
 
 .. autoapisummary::
 
+   geometor.euclid.folio_review.scanner.escape_angle_brackets_in_attrs
    geometor.euclid.folio_review.scanner.fix_relative_media_urls
 
 
 Module Contents
 ---------------
+
+.. py:function:: escape_angle_brackets_in_attrs(md_text: str) -> str
+
+   Escape raw < and > inside data-* HTML attribute values (e.g. data-ref="...< A B C >...")
+   so Python-Markdown's inline HTML parser recognizes the enclosing <span> tag.
+
 
 .. py:function:: fix_relative_media_urls(html: str, volume: str, section_path: str) -> str
 

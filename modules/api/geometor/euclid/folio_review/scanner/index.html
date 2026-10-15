@@ -34,13 +34,13 @@
           <a href="../../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
-          <a href="../../../../../../heath/index.html"  >Heath</a>
+          <a href="../../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../../../log/index.html"  >logs</a>
         </li>
         <li>
-          <a href="../../../../../../usage/index.html"  >usage</a>
+          <a href="../../../../../../heath/index.html"  >Heath</a>
         </li>
         <li>
           <a href="../../../../../index.html"  >modules</a>
@@ -94,7 +94,10 @@
           <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.scanner.fix_relative_media_urls" title="geometor.euclid.folio_review.scanner.fix_relative_media_urls"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fix_relative_media_urls</span></code></a>(→ str)</p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.scanner.escape_angle_brackets_in_attrs" title="geometor.euclid.folio_review.scanner.escape_angle_brackets_in_attrs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">escape_angle_brackets_in_attrs</span></code></a>(→ str)</p></td>
+          <td><p>Escape raw &lt; and &gt; inside data-* HTML attribute values (e.g. data-ref=&quot;...&lt; A B C &gt;...&quot;)</p></td>
+          </tr>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.scanner.fix_relative_media_urls" title="geometor.euclid.folio_review.scanner.fix_relative_media_urls"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fix_relative_media_urls</span></code></a>(→ str)</p></td>
           <td><p>Rewrite relative image paths (e.g. src=&quot;0225.g1.png&quot;) to /media/{volume}/{section_path}/{filename}.</p></td>
           </tr>
           </tbody>
@@ -102,6 +105,13 @@
           </section>
           <section id="module-contents">
           <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+          <dl class="py function">
+          <dt class="sig sig-object py" id="geometor.euclid.folio_review.scanner.escape_angle_brackets_in_attrs">
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.scanner.</span></span><span class="sig-name descname"><span class="pre">escape_angle_brackets_in_attrs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">md_text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.euclid.folio_review.scanner.escape_angle_brackets_in_attrs" title="Link to this definition">¶</a></dt>
+          <dd><p>Escape raw &lt; and &gt; inside data-* HTML attribute values (e.g. data-ref=”…&lt; A B C &gt;…”)
+          so Python-Markdown’s inline HTML parser recognizes the enclosing &lt;span&gt; tag.</p>
+          </dd></dl>
+
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.folio_review.scanner.fix_relative_media_urls">
           <span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.scanner.</span></span><span class="sig-name descname"><span class="pre">fix_relative_media_urls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">html</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">section_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.euclid.folio_review.scanner.fix_relative_media_urls" title="Link to this definition">¶</a></dt>
