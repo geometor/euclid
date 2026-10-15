@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 45" width="165" height="45" class="euclid-graphic" data-folio="0393" data-graphic="g2" data-proposition="II.4">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 45" width="165" height="45" class="euclid-graphic" data-graphic-id="0393.g2" data-folio="0393" data-graphic="g2" data-proposition="II.4">
   <style>
     .euclid-graphic {
       font-family: 'Times New Roman', 'Georgia', serif;
@@ -22,35 +22,62 @@
       fill: #000000;
       user-select: none;
     }
-    [data-ref]:hover, .highlight {
-      stroke: #0284c7 !important;
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
       stroke-width: 3.5 !important;
       cursor: pointer;
     }
-    text[data-ref]:hover, text.highlight {
-      fill: #0284c7 !important;
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active {
+      fill: #ef4444 !important;
       stroke: none !important;
     }
-    .geom-point:hover, .geom-point.highlight {
-      r: 5 !important;
-      fill: #0284c7 !important;
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 5.5 !important;
+      fill: #ef4444 !important;
       stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
     }
   </style>
 
   <!-- Background -->
   <rect width="100%" height="100%" fill="#ffffff" />
 
-  <!-- Segment AB with internal point C -->
-  <line id="el-seg-AB" data-ref="AB" data-type="segment" x1="27" y1="24.5" x2="151" y2="24.5" class="geom-line" />
+  <!-- Base Construction Elements -->
+  <g id="elements">
+    <line id="el-line-AB" data-ref="[ A B ]" data-aliases="/ A C B /" data-type="line" x1="27.0" y1="24.5" x2="151.0" y2="24.5" class="geom-line" />
+  </g>
+
+  <!-- Constructed Graphics (Segments AB, AC, CB) -->
+  <g id="graphics">
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /;/ A C B /" data-type="segment" x1="27.0" y1="24.5" x2="151.0" y2="24.5" class="geom-line" />
+    <line id="el-seg-AC" data-ref="/ A C /" data-aliases="/ C A /" data-type="segment" x1="27.0" y1="24.5" x2="77.0" y2="24.5" class="geom-line" />
+    <line id="el-seg-CB" data-ref="/ B C /" data-aliases="/ C B /" data-type="segment" x1="77.0" y1="24.5" x2="151.0" y2="24.5" class="geom-line" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /;/ A C B /" x1="27.0" y1="24.5" x2="151.0" y2="24.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-AC" data-ref="/ A C /" data-aliases="/ C A /" x1="27.0" y1="24.5" x2="77.0" y2="24.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-CB" data-ref="/ B C /" data-aliases="/ C B /" x1="77.0" y1="24.5" x2="151.0" y2="24.5" class="geom-line geom-overlay" />
+  </g>
 
   <!-- Points -->
-  <circle id="el-pt-A" data-ref="A" data-type="point" cx="27" cy="24.5" r="3.5" class="geom-point" />
-  <circle id="el-pt-C" data-ref="C" data-type="point" cx="77" cy="24.5" r="3.5" class="geom-point" />
-  <circle id="el-pt-B" data-ref="B" data-type="point" cx="151" cy="24.5" r="3.5" class="geom-point" />
+  <g id="points">
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="27.0" cy="24.5" r="3.5" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="77.0" cy="24.5" r="3.5" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="151.0" cy="24.5" r="3.5" class="geom-point" />
+  </g>
 
   <!-- Labels -->
-  <text id="lbl-A" data-ref="A" x="27" y="16" text-anchor="middle" class="geom-label">A</text>
-  <text id="lbl-C" data-ref="C" x="77" y="16" text-anchor="middle" class="geom-label">C</text>
-  <text id="lbl-B" data-ref="B" x="151" y="16" text-anchor="middle" class="geom-label">B</text>
+  <g id="labels">
+    <text id="lbl-A" data-ref="A" x="27.0" y="16.0" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-C" data-ref="C" x="77.0" y="16.0" text-anchor="middle" class="geom-label">C</text>
+    <text id="lbl-B" data-ref="B" x="151.0" y="16.0" text-anchor="middle" class="geom-label">B</text>
+  </g>
 </svg>
