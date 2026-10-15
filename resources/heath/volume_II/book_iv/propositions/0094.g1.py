@@ -1,0 +1,105 @@
+"""Programmatic construction for Book IV, Proposition 5 (0094.g1)."""
+
+from __future__ import annotations
+
+from geometor.model import Model
+
+
+def construct_0094_g1() -> Model:
+    """Construct the figure 0094.g1 (three cases) using geometor.model."""
+    model = Model("0094.g1")
+
+    # Case 1: Acute triangle (F inside ABC)
+    A1 = model.set_point(102.55, -36.80, classes=["given"], label="A")
+    B1 = model.set_point(31.36, -134.79, classes=["given"], label="B")
+    C1 = model.set_point(130.64, -134.79, classes=["given"], label="C")
+    D1 = model.set_point(66.95, -85.79, label="D")
+    E1 = model.set_point(116.60, -85.79, label="E")
+    F1 = model.set_point(81.00, -96.00, label="F")
+
+    model.construct_circle(F1, A1)
+    model.set_polygon([A1, B1, C1])
+    model.set_polygon([A1, D1, E1])
+    model.set_segment(A1, B1)
+    model.set_segment(B1, C1)
+    model.set_segment(C1, A1)
+    model.set_segment(A1, D1)
+    model.set_segment(D1, B1)
+    model.set_segment(A1, E1)
+    model.set_segment(E1, C1)
+    model.set_segment(D1, E1)
+    model.set_segment(D1, F1)
+    model.set_segment(E1, F1)
+    model.set_segment(F1, A1)
+    model.set_segment(F1, B1)
+    model.set_segment(F1, C1)
+    model.set_section([A1, D1, B1])
+    model.set_section([A1, E1, C1])
+    model.set_wedge(A1, B1, B1, C1)
+    model.set_wedge(D1, E1, E1, F1)
+    model.set_wedge(E1, D1, D1, F1)
+    model.set_wedge(D1, A1, A1, F1)
+    model.set_wedge(E1, A1, A1, F1)
+    model.set_wedge(D1, A1, A1, E1)
+    model.set_wedge(E1, A1, A1, D1)
+    model.set_wedge(B1, A1, A1, C1)
+    model.set_wedge(C1, A1, A1, B1)
+
+    # Case 2: Right-angled triangle (F on BC)
+    A2 = model.set_point(326.79, -45.36, classes=["given"], label="A2")
+    B2 = model.set_point(225.00, -95.00, classes=["given"], label="B2")
+    C2 = model.set_point(351.00, -95.00, classes=["given"], label="C2")
+    D2 = model.set_point(275.89, -70.18, label="D2")
+    E2 = model.set_point(338.89, -70.18, label="E2")
+    F2 = model.set_point(288.00, -95.00, label="F2")
+
+    model.construct_circle(F2, A2)
+    model.set_polygon([A2, B2, C2])
+    model.set_segment(A2, B2)
+    model.set_segment(B2, C2)
+    model.set_segment(C2, A2)
+    model.set_segment(A2, D2)
+    model.set_segment(D2, B2)
+    model.set_segment(A2, E2)
+    model.set_segment(E2, C2)
+    model.set_segment(D2, F2)
+    model.set_segment(E2, F2)
+    model.set_segment(F2, A2)
+    model.set_segment(F2, B2)
+    model.set_segment(F2, C2)
+    model.set_section([A2, D2, B2])
+    model.set_section([A2, E2, C2])
+    model.set_section([B2, F2, C2])
+    model.set_wedge(A2, B2, B2, C2)
+
+    # Case 3: Obtuse triangle (F outside ABC)
+    A3 = model.set_point(499.94, -27.96, classes=["given"], label="A3")
+    B3 = model.set_point(427.87, -74.76, classes=["given"], label="B3")
+    C3 = model.set_point(550.13, -74.76, classes=["given"], label="C3")
+    D3 = model.set_point(463.91, -51.36, label="D3")
+    E3 = model.set_point(525.03, -51.36, label="E3")
+    F3 = model.set_point(489.00, -90.00, label="F3")
+
+    model.construct_circle(F3, A3)
+    model.set_polygon([A3, B3, C3])
+    model.set_segment(A3, B3)
+    model.set_segment(B3, C3)
+    model.set_segment(C3, A3)
+    model.set_segment(A3, D3)
+    model.set_segment(D3, B3)
+    model.set_segment(A3, E3)
+    model.set_segment(E3, C3)
+    model.set_segment(D3, F3)
+    model.set_segment(E3, F3)
+    model.set_segment(F3, A3)
+    model.set_segment(F3, B3)
+    model.set_segment(F3, C3)
+    model.set_section([A3, D3, B3])
+    model.set_section([A3, E3, C3])
+    model.set_wedge(A3, B3, B3, C3)
+
+    return model
+
+
+if __name__ == "__main__":
+    construct_0094_g1()
