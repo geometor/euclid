@@ -1,21 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 95" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 95" width="100%" height="100%" class="euclid-graphic" data-graphic-id="0054.g2" data-folio="0054" data-graphic="g2" data-proposition="X.21.lemma">
   <style>
-    .bg { fill: #ffffff; }
-    .line { stroke: #000000; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-    .dashed { stroke: #000000; stroke-width: 1.5; stroke-dasharray: 4,3; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-    .tick { stroke: #000000; stroke-width: 1.5; stroke-linecap: round; }
-    .el { cursor: pointer; transition: stroke 0.15s ease; }
-    .el:hover .line, .el:hover .dashed, .el:hover .tick { stroke: #0284c7; stroke-width: 2.5; }
-    .el:hover .lbl { fill: #0284c7; }
-    .lbl { font-family: "Times New Roman", Times, Georgia, serif; font-size: 15px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    .euclid-graphic {
+      font-family: "Times New Roman", Times, Georgia, serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.75;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s ease, stroke-width 0.15s ease;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.03;
+      stroke: none;
+      transition: fill-opacity 0.15s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      fill: #000000;
+      text-anchor: middle;
+      dominant-baseline: central;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 3.0 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 2.2 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 4.5 !important;
+      fill: #ef4444 !important;
+      stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
+    }
   </style>
-  <rect class="bg" width="230" height="95" />
-  <g class="el" data-name="FEGD">
-    <rect class="line" x="18.0" y="22.5" width="194.0" height="53.5" />
-    <line class="line" x1="72.5" y1="22.5" x2="72.5" y2="76.0" />
-    <text class="lbl" x="18.0" y="12.0">F</text>
-    <text class="lbl" x="72.5" y="12.0">E</text>
-    <text class="lbl" x="212.0" y="12.0">G</text>
-    <text class="lbl" x="72.5" y="86.0">D</text>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements -->
+  <g id="elements">
+    <line id="el-line-FG" data-ref="[ F G ]" data-aliases="[ G F ]" data-type="line" x1="18.0" y1="22.5" x2="212.0" y2="22.5" class="geom-line" />
+    <line id="el-line-FbGb" data-ref="[ F_b G_b ]" data-type="line" x1="18.0" y1="76.0" x2="212.0" y2="76.0" class="geom-line" />
+    <line id="el-line-FFb" data-ref="[ F F_b ]" data-type="line" x1="18.0" y1="22.5" x2="18.0" y2="76.0" class="geom-line" />
+    <line id="el-line-ED" data-ref="[ E D ]" data-aliases="[ D E ]" data-type="line" x1="72.5" y1="22.5" x2="72.5" y2="76.0" class="geom-line" />
+    <line id="el-line-GGb" data-ref="[ G G_b ]" data-type="line" x1="212.0" y1="22.5" x2="212.0" y2="76.0" class="geom-line" />
+  </g>
+
+  <!-- Constructed Graphics (Polygons & Segments) -->
+  <g id="graphics">
+    <polygon id="el-poly-DF" data-ref="&lt; F E D F_b &gt;" data-aliases="&lt; D F &gt; | &lt; F D &gt;" data-type="polygon" points="18.0,22.5 72.5,22.5 72.5,76.0 18.0,76.0" class="geom-polygon" />
+    <polygon id="el-poly-GD" data-ref="&lt; E G G_b D &gt;" data-aliases="&lt; G D &gt; | &lt; D G &gt;" data-type="polygon" points="72.5,22.5 212.0,22.5 212.0,76.0 72.5,76.0" class="geom-polygon" />
+    <line id="el-seg-FE" data-ref="/ F E /" data-aliases="/ E F /" data-type="segment" x1="18.0" y1="22.5" x2="72.5" y2="22.5" class="geom-line" />
+    <line id="el-seg-EG" data-ref="/ E G /" data-aliases="/ G E /" data-type="segment" x1="72.5" y1="22.5" x2="212.0" y2="22.5" class="geom-line" />
+    <line id="el-seg-FG" data-ref="/ F G /" data-aliases="/ G F /" data-type="segment" x1="18.0" y1="22.5" x2="212.0" y2="22.5" class="geom-line geom-overlay" />
+    <line id="el-seg-ED" data-ref="/ E D /" data-aliases="/ D E /" data-type="segment" x1="72.5" y1="22.5" x2="72.5" y2="76.0" class="geom-line" />
+    <line id="el-seg-FFb" data-ref="/ F F_b /" data-type="segment" x1="18.0" y1="22.5" x2="18.0" y2="76.0" class="geom-line" />
+    <line id="el-seg-GGb" data-ref="/ G G_b /" data-type="segment" x1="212.0" y1="22.5" x2="212.0" y2="76.0" class="geom-line" />
+    <line id="el-seg-FbGb" data-ref="/ F_b G_b /" data-type="segment" x1="18.0" y1="76.0" x2="212.0" y2="76.0" class="geom-line" />
+    <polyline id="el-sec-FEG" data-ref="/ F E G /" data-aliases="/ G E F / | } F E G { | } G E F {" data-type="section" points="18.0,22.5 72.5,22.5 212.0,22.5" fill="none" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-poly-DF" data-ref="&lt; F E D F_b &gt;" data-aliases="&lt; D F &gt; | &lt; F D &gt;" points="18.0,22.5 72.5,22.5 72.5,76.0 18.0,76.0" class="geom-polygon geom-overlay" />
+    <polygon id="hl-poly-GD" data-ref="&lt; E G G_b D &gt;" data-aliases="&lt; G D &gt; | &lt; D G &gt;" points="72.5,22.5 212.0,22.5 212.0,76.0 72.5,76.0" class="geom-polygon geom-overlay" />
+    <line id="hl-seg-FE" data-ref="/ F E /" data-aliases="/ E F /" x1="18.0" y1="22.5" x2="72.5" y2="22.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-EG" data-ref="/ E G /" data-aliases="/ G E /" x1="72.5" y1="22.5" x2="212.0" y2="22.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-FG" data-ref="/ F G /" data-aliases="/ G F /" x1="18.0" y1="22.5" x2="212.0" y2="22.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-ED" data-ref="/ E D /" data-aliases="/ D E /" x1="72.5" y1="22.5" x2="72.5" y2="76.0" class="geom-line geom-overlay" />
+    <polyline id="hl-sec-FEG" data-ref="/ F E G /" data-aliases="/ G E F / | } F E G { | } G E F {" points="18.0,22.5 72.5,22.5 212.0,22.5" fill="none" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-F" data-ref="F" data-type="point" cx="18.0" cy="22.5" r="2.2" class="geom-point" />
+    <circle id="el-pt-E" data-ref="E" data-type="point" cx="72.5" cy="22.5" r="2.2" class="geom-point" />
+    <circle id="el-pt-G" data-ref="G" data-type="point" cx="212.0" cy="22.5" r="2.2" class="geom-point" />
+    <circle id="el-pt-D" data-ref="D" data-type="point" cx="72.5" cy="76.0" r="2.2" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-F" data-ref="F" x="18.0" y="12.0" class="geom-label">F</text>
+    <text id="lbl-E" data-ref="E" x="72.5" y="12.0" class="geom-label">E</text>
+    <text id="lbl-G" data-ref="G" x="212.0" y="12.0" class="geom-label">G</text>
+    <text id="lbl-D" data-ref="D" x="72.5" y="86.0" class="geom-label">D</text>
   </g>
 </svg>
