@@ -141,11 +141,29 @@
     background: #ecfdf5;
     font-weight: 600;
   }
+  .euclid-figure-container.python-mode {
+    min-width: 340px;
+    max-width: 62%;
+  }
   .euclid-figure-container .figure-svg-wrapper svg {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+  .euclid-figure-container .figure-python-wrapper {
+    background: #09090b;
+    color: #e4e4e7;
+    border-radius: 6px;
+    border: 1px solid #27272a;
+    padding: 8px 10px;
+    max-height: 300px;
+    overflow: auto;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 10.5px;
+    line-height: 1.5;
+    text-align: left;
+    user-select: text;
   }
   .euclid-figure-container .figure-caption {
     font-size: 11px;
@@ -613,7 +631,7 @@
                   <!-- Normal Crop -->
                   <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between">
                     <div>
-                      <div class="text-[11px] font-medium text-zinc-500 mb-1.5 text-left">Scan Crop (Normal)</div>
+                      <div class="text-[11px] font-medium text-zinc-500 mb-1.5 text-left">Scan Crop (Woodcut)</div>
                       {% if g.file_exists %}
                         <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2 border border-zinc-100 dark:border-zinc-800">
                           <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.file }}" alt="{{ g.id }}" class="max-h-48 object-contain">
@@ -631,24 +649,44 @@
                     </div>
                   </div>
 
-                  <!-- Inverted Crop -->
-                  <div class="bg-zinc-900 border border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between">
+                  <!-- Python Construction Script (.py) -->
+                  <div class="bg-zinc-900 border border-zinc-800 rounded-lg p-3 space-y-2 flex flex-col justify-between shadow-sm">
                     <div>
-                      <div class="text-[11px] font-medium text-zinc-400 mb-1.5 text-left">Scan Crop (Dark Inverted)</div>
-                      {% if g.inverted_exists %}
-                        <div class="flex items-center justify-center min-h-[140px] bg-black rounded p-2 border border-zinc-800">
-                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.inverted_file }}" alt="{{ g.id }} Inverted" class="max-h-48 object-contain">
+                      <div class="flex items-center justify-between text-[11px] font-medium mb-1.5">
+                        <span class="text-zinc-200 font-semibold flex items-center gap-1">
+                          <i data-lucide="terminal" class="w-3.5 h-3.5 text-amber-400"></i> Python Construction
+                        </span>
+                        {% if g.py_exists %}
+                          <span class="text-[10px] font-mono text-amber-400 font-semibold">{{ g.py_file }}</span>
+                        {% else %}
+                          <span class="text-[10px] text-zinc-500">None</span>
+                        {% endif %}
+                      </div>
+                      {% if g.py_exists and g.py_content %}
+                        <div class="max-h-48 min-h-[140px] overflow-auto bg-zinc-950 rounded p-2.5 border border-zinc-800 text-left font-mono text-[10.5px] leading-relaxed text-zinc-200 select-text">
+                          <pre class="m-0 whitespace-pre"><code>{{ g.py_content }}</code></pre>
                         </div>
                       {% else %}
                         <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-950 rounded border border-dashed border-zinc-800 p-4 text-xs text-zinc-500">
-                          <i data-lucide="eye-off" class="w-5 h-5 mb-1"></i>
-                          <span>Inverted file missing</span>
-                          <code class="text-[10px] mt-1">{{ g.inverted_file }}</code>
+                          <i data-lucide="file-code" class="w-5 h-5 mb-1"></i>
+                          <span>No Python script yet</span>
+                          <code class="text-[10px] mt-1">{{ g.py_file }}</code>
                         </div>
                       {% endif %}
                     </div>
-                    <div class="pt-2 text-[10px] font-mono text-zinc-500 border-t border-zinc-800">
-                      {{ g.inverted_file }}
+                    <div class="pt-2 flex items-center justify-center gap-2 border-t border-zinc-800">
+                      {% if g.py_exists %}
+                        <button onclick="copyPySource('{{ g.id }}')" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 flex items-center gap-1 transition-colors">
+                          <i data-lucide="copy" class="w-3 h-3"></i> Copy
+                        </button>
+                        <button onclick="openPyEditor('{{ g.id }}')" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 flex items-center gap-1 transition-colors">
+                          <i data-lucide="code-2" class="w-3 h-3"></i> Edit Python
+                        </button>
+                      {% else %}
+                        <button onclick="openPyEditor('{{ g.id }}')" class="px-2.5 py-1 text-[11px] font-medium rounded bg-amber-600 hover:bg-amber-700 text-white flex items-center gap-1 transition-colors">
+                          <i data-lucide="plus" class="w-3 h-3"></i> Add Python Script
+                        </button>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -838,6 +876,42 @@
   </div>
 </div>
 
+<!-- Python Construction Editor Modal -->
+<div id="pyEditorModal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl w-full max-w-4xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
+    <div class="px-6 py-4 border-b border-zinc-200 dark:border-zinc-800 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <i data-lucide="terminal" class="w-5 h-5 text-amber-500"></i>
+        <h3 class="font-bold text-sm">Python Construction Script (<code class="font-mono">geometor.model</code>)</h3>
+        <span id="pyModalGidBadge" class="font-mono text-xs px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-semibold text-amber-500">g1</span>
+      </div>
+      <button onclick="closePyEditor()" class="p-1 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 text-zinc-500">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <div class="p-6 flex-1 flex flex-col min-h-0 space-y-3">
+      <div class="flex items-center justify-between text-xs text-zinc-500">
+        <span>Edit programmatic <code class="font-mono">geometor.model</code> construction script:</span>
+      </div>
+
+      <textarea id="pyEditorTextarea" class="w-full flex-1 min-h-[380px] font-mono text-xs p-4 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-zinc-950 text-zinc-100 focus:outline-none focus:ring-2 focus:ring-amber-500" spellcheck="false" placeholder="from geometor.model import *"></textarea>
+    </div>
+
+    <div class="px-6 py-4 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between bg-zinc-50 dark:bg-zinc-900/50">
+      <span class="text-xs text-zinc-400">Writes directly to <code class="font-mono text-zinc-600 dark:text-zinc-300" id="pyModalFilenameLabel">{{ folio.folio }}.g1.py</code></span>
+      <div class="flex items-center gap-2">
+        <button onclick="closePyEditor()" class="px-4 py-2 text-xs font-medium rounded-lg border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
+          Cancel
+        </button>
+        <button onclick="savePySource()" class="px-4 py-2 text-xs font-bold rounded-lg bg-amber-600 hover:bg-amber-700 text-white flex items-center gap-1.5 shadow-sm transition-colors">
+          <i data-lucide="save" class="w-4 h-4"></i> Save Python Script
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
 {% endblock %}
 
@@ -871,6 +945,63 @@
     const modal = document.getElementById('svgEditorModal');
     if (modal) modal.classList.add('hidden');
     currentEditingGid = null;
+  }
+
+  function openPyEditor(gid) {
+    currentEditingGid = gid;
+    const g = (GRAPHICS_DATA || []).find(item => item.id === gid);
+    const badge = document.getElementById('pyModalGidBadge');
+    if (badge) badge.innerText = gid;
+    const fnLabel = document.getElementById('pyModalFilenameLabel');
+    if (fnLabel) fnLabel.innerText = `${FOLIO_ID}.${gid}.py`;
+
+    const textarea = document.getElementById('pyEditorTextarea');
+    if (textarea) textarea.value = (g && g.py_content) ? g.py_content : '';
+    const modal = document.getElementById('pyEditorModal');
+    if (modal) modal.classList.remove('hidden');
+    if (window.lucide) lucide.createIcons();
+  }
+
+  function closePyEditor() {
+    const modal = document.getElementById('pyEditorModal');
+    if (modal) modal.classList.add('hidden');
+    currentEditingGid = null;
+  }
+
+  async function copyPySource(gid) {
+    const g = (GRAPHICS_DATA || []).find(item => item.id === gid);
+    if (!g || !g.py_content) {
+      showToast('No Python code available to copy', 'error');
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(g.py_content);
+      showToast(`Copied ${FOLIO_ID}.${gid}.py to clipboard!`, 'success');
+    } catch (e) {
+      showToast('Failed to copy to clipboard', 'error');
+    }
+  }
+
+  async function savePySource() {
+    if (!currentEditingGid) return;
+    const pyCode = document.getElementById('pyEditorTextarea').value;
+    try {
+      const res = await fetch(`/api/folio/${VOLUME_ID}/${FOLIO_ID}/graphic/${currentEditingGid}/save_py`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ py: pyCode })
+      });
+      const data = await res.json();
+      if (data.success) {
+        showToast(`Saved ${FOLIO_ID}.${currentEditingGid}.py to disk!`, 'success');
+        setTimeout(() => location.reload(), 500);
+      } else {
+        showToast(`Failed to save Python script: ${data.error}`, 'error');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Error saving Python script', 'error');
+    }
   }
 
   function insertStandardSvgTemplate() {
@@ -1723,12 +1854,12 @@
             <div class="figure-toolbar">
               <div class="flex items-center gap-1.5">
                 <span class="text-[10px] font-mono font-bold text-zinc-500 uppercase">${fullGid}</span>
-                <span class="text-[10px] text-zinc-400 font-serif">· Vector</span>
+                <span class="text-[10px] text-zinc-400 font-serif" id="fig-mode-label-${g.id}">· Vector</span>
               </div>
               <div class="flex items-center gap-0.5 bg-zinc-100 dark:bg-zinc-800 rounded p-0.5">
                 <button type="button" class="figure-btn active" onclick="EuclidInteractive.switchFigureView('${g.id}', 'svg')">Vector</button>
                 <button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'raster')">Woodcut</button>
-                ${g.inverted_exists ? `<button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'inverted')">Dark</button>` : ''}
+                ${g.py_exists ? `<button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'python')">Python</button>` : ''}
               </div>
             </div>
             <div class="figure-svg-wrapper" id="fig-view-svg-${g.id}">
@@ -1737,13 +1868,25 @@
             <div class="figure-raster-wrapper hidden" id="fig-view-raster-${g.id}">
               <img src="/media/${VOLUME_ID}/${FOLIO_SECTION_PATH}/${g.file}" alt="${g.caption}" class="max-w-full h-auto mx-auto block woodcut-img">
             </div>
-            ${g.inverted_exists ? `
-              <div class="figure-inverted-wrapper hidden bg-zinc-950 p-2 rounded" id="fig-view-inverted-${g.id}">
-                <img src="/media/${VOLUME_ID}/${FOLIO_SECTION_PATH}/${g.inverted_file}" alt="${g.caption} (Dark)" class="max-w-full h-auto mx-auto block woodcut-img">
+            ${g.py_exists ? `
+              <div class="figure-python-wrapper hidden" id="fig-view-python-${g.id}">
+                <div class="flex items-center justify-between pb-1.5 mb-1.5 border-b border-zinc-800 text-[10px] text-zinc-400">
+                  <span class="font-mono text-amber-400 font-semibold">${g.py_file || `${fullGid}.py`}</span>
+                  <div class="flex items-center gap-1.5">
+                    <button type="button" onclick="copyPySource('${g.id}')" class="px-1.5 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 transition-colors">Copy</button>
+                    <button type="button" onclick="openPyEditor('${g.id}')" class="px-1.5 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 transition-colors">Edit</button>
+                  </div>
+                </div>
+                <pre class="m-0 whitespace-pre"><code id="fig-py-code-${g.id}"></code></pre>
               </div>
             ` : ''}
             <div class="figure-caption">${g.caption || ''}</div>
           `;
+
+          const pyCodeEl = figureDiv.querySelector(`#fig-py-code-${g.id}`);
+          if (pyCodeEl && g.py_content) {
+            pyCodeEl.textContent = g.py_content;
+          }
 
           const svgEl = figureDiv.querySelector('svg');
           if (svgEl) {
@@ -1764,20 +1907,25 @@
     switchFigureView(gid, view) {
       const svgView = document.getElementById(`fig-view-svg-${gid}`);
       const rasterView = document.getElementById(`fig-view-raster-${gid}`);
-      const invertedView = document.getElementById(`fig-view-inverted-${gid}`);
+      const pythonView = document.getElementById(`fig-view-python-${gid}`);
+      const modeLabel = document.getElementById(`fig-mode-label-${gid}`);
       const container = document.querySelector(`.euclid-figure-container[data-graphic-id="${gid}"]`);
 
       if (svgView) svgView.classList.toggle('hidden', view !== 'svg');
       if (rasterView) rasterView.classList.toggle('hidden', view !== 'raster');
-      if (invertedView) invertedView.classList.toggle('hidden', view !== 'inverted');
+      if (pythonView) pythonView.classList.toggle('hidden', view !== 'python');
+      if (modeLabel) {
+        modeLabel.textContent = view === 'svg' ? '· Vector' : (view === 'raster' ? '· Woodcut' : '· Python');
+      }
 
       if (container) {
+        container.classList.toggle('python-mode', view === 'python');
         container.querySelectorAll('.figure-btn').forEach(btn => {
           const btnText = btn.innerText.toLowerCase();
           btn.classList.toggle('active', 
             (view === 'svg' && btnText.includes('vector')) ||
             (view === 'raster' && btnText.includes('woodcut')) ||
-            (view === 'inverted' && btnText.includes('dark'))
+            (view === 'python' && btnText.includes('python'))
           );
         });
       }
@@ -1808,7 +1956,7 @@
           const refsToIndex = [rawRef];
           const aliases = (el.getAttribute('data-aliases') || '').trim();
           if (aliases) {
-            aliases.split(';').map(s => s.trim()).filter(Boolean).forEach(a => refsToIndex.push(a));
+            aliases.split(/[|;]/).map(s => s.trim()).filter(Boolean).forEach(a => refsToIndex.push(a));
           }
 
           refsToIndex.forEach(r => {
@@ -2051,7 +2199,7 @@
 
       const aliases = (svgElement.getAttribute('data-aliases') || '').trim();
       if (aliases) {
-        aliases.split(';').map(s => s.trim()).filter(Boolean).forEach(a => {
+        aliases.split(/[|;]/).map(s => s.trim()).filter(Boolean).forEach(a => {
           const pa = this.parseGeometorRef(a, fullGid);
           if (pa) pa.keys.forEach(k => targetKeys.add(k));
         });
