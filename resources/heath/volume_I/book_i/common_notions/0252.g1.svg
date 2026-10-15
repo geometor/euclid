@@ -1,83 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227 183" width="100%" height="auto" class="euclid-diagram">
-<style>
-.euclid-diagram {
-    display: block;
-    max-width: 100%;
-    margin: 1.5rem auto;
-    background-color: #ffffff;
-}
-.geometry {
-    stroke: #000000;
-    stroke-width: 1.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
-}
-.construction {
-    stroke: #000000;
-    stroke-width: 1.2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-dasharray: 4, 3;
-    fill: none;
-}
-.point {
-    fill: #000000;
-}
-.label {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    font-style: italic;
-    fill: #000000;
-    text-anchor: middle;
-    dominant-baseline: central;
-}
-.interactive {
-    cursor: pointer;
-}
-.interactive:hover .geometry,
-.interactive:hover.geometry {
-    stroke: #0284c7;
-    stroke-width: 2.5;
-}
-.interactive:hover .point,
-.interactive:hover.point {
-    fill: #0284c7;
-}
-.interactive:hover .label,
-.interactive:hover.label {
-    fill: #0284c7;
-    font-weight: bold;
-}
-</style>
-<rect width="227" height="183" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227 183" width="227" height="183" class="euclid-graphic" data-graphic-id="0252.g1" data-folio="0252" data-graphic="g1" data-proposition="Dedekind">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-dashed {
+      stroke-dasharray: 4, 3;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease, fill-opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
 
-<g id="circles" class="interactive">
-    <circle cx="70" cy="90" r="50" class="geometry"/>
-    <circle cx="140" cy="90" r="60" class="geometry"/>
-</g>
-<g id="line-centers" class="interactive">
-    <line x1="15" y1="90" x2="205" y2="90" class="geometry"/>
-</g>
-<g id="triangle-OOprimeY" class="interactive">
-    <line x1="70" y1="90" x2="40" y2="48" class="geometry"/>
-    <line x1="140" y1="90" x2="40" y2="48" class="geometry"/>
-</g>
-<g id="points">
-    <circle cx="20" cy="90" r="2.5" class="point"/>
-    <circle cx="70" cy="90" r="2.5" class="point"/>
-    <circle cx="120" cy="90" r="2.5" class="point"/>
-    <circle cx="140" cy="90" r="2.5" class="point"/>
-    <circle cx="40" cy="48" r="2.5" class="point"/>
-</g>
-<g id="labels">
-    <text x="12" y="90" class="label">A</text>
-    <text x="70" y="103" class="label">O</text>
-    <text x="115" y="103" class="label">B</text>
-    <text x="142" y="103" class="label">O&#x2032;</text>
-    <text x="35" y="38" class="label">Y</text>
-    <text x="22" y="65" class="label">C</text>
-    <text x="205" y="65" class="label">C&#x2032;</text>
-</g>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
 
+  <!-- Base Construction Elements (Circles C, C' and Line of Centres) -->
+  <g id="elements">
+    <circle id="el-circ-C" data-ref="( O A )" data-aliases="C | ( C ) | ( O B ) | ( O Y ) | ( O X )" data-type="circle" cx="80" cy="90" r="55" class="geom-circle" />
+    <circle id="el-circ-Cp" data-ref="( O' C' )" data-aliases="C' | ( C' )" data-type="circle" cx="122" cy="90" r="74" class="geom-circle" />
+    <line id="el-line-OO" data-ref="[ O O' ]" data-aliases="[ O' O ] | [ A B ]" data-type="line" x1="25" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Constructed Graphics (Polygon OO'Y, Radii, and Collinear Diameter Sub-Segments) -->
+  <g id="graphics">
+    <polygon id="el-tri-OOpY" data-ref="&lt; O O' Y &gt;" data-type="polygon" points="80,90 122,90 45,47.6" class="geom-polygon" />
+
+    <!-- Dashed Triangle Sides & Diameter Sub-Segments -->
+    <line id="el-seg-AO" data-ref="/ A O /" data-aliases="/ O A / | R" data-type="segment" x1="25" y1="90" x2="80" y2="90" class="geom-line geom-dashed" />
+    <line id="el-seg-OOp" data-ref="/ O O' /" data-aliases="/ O' O /" data-type="segment" x1="80" y1="90" x2="122" y2="90" class="geom-line geom-dashed" />
+    <line id="el-seg-OpB" data-ref="/ O' B /" data-aliases="/ B O' /" data-type="segment" x1="122" y1="90" x2="135" y2="90" class="geom-line geom-dashed" />
+    <line id="el-seg-AOp" data-ref="/ A O' /" data-aliases="/ O' A / | / A O O' /" data-type="segment" x1="25" y1="90" x2="122" y2="90" class="geom-line geom-overlay" />
+    <line id="el-seg-OB" data-ref="/ O B /" data-aliases="/ B O / | / O O' B /" data-type="segment" x1="80" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A / | / A O B /" data-type="segment" x1="25" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+
+    <line id="el-seg-OY" data-ref="/ O Y /" data-aliases="/ Y O /" data-type="segment" x1="80" y1="90" x2="45" y2="47.6" class="geom-line geom-dashed" />
+    <line id="el-seg-OpY" data-ref="/ O' Y /" data-aliases="/ Y O' /" data-type="segment" x1="122" y1="90" x2="45" y2="47.6" class="geom-line geom-dashed" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <circle id="hl-circ-C" data-ref="( O A )" data-aliases="C | ( C ) | ( O B ) | ( O Y ) | ( O X )" cx="80" cy="90" r="55" class="geom-circle geom-overlay" />
+    <circle id="hl-circ-Cp" data-ref="( O' C' )" data-aliases="C' | ( C' ) | R'" cx="122" cy="90" r="74" class="geom-circle geom-overlay" />
+    <line id="hl-line-OO" data-ref="[ O O' ]" data-aliases="[ O' O ] | [ A B ]" x1="25" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+    <polygon id="hl-tri-OOpY" data-ref="&lt; O O' Y &gt;" points="80,90 122,90 45,47.6" class="geom-polygon geom-overlay" />
+    <line id="hl-seg-AO" data-ref="/ A O /" data-aliases="/ O A / | R" x1="25" y1="90" x2="80" y2="90" class="geom-line geom-overlay" />
+    <line id="hl-seg-OOp" data-ref="/ O O' /" data-aliases="/ O' O /" x1="80" y1="90" x2="122" y2="90" class="geom-line geom-overlay" />
+    <line id="hl-seg-OpB" data-ref="/ O' B /" data-aliases="/ B O' /" x1="122" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+    <line id="hl-seg-AOp" data-ref="/ A O' /" data-aliases="/ O' A / | / A O O' /" x1="25" y1="90" x2="122" y2="90" class="geom-line geom-overlay" />
+    <line id="hl-seg-OB" data-ref="/ O B /" data-aliases="/ B O / | / O O' B /" x1="80" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A / | / A O B /" x1="25" y1="90" x2="135" y2="90" class="geom-line geom-overlay" />
+    <line id="hl-seg-OY" data-ref="/ O Y /" data-aliases="/ Y O /" x1="80" y1="90" x2="45" y2="47.6" class="geom-line geom-overlay" />
+    <line id="hl-seg-OpY" data-ref="/ O' Y /" data-aliases="/ Y O' /" x1="122" y1="90" x2="45" y2="47.6" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="25" cy="90" r="3" class="geom-point" />
+    <circle id="el-pt-O" data-ref="O" data-type="point" cx="80" cy="90" r="3" class="geom-point" />
+    <circle id="el-pt-Op" data-ref="O'" data-type="point" cx="122" cy="90" r="3" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="135" cy="90" r="3" class="geom-point" />
+    <circle id="el-pt-Y" data-ref="Y" data-type="point" cx="45" cy="47.6" r="3" class="geom-point" />
+    <circle id="el-pt-X" data-ref="X" data-type="point" cx="107" cy="42.1" r="3" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-A" data-ref="A" x="15" y="94" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-O" data-ref="O" x="84" y="86" text-anchor="middle" class="geom-label">O</text>
+    <text id="lbl-Op" data-ref="O'" x="124" y="86" text-anchor="middle" class="geom-label">O&#x2032;</text>
+    <text id="lbl-B" data-ref="B" x="145" y="94" text-anchor="middle" class="geom-label">B</text>
+    <text id="lbl-Y" data-ref="Y" x="36" y="45" text-anchor="middle" class="geom-label">Y</text>
+    <text id="lbl-X" data-ref="X" x="112" y="36" text-anchor="middle" class="geom-label">X</text>
+    <text id="lbl-C" data-ref="( O A )" data-aliases="C | ( C )" x="20" y="70" text-anchor="middle" class="geom-label">C</text>
+    <text id="lbl-Cp" data-ref="( O' C' )" data-aliases="C' | ( C' )" x="206" y="74" text-anchor="middle" class="geom-label">C&#x2032;</text>
+  </g>
 </svg>

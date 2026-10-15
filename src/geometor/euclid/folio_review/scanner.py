@@ -16,6 +16,20 @@ import yaml
 import markdown
 
 
+def escape_angle_brackets_in_attrs(md_text: str) -> str:
+    """Escape raw < and > inside data-* HTML attribute values (e.g. data-ref="...< A B C >...")
+    so Python-Markdown's inline HTML parser recognizes the enclosing <span> tag."""
+    if not md_text:
+        return ""
+
+    def _fix_attr(match: re.Match) -> str:
+        prefix, val, suffix = match.group(1), match.group(2), match.group(3)
+        val = val.replace("<", "&lt;").replace(">", "&gt;")
+        return f"{prefix}{val}{suffix}"
+
+    return re.sub(r'(\bdata-[a-zA-Z0-9_-]+=["\'])([^"\']*)(["\'])', _fix_attr, md_text)
+
+
 def fix_relative_media_urls(html: str, volume: str, section_path: str) -> str:
     """Rewrite relative image paths (e.g. src="0225.g1.png") to /media/{volume}/{section_path}/{filename}."""
     if not html:
@@ -165,12 +179,12 @@ class FolioScanner:
                             for g in raw_graphics:
                                 gid = g.get("id", "g1")
                                 g_file = g.get("file", f"{stem}.{gid}.png")
-                                inv_file = g.get("inverted_file", f"{stem}.{gid}.inverted.png")
                                 svg_file = g.get("svg_file", f"{stem}.{gid}.svg")
-                                
+                                py_file = g.get("py_file", f"{stem}.{gid}.py")
+
                                 file_exists = (parent_dir / g_file).exists()
-                                inv_exists = (parent_dir / inv_file).exists()
                                 svg_exists = (parent_dir / svg_file).exists()
+                                py_exists = (parent_dir / py_file).exists()
 
                                 if not file_exists:
                                     missing_crops += 1
@@ -188,10 +202,10 @@ class FolioScanner:
                                     "id": gid,
                                     "file": g_file,
                                     "file_exists": file_exists,
-                                    "inverted_file": inv_file,
-                                    "inverted_exists": inv_exists,
                                     "svg_file": svg_file,
                                     "svg_exists": svg_exists,
+                                    "py_file": py_file,
+                                    "py_exists": py_exists,
                                     "in_md_format": in_md_format,
                                     "bbox": g.get("bbox", []),
                                     "white_point": g.get("white_point", 226),
@@ -381,7 +395,8 @@ class FolioScanner:
                     if len(parts) >= 3:
                         clean_text = parts[2].strip()
                 rendered_md = markdown.markdown(
-                    clean_text, extensions=["tables", "fenced_code", "footnotes"]
+                    escape_angle_brackets_in_attrs(clean_text),
+                    extensions=["tables", "fenced_code", "footnotes"],
                 )
                 res["md_html"] = fix_relative_media_urls(
                     rendered_md, res["volume"], res["section_path"]
@@ -399,7 +414,8 @@ class FolioScanner:
             try:
                 res["notes_content"] = notes_file.read_text(encoding="utf-8")
                 rendered_notes = markdown.markdown(
-                    res["notes_content"], extensions=["tables", "fenced_code", "footnotes"]
+                    escape_angle_brackets_in_attrs(res["notes_content"]),
+                    extensions=["tables", "fenced_code", "footnotes"],
                 )
                 res["notes_html"] = fix_relative_media_urls(
                     rendered_notes, res["volume"], res["section_path"]
@@ -422,7 +438,7 @@ class FolioScanner:
         else:
             res["raw_json"] = None
 
-        # Load SVG content for any graphics that exist
+        # Load SVG and Python construction script content for any graphics that exist
         graphics_with_content = []
         for g in res.get("graphics", []):
             g_copy = dict(g)
@@ -437,6 +453,18 @@ class FolioScanner:
                     g_copy["svg_content"] = None
             else:
                 g_copy["svg_content"] = None
+
+            py_name = g_copy.get("py_file", f"{folio_id}.{g_copy.get('id', 'g1')}.py")
+            py_p = full_parent / py_name
+            if py_p.exists():
+                try:
+                    g_copy["py_content"] = py_p.read_text(encoding="utf-8")
+                    g_copy["py_exists"] = True
+                except Exception:
+                    g_copy["py_content"] = None
+            else:
+                g_copy["py_content"] = None
+
             graphics_with_content.append(g_copy)
         res["graphics"] = graphics_with_content
 

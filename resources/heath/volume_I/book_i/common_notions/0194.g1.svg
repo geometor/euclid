@@ -1,35 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287 108" width="100%" height="auto">
-<style>
-  .label { font-family: 'Times New Roman', serif; font-style: italic; font-size: 14px; fill: #000000; text-anchor: middle; dominant-baseline: central; }
-  .point { fill: #000000; }
-  .line { fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-  .interactive { cursor: pointer; transition: stroke 0.2s, stroke-width 0.2s; }
-  .interactive:hover { stroke: #0284c7; stroke-width: 2.5; }
-  .point-group:hover .point { fill: #0284c7; r: 3.5; }
-  .point-group:hover .label { fill: #0284c7; font-weight: bold; }
-</style>
-<rect width="100%" height="100%" fill="#ffffff" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287 108" width="287" height="108" class="euclid-graphic" data-graphic-id="0194.g1" data-folio="0194" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.6;
+      fill: none;
+      transition: stroke 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 14px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
 
-<!-- Parallel line r' through P -->
-<g class="interactive" id="line_r_prime">
-  <line class="line" x1="11.0" y1="19.0" x2="250.0" y2="19.0" />
-</g>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
 
-<!-- Line r -->
-<g class="interactive" id="line_r">
-  <line class="line" x1="15.0" y1="83.0" x2="265.0" y2="83.0" />
-</g>
+  <!-- Base Construction Elements (Line r, Parallel Line r' through P, and Ray PS) -->
+  <g id="elements">
+    <!-- Upper straight line r = [ R1 R2 ] -->
+    <line id="el-line-r" data-ref="[ R1 R2 ]" data-aliases="r" data-type="line" x1="11.0" y1="19.0" x2="245.0" y2="19.0" class="geom-line" />
+    <!-- Lower parallel line r' = [ P Q ] through P -->
+    <line id="el-line-rprime" data-ref="[ P Q ]" data-aliases="r' | [ P1 Q ]" data-type="line" x1="15.0" y1="83.0" x2="258.0" y2="83.0" class="geom-line" />
+    <!-- Ray PS from P toward r -->
+    <line id="el-line-PS" data-ref="[ P S ]" data-type="line" x1="72.0" y1="83.0" x2="190.0" y2="27.0" class="geom-line" />
+  </g>
 
-<!-- Transversal ray through P -->
-<g class="interactive" id="transversal">
-  <line class="line" x1="205.0" y1="14.0" x2="65.0" y2="88.0" />
-</g>
+  <!-- Constructed Graphics (PlanePr Polygon, Segments, and Angle) -->
+  <g id="graphics">
+    <!-- Plane Pr bounded by r and r' -->
+    <polygon id="el-poly-Pr" data-ref="&lt; R1 R2 Q P1 &gt;" data-aliases="Pr" data-type="polygon" points="11.0,19.0 245.0,19.0 258.0,83.0 15.0,83.0" class="geom-polygon" />
 
-<!-- Points and Labels -->
-<g class="point-group" id="point_P">
-  <circle class="point" cx="195.0" cy="19.0" r="2.5" />
-  <text class="label" x="195.0" y="31.0">P</text>
-</g>
-<text class="label" x="258.0" y="16.0">r'</text>
-<text class="label" x="273.0" y="83.0">r</text>
+    <!-- Segments along r, r', and ray PS -->
+    <line id="el-seg-r" data-ref="/ R1 R2 /" data-aliases="r" data-type="segment" x1="11.0" y1="19.0" x2="245.0" y2="19.0" class="geom-line geom-overlay" />
+    <line id="el-seg-P1P" data-ref="/ P1 P /" data-type="segment" x1="15.0" y1="83.0" x2="72.0" y2="83.0" class="geom-line" />
+    <line id="el-seg-PQ" data-ref="/ P Q /" data-type="segment" x1="72.0" y1="83.0" x2="258.0" y2="83.0" class="geom-line" />
+    <line id="el-seg-rprime" data-ref="/ P1 Q /" data-aliases="r'" data-type="segment" x1="15.0" y1="83.0" x2="258.0" y2="83.0" class="geom-line geom-overlay" />
+    <line id="el-seg-PS" data-ref="/ P S /" data-aliases="/ S P /" data-type="segment" x1="72.0" y1="83.0" x2="190.0" y2="27.0" class="geom-line" />
+
+    <!-- Angle QPS -->
+    <path id="el-ang-QPS" data-ref="&lt; Q P S )" data-type="wedge" d="M 72.0 83.0 L 94.0 83.0 A 22.0 22.0 0 0 0 91.9 73.6 Z" class="wedge angle geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-poly-Pr" data-ref="&lt; R1 R2 Q P1 &gt;" data-aliases="Pr" points="11.0,19.0 245.0,19.0 258.0,83.0 15.0,83.0" class="geom-polygon geom-overlay" />
+    <line id="hl-line-r" data-ref="[ R1 R2 ]" data-aliases="r" x1="11.0" y1="19.0" x2="245.0" y2="19.0" class="geom-line geom-overlay" />
+    <line id="hl-line-rprime" data-ref="[ P Q ]" data-aliases="r' | [ P1 Q ]" x1="15.0" y1="83.0" x2="258.0" y2="83.0" class="geom-line geom-overlay" />
+    <line id="hl-seg-PS" data-ref="/ P S /" data-aliases="/ S P /" x1="72.0" y1="83.0" x2="190.0" y2="27.0" class="geom-line geom-overlay" />
+    <path id="hl-ang-QPS" data-ref="&lt; Q P S )" d="M 72.0 83.0 L 94.0 83.0 A 22.0 22.0 0 0 0 91.9 73.6 Z" class="wedge angle geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-P" data-ref="P" data-type="point" cx="72.0" cy="83.0" r="3.2" class="geom-point" />
+    <circle id="el-pt-S" data-ref="S" data-type="point" cx="190.0" cy="27.0" r="3.2" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-r" data-ref="[ R1 R2 ]" data-aliases="r" x="253.0" y="23.0" text-anchor="middle" class="geom-label">r</text>
+    <text id="lbl-rprime" data-ref="[ P Q ]" data-aliases="r'" x="268.0" y="87.0" text-anchor="middle" class="geom-label">r′</text>
+    <text id="lbl-P" data-ref="P" x="72.0" y="98.0" text-anchor="middle" class="geom-label">P</text>
+    <text id="lbl-S" data-ref="S" x="199.0" y="31.0" text-anchor="middle" class="geom-label">S</text>
+  </g>
 </svg>

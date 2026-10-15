@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100" class="euclid-graphic" data-folio="0373" data-graphic="g2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100" class="euclid-graphic" data-graphic-id="0373.g2" data-folio="0373" data-graphic="g2" data-proposition="I.47">
   <style>
     .euclid-graphic {
       font-family: 'Times New Roman', 'Georgia', serif;
@@ -7,25 +7,41 @@
     }
     .geom-line {
       stroke: #000000;
-      stroke-width: 1.5;
+      stroke-width: 1.6;
       stroke-linecap: round;
       stroke-linejoin: round;
       transition: stroke 0.15s, stroke-width 0.15s;
     }
-    .geom-dot {
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
       fill: #000000;
       stroke: none;
       transition: fill 0.15s, r 0.15s;
     }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
     /* Interactive Highlight States */
-    [data-ref]:hover, .highlight {
-      stroke: #0284c7 !important;
-      stroke-width: 2.5 !important;
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
       cursor: pointer;
     }
-    .geom-dot:hover, .geom-dot.highlight {
-      fill: #0284c7 !important;
-      r: 4 !important;
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
       cursor: pointer;
     }
   </style>
@@ -33,34 +49,58 @@
   <!-- Background -->
   <rect width="100%" height="100%" fill="#ffffff" />
 
-  <!-- Partition lines -->
-  <line class="geom-line" x1="20" y1="42.5" x2="91" y2="42.5" data-ref="div_h" />
-  <line class="geom-line" x1="48.5" y1="12" x2="48.5" y2="88" data-ref="div_v" />
+  <!-- Base Construction Elements -->
+  <g id="elements" />
+
+  <!-- Constructed Graphics (Polygons & Segments) -->
+  <g id="graphics">
+    <!-- 3x3 Inner Square and Double-Row Gnomon Subregions -->
+    <polygon id="el-sq-inner" data-ref="&lt; E B F D &gt;" data-type="polygon" points="48.5,42.5 91,42.5 91,84 48.5,84" class="geom-polygon" />
+    <polygon id="el-sq-corner" data-ref="&lt; G C E A &gt;" data-type="polygon" points="20,14 48.5,14 48.5,42.5 20,42.5" class="geom-polygon" />
+    <polygon id="el-rect-top" data-ref="&lt; C H B E &gt;" data-type="polygon" points="48.5,14 91,14 91,42.5 48.5,42.5" class="geom-polygon" />
+    <polygon id="el-rect-left" data-ref="&lt; A E D K &gt;" data-type="polygon" points="20,42.5 48.5,42.5 48.5,84 20,84" class="geom-polygon" />
+
+    <!-- Partition lines -->
+    <line id="el-seg-AB" data-ref="/ A B /" data-type="segment" x1="20" y1="42.5" x2="91" y2="42.5" class="geom-line" />
+    <line id="el-seg-CD" data-ref="/ C D /" data-type="segment" x1="48.5" y1="12" x2="48.5" y2="88" class="geom-line" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-sq-inner" data-ref="&lt; E B F D &gt;" points="48.5,42.5 91,42.5 91,84 48.5,84" class="geom-polygon geom-overlay" />
+    <line id="hl-seg-AB" data-ref="/ A B /" x1="20" y1="42.5" x2="91" y2="42.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-CD" data-ref="/ C D /" x1="48.5" y1="12" x2="48.5" y2="88" class="geom-line geom-overlay" />
+  </g>
 
   <!-- 5x5 Dot Grid -->
-  <circle class="geom-dot" cx="26.0" cy="20.5" r="2.6" data-ref="d_1_1" />
-  <circle class="geom-dot" cx="40.5" cy="20.5" r="2.6" data-ref="d_1_2" />
-  <circle class="geom-dot" cx="54.5" cy="20.5" r="2.6" data-ref="d_1_3" />
-  <circle class="geom-dot" cx="70.0" cy="20.5" r="2.6" data-ref="d_1_4" />
-  <circle class="geom-dot" cx="85.0" cy="20.5" r="2.6" data-ref="d_1_5" />
-  <circle class="geom-dot" cx="26.0" cy="35.0" r="2.6" data-ref="d_2_1" />
-  <circle class="geom-dot" cx="40.5" cy="35.0" r="2.6" data-ref="d_2_2" />
-  <circle class="geom-dot" cx="54.5" cy="35.0" r="2.6" data-ref="d_2_3" />
-  <circle class="geom-dot" cx="70.0" cy="35.0" r="2.6" data-ref="d_2_4" />
-  <circle class="geom-dot" cx="85.0" cy="35.0" r="2.6" data-ref="d_2_5" />
-  <circle class="geom-dot" cx="26.0" cy="49.5" r="2.6" data-ref="d_3_1" />
-  <circle class="geom-dot" cx="40.5" cy="49.5" r="2.6" data-ref="d_3_2" />
-  <circle class="geom-dot" cx="54.5" cy="49.5" r="2.6" data-ref="d_3_3" />
-  <circle class="geom-dot" cx="70.0" cy="49.5" r="2.6" data-ref="d_3_4" />
-  <circle class="geom-dot" cx="85.0" cy="49.5" r="2.6" data-ref="d_3_5" />
-  <circle class="geom-dot" cx="26.0" cy="63.5" r="2.6" data-ref="d_4_1" />
-  <circle class="geom-dot" cx="40.5" cy="63.5" r="2.6" data-ref="d_4_2" />
-  <circle class="geom-dot" cx="54.5" cy="63.5" r="2.6" data-ref="d_4_3" />
-  <circle class="geom-dot" cx="70.0" cy="63.5" r="2.6" data-ref="d_4_4" />
-  <circle class="geom-dot" cx="85.0" cy="63.5" r="2.6" data-ref="d_4_5" />
-  <circle class="geom-dot" cx="26.0" cy="77.5" r="2.6" data-ref="d_5_1" />
-  <circle class="geom-dot" cx="40.5" cy="77.5" r="2.6" data-ref="d_5_2" />
-  <circle class="geom-dot" cx="54.5" cy="77.5" r="2.6" data-ref="d_5_3" />
-  <circle class="geom-dot" cx="70.0" cy="77.5" r="2.6" data-ref="d_5_4" />
-  <circle class="geom-dot" cx="85.0" cy="77.5" r="2.6" data-ref="d_5_5" />
+  <g id="points">
+    <circle class="geom-point" cx="26.0" cy="20.5" r="2.6" data-ref="d_1_1" />
+    <circle class="geom-point" cx="40.5" cy="20.5" r="2.6" data-ref="d_1_2" />
+    <circle class="geom-point" cx="54.5" cy="20.5" r="2.6" data-ref="d_1_3" />
+    <circle class="geom-point" cx="70.0" cy="20.5" r="2.6" data-ref="d_1_4" />
+    <circle class="geom-point" cx="85.0" cy="20.5" r="2.6" data-ref="d_1_5" />
+    <circle class="geom-point" cx="26.0" cy="35.0" r="2.6" data-ref="d_2_1" />
+    <circle class="geom-point" cx="40.5" cy="35.0" r="2.6" data-ref="d_2_2" />
+    <circle class="geom-point" cx="54.5" cy="35.0" r="2.6" data-ref="d_2_3" />
+    <circle class="geom-point" cx="70.0" cy="35.0" r="2.6" data-ref="d_2_4" />
+    <circle class="geom-point" cx="85.0" cy="35.0" r="2.6" data-ref="d_2_5" />
+    <circle class="geom-point" cx="26.0" cy="49.5" r="2.6" data-ref="d_3_1" />
+    <circle class="geom-point" cx="40.5" cy="49.5" r="2.6" data-ref="d_3_2" />
+    <circle class="geom-point" cx="54.5" cy="49.5" r="2.6" data-ref="d_3_3" />
+    <circle class="geom-point" cx="70.0" cy="49.5" r="2.6" data-ref="d_3_4" />
+    <circle class="geom-point" cx="85.0" cy="49.5" r="2.6" data-ref="d_3_5" />
+    <circle class="geom-point" cx="26.0" cy="63.5" r="2.6" data-ref="d_4_1" />
+    <circle class="geom-point" cx="40.5" cy="63.5" r="2.6" data-ref="d_4_2" />
+    <circle class="geom-point" cx="54.5" cy="63.5" r="2.6" data-ref="d_4_3" />
+    <circle class="geom-point" cx="70.0" cy="63.5" r="2.6" data-ref="d_4_4" />
+    <circle class="geom-point" cx="85.0" cy="63.5" r="2.6" data-ref="d_4_5" />
+    <circle class="geom-point" cx="26.0" cy="77.5" r="2.6" data-ref="d_5_1" />
+    <circle class="geom-point" cx="40.5" cy="77.5" r="2.6" data-ref="d_5_2" />
+    <circle class="geom-point" cx="54.5" cy="77.5" r="2.6" data-ref="d_5_3" />
+    <circle class="geom-point" cx="70.0" cy="77.5" r="2.6" data-ref="d_5_4" />
+    <circle class="geom-point" cx="85.0" cy="77.5" r="2.6" data-ref="d_5_5" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels" />
 </svg>

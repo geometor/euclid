@@ -1,61 +1,174 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 249" width="100%" height="auto">
-<style>
-  .label { font-family: 'Times New Roman', serif; font-style: italic; font-size: 14px; fill: #000000; text-anchor: middle; dominant-baseline: central; }
-  .point { fill: #000000; }
-  .line, .arc { fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-  .interactive { cursor: pointer; transition: stroke 0.2s, stroke-width 0.2s; }
-  .interactive:hover { stroke: #0284c7; stroke-width: 2.5; }
-  .point-group:hover .point { fill: #0284c7; r: 3.5; }
-  .point-group:hover .label { fill: #0284c7; font-weight: bold; }
-</style>
-<rect width="100%" height="100%" fill="#ffffff" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 249" width="208" height="249" class="euclid-graphic" data-graphic-id="0211.g2" data-folio="0211" data-graphic="g2" data-proposition="Post.2">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-circle, .geom-curve, .geom-ellipse {
+      stroke: #000000;
+      stroke-width: 2.0;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 2.0;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 14px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
 
-<!-- Arc BMC centered at X(110, 122) -->
-<g class="interactive" id="arc_BMC">
-  <path class="arc" d="M 32.0 69.0 A 93.0 93.0 0 0 1 188.0 69.0" />
-</g>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
 
-<!-- Common segment AX and vertical line XM -->
-<g class="interactive" id="line_AM">
-  <line class="line" x1="110.0" y1="225.0" x2="110.0" y2="29.0" />
-</g>
+  <!-- Base Construction Elements -->
+  <g id="elements">
+    <path id="el-arc-BMC" data-ref="( B M C )" data-aliases="( B C )" data-type="arc" d="M 38.76 62.22 A 93.0 93.0 0 0 1 181.24 62.22" class="geom-arc" />
+  </g>
 
-<!-- Produced lines XB and XC -->
-<g class="interactive" id="line_XB">
-  <line class="line" x1="110.0" y1="122.0" x2="32.0" y2="69.0" />
-</g>
-<g class="interactive" id="line_XC">
-  <line class="line" x1="110.0" y1="122.0" x2="188.0" y2="69.0" />
-</g>
+  <!-- Constructed Graphics (Polygons, Segments, Sections, Curves) -->
+  <g id="graphics">
+    <polygon id="el-poly-AXML" data-ref="&lt; A X M L &gt;" data-type="polygon" points="110.0,225.0 110.0,122.0 66.34,39.89 24.20,50.01" class="geom-polygon" />
+    <line id="el-seg-AX" data-ref="/ A X /" data-aliases="/ X A /" data-type="segment" x1="110.0" y1="225.0" x2="110.0" y2="122.0" class="geom-line" />
+    <line id="el-seg-XD" data-ref="/ X D /" data-type="segment" x1="110.0" y1="122.0" x2="110.0" y2="29.0" class="geom-line" />
+    <line id="el-seg-XB" data-ref="/ X B /" data-type="segment" x1="110.0" y1="122.0" x2="38.76" y2="62.22" class="geom-line" />
+    <line id="el-seg-BL" data-ref="/ B L /" data-type="segment" x1="38.76" y1="62.22" x2="24.20" y2="50.01" class="geom-line" />
+    <line id="el-seg-XM" data-ref="/ X M /" data-type="segment" x1="110.0" y1="122.0" x2="66.34" y2="39.89" class="geom-line" />
+    <line id="el-seg-XF" data-ref="/ X F /" data-type="segment" x1="110.0" y1="122.0" x2="153.66" y2="39.89" class="geom-line" />
+    <line id="el-seg-XC" data-ref="/ X C /" data-type="segment" x1="110.0" y1="122.0" x2="181.24" y2="62.22" class="geom-line" />
+    <!-- Hypothetical straight line AM cutting XB in K (and right branch cutting XC in K) -->
+    <line id="el-seg-AM" data-ref="/ A M /" data-type="segment" x1="110.0" y1="225.0" x2="66.34" y2="39.89" class="geom-line" />
+    <polyline id="el-sec-ATK-right" data-ref="/ A T K /" data-type="section" points="110.0,225.0 134.5,101.44 66.34,39.89" class="geom-line" />
+    <!-- Hypothetical curve APLM enclosing XB -->
+    <path id="el-sec-APLM" data-ref="/ A P L M /" data-type="section" d="M 110.0 225.0 L 24.20 50.01 Q 36.0 24.0 66.34 39.89" class="geom-curve" />
+    <!-- Composite sections for hover activation -->
+    <polyline id="el-sec-AXB" data-ref="/ A X B /" data-type="section" points="110.0,225.0 110.0,122.0 38.76,62.22" class="geom-line geom-overlay" />
+    <polyline id="el-sec-AXC" data-ref="/ A X C /" data-type="section" points="110.0,225.0 110.0,122.0 181.24,62.22" class="geom-line geom-overlay" />
+    <polyline id="el-sec-AXM" data-ref="/ A X M /" data-type="section" points="110.0,225.0 110.0,122.0 66.34,39.89" class="geom-line geom-overlay" />
+    <polyline id="el-sec-AXF" data-ref="/ A X F /" data-type="section" points="110.0,225.0 110.0,122.0 153.66,39.89" class="geom-line geom-overlay" />
+    <line id="el-sec-AXD" data-ref="/ A X D /" data-type="section" x1="110.0" y1="225.0" x2="110.0" y2="29.0" class="geom-line geom-overlay" />
+    <polyline id="el-sec-AXK" data-ref="/ A X K /" data-type="section" points="110.0,225.0 110.0,122.0 79.42,96.34" class="geom-line geom-overlay" />
+    <polyline id="el-sec-AXBL" data-ref="/ A X B L /" data-type="section" points="110.0,225.0 110.0,122.0 38.76,62.22 24.20,50.01" class="geom-line geom-overlay" />
+    <line id="el-sec-APL" data-ref="/ A P L /" data-type="section" x1="110.0" y1="225.0" x2="24.20" y2="50.01" class="geom-line geom-overlay" />
+  </g>
 
-<!-- Curved hypothetical line from A to M -->
-<g class="interactive" id="secant_AKM">
-  <path class="line" d="M 110.0 225.0 Q 60.0 130.0 110.0 29.0" stroke-dasharray="4,3" />
-</g>
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <path id="hl-arc-BMC" data-ref="( B M C )" data-aliases="( B C )" d="M 38.76 62.22 A 93.0 93.0 0 0 1 181.24 62.22" class="geom-arc geom-overlay" />
+    <path id="hl-arc-BC" data-ref="( B C )" d="M 38.76 62.22 A 93.0 93.0 0 0 1 181.24 62.22" class="geom-arc geom-overlay" />
+    <polygon id="hl-poly-AXML" data-ref="&lt; A X M L &gt;" points="110.0,225.0 110.0,122.0 66.34,39.89 24.20,50.01" class="geom-polygon geom-overlay" />
+    <line id="hl-seg-AX" data-ref="/ A X /" data-aliases="/ X A /" x1="110.0" y1="225.0" x2="110.0" y2="122.0" class="geom-line geom-overlay" />
+    <line id="hl-seg-XA" data-ref="/ X A /" x1="110.0" y1="122.0" x2="110.0" y2="225.0" class="geom-line geom-overlay" />
+    <line id="hl-seg-XD" data-ref="/ X D /" x1="110.0" y1="122.0" x2="110.0" y2="29.0" class="geom-line geom-overlay" />
+    <line id="hl-seg-XB" data-ref="/ X B /" x1="110.0" y1="122.0" x2="38.76" y2="62.22" class="geom-line geom-overlay" />
+    <line id="hl-seg-BL" data-ref="/ B L /" x1="38.76" y1="62.22" x2="24.20" y2="50.01" class="geom-line geom-overlay" />
+    <line id="hl-seg-XM" data-ref="/ X M /" x1="110.0" y1="122.0" x2="66.34" y2="39.89" class="geom-line geom-overlay" />
+    <line id="hl-seg-XF" data-ref="/ X F /" x1="110.0" y1="122.0" x2="153.66" y2="39.89" class="geom-line geom-overlay" />
+    <line id="hl-seg-XC" data-ref="/ X C /" x1="110.0" y1="122.0" x2="181.24" y2="62.22" class="geom-line geom-overlay" />
+    <line id="hl-seg-AM" data-ref="/ A M /" x1="110.0" y1="225.0" x2="66.34" y2="39.89" class="geom-line geom-overlay" />
+    <line id="hl-sec-ATK" data-ref="/ A T K /" x1="110.0" y1="225.0" x2="79.42" y2="96.34" class="geom-line geom-overlay" />
+    <path id="hl-sec-APLM" data-ref="/ A P L M /" d="M 110.0 225.0 L 24.20 50.01 Q 36.0 24.0 66.34 39.89" class="geom-curve geom-overlay" />
+    <polyline id="hl-sec-AXB" data-ref="/ A X B /" points="110.0,225.0 110.0,122.0 38.76,62.22" class="geom-line geom-overlay" />
+    <polyline id="hl-sec-AXC" data-ref="/ A X C /" points="110.0,225.0 110.0,122.0 181.24,62.22" class="geom-line geom-overlay" />
+    <polyline id="hl-sec-AXM" data-ref="/ A X M /" points="110.0,225.0 110.0,122.0 66.34,39.89" class="geom-line geom-overlay" />
+    <polyline id="hl-sec-AXF" data-ref="/ A X F /" points="110.0,225.0 110.0,122.0 153.66,39.89" class="geom-line geom-overlay" />
+    <line id="hl-sec-AXD" data-ref="/ A X D /" x1="110.0" y1="225.0" x2="110.0" y2="29.0" class="geom-line geom-overlay" />
+    <polyline id="hl-sec-AXK" data-ref="/ A X K /" points="110.0,225.0 110.0,122.0 79.42,96.34" class="geom-line geom-overlay" />
+    <polyline id="hl-sec-AXBL" data-ref="/ A X B L /" points="110.0,225.0 110.0,122.0 38.76,62.22 24.20,50.01" class="geom-line geom-overlay" />
+    <line id="hl-sec-APL" data-ref="/ A P L /" x1="110.0" y1="225.0" x2="24.20" y2="50.01" class="geom-line geom-overlay" />
+  </g>
 
-<!-- Points and Labels -->
-<g class="point-group" id="point_A">
-  <circle class="point" cx="110.0" cy="225.0" r="2.5" />
-  <text class="label" x="110.0" y="238.0">A</text>
-</g>
-<g class="point-group" id="point_X">
-  <circle class="point" cx="110.0" cy="122.0" r="2.5" />
-  <text class="label" x="120.0" y="125.0">X</text>
-</g>
-<g class="point-group" id="point_M">
-  <circle class="point" cx="110.0" cy="29.0" r="2.5" />
-  <text class="label" x="110.0" y="18.0">M</text>
-</g>
-<g class="point-group" id="point_B">
-  <circle class="point" cx="32.0" cy="69.0" r="2.5" />
-  <text class="label" x="22.0" y="69.0">B</text>
-</g>
-<g class="point-group" id="point_C">
-  <circle class="point" cx="188.0" cy="69.0" r="2.5" />
-  <text class="label" x="198.0" y="69.0">C</text>
-</g>
-<g class="point-group" id="point_K">
-  <circle class="point" cx="88.0" cy="167.0" r="2.5" />
-  <text class="label" x="78.0" y="167.0">K</text>
-</g>
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="110.0" cy="225.0" r="3.5" class="geom-point" />
+    <circle id="el-pt-X" data-ref="X" data-type="point" cx="110.0" cy="122.0" r="3.5" class="geom-point" />
+    <circle id="el-pt-D" data-ref="D" data-type="point" cx="110.0" cy="29.0" r="3.5" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="38.76" cy="62.22" r="3.5" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="181.24" cy="62.22" r="3.5" class="geom-point" />
+    <circle id="el-pt-M" data-ref="M" data-type="point" cx="66.34" cy="39.89" r="3.5" class="geom-point" />
+    <circle id="el-pt-F" data-ref="F" data-type="point" cx="153.66" cy="39.89" r="3.5" class="geom-point" />
+    <circle id="el-pt-L" data-ref="L" data-type="point" cx="24.20" cy="50.01" r="3.5" class="geom-point" />
+    <circle id="el-pt-K" data-ref="K" data-type="point" cx="79.42" cy="96.34" r="3.0" class="geom-point" />
+    <circle id="el-pt-K2" data-ref="K" data-type="point" cx="134.5" cy="101.44" r="3.0" class="geom-point" />
+    <circle id="el-pt-T" data-ref="T" data-type="point" cx="98.2" cy="175.0" r="2.5" class="geom-point" />
+    <circle id="el-pt-T2" data-ref="T" data-type="point" cx="119.5" cy="175.0" r="2.5" class="geom-point" />
+    <circle id="el-pt-P" data-ref="P" data-type="point" cx="70.6" cy="156.5" r="2.5" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-A" data-ref="A" x="110.0" y="242.0" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-X" data-ref="X" x="120.0" y="132.0" text-anchor="middle" class="geom-label">X</text>
+    <text id="lbl-D" data-ref="D" x="110.0" y="19.0" text-anchor="middle" class="geom-label">D</text>
+    <text id="lbl-B" data-ref="B" x="31.0" y="75.0" text-anchor="middle" class="geom-label">B</text>
+    <text id="lbl-C" data-ref="C" x="190.0" y="74.0" text-anchor="middle" class="geom-label">C</text>
+    <text id="lbl-M" data-ref="M" x="62.0" y="28.0" text-anchor="middle" class="geom-label">M</text>
+    <text id="lbl-F" data-ref="F" x="160.0" y="32.0" text-anchor="middle" class="geom-label">F</text>
+    <text id="lbl-L" data-ref="L" x="16.0" y="45.0" text-anchor="middle" class="geom-label">L</text>
+    <text id="lbl-K1" data-ref="K" x="68.0" y="103.0" text-anchor="middle" class="geom-label">K</text>
+    <text id="lbl-K2" data-ref="K" x="145.0" y="110.0" text-anchor="middle" class="geom-label">K</text>
+    <text id="lbl-T1" data-ref="T" x="87.0" y="179.0" text-anchor="middle" class="geom-label">T</text>
+    <text id="lbl-T2" data-ref="T" x="130.0" y="179.0" text-anchor="middle" class="geom-label">T</text>
+    <text id="lbl-P" data-ref="P" x="60.0" y="160.0" text-anchor="middle" class="geom-label">P</text>
+  </g>
 </svg>

@@ -43,7 +43,6 @@ def detect_single_image(img_path: Path, save: bool = False, force: bool = False,
         graphics.append({
             "id": gid,
             "file": f"{folio_stem}.{gid}.png",
-            "inverted_file": f"{folio_stem}.{gid}.inverted.png",
             "bbox": [x, y, w, h],
             "white_point": 226,
             "caption": f"Folio {folio_stem} Figure {idx}"
@@ -80,7 +79,7 @@ def cmd_detect(args: argparse.Namespace) -> None:
             print(f"Error: Unknown target format: {target}", file=sys.stderr)
 
 
-def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool = False) -> None:
+def extract_from_json(json_path: Path, no_clean: bool = False) -> None:
     """Extract all graphics defined in a <folio>.json file from the corresponding folio scan."""
     if not json_path.exists():
         print(f"Error: JSON file not found at {json_path}", file=sys.stderr)
@@ -124,7 +123,6 @@ def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool =
     for g in graphics:
         gid = g.get("id", "g1")
         expected_files.add(g.get("file", f"{folio}.{gid}.png"))
-        expected_files.add(g.get("inverted_file", f"{folio}.{gid}.inverted.png"))
     for existing in json_path.parent.glob(f"{folio}.g*.png"):
         if existing.name not in expected_files:
             existing.unlink()
@@ -167,14 +165,6 @@ def extract_from_json(json_path: Path, no_clean: bool = False, no_invert: bool =
         cropped.save(out_path)
         print(f"  Saved: {out_path} (bbox: [{x}, {y}, {w}, {h}])")
 
-        # Invert / Dark background
-        inv_name = g.get("inverted_file", f"{folio}.{gid}.inverted.png")
-        if not no_invert and inv_name:
-            inverted = ImageOps.invert(cropped.convert("RGB"))
-            inv_path = json_path.parent / inv_name
-            inverted.save(inv_path)
-            print(f"  Saved inverted: {inv_path}")
-
         caption = g.get("caption", f"Folio {folio} {gid}")
         print(f"  Markdown: ![{caption}]({out_name})")
 
@@ -189,13 +179,13 @@ def cmd_extract(args: argparse.Namespace) -> None:
                 if "." not in jf.stem and jf.stem.isdigit()
             )
             for jf in json_files:
-                extract_from_json(jf, no_clean=args.no_clean, no_invert=args.no_invert)
+                extract_from_json(jf, no_clean=args.no_clean)
         elif target.suffix == ".json":
-            extract_from_json(target, no_clean=args.no_clean, no_invert=args.no_invert)
+            extract_from_json(target, no_clean=args.no_clean)
         elif target.suffix == ".png":
             json_path = target.with_suffix(".json")
             if json_path.exists():
-                extract_from_json(json_path, no_clean=args.no_clean, no_invert=args.no_invert)
+                extract_from_json(json_path, no_clean=args.no_clean)
             else:
                 print(f"Error: No matching JSON file found at {json_path}. Run 'detect --save' or create it first.", file=sys.stderr)
         else:
@@ -228,11 +218,11 @@ def cmd_set(args: argparse.Namespace) -> None:
     gid = args.id
 
     existing_entry = next((g for g in graphics if g.get("id") == gid), {})
+    existing_entry.pop("inverted_file", None)
     entry = {
         **existing_entry,
         "id": gid,
         "file": f"{folio}.{gid}.png",
-        "inverted_file": f"{folio}.{gid}.inverted.png",
         "bbox": list(args.bbox),
         "white_point": args.white_point,
         "caption": args.caption or existing_entry.get("caption") or f"Folio {folio} Figure {gid.replace('g', '')}",
@@ -252,7 +242,7 @@ def cmd_set(args: argparse.Namespace) -> None:
 
 
 def cmd_crop(args: argparse.Namespace) -> None:
-    """Crop, clean, and optionally invert a graphic from a page image (legacy command)."""
+    """Crop and clean a graphic from a page image (legacy command)."""
     src_path = Path(args.image)
     out_path = Path(args.output)
 
@@ -285,14 +275,6 @@ def cmd_crop(args: argparse.Namespace) -> None:
     cropped.save(out_path)
     print(f"Saved cropped graphic to: {out_path}")
 
-    inverted_name = None
-    if args.invert:
-        inverted = ImageOps.invert(cropped.convert("RGB"))
-        inverted_path = out_path.with_name(f"{out_path.stem}.inverted{out_path.suffix}")
-        inverted.save(inverted_path)
-        inverted_name = inverted_path.name
-        print(f"Saved inverted graphic to: {inverted_path}")
-
     caption = args.caption or out_path.stem.replace("_", " ").title()
 
     folio_stem = out_path.name.split(".")[0]
@@ -310,7 +292,6 @@ def cmd_crop(args: argparse.Namespace) -> None:
     entry = {
         "id": graphic_subid,
         "file": out_path.name,
-        "inverted_file": inverted_name,
         "bbox": [x, y, w, h],
         "white_point": args.white_point if not args.no_clean else None,
         "caption": caption,

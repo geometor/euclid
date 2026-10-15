@@ -1,76 +1,190 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 212" width="100%" height="auto">
-<style>
-  .label { font-family: 'Times New Roman', serif; font-style: italic; font-size: 14px; fill: #000000; text-anchor: middle; dominant-baseline: central; }
-  .point { fill: #000000; }
-  .line, .polygon { fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-  .ray-fan, .ray-left { stroke-width: 1.0; stroke: #333333; }
-  .interactive { cursor: pointer; transition: stroke 0.2s, stroke-width 0.2s; }
-  .interactive:hover { stroke: #0284c7; stroke-width: 2.5; }
-  .point-group:hover .point { fill: #0284c7; r: 3.5; }
-  .point-group:hover .label { fill: #0284c7; font-weight: bold; }
-</style>
-<rect width="100%" height="100%" fill="#ffffff" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 212" width="360" height="212" class="euclid-graphic" data-graphic-id="0195.g1" data-folio="0195" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-ray {
+      stroke: #222222;
+      stroke-width: 1.2;
+      stroke-linecap: round;
+    }
+    .geom-dashed {
+      stroke: #222222;
+      stroke-width: 1.3;
+      stroke-dasharray: 3.5, 2.8;
+      fill: none;
+      stroke-linecap: round;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.6;
+      fill: none;
+      transition: stroke 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 14px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
 
-<!-- Left Sub-figure: Triangle with internal projecting rays -->
-<g class="interactive" id="tri_left">
-  <polygon class="polygon" points="64.0,56.0 33.0,198.0 95.0,198.0" />
-</g>
-<g id="rays_left">
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="33.0" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="43.3" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="53.7" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="64.0" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="74.3" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="84.7" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="95.0" y2="198.0" />
-  <line class="line ray-left" x1="64.0" y1="134.0" x2="64.0" y2="56.0" />
-</g>
-<g class="point-group" id="point_a">
-  <circle class="point" cx="64.0" cy="56.0" r="2.5" />
-  <text class="label" x="55.0" y="56.0">a</text>
-</g>
-<g class="point-group" id="point_b">
-  <circle class="point" cx="33.0" cy="198.0" r="2.5" />
-  <text class="label" x="25.0" y="198.0">b</text>
-</g>
-<g class="point-group" id="point_c">
-  <circle class="point" cx="95.0" cy="198.0" r="2.5" />
-  <text class="label" x="103.0" y="198.0">c</text>
-</g>
-<g class="point-group" id="point_p">
-  <circle class="point" cx="64.0" cy="134.0" r="2.5" />
-  <text class="label" x="72.0" y="130.0">p</text>
-</g>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
 
-<!-- Right Sub-figure: Flat angle with cluster of rays -->
-<g class="interactive" id="baseline_right">
-  <line class="line" x1="145.0" y1="106.0" x2="338.0" y2="106.0" />
-</g>
-<g id="fan_right">
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="331.4" y2="76.6" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="317.9" y2="50.2" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="296.8" y2="29.1" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="270.4" y2="15.6" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="241.0" y2="11.0" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="211.6" y2="15.6" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="185.2" y2="29.1" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="164.1" y2="50.2" />
-  <line class="line ray-fan" x1="241.0" y1="106.0" x2="150.6" y2="76.6" />
-</g>
-<!-- Semi-circle arc representing the flat angle -->
-<path class="line" d="M 281.0 106.0 A 40.0 40.0 0 0 0 201.0 106.0" stroke-dasharray="3,3" />
+  <!-- Base Construction Elements -->
+  <g id="elements">
+    <!-- Left Sub-Figure: Intersecting lines a and b through vertex O (V) -->
+    <line id="el-line-Oa" data-ref="[ O a ]" data-aliases="a" data-type="line" x1="64.0" y1="102.0" x2="38.0" y2="196.0" class="geom-line" />
+    <line id="el-line-Oa-ext" data-ref="[ O a ]" data-type="line" x1="64.0" y1="102.0" x2="51.3" y2="56.0" class="geom-dashed" />
+    <line id="el-line-Ob" data-ref="[ O b ]" data-aliases="b" data-type="line" x1="64.0" y1="102.0" x2="90.0" y2="196.0" class="geom-line" />
+    <line id="el-line-Ob-ext" data-ref="[ O b ]" data-type="line" x1="64.0" y1="102.0" x2="76.7" y2="56.0" class="geom-dashed" />
 
-<g class="point-group" id="point_V">
-  <circle class="point" cx="241.0" cy="106.0" r="2.5" />
-  <text class="label" x="241.0" y="120.0">V</text>
-</g>
-<g class="point-group" id="point_A_right">
-  <circle class="point" cx="145.0" cy="106.0" r="2.5" />
-  <text class="label" x="145.0" y="120.0">A</text>
-</g>
-<g class="point-group" id="point_B_right">
-  <circle class="point" cx="338.0" cy="106.0" r="2.5" />
-  <text class="label" x="338.0" y="120.0">B</text>
-</g>
-<text class="label" x="292.0" y="16.0">C</text>
+    <!-- Internal rays of the angular sector (ab) -->
+    <line x1="64.0" y1="102.0" x2="44.5" y2="196.0" class="geom-ray" />
+    <line x1="64.0" y1="102.0" x2="51.0" y2="196.0" class="geom-ray" />
+    <line x1="64.0" y1="102.0" x2="57.5" y2="196.0" class="geom-ray" />
+    <line x1="64.0" y1="102.0" x2="64.0" y2="196.0" class="geom-ray" />
+    <line x1="64.0" y1="102.0" x2="70.5" y2="196.0" class="geom-ray" />
+    <line x1="64.0" y1="102.0" x2="77.0" y2="196.0" class="geom-ray" />
+    <line x1="64.0" y1="102.0" x2="83.5" y2="196.0" class="geom-ray" />
+
+    <!-- Right Sub-Figure: Flat angle AVB and ray VC with semicircular cluster of rays -->
+    <line id="el-line-AB" data-ref="[ A B ]" data-type="line" x1="145.0" y1="106.0" x2="338.0" y2="106.0" class="geom-line" />
+    <line id="el-line-VC" data-ref="[ V C ]" data-type="line" x1="241.0" y1="106.0" x2="288.0" y2="24.0" class="geom-line" />
+
+    <!-- Semicircular fan of dashed rays from V -->
+    <line x1="241.0" y1="106.0" x2="336.5" y2="95.0" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="333.7" y2="81.2" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="328.9" y2="67.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="321.5" y2="55.1" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="311.6" y2="43.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="299.6" y2="33.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="276.6" y2="18.9" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="265.1" y2="15.1" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="253.1" y2="12.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="241.0" y2="12.0" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="228.9" y2="12.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="216.9" y2="15.1" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="205.4" y2="18.9" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="194.0" y2="24.6" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="182.4" y2="33.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="170.4" y2="43.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="160.5" y2="55.1" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="153.1" y2="67.8" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="148.3" y2="81.2" class="geom-dashed" />
+    <line x1="241.0" y1="106.0" x2="145.5" y2="95.0" class="geom-dashed" />
+  </g>
+
+  <!-- Constructed Graphics (Segments and Angle Sectors) -->
+  <g id="graphics">
+    <polygon id="el-tri-Oab" data-ref="&lt; O a b &gt;" data-type="polygon" points="64.0,102.0 38.0,196.0 90.0,196.0" class="geom-polygon" />
+
+    <!-- Left Sub-Figure Rays -->
+    <line id="el-seg-Oa" data-ref="/ O a /" data-aliases="a" data-type="segment" x1="64.0" y1="102.0" x2="38.0" y2="196.0" class="geom-line" />
+    <line id="el-seg-Ob" data-ref="/ O b /" data-aliases="b" data-type="segment" x1="64.0" y1="102.0" x2="90.0" y2="196.0" class="geom-line" />
+
+    <!-- Right Sub-Figure Segments -->
+    <line id="el-seg-AV" data-ref="/ A V /" data-type="segment" x1="145.0" y1="106.0" x2="241.0" y2="106.0" class="geom-line" />
+    <line id="el-seg-VB" data-ref="/ V B /" data-type="segment" x1="241.0" y1="106.0" x2="338.0" y2="106.0" class="geom-line" />
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ A V B /" data-type="segment" x1="145.0" y1="106.0" x2="338.0" y2="106.0" class="geom-line geom-overlay" />
+    <line id="el-seg-VC" data-ref="/ V C /" data-type="segment" x1="241.0" y1="106.0" x2="288.0" y2="24.0" class="geom-line" />
+
+    <!-- Angle Sectors -->
+    <path id="el-ang-aOb" data-ref="&lt; a O b )" data-aliases="&lt; b O a ) | ab | ba" data-type="wedge" d="M 64.0 102.0 L 53.7 139.3 A 38.7 38.7 0 0 0 74.3 139.3 Z" class="wedge angle geom-overlay" />
+    <path id="el-ang-AVB" data-ref="&lt; A V B )" data-type="wedge" d="M 241.0 106.0 L 271.0 106.0 A 30.0 30.0 0 0 0 211.0 106.0 Z" class="wedge angle geom-overlay" />
+    <path id="el-ang-BVC" data-ref="&lt; B V C )" data-type="wedge" d="M 241.0 106.0 L 269.0 106.0 A 28.0 28.0 0 0 0 254.9 81.7 Z" class="wedge angle geom-overlay" />
+    <path id="el-ang-CVA" data-ref="&lt; C V A )" data-type="wedge" d="M 241.0 106.0 L 254.9 81.7 A 28.0 28.0 0 0 0 213.0 106.0 Z" class="wedge angle geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <line id="hl-line-Oa" data-ref="[ O a ]" data-aliases="/ O a / | a" x1="51.3" y1="56.0" x2="38.0" y2="196.0" class="geom-line geom-overlay" />
+    <line id="hl-line-Ob" data-ref="[ O b ]" data-aliases="/ O b / | b" x1="76.7" y1="56.0" x2="90.0" y2="196.0" class="geom-line geom-overlay" />
+    <path id="hl-ang-aOb" data-ref="&lt; a O b )" data-aliases="&lt; b O a ) | ab | ba" d="M 64.0 102.0 L 53.7 139.3 A 38.7 38.7 0 0 0 74.3 139.3 Z" class="wedge angle geom-overlay" />
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ A V B /" x1="145.0" y1="106.0" x2="338.0" y2="106.0" class="geom-line geom-overlay" />
+    <line id="hl-seg-VC" data-ref="/ V C /" x1="241.0" y1="106.0" x2="288.0" y2="24.0" class="geom-line geom-overlay" />
+    <path id="hl-ang-AVB" data-ref="&lt; A V B )" d="M 241.0 106.0 L 271.0 106.0 A 30.0 30.0 0 0 0 211.0 106.0 Z" class="wedge angle geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-O" data-ref="O" data-aliases="V" data-type="point" cx="64.0" cy="102.0" r="3.0" class="geom-point" />
+    <circle id="el-pt-a" data-ref="a" data-type="point" cx="38.0" cy="196.0" r="2.8" class="geom-point" />
+    <circle id="el-pt-b" data-ref="b" data-type="point" cx="90.0" cy="196.0" r="2.8" class="geom-point" />
+    <circle id="el-pt-V" data-ref="V" data-type="point" cx="241.0" cy="106.0" r="3.2" class="geom-point" />
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="145.0" cy="106.0" r="3.0" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="338.0" cy="106.0" r="3.0" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="288.0" cy="24.0" r="3.0" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-O" data-ref="O" x="77.0" y="106.0" text-anchor="middle" class="geom-label">V</text>
+    <text id="lbl-a" data-ref="[ O a ]" data-aliases="a" x="30.0" y="202.0" text-anchor="middle" class="geom-label">a</text>
+    <text id="lbl-b" data-ref="[ O b ]" data-aliases="b" x="98.0" y="202.0" text-anchor="middle" class="geom-label">b</text>
+    <text id="lbl-A" data-ref="A" x="145.0" y="121.0" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-V" data-ref="V" x="241.0" y="121.0" text-anchor="middle" class="geom-label">V</text>
+    <text id="lbl-B" data-ref="B" x="338.0" y="121.0" text-anchor="middle" class="geom-label">B</text>
+    <text id="lbl-C" data-ref="C" x="294.0" y="20.0" text-anchor="middle" class="geom-label">C</text>
+  </g>
 </svg>
