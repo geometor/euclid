@@ -1,51 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 185" width="100%" height="100%" class="euclid-diagram">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 185" width="215" height="185" class="euclid-graphic" data-graphic-id="0172.g1" data-folio="0172" data-graphic="g1" data-proposition="V.16">
   <style>
-    .euclid-diagram {
-      font-family: "Times New Roman", Times, serif;
-      font-size: 16px;
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
       font-style: italic;
+      background-color: #ffffff;
     }
-    .geometry {
+    .geom-line {
       stroke: #000000;
-      stroke-width: 1.5;
-      fill: none;
+      stroke-width: 1.8;
       stroke-linecap: round;
       stroke-linejoin: round;
-    }
-    .construction {
-      stroke: #000000;
-      stroke-width: 1.2;
-      stroke-dasharray: 4, 3;
       fill: none;
-      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
     }
-    .point {
+    .geom-polygon {
+      stroke: #000000;
+      stroke-width: 1.8;
+      stroke-linejoin: round;
+      fill: transparent;
+      transition: fill 0.15s, stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-point {
       fill: #000000;
-      stroke: none;
+      stroke: #ffffff;
+      stroke-width: 0.75;
     }
-    .label {
+    .geom-label {
+      font-size: 16px;
+      font-weight: bold;
       fill: #000000;
       text-anchor: middle;
       dominant-baseline: central;
       user-select: none;
     }
-    .interactive:hover {
-      stroke: #0284c7;
-      stroke-width: 2.5;
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 3.5 !important;
       cursor: pointer;
     }
+    polygon[data-ref]:hover, polygon.highlight, polygon.geom-highlight-active {
+      fill: rgba(239, 68, 68, 0.15) !important;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 4.5 !important;
+      fill: #ef4444 !important;
+      stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
+    }
   </style>
-  <rect width="215" height="185" fill="#ffffff"/>
-  <polygon points="21.00,23.00 189.00,23.00 189.00,160.00 21.00,160.00" class="geometry interactive"/>
-  <line x1="21.00" y1="98.00" x2="189.00" y2="98.00" class="geometry interactive"/>
-  <line x1="128.00" y1="23.00" x2="128.00" y2="160.00" class="geometry interactive"/>
-  <text x="21.00" y="11.00" class="label">d</text>
-  <text x="128.00" y="11.00" class="label">c</text>
-  <text x="189.00" y="11.00" class="label">e</text>
-  <text x="12.00" y="98.00" class="label">a</text>
-  <text x="121.00" y="106.00" class="label">b</text>
-  <text x="197.00" y="98.00" class="label">f</text>
-  <text x="21.00" y="172.00" class="label">h</text>
-  <text x="128.00" y="172.00" class="label">g</text>
-  <text x="189.00" y="172.00" class="label">k</text>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements -->
+  <g id="elements">
+  </g>
+
+  <!-- Constructed Graphics -->
+  <g id="graphics">
+    <!-- Sub-rectangles P, Q, R, S -->
+    <polygon id="el-poly-abcd" data-ref="&lt; a b c d &gt;" data-aliases="&lt; a c &gt;; P" data-type="polygon" points="21.00,98.00 128.00,98.00 128.00,23.00 21.00,23.00" class="geom-polygon" />
+    <polygon id="el-poly-bcef" data-ref="&lt; b c e f &gt;" data-aliases="&lt; b e &gt;; Q" data-type="polygon" points="128.00,98.00 128.00,23.00 189.00,23.00 189.00,98.00" class="geom-polygon" />
+    <polygon id="el-poly-abgh" data-ref="&lt; a b g h &gt;" data-aliases="&lt; a g &gt;; R" data-type="polygon" points="21.00,98.00 128.00,98.00 128.00,160.00 21.00,160.00" class="geom-polygon" />
+    <polygon id="el-poly-bfkg" data-ref="&lt; b f k g &gt;" data-aliases="&lt; b k &gt;; S" data-type="polygon" points="128.00,98.00 189.00,98.00 189.00,160.00 128.00,160.00" class="geom-polygon" />
+    <!-- Segments -->
+    <line id="el-seg-de" data-ref="/ d e /" data-aliases="/ e d /; / d c e /" data-type="segment" x1="21.00" y1="23.00" x2="189.00" y2="23.00" class="geom-line geom-overlay" />
+    <line id="el-seg-af" data-ref="/ a f /" data-aliases="/ f a /; / a b f /" data-type="segment" x1="21.00" y1="98.00" x2="189.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="el-seg-hk" data-ref="/ h k /" data-aliases="/ k h /; / h g k /" data-type="segment" x1="21.00" y1="160.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-dh" data-ref="/ d h /" data-aliases="/ h d /; / d a h /" data-type="segment" x1="21.00" y1="23.00" x2="21.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-cg" data-ref="/ c g /" data-aliases="/ g c /; / c b g /" data-type="segment" x1="128.00" y1="23.00" x2="128.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-ek" data-ref="/ e k /" data-aliases="/ k e /; / e f k /" data-type="segment" x1="189.00" y1="23.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-dc" data-ref="/ d c /" data-aliases="/ c d /" data-type="segment" x1="21.00" y1="23.00" x2="128.00" y2="23.00" class="geom-line geom-overlay" />
+    <line id="el-seg-ce" data-ref="/ c e /" data-aliases="/ e c /" data-type="segment" x1="128.00" y1="23.00" x2="189.00" y2="23.00" class="geom-line geom-overlay" />
+    <line id="el-seg-ab" data-ref="/ a b /" data-aliases="/ b a /" data-type="segment" x1="21.00" y1="98.00" x2="128.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="el-seg-bf" data-ref="/ b f /" data-aliases="/ f b /" data-type="segment" x1="128.00" y1="98.00" x2="189.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="el-seg-hg" data-ref="/ h g /" data-aliases="/ g h /" data-type="segment" x1="21.00" y1="160.00" x2="128.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-gk" data-ref="/ g k /" data-aliases="/ k g /" data-type="segment" x1="128.00" y1="160.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-da" data-ref="/ d a /" data-aliases="/ a d /" data-type="segment" x1="21.00" y1="23.00" x2="21.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="el-seg-ah" data-ref="/ a h /" data-aliases="/ h a /" data-type="segment" x1="21.00" y1="98.00" x2="21.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-cb" data-ref="/ c b /" data-aliases="/ b c /" data-type="segment" x1="128.00" y1="23.00" x2="128.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="el-seg-bg" data-ref="/ b g /" data-aliases="/ g b /" data-type="segment" x1="128.00" y1="98.00" x2="128.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="el-seg-ef" data-ref="/ e f /" data-aliases="/ f e /" data-type="segment" x1="189.00" y1="23.00" x2="189.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="el-seg-fk" data-ref="/ f k /" data-aliases="/ k f /" data-type="segment" x1="189.00" y1="98.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-poly-abcd" data-ref="&lt; a b c d &gt;" data-aliases="&lt; a c &gt;; P" points="21.00,98.00 128.00,98.00 128.00,23.00 21.00,23.00" class="geom-polygon geom-overlay" />
+    <polygon id="hl-poly-bcef" data-ref="&lt; b c e f &gt;" data-aliases="&lt; b e &gt;; Q" points="128.00,98.00 128.00,23.00 189.00,23.00 189.00,98.00" class="geom-polygon geom-overlay" />
+    <polygon id="hl-poly-abgh" data-ref="&lt; a b g h &gt;" data-aliases="&lt; a g &gt;; R" points="21.00,98.00 128.00,98.00 128.00,160.00 21.00,160.00" class="geom-polygon geom-overlay" />
+    <polygon id="hl-poly-bfkg" data-ref="&lt; b f k g &gt;" data-aliases="&lt; b k &gt;; S" points="128.00,98.00 189.00,98.00 189.00,160.00 128.00,160.00" class="geom-polygon geom-overlay" />
+    <line id="hl-seg-de" data-ref="/ d e /" data-aliases="/ e d /; / d c e /" x1="21.00" y1="23.00" x2="189.00" y2="23.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-af" data-ref="/ a f /" data-aliases="/ f a /; / a b f /" x1="21.00" y1="98.00" x2="189.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-hk" data-ref="/ h k /" data-aliases="/ k h /; / h g k /" x1="21.00" y1="160.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-dh" data-ref="/ d h /" data-aliases="/ h d /; / d a h /" x1="21.00" y1="23.00" x2="21.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-cg" data-ref="/ c g /" data-aliases="/ g c /; / c b g /" x1="128.00" y1="23.00" x2="128.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-ek" data-ref="/ e k /" data-aliases="/ k e /; / e f k /" x1="189.00" y1="23.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-dc" data-ref="/ d c /" data-aliases="/ c d /" x1="21.00" y1="23.00" x2="128.00" y2="23.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-ce" data-ref="/ c e /" data-aliases="/ e c /" x1="128.00" y1="23.00" x2="189.00" y2="23.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-ab" data-ref="/ a b /" data-aliases="/ b a /" x1="21.00" y1="98.00" x2="128.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-bf" data-ref="/ b f /" data-aliases="/ f b /" x1="128.00" y1="98.00" x2="189.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-hg" data-ref="/ h g /" data-aliases="/ g h /" x1="21.00" y1="160.00" x2="128.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-gk" data-ref="/ g k /" data-aliases="/ k g /" x1="128.00" y1="160.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-da" data-ref="/ d a /" data-aliases="/ a d /" x1="21.00" y1="23.00" x2="21.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-ah" data-ref="/ a h /" data-aliases="/ h a /" x1="21.00" y1="98.00" x2="21.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-cb" data-ref="/ c b /" data-aliases="/ b c /" x1="128.00" y1="23.00" x2="128.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-bg" data-ref="/ b g /" data-aliases="/ g b /" x1="128.00" y1="98.00" x2="128.00" y2="160.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-ef" data-ref="/ e f /" data-aliases="/ f e /" x1="189.00" y1="23.00" x2="189.00" y2="98.00" class="geom-line geom-overlay" />
+    <line id="hl-seg-fk" data-ref="/ f k /" data-aliases="/ k f /" x1="189.00" y1="98.00" x2="189.00" y2="160.00" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-d" data-ref="d" data-type="point" cx="21.00" cy="23.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-c" data-ref="c" data-type="point" cx="128.00" cy="23.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-e" data-ref="e" data-type="point" cx="189.00" cy="23.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-a" data-ref="a" data-type="point" cx="21.00" cy="98.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-b" data-ref="b" data-type="point" cx="128.00" cy="98.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-f" data-ref="f" data-type="point" cx="189.00" cy="98.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-h" data-ref="h" data-type="point" cx="21.00" cy="160.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-g" data-ref="g" data-type="point" cx="128.00" cy="160.00" r="2.5" class="geom-point" />
+    <circle id="el-pt-k" data-ref="k" data-type="point" cx="189.00" cy="160.00" r="2.5" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-d" data-ref="d" x="21.00" y="11.00" class="geom-label">d</text>
+    <text id="lbl-c" data-ref="c" x="128.00" y="11.00" class="geom-label">c</text>
+    <text id="lbl-e" data-ref="e" x="189.00" y="11.00" class="geom-label">e</text>
+    <text id="lbl-a" data-ref="a" x="11.00" y="98.00" class="geom-label">a</text>
+    <text id="lbl-b" data-ref="b" x="120.00" y="108.00" class="geom-label">b</text>
+    <text id="lbl-f" data-ref="f" x="198.00" y="98.00" class="geom-label">f</text>
+    <text id="lbl-h" data-ref="h" x="21.00" y="172.00" class="geom-label">h</text>
+    <text id="lbl-g" data-ref="g" x="128.00" y="172.00" class="geom-label">g</text>
+    <text id="lbl-k" data-ref="k" x="189.00" y="172.00" class="geom-label">k</text>
+  </g>
 </svg>
