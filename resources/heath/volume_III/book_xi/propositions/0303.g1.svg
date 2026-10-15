@@ -1,25 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 172" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 172" width="240" height="172" class="euclid-graphic" data-graphic-id="0303.g1" data-folio="0303" data-graphic="g1" data-proposition="XI.15">
   <style>
-    .bg { fill: #ffffff; }
-    .line { stroke: #000000; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-    .dashed { stroke: #000000; stroke-width: 1.5; stroke-dasharray: 4,3; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-    .el { cursor: pointer; transition: stroke 0.15s ease; }
-    .el:hover .line, .el:hover .dashed { stroke: #0284c7; stroke-width: 2.5; }
-    .el:hover .lbl { fill: #0284c7; }
-    .lbl { font-family: "Times New Roman", Times, Georgia, serif; font-size: 15px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-dashed {
+      stroke: #000000;
+      stroke-width: 1.6;
+      stroke-dasharray: 4,3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.03;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 3.5 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+      stroke-width: 2.5 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      r: 5.0 !important;
+      fill: #ef4444 !important;
+      stroke: #ffffff !important;
+      stroke-width: 1.5 !important;
+    }
   </style>
-  <rect class="bg" width="240" height="172" />
-  <g class="el">
-    <line class="line" x1="99.0" y1="59.0" x2="174.0" y2="35.0" />
-    <line class="line" x1="99.0" y1="59.0" x2="196.0" y2="69.0" />
-    <line class="line" x1="55.0" y1="83.0" x2="205.0" y2="83.0" />
-    <line class="line" x1="205.0" y1="83.0" x2="187.0" y2="149.0" />
-    <line class="line" x1="187.0" y1="149.0" x2="37.0" y2="149.0" />
-    <line class="line" x1="37.0" y1="149.0" x2="55.0" y2="83.0" />
-    <text class="lbl" x="181.0" y="34.0">B</text>
-    <text class="lbl" x="91.0" y="59.0">A</text>
-    <text class="lbl" x="203.0" y="69.0">C</text>
-    <text class="lbl" x="213.0" y="83.0">N</text>
-    <text class="lbl" x="35.0" y="140.0">M</text>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements (Plane MN Boundary) -->
+  <g id="elements">
+    <line id="el-plane-MN-top" x1="36" y1="81" x2="218" y2="81" class="geom-line" />
+    <line id="el-plane-MN-right" x1="218" y1="81" x2="206" y2="145" class="geom-line" />
+    <line id="el-plane-MN-bottom" x1="206" y1="145" x2="24" y2="145" class="geom-line" />
+    <line id="el-plane-MN-left" x1="24" y1="145" x2="36" y2="81" class="geom-line" />
+  </g>
+
+  <!-- Constructed Graphics (Planes, Segments) -->
+  <g id="graphics">
+    <!-- Plane MN and Plane ABC -->
+    <polygon id="el-plane-MN" data-ref="&lt; M N &gt;" data-aliases="&lt; N M &gt;" data-type="polygon" points="36,81 218,81 206,145 24,145" class="geom-polygon" />
+    <polygon id="el-plane-ABC" data-ref="&lt; A B C &gt;" data-aliases="&lt; B A C &gt; | &lt; C A B &gt;" data-type="polygon" points="86,51 169,22 198,61" class="geom-polygon" />
+
+    <!-- Segments AB and AC -->
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="86" y1="51" x2="169" y2="22" class="geom-line" />
+    <line id="el-seg-AC" data-ref="/ A C /" data-aliases="/ C A /" data-type="segment" x1="86" y1="51" x2="198" y2="61" class="geom-line" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-plane-MN" data-ref="&lt; M N &gt;" data-aliases="&lt; N M &gt;" points="36,81 218,81 206,145 24,145" class="geom-polygon geom-overlay" />
+    <polygon id="hl-plane-ABC" data-ref="&lt; A B C &gt;" data-aliases="&lt; B A C &gt; | &lt; C A B &gt;" points="86,51 169,22 198,61" class="geom-polygon geom-overlay" />
+
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" x1="86" y1="51" x2="169" y2="22" class="geom-line geom-overlay" />
+    <line id="hl-seg-AC" data-ref="/ A C /" data-aliases="/ C A /" x1="86" y1="51" x2="198" y2="61" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="86" cy="51" r="3.2" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="169" cy="22" r="3.2" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="198" cy="61" r="3.2" class="geom-point" />
+    <circle id="el-pt-M" data-ref="M" data-type="point" cx="24" cy="145" r="3.2" class="geom-point" />
+    <circle id="el-pt-N" data-ref="N" data-type="point" cx="218" cy="81" r="3.2" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-B" data-ref="B" x="172" y="23" text-anchor="start" class="geom-label">B</text>
+    <text id="lbl-A" data-ref="A" x="83" y="58" text-anchor="end" class="geom-label">A</text>
+    <text id="lbl-C" data-ref="C" x="201" y="68" text-anchor="start" class="geom-label">C</text>
+    <text id="lbl-N" data-ref="N" x="220" y="90" text-anchor="start" class="geom-label">N</text>
+    <text id="lbl-M" data-ref="M" x="25" y="159" text-anchor="middle" class="geom-label">M</text>
   </g>
 </svg>

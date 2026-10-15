@@ -1,41 +1,163 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 145" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 145" width="100%" height="100%" class="euclid-graphic" data-graphic-id="0132.g1">
   <style>
     .bg { fill: #ffffff; }
     .line { stroke: #000000; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-    .dashed { stroke: #000000; stroke-width: 1.5; stroke-dasharray: 4,3; stroke-linecap: round; stroke-linejoin: round; fill: none; }
-    .tick { stroke: #000000; stroke-width: 1.5; stroke-linecap: round; }
-    .el { cursor: pointer; transition: stroke 0.15s ease; }
-    .el:hover .line, .el:hover .dashed, .el:hover .tick { stroke: #0284c7; stroke-width: 2.5; }
-    .el:hover .lbl { fill: #0284c7; }
+    .poly { stroke: none; fill: none; pointer-events: all; }
+    .highlight-line { stroke: #0284c7; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; fill: none; opacity: 0; pointer-events: none; transition: opacity 0.15s ease; }
+    .highlight-poly { stroke: #0284c7; stroke-width: 2.5; stroke-linejoin: round; fill: #0284c7; fill-opacity: 0.18; opacity: 0; pointer-events: none; transition: opacity 0.15s ease; }
+    .highlight-point { fill: #0284c7; stroke: #0284c7; stroke-width: 2; opacity: 0; pointer-events: none; transition: opacity 0.15s ease; }
+    .active.highlight-line, .active.highlight-poly, .active.highlight-point { opacity: 1; }
+    .point { fill: #000000; }
     .lbl { font-family: "Times New Roman", Times, Georgia, serif; font-size: 15px; font-style: italic; fill: #000000; text-anchor: middle; dominant-baseline: central; user-select: none; }
   </style>
   <rect class="bg" width="420" height="145" />
-  <g class="el" data-name="ABCD">
-    <rect class="line" x="17.0" y="20.0" width="201.0" height="52.5" />
-    <line class="line" x1="115.5" y1="20.0" x2="115.5" y2="72.5" />
-    <line class="line" x1="133.5" y1="20.0" x2="133.5" y2="72.5" />
-    <line class="line" x1="176.5" y1="20.0" x2="176.5" y2="72.5" />
-    <text class="lbl" x="17.0" y="10.0">A</text>
-    <text class="lbl" x="113.5" y="10.0">G</text>
-    <text class="lbl" x="135.5" y="10.0">E</text>
-    <text class="lbl" x="176.5" y="10.0">F</text>
-    <text class="lbl" x="218.0" y="10.0">D</text>
-    <text class="lbl" x="17.0" y="83.5">B</text>
-    <text class="lbl" x="113.5" y="83.5">H</text>
-    <text class="lbl" x="135.5" y="83.5">K</text>
-    <text class="lbl" x="176.5" y="83.5">L</text>
-    <text class="lbl" x="218.0" y="83.5">C</text>
+
+  <g id="elements" />
+
+  <g id="graphics">
+    <!-- Polygons of ABCD -->
+    <polygon id="&lt; A B C D &gt;" data-ref="&lt; A B C D &gt;" data-aliases="&lt; A C &gt;" class="poly" points="17.0,20.0 17.0,72.5 218.0,72.5 218.0,20.0" />
+    <polygon id="&lt; A B K E &gt;" data-ref="&lt; A B K E &gt;" data-aliases="&lt; A K &gt;" class="poly" points="17.0,20.0 17.0,72.5 133.5,72.5 133.5,20.0" />
+    <polygon id="&lt; A B H G &gt;" data-ref="&lt; A B H G &gt;" data-aliases="&lt; A H &gt;" class="poly" points="17.0,20.0 17.0,72.5 115.5,72.5 115.5,20.0" />
+    <polygon id="&lt; G H K E &gt;" data-ref="&lt; G H K E &gt;" data-aliases="&lt; H E &gt; | &lt; G K &gt;" class="poly" points="115.5,20.0 115.5,72.5 133.5,72.5 133.5,20.0" />
+    <polygon id="&lt; E K L F &gt;" data-ref="&lt; E K L F &gt;" data-aliases="&lt; E L &gt;" class="poly" points="133.5,20.0 133.5,72.5 176.5,72.5 176.5,20.0" />
+    <polygon id="&lt; F L C D &gt;" data-ref="&lt; F L C D &gt;" data-aliases="&lt; F C &gt;" class="poly" points="176.5,20.0 176.5,72.5 218.0,72.5 218.0,20.0" />
+
+    <!-- Polygons of SQ -->
+    <polygon id="&lt; TL S BR Q &gt;" data-ref="&lt; TL S BR Q &gt;" data-aliases="&lt; S Q &gt;" class="poly" points="291.5,20.0 291.5,126.5 398.5,126.5 398.5,20.0" />
+    <polygon id="&lt; M S P N &gt;" data-ref="&lt; M S P N &gt;" data-aliases="&lt; S N &gt; | &lt; M N &gt;" class="poly" points="291.5,54.5 291.5,126.5 363.0,126.5 363.0,54.5" />
+    <polygon id="&lt; N O Q R &gt;" data-ref="&lt; N O Q R &gt;" data-aliases="&lt; N Q &gt; | &lt; N O &gt;" class="poly" points="363.0,54.5 398.5,54.5 398.5,20.0 363.0,20.0" />
+    <polygon id="&lt; TL M N R &gt;" data-ref="&lt; TL M N R &gt;" data-aliases="&lt; M R &gt;" class="poly" points="291.5,20.0 291.5,54.5 363.0,54.5 363.0,20.0" />
+    <polygon id="&lt; N P BR O &gt;" data-ref="&lt; N P BR O &gt;" data-aliases="&lt; N P &gt;" class="poly" points="363.0,54.5 363.0,126.5 398.5,126.5 398.5,54.5" />
+
+    <!-- Segments of ABCD -->
+    <line id="/ A D /" data-ref="/ A D /" data-aliases="/ D A /" class="line" x1="17.0" y1="20.0" x2="218.0" y2="20.0" />
+    <line id="/ A E /" data-ref="/ A E /" data-aliases="/ E A /" class="line" x1="17.0" y1="20.0" x2="133.5" y2="20.0" />
+    <line id="/ E D /" data-ref="/ E D /" data-aliases="/ D E /" class="line" x1="133.5" y1="20.0" x2="218.0" y2="20.0" />
+    <line id="/ E F /" data-ref="/ E F /" data-aliases="/ F E /" class="line" x1="133.5" y1="20.0" x2="176.5" y2="20.0" />
+    <line id="/ F D /" data-ref="/ F D /" data-aliases="/ D F /" class="line" x1="176.5" y1="20.0" x2="218.0" y2="20.0" />
+    <line id="/ A G /" data-ref="/ A G /" data-aliases="/ G A /" class="line" x1="17.0" y1="20.0" x2="115.5" y2="20.0" />
+    <line id="/ G E /" data-ref="/ G E /" data-aliases="/ E G /" class="line" x1="115.5" y1="20.0" x2="133.5" y2="20.0" />
+    <line id="/ B C /" data-ref="/ B C /" data-aliases="/ C B /" class="line" x1="17.0" y1="72.5" x2="218.0" y2="72.5" />
+    <line id="/ A B /" data-ref="/ A B /" data-aliases="/ B A /" class="line" x1="17.0" y1="20.0" x2="17.0" y2="72.5" />
+    <line id="/ G H /" data-ref="/ G H /" data-aliases="/ H G /" class="line" x1="115.5" y1="20.0" x2="115.5" y2="72.5" />
+    <line id="/ E K /" data-ref="/ E K /" data-aliases="/ K E /" class="line" x1="133.5" y1="20.0" x2="133.5" y2="72.5" />
+    <line id="/ F L /" data-ref="/ F L /" data-aliases="/ L F /" class="line" x1="176.5" y1="20.0" x2="176.5" y2="72.5" />
+    <line id="/ D C /" data-ref="/ D C /" data-aliases="/ C D /" class="line" x1="218.0" y1="20.0" x2="218.0" y2="72.5" />
+
+    <!-- Segments of SQ -->
+    <line id="/ TL Q /" data-ref="/ TL Q /" class="line" x1="291.5" y1="20.0" x2="398.5" y2="20.0" />
+    <line id="/ S BR /" data-ref="/ S BR /" class="line" x1="291.5" y1="126.5" x2="398.5" y2="126.5" />
+    <line id="/ TL S /" data-ref="/ TL S /" class="line" x1="291.5" y1="20.0" x2="291.5" y2="126.5" />
+    <line id="/ Q BR /" data-ref="/ Q BR /" class="line" x1="398.5" y1="20.0" x2="398.5" y2="126.5" />
+    <line id="/ M O /" data-ref="/ M O /" data-aliases="/ O M /" class="line" x1="291.5" y1="54.5" x2="398.5" y2="54.5" />
+    <line id="/ M N /" data-ref="/ M N /" data-aliases="/ N M /" class="line" x1="291.5" y1="54.5" x2="363.0" y2="54.5" />
+    <line id="/ N O /" data-ref="/ N O /" data-aliases="/ O N /" class="line" x1="363.0" y1="54.5" x2="398.5" y2="54.5" />
+    <line id="/ R P /" data-ref="/ R P /" data-aliases="/ P R /" class="line" x1="363.0" y1="20.0" x2="363.0" y2="126.5" />
+    <line id="/ R N /" data-ref="/ R N /" data-aliases="/ N R /" class="line" x1="363.0" y1="20.0" x2="363.0" y2="54.5" />
+    <line id="/ N P /" data-ref="/ N P /" data-aliases="/ P N /" class="line" x1="363.0" y1="54.5" x2="363.0" y2="126.5" />
+    <line id="/ M S /" data-ref="/ M S /" data-aliases="/ S M /" class="line" x1="291.5" y1="54.5" x2="291.5" y2="126.5" />
+    <line id="/ S P /" data-ref="/ S P /" data-aliases="/ P S /" class="line" x1="291.5" y1="126.5" x2="363.0" y2="126.5" />
+    <line id="/ O Q /" data-ref="/ O Q /" data-aliases="/ Q O /" class="line" x1="398.5" y1="54.5" x2="398.5" y2="20.0" />
+    <line id="/ R Q /" data-ref="/ R Q /" data-aliases="/ Q R /" class="line" x1="363.0" y1="20.0" x2="398.5" y2="20.0" />
   </g>
-  <g class="el" data-name="SQ">
-    <rect class="line" x="291.5" y="20.0" width="107.0" height="106.5" />
-    <line class="line" x1="291.5" y1="54.5" x2="398.5" y2="54.5" />
-    <line class="line" x1="363.0" y1="20.0" x2="363.0" y2="126.5" />
-    <text class="lbl" x="363.0" y="10.0">R</text>
-    <text class="lbl" x="398.5" y="10.0">Q</text>
-    <text class="lbl" x="281.5" y="54.5">M</text>
-    <text class="lbl" x="355.0" y="64.5">N</text>
-    <text class="lbl" x="408.5" y="54.5">O</text>
-    <text class="lbl" x="291.5" y="137.5">S</text>
-    <text class="lbl" x="363.0" y="137.5">P</text>
+
+  <g id="highlights">
+    <!-- Polygons -->
+    <polygon id="highlight-&lt; A B C D &gt;" data-ref="&lt; A B C D &gt;" data-aliases="&lt; A C &gt;" class="highlight-poly" points="17.0,20.0 17.0,72.5 218.0,72.5 218.0,20.0" />
+    <polygon id="highlight-&lt; A B K E &gt;" data-ref="&lt; A B K E &gt;" data-aliases="&lt; A K &gt;" class="highlight-poly" points="17.0,20.0 17.0,72.5 133.5,72.5 133.5,20.0" />
+    <polygon id="highlight-&lt; A B H G &gt;" data-ref="&lt; A B H G &gt;" data-aliases="&lt; A H &gt;" class="highlight-poly" points="17.0,20.0 17.0,72.5 115.5,72.5 115.5,20.0" />
+    <polygon id="highlight-&lt; G H K E &gt;" data-ref="&lt; G H K E &gt;" data-aliases="&lt; H E &gt; | &lt; G K &gt;" class="highlight-poly" points="115.5,20.0 115.5,72.5 133.5,72.5 133.5,20.0" />
+    <polygon id="highlight-&lt; E K L F &gt;" data-ref="&lt; E K L F &gt;" data-aliases="&lt; E L &gt;" class="highlight-poly" points="133.5,20.0 133.5,72.5 176.5,72.5 176.5,20.0" />
+    <polygon id="highlight-&lt; F L C D &gt;" data-ref="&lt; F L C D &gt;" data-aliases="&lt; F C &gt;" class="highlight-poly" points="176.5,20.0 176.5,72.5 218.0,72.5 218.0,20.0" />
+    <polygon id="highlight-&lt; TL S BR Q &gt;" data-ref="&lt; TL S BR Q &gt;" data-aliases="&lt; S Q &gt;" class="highlight-poly" points="291.5,20.0 291.5,126.5 398.5,126.5 398.5,20.0" />
+    <polygon id="highlight-&lt; M S P N &gt;" data-ref="&lt; M S P N &gt;" data-aliases="&lt; S N &gt; | &lt; M N &gt;" class="highlight-poly" points="291.5,54.5 291.5,126.5 363.0,126.5 363.0,54.5" />
+    <polygon id="highlight-&lt; N O Q R &gt;" data-ref="&lt; N O Q R &gt;" data-aliases="&lt; N Q &gt; | &lt; N O &gt;" class="highlight-poly" points="363.0,54.5 398.5,54.5 398.5,20.0 363.0,20.0" />
+    <polygon id="highlight-&lt; TL M N R &gt;" data-ref="&lt; TL M N R &gt;" data-aliases="&lt; M R &gt;" class="highlight-poly" points="291.5,20.0 291.5,54.5 363.0,54.5 363.0,20.0" />
+    <polygon id="highlight-&lt; N P BR O &gt;" data-ref="&lt; N P BR O &gt;" data-aliases="&lt; N P &gt;" class="highlight-poly" points="363.0,54.5 363.0,126.5 398.5,126.5 398.5,54.5" />
+
+    <!-- Segments -->
+    <line id="highlight-/ A D /" data-ref="/ A D /" data-aliases="/ D A /" class="highlight-line" x1="17.0" y1="20.0" x2="218.0" y2="20.0" />
+    <line id="highlight-/ A E /" data-ref="/ A E /" data-aliases="/ E A /" class="highlight-line" x1="17.0" y1="20.0" x2="133.5" y2="20.0" />
+    <line id="highlight-/ E D /" data-ref="/ E D /" data-aliases="/ D E /" class="highlight-line" x1="133.5" y1="20.0" x2="218.0" y2="20.0" />
+    <line id="highlight-/ E F /" data-ref="/ E F /" data-aliases="/ F E /" class="highlight-line" x1="133.5" y1="20.0" x2="176.5" y2="20.0" />
+    <line id="highlight-/ F D /" data-ref="/ F D /" data-aliases="/ D F /" class="highlight-line" x1="176.5" y1="20.0" x2="218.0" y2="20.0" />
+    <line id="highlight-/ A G /" data-ref="/ A G /" data-aliases="/ G A /" class="highlight-line" x1="17.0" y1="20.0" x2="115.5" y2="20.0" />
+    <line id="highlight-/ G E /" data-ref="/ G E /" data-aliases="/ E G /" class="highlight-line" x1="115.5" y1="20.0" x2="133.5" y2="20.0" />
+    <line id="highlight-/ B C /" data-ref="/ B C /" data-aliases="/ C B /" class="highlight-line" x1="17.0" y1="72.5" x2="218.0" y2="72.5" />
+    <line id="highlight-/ A B /" data-ref="/ A B /" data-aliases="/ B A /" class="highlight-line" x1="17.0" y1="20.0" x2="17.0" y2="72.5" />
+    <line id="highlight-/ G H /" data-ref="/ G H /" data-aliases="/ H G /" class="highlight-line" x1="115.5" y1="20.0" x2="115.5" y2="72.5" />
+    <line id="highlight-/ E K /" data-ref="/ E K /" data-aliases="/ K E /" class="highlight-line" x1="133.5" y1="20.0" x2="133.5" y2="72.5" />
+    <line id="highlight-/ F L /" data-ref="/ F L /" data-aliases="/ L F /" class="highlight-line" x1="176.5" y1="20.0" x2="176.5" y2="72.5" />
+    <line id="highlight-/ D C /" data-ref="/ D C /" data-aliases="/ C D /" class="highlight-line" x1="218.0" y1="20.0" x2="218.0" y2="72.5" />
+    <line id="highlight-/ M O /" data-ref="/ M O /" data-aliases="/ O M /" class="highlight-line" x1="291.5" y1="54.5" x2="398.5" y2="54.5" />
+    <line id="highlight-/ M N /" data-ref="/ M N /" data-aliases="/ N M /" class="highlight-line" x1="291.5" y1="54.5" x2="363.0" y2="54.5" />
+    <line id="highlight-/ N O /" data-ref="/ N O /" data-aliases="/ O N /" class="highlight-line" x1="363.0" y1="54.5" x2="398.5" y2="54.5" />
+    <line id="highlight-/ R P /" data-ref="/ R P /" data-aliases="/ P R /" class="highlight-line" x1="363.0" y1="20.0" x2="363.0" y2="126.5" />
+    <line id="highlight-/ R N /" data-ref="/ R N /" data-aliases="/ N R /" class="highlight-line" x1="363.0" y1="20.0" x2="363.0" y2="54.5" />
+    <line id="highlight-/ N P /" data-ref="/ N P /" data-aliases="/ P N /" class="highlight-line" x1="363.0" y1="54.5" x2="363.0" y2="126.5" />
+    <line id="highlight-/ M S /" data-ref="/ M S /" data-aliases="/ S M /" class="highlight-line" x1="291.5" y1="54.5" x2="291.5" y2="126.5" />
+    <line id="highlight-/ S P /" data-ref="/ S P /" data-aliases="/ P S /" class="highlight-line" x1="291.5" y1="126.5" x2="363.0" y2="126.5" />
+    <line id="highlight-/ O Q /" data-ref="/ O Q /" data-aliases="/ Q O /" class="highlight-line" x1="398.5" y1="54.5" x2="398.5" y2="20.0" />
+    <line id="highlight-/ R Q /" data-ref="/ R Q /" data-aliases="/ Q R /" class="highlight-line" x1="363.0" y1="20.0" x2="398.5" y2="20.0" />
+
+    <!-- Points -->
+    <circle id="highlight-A" data-ref="A" class="highlight-point" cx="17.0" cy="20.0" r="4" />
+    <circle id="highlight-G" data-ref="G" class="highlight-point" cx="115.5" cy="20.0" r="4" />
+    <circle id="highlight-E" data-ref="E" class="highlight-point" cx="133.5" cy="20.0" r="4" />
+    <circle id="highlight-F" data-ref="F" class="highlight-point" cx="176.5" cy="20.0" r="4" />
+    <circle id="highlight-D" data-ref="D" class="highlight-point" cx="218.0" cy="20.0" r="4" />
+    <circle id="highlight-B" data-ref="B" class="highlight-point" cx="17.0" cy="72.5" r="4" />
+    <circle id="highlight-H" data-ref="H" class="highlight-point" cx="115.5" cy="72.5" r="4" />
+    <circle id="highlight-K" data-ref="K" class="highlight-point" cx="133.5" cy="72.5" r="4" />
+    <circle id="highlight-L" data-ref="L" class="highlight-point" cx="176.5" cy="72.5" r="4" />
+    <circle id="highlight-C" data-ref="C" class="highlight-point" cx="218.0" cy="72.5" r="4" />
+    <circle id="highlight-R" data-ref="R" class="highlight-point" cx="363.0" cy="20.0" r="4" />
+    <circle id="highlight-Q" data-ref="Q" class="highlight-point" cx="398.5" cy="20.0" r="4" />
+    <circle id="highlight-M" data-ref="M" class="highlight-point" cx="291.5" cy="54.5" r="4" />
+    <circle id="highlight-N" data-ref="N" class="highlight-point" cx="363.0" cy="54.5" r="4" />
+    <circle id="highlight-O" data-ref="O" class="highlight-point" cx="398.5" cy="54.5" r="4" />
+    <circle id="highlight-S" data-ref="S" class="highlight-point" cx="291.5" cy="126.5" r="4" />
+    <circle id="highlight-P" data-ref="P" class="highlight-point" cx="363.0" cy="126.5" r="4" />
+  </g>
+
+  <g id="points">
+    <circle id="A" data-ref="A" class="point" cx="17.0" cy="20.0" r="1.5" />
+    <circle id="G" data-ref="G" class="point" cx="115.5" cy="20.0" r="1.5" />
+    <circle id="E" data-ref="E" class="point" cx="133.5" cy="20.0" r="1.5" />
+    <circle id="F" data-ref="F" class="point" cx="176.5" cy="20.0" r="1.5" />
+    <circle id="D" data-ref="D" class="point" cx="218.0" cy="20.0" r="1.5" />
+    <circle id="B" data-ref="B" class="point" cx="17.0" cy="72.5" r="1.5" />
+    <circle id="H" data-ref="H" class="point" cx="115.5" cy="72.5" r="1.5" />
+    <circle id="K" data-ref="K" class="point" cx="133.5" cy="72.5" r="1.5" />
+    <circle id="L" data-ref="L" class="point" cx="176.5" cy="72.5" r="1.5" />
+    <circle id="C" data-ref="C" class="point" cx="218.0" cy="72.5" r="1.5" />
+    <circle id="R" data-ref="R" class="point" cx="363.0" cy="20.0" r="1.5" />
+    <circle id="Q" data-ref="Q" class="point" cx="398.5" cy="20.0" r="1.5" />
+    <circle id="M" data-ref="M" class="point" cx="291.5" cy="54.5" r="1.5" />
+    <circle id="N" data-ref="N" class="point" cx="363.0" cy="54.5" r="1.5" />
+    <circle id="O" data-ref="O" class="point" cx="398.5" cy="54.5" r="1.5" />
+    <circle id="S" data-ref="S" class="point" cx="291.5" cy="126.5" r="1.5" />
+    <circle id="P" data-ref="P" class="point" cx="363.0" cy="126.5" r="1.5" />
+  </g>
+
+  <g id="labels">
+    <text id="label-A" data-ref="A" class="lbl" x="17.0" y="10.0">A</text>
+    <text id="label-G" data-ref="G" class="lbl" x="113.5" y="10.0">G</text>
+    <text id="label-E" data-ref="E" class="lbl" x="135.5" y="10.0">E</text>
+    <text id="label-F" data-ref="F" class="lbl" x="176.5" y="10.0">F</text>
+    <text id="label-D" data-ref="D" class="lbl" x="218.0" y="10.0">D</text>
+    <text id="label-B" data-ref="B" class="lbl" x="17.0" y="83.5">B</text>
+    <text id="label-H" data-ref="H" class="lbl" x="113.5" y="83.5">H</text>
+    <text id="label-K" data-ref="K" class="lbl" x="135.5" y="83.5">K</text>
+    <text id="label-L" data-ref="L" class="lbl" x="176.5" y="83.5">L</text>
+    <text id="label-C" data-ref="C" class="lbl" x="218.0" y="83.5">C</text>
+    <text id="label-R" data-ref="R" class="lbl" x="363.0" y="10.0">R</text>
+    <text id="label-Q" data-ref="Q" class="lbl" x="398.5" y="10.0">Q</text>
+    <text id="label-M" data-ref="M" class="lbl" x="281.5" y="54.5">M</text>
+    <text id="label-N" data-ref="N" class="lbl" x="355.0" y="64.5">N</text>
+    <text id="label-O" data-ref="O" class="lbl" x="408.5" y="54.5">O</text>
+    <text id="label-S" data-ref="S" class="lbl" x="291.5" y="137.5">S</text>
+    <text id="label-P" data-ref="P" class="lbl" x="363.0" y="137.5">P</text>
   </g>
 </svg>
