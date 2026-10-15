@@ -281,10 +281,10 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
 
         existing_entry = next((g for g in graphics if g.get("id") == gid), {})
         entry = dict(existing_entry)
+        entry.pop("inverted_file", None)
         entry.update({
             "id": gid,
             "file": existing_entry.get("file", f"{folio_data['folio']}.{gid}.png"),
-            "inverted_file": existing_entry.get("inverted_file", f"{folio_data['folio']}.{gid}.inverted.png"),
             "svg_file": existing_entry.get("svg_file", f"{folio_data['folio']}.{gid}.svg"),
             "bbox": [int(v) for v in bbox],
             "white_point": int(white_point) if white_point is not None else existing_entry.get("white_point", 226),
@@ -353,6 +353,35 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
             return jsonify({
                 "success": True,
                 "svg_file": svg_filename,
+                "graphics": updated_folio.get("graphics", []) if updated_folio else [],
+            })
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+    @app.route("/api/folio/<volume_id>/<folio_id>/graphic/<gid>/save_py", methods=["POST"])
+    def api_save_graphic_py(volume_id: str, folio_id: str, gid: str):
+        """Save or update Python construction script (<folio>.<gid>.py) on disk."""
+        payload = request.get_json(force=True) or {}
+        py_content = payload.get("py", "").strip()
+
+        if not py_content:
+            return jsonify({"error": "Empty Python script content"}), 400
+
+        folio_data = scanner.get_folio(volume_id, folio_id)
+        if not folio_data:
+            return jsonify({"error": "Folio not found"}), 404
+
+        parent_dir = scanner.root_dir / folio_data["volume"] / folio_data["section_path"]
+        py_filename = f"{folio_data['folio']}.{gid}.py"
+        py_path = parent_dir / py_filename
+
+        try:
+            py_path.write_text(py_content + "\n", encoding="utf-8")
+            scanner.refresh(force=True)
+            updated_folio = scanner.get_folio(volume_id, folio_id)
+            return jsonify({
+                "success": True,
+                "py_file": py_filename,
                 "graphics": updated_folio.get("graphics", []) if updated_folio else [],
             })
         except Exception as e:

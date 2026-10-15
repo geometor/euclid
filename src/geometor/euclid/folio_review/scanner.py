@@ -179,12 +179,12 @@ class FolioScanner:
                             for g in raw_graphics:
                                 gid = g.get("id", "g1")
                                 g_file = g.get("file", f"{stem}.{gid}.png")
-                                inv_file = g.get("inverted_file", f"{stem}.{gid}.inverted.png")
                                 svg_file = g.get("svg_file", f"{stem}.{gid}.svg")
-                                
+                                py_file = g.get("py_file", f"{stem}.{gid}.py")
+
                                 file_exists = (parent_dir / g_file).exists()
-                                inv_exists = (parent_dir / inv_file).exists()
                                 svg_exists = (parent_dir / svg_file).exists()
+                                py_exists = (parent_dir / py_file).exists()
 
                                 if not file_exists:
                                     missing_crops += 1
@@ -202,10 +202,10 @@ class FolioScanner:
                                     "id": gid,
                                     "file": g_file,
                                     "file_exists": file_exists,
-                                    "inverted_file": inv_file,
-                                    "inverted_exists": inv_exists,
                                     "svg_file": svg_file,
                                     "svg_exists": svg_exists,
+                                    "py_file": py_file,
+                                    "py_exists": py_exists,
                                     "in_md_format": in_md_format,
                                     "bbox": g.get("bbox", []),
                                     "white_point": g.get("white_point", 226),
@@ -438,7 +438,7 @@ class FolioScanner:
         else:
             res["raw_json"] = None
 
-        # Load SVG content for any graphics that exist
+        # Load SVG and Python construction script content for any graphics that exist
         graphics_with_content = []
         for g in res.get("graphics", []):
             g_copy = dict(g)
@@ -453,6 +453,18 @@ class FolioScanner:
                     g_copy["svg_content"] = None
             else:
                 g_copy["svg_content"] = None
+
+            py_name = g_copy.get("py_file", f"{folio_id}.{g_copy.get('id', 'g1')}.py")
+            py_p = full_parent / py_name
+            if py_p.exists():
+                try:
+                    g_copy["py_content"] = py_p.read_text(encoding="utf-8")
+                    g_copy["py_exists"] = True
+                except Exception:
+                    g_copy["py_content"] = None
+            else:
+                g_copy["py_content"] = None
+
             graphics_with_content.append(g_copy)
         res["graphics"] = graphics_with_content
 
