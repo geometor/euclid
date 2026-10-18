@@ -1,0 +1,53 @@
+Transcription Notes: Folio 0018 (Page 12)
+=========================================
+
+Summary & Folio Continuity
+--------------------------
+
+- **Preceding Folio** (``0017.rst``): Ends in the proof of Book III, Proposition 4 with the deduction that the angle $FEB$ is right.
+- **Current Folio** (``0018.rst``): Concludes the proof of Book III, Proposition 4 (*Q.E.D.*), presents the full text and proof of Book III, Proposition 5, and provides Heath's commentary on combining Propositions 5 and 6.
+- **Following Folio** (``0019.rst``): Begins at the top with Book III, Proposition 6.
+
+Textual, Lexical & Mathematical Observations
+--------------------------------------------
+
+- **Proposition 4 Conclusion**: Completes the *reductio ad absurdum* showing that two chords not both passing through the centre cannot bisect one another ($\angle FEA = \angle FEB$, the less to the greater).
+- **Proposition 5** (*reductio ad absurdum*): Demonstrates that two intersecting circles $ABC, CDG$ cannot share the same centre $E$ by joining $EC$ to an intersection point $C$ and drawing a secant $EFG$ at random, yielding $EF = EC = EG$, which is impossible.
+- **Unified Enunciation (III. 5 & 6)**: Heath observes that III. 5 (intersecting circles) and III. 6 (tangent circles) can be unified into the single statement: *If the circumferences of two circles meet at a point they cannot have the same centre* (unless they coincide altogether).
+
+Graphic Calibration
+-------------------
+
+- ``0018.g1.svg``: Shows intersecting circles $ABC$ and $CDG$ meeting at $B$ and $C$, with assumed common centre $E$, radius $EC$, and random line $EFG$. Bounding box adjusted from ``[486, 461, 193, 218]`` to ``[486, 461, 193, 185]`` to remove the text line (``of the circle CDG,``) below the diagram while preserving all vertex labels ($A, B, C, D, E, F, G$).
+
+Typesetting & Structural Articulation
+-------------------------------------
+
+- **Lineation & Structural Tagging**:
+
+  - Replaced improper display-math blocks (``$$EC \text{ is equal to } EF...$$``) with proper semantic ``.. assertion::`` lines matching letterpress.
+  - Proposition 4 concluding assertion: ``.. assertion:: Therefore $AC$, $BD$ do not bisect one another.``.
+  - Proposition 5 enunciation wrapped in ``.. enunciation::`` with exact 2-line letterpress break.
+  - Centered deductive assertions in Proposition 5:
+
+    - ``.. assertion:: $EC$ is equal to $EF$. :just:[[I. Def. 15]]``
+    - ``.. assertion:: $EC$ is equal to $EG$.``
+    - ``.. assertion:: Therefore the point $E$ is not the centre of the circles | $ABC$, $CDG$.``
+
+  - Closing formulas: ``.. qed:: Therefore etc. :just:[Q. E. D.]``.
+
+- **SVG Animation Sequencing**:
+
+  - Proposition 4 (Concluded):
+
+    - Step 14: Compare right angles $\angle FEA$ and $\angle FEB$ (part equal to whole), showing impossibility and concluding $AC, BD$ do not bisect each other.
+
+  - Proposition 5:
+
+    - Step 1: Draw intersecting circles $ABC$ and $CDG$ meeting at $B$ and $C$.
+    - Step 2: Plot hypothetical common centre $E$.
+    - Step 3: Join radius $EC$ to intersection $C$.
+    - Step 4: Draw secant $EFG$ meeting circle $ABC$ at $F$ and circle $CDG$ at $G$.
+    - Step 5: Highlight $EC = EF$ (radii of $ABC$).
+    - Step 6: Highlight $EC = EG$ (radii of $CDG$).
+    - Step 7: Compare $EF$ and $EG$ along the same ray ($EF = EG$, less to greater), refuting common centre $E$.

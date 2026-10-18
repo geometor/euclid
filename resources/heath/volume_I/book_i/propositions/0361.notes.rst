@@ -1,0 +1,96 @@
+Transcription Notes for Folio 0361 (Page 347)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0361
+- **Page**: 347
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: Propositions
+- **Title**: Propositions 45 and 46
+- **Running Header**: ``I. 45, 46] PROPOSITIONS 45, 46 347``
+
+Textual Observations & Editorial Decisions
+------------------------------------------
+
+1. **Top Text: Continuation of Commentary on Transformation of Areas (Proposition 45)**:
+
+   - Folio 0361 completes the historical and mathematical note on the *Transformation of areas* commenced at the foot of folio 0360 (page 346).
+   - The opening clause continues the sentence broken across the page boundary:
+
+     - Page 346: *"We can now take stock of how far the propositions I. 43–45 bring us in the matter of \*transformation of areas\*, which constitutes so important a part of"*
+     - Page 347: *"what has been fitly called the \*geometrical algebra\* of the Greeks."*
+
+   - Key mathematical themes in Heath's exposition:
+
+     - Representation of any rectilineal area (via triangular decomposition) as a parallelogram with a prescribed side and angle.
+     - The primacy of the rectangle as representing the product of two magnitudes.
+     - Geometrical *application* (παραβολή) as the equivalent of algebraic *division* ($A / b = h$).
+     - Geometrical addition and subtraction of areas into a single rectangle with a given base, equivalent to finding a common factor.
+     - Missing step in Book I: finding a *square* equal to a given rectangle (reserved for II. 14).
+     - Overview of Book II: transformations of combinations of rectangles and squares, anticipating the Pythagorean theorem in I. 47 (sum of squares).
+     - The converse transformation into an area *similar* to a given rectilineal figure requires proportions (VI. 25).
+
+   - Proclus Citation (pp. 422, 24—423, 6):
+
+     - Connects the problem of transformation of areas to the origin of the ancient quest to square the circle (*tetragonismos*).
+     - Notes Archimedes' determination of the circle (*Dimension of the Circle*, Prop. 1): equal to a right-angled triangle with perpendicular equal to radius and base equal to perimeter.
+     - Heath preserves the editorial clarification ``[the perpendicular]`` in brackets.
+
+2. **Proposition 46: Enunciation and Initial Construction**:
+
+   - Section heading: ``### PROPOSITION 46.``
+   - Enunciation: ``#### *On a given straight line to describe a square.*``
+   - Proposition line numbering:
+
+     - Milestones appear in Heath's margin at 5-line intervals:
+
+       - ``:line:[5]``: Line 5 ("Let $AC$ be drawn at right angles to...")
+       - ``:line:[10]``: Line 10 ("parallel to $AB$,")
+
+     - The construction citation ``[I. 31]`` at line 11 closes the text of folio 0361.
+
+   - Perseus TEI XML Ground-Truth Cross-Check (``elem.1.46``):
+
+     - Enunciation: *"On a given straight line to describe a square."*
+     - Text for lines 1–11 matches Perseus TEI XML verbatim.
+
+3. **Demonstration Graphic**:
+
+   - **Graphic 1** (``0361.g1.svg``):
+
+     - Embedded as: ``.. picture:: 0361.g1.svg``
+     - Defined in ``0361.json`` with bounding box ``[497, 820, 158, 210]``.
+     - Depicts given line $AB$, perpendicular $AC$ drawn from $A$, point $D$ marked off on $AC$ with $AD = AB$, parallel $DE \parallel AB$, and parallel $BE \parallel AD$ completing square $ADEB$.
+     - Directly inspected via ``view_file``; all letter labels ($A, B, C, D, E$) and linework are clear and complete.
+     - Placed in markdown immediately following the setting-out / specification lines (``on the straight line $AB$.``), before the construction steps.
+
+4. **Page Boundary Continuation to Folio 0362**:
+
+   - Folio 0361 ends with line 11 of the construction: ``and through the point $B$ let $BE$ be drawn parallel to $AD$. [I. 31]``.
+   - The demonstration begins at the top of folio 0362 (page 348): ``Therefore $ADEB$ is a parallelogram;...``.
+
+4. Typesetting & Structural Articulation (Proposition 46, Part 1)
+-----------------------------------------------------------------
+
+- **Problem Enunciation**:
+  ``.. enunciation:: On a given straight line to describe a square.``
+  Typeset as a concise single line header.
+- **Construction & Justifications**:
+
+  - Right angle perpendicular from given point:
+    ``:line:[5] Let $AC$ be drawn at right angles to the straight line $AB$ from the point $A$ on it :just:[[I. 11]], and let $AD$ be made equal to $AB$;``
+  - Parallel completions:
+    ``:line:[10] parallel to $AB$, and through the point $B$ let $BE$ be drawn parallel to $AD$. :just:[[I. 31]]``
+
+- **SVG Animation Sequencing (Proposition 46)**:
+
+  - **Step 1 (Given Line Segment)**: Render given straight line segment $AB$.
+  - **Step 2 (Erect Perpendicular via I. 11)**: From point $A$, erect ray $AC$ perpendicular to $AB$, marking right angle $\angle CAB = 90^\circ$ [I. 11].
+  - **Step 3 (Cut Off Equal Segment via I. 3)**: On ray $AC$, cut off segment $AD = AB$, marking equal segment ticks on $AB$ and $AD$.
+  - **Step 4 (Construct Parallels via I. 31)**: Through point $D$, draw ray $DE \parallel AB$; through point $B$, draw ray $BE \parallel AD$, intersecting at point $E$ to form parallelogram $ADEB$.
+  - **Step 5 (Equilateral Demonstration)**: Highlight opposite sides equal in parallelogram: $AB = DE$ and $AD = BE$ [I. 34]; since $AB = AD$, pulse all four sides $BA = AD = DE = EB$, proving $ADEB$ is equilateral.
+  - **Step 6 (Right-Angled Demonstration)**: Transversal $AD$ across parallels $AB, DE$ makes consecutive interior angles $\angle BAD + \angle ADE = 2\text{R}$ [I. 29]; since $\angle BAD$ is right, deduce $\angle ADE$ is right. Opposite angles in parallelogram are equal [I. 34], proving all four angles $\angle BAD, \angle ADE, \angle BED, \angle ABE$ are right angles.
+  - **Step 7 (Conclusion via Def. 22)**: Both equilateral and right-angled $\implies ADEB$ is a square described on side $AB$; reveal Q.E.F.

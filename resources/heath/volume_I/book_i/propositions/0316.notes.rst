@@ -1,0 +1,103 @@
+Transcription Notes: Folio 0316 (Page 302)
+==========================================
+
+1. Overview
+-----------
+
+- **Book / Section**: Book I, Propositions.
+- **Folio**: ``0316`` (Page 302).
+- **Running Header**: ``302 BOOK I [I. 26``.
+- **Contents**:
+
+  - **Proposition 26 (Continued)**:
+
+    - **Setting-out (ἔκθεσις)** (lines 8–13): Let $ABC, DEF$ be two triangles having angles $ABC, BCA$ equal respectively to $DEF, EFD$, and side $BC$ equal to $EF$ (adjoining the equal angles).
+    - **Specification (διορισμός)** (lines 14–17): I say that they will also have remaining sides $AB = DE, AC = DF$ and remaining angle $\angle BAC = \angle EDF$.
+    - **Diagram**: ``0316.g1.svg`` (``.. picture:: 0316.g1.svg``).
+    - **Demonstration (ἀπόδειξις) — Case 1 (side adjoining equal angles)** (lines 17–40):
+
+      - Reductio ad absurdum on $AB$: if $AB \ne DE$, assume $AB > DE$.
+      - Construction: cut off $BG = DE$ and join $GC$.
+      - SAS congruence ($\triangle GBC \cong \triangle DEF$ via **[I. 4]**).
+      - Consequence: $\angle GCB = \angle DFE = \angle BCA$, so the less angle $\angle BCG$ equals the greater $\angle BCA$, which is impossible.
+      - Hence $AB = DE$.
+      - Final SAS step: sides $AB = DE, BC = EF$, included angle $\angle ABC = \angle DEF$, yielding base $AC = DF$ and $\angle BAC = \angle EDF$ by **[I. 4]**.
+
+    - Page concludes at the end of Case 1 proof with ``[I. 4]``. Case 2 (side subtending one of the equal angles) continues on folio 0317 (page 303).
+
+2. Textual & Typographical Details
+----------------------------------
+
+- **Perseus TEI XML Ground-Truth Cross-Check** (``elem.1.26``):
+
+  - The setting-out, specification, and Case 1 proof match the Perseus TEI XML ground truth verbatim.
+  - Bracketed citations ``[I. 4]`` match Heath's print placement:
+
+    - Line 28: ``namely those which the equal sides subtend; [I. 4]``
+    - Line 41: ``angle EDF. [I. 4]``
+
+- **Marginal Line Numbering**:
+
+  - Heath's marginal line numbers correspond to lines counted from the beginning of Proposition 26:
+
+    - ``:line:[10]``: Line 10 of text (``:line:[10]$BCA$ to the angle $EFD$;...``).
+    - ``:line:[15]``: Line 15 of text (``:line:[15]$AC$ to $DF$, and the remaining angle...``).
+    - ``:line:[20]``: Line 20 of text (``:line:[20]Then, since $BG$ is equal to $DE$, and $BC$ to $EF$,``).
+    - ``:line:[25]``: Line 25 of text (``:line:[25]and the triangle $GBC$ is equal to the triangle $DEF$,``).
+    - ``:line:[30]``: Line 30 of text (``:line:[30]therefore the angle $BCG$ is equal to the angle $BCA$,``).
+    - ``:line:[35]``: Line 35 of text (``:line:[35]therefore the two sides $AB$, $BC$ are equal to the two sides $DE$, $EF$ respectively,``).
+    - ``:line:[40]``: Line 40 of text (``and the remaining angle $BAC$ is equal to the remaining :line:[40]angle $EDF$. [I. 4]``).
+
+  - All line numbers are formatted using superscript tags ``:sup:[N]`` per project standards.
+
+- **Punctuation Nuance**:
+
+  - In line 36 of text (Heath's line 35 clause), Heath prints: ``sides DE, EF respectively,`` followed by a comma (not a semicolon), before ``and the angle ABC is equal to the angle DEF;``. This faithfully matches the Perseus TEI XML ground truth.
+
+- **Footnotes**:
+
+  - There are no footnotes on page 302.
+
+3. Graphic Calibration
+----------------------
+
+- **Graphic** ``0316.g1.svg`` (**Proposition 26 figure**):
+
+  - Single source of truth in ``0316.json``:
+
+    - ``bbox``: ``[221, 368, 333, 135]``
+    - ``white_point``: ``226``
+    - ``caption``: ``"Folio 0316 Figure 1 - Proposition 26"``
+
+  - Direct visual verification via ``view_file``: Clean crop displaying triangles $\triangle ABC$ (with points $G$ on $AB$ and $H$ on $BC$, lines $GC$ and $AH$ drawn) and $\triangle DEF$, with all letter labels ($A, B, C, D, E, F, G, H$) clear, crisp, and properly centered. Note that point $H$ and line $AH$ in the figure relate to Case 2, which is demonstrated on the facing page (folio 0317).
+
+4. Typesetting & Structural Articulation (Proposition 26, Case 1: ASA)
+----------------------------------------------------------------------
+
+- **Setting-Out & Specification**: Triangles $ABC, DEF$ with $\angle ABC = \angle DEF$, $\angle BCA = \angle EFD$, and adjoining base $BC = EF$. Claim: remaining sides $AB = DE, AC = DF$ and remaining angle $\angle BAC = \angle EDF$.
+- **Figure Placement**: ``0316.g1.svg`` is placed centered after the specification. Shows both triangles and the construction points for both Case 1 ($G$ on $AB$) and Case 2 ($H$ on $BC$).
+- **Reductio Architecture & Centered Factoids**:
+
+  - Construction: Cut off $BG = DE$ on assumed greater side $AB$, join $GC$.
+  - SAS deduction from $\triangle GBC \cong \triangle DEF$:
+    ``.. subclause:: therefore the base $GC$ is equal to the base $DF$,``
+    ``.. subclause:: :line:[25]and the triangle $GBC$ is equal to the triangle $DEF$,``
+    ``.. subclause:: and the remaining angles will be equal to the remaining angles, namely those which the equal sides subtend; :just:[[I. 4]]``
+    ``.. assertion:: therefore the angle $GCB$ is equal to the angle $DFE$.``
+  - Absurdity deduction:
+    ``.. assertion:: :line:[30]therefore the angle $BCG$ is equal to the angle $BCA$,``
+    ``.. assertion:: the less to the greater: which is impossible.``
+  - Reductio conclusion:
+    ``.. assertion:: Therefore $AB$ is not unequal to $DE$,``
+    ``.. assertion:: and is therefore equal to it.``
+  - Final SAS congruence yielding Case 1 conclusions:
+    ``.. assertion:: therefore the base $AC$ is equal to the base $DF$,``
+    ``.. assertion:: and the remaining angle $BAC$ is equal to the remaining :line:[40]angle $EDF$. :just:[[I. 4]]``
+
+- **SVG Animation Sequencing**:
+
+  - Step 1: Render $\triangle ABC$ and $\triangle DEF$ highlighting given equal angles $\angle B = \angle E$, $\angle C = \angle F$, and base $BC = EF$.
+  - Step 2: Pose reductio assumption $AB > DE$; cut off point $G$ on $AB$ such that $BG = DE$; draw segment $GC$ creating $\triangle GBC$.
+  - Step 3: Highlight $\triangle GBC$ and $\triangle DEF$; apply SAS [I. 4] to show base $GC = DF$, area equality, and angle equality $\angle GCB = \angle DFE$.
+  - Step 4: Compare angles at $C$: since $\angle DFE = \angle BCA$ by hypothesis, pulse $\angle BCG$ and $\angle BCA$; highlight impossible part-whole equality ("the less to the greater"); strike through auxiliary segment $GC$.
+  - Step 5: Conclude $AB = DE$. Re-highlight full $\triangle ABC$ and $\triangle DEF$ under SAS [I. 4]; establish remaining side equality $AC = DF$ and remaining angle equality $\angle BAC = \angle EDF$.

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 217" width="495" height="217" class="euclid-graphic" data-graphic-id="0174.g1" data-folio="0174" data-graphic="g1">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-ray {
+      stroke: #333333;
+      stroke-width: 1.4;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-circle, .geom-curve {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.6;
+      fill: none;
+      transition: stroke 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 14px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements (Asymptote, Axis, and Rays from Pole O) -->
+  <g id="elements">
+    <!-- Fixed straight line (asymptote) [ L R ] -->
+    <line id="el-line-LR" data-ref="[ L R ]" data-type="line" x1="65.0" y1="102.5" x2="420.0" y2="102.5" class="geom-line" />
+    <!-- Principal vertical axis [ O A ] -->
+    <line id="el-line-OA" data-ref="[ O A ]" data-aliases="[ B V ]" data-type="line" x1="249.5" y1="10.0" x2="249.5" y2="205.0" class="geom-line" />
+    <!-- Inclined rays through pole O -->
+    <line id="el-line-OM1" data-ref="[ O M1 ]" data-type="line" x1="238.1" y1="193.7" x2="282.4" y2="5.2" class="geom-ray" />
+    <line id="el-line-OM2" data-ref="[ O M2 ]" data-type="line" x1="226.1" y1="194.8" x2="310.0" y2="16.5" class="geom-ray" />
+    <line id="el-line-OM3" data-ref="[ O M3 ]" data-type="line" x1="213.4" y1="192.9" x2="344.7" y2="18.6" class="geom-ray" />
+    <line id="el-line-OM4" data-ref="[ O M4 ]" data-type="line" x1="178.4" y1="191.5" x2="406.6" y2="42.3" class="geom-ray" />
+  </g>
+
+  <!-- Constructed Graphics (Conchoid Curves and Intercepted Segments a, b) -->
+  <g id="graphics">
+    <!-- First Conchoid (Upper Branch, distance a away from O) -->
+    <path id="el-curve-upper" data-ref="( O V )" data-type="curve" d="M 85.5 72.0 L 103.3 67.3 L 117.9 62.8 L 130.3 58.4 L 141.4 54.3 L 151.5 50.4 L 161.0 46.8 L 170.1 43.4 L 178.9 40.3 L 187.5 37.5 L 195.9 35.1 L 204.2 33.0 L 212.5 31.2 L 220.8 29.7 L 229.0 28.6 L 237.2 27.9 L 245.4 27.5 L 249.5 27.5 L 253.6 27.5 L 261.8 27.9 L 270.0 28.6 L 278.2 29.7 L 286.5 31.2 L 294.8 33.0 L 303.1 35.1 L 311.5 37.5 L 320.1 40.3 L 328.9 43.4 L 338.0 46.8 L 347.5 50.4 L 357.6 54.3 L 368.7 58.4 L 381.1 62.8 L 395.7 67.3 L 413.5 72.0" class="geom-curve" />
+
+    <!-- Looped Conchoid (Lower Branch, distance a towards O, where a > b) -->
+    <path id="el-curve-lower" data-ref="( O B )" data-type="curve" d="M 140.2 119.5 L 168.4 122.6 L 190.0 125.7 L 208.8 129.4 L 222.6 133.0 L 232.9 136.5 L 240.8 140.0 L 247.0 143.3 L 249.5 145.0 L 251.7 146.6 L 255.3 149.7 L 258.0 152.7 L 260.0 155.5 L 261.4 158.2 L 262.3 160.8 L 262.7 163.2 L 262.7 165.4 L 262.5 167.5 L 261.9 169.3 L 261.1 171.0 L 260.1 172.5 L 258.9 173.8 L 257.5 174.9 L 256.1 175.9 L 254.5 176.6 L 252.9 177.1 L 251.2 177.4 L 249.5 177.5 L 247.8 177.4 L 246.1 177.1 L 244.5 176.6 L 242.9 175.9 L 241.5 174.9 L 240.1 173.8 L 238.9 172.5 L 237.9 171.0 L 237.1 169.3 L 236.5 167.5 L 236.3 165.4 L 236.3 163.2 L 236.7 160.8 L 237.6 158.2 L 239.0 155.5 L 241.0 152.7 L 243.7 149.7 L 247.3 146.6 L 249.5 145.0 L 252.0 143.3 L 258.2 140.0 L 266.1 136.5 L 276.4 133.0 L 290.2 129.4 L 309.0 125.7 L 330.6 122.6 L 358.8 119.5" class="geom-curve" />
+
+    <!-- Pole distance b = / O A / -->
+    <line id="el-seg-OA" data-ref="/ O A /" data-aliases="b" data-type="segment" x1="249.5" y1="145.0" x2="249.5" y2="102.5" class="geom-line" />
+
+    <!-- Constant distance a = / A V / (and equal intercepted segments along rays) -->
+    <line id="el-seg-AV" data-ref="/ A V /" data-aliases="a" data-type="segment" x1="249.5" y1="102.5" x2="249.5" y2="27.5" class="geom-line" />
+    <line id="el-seg-M1P1" data-ref="/ M1 P1 /" data-aliases="a" data-type="segment" x1="259.5" y1="102.5" x2="276.7" y2="29.5" class="geom-ray" />
+    <line id="el-seg-M2P2" data-ref="/ M2 P2 /" data-aliases="a" data-type="segment" x1="269.5" y1="102.5" x2="301.4" y2="34.6" class="geom-ray" />
+    <line id="el-seg-M3P3" data-ref="/ M3 P3 /" data-aliases="a" data-type="segment" x1="281.5" y1="102.5" x2="326.6" y2="42.6" class="geom-ray" />
+    <line id="el-seg-M4P4" data-ref="/ M4 P4 /" data-aliases="a" data-type="segment" x1="314.5" y1="102.5" x2="377.3" y2="61.5" class="geom-ray" />
+
+    <!-- Collinear Sub-Segments along Principal Axis -->
+    <line id="el-seg-OB" data-ref="/ O B /" data-type="segment" x1="249.5" y1="145.0" x2="249.5" y2="177.5" class="geom-line geom-overlay" />
+    <line id="el-seg-AB" data-ref="/ A B /" data-type="segment" x1="249.5" y1="102.5" x2="249.5" y2="177.5" class="geom-line geom-overlay" />
+    <line id="el-seg-BV" data-ref="/ B V /" data-type="segment" x1="249.5" y1="177.5" x2="249.5" y2="27.5" class="geom-line geom-overlay" />
+    <line id="el-seg-LR" data-ref="/ L R /" data-type="segment" x1="65.0" y1="102.5" x2="420.0" y2="102.5" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <line id="hl-line-LR" data-ref="[ L R ]" x1="65.0" y1="102.5" x2="420.0" y2="102.5" class="geom-line geom-overlay" />
+    <line id="hl-line-OA" data-ref="[ O A ]" data-aliases="[ B V ]" x1="249.5" y1="10.0" x2="249.5" y2="205.0" class="geom-line geom-overlay" />
+    <path id="hl-curve-upper" data-ref="( O V )" d="M 85.5 72.0 L 103.3 67.3 L 117.9 62.8 L 130.3 58.4 L 141.4 54.3 L 151.5 50.4 L 161.0 46.8 L 170.1 43.4 L 178.9 40.3 L 187.5 37.5 L 195.9 35.1 L 204.2 33.0 L 212.5 31.2 L 220.8 29.7 L 229.0 28.6 L 237.2 27.9 L 245.4 27.5 L 249.5 27.5 L 253.6 27.5 L 261.8 27.9 L 270.0 28.6 L 278.2 29.7 L 286.5 31.2 L 294.8 33.0 L 303.1 35.1 L 311.5 37.5 L 320.1 40.3 L 328.9 43.4 L 338.0 46.8 L 347.5 50.4 L 357.6 54.3 L 368.7 58.4 L 381.1 62.8 L 395.7 67.3 L 413.5 72.0" class="geom-curve geom-overlay" />
+    <path id="hl-curve-lower" data-ref="( O B )" d="M 140.2 119.5 L 168.4 122.6 L 190.0 125.7 L 208.8 129.4 L 222.6 133.0 L 232.9 136.5 L 240.8 140.0 L 247.0 143.3 L 249.5 145.0 L 251.7 146.6 L 255.3 149.7 L 258.0 152.7 L 260.0 155.5 L 261.4 158.2 L 262.3 160.8 L 262.7 163.2 L 262.7 165.4 L 262.5 167.5 L 261.9 169.3 L 261.1 171.0 L 260.1 172.5 L 258.9 173.8 L 257.5 174.9 L 256.1 175.9 L 254.5 176.6 L 252.9 177.1 L 251.2 177.4 L 249.5 177.5 L 247.8 177.4 L 246.1 177.1 L 244.5 176.6 L 242.9 175.9 L 241.5 174.9 L 240.1 173.8 L 238.9 172.5 L 237.9 171.0 L 237.1 169.3 L 236.5 167.5 L 236.3 165.4 L 236.3 163.2 L 236.7 160.8 L 237.6 158.2 L 239.0 155.5 L 241.0 152.7 L 243.7 149.7 L 247.3 146.6 L 249.5 145.0 L 252.0 143.3 L 258.2 140.0 L 266.1 136.5 L 276.4 133.0 L 290.2 129.4 L 309.0 125.7 L 330.6 122.6 L 358.8 119.5" class="geom-curve geom-overlay" />
+    <line id="hl-seg-OA" data-ref="/ O A /" data-aliases="b" x1="249.5" y1="145.0" x2="249.5" y2="102.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-AV" data-ref="/ A V /" data-aliases="a" x1="249.5" y1="102.5" x2="249.5" y2="27.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-OB" data-ref="/ O B /" x1="249.5" y1="145.0" x2="249.5" y2="177.5" class="geom-line geom-overlay" />
+    <line id="hl-seg-AB" data-ref="/ A B /" x1="249.5" y1="102.5" x2="249.5" y2="177.5" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-O" data-ref="O" data-type="point" cx="249.5" cy="145.0" r="3.2" class="geom-point" />
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="249.5" cy="102.5" r="3.0" class="geom-point" />
+    <circle id="el-pt-V" data-ref="V" data-type="point" cx="249.5" cy="27.5" r="3.0" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="249.5" cy="177.5" r="3.0" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-b" data-ref="/ O A /" data-aliases="b" x="241.0" y="126.0" text-anchor="end" class="geom-label">b</text>
+    <text id="lbl-a-0" data-ref="/ A V /" data-aliases="a" x="242.0" y="64.0" text-anchor="end" class="geom-label">a</text>
+    <text id="lbl-a-1" data-ref="/ M1 P1 /" data-aliases="a" x="261.0" y="62.0" text-anchor="end" class="geom-label">a</text>
+    <text id="lbl-a-2" data-ref="/ M2 P2 /" data-aliases="a" x="279.0" y="63.0" text-anchor="end" class="geom-label">a</text>
+    <text id="lbl-a-3" data-ref="/ M3 P3 /" data-aliases="a" x="299.0" y="65.0" text-anchor="end" class="geom-label">a</text>
+    <text id="lbl-a-4" data-ref="/ M4 P4 /" data-aliases="a" x="357.0" y="83.0" text-anchor="start" class="geom-label">a</text>
+  </g>
+</svg>

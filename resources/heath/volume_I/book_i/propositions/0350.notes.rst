@@ -1,0 +1,85 @@
+Transcription Notes for Folio 0350 (Page 336)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0350
+- **Page**: 336
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: propositions
+- **Header**: ``336 BOOK I [I. 38, 39``
+- **Content**:
+
+  - Conclusion of Heron's theorem on area comparison (commentary on Proposition 38) addressing the position of vertex $F$ in relation to the side opposite $D$, referencing Eucl. I. 24.
+  - Complete text of **Proposition 39**:
+
+    - Enunciation (*Equal triangles which are on the same base and on the same side are also in the same parallels.*)
+    - Setting-out (*Let $ABC$, $DBC$...*)
+    - Specification (including bracketed words ``[I say that they are also in the same parallels.]`` and ``And [For] let $AD$ be joined...``)
+    - Diagram
+    - Construction (supposing $AD \not\parallel BC$, drawing $AE \parallel BC$ by I. 31, joining $EC$)
+    - Demonstration by reductio ad absurdum (equality of $\triangle ABC$ and $\triangle EBC$ by I. 37 leads to $\triangle DBC = \triangle EBC$, the greater to the less, impossible by Common Notion 1)
+    - Uniqueness of the parallel and conclusion (``Therefore etc.``, ``Q. E. D.``).
+
+Textual Observations & Decisions
+--------------------------------
+
+1. **Marginal Line Numbering**:
+
+   - Marginal line numbers appear at intervals of 5 and are formatted as superscripts:
+
+     - ``:line:[5]`` at ``[I say that they are also in the same parallels.]``
+     - ``:line:[10]`` at ``$BC$, [I. 31]``
+     - ``:line:[15]`` at ``parallels. [I. 37]``
+     - ``:line:[20]`` at ``Similarly we can prove that neither is any other straight line except $AD$;``
+
+2. **Perseus TEI XML Ground-Truth Cross-Check** (``elem.1.39``):
+
+   - Validated via ``PYTHONPATH=src python3 src/geometor/euclid/scripts/graphic_tool.py xml 1 39``.
+   - The enunciation, proof text, citations (``[I. 31]``, ``[I. 37]``, ``[C. N. 1]``), and conclusion match the Perseus TEI XML ground truth verbatim.
+   - Heath's note on line 5 (concerning Heiberg's discovery in the Fayūm papyrus regarding the interpolation of ``[I say that they are also in the same parallels.]`` and the alteration of ``And`` to ``For``) appears at the top of the next page (page 337 / folio 0351) rather than page 336.
+
+3. **Visual Inspection & Scan Artifacts**:
+
+   - Visible show-through / bleed-through from the reverse folio (pages 334–335) appears faintly behind and around Figure 1 (e.g. mirrored text "Moreover the triangle...", "Q. E. D."). Visual inspection confirms this is print-through artifact and that the real page text consists only of the two sentences bounding the figure.
+
+4. **Demonstration Graphics**:
+
+   - ``0350.g1.svg`` (bbox ``[180, 185, 460, 145]``): Graphic illustrating Heron's alternative position for vertex $F$ in Case 2. All labels ($A, B, C, D, E, F, G, H$) verified sharp and complete.
+   - ``0350.g2.svg`` (bbox ``[490, 640, 240, 140]``): Diagram for Proposition 39 illustrating equal triangles $ABC$ and $DBC$ on base $BC$, with hypothetical parallel line $AE$ and join $EC$. Embedded immediately following the specification.
+
+5. **Footnotes**:
+
+   - No footnotes appear on page 336.
+
+4. Typesetting & Structural Articulation (Proposition 39)
+---------------------------------------------------------
+
+- **Line Breaks in Enunciation**:
+  ``.. enunciation:: Equal triangles which are on the same base and on the | same side are also in the same parallels.``
+  Replicates Heath's line break after ``the``.
+- **Deductive Assertions & Reductio Factoids**:
+
+  - Construction of hypothetical parallel:
+    ``:line:[10] $BC$, :just:[[I. 31]]``
+  - Consequence of hypothetical parallel:
+    ``:line:[15] parallels. :just:[[I. 37]]``
+  - Contradiction / absurdity factoid:
+    ``.. assertion:: therefore $DBC$ is also equal to $EBC$, :just:[[C. N. 1]] | the greater to the less: which is impossible.``
+  - Rejection of hypothesis:
+    ``.. assertion:: Therefore $AE$ is not parallel to $BC$.``
+  - Culmination of uniqueness:
+    ``.. assertion:: therefore $AD$ is parallel to $BC$.``
+
+- **Formulaic Close**:
+  ``.. qed:: Therefore etc. :just:[Q. E. D.]``
+- **SVG Animation Sequencing**:
+
+  - **Step 1 (Base & Equal Triangles)**: Render base segment $BC$. Draw $\triangle ABC$ and $\triangle DBC$ on base $BC$ on the same side. Label given condition $\triangle ABC = \triangle DBC$.
+  - **Step 2 (Join Upper Vertices)**: Draw straight line join $AD$. Set proposition goal: prove $AD \parallel BC$.
+  - **Step 3 (Reductio Assumption)**: Assume $AD \not\parallel BC$. Construct auxiliary line $AE \parallel BC$ meeting side $BD$ at $E$ [I. 31]. Draw auxiliary segment $EC$.
+  - **Step 4 (False Equality via I. 37)**: Triangles $\triangle ABC$ and $\triangle EBC$ are on the same base $BC$ and in parallels $AE, BC$; highlight $\triangle ABC = \triangle EBC$ [I. 37].
+  - **Step 5 (Absurdity via C.N. 1)**: Since $\triangle ABC = \triangle DBC$, highlight transitivity $\triangle DBC = \triangle EBC$ [C.N. 1]. Highlight whole triangle $\triangle DBC$ against proper part $\triangle EBC$; flash absurdity warning: "the greater to the less: which is impossible".
+  - **Step 6 (Rejection & Uniqueness)**: Reject parallel candidate $AE$ ($AE \not\parallel BC$); reject any line other than $AD$. Highlight $AD \parallel BC$; reveal Q.E.D.

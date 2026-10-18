@@ -134,63 +134,15 @@
     padding: 8px;
     box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.08);
     user-select: none;
-    transition: max-width 0.2s ease;
   }
   .euclid-figure-container:hover {
     border-color: #cbd5e1;
-  }
-  .euclid-figure-container .figure-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 6px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #f4f4f5;
-  }
-  .euclid-figure-container .figure-btn {
-    font-size: 10px;
-    font-family: ui-sans-serif, system-ui, sans-serif;
-    font-weight: 500;
-    padding: 2px 6px;
-    border-radius: 4px;
-    color: #71717a;
-    background: transparent;
-    transition: all 0.15s ease;
-    border: none;
-    cursor: pointer;
-  }
-  .euclid-figure-container .figure-btn:hover {
-    color: #18181b;
-    background: #f4f4f5;
-  }
-  .euclid-figure-container .figure-btn.active {
-    color: #047857;
-    background: #ecfdf5;
-    font-weight: 600;
-  }
-  .euclid-figure-container.python-mode {
-    min-width: 340px;
-    max-width: 62%;
   }
   .euclid-figure-container .figure-svg-wrapper svg {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-  }
-  .euclid-figure-container .figure-python-wrapper {
-    background: #09090b;
-    color: #e4e4e7;
-    border-radius: 6px;
-    border: 1px solid #27272a;
-    padding: 8px 10px;
-    max-height: 300px;
-    overflow: auto;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    font-size: 10.5px;
-    line-height: 1.5;
-    text-align: left;
-    user-select: text;
   }
   .euclid-figure-container .figure-caption {
     font-size: 11px;
@@ -199,6 +151,26 @@
     color: #71717a;
     text-align: center;
     margin-top: 6px;
+  }
+
+  /* Pygments gruvbox-dark syntax highlighting (matching photon-platform/publish) */
+  {{ (folio.pygments_css or "")|safe }}
+  div.highlight {
+    background: #1d2021 !important;
+    color: #ebdbb2;
+    padding: 0.85rem 1rem;
+    border-radius: 0 0 8px 8px;
+    overflow: auto;
+    font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  div.highlight pre {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    white-space: pre;
   }
 </style>
 {% endblock %}
@@ -477,16 +449,16 @@
               <button onclick="setMdView('rendered')" class="px-3 py-1.5 text-xs rounded-lg border border-zinc-300 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800">Cancel</button>
               <button onclick="saveEditedText('md')" class="px-3.5 py-1.5 text-xs font-medium rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1.5 shadow-sm">
                 <i data-lucide="save" class="w-3.5 h-3.5"></i>
-                Save Markdown to Disk
+                Save {{ 'RST' if folio.transcription_format == 'rst' else 'Markdown' }} to Disk
               </button>
             </div>
           </div>
         {% else %}
           <div class="bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-xl p-8 text-center text-amber-800 dark:text-amber-300 space-y-2">
             <i data-lucide="file-question" class="w-8 h-8 mx-auto text-amber-500"></i>
-            <div class="font-bold text-sm">Transcription Markdown Not Found</div>
+            <div class="font-bold text-sm">Transcription File Not Found</div>
             <div class="text-xs text-amber-600 dark:text-amber-400">
-              No markdown file exists yet at <code class="font-mono">{{ folio.folio }}.md</code>. Transcription may be in progress.
+              No transcription file exists yet at <code class="font-mono">{{ folio.md_file_name or (folio.folio ~ '.rst') }}</code>. Transcription may be in progress.
             </div>
           </div>
         {% endif %}
@@ -497,7 +469,7 @@
       <div id="tabContent-notes" class="hidden space-y-4">
         
         <div class="bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-xs flex items-center justify-between">
-          <span class="text-zinc-500">Transcription Notes File: <code class="font-mono text-zinc-800 dark:text-zinc-200">{{ folio.folio }}.notes.md</code></span>
+          <span class="text-zinc-500">Transcription Notes File: <code class="font-mono text-zinc-800 dark:text-zinc-200">{{ folio.notes_file_name or (folio.folio ~ '.notes.rst') }}</code></span>
           <div class="flex items-center gap-1 bg-white dark:bg-zinc-800 rounded border border-zinc-200 dark:border-zinc-700 p-0.5">
             <button onclick="setNotesView('rendered')" id="notesBtn-rendered" class="px-2 py-0.5 rounded text-[11px] font-medium bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-300">Rendered</button>
             <button onclick="setNotesView('raw')" id="notesBtn-raw" class="px-2 py-0.5 rounded text-[11px] font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900">Raw</button>
@@ -534,7 +506,7 @@
             <i data-lucide="file-plus" class="w-8 h-8 mx-auto text-zinc-400"></i>
             <div class="font-bold text-sm">No Transcription Notes Yet</div>
             <div class="text-xs text-zinc-400">
-              No notes file found at <code class="font-mono">{{ folio.folio }}.notes.md</code>.
+              No notes file found at <code class="font-mono">{{ folio.notes_file_name or (folio.folio ~ '.notes.rst') }}</code>.
             </div>
           </div>
         {% endif %}
@@ -580,21 +552,21 @@
                   </div>
 
                   <div class="flex items-center gap-2">
-                    <!-- Markdown Format Status & Toggle -->
+                    <!-- Transcription Format Status & Toggle -->
                     {% if g.in_md_format == 'svg' %}
                       <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-200 dark:border-blue-800 flex items-center gap-1">
-                        <i data-lucide="file-check-2" class="w-3 h-3 text-blue-500"></i> Used in MD
+                        <i data-lucide="file-check-2" class="w-3 h-3 text-blue-500"></i> Used in {{ (folio.transcription_format or 'rst')|upper }}
                       </span>
                       <button onclick="setGraphicFormat('{{ g.id }}', 'png')" class="text-[11px] text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200 underline">
                         Use PNG
                       </button>
                     {% elif g.in_md_format == 'png' %}
                       <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
-                        <i data-lucide="image" class="w-3 h-3 text-amber-500"></i> PNG in MD
+                        <i data-lucide="image" class="w-3 h-3 text-amber-500"></i> PNG in {{ (folio.transcription_format or 'rst')|upper }}
                       </span>
                       {% if g.svg_exists %}
                         <button onclick="setGraphicFormat('{{ g.id }}', 'svg')" class="px-2.5 py-0.5 rounded text-[11px] font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm flex items-center gap-1 transition-colors">
-                          <i data-lucide="arrow-right-left" class="w-3 h-3"></i> Switch MD to SVG
+                          <i data-lucide="arrow-right-left" class="w-3 h-3"></i> Switch {{ (folio.transcription_format or 'rst')|upper }} to SVG
                         </button>
                       {% endif %}
                     {% endif %}
@@ -606,20 +578,27 @@
                   </div>
                 </div>
 
-                <!-- Three Previews Side-by-Side: Vector SVG, Normal Crop, Inverted Crop -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
-                  <!-- Vector SVG Preview -->
-                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between shadow-sm">
-                    <div>
-                      <div class="flex items-center justify-between text-[11px] font-medium mb-1.5">
+                {% set default_code_tab = 'py' if (g.py_exists or not g.svg_exists) else 'svg' %}
+                <!-- 2-Column Layout: Left Stacked Visuals (SVG on Top, PNG Below) | Right Code Panel (Python / SVG Switcher) -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 pt-1">
+                  <!-- Left Column: Stacked Visuals (Vector SVG on Top, Scan Crop PNG Below) -->
+                  <div class="lg:col-span-5 flex flex-col gap-3">
+                    <!-- Top Box: Vector SVG Preview -->
+                    <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 shadow-sm">
+                      <div class="flex items-center justify-between text-[11px] font-medium">
                         <span class="text-zinc-800 dark:text-zinc-200 font-semibold flex items-center gap-1">
-                          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-emerald-600"></i> Vector SVG (Interactive)
+                          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-emerald-600"></i> Vector SVG (.svg)
                         </span>
-                        {% if g.svg_exists %}
-                          <span class="text-[10px] font-mono text-emerald-600 font-semibold">.svg</span>
-                        {% else %}
-                          <span class="text-[10px] text-zinc-400">None</span>
-                        {% endif %}
+                        <div class="flex items-center gap-2">
+                          {% if g.svg_exists %}
+                            <span class="text-[10px] font-mono text-emerald-600 font-semibold">{{ g.svg_file }}</span>
+                            <a href="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.svg_file }}" target="_blank" class="px-1.5 py-0.5 text-[10px] font-medium rounded bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-300 flex items-center gap-1 transition-colors">
+                              <i data-lucide="external-link" class="w-3 h-3"></i> Open
+                            </a>
+                          {% else %}
+                            <span class="text-[10px] text-zinc-400">None</span>
+                          {% endif %}
+                        </div>
                       </div>
 
                       {% if g.svg_exists and g.svg_content %}
@@ -628,40 +607,30 @@
                         </div>
                       {% elif g.svg_exists %}
                         <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2 border border-zinc-200 dark:border-zinc-700 shadow-inner overflow-hidden">
-                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.svg_file }}?v={{ range(100, 999)|random }}" alt="{{ g.id }} SVG" class="max-h-48 object-contain">
+                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.svg_file }}?v={{ range(100, 999)|random }}" alt="{{ g.id }} SVG" class="max-h-56 object-contain">
                         </div>
                       {% else %}
                         <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-50 dark:bg-zinc-800/40 rounded border border-dashed border-zinc-300 dark:border-zinc-700 p-4 text-xs text-zinc-400">
                           <i data-lucide="image-plus" class="w-6 h-6 mb-1 text-zinc-400"></i>
                           <span>No SVG created yet</span>
-                          <span class="text-[10px] mt-0.5 text-zinc-400">Geometry model pending</span>
+                          <button onclick="openSvgEditor('{{ g.id }}')" class="mt-2 px-2.5 py-1 text-[11px] font-medium rounded bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1 transition-colors">
+                            <i data-lucide="plus" class="w-3 h-3"></i> Add SVG
+                          </button>
                         </div>
                       {% endif %}
                     </div>
 
-                    <div class="pt-2 flex items-center justify-center gap-2 border-t border-zinc-100 dark:border-zinc-800">
-                      {% if g.svg_exists %}
-                        <button onclick="openSvgEditor('{{ g.id }}')" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-300 flex items-center gap-1 transition-colors">
-                          <i data-lucide="code" class="w-3 h-3"></i> Edit SVG Source
-                        </button>
-                        <a href="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.svg_file }}" target="_blank" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-300 flex items-center gap-1 transition-colors">
-                          <i data-lucide="external-link" class="w-3 h-3"></i> Open
-                        </a>
-                      {% else %}
-                        <button onclick="openSvgEditor('{{ g.id }}')" class="px-2.5 py-1 text-[11px] font-medium rounded bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1 transition-colors">
-                          <i data-lucide="plus" class="w-3 h-3"></i> Add SVG
-                        </button>
-                      {% endif %}
-                    </div>
-                  </div>
-
-                  <!-- Normal Crop -->
-                  <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 flex flex-col justify-between">
-                    <div>
-                      <div class="text-[11px] font-medium text-zinc-500 mb-1.5 text-left">Scan Crop (Woodcut)</div>
+                    <!-- Bottom Box: Scan Crop PNG -->
+                    <div class="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg p-3 text-center space-y-2 shadow-sm">
+                      <div class="flex items-center justify-between text-[11px] font-medium">
+                        <span class="text-zinc-600 dark:text-zinc-300 font-semibold flex items-center gap-1">
+                          <i data-lucide="image" class="w-3.5 h-3.5 text-zinc-400"></i> Scan Crop (Woodcut)
+                        </span>
+                        <span class="text-[10px] font-mono text-zinc-400">{{ g.file }}</span>
+                      </div>
                       {% if g.file_exists %}
                         <div class="flex items-center justify-center min-h-[140px] bg-white rounded p-2 border border-zinc-100 dark:border-zinc-800">
-                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.file }}" alt="{{ g.id }}" class="max-h-48 object-contain">
+                          <img src="/media/{{ folio.volume }}/{{ folio.section_path }}/{{ g.file }}" alt="{{ g.id }}" class="max-h-56 object-contain">
                         </div>
                       {% else %}
                         <div class="min-h-[140px] flex flex-col items-center justify-center bg-amber-50 dark:bg-amber-950/30 rounded border border-dashed border-amber-300 dark:border-amber-800 p-4 text-xs text-amber-600 dark:text-amber-400">
@@ -671,49 +640,67 @@
                         </div>
                       {% endif %}
                     </div>
-                    <div class="pt-2 text-[10px] font-mono text-zinc-400 border-t border-zinc-100 dark:border-zinc-800">
-                      {{ g.file }}
-                    </div>
                   </div>
 
-                  <!-- Python Construction Script (.py) -->
-                  <div class="bg-zinc-900 border border-zinc-800 rounded-lg p-3 space-y-2 flex flex-col justify-between shadow-sm">
-                    <div>
-                      <div class="flex items-center justify-between text-[11px] font-medium mb-1.5">
-                        <span class="text-zinc-200 font-semibold flex items-center gap-1">
-                          <i data-lucide="terminal" class="w-3.5 h-3.5 text-amber-400"></i> Python Construction
-                        </span>
-                        {% if g.py_exists %}
-                          <span class="text-[10px] font-mono text-amber-400 font-semibold">{{ g.py_file }}</span>
+                  <!-- Right Column: Code Panel (Python / SVG Switcher with publish gruvbox-dark Highlighter) -->
+                  <div class="lg:col-span-7 flex flex-col">
+                    <div class="bg-[#1d2021] border border-zinc-800 rounded-lg overflow-hidden flex flex-col flex-1 shadow-sm" data-active-code-tab="{{ default_code_tab }}" id="codePanel-{{ g.id }}">
+                      <!-- Code Panel Header Bar -->
+                      <div class="px-3 py-2 bg-zinc-900 border-b border-zinc-800 flex flex-wrap items-center justify-between gap-2">
+                        <div class="flex items-center gap-1 bg-zinc-950 p-0.5 rounded-md border border-zinc-800">
+                          <button type="button" id="codeTabBtn-py-{{ g.id }}" onclick="switchGraphicCodeTab('{{ g.id }}', 'py')" class="px-2.5 py-1 rounded text-[11px] font-mono font-semibold flex items-center gap-1.5 transition-colors {% if default_code_tab == 'py' %}bg-amber-500/20 text-amber-300 border border-amber-500/40{% else %}text-zinc-400 hover:text-zinc-200 border border-transparent{% endif %}">
+                            <i data-lucide="terminal" class="w-3 h-3"></i>
+                            <span>Python ({{ g.py_file }})</span>
+                          </button>
+                          <button type="button" id="codeTabBtn-svg-{{ g.id }}" onclick="switchGraphicCodeTab('{{ g.id }}', 'svg')" class="px-2.5 py-1 rounded text-[11px] font-mono font-semibold flex items-center gap-1.5 transition-colors {% if default_code_tab == 'svg' %}bg-emerald-500/20 text-emerald-300 border border-emerald-500/40{% else %}text-zinc-400 hover:text-zinc-200 border border-transparent{% endif %}">
+                            <i data-lucide="code" class="w-3 h-3"></i>
+                            <span>SVG ({{ g.svg_file }})</span>
+                          </button>
+                        </div>
+
+                        <div class="flex items-center gap-1.5">
+                          <button type="button" onclick="copyGraphicCode('{{ g.id }}')" class="px-2.5 py-1 text-[11px] font-medium rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 flex items-center gap-1 transition-colors">
+                            <i data-lucide="copy" class="w-3 h-3"></i> Copy
+                          </button>
+                          <button type="button" onclick="editGraphicCode('{{ g.id }}')" class="px-2.5 py-1 text-[11px] font-medium rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 flex items-center gap-1 transition-colors">
+                            <i data-lucide="edit-3" class="w-3 h-3"></i> Edit
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- Code Panel Body: Python Pane -->
+                      <div id="codePane-py-{{ g.id }}" class="flex-1 flex flex-col {% if default_code_tab != 'py' %}hidden{% endif %}">
+                        {% if g.py_exists and g.py_highlighted_html %}
+                          <div class="max-h-[460px] overflow-auto select-text text-left flex-1">
+                            {{ g.py_highlighted_html|safe }}
+                          </div>
                         {% else %}
-                          <span class="text-[10px] text-zinc-500">None</span>
+                          <div class="min-h-[240px] flex-1 flex flex-col items-center justify-center p-6 text-xs text-zinc-400">
+                            <i data-lucide="file-code" class="w-6 h-6 mb-1.5 text-zinc-500"></i>
+                            <span>No Python construction script yet (<code class="font-mono text-[11px] text-zinc-300">{{ g.py_file }}</code>)</span>
+                            <button type="button" onclick="openPyEditor('{{ g.id }}')" class="mt-3 px-3 py-1.5 text-[11px] font-semibold rounded bg-amber-600 hover:bg-amber-700 text-white flex items-center gap-1 transition-colors">
+                              <i data-lucide="plus" class="w-3.5 h-3.5"></i> Add Python Script
+                            </button>
+                          </div>
                         {% endif %}
                       </div>
-                      {% if g.py_exists and g.py_content %}
-                        <div class="max-h-48 min-h-[140px] overflow-auto bg-zinc-950 rounded p-2.5 border border-zinc-800 text-left font-mono text-[10.5px] leading-relaxed text-zinc-200 select-text">
-                          <pre class="m-0 whitespace-pre"><code>{{ g.py_content }}</code></pre>
-                        </div>
-                      {% else %}
-                        <div class="min-h-[140px] flex flex-col items-center justify-center bg-zinc-950 rounded border border-dashed border-zinc-800 p-4 text-xs text-zinc-500">
-                          <i data-lucide="file-code" class="w-5 h-5 mb-1"></i>
-                          <span>No Python script yet</span>
-                          <code class="text-[10px] mt-1">{{ g.py_file }}</code>
-                        </div>
-                      {% endif %}
-                    </div>
-                    <div class="pt-2 flex items-center justify-center gap-2 border-t border-zinc-800">
-                      {% if g.py_exists %}
-                        <button onclick="copyPySource('{{ g.id }}')" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 flex items-center gap-1 transition-colors">
-                          <i data-lucide="copy" class="w-3 h-3"></i> Copy
-                        </button>
-                        <button onclick="openPyEditor('{{ g.id }}')" class="px-2 py-1 text-[11px] font-medium rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 flex items-center gap-1 transition-colors">
-                          <i data-lucide="code-2" class="w-3 h-3"></i> Edit Python
-                        </button>
-                      {% else %}
-                        <button onclick="openPyEditor('{{ g.id }}')" class="px-2.5 py-1 text-[11px] font-medium rounded bg-amber-600 hover:bg-amber-700 text-white flex items-center gap-1 transition-colors">
-                          <i data-lucide="plus" class="w-3 h-3"></i> Add Python Script
-                        </button>
-                      {% endif %}
+
+                      <!-- Code Panel Body: SVG Pane -->
+                      <div id="codePane-svg-{{ g.id }}" class="flex-1 flex flex-col {% if default_code_tab != 'svg' %}hidden{% endif %}">
+                        {% if g.svg_exists and g.svg_highlighted_html %}
+                          <div class="max-h-[460px] overflow-auto select-text text-left flex-1">
+                            {{ g.svg_highlighted_html|safe }}
+                          </div>
+                        {% else %}
+                          <div class="min-h-[240px] flex-1 flex flex-col items-center justify-center p-6 text-xs text-zinc-400">
+                            <i data-lucide="code" class="w-6 h-6 mb-1.5 text-zinc-500"></i>
+                            <span>No SVG markup created yet (<code class="font-mono text-[11px] text-zinc-300">{{ g.svg_file }}</code>)</span>
+                            <button type="button" onclick="openSvgEditor('{{ g.id }}')" class="mt-3 px-3 py-1.5 text-[11px] font-semibold rounded bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-1 transition-colors">
+                              <i data-lucide="plus" class="w-3.5 h-3.5"></i> Add SVG
+                            </button>
+                          </div>
+                        {% endif %}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1006,6 +993,67 @@
       showToast(`Copied ${FOLIO_ID}.${gid}.py to clipboard!`, 'success');
     } catch (e) {
       showToast('Failed to copy to clipboard', 'error');
+    }
+  }
+
+  async function copySvgSource(gid) {
+    const g = (GRAPHICS_DATA || []).find(item => item.id === gid);
+    if (!g || !g.svg_content) {
+      showToast('No SVG code available to copy', 'error');
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(g.svg_content);
+      showToast(`Copied ${FOLIO_ID}.${gid}.svg to clipboard!`, 'success');
+    } catch (e) {
+      showToast('Failed to copy to clipboard', 'error');
+    }
+  }
+
+  function switchGraphicCodeTab(gid, tab) {
+    const panel = document.getElementById(`codePanel-${gid}`);
+    if (panel) panel.setAttribute('data-active-code-tab', tab);
+
+    const pyPane = document.getElementById(`codePane-py-${gid}`);
+    const svgPane = document.getElementById(`codePane-svg-${gid}`);
+    const pyBtn = document.getElementById(`codeTabBtn-py-${gid}`);
+    const svgBtn = document.getElementById(`codeTabBtn-svg-${gid}`);
+
+    if (pyPane) pyPane.classList.toggle('hidden', tab !== 'py');
+    if (svgPane) svgPane.classList.toggle('hidden', tab !== 'svg');
+
+    if (pyBtn) {
+      pyBtn.className = tab === 'py'
+        ? 'px-2.5 py-1 rounded text-[11px] font-mono font-semibold flex items-center gap-1.5 transition-colors bg-amber-500/20 text-amber-300 border border-amber-500/40'
+        : 'px-2.5 py-1 rounded text-[11px] font-mono font-semibold flex items-center gap-1.5 transition-colors text-zinc-400 hover:text-zinc-200 border border-transparent';
+    }
+    if (svgBtn) {
+      svgBtn.className = tab === 'svg'
+        ? 'px-2.5 py-1 rounded text-[11px] font-mono font-semibold flex items-center gap-1.5 transition-colors bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
+        : 'px-2.5 py-1 rounded text-[11px] font-mono font-semibold flex items-center gap-1.5 transition-colors text-zinc-400 hover:text-zinc-200 border border-transparent';
+    }
+  }
+
+  function getActiveGraphicCodeTab(gid) {
+    const panel = document.getElementById(`codePanel-${gid}`);
+    return (panel && panel.getAttribute('data-active-code-tab')) || 'py';
+  }
+
+  async function copyGraphicCode(gid) {
+    const tab = getActiveGraphicCodeTab(gid);
+    if (tab === 'svg') {
+      await copySvgSource(gid);
+    } else {
+      await copyPySource(gid);
+    }
+  }
+
+  function editGraphicCode(gid) {
+    const tab = getActiveGraphicCodeTab(gid);
+    if (tab === 'svg') {
+      openSvgEditor(gid);
+    } else {
+      openPyEditor(gid);
     }
   }
 
@@ -1872,48 +1920,18 @@
 
         if (targetImg) {
           const fullGid = this.normalizeGraphicId(g.id);
+          const parentFig = targetImg.closest('figure');
           const parentP = targetImg.closest('p');
           const figureDiv = document.createElement('div');
           figureDiv.className = 'euclid-figure-container';
           figureDiv.setAttribute('data-graphic-id', g.id);
           figureDiv.setAttribute('data-full-graphic-id', fullGid);
           figureDiv.innerHTML = `
-            <div class="figure-toolbar">
-              <div class="flex items-center gap-1.5">
-                <span class="text-[10px] font-mono font-bold text-zinc-500 uppercase">${fullGid}</span>
-                <span class="text-[10px] text-zinc-400 font-serif" id="fig-mode-label-${g.id}">· Vector</span>
-              </div>
-              <div class="flex items-center gap-0.5 bg-zinc-100 dark:bg-zinc-800 rounded p-0.5">
-                <button type="button" class="figure-btn active" onclick="EuclidInteractive.switchFigureView('${g.id}', 'svg')">Vector</button>
-                <button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'raster')">Woodcut</button>
-                ${g.py_exists ? `<button type="button" class="figure-btn" onclick="EuclidInteractive.switchFigureView('${g.id}', 'python')">Python</button>` : ''}
-              </div>
-            </div>
             <div class="figure-svg-wrapper" id="fig-view-svg-${g.id}">
               ${g.svg_content}
             </div>
-            <div class="figure-raster-wrapper hidden" id="fig-view-raster-${g.id}">
-              <img src="/media/${VOLUME_ID}/${FOLIO_SECTION_PATH}/${g.file}" alt="${g.caption}" class="max-w-full h-auto mx-auto block woodcut-img">
-            </div>
-            ${g.py_exists ? `
-              <div class="figure-python-wrapper hidden" id="fig-view-python-${g.id}">
-                <div class="flex items-center justify-between pb-1.5 mb-1.5 border-b border-zinc-800 text-[10px] text-zinc-400">
-                  <span class="font-mono text-amber-400 font-semibold">${g.py_file || `${fullGid}.py`}</span>
-                  <div class="flex items-center gap-1.5">
-                    <button type="button" onclick="copyPySource('${g.id}')" class="px-1.5 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 transition-colors">Copy</button>
-                    <button type="button" onclick="openPyEditor('${g.id}')" class="px-1.5 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 transition-colors">Edit</button>
-                  </div>
-                </div>
-                <pre class="m-0 whitespace-pre"><code id="fig-py-code-${g.id}"></code></pre>
-              </div>
-            ` : ''}
-            <div class="figure-caption">${g.caption || ''}</div>
+            ${g.caption ? `<div class="figure-caption">${g.caption}</div>` : ''}
           `;
-
-          const pyCodeEl = figureDiv.querySelector(`#fig-py-code-${g.id}`);
-          if (pyCodeEl && g.py_content) {
-            pyCodeEl.textContent = g.py_content;
-          }
 
           const svgEl = figureDiv.querySelector('svg');
           if (svgEl) {
@@ -1922,40 +1940,15 @@
             svgEl.setAttribute('data-short-gid', g.id);
           }
 
-          if (parentP && parentP.children.length === 1 && parentP.firstElementChild === targetImg) {
+          if (parentFig) {
+            parentFig.replaceWith(figureDiv);
+          } else if (parentP && parentP.children.length === 1 && parentP.firstElementChild === targetImg) {
             parentP.replaceWith(figureDiv);
           } else {
             targetImg.replaceWith(figureDiv);
           }
         }
       });
-    },
-
-    switchFigureView(gid, view) {
-      const svgView = document.getElementById(`fig-view-svg-${gid}`);
-      const rasterView = document.getElementById(`fig-view-raster-${gid}`);
-      const pythonView = document.getElementById(`fig-view-python-${gid}`);
-      const modeLabel = document.getElementById(`fig-mode-label-${gid}`);
-      const container = document.querySelector(`.euclid-figure-container[data-graphic-id="${gid}"]`);
-
-      if (svgView) svgView.classList.toggle('hidden', view !== 'svg');
-      if (rasterView) rasterView.classList.toggle('hidden', view !== 'raster');
-      if (pythonView) pythonView.classList.toggle('hidden', view !== 'python');
-      if (modeLabel) {
-        modeLabel.textContent = view === 'svg' ? '· Vector' : (view === 'raster' ? '· Woodcut' : '· Python');
-      }
-
-      if (container) {
-        container.classList.toggle('python-mode', view === 'python');
-        container.querySelectorAll('.figure-btn').forEach(btn => {
-          const btnText = btn.innerText.toLowerCase();
-          btn.classList.toggle('active', 
-            (view === 'svg' && btnText.includes('vector')) ||
-            (view === 'raster' && btnText.includes('woodcut')) ||
-            (view === 'python' && btnText.includes('python'))
-          );
-        });
-      }
     },
 
     // Indexes all SVG elements by their graphic-scoped Geometor ID and aliases

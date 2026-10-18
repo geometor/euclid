@@ -1,0 +1,106 @@
+Transcription Notes: Folio 0328 (Page 314)
+==========================================
+
+Summary
+-------
+
+- **Content**:
+
+  - Conclusion of C. L. Dodgson's (*Euclid and his modern Rivals*, pp. 44–6) defense of Euclid's Postulate 5:
+
+    - Completion of argument (1): class $(\beta)$ may be logically wider than class $(\alpha)$, meaning Playfair's axiom carries a more extensive and unverified assumption than Euclid's Postulate 5.
+    - Argument (2): Euclid's Postulate presents clear and *positive* geometric conceptions (two straight lines, a transversal, angles summing to less than two right angles) providing a direct criterion for intersection (vital in I. 44), whereas Playfair's axiom relies on a *negative* infinite conception (lines never meeting to infinity) and is often assumed without proof by modern editors.
+
+  - **Proposition 30**:
+
+    - Enunciation: *Straight lines parallel to the same straight line are also parallel to one another.*
+    - Full demonstration (lines 1–20) with alternate interior angle equality via I. 29 and Common Notion 1.
+    - Concludes with ``Therefore AB is parallel to CD. Q. E. D.``
+
+  - **Textual Note on Line 20**: Heath highlights that the usual general conclusion ("Therefore etc.") repeating the enunciation is curiously wanting at the end of this proposition in Euclid's text.
+  - **De Morgan's Logical Note**: Initiation of Augustus De Morgan's formal logical equivalence between Proposition 30 and Playfair's axiom.
+
+- **Folio Continuity**:
+
+  - **Preceding folio**: Folio 0327 (page 313) concluded mid-sentence with: ``...that all pairs of lines having property ($\beta$) have also property``. Folio 0328 begins immediately with ``($\alpha$). For anything we know to the contrary, class ($\beta$) may be greater than class ($\alpha$).``
+  - **Succeeding folio**: Folio 0328 ends mid-sentence at the bottom line: ``Thus, if $X$ denote "pairs of straight lines intersecting one``. Folio 0329 (page 315) completes the phrase directly: ``another," $Y$ "pairs of straight lines parallel to one and the same straight line," we have No $X$ is $Y$, and it follows logically that No $Y$ is $X$.``
+
+- **Graphics**:
+
+  - Embedded ``0328.g1.svg`` (``bbox: [490, 565, 200, 135]``), caption: ``Folio 0328 Figure 1 - Proposition 30``.
+  - Illustrates parallels $AB$, $EF$, $CD$ intersected by transversal $GK$ at points $G$, $H$, and $K$.
+
+- **Footnotes**: None on this page.
+
+XML Ground-Truth Cross-Check
+----------------------------
+
+- Cross-checked against Perseus TEI XML (``PYTHONPATH=src python3 src/geometor/euclid/scripts/graphic_tool.py xml 1 30``):
+
+  - **Enunciation**: Verbatim match: *Straight lines parallel to the same straight line are also parallel to one another.*
+  - **Proof**: Verbatim match across all steps:
+
+    - Setting out: ``Let each of the straight lines AB, CD be parallel to EF;``
+    - Specification: ``I say that AB is also parallel to CD.``
+    - Construction: ``For let the straight line GK fall upon them;``
+    - Demonstration: Alternate angle equality via I. 29 (``angle AGK = angle GHF`` and ``angle GHF = angle GKD``), transitivity via Common Notion 1 (``angle AGK = angle GKD``), alternate angle parallelism via I. 27.
+    - Conclusion: ``Therefore AB is parallel to CD. Q. E. D.``
+
+  - **Note 20**: Perseus records: ``The usual conclusion in general terms (Therefore etc. ) repeating the enunciation is, curiously enough, wanting at the end of this proposition.``, exactly matching Heath's line note 20.
+
+Editorial & Typographical Findings
+----------------------------------
+
+- **Continuity across Page Break (313 -> 314)**:
+
+  - The first token on page 314 is ``($\alpha$).`` (or ``(a).``), which finishes the clause from page 313 (``have also property ($\alpha$).``).
+  - Next follows the capital sentence: ``For anything we know to the contrary, class ($\beta$) may be greater than class ($\alpha$).``
+  - Point ``(2)`` marks Dodgson's second argument, which follows directly after.
+
+- **Milestone Line Numbers**:
+
+  - Marginal numbers 5, 10, 15, 20 are formatted as superscripts (``:line:[5]``, ``:line:[10]``, ``:line:[15]``, ``:line:[20]``) at their corresponding proof lines.
+
+- **Emphasis in Dodgson's Commentary**:
+
+  - ``*not*``: ``portion which is *not* so included.``
+  - ``*positive*``: ``clear and *positive* conceptions``
+  - ``*negative*``: ``a *negative* conception``
+  - ``*deduced*``: ``can be *deduced* from "Playfair's" axiom``
+
+- **De Morgan Commentary**:
+
+  - ``*logical equivalent*``: italicized in the text.
+  - Mathematical variable $X$ italicized as ``$X$``.
+
+4. Typesetting & Structural Articulation (Proposition 30)
+---------------------------------------------------------
+
+- **Enunciation**: Formatted using ``.. enunciation:: Straight lines parallel to the same straight line are also parallel to one another.``.
+- **Figure Placement**: ``0328.g1.svg`` is placed centered following the specification. Shows three parallel lines $AB$, $EF$, $CD$ intersected by transversal $GK$ at $G, H, K$.
+- **Deductive Transitivity Chain & Centered Factoids**:
+
+  - Alternate angle equality on $AB \parallel EF$:
+    ``.. assertion:: :line:[10]the angle $AGK$ is equal to the angle $GHF$. :just:[[I. 29]]``
+  - Alternate angle equality on $EF \parallel CD$:
+    ``.. assertion:: the angle $GHF$ is equal to the angle $GKD$. :just:[[I. 29]]``
+  - Transitivity via Common Notion 1:
+    ``.. assertion:: therefore the angle $AGK$ is also equal to the angle $GKD$; :just:[[C. N. 1]]``
+  - Alternate angle condition:
+    ``.. subclause:: and they are alternate.``
+  - Direct parallel conclusion:
+    ``.. assertion:: :line:[20]Therefore $AB$ is parallel to $CD$.``
+
+- **Formulaic Close**:
+
+  - ``.. qed:: Q. E. D.``
+  - Note: Heath explicitly observes that the usual general formula ``"Therefore etc."`` is omitted in the original Greek manuscript of Proposition 30.
+
+- **SVG Animation Sequencing**:
+
+  - Step 1: Render three parallel straight lines: intermediate line $EF$, with $AB \parallel EF$ and $CD \parallel EF$.
+  - Step 2: Draw transversal line $GK$ intersecting $AB$ at $G$, $EF$ at $H$, and $CD$ at $K$.
+  - Step 3: Highlight alternate interior angles $\angle AGK$ and $\angle GHF$; pulse equality [I. 29].
+  - Step 4: Highlight alternate interior angles $\angle GHF$ and $\angle GKD$; pulse equality [I. 29].
+  - Step 5: By transitive equality [C. N. 1], link and pulse $\angle AGK = \angle GKD$.
+  - Step 6: Since $\angle AGK$ and $\angle GKD$ are alternate interior angles across $AB$ and $CD$, apply Proposition 27 to conclude $AB \parallel CD$; draw parallel indicator arrows on $AB$ and $CD$; conclude directly with Q.E.D.

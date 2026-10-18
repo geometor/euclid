@@ -1,0 +1,109 @@
+Transcription Notes for Folio 0354 (Page 340)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0354
+- **Page**: 340
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: Propositions
+- **Title**: Propositions 42 and 43
+- **Running Header**: ``340 BOOK I [I. 42, 43``
+
+  - Verso page header with page number on the left, book title centered, and section index on the right.
+
+Textual Observations & Editorial Decisions
+------------------------------------------
+
+1. **Conclusion of Proposition 42** (``elem.1.42``):
+
+   - Concludes the proof begun on folio 0353:
+
+     - Demonstration: Parallelogram $FECG$ is double $\triangle AEC$ on same base and in same parallels [I. 41]; hence parallelogram $FECG = \triangle ABC$.
+     - Requirement fulfilled: $\angle CEF = D$.
+     - Conclusion: ``Therefore the parallelogram FECG has been constructed equal to the given triangle ABC, in the angle CEF which is equal to D.``
+     - Formula: ``Q. E. F.`` (quod erat faciendum / ὅπερ ἔδει ποιῆσαι, problem ending).
+
+   - Cross-checked against Perseus TEI XML; identical text verbatim.
+
+2. **Proposition 43 Ground-Truth Cross-Check** (``elem.1.43``):
+
+   - Enunciation: *"In any parallelogram the complements of the parallelograms about the diameter are equal to one another."*
+
+     - Greek: Παντὸς παραλληλογράμμου τῶν περὶ τὴν διάμετρον παραλληλογράμμων τὰ παραπληρώματα ἴσα ἀλλήλοις ἐστίν.
+
+   - Setting-out: Parallelogram $ABCD$, diameter $AC$, parallelograms $EH, FG$ about $AC$, complements $BK, KD$.
+   - Specification: ``I say that the complement BK is equal to the complement KD.``
+   - Proof:
+
+     - Parallelogram $ABCD$, diameter $AC \implies \triangle ABC = \triangle ACD$ [I. 34].
+     - Parallelogram $EH$, diameter $AK \implies \triangle AEK = \triangle AHK$.
+     - Similarly $\triangle KFC = \triangle KGC$.
+     - By Common Notion 2 [C. N. 2]: $\triangle AEK + \triangle KGC = \triangle AHK + \triangle KFC$.
+     - By Common Notion 3 [C. N. 3]: Subtracting these sums from whole triangles $\triangle ABC = \triangle ADC$ leaves complement $BK = \text{complement } KD$.
+     - Conclusion: ``Therefore etc. Q. E. D.``
+
+   - Cross-check against Perseus TEI XML confirms exact correspondence of wording. Note that Heath's print formats Common Notions as ``[C. N. 2]`` and ``[C. N. 3]`` with internal spacing, preserved in markdown.
+
+3. **Marginal Line Numbering**:
+
+   - Proposition 43 includes marginal milestone numbers printed every 5 lines in Heath's edition:
+
+     - ``:line:[5]`` at ``the so-called complements;``
+     - ``:line:[10]`` at ``the triangle ACD. [I. 34]``
+     - ``:line:[15]`` at ``For the same reason``
+     - ``:line:[20]`` at ``the triangle AEK together with KGC is equal to the triangle``
+     - ``:line:[25]`` at ``complement KD which remains. [C. N. 3]``
+
+   - Formatted cleanly as superscript tags per transcription guidelines.
+
+4. **Demonstration Graphic** (``0354.g1.svg``):
+
+   - Defined in ``0354.json`` (bbox ``[443, 624, 255, 172]``).
+   - Depicts parallelogram $ABCD$ with diameter $AC$, point $K$ on diameter, parallelograms $EH$ (top-left) and $FG$ (bottom-right) about $AC$, and complements $BK$ (bottom-left) and $KD$ (top-right).
+   - Inspected directly with ``view_file``; all letter labels ($A, H, D, E, K, F, B, G, C$) and lines are sharp and correctly bounded.
+   - Embedded following the specification statement.
+
+5. **Page Layout and Transition to Folio 0355**:
+
+   - Proposition 43 ends cleanly with ``Q. E. D.`` on the lower half of page 340. The remainder of the page is unprinted space.
+   - Detailed textual notes on Proposition 43 (including discussions of the technical term παραπληρώματα and Euclid's phrasing περὶ δὲ τὴν ΑΓ παραλληλόγραμμα) begin on folio 0355 (page 341).
+
+4. Typesetting & Structural Articulation (Propositions 42 & 43)
+---------------------------------------------------------------
+
+- **Proposition 42 Conclusion**:
+
+  - Parallelogram doubling justification:
+    ``.. subclause:: But the parallelogram $FECG$ is also double of the triangle $AEC$, for it has the same base with it and is in the same parallels with it; :just:[[I. 41]]``
+  - Parallelogram area equivalence factoid:
+    ``.. assertion:: therefore the parallelogram $FECG$ is equal to the triangle $ABC$.``
+  - Formulaic construction close:
+    ``.. qed:: Therefore the parallelogram $FECG$ has been constructed equal to the given triangle $ABC$, in the angle $CEF$ which is equal to $D$. :just:[Q. E. F.]``
+
+- **Proposition 43 Enunciation Line Breaks**:
+  ``.. enunciation:: In any parallelogram the complements of the parallelograms | about the diameter are equal to one another.``
+  Replicates Heath's line break after ``parallelograms``.
+- **Proposition 43 Deductive Structure & Factoids**:
+
+  - Main diagonal triangle bisection:
+    ``:line:[10] the triangle $ACD$. :just:[[I. 34]]``
+  - Subordinate triangle bisections: $\triangle AEK = \triangle AHK$ and $\triangle KFC = \triangle KGC$.
+  - Additive congruence factoid:
+    ``.. assertion:: :line:[20] the triangle $AEK$ together with $KGC$ is equal to the triangle $AHK$ together with $KFC$. :just:[[C. N. 2]]``
+  - Area subtraction of congruent triangles from main halves:
+    ``.. assertion:: therefore the complement $BK$ which remains is equal to the | :line:[25] complement $KD$ which remains. :just:[[C. N. 3]]``
+  - Formulaic close:
+    ``.. qed:: Therefore etc. :just:[Q. E. D.]``
+
+- **SVG Animation Sequencing (Proposition 43)**:
+
+  - **Step 1 (Main Parallelogram & Diameter)**: Draw parallelogram $ABCD$ and diameter line $AC$.
+  - **Step 2 (Point on Diameter & Parallels)**: Choose point $K$ on diameter $AC$; draw $EF \parallel BC$ and $GH \parallel AB$ through $K$, cutting sides at $E, F, G, H$.
+  - **Step 3 (Identify Components)**: Highlight parallelograms about the diameter $EH$ (top-left) and $FG$ (bottom-right); highlight complements $BK$ (bottom-left) and $KD$ (top-right).
+  - **Step 4 (Main Triangle Bisection [I. 34])**: Highlight $\triangle ABC = \triangle ACD$ as congruent halves of $ABCD$ bisected by $AC$.
+  - **Step 5 (Sub-Triangle Bisections [I. 34])**: In parallelogram $EH$ with diameter $AK$, highlight $\triangle AEK = \triangle AHK$; in parallelogram $FG$ with diameter $KC$, highlight $\triangle KFC = \triangle KGC$.
+  - **Step 6 (Additive Sum [C. N. 2])**: Add the pairs together: $(\triangle AEK + \triangle KGC) = (\triangle AHK + \triangle KFC)$.
+  - **Step 7 (Scissors Subtraction [C. N. 3])**: Subtract these equal sums from the whole triangles $\triangle ABC$ and $\triangle ACD$; highlight remaining complements $BK$ and $KD$ in matching vibrant colors; pulse area equality $BK = KD$; close with Q.E.D.

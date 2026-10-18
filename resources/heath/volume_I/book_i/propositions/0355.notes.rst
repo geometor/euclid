@@ -1,0 +1,103 @@
+Transcription Notes for Folio 0355 (Page 341)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0355
+- **Page**: 341
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: Propositions
+- **Title**: Propositions 43 and 44
+- **Running Header**: ``I. 43, 44] PROPOSITIONS 42—44 341``
+
+  - Recto page header with proposition bracket on left, span running header centered with em-dash, and page number on right.
+
+Textual Observations & Editorial Decisions
+------------------------------------------
+
+1. **Notes on Proposition 43 (Completion from Page 340)**:
+
+   - Proposition 43 was demonstrated on folio 0354 (page 340). Folio 0355 opens directly with Heath's textual and philological notes keyed to the proposition lines:
+
+     - **Note 1**: Lemma ``complements``, Greek ``παραπληρώματα`` (*parapleromata*, literally "fillings-in", from *para* + *pleroo*), glossed as "the figures put in to fill up (interstices)."
+     - **Note 4**: Lemma ``and about $AC$....``. Heath notes Euclid's terminology regarding the complements and parallelograms being "about" the diagonal.
+     - **Greek citation**:
+       ``περὶ δὲ τὴν ΑΓ παραλληλόγραμμα μὲν ἔστω τὰ ΕΘ, ΖΗ, τὰ δὲ λεγόμενα παραπληρώματα τὰ ΒΚ, ΚΔ.``
+
+       - All accents and breathings verified: grave on ``περὶ``, ``δὲ``, ``τὴν``, ``μὲν``, ``τὰ`` (thrice); smooth breathing and acute on ``ἔστω``; acute on ``παραλληλόγραμμα``, ``λεγόμενα``, and ``παραπληρώματα``.
+       - Geometric letter mapping: In Greek, Euclid uses $\text{E}\Theta$ and $\text{Z}\text{H}$ for the parallelograms about the diameter, where Greek $\Theta$ corresponds to Heath's English label $H$, and Greek $\text{Z}$ corresponds to Heath's $F$.
+       - The phrase ``τὰ δὲ λεγόμενα παραπληρώματα`` ("the so-called complements") reflects established technical vocabulary prior to Euclid.
+
+2. **Proclus Commentary & Lacuna Notice**:
+
+   - Heath observes a textual defect in Proclus' commentary as transmitted:
+     *"In the text of Proclus' commentary as we have it, the end of the note on I. 41, the whole of that on I. 42, and the beginning of that on I. 43 are missing."*
+   - Proclus discussion (Friedlein ed., pp. 417, 1 sqq. and 418, 15—20):
+
+     - Euclid gave no formal definition of "complement" because the geometric reality made it obvious.
+     - When the two parallelograms about the diameter are not formed through a single common point on the diagonal, the complements need not be parallelograms:
+
+       1. Non-overlapping: The complements are 5-sided figures.
+       2. Overlapping: Proclus loosely designates $FG, EH$ as the complements, but Heath critically notes that strictly the complements are $FG - \triangle LMN$ and $EH - \triangle KMN$ respectively.
+
+     - In all cases, the complements remain equal.
+
+3. **Demonstration Graphics**:
+
+   - **Graphic 1** (``0355.g1.svg``):
+
+     - Embedded as: ``.. picture:: 0355.g1.svg``
+     - Illustrates the non-overlapping case with five-sided complements.
+     - Bounding box defined in ``0355.json``: ``[475, 355, 215, 125]``. Verified directly with ``view_file``.
+
+   - **Graphic 2** (``0355.g2.svg``):
+
+     - Embedded as: ``.. picture:: 0355.g2.svg``
+     - Illustrates overlapping parallelograms with points $A, F, D$ along the top; $E, K, N$ along the lower parallel; $M, L, G$ along the upper parallel; and $B, H, C$ along the base.
+     - Bounding box defined in ``0355.json``: ``[478, 555, 200, 125]``. Verified directly with ``view_file``.
+
+4. **Proposition 44 Opening & Ground-Truth Cross-Check** (``elem.1.44``):
+
+   - Section heading: ``### PROPOSITION 44.``
+   - Enunciation: *To a given straight line to apply, in a given rectilineal angle, a parallelogram equal to a given triangle.*
+   - Validated against Perseus TEI XML (``elem.1.44``), matching verbatim.
+   - Setting-out (*ekthesis*): Line $AB$, triangle $C$, rectilineal angle $D$.
+   - Specification (*diorismos*): Line 5.
+   - Construction (*kataskeue*): Construction of parallelogram $BEFG$ equal to triangle $C$ in angle $EBG = D$ via [I. 42], positioned so that $BE$ is collinear with $AB$.
+
+5. **Marginal Milestone Line Numbers**:
+
+   - Line numbers ``5`` and ``10`` appear in the left margin of Heath's printed text.
+   - Formatted as ``:line:[5]`` and ``:line:[10]`` per project conventions.
+   - Line 5 corresponds to ``thus it is required to apply...``.
+   - Line 10 corresponds to ``let it be placed so that $BE$ is in a straight line with $AB$; let``.
+   - Line indexing counts from the first line of the enunciation, adhering to Heiberg's Teubner edition line counting.
+
+6. **Page Boundary Continuation to Folio 0356**:
+
+   - Folio 0355 ends mid-clause on line 10 with the word ``let``.
+   - The clause completes at the top of folio 0356 (page 342): ``$FG$ be drawn through to $H$, and let $AH$ be drawn through $A$ parallel to either $BG$ or $EF$. [I. 31]``.
+
+4. Typesetting & Structural Articulation (Proposition 44, Part 1)
+-----------------------------------------------------------------
+
+- **Problem Enunciation Line Breaks**:
+  ``.. enunciation:: To a given straight line to apply, in a given rectilineal | angle, a parallelogram equal to a given triangle.``
+  Replicates Heath's line break after ``rectilineal``.
+- **Construction & Justifications**:
+
+  - Application of I. 42:
+    ``Let the parallelogram $BEFG$ be constructed equal to the triangle $C$, in the angle $EBG$ which is equal to $D$ :just:[[I. 42]];``
+  - Collinear alignment along given line $AB$:
+    ``:line:[10] let it be placed so that $BE$ is in a straight line with $AB$; let``
+
+- **SVG Animation Sequencing (Proposition 44)**:
+
+  - **Step 1 (Given Elements)**: Render given straight line segment $AB$, given triangle $C$, and given angle $D$.
+  - **Step 2 (Auxiliary Parallelogram via I. 42)**: Construct parallelogram $BEFG$ equal in area to $\triangle C$ with angle $\angle EBG = D$ [I. 42], positioned with base $BE$ aligned collinearly with $AB$.
+  - **Step 3 (Auxiliary Parallels & Postulate 5)**: Extend $FG$ to $H$; draw $AH \parallel BG$ through $A$ [I. 31]; join $HB$. Note that consecutive interior angles $\angle BHG + \angle GFE < 2\text{R}$ [I. 29], forcing $HB$ and $FE$ to meet at an external point $K$ [Post. 5].
+  - **Step 4 (Completion of Master Parallelogram)**: Through $K$, draw line parallel to $EA$ or $FH$ [I. 31]; produce $HA$ to $L$ and $GB$ to $M$, forming master parallelogram $HLKF$ with diameter $HK$.
+  - **Step 5 (Complements Equivalence via I. 43)**: Identify complements $LB$ and $BF$ about diameter $HK$; highlight area equality $LB = BF$ [I. 43].
+  - **Step 6 (Transitivity & Angle Matching)**: Since $BF = \triangle C$, deduce $LB = \triangle C$ [C.N. 1]. By vertical angles [I. 15], $\angle ABM = \angle GBE = D$; pulse resulting parallelogram $LB$ applied to given line $AB$; reveal Q.E.F.

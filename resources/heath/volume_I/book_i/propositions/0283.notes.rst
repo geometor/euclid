@@ -1,0 +1,105 @@
+Transcription Notes: Folio 0283 (Page 269)
+==========================================
+
+Summary
+-------
+
+- **Volume**: I
+- **Book**: I
+- **Section**: Propositions
+- **Subject**: Proposition 11 (Heading, Enunciation, Figure, Proof, Q. E. F.); Commentary on line 10 (Verb κείσθω); De Morgan's remark on I. 11 as bisection of a flat angle.
+- **Source Page**: 269 (Folio ``0283.png``)
+
+Content Analysis
+----------------
+
+1. **Proposition 11**:
+
+   - **Enunciation**: *To draw a straight line at right angles to a given straight line from a given point on it.*
+   - **Setting-out & Specification**: Straight line $AB$, point $C$ on it. Required to draw from $C$ a straight line at right angles to $AB$.
+   - **Construction**: Take random point $D$ on $AC$; make $CE = CD$ [I. 3]; construct equilateral triangle $FDE$ on $DE$ [I. 1]; join $FC$.
+   - **Proof**: Triangles $DCF$ and $ECF$ are congruent by I. 8 ($DC = CE$, $CF$ common, $DF = FE$), hence adjacent angles $\angle DCF = \angle ECF$. By Definition 10, both angles are right angles; therefore $CF \perp AB$ at $C$.
+   - **Conclusion**: Q. E. F. (*quod erat faciendum*).
+   - Illustrated by Graphic ``0283.g1.svg``.
+
+2. **Philological Note on Line 10**:
+
+   - **Lemma**: ``10. let CE be made equal to CD.``
+   - Greek passive usage: The verb κείσθω (and other forms of κεῖμαι) serves as the passive for τίθημι ("to place"), frequently employed in the mathematical sense of *making* one straight line equal to another.
+
+3. **Commentary by Augustus De Morgan**:
+
+   - De Morgan (*The Connexion of Number and Magnitude*, etc.) observes that Proposition 11 is conceptually equivalent to bisecting the "flat angle" (straight angle, $180^\circ$) formed by a straight line and its continuation, utilizing the identical construction to Proposition 9.
+   - Text ends mid-sentence at page boundary: ``This is certainly``.
+
+TEI XML Ground-Truth Cross-Check
+--------------------------------
+
+- Queried Perseus TEI XML via ``PYTHONPATH=src python3 src/geometor/euclid/scripts/graphic_tool.py xml 1 11``.
+- **Enunciation**: Verbatim match:
+  ``To draw a straight line at right angles to a given straight line from a given point on it.``
+- **Proof Text**: Verbatim match:
+  ``Let AB be the given straight line, and C the given point on it. Thus it is required to draw from the point C a straight line at right angles to the straight line AB. Let a point D be taken at random on AC; let CE be made equal to CD; [I. 3] on DE let the equilateral triangle FDE be constructed, [I. 1] and let FC be joined; I say that the straight line FC has been drawn at right angles to the given straight line AB from C the given point on it. For, since DC is equal to CE, and CF is common, the two sides DC, CF are equal to the two sides EC, CF respectively; and the base DF is equal to the base FE; therefore the angle DCF is equal to the angle ECF; [I. 8] and they are adjacent angles. But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; [Def. 10] therefore each of the angles DCF, FCE is right. Therefore the straight line CF has been drawn at right angles to the given straight line AB from the given point C on it. Q. E. F.``
+- **Note 10**: Verbatim match in TEI XML note structure.
+
+Lineation & Marginal Numbers
+----------------------------
+
+- Exact 30-line sequence established in Heiberg's Greek text and preserved in Heath's translation:
+
+  - ``:line:[5]``: At line 5 of proof (``Thus it is required to draw...``).
+  - ``:line:[10]``: At line 10 of proof (``let CE be made equal to CD; [I. 3]``).
+  - ``:line:[15]``: At line 15 of proof (``angles to the given straight line AB...``).
+  - ``:line:[20]``: At line 20 of proof (``CF respectively;``).
+  - ``:line:[25]``: At line 25 of proof (``the adjacent angles equal to one another...``).
+  - ``:line:[30]``: At line 30 of proof (``C on it.``).
+
+Graphic Verification
+--------------------
+
+- ``0283.g1.svg`` (**Proposition 11 figure**):
+
+  - Single source of truth bounding box in ``0283.json``: ``[425, 330, 295, 180]``.
+  - Depicts line $AB$ with points $D, C, E$, equilateral triangle $FDE$, and perpendicular line $FC$.
+
+Polytonic Greek
+---------------
+
+- ``κείσθω``: 3rd person singular present imperative middle/passive of root κει- (acute on iota).
+- ``κεῖμαι``: 1st person singular present indicative middle/passive (perispomene on iota).
+- ``τίθημι``: 1st person singular present indicative active (acute on first iota).
+
+Text Continuity
+---------------
+
+- **Preceding**: Folio 0282 (page 268) concludes Proposition 10 and its commentary.
+- **Current**: Folio 0283 ends with ``This is certainly``.
+- **Succeeding**: Folio 0284 (page 270) commences seamlessly with ``worth noting, though I doubt the advantage of rearranging the propositions in consequence.``.
+
+Typesetting & Structural Articulation (Proposition 11)
+------------------------------------------------------
+
+- **Enunciation**: Formatted as ``.. enunciation:: To draw a straight line at right angles to a given straight line from a given point on it.``.
+- **Figure Layout**: Graphic ``0283.g1.svg`` floats to the right side of the construction lines in Heath's print.
+- **Centered Factoids / Deductive Assertions**:
+
+  1. ``.. assertion:: :line:[20] the two sides $DC$, $CF$ are equal to the two sides $EC$, $CF$ respectively;``: Symmetric side identification for $\triangle DCF$ and $\triangle ECF$.
+  2. ``.. assertion:: therefore the angle $DCF$ is equal to the angle $ECF$; :just:[[I. 8]]``: Triangle congruence via SSS yielding equal adjacent angles.
+  3. ``.. assertion:: therefore each of the angles $DCF$, $FCE$ is right.``: Application of Definition 10 to establish perpendicularity.
+
+- **Justifications**:
+
+  - ``[I. 3]``: Right-aligned via ``:just:[[I. 3]]`` on cutoff step $CE = CD$.
+  - ``[I. 1]``: Right-aligned via ``:just:[[I. 1]]`` on equilateral triangle construction $FDE$.
+  - ``[I. 8]``: Right-aligned inside assertion.
+  - ``[Def. 10]``: Right-aligned on adjacent equal angles definition.
+
+- **Conclusion**: ``.. qed:: Q. E. F.`` positioned flush right.
+- **SVG Animation Sequencing**:
+
+  - Step 1: Render line $AB$ and point $C$ on it.
+  - Step 2: Choose point $D$ on $AC$; mark off $CE = CD$ (invoke I. 3).
+  - Step 3: Construct equilateral triangle $FDE$ on $DE$ (invoke I. 1).
+  - Step 4: Join $FC$ (the perpendicular line).
+  - Step 5: Highlight $\triangle DCF$ and $\triangle ECF$ ($DC = CE$, $CF$ common, $DF = FE$).
+  - Step 6: Deduce $\angle DCF = \angle ECF$ by I. 8; invoke Def. 10 to show both angles are right angles, verifying $FC \perp AB$ at $C$.

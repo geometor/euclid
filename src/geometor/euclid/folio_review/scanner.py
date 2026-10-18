@@ -14,6 +14,17 @@ import time
 from typing import Any, Dict, List, Optional, Tuple
 import yaml
 import markdown
+from pygments import highlight
+from pygments.formatters import HtmlFormatter
+from pygments.lexers import PythonLexer, XmlLexer
+
+from geometor.euclid.folio_review.rst_utils import parse_rst_metadata, render_rst_html
+
+_PYGMENTS_FORMATTER = HtmlFormatter(style="gruvbox-dark")
+_PYTHON_LEXER = PythonLexer()
+_XML_LEXER = XmlLexer()
+_PYGMENTS_CSS = _PYGMENTS_FORMATTER.get_style_defs(".highlight")
+
 
 
 def escape_angle_brackets_in_attrs(md_text: str) -> str:
@@ -134,15 +145,26 @@ class FolioScanner:
                 folio_id = stem
                 folio_num = int(stem)
 
+                rst_path = parent_dir / f"{stem}.rst"
                 md_path = parent_dir / f"{stem}.md"
-                notes_path = parent_dir / f"{stem}.notes.md"
+                notes_rst_path = parent_dir / f"{stem}.notes.rst"
+                notes_md_path = parent_dir / f"{stem}.notes.md"
                 json_path = parent_dir / f"{stem}.json"
 
-                has_md = md_path.exists()
-                has_notes = notes_path.exists()
+                has_rst = rst_path.exists()
+                active_doc_path = rst_path if has_rst else (md_path if md_path.exists() else None)
+                has_md = active_doc_path is not None
+
+                has_notes_rst = notes_rst_path.exists()
+                active_notes_path = (
+                    notes_rst_path
+                    if has_notes_rst
+                    else (notes_md_path if notes_md_path.exists() else None)
+                )
+                has_notes = active_notes_path is not None
                 has_json = json_path.exists()
 
-                # Parse frontmatter if md exists
+                # Parse metadata if rst or md exists
                 frontmatter: Dict[str, Any] = {}
                 page_str = ""
                 title_str = ""
@@ -150,10 +172,19 @@ class FolioScanner:
                 section_str = rel_sec
 
                 md_raw_text = ""
-                if has_md:
+                if active_doc_path is not None:
                     try:
-                        md_raw_text = md_path.read_text(encoding="utf-8")
-                        if md_raw_text.startswith("---"):
+                        md_raw_text = active_doc_path.read_text(encoding="utf-8")
+                        if has_rst:
+                            parsed, _ = parse_rst_metadata(md_raw_text)
+                            if isinstance(parsed, dict) and parsed:
+                                frontmatter = parsed
+                                page_str = str(parsed.get("page", ""))
+                                title_str = str(parsed.get("title", ""))
+                                book_str = str(parsed.get("book", ""))
+                                if parsed.get("section"):
+                                    section_str = str(parsed.get("section"))
+                        elif md_raw_text.startswith("---"):
                             parts = md_raw_text.split("---", 2)
                             if len(parts) >= 3:
                                 parsed = yaml.safe_load(parts[1])
@@ -231,11 +262,13 @@ class FolioScanner:
                     "frontmatter": frontmatter,
                     "scan_file": png_path.name,
                     "scan_rel_path": str(png_path.relative_to(self.root_dir)),
-                    "md_rel_path": str(md_path.relative_to(self.root_dir)) if has_md else None,
-                    "notes_rel_path": str(notes_path.relative_to(self.root_dir)) if has_notes else None,
+                    "md_rel_path": str(active_doc_path.relative_to(self.root_dir)) if active_doc_path else None,
+                    "notes_rel_path": str(active_notes_path.relative_to(self.root_dir)) if active_notes_path else None,
                     "json_rel_path": str(json_path.relative_to(self.root_dir)) if has_json else None,
                     "has_scan": True,
+                    "has_rst": has_rst,
                     "has_md": has_md,
+                    "transcription_format": "rst" if has_rst else ("md" if has_md else None),
                     "has_notes": has_notes,
                     "has_json": has_json,
                     "graphics": graphics_list,
@@ -384,11 +417,26 @@ class FolioScanner:
         res = dict(item)
         full_parent = self.root_dir / res["volume"] / res["section_path"]
 
-        # Read Markdown transcription content
+        # Read RST or Markdown transcription content (.rst preferred over .md)
+        rst_file = full_parent / f"{folio_id}.rst"
         md_file = full_parent / f"{folio_id}.md"
-        if md_file.exists():
+        if rst_file.exists():
+            try:
+                res["md_content"] = rst_file.read_text(encoding="utf-8")
+                res["transcription_format"] = "rst"
+                res["md_file_name"] = rst_file.name
+                rendered_rst = render_rst_html(res["md_content"])
+                res["md_html"] = fix_relative_media_urls(
+                    rendered_rst, res["volume"], res["section_path"]
+                )
+            except Exception as e:
+                res["md_content"] = f"Error reading RST: {e}"
+                res["md_html"] = f"<p>Error rendering RST: {e}</p>"
+        elif md_file.exists():
             try:
                 res["md_content"] = md_file.read_text(encoding="utf-8")
+                res["transcription_format"] = "md"
+                res["md_file_name"] = md_file.name
                 clean_text = res["md_content"]
                 if clean_text.startswith("---"):
                     parts = clean_text.split("---", 2)
@@ -407,12 +455,29 @@ class FolioScanner:
         else:
             res["md_content"] = None
             res["md_html"] = ""
+            res["transcription_format"] = None
+            res["md_file_name"] = f"{folio_id}.rst"
 
-        # Read Notes content
-        notes_file = full_parent / f"{folio_id}.notes.md"
-        if notes_file.exists():
+        # Read Notes content (.notes.rst preferred over .notes.md)
+        notes_rst_file = full_parent / f"{folio_id}.notes.rst"
+        notes_md_file = full_parent / f"{folio_id}.notes.md"
+        if notes_rst_file.exists():
             try:
-                res["notes_content"] = notes_file.read_text(encoding="utf-8")
+                res["notes_content"] = notes_rst_file.read_text(encoding="utf-8")
+                res["notes_format"] = "rst"
+                res["notes_file_name"] = notes_rst_file.name
+                rendered_notes = render_rst_html(res["notes_content"])
+                res["notes_html"] = fix_relative_media_urls(
+                    rendered_notes, res["volume"], res["section_path"]
+                )
+            except Exception as e:
+                res["notes_content"] = f"Error reading RST notes: {e}"
+                res["notes_html"] = f"<p>Error rendering RST notes: {e}</p>"
+        elif notes_md_file.exists():
+            try:
+                res["notes_content"] = notes_md_file.read_text(encoding="utf-8")
+                res["notes_format"] = "md"
+                res["notes_file_name"] = notes_md_file.name
                 rendered_notes = markdown.markdown(
                     escape_angle_brackets_in_attrs(res["notes_content"]),
                     extensions=["tables", "fenced_code", "footnotes"],
@@ -426,6 +491,8 @@ class FolioScanner:
         else:
             res["notes_content"] = None
             res["notes_html"] = ""
+            res["notes_format"] = None
+            res["notes_file_name"] = f"{folio_id}.notes.rst"
 
         # Read JSON metadata
         json_file = full_parent / f"{folio_id}.json"
@@ -454,6 +521,13 @@ class FolioScanner:
             else:
                 g_copy["svg_content"] = None
 
+            if g_copy.get("svg_content"):
+                g_copy["svg_highlighted_html"] = highlight(
+                    g_copy["svg_content"], _XML_LEXER, _PYGMENTS_FORMATTER
+                )
+            else:
+                g_copy["svg_highlighted_html"] = None
+
             py_name = g_copy.get("py_file", f"{folio_id}.{g_copy.get('id', 'g1')}.py")
             py_p = full_parent / py_name
             if py_p.exists():
@@ -465,8 +539,16 @@ class FolioScanner:
             else:
                 g_copy["py_content"] = None
 
+            if g_copy.get("py_content"):
+                g_copy["py_highlighted_html"] = highlight(
+                    g_copy["py_content"], _PYTHON_LEXER, _PYGMENTS_FORMATTER
+                )
+            else:
+                g_copy["py_highlighted_html"] = None
+
             graphics_with_content.append(g_copy)
         res["graphics"] = graphics_with_content
+        res["pygments_css"] = _PYGMENTS_CSS
 
         return res
 

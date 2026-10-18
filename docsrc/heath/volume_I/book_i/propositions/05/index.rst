@@ -1,0 +1,114 @@
+:canonical_id: I.5
+:book: I
+:proposition: 5
+:type: proposition
+:title: Proposition 5
+:folios: 0265, 0266
+:pages: 251, 252
+:dependencies: I.3, I.4, I.post.1, I.post.2
+
+.. _I.5:
+
+.. folio:: 0265
+   :page: 251
+
+PROPOSITION 5.
+==============
+
+.. enunciation::
+
+   In isosceles triangles the angles at the base are equal to one another, and, if the equal straight lines be produced further, the angles under the base will be equal to one another.
+
+.. picture:: 0265.g1.svg
+   :alt: Proposition 5 figure
+
+| Let :g:`$ABC$ <0265.g1:< A B C >>` be an isosceles triangle having the side :g:`$AB$ <0265.g1:/ A B />`
+| :line:`5` equal to the side :g:`$AC$ <0265.g1:/ A C />`;
+| and let the straight lines :g:`$BD$ <0265.g1:/ B D />`, :g:`$CE$ <0265.g1:/ C E />` be produced further in a straight line with :g:`$AB$ <0265.g1:/ A B />`, :g:`$AC$ <0265.g1:/ A C />`. :just:`[Post. 2] <I.post.2>`
+
+I say that the angle :g:`$ABC$ <0265.g1:< A B C )>` is equal to the angle :g:`$ACB$ <0265.g1:< A C B )>`, and the angle :g:`$CBD$ <0265.g1:< C B D )>` to the angle :g:`$BCE$ <0265.g1:< B C E )>`.
+
+| :line:`10` Let a point :g:`$F$ <0265.g1:F>` be taken at random on :g:`$BD$ <0265.g1:/ B D />`;
+| from :g:`$AE$ <0265.g1:/ A E />` the greater let :g:`$AG$ <0265.g1:/ A G />` be cut off equal to :g:`$AF$ <0265.g1:/ A F />` the less; :just:`[I. 3] <I.3>`
+| and let the straight lines :g:`$FC$ <0265.g1:/ F C />`, :g:`$GB$ <0265.g1:/ G B />` be joined. :just:`[Post. 1] <I.post.1>`
+
+:line:`15` Then, since :g:`$AF$ <0265.g1:/ A F />` is equal to :g:`$AG$ <0265.g1:/ A G />` and :g:`$AB$ <0265.g1:/ A B />` to :g:`$AC$ <0265.g1:/ A C />`,
+
+.. subclause::
+
+   the two sides :g:`$FA$ <0265.g1:/ F A />`, :g:`$AC$ <0265.g1:/ A C />` are equal to the two sides :g:`$GA$ <0265.g1:/ G A />`, :g:`$AB$ <0265.g1:/ A B />`, respectively;
+
+and they contain a common angle, the angle :g:`$FAG$ <0265.g1:< F A G )>`.
+
+.. assertion::
+
+   :line:`20` Therefore the base :g:`$FC$ <0265.g1:/ F C />` is equal to the base :g:`$GB$ <0265.g1:/ G B />`,
+
+| and the triangle :g:`$AFC$ <0265.g1:< A F C >>` is equal to the triangle :g:`$AGB$ <0265.g1:< A G B >>`,
+| and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend,
+
+.. subclause::
+
+   that is, the angle :g:`$ACF$ <0265.g1:< A C F )>` to the angle :g:`$ABG$ <0265.g1:< A B G )>`,
+
+.. subclause:: [I. 4] <I.4>
+
+   :line:`25` and the angle :g:`$AFC$ <0265.g1:< A F C )>` to the angle :g:`$AGB$ <0265.g1:< A G B )>`.
+
+| And, since the whole :g:`$AF$ <0265.g1:/ A F />` is equal to the whole :g:`$AG$ <0265.g1:/ A G />`,
+| and in these :g:`$AB$ <0265.g1:/ A B />` is equal to :g:`$AC$ <0265.g1:/ A C />`,
+
+.. assertion::
+
+   the remainder :g:`$BF$ <0265.g1:/ B F />` is equal to the remainder :g:`$CG$ <0265.g1:/ C G />`.
+
+| But :g:`$FC$ <0265.g1:/ F C />` was also proved equal to :g:`$GB$ <0265.g1:/ G B />`;
+| :line:`30` therefore the two sides :g:`$BF$ <0265.g1:/ B F />`, :g:`$FC$ <0265.g1:/ F C />` are equal to the two sides :g:`$CG$ <0265.g1:/ C G />`, :g:`$GB$ <0265.g1:/ G B />` respectively;
+| and the angle :g:`$BFC$ <0265.g1:< B F C )>` is equal to the angle :g:`$CGB$ <0265.g1:< C G B )>`,
+
+.. subclause::
+
+   while the base :g:`$BC$ <0265.g1:/ B C />` is common to them;
+
+| therefore the triangle :g:`$BFC$ <0265.g1:< B F C >>` is also equal to the triangle :g:`$CGB$ <0265.g1:< C G B >>`,
+| :line:`35` and the remaining angles will be equal to the remaining
+
+.. folio:: 0266
+   :page: 252
+
+angles respectively, namely those which the equal sides subtend;
+
+.. subclause::
+
+   therefore the angle :g:`$FBC$ <0265.g1:< F B C )>` is equal to the angle :g:`$GCB$ <0265.g1:< G C B )>`,
+
+.. subclause::
+
+   and the angle :g:`$BCF$ <0265.g1:< B C F )>` to the angle :g:`$CBG$ <0265.g1:< C B G )>`.
+
+| :line:`40` Accordingly, since the whole angle :g:`$ABG$ <0265.g1:< A B G )>` was proved equal to the angle :g:`$ACF$ <0265.g1:< A C F )>`,
+| and in these the angle :g:`$CBG$ <0265.g1:< C B G )>` is equal to the angle :g:`$BCF$ <0265.g1:< B C F )>`,
+| the remaining angle :g:`$ABC$ <0265.g1:< A B C )>` is equal to the remaining angle :g:`$ACB$ <0265.g1:< A C B )>`;
+
+.. subclause::
+
+   :line:`45` and they are at the base of the triangle :g:`$ABC$ <0265.g1:< A B C >>`.
+
+But the angle :g:`$FBC$ <0265.g1:< F B C )>` was also proved equal to the angle :g:`$GCB$ <0265.g1:< G C B )>`;
+
+.. subclause::
+
+   and they are under the base.
+
+.. qed::
+
+   Therefore etc. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition 5 <I.5.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

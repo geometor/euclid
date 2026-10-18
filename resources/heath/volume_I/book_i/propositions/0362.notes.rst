@@ -1,0 +1,117 @@
+Transcription Notes for Folio 0362 (Page 348)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0362
+- **Page**: 348
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: Propositions
+- **Title**: Proposition 46
+- **Running Header**: ``348 BOOK I [I. 46``
+
+Textual Observations & Editorial Decisions
+------------------------------------------
+
+1. **Proposition 46 Proof Continuation & Completion**:
+
+   - Folio 0362 completes the demonstration of Proposition 46 begun on folio 0361 (page 347).
+   - Logical Structure of the Proof (Lines 12–31):
+
+     - **Parallelogram $ADEB$ (Lines 12–13)**: By construction ($DE \parallel AB$ and $BE \parallel AD$), $ADEB$ is a parallelogram; opposite sides are equal ($AB = DE$ and $AD = BE$) [I. 34].
+     - **Equilateral Property (Lines 14–17)**: Since $AB = AD$ (by construction), all four sides $BA, AD, DE, EB$ are equal to one another; thus $ADEB$ is equilateral.
+     - **Right-Angled Property (Lines 18–28)**: Transversal $AD$ across parallels $AB, DE$ makes adjacent interior angles $\angle BAD + \angle ADE = 2\text{R}$ [I. 29]. Since $\angle BAD$ is right (by perpendicular construction I. 11), $\angle ADE$ is also right. In a parallelogram opposite angles are equal [I. 34], so $\angle ABE = \angle ADE = \text{R}$ and $\angle BED = \angle BAD = \text{R}$; thus all four angles are right, and $ADEB$ is right-angled.
+     - **Conclusion (Lines 29–31)**: Having been proved equilateral and right-angled, $ADEB$ is a square (Definition 22), described on the given straight line $AB$.
+     - **Concluding Formula**: ``Q. E. F.`` (*quod erat faciendum* / ὅπερ ἔδει ποιῆσαι).
+
+   - Marginal Line Numbers:
+
+     - ``:line:[15]``: Line 15 ("therefore the four straight lines $BA$, $AD$, $DE$, $EB$")
+     - ``:line:[20]``: Line 20 ("$AB$, $DE$,")
+     - ``:line:[25]``: Line 25 ("angles are equal to one another; [I. 34]")
+     - ``:line:[30]``: Line 30 ("Therefore it is a square; and it is described on the straight")
+
+   - Perseus TEI XML Ground-Truth Cross-Check (``elem.1.46``):
+
+     - Proof lines 12–31 and formula ``Q. E. F.`` match the Perseus TEI XML text verbatim.
+
+2. **Textual Note on Lines 1, 3, 30**:
+
+   - Milestone Lemma: ``**1, 3, 30.**``
+
+     - References line 1 (enunciation: "describe a square"), line 3 (specification: "describe a square"), and line 30 (conclusion: "described on the straight line $AB$").
+     - Formatting note: The prompt refers to this entry as ``**1, 3, 30. describe on**``. In Heath's printed edition (and in the Perseus TEI XML), there is no bold English lemma heading following the numbers; the sentence begins directly: ``**1, 3, 30.** Proclus (p. 423, 18 sqq.) notes the difference...``. The markdown follows Heath's layout with bold milestone indicator ``**1, 3, 30.**``.
+
+   - Polytonic Greek & Etymology:
+
+     - ``συστήσασθαι`` (*systēsasthai*, aorist middle infinitive of συνίστημι): "to construct", applied by Euclid to triangles and angles. Denotes piecing or assembling together from constituent parts.
+
+       - *Discrepancy with Perseus XML*: The Perseus TEI XML ground truth reads ``συστἡσασθαι`` with a rough breathing on medial eta. In Greek grammar, medial vowels cannot carry breathing marks; this is an OCR/encoding glitch in the Perseus XML data. Heath's printed edition correctly displays standard acute accent ``ή`` (``συστήσασθαι``).
+
+     - ``ἀναγράφειν ἀπό`` (*anagraphein apo*): "to describe on / draw from", used specifically of drawing a square on a straight line as one side. Proclus notes that this represents making a figure "from" one side, corresponding to numerical squaring (multiplying a number by itself).
+     - Heath's quotation marks: Quotation marks around ``“from”`` (``a figure “from” one side``) are faithfully transcribed from Heath's print.
+
+3. **Proclus Commentary: Equality of Squares on Equal Straight Lines (pp. 424—5)**:
+
+   - Proclus proves the bidirectional theorem:
+
+     - *Direct theorem*: Squares described on equal straight lines are equal. Obvious by drawing diagonals, dividing each square into two congruent triangles.
+     - *Converse theorem*: If two squares are equal, the straight lines on which they are described are equal.
+
+   - Proof of the converse:
+
+     - Squares $AF$ ($ABFD$) and $CG$ ($BCGE$) are placed with $AB, BC$ in a straight line. Right angles ensure $FB, BG$ are collinear.
+     - Quadrilateral lines $AF, FC, CG, GA$ are joined.
+     - Equal squares imply $\triangle ABF = \triangle CBG$.
+     - Adding common triangle $\triangle FBC$ gives $\triangle AFC = \triangle GFC$, placing vertices $A, G$ in the same parallels as line $FC$ ($AG \parallel CF$).
+
+   - Page Boundary Note: The proof breaks at the foot of page 348 (``equal, and hence they must be in the same parallels.``) and concludes at the top of folio 0363 (page 349: ``Therefore $AG$, $CF$ are parallel...``).
+
+4. **Demonstration Graphic**:
+
+   - **Graphic 1** (``0362.g1.svg``):
+
+     - Embedded as: ``.. picture:: 0362.g1.svg``
+     - Defined in ``0362.json`` with bounding box ``[457, 823, 242, 227]``.
+     - Depicts Proclus's figure for the converse theorem:
+
+       - Upper square $ABFD$ ($AD, DF, FB, BA$) with base $AB$.
+       - Lower square $BCGE$ ($BC, CE, EG, GB$) with base $BC$ collinear with $AB$, and side $GB$ collinear with $FB$.
+       - Joined segments $AF, FC, CG, GA$.
+
+     - Inspected directly with ``view_file``; all seven vertex labels ($A, B, C, D, E, F, G$) and lines are clear and complete.
+     - Positioned in markdown immediately following the introduction of the converse proof (``The converse is proved as follows.``), providing visual reference for the geometric objects discussed.
+
+4. Typesetting & Structural Articulation (Proposition 46, Part 2)
+-----------------------------------------------------------------
+
+- **Deductive Assertions & Factoid Sequence**:
+
+  - Opposite sides equal in parallelogram:
+    ``.. assertion:: therefore $AB$ is equal to $DE$, and $AD$ to $BE$. :just:[[I. 34]]``
+  - Equilateral property factoid:
+    ``.. assertion:: therefore the parallelogram $ADEB$ is equilateral.``
+  - Consecutive interior angles equal to $2\text{R}$:
+    ``.. assertion:: the angles $BAD$, $ADE$ are equal to two right angles. :just:[[I. 29]]``
+  - Right angle deduction:
+    ``.. assertion:: therefore the angle $ADE$ is also right.``
+  - Opposite angles right:
+    ``.. assertion:: therefore each of the opposite angles $ABE$, $BED$ is also | right.``
+  - Right-angled factoid:
+    ``.. assertion:: Therefore $ADEB$ is right-angled.``
+  - Culminating square definition factoid:
+    ``.. assertion:: :line:[30] Therefore it is a square; and it is described on the straight | line $AB$.``
+  - Formulaic closing:
+    ``.. qed:: Q. E. F.``
+
+- **SVG Animation Sequencing**:
+
+  - Continuation of the sequence from Folio 0361:
+  - Step 1: In parallelogram $ADEB$, highlight opposite sides $AB = DE$ and $AD = BE$ [I. 34].
+  - Step 2: Since $AB = AD$, highlight all four sides $BA, AD, DE, EB$ flashing together in synchronization; pulse label "Equilateral".
+  - Step 3: Animate transversal $AD$ crossing parallels $AB, DE$; highlight interior angles $\angle BAD + \angle ADE = 2\text{R}$ [I. 29].
+  - Step 4: Given $\angle BAD = 90^\circ$, animate right angle symbol at vertex $D$ ($\angle ADE = 90^\circ$).
+  - Step 5: Transfer right angles across opposite vertices to $B$ and $E$ via I. 34; pulse all four right angle markers; pulse label "Right-Angled".
+  - Step 6: Combine equilateral and right-angled properties according to Definition 22; illuminate completed square $ADEB$; conclude with Q.E.F.
