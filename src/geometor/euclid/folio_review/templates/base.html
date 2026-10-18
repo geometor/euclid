@@ -167,12 +167,27 @@
 
     /* Proposition Structural Typography & Classical Heath Layout */
     .folio-book-page .center,
-    .folio-book-page .assertion {
+    .folio-book-page .assertion,
+    .folio-book-page .center p,
+    .folio-book-page .assertion p,
+    .folio-book-page .center .line-block,
+    .folio-book-page .assertion .line-block,
+    .folio-book-page .center .line,
+    .folio-book-page .assertion .line {
       text-align: center !important;
       text-indent: 0 !important;
+    }
+
+    .folio-book-page .center,
+    .folio-book-page .assertion {
       margin-top: 0.35em;
       margin-bottom: 0.35em;
       clear: both;
+    }
+
+    .folio-book-page .center p,
+    .folio-book-page .assertion p {
+      margin: 0;
     }
 
     .folio-book-page .justification {
@@ -190,7 +205,15 @@
       text-align: left;
     }
 
-    .folio-book-page .enunciation {
+    .folio-book-page .sub-clause p,
+    .folio-book-page .sub-clause .line {
+      text-indent: 3.5em !important;
+      text-align: left !important;
+      margin: 0;
+    }
+
+    .folio-book-page .enunciation,
+    .folio-book-page .enunciation p {
       font-style: italic;
       text-indent: 1.75em;
       margin-top: 0.5em;
@@ -199,13 +222,34 @@
       text-justify: inter-word;
     }
 
-    .folio-book-page .qed {
-      text-align: right;
+    .folio-book-page .qed,
+    .folio-book-page .qed p,
+    .folio-book-page .qed .line-block,
+    .folio-book-page .qed .line {
+      text-align: right !important;
       text-indent: 0 !important;
+      font-style: normal;
+    }
+
+    .folio-book-page .qed {
       margin-top: 0.6em;
       margin-bottom: 0.6em;
       padding-right: 1.5em;
-      font-style: normal;
+    }
+
+    .folio-book-page .qed p {
+      margin: 0;
+    }
+
+    .folio-book-page .line-block {
+      margin-top: 0.15em;
+      margin-bottom: 0.15em;
+    }
+
+    .folio-book-page > .line-block > .line,
+    .folio-book-page section > .line-block > .line {
+      text-indent: 1.75em;
+      text-align: left;
     }
 
     .folio-book-page sup {
@@ -244,9 +288,15 @@
     }
 
     /* Floating Graphics on the Right (Classical Heath Proposition Layout) */
-    .folio-book-page p:has(> img) {
+    .folio-book-page p:has(> img),
+    .folio-book-page figure.picture {
       text-indent: 0 !important;
       margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .folio-book-page figure.picture figcaption {
+      display: none;
     }
 
     .folio-book-page img {

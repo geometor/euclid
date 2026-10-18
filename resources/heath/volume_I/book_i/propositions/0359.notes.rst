@@ -1,0 +1,112 @@
+Transcription Notes for Folio 0359 (Page 345)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0359
+- **Page**: 345
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: Propositions
+- **Title**: Propositions 44 and 45
+- **Running Header**: ``I. 44, 45] PROPOSITIONS 44, 45 345``
+
+Textual Observations & Editorial Decisions
+------------------------------------------
+
+1. **Conclusion of Apollonius and Conic Sections Commentary (from Folio 0358)**:
+
+   - Folio 0359 begins by providing the coordinate expressions for the three conic sections whose introduction by Apollonius was set up at the bottom of page 344:
+
+     - (1) **Parabola** (*parabole* / application):
+
+$$y^2 = px$$
+
+       The square on the ordinate ($y$) is equal to a rectangle applied to the parameter ($p$, *latus rectum*) as base with altitude equal to the abscissa ($x$).
+
+     - (2) **Hyperbola** and **Ellipse** (*hyperbole* / exceeding, and *ellipsis* / falling-short):
+       The square on the ordinate is equal to a rectangle applied to $p$ having the abscissa as width and exceeding (hyperbola) or falling short (ellipse) by a figure similar and similarly situated to the rectangle contained by the given diameter $d$ and $p$.
+
+       - Hyperbola:
+
+$$y^2 = px + \frac{x^2}{d^2} pd = px + \frac{p}{d} x^2$$
+
+- Ellipse:
+
+$$y^2 = px - \frac{p}{d} x^2$$
+
+   - Heath points out that these geometrical symptomata correspond directly to the generalized quadratic forms solved in Book VI (VI. 28, 29), illustrating that Apollonius's naming of the curves directly reflected the ancient Pythagorean terminology of the application of areas.
+   - Punctuation & Typography:
+
+     - Terms *parabola*, *hyperbola*, and *ellipse* are italicized in the definitions.
+     - Terms *application*, *exceeding*, and *falling-short* are italicized in the concluding remark.
+     - Display equations retain Heath's punctuation: comma after $pd$, semicolon after the second hyperbola equation, and period after the ellipse equation.
+
+2. **Proposition 45 Heading & Enunciation**:
+
+   - Heading: ``### PROPOSITION 45.``
+   - Enunciation: ``#### *To construct, in a given rectilineal angle, a parallelogram equal to a given rectilineal figure.*``
+   - XML Ground-Truth Cross-Check (``elem.1.45``): The enunciation matches the Perseus TEI XML text verbatim.
+
+3. **Setting-out** (*Ekthesis***), Specification** (*Diorismos***), & Construction**:
+
+   - Lines 1–4 of the proposition text set out the given rectilineal figure $ABCD$ and the given rectilineal angle $E$, stating the requirement to construct a parallelogram equal to $ABCD$ in the given angle $E$.
+   - Lines 7–12 detail the construction:
+
+     - Joining $DB$ divides quadrilateral $ABCD$ into triangles $ABD$ and $DBC$.
+     - By I. 42, parallelogram $FH$ is constructed equal to $\triangle ABD$ with $\angle HKF = E$.
+     - By I. 44, parallelogram $GM$ is applied to straight line $GH$, equal to $\triangle DBC$, with $\angle GHM = E$.
+
+   - Lines 13–15 begin the proof by observing that since $\angle E = \angle HKF$ and $\angle E = \angle GHM$, therefore $\angle HKF = \angle GHM$ by Common Notion 1 (``[C. N. 1]``).
+
+4. **Marginal Line Numbering**:
+
+   - Heath numbers the lines of the proposition beginning with line 1 of the Greek enunciation.
+   - Enunciation spans lines 1–2; the setting-out begins on line 3.
+   - Marginal numbers on this folio:
+
+     - ``:line:[5]`` appears at line 5 ("thus it is required to construct...").
+     - ``:line:[10]`` appears at line 10 ("let the parallelogram $GM$ equal to the triangle $DBC$ be...").
+     - ``:line:[15]`` appears at line 15 ("the angle $HKF$ is also equal to the angle $GHM$. [C. N. 1]").
+
+   - The proof continues onto folio 0360 (page 346) with lines 16–50.
+
+5. **Demonstration Graphics**:
+
+   - ``0359.g1.svg`` is placed immediately following the specification (between lines 6 and 7 of the proposition).
+   - Graphic bounding box in ``0359.json``: ``[130, 727, 512, 152]``.
+   - The figure illustrates:
+
+     - Quadrilateral $ABCD$ with diagonal $BD$.
+     - The given angle $E$.
+     - The compound parallelogram $KFLM$, composed of parallelograms $FH$ ($KFHG$) and $GM$ ($HGLM$).
+
+   - Verified directly via ``view_file``; all letter labels ($A, B, C, D, E, F, G, L, K, H, M$) are clearly legible with clean margins.
+
+4. Typesetting & Structural Articulation (Proposition 45, Part 1)
+-----------------------------------------------------------------
+
+- **Problem Enunciation Line Breaks**:
+  ``.. enunciation:: To construct, in a given rectilineal angle, a parallelogram | equal to a given rectilineal figure.``
+  Replicates Heath's line break after ``parallelogram``.
+- **Construction Parallelograms & Justifications**:
+
+  - Triangulation of given polygon $ABCD$ via diagonal $DB$.
+  - First parallelogram on triangle $ABD$:
+    ``Let $DB$ be joined, and let the parallelogram $FH$ be constructed equal to the triangle $ABD$, in the angle $HKF$ which is equal to $E$; :just:[[I. 42]]``
+  - Application of adjacent parallelogram on triangle $DBC$:
+    ``:line:[10] let the parallelogram $GM$ equal to the triangle $DBC$ be applied to the straight line $GH$, in the angle $GHM$ which is equal to $E$. :just:[[I. 44]]``
+
+- **Initial Angle Equivalence Assertion**:
+  ``.. assertion:: :line:[15] the angle $HKF$ is also equal to the angle $GHM$. :just:[[C. N. 1]]``
+- **SVG Animation Sequencing (Proposition 45)**:
+
+  - **Step 1 (Given Figures)**: Draw given rectilineal polygon $ABCD$ and given rectilineal angle $E$.
+  - **Step 2 (Triangulation)**: Draw diagonal $DB$, dividing polygon into triangles $\triangle ABD$ and $\triangle DBC$.
+  - **Step 3 (First Parallelogram via I. 42)**: Construct parallelogram $FH$ ($KFHG$) equal to $\triangle ABD$, with angle $\angle HKF = E$ [I. 42].
+  - **Step 4 (Application of Adjacent Parallelogram via I. 44)**: Apply parallelogram $GM$ ($HGLM$) to line segment $GH$, equal to $\triangle DBC$, with angle $\angle GHM = E$ [I. 44].
+  - **Step 5 (Collinear Baseline Alignment [I. 14])**: Show consecutive angles $\angle FKH + \angle KHG = 2\text{R}$ [I. 29]; substitute $\angle GHM$ for $\angle FKH$, giving $\angle KHG + \angle GHM = 2\text{R}$; deduce that $KH$ and $HM$ form a single continuous straight line $KM$ [I. 14].
+  - **Step 6 (Collinear Top-line Alignment [I. 14])**: Show alternate angles $\angle MHG = \angle HGF$ [I. 29]; add $\angle HGL$ to both; show $\angle HGF + \angle HGL = 2\text{R}$; deduce that $FG$ and $GL$ form a single continuous straight line $FL$ [I. 14].
+  - **Step 7 (Master Parallelogram Completion [I. 30, I. 33])**: With $KF = HG = ML$ and $KF \parallel HG \parallel ML$, connect extremities $KM$ and $FL$ to establish master parallelogram $KFLM$ [I. 33].
+  - **Step 8 (Total Area Equivalence & Conclusion)**: Show whole polygon $ABCD = \triangle ABD + \triangle DBC = FH + GM = KFLM$; show angle $\angle FKM = E$; conclude with Q.E.F.

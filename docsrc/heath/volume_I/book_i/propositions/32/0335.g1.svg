@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 140" class="euclid-graphic" data-graphic-id="0335.g1">
+  <title>Euclid's Elements, Book I, Proposition 32 (Thibaut's Method)</title>
+  <desc>Triangle ABC with all three sides produced in both directions to illustrate Thibaut's rotational proof.</desc>
+
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-line-dashed {
+      stroke: #000000;
+      stroke-width: 2;
+      stroke-dasharray: 5,4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease, fill-opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge:hover, path.wedge.highlight, path.wedge.geom-highlight-active,
+    path.angle:hover, path.angle.highlight, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <g id="elements">
+    <line id="line-D-E" data-ref="[ D E ]" data-aliases="[ C D ] | [ B C ] | [ B D ]" class="geom-line" x1="7" y1="90" x2="225" y2="90" />
+    <line id="line-F-G" data-ref="[ F G ]" data-aliases="[ B A ]" class="geom-line" x1="21" y1="120" x2="163" y2="6" />
+    <line id="line-H-K" data-ref="[ H K ]" data-aliases="[ A C ]" class="geom-line" x1="120" y1="7" x2="234.5" y2="122" />
+  </g>
+
+  <g id="graphics">
+    <polygon id="polygon-A-B-C" data-ref="&lt; A B C &gt;" class="geom-polygon" points="138.3,25.8 58,90 202.5,90" />
+    <line id="segment-A-B" data-ref="/ A B /" class="geom-line" x1="138.3" y1="25.8" x2="58" y2="90" />
+    <line id="segment-B-C" data-ref="/ B C /" class="geom-line" x1="58" y1="90" x2="202.5" y2="90" />
+    <line id="segment-A-C" data-ref="/ A C /" class="geom-line" x1="138.3" y1="25.8" x2="202.5" y2="90" />
+    <line id="segment-B-D" data-ref="/ B D /" class="geom-line" x1="58" y1="90" x2="7" y2="90" />
+    <line id="section-D-B-C" data-ref="/ D B C /" data-aliases="} D B C { | / D C /" class="geom-line geom-overlay" x1="7" y1="90" x2="202.5" y2="90" />
+  </g>
+
+  <g id="highlights">
+    <line id="highlight-segment-C-D" data-ref="/ C D /" class="geom-line geom-overlay" x1="202.5" y1="90" x2="7" y2="90" />
+    <polygon id="highlight-polygon-A-B-C" data-ref="&lt; A B C &gt;" class="geom-polygon geom-overlay" points="138.3,25.8 58,90 202.5,90" />
+    <path id="wedge-D-B-A" data-ref="&lt; D B A )" data-aliases="( B D )&lt; D B A &gt; | ( B A )&lt; D B A &gt;" class="wedge angle geom-overlay" d="M 58 90 L 39.64 90 A 18.4 18.4 0 0 1 72.34 78.53 Z" />
+    <path id="wedge-G-A-C" data-ref="&lt; G A C )" data-aliases="( A G )&lt; G A C &gt; | ( A C )&lt; G A C &gt;" class="wedge angle geom-overlay" d="M 138.3 25.8 L 147.19 18.67 A 11.4 11.4 0 0 1 146.36 33.86 Z" />
+    <path id="wedge-K-C-B" data-ref="&lt; K C B )" data-aliases="( C K )&lt; K C B &gt; | ( C B )&lt; K C B &gt;" class="wedge angle geom-overlay" d="M 202.5 90 L 214.02 101.52 A 16.3 16.3 0 0 1 186.21 90 Z" />
+    <path id="wedge-A-B-C" data-ref="&lt; A B C )" data-aliases="( B A )&lt; A B C &gt; | ( B C )&lt; A B C &gt;" class="wedge angle geom-overlay" d="M 58 90 L 73.62 77.51 A 20.0 20.0 0 0 1 78 90 Z" />
+    <path id="wedge-B-C-A" data-ref="&lt; B C A )" data-aliases="( C B )&lt; B C A &gt; | ( C A )&lt; B C A &gt;" class="wedge angle geom-overlay" d="M 202.5 90 L 182.5 90 A 20.0 20.0 0 0 1 188.36 75.86 Z" />
+    <path id="wedge-C-A-B" data-ref="&lt; C A B )" data-aliases="( A C )&lt; C A B &gt; | ( A B )&lt; C A B &gt;" class="wedge angle geom-overlay" d="M 138.3 25.8 L 152.44 39.94 A 20.0 20.0 0 0 1 122.68 38.29 Z" />
+  </g>
+
+  <g id="points">
+    <circle id="A" data-ref="A" class="geom-point" cx="138.3" cy="25.8" r="3.5" />
+    <circle id="B" data-ref="B" class="geom-point" cx="58" cy="90" r="3.5" />
+    <circle id="C" data-ref="C" class="geom-point" cx="202.5" cy="90" r="3.5" />
+    <circle id="D" data-ref="D" class="geom-point" cx="7" cy="90" r="3.5" />
+    <circle id="E" data-ref="E" class="geom-point geom-overlay" cx="225" cy="90" r="3.5" />
+    <circle id="F" data-ref="F" class="geom-point geom-overlay" cx="21" cy="120" r="3.5" />
+    <circle id="G" data-ref="G" class="geom-point geom-overlay" cx="163" cy="6" r="3.5" />
+    <circle id="H" data-ref="H" class="geom-point geom-overlay" cx="120" cy="7" r="3.5" />
+    <circle id="K" data-ref="K" class="geom-point geom-overlay" cx="234.5" cy="122" r="3.5" />
+  </g>
+
+  <g id="labels">
+    <text id="label-A" data-ref="A" class="geom-label" x="136" y="17">A</text>
+    <text id="label-B" data-ref="B" class="geom-label" x="55" y="81">B</text>
+    <text id="label-C" data-ref="C" class="geom-label" x="189" y="106">C</text>
+    <text id="label-D" data-ref="D" class="geom-label" x="14" y="105">D</text>
+  </g>
+</svg>

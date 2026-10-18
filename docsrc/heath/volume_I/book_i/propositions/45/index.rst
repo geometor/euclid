@@ -1,0 +1,104 @@
+:canonical_id: I.45
+:book: I
+:proposition: 45
+:type: proposition
+:title: Proposition 45
+:folios: 0359, 0360
+:pages: 345, 346
+:dependencies: I.14, I.29, I.30, I.33, I.34, I.42, I.44, I.cn.1, I.cn.2
+
+.. _I.45:
+
+.. folio:: 0359
+   :page: 345
+
+PROPOSITION 45.
+===============
+
+.. enunciation::
+
+   To construct, in a given rectilineal angle, a parallelogram equal to a given rectilineal figure.
+
+| Let :g:`$ABCD$ <0359.g1:< A B C D >>` be the given rectilineal figure and :g:`$E$ <0359.g1:< E )>` the given rectilineal angle;
+| :line:`5` thus it is required to construct, in the given angle :g:`$E$ <0359.g1:< E )>`, a parallelogram equal to the rectilineal figure :g:`$ABCD$ <0359.g1:< A B C D >>`.
+
+.. picture:: 0359.g1.svg
+   :alt: Folio 0359 Figure 1 - Proposition 45
+
+| Let :g:`$DB$ <0359.g1:/ D B />` be joined, and let the parallelogram :g:`$FH$ <0359.g1:< F K H G >>` be constructed equal to the triangle :g:`$ABD$ <0359.g1:< A B D >>`, in the angle :g:`$HKF$ <0359.g1:< H K F )>` which is equal to :g:`$E$ <0359.g1:< E )>`; :just:`[I. 42] <I.42>`
+| :line:`10` let the parallelogram :g:`$GM$ <0359.g1:< G H M L >>` equal to the triangle :g:`$DBC$ <0359.g1:< D B C >>` be applied to the straight line :g:`$GH$ <0359.g1:/ G H />`, in the angle :g:`$GHM$ <0359.g1:< G H M )>` which is equal to :g:`$E$ <0359.g1:< E )>`. :just:`[I. 44] <I.44>`
+
+Then, since the angle :g:`$E$ <0359.g1:< E )>` is equal to each of the angles :g:`$HKF$ <0359.g1:< H K F )>`, :g:`$GHM$ <0359.g1:< G H M )>`,
+
+.. assertion:: [C. N. 1] <I.cn.1>
+
+   :line:`15` the angle :g:`$HKF$ <0359.g1:< H K F )>` is also equal to the angle :g:`$GHM$ <0359.g1:< G H M )>`.
+
+.. folio:: 0360
+   :page: 346
+
+| Let the angle :g:`$KHG$ <0359.g1:< K H G )>` be added to each;
+| therefore the angles :g:`$FKH$ <0359.g1:< F K H )>`, :g:`$KHG$ <0359.g1:< K H G )>` are equal to the angles
+| :g:`$KHG$ <0359.g1:< K H G )>`, :g:`$GHM$ <0359.g1:< G H M )>`.
+
+| But the angles :g:`$FKH$ <0359.g1:< F K H )>`, :g:`$KHG$ <0359.g1:< K H G )>` are equal to two right angles; :just:`[I. 29] <I.29>`
+| :line:`20` therefore the angles :g:`$KHG$ <0359.g1:< K H G )>`, :g:`$GHM$ <0359.g1:< G H M )>` are also equal to two right
+| angles.
+
+| Thus, with a straight line :g:`$GH$ <0359.g1:/ G H />`, and at the point :g:`$H$ <0359.g1:H>` on it,
+| two straight lines :g:`$KH$ <0359.g1:/ K H />`, :g:`$HM$ <0359.g1:/ H M />` not lying on the same side make
+| the adjacent angles equal to two right angles;
+
+.. assertion:: [I. 14] <I.14>
+
+   :line:`25` therefore :g:`$KH$ <0359.g1:/ K H />` is in a straight line with :g:`$HM$ <0359.g1:/ H M />`.
+
+| And, since the straight line :g:`$HG$ <0359.g1:/ H G />` falls upon the parallels
+| :g:`$KM$ <0359.g1:/ K M />`, :g:`$FG$ <0359.g1:/ F G />`, the alternate angles :g:`$MHG$ <0359.g1:< M H G )>`, :g:`$HGF$ <0359.g1:< H G F )>` are equal to one
+| another. :just:`[I. 29] <I.29>`
+
+| Let the angle :g:`$HGL$ <0359.g1:< H G L )>` be added to each;
+| :line:`30` therefore the angles :g:`$MHG$ <0359.g1:< M H G )>`, :g:`$HGL$ <0359.g1:< H G L )>` are equal to the angles
+| :g:`$HGF$ <0359.g1:< H G F )>`, :g:`$HGL$ <0359.g1:< H G L )>`. :just:`[C. N. 2] <I.cn.2>`
+
+| But the angles :g:`$MHG$ <0359.g1:< M H G )>`, :g:`$HGL$ <0359.g1:< H G L )>` are equal to two right angles; :just:`[I. 29] <I.29>`
+| therefore the angles :g:`$HGF$ <0359.g1:< H G F )>`, :g:`$HGL$ <0359.g1:< H G L )>` are also equal to two right
+| angles. :just:`[C. N. 1] <I.cn.1>`
+
+.. assertion:: [I. 14] <I.14>
+
+   :line:`35` Therefore :g:`$FG$ <0359.g1:/ F G />` is in a straight line with :g:`$GL$ <0359.g1:/ G L />`.
+
+| And, since :g:`$FK$ <0359.g1:/ F K />` is equal and parallel to :g:`$HG$ <0359.g1:/ H G />`, :just:`[I. 34] <I.34>`
+| and :g:`$HG$ <0359.g1:/ H G />` to :g:`$ML$ <0359.g1:/ M L />` also,
+| :g:`$KF$ <0359.g1:/ K F />` is also equal and parallel to :g:`$ML$ <0359.g1:/ M L />`; :just:`[C. N. 1 ; I. 30] <I.cn.1, I.30>`
+| and the straight lines :g:`$KM$ <0359.g1:/ K M />`, :g:`$FL$ <0359.g1:/ F L />` join them (at their extremities);
+| :line:`40` therefore :g:`$KM$ <0359.g1:/ K M />`, :g:`$FL$ <0359.g1:/ F L />` are also equal and parallel. :just:`[I. 33] <I.33>`
+
+.. assertion::
+
+   Therefore :g:`$KFLM$ <0359.g1:< K F L M >>` is a parallelogram.
+
+| And, since the triangle :g:`$ABD$ <0359.g1:< A B D >>` is equal to the parallelogram
+| :g:`$FH$ <0359.g1:< F K H G >>`,
+| and :g:`$DBC$ <0359.g1:< D B C >>` to :g:`$GM$ <0359.g1:< G H M L >>`,
+
+.. assertion::
+
+   | :line:`45` the whole rectilineal figure :g:`$ABCD$ <0359.g1:< A B C D >>` is equal to the whole
+   | parallelogram :g:`$KFLM$ <0359.g1:< K F L M >>`.
+
+.. qed::
+
+   | Therefore the parallelogram :g:`$KFLM$ <0359.g1:< K F L M >>` has been constructed
+   | equal to the given rectilineal figure :g:`$ABCD$ <0359.g1:< A B C D >>`, in the angle :g:`$FKM$ <0359.g1:< F K M )>`
+   | which is equal to the given angle :g:`$E$ <0359.g1:< E )>`. :just:`Q. E. F.`
+
+----
+
+See :ref:`Commentary on Proposition 45 <I.45.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

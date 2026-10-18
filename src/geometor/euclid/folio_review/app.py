@@ -20,7 +20,11 @@ from flask import (
 
 from geometor.euclid.folio_review.reviews import ReviewManager
 from geometor.euclid.folio_review.scanner import FolioScanner
-from geometor.euclid.scripts.graphic_tool import extract_from_json
+
+try:
+    from geometor.euclid.scripts.graphic_tool import extract_from_json
+except ImportError:
+    extract_from_json = None  # type: ignore
 
 
 def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = None) -> Flask:
@@ -198,7 +202,7 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
 
     @app.route("/api/folio/<volume_id>/<folio_id>/save_text", methods=["POST"])
     def api_save_text(volume_id: str, folio_id: str):
-        """Save edited markdown or notes text to disk."""
+        """Save edited RST/markdown or notes text to disk."""
         payload = request.get_json(force=True) or {}
         target = payload.get("target")  # "md" or "notes"
         content = payload.get("content", "")
@@ -210,9 +214,17 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
         parent_dir = scanner.root_dir / folio_data["volume"] / folio_data["section_path"]
 
         if target == "md":
-            file_path = parent_dir / f"{folio_data['folio']}.md"
+            rst_candidate = parent_dir / f"{folio_data['folio']}.rst"
+            md_candidate = parent_dir / f"{folio_data['folio']}.md"
+            file_path = rst_candidate if rst_candidate.exists() else (md_candidate if md_candidate.exists() else rst_candidate)
         elif target == "notes":
-            file_path = parent_dir / f"{folio_data['folio']}.notes.md"
+            notes_rst_candidate = parent_dir / f"{folio_data['folio']}.notes.rst"
+            notes_md_candidate = parent_dir / f"{folio_data['folio']}.notes.md"
+            file_path = (
+                notes_rst_candidate
+                if notes_rst_candidate.exists()
+                else (notes_md_candidate if notes_md_candidate.exists() else notes_md_candidate)
+            )
         else:
             return jsonify({"error": "Invalid target type (must be 'md' or 'notes')"}), 400
 
@@ -389,7 +401,7 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
 
     @app.route("/api/folio/<volume_id>/<folio_id>/set_graphic_format", methods=["POST"])
     def api_set_graphic_format(volume_id: str, folio_id: str):
-        """Switch markdown reference between PNG and SVG for a graphic."""
+        """Switch RST/markdown reference between PNG and SVG for a graphic."""
         payload = request.get_json(force=True) or {}
         gid = payload.get("id", "g1")
         target_format = payload.get("format", "svg").lower()  # "svg" or "png"
@@ -399,23 +411,23 @@ def create_app(heath_dir: Optional[Path] = None, reviews_path: Optional[Path] = 
             return jsonify({"error": "Folio not found"}), 404
 
         parent_dir = scanner.root_dir / folio_data["volume"] / folio_data["section_path"]
+        rst_path = parent_dir / f"{folio_data['folio']}.rst"
         md_path = parent_dir / f"{folio_data['folio']}.md"
-        if not md_path.exists():
-            return jsonify({"error": "Markdown transcription file does not exist"}), 400
+        if not rst_path.exists() and not md_path.exists():
+            return jsonify({"error": "Transcription file does not exist"}), 400
 
         png_name = f"{folio_data['folio']}.{gid}.png"
         svg_name = f"{folio_data['folio']}.{gid}.svg"
 
         try:
-            md_text = md_path.read_text(encoding="utf-8")
-            if target_format == "svg":
-                if png_name in md_text:
-                    md_text = md_text.replace(png_name, svg_name)
-                    md_path.write_text(md_text, encoding="utf-8")
-            elif target_format == "png":
-                if svg_name in md_text:
-                    md_text = md_text.replace(svg_name, png_name)
-                    md_path.write_text(md_text, encoding="utf-8")
+            for doc_path in (rst_path, md_path):
+                if not doc_path.exists():
+                    continue
+                doc_text = doc_path.read_text(encoding="utf-8")
+                if target_format == "svg" and png_name in doc_text:
+                    doc_path.write_text(doc_text.replace(png_name, svg_name), encoding="utf-8")
+                elif target_format == "png" and svg_name in doc_text:
+                    doc_path.write_text(doc_text.replace(svg_name, png_name), encoding="utf-8")
 
             scanner.refresh(force=True)
             updated_folio = scanner.get_folio(volume_id, folio_id)

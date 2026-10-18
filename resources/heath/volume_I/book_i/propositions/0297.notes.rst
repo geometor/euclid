@@ -1,0 +1,100 @@
+Notes on Folio 0297 (Page 283)
+==============================
+
+1. Content & Structure
+----------------------
+
+- **Folio**: ``0297`` (Page 283), Volume I, Book I, Section: Propositions.
+- **Running Header**: ``I. 18] PROPOSITIONS 17, 18 283``.
+- **Contents**:
+
+  - **Proposition 18**: Complete heading, enunciation, demonstration, and conclusion (``Q. E. D.``).
+  - **Philological Commentary**:
+
+    - Note on the syntax of ``ὑποτείνειν`` ("subtend") constructed with the simple accusative (in I. 18) versus ``ὑπό`` with accusative (in I. 19).
+    - Explanation of the distinction between *datum* and *quaesitum* determining the Greek word order.
+    - Citation of Aristotle (*Meteorologica* III. 5, 376 a 12) quoting the wording of I. 19 (``ὑπὸ γὰρ τὴν μείζω γωνίαν ὑποτείνει``).
+
+  - **Pedagogical Note**:
+
+    - Quotation from Isaac Todhunter on the mnemonic parallel between I. 5, 6 and I. 18, 19 (direct proof followed by indirect proof).
+
+  - **Porphyry's Alternative Proof**:
+
+    - Citation of Proclus (pp. 315, 11—316, 13) recording Porphyry's proof of I. 18 where $CD$ (rather than $AD$) is cut off equal to $AB$, $BE$ is taken equal to $AD$ on $AB$ produced, establishing $AE = AC$. Proof continues on folio 0298.
+
+2. Demonstration Graphics
+-------------------------
+
+- ``0297.g1.svg``: Proposition 18 figure showing triangle $ABC$ with segment $AD = AB$ cut off along $AC$ and $BD$ joined.
+
+  - Bounding box in ``0297.json``: ``[410, 330, 285, 140]``. Verified against ``0297.png``.
+
+- ``0297.g2.svg``: Porphyry's alternative proof figure showing triangle $ABC$, point $D$ on $AC$, $AB$ produced to $E$, and line $EC$ joined.
+
+  - Bounding box in ``0297.json``: ``[510, 885, 200, 180]``. Verified against ``0297.png``.
+
+3. Marginal Line Numbering
+--------------------------
+
+- Heath's printed edition does not include marginal line numbers (e.g. 5, 10, 15) for Proposition 18 on page 283.
+
+4. Greek Typography & Perseus TEI XML Comparison
+------------------------------------------------
+
+- **Greek Text & Diacritics**:
+
+  - ``ὑποτείνειν``: Rough breathing on initial upsilon (``ὑ``), acute on diphthong ``ει`` (``εί``).
+  - ``ὑπό`` / ``ὑπὸ``: Rough breathing on initial upsilon (``ὑ``), acute/grave on omicron (``ό`` / ``ὸ``).
+  - ``παντὸς τριγώνου ἡ μείζων πλευρὰ τὴν μείζονα γωνίαν ὑποτείνει`` (I. 18 enunciation).
+  - ``παντὸς τριγώνου ὑπὸ τὴν μείζονα γωνίαν ἡ μείζων πλευρὰ ὑποτείνει`` (I. 19 enunciation).
+  - ``ὑπὸ γὰρ τὴν μείζω γωνίαν ὑποτείνει`` (Aristotle *Meteorologica* III. 5, 376 a 12).
+
+- **Comparison with Perseus TEI XML** (``elem.1.18``):
+
+  - The enunciation and demonstration text match the XML ground truth exactly (noting that Perseus XML has the minor typographical artifact ``bejoined`` for ``be joined``).
+  - In the XML commentary note, Perseus has ``In the enunciation of this number we have...``, whereas Heath's printed text clearly has ``In the enunciation of this proposition we have...``.
+  - The Todhunter note and Porphyry commentary are historical additions by Heath not included in the TEI XML.
+
+5. Textual & Typographical Details
+----------------------------------
+
+- **Typographical Misprint in Print**:
+
+  - On line 29 of page 283, Heath's printed edition has the misprint: ``An alternative proof of I. 18 given by Porpnyry...`` (with an ``n`` instead of ``h``). This has been corrected to ``Porphyry`` in the markdown transcription.
+
+- **Italics**:
+
+  - Technical terms *datum* and *quaesitum*, as well as *greater side* and *greater angle*, are italicized in Heath's print.
+  - Work title *Meteorologica* is italicized.
+
+- **Footnotes**:
+
+  - No footnotes are present on page 283.
+
+6. Typesetting & Structural Articulation (Proposition 18)
+---------------------------------------------------------
+
+- **Enunciation**: Formatted as ``.. enunciation:: In any triangle the greater side subtends the greater angle.``.
+- **Figure Layout**: Graphic ``0297.g1.svg`` floats flush right beside the exterior angle deduction and base angle equality steps.
+- **Centered Factoids / Deductive Assertions**:
+
+  1. ``.. assertion:: it is greater than the interior and opposite angle $DCB$. :just:[[I. 16]]``: Exterior angle $\angle ADB$ exceeds interior angle $\angle DCB$.
+  2. ``.. subclause:: since the side $AB$ is equal to $AD$;``: Isosceles triangle side equality premise.
+  3. ``.. assertion:: therefore the angle $ABD$ is also greater than the angle $ACB$;``: Substitution of equal angle $\angle ABD = \angle ADB$ into inequality.
+  4. ``.. assertion:: therefore the angle $ABC$ is much greater than the angle $ACB$.``: Final whole-greater-than-part deduction ($\angle ABC > \angle ABD > \angle ACB$).
+
+- **Justifications**:
+
+  - ``[I. 3]``: Right-aligned via ``:just:[[I. 3]]`` on cutoff step $AD = AB$.
+  - ``[I. 16]``: Right-aligned inside assertion.
+
+- **Conclusion**: ``.. qed:: Therefore etc. :just:[Q. E. D.]``.
+- **SVG Animation Sequencing**:
+
+  - Step 1: Render scalene triangle $ABC$ with side $AC > AB$.
+  - Step 2: Cut off $AD = AB$ along $AC$ (I. 3); join $BD$.
+  - Step 3: Highlight isosceles triangle $\triangle ABD$ with base angles $\angle ABD = \angle ADB$ (I. 5).
+  - Step 4: Highlight $\triangle BCD$ with exterior angle $\angle ADB > \angle DCB = \angle ACB$ (I. 16).
+  - Step 5: Substitute $\angle ABD$ for $\angle ADB$, showing $\angle ABD > \angle ACB$.
+  - Step 6: Highlight total angle $\angle ABC = \angle ABD + \angle DBC$, concluding $\angle ABC \gg \angle ACB$.

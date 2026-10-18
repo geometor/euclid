@@ -1,0 +1,96 @@
+Notes on Folio 0293 (Page 279)
+==============================
+
+Content & Structure
+-------------------
+
+- **Folio**: 0293 (page 279), Volume I, Book I, Section: Propositions.
+- **Continuity**:
+
+  - Picks up mid-sentence from Folio 0292 (page 278): ``geometrical and arithmetical Books of the Elements, and may either result from theorems or problems...``
+  - Concludes the extensive commentary on **Proposition 15**:
+
+    - Distinguishes geometrical Porisms (springing from theorems, as in I. 15) from arithmetical Porisms (such as VII. 2) and Porisms to problems (citing Proclus on "that which is found in the second Book", τὸ ἐν τῷ δευτέρῳ βιβλίῳ κείμενον; cf. notes on II. 4 and IV. 15).
+    - Details Proclus' discussion of the Pythagorean theorem that only three regular polygons can fill the entire space around a point in a plane: equilateral triangles (6), squares (4), and regular hexagons (3).
+    - Proclus' observation that any number of straight lines intersecting at a point produce angles whose sum is equal to four right angles (modern Corollary 2).
+
+  - Introduces **PROPOSITION 16**:
+
+    - Heading: ``### PROPOSITION 16.``
+    - Enunciation: *In any triangle, if one of the sides be produced, the exterior angle is greater than either of the interior and opposite angles.*
+    - Proof lines 1–24, establishing the construction (bisecting $AC$ at $E$, joining $BE$ and producing to $F$ with $EF = BE$, joining $FC$, and producing $AC$ to $G$) and deducing triangle congruence ($\triangle ABE \cong \triangle CFE$) and angle equality ($\angle BAE = \angle ECF$).
+    - The page ends at line 24 (``therefore the angle BAE is equal to the angle ECF.``), with the remaining proof steps and notes continuing on Folio 0294 (page 280).
+
+Demonstration Graphics
+----------------------
+
+- **Graphic**: ``0293.g1.svg`` is pre-extracted and calibrated in ``0293.json``:
+
+  - ``bbox``: ``[450, 645, 245, 215]``
+  - ``caption``: ``"Proposition 16 figure"``
+  - Direct visual inspection confirms all labels ($A, B, C, D, E, F, G$) and line segments are crisp, complete, and properly bounded.
+  - Embedded in markdown via ``.. picture:: 0293.g1.svg``.
+
+Marginal Line Numbering
+-----------------------
+
+- Marginal line numbers 5, 10, 15, and 20 appear in Heath's margin and are formatted as superscripts: ``:line:[5]``, ``:line:[10]``, ``:line:[15]``, and ``:line:[20]``.
+- Line placements match Heath's layout exactly:
+
+  - Line 5: ``:line:[5] I say that the exterior angle ACD is greater...``
+  - Line 10: ``:line:[10] in a straight line to F;``
+  - Line 15: ``:line:[15] and BE to EF,``
+  - Line 20: ``:line:[20] Therefore the base AB is equal to the base FC,``
+
+XML Ground-Truth Cross-Check
+----------------------------
+
+- Validated against Perseus TEI XML (``elem.1.16``):
+
+  - Enunciation and proof text match Perseus XML.
+  - Spacing nuance: Perseus XML has ``BE[I. 3]``, whereas Heath's printed edition clearly spaces the citation: ``BE [I. 3]``. Transcribed faithfully according to Heath's scan.
+
+Greek Typography
+----------------
+
+- **Commentary on Prop. 15**:
+
+  - ``τὸ ἐν τῷ δευτέρῳ βιβλίῳ κείμενον``:
+
+    - ``τὸ``: grave on omicron.
+    - ``ἐν``: smooth breathing on epsilon.
+    - ``τῷ``: circumflex and iota subscript on omega.
+    - ``δευτέρῳ``: acute on epsilon; iota subscript on omega.
+    - ``βιβλίῳ``: acute on second iota; iota subscript on omega.
+    - ``κείμενον``: acute on iota of diphthong ``ει``.
+
+Footnotes
+---------
+
+- No footnotes are present on page 279.
+
+Typesetting & Structural Articulation (Proposition 16, Opening)
+---------------------------------------------------------------
+
+- **Enunciation**: Formatted as ``.. enunciation:: In any triangle, if one of the sides be produced, the exterior angle is greater than either of the interior and opposite angles.``.
+- **Figure Layout**: Graphic ``0293.g1.svg`` floats on the right of the construction lines ($AC$ bisected at $E$, $BE$ produced to $F$).
+- **Centered Factoids / Deductive Assertions**:
+
+  1. ``.. assertion:: the two sides $AE$, $EB$ are equal to the two sides $CE$, $EF$ respectively;``: Establishing SAS premise for $\triangle ABE$ and $\triangle CFE$.
+  2. ``.. subclause:: for they are vertical angles. :just:[[I. 15]]``: Right-aligned citation justifying vertical angle equality $\angle AEB = \angle FEC$.
+  3. ``.. assertion:: :line:[20] Therefore the base $AB$ is equal to the base $FC$,``: SAS congruence consequence (I. 4).
+  4. ``.. assertion:: and the triangle $ABE$ is equal to the triangle $CFE$,``: Area equality consequence (I. 4).
+  5. ``.. assertion:: therefore the angle $BAE$ is equal to the angle $ECF$.``: Angle equality consequence (I. 4).
+
+- **Justifications**:
+
+  - ``[I. 10]``, ``[I. 3]``, ``[Post. 1]``, ``[Post. 2]``, ``[I. 15]``, ``[I. 4]``: Positioned right-aligned via ``:just:[...]``.
+
+- **SVG Animation Sequencing**:
+
+  - Step 1: Render $\triangle ABC$ and produce side $BC$ to $D$, indicating exterior angle $\angle ACD$.
+  - Step 2: Bisect side $AC$ at $E$ (I. 10).
+  - Step 3: Draw line from vertex $B$ through $E$, produce to $F$ such that $EF = BE$ (I. 3).
+  - Step 4: Join $FC$ (Post. 1), and produce $AC$ to $G$ (Post. 2).
+  - Step 5: Highlight vertical angles $\angle AEB$ and $\angle FEC$ (I. 15).
+  - Step 6: Highlight congruent triangles $\triangle ABE \cong \triangle CFE$ (I. 4), establishing $\angle BAE = \angle ECF$.

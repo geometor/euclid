@@ -1,0 +1,110 @@
+Transcription Notes: Folio 0303 (Page 289)
+==========================================
+
+1. Overview
+-----------
+
+- **Book / Section**: Book I, Propositions.
+- **Folio**: ``0303`` (Page 289).
+- **Running Header**: ``I. 21] PROPOSITIONS 20, 21 289``.
+- **Contents**:
+
+  - **Proposition 21**:
+
+    - Heading: ``### PROPOSITION 21.``
+    - Enunciation: *If on one of the sides of a triangle, from its extremities, there be constructed two straight lines meeting within the triangle, the straight lines so constructed will be less than the remaining two sides of the triangle, but will contain a greater angle.*
+    - Diagram: ``0303.g1.svg`` (``.. picture:: 0303.g1.svg``).
+    - Setting-out, Specification, Construction, Proof (lines 1–35), and conclusion formula (``Therefore etc.``, ``Q. E. D.``).
+
+  - **Textual Notes on the Greek Text**:
+
+    - Note **2** on ``be constructed...meeting within the triangle.``
+    - Note **3** on ``the straight lines so constructed.``
+
+2. Textual & Typographical Details
+----------------------------------
+
+- **Perseus TEI XML Ground-Truth Cross-Check** (``elem.1.21``):
+
+  - The enunciation and demonstration match the Perseus TEI XML ground truth verbatim.
+  - Bracketed citations ``[I. 20]`` and ``[I. 16]`` match the print edition spacing.
+  - At line 20 of the proof, Heath reads ``Again, since, in the triangle CED,`` while at line 28 he reads ``therefore, in the triangle CDE,``. Both vertex permutations match the Perseus TEI XML and Heath's printed edition.
+
+- **Marginal Line Numbering**:
+
+  - Heath's printed margins feature line markers every 5 lines:
+
+    - ``:line:[5]``: Line 5 of the enunciation (``:line:[5]angle.*``).
+    - ``:line:[10]``: Line 10 of text (``:line:[10]of the triangle $BA$, $AC$...``).
+    - ``:line:[15]``: Line 15 of text (``:line:[15]one, [I. 20]``).
+    - ``:line:[20]``: Line 20 of text (``:line:[20]Again, since, in the triangle $CED$,``).
+    - ``:line:[25]``: Line 25 of text (``:line:[25]therefore $BA$, $AC$ are much greater than $BD$, $DC$.``).
+    - ``:line:[30]``: Line 30 of text (``:line:[30]For the same reason, moreover, in the triangle $ABE$ also,``).
+    - ``:line:[35]``: Line 35 of text (``:line:[35]Therefore etc.``).
+
+  - Formatted strictly as superscripts ``:sup:[N]`` per project standards.
+
+- **Textual Notes on the Enunciation**:
+
+  - Heath numbers these notes **2.** and **3.** because they correlate with lines 2 and 3 of the proposition's printed enunciation:
+
+    - Line 2: ``there be constructed two straight lines meeting within the`` -> Note **2**.
+    - Line 3: ``triangle, the straight lines so constructed will be less than the`` -> Note **3**.
+
+  - In Note **2**, Heath puts double quotes around ``“meeting”``. Perseus XML omits quotation marks, but the print edition clearly includes them.
+  - Polytonic Greek verified:
+
+    - ``ἐντὸς συσταθῶσιν`` (smooth breathing and acute on ἐντὸς, circumflex on συσταθῶσιν).
+    - ``συνίστασθαι`` (acute on συνίστασθαι).
+    - ``αἱ συσταθεῖσαι`` (rough breathing on αἱ, circumflex on συσταθεῖσαι).
+
+- **Footnotes**:
+
+  - There are no footnotes on page 289.
+
+3. Graphic Calibration
+----------------------
+
+- **Graphic** ``0303.g1.svg`` (**Proposition 21 figure**):
+
+  - Single source of truth in ``0303.json``:
+
+    - ``bbox``: ``[475, 428, 202, 148]``
+    - ``white_point``: ``226``
+    - ``caption``: ``"Folio 0303 Figure 1 - Proposition 21"``
+
+  - Directly inspected via ``view_file``. All vertices ($A, B, C$), interior point $D$, extended line $BE$, and joining line $CD$ are cleanly captured without edge clipping or text contamination.
+
+4. Typesetting & Structural Articulation (Proposition 21)
+---------------------------------------------------------
+
+- **Enunciation**: Formatted as ``.. enunciation:: If on one of the sides of a triangle, from its extremities, there be constructed two straight lines meeting within the triangle, the straight lines so constructed will be less than the remaining two sides of the triangle, but will contain a greater :line:[5] angle.``.
+- **Figure Layout**: Graphic ``0303.g1.svg`` floats flush right beside the construction and triangle inequality steps.
+- **Centered Factoids / Deductive Assertions**:
+
+  - *Part I (Side Lengths)*:
+
+    1. ``.. assertion:: therefore, in the triangle $ABE$, the two sides $AB$, $AE$ are greater than $BE$.``: Triangle inequality on $\triangle ABE$ via [I. 20].
+    2. ``.. assertion:: therefore $BA$, $AC$ are greater than $BE$, $EC$.``: Adding common segment $EC$.
+    3. ``.. assertion:: the two sides $CE$, $ED$ are greater than $CD$,``: Triangle inequality on $\triangle CED$ via [I. 20].
+    4. ``.. assertion:: therefore $CE$, $EB$ are greater than $CD$, $DB$.``: Adding common segment $DB$.
+    5. ``.. assertion:: :line:[25] therefore $BA$, $AC$ are much greater than $BD$, $DC$.``: Combined transitivity ($BA + AC > BE + EC > BD + DC$).
+
+  - *Part II (Contained Angles)*:
+
+    1. ``.. assertion:: the exterior angle $BDC$ is greater than the angle $CED$.``: Exterior angle of $\triangle CDE$ via [I. 16].
+    2. ``.. assertion:: the exterior angle $CEB$ is greater than the angle $BAC$.``: Exterior angle of $\triangle ABE$ via [I. 16].
+    3. ``.. assertion:: therefore the angle $BDC$ is much greater than the angle $BAC$.``: Combined angle transitivity ($\angle BDC > \angle CEB > \angle BAC$).
+
+- **Sub-clauses**: Additions formatted with ``.. subclause:: Let ... be added to each;``.
+- **Conclusion**: ``.. qed:: :line:[35] Therefore etc. :just:[Q. E. D.]``.
+- **SVG Animation Sequencing**:
+
+  - Step 1: Render base $\triangle ABC$ and interior point $D$; draw segments $BD$ and $DC$.
+  - Step 2: Produce $BD$ through to meet $AC$ at $E$.
+  - Step 3: Highlight $\triangle ABE$; show $AB + AE > BE$ (I. 20); add $EC$ to both sides, showing $BA + AC > BE + EC$.
+  - Step 4: Highlight $\triangle CED$; show $CE + ED > CD$ (I. 20); add $DB$ to both sides, showing $CE + EB > CD + DB$.
+  - Step 5: Chain inequalities to show $BA + AC \gg BD + DC$.
+  - Step 6: Highlight exterior angle $\angle BDC$ of $\triangle CDE$ exceeding interior angle $\angle CED$ (I. 16).
+  - Step 7: Highlight exterior angle $\angle CEB$ of $\triangle ABE$ exceeding interior angle $\angle BAC$ (I. 16).
+  - Step 8: Chain angle inequalities to conclude $\angle BDC \gg \angle BAC$.

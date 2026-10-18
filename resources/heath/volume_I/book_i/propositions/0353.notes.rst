@@ -1,0 +1,98 @@
+Transcription Notes for Folio 0353 (Page 339)
+=============================================
+
+Context & Structure
+-------------------
+
+- **Folio**: 0353
+- **Page**: 339
+- **Volume**: Volume I
+- **Book**: Book I
+- **Section**: Propositions
+- **Title**: Propositions 41 and 42
+- **Running Header**: ``I. 41, 42] PROPOSITIONS 40—42 339``
+
+  - Recto page header with section index on the left, running topic centered, and page number on the right.
+
+Textual Observations & Editorial Decisions
+------------------------------------------
+
+1. **Conclusion of Proclus' Trapezium Lemma (Commentary on I. 41)**:
+
+   - Continuation from folio 0352 (p. 338), which enunciated Proclus' theorem that a triangle formed by joining the midpoint of either non-parallel side of a trapezium to the opposite vertices is half the trapezium in area.
+   - Folio 0353 gives the demonstration:
+
+     - Midpoint $E$ of side $DC$, line $BE$ produced to meet $AD$ produced in $F$.
+     - Triangles $BEC, FED$ are congruent via [I. 26] (two angles and one side equal).
+     - Adding quadrilateral $ABED$ yields trapezium $ABCD = \triangle ABF = 2 \times \triangle AEB$ by [I. 38] ($BE = EF$).
+
+   - Synthetic summary of the three cases proved by Proclus (pp. 414–416):
+
+     - Area of trapezium is (1) greater than, (2) equal to, or (3) less than double the triangle according as the midpoint is on (1) the greater parallel side, (2) either non-parallel side, or (3) the lesser parallel side.
+     - Numbers ``(1)``, ``(2)``, ``(3)`` appear in roman type within the italicized enunciation in Heath's print.
+
+2. **Demonstration Graphic 1** (``0353.g1.svg``):
+
+   - Defined in ``0353.json`` (bbox ``[486, 162, 200, 126]``).
+   - Illustrates Proclus' construction for the trapezium $ABCD$, midpoint $E$ of $DC$, and extension of $BE$ to $F$ on $AD$ produced.
+   - Inspected directly with ``view_file``; borders and labels ($A, D, F, B, E, C$) are intact and clear.
+   - Embedded after the setting-out and construction lines of Proclus' proof.
+
+3. **Proposition 42 Ground-Truth Cross-Check** (``elem.1.42``):
+
+   - Enunciation: *"To construct, in a given rectilineal angle, a parallelogram equal to a given triangle."*
+
+     - Greek: Πρὸς τῇ δοθείσῃ εὐθείᾳ καὶ ἐν τῇ δοθείσῃ γωνίᾳ εὐθυγράμμῳ παραλληλόγραμμον συστήσασθαι τῷ δοθέντι τριγώνῳ ἴσον.
+
+   - Setting-out, specification, and construction on this folio:
+
+     - Given: triangle $ABC$, angle $D$.
+     - Construction: $BC$ bisected at $E$, $AE$ joined, $\angle CEF = \angle D$ constructed at $E$ [I. 23], $AG \parallel EC$ [I. 31], $CG \parallel EF$.
+
+   - Demonstration:
+
+     - $FECG$ is a parallelogram.
+     - $BE = EC \implies \triangle ABE = \triangle AEC$ on equal bases in same parallels [I. 38]; thus $\triangle ABC = 2 \times \triangle AEC$.
+     - Cross-check against Perseus TEI XML confirms exact correspondence of wording.
+
+4. **Demonstration Graphic 2** (``0353.g2.svg``):
+
+   - Defined in ``0353.json`` (bbox ``[375, 686, 312, 152]``).
+   - Illustrates Proposition 42: given angle $D$, triangle $ABC$, bisected base $BC$ at $E$, and completed parallelogram $FECG$ between parallels $BC$ and $AG$.
+   - Inspected directly with ``view_file``; boundaries and letter labels ($D, A, F, G, B, E, C$) are clean and distinct.
+   - Embedded following the construction.
+
+5. **Marginal Line Numbering**:
+
+   - In Heath's print, Proposition 42 lacks marginal line numbers (5, 10, 15...) because there are no detailed line-referenced textual notes following it. None have been introduced.
+
+6. **Transition to Folio 0354**:
+
+   - Page 339 terminates at ``therefore the triangle ABC is double of the triangle AEC.``
+   - The proof concludes on folio 0354 (page 340) with the relation to parallelogram $FECG$ [I. 41], specification of angle $\angle CEF = D$, and the closing formula ``Q. E. F.``
+
+4. Typesetting & Structural Articulation (Proposition 42, Part 1)
+-----------------------------------------------------------------
+
+- **Problem Enunciation Line Breaks**:
+  ``.. enunciation:: To construct, in a given rectilineal angle, a parallelogram | equal to a given triangle.``
+  Replicates Heath's line break after ``parallelogram``.
+- **Construction & Justifications**:
+
+  - Angle construction:
+    ``on the straight line $EC$, and at the point $E$ on it, let the angle $CEF$ be constructed equal to the angle $D$; :just:[[I. 23]]``
+  - Parallel construction:
+    ``through $A$ let $AG$ be drawn parallel to $EC$, and :just:[[I. 31]]``
+  - Base bisection and triangle halving:
+    ``And, since $BE$ is equal to $EC$, the triangle $ABE$ is also equal to the triangle $AEC$, for they are on equal bases $BE$, $EC$ and in the same parallels $BC$, $AG$; :just:[[I. 38]]``
+  - Centered deductive assertion:
+    ``.. assertion:: therefore the triangle $ABC$ is double of the triangle $AEC$.``
+
+- **SVG Animation Sequencing (Proposition 42)**:
+
+  - **Step 1 (Given Elements)**: Render given $\triangle ABC$ and independent given rectilineal angle $D$.
+  - **Step 2 (Base Bisection)**: Bisect base $BC$ at point $E$ [I. 10]; draw median segment $AE$.
+  - **Step 3 (Angle Copy)**: At point $E$ on line $EC$, construct angle $\angle CEF$ equal to given angle $D$ [I. 23].
+  - **Step 4 (Parallels & Completion)**: Draw line $AG$ through $A$ parallel to $EC$ [I. 31]; draw line $CG$ through $C$ parallel to $EF$, meeting $AG$ at $G$; highlight completed parallelogram $FECG$.
+  - **Step 5 (Median Area Doubling [I. 38])**: Highlight $\triangle ABE$ and $\triangle AEC$ on equal bases $BE = EC$ between parallels $BC, AG$; show $\triangle ABE = \triangle AEC$ [I. 38], hence whole triangle $\triangle ABC$ is double $\triangle AEC$.
+  - **Step 6 (Parallelogram Doubling [I. 41] & Equivalence)**: Highlight parallelogram $FECG$ sharing base $EC$ and parallels with $\triangle AEC$, hence $FECG = 2 \triangle AEC$ [I. 41]; equate parallelogram $FECG = \triangle ABC$; show $\angle CEF = D$; close with Q.E.F.
