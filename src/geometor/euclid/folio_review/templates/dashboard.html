@@ -131,20 +131,17 @@
           </div>
 
           <!-- Sections Pills -->
-          <div class="mt-4 flex flex-wrap gap-1.5 max-h-24 overflow-y-auto">
-            {% for sec in vstat.sections[:8] %}
+          <div class="mt-4 flex flex-wrap gap-1.5 max-h-28 overflow-y-auto">
+            {% for sec in vstat.sections %}
               <button onclick="filterBySection('{{ vol.name }}', '{{ sec }}')" class="text-[11px] px-2 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800/80 hover:bg-emerald-100 dark:hover:bg-emerald-950/60 hover:text-emerald-700 dark:hover:text-emerald-300 text-zinc-600 dark:text-zinc-400 transition-colors">
                 {{ sec.replace('_', ' ') }}
               </button>
             {% endfor %}
-            {% if vstat.sections|length > 8 %}
-              <span class="text-[11px] px-1.5 py-0.5 text-zinc-400">+{{ vstat.sections|length - 8 }} more</span>
-            {% endif %}
           </div>
         </div>
 
         <div class="mt-5 pt-3 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between">
-          <a href="/folio/{{ vol.name }}/0001" class="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300">
+          <a href="/folio/{{ vol.name }}/{{ vstat.first_folio or '0001' }}" class="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300">
             Start Reviewing <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </a>
           <button onclick="filterByVolume('{{ vol.name }}')" class="text-xs text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-200">
@@ -179,11 +176,21 @@
         </div>
 
         <!-- Volume Filter -->
-        <select id="volumeFilter" onchange="fetchFolios()" class="text-xs py-1.5 px-2.5 rounded-lg border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500">
+        <select id="volumeFilter" onchange="onVolumeFilterChange()" class="text-xs py-1.5 px-2.5 rounded-lg border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500">
           <option value="">All Volumes</option>
-          <option value="volume_I">Volume I</option>
-          <option value="volume_II">Volume II</option>
-          <option value="volume_III">Volume III</option>
+          {% for vol in volumes %}
+            <option value="{{ vol.name }}">{{ vol.label }}</option>
+          {% endfor %}
+        </select>
+
+        <!-- Section Filter -->
+        <select id="sectionFilter" onchange="fetchFolios()" class="text-xs py-1.5 px-2.5 rounded-lg border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500">
+          <option value="">All Sections</option>
+          {% for vol in volumes %}
+            {% for sec in stats.volumes[vol.name].sections %}
+              <option value="{{ sec }}" data-volume="{{ vol.name }}">{{ vol.name }}: {{ sec.replace('_', ' ') }}</option>
+            {% endfor %}
+          {% endfor %}
         </select>
 
         <!-- Status Filter -->
@@ -253,27 +260,66 @@
     debounceTimeout = setTimeout(() => fetchFolios(), 250);
   }
 
+  function syncSectionFilterOptions(volName) {
+    const secSelect = document.getElementById('sectionFilter');
+    if (!secSelect) return;
+    Array.from(secSelect.options).forEach(opt => {
+      if (!opt.value) return;
+      const optVol = opt.getAttribute('data-volume');
+      opt.hidden = Boolean(volName && optVol && optVol !== volName);
+    });
+  }
+
+  function onVolumeFilterChange() {
+    const volName = document.getElementById('volumeFilter').value;
+    const secSelect = document.getElementById('sectionFilter');
+    if (secSelect) {
+      secSelect.value = '';
+      syncSectionFilterOptions(volName);
+    }
+    fetchFolios();
+  }
+
   function filterByVolume(volName) {
     document.getElementById('volumeFilter').value = volName;
+    const secSelect = document.getElementById('sectionFilter');
+    if (secSelect) {
+      secSelect.value = '';
+      syncSectionFilterOptions(volName);
+    }
     fetchFolios();
     document.getElementById('explorerSection').scrollIntoView({ behavior: 'smooth' });
   }
 
   function filterBySection(volName, secPath) {
     document.getElementById('volumeFilter').value = volName;
-    document.getElementById('searchInput').value = secPath.replace(/_/g, ' ');
+    const secSelect = document.getElementById('sectionFilter');
+    if (secSelect) {
+      syncSectionFilterOptions(volName);
+      const matchOpt = Array.from(secSelect.options).find(
+        opt => opt.value === secPath && (!opt.getAttribute('data-volume') || opt.getAttribute('data-volume') === volName)
+      );
+      if (matchOpt) {
+        matchOpt.selected = true;
+      } else {
+        secSelect.value = secPath;
+      }
+    }
+    document.getElementById('searchInput').value = '';
     fetchFolios();
     document.getElementById('explorerSection').scrollIntoView({ behavior: 'smooth' });
   }
 
   async function fetchFolios(showNotification = false) {
     const vol = document.getElementById('volumeFilter').value;
+    const sec = document.getElementById('sectionFilter') ? document.getElementById('sectionFilter').value : '';
     const status = document.getElementById('statusFilter').value;
     const revStatus = document.getElementById('reviewStatusFilter').value;
     const q = document.getElementById('searchInput').value;
 
     const params = new URLSearchParams();
     if (vol) params.append('volume', vol);
+    if (sec) params.append('section', sec);
     if (status) params.append('status', status);
     if (revStatus) params.append('review_status', revStatus);
     if (q) params.append('q', q);

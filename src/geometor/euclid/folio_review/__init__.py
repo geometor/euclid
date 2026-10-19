@@ -1,7 +1,11 @@
-"""Euclid folio review Flask application."""
+"""Euclid Folio Review & Vetting Web Application.
 
-from geometor.euclid.folio_review.app import create_app, main
-from geometor.euclid.folio_review.scanner import FolioScanner
-from geometor.euclid.folio_review.reviews import ReviewManager
+Delegates to the canonical `photon_platform.publish.folio_review` package,
+defaulting to `resources/heath` when invoked from `geometor.euclid`.
+"""
+
+from .app import create_app, main
+from .reviews import ReviewManager
+from .scanner import FolioScanner
 
 __all__ = ["create_app", "main", "FolioScanner", "ReviewManager"]
