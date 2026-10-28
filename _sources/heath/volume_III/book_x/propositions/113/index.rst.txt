@@ -1,0 +1,195 @@
+:canonical_id: X.113
+:volume: III
+:book: X
+:proposition: 113
+:type: proposition
+:title: Proposition X.113
+:folios: 0252, 0253, 0254
+:pages: 248, 249, 250
+:dependencies: V.11, V.14, V.16, V.19, V.def.9, VI.16, X.11, X.12, X.14, X.15, X.20, X.36, X.73, X.def.3
+
+.. _X.113:
+
+.. folio:: 0252
+   :page: 248
+
+PROPOSITION 113.
+================
+
+.. enunciation::
+
+   The square on a rational straight line, if applied to an apotome, produces as breadth the binomial straight line the terms of which are commensurable with the terms of the apotome and in the same ratio; and further the binomial so arising has the same order as the apotome.
+
+.. picture:: 0252.g1.svg
+   :alt: Proposition 113
+
+Let :g:`$A$ <0252.g1:A>` be a rational straight line and :g:`$BD$ <0252.g1:/ B D />` an apotome, and let the rectangle :g:`$BD$ <0252.g1:/ B D />`, :g:`$KH$ <0252.g1:/ K H />` be equal to the square on :g:`$A$ <0252.g1:A>`, so that the square on the rational straight line :g:`$A$ <0252.g1:A>` when applied to the apotome :g:`$BD$ <0252.g1:/ B D />` produces :g:`$KH$ <0252.g1:/ K H />` as breadth; I say that :g:`$KH$ <0252.g1:/ K H />` is a binomial straight line the terms of which are commensurable with the terms of :g:`$BD$ <0252.g1:/ B D />` and in the same ratio; and further :g:`$KH$ <0252.g1:/ K H />` has the same order as :g:`$BD$ <0252.g1:/ B D />`.
+
+.. subclause::
+
+   For let :g:`$DC$ <0252.g1:/ D C />` be the annex to :g:`$BD$ <0252.g1:/ B D />`;
+
+.. assertion::
+
+   therefore :g:`$BC$ <0252.g1:/ B C />`, :g:`$CD$ <0252.g1:/ C D />` are rational straight lines commensurable in square only. :just:`[X. 73] <X.73>`
+
+Let the rectangle :g:`$BC$ <0252.g1:/ B C />`, :g:`$G$ <0252.g1:G>` be also equal to the square on :g:`$A$ <0252.g1:A>`.
+
+.. subclause::
+
+   But the square on :g:`$A$ <0252.g1:A>` is rational;
+
+.. assertion::
+
+   therefore the rectangle :g:`$BC$ <0252.g1:/ B C />`, :g:`$G$ <0252.g1:G>` is also rational.
+
+.. subclause::
+
+   And it has been applied to the rational straight line :g:`$BC$ <0252.g1:/ B C />`;
+
+.. assertion::
+
+   therefore :g:`$G$ <0252.g1:G>` is rational and commensurable in length with :g:`$BC$ <0252.g1:/ B C />`. :just:`[X. 20] <X.20>`
+
+.. _folio-iii-0253:
+
+.. folio:: 0253
+   :page: 249
+
+.. subclause::
+
+   Since now the rectangle :g:`$BC$ <0252.g1:/ B C />`, :g:`$G$ <0252.g1:G>` is equal to the rectangle :g:`$BD$ <0252.g1:/ B D />`, :g:`$KH$ <0252.g1:/ K H />`,
+
+.. assertion::
+
+   therefore, proportionally, as :g:`$CB$ <0252.g1:/ C B />` is to :g:`$BD$ <0252.g1:/ B D />`, so is :g:`$KH$ <0252.g1:/ K H />` to :g:`$G$ <0252.g1:G>`. :just:`[VI. 16] <VI.16>`
+
+.. subclause::
+
+   But :g:`$BC$ <0252.g1:/ B C />` is greater than :g:`$BD$ <0252.g1:/ B D />`;
+
+.. assertion:: [V. 16, V. 14] <V.16, V.14>
+
+   therefore :g:`$KH$ <0252.g1:/ K H />` is also greater than :g:`$G$ <0252.g1:G>`.
+
+Let :g:`$KE$ <0252.g1:/ K E />` be made equal to :g:`$G$ <0252.g1:G>`;
+
+.. assertion::
+
+   therefore :g:`$KE$ <0252.g1:/ K E />` is commensurable in length with :g:`$BC$ <0252.g1:/ B C />`.
+
+.. subclause::
+
+   And since, as :g:`$CB$ <0252.g1:/ C B />` is to :g:`$BD$ <0252.g1:/ B D />`, so is :g:`$HK$ <0252.g1:/ H K />` to :g:`$KE$ <0252.g1:/ K E />`,
+
+.. assertion::
+
+   therefore, :term:`*convertendo* <convertendo>`, as :g:`$BC$ <0252.g1:/ B C />` is to :g:`$CD$ <0252.g1:/ C D />`, so is :g:`$KH$ <0252.g1:/ K H />` to :g:`$HE$ <0252.g1:/ H E />`. :just:`[V. 19, Por.]`
+
+Let it be contrived that, as :g:`$KH$ <0252.g1:/ K H />` is to :g:`$HE$ <0252.g1:/ H E />`, so is :g:`$HF$ <0252.g1:/ H F />` to :g:`$FE$ <0252.g1:/ F E />`;
+
+.. assertion::
+
+   therefore also the remainder :g:`$KF$ <0252.g1:/ K F />` is to :g:`$FH$ <0252.g1:/ F H />` as :g:`$KH$ <0252.g1:/ K H />` is to :g:`$HE$ <0252.g1:/ H E />`, that is, as :g:`$BC$ <0252.g1:/ B C />` is to :g:`$CD$ <0252.g1:/ C D />`. :just:`[V. 19] <V.19>`
+
+.. subclause::
+
+   But :g:`$BC$ <0252.g1:/ B C />`, :g:`$CD$ <0252.g1:/ C D />` are commensurable in square only;
+
+.. assertion::
+
+   therefore :g:`$KF$ <0252.g1:/ K F />`, :g:`$FH$ <0252.g1:/ F H />` are also commensurable in square only. :just:`[X. 11] <X.11>`
+
+.. subclause::
+
+   And since, as :g:`$KH$ <0252.g1:/ K H />` is to :g:`$HE$ <0252.g1:/ H E />`, so is :g:`$KF$ <0252.g1:/ K F />` to :g:`$FH$ <0252.g1:/ F H />`, while, as :g:`$KH$ <0252.g1:/ K H />` is to :g:`$HE$ <0252.g1:/ H E />`, so is :g:`$HF$ <0252.g1:/ H F />` to :g:`$FE$ <0252.g1:/ F E />`,
+
+.. assertion::
+
+   therefore also, as :g:`$KF$ <0252.g1:/ K F />` is to :g:`$FH$ <0252.g1:/ F H />`, so is :g:`$HF$ <0252.g1:/ H F />` to :g:`$FE$ <0252.g1:/ F E />`, :just:`[V. 11] <V.11>` so that also, as the first is to the third, so is the square on the first to the square on the second; :just:`[V. Def. 9] <V.def.9>` therefore also, as :g:`$KF$ <0252.g1:/ K F />` is to :g:`$FE$ <0252.g1:/ F E />`, so is the square on :g:`$KF$ <0252.g1:/ K F />` to the square on :g:`$FH$ <0252.g1:/ F H />`.
+
+.. subclause::
+
+   But the square on :g:`$KF$ <0252.g1:/ K F />` is commensurable with the square on :g:`$FH$ <0252.g1:/ F H />`, for :g:`$KF$ <0252.g1:/ K F />`, :g:`$FH$ <0252.g1:/ F H />` are commensurable in square;
+
+.. assertion::
+
+   therefore :g:`$KF$ <0252.g1:/ K F />` is also commensurable in length with :g:`$FE$ <0252.g1:/ F E />`, :just:`[X. 11] <X.11>` so that :g:`$KF$ <0252.g1:/ K F />` is also commensurable in length with :g:`$KE$ <0252.g1:/ K E />`. :just:`[X. 15] <X.15>`
+
+.. subclause::
+
+   But :g:`$KE$ <0252.g1:/ K E />` is rational and commensurable in length with :g:`$BC$ <0252.g1:/ B C />`;
+
+.. assertion::
+
+   therefore :g:`$KF$ <0252.g1:/ K F />` is also rational and commensurable in length with :g:`$BC$ <0252.g1:/ B C />`. :just:`[X. 12] <X.12>`
+
+.. subclause::
+
+   And, since, as :g:`$BC$ <0252.g1:/ B C />` is to :g:`$CD$ <0252.g1:/ C D />`, so is :g:`$KF$ <0252.g1:/ K F />` to :g:`$FH$ <0252.g1:/ F H />`,
+
+.. assertion:: [V. 16] <V.16>
+
+   alternately, as :g:`$BC$ <0252.g1:/ B C />` is to :g:`$KF$ <0252.g1:/ K F />`, so is :g:`$DC$ <0252.g1:/ D C />` to :g:`$FH$ <0252.g1:/ F H />`.
+
+.. subclause::
+
+   But :g:`$BC$ <0252.g1:/ B C />` is commensurable with :g:`$KF$ <0252.g1:/ K F />`;
+
+.. assertion:: [X. 11] <X.11>
+
+   therefore :g:`$FH$ <0252.g1:/ F H />` is also commensurable in length with :g:`$CD$ <0252.g1:/ C D />`.
+
+.. _folio-iii-0254:
+
+.. folio:: 0254
+   :page: 250
+
+.. subclause::
+
+   But :g:`$BC$ <0252.g1:/ B C />`, :g:`$CD$ <0252.g1:/ C D />` are rational straight lines commensurable in square only;
+
+.. assertion::
+
+   therefore :g:`$KF$ <0252.g1:/ K F />`, :g:`$FH$ <0252.g1:/ F H />` are also rational straight lines :just:`[X. Def. 3] <X.def.3>` commensurable in square only; therefore :g:`$KH$ <0252.g1:/ K H />` is binomial. :just:`[X. 36] <X.36>`
+
+.. subclause::
+
+   If now the square on :g:`$BC$ <0252.g1:/ B C />` is greater than the square on :g:`$CD$ <0252.g1:/ C D />` by the square on a straight line commensurable with :g:`$BC$ <0252.g1:/ B C />`,
+
+.. assertion::
+
+   the square on :g:`$KF$ <0252.g1:/ K F />` will also be greater than the square on :g:`$FH$ <0252.g1:/ F H />` by the square on a straight line commensurable with :g:`$KF$ <0252.g1:/ K F />`. :just:`[X. 14] <X.14>`
+
+.. assertion::
+
+   And, if :g:`$BC$ <0252.g1:/ B C />` is commensurable in length with the rational straight line set out, so also is :g:`$KF$ <0252.g1:/ K F />`; if :g:`$CD$ <0252.g1:/ C D />` is commensurable in length with the rational straight line set out, so also is :g:`$FH$ <0252.g1:/ F H />`, but, if neither of the straight lines :g:`$BC$ <0252.g1:/ B C />`, :g:`$CD$ <0252.g1:/ C D />`, then neither of the straight lines :g:`$KF$ <0252.g1:/ K F />`, :g:`$FH$ <0252.g1:/ F H />`.
+
+.. subclause::
+
+   But, if the square on :g:`$BC$ <0252.g1:/ B C />` is greater than the square on :g:`$CD$ <0252.g1:/ C D />` by the square on a straight line incommensurable with :g:`$BC$ <0252.g1:/ B C />`,
+
+.. assertion::
+
+   the square on :g:`$KF$ <0252.g1:/ K F />` is also greater than the square on :g:`$FH$ <0252.g1:/ F H />` by the square on a straight line incommensurable with :g:`$KF$ <0252.g1:/ K F />`. :just:`[X. 14] <X.14>`
+
+.. assertion::
+
+   And, if :g:`$BC$ <0252.g1:/ B C />` is commensurable with the rational straight line set out, so also is :g:`$KF$ <0252.g1:/ K F />`; if :g:`$CD$ <0252.g1:/ C D />` is so commensurable, so also is :g:`$FH$ <0252.g1:/ F H />`; but, if neither of the straight lines :g:`$BC$ <0252.g1:/ B C />`, :g:`$CD$ <0252.g1:/ C D />`, then neither of the straight lines :g:`$KF$ <0252.g1:/ K F />`, :g:`$FH$ <0252.g1:/ F H />`.
+
+.. assertion::
+
+   Therefore :g:`$KH$ <0252.g1:/ K H />` is a binomial straight line, the terms of which :g:`$KF$ <0252.g1:/ K F />`, :g:`$FH$ <0252.g1:/ F H />` are commensurable with the terms :g:`$BC$ <0252.g1:/ B C />`, :g:`$CD$ <0252.g1:/ C D />` of the apotome and in the same ratio, and further :g:`$KH$ <0252.g1:/ K H />` has the same order as :g:`$BD$ <0252.g1:/ B D />`.
+
+.. qed::
+
+   Q. E. D.
+
+----
+
+See :ref:`Commentary on Proposition X.113 <X.113.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

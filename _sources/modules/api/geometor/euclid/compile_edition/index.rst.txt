@@ -1,0 +1,84 @@
+geometor.euclid.compile_edition
+===============================
+
+.. py:module:: geometor.euclid.compile_edition
+
+.. autoapi-nested-parse::
+
+   De-Pagination and Edition Compiler for GEOMETOR Euclid (Heath Edition).
+
+   Reads sequential ``<folio>.rst`` files across Volumes I, II, and III of
+   ``resources/heath/``, detects logical unit headers (chapters, introductions,
+   definitions, postulates, common notions, propositions, lemmas, excursuses,
+   appendices, indices), stitches blocks across folio boundaries with
+   ``.. folio::`` milestones, heals mid-sentence page-break splits, separates
+   Heath's commentary into companion ``commentary.rst`` files linked via
+   ``:ref:``, generates the scholarly apparatus pages (``bibliography.rst``,
+   ``persons.rst``, ``glossary.rst``), and writes the canonical Heath Edition
+   under ``docsrc/heath/``.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.euclid.compile_edition.TaggedBlock
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.euclid.compile_edition.compile_section
+   geometor.euclid.compile_edition.compile_book
+   geometor.euclid.compile_edition.build_apparatus_pages
+   geometor.euclid.compile_edition.compile_edition
+
+
+Module Contents
+---------------
+
+.. py:class:: TaggedBlock
+
+   A single RST block tagged with its originating folio and page number.
+
+
+   .. py:attribute:: text
+      :type:  str
+
+
+   .. py:attribute:: folio
+      :type:  str
+
+
+   .. py:attribute:: page
+      :type:  str
+
+
+   .. py:attribute:: source_dir
+      :type:  pathlib.Path
+
+
+.. py:function:: compile_section(section_src_dir: pathlib.Path, section_out_dir: pathlib.Path, canonical_id: str, vol_roman: str, section_type: str, title: str, merge_subtitle: bool = False, order: Optional[int] = None, seen_folio_anchors: Optional[Set[Tuple[str, str]]] = None) -> List[pathlib.Path]
+
+   Compile a sequential non-book section directory into section_out_dir/index.rst.
+
+
+.. py:function:: compile_book(book_src_dir: pathlib.Path, book_out_dir: pathlib.Path, seen_folio_anchors: Optional[Set[Tuple[str, str]]] = None) -> Dict[str, Any]
+
+   Compile all sequential <folio>.rst files in a book directory into canonical docsrc units.
+
+
+.. py:function:: build_apparatus_pages(heath_src_dir: pathlib.Path, heath_out_dir: pathlib.Path, seen_folio_anchors: Set[Tuple[str, str]]) -> List[pathlib.Path]
+
+   Generate bibliography.rst, persons.rst, and glossary.rst from JSON registries.
+
+
+.. py:function:: compile_edition(heath_src_dir: pathlib.Path = Path('resources/heath'), heath_out_dir: pathlib.Path = Path('docsrc/heath')) -> Dict[str, Any]
+
+   Compile the entire 3-volume Heath Edition and scholarly apparatus into docsrc/heath/.
+
+

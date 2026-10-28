@@ -1,0 +1,89 @@
+:canonical_id: X.64
+:volume: III
+:book: X
+:proposition: 64
+:type: proposition
+:title: Proposition X.64
+:folios: 0146, 0147
+:pages: 142, 143
+
+.. _X.64:
+
+.. _folio-iii-0146:
+
+.. folio:: 0146
+   :page: 142
+
+PROPOSITION 64.
+===============
+
+.. enunciation::
+
+   The square on the side of a rational plus a medial area applied to a rational straight line produces as breadth the fifth binomial.
+
+Let :g:`$AB$ <0146.g1:/ A B />` be the side of a rational plus a medial area, divided into its straight lines at :g:`$C$ <0146.g1:C>`, so that :g:`$AC$ <0146.g1:/ A C />` is the greater ; let a rational straight line :g:`$DE$ <0146.g1:/ D E />` be set out, and let there be applied to :g:`$DE$ <0146.g1:/ D E />` the parallelogram :g:`$DF$ <0146.g1:< D F >>` equal to the square on :g:`$AB$ <0146.g1:/ A B />`, producing :g:`$DG$ <0146.g1:/ D G />` as its breadth; I say that :g:`$DG$ <0146.g1:/ D G />` is a fifth binomial straight line.
+
+.. picture:: 0146.g1.svg
+   :alt: Proposition 64 Diagram
+
+Let the same construction as before be made.
+
+.. subclause::
+
+   Since then :g:`$AB$ <0146.g1:/ A B />` is the side of a rational plus a medial area, divided at :g:`$C$ <0146.g1:C>`,
+
+.. assertion::
+
+   therefore :g:`$AC$ <0146.g1:/ A C />`, :g:`$CB$ <0146.g1:/ C B />` are straight lines incommensurable in square which make the sum of the squares on them medial, but the rectangle contained by them rational. :just:`[x. 40]`
+
+.. subclause::
+
+   Since then the sum of the squares on :g:`$AC$ <0146.g1:/ A C />`, :g:`$CB$ <0146.g1:/ C B />` is medial,
+
+.. assertion::
+
+   therefore :g:`$DL$ <0146.g1:< D L >>` is medial, so that :g:`$DM$ <0146.g1:/ D M />` is rational and incommensurable in length with :g:`$DE$ <0146.g1:/ D E />`. :just:`[x. 22]`
+
+.. subclause::
+
+   Again, since twice the rectangle :g:`$AC$ <0146.g1:/ A C />`, :g:`$CB$ <0146.g1:/ C B />`, that is, :g:`$MF$ <0146.g1:< M F >>`, is rational,
+
+.. assertion:: [x. 20]
+
+   therefore :g:`$MG$ <0146.g1:/ M G />` is rational and commensurable with :g:`$DE$ <0146.g1:/ D E />`.
+
+.. assertion::
+
+   Therefore :g:`$DM$ <0146.g1:/ D M />` is incommensurable with :g:`$MG$ <0146.g1:/ M G />` ; :just:`[x. 13]` therefore :g:`$DM$ <0146.g1:/ D M />`, :g:`$MG$ <0146.g1:/ M G />` are rational straight lines commensurable in square only ; therefore :g:`$DG$ <0146.g1:/ D G />` is binomial. :just:`[x. 36]`
+
+I say next that it is also a fifth binomial straight line.
+
+.. subclause::
+
+   For it can be proved similarly that the rectangle :g:`$DK$ <0146.g1:/ D K />`, :g:`$KM$ <0146.g1:/ K M />` is equal to the square on :g:`$MN$ <0146.g1:/ M N />`, and that :g:`$DK$ <0146.g1:/ D K />` is incommensurable in length with :g:`$KM$ <0146.g1:/ K M />` ;
+
+.. assertion::
+
+   therefore the square on :g:`$DM$ <0146.g1:/ D M />` is greater than the square on :g:`$MG$ <0146.g1:/ M G />` by the square on a straight line incommensurable with :g:`$DM$ <0146.g1:/ D M />`. :just:`[x. 18]`
+
+.. _folio-iii-0147:
+
+.. folio:: 0147
+   :page: 143
+
+.. subclause::
+
+   And :g:`$DM$ <0146.g1:/ D M />`, :g:`$MG$ <0146.g1:/ M G />` are commensurable in square only, and the less, :g:`$MG$ <0146.g1:/ M G />`, is commensurable in length with :g:`$DE$ <0146.g1:/ D E />`.
+
+.. qed::
+
+   Therefore :g:`$DG$ <0146.g1:/ D G />` is a fifth binomial. :just:`[x. Deff. II. 5]` :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition X.64 <X.64.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

@@ -1,0 +1,110 @@
+:canonical_id: XI.6
+:volume: III
+:book: XI
+:proposition: 6
+:type: proposition
+:title: Proposition XI.6
+:folios: 0287, 0288
+:pages: 283, 284
+:dependencies: I.28, I.4, I.8, XI.2, XI.5, XI.def.3
+
+.. _XI.6:
+
+.. folio:: 0287
+   :page: 283
+
+PROPOSITION 6.
+==============
+
+.. enunciation::
+
+   If two straight lines be at right angles to the same plane, the straight lines will be parallel.
+
+For let the two straight lines :g:`$AB$ <0287.g1:/ A B />`, :g:`$CD$ <0287.g1:/ C D />` be at right angles to the plane of reference; I say that :g:`$AB$ <0287.g1:/ A B />` is parallel to :g:`$CD$ <0287.g1:/ C D />`.
+
+.. picture:: 0287.g1.svg
+   :alt: Book XI - Proposition 6
+
+For let them meet the plane of reference at the points :g:`$B$ <0287.g1:B>`, :g:`$D$ <0287.g1:D>`, let the straight line :g:`$BD$ <0287.g1:/ B D />` be joined, let :g:`$DE$ <0287.g1:/ D E />` be drawn, in the plane of reference, at right angles to :g:`$BD$ <0287.g1:/ B D />`, let :g:`$DE$ <0287.g1:/ D E />` be made equal to :g:`$AB$ <0287.g1:/ A B />`, and let :g:`$BE$ <0287.g1:/ B E />`, :g:`$AE$ <0287.g1:/ A E />`, :g:`$AD$ <0287.g1:/ A D />` be joined.
+
+.. subclause::
+
+   Now, since :g:`$AB$ <0287.g1:/ A B />` is at right angles to the plane of reference, it will also make right angles with all the straight lines which meet it and are in the plane of reference. :just:`[XI. Def. 3] <XI.def.3>`
+
+.. subclause::
+
+   But each of the straight lines :g:`$BD$ <0287.g1:/ B D />`, :g:`$BE$ <0287.g1:/ B E />` is in the plane of reference and meets :g:`$AB$ <0287.g1:/ A B />`;
+
+.. assertion::
+
+   therefore each of the angles :g:`$ABD$ <0287.g1:< A B D )>`, :g:`$ABE$ <0287.g1:< A B E )>` is right.
+
+.. assertion::
+
+   For the same reason each of the angles :g:`$CDB$ <0287.g1:< C D B )>`, :g:`$CDE$ <0287.g1:< C D E )>` is also right.
+
+.. subclause::
+
+   And, since :g:`$AB$ <0287.g1:/ A B />` is equal to :g:`$DE$ <0287.g1:/ D E />`, and :g:`$BD$ <0287.g1:/ B D />` is common, the two sides :g:`$AB$ <0287.g1:/ A B />`, :g:`$BD$ <0287.g1:/ B D />` are equal to the two sides :g:`$ED$ <0287.g1:/ E D />`, :g:`$DB$ <0287.g1:/ D B />`; and they include right angles;
+
+.. assertion:: [I. 4] <I.4>
+
+   therefore the base :g:`$AD$ <0287.g1:/ A D />` is equal to the base :g:`$BE$ <0287.g1:/ B E />`.
+
+.. subclause::
+
+   And, since :g:`$AB$ <0287.g1:/ A B />` is equal to :g:`$DE$ <0287.g1:/ D E />`, while :g:`$AD$ <0287.g1:/ A D />` is also equal to :g:`$BE$ <0287.g1:/ B E />`, the two sides :g:`$AB$ <0287.g1:/ A B />`, :g:`$BE$ <0287.g1:/ B E />` are equal to the two sides :g:`$ED$ <0287.g1:/ E D />`, :g:`$DA$ <0287.g1:/ D A />`; and :g:`$AE$ <0287.g1:/ A E />` is their common base;
+
+.. assertion:: [I. 8] <I.8>
+
+   therefore the angle :g:`$ABE$ <0287.g1:< A B E )>` is equal to the angle :g:`$EDA$ <0287.g1:< E D A )>`.
+
+.. _folio-iii-0288:
+
+.. folio:: 0288
+   :page: 284
+
+.. subclause::
+
+   But the angle :g:`$ABE$ <0287.g1:< A B E )>` is right;
+
+.. assertion::
+
+   therefore the angle :g:`$EDA$ <0287.g1:< E D A )>` is also right; therefore :g:`$ED$ <0287.g1:/ E D />` is at right angles to :g:`$DA$ <0287.g1:/ D A />`.
+
+.. subclause::
+
+   But it is also at right angles to each of the straight lines :g:`$BD$ <0287.g1:/ B D />`, :g:`$DC$ <0287.g1:/ D C />`;
+
+.. assertion::
+
+   therefore :g:`$ED$ <0287.g1:/ E D />` is set up at right angles to the three straight lines :g:`$BD$ <0287.g1:/ B D />`, :g:`$DA$ <0287.g1:/ D A />`, :g:`$DC$ <0287.g1:/ D C />` at their point of meeting; therefore the three straight lines :g:`$BD$ <0287.g1:/ B D />`, :g:`$DA$ <0287.g1:/ D A />`, :g:`$DC$ <0287.g1:/ D C />` are in one plane. :just:`[XI. 5] <XI.5>`
+
+.. subclause::
+
+   But, in whatever plane :g:`$DB$ <0287.g1:/ D B />`, :g:`$DA$ <0287.g1:/ D A />` are, in that plane is :g:`$AB$ <0287.g1:/ A B />` also, for every triangle is in one plane; :just:`[XI. 2] <XI.2>`
+
+.. assertion::
+
+   therefore the straight lines :g:`$AB$ <0287.g1:/ A B />`, :g:`$BD$ <0287.g1:/ B D />`, :g:`$DC$ <0287.g1:/ D C />` are in one plane.
+
+.. subclause::
+
+   And each of the angles :g:`$ABD$ <0287.g1:< A B D )>`, :g:`$BDC$ <0287.g1:< B D C )>` is right;
+
+.. assertion:: [I. 28] <I.28>
+
+   therefore :g:`$AB$ <0287.g1:/ A B />` is parallel to :g:`$CD$ <0287.g1:/ C D />`.
+
+.. qed::
+
+   Therefore etc. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition XI.6 <XI.6.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

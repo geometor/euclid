@@ -5,7 +5,10 @@ geometor.euclid.folio_review
 
 .. autoapi-nested-parse::
 
-   Euclid folio review Flask application.
+   Euclid Folio Review & Vetting Web Application.
+
+   Delegates to the canonical `photon_platform.publish.folio_review` package,
+   defaulting to `resources/heath` when invoked from `geometor.euclid`.
 
 
 
@@ -17,6 +20,7 @@ Submodules
 
    /modules/api/geometor/euclid/folio_review/app/index
    /modules/api/geometor/euclid/folio_review/reviews/index
+   /modules/api/geometor/euclid/folio_review/rst_utils/index
    /modules/api/geometor/euclid/folio_review/scanner/index
 
 
@@ -25,8 +29,8 @@ Classes
 
 .. autoapisummary::
 
-   geometor.euclid.folio_review.FolioScanner
    geometor.euclid.folio_review.ReviewManager
+   geometor.euclid.folio_review.FolioScanner
 
 
 Functions
@@ -41,89 +45,29 @@ Functions
 Package Contents
 ----------------
 
-.. py:function:: create_app(heath_dir: Optional[pathlib.Path] = None, reviews_path: Optional[pathlib.Path] = None) -> flask.Flask
+.. py:function:: create_app(root_dir: Optional[pathlib.Path] = None, project_title: Optional[str] = 'GEOMETOR Euclid', edition_label: Optional[str] = 'Heath')
 
-   Create and configure the Flask application.
-
-
-.. py:function:: main()
-
-   Run review application CLI entrypoint.
+   Create and configure the Flask review application for Euclid.
 
 
-.. py:class:: FolioScanner(root_dir: Optional[pathlib.Path] = None)
+.. py:function:: main() -> None
 
-   Scans and indexes folios from resources/heath/.
-
-
-   .. py:method:: refresh(force: bool = False) -> None
-
-      Refresh index from disk if TTL expired or forced.
-
-
-
-   .. py:method:: get_stats() -> Dict[str, Any]
-
-      Return aggregate statistics across all volumes.
-
-
-
-   .. py:method:: get_volumes() -> List[Dict[str, Any]]
-
-      Return list of volumes.
-
-
-
-   .. py:method:: get_sections(volume_id: Optional[str] = None) -> List[str]
-
-      Return list of section relative paths.
-
-
-
-   .. py:method:: get_folios(volume_id: Optional[str] = None, section: Optional[str] = None, filter_status: Optional[str] = None, search_query: Optional[str] = None) -> List[Dict[str, Any]]
-
-      Filter folios by volume, section, status, or search query.
-
-
-
-   .. py:method:: get_folio(volume_id: str, folio_id: str) -> Optional[Dict[str, Any]]
-
-      Retrieve full details of a specific folio.
-
-
-
-   .. py:method:: get_adjacent_folios(volume_id: str, folio_id: str, section: Optional[str] = None) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]]
-
-      Return (previous_folio, next_folio) within volume or section.
-
+   CLI entry point for `euclid-review`.
 
 
 .. py:class:: ReviewManager(storage_path: Optional[pathlib.Path] = None)
 
-   Manages reading and writing vetting / review records for folios.
+   Bases: :py:obj:`photon_platform.publish.folio_review.reviews.ReviewManager`
 
 
-   .. py:method:: get_review(volume: str, folio: str) -> Dict[str, Any]
-
-      Get review record for a specific folio, returning default if unreviewed.
+   ReviewManager defaulting to `resources/heath/folio_reviews.json` in `geometor.euclid`.
 
 
+.. py:class:: FolioScanner(root_dir: Optional[pathlib.Path] = None)
 
-   .. py:method:: set_review(volume: str, folio: str, status: str, checklist: Optional[Dict[str, bool]] = None, notes: str = '', reviewer: Optional[str] = 'phi') -> Dict[str, Any]
-
-      Save or update review record for a specific folio.
-
+   Bases: :py:obj:`photon_platform.publish.folio_review.scanner.FolioScanner`
 
 
-   .. py:method:: get_all_reviews() -> Dict[str, Dict[str, Any]]
-
-      Return all stored reviews.
-
-
-
-   .. py:method:: get_review_stats() -> Dict[str, int]
-
-      Return count breakdown of review statuses.
-
+   FolioScanner defaulting to `resources/heath` in `geometor.euclid`.
 
 

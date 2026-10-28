@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486 320" width="486" height="320" class="euclid-graphic" data-graphic-id="0340.g2" data-folio="0340" data-graphic="g2" data-proposition="XI.30">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-dashed {
+      stroke: #000000;
+      stroke-width: 1.6;
+      stroke-dasharray: 4,3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.03;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements (Three Parallelepipeds and Produced Dashed Lines) -->
+  <g id="elements">
+    <!-- 1. Left Oblique Parallelepiped ABCD-EFGH -->
+    <line id="el-H-G" x1="116" y1="30" x2="208" y2="30" class="geom-line" />
+    <line id="el-G-F" x1="208" y1="30" x2="158" y2="76" class="geom-line" />
+    <line id="el-F-E" x1="158" y1="76" x2="66" y2="76" class="geom-line" />
+    <line id="el-E-H" x1="66" y1="76" x2="116" y2="30" class="geom-line" />
+
+    <line id="el-A-B" x1="26" y1="154" x2="118" y2="154" class="geom-line" />
+    <line id="el-B-C" x1="118" y1="154" x2="168" y2="108" class="geom-line" />
+    <line id="el-C-D" x1="168" y1="108" x2="76" y2="108" class="geom-dashed" />
+    <line id="el-D-A" x1="76" y1="108" x2="26" y2="154" class="geom-dashed" />
+
+    <line id="el-A-E" x1="26" y1="154" x2="66" y2="76" class="geom-line" />
+    <line id="el-B-F" x1="118" y1="154" x2="158" y2="76" class="geom-line" />
+    <line id="el-C-G" x1="168" y1="108" x2="208" y2="30" class="geom-line" />
+    <line id="el-D-H" x1="76" y1="108" x2="116" y2="30" class="geom-dashed" />
+
+    <!-- Horizontal Produced Dashed Lines -->
+    <line id="el-prod-GHp" x1="208" y1="30" x2="372" y2="30" class="geom-dashed" />
+    <line id="el-prod-FEp" x1="158" y1="76" x2="355" y2="76" class="geom-dashed" />
+    <line id="el-prod-CDp" x1="168" y1="108" x2="368" y2="108" class="geom-dashed" />
+    <line id="el-prod-BAp" x1="118" y1="154" x2="351" y2="154" class="geom-dashed" />
+
+    <!-- 2. Upper-Right Intermediate Parallelepiped A'B'C'D'-E'F'G'H' -->
+    <line id="el-Hp-Gp" x1="372" y1="30" x2="464" y2="30" class="geom-line" />
+    <line id="el-Gp-Fp" x1="464" y1="30" x2="447" y2="76" class="geom-line" />
+    <line id="el-Fp-Ep" x1="447" y1="76" x2="355" y2="76" class="geom-line" />
+    <line id="el-Ep-Hp" x1="355" y1="76" x2="372" y2="30" class="geom-line" />
+
+    <line id="el-Ap-Bp" x1="351" y1="154" x2="443" y2="154" class="geom-line" />
+    <line id="el-Bp-Cp" x1="443" y1="154" x2="460" y2="108" class="geom-line" />
+    <line id="el-Cp-Dp" x1="460" y1="108" x2="368" y2="108" class="geom-dashed" />
+    <line id="el-Dp-Ap" x1="368" y1="108" x2="351" y2="154" class="geom-dashed" />
+
+    <line id="el-Ap-Ep" x1="351" y1="154" x2="355" y2="76" class="geom-line" />
+    <line id="el-Bp-Fp" x1="443" y1="154" x2="447" y2="76" class="geom-line" />
+    <line id="el-Cp-Gp" x1="460" y1="108" x2="464" y2="30" class="geom-line" />
+    <line id="el-Dp-Hp" x1="368" y1="108" x2="372" y2="30" class="geom-dashed" />
+
+    <!-- Slanted Produced Dashed Lines to Rectangular Parallelepiped -->
+    <line id="el-prod-EpHpp" x1="355" y1="76" x2="312" y2="184" class="geom-dashed" />
+    <line id="el-prod-FpGpp" x1="447" y1="76" x2="404" y2="184" class="geom-dashed" />
+    <line id="el-prod-ApDpp" x1="351" y1="154" x2="315" y2="244" class="geom-dashed" />
+    <line id="el-prod-BpCpp" x1="443" y1="154" x2="407" y2="244" class="geom-dashed" />
+
+    <!-- 3. Lower-Right Rectangular Parallelepiped A''B''C''D''-E''F''G''H'' -->
+    <line id="el-Hpp-Gpp" x1="312" y1="184" x2="404" y2="184" class="geom-line" />
+    <line id="el-Gpp-Fpp" x1="404" y1="184" x2="385" y2="232" class="geom-line" />
+    <line id="el-Fpp-Epp" x1="385" y1="232" x2="293" y2="232" class="geom-line" />
+    <line id="el-Epp-Hpp" x1="293" y1="232" x2="312" y2="184" class="geom-line" />
+
+    <line id="el-App-Bpp" x1="296" y1="292" x2="388" y2="292" class="geom-line" />
+    <line id="el-Bpp-Cpp" x1="388" y1="292" x2="407" y2="244" class="geom-line" />
+    <line id="el-Cpp-Dpp" x1="407" y1="244" x2="315" y2="244" class="geom-dashed" />
+    <line id="el-Dpp-App" x1="315" y1="244" x2="296" y2="292" class="geom-dashed" />
+
+    <line id="el-App-Epp" x1="296" y1="292" x2="293" y2="232" class="geom-line" />
+    <line id="el-Bpp-Fpp" x1="388" y1="292" x2="385" y2="232" class="geom-line" />
+    <line id="el-Cpp-Gpp" x1="407" y1="244" x2="404" y2="184" class="geom-line" />
+    <line id="el-Dpp-Hpp" x1="315" y1="244" x2="312" y2="184" class="geom-dashed" />
+  </g>
+
+  <!-- Constructed Graphics (Faces and Segments Referenced in 0340.md & 0341.md) -->
+  <g id="graphics">
+    <!-- Faces A'H' and B'G' -->
+    <polygon id="el-face-ApHp" data-ref="&lt; A' D' H' E' &gt;" data-aliases="&lt; A' H' &gt; | &lt; H' A' &gt;" data-type="polygon" points="351,154 368,108 372,30 355,76" class="geom-polygon" />
+    <polygon id="el-face-BpGp" data-ref="&lt; B' C' G' F' &gt;" data-aliases="&lt; B' G' &gt; | &lt; G' B' &gt;" data-type="polygon" points="443,154 460,108 464,30 447,76" class="geom-polygon" />
+
+    <!-- Segments Referenced in 0340.md and 0341.md -->
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="26" y1="154" x2="118" y2="154" class="geom-line" />
+    <line id="el-seg-DC" data-ref="/ D C /" data-aliases="/ C D /" data-type="segment" x1="76" y1="108" x2="168" y2="108" class="geom-dashed" />
+    <line id="el-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" data-type="segment" x1="66" y1="76" x2="158" y2="76" class="geom-line" />
+    <line id="el-seg-HG" data-ref="/ H G /" data-aliases="/ G H /" data-type="segment" x1="116" y1="30" x2="208" y2="30" class="geom-line" />
+
+    <line id="el-seg-ApBp" data-ref="/ A' B' /" data-aliases="/ B' A' /" data-type="segment" x1="351" y1="154" x2="443" y2="154" class="geom-line" />
+    <line id="el-seg-DpAp" data-ref="/ D' A' /" data-aliases="/ A' D' /" data-type="segment" x1="368" y1="108" x2="351" y2="154" class="geom-dashed" />
+    <line id="el-seg-CpBp" data-ref="/ C' B' /" data-aliases="/ B' C' /" data-type="segment" x1="460" y1="108" x2="443" y2="154" class="geom-line" />
+    <line id="el-seg-GpFp" data-ref="/ G' F' /" data-aliases="/ F' G' /" data-type="segment" x1="464" y1="30" x2="447" y2="76" class="geom-line" />
+    <line id="el-seg-HpEp" data-ref="/ H' E' /" data-aliases="/ E' H' /" data-type="segment" x1="372" y1="30" x2="355" y2="76" class="geom-line" />
+    <line id="el-seg-BppCpp" data-ref="/ B'' C'' /" data-aliases="/ C'' B'' /" data-type="segment" x1="388" y1="292" x2="407" y2="244" class="geom-line" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <polygon id="hl-face-ApHp" data-ref="&lt; A' D' H' E' &gt;" data-aliases="&lt; A' H' &gt; | &lt; H' A' &gt;" points="351,154 368,108 372,30 355,76" class="geom-polygon geom-overlay" />
+    <polygon id="hl-face-BpGp" data-ref="&lt; B' C' G' F' &gt;" data-aliases="&lt; B' G' &gt; | &lt; G' B' &gt;" points="443,154 460,108 464,30 447,76" class="geom-polygon geom-overlay" />
+
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" x1="26" y1="154" x2="118" y2="154" class="geom-line geom-overlay" />
+    <line id="hl-seg-DC" data-ref="/ D C /" data-aliases="/ C D /" x1="76" y1="108" x2="168" y2="108" class="geom-line geom-overlay" />
+    <line id="hl-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" x1="66" y1="76" x2="158" y2="76" class="geom-line geom-overlay" />
+    <line id="hl-seg-HG" data-ref="/ H G /" data-aliases="/ G H /" x1="116" y1="30" x2="208" y2="30" class="geom-line geom-overlay" />
+
+    <line id="hl-seg-ApBp" data-ref="/ A' B' /" data-aliases="/ B' A' /" x1="351" y1="154" x2="443" y2="154" class="geom-line geom-overlay" />
+    <line id="hl-seg-DpAp" data-ref="/ D' A' /" data-aliases="/ A' D' /" x1="368" y1="108" x2="351" y2="154" class="geom-line geom-overlay" />
+    <line id="hl-seg-CpBp" data-ref="/ C' B' /" data-aliases="/ B' C' /" x1="460" y1="108" x2="443" y2="154" class="geom-line geom-overlay" />
+    <line id="hl-seg-GpFp" data-ref="/ G' F' /" data-aliases="/ F' G' /" x1="464" y1="30" x2="447" y2="76" class="geom-line geom-overlay" />
+    <line id="hl-seg-HpEp" data-ref="/ H' E' /" data-aliases="/ E' H' /" x1="372" y1="30" x2="355" y2="76" class="geom-line geom-overlay" />
+    <line id="hl-seg-BppCpp" data-ref="/ B'' C'' /" data-aliases="/ C'' B'' /" x1="388" y1="292" x2="407" y2="244" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="26" cy="154" r="3.2" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="118" cy="154" r="3.2" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="168" cy="108" r="3.2" class="geom-point" />
+    <circle id="el-pt-D" data-ref="D" data-type="point" cx="76" cy="108" r="3.2" class="geom-point" />
+    <circle id="el-pt-E" data-ref="E" data-type="point" cx="66" cy="76" r="3.2" class="geom-point" />
+    <circle id="el-pt-F" data-ref="F" data-type="point" cx="158" cy="76" r="3.2" class="geom-point" />
+    <circle id="el-pt-G" data-ref="G" data-type="point" cx="208" cy="30" r="3.2" class="geom-point" />
+    <circle id="el-pt-H" data-ref="H" data-type="point" cx="116" cy="30" r="3.2" class="geom-point" />
+
+    <circle id="el-pt-Ap" data-ref="A'" data-type="point" cx="351" cy="154" r="3.2" class="geom-point" />
+    <circle id="el-pt-Bp" data-ref="B'" data-type="point" cx="443" cy="154" r="3.2" class="geom-point" />
+    <circle id="el-pt-Cp" data-ref="C'" data-type="point" cx="460" cy="108" r="3.2" class="geom-point" />
+    <circle id="el-pt-Dp" data-ref="D'" data-type="point" cx="368" cy="108" r="3.2" class="geom-point" />
+    <circle id="el-pt-Ep" data-ref="E'" data-type="point" cx="355" cy="76" r="3.2" class="geom-point" />
+    <circle id="el-pt-Fp" data-ref="F'" data-type="point" cx="447" cy="76" r="3.2" class="geom-point" />
+    <circle id="el-pt-Gp" data-ref="G'" data-type="point" cx="464" cy="30" r="3.2" class="geom-point" />
+    <circle id="el-pt-Hp" data-ref="H'" data-type="point" cx="372" cy="30" r="3.2" class="geom-point" />
+
+    <circle id="el-pt-App" data-ref="A''" data-type="point" cx="296" cy="292" r="3.2" class="geom-point" />
+    <circle id="el-pt-Bpp" data-ref="B''" data-type="point" cx="388" cy="292" r="3.2" class="geom-point" />
+    <circle id="el-pt-Cpp" data-ref="C''" data-type="point" cx="407" cy="244" r="3.2" class="geom-point" />
+    <circle id="el-pt-Dpp" data-ref="D''" data-type="point" cx="315" cy="244" r="3.2" class="geom-point" />
+    <circle id="el-pt-Epp" data-ref="E''" data-type="point" cx="293" cy="232" r="3.2" class="geom-point" />
+    <circle id="el-pt-Fpp" data-ref="F''" data-type="point" cx="385" cy="232" r="3.2" class="geom-point" />
+    <circle id="el-pt-Gpp" data-ref="G''" data-type="point" cx="404" cy="184" r="3.2" class="geom-point" />
+    <circle id="el-pt-Hpp" data-ref="H''" data-type="point" cx="312" cy="184" r="3.2" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-H" data-ref="H" x="116" y="22" text-anchor="middle" class="geom-label">H</text>
+    <text id="lbl-G" data-ref="G" x="208" y="22" text-anchor="middle" class="geom-label">G</text>
+    <text id="lbl-E" data-ref="E" x="56" y="76" text-anchor="middle" class="geom-label">E</text>
+    <text id="lbl-F" data-ref="F" x="155" y="90" text-anchor="middle" class="geom-label">F</text>
+    <text id="lbl-D" data-ref="D" x="80" y="121" text-anchor="middle" class="geom-label">D</text>
+    <text id="lbl-C" data-ref="C" x="172" y="121" text-anchor="middle" class="geom-label">C</text>
+    <text id="lbl-A" data-ref="A" x="24" y="168" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-B" data-ref="B" x="118" y="168" text-anchor="middle" class="geom-label">B</text>
+
+    <text id="lbl-Hp" data-ref="H'" x="372" y="22" text-anchor="middle" class="geom-label">H'</text>
+    <text id="lbl-Gp" data-ref="G'" x="464" y="22" text-anchor="middle" class="geom-label">G'</text>
+    <text id="lbl-Ep" data-ref="E'" x="347" y="71" text-anchor="middle" class="geom-label">E'</text>
+    <text id="lbl-Fp" data-ref="F'" x="456" y="83" text-anchor="start" class="geom-label">F'</text>
+    <text id="lbl-Dp" data-ref="D'" x="374" y="122" text-anchor="middle" class="geom-label">D'</text>
+    <text id="lbl-Cp" data-ref="C'" x="468" y="120" text-anchor="start" class="geom-label">C'</text>
+    <text id="lbl-Ap" data-ref="A'" x="357" y="168" text-anchor="middle" class="geom-label">A'</text>
+    <text id="lbl-Bp" data-ref="B'" x="452" y="166" text-anchor="start" class="geom-label">B'</text>
+
+    <text id="lbl-Hpp" data-ref="H''" x="301" y="185" text-anchor="end" class="geom-label">H''</text>
+    <text id="lbl-Gpp" data-ref="G''" x="413" y="185" text-anchor="start" class="geom-label">G''</text>
+    <text id="lbl-Epp" data-ref="E''" x="283" y="232" text-anchor="end" class="geom-label">E''</text>
+    <text id="lbl-Fpp" data-ref="F''" x="394" y="230" text-anchor="start" class="geom-label">F''</text>
+    <text id="lbl-Dpp" data-ref="D''" x="322" y="257" text-anchor="middle" class="geom-label">D''</text>
+    <text id="lbl-Cpp" data-ref="C''" x="416" y="255" text-anchor="start" class="geom-label">C''</text>
+    <text id="lbl-App" data-ref="A''" x="296" y="307" text-anchor="middle" class="geom-label">A''</text>
+    <text id="lbl-Bpp" data-ref="B''" x="391" y="307" text-anchor="middle" class="geom-label">B''</text>
+  </g>
+</svg>

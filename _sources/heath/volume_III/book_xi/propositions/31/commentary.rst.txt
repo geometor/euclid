@@ -1,0 +1,76 @@
+:canonical_id: XI.31.commentary
+:volume: III
+:book: XI
+:proposition: 31
+:type: commentary
+:title: Commentary on Proposition XI.31
+:folios: 0344, 0345
+:pages: 340, 341
+
+.. _XI.31.commentary:
+
+Commentary on Proposition XI.31
+===============================
+
+Back to :ref:`Proposition XI.31 <XI.31>`.
+
+.. folio:: 0344
+   :page: 340
+
+It is interesting to observe that, in the figure of this proposition, the bases are represented as lying “in the plane of the paper,” as it were, and the third dimension as “standing up” from that plane. The figure is that of the manuscript P slightly corrected as regards the solid :g:`$AE$ <0343.g1:< A E >>`.
+
+Nothing could well be more ingenious than the proof of this proposition, which recalls the brilliant proposition I. 44 and the proofs of VI. 14 and 23.
+
+As the proof occupies considerable space in the text, it will no doubt be well to give a summary.
+
+I. First, suppose that the edges terminating at the angular points of the bases are perpendicular to the bases.
+
+:g:`$AB$ <0343.g1:< A B >>`, :g:`$CD$ <0343.g1:< C D >>` being the bases, Euclid constructs a solid identically equal to :g:`$AE$ <0343.g1:< A E >>` (he might simply have moved :g:`$AE$ <0343.g1:< A E >>` itself), placing it so that :g:`$RS$ <0343.g1:/ R S />` is the edge corresponding to :g:`$HK$ <0343.g1:/ H K />` (:g:`$RS$ <0343.g1:/ R S />` = :g:`$HK$ <0343.g1:/ H K />` because the heights are equal), and the face :g:`$RX$ <0343.g1:< R X >>` corresponding to :g:`$HE$ <0343.g1:< H E >>` is in the plane of :g:`$CS$ <0343.g1:< C S >>`.
+
+The faces :g:`$CD$ <0343.g1:< C D >>`, :g:`$RW$ <0343.g1:< R W >>` are in one plane because both are perpendicular to :g:`$RS$ <0343.g1:/ R S />`. Thus :g:`$DR$ <0343.g1:/ D R />`, :g:`$WU$ <0343.g1:/ W U />` meet, if produced, in :g:`$Y$ <0343.g1:Y>` say.
+
+Complete the parallelograms :g:`$YT$ <0343.g1:< Y T >>`, :g:`$DT$ <0343.g1:< D T >>` and the solids :g:`$YX$ <0343.g1:< Y X >>`, :g:`$RI$ <0343.g1:< R I >>`.
+
+Then
+
+$$\text{(solid } YX\text{)} = \text{(solid } UX\text{)},$$
+
+because they are on the same base :g:`$ST$ <0343.g1:< S T >>` and of the same height. :just:`[XI. 29] <XI.29>`
+
+Also, :g:`$CI$ <0343.g1:< C I >>`, :g:`$YI$ <0343.g1:< Y I >>` being parallelepipeds cut by planes :g:`$RF$ <0343.g1:< R F >>`, :g:`$RX$ <0343.g1:< R X >>` parallel to pairs of opposite faces respectively,
+
+$$\text{(solid } CF\text{)} : \text{(solid } RI\text{)} = \Box CD : \Box DT, \quad \text{[XI. 25]}$$
+
+and
+
+$$\text{(solid } YX\text{)} : \text{(solid } RI\text{)} = \Box YT : \Box DT.$$
+
+But [I. 35]
+
+$$\begin{aligned}
+\Box YT &= \Box UT \\
+&= \Box AB \\
+&= \Box CD\text{, by hypothesis.}
+\end{aligned}$$
+
+Therefore
+
+$$\begin{aligned}
+\text{(solid } CF\text{)} &= \text{(solid } YX\text{)} \\
+&= \text{(solid } UX\text{)} \\
+&= \text{(solid } AE\text{)}.
+\end{aligned}$$
+
+II. If the edges terminating at the base are *not* perpendicular to it, turn each solid into an equivalent one on the same base with edges perpendicular to it (by drawing four perpendiculars from the angular points of the base to the plane of the opposite face). (XI. 29, 30 prove the equivalence.)
+
+Then the equivalent solids are equal, by Part I.; so that the original solids are also equal.
+
+:person:`Simson <simson>` observes that Euclid has made no mention of the case in which the bases of the two solids are *equiangular*, and he prefixes this case to Part I. in the text. This is surely unnecessary, as Part I. covers it well enough : the only difference in the figure is that :g:`$UW$ <0343.g1:/ U W />` would coincide with :g:`$Yb$ <0343.g1:/ Y b />` and :g:`$dV$ <0343.g1:/ d V />` with :g:`$ec$ <0343.g1:/ e c />`.
+
+:person:`Simson <simson>` further remarks that in the demonstration of Part II. it is not proved that the new solids constructed in the manner described are parallelepipeds. The proof is, however, so simple that it scarcely needed insertion
+into the text. He is correct in his remark that the words “while the extremities of their sides which stand up are not on the same straight lines” just before the end of the proposition would be better absent, since they *may* be “on the same straight lines.”
+
+.. _folio-iii-0345:
+
+.. folio:: 0345
+   :page: 341

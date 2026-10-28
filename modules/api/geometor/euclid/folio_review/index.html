@@ -1,15 +1,18 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-content_root="../../../../../">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>geometor.euclid.folio_review &mdash; Project name not set  documentation</title>
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=38c7a96b" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=941b5149" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="../../../../../_static/favicon.ico" />
 </head>
@@ -34,13 +37,13 @@
           <a href="../../../../../mission/index.html"  >mission</a>
         </li>
         <li>
-          <a href="../../../../../usage/index.html"  >usage</a>
-        </li>
-        <li>
-          <a href="../../../../../heath/index.html"  >Heath</a>
+          <a href="../../../../../heath/index.html"  >Heath Edition</a>
         </li>
         <li>
           <a href="../../../../../log/index.html"  >logs</a>
+        </li>
+        <li>
+          <a href="../../../../../usage/index.html"  >usage</a>
         </li>
         <li>
           <a href="../../../../index.html"  >modules</a>
@@ -65,143 +68,82 @@
       </nav>
         <nav class="context">
           <div class="prev">
-             <a href="../__main__/index.html" title="geometor.euclid.__main__" >Prev</a>
+             <a href="../compile_edition/index.html" title="geometor.euclid.compile_edition" >Prev</a>
           </div>
           <div class="next">
             <a href="app/index.html" title="geometor.euclid.folio_review.app" >Next</a>
           </div>
         </nav>
       </header>
-      <div class="content">
-        <section id="module-geometor.euclid.folio_review">
+      <div class="content body" role="main">
+        <section class="level-1" id="module-geometor.euclid.folio_review">
           <span id="geometor-euclid-folio-review"></span><h1>geometor.euclid.folio_review<a class="headerlink" href="#module-geometor.euclid.folio_review" title="Link to this heading">¶</a></h1>
-          <p>Euclid folio review Flask application.</p>
-          <section id="submodules">
+          <p>Euclid Folio Review &amp; Vetting Web Application.</p>
+          <p>Delegates to the canonical <cite>photon_platform.publish.folio_review</cite> package,
+          defaulting to <cite>resources/heath</cite> when invoked from <cite>geometor.euclid</cite>.</p>
+          <section class="level-2" id="submodules">
           <h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
           <div class="toctree-wrapper compound">
           <ul>
           <li class="toctree-l1"><a class="reference internal" href="app/index.html">geometor.euclid.folio_review.app</a></li>
           <li class="toctree-l1"><a class="reference internal" href="reviews/index.html">geometor.euclid.folio_review.reviews</a></li>
+          <li class="toctree-l1"><a class="reference internal" href="rst_utils/index.html">geometor.euclid.folio_review.rst_utils</a></li>
           <li class="toctree-l1"><a class="reference internal" href="scanner/index.html">geometor.euclid.folio_review.scanner</a></li>
           </ul>
           </div>
           </section>
-          <section id="classes">
+          <section class="level-2" id="classes">
           <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.FolioScanner" title="geometor.euclid.folio_review.FolioScanner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FolioScanner</span></code></a></p></td>
-          <td><p>Scans and indexes folios from resources/heath/.</p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.ReviewManager" title="geometor.euclid.folio_review.ReviewManager"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ReviewManager</span></code></a></p></td>
+          <td><p>ReviewManager defaulting to <cite>resources/heath/folio_reviews.json</cite> in <cite>geometor.euclid</cite>.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.ReviewManager" title="geometor.euclid.folio_review.ReviewManager"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ReviewManager</span></code></a></p></td>
-          <td><p>Manages reading and writing vetting / review records for folios.</p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.FolioScanner" title="geometor.euclid.folio_review.FolioScanner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FolioScanner</span></code></a></p></td>
+          <td><p>FolioScanner defaulting to <cite>resources/heath</cite> in <cite>geometor.euclid</cite>.</p></td>
           </tr>
           </tbody>
           </table>
           </section>
-          <section id="functions">
+          <section class="level-2" id="functions">
           <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
           <table class="autosummary longtable docutils align-default">
           <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.create_app" title="geometor.euclid.folio_review.create_app"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_app</span></code></a>(→ flask.Flask)</p></td>
-          <td><p>Create and configure the Flask application.</p></td>
+          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.create_app" title="geometor.euclid.folio_review.create_app"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_app</span></code></a>([root_dir, project_title, edition_label])</p></td>
+          <td><p>Create and configure the Flask review application for Euclid.</p></td>
           </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.main" title="geometor.euclid.folio_review.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>()</p></td>
-          <td><p>Run review application CLI entrypoint.</p></td>
+          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.folio_review.main" title="geometor.euclid.folio_review.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>(→ None)</p></td>
+          <td><p>CLI entry point for <cite>euclid-review</cite>.</p></td>
           </tr>
           </tbody>
           </table>
           </section>
-          <section id="package-contents">
+          <section class="level-2" id="package-contents">
           <h2>Package Contents<a class="headerlink" href="#package-contents" title="Link to this heading">¶</a></h2>
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.folio_review.create_app">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">create_app</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">heath_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reviews_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">flask.Flask</span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.create_app" title="Link to this definition">¶</a></dt>
-          <dd><p>Create and configure the Flask application.</p>
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">create_app</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'GEOMETOR</span> <span class="pre">Euclid'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edition_label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'Heath'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.folio_review.create_app" title="Link to this definition">¶</a></dt>
+          <dd><p>Create and configure the Flask review application for Euclid.</p>
           </dd></dl>
 
           <dl class="py function">
           <dt class="sig sig-object py" id="geometor.euclid.folio_review.main">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.folio_review.main" title="Link to this definition">¶</a></dt>
-          <dd><p>Run review application CLI entrypoint.</p>
-          </dd></dl>
-
-          <dl class="py class">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner">
-          <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">FolioScanner</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner" title="Link to this definition">¶</a></dt>
-          <dd><p>Scans and indexes folios from resources/heath/.</p>
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.refresh">
-          <span class="sig-name descname"><span class="pre">refresh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.refresh" title="Link to this definition">¶</a></dt>
-          <dd><p>Refresh index from disk if TTL expired or forced.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.get_stats">
-          <span class="sig-name descname"><span class="pre">get_stats</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.get_stats" title="Link to this definition">¶</a></dt>
-          <dd><p>Return aggregate statistics across all volumes.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.get_volumes">
-          <span class="sig-name descname"><span class="pre">get_volumes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.get_volumes" title="Link to this definition">¶</a></dt>
-          <dd><p>Return list of volumes.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.get_sections">
-          <span class="sig-name descname"><span class="pre">get_sections</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.get_sections" title="Link to this definition">¶</a></dt>
-          <dd><p>Return list of section relative paths.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.get_folios">
-          <span class="sig-name descname"><span class="pre">get_folios</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filter_status</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">search_query</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.get_folios" title="Link to this definition">¶</a></dt>
-          <dd><p>Filter folios by volume, section, status, or search query.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.get_folio">
-          <span class="sig-name descname"><span class="pre">get_folio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">folio_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.get_folio" title="Link to this definition">¶</a></dt>
-          <dd><p>Retrieve full details of a specific folio.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner.get_adjacent_folios">
-          <span class="sig-name descname"><span class="pre">get_adjacent_folios</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">folio_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner.get_adjacent_folios" title="Link to this definition">¶</a></dt>
-          <dd><p>Return (previous_folio, next_folio) within volume or section.</p>
-          </dd></dl>
-
+          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span></span><a class="headerlink" href="#geometor.euclid.folio_review.main" title="Link to this definition">¶</a></dt>
+          <dd><p>CLI entry point for <cite>euclid-review</cite>.</p>
           </dd></dl>
 
           <dl class="py class">
           <dt class="sig sig-object py" id="geometor.euclid.folio_review.ReviewManager">
           <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">ReviewManager</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">storage_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.folio_review.ReviewManager" title="Link to this definition">¶</a></dt>
-          <dd><p>Manages reading and writing vetting / review records for folios.</p>
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.ReviewManager.get_review">
-          <span class="sig-name descname"><span class="pre">get_review</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">folio</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.ReviewManager.get_review" title="Link to this definition">¶</a></dt>
-          <dd><p>Get review record for a specific folio, returning default if unreviewed.</p>
+          <dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">photon_platform.publish.folio_review.reviews.ReviewManager</span></code></p>
+          <p>ReviewManager defaulting to <cite>resources/heath/folio_reviews.json</cite> in <cite>geometor.euclid</cite>.</p>
           </dd></dl>
 
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.ReviewManager.set_review">
-          <span class="sig-name descname"><span class="pre">set_review</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">volume</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">folio</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">status</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">checklist</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">notes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reviewer</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'phi'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.ReviewManager.set_review" title="Link to this definition">¶</a></dt>
-          <dd><p>Save or update review record for a specific folio.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.ReviewManager.get_all_reviews">
-          <span class="sig-name descname"><span class="pre">get_all_reviews</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.ReviewManager.get_all_reviews" title="Link to this definition">¶</a></dt>
-          <dd><p>Return all stored reviews.</p>
-          </dd></dl>
-
-          <dl class="py method">
-          <dt class="sig sig-object py" id="geometor.euclid.folio_review.ReviewManager.get_review_stats">
-          <span class="sig-name descname"><span class="pre">get_review_stats</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.folio_review.ReviewManager.get_review_stats" title="Link to this definition">¶</a></dt>
-          <dd><p>Return count breakdown of review statuses.</p>
-          </dd></dl>
-
+          <dl class="py class">
+          <dt class="sig sig-object py" id="geometor.euclid.folio_review.FolioScanner">
+          <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.euclid.folio_review.</span></span><span class="sig-name descname"><span class="pre">FolioScanner</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometor.euclid.folio_review.FolioScanner" title="Link to this definition">¶</a></dt>
+          <dd><p>Bases: <code class="xref py py-obj docutils literal notranslate"><span class="pre">photon_platform.publish.folio_review.scanner.FolioScanner</span></code></p>
+          <p>FolioScanner defaulting to <cite>resources/heath</cite> in <cite>geometor.euclid</cite>.</p>
           </dd></dl>
 
           </section>
@@ -212,7 +154,7 @@
 
         <nav class="context">
           <div class="prev">
-             <a href="../__main__/index.html" title="geometor.euclid.__main__" >Prev</a>
+             <a href="../compile_edition/index.html" title="geometor.euclid.compile_edition" >Prev</a>
           </div>
           <div class="next">
             <a href="app/index.html" title="geometor.euclid.folio_review.app" >Next</a>
@@ -222,40 +164,46 @@
     </article>
   </main>
   <div class="asides">
-    <aside>
+    <aside class="aside-search">
       <h3>Search</h3>
-      <div role="search">
-        <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
-          <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
           <input type="hidden" name="check_keywords" value="yes" />
           <input type="hidden" name="area" value="default" />
         </form>
       </div>
     </aside>
-    <aside class="aside-tags">
-      <h3>Tags</h3>
-      <ul>
-        <li><a href="../../../../../tags/circle.html">circle</a></li>
-        <li><a href="../../../../../tags/line.html">line</a></li>
-        <li><a href="../../../../../tags/triangle.html">triangle</a></li>
-      </ul>
-    </aside>
-    <aside class="aside-categories">
-      <h3>Categories</h3>
-      <ul>
-        <li><a href="../../../../../categories/bisect.html">bisect</a></li>
-        <li><a href="../../../../../categories/construct.html">construct</a></li>
-        <li><a href="../../../../../categories/describe.html">describe</a></li>
-      </ul>
-    </aside>
     <aside class="aside-types">
       <h3>Types</h3>
       <ul>
+        <li><a href="../../../../../types/apparatus.html">apparatus</a></li>
+        <li><a href="../../../../../types/appendix.html">appendix</a></li>
         <li><a href="../../../../../types/book.html">book</a></li>
-        <li><a href="../../../../../types/cn.html">cn</a></li>
-        <li><a href="../../../../../types/def.html">def</a></li>
-        <li><a href="../../../../../types/post.html">post</a></li>
-        <li><a href="../../../../../types/prop.html">prop</a></li>
+        <li><a href="../../../../../types/chapter.html">chapter</a></li>
+        <li><a href="../../../../../types/commentary.html">commentary</a></li>
+        <li><a href="../../../../../types/common_notions.html">common_notions</a></li>
+        <li><a href="../../../../../types/contents.html">contents</a></li>
+        <li><a href="../../../../../types/definitions.html">definitions</a></li>
+        <li><a href="../../../../../types/excursus.html">excursus</a></li>
+        <li><a href="../../../../../types/frontmatter.html">frontmatter</a></li>
+        <li><a href="../../../../../types/historical_note.html">historical_note</a></li>
+        <li><a href="../../../../../types/index.html">index</a></li>
+        <li><a href="../../../../../types/introduction.html">introduction</a></li>
+        <li><a href="../../../../../types/introductory_note.html">introductory_note</a></li>
+        <li><a href="../../../../../types/postulates.html">postulates</a></li>
+        <li><a href="../../../../../types/preface.html">preface</a></li>
+        <li><a href="../../../../../types/proposition.html">proposition</a></li>
+        <li><a href="../../../../../types/section.html">section</a></li>
+        <li><a href="../../../../../types/volume.html">volume</a></li>
       </ul>
     </aside>
   </div>
@@ -283,6 +231,8 @@
   <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=524d80a8"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
 
 </body>
 </html>

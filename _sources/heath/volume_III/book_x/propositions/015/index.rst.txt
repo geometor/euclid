@@ -1,0 +1,71 @@
+:canonical_id: X.15
+:volume: III
+:book: X
+:proposition: 15
+:type: proposition
+:title: Proposition X.15
+:folios: 0043
+:pages: 39
+:dependencies: X.def.1
+
+.. _X.15:
+
+.. _folio-iii-0043:
+
+.. folio:: 0043
+   :page: 39
+
+PROPOSITION 15.
+===============
+
+.. enunciation::
+
+   If two commensurable magnitudes be added together, the whole will also be commensurable with each of them; and, if the whole be commensurable with one of them, the original magnitudes will also be commensurable.
+
+For let the two commensurable magnitudes :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />` be added together; I say that the whole :g:`$AC$ <0043.g1:/ A C />` is also commensurable with each of the magnitudes :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />`.
+
+.. picture:: 0043.g1.svg
+   :alt: Proposition 15 Diagram
+
+For, since :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />` are commensurable, some magnitude will measure them. Let it measure them, and let it be :g:`$D$ <0043.g1:D>`.
+
+.. assertion::
+
+   Since then :g:`$D$ <0043.g1:D>` measures :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />`, it will also measure the whole :g:`$AC$ <0043.g1:/ A C />`.
+
+.. subclause::
+
+   But it measures :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />` also;
+
+.. assertion::
+
+   therefore :g:`$D$ <0043.g1:D>` measures :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />`, :g:`$AC$ <0043.g1:/ A C />`; therefore :g:`$AC$ <0043.g1:/ A C />` is commensurable with each of the magnitudes :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />`. :just:`[X. Def. 1] <X.def.1>`
+
+Next, let :g:`$AC$ <0043.g1:/ A C />` be commensurable with :g:`$AB$ <0043.g1:/ A B />`; I say that :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />` are also commensurable.
+
+For, since :g:`$AC$ <0043.g1:/ A C />`, :g:`$AB$ <0043.g1:/ A B />` are commensurable, some magnitude will measure them. Let it measure them, and let it be :g:`$D$ <0043.g1:D>`.
+
+.. assertion::
+
+   Since then :g:`$D$ <0043.g1:D>` measures :g:`$CA$ <0043.g1:/ A C />`, :g:`$AB$ <0043.g1:/ A B />`, it will also measure the remainder :g:`$BC$ <0043.g1:/ B C />`.
+
+.. subclause::
+
+   But it measures :g:`$AB$ <0043.g1:/ A B />` also;
+
+.. assertion::
+
+   therefore :g:`$D$ <0043.g1:D>` will measure :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />`; therefore :g:`$AB$ <0043.g1:/ A B />`, :g:`$BC$ <0043.g1:/ B C />` are commensurable. :just:`[X. Def. 1] <X.def.1>`
+
+.. qed::
+
+   Therefore etc.
+
+----
+
+See :ref:`Commentary on Proposition X.15 <X.15.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

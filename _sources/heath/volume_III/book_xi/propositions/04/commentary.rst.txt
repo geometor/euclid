@@ -1,0 +1,138 @@
+:canonical_id: XI.4.commentary
+:volume: III
+:book: XI
+:proposition: 4
+:type: commentary
+:title: Commentary on Proposition XI.4
+:folios: 0283, 0284, 0285
+:pages: 279, 280, 281
+
+.. _XI.4.commentary:
+
+Commentary on Proposition XI.4
+==============================
+
+Back to :ref:`Proposition XI.4 <XI.4>`.
+
+.. folio:: 0283
+   :page: 279
+
+The steps to be successively proved in order to establish this proposition by Euclid's method are
+
+(1) triangles :g:`$AED$ <0282.g1:< A E D >>`, :g:`$BEC$ <0282.g1:< B E C >>` equal in all respects, :just:`[by I. 4]`
+
+(2) triangles :g:`$AEG$ <0282.g1:< A E G >>`, :g:`$BEH$ <0282.g1:< B E H >>` equal in all respects, :just:`[by I. 26]` so that :g:`$AG$ <0282.g1:/ A G />` is equal to :g:`$BH$ <0282.g1:/ B H />`, and :g:`$GE$ <0282.g1:/ G E />` to :g:`$EH$ <0282.g1:/ E H />`,
+
+(3) triangles :g:`$AEF$ <0282.g1:< A E F >>`, :g:`$BEF$ <0282.g1:< B E F >>` equal in all respects, :just:`[I. 4] <I.4>` so that :g:`$AF$ <0282.g1:/ A F />` is equal to :g:`$BF$ <0282.g1:/ B F />`,
+
+(4) likewise triangles :g:`$CEF$ <0282.g1:< C E F >>`, :g:`$DEF$ <0282.g1:< D E F >>`, so that :g:`$CF$ <0282.g1:/ C F />` is equal to :g:`$DF$ <0282.g1:/ D F />`,
+
+(5) triangles :g:`$FAD$ <0282.g1:< F A D >>`, :g:`$FBC$ <0282.g1:< F B C >>` equal in all respects, :just:`[I. 8] <I.8>` so that the angles :g:`$FAG$ <0282.g1:< F A G )>`, :g:`$FBH$ <0282.g1:< F B H )>` are equal, (6) triangles :g:`$FAG$ <0282.g1:< F A G >>`, :g:`$FBH$ <0282.g1:< F B H >>` equal in all respects, :just:`[by (2), (3), (5) and I. 4]` so that :g:`$FG$ <0282.g1:/ F G />` is equal to :g:`$FH$ <0282.g1:/ F H />`,
+
+.. _folio-iii-0284:
+
+.. folio:: 0284
+   :page: 280
+
+(7) triangles :g:`$FEG$ <0282.g1:< F E G >>`, :g:`$FEH$ <0282.g1:< F E H >>` equal in all respects, :just:`[by (2), (6) and I. 8]` so that the angles :g:`$FEG$ <0282.g1:< F E G )>`, :g:`$FEH$ <0282.g1:< F E H )>` are equal, and therefore :g:`$FE$ <0282.g1:/ F E />` is at right angles to :g:`$GH$ <0282.g1:/ G H />`.
+
+In consequence of the length of the above proof others have been suggested, and the proof which now finds most general acceptance is that of :person:`Cauchy <cauchy>`, which is as follows.
+
+Let :g:`$AB$ <0284.g1:/ A B />` be perpendicular to two straight lines :g:`$BC$ <0284.g1:/ B C />`, :g:`$BD$ <0284.g1:/ B D />` in the plane :g:`$MN$ <0284.g1:< M N >>` at their point of intersection :g:`$B$ <0284.g1:B>`. In the plane :g:`$MN$ <0284.g1:< M N >>` draw :g:`$BE$ <0284.g1:/ B E />`, any straight line through :g:`$B$ <0284.g1:B>`. Join :g:`$CD$ <0284.g1:/ C D />`, and let :g:`$CD$ <0284.g1:/ C D />` meet :g:`$BE$ <0284.g1:/ B E />` in :g:`$E$ <0284.g1:E>`. Produce :g:`$AB$ <0284.g1:[ A B ]>` to :g:`$F$ <0284.g1:F>` so that :g:`$BF$ <0284.g1:/ B F />` is equal to :g:`$AB$ <0284.g1:/ A B />`. Join :g:`$AC$ <0284.g1:/ A C />`, :g:`$AE$ <0284.g1:/ A E />`, :g:`$AD$ <0284.g1:/ A D />`, :g:`$CF$ <0284.g1:/ C F />`, :g:`$EF$ <0284.g1:/ E F />`, :g:`$DF$ <0284.g1:/ D F />`.
+
+.. picture:: 0284.g1.svg
+   :alt: Book XI, Proposition 4, Cauchy's Proof
+
+Since :g:`$BC$ <0284.g1:/ B C />` is perpendicular to :g:`$AF$ <0284.g1:/ A F />` at its middle point :g:`$B$ <0284.g1:B>`,
+
+.. assertion::
+
+   :g:`$AC$ <0284.g1:/ A C />` is equal to :g:`$CF$ <0284.g1:/ C F />`.
+
+.. assertion::
+
+   Similarly :g:`$AD$ <0284.g1:/ A D />` is equal to :g:`$DF$ <0284.g1:/ D F />`.
+
+.. subclause::
+
+   Since in the triangles :g:`$ACD$ <0284.g1:< A C D >>`, :g:`$FCD$ <0284.g1:< F C D >>` the two sides :g:`$AC$ <0284.g1:/ A C />`, :g:`$CD$ <0284.g1:/ C D />` are respectively equal to the two sides :g:`$FC$ <0284.g1:/ F C />`, :g:`$CD$ <0284.g1:/ C D />`, and the third sides :g:`$AD$ <0284.g1:/ A D />`, :g:`$FD$ <0284.g1:/ F D />` are also equal,
+
+.. assertion:: [I. 8] <I.8>
+
+   the angles :g:`$ACD$ <0284.g1:< A C D )>`, :g:`$FCD$ <0284.g1:< F C D )>` are equal.
+
+The triangles :g:`$ACE$ <0284.g1:< A C E >>`, :g:`$FCE$ <0284.g1:< F C E >>` thus have two sides and the included angle equal, whence
+
+.. assertion:: [I. 4] <I.4>
+
+   :g:`$EA$ <0284.g1:/ E A />` is equal to :g:`$EF$ <0284.g1:/ E F />`.
+
+The triangles :g:`$ABE$ <0284.g1:< A B E >>`, :g:`$FBE$ <0284.g1:< F B E >>` have now all their sides equal respectively;
+
+.. assertion::
+
+   therefore the angles :g:`$ABE$ <0284.g1:< A B E )>`, :g:`$FBE$ <0284.g1:< F B E )>` are equal, :just:`[I. 8] <I.8>` and :g:`$AB$ <0284.g1:/ A B />` is perpendicular to :g:`$BE$ <0284.g1:/ B E />`.
+
+And :g:`$BE$ <0284.g1:/ B E />` is in any straight line through :g:`$B$ <0284.g1:B>` in the plane :g:`$MN$ <0284.g1:< M N >>`.
+
+:person:`Legendre <legendre>`'s proof is not so easy, but it is interesting.  We are first required to draw through any point :g:`$E$ <0284.g2:E>` within the angle :g:`$CBD$ <0284.g2:< C B D )>` a straight line :g:`$CD$ <0284.g2:/ C D />` bisected at :g:`$E$ <0284.g2:E>`. To do this we draw :g:`$EK$ <0284.g2:/ E K />` parallel to :g:`$DB$ <0284.g2:/ D B />` meeting :g:`$BC$ <0284.g2:/ B C />` in :g:`$K$ <0284.g2:K>`, and then mark off :g:`$KC$ <0284.g2:/ K C />` equal to :g:`$BK$ <0284.g2:/ B K />`. :g:`$CE$ <0284.g2:/ C E />` is then joined and produced to :g:`$D$ <0284.g2:D>`; and :g:`$CD$ <0284.g2:/ C D />` is the straight line required.
+
+.. picture:: 0284.g2.svg
+   :alt: Book XI, Proposition 4, Legendre's Construction
+
+Now, joining :g:`$AC$ <0284.g1:/ A C />`, :g:`$AE$ <0284.g1:/ A E />`, :g:`$AD$ <0284.g1:/ A D />` in the figure above, we have, since :g:`$CD$ <0284.g1:/ C D />` is bisected at :g:`$E$ <0284.g1:E>`,
+
+(1) in the triangle :g:`$ACD$ <0284.g1:< A C D >>`,
+
+.. assertion::
+
+   :g:`$AC^2$ <0284.g1:/ A C />` $+$ :g:`$AD^2$ <0284.g1:/ A D />` $= 2$ :g:`$AE^2$ <0284.g1:/ A E />` $+ 2$ :g:`$ED^2$ <0284.g1:/ E D />`,
+
+and also (2) in the triangle :g:`$BCD$ <0284.g1:< B C D >>`,
+
+.. assertion::
+
+   :g:`$BC^2$ <0284.g1:/ B C />` $+$ :g:`$BD^2$ <0284.g1:/ B D />` $= 2$ :g:`$BE^2$ <0284.g1:/ B E />` $+ 2$ :g:`$ED^2$ <0284.g1:/ E D />`.
+
+Subtracting, and remembering that the triangles :g:`$ABC$ <0284.g1:< A B C >>`, :g:`$ABD$ <0284.g1:< A B D >>` are right-angled, so that
+
+.. assertion::
+
+   :g:`$AC^2$ <0284.g1:/ A C />` $-$ :g:`$BC^2$ <0284.g1:/ B C />` $=$ :g:`$AB^2$ <0284.g1:/ A B />`,
+
+and
+
+.. assertion::
+
+   :g:`$AD^2$ <0284.g1:/ A D />` $-$ :g:`$BD^2$ <0284.g1:/ B D />` $=$ :g:`$AB^2$ <0284.g1:/ A B />`,
+
+we have
+
+.. assertion::
+
+   $2$ :g:`$AB^2$ <0284.g1:/ A B />` $= 2$ :g:`$AE^2$ <0284.g1:/ A E />` $- 2$ :g:`$BE^2$ <0284.g1:/ B E />`,
+
+or
+
+.. assertion::
+
+   :g:`$AE^2$ <0284.g1:/ A E />` $=$ :g:`$AB^2$ <0284.g1:/ A B />` $+$ :g:`$BE^2$ <0284.g1:/ B E />`,
+
+.. _folio-iii-0285:
+
+.. folio:: 0285
+   :page: 281
+
+.. assertion::
+
+   whence :just:`[I. 48] <I.48>` the angle :g:`$ABE$ <0284.g1:< A B E )>` is a right angle, and :g:`$AB$ <0284.g1:/ A B />` is perpendicular to :g:`$BE$ <0284.g1:/ B E />`.
+
+It follows of course from this proposition that the perpendicular :g:`$AB$ <0284.g1:/ A B />` is the *shortest distance from* :g:`$A$ <0284.g1:A>` *to the plane* :g:`$MN$ <0284.g1:< M N >>`.
+
+And it can readily be proved that, *If from a point without a plane oblique straight lines be drawn to the plane, (1) those meeting the plane at equal distances from the foot of the perpendicular are equal, and (2) of two straight lines meeting the plane at unequal distances from the foot of the perpendicular, the more remote is the greater.*
+
+Lastly, it is easily seen that *From a point outside a plane only one perpendicular can be drawn to that plane.*
+
+For, if possible, let there be two perpendiculars.  Then a plane can be drawn through them, and this will cut the original plane in a straight line.
+
+This straight line and the two perpendiculars will form a plane triangle which has two right angles: which is impossible.

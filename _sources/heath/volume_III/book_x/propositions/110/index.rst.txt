@@ -1,0 +1,93 @@
+:canonical_id: X.110
+:volume: III
+:book: X
+:proposition: 110
+:type: proposition
+:title: Proposition X.110
+:folios: 0242, 0243
+:pages: 238, 239
+
+.. _X.110:
+
+.. folio:: 0242
+   :page: 238
+
+PROPOSITION 110.
+================
+
+.. enunciation::
+
+   If from a medial area there be subtracted a medial area incommensurable with the whole, the two remaining irrational straight lines arise, either a second apotome of a medial straight line or a straight line which produces with a medial area a medial whole.
+
+For, as in the foregoing figures, let there be subtracted from the medial area :g:`$BC$ <0242.g1:< B C >>` the medial area :g:`$BD$ <0242.g1:< B D >>` incommensurable with the whole;
+
+.. picture:: 0242.g1.svg
+   :alt: Proposition 110
+
+I say that the "side" of :g:`$EC$ <0242.g1:< E C >>` is one of two irrational straight lines, either a second apotome of a medial straight line or a straight line which produces with a medial area a medial whole.
+
+.. _folio-iii-0243:
+
+.. folio:: 0243
+   :page: 239
+
+.. subclause::
+
+   For, since each of the rectangles :g:`$BC$ <0242.g1:< B C >>`, :g:`$BD$ <0242.g1:< B D >>` is medial, and :g:`$BC$ <0242.g1:< B C >>` is incommensurable with :g:`$BD$ <0242.g1:< B D >>`,
+
+.. assertion::
+
+   it follows that each of the straight lines :g:`$FH$ <0242.g1:/ F H />`, :g:`$FK$ <0242.g1:/ F K />` will be rational and incommensurable in length with :g:`$FG$ <0242.g1:/ F G />`. :just:`[x. 22]`
+
+.. subclause::
+
+   And, since :g:`$BC$ <0242.g1:< B C >>` is incommensurable with :g:`$BD$ <0242.g1:< B D >>`, that is, :g:`$GH$ <0242.g1:< G H >>` with :g:`$GK$ <0242.g1:< G K >>`,
+
+.. assertion::
+
+   :g:`$HF$ <0242.g1:/ H F />` is also incommensurable with :g:`$FK$ <0242.g1:/ F K />`; :just:`[VI. 1, x. 11]` therefore :g:`$FH$ <0242.g1:/ F H />`, :g:`$FK$ <0242.g1:/ F K />` are rational straight lines commensurable in square only; therefore :g:`$KH$ <0242.g1:/ K H />` is an apotome. :just:`[x. 73]`
+
+.. subclause::
+
+   If then the square on :g:`$FH$ <0242.g1:/ F H />` is greater than the square on :g:`$FK$ <0242.g1:/ F K />` by the square on a straight line commensurable with :g:`$FH$ <0242.g1:/ F H />`, while neither of the straight lines :g:`$FH$ <0242.g1:/ F H />`, :g:`$FK$ <0242.g1:/ F K />` is commensurable in length with the rational straight line :g:`$FG$ <0242.g1:/ F G />` set out,
+
+.. assertion:: [x. Deff. III. 3]
+
+   :g:`$KH$ <0242.g1:/ K H />` is a third apotome.
+
+.. subclause::
+
+   But :g:`$KL$ <0242.g1:/ K L />` is rational, and the rectangle contained by a rational straight line and a third apotome is irrational, and the "side" of it is irrational, and is called a second apotome of a medial straight line; :just:`[x. 93]`
+
+.. assertion::
+
+   so that the "side" of :g:`$LH$ <0242.g1:< L H >>`, that is, of :g:`$EC$ <0242.g1:< E C >>`, is a second apotome of a medial straight line.
+
+.. subclause::
+
+   But, if the square on :g:`$FH$ <0242.g1:/ F H />` is greater than the square on :g:`$FK$ <0242.g1:/ F K />` by the square on a straight line incommensurable with :g:`$FH$ <0242.g1:/ F H />`, while neither of the straight lines :g:`$HF$ <0242.g1:/ H F />`, :g:`$FK$ <0242.g1:/ F K />` is commensurable in length with :g:`$FG$ <0242.g1:/ F G />`,
+
+.. assertion:: [x. Deff. III. 6]
+
+   :g:`$KH$ <0242.g1:/ K H />` is a sixth apotome.
+
+.. subclause::
+
+   But the "side" of the rectangle contained by a rational straight line and a sixth apotome is a straight line which produces with a medial area a medial whole. :just:`[x. 96]`
+
+.. assertion::
+
+   Therefore the "side" of :g:`$LH$ <0242.g1:< L H >>`, that is, of :g:`$EC$ <0242.g1:< E C >>`, is a straight line which produces with a medial area a medial whole.
+
+.. qed::
+
+   Q. E. D.
+
+----
+
+See :ref:`Commentary on Proposition X.110 <X.110.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

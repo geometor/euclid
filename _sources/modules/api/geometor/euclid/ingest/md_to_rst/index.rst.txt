@@ -1,0 +1,51 @@
+geometor.euclid.ingest.md_to_rst
+================================
+
+.. py:module:: geometor.euclid.ingest.md_to_rst
+
+.. autoapi-nested-parse::
+
+   Deterministic, lossless Markdown-to-reStructuredText converter for Euclid folios.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.euclid.ingest.md_to_rst.resolve_justification_target
+   geometor.euclid.ingest.md_to_rst.format_justification
+   geometor.euclid.ingest.md_to_rst.convert_inline
+   geometor.euclid.ingest.md_to_rst.convert_md_to_rst
+   geometor.euclid.ingest.md_to_rst.convert_file
+
+
+Module Contents
+---------------
+
+.. py:function:: resolve_justification_target(just_text: str, book: str = 'I') -> Optional[str]
+
+   Resolve a bracketed justification label (e.g. ``[Post. 3]``, ``[Def. 15]``) to canonical target(s).
+
+
+.. py:function:: format_justification(raw_just: str, book: str = 'I', as_arg: bool = False) -> str
+
+   Format a justification string as either a ``:just:`...``` role or a directive argument.
+
+
+.. py:function:: convert_inline(text: str, book: str = 'I', is_notes: bool = False) -> str
+
+   Convert inline HTML spans, justifications, line numbers, footnotes, and entities to RST.
+
+
+.. py:function:: convert_md_to_rst(md_text: str, is_notes: bool = False) -> str
+
+   Convert a folio Markdown string (with YAML frontmatter and HTML spans/tags) to pure RST.
+
+
+.. py:function:: convert_file(md_path: pathlib.Path, overwrite: bool = True) -> pathlib.Path
+
+   Convert a single <folio>.md (or <folio>.notes.md) file to .rst alongside it.
+
+

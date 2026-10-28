@@ -1,0 +1,68 @@
+:canonical_id: X.83
+:volume: III
+:book: X
+:proposition: 83
+:type: proposition
+:title: Proposition X.83
+:folios: 0177, 0178
+:pages: 173, 174
+:dependencies: X.26, X.77
+
+.. _X.83:
+
+.. folio:: 0177
+   :page: 173
+
+PROPOSITION 83.
+===============
+
+.. enunciation::
+
+   To a straight line which produces with a rational area a medial whole only one straight line can be annexed which is incommensurable in square with the whole straight line and which with the whole straight line makes the sum of the squares on them medial, but twice the rectangle contained by them rational.
+
+.. _folio-iii-0178:
+
+.. folio:: 0178
+   :page: 174
+
+Let :g:`$AB$ <0178.g1:/ A B />` be the straight line which produces with a rational area a medial whole, and let :g:`$BC$ <0178.g1:/ B C />` be an annex to :g:`$AB$ <0178.g1:/ A B />`;
+
+.. assertion::
+
+   therefore :g:`$AC$ <0178.g1:/ A C />`, :g:`$CB$ <0178.g1:/ C B />` are straight lines incommensurable in square which fulfil the given conditions. :just:`[X. 77] <X.77>`
+
+.. picture:: 0178.g1.svg
+   :alt: Proposition 83
+
+I say that no other straight line can be annexed to :g:`$AB$ <0178.g1:/ A B />` which fulfils the same conditions.
+
+For, if possible, let :g:`$BD$ <0178.g1:/ B D />` be so annexed;
+
+.. assertion::
+
+   therefore :g:`$AD$ <0178.g1:/ A D />`, :g:`$DB$ <0178.g1:/ D B />` are also straight lines incommensurable in square which fulfil the given conditions. :just:`[X. 77] <X.77>`
+
+.. subclause::
+
+   Since then, as in the preceding cases, the excess of the squares on :g:`$AD$ <0178.g1:/ A D />`, :g:`$DB$ <0178.g1:/ D B />` over the squares on :g:`$AC$ <0178.g1:/ A C />`, :g:`$CB$ <0178.g1:/ C B />` is also the excess of twice the rectangle :g:`$AD$ <0178.g1:/ A D />`, :g:`$DB$ <0178.g1:/ D B />` over twice the rectangle :g:`$AC$ <0178.g1:/ A C />`, :g:`$CB$ <0178.g1:/ C B />`, while twice the rectangle :g:`$AD$ <0178.g1:/ A D />`, :g:`$DB$ <0178.g1:/ D B />` exceeds twice the rectangle :g:`$AC$ <0178.g1:/ A C />`, :g:`$CB$ <0178.g1:/ C B />` by a rational area, for both are rational,
+
+.. assertion::
+
+   therefore the squares on :g:`$AD$ <0178.g1:/ A D />`, :g:`$DB$ <0178.g1:/ D B />` also exceed the squares on :g:`$AC$ <0178.g1:/ A C />`, :g:`$CB$ <0178.g1:/ C B />` by a rational area: which is impossible, for both are medial. :just:`[X. 26] <X.26>`
+
+.. assertion::
+
+   Therefore no other straight line can be annexed to :g:`$AB$ <0178.g1:/ A B />` which is incommensurable in square with the whole and which with the whole fulfils the aforesaid conditions; therefore only one straight line can be so annexed.
+
+.. qed::
+
+   :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition X.83 <X.83.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

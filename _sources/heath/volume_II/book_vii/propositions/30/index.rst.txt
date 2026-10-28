@@ -1,0 +1,89 @@
+:canonical_id: VII.30
+:volume: II
+:book: VII
+:proposition: 30
+:type: proposition
+:title: Proposition VII.30
+:folios: 0337
+:pages: 331
+:dependencies: VII.19, VII.20, VII.21, VII.29, VII.def.15
+
+.. _VII.30:
+
+.. folio:: 0337
+   :page: 331
+
+PROPOSITION 30.
+===============
+
+.. enunciation::
+
+   If two numbers by multiplying one another make some number, and any prime number measure the product, it will also measure one of the original numbers.
+
+For let the two numbers :g:`$A$ <0337.g1:A>`, :g:`$B$ <0337.g1:B>` by multiplying one another make :g:`$C$ <0337.g1:C>`, and let any prime number :g:`$D$ <0337.g1:D>` measure :g:`$C$ <0337.g1:C>`;
+
+I say that :g:`$D$ <0337.g1:D>` measures one of the numbers :g:`$A$ <0337.g1:A>`, :g:`$B$ <0337.g1:B>`.
+
+.. picture:: 0337.g1.svg
+   :alt: Book VII, Proposition 30
+
+For let it not measure :g:`$A$ <0337.g1:A>`.
+
+.. subclause::
+
+   Now :g:`$D$ <0337.g1:D>` is prime ;
+
+.. assertion::
+
+   therefore :g:`$A$ <0337.g1:A>`, :g:`$D$ <0337.g1:D>` are prime to one another. :just:`[VII. 29] <VII.29>`
+
+And, as many times as :g:`$D$ <0337.g1:D>` measures :g:`$C$ <0337.g1:C>`, so many units let there be in :g:`$E$ <0337.g1:E>`.
+
+.. subclause::
+
+   Since then :g:`$D$ <0337.g1:D>` measures :g:`$C$ <0337.g1:C>` according to the units in :g:`$E$ <0337.g1:E>`,
+
+.. assertion:: [VII. Def. 15] <VII.def.15>
+
+   therefore :g:`$D$ <0337.g1:D>` by multiplying :g:`$E$ <0337.g1:E>` has made :g:`$C$ <0337.g1:C>`.
+
+.. subclause::
+
+   Further, :g:`$A$ <0337.g1:A>` by multiplying :g:`$B$ <0337.g1:B>` has also made :g:`$C$ <0337.g1:C>` ;
+
+.. assertion::
+
+   therefore the product of :g:`$D$ <0337.g1:D>`, :g:`$E$ <0337.g1:E>` is equal to the product of :g:`$A$ <0337.g1:A>`, :g:`$B$ <0337.g1:B>`.
+
+.. assertion:: [VII. 19] <VII.19>
+
+   Therefore, as :g:`$D$ <0337.g1:D>` is to :g:`$A$ <0337.g1:A>`, so is :g:`$B$ <0337.g1:B>` to :g:`$E$ <0337.g1:E>`.
+
+.. subclause::
+
+   But :g:`$D$ <0337.g1:D>`, :g:`$A$ <0337.g1:A>` are prime to one another, primes are also least, :just:`[VII. 21] <VII.21>` and the least measure the numbers which have the same ratio the same number of times, the greater the greater and the less the less, that is, the antecedent the antecedent and the consequent the consequent ; :just:`[VII. 20] <VII.20>`
+
+.. assertion::
+
+   therefore :g:`$D$ <0337.g1:D>` measures :g:`$B$ <0337.g1:B>`.
+
+.. assertion::
+
+   Similarly we can also show that, if :g:`$D$ <0337.g1:D>` do not measure :g:`$B$ <0337.g1:B>`, it will measure :g:`$A$ <0337.g1:A>`.
+
+.. assertion::
+
+   Therefore :g:`$D$ <0337.g1:D>` measures one of the numbers :g:`$A$ <0337.g1:A>`, :g:`$B$ <0337.g1:B>`.
+
+.. qed::
+
+   :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition VII.30 <VII.30.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

@@ -1,0 +1,24 @@
+:canonical_id: XIII.7.commentary
+:volume: III
+:book: XIII
+:proposition: 7
+:type: commentary
+:title: Commentary on Proposition XIII.7
+:folios: 0457
+:pages: 453
+
+.. _XIII.7.commentary:
+
+Commentary on Proposition XIII.7
+================================
+
+Back to :ref:`Proposition XIII.7 <XIII.7>`.
+
+.. folio:: 0457
+   :page: 453
+
+This proposition is required in XIII. 17. The steps of the proof may be shown thus.
+
+I. Suppose that the angles at :g:`$A$ <0455.g1:A>`, :g:`$B$ <0455.g1:B>`, :g:`$C$ <0455.g1:C>` are all equal. Then the isosceles triangles :g:`$BAE$ <0455.g1:< B A E >>`, :g:`$ABC$ <0455.g1:< A B C >>` are equal in all respects; thus :g:`$BE$ <0455.g1:/ B E />` $= $ :g:`$AC$ <0455.g1:/ A C />`, $\angle$ :g:`$BCA$ <0455.g1:< B C A )>` $= \angle$ :g:`$BEA$ <0455.g1:< B E A )>`, $\angle$ :g:`$CAB$ <0455.g1:< C A B )>` $= \angle$ :g:`$EBA$ <0455.g1:< E B A )>`. By the last equality, :g:`$FA$ <0455.g1:/ F A />` $= $ :g:`$FB$ <0455.g1:/ F B />`, so that, since :g:`$BE$ <0455.g1:/ B E />` $= $ :g:`$AC$ <0455.g1:/ A C />`, :g:`$FC$ <0455.g1:/ F C />` $= $ :g:`$FE$ <0455.g1:/ F E />`. The $\Delta\text{s}$ :g:`$FED$ <0455.g1:< F E D >>`, :g:`$FCD$ <0455.g1:< F C D >>` are now equal in all respects, :just:`[I. 8, 4]` and $\angle$ :g:`$FCD$ <0455.g1:< F C D )>` $= \angle$ :g:`$FED$ <0455.g1:< F E D )>`. But $\angle$ :g:`$ACB$ <0455.g1:< A C B )>` $= \angle$ :g:`$AEB$ <0455.g1:< A E B )>`, from above, whence, by addition, $\angle$ :g:`$BCD$ <0455.g1:< B C D )>` $= \angle$ :g:`$AED$ <0455.g1:< A E D )>`. Similarly it may be proved that $\angle$ :g:`$CDE$ <0455.g1:< C D E )>` is also equal to any one of the angles at :g:`$A$ <0455.g1:A>`, :g:`$B$ <0455.g1:B>`, :g:`$C$ <0455.g1:C>`.
+
+II. Suppose the angles at :g:`$A$ <0455.g1:A>`, :g:`$C$ <0455.g1:C>`, :g:`$D$ <0455.g1:D>` to be equal. Then the isosceles triangles :g:`$ABE$ <0455.g1:< A B E >>`, :g:`$CBD$ <0455.g1:< C B D >>` are equal in all respects, and hence :g:`$BE$ <0455.g1:/ B E />` $= $ :g:`$BD$ <0455.g1:/ B D />` (so that $\angle$ :g:`$BDE$ <0455.g1:< B D E )>` $= \angle$ :g:`$BED$ <0455.g1:< B E D )>`), and $\angle$ :g:`$CDB$ <0455.g1:< C D B )>` $= \angle$ :g:`$AEB$ <0455.g1:< A E B )>`. By addition of the equal angles, $\angle$ :g:`$CDE$ <0455.g1:< C D E )>` $= \angle$ :g:`$DEA$ <0455.g1:< D E A )>`. Similarly it may be proved that $\angle$ :g:`$ABC$ <0455.g1:< A B C )>` is also equal to each of the angles at :g:`$A$ <0455.g1:A>`, :g:`$C$ <0455.g1:C>`, :g:`$D$ <0455.g1:D>`.

@@ -1,0 +1,119 @@
+:canonical_id: VI.22
+:volume: II
+:book: VI
+:proposition: 22
+:type: proposition
+:title: Proposition VI.22
+:folios: 0246, 0247, 0248
+:pages: 240, 241, 242
+:dependencies: V.11, V.22, V.9, VI.11, VI.12, VI.18
+
+.. _VI.22:
+
+.. folio:: 0246
+   :page: 240
+
+PROPOSITION 22.
+===============
+
+.. enunciation::
+
+   If four straight lines be proportional, the rectilineal figures similar and similarly described upon them will also be proportional; and, if the rectilineal figures similar and similarly described upon them be proportional, the straight lines will themselves also be proportional.
+
+Let the four straight lines :g:`$AB$ <0247.g1:/ A B />`, :g:`$CD$ <0247.g1:/ C D />`, :g:`$EF$ <0247.g1:/ E F />`, :g:`$GH$ <0247.g1:/ G H />` be proportional, so that, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$GH$ <0247.g1:/ G H />`, and let there be described on :g:`$AB$ <0247.g1:/ A B />`, :g:`$CD$ <0247.g1:/ C D />` the similar and similarly situated rectilineal figures :g:`$KAB$ <0247.g1:< K A B >>`, :g:`$LCD$ <0247.g1:< L C D >>`, and on :g:`$EF$ <0247.g1:/ E F />`, :g:`$GH$ <0247.g1:/ G H />` the similar and similarly situated rectilineal figures :g:`$MF$ <0247.g1:< M F >>`, :g:`$NH$ <0247.g1:< N H >>`;
+
+I say that, as :g:`$KAB$ <0247.g1:< K A B >>` is to :g:`$LCD$ <0247.g1:< L C D >>`, so is :g:`$MF$ <0247.g1:< M F >>` to :g:`$NH$ <0247.g1:< N H >>`.
+
+For let there be taken a third proportional :g:`$O$ <0247.g1:O>` to :g:`$AB$ <0247.g1:/ A B />`, :g:`$CD$ <0247.g1:/ C D />`, and a third proportional :g:`$P$ <0247.g1:P>` to :g:`$EF$ <0247.g1:/ E F />`, :g:`$GH$ <0247.g1:/ G H />`. :just:`[VI. 11] <VI.11>`
+
+.. _folio-ii-0247:
+
+.. folio:: 0247
+   :page: 241
+
+.. subclause::
+
+   Then since, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$GH$ <0247.g1:/ G H />`, and, as :g:`$CD$ <0247.g1:/ C D />` is to :g:`$O$ <0247.g1:O>`, so is :g:`$GH$ <0247.g1:/ G H />` to :g:`$P$ <0247.g1:P>`,
+
+.. assertion:: [V. 22] <V.22>
+
+   therefore, :term:`*ex aequali* <ex-aequali>`, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$O$ <0247.g1:O>`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$P$ <0247.g1:P>`.
+
+.. assertion::
+
+   But, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$O$ <0247.g1:O>`, so is :g:`$KAB$ <0247.g1:< K A B >>` to :g:`$LCD$ <0247.g1:< L C D >>`, and, as :g:`$EF$ <0247.g1:/ E F />` is to :g:`$P$ <0247.g1:P>`, so is :g:`$MF$ <0247.g1:< M F >>` to :g:`$NH$ <0247.g1:< N H >>`; :just:`[VI. 19, Por.]`
+
+.. assertion:: [V. 11] <V.11>
+
+   therefore also, as :g:`$KAB$ <0247.g1:< K A B >>` is to :g:`$LCD$ <0247.g1:< L C D >>`, so is :g:`$MF$ <0247.g1:< M F >>` to :g:`$NH$ <0247.g1:< N H >>`.
+
+.. picture:: 0247.g1.svg
+   :alt: Book VI, Proposition 22
+
+Next, let :g:`$MF$ <0247.g1:< M F >>` be to :g:`$NH$ <0247.g1:< N H >>` as :g:`$KAB$ <0247.g1:< K A B >>` is to :g:`$LCD$ <0247.g1:< L C D >>`; I say also that, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$GH$ <0247.g1:/ G H />`.
+
+.. subclause::
+
+   For, if :g:`$EF$ <0247.g1:/ E F />` is not to :g:`$GH$ <0247.g1:/ G H />` as :g:`$AB$ <0247.g1:/ A B />` to :g:`$CD$ <0247.g1:/ C D />`,
+
+.. assertion::
+
+   let :g:`$EF$ <0247.g1:/ E F />` be to :g:`$QR$ <0247.g1:/ Q R />` as :g:`$AB$ <0247.g1:/ A B />` to :g:`$CD$ <0247.g1:/ C D />`, :just:`[VI. 12] <VI.12>` and on :g:`$QR$ <0247.g1:/ Q R />` let the rectilineal figure :g:`$SR$ <0247.g1:< S R >>` be described similar and similarly situated to either of the two :g:`$MF$ <0247.g1:< M F >>`, :g:`$NH$ <0247.g1:< N H >>`. :just:`[VI. 18] <VI.18>`
+
+.. subclause::
+
+   Since then, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$QR$ <0247.g1:/ Q R />`, and there have been described on :g:`$AB$ <0247.g1:/ A B />`, :g:`$CD$ <0247.g1:/ C D />` the similar and similarly situated figures :g:`$KAB$ <0247.g1:< K A B >>`, :g:`$LCD$ <0247.g1:< L C D >>`, and on :g:`$EF$ <0247.g1:/ E F />`, :g:`$QR$ <0247.g1:/ Q R />` the similar and similarly situated figures :g:`$MF$ <0247.g1:< M F >>`, :g:`$SR$ <0247.g1:< S R >>`,
+
+.. assertion::
+
+   therefore, as :g:`$KAB$ <0247.g1:< K A B >>` is to :g:`$LCD$ <0247.g1:< L C D >>`, so is :g:`$MF$ <0247.g1:< M F >>` to :g:`$SR$ <0247.g1:< S R >>`.
+
+.. subclause::
+
+   But also, by hypothesis, as :g:`$KAB$ <0247.g1:< K A B >>` is to :g:`$LCD$ <0247.g1:< L C D >>`, so is :g:`$MF$ <0247.g1:< M F >>` to :g:`$NH$ <0247.g1:< N H >>`;
+
+.. assertion:: [V. 11] <V.11>
+
+   therefore also, as :g:`$MF$ <0247.g1:< M F >>` is to :g:`$SR$ <0247.g1:< S R >>`, so is :g:`$MF$ <0247.g1:< M F >>` to :g:`$NH$ <0247.g1:< N H >>`.
+
+.. assertion::
+
+   Therefore :g:`$MF$ <0247.g1:< M F >>` has the same ratio to each of the figures :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>`;
+
+.. assertion:: [V. 9] <V.9>
+
+   therefore :g:`$NH$ <0247.g1:< N H >>` is equal to :g:`$SR$ <0247.g1:< S R >>`.
+
+.. subclause::
+
+   But it is also similar and similarly situated to it;
+
+.. assertion::
+
+   therefore :g:`$GH$ <0247.g1:/ G H />` is equal to :g:`$QR$ <0247.g1:/ Q R />`.
+
+.. _folio-ii-0248:
+
+.. folio:: 0248
+   :page: 242
+
+.. subclause::
+
+   And, since, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$QR$ <0247.g1:/ Q R />`, while :g:`$QR$ <0247.g1:/ Q R />` is equal to :g:`$GH$ <0247.g1:/ G H />`,
+
+.. assertion::
+
+   therefore, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$GH$ <0247.g1:/ G H />`.
+
+.. qed::
+
+   Therefore etc. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition VI.22 <VI.22.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

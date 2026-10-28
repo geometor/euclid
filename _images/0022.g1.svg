@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 45" width="190" height="45" class="euclid-graphic" data-graphic-id="0022.g1" data-folio="0022" data-graphic="g1" data-proposition="X.2">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.0;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      text-anchor: middle;
+      dominant-baseline: central;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements -->
+  <g id="elements">
+    <line id="el-line-DB" data-ref="[ D B ]" data-aliases="[ B D ] | [ A B ]" data-type="line" x1="15.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line" />
+    <line x1="75.00" y1="19.00" x2="75.00" y2="26.00" class="geom-line" />
+    <line x1="136.00" y1="19.00" x2="136.00" y2="26.00" class="geom-line" />
+  </g>
+
+  <!-- Constructed Graphics (Segments & Sub-segments) -->
+  <g id="graphics">
+    <line id="el-seg-DB" data-ref="/ D B /" data-aliases="/ B D /" data-type="segment" x1="15.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line" />
+    <line id="el-seg-DA" data-ref="/ D A /" data-aliases="/ A D /" data-type="segment" x1="15.00" y1="22.50" x2="75.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="el-seg-AC" data-ref="/ A C /" data-aliases="/ C A /" data-type="segment" x1="75.00" y1="22.50" x2="136.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="el-seg-CB" data-ref="/ C B /" data-aliases="/ B C /" data-type="segment" x1="136.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="el-seg-DC" data-ref="/ D C /" data-aliases="/ C D /" data-type="segment" x1="15.00" y1="22.50" x2="136.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="75.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line geom-overlay" />
+    <polyline id="el-sec-DAB" data-ref="/ D A B /" data-aliases="/ B A D / | } D A B { | } B A D {" data-type="section" points="15.00,22.50 75.00,22.50 175.00,22.50" fill="none" class="geom-line geom-overlay" />
+    <polyline id="el-sec-ACB" data-ref="/ A C B /" data-aliases="/ B C A / | } A C B { | } B C A {" data-type="section" points="75.00,22.50 136.00,22.50 175.00,22.50" fill="none" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <line id="hl-seg-DB" data-ref="/ D B /" data-aliases="/ B D /" x1="15.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="hl-seg-DA" data-ref="/ D A /" data-aliases="/ A D /" x1="15.00" y1="22.50" x2="75.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="hl-seg-AC" data-ref="/ A C /" data-aliases="/ C A /" x1="75.00" y1="22.50" x2="136.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="hl-seg-CB" data-ref="/ C B /" data-aliases="/ B C /" x1="136.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="hl-seg-DC" data-ref="/ D C /" data-aliases="/ C D /" x1="15.00" y1="22.50" x2="136.00" y2="22.50" class="geom-line geom-overlay" />
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" x1="75.00" y1="22.50" x2="175.00" y2="22.50" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-D" data-ref="D" data-type="point" cx="15.00" cy="22.50" r="2.5" class="geom-point" />
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="75.00" cy="22.50" r="2.5" class="geom-point" />
+    <circle id="el-pt-C" data-ref="C" data-type="point" cx="136.00" cy="22.50" r="2.5" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="175.00" cy="22.50" r="2.5" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-D" data-ref="D" x="20.00" y="10.00" class="geom-label">D</text>
+    <text id="lbl-A" data-ref="A" x="75.00" y="10.00" class="geom-label">A</text>
+    <text id="lbl-C" data-ref="C" x="136.00" y="10.00" class="geom-label">C</text>
+    <text id="lbl-B" data-ref="B" x="170.00" y="10.00" class="geom-label">B</text>
+  </g>
+</svg>

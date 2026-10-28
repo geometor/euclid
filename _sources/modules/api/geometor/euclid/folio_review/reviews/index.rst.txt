@@ -7,7 +7,7 @@ geometor.euclid.folio_review.reviews
 
    Persistent review and vetting status tracker for Euclid folios.
 
-   Stores vetting checklist, review status, and notes in resources/heath/folio_reviews.json.
+   Thin wrapper around `photon_platform.publish.folio_review.reviews`.
 
 
 
@@ -24,30 +24,9 @@ Module Contents
 
 .. py:class:: ReviewManager(storage_path: Optional[pathlib.Path] = None)
 
-   Manages reading and writing vetting / review records for folios.
+   Bases: :py:obj:`photon_platform.publish.folio_review.reviews.ReviewManager`
 
 
-   .. py:method:: get_review(volume: str, folio: str) -> Dict[str, Any]
-
-      Get review record for a specific folio, returning default if unreviewed.
-
-
-
-   .. py:method:: set_review(volume: str, folio: str, status: str, checklist: Optional[Dict[str, bool]] = None, notes: str = '', reviewer: Optional[str] = 'phi') -> Dict[str, Any]
-
-      Save or update review record for a specific folio.
-
-
-
-   .. py:method:: get_all_reviews() -> Dict[str, Dict[str, Any]]
-
-      Return all stored reviews.
-
-
-
-   .. py:method:: get_review_stats() -> Dict[str, int]
-
-      Return count breakdown of review statuses.
-
+   ReviewManager defaulting to `resources/heath/folio_reviews.json` in `geometor.euclid`.
 
 

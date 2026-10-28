@@ -1,0 +1,28 @@
+:canonical_id: VI.8.commentary
+:volume: II
+:book: VI
+:proposition: 8
+:type: commentary
+:title: Commentary on Proposition VI.8
+:folios: 0217
+:pages: 211
+
+.. _VI.8.commentary:
+
+Commentary on Proposition VI.8
+==============================
+
+Back to :ref:`Proposition VI.8 <VI.8>`.
+
+.. folio:: 0217
+   :page: 211
+
+:person:`Simson <simson>` remarks on this proposition: "It seems plain that some editor has changed the demonstration that Euclid gave of this proposition: For, after he has demonstrated that the triangles are equiangular to one another, he particularly shows that their sides about the equal angles are proportionals, as if this had not been done in the demonstration of prop. 4 of this book: this superfluous part is not found in the translation from the Arabic, and is now left out."
+
+This seems a little hypercritical, for the "particular showing" that the sides about the equal angles are proportionals is really nothing more than a somewhat full citation of VI. 4. Moreover to shorten his proof still more, :person:`Simson <simson>` says, after proving that each of the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` is similar to the whole triangle :g:`$ABC$ <0216.g1:< A B C >>`, "And the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` being both equiangular and similar to :g:`$ABC$ <0216.g1:< A B C >>` are equiangular and similar to one another," thus assuming a particular case of VI. 21, which might well be proved here, as Euclid proves it, with somewhat more detail.
+
+We observe that, here as generally, Euclid seems to disdain to give the reader such small help as might be afforded by arranging the letters used to denote the triangles so as to show the corresponding angular points in the same order for each pair of triangles; :g:`$A$ <0216.g1:A>` is the first letter throughout, and the other two for each triangle are in the order of the figure from left to right. It may be in compensation for this that he states at such length which side corresponds to which when he comes to the proportions.
+
+In the Greek texts there is an addition to the Porism inserted after "(Being) what it was required to prove," viz. "and further that between the base and any one of the segments the side adjacent to the segment is a mean proportional." :person:`Heiberg <heiberg>` concludes that these words are an interpolation
+
+(1) because they come after the words :term:`ὅπερ ἔδει δεῖξαι <hoper-edei-deixai>` which as a rule follow the Porism, (2) they are absent from the best Theonine MSS., though $P$ and :person:`Campanus <campanus>` have them without the :term:`ὅπερ ἔδει δεῖξαι <hoper-edei-deixai>`. :person:`Heiberg <heiberg>`'s view seems to be confirmed by the fact noted by Austin, that, whereas the first part of the Porism is quoted later in VI. 13, in the lemma before X. 33 and in the lemma after XIII. 13, the second part is *proved* in the former lemma, and elsewhere, as also in :person:`Pappus <pappus>` (:cite:`III. p. 72, 9—23 <pappus:collectio:iii-p-72-9-23>`).

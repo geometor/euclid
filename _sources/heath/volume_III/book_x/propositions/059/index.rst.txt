@@ -1,0 +1,88 @@
+:canonical_id: X.59
+:volume: III
+:book: X
+:proposition: 59
+:type: proposition
+:title: Proposition X.59
+:folios: 0134, 0135
+:pages: 130, 131
+:dependencies: VI.1, X.11, X.13, X.21, X.41
+
+.. _X.59:
+
+.. _folio-iii-0134:
+
+.. folio:: 0134
+   :page: 130
+
+PROPOSITION 59.
+===============
+
+.. enunciation::
+
+   If an area be contained by a rational straight line and the sixth binomial, the "side" of the area is the irrational straight line called the side of the sum of two medial areas.
+
+For let the area :g:`$ABCD$ <0134.g1:< A B C D >>` be contained by the rational straight line :g:`$AB$ <0134.g1:/ A B />` and the sixth binomial :g:`$AD$ <0134.g1:/ A D />`, divided into its terms at :g:`$E$ <0134.g1:E>`, so that :g:`$AE$ <0134.g1:/ A E />` is the greater term ; I say that the "side" of :g:`$AC$ <0134.g1:< A C >>` is the side of the sum of two medial areas.
+
+Let the same construction be made as before shown.
+
+.. picture:: 0134.g1.svg
+   :alt: Proposition 59
+
+.. assertion::
+
+   It is then manifest that :g:`$MO$ <0134.g1:/ M O />` is the "side" of :g:`$AC$ <0134.g1:< A C >>`, and that :g:`$MN$ <0134.g1:/ M N />` is incommensurable in square with :g:`$NO$ <0134.g1:/ N O />`.
+
+.. subclause::
+
+   Now, since :g:`$EA$ <0134.g1:/ E A />` is incommensurable in length with :g:`$AB$ <0134.g1:/ A B />`,
+
+.. assertion::
+
+   therefore :g:`$EA$ <0134.g1:/ E A />`, :g:`$AB$ <0134.g1:/ A B />` are rational straight lines commensurable in square only ; therefore :g:`$AK$ <0134.g1:< A K >>`, that is, the sum of the squares on :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />`, is medial. :just:`[X. 21] <X.21>`
+
+.. subclause::
+
+   Again, since :g:`$ED$ <0134.g1:/ E D />` is incommensurable in length with :g:`$AB$ <0134.g1:/ A B />`,
+
+.. assertion::
+
+   therefore :g:`$FE$ <0134.g1:/ F E />` is also incommensurable with :g:`$EK$ <0134.g1:/ E K />` ; :just:`[X. 13] <X.13>` therefore :g:`$FE$ <0134.g1:/ F E />`, :g:`$EK$ <0134.g1:/ E K />` are rational straight lines commensurable in square only ; therefore :g:`$EL$ <0134.g1:< E L >>`, that is, :g:`$MR$ <0134.g1:< M R >>`, that is, the rectangle :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />`, is medial. :just:`[X. 21] <X.21>`
+
+.. subclause::
+
+   And, since :g:`$AE$ <0134.g1:/ A E />` is incommensurable with :g:`$EF$ <0134.g1:/ E F />`,
+
+.. assertion:: [VI. 1, X. 11] <VI.1, X.11>
+
+   :g:`$AK$ <0134.g1:< A K >>` is also incommensurable with :g:`$EL$ <0134.g1:< E L >>`.
+
+.. subclause::
+
+   But :g:`$AK$ <0134.g1:< A K >>` is the sum of the squares on :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />`, and :g:`$EL$ <0134.g1:< E L >>` is the rectangle :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />` ;
+
+.. assertion::
+
+   therefore the sum of the squares on :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />` is incommensurable with the rectangle :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />`.
+
+.. assertion::
+
+   And each of them is medial, and :g:`$MN$ <0134.g1:/ M N />`, :g:`$NO$ <0134.g1:/ N O />` are incommensurable in square.
+
+.. _folio-iii-0135:
+
+.. folio:: 0135
+   :page: 131
+
+.. qed::
+
+   Therefore :g:`$MO$ <0134.g1:/ M O />` is the side of the sum of two medial areas :just:`[X. 41] <X.41>`, and is the "side" of :g:`$AC$ <0134.g1:< A C >>`. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition X.59 <X.59.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

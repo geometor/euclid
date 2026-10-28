@@ -5,7 +5,10 @@ geometor.euclid.folio_review.app
 
 .. autoapi-nested-parse::
 
-   Flask application for reviewing Euclid folios, transcriptions, notes, and graphics.
+   Flask web application for Euclid Folio Review & Vetting.
+
+   Thin wrapper around `photon_platform.publish.folio_review.app` defaulting to
+   `resources/heath` in the `geometor.euclid` workspace.
 
 
 
@@ -21,13 +24,13 @@ Functions
 Module Contents
 ---------------
 
-.. py:function:: create_app(heath_dir: Optional[pathlib.Path] = None, reviews_path: Optional[pathlib.Path] = None) -> flask.Flask
+.. py:function:: create_app(root_dir: Optional[pathlib.Path] = None, project_title: Optional[str] = 'GEOMETOR Euclid', edition_label: Optional[str] = 'Heath')
 
-   Create and configure the Flask application.
+   Create and configure the Flask review application for Euclid.
 
 
-.. py:function:: main()
+.. py:function:: main() -> None
 
-   Run review application CLI entrypoint.
+   CLI entry point for `euclid-review`.
 
 

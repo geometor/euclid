@@ -1,0 +1,85 @@
+:canonical_id: IV.6
+:volume: II
+:book: IV
+:proposition: 6
+:type: proposition
+:title: Proposition IV.6
+:folios: 0097
+:pages: 91
+:dependencies: I.4, I.def.22, III.31
+
+.. _IV.6:
+
+.. _folio-ii-0097:
+
+.. folio:: 0097
+   :page: 91
+
+PROPOSITION 6.
+==============
+
+.. enunciation::
+
+   In a given circle to inscribe a square.
+
+Let :g:`$ABCD$ <0097.g1:( A B C D )>` be the given circle;
+thus it is required to inscribe a square in the circle :g:`$ABCD$ <0097.g1:( A B C D )>`.
+
+Let two diameters :g:`$AC$ <0097.g1:/ A C />`, :g:`$BD$ <0097.g1:/ B D />` of the
+circle :g:`$ABCD$ <0097.g1:( A B C D )>` be drawn at right angles
+to one another, and let :g:`$AB$ <0097.g1:/ A B />`, :g:`$BC$ <0097.g1:/ B C />`, :g:`$CD$ <0097.g1:/ C D />`,
+:g:`$DA$ <0097.g1:/ D A />` be joined.
+
+.. picture:: 0097.g1.svg
+   :alt: Proposition 6 diagram
+
+Then, since :g:`$BE$ <0097.g1:/ B E />` is equal to :g:`$ED$ <0097.g1:/ E D />`, for
+:g:`$E$ <0097.g1:E>` is the centre,
+and :g:`$EA$ <0097.g1:/ E A />` is common and at right angles,
+therefore the base :g:`$AB$ <0097.g1:/ A B />` is equal to the
+base :g:`$AD$ <0097.g1:/ A D />`. :just:`[I. 4] <I.4>`
+
+For the same reason
+each of the straight lines :g:`$BC$ <0097.g1:/ B C />`, :g:`$CD$ <0097.g1:/ C D />` is also equal to each of
+the straight lines :g:`$AB$ <0097.g1:/ A B />`, :g:`$AD$ <0097.g1:/ A D />`;
+
+.. assertion::
+
+   therefore the quadrilateral :g:`$ABCD$ <0097.g1:< A B C D >>` is equilateral.
+
+I say next that it is also right-angled.
+
+For, since the straight line :g:`$BD$ <0097.g1:/ B D />` is a diameter of the circle
+:g:`$ABCD$ <0097.g1:( A B C D )>`,
+therefore :g:`$BAD$ <0097.g1:( B A D )>` is a semicircle;
+
+.. assertion:: [III. 31] <III.31>
+
+   therefore the angle :g:`$BAD$ <0097.g1:< B A D )>` is right.
+
+For the same reason
+each of the angles :g:`$ABC$ <0097.g1:< A B C )>`, :g:`$BCD$ <0097.g1:< B C D )>`, :g:`$CDA$ <0097.g1:< C D A )>` is also right;
+
+.. assertion::
+
+   therefore the quadrilateral :g:`$ABCD$ <0097.g1:< A B C D >>` is right-angled.
+
+But it was also proved equilateral;
+therefore it is a square; :just:`[I. Def. 22] <I.def.22>`
+and it has been inscribed in the circle :g:`$ABCD$ <0097.g1:( A B C D )>`.
+
+Therefore in the given circle the square :g:`$ABCD$ <0097.g1:< A B C D >>` has been
+inscribed.
+
+.. qed::
+
+   :just:`Q. E. F.`
+
+----
+
+See :ref:`Commentary on Proposition IV.6 <IV.6.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

@@ -1,0 +1,109 @@
+:canonical_id: VI.8
+:volume: II
+:book: VI
+:proposition: 8
+:type: proposition
+:title: Proposition VI.8
+:folios: 0215, 0216, 0217
+:pages: 209, 210, 211
+:dependencies: I.32, VI.4, VI.def.1
+
+.. _VI.8:
+
+.. folio:: 0215
+   :page: 209
+
+PROPOSITION 8.
+==============
+
+.. enunciation::
+
+   If in a right-angled triangle a perpendicular be drawn from the right angle to the base, the triangles adjoining the perpendicular are similar both to the whole and to one another.
+
+Let :g:`$ABC$ <0216.g1:< A B C >>` be a right-angled triangle having the angle :g:`$BAC$ <0216.g1:< B A C )>` right, and let :g:`$AD$ <0216.g1:/ A D />` be drawn from :g:`$A$ <0216.g1:A>` perpendicular to :g:`$BC$ <0216.g1:/ B C />`;
+
+I say that each of the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` is similar to the whole :g:`$ABC$ <0216.g1:< A B C >>` and, further, they are similar to one another.
+
+.. _folio-ii-0216:
+
+.. folio:: 0216
+   :page: 210
+
+For, since the angle :g:`$BAC$ <0216.g1:< B A C )>` is equal to the angle :g:`$ADB$ <0216.g1:< A D B )>`, for each is right, and the angle at :g:`$B$ <0216.g1:< A B C )>` is common to the two triangles :g:`$ABC$ <0216.g1:< A B C >>` and :g:`$ABD$ <0216.g1:< A B D >>`,
+
+.. picture:: 0216.g1.svg
+   :alt: Proposition 8
+
+.. assertion::
+
+   therefore the remaining angle :g:`$ACB$ <0216.g1:< A C B )>` is equal to the remaining angle :g:`$BAD$ <0216.g1:< B A D )>`; :just:`[I. 32] <I.32>`
+
+.. assertion::
+
+   therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is equiangular with the triangle :g:`$ABD$ <0216.g1:< A B D >>`.
+
+.. assertion::
+
+   Therefore, as :g:`$BC$ <0216.g1:/ B C />` which subtends the right angle in the triangle :g:`$ABC$ <0216.g1:< A B C >>` is to :g:`$BA$ <0216.g1:/ B A />` which subtends the right angle in the triangle :g:`$ABD$ <0216.g1:< A B D >>`, so is :g:`$AB$ <0216.g1:/ A B />` itself which subtends the angle at :g:`$C$ <0216.g1:< A C B )>` in the triangle :g:`$ABC$ <0216.g1:< A B C >>` to :g:`$BD$ <0216.g1:/ B D />` which subtends the equal angle :g:`$BAD$ <0216.g1:< B A D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>`, and so also is :g:`$AC$ <0216.g1:/ A C />` to :g:`$AD$ <0216.g1:/ A D />` which subtends the angle at :g:`$B$ <0216.g1:< A B C )>` common to the two triangles. :just:`[VI. 4] <VI.4>`
+
+.. assertion::
+
+   Therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is both equiangular to the triangle :g:`$ABD$ <0216.g1:< A B D >>` and has the sides about the equal angles proportional.
+
+.. assertion::
+
+   Therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is similar to the triangle :g:`$ABD$ <0216.g1:< A B D >>`. :just:`[VI. Def. 1] <VI.def.1>`
+
+.. subclause::
+
+   Similarly we can prove that the triangle :g:`$ABC$ <0216.g1:< A B C >>` is also similar to the triangle :g:`$ADC$ <0216.g1:< A D C >>`;
+
+.. assertion::
+
+   therefore each of the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` is similar to the whole :g:`$ABC$ <0216.g1:< A B C >>`.
+
+I say next that the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` are also similar to one another.
+
+For, since the right angle :g:`$BDA$ <0216.g1:< B D A )>` is equal to the right angle :g:`$ADC$ <0216.g1:< A D C )>`, and moreover the angle :g:`$BAD$ <0216.g1:< B A D )>` was also proved equal to the angle at :g:`$C$ <0216.g1:< A C B )>`,
+
+.. assertion::
+
+   therefore the remaining angle at :g:`$B$ <0216.g1:< A B D )>` is also equal to the remaining angle :g:`$DAC$ <0216.g1:< D A C )>`; :just:`[I. 32] <I.32>`
+
+.. assertion::
+
+   therefore the triangle :g:`$ABD$ <0216.g1:< A B D >>` is equiangular with the triangle :g:`$ADC$ <0216.g1:< A D C >>`.
+
+.. assertion::
+
+   Therefore, as :g:`$BD$ <0216.g1:/ B D />` which subtends the angle :g:`$BAD$ <0216.g1:< B A D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>` is to :g:`$DA$ <0216.g1:/ D A />` which subtends the angle at :g:`$C$ <0216.g1:< A C D )>` in the triangle :g:`$ADC$ <0216.g1:< A D C >>` equal to the angle :g:`$BAD$ <0216.g1:< B A D )>`, so is :g:`$AD$ <0216.g1:/ A D />` itself which subtends the angle at :g:`$B$ <0216.g1:< A B D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>` to :g:`$DC$ <0216.g1:/ D C />` which subtends the angle :g:`$DAC$ <0216.g1:< D A C )>` in the triangle :g:`$ADC$ <0216.g1:< A D C >>` equal
+
+.. _folio-ii-0217:
+
+.. folio:: 0217
+   :page: 211
+
+.. assertion::
+
+   to the angle at :g:`$B$ <0216.g1:< A B D )>`, and so also is :g:`$BA$ <0216.g1:/ B A />` to :g:`$AC$ <0216.g1:/ A C />`, these sides subtending the right angles; :just:`[VI. 4] <VI.4>`
+
+.. assertion::
+
+   therefore the triangle :g:`$ABD$ <0216.g1:< A B D >>` is similar to the triangle :g:`$ADC$ <0216.g1:< A D C >>`. :just:`[VI. Def. 1] <VI.def.1>`
+
+.. qed::
+
+   Therefore etc.
+
+.. enunciation::
+
+   PORISM. From this it is clear that, if in a right-angled triangle a perpendicular be drawn from the right angle to the base, the straight line so drawn is a mean proportional between the segments of the base. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition VI.8 <VI.8.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

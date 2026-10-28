@@ -1,0 +1,118 @@
+:canonical_id: X.62
+:volume: III
+:book: X
+:proposition: 62
+:type: proposition
+:title: Proposition X.62
+:folios: 0141, 0142
+:pages: 137, 138
+:dependencies: VI.1, X.11, X.22, X.36, X.38
+
+.. _X.62:
+
+.. folio:: 0141
+   :page: 137
+
+PROPOSITION 62.
+===============
+
+.. enunciation::
+
+   The square on the second bimedial straight line applied to a rational straight line produces as breadth the third binomial.
+
+Let :g:`$AB$ <0141.g1:/ A B />` be a second bimedial straight line divided into its medials at :g:`$C$ <0141.g1:C>`, so that :g:`$AC$ <0141.g1:/ A C />` is the greater segment; let :g:`$DE$ <0141.g1:/ D E />` be any rational straight line, and to :g:`$DE$ <0141.g1:/ D E />` let there be applied the parallelogram :g:`$DF$ <0141.g1:< D F >>` equal to the square on :g:`$AB$ <0141.g1:/ A B />` and producing :g:`$DG$ <0141.g1:/ D G />` as its breadth; I say that :g:`$DG$ <0141.g1:/ D G />` is a third binomial straight line.
+
+.. picture:: 0141.g1.svg
+   :alt: Proposition 62
+
+Let the same construction be made as before shown.
+
+.. _folio-iii-0142:
+
+.. folio:: 0142
+   :page: 138
+
+.. subclause::
+
+   Then, since :g:`$AB$ <0141.g1:/ A B />` is a second bimedial divided at :g:`$C$ <0141.g1:C>`,
+
+.. assertion::
+
+   therefore :g:`$AC$ <0141.g1:/ A C />`, :g:`$CB$ <0141.g1:/ C B />` are medial straight lines commensurable in square only and containing a medial rectangle, :just:`[X. 38] <X.38>` so that the sum of the squares on :g:`$AC$ <0141.g1:/ A C />`, :g:`$CB$ <0141.g1:/ C B />` is also medial. :just:`[X. 15 and 23 Por.]`
+
+.. subclause::
+
+   And it is equal to :g:`$DL$ <0141.g1:< D L >>`;
+
+.. assertion::
+
+   therefore :g:`$DL$ <0141.g1:< D L >>` is also medial.
+
+.. subclause::
+
+   And it is applied to the rational straight line :g:`$DE$ <0141.g1:/ D E />`;
+
+.. assertion::
+
+   therefore :g:`$MD$ <0141.g1:/ M D />` is also rational and incommensurable in length with :g:`$DE$ <0141.g1:/ D E />`. :just:`[X. 22] <X.22>`
+
+.. subclause::
+
+   For the same reason, :g:`$MG$ <0141.g1:/ M G />` is also rational and incommensurable in length with :g:`$ML$ <0141.g1:/ M L />`, that is, with :g:`$DE$ <0141.g1:/ D E />`;
+
+.. assertion::
+
+   therefore each of the straight lines :g:`$DM$ <0141.g1:/ D M />`, :g:`$MG$ <0141.g1:/ M G />` is rational and incommensurable in length with :g:`$DE$ <0141.g1:/ D E />`.
+
+.. subclause::
+
+   And, since :g:`$AC$ <0141.g1:/ A C />` is incommensurable in length with :g:`$CB$ <0141.g1:/ C B />`, and, as :g:`$AC$ <0141.g1:/ A C />` is to :g:`$CB$ <0141.g1:/ C B />`, so is the square on :g:`$AC$ <0141.g1:/ A C />` to the rectangle :g:`$AC$ <0141.g1:/ A C />`, :g:`$CB$ <0141.g1:/ C B />`,
+
+.. assertion::
+
+   therefore the square on :g:`$AC$ <0141.g1:/ A C />` is also incommensurable with the rectangle :g:`$AC$ <0141.g1:/ A C />`, :g:`$CB$ <0141.g1:/ C B />`. :just:`[X. 11] <X.11>`
+
+.. assertion::
+
+   Hence the sum of the squares on :g:`$AC$ <0141.g1:/ A C />`, :g:`$CB$ <0141.g1:/ C B />` is incommensurable with twice the rectangle :g:`$AC$ <0141.g1:/ A C />`, :g:`$CB$ <0141.g1:/ C B />`, :just:`[X. 12, 13]` that is, :g:`$DL$ <0141.g1:< D L >>` is incommensurable with :g:`$MF$ <0141.g1:< M F >>`, so that :g:`$DM$ <0141.g1:/ D M />` is also incommensurable with :g:`$MG$ <0141.g1:/ M G />`. :just:`[VI. 1, X. 11] <VI.1, X.11>`
+
+.. subclause::
+
+   And they are rational;
+
+.. assertion:: [X. 36] <X.36>
+
+   therefore :g:`$DG$ <0141.g1:/ D G />` is binomial.
+
+It is to be proved that it is also a third binomial straight line.
+
+In manner similar to the foregoing we may conclude that :g:`$DM$ <0141.g1:/ D M />` is greater than :g:`$MG$ <0141.g1:/ M G />`, and that :g:`$DK$ <0141.g1:/ D K />` is commensurable with :g:`$KM$ <0141.g1:/ K M />`.
+
+.. subclause::
+
+   And the rectangle :g:`$DK$ <0141.g1:/ D K />`, :g:`$KM$ <0141.g1:/ K M />` is equal to the square on :g:`$MN$ <0141.g1:/ M N />`;
+
+.. assertion::
+
+   therefore the square on :g:`$DM$ <0141.g1:/ D M />` is greater than the square on :g:`$MG$ <0141.g1:/ M G />` by the square on a straight line commensurable with :g:`$DM$ <0141.g1:/ D M />`.
+
+.. subclause::
+
+   And neither of the straight lines :g:`$DM$ <0141.g1:/ D M />`, :g:`$MG$ <0141.g1:/ M G />` is commensurable in length with :g:`$DE$ <0141.g1:/ D E />`.
+
+.. assertion:: [X. Deff. II. 3]
+
+   Therefore :g:`$DG$ <0141.g1:/ D G />` is a third binomial straight line.
+
+.. qed::
+
+   :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition X.62 <X.62.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

@@ -1,0 +1,79 @@
+:canonical_id: V.25
+:volume: II
+:book: V
+:proposition: 25
+:type: proposition
+:title: Proposition V.25
+:folios: 0191
+:pages: 185
+:dependencies: V.19
+
+.. _V.25:
+
+.. _folio-ii-0191:
+
+.. folio:: 0191
+   :page: 185
+
+PROPOSITION 25.
+===============
+
+.. enunciation::
+
+   If four magnitudes be proportional, the greatest and the least are greater than the remaining two.
+
+Let the four magnitudes :g:`$AB$ <0191.g1:/ A B />`, :g:`$CD$ <0191.g1:/ C D />`, :g:`$E$ <0191.g1:E>`, :g:`$F$ <0191.g1:F>` be proportional so that, as :g:`$AB$ <0191.g1:/ A B />` is to :g:`$CD$ <0191.g1:/ C D />`, so is :g:`$E$ <0191.g1:E>` to :g:`$F$ <0191.g1:F>`, and let :g:`$AB$ <0191.g1:/ A B />` be the greatest of them and :g:`$F$ <0191.g1:F>` the least;
+
+I say that :g:`$AB$ <0191.g1:/ A B />`, :g:`$F$ <0191.g1:F>` are greater than :g:`$CD$ <0191.g1:/ C D />`, :g:`$E$ <0191.g1:E>`.
+
+For let :g:`$AG$ <0191.g1:/ A G />` be made equal to :g:`$E$ <0191.g1:E>`, and :g:`$CH$ <0191.g1:/ C H />` equal to :g:`$F$ <0191.g1:F>`.
+
+.. picture:: 0191.g1.svg
+   :alt: Book V, Proposition 25, Line Segments
+
+Since, as :g:`$AB$ <0191.g1:/ A B />` is to :g:`$CD$ <0191.g1:/ C D />`, so is :g:`$E$ <0191.g1:E>` to :g:`$F$ <0191.g1:F>`, and :g:`$E$ <0191.g1:E>` is equal to :g:`$AG$ <0191.g1:/ A G />`, and :g:`$F$ <0191.g1:F>` to :g:`$CH$ <0191.g1:/ C H />`,
+
+.. assertion::
+
+   therefore, as :g:`$AB$ <0191.g1:/ A B />` is to :g:`$CD$ <0191.g1:/ C D />`, so is :g:`$AG$ <0191.g1:/ A G />` to :g:`$CH$ <0191.g1:/ C H />`.
+
+And since, as the whole :g:`$AB$ <0191.g1:/ A B />` is to the whole :g:`$CD$ <0191.g1:/ C D />`, so is the part :g:`$AG$ <0191.g1:/ A G />` subtracted to the part :g:`$CH$ <0191.g1:/ C H />` subtracted,
+
+.. assertion::
+
+   the remainder :g:`$GB$ <0191.g1:/ G B />` will also be to the remainder :g:`$HD$ <0191.g1:/ H D />` as the whole :g:`$AB$ <0191.g1:/ A B />` is to the whole :g:`$CD$ <0191.g1:/ C D />`. :just:`[V. 19] <V.19>`
+
+.. subclause::
+
+   But :g:`$AB$ <0191.g1:/ A B />` is greater than :g:`$CD$ <0191.g1:/ C D />`;
+
+.. assertion::
+
+   therefore :g:`$GB$ <0191.g1:/ G B />` is also greater than :g:`$HD$ <0191.g1:/ H D />`.
+
+And, since :g:`$AG$ <0191.g1:/ A G />` is equal to :g:`$E$ <0191.g1:E>`, and :g:`$CH$ <0191.g1:/ C H />` to :g:`$F$ <0191.g1:F>`,
+
+.. assertion::
+
+   therefore :g:`$AG$ <0191.g1:/ A G />`, :g:`$F$ <0191.g1:F>` are equal to :g:`$CH$ <0191.g1:/ C H />`, :g:`$E$ <0191.g1:E>`.
+
+.. subclause::
+
+   And if, :g:`$GB$ <0191.g1:/ G B />`, :g:`$HD$ <0191.g1:/ H D />` being unequal, and :g:`$GB$ <0191.g1:/ G B />` greater, :g:`$AG$ <0191.g1:/ A G />`, :g:`$F$ <0191.g1:F>` be added to :g:`$GB$ <0191.g1:/ G B />` and :g:`$CH$ <0191.g1:/ C H />`, :g:`$E$ <0191.g1:E>` be added to :g:`$HD$ <0191.g1:/ H D />`,
+
+.. assertion::
+
+   it follows that :g:`$AB$ <0191.g1:/ A B />`, :g:`$F$ <0191.g1:F>` are greater than :g:`$CD$ <0191.g1:/ C D />`, :g:`$E$ <0191.g1:E>`.
+
+.. qed::
+
+   Therefore etc. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition V.25 <V.25.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

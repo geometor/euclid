@@ -1,0 +1,63 @@
+:canonical_id: X.63.commentary
+:volume: III
+:book: X
+:proposition: 63
+:type: commentary
+:title: Commentary on Proposition X.63
+:folios: 0145
+:pages: 141
+
+.. _X.63.commentary:
+
+Commentary on Proposition X.63
+==============================
+
+Back to :ref:`Proposition X.63 <X.63>`.
+
+.. folio:: 0145
+   :page: 141
+
+We have to prove that [cf. x. 39]
+
+$$
+\frac{1}{\sigma} \left\{ \frac{\rho}{\sqrt{2}} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}} + \frac{\rho}{\sqrt{2}} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}} \right\}^2
+$$
+
+is a :term:`*fourth binomial* <fourth-binomial>` straight line.
+For brevity we must call this expression
+
+$$
+\frac{1}{\sigma} (u + v)^2.
+$$
+
+Take $x$, $y$, $z$ such that
+
+$$
+\left.
+\begin{aligned}
+\sigma x &= u^2, \\
+\sigma y &= v^2, \\
+\sigma \cdot 2z &= 2uv
+\end{aligned}
+\right\},
+$$
+
+wherein it has to be remembered [x. 39] that $u$, $v$ are incommensurable in square, $(u^2 + v^2)$ is rational, and $uv$ is medial.
+($\alpha$) $(u^2 + v^2)$, and therefore $\sigma(x + y)$, is rational ;
+therefore $(x + y)$ is rational and $\sim \sigma$ .......................................(1).
+$2uv$, and therefore $\sigma \cdot 2z$, is medial ;
+therefore $2z$ is rational and $\smile \sigma$ ..........................................(2).
+Thus $(x + y)$, $2z$ are rational and $\sim$ ...................................(3),
+so that $(x + y) + 2z$ is a binomial straight line.
+($\beta$) As before, $x + y > 2z$,
+and $xy = z^2$.
+Now, since $u^2 \smile v^2$,
+$\sigma x \smile \sigma y$, or $x \smile y$.
+Hence [x. 18] $\sqrt{(x + y)^2 - (2z)^2} \smile (x + y)$ ........................(4).
+And $(x + y) \sim \sigma$, by (1).
+Therefore [(3), (4)] $(x + y) + 2z$ is a :term:`*fourth binomial* <fourth-binomial>` straight line.
+It is of course
+
+$$
+\frac{\rho^2}{\sigma} \left\{ 1 + \frac{1}{\sqrt{1 + k^2}} \right\}.
+$$

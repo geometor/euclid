@@ -1,0 +1,43 @@
+:canonical_id: VI.26.commentary
+:volume: II
+:book: VI
+:proposition: 26
+:type: commentary
+:title: Commentary on Proposition VI.26
+:folios: 0262
+:pages: 256
+
+.. _VI.26.commentary:
+
+Commentary on Proposition VI.26
+===============================
+
+Back to :ref:`Proposition VI.26 <VI.26>`.
+
+.. folio:: 0262
+   :page: 256
+
+"**For suppose it is not, but, if possible, let** :g:`$AHC$ <0261.g1:/ A H C />` **be the diameter**." What is meant is "For, if :g:`$AFC$ <0261.g1:/ A C />` is not the diameter of the parallelogram :g:`$AC$ <0261.g1:< A B C D >>`, let :g:`$AHC$ <0261.g1:/ A H C />` be its diameter." The Greek text has ἔστω αὐτῶν :term:`διάμετρος <diameter>` ἡ ΑΘΓ ; but clearly αὐτῶν is wrong, as we cannot assume that one straight line is the diameter of both parallelograms, which is just what we have to prove. F and V omit the αὐτῶν, and :person:`Heiberg <heiberg>` prefers this correction to substituting αὐτοῦ after :person:`Peyrard <peyrard>`. I have inserted "&lt;of :g:`$ABCD$ <0261.g1:< A B C D >>` &gt;" to make the meaning clear.
+
+If the straight line :g:`$AHC$ <0261.g1:/ A H C />` does not pass through :g:`$F$ <0261.g1:F>`, it must meet either :g:`$GF$ <0261.g1:/ G F />` or :g:`$GF$ <0261.g1:/ G H />` produced in some point :g:`$H$ <0261.g1:H>`. The reading in the text "and let :g:`$GF$ <0261.g1:/ G F />` be *produced and carried through to* :g:`$H$ <0261.g1:H>`" (καὶ ἐκβληθεῖσα ἡ ΗΖ διήχθω ἐπὶ τὸ Θ) corresponds to the supposition that :g:`$H$ <0261.g1:H>` is on :g:`$GF$ <0261.g1:/ G F />` produced. The words were left out by Theon, evidently because in the figure of the MSS. the letters E, Z and K, Θ were interchanged. :person:`Heiberg <heiberg>` therefore, following August, has preferred to retain the words and to correct the figure, as well as the passage in the text where :g:`$AE$ <0261.g1:/ A E />`, :g:`$AK$ <0261.g1:/ A K />` were interchanged to be in accord with the MS. figure.
+
+It is of course possible to prove the proposition directly, as is done by Dr Lachlan. Let :g:`$AF$ <0261.g1:/ A F />`, :g:`$AC$ <0261.g1:/ A C />` be the diagonals, and let us make no assumption as to how they fall.
+
+Then, since :g:`$EF$ <0261.g1:/ E F />` is parallel to :g:`$AG$ <0261.g1:/ A G />` and therefore to :g:`$BC$ <0261.g1:/ B C />`, the angles :g:`$AEF$ <0261.g1:< A E F )>`, :g:`$ABC$ <0261.g1:< A B C )>` are equal.
+
+And, since the parallelograms are similar,
+
+.. container:: center
+
+   :g:`$AE$ <0261.g1:/ A E />` : :g:`$EF$ <0261.g1:/ E F />` = :g:`$AB$ <0261.g1:/ A B />` : :g:`$BC$ <0261.g1:/ B C />`. [VI. Def. 1]
+
+Hence the triangles :g:`$AEF$ <0261.g1:< A E F >>`, :g:`$ABC$ <0261.g1:< A B C >>` are similar, :just:`[VI. 6] <VI.6>`
+
+and therefore the angle :g:`$FAE$ <0261.g1:< F A E )>` is equal to the angle :g:`$CAB$ <0261.g1:< F A E )>`.
+
+Therefore :g:`$AF$ <0261.g1:/ A F />` falls on :g:`$AC$ <0261.g1:/ A C />`.
+
+The proposition is equally true if the parallelogram which is similar and similarly situated to the given parallelogram is not "taken away" from it, but is so placed that it is entirely outside the other, while two sides form an angle vertically opposite to an angle of the other. In this case the diameters are not "the same," in the words of the enunciation, but are in a straight line with one another. This extension of the proposition is, as will be seen, necessary for obtaining, according to the method adopted by Euclid in his solution of the problem in VI. 28, the second solution of that problem.
+
+.. picture:: 0262.g1.svg
+   :alt: Proposition 26 extension

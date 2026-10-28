@@ -1,0 +1,74 @@
+:canonical_id: VIII.1
+:volume: II
+:book: VIII
+:proposition: 1
+:type: proposition
+:title: Proposition VIII.1
+:folios: 0351, 0352
+:pages: 345, 346
+:dependencies: VII.14, VII.20, VII.21
+
+.. _VIII.1:
+
+.. _folio-ii-0351:
+
+.. folio:: 0351
+   :page: 345
+
+PROPOSITION 1.
+==============
+
+.. enunciation::
+
+   If there be as many numbers as we please in continued proportion, and the extremes of them be prime to one another, the numbers are the least of those which have the same ratio with them.
+
+Let there be as many numbers as we please, :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>`, in continued proportion, and let the extremes of them :g:`$A$ <0351.g1:A>`, :g:`$D$ <0351.g1:D>` be prime to one another;
+
+I say that :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>` are the least of those which have the same ratio with them.
+
+.. picture:: 0351.g1.svg
+   :alt: Proposition 1 Diagram
+
+For, if not, let :g:`$E$ <0351.g1:E>`, :g:`$F$ <0351.g1:F>`, :g:`$G$ <0351.g1:G>`, :g:`$H$ <0351.g1:H>` be less than :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>`, and in the same ratio with them.
+
+.. subclause::
+
+   Now, since :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>` are in the same ratio with :g:`$E$ <0351.g1:E>`, :g:`$F$ <0351.g1:F>`, :g:`$G$ <0351.g1:G>`, :g:`$H$ <0351.g1:H>`, and the multitude of the numbers :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>` is equal to the multitude of the numbers :g:`$E$ <0351.g1:E>`, :g:`$F$ <0351.g1:F>`, :g:`$G$ <0351.g1:G>`, :g:`$H$ <0351.g1:H>`,
+
+.. assertion::
+
+   therefore, :term:`*ex aequali* <ex-aequali>`, as :g:`$A$ <0351.g1:A>` is to :g:`$D$ <0351.g1:D>`, so is :g:`$E$ <0351.g1:E>` to :g:`$H$ <0351.g1:H>`. :just:`[VII. 14] <VII.14>`
+
+.. subclause::
+
+   But :g:`$A$ <0351.g1:A>`, :g:`$D$ <0351.g1:D>` are prime, primes are also least, :just:`[VII. 21] <VII.21>` and the least numbers measure those which have the same ratio the same number of times, the greater the greater and the less the less, that is, the antecedent the antecedent and the consequent the consequent. :just:`[VII. 20] <VII.20>`
+
+.. _folio-ii-0352:
+
+.. folio:: 0352
+   :page: 346
+
+.. assertion::
+
+   Therefore :g:`$A$ <0351.g1:A>` measures :g:`$E$ <0351.g1:E>`, the greater the less : which is impossible.
+
+.. assertion::
+
+   Therefore :g:`$E$ <0351.g1:E>`, :g:`$F$ <0351.g1:F>`, :g:`$G$ <0351.g1:G>`, :g:`$H$ <0351.g1:H>` which are less than :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>` are not in the same ratio with them.
+
+.. assertion::
+
+   Therefore :g:`$A$ <0351.g1:A>`, :g:`$B$ <0351.g1:B>`, :g:`$C$ <0351.g1:C>`, :g:`$D$ <0351.g1:D>` are the least of those which have the same ratio with them.
+
+.. qed::
+
+   :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition VIII.1 <VIII.1.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

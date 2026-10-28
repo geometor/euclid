@@ -1,0 +1,44 @@
+:canonical_id: VIII.27.commentary
+:volume: II
+:book: VIII
+:proposition: 27
+:type: commentary
+:title: Commentary on Proposition VIII.27
+:folios: 0389
+:pages: 383
+
+.. _VIII.27.commentary:
+
+Commentary on Proposition VIII.27
+=================================
+
+Back to :ref:`Proposition VIII.27 <VIII.27>`.
+
+.. _folio-ii-0389:
+
+.. folio:: 0389
+   :page: 383
+
+The same thing as VIII. 26 with cubes. It is proved in the same way except that VIII. 19 is used instead of VIII. 18.
+
+The last note of :person:`an-Nairīzī <an-nairizi>` in which the name of :person:`Heron <heron>` is mentioned is on this proposition. :person:`Heron <heron>` is there stated (p. 194—5, ed. Curtze) to have added the two propositions that,
+
+1. *If two numbers have to one another the ratio of a square to a square, the* *numbers are similar plane numbers;*
+
+2. *If two numbers have to one another the ratio of a cube to a cube, the numbers* *are similar solid numbers.*
+
+The propositions are of course the converses of VIII. 26, 27 respectively. They are easily proved.
+
+(1) If
+
+$$a : b = c^2 : d^2,$$
+
+then, since there is one mean proportional ($cd$) between $c^2, d^2$, :just:`[VIII. 11 or 18]`
+
+there is also one mean proportional between $a, b$. :just:`[VIII. 8] <VIII.8>`
+
+Therefore $a, b$ are similar plane numbers. :just:`[VIII. 20] <VIII.20>`
+
+(2) is similarly proved by the use of VIII. 12 or 19, VIII. 8, VIII. 21.
+
+The insertion by :person:`Heron <heron>` of the first of the two propositions, the converse of VIII. 26, is perhaps an argument in favour of the correctness of the text of IX. 10, though (as remarked in the note on that proposition) it does not give the easiest proof. Cf. :person:`Heron <heron>`'s extension of VII. 3 tacitly assumed by Euclid in VII. 33.
