@@ -20,9 +20,5 @@ A digital reconstruction of Euclid's Elements for semantic discovery and depende
 ## Key Modules
 
 -   `compile_edition.py`: De-pagination and edition compiler transforming folio-reviewed RST sources (`resources/heath/`) into the 3-volume Heath Edition (`docsrc/heath/`) with proposition collections, companion commentary tracks, and scholarly apparatus (`bibliography.rst`, `persons.rst`, `glossary.rst`).
+-   `scripts/recalibrate_svgs.py`: Tight bounding-box (`viewBox`, `width`, `height`) recalibrator and light/dark mode CSS normalizer across all 831 geometric SVGs in `resources/heath/`.
 -   `folio_review/`: Flask web UI for side-by-side folio image and semantic RST transcription review.
-
-
-
-
-
