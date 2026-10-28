@@ -1,94 +1,188 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 116" class="euclid-graphic" data-graphic-id="0320.g1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 -10 479 135" class="euclid-graphic" data-graphic-id="0320.g1" width="479" height="135">
   <title>Euclid's Elements, Book I, Proposition 26 (Ambiguous Case of Triangle Congruence)</title>
   <desc>Three figures showing triangle ABC, congruent triangle DEF, and ambiguous triangle DEF with supplementary angle at F and point G on EF produced.</desc>
-
   <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #ef4444;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #ef4444;
+      }
+    }
     .euclid-graphic {
-      font-family: 'Times New Roman', 'Georgia', serif;
+      font-family: 'EB Garamond', 'Times New Roman', 'Georgia', serif;
       font-style: italic;
-      background-color: #ffffff;
+      background-color: var(--geom-bg);
     }
     .geom-line {
-      stroke: #000000;
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-bold {
+      stroke: var(--geom-fg);
       stroke-width: 2.2;
       stroke-linecap: round;
       stroke-linejoin: round;
+      fill: none;
       transition: stroke 0.15s, stroke-width 0.15s;
     }
-    .geom-line-dashed {
-      stroke: #000000;
-      stroke-width: 2;
-      stroke-dasharray: 5,4;
+    .geom-circle, .geom-curve, .geom-ellipse {
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
       stroke-linecap: round;
       stroke-linejoin: round;
-      transition: stroke 0.15s, stroke-width 0.15s;
-    }
-    .geom-circle {
-      stroke: #000000;
-      stroke-width: 1.8;
       fill: none;
       transition: stroke 0.15s, stroke-width 0.15s;
     }
     .geom-arc {
-      stroke: #000000;
-      stroke-width: 1.8;
+      stroke: var(--geom-fg);
+      stroke-width: 1.6;
+      stroke-linecap: round;
       fill: none;
       transition: stroke 0.15s, stroke-width 0.15s;
     }
+    .geom-dashed, .geom-line-dashed, .geom-arc-dashed, .geom-aux, .geom-Auxiliary, .geom-construction {
+      stroke: var(--geom-fg);
+      stroke-width: 1.5;
+      stroke-dasharray: 4, 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc-dotted {
+      stroke: var(--geom-fg);
+      stroke-width: 1.5;
+      stroke-dasharray: 2.5, 2.5;
+      stroke-linecap: round;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-ray {
+      stroke: var(--geom-fg);
+      stroke-width: 1.3;
+      stroke-linecap: round;
+      fill: none;
+      opacity: 0.85;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-tick {
+      stroke: var(--geom-fg);
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .grid-line {
+      stroke: var(--geom-fg);
+      stroke-width: 0.9;
+      stroke-linecap: round;
+      fill: none;
+      opacity: 0.65;
+    }
     .geom-polygon {
-      fill: #000000;
+      fill: var(--geom-poly-fill);
       fill-opacity: 0.04;
       stroke: none;
-      transition: fill-opacity 0.15s;
+      transition: fill-opacity 0.15s, stroke 0.15s;
+    }
+    .geom-polygon-bordered, .geom-polygon-stroked, .geom-space {
+      fill: var(--geom-poly-fill);
+      fill-opacity: 0.04;
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: fill-opacity 0.15s, stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-polygon-gnomon {
+      fill: var(--geom-poly-fill);
+      fill-opacity: 0.14;
+      stroke: none;
+      transition: fill-opacity 0.15s, stroke 0.15s;
     }
     .wedge, .angle {
-      fill: #ef4444;
+      fill: var(--geom-accent);
       fill-opacity: 0.24;
-      stroke: #ef4444;
+      stroke: var(--geom-accent);
       stroke-width: 2;
       stroke-linejoin: round;
       transition: opacity 0.12s ease, fill-opacity 0.12s ease;
     }
     .geom-point {
-      fill: #000000;
-      stroke: #ffffff;
+      fill: var(--geom-fg);
+      stroke: var(--geom-point-stroke);
       stroke-width: 1;
+      transition: fill 0.15s, r 0.15s;
+    }
+    .geom-dot {
+      fill: var(--geom-fg);
+      stroke: none;
+      transition: fill 0.15s, r 0.15s;
     }
     .geom-label {
-      font-size: 15px;
+      font-size: 14.5px;
       font-weight: bold;
-      fill: #000000;
+      fill: var(--geom-fg);
       user-select: none;
+    }
+    .geom-label-roman {
+      font-size: 14.5px;
+      font-weight: bold;
+      font-style: normal;
+      fill: var(--geom-fg);
+      user-select: none;
+    }
+    .geom-label-sm {
+      font-size: 11px;
+      font-weight: bold;
+      fill: var(--geom-fg);
+      user-select: none;
+    }
+    .geom-label-sub {
+      font-size: 11px;
+      font-style: normal;
+      font-weight: bold;
     }
     .geom-overlay {
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.12s ease;
     }
-    /* Interactive Highlight States */
     [data-ref]:hover, .highlight, .geom-highlight-active {
       opacity: 1 !important;
-      stroke: #ef4444 !important;
+      stroke: var(--geom-accent) !important;
       cursor: pointer;
     }
     text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
-      fill: #ef4444 !important;
+      opacity: 1 !important;
+      fill: var(--geom-accent) !important;
       stroke: none !important;
     }
-    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
-    path.wedge:hover, path.wedge.highlight, path.wedge.geom-highlight-active,
-    path.angle:hover, path.angle.highlight, path.angle.geom-highlight-active {
+    .geom-polygon:hover, .geom-polygon.highlight, .geom-polygon-bordered:hover, .geom-polygon-bordered.highlight, .geom-polygon-stroked:hover, .geom-polygon-stroked.highlight, .geom-polygon-gnomon:hover, .geom-polygon-gnomon.highlight, .geom-space:hover, .geom-space.highlight, polygon.geom-highlight-active, path.geom-polygon.geom-highlight-active, .wedge:hover, .wedge.highlight, .wedge.angle:hover, .wedge.angle.highlight, .wedge.angle.geom-highlight-active, path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
       opacity: 1 !important;
       fill-opacity: 0.24 !important;
-      fill: #ef4444 !important;
-      stroke: #ef4444 !important;
+      fill: var(--geom-accent) !important;
+      stroke: var(--geom-accent) !important;
     }
-    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
-      fill: #ef4444 !important;
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active, .geom-dot:hover, .geom-dot.highlight, circle.geom-highlight-active {
+      opacity: 1 !important;
+      fill: var(--geom-accent) !important;
       stroke: none !important;
     }
   </style>
-
   <g id="elements">
     <line id="line-A-B" data-ref="[ A B ]" class="geom-line" x1="111" y1="23" x2="18" y2="98" />
     <line id="line-A-C" data-ref="[ A C ]" class="geom-line" x1="111" y1="23" x2="151" y2="98" />
@@ -101,7 +195,6 @@
     <line id="line-D2-G" data-ref="[ D G ]" class="geom-line" x1="414" y1="22" x2="457" y2="98" />
     <line id="line-E2-G" data-ref="[ E G ]" data-aliases="[ E F ]" class="geom-line" x1="322" y1="98" x2="457" y2="98" />
   </g>
-
   <g id="graphics">
     <polygon id="polygon-A-B-C" data-ref="&lt; A B C &gt;" class="geom-polygon" points="111,23 18,98 151,98" />
     <polygon id="polygon-D1-E1-F1" data-ref="&lt; D E F &gt;" class="geom-polygon" points="281,23 190,98 248,98" />
@@ -120,7 +213,6 @@
     <line id="segment-E2-G" data-ref="/ E G /" class="geom-line" x1="322" y1="98" x2="457" y2="98" />
     <line id="section-E2-F2-G" data-ref="/ E F G /" data-aliases="} E F G { | / E G /" class="geom-line geom-overlay" x1="322" y1="98" x2="457" y2="98" />
   </g>
-
   <g id="highlights">
     <line id="highlight-segment-E2-F2" data-ref="/ E F /" class="geom-line geom-overlay" x1="322" y1="98" x2="380" y2="98" />
     <line id="highlight-segment-F2-G" data-ref="/ F G /" class="geom-line geom-overlay" x1="380" y1="98" x2="457" y2="98" />
@@ -144,7 +236,6 @@
     <path id="wedge-D2-G-F2" data-ref="&lt; D G F )" data-aliases="( G D )&lt; D G F &gt; | ( G F )&lt; D G F &gt;" class="wedge angle geom-overlay" d="M 457 98 L 447.15 80.59 A 20.0 20.0 0 0 0 437 98 Z" />
     <path id="wedge-D2-F2-G" data-ref="&lt; D F G )" data-aliases="( F D )&lt; D F G &gt; | ( F G )&lt; D F G &gt;" class="wedge angle geom-overlay" d="M 380 98 L 388.17 79.74 A 20.0 20.0 0 0 1 400 98 Z" />
   </g>
-
   <g id="points">
     <circle id="A" data-ref="A" class="geom-point" cx="111" cy="23" r="3.5" />
     <circle id="B" data-ref="B" class="geom-point" cx="18" cy="98" r="3.5" />
@@ -157,7 +248,6 @@
     <circle id="F2" data-ref="F" data-aliases="F2" class="geom-point" cx="380" cy="98" r="3.5" />
     <circle id="G" data-ref="G" class="geom-point" cx="457" cy="98" r="3.5" />
   </g>
-
   <g id="labels">
     <text id="label-A" data-ref="A" class="geom-label" x="113" y="17">A</text>
     <text id="label-B" data-ref="B" class="geom-label" x="18" y="108">B</text>
