@@ -1,0 +1,97 @@
+:canonical_id: VIII.5
+:volume: II
+:book: VIII
+:proposition: 5
+:type: proposition
+:title: Proposition VIII.5
+:folios: 0360
+:pages: 354
+:dependencies: VII.14, VII.17, VIII.4
+
+.. _VIII.5:
+
+.. _folio-ii-0360:
+
+.. folio:: 0360
+   :page: 354
+
+PROPOSITION 5.
+==============
+
+.. enunciation::
+
+   Plane numbers have to one another the ratio compounded of the ratios of their sides.\ [#f1]_
+
+Let :g:`$A$ <0360.g1:A>`, :g:`$B$ <0360.g1:B>` be plane numbers, and let the numbers :g:`$C$ <0360.g1:C>`, :g:`$D$ <0360.g1:D>` be the sides of :g:`$A$ <0360.g1:A>`, and :g:`$E$ <0360.g1:E>`, :g:`$F$ <0360.g1:F>` of :g:`$B$ <0360.g1:B>`;
+
+I say that :g:`$A$ <0360.g1:A>` has to :g:`$B$ <0360.g1:B>` the ratio compounded of the ratios of the sides.
+
+.. picture:: 0360.g1.svg
+   :alt: Book VIII Proposition 5
+
+For, the ratios being given which :g:`$C$ <0360.g1:C>` has to :g:`$E$ <0360.g1:E>` and :g:`$D$ <0360.g1:D>` to :g:`$F$ <0360.g1:F>`, let the least numbers :g:`$G$ <0360.g1:G>`, :g:`$H$ <0360.g1:H>`, :g:`$K$ <0360.g1:K>` that are continuously in the ratios :g:`$C$ <0360.g1:C>` : :g:`$E$ <0360.g1:E>`, :g:`$D$ <0360.g1:D>` : :g:`$F$ <0360.g1:F>` be taken, so that, as :g:`$C$ <0360.g1:C>` is to :g:`$E$ <0360.g1:E>`, so is :g:`$G$ <0360.g1:G>` to :g:`$H$ <0360.g1:H>`, and, as :g:`$D$ <0360.g1:D>` is to :g:`$F$ <0360.g1:F>`, so is :g:`$H$ <0360.g1:H>` to :g:`$K$ <0360.g1:K>`. :just:`[VIII. 4] <VIII.4>`
+
+And let :g:`$D$ <0360.g1:D>` by multiplying :g:`$E$ <0360.g1:E>` make :g:`$L$ <0360.g1:L>`.
+
+.. subclause::
+
+   Now, since :g:`$D$ <0360.g1:D>` by multiplying :g:`$C$ <0360.g1:C>` has made :g:`$A$ <0360.g1:A>`, and by multiplying :g:`$E$ <0360.g1:E>` has made :g:`$L$ <0360.g1:L>`,
+
+.. assertion:: [VII. 17] <VII.17>
+
+   therefore, as :g:`$C$ <0360.g1:C>` is to :g:`$E$ <0360.g1:E>`, so is :g:`$A$ <0360.g1:A>` to :g:`$L$ <0360.g1:L>`.
+
+.. subclause::
+
+   But, as :g:`$C$ <0360.g1:C>` is to :g:`$E$ <0360.g1:E>`, so is :g:`$G$ <0360.g1:G>` to :g:`$H$ <0360.g1:H>`;
+
+.. assertion::
+
+   therefore also, as :g:`$G$ <0360.g1:G>` is to :g:`$H$ <0360.g1:H>`, so is :g:`$A$ <0360.g1:A>` to :g:`$L$ <0360.g1:L>`.
+
+.. subclause::
+
+   Again, since :g:`$E$ <0360.g1:E>` by multiplying :g:`$D$ <0360.g1:D>` has made :g:`$L$ <0360.g1:L>`, and further by multiplying :g:`$F$ <0360.g1:F>` has made :g:`$B$ <0360.g1:B>`,
+
+.. assertion:: [VII. 17] <VII.17>
+
+   therefore, as :g:`$D$ <0360.g1:D>` is to :g:`$F$ <0360.g1:F>`, so is :g:`$L$ <0360.g1:L>` to :g:`$B$ <0360.g1:B>`.
+
+.. subclause::
+
+   But, as :g:`$D$ <0360.g1:D>` is to :g:`$F$ <0360.g1:F>`, so is :g:`$H$ <0360.g1:H>` to :g:`$K$ <0360.g1:K>`;
+
+.. assertion::
+
+   therefore also, as :g:`$H$ <0360.g1:H>` is to :g:`$K$ <0360.g1:K>`, so is :g:`$L$ <0360.g1:L>` to :g:`$B$ <0360.g1:B>`.
+
+.. subclause::
+
+   But it was also proved that, as :g:`$G$ <0360.g1:G>` is to :g:`$H$ <0360.g1:H>`, so is :g:`$A$ <0360.g1:A>` to :g:`$L$ <0360.g1:L>`;
+
+.. assertion::
+
+   therefore, :term:`*ex aequali* <ex-aequali>`, as :g:`$G$ <0360.g1:G>` is to :g:`$K$ <0360.g1:K>`, so is :g:`$A$ <0360.g1:A>` to :g:`$B$ <0360.g1:B>`. :just:`[VII. 14] <VII.14>`
+
+.. subclause::
+
+   But :g:`$G$ <0360.g1:G>` has to :g:`$K$ <0360.g1:K>` the ratio compounded of the ratios of the sides;
+
+.. assertion::
+
+   therefore :g:`$A$ <0360.g1:A>` also has to :g:`$B$ <0360.g1:B>` the ratio compounded of the ratios of the sides.
+
+.. qed::
+
+   :just:`Q. E. D.`
+
+.. [#f1] **compounded of the ratios of their sides.** As in VI. 23, the Greek has the less exact phrase, "compounded of their sides."
+
+----
+
+See :ref:`Commentary on Proposition VIII.5 <VIII.5.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

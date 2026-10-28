@@ -1,4 +1,5 @@
 :canonical_id: I.propositions
+:volume: I
 :book: I
 :type: section
 :title: Book I Propositions
@@ -6,54 +7,6 @@
 BOOK I. PROPOSITIONS.
 =====================
 
-.. toctree::
-   :maxdepth: 1
-
-   01/index
-   02/index
-   03/index
-   04/index
-   05/index
-   06/index
-   07/index
-   08/index
-   09/index
-   10/index
-   11/index
-   12/index
-   13/index
-   14/index
-   15/index
-   16/index
-   17/index
-   18/index
-   19/index
-   20/index
-   21/index
-   22/index
-   23/index
-   24/index
-   25/index
-   26/index
-   27/index
-   28/index
-   29/index
-   30/index
-   31/index
-   32/index
-   33/index
-   34/index
-   35/index
-   36/index
-   37/index
-   38/index
-   39/index
-   40/index
-   41/index
-   42/index
-   43/index
-   44/index
-   45/index
-   46/index
-   47/index
-   48/index
+.. collection::
+   :type: proposition
+   :sort: proposition

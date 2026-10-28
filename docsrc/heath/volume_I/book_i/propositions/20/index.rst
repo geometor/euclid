@@ -1,8 +1,9 @@
 :canonical_id: I.20
+:volume: I
 :book: I
 :proposition: 20
 :type: proposition
-:title: Proposition 20
+:title: Proposition I.20
 :folios: 0300, 0301
 :pages: 286, 287
 :dependencies: I.19, I.5, I.cn.5
@@ -19,8 +20,9 @@ PROPOSITION 20.
 
    In any triangle two sides taken together in any manner are greater than the remaining one.
 
-| For let :g:`$ABC$ <0300.g2:< A B C >>` be a triangle;
-| I say that in the triangle :g:`$ABC$ <0300.g2:< A B C >>` two sides taken together in any manner are greater than the remaining one, namely
+For let :g:`$ABC$ <0300.g2:< A B C >>` be a triangle;
+
+I say that in the triangle :g:`$ABC$ <0300.g2:< A B C >>` two sides taken together in any manner are greater than the remaining one, namely
 
 .. subclause::
 
@@ -39,19 +41,19 @@ PROPOSITION 20.
 
 For let :g:`$BA$ <0300.g2:[ B A ]>` be drawn through to the point :g:`$D$ <0300.g2:D>`, let :g:`$DA$ <0300.g2:/ D A />` be made equal to :g:`$CA$ <0300.g2:/ C A />`, and let :g:`$DC$ <0300.g2:/ D C />` be joined.
 
-| Then, since :g:`$DA$ <0300.g2:/ D A />` is equal to :g:`$AC$ <0300.g2:/ A C />`,
-| the angle :g:`$ADC$ <0300.g2:< A D C )>` is also equal to the angle :g:`$ACD$ <0300.g2:< A C D )>`; :just:`[I. 5] <I.5>`
+Then, since :g:`$DA$ <0300.g2:/ D A />` is equal to :g:`$AC$ <0300.g2:/ A C />`, the angle :g:`$ADC$ <0300.g2:< A D C )>` is also equal to the angle :g:`$ACD$ <0300.g2:< A C D )>`; :just:`[I. 5] <I.5>`
 
 .. assertion:: [C. N. 5] <I.cn.5>
 
    therefore the angle :g:`$BCD$ <0300.g2:< B C D )>` is greater than the angle :g:`$ADC$ <0300.g2:< A D C )>`.
 
-| And, since :g:`$DCB$ <0300.g2:< D C B >>` is a triangle having the angle :g:`$BCD$ <0300.g2:< B C D )>` greater than the angle :g:`$BDC$ <0300.g2:< B D C )>`,
-| and the greater angle is subtended by the greater side, :just:`[I. 19] <I.19>`
+And, since :g:`$DCB$ <0300.g2:< D C B >>` is a triangle having the angle :g:`$BCD$ <0300.g2:< B C D )>` greater than the angle :g:`$BDC$ <0300.g2:< B D C )>`, and the greater angle is subtended by the greater side, :just:`[I. 19] <I.19>`
 
 .. assertion::
 
    therefore :g:`$DB$ <0300.g2:/ D B />` is greater than :g:`$BC$ <0300.g2:/ B C />`.
+
+.. _folio-i-0301:
 
 .. folio:: 0301
    :page: 287
@@ -70,7 +72,7 @@ Similarly we can prove that :g:`$AB$ <0300.g2:/ A B />`, :g:`$BC$ <0300.g2:/ B C
 
 ----
 
-See :ref:`Commentary on Proposition 20 <I.20.commentary>`.
+See :ref:`Commentary on Proposition I.20 <I.20.commentary>`.
 
 .. toctree::
    :hidden:

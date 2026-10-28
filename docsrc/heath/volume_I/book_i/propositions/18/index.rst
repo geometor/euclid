@@ -1,13 +1,16 @@
 :canonical_id: I.18
+:volume: I
 :book: I
 :proposition: 18
 :type: proposition
-:title: Proposition 18
+:title: Proposition I.18
 :folios: 0297
 :pages: 283
 :dependencies: I.16, I.3
 
 .. _I.18:
+
+.. _folio-i-0297:
 
 .. folio:: 0297
    :page: 283
@@ -22,8 +25,9 @@ PROPOSITION 18.
 .. picture:: 0297.g1.svg
    :alt: Proposition 18 figure
 
-| For let :g:`$ABC$ <0297.g1:< A B C >>` be a triangle having the side :g:`$AC$ <0297.g1:/ A C />` greater than :g:`$AB$ <0297.g1:/ A B />`;
-| I say that the angle :g:`$ABC$ <0297.g1:< A B C )>` is also greater than the angle :g:`$BCA$ <0297.g1:< B C A )>`.
+For let :g:`$ABC$ <0297.g1:< A B C >>` be a triangle having the side :g:`$AC$ <0297.g1:/ A C />` greater than :g:`$AB$ <0297.g1:/ A B />`;
+
+I say that the angle :g:`$ABC$ <0297.g1:< A B C )>` is also greater than the angle :g:`$BCA$ <0297.g1:< B C A )>`.
 
 For, since :g:`$AC$ <0297.g1:/ A C />` is greater than :g:`$AB$ <0297.g1:/ A B />`, let :g:`$AD$ <0297.g1:/ A D />` be made equal to :g:`$AB$ <0297.g1:/ A B />` :just:`[I. 3] <I.3>`, and let :g:`$BD$ <0297.g1:/ B D />` be joined.
 
@@ -53,7 +57,7 @@ But the angle :g:`$ADB$ <0297.g1:< A D B )>` is equal to the angle :g:`$ABD$ <02
 
 ----
 
-See :ref:`Commentary on Proposition 18 <I.18.commentary>`.
+See :ref:`Commentary on Proposition I.18 <I.18.commentary>`.
 
 .. toctree::
    :hidden:

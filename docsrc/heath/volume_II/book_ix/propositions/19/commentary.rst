@@ -1,0 +1,83 @@
+:canonical_id: IX.19.commentary
+:volume: II
+:book: IX
+:proposition: 19
+:type: commentary
+:title: Commentary on Proposition IX.19
+:folios: 0417, 0418
+:pages: 411, 412
+
+.. _IX.19.commentary:
+
+Commentary on Proposition IX.19
+===============================
+
+Back to :ref:`Proposition IX.19 <IX.19>`.
+
+.. _folio-ii-0417:
+
+.. folio:: 0417
+   :page: 411
+
+Given three numbers *a*, *b*, *c*, to find the condition that they may have an integral fourth proportional.
+
+The Greek text of part of this proposition is hopelessly corrupt. According to it Euclid takes four cases.
+
+(1) *a*, *b*, *c* not in continued proportion, and *a*, *c* prime to one another.
+
+(2) *a*, *b*, *c* in continued proportion, and *a*, *c* not prime to one another.
+
+(3) *a*, *b*, *c* not in continued proportion, and *a*, *c* not prime to one another.
+
+(4) *a*, *b*, *c* in continued proportion, and *a*, *c* prime to one another.
+
+(4) is the case dealt with in IX. 17, where it is shown that on hypothesis
+
+(4) a fourth proportional cannot be found.
+
+The text now takes case (1) and asserts that a fourth proportional cannot be found in this case either. We have only to think of 4, 6, 9 in order to see that there is something wrong here. The supposed proof is also wrong. *If possible, says the text, let d be a fourth proportional to a, b, c, and let e be taken such that*
+
+$$b : c = d : e.$$
+
+Then, :term:`*ex aequali* <ex-aequali>`,
+
+$$a : c = c : e,$$
+
+whence *a* measures *c* : :just:`[VII. 20, 21]`
+
+which is impossible, since *a*, *c* are prime to one another.
+
+But this does not prove that a fourth proportional *d* cannot be found ; it only proves that, if *d* is a fourth proportional, no integer *e* can be found to satisfy the equation
+
+$$b : c = d : e.$$
+
+Indeed it is obvious from IX. 16 that in the equation
+
+$$a : c = c : e$$
+
+*e* cannot be integral.
+
+The cases (2) and (3) are correctly given, the first in full, and the other as a case to be proved “similarly” to it.
+
+These two cases really give all that is necessary.
+
+Let the product *bc* be taken.
+
+Then, if *a* measures *bc*, suppose $bc = ad$ ; therefore
+
+$$a : b = c : d,$$
+
+and *d* is a fourth proportional.
+
+But, if *a* does *not* measure *bc*, no fourth proportional can be found. For, if *x* were a fourth proportional, *ax* would be equal to *bc*, and *a* would measure *bc*.
+
+The sufficient condition in any case for the possibility of finding a fourth proportional to *a*, *b*, *c* is that *a* should measure *bc*.
+
+Theon appears to have corrected the proof by leaving out the incorrect portion which I have included between daggers and the last case (3) dealt with in the last lines. Also, in accordance with this arrangement, he does not distinguish four cases at the beginning but only two. “Either :g:`$A$ <0415.g1:A>`, :g:`$B$ <0415.g1:B>`, :g:`$C$ <0415.g1:C>` are in continued proportion and the extremes of them :g:`$A$ <0415.g1:A>`, :g:`$C$ <0415.g1:C>` are prime to one another ; or not.” Then, instead of introducing case (2) by the words “Next let :g:`$A$ <0415.g1:A>`, :g:`$B$ <0415.g1:B>`, :g:`$C$ <0415.g1:C>`...to find a fourth proportional to them,” immediately following the second dagger above, Theon merely says “*But, if not*,” [i.e. if it is not the case that *a*, *b*, *c* are in G.P. and *a*, *c* prime to one another] “let :g:`$B$ <0415.g1:B>` by multiplying :g:`$C$ <0415.g1:C>` make :g:`$D$ <0415.g1:D>`,” and so on.
+
+.. _folio-ii-0418:
+
+.. folio:: 0418
+   :page: 412
+
+August adopts Theon’s form of the proof. :person:`Heiberg <heiberg>` does not feel able to do this, in view of the superiority of the authority for the text as given above (P) ; he therefore retains the latter without any attempt to emend it.

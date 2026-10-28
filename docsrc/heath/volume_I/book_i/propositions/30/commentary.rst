@@ -1,25 +1,26 @@
 :canonical_id: I.30.commentary
+:volume: I
 :book: I
 :proposition: 30
 :type: commentary
-:title: Commentary on Proposition 30
+:title: Commentary on Proposition I.30
 :folios: 0328, 0329
 :pages: 314, 315
 
 .. _I.30.commentary:
 
-Commentary on Proposition 30
-============================
+Commentary on Proposition I.30
+==============================
 
-Back to :ref:`Proposition 30 <I.30>`.
+Back to :ref:`Proposition I.30 <I.30>`.
 
 .. folio:: 0328
    :page: 314
 
-**20.** The usual conclusion in general terms ("Therefore etc.") repeating the enunciation is, curiously enough, wanting at the end of this proposition.
-
-The proposition is, as De Morgan points out, the *logical equivalent* of "Playfair's" axiom. Thus, if $X$ denote "pairs of straight lines intersecting one
+The proposition is, as :person:`De Morgan <de-morgan>` points out, the *logical equivalent* of "Playfair's" axiom. Thus, if $X$ denote "pairs of straight lines intersecting one
 another," $Y$ "pairs of straight lines parallel to one and the same straight line," we have
+
+.. _folio-i-0329:
 
 .. folio:: 0329
    :page: 315
@@ -30,7 +31,7 @@ and it follows logically that
 
 $$\text{No } Y \text{ is } X.$$
 
-De Morgan adds that a proposition is much wanted about parallels (or perpendiculars) to two straight lines respectively making the same angles with one another as the latter do. The proposition may be enunciated thus:
+:person:`De Morgan <de-morgan>` adds that a proposition is much wanted about parallels (or perpendiculars) to two straight lines respectively making the same angles with one another as the latter do. The proposition may be enunciated thus:
 
 *If the sides of one angle be respectively (1) parallel or (2) perpendicular to the sides of another angle, the two angles are either equal or supplementary.*
 
@@ -43,8 +44,7 @@ To prove that the angles :g:`$ABC$ <0329.g1:< A B C )>`, :g:`$DEG$ <0329.g1:< D 
 
 Produce :g:`$DE$ <0329.g1:[ D H ]>` to meet :g:`$BC$ <0329.g1:/ B C />` in :g:`$H$ <0329.g1:H>`.
 
-| Then [I. 29] the angle :g:`$DEG$ <0329.g1:< D E G )>` is equal to the angle :g:`$DHC$ <0329.g1:< D H C )>`,
-| and the angle :g:`$ABC$ <0329.g1:< A B C )>` is equal to the angle :g:`$DHC$ <0329.g1:< D H C )>`.
+Then [I. 29] the angle :g:`$DEG$ <0329.g1:< D E G )>` is equal to the angle :g:`$DHC$ <0329.g1:< D H C )>`, and the angle :g:`$ABC$ <0329.g1:< A B C )>` is equal to the angle :g:`$DHC$ <0329.g1:< D H C )>`.
 
 Therefore the angle :g:`$DEG$ <0329.g1:< D E G )>` is equal to the angle :g:`$ABC$ <0329.g1:< A B C )>`; whence also the angle :g:`$DEF$ <0329.g1:< D E F )>` is supplementary to the angle :g:`$ABC$ <0329.g1:< A B C )>`.
 
@@ -57,14 +57,12 @@ To prove that the angles :g:`$ABC$ <0329.g2:< A B C )>`, :g:`$DEG$ <0329.g2:< D 
 
 Draw :g:`$ED'$ <0329.g2:/ E D' />` at right angles to :g:`$ED$ <0329.g2:/ E D />` on the side of it opposite to :g:`$B$ <0329.g2:B>`, and draw :g:`$EG'$ <0329.g2:/ E G' />` at right angles to :g:`$EF$ <0329.g2:/ E F />` on the side of it opposite to :g:`$B$ <0329.g2:B>`.
 
-| Then, since the angles :g:`$BDE$ <0329.g2:< B D E )>`, :g:`$DED'$ <0329.g2:< D E D' )>`, being right angles, are equal,
-| :g:`$ED'$ <0329.g2:/ E D' />` is parallel to :g:`$BA$ <0329.g2:/ B A />`. [I. 27]
+Then, since the angles :g:`$BDE$ <0329.g2:< B D E )>`, :g:`$DED'$ <0329.g2:< D E D' )>`, being right angles, are equal, :g:`$ED'$ <0329.g2:/ E D' />` is parallel to :g:`$BA$ <0329.g2:/ B A />`. [I. 27]
 
 Similarly :g:`$EG'$ <0329.g2:/ E G' />` is parallel to :g:`$BC$ <0329.g2:/ B C />`.
 
 Therefore [Part (1)] the angle :g:`$D'EG'$ <0329.g2:< D' E G' )>` is equal to the angle :g:`$ABC$ <0329.g2:< A B C )>`.
 
-| But, the right angle :g:`$DED'$ <0329.g2:< D E D' )>` being equal to the right angle :g:`$GEG'$ <0329.g2:< G E G' )>`, if the common angle :g:`$GED'$ <0329.g2:< G E D' )>` be subtracted,
-| the angle :g:`$DEG$ <0329.g2:< D E G )>` is equal to the angle :g:`$D'EG'$ <0329.g2:< D' E G' )>`.
+But, the right angle :g:`$DED'$ <0329.g2:< D E D' )>` being equal to the right angle :g:`$GEG'$ <0329.g2:< G E G' )>`, if the common angle :g:`$GED'$ <0329.g2:< G E D' )>` be subtracted, the angle :g:`$DEG$ <0329.g2:< D E G )>` is equal to the angle :g:`$D'EG'$ <0329.g2:< D' E G' )>`.
 
 Therefore the angle :g:`$DEG$ <0329.g2:< D E G )>` is equal to the angle :g:`$ABC$ <0329.g2:< A B C )>`; and hence the angle :g:`$DEF$ <0329.g2:< D E F )>` is supplementary to the angle :g:`$ABC$ <0329.g2:< A B C )>`.

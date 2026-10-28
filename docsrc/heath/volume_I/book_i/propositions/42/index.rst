@@ -1,8 +1,9 @@
 :canonical_id: I.42
+:volume: I
 :book: I
 :proposition: 42
 :type: proposition
-:title: Proposition 42
+:title: Proposition I.42
 :folios: 0353, 0354
 :pages: 339, 340
 :dependencies: I.23, I.31, I.38, I.41
@@ -19,13 +20,15 @@ PROPOSITION 42.
 
    To construct, in a given rectilineal angle, a parallelogram equal to a given triangle.
 
-| Let :g:`$ABC$ <0353.g2:< A B C >>` be the given triangle, and :g:`$D$ <0353.g2:< D )>` the given rectilineal angle;
-| thus it is required to construct in the rectilineal angle :g:`$D$ <0353.g2:< D )>` a parallelogram equal to the triangle :g:`$ABC$ <0353.g2:< A B C >>`.
+Let :g:`$ABC$ <0353.g2:< A B C >>` be the given triangle, and :g:`$D$ <0353.g2:< D )>` the given rectilineal angle;
 
-| Let :g:`$BC$ <0353.g2:/ B C />` be bisected at :g:`$E$ <0353.g2:E>`, and let :g:`$AE$ <0353.g2:/ A E />` be joined;
-| on the straight line :g:`$EC$ <0353.g2:/ E C />`, and at the point :g:`$E$ <0353.g2:E>` on it, let the angle :g:`$CEF$ <0353.g2:< C E F )>` be constructed equal to the angle :g:`$D$ <0353.g2:< D )>`; :just:`[I. 23] <I.23>`
-| through :g:`$A$ <0353.g2:A>` let :g:`$AG$ <0353.g2:/ A G />` be drawn parallel to :g:`$EC$ <0353.g2:/ E C />`, and :just:`[I. 31] <I.31>`
-| through :g:`$C$ <0353.g2:C>` let :g:`$CG$ <0353.g2:/ C G />` be drawn parallel to :g:`$EF$ <0353.g2:/ E F />`.
+thus it is required to construct in the rectilineal angle :g:`$D$ <0353.g2:< D )>` a parallelogram equal to the triangle :g:`$ABC$ <0353.g2:< A B C >>`.
+
+Let :g:`$BC$ <0353.g2:/ B C />` be bisected at :g:`$E$ <0353.g2:E>`, and let :g:`$AE$ <0353.g2:/ A E />` be joined; on the straight line :g:`$EC$ <0353.g2:/ E C />`, and at the point :g:`$E$ <0353.g2:E>` on it, let the angle :g:`$CEF$ <0353.g2:< C E F )>` be constructed equal to the angle :g:`$D$ <0353.g2:< D )>`; :just:`[I. 23] <I.23>`
+
+through :g:`$A$ <0353.g2:A>` let :g:`$AG$ <0353.g2:/ A G />` be drawn parallel to :g:`$EC$ <0353.g2:/ E C />`, and :just:`[I. 31] <I.31>`
+
+through :g:`$C$ <0353.g2:C>` let :g:`$CG$ <0353.g2:/ C G />` be drawn parallel to :g:`$EF$ <0353.g2:/ E F />`.
 
 .. picture:: 0353.g2.svg
    :alt: Folio 0353 Figure 2 - Proposition 42
@@ -37,6 +40,8 @@ And, since :g:`$BE$ <0353.g2:/ B E />` is equal to :g:`$EC$ <0353.g2:/ E C />`, 
 .. assertion::
 
    therefore the triangle :g:`$ABC$ <0353.g2:< A B C >>` is double of the triangle :g:`$AEC$ <0353.g2:< A E C >>`.
+
+.. _folio-i-0354:
 
 .. folio:: 0354
    :page: 340

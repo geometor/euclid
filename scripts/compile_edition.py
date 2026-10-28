@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CLI tool to compile sequential Euclid folio .rst files into the de-paginated Book Edition."""
+"""CLI tool to compile sequential Euclid folio .rst files into the de-paginated Heath Edition."""
 
 from __future__ import annotations
 
@@ -16,23 +16,23 @@ for _p in (_PUBLISH_SRC, _LOCAL_SRC, _VENV_SITE):
     if _p.exists() and str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
-from geometor.euclid.compile_edition import compile_book
+from geometor.euclid.compile_edition import compile_book, compile_edition
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Compile sequential <folio>.rst files into a de-paginated Book Edition under docsrc/heath/."
+        description="Compile sequential <folio>.rst files into the de-paginated Heath Edition under docsrc/heath/."
     )
     parser.add_argument(
         "src_dir",
         nargs="?",
-        default="resources/heath/volume_I/book_i",
-        help="Source book directory containing sequential <folio>.rst files (default: resources/heath/volume_I/book_i)",
+        default="resources/heath",
+        help="Source directory (default: resources/heath for full edition, or a specific book directory)",
     )
     parser.add_argument(
         "--out-dir",
         default=None,
-        help="Target output directory (default: docsrc/heath/<volume>/<book>)",
+        help="Target output directory (default: docsrc/heath or docsrc/heath/<volume>/<book>)",
     )
     args = parser.parse_args()
 
@@ -41,10 +41,27 @@ def main() -> None:
         print(f"Error: source directory {src_path} does not exist.", file=sys.stderr)
         sys.exit(1)
 
+    if (src_path / "volume_I").exists():
+        out_path = Path(args.out_dir) if args.out_dir else Path("docsrc/heath")
+        stats = compile_edition(src_path, out_path)
+        print(f"Compiled full Heath Edition ({src_path} -> {out_path}):")
+        print(f"  Books compiled:               {stats['books_compiled']}")
+        print(f"  Propositions compiled:        {stats['propositions_compiled']}")
+        print(f"  Propositions with commentary: {stats['propositions_with_commentary']}")
+        print(f"  Folio anchors emitted:        {stats['folio_anchors_emitted']}")
+        print(f"  Total .rst files written:     {stats['total_rst_files_written']}")
+        print(f"  Files with RST warnings:      {len(stats['warnings_by_file'])}")
+        if stats["warnings_by_file"]:
+            for fp, wlist in list(stats["warnings_by_file"].items())[:10]:
+                print(f"  WARNING in {fp}:")
+                for w in wlist[:5]:
+                    print(f"    {w}")
+            sys.exit(1)
+        return
+
     if args.out_dir:
         out_path = Path(args.out_dir)
     else:
-        # Infer docsrc/heath/<volume>/<book> from resources/heath/<volume>/<book>
         parts = src_path.parts
         if "heath" in parts:
             idx = parts.index("heath")

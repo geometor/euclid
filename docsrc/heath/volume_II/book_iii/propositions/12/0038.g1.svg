@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227 170" width="227" height="170" class="euclid-graphic" data-graphic-id="0038.g1" data-folio="0038" data-graphic="g1" data-proposition="III.12">
+  <style>
+    .euclid-graphic {
+      font-family: 'Times New Roman', 'Georgia', serif;
+      font-style: italic;
+      background-color: #ffffff;
+    }
+    .geom-line {
+      stroke: #000000;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-dashed {
+      stroke-dasharray: 3, 3;
+      stroke-width: 1.8;
+    }
+    .geom-circle {
+      stroke: #000000;
+      stroke-width: 1.8;
+      fill: none;
+      transition: stroke 0.15s, stroke-width 0.15s;
+    }
+    .geom-arc {
+      stroke: #000000;
+      stroke-width: 1.6;
+      fill: none;
+      transition: stroke 0.15s;
+    }
+    .geom-polygon {
+      fill: #000000;
+      fill-opacity: 0.04;
+      stroke: none;
+      transition: fill-opacity 0.15s;
+    }
+    .wedge, .angle {
+      fill: #ef4444;
+      fill-opacity: 0.24;
+      stroke: #ef4444;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .geom-point {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-width: 1;
+    }
+    .geom-label {
+      font-size: 15px;
+      font-weight: bold;
+      fill: #000000;
+      user-select: none;
+    }
+    .geom-overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+    /* Interactive Highlight States */
+    [data-ref]:hover, .highlight, .geom-highlight-active {
+      opacity: 1 !important;
+      stroke: #ef4444 !important;
+      cursor: pointer;
+    }
+    text[data-ref]:hover, text.highlight, text.geom-highlight-active, text.geom-highlight-secondary, text.geom-highlight-active *, text.geom-highlight-secondary * {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+    .geom-polygon:hover, .geom-polygon.highlight, polygon.geom-highlight-active,
+    path.wedge.geom-highlight-active, path.angle.geom-highlight-active {
+      opacity: 1 !important;
+      fill-opacity: 0.24 !important;
+      fill: #ef4444 !important;
+      stroke: #ef4444 !important;
+    }
+    .geom-point:hover, .geom-point.highlight, circle.geom-point.geom-highlight-active {
+      fill: #ef4444 !important;
+      stroke: none !important;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+  <!-- Base Construction Elements (Circles O and O', Line [ O O' ]) -->
+  <g id="elements">
+    <circle id="el-circle-O" data-ref="( O M )" data-aliases="( O ) | ( O L ) | ( A M B L )" data-type="circle" cx="86" cy="86" r="58" class="geom-circle" />
+    <circle id="el-circle-Oprime" data-ref="( O' A )" data-aliases="( O' ) | ( O' B )" data-type="circle" cx="144" cy="86" r="67" class="geom-circle" />
+    <line id="el-line-MOprime" data-ref="[ O O' ]" data-aliases="[ O' O ] | [ M O' ]" data-type="line" x1="28" y1="86" x2="144" y2="86" class="geom-line geom-overlay" />
+  </g>
+
+  <!-- Constructed Graphics (Segments & Arcs) -->
+  <g id="graphics">
+    <line id="el-seg-MO" data-ref="/ O M /" data-aliases="/ M O / | r" data-type="segment" x1="28" y1="86" x2="86" y2="86" class="geom-line" />
+    <line id="el-seg-OOprime" data-ref="/ O O' /" data-aliases="/ O' O / | / O L / | / L O /" data-type="segment" x1="86" y1="86" x2="144" y2="86" class="geom-line" />
+    <line id="el-seg-MOprime" data-ref="/ M O' /" data-aliases="/ O' M / | / M L / | / L M /" data-type="segment" x1="28" y1="86" x2="144" y2="86" class="geom-line geom-overlay" />
+    <line id="el-seg-OprimeA" data-ref="/ O' A /" data-aliases="/ A O' / | r'" data-type="segment" x1="144" y1="86" x2="105.30" y2="31.31" class="geom-line geom-overlay" />
+
+    <!-- Dashed Common Chord AB -->
+    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="105.30" y1="31.31" x2="105.30" y2="140.69" class="geom-line geom-dashed" />
+
+    <!-- Arcs ALB and AMB -->
+    <path id="el-arc-ALB" data-ref="&lt; A L B )" data-aliases="( O M )&lt; A L B &gt;" data-type="arc" d="M 105.30 31.31 A 58 58 0 0 1 105.30 140.69" class="geom-arc geom-overlay" />
+    <path id="el-arc-AMB" data-ref="&lt; A M B )" data-aliases="( O M )&lt; A M B &gt;" data-type="arc" d="M 105.30 31.31 A 58 58 0 1 0 105.30 140.69" class="geom-arc geom-overlay" />
+  </g>
+
+  <!-- Dedicated Highlight Overlays -->
+  <g id="highlights" style="pointer-events: none;">
+    <circle id="hl-circle-O" data-ref="( O M )" data-aliases="( O ) | ( O L ) | ( A M B L )" cx="86" cy="86" r="58" class="geom-circle geom-overlay" />
+    <circle id="hl-circle-Oprime" data-ref="( O' A )" data-aliases="( O' ) | ( O' B )" cx="144" cy="86" r="67" class="geom-circle geom-overlay" />
+    <line id="hl-line-MOprime" data-ref="[ O O' ]" data-aliases="[ O' O ] | [ M O' ]" x1="28" y1="86" x2="144" y2="86" class="geom-line geom-overlay" />
+
+    <line id="hl-seg-MO" data-ref="/ O M /" data-aliases="/ M O / | r" x1="28" y1="86" x2="86" y2="86" class="geom-line geom-overlay" />
+    <line id="hl-seg-OOprime" data-ref="/ O O' /" data-aliases="/ O' O / | / O L / | / L O /" x1="86" y1="86" x2="144" y2="86" class="geom-line geom-overlay" />
+    <line id="hl-seg-MOprime" data-ref="/ M O' /" data-aliases="/ O' M / | / M L / | / L M /" x1="28" y1="86" x2="144" y2="86" class="geom-line geom-overlay" />
+    <line id="hl-seg-OprimeA" data-ref="/ O' A /" data-aliases="/ A O' / | r'" x1="144" y1="86" x2="105.30" y2="31.31" class="geom-line geom-overlay" />
+    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" x1="105.30" y1="31.31" x2="105.30" y2="140.69" class="geom-line geom-overlay" />
+
+    <path id="hl-arc-ALB" data-ref="&lt; A L B )" data-aliases="( O M )&lt; A L B &gt;" d="M 105.30 31.31 A 58 58 0 0 1 105.30 140.69" class="geom-arc geom-overlay" />
+    <path id="hl-arc-AMB" data-ref="&lt; A M B )" data-aliases="( O M )&lt; A M B &gt;" d="M 105.30 31.31 A 58 58 0 1 0 105.30 140.69" class="geom-arc geom-overlay" />
+  </g>
+
+  <!-- Points -->
+  <g id="points">
+    <circle id="el-pt-M" data-ref="M" data-type="point" cx="28" cy="86" r="3.5" class="geom-point" />
+    <circle id="el-pt-O" data-ref="O" data-type="point" cx="86" cy="86" r="3.5" class="geom-point" />
+    <circle id="el-pt-Oprime" data-ref="O'" data-aliases="L" data-type="point" cx="144" cy="86" r="3.5" class="geom-point" />
+    <circle id="el-pt-A" data-ref="A" data-type="point" cx="105.30" cy="31.31" r="3.5" class="geom-point" />
+    <circle id="el-pt-B" data-ref="B" data-type="point" cx="105.30" cy="140.69" r="3.5" class="geom-point" />
+  </g>
+
+  <!-- Labels -->
+  <g id="labels">
+    <text id="lbl-M" data-ref="M" x="18" y="91" text-anchor="middle" class="geom-label">M</text>
+    <text id="lbl-O" data-ref="O" x="86" y="102" text-anchor="middle" class="geom-label">O</text>
+    <text id="lbl-L" data-ref="L" x="152" y="84" text-anchor="middle" class="geom-label">L</text>
+    <text id="lbl-Oprime" data-ref="O'" x="154" y="100" text-anchor="middle" class="geom-label">O'</text>
+    <text id="lbl-A" data-ref="A" x="103" y="23" text-anchor="middle" class="geom-label">A</text>
+    <text id="lbl-B" data-ref="B" x="105" y="156" text-anchor="middle" class="geom-label">B</text>
+  </g>
+</svg>

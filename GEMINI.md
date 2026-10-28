@@ -14,8 +14,14 @@ A digital reconstruction of Euclid's Elements for semantic discovery and depende
 
 ## Key Repos
 
--   **euclid**: This repository. Code for parsing and structuring the text.
+-   **euclid**: This repository. Code for parsing, reviewing, and compiling the Heath Edition (`resources/heath/` -> `docsrc/heath/`).
 -   **elements**: The project that builds upon this structure to create the G index and symbolic models.
+
+## Key Modules
+
+-   `compile_edition.py`: De-pagination and edition compiler transforming folio-reviewed RST sources (`resources/heath/`) into the 3-volume Heath Edition (`docsrc/heath/`) with proposition collections, companion commentary tracks, and scholarly apparatus (`bibliography.rst`, `persons.rst`, `glossary.rst`).
+-   `folio_review/`: Flask web UI for side-by-side folio image and semantic RST transcription review.
+
 
 
 

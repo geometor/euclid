@@ -1,0 +1,32 @@
+:canonical_id: V.intro
+:volume: II
+:book: V
+:type: introductory_note
+:title: Book V Introductory Note
+:folios: 0118, 0119
+:pages: 112, 113
+
+.. _V.intro:
+
+.. _folio-ii-0118:
+
+.. folio:: 0118
+   :page: 112
+
+INTRODUCTORY NOTE.
+==================
+
+The anonymous author of a scholium to Book V. (Euclid, ed. :person:`Heiberg <heiberg>`, Vol. V. p. 280), who is perhaps :person:`Proclus <proclus>`, tells us that "some say" this Book, containing the general theory of proportion which is equally applicable to geometry, arithmetic, music, and all mathematical science, "is the discovery of :person:`Eudoxus <eudoxus>`, the teacher of :person:`Plato <plato>`." Not that there had been no theory of proportion developed before his time; on the contrary, it is certain that the Pythagoreans had worked out such a theory with regard to *numbers*, by which must be understood commensurable and even whole numbers (a number being a "multitude made up of units," as defined in Eucl. VII). Thus we are told that the Pythagoreans distinguished three sorts of *means*, the arithmetic, the geometric and the harmonic mean, the geometric mean being called proportion (:term:`ἀναλογία <analogia>`) *par excellence*; and further :person:`Iamblichus <iamblichus>` speaks of the "most perfect proportion consisting of four terms and specially called *harmonic*," in other words, the proportion
+
+$$a : \frac{a+b}{2} = \frac{2ab}{a+b} : b,$$
+
+which was said to be a discovery of the Babylonians and to have been first introduced into Greece by :person:`Pythagoras <pythagoras>` (:person:`Iamblichus <iamblichus>`, :cite:`*Comm. on Nicomachus* <iamblichus:in-nicomachi-arith>`, p. 118). Now the principle of similitude is one which is presupposed by all the arts of design from their very beginnings; it was certainly known to the Egyptians, and it must certainly have been thoroughly familiar to :person:`Pythagoras <pythagoras>` and his school. This consideration, together with the evidence of the employment by him of the *geometric proportion*, makes it indubitable that the Pythagoreans used the theory of proportion, in the form in which it was known to them, i.e. as applicable to commensurables only, in their geometry. But the discovery, also by the Pythagoreans, of the incommensurable would of course be seen to render the proofs which depended on the theory of proportion as then understood inconclusive; as :person:`Tannery <tannery>` observes (:cite:`*La Géométrie grecque* <tannery:geometrie-grecque>`, p. 98), "the discovery of incommensurability must have caused a veritable logical scandal in geometry and, in order to avoid it, they were obliged to restrict as far as possible the use of the principle of similitude, pending the discovery of a means of establishing it on the basis of a theory of proportion independent of commensurability." The glory of the latter discovery belongs then most probably to :person:`Eudoxus <eudoxus>`. Certain it is that the complete theory was already familiar to :person:`Aristotle <aristotle>`, as we shall see later.
+
+.. _folio-ii-0119:
+
+.. folio:: 0119
+   :page: 113
+
+It seems probable, as indicated by :person:`Tannery <tannery>` (*loc. cit.*), that the theory of proportions and the principle of similitude took, in the earliest Greek geometry, an earlier place than they do in Euclid, but that, in consequence of the discovery of the incommensurable, the treatment of the subject was fundamentally remodelled in the period between :person:`Pythagoras <pythagoras>` and :person:`Eudoxus <eudoxus>`. An indication of this is afforded by the clever device used in Euclid I. 44 for applying to a given straight line a parallelogram equal to a given triangle; the equality of the "complements" in a parallelogram is there used for doing what is practically finding a fourth proportional to three given straight lines. Thus Euclid was no doubt following for the subject-matter of Books I.—IV. what had become the traditional method, and this is probably one of the reasons why proportions and similitude are postponed till as late as Books V., VI.
+
+It is a remarkable fact that the theory of proportions is twice treated in Euclid, in Book V. with reference to magnitudes in general, and in Book VII. with reference to the particular case of numbers. The latter exposition referring only to commensurables may be taken to represent fairly the theory of proportions at the stage which it had reached before the great extension of it made by :person:`Eudoxus <eudoxus>`. The differences between the definitions etc. in Books V. and VII. will appear as we go on; but the question naturally arises, why did Euclid not save himself so much repetition and treat numbers merely as a particular case of magnitude, referring back to the corresponding more general propositions of Book V. instead of proving the same propositions over again for numbers? It could not have escaped him that numbers fall under the conception of magnitude. :person:`Aristotle <aristotle>` had plainly indicated that magnitudes may be numbers when he observed (:cite:`*Anal. post.* I. 7, 75 b 4 <aristotle:anal-post:i-7-75-b-4>`) that you cannot adapt the arithmetical method of proof to the properties of magnitudes if the magnitudes are not numbers. Further :person:`Aristotle <aristotle>` had remarked (:cite:`*Anal. post.* I. 5, 74 a 17 <aristotle:anal-post:i-5-74-a-17>`) that the proposition that the terms of a proportion can be taken alternately was at one time proved separately for numbers, lines, solids and times, though it was possible to prove it for all by one demonstration; but, because there was no common name comprehending them all, namely numbers, lengths, times and solids, and their character was different, they were taken separately. Now however, he adds, the proposition is proved generally. Yet Euclid says nothing to connect the two theories of proportion even when he comes in X. 5 to a proportion two terms of which are magnitudes and two are numbers ("Commensurable magnitudes have to one another the ratio which a number has to a number"). The probable explanation of the phenomenon is that Euclid simply followed tradition and gave the two theories as he found them. This would square with the remark in :person:`Pappus <pappus>` (:cite:`VII. p. 678 <pappus:collectio:vii-p-678>`) as to Euclid's fairness to others and his readiness to give them credit for their work.

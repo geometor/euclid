@@ -1,0 +1,38 @@
+:canonical_id: II.2.commentary
+:volume: I
+:book: II
+:proposition: 2
+:type: commentary
+:title: Commentary on Proposition II.2
+:folios: 0391, 0392
+:pages: 377, 378
+
+.. _II.2.commentary:
+
+Commentary on Proposition II.2
+==============================
+
+Back to :ref:`Proposition II.2 <II.2>`.
+
+.. _folio-i-0391:
+
+.. folio:: 0391
+   :page: 377
+
+The *fact* asserted in the enunciation of this proposition has already been used in the proof of I. 47; but there was no occasion in that proof to observe that the two rectangles :g:`$BL$ <0363.g1:< B L >>`, :g:`$CL$ <0363.g1:< C L >>` making up the square on :g:`$BC$ <0363.g1:/ B C />` are the rectangles contained by :g:`$BC$ <0363.g1:/ B C />` and the two parts, respectively, into which it is divided by the perpendicular from :g:`$A$ <0363.g1:A>` on :g:`$BC$ <0363.g1:/ B C />`. It is this fact which it is necessary to state in this proposition, in accordance with the plan of Book II.
+
+The second and third propositions are of course particular cases of the first. They were no doubt separately enunciated by :person:`Euclid <euclid>` in order that they might be immediately available for use hereafter, instead of having to be deduced for the particular occasion from II. 1. For, if they had not been thus separately stated, it would scarcely have been practicable to quote them later without explaining at the same time that they are included in II. 1 as particular cases. And, though the propositions are not used by :person:`Euclid <euclid>` in the later propositions of Book II., they are used afterwards in XIII. 10 and IX. 15 respectively; and they are of extreme importance for geometry generally, being constantly used by :person:`Pappus <pappus>`, for example, who frequently quotes the third proposition by the Book and number.
+
+Attention has been called to the fact that II. 1 is never used by :person:`Euclid <euclid>`; and this may seem no less remarkable than the fact that II. 2, 3 are not again used in Book II. But it is important, I think, to observe that the proofs of all the first ten propositions of Book II. are practically independent of each other, though the results are really so interwoven that they can often be deduced from each other in a variety of ways. What then was Euclid's intention, first in inserting some propositions not immediately required, and secondly in making the proofs of the first ten practically independent of each other? Surely the object was to show the power of the *method* of geometrical algebra as much as to arrive at results. From the point of view of illustrating the *method*, there can be no doubt that Euclid's procedure is far more instructive than the semi-algebraical substitutes which seem to find a good deal of favour; practically it means that, instead of relying on our memory of a few standard formulae, we can use the machinery given us by Euclid's method to prove immediately *ab initio* any of the propositions taken at random.
+
+Let us contrast with Euclid's plan the semi-algebraical alternative. One editor, for example, thinks that, as II. 1 is not used by :person:`Euclid <euclid>` afterwards, it seems more logical to deduce from it those of the subsequent propositions which can be readily so deduced. Putting this idea into practice, he proves II. 2 and 3 by quoting II. 1, then proves II. 4 by means of II. 1 and 3, II. 5 and 6 by means of II. 1, 3 and 4, and so on. The result is ultimately to deduce the whole of the first ten propositions from II. 1, which :person:`Euclid <euclid>` does not use at all; and this is to give an importance to II. 1 which is altogether disproportionate and, by starting with such a narrow foundation, to make the whole structure of Book II. top-heavy.
+
+Editors have of course been much influenced by a desire to make the proofs of the propositions of Book II. easier, as they think, for schoolboys. But, even from this point of view, is it an improvement to deduce II. 2 and 3 from II. 1 as corollaries? I doubt it. For, in the first place, Euclid's figures *visualise* the results and so make it easier to grasp their meaning; the truth of the propositions is made clear even to the eye. Then, in the matter of brevity, to which such an exaggerated importance is attached, Euclid's proof positively has the advantage. Counting a capital letter or a collocation of such as one word, I find, e.g., that Mr H. M. Taylor's proof of II. 2 contains
+120 words, of which 8 represent the construction. Euclid's as above translated has 126 words, of which 22 are descriptive of the construction; therefore the actual *proof* by :person:`Euclid <euclid>` has 8 words fewer than Mr Taylor's, and the extra words due to the construction in :person:`Euclid <euclid>` are much more than atoned for by the advantage of picturing the result in the figure.
+
+.. _folio-i-0392:
+
+.. folio:: 0392
+   :page: 378
+
+The advantages then which Euclid's method may claim are, I think, these: in the case of II. 2, 3 it produces the result more easily and clearly than does the alternative proof by means of II. 1, and, in its general application, it is more powerful in that it makes us independent of any recollection of results.

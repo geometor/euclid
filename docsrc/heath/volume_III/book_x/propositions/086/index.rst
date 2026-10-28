@@ -1,0 +1,122 @@
+:canonical_id: X.86
+:volume: III
+:book: X
+:proposition: 86
+:type: proposition
+:title: Proposition X.86
+:folios: 0184, 0185
+:pages: 180, 181
+:dependencies: X.6, X.73, X.9
+
+.. _X.86:
+
+.. _folio-iii-0184:
+
+.. folio:: 0184
+   :page: 180
+
+PROPOSITION 86.
+===============
+
+.. enunciation::
+
+   To find the second apotome.
+
+Let a rational straight line :g:`$A$ <0184.g1:A>` be set out, and :g:`$GC$ <0184.g1:/ G C />` commensurable in length with :g:`$A$ <0184.g1:A>` ;
+
+.. assertion::
+
+   therefore :g:`$GC$ <0184.g1:/ G C />` is rational.
+
+.. picture:: 0184.g1.svg
+   :alt: Proposition 86
+
+Let two square numbers :g:`$DE$ <0184.g1:/ D E />`, :g:`$EF$ <0184.g1:/ E F />` be set out, and let their difference :g:`$DF$ <0184.g1:/ D F />` not be square.
+
+Now let it be contrived that, as :g:`$FD$ <0184.g1:/ F D />` is to :g:`$DE$ <0184.g1:/ D E />`, so is the square on :g:`$CG$ <0184.g1:/ C G />` to the square on :g:`$GB$ <0184.g1:/ G B />`. :just:`[X. 6, Por.]`
+
+.. assertion::
+
+   Therefore the square on :g:`$CG$ <0184.g1:/ C G />` is commensurable with the square on :g:`$GB$ <0184.g1:/ G B />`. :just:`[X. 6] <X.6>`
+
+.. subclause::
+
+   But the square on :g:`$CG$ <0184.g1:/ C G />` is rational ;
+
+.. assertion::
+
+   therefore the square on :g:`$GB$ <0184.g1:/ G B />` is also rational ; therefore :g:`$BG$ <0184.g1:/ B G />` is rational.
+
+.. subclause::
+
+   And, since the square on :g:`$GC$ <0184.g1:/ G C />` has not to the square on :g:`$GB$ <0184.g1:/ G B />` the ratio which a square number has to a square number,
+
+.. assertion:: [X. 9] <X.9>
+
+   :g:`$CG$ <0184.g1:/ C G />` is incommensurable in length with :g:`$GB$ <0184.g1:/ G B />`.
+
+.. subclause::
+
+   And both are rational ;
+
+.. assertion::
+
+   therefore :g:`$CG$ <0184.g1:/ C G />`, :g:`$GB$ <0184.g1:/ G B />` are rational straight lines commensurable in square only ; therefore :g:`$BC$ <0184.g1:/ B C />` is an apotome. :just:`[X. 73] <X.73>`
+
+I say next that it is also a second apotome.
+
+For let the square on :g:`$H$ <0184.g1:H>` be that by which the square on :g:`$BG$ <0184.g1:/ B G />` is greater than the square on :g:`$GC$ <0184.g1:/ G C />`.
+
+.. subclause::
+
+   Since then, as the square on :g:`$BG$ <0184.g1:/ B G />` is to the square on :g:`$GC$ <0184.g1:/ G C />`, so is the number :g:`$ED$ <0184.g1:/ E D />` to the number :g:`$DF$ <0184.g1:/ D F />`,
+
+.. assertion::
+
+   therefore, :term:`*convertendo* <convertendo>`, as the square on :g:`$BG$ <0184.g1:/ B G />` is to the square on :g:`$H$ <0184.g1:H>`, so is :g:`$DE$ <0184.g1:/ D E />` to :g:`$EF$ <0184.g1:/ E F />`. :just:`[V. 19, Por.]`
+
+.. subclause::
+
+   And each of the numbers :g:`$DE$ <0184.g1:/ D E />`, :g:`$EF$ <0184.g1:/ E F />` is square ;
+
+.. assertion::
+
+   therefore the square on :g:`$BG$ <0184.g1:/ B G />` has to the square on :g:`$H$ <0184.g1:H>` the ratio which a square number has to a square number ; therefore :g:`$BG$ <0184.g1:/ B G />` is commensurable in length with :g:`$H$ <0184.g1:H>`. :just:`[X. 9] <X.9>`
+
+.. subclause::
+
+   And the square on :g:`$BG$ <0184.g1:/ B G />` is greater than the square on :g:`$GC$ <0184.g1:/ G C />` by the square on :g:`$H$ <0184.g1:H>` ;
+
+.. assertion::
+
+   therefore the square on :g:`$BG$ <0184.g1:/ B G />` is greater than the square on :g:`$GC$ <0184.g1:/ G C />`
+
+.. _folio-iii-0185:
+
+.. folio:: 0185
+   :page: 181
+
+.. assertion::
+
+   by the square on a straight line commensurable in length with :g:`$BG$ <0184.g1:/ B G />`.
+
+.. subclause::
+
+   And :g:`$CG$ <0184.g1:/ C G />`, the annex, is commensurable with the rational straight line :g:`$A$ <0184.g1:A>` set out.
+
+.. assertion:: [X. Deff. III. 2]
+
+   Therefore :g:`$BC$ <0184.g1:/ B C />` is a second apotome.
+
+.. qed::
+
+   Therefore the second apotome :g:`$BC$ <0184.g1:/ B C />` has been found. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition X.86 <X.86.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

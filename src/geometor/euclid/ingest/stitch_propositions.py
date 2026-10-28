@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from PIL import Image
-from geometor.euclid.ingest.cleanup import crop_image
+from geometor.euclid.ingest.cleanup import clean_image
 
 # Configuration
 HEATH_DIR = Path("resources/heath")

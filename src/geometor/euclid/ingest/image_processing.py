@@ -11,7 +11,7 @@ from geometor.euclid.ingest.config import (
     PAGE_FOOTER_START,
     CROP_WIDTH,
 )
-from geometor.euclid.ingest.utils import load_json_roman
+from geometor.euclid.ingest.utils import int_to_roman
 
 
 def ensure_dir(path: Path) -> None:

@@ -1,0 +1,102 @@
+:canonical_id: VII.1
+:volume: II
+:book: VII
+:proposition: 1
+:type: proposition
+:title: Proposition VII.1
+:folios: 0302, 0303
+:pages: 296, 297
+:dependencies: VII.def.12
+
+.. _VII.1:
+
+.. folio:: 0302
+   :page: 296
+
+PROPOSITION 1.
+==============
+
+.. enunciation::
+
+   Two unequal numbers being set out, and the less being continually subtracted in turn from the greater, if the number which is left never measures the one before it until an unit is left, the original numbers will be prime to one another.
+
+For, the less of two unequal numbers :g:`$AB$ <0302.g1:/ A B />`, :g:`$CD$ <0302.g1:/ C D />` being continually subtracted from the greater, let the number which is left never measure the one before it until an unit is left;
+
+I say that :g:`$AB$ <0302.g1:/ A B />`, :g:`$CD$ <0302.g1:/ C D />` are prime to one another, that is, that an unit alone measures :g:`$AB$ <0302.g1:/ A B />`, :g:`$CD$ <0302.g1:/ C D />`.
+
+.. picture:: 0302.g1.svg
+   :alt: Proposition 1 Diagram
+
+For, if :g:`$AB$ <0302.g1:/ A B />`, :g:`$CD$ <0302.g1:/ C D />` are not prime to one another, some number will measure them.
+
+Let a number measure them, and let it be :g:`$E$ <0302.g1:E>`; let :g:`$CD$ <0302.g1:/ C D />`, measuring :g:`$BF$ <0302.g1:/ F B />`, leave :g:`$FA$ <0302.g1:/ A F />` less than itself, let :g:`$AF$ <0302.g1:/ A F />`, measuring :g:`$DG$ <0302.g1:/ G D />`, leave :g:`$GC$ <0302.g1:/ C G />` less than itself, and let :g:`$GC$ <0302.g1:/ C G />`, measuring :g:`$FH$ <0302.g1:/ H F />`, leave an unit :g:`$HA$ <0302.g1:/ A H />`.
+
+.. subclause::
+
+   Since, then, :g:`$E$ <0302.g1:E>` measures :g:`$CD$ <0302.g1:/ C D />`, and :g:`$CD$ <0302.g1:/ C D />` measures :g:`$BF$ <0302.g1:/ F B />`,
+
+.. assertion::
+
+   therefore :g:`$E$ <0302.g1:E>` also measures :g:`$BF$ <0302.g1:/ F B />`.
+
+.. subclause::
+
+   But it also measures the whole :g:`$BA$ <0302.g1:/ A B />`;
+
+.. assertion::
+
+   therefore it will also measure the remainder :g:`$AF$ <0302.g1:/ A F />`.
+
+.. subclause::
+
+   But :g:`$AF$ <0302.g1:/ A F />` measures :g:`$DG$ <0302.g1:/ G D />`;
+
+.. assertion::
+
+   therefore :g:`$E$ <0302.g1:E>` also measures :g:`$DG$ <0302.g1:/ G D />`.
+
+.. _folio-ii-0303:
+
+.. folio:: 0303
+   :page: 297
+
+.. subclause::
+
+   But it also measures the whole :g:`$DC$ <0302.g1:/ C D />`;
+
+.. assertion::
+
+   therefore it will also measure the remainder :g:`$CG$ <0302.g1:/ C G />`.
+
+.. subclause::
+
+   But :g:`$CG$ <0302.g1:/ C G />` measures :g:`$FH$ <0302.g1:/ H F />`;
+
+.. assertion::
+
+   therefore :g:`$E$ <0302.g1:E>` also measures :g:`$FH$ <0302.g1:/ H F />`.
+
+.. subclause::
+
+   But it also measures the whole :g:`$FA$ <0302.g1:/ A F />`;
+
+.. assertion::
+
+   therefore it will also measure the remainder, the unit :g:`$AH$ <0302.g1:/ A H />`, though it is a number: which is impossible.
+
+.. assertion::
+
+   Therefore no number will measure the numbers :g:`$AB$ <0302.g1:/ A B />`, :g:`$CD$ <0302.g1:/ C D />`; therefore :g:`$AB$ <0302.g1:/ A B />`, :g:`$CD$ <0302.g1:/ C D />` are prime to one another. :just:`[VII. Def. 12] <VII.def.12>`
+
+.. qed::
+
+   Q. E. D.
+
+----
+
+See :ref:`Commentary on Proposition VII.1 <VII.1.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

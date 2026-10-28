@@ -12,7 +12,7 @@ from geometor.euclid.ingest.config import (
     RESOURCES_DIR,
     VOLUMES,
 )
-from geometor.euclid.ingest.utils import load_json, save_json
+from geometor.euclid.ingest.utils import load_json
 
 # Regex patterns
 PROP_START_RE = re.compile(r"^\s*PROPOSITION\s+([IVXLCDM\d]+)\.?\s*$", re.IGNORECASE)

@@ -1,8 +1,9 @@
 :canonical_id: I.30
+:volume: I
 :book: I
 :proposition: 30
 :type: proposition
-:title: Proposition 30
+:title: Proposition I.30
 :folios: 0328
 :pages: 314
 :dependencies: I.29, I.cn.1
@@ -22,16 +23,17 @@ PROPOSITION 30.
 .. picture:: 0328.g1.svg
    :alt: Folio 0328 Figure 1 - Proposition 30
 
-| Let each of the straight lines :g:`$AB$ <0328.g1:/ A B />`, :g:`$CD$ <0328.g1:/ C D />` be parallel to :g:`$EF$ <0328.g1:/ E F />`;
-| I say that :g:`$AB$ <0328.g1:/ A B />` is also parallel to :g:`$CD$ <0328.g1:/ C D />`.
+Let each of the straight lines :g:`$AB$ <0328.g1:/ A B />`, :g:`$CD$ <0328.g1:/ C D />` be parallel to :g:`$EF$ <0328.g1:/ E F />`;
 
-:line:`5` For let the straight line :g:`$GK$ <0328.g1:/ G K />` fall upon them;
+I say that :g:`$AB$ <0328.g1:/ A B />` is also parallel to :g:`$CD$ <0328.g1:/ C D />`.
+
+For let the straight line :g:`$GK$ <0328.g1:/ G K />` fall upon them;
 
 Then, since the straight line :g:`$GK$ <0328.g1:/ G K />` has fallen on the parallel straight lines :g:`$AB$ <0328.g1:/ A B />`, :g:`$EF$ <0328.g1:/ E F />`,
 
 .. assertion:: [I. 29] <I.29>
 
-   :line:`10` the angle :g:`$AGK$ <0328.g1:< A G K )>` is equal to the angle :g:`$GHF$ <0328.g1:< G H F )>`.
+   the angle :g:`$AGK$ <0328.g1:< A G K )>` is equal to the angle :g:`$GHF$ <0328.g1:< G H F )>`.
 
 Again, since the straight line :g:`$GK$ <0328.g1:/ G K />` has fallen on the parallel straight lines :g:`$EF$ <0328.g1:/ E F />`, :g:`$CD$ <0328.g1:/ C D />`,
 
@@ -39,7 +41,7 @@ Again, since the straight line :g:`$GK$ <0328.g1:/ G K />` has fallen on the par
 
    the angle :g:`$GHF$ <0328.g1:< G H F )>` is equal to the angle :g:`$GKD$ <0328.g1:< G K D )>`.
 
-:line:`15` But the angle :g:`$AGK$ <0328.g1:< A G K )>` was also proved equal to the angle :g:`$GHF$ <0328.g1:< G H F )>`;
+But the angle :g:`$AGK$ <0328.g1:< A G K )>` was also proved equal to the angle :g:`$GHF$ <0328.g1:< G H F )>`;
 
 .. assertion:: [C. N. 1] <I.cn.1>
 
@@ -51,15 +53,17 @@ Again, since the straight line :g:`$GK$ <0328.g1:/ G K />` has fallen on the par
 
 .. assertion::
 
-   :line:`20` Therefore :g:`$AB$ <0328.g1:/ A B />` is parallel to :g:`$CD$ <0328.g1:/ C D />`.
+   Therefore :g:`$AB$ <0328.g1:/ A B />` is parallel to :g:`$CD$ <0328.g1:/ C D />`.\ [#f1]_
 
 .. qed::
 
    Q. E. D.
 
+.. [#f1] The usual conclusion in general terms ("Therefore etc.") repeating the enunciation is, curiously enough, wanting at the end of this proposition.
+
 ----
 
-See :ref:`Commentary on Proposition 30 <I.30.commentary>`.
+See :ref:`Commentary on Proposition I.30 <I.30.commentary>`.
 
 .. toctree::
    :hidden:

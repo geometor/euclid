@@ -1,0 +1,93 @@
+:canonical_id: VII.16
+:volume: II
+:book: VII
+:proposition: 16
+:type: proposition
+:title: Proposition VII.16
+:folios: 0322
+:pages: 316
+:dependencies: VII.15
+
+.. _VII.16:
+
+.. _folio-ii-0322:
+
+.. folio:: 0322
+   :page: 316
+
+PROPOSITION 16.
+===============
+
+.. enunciation::
+
+   If two numbers by multiplying one another make certain numbers, the numbers so produced\ [#f1]_ will be equal to one another.
+
+Let :g:`$A$ <0322.g1:A>`, :g:`$B$ <0322.g1:B>` be two numbers, and let :g:`$A$ <0322.g1:A>` by multiplying :g:`$B$ <0322.g1:B>` make :g:`$C$ <0322.g1:C>`, and :g:`$B$ <0322.g1:B>` by multiplying :g:`$A$ <0322.g1:A>` make :g:`$D$ <0322.g1:D>`;
+
+I say that :g:`$C$ <0322.g1:C>` is equal to :g:`$D$ <0322.g1:D>`.
+
+.. picture:: 0322.g1.svg
+   :alt: Proposition 16 Diagram
+
+.. subclause::
+
+   For, since :g:`$A$ <0322.g1:A>` by multiplying :g:`$B$ <0322.g1:B>` has made :g:`$C$ <0322.g1:C>`,
+
+.. assertion::
+
+   therefore :g:`$B$ <0322.g1:B>` measures :g:`$C$ <0322.g1:C>` according to the units in :g:`$A$ <0322.g1:A>`.
+
+.. subclause::
+
+   But the unit :g:`$E$ <0322.g1:E>` also measures the number :g:`$A$ <0322.g1:A>` according to the units in it;
+
+.. assertion::
+
+   therefore the unit :g:`$E$ <0322.g1:E>` measures :g:`$A$ <0322.g1:A>` the same number of times that :g:`$B$ <0322.g1:B>` measures :g:`$C$ <0322.g1:C>`.
+
+.. assertion::
+
+   Therefore, alternately, the unit :g:`$E$ <0322.g1:E>` measures the number :g:`$B$ <0322.g1:B>` the same number of times that :g:`$A$ <0322.g1:A>` measures :g:`$C$ <0322.g1:C>`. :just:`[VII. 15] <VII.15>`
+
+.. subclause::
+
+   Again, since :g:`$B$ <0322.g1:B>` by multiplying :g:`$A$ <0322.g1:A>` has made :g:`$D$ <0322.g1:D>`,
+
+.. assertion::
+
+   therefore :g:`$A$ <0322.g1:A>` measures :g:`$D$ <0322.g1:D>` according to the units in :g:`$B$ <0322.g1:B>`.
+
+.. subclause::
+
+   But the unit :g:`$E$ <0322.g1:E>` also measures :g:`$B$ <0322.g1:B>` according to the units in it;
+
+.. assertion::
+
+   therefore the unit :g:`$E$ <0322.g1:E>` measures the number :g:`$B$ <0322.g1:B>` the same number of times that :g:`$A$ <0322.g1:A>` measures :g:`$D$ <0322.g1:D>`.
+
+.. subclause::
+
+   But the unit :g:`$E$ <0322.g1:E>` measured the number :g:`$B$ <0322.g1:B>` the same number of times that :g:`$A$ <0322.g1:A>` measures :g:`$C$ <0322.g1:C>`;
+
+.. assertion::
+
+   therefore :g:`$A$ <0322.g1:A>` measures each of the numbers :g:`$C$ <0322.g1:C>`, :g:`$D$ <0322.g1:D>` the same number of times.
+
+.. assertion::
+
+   Therefore :g:`$C$ <0322.g1:C>` is equal to :g:`$D$ <0322.g1:D>`.
+
+.. qed::
+
+   Therefore etc. :just:`Q. E. D.`
+
+.. [#f1] **The numbers so produced.** The Greek has οἱ γενόμενοι ἐξ αὐτῶν, "the (numbers) produced *from them*." By "from them" Euclid means "from the original numbers," though this is not very clear even in the Greek. I think ambiguity is best avoided by leaving out the words.
+
+----
+
+See :ref:`Commentary on Proposition VII.16 <VII.16.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

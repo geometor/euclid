@@ -1,13 +1,16 @@
 :canonical_id: I
+:volume: I
 :book: I
 :type: book
 :title: Book I
+
+.. _Book-I:
 
 BOOK I.
 =======
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    definitions/index
    postulates/index

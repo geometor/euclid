@@ -1,13 +1,16 @@
 :canonical_id: I.11
+:volume: I
 :book: I
 :proposition: 11
 :type: proposition
-:title: Proposition 11
+:title: Proposition I.11
 :folios: 0283
 :pages: 269
 :dependencies: I.1, I.3, I.8, I.def.10
 
 .. _I.11:
+
+.. _folio-i-0283:
 
 .. folio:: 0283
    :page: 269
@@ -24,22 +27,21 @@ PROPOSITION 11.
 
 Let :g:`$AB$ <0283.g1:/ A B />` be the given straight line, and :g:`$C$ <0283.g1:C>` the given point on it.
 
-:line:`5` Thus it is required to draw from the point :g:`$C$ <0283.g1:C>` a straight line at right angles to the straight line :g:`$AB$ <0283.g1:/ A B />`.
+Thus it is required to draw from the point :g:`$C$ <0283.g1:C>` a straight line at right angles to the straight line :g:`$AB$ <0283.g1:/ A B />`.
 
-| Let a point :g:`$D$ <0283.g1:D>` be taken at random on :g:`$AC$ <0283.g1:/ A C />`;
-| :line:`10` let :g:`$CE$ <0283.g1:/ C E />` be made equal to :g:`$CD$ <0283.g1:/ C D />`; :just:`[I. 3] <I.3>`
-| on :g:`$DE$ <0283.g1:/ D E />` let the equilateral triangle :g:`$FDE$ <0283.g1:< F D E >>` be constructed, :just:`[I. 1] <I.1>`
-| and let :g:`$FC$ <0283.g1:/ F C />` be joined;
+Let a point :g:`$D$ <0283.g1:D>` be taken at random on :g:`$AC$ <0283.g1:/ A C />`; let :g:`$CE$ <0283.g1:/ C E />` be made equal to :g:`$CD$ <0283.g1:/ C D />`;\ [#f1]_ :just:`[I. 3] <I.3>`
 
-| I say that the straight line :g:`$FC$ <0283.g1:/ F C />` has been drawn at right
-| :line:`15` angles to the given straight line :g:`$AB$ <0283.g1:/ A B />` from :g:`$C$ <0283.g1:C>` the given point on it.
+on :g:`$DE$ <0283.g1:/ D E />` let the equilateral triangle :g:`$FDE$ <0283.g1:< F D E >>` be constructed, :just:`[I. 1] <I.1>`
 
-| For, since :g:`$DC$ <0283.g1:/ D C />` is equal to :g:`$CE$ <0283.g1:/ C E />`,
-| and :g:`$CF$ <0283.g1:/ C F />` is common,
+and let :g:`$FC$ <0283.g1:/ F C />` be joined;
+
+I say that the straight line :g:`$FC$ <0283.g1:/ F C />` has been drawn at right angles to the given straight line :g:`$AB$ <0283.g1:/ A B />` from :g:`$C$ <0283.g1:C>` the given point on it.
+
+For, since :g:`$DC$ <0283.g1:/ D C />` is equal to :g:`$CE$ <0283.g1:/ C E />`, and :g:`$CF$ <0283.g1:/ C F />` is common,
 
 .. assertion::
 
-   :line:`20` the two sides :g:`$DC$ <0283.g1:/ D C />`, :g:`$CF$ <0283.g1:/ C F />` are equal to the two sides :g:`$EC$ <0283.g1:/ E C />`, :g:`$CF$ <0283.g1:/ C F />` respectively;
+   the two sides :g:`$DC$ <0283.g1:/ D C />`, :g:`$CF$ <0283.g1:/ C F />` are equal to the two sides :g:`$EC$ <0283.g1:/ E C />`, :g:`$CF$ <0283.g1:/ C F />` respectively;
 
 and the base :g:`$DF$ <0283.g1:/ D F />` is equal to the base :g:`$FE$ <0283.g1:/ F E />`;
 
@@ -49,23 +51,23 @@ and the base :g:`$DF$ <0283.g1:/ D F />` is equal to the base :g:`$FE$ <0283.g1:
 
 and they are adjacent angles.
 
-| But, when a straight line set up on a straight line makes
-| :line:`25` the adjacent angles equal to one another, each of the equal angles is right; :just:`[Def. 10] <I.def.10>`
+But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; :just:`[Def. 10] <I.def.10>`
 
 .. assertion::
 
    therefore each of the angles :g:`$DCF$ <0283.g1:< D C F )>`, :g:`$FCE$ <0283.g1:< F C E )>` is right.
 
-| Therefore the straight line :g:`$CF$ <0283.g1:/ C F />` has been drawn at right angles to the given straight line :g:`$AB$ <0283.g1:/ A B />` from the given point
-| :line:`30` :g:`$C$ <0283.g1:C>` on it.
+Therefore the straight line :g:`$CF$ <0283.g1:/ C F />` has been drawn at right angles to the given straight line :g:`$AB$ <0283.g1:/ A B />` from the given point :g:`$C$ <0283.g1:C>` on it.
 
 .. qed::
 
    Q. E. F.
 
+.. [#f1] **let** :g:`$CE$ <0283.g1:/ C E />` **be made equal to** :g:`$CD$ <0283.g1:/ C D />`. The verb is κείσθω which, as well as the other parts of κεῖμαι, is constantly used for the passive of τίθημι “to place”; and the latter word is constantly used in the sense of *making*, e.g., one straight line equal to another straight line.
+
 ----
 
-See :ref:`Commentary on Proposition 11 <I.11.commentary>`.
+See :ref:`Commentary on Proposition I.11 <I.11.commentary>`.
 
 .. toctree::
    :hidden:

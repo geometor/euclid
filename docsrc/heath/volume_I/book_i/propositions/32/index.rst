@@ -1,8 +1,9 @@
 :canonical_id: I.32
+:volume: I
 :book: I
 :proposition: 32
 :type: proposition
-:title: Proposition 32
+:title: Proposition I.32
 :folios: 0330, 0331
 :pages: 316, 317
 :dependencies: I.13, I.29, I.31
@@ -19,8 +20,11 @@ PROPOSITION 32.
 
    In any triangle, if one of the sides be produced, the exterior angle is equal to the two interior and opposite angles, and the three interior angles of the triangle are equal to two right angles.
 
-| Let :g:`$ABC$ <0331.g1:< A B C >>` be a triangle, and let one side of it :g:`$BC$ <0331.g1:[ B D ]>` be produced to :g:`$D$ <0331.g1:D>`;
-| I say that the exterior angle :g:`$ACD$ <0331.g1:< A C D )>` is equal to the two interior and opposite angles :g:`$CAB$ <0331.g1:< C A B )>`, :g:`$ABC$ <0331.g1:< A B C )>`, and the three interior angles of the triangle :g:`$ABC$ <0331.g1:< A B C )>`, :g:`$BCA$ <0331.g1:< B C A )>`, :g:`$CAB$ <0331.g1:< C A B )>` are equal to two right angles.
+Let :g:`$ABC$ <0331.g1:< A B C >>` be a triangle, and let one side of it :g:`$BC$ <0331.g1:[ B D ]>` be produced to :g:`$D$ <0331.g1:D>`;
+
+I say that the exterior angle :g:`$ACD$ <0331.g1:< A C D )>` is equal to the two interior and opposite angles :g:`$CAB$ <0331.g1:< C A B )>`, :g:`$ABC$ <0331.g1:< A B C )>`, and the three interior angles of the triangle :g:`$ABC$ <0331.g1:< A B C )>`, :g:`$BCA$ <0331.g1:< B C A )>`, :g:`$CAB$ <0331.g1:< C A B )>` are equal to two right angles.
+
+.. _folio-i-0331:
 
 .. folio:: 0331
    :page: 317
@@ -30,15 +34,13 @@ For let :g:`$CE$ <0331.g1:/ C E />` be drawn through the point :g:`$C$ <0331.g1:
 .. picture:: 0331.g1.svg
    :alt: Folio 0331 Figure 1 - Proposition 32
 
-| Then, since :g:`$AB$ <0331.g1:/ A B />` is parallel to :g:`$CE$ <0331.g1:/ C E />`,
-| and :g:`$AC$ <0331.g1:/ A C />` has fallen upon them,
+Then, since :g:`$AB$ <0331.g1:/ A B />` is parallel to :g:`$CE$ <0331.g1:/ C E />`, and :g:`$AC$ <0331.g1:/ A C />` has fallen upon them,
 
 .. assertion:: [I. 29] <I.29>
 
    the alternate angles :g:`$BAC$ <0331.g1:< B A C )>`, :g:`$ACE$ <0331.g1:< A C E )>` are equal to one another.
 
-| Again, since :g:`$AB$ <0331.g1:/ A B />` is parallel to :g:`$CE$ <0331.g1:/ C E />`,
-| and the straight line :g:`$BD$ <0331.g1:/ B D />` has fallen upon them,
+Again, since :g:`$AB$ <0331.g1:/ A B />` is parallel to :g:`$CE$ <0331.g1:/ C E />`, and the straight line :g:`$BD$ <0331.g1:/ B D />` has fallen upon them,
 
 .. assertion:: [I. 29] <I.29>
 
@@ -68,7 +70,7 @@ But the angles :g:`$ACD$ <0331.g1:< A C D )>`, :g:`$ACB$ <0331.g1:< A C B )>` ar
 
 ----
 
-See :ref:`Commentary on Proposition 32 <I.32.commentary>`.
+See :ref:`Commentary on Proposition I.32 <I.32.commentary>`.
 
 .. toctree::
    :hidden:

@@ -1,8 +1,9 @@
 :canonical_id: I.19
+:volume: I
 :book: I
 :proposition: 19
 :type: proposition
-:title: Proposition 19
+:title: Proposition I.19
 :folios: 0298
 :pages: 284
 :dependencies: I.18, I.5
@@ -22,22 +23,23 @@ PROPOSITION 19.
 .. picture:: 0298.g1.svg
    :alt: Proposition 19 figure
 
-| Let :g:`$ABC$ <0298.g1:< A B C >>` be a triangle having the angle :g:`$ABC$ <0298.g1:< A B C )>` greater than the angle :g:`$BCA$ <0298.g1:< B C A )>`;
-| I say that the side :g:`$AC$ <0298.g1:/ A C />` is also greater than the side :g:`$AB$ <0298.g1:/ A B />`.
+Let :g:`$ABC$ <0298.g1:< A B C >>` be a triangle having the angle :g:`$ABC$ <0298.g1:< A B C )>` greater than the angle :g:`$BCA$ <0298.g1:< B C A )>`;
+
+I say that the side :g:`$AC$ <0298.g1:/ A C />` is also greater than the side :g:`$AB$ <0298.g1:/ A B />`.
 
 For, if not, :g:`$AC$ <0298.g1:/ A C />` is either equal to :g:`$AB$ <0298.g1:/ A B />` or less.
 
-| Now :g:`$AC$ <0298.g1:/ A C />` is not equal to :g:`$AB$ <0298.g1:/ A B />`;
-| for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been equal to the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 5] <I.5>`
-| but it is not;
+Now :g:`$AC$ <0298.g1:/ A C />` is not equal to :g:`$AB$ <0298.g1:/ A B />`; for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been equal to the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 5] <I.5>`
+
+but it is not;
 
 .. assertion::
 
    therefore :g:`$AC$ <0298.g1:/ A C />` is not equal to :g:`$AB$ <0298.g1:/ A B />`.
 
-| Neither is :g:`$AC$ <0298.g1:/ A C />` less than :g:`$AB$ <0298.g1:/ A B />`,
-| for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been less than the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 18] <I.18>`
-| but it is not;
+Neither is :g:`$AC$ <0298.g1:/ A C />` less than :g:`$AB$ <0298.g1:/ A B />`, for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been less than the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 18] <I.18>`
+
+but it is not;
 
 .. assertion::
 
@@ -55,7 +57,7 @@ And it was proved that it is not equal either.
 
 ----
 
-See :ref:`Commentary on Proposition 19 <I.19.commentary>`.
+See :ref:`Commentary on Proposition I.19 <I.19.commentary>`.
 
 .. toctree::
    :hidden:

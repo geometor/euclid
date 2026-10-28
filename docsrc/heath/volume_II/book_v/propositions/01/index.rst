@@ -1,0 +1,71 @@
+:canonical_id: V.1
+:volume: II
+:book: V
+:proposition: 1
+:type: proposition
+:title: Proposition V.1
+:folios: 0144, 0145
+:pages: 138, 139
+
+.. _V.1:
+
+.. _folio-ii-0144:
+
+.. folio:: 0144
+   :page: 138
+
+PROPOSITION 1.
+==============
+
+.. enunciation::
+
+   If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one, that multiple also will all be of all.
+
+Let any number of magnitudes whatever :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` be respectively equimultiples of any magnitudes :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>` equal in multitude;
+
+I say that, whatever multiple :g:`$AB$ <0144.g1:/ A B />` is of :g:`$E$ <0144.g1:E>`, that multiple will :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` also be of :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`.
+
+.. picture:: 0144.g1.svg
+   :alt: Proposition 1 diagram
+
+For, since :g:`$AB$ <0144.g1:/ A B />` is the same multiple of :g:`$E$ <0144.g1:E>` that :g:`$CD$ <0144.g1:/ C D />` is of :g:`$F$ <0144.g1:F>`, as many magnitudes as there are in :g:`$AB$ <0144.g1:/ A B />` equal to :g:`$E$ <0144.g1:E>`, so many also are there in :g:`$CD$ <0144.g1:/ C D />` equal to :g:`$F$ <0144.g1:F>`.
+
+Let :g:`$AB$ <0144.g1:/ A B />` be divided into the magnitudes :g:`$AG$ <0144.g1:/ A G />`, :g:`$GB$ <0144.g1:/ G B />` equal to :g:`$E$ <0144.g1:E>`, and :g:`$CD$ <0144.g1:/ C D />` into :g:`$CH$ <0144.g1:/ C H />`, :g:`$HD$ <0144.g1:/ H D />` equal to :g:`$F$ <0144.g1:F>`; then the multitude of the magnitudes :g:`$AG$ <0144.g1:/ A G />`, :g:`$GB$ <0144.g1:/ G B />` will be equal to the multitude of the magnitudes :g:`$CH$ <0144.g1:/ C H />`, :g:`$HD$ <0144.g1:/ H D />`.
+
+Now, since :g:`$AG$ <0144.g1:/ A G />` is equal to :g:`$E$ <0144.g1:E>`, and :g:`$CH$ <0144.g1:/ C H />` to :g:`$F$ <0144.g1:F>`,
+
+.. assertion::
+
+   therefore :g:`$AG$ <0144.g1:/ A G />` is equal to :g:`$E$ <0144.g1:E>`, and :g:`$AG$ <0144.g1:/ A G />`, :g:`$CH$ <0144.g1:/ C H />` to :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`.
+
+For the same reason
+
+.. assertion::
+
+   :g:`$GB$ <0144.g1:/ G B />` is equal to :g:`$E$ <0144.g1:E>`, and :g:`$GB$ <0144.g1:/ G B />`, :g:`$HD$ <0144.g1:/ H D />` to :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`;
+
+.. assertion::
+
+   therefore, as many magnitudes as there are in :g:`$AB$ <0144.g1:/ A B />` equal to :g:`$E$ <0144.g1:E>`, so many also are there in :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` equal to :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`;
+
+.. _folio-ii-0145:
+
+.. folio:: 0145
+   :page: 139
+
+.. assertion::
+
+   therefore, whatever multiple :g:`$AB$ <0144.g1:/ A B />` is of :g:`$E$ <0144.g1:E>`, that multiple will :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` also be of :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`.
+
+.. qed::
+
+   Therefore etc. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition V.1 <V.1.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

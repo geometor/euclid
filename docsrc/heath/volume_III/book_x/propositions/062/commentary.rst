@@ -1,0 +1,83 @@
+:canonical_id: X.62.commentary
+:volume: III
+:book: X
+:proposition: 62
+:type: commentary
+:title: Commentary on Proposition X.62
+:folios: 0143
+:pages: 139
+
+.. _X.62.commentary:
+
+Commentary on Proposition X.62
+==============================
+
+Back to :ref:`Proposition X.62 <X.62>`.
+
+.. _folio-iii-0143:
+
+.. folio:: 0143
+   :page: 139
+
+We have to prove that [cf. x. 38]
+
+$$\frac{1}{\sigma}\left(k^{\frac{1}{4}}\rho + \frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}}\right)^2$$
+
+is a :term:`*third binomial* <third-binomial>` straight line.
+Take $x, y, z$ such that
+
+$$\begin{aligned}
+\sigma x &= k^{\frac{1}{2}}\rho^2,\\
+\sigma y &= \frac{\lambda\rho^2}{k^{\frac{1}{2}}},\\
+\sigma \cdot 2z &= 2\sqrt{\lambda}\cdot \rho^2.
+\end{aligned}$$
+
+($\alpha$) Now $k^{\frac{1}{4}}\rho, \frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}}$ are medial straight lines commensurable in square only and containing a medial rectangle. [x. 38]
+The sum of the squares on them, or $\sigma(x + y)$, is medial;
+therefore
+
+$$(x + y)\text{ is rational and } \smile \sigma \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1).$$
+
+And $\sigma \cdot 2z$ being medial also,
+
+$$2z\text{ is rational and } \smile \sigma \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).$$
+
+Now
+
+$$k^{\frac{1}{4}}\rho : \frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}} = (k^{\frac{1}{4}}\rho)^2 : k^{\frac{1}{4}}\rho \cdot \frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}}$$
+
+$$= \sigma x : \sigma z,$$
+
+whence $\sigma x \smile \sigma z.$
+But $(k^{\frac{1}{4}}\rho)^2 \sim \left\{(k^{\frac{1}{4}}\rho)^2 + \left(\frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}}\right)^2\right\},$ or $\sigma x \sim \sigma(x + y),$ and $\sigma z \sim \sigma \cdot 2z;$
+therefore
+
+$$\sigma(x + y) \smile \sigma \cdot 2z,$$
+
+or
+
+$$(x + y) \smile 2z \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(3).$$
+
+Hence [(1), (2), (3)] $(x + y) + 2z$ is a binomial straight line$\dots\dots\dots\dots(4).$
+
+($\beta$) As before,
+
+$$(x + y) > 2z,$$
+
+and
+
+$$x \sim y.$$
+
+Also
+
+$$xy = z^2.$$
+
+Therefore [x. 17]
+
+$$\sqrt{(x + y)^2 - (2z)^2} \sim (x + y).$$
+
+And [(1), (2)] neither $(x + y)$ nor $2z$ is $\sim \sigma.$
+Therefore $(x + y) + 2z$ is a :term:`*third binomial* <third-binomial>` straight line.
+Obviously
+
+$$(x + y) + 2z = \frac{\rho^2}{\sigma}\left\{\frac{k + \lambda}{\sqrt{k}} + 2\sqrt{\lambda}\right\}.$$

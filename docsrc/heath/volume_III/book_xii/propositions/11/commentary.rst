@@ -1,0 +1,96 @@
+:canonical_id: XII.11.commentary
+:volume: III
+:book: XII
+:proposition: 11
+:type: commentary
+:title: Commentary on Proposition XII.11
+:folios: 0413
+:pages: 409
+
+.. _XII.11.commentary:
+
+Commentary on Proposition XII.11
+================================
+
+Back to :ref:`Proposition XII.11 <XII.11>`.
+
+.. folio:: 0413
+   :page: 409
+
+We need not again repeat the preliminary construction of successive pyramids and prisms exhausting the cones and cylinders.
+
+Let $Z, Z'$ be the volumes of the two cones, $\beta, \beta'$ their respective bases.
+
+If
+
+$$\beta : \beta' \ne Z : Z',$$
+
+then must
+
+$$\beta : \beta' = Z : O,$$
+
+where $O$ is either less or greater than $Z'$.
+
+I. Suppose, if possible, that $O$ is *less* than $Z'$.
+
+Inscribe in $Z'$ a pyramid ($\Pi'$) leaving over portions of it together less than $(Z' - O)$, i.e. such that
+
+$$Z' > \Pi' > O.$$
+
+Inscribe in $Z$ a pyramid $\Pi$ on a polygon inscribed in the circular base of $Z$ similar to the polygon which is the base of $\Pi'$.
+
+Now, if $d, d'$ be the diameters of the bases,
+
+$$\begin{aligned}
+\beta : \beta' &= d^2 : {d'}^2 & \text{[XII. 2]} \\
+&= (\text{polygon in } \beta) : (\text{polygon in } \beta') & \text{[XII. 1]} \\
+&= \Pi : \Pi'. & \text{[XII. 6]}
+\end{aligned}$$
+
+Therefore
+
+$$Z : O = \Pi : \Pi',$$
+
+and, alternately,
+
+$$Z : \Pi = O : \Pi'.$$
+
+But $Z > \Pi$, since it includes it; therefore
+
+$$O > \Pi'.$$
+
+But, by construction,
+
+$$O < \Pi' :$$
+
+which is impossible.
+
+Therefore
+
+$$O \nless Z'.$$
+
+II. Suppose, if possible, that
+
+$$\beta : \beta' = Z : O,$$
+
+where $O$ is *greater* than $Z'$.
+
+Therefore
+
+$$\beta : \beta' = O' : Z',$$
+
+where $O'$ is some solid less than $Z$.
+
+That is,
+
+$$\beta' : \beta = Z' : O',$$
+
+where $O' < Z$.
+
+This is proved impossible exactly in the same way as the assumption in Part I. was proved impossible.
+
+Therefore $Z$ has not either to a less solid than $Z'$ or to a greater solid than $Z'$ the ratio of $\beta$ to $\beta'$ ; therefore
+
+$$\beta : \beta' = Z : Z'.$$
+
+The same is true of the cylinders which are equal to $3Z, 3Z'$ respectively.

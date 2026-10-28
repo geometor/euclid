@@ -1,0 +1,115 @@
+:canonical_id: X.57
+:volume: III
+:book: X
+:proposition: 57
+:type: proposition
+:title: Proposition X.57
+:folios: 0129, 0130, 0131
+:pages: 125, 126, 127
+:dependencies: VI.1, X.11, X.13, X.18, X.19, X.21, X.39
+
+.. _X.57:
+
+.. folio:: 0129
+   :page: 125
+
+PROPOSITION 57.
+===============
+
+.. enunciation::
+
+   If an area be contained by a rational straight line and the fourth binomial, the "side" of the area is the irrational straight line called major.
+
+For let the area :g:`$AC$ <0130.g1:< A C >>` be contained by the rational straight line :g:`$AB$ <0130.g1:/ A B />` and the fourth binomial :g:`$AD$ <0130.g1:/ A D />` divided into its terms at :g:`$E$ <0130.g1:E>`, of which terms let :g:`$AE$ <0130.g1:/ A E />` be the greater; I say that the "side" of the area :g:`$AC$ <0130.g1:< A C >>` is the irrational straight line called major.
+
+.. _folio-iii-0130:
+
+.. folio:: 0130
+   :page: 126
+
+.. subclause::
+
+   For, since :g:`$AD$ <0130.g1:/ A D />` is a fourth binomial straight line,
+
+.. assertion::
+
+   therefore :g:`$AE$ <0130.g1:/ A E />`, :g:`$ED$ <0130.g1:/ E D />` are rational straight lines commensurable in square only, the square on :g:`$AE$ <0130.g1:/ A E />` is greater than the square on :g:`$ED$ <0130.g1:/ E D />` by the square on a straight line incommensurable with :g:`$AE$ <0130.g1:/ A E />`, and :g:`$AE$ <0130.g1:/ A E />` is commensurable in length with :g:`$AB$ <0130.g1:/ A B />`. :just:`[X. Deff. II. 4]`
+
+Let :g:`$DE$ <0130.g1:/ E D />` be bisected at :g:`$F$ <0130.g1:F>`, and let there be applied to :g:`$AE$ <0130.g1:/ A E />` a parallelogram, the rectangle :g:`$AG$ <0130.g1:/ A G />`, :g:`$GE$ <0130.g1:/ G E />`, equal to the square on :g:`$EF$ <0130.g1:/ E F />`;
+
+.. assertion:: [X. 18] <X.18>
+
+   therefore :g:`$AG$ <0130.g1:/ A G />` is incommensurable in length with :g:`$GE$ <0130.g1:/ G E />`.
+
+Let :g:`$GH$ <0130.g1:/ G H />`, :g:`$EK$ <0130.g1:/ E K />`, :g:`$FL$ <0130.g1:/ F L />` be drawn parallel to :g:`$AB$ <0130.g1:/ A B />`, and let the rest of the construction be as before;
+
+.. assertion::
+
+   it is then manifest that :g:`$MO$ <0130.g1:/ M O />` is the "side" of the area :g:`$AC$ <0130.g1:< A C >>`.
+
+.. picture:: 0130.g1.svg
+   :alt: Proposition 57
+
+It is next to be proved that :g:`$MO$ <0130.g1:/ M O />` is the irrational straight line called major.
+
+.. subclause::
+
+   Since :g:`$AG$ <0130.g1:/ A G />` is incommensurable with :g:`$EG$ <0130.g1:/ G E />`,
+
+.. assertion::
+
+   :g:`$AH$ <0130.g1:< A H >>` is also incommensurable with :g:`$GK$ <0130.g1:< G K >>`, that is, :g:`$SN$ <0130.g1:< S N >>` with :g:`$NQ$ <0130.g1:< N Q >>`; :just:`[VI. 1, X. 11] <VI.1, X.11>` therefore :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />` are incommensurable in square.
+
+.. subclause::
+
+   And, since :g:`$AE$ <0130.g1:/ A E />` is commensurable with :g:`$AB$ <0130.g1:/ A B />`,
+
+.. assertion::
+
+   :g:`$AK$ <0130.g1:< A K >>` is rational; :just:`[X. 19] <X.19>` and it is equal to the squares on :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />`; therefore the sum of the squares on :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />` is also rational.
+
+.. subclause::
+
+   And, since :g:`$DE$ <0130.g1:/ E D />` is incommensurable in length with :g:`$AB$ <0130.g1:/ A B />`, that is, with :g:`$EK$ <0130.g1:/ E K />`, while :g:`$DE$ <0130.g1:/ E D />` is commensurable with :g:`$EF$ <0130.g1:/ E F />`,
+
+.. assertion:: [X. 13] <X.13>
+
+   therefore :g:`$EF$ <0130.g1:/ E F />` is incommensurable in length with :g:`$EK$ <0130.g1:/ E K />`.
+
+.. assertion::
+
+   Therefore :g:`$EK$ <0130.g1:/ E K />`, :g:`$EF$ <0130.g1:/ E F />` are rational straight lines commensurable in square only; therefore :g:`$LE$ <0130.g1:< E L >>`, that is, :g:`$MR$ <0130.g1:< M R >>`, is medial. :just:`[X. 21] <X.21>`
+
+.. subclause::
+
+   And it is contained by :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />`;
+
+.. assertion::
+
+   therefore the rectangle :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />` is medial.
+
+.. _folio-iii-0131:
+
+.. folio:: 0131
+   :page: 127
+
+.. subclause::
+
+   And the [sum] of the squares on :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />` is rational, and :g:`$MN$ <0130.g1:/ M N />`, :g:`$NO$ <0130.g1:/ N O />` are incommensurable in square.
+
+.. subclause::
+
+   But, if two straight lines incommensurable in square and making the sum of the squares on them rational, but the rectangle contained by them medial, be added together, the whole is irrational and is called major. :just:`[X. 39] <X.39>`
+
+.. qed::
+
+   Therefore :g:`$MO$ <0130.g1:/ M O />` is the irrational straight line called major and is the "side" of the area :g:`$AC$ <0130.g1:< A C >>`. :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition X.57 <X.57.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

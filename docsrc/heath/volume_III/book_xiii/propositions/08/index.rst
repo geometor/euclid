@@ -1,0 +1,110 @@
+:canonical_id: XIII.8
+:volume: III
+:book: XIII
+:proposition: 8
+:type: proposition
+:title: Proposition XIII.8
+:folios: 0457, 0458
+:pages: 453, 454
+:dependencies: I.32, I.4, I.5, I.6, III.28, IV.14, V.14, VI.33, VI.4
+
+.. _XIII.8:
+
+.. folio:: 0457
+   :page: 453
+
+PROPOSITION 8.
+==============
+
+.. enunciation::
+
+   If in an equilateral and equiangular pentagon straight lines subtend two angles taken in order, they cut one another in extreme and mean ratio, and their greater segments are equal to the side of the pentagon.
+
+For in the equilateral and equiangular pentagon :g:`$ABCDE$ <0457.g1:< A B C D E >>` let the straight lines :g:`$AC$ <0457.g1:/ A C />`, :g:`$BE$ <0457.g1:/ B E />`, cutting one another at the point :g:`$H$ <0457.g1:H>`, subtend two angles taken in order, the angles at :g:`$A$ <0457.g1:A>`, :g:`$B$ <0457.g1:B>`; I say that each of them has been cut in extreme and mean ratio at the point :g:`$H$ <0457.g1:H>`, and their greater segments are equal to the side of the pentagon.
+
+.. picture:: 0457.g1.svg
+   :alt: Book XIII, Proposition 8
+
+For let the circle :g:`$ABCDE$ <0457.g1:( A B C D E )>` be circumscribed about the pentagon :g:`$ABCDE$ <0457.g1:< A B C D E >>`. :just:`[IV. 14] <IV.14>`
+
+.. _folio-iii-0458:
+
+.. folio:: 0458
+   :page: 454
+
+.. subclause::
+
+   Then, since the two straight lines :g:`$EA$ <0457.g1:/ E A />`, :g:`$AB$ <0457.g1:/ A B />` are equal to the two :g:`$AB$ <0457.g1:/ A B />`, :g:`$BC$ <0457.g1:/ B C />`, and they contain equal angles,
+
+.. assertion::
+
+   therefore the base :g:`$BE$ <0457.g1:/ B E />` is equal to the base :g:`$AC$ <0457.g1:/ A C />`, the triangle :g:`$ABE$ <0457.g1:< A B E >>` is equal to the triangle :g:`$ABC$ <0457.g1:< A B C >>`, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend. :just:`[I. 4] <I.4>`
+
+.. assertion::
+
+   Therefore the angle :g:`$BAC$ <0457.g1:< B A C )>` is equal to the angle :g:`$ABE$ <0457.g1:< A B E )>`; therefore the angle :g:`$AHE$ <0457.g1:< A H E )>` is double of the angle :g:`$BAH$ <0457.g1:< B A H )>`. :just:`[I. 32] <I.32>`
+
+.. subclause::
+
+   But the angle :g:`$EAC$ <0457.g1:< E A C )>` is also double of the angle :g:`$BAC$ <0457.g1:< B A C )>`, inasmuch as the circumference :g:`$EDC$ <0457.g1:( E D C )>` is also double of the circumference :g:`$CB$ <0457.g1:( C B )>`; :just:`[III. 28, VI. 33] <III.28, VI.33>`
+
+.. assertion::
+
+   therefore the angle :g:`$HAE$ <0457.g1:< H A E )>` is equal to the angle :g:`$AHE$ <0457.g1:< A H E )>`; hence the straight line :g:`$HE$ <0457.g1:/ H E />` is also equal to :g:`$EA$ <0457.g1:/ E A />`, that is, to :g:`$AB$ <0457.g1:/ A B />`. :just:`[I. 6] <I.6>`
+
+.. subclause::
+
+   And, since the straight line :g:`$BA$ <0457.g1:/ B A />` is equal to :g:`$AE$ <0457.g1:/ A E />`, the angle :g:`$ABE$ <0457.g1:< A B E )>` is also equal to the angle :g:`$AEB$ <0457.g1:< A E B )>`. :just:`[I. 5] <I.5>`
+
+.. subclause::
+
+   But the angle :g:`$ABE$ <0457.g1:< A B E )>` was proved equal to the angle :g:`$BAH$ <0457.g1:< B A H )>`;
+
+.. assertion::
+
+   therefore the angle :g:`$BEA$ <0457.g1:< B E A )>` is also equal to the angle :g:`$BAH$ <0457.g1:< B A H )>`.
+
+.. subclause::
+
+   And the angle :g:`$ABE$ <0457.g1:< A B E )>` is common to the two triangles :g:`$ABE$ <0457.g1:< A B E >>` and :g:`$ABH$ <0457.g1:< A B H >>`;
+
+.. assertion::
+
+   therefore the remaining angle :g:`$BAE$ <0457.g1:< B A E )>` is equal to the remaining angle :g:`$AHB$ <0457.g1:< A H B )>`; :just:`[I. 32] <I.32>` therefore the triangle :g:`$ABE$ <0457.g1:< A B E >>` is equiangular with the triangle :g:`$ABH$ <0457.g1:< A B H >>`; therefore, proportionally, as :g:`$EB$ <0457.g1:/ E B />` is to :g:`$BA$ <0457.g1:/ B A />`, so is :g:`$AB$ <0457.g1:/ A B />` to :g:`$BH$ <0457.g1:/ B H />`. :just:`[VI. 4] <VI.4>`
+
+.. subclause::
+
+   But :g:`$BA$ <0457.g1:/ B A />` is equal to :g:`$EH$ <0457.g1:/ E H />`;
+
+.. assertion::
+
+   therefore, as :g:`$BE$ <0457.g1:/ B E />` is to :g:`$EH$ <0457.g1:/ E H />`, so is :g:`$EH$ <0457.g1:/ E H />` to :g:`$HB$ <0457.g1:/ H B />`.
+
+.. subclause::
+
+   And :g:`$BE$ <0457.g1:/ B E />` is greater than :g:`$EH$ <0457.g1:/ E H />`;
+
+.. assertion:: [V. 14] <V.14>
+
+   therefore :g:`$EH$ <0457.g1:/ E H />` is also greater than :g:`$HB$ <0457.g1:/ H B />`.
+
+.. assertion::
+
+   Therefore :g:`$BE$ <0457.g1:/ B E />` has been cut in extreme and mean ratio at :g:`$H$ <0457.g1:H>`, and the greater segment :g:`$HE$ <0457.g1:/ H E />` is equal to the side of the pentagon.
+
+.. assertion::
+
+   Similarly we can prove that :g:`$AC$ <0457.g1:/ A C />` has also been cut in extreme and mean ratio at :g:`$H$ <0457.g1:H>`, and its greater segment :g:`$CH$ <0457.g1:/ C H />` is equal to the side of the pentagon.
+
+.. qed::
+
+   :just:`Q. E. D.`
+
+----
+
+See :ref:`Commentary on Proposition XIII.8 <XIII.8.commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary

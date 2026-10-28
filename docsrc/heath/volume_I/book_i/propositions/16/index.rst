@@ -1,8 +1,9 @@
 :canonical_id: I.16
+:volume: I
 :book: I
 :proposition: 16
 :type: proposition
-:title: Proposition 16
+:title: Proposition I.16
 :folios: 0293, 0294
 :pages: 279, 280
 :dependencies: I.10, I.15, I.3, I.4, I.cn.5, I.post.1, I.post.2
@@ -17,23 +18,24 @@ PROPOSITION 16.
 
 .. enunciation::
 
-   In any triangle, if one of the sides be produced, the exterior angle is greater than either of the interior and opposite angles.
+   In any triangle, if one of the sides be produced, the exterior angle\ [#f1]_ is greater than either of the interior and opposite angles.\ [#f2]_
 
 .. picture:: 0293.g1.svg
    :alt: Proposition 16 figure
 
-| Let :g:`$ABC$ <0293.g1:< A B C >>` be a triangle, and let one side of it :g:`$BC$ <0293.g1:/ B C />` be produced to :g:`$D$ <0293.g1:D>`;
-| :line:`5` I say that the exterior angle :g:`$ACD$ <0293.g1:< A C D )>` is greater than either of the interior and opposite angles :g:`$CBA$ <0293.g1:< C B A )>`, :g:`$BAC$ <0293.g1:< B A C )>`.
+Let :g:`$ABC$ <0293.g1:< A B C >>` be a triangle, and let one side of it :g:`$BC$ <0293.g1:/ B C />` be produced to :g:`$D$ <0293.g1:D>`;
 
-| Let :g:`$AC$ <0293.g1:/ A C />` be bisected at :g:`$E$ <0293.g1:E>`, :just:`[I. 10] <I.10>`
-| and let :g:`$BE$ <0293.g1:/ B E />` be joined and produced
-| :line:`10` in a straight line to :g:`$F$ <0293.g1:F>`;
-| let :g:`$EF$ <0293.g1:/ E F />` be made equal to :g:`$BE$ <0293.g1:/ B E />`, :just:`[I. 3] <I.3>`
-| let :g:`$FC$ <0293.g1:/ F C />` be joined, :just:`[Post. 1] <I.post.1>`
-| and let :g:`$AC$ <0293.g1:/ A C />` be drawn through to :g:`$G$ <0293.g1:G>`. :just:`[Post. 2] <I.post.2>`
+I say that the exterior angle :g:`$ACD$ <0293.g1:< A C D )>` is greater than either of the interior and opposite angles :g:`$CBA$ <0293.g1:< C B A )>`, :g:`$BAC$ <0293.g1:< B A C )>`.
 
-| Then, since :g:`$AE$ <0293.g1:/ A E />` is equal to :g:`$EC$ <0293.g1:/ E C />`,
-| :line:`15` and :g:`$BE$ <0293.g1:/ B E />` to :g:`$EF$ <0293.g1:/ E F />`,
+Let :g:`$AC$ <0293.g1:/ A C />` be bisected at :g:`$E$ <0293.g1:E>`, :just:`[I. 10] <I.10>`
+
+and let :g:`$BE$ <0293.g1:/ B E />` be joined and produced in a straight line to :g:`$F$ <0293.g1:F>`; let :g:`$EF$ <0293.g1:/ E F />` be made equal to :g:`$BE$ <0293.g1:/ B E />`, :just:`[I. 3] <I.3>`
+
+let :g:`$FC$ <0293.g1:/ F C />` be joined, :just:`[Post. 1] <I.post.1>`
+
+and let :g:`$AC$ <0293.g1:/ A C />` be drawn through to :g:`$G$ <0293.g1:G>`.\ [#f3]_ :just:`[Post. 2] <I.post.2>`
+
+Then, since :g:`$AE$ <0293.g1:/ A E />` is equal to :g:`$EC$ <0293.g1:/ E C />`, and :g:`$BE$ <0293.g1:/ B E />` to :g:`$EF$ <0293.g1:/ E F />`,
 
 .. assertion::
 
@@ -47,11 +49,11 @@ and the angle :g:`$AEB$ <0293.g1:< A E B )>` is equal to the angle :g:`$FEC$ <02
 
 .. assertion::
 
-   :line:`20` Therefore the base :g:`$AB$ <0293.g1:/ A B />` is equal to the base :g:`$FC$ <0293.g1:/ F C />`,
+   Therefore the base :g:`$AB$ <0293.g1:/ A B />` is equal to the base :g:`$FC$ <0293.g1:/ F C />`,
 
 .. assertion::
 
-   and the triangle :g:`$ABE$ <0293.g1:< A B E >>` is equal to the triangle :g:`$CFE$ <0293.g1:< C F E >>`,
+   and the triangle :g:`$ABE$ <0293.g1:< A B E >>` is equal to the triangle :g:`$CFE$ <0293.g1:< C F E >>`,\ [#f4]_
 
 and the remaining angles are equal to the remaining angles respectively, namely those which the equal sides subtend; :just:`[I. 4] <I.4>`
 
@@ -59,10 +61,12 @@ and the remaining angles are equal to the remaining angles respectively, namely 
 
    therefore the angle :g:`$BAE$ <0293.g1:< B A E )>` is equal to the angle :g:`$ECF$ <0293.g1:< E C F )>`.
 
+.. _folio-i-0294:
+
 .. folio:: 0294
    :page: 280
 
-:line:`25` But the angle :g:`$ECD$ <0293.g1:< E C D )>` is greater than the angle :g:`$ECF$ <0293.g1:< E C F )>`; :just:`[C. N. 5] <I.cn.5>`
+But the angle :g:`$ECD$ <0293.g1:< E C D )>` is greater than the angle :g:`$ECF$ <0293.g1:< E C F )>`; :just:`[C. N. 5] <I.cn.5>`
 
 .. assertion::
 
@@ -74,9 +78,17 @@ Similarly also, if :g:`$BC$ <0293.g1:/ B C />` be bisected, the angle :g:`$BCG$ 
 
    Therefore etc. :just:`Q. E. D.`
 
+.. [#f1] **the exterior angle,** literally “the outside angle,” ἡ ἐκτὸς :term:`γωνία <angle>`.
+
+.. [#f2] **the interior and opposite angles,** τῶν ἐντὸς καὶ ἀπεναντίον γωνιῶν.
+
+.. [#f3] **let** :g:`$AC$ <0293.g1:/ A C />` **be drawn through to** :g:`$G$ <0293.g1:G>`. The word is διήχθω, a variation on the more usual ἐκβεβλήσθω, “let it be produced.”
+
+.. [#f4] :g:`$CFE$ <0293.g1:< C F E >>`, in the text “:g:`$FEC$ <0293.g1:< F E C >>`.”
+
 ----
 
-See :ref:`Commentary on Proposition 16 <I.16.commentary>`.
+See :ref:`Commentary on Proposition I.16 <I.16.commentary>`.
 
 .. toctree::
    :hidden:
