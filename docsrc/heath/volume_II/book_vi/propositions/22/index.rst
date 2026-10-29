@@ -82,7 +82,7 @@ Next, let :g:`$MF$ <0247.g1:< M F >>` be to :g:`$NH$ <0247.g1:< N H >>` as :g:`$
 
 .. assertion:: [V. 9] <V.9>
 
-   therefore :g:`$NH$ <0247.g1:< N H >>` is equal to :g:`$SR$ <0247.g1:< S R >>`.
+   therefore :g:`$NH$ <0247.g1:< N H >>` is :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>` to :g:`$SR$ <0247.g1:< S R >>`.
 
 .. subclause::
 
@@ -90,7 +90,7 @@ Next, let :g:`$MF$ <0247.g1:< M F >>` be to :g:`$NH$ <0247.g1:< N H >>` as :g:`$
 
 .. assertion::
 
-   therefore :g:`$GH$ <0247.g1:/ G H />` is equal to :g:`$QR$ <0247.g1:/ Q R />`.
+   therefore :g:`$GH$ <0247.g1:/ G H />` is :eq:`equal <0247.g1:/ G H / = 0247.g1:/ Q R />` to :g:`$QR$ <0247.g1:/ Q R />`.
 
 .. _folio-ii-0248:
 
@@ -99,7 +99,7 @@ Next, let :g:`$MF$ <0247.g1:< M F >>` be to :g:`$NH$ <0247.g1:< N H >>` as :g:`$
 
 .. subclause::
 
-   And, since, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$QR$ <0247.g1:/ Q R />`, while :g:`$QR$ <0247.g1:/ Q R />` is equal to :g:`$GH$ <0247.g1:/ G H />`,
+   And, since, as :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />`, so is :g:`$EF$ <0247.g1:/ E F />` to :g:`$QR$ <0247.g1:/ Q R />`, while :g:`$QR$ <0247.g1:/ Q R />` is :eq:`equal <0247.g1:/ Q R / = 0247.g1:/ G H />` to :g:`$GH$ <0247.g1:/ G H />`,
 
 .. assertion::
 

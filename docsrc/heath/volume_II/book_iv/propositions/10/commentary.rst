@@ -59,20 +59,20 @@ Suppose the problem solved, i.e. let :g:`$ABD$ <0102.g1:< A B D >>` be an isosce
 
 Bisect the angle :g:`$ADB$ <0102.g1:< A D B )>` by the straight line :g:`$DC$ <0102.g1:/ D C />` meeting :g:`$AB$ <0102.g1:/ A B />` in :g:`$C$ <0102.g1:C>`. :just:`[I. 9] <I.9>`
 
-Therefore the angle :g:`$BDC$ <0102.g1:< B D C )>` is equal to the angle :g:`$BAD$ <0102.g1:< B A D )>`; and the angle :g:`$CDA$ <0102.g1:< C D A )>` is also equal to the angle :g:`$BAD$ <0102.g1:< B A D )>`,
+Therefore the angle :g:`$BDC$ <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< B A D )>` to the angle :g:`$BAD$ <0102.g1:< B A D )>`; and the angle :g:`$CDA$ <0102.g1:< C D A )>` is also :eq:`equal <0102.g1:< C D A ) = 0102.g1:< B A D )>` to the angle :g:`$BAD$ <0102.g1:< B A D )>`,
 
 .. assertion::
 
-   so that :g:`$DC$ <0102.g1:/ D C />` is equal to :g:`$CA$ <0102.g1:/ C A />`.
+   so that :g:`$DC$ <0102.g1:/ D C />` is :eq:`equal <0102.g1:/ D C / = 0102.g1:/ C A />` to :g:`$CA$ <0102.g1:/ C A />`.
 
 Again, since, in the triangles :g:`$BCD$ <0102.g1:< B C D >>`, :g:`$BDA$ <0102.g1:< B D A >>`,
-the angle :g:`$BDC$ <0102.g1:< B D C )>` is equal to the angle :g:`$BAD$ <0102.g1:< B A D )>`,
+the angle :g:`$BDC$ <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< B A D )>` to the angle :g:`$BAD$ <0102.g1:< B A D )>`,
 and the angle :g:`$B$ <0102.g1:< C B D )>` is common,
-the third angle :g:`$BCD$ <0102.g1:< B C D )>` is equal to the third angle :g:`$BDA$ <0102.g1:< B D A )>`, and therefore to the angle :g:`$DBC$ <0102.g1:< D B C )>`.
+the third angle :g:`$BCD$ <0102.g1:< B C D )>` is :eq:`equal <0102.g1:< B C D ) = 0102.g1:< B D A )>` to the third angle :g:`$BDA$ <0102.g1:< B D A )>`, and therefore :eq:`to <0102.g1:< B C D ) = 0102.g1:< D B C )>` the angle :g:`$DBC$ <0102.g1:< D B C )>`.
 
 .. assertion::
 
-   Therefore :g:`$DC$ <0102.g1:/ D C />` is equal to :g:`$DB$ <0102.g1:/ D B />`.
+   Therefore :g:`$DC$ <0102.g1:/ D C />` is :eq:`equal <0102.g1:/ D C / = 0102.g1:/ D B />` to :g:`$DB$ <0102.g1:/ D B />`.
 
 Now, if a circle be described about the triangle :g:`$ACD$ <0102.g1:< A C D >>` :just:`[IV. 5] <IV.5>`, since the angle :g:`$BDC$ <0102.g1:< B D C )>` is equal to the angle in the segment :g:`$CAD$ <0102.g1:( C A D )>`,
 :g:`$BD$ <0102.g1:/ B D />` must touch the circle [by the converse of III. 32 easily proved from it by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`].
@@ -80,7 +80,7 @@ Now, if a circle be described about the triangle :g:`$ACD$ <0102.g1:< A C D >>` 
 Hence :just:`[III. 36] <III.36>` the square on :g:`$BD$ <0102.g1:/ B D />` and therefore the square on :g:`$CD$ <0102.g1:/ C D />`, or :g:`$AC$ <0102.g1:/ A C />`, is equal to the rectangle :g:`$AB$ <0102.g1:/ A B />`, :g:`$BC$ <0102.g1:/ B C />`.
 
 Thus the problem is reduced to that of cutting :g:`$AB$ <0102.g1:/ A B />` at :g:`$C$ <0102.g1:C>` so that the rectangle :g:`$AB$ <0102.g1:/ A B />`, :g:`$BC$ <0102.g1:/ B C />` is equal to the square on :g:`$AC$ <0102.g1:/ A C />`. :just:`[II. 11] <II.11>`
-When this is done, we have only to draw a circle with centre :g:`$A$ <0102.g1:A>` and radius :g:`$AB$ <0102.g1:/ A B />` and place in it a chord :g:`$BD$ <0102.g1:/ B D />` equal in length to :g:`$AC$ <0102.g1:/ A C />`. :just:`[IV. 1] <IV.1>`
+When this is done, we have only to draw a circle with centre :g:`$A$ <0102.g1:A>` and radius :g:`$AB$ <0102.g1:/ A B />` and place in it a chord :g:`$BD$ <0102.g1:/ B D />` :eq:`equal <0102.g1:/ B D / = 0102.g1:/ A C />` in length to :g:`$AC$ <0102.g1:/ A C />`. :just:`[IV. 1] <IV.1>`
 
 .. _folio-ii-0106:
 

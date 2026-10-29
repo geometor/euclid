@@ -25,7 +25,7 @@ For let the two straight lines :g:`$AB$ <0287.g1:/ A B />`, :g:`$CD$ <0287.g1:/ 
 .. picture:: 0287.g1.svg
    :alt: Book XI - Proposition 6
 
-For let them meet the plane of reference at the points :g:`$B$ <0287.g1:B>`, :g:`$D$ <0287.g1:D>`, let the straight line :g:`$BD$ <0287.g1:/ B D />` be joined, let :g:`$DE$ <0287.g1:/ D E />` be drawn, in the plane of reference, at right angles to :g:`$BD$ <0287.g1:/ B D />`, let :g:`$DE$ <0287.g1:/ D E />` be made equal to :g:`$AB$ <0287.g1:/ A B />`, and let :g:`$BE$ <0287.g1:/ B E />`, :g:`$AE$ <0287.g1:/ A E />`, :g:`$AD$ <0287.g1:/ A D />` be joined.
+For let them meet the plane of reference at the points :g:`$B$ <0287.g1:B>`, :g:`$D$ <0287.g1:D>`, let the straight line :g:`$BD$ <0287.g1:/ B D />` be joined, let :g:`$DE$ <0287.g1:/ D E />` be drawn, in the plane of reference, at right angles to :g:`$BD$ <0287.g1:/ B D />`, let :g:`$DE$ <0287.g1:/ D E />` be made :eq:`equal <0287.g1:/ D E / = 0287.g1:/ A B />` to :g:`$AB$ <0287.g1:/ A B />`, and let :g:`$BE$ <0287.g1:/ B E />`, :g:`$AE$ <0287.g1:/ A E />`, :g:`$AD$ <0287.g1:/ A D />` be joined.
 
 .. subclause::
 
@@ -37,27 +37,27 @@ For let them meet the plane of reference at the points :g:`$B$ <0287.g1:B>`, :g:
 
 .. assertion::
 
-   therefore each of the angles :g:`$ABD$ <0287.g1:< A B D )>`, :g:`$ABE$ <0287.g1:< A B E )>` is right.
+   therefore each of the angles :g:`$ABD$ <0287.g1:< A B D )>`, :g:`$ABE$ <0287.g1:< A B E )>` is :eq:`right <0287.g1:< A B D ) = 0287.g1:< A B E )>`.
 
 .. assertion::
 
-   For the same reason each of the angles :g:`$CDB$ <0287.g1:< C D B )>`, :g:`$CDE$ <0287.g1:< C D E )>` is also right.
+   For the same reason each of the angles :g:`$CDB$ <0287.g1:< C D B )>`, :g:`$CDE$ <0287.g1:< C D E )>` is also :eq:`right <0287.g1:< C D B ) = 0287.g1:< C D E )>`.
 
 .. subclause::
 
-   And, since :g:`$AB$ <0287.g1:/ A B />` is equal to :g:`$DE$ <0287.g1:/ D E />`, and :g:`$BD$ <0287.g1:/ B D />` is common, the two sides :g:`$AB$ <0287.g1:/ A B />`, :g:`$BD$ <0287.g1:/ B D />` are equal to the two sides :g:`$ED$ <0287.g1:/ E D />`, :g:`$DB$ <0287.g1:/ D B />`; and they include right angles;
+   And, since :g:`$AB$ <0287.g1:/ A B />` is :eq:`equal <0287.g1:/ A B / = 0287.g1:/ D E />` to :g:`$DE$ <0287.g1:/ D E />`, and :g:`$BD$ <0287.g1:/ B D />` is common, the two sides :g:`$AB$ <0287.g1:/ A B />`, :g:`$BD$ <0287.g1:/ B D />` are :eq:`equal <0287.g1:/ A B / = 0287.g1:/ E D />` to the two sides :g:`$ED$ <0287.g1:/ E D />`, :g:`$DB$ <0287.g1:/ D B />`; and they include :eq:`right angles <0287.g1:< A B D ) = 0287.g1:< E D B )>`;
 
 .. assertion:: [I. 4] <I.4>
 
-   therefore the base :g:`$AD$ <0287.g1:/ A D />` is equal to the base :g:`$BE$ <0287.g1:/ B E />`.
+   therefore the base :g:`$AD$ <0287.g1:/ A D />` is :eq:`equal <0287.g1:/ A D / = 0287.g1:/ B E />` to the base :g:`$BE$ <0287.g1:/ B E />`.
 
 .. subclause::
 
-   And, since :g:`$AB$ <0287.g1:/ A B />` is equal to :g:`$DE$ <0287.g1:/ D E />`, while :g:`$AD$ <0287.g1:/ A D />` is also equal to :g:`$BE$ <0287.g1:/ B E />`, the two sides :g:`$AB$ <0287.g1:/ A B />`, :g:`$BE$ <0287.g1:/ B E />` are equal to the two sides :g:`$ED$ <0287.g1:/ E D />`, :g:`$DA$ <0287.g1:/ D A />`; and :g:`$AE$ <0287.g1:/ A E />` is their common base;
+   And, since :g:`$AB$ <0287.g1:/ A B />` is :eq:`equal <0287.g1:/ A B / = 0287.g1:/ D E />` to :g:`$DE$ <0287.g1:/ D E />`, while :g:`$AD$ <0287.g1:/ A D />` is also :eq:`equal <0287.g1:/ A D / = 0287.g1:/ B E />` to :g:`$BE$ <0287.g1:/ B E />`, the two sides :g:`$AB$ <0287.g1:/ A B />`, :g:`$BE$ <0287.g1:/ B E />` are :eq:`equal <0287.g1:/ A B / = 0287.g1:/ E D /; 0287.g1:/ B E / = 0287.g1:/ D A />` to the two sides :g:`$ED$ <0287.g1:/ E D />`, :g:`$DA$ <0287.g1:/ D A />`; and :g:`$AE$ <0287.g1:/ A E />` is their common base;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$ABE$ <0287.g1:< A B E )>` is equal to the angle :g:`$EDA$ <0287.g1:< E D A )>`.
+   therefore the angle :g:`$ABE$ <0287.g1:< A B E )>` is :eq:`equal <0287.g1:< A B E ) = 0287.g1:< E D A )>` to the angle :g:`$EDA$ <0287.g1:< E D A )>`.
 
 .. _folio-iii-0288:
 
@@ -90,7 +90,7 @@ For let them meet the plane of reference at the points :g:`$B$ <0287.g1:B>`, :g:
 
 .. subclause::
 
-   And each of the angles :g:`$ABD$ <0287.g1:< A B D )>`, :g:`$BDC$ <0287.g1:< B D C )>` is right;
+   And each of the angles :g:`$ABD$ <0287.g1:< A B D )>`, :g:`$BDC$ <0287.g1:< B D C )>` is :eq:`right <0287.g1:< A B D ) = 0287.g1:< B D C )>`;
 
 .. assertion:: [I. 28] <I.28>
 

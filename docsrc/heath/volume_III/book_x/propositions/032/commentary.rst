@@ -83,7 +83,7 @@ $$\begin{array}{lcc}
 LEMMA.
 ~~~~~~
 
-Let :g:`$ABC$ <0078.g1:< A B C >>` be a right-angled triangle having the angle :g:`$A$ <0078.g1:< B A C )>` right, and let the perpendicular :g:`$AD$ <0078.g1:/ A D />` be drawn ;
+Let :g:`$ABC$ <0078.g1:< A B C >>` be a right-angled triangle having the angle :g:`$A$ <0078.g1:< B A C )>` right, and let the :eq:`perpendicular <0078.g1:< A D B ) = 0078.g1:< A D C )>` :g:`$AD$ <0078.g1:/ A D />` be drawn ;
 
 I say that the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B D />` is equal to the square on :g:`$BA$ <0078.g1:/ B A />`, the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$CD$ <0078.g1:/ C D />` equal to the square on :g:`$CA$ <0078.g1:/ C A />`, the rectangle :g:`$BD$ <0078.g1:/ B D />`, :g:`$DC$ <0078.g1:/ D C />` equal to the square on :g:`$AD$ <0078.g1:/ A D />`, and, further, the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$AD$ <0078.g1:/ A D />` equal to the rectangle :g:`$BA$ <0078.g1:/ B A />`, :g:`$AC$ <0078.g1:/ A C />`.
 
@@ -99,7 +99,7 @@ And first that the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B 
 
 .. subclause::
 
-   For, since in a right-angled triangle :g:`$AD$ <0078.g1:/ A D />` has been drawn from the right angle perpendicular to the base,
+   For, since in a right-angled triangle :g:`$AD$ <0078.g1:/ A D />` has been drawn from the right angle :eq:`perpendicular <0078.g1:< A D B ) = 0078.g1:< A D C )>` to the base,
 
 .. assertion::
 

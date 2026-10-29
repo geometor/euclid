@@ -27,7 +27,7 @@ Let :g:`$ACDB$ <0338.g1:< A C D B >>` be a parallelogrammic area, and :g:`$BC$ <
 .. folio:: 0338
    :page: 324
 
-I say that the opposite sides and angles of the parallelogram :g:`$ACDB$ <0338.g1:< A C D B >>` are equal to one another, and the diameter :g:`$BC$ <0338.g1:/ B C />` bisects it.
+I say that the opposite sides and angles of the parallelogram :g:`$ACDB$ <0338.g1:< A C D B >>` are :eq:`equal <0338.g1:/ A B / = 0338.g1:/ C D /; 0338.g1:/ A C / = 0338.g1:/ B D /; 0338.g1:< B A C ) = 0338.g1:< C D B ); 0338.g1:< A B D ) = 0338.g1:< A C D )>` to one another, and the diameter :g:`$BC$ <0338.g1:/ B C />` :eq:`bisects <0338.g1:< A B C > = 0338.g1:< D C B >>` it.
 
 .. picture:: 0338.g1.svg
    :alt: Folio 0338 Figure 1 - Proposition 34
@@ -36,23 +36,23 @@ For, since :g:`$AB$ <0338.g1:/ A B />` is parallel to :g:`$CD$ <0338.g1:/ C D />
 
 .. assertion:: [I. 29] <I.29>
 
-   the alternate angles :g:`$ABC$ <0338.g1:< A B C )>`, :g:`$BCD$ <0338.g1:< B C D )>` are equal to one another.
+   the alternate angles :g:`$ABC$ <0338.g1:< A B C )>`, :g:`$BCD$ <0338.g1:< B C D )>` are :eq:`equal <0338.g1:< A B C ) = 0338.g1:< B C D )>` to one another.
 
 Again, since :g:`$AC$ <0338.g1:/ A C />` is parallel to :g:`$BD$ <0338.g1:/ B D />`, and :g:`$BC$ <0338.g1:/ B C />` has fallen upon them,
 
 .. assertion:: [I. 29] <I.29>
 
-   the alternate angles :g:`$ACB$ <0338.g1:< A C B )>`, :g:`$CBD$ <0338.g1:< C B D )>` are equal to one another.
+   the alternate angles :g:`$ACB$ <0338.g1:< A C B )>`, :g:`$CBD$ <0338.g1:< C B D )>` are :eq:`equal <0338.g1:< A C B ) = 0338.g1:< C B D )>` to one another.
 
-Therefore :g:`$ABC$ <0338.g1:< A B C >>`, :g:`$DCB$ <0338.g1:< D C B >>`\ [#f2]_ are two triangles having the two angles :g:`$ABC$ <0338.g1:< A B C )>`, :g:`$BCA$ <0338.g1:< B C A )>` equal to the two angles :g:`$DCB$ <0338.g1:< D C B )>`, :g:`$CBD$ <0338.g1:< C B D )>` respectively, and one side equal to one side, namely that adjoining the equal angles and common to both of them, :g:`$BC$ <0338.g1:/ B C />`;
+Therefore :g:`$ABC$ <0338.g1:< A B C >>`, :g:`$DCB$ <0338.g1:< D C B >>`\ [#f2]_ are two triangles having the two angles :g:`$ABC$ <0338.g1:< A B C )>`, :g:`$BCA$ <0338.g1:< B C A )>` :eq:`equal <0338.g1:< A B C ) = 0338.g1:< D C B ); 0338.g1:< B C A ) = 0338.g1:< C B D )>` to the two angles :g:`$DCB$ <0338.g1:< D C B )>`, :g:`$CBD$ <0338.g1:< C B D )>` respectively, and one side :eq:`equal <0338.g1:/ B C / = 0338.g1:/ C B />` to one side, namely that adjoining the :eq:`equal <0338.g1:< A B C ) = 0338.g1:< D C B ); 0338.g1:< B C A ) = 0338.g1:< C B D )>` angles and common to both of them, :g:`$BC$ <0338.g1:/ B C />`;
 
 .. subclause:: [I. 26] <I.26>
 
-   therefore they will also have the remaining sides equal to the remaining sides respectively, and the remaining angle to the remaining angle;
+   therefore they will also have the remaining sides :eq:`equal <0338.g1:/ A B / = 0338.g1:/ C D /; 0338.g1:/ A C / = 0338.g1:/ B D />` to the remaining sides respectively, and the remaining angle to the remaining angle;
 
 .. assertion::
 
-   therefore the side :g:`$AB$ <0338.g1:/ A B />` is equal to :g:`$CD$ <0338.g1:/ C D />`,
+   therefore the side :g:`$AB$ <0338.g1:/ A B />` is :eq:`equal <0338.g1:/ A B / = 0338.g1:/ C D />` to :g:`$CD$ <0338.g1:/ C D />`,
 
 .. assertion::
 
@@ -60,17 +60,17 @@ Therefore :g:`$ABC$ <0338.g1:< A B C >>`, :g:`$DCB$ <0338.g1:< D C B >>`\ [#f2]_
 
 .. assertion::
 
-   and further the angle :g:`$BAC$ <0338.g1:< B A C )>` is equal to the angle :g:`$CDB$ <0338.g1:< C D B )>`.
+   and further the angle :g:`$BAC$ <0338.g1:< B A C )>` is :eq:`equal <0338.g1:< B A C ) = 0338.g1:< C D B )>` to the angle :g:`$CDB$ <0338.g1:< C D B )>`.
 
-And, since the angle :g:`$ABC$ <0338.g1:< A B C )>` is equal to the angle :g:`$BCD$ <0338.g1:< B C D )>`, and the angle :g:`$CBD$ <0338.g1:< C B D )>` to the angle :g:`$ACB$ <0338.g1:< A C B )>`,
+And, since the angle :g:`$ABC$ <0338.g1:< A B C )>` is :eq:`equal <0338.g1:< A B C ) = 0338.g1:< B C D )>` to the angle :g:`$BCD$ <0338.g1:< B C D )>`, and the angle :g:`$CBD$ <0338.g1:< C B D )>` to the angle :g:`$ACB$ <0338.g1:< A C B )>`,
 
 .. assertion:: [C. N. 2] <I.cn.2>
 
-   the whole angle :g:`$ABD$ <0338.g1:< A B D )>` is equal to the whole angle :g:`$ACD$ <0338.g1:< A C D )>`.
+   the whole angle :g:`$ABD$ <0338.g1:< A B D )>` is :eq:`equal <0338.g1:< A B D ) = 0338.g1:< A C D )>` to the whole angle :g:`$ACD$ <0338.g1:< A C D )>`.
 
 .. subclause::
 
-   And the angle :g:`$BAC$ <0338.g1:< B A C )>` was also proved equal to the angle :g:`$CDB$ <0338.g1:< C D B )>`.
+   And the angle :g:`$BAC$ <0338.g1:< B A C )>` was also proved :eq:`equal <0338.g1:< B A C ) = 0338.g1:< C D B )>` to the angle :g:`$CDB$ <0338.g1:< C D B )>`.
 
 .. assertion::
 
@@ -78,19 +78,19 @@ And, since the angle :g:`$ABC$ <0338.g1:< A B C )>` is equal to the angle :g:`$B
 
 I say, next, that the diameter also bisects the areas.
 
-For, since :g:`$AB$ <0338.g1:/ A B />` is equal to :g:`$CD$ <0338.g1:/ C D />`, and :g:`$BC$ <0338.g1:/ B C />` is common, the two sides :g:`$AB$ <0338.g1:/ A B />`, :g:`$BC$ <0338.g1:/ B C />` are equal to the two sides :g:`$DC$ <0338.g1:/ D C />`, :g:`$CB$ <0338.g1:/ C B />` respectively; and the angle :g:`$ABC$ <0338.g1:< A B C )>` is equal to the angle :g:`$BCD$ <0338.g1:< B C D )>`;
+For, since :g:`$AB$ <0338.g1:/ A B />` is :eq:`equal <0338.g1:/ A B / = 0338.g1:/ C D />` to :g:`$CD$ <0338.g1:/ C D />`, and :g:`$BC$ <0338.g1:/ B C />` is common, the two sides :g:`$AB$ <0338.g1:/ A B />`, :g:`$BC$ <0338.g1:/ B C />` are :eq:`equal <0338.g1:/ A B / = 0338.g1:/ D C /; 0338.g1:/ B C / = 0338.g1:/ C B />` to the two sides :g:`$DC$ <0338.g1:/ D C />`, :g:`$CB$ <0338.g1:/ C B />` respectively; and the angle :g:`$ABC$ <0338.g1:< A B C )>` is :eq:`equal <0338.g1:< A B C ) = 0338.g1:< B C D )>` to the angle :g:`$BCD$ <0338.g1:< B C D )>`;
 
 .. subclause::
 
-   therefore the base :g:`$AC$ <0338.g1:/ A C />` is also equal to :g:`$DB$ <0338.g1:/ D B />`,
+   therefore the base :g:`$AC$ <0338.g1:/ A C />` is also :eq:`equal <0338.g1:/ A C / = 0338.g1:/ D B />` to :g:`$DB$ <0338.g1:/ D B />`,
 
 .. assertion:: [I. 4] <I.4>
 
-   and the triangle :g:`$ABC$ <0338.g1:< A B C >>` is equal to the triangle :g:`$DCB$ <0338.g1:< D C B >>`.
+   and the triangle :g:`$ABC$ <0338.g1:< A B C >>` is :eq:`equal <0338.g1:< A B C > = 0338.g1:< D C B >>` to the triangle :g:`$DCB$ <0338.g1:< D C B >>`.
 
 .. assertion::
 
-   Therefore the diameter :g:`$BC$ <0338.g1:/ B C />` bisects the parallelogram :g:`$ACDB$ <0338.g1:< A C D B >>`.
+   Therefore the diameter :g:`$BC$ <0338.g1:/ B C />` :eq:`bisects <0338.g1:< A B C > = 0338.g1:< D C B >>` the parallelogram :g:`$ACDB$ <0338.g1:< A C D B >>`.
 
 .. qed::
 

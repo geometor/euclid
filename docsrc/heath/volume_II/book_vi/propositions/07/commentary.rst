@@ -33,7 +33,7 @@ We have therefore only to consider the case in which the angles included by the 
 
 The proof is, except at the end, like that of VI. 7.
 
-Let the triangles :g:`$ABC$ <0214.g1:< A B C >>`, :g:`$DEF$ <0214.g1:< D E F >>` have the angle at :g:`$A$ <0214.g1:< B A C )>` equal to the angle at :g:`$D$ <0214.g1:< E D F )>`;
+Let the triangles :g:`$ABC$ <0214.g1:< A B C >>`, :g:`$DEF$ <0214.g1:< D E F >>` have the angle at :g:`$A$ <0214.g1:< B A C )>` :eq:`equal <0214.g1:< B A C ) = 0214.g1:< E D F )>` to the angle at :g:`$D$ <0214.g1:< E D F )>`;
 
 .. assertion::
 
@@ -48,9 +48,9 @@ The angles :g:`$ACB$ <0214.g1:< A C B )>`, :g:`$DFE$ <0214.g1:< D F E )>` shall 
 
 For one of the angles :g:`$ABC$ <0214.g1:< A B C )>`, :g:`$DEF$ <0214.g1:< D E F )>` must be the greater.
 
-Let :g:`$ABC$ <0214.g1:< A B C )>` be the greater; and make the angle :g:`$ABG$ <0214.g1:< A B G )>` equal to the angle :g:`$DEF$ <0214.g1:< D E F )>`.
+Let :g:`$ABC$ <0214.g1:< A B C )>` be the greater; and make the angle :g:`$ABG$ <0214.g1:< A B G )>` :eq:`equal <0214.g1:< A B G ) = 0214.g1:< D E F )>` to the angle :g:`$DEF$ <0214.g1:< D E F )>`.
 
-Then we prove, as in VI. 7, that the triangles :g:`$ABG$ <0214.g1:< A B G >>`, :g:`$DEF$ <0214.g1:< D E F >>` are equiangular, whence
+Then we prove, as in VI. 7, that the triangles :g:`$ABG$ <0214.g1:< A B G >>`, :g:`$DEF$ <0214.g1:< D E F >>` are :eq:`equiangular <0214.g1:< B A C ) = 0214.g1:< E D F ); 0214.g1:< A B G ) = 0214.g1:< D E F ); 0214.g1:< B G A ) = 0214.g1:< E F D )>`, whence
 
 .. assertion::
 
@@ -60,22 +60,22 @@ But :g:`$AB$ <0214.g1:/ A B />` is to :g:`$BC$ <0214.g1:/ B C />` as :g:`$DE$ <0
 
 .. assertion::
 
-   Therefore :g:`$BG$ <0214.g1:/ B G />` is equal to :g:`$BC$ <0214.g1:/ B C />`, and the angle :g:`$BGC$ <0214.g1:< B G C )>` is equal to the angle :g:`$BCA$ <0214.g1:< B C A )>`.
+   Therefore :g:`$BG$ <0214.g1:/ B G />` is :eq:`equal <0214.g1:/ B G / = 0214.g1:/ B C />` to :g:`$BC$ <0214.g1:/ B C />`, and the angle :g:`$BGC$ <0214.g1:< B G C )>` is :eq:`equal <0214.g1:< B G C ) = 0214.g1:< B C A )>` to the angle :g:`$BCA$ <0214.g1:< B C A )>`.
 
 .. _folio-ii-0215:
 
 .. folio:: 0215
    :page: 209
 
-Now, since the triangles :g:`$ABG$ <0214.g1:< A B G >>`, :g:`$DEF$ <0214.g1:< D E F >>` are equiangular, the angle :g:`$BGA$ <0214.g1:< B G A )>` is equal to the angle :g:`$EFD$ <0214.g1:< E F D )>`.
+Now, since the triangles :g:`$ABG$ <0214.g1:< A B G >>`, :g:`$DEF$ <0214.g1:< D E F >>` are :eq:`equiangular <0214.g1:< B A C ) = 0214.g1:< E D F ); 0214.g1:< A B G ) = 0214.g1:< D E F ); 0214.g1:< B G A ) = 0214.g1:< E F D )>`, the angle :g:`$BGA$ <0214.g1:< B G A )>` is :eq:`equal <0214.g1:< B G A ) = 0214.g1:< E F D )>` to the angle :g:`$EFD$ <0214.g1:< E F D )>`.
 
 .. assertion::
 
-   Add to them respectively the equal angles :g:`$BGC$ <0214.g1:< B G C )>`, :g:`$BCA$ <0214.g1:< B C A )>`; therefore the angles :g:`$BCA$ <0214.g1:< B C A )>`, :g:`$EFD$ <0214.g1:< E F D )>` are together equal to the angles :g:`$BGA$ <0214.g1:< B G A )>`, :g:`$BGC$ <0214.g1:< B G C )>`, i.e. to two right angles.
+   Add to them respectively the :eq:`equal <0214.g1:< B G C ) = 0214.g1:< B C A )>` angles :g:`$BGC$ <0214.g1:< B G C )>`, :g:`$BCA$ <0214.g1:< B C A )>`; therefore the angles :g:`$BCA$ <0214.g1:< B C A )>`, :g:`$EFD$ <0214.g1:< E F D )>` are together equal to the angles :g:`$BGA$ <0214.g1:< B G A )>`, :g:`$BGC$ <0214.g1:< B G C )>`, i.e. to two right angles.
 
 .. assertion::
 
-   It follows therefore that the angles :g:`$BCA$ <0214.g1:< B C A )>`, :g:`$EFD$ <0214.g1:< E F D )>` must be either equal or supplementary.
+   It follows therefore that the angles :g:`$BCA$ <0214.g1:< B C A )>`, :g:`$EFD$ <0214.g1:< E F D )>` must be either :eq:`equal <0214.g1:< B C A ) = 0214.g1:< E F D )>` or supplementary.
 
 But (1), if each of them is less than a right angle, they cannot be supplementary, and they must therefore be equal;
 
@@ -87,12 +87,12 @@ But (1), if each of them is less than a right angle, they cannot be supplementar
 
 The change is right, on the principle of restricting the conditions to the minimum necessary to enable the conclusion to be inferred. :person:`Simson <simson>` adds a separate proof of the case in which one of the remaining angles is a right angle.
 
-"Lastly, let one of the angles at :g:`$C$ <0215.g1:< B C A )>`, :g:`$F$ <0215.g1:< D F E )>`, viz. the angle at :g:`$C$ <0215.g1:< B C A )>`, be a right angle; in this case likewise the triangle :g:`$ABC$ <0215.g1:< A B C >>` is equiangular to the triangle :g:`$DEF$ <0215.g1:< D E F >>`.
+"Lastly, let one of the angles at :g:`$C$ <0215.g1:< B C A )>`, :g:`$F$ <0215.g1:< D F E )>`, viz. the angle at :g:`$C$ <0215.g1:< B C A )>`, be a right angle; in this case likewise the triangle :g:`$ABC$ <0215.g1:< A B C >>` is :eq:`equiangular <0215.g1:< B A C ) = 0215.g1:< E D F ); 0215.g1:< A B C ) = 0215.g1:< D E F ); 0215.g1:< B C A ) = 0215.g1:< D F E )>` to the triangle :g:`$DEF$ <0215.g1:< D E F >>`.
 
 .. picture:: 0215.g1.svg
    :alt: Proposition 7, Case 3
 
-For, if they be not equiangular, make, at the point :g:`$B$ <0215.g1:B>` of the straight line :g:`$AB$ <0215.g1:/ A B />`, the angle :g:`$ABG$ <0215.g1:< A B G )>` equal to the angle :g:`$DEF$ <0215.g1:< D E F )>`; then it may be proved, as in the first case, that :g:`$BG$ <0215.g1:/ B G />` is equal to :g:`$BC$ <0215.g1:/ B C />`.
+For, if they be not equiangular, make, at the point :g:`$B$ <0215.g1:B>` of the straight line :g:`$AB$ <0215.g1:/ A B />`, the angle :g:`$ABG$ <0215.g1:< A B G )>` :eq:`equal <0215.g1:< A B G ) = 0215.g1:< D E F )>` to the angle :g:`$DEF$ <0215.g1:< D E F )>`; then it may be proved, as in the first case, that :g:`$BG$ <0215.g1:/ B G />` is :eq:`equal <0215.g1:/ B G / = 0215.g1:/ B C />` to :g:`$BC$ <0215.g1:/ B C />`.
 
 But the angle :g:`$BCG$ <0215.g1:< B C G )>` is a right angle;
 
@@ -106,4 +106,4 @@ But the angle :g:`$BCG$ <0215.g1:< B C G )>` is a right angle;
 
 .. assertion::
 
-   Therefore the triangle :g:`$ABC$ <0215.g1:< A B C >>` is equiangular to the triangle :g:`$DEF$ <0215.g1:< D E F >>`."
+   Therefore the triangle :g:`$ABC$ <0215.g1:< A B C >>` is :eq:`equiangular <0215.g1:< B A C ) = 0215.g1:< E D F ); 0215.g1:< A B C ) = 0215.g1:< D E F ); 0215.g1:< B C A ) = 0215.g1:< D F E )>` to the triangle :g:`$DEF$ <0215.g1:< D E F >>`."

@@ -50,7 +50,7 @@ From the square :g:`$ABCD$ <0404.g1:< A B C D >>` let there be set up a prism of
 
    therefore the prism set up from the square :g:`$ABCD$ <0404.g1:< A B C D >>` and of equal height with the cylinder is greater than the half of the cylinder.
 
-Let the circumferences :g:`$AB$ <0404.g1:( A E B )>`, :g:`$BC$ <0404.g1:( B F C )>`, :g:`$CD$ <0404.g1:( C G D )>`, :g:`$DA$ <0404.g1:( D H A )>` be bisected at the points :g:`$E$ <0404.g1:E>`, :g:`$F$ <0404.g1:F>`, :g:`$G$ <0404.g1:G>`, :g:`$H$ <0404.g1:H>`, and let :g:`$AE$ <0404.g1:/ A E />`, :g:`$EB$ <0404.g1:/ E B />`, :g:`$BF$ <0404.g1:/ B F />`, :g:`$FC$ <0404.g1:/ F C />`, :g:`$CG$ <0404.g1:/ C G />`, :g:`$GD$ <0404.g1:/ G D />`, :g:`$DH$ <0404.g1:/ D H />`, :g:`$HA$ <0404.g1:/ H A />` be joined ;
+Let the circumferences :g:`$AB$ <0404.g1:( A E B )>`, :g:`$BC$ <0404.g1:( B F C )>`, :g:`$CD$ <0404.g1:( C G D )>`, :g:`$DA$ <0404.g1:( D H A )>` be :eq:`bisected <0404.g1:/ A E / = 0404.g1:/ E B / = 0404.g1:/ B F / = 0404.g1:/ F C / = 0404.g1:/ C G / = 0404.g1:/ G D / = 0404.g1:/ D H / = 0404.g1:/ H A />` at the points :g:`$E$ <0404.g1:E>`, :g:`$F$ <0404.g1:F>`, :g:`$G$ <0404.g1:G>`, :g:`$H$ <0404.g1:H>`, and let :g:`$AE$ <0404.g1:/ A E />`, :g:`$EB$ <0404.g1:/ E B />`, :g:`$BF$ <0404.g1:/ B F />`, :g:`$FC$ <0404.g1:/ F C />`, :g:`$CG$ <0404.g1:/ C G />`, :g:`$GD$ <0404.g1:/ G D />`, :g:`$DH$ <0404.g1:/ D H />`, :g:`$HA$ <0404.g1:/ H A />` be joined ;
 
 .. assertion::
 
@@ -151,7 +151,7 @@ seeing that, as we proved before, if we circumscribe a square
 
    Therefore the pyramid of which the square :g:`$ABCD$ <0404.g1:< A B C D >>` is the base and the vertex is the same with that of the cone is greater than the half of the cone.
 
-Let the circumferences :g:`$AB$ <0404.g1:( A E B )>`, :g:`$BC$ <0404.g1:( B F C )>`, :g:`$CD$ <0404.g1:( C G D )>`, :g:`$DA$ <0404.g1:( D H A )>` be bisected at the points :g:`$E$ <0404.g1:E>`, :g:`$F$ <0404.g1:F>`, :g:`$G$ <0404.g1:G>`, :g:`$H$ <0404.g1:H>`, and let :g:`$AE$ <0404.g1:/ A E />`, :g:`$EB$ <0404.g1:/ E B />`, :g:`$BF$ <0404.g1:/ B F />`, :g:`$FC$ <0404.g1:/ F C />`, :g:`$CG$ <0404.g1:/ C G />`, :g:`$GD$ <0404.g1:/ G D />`, :g:`$DH$ <0404.g1:/ D H />`, :g:`$HA$ <0404.g1:/ H A />` be joined ;
+Let the circumferences :g:`$AB$ <0404.g1:( A E B )>`, :g:`$BC$ <0404.g1:( B F C )>`, :g:`$CD$ <0404.g1:( C G D )>`, :g:`$DA$ <0404.g1:( D H A )>` be :eq:`bisected <0404.g1:/ A E / = 0404.g1:/ E B / = 0404.g1:/ B F / = 0404.g1:/ F C / = 0404.g1:/ C G / = 0404.g1:/ G D / = 0404.g1:/ D H / = 0404.g1:/ H A />` at the points :g:`$E$ <0404.g1:E>`, :g:`$F$ <0404.g1:F>`, :g:`$G$ <0404.g1:G>`, :g:`$H$ <0404.g1:H>`, and let :g:`$AE$ <0404.g1:/ A E />`, :g:`$EB$ <0404.g1:/ E B />`, :g:`$BF$ <0404.g1:/ B F />`, :g:`$FC$ <0404.g1:/ F C />`, :g:`$CG$ <0404.g1:/ C G />`, :g:`$GD$ <0404.g1:/ G D />`, :g:`$DH$ <0404.g1:/ D H />`, :g:`$HA$ <0404.g1:/ H A />` be joined ;
 
 .. assertion::
 

@@ -74,7 +74,7 @@ Let it make :g:`$BF$ <0285.g1:/ B F />`.
 
 .. assertion::
 
-   therefore the angle :g:`$ABF$ <0285.g1:< A B F )>` is equal to the angle :g:`$ABC$ <0285.g1:< A B C )>`.
+   therefore the angle :g:`$ABF$ <0285.g1:< A B F )>` is :eq:`equal <0285.g1:< A B F ) = 0285.g1:< A B C )>` to the angle :g:`$ABC$ <0285.g1:< A B C )>`.
 
 .. subclause::
 

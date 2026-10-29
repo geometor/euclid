@@ -37,7 +37,7 @@ For let the square :g:`$ADEB$ <0451.g2:< A D E B >>` be described on :g:`$AB$ <0
 
 .. assertion::
 
-   And :g:`$AK$ <0451.g2:< A K >>` is the rectangle :g:`$AB$ <0451.g2:/ A B />`, :g:`$BC$ <0451.g2:/ B C />`, and :g:`$HG$ <0451.g2:< H G >>` the square on :g:`$AC$ <0451.g2:/ A C />`; therefore :g:`$AK$ <0451.g2:< A K >>` is equal to :g:`$HG$ <0451.g2:< H G >>`.
+   And :g:`$AK$ <0451.g2:< A K >>` is the rectangle :g:`$AB$ <0451.g2:/ A B />`, :g:`$BC$ <0451.g2:/ B C />`, and :g:`$HG$ <0451.g2:< H G >>` the square on :g:`$AC$ <0451.g2:/ A C />`; therefore :g:`$AK$ <0451.g2:< A K >>` is :eq:`equal <0451.g2:< A K > = 0451.g2:< H G >>` to :g:`$HG$ <0451.g2:< H G >>`.
 
 .. _folio-iii-0452:
 
@@ -46,11 +46,11 @@ For let the square :g:`$ADEB$ <0451.g2:< A D E B >>` be described on :g:`$AB$ <0
 
 .. subclause::
 
-   And, since :g:`$AF$ <0451.g2:< A F >>` is equal to :g:`$FE$ <0451.g2:< F E >>`, let :g:`$CK$ <0451.g2:< C K >>` be added to each;
+   And, since :g:`$AF$ <0451.g2:< A F >>` is :eq:`equal <0451.g2:< A F > = 0451.g2:< F E >>` to :g:`$FE$ <0451.g2:< F E >>`, let :g:`$CK$ <0451.g2:< C K >>` be added to each;
 
 .. assertion::
 
-   therefore the whole :g:`$AK$ <0451.g2:< A K >>` is equal to the whole :g:`$CE$ <0451.g2:< C E >>`; therefore :g:`$AK$ <0451.g2:< A K >>`, :g:`$CE$ <0451.g2:< C E >>` are double of :g:`$AK$ <0451.g2:< A K >>`.
+   therefore the whole :g:`$AK$ <0451.g2:< A K >>` is :eq:`equal <0451.g2:< A K > = 0451.g2:< C E >>` to the whole :g:`$CE$ <0451.g2:< C E >>`; therefore :g:`$AK$ <0451.g2:< A K >>`, :g:`$CE$ <0451.g2:< C E >>` are double of :g:`$AK$ <0451.g2:< A K >>`.
 
 .. subclause::
 
@@ -62,7 +62,7 @@ For let the square :g:`$ADEB$ <0451.g2:< A D E B >>` be described on :g:`$AB$ <0
 
 .. subclause::
 
-   But, further, :g:`$AK$ <0451.g2:< A K >>` was also proved equal to :g:`$HG$ <0451.g2:< H G >>`;
+   But, further, :g:`$AK$ <0451.g2:< A K >>` was also proved :eq:`equal <0451.g2:< A K > = 0451.g2:< H G >>` to :g:`$HG$ <0451.g2:< H G >>`;
 
 .. assertion::
 

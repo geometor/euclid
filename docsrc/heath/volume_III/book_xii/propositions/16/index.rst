@@ -40,7 +40,7 @@ Then, bisecting the circumference :g:`$BAD$ <0428.g1:( B A D )>`, bisecting the 
 
 .. assertion:: [III. 3, I. 4] <III.3, I.4>
 
-   therefore :g:`$LD$ <0428.g1:/ L D />` is equal to :g:`$DN$ <0428.g1:/ D N />`.
+   therefore :g:`$LD$ <0428.g1:/ L D />` is :eq:`equal <0428.g1:/ L D / = 0428.g1:/ D N />` to :g:`$DN$ <0428.g1:/ D N />`.
 
 .. subclause::
 

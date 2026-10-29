@@ -24,14 +24,14 @@ For the first time Euclid is arguing about *greater* and *less* ratios, and it w
 Let us now examine the steps of the proof in the text. First we are told that
 
 ":g:`$A$ <0161.g1:A>` is greater than :g:`$B$ <0161.g1:B>`.
-For, if not, it is either equal to :g:`$B$ <0161.g1:B>` or less than it.
-Now :g:`$A$ <0161.g1:A>` is not equal to :g:`$B$ <0161.g1:B>`;
+For, if not, it is either :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>` or less than it.
+Now :g:`$A$ <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>`;
 for in that case each of the two magnitudes :g:`$A$ <0161.g1:A>`, :g:`$B$ <0161.g1:B>` would have had the same ratio to :g:`$C$ <0161.g1:C>`: :just:`[V. 7] <V.7>`
 but they have not:
 
 .. assertion::
 
-   therefore :g:`$A$ <0161.g1:A>` is not equal to :g:`$B$ <0161.g1:B>`."
+   therefore :g:`$A$ <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>`."
 
 As :person:`Simson <simson>` remarks, the force of this reasoning is as follows.
 If :g:`$A$ <0161.g1:A>` has to :g:`$C$ <0161.g1:C>` the same ratio as :g:`$B$ <0161.g1:B>` has to :g:`$C$ <0161.g1:C>`,

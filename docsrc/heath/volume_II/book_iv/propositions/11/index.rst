@@ -33,22 +33,22 @@ at :g:`$G$ <0106.g1:< F G H )>`, :g:`$H$ <0106.g1:< F H G )>` double of the angl
    :alt: Proposition 11 diagram
 
 let there be inscribed in the circle
-:g:`$ABCDE$ <0106.g1:( A B C D E )>` the triangle :g:`$ACD$ <0106.g1:< A C D >>` equiangular
+:g:`$ABCDE$ <0106.g1:( A B C D E )>` the triangle :g:`$ACD$ <0106.g1:< A C D >>` :eq:`equiangular <0106.g1:< C A D ) = 0106.g1:< G F H ); 0106.g1:< A C D ) = 0106.g1:< F G H ); 0106.g1:< C D A ) = 0106.g1:< F H G )>`
 with the triangle :g:`$FGH$ <0106.g1:< F G H >>`, so
-that the angle :g:`$CAD$ <0106.g1:< C A D )>` is equal to the angle at :g:`$F$ <0106.g1:< G F H )>` and the angles
-at :g:`$G$ <0106.g1:< F G H )>`, :g:`$H$ <0106.g1:< F H G )>` respectively equal to the angles :g:`$ACD$ <0106.g1:< A C D )>`, :g:`$CDA$ <0106.g1:< C D A )>`; :just:`[IV. 2] <IV.2>`
+that the angle :g:`$CAD$ <0106.g1:< C A D )>` is :eq:`equal <0106.g1:< C A D ) = 0106.g1:< G F H )>` to the angle at :g:`$F$ <0106.g1:< G F H )>` and the angles
+at :g:`$G$ <0106.g1:< F G H )>`, :g:`$H$ <0106.g1:< F H G )>` respectively :eq:`equal <0106.g1:< F G H ) = 0106.g1:< A C D ); 0106.g1:< F H G ) = 0106.g1:< C D A )>` to the angles :g:`$ACD$ <0106.g1:< A C D )>`, :g:`$CDA$ <0106.g1:< C D A )>`; :just:`[IV. 2] <IV.2>`
 
 .. assertion::
 
    therefore each of the angles :g:`$ACD$ <0106.g1:< A C D )>`, :g:`$CDA$ <0106.g1:< C D A )>` is also double of the angle :g:`$CAD$ <0106.g1:< C A D )>`.
 
-Now let the angles :g:`$ACD$ <0106.g1:< A C D )>`, :g:`$CDA$ <0106.g1:< C D A )>` be bisected respectively
+Now let the angles :g:`$ACD$ <0106.g1:< A C D )>`, :g:`$CDA$ <0106.g1:< C D A )>` be :eq:`bisected <0106.g1:< A C E ) = 0106.g1:< E C D ); 0106.g1:< C D B ) = 0106.g1:< B D A )>` respectively
 by the straight lines :g:`$CE$ <0106.g1:/ C E />`, :g:`$DB$ <0106.g1:/ D B />` :just:`[I. 9] <I.9>`, and let :g:`$AB$ <0106.g1:/ A B />`, :g:`$BC$ <0106.g1:/ B C />`, :g:`$DE$ <0106.g1:/ D E />`, :g:`$EA$ <0106.g1:/ E A />`
 be joined.
 
 Then, since each of the angles :g:`$ACD$ <0106.g1:< A C D )>`, :g:`$CDA$ <0106.g1:< C D A )>` is double of
 the angle :g:`$CAD$ <0106.g1:< C A D )>`,
-and they have been bisected by the straight lines :g:`$CE$ <0106.g1:/ C E />`, :g:`$DB$ <0106.g1:/ D B />`,
+and they have been :eq:`bisected <0106.g1:< A C E ) = 0106.g1:< E C D ); 0106.g1:< C D B ) = 0106.g1:< B D A )>` by the straight lines :g:`$CE$ <0106.g1:/ C E />`, :g:`$DB$ <0106.g1:/ D B />`,
 
 .. _folio-ii-0107:
 
@@ -57,50 +57,50 @@ and they have been bisected by the straight lines :g:`$CE$ <0106.g1:/ C E />`, :
 
 .. assertion::
 
-   therefore the five angles :g:`$DAC$ <0106.g1:< D A C )>`, :g:`$ACE$ <0106.g1:< A C E )>`, :g:`$ECD$ <0106.g1:< E C D )>`, :g:`$CDB$ <0106.g1:< C D B )>`, :g:`$BDA$ <0106.g1:< B D A )>` are equal to one another.
+   therefore the five angles :g:`$DAC$ <0106.g1:< D A C )>`, :g:`$ACE$ <0106.g1:< A C E )>`, :g:`$ECD$ <0106.g1:< E C D )>`, :g:`$CDB$ <0106.g1:< C D B )>`, :g:`$BDA$ <0106.g1:< B D A )>` are :eq:`equal <0106.g1:< D A C ) = 0106.g1:< A C E ) = 0106.g1:< E C D ) = 0106.g1:< C D B ) = 0106.g1:< B D A )>` to one another.
 
 But equal angles stand on equal circumferences; :just:`[III. 26] <III.26>`
 
 .. assertion::
 
-   therefore the five circumferences :g:`$AB$ <0106.g1:( A B )>`, :g:`$BC$ <0106.g1:( B C )>`, :g:`$CD$ <0106.g1:( C D )>`, :g:`$DE$ <0106.g1:( D E )>`, :g:`$EA$ <0106.g1:( E A )>` are equal to one another.
+   therefore the five circumferences :g:`$AB$ <0106.g1:( A B )>`, :g:`$BC$ <0106.g1:( B C )>`, :g:`$CD$ <0106.g1:( C D )>`, :g:`$DE$ <0106.g1:( D E )>`, :g:`$EA$ <0106.g1:( E A )>` are :eq:`equal <0106.g1:( A B ) = 0106.g1:( B C ) = 0106.g1:( C D ) = 0106.g1:( D E ) = 0106.g1:( E A )>` to one another.
 
 But equal circumferences are subtended by equal straight
 lines; :just:`[III. 29] <III.29>`
 
 .. assertion::
 
-   therefore the five straight lines :g:`$AB$ <0106.g1:/ A B />`, :g:`$BC$ <0106.g1:/ B C />`, :g:`$CD$ <0106.g1:/ C D />`, :g:`$DE$ <0106.g1:/ D E />`, :g:`$EA$ <0106.g1:/ E A />` are equal to one another;
+   therefore the five straight lines :g:`$AB$ <0106.g1:/ A B />`, :g:`$BC$ <0106.g1:/ B C />`, :g:`$CD$ <0106.g1:/ C D />`, :g:`$DE$ <0106.g1:/ D E />`, :g:`$EA$ <0106.g1:/ E A />` are :eq:`equal <0106.g1:/ A B / = 0106.g1:/ B C / = 0106.g1:/ C D / = 0106.g1:/ D E / = 0106.g1:/ E A />` to one another;
 
 .. assertion::
 
-   therefore the pentagon :g:`$ABCDE$ <0106.g1:< A B C D E >>` is equilateral.
+   therefore the pentagon :g:`$ABCDE$ <0106.g1:< A B C D E >>` is :eq:`equilateral <0106.g1:/ A B / = 0106.g1:/ B C / = 0106.g1:/ C D / = 0106.g1:/ D E / = 0106.g1:/ E A />`.
 
-I say next that it is also equiangular.
+I say next that it is also :eq:`equiangular <0106.g1:< B A E ) = 0106.g1:< A B C ) = 0106.g1:< B C D ) = 0106.g1:< C D E ) = 0106.g1:< A E D )>`.
 
-For, since the circumference :g:`$AB$ <0106.g1:( A B )>` is equal to the circumference
+For, since the circumference :g:`$AB$ <0106.g1:( A B )>` is :eq:`equal <0106.g1:( A B ) = 0106.g1:( D E )>` to the circumference
 :g:`$DE$ <0106.g1:( D E )>`, let :g:`$BCD$ <0106.g1:( B C D )>` be added to each;
 
 .. assertion::
 
-   therefore the whole circumference :g:`$ABCD$ <0106.g1:( A B C D )>` is equal to the whole circumference :g:`$EDCB$ <0106.g1:( E D C B )>`.
+   therefore the whole circumference :g:`$ABCD$ <0106.g1:( A B C D )>` is :eq:`equal <0106.g1:( A B C D ) = 0106.g1:( E D C B )>` to the whole circumference :g:`$EDCB$ <0106.g1:( E D C B )>`.
 
 And the angle :g:`$AED$ <0106.g1:< A E D )>` stands on the circumference :g:`$ABCD$ <0106.g1:( A B C D )>`,
 and the angle :g:`$BAE$ <0106.g1:< B A E )>` on the circumference :g:`$EDCB$ <0106.g1:( E D C B )>`;
 
 .. assertion:: [III. 27] <III.27>
 
-   therefore the angle :g:`$BAE$ <0106.g1:< B A E )>` is also equal to the angle :g:`$AED$ <0106.g1:< A E D )>`.
+   therefore the angle :g:`$BAE$ <0106.g1:< B A E )>` is also :eq:`equal <0106.g1:< B A E ) = 0106.g1:< A E D )>` to the angle :g:`$AED$ <0106.g1:< A E D )>`.
 
 For the same reason
-each of the angles :g:`$ABC$ <0106.g1:< A B C )>`, :g:`$BCD$ <0106.g1:< B C D )>`, :g:`$CDE$ <0106.g1:< C D E )>` is also equal to each
+each of the angles :g:`$ABC$ <0106.g1:< A B C )>`, :g:`$BCD$ <0106.g1:< B C D )>`, :g:`$CDE$ <0106.g1:< C D E )>` is also :eq:`equal <0106.g1:< A B C ) = 0106.g1:< B C D ) = 0106.g1:< C D E ) = 0106.g1:< B A E ) = 0106.g1:< A E D )>` to each
 of the angles :g:`$BAE$ <0106.g1:< B A E )>`, :g:`$AED$ <0106.g1:< A E D )>`;
 
 .. assertion::
 
-   therefore the pentagon :g:`$ABCDE$ <0106.g1:< A B C D E >>` is equiangular.
+   therefore the pentagon :g:`$ABCDE$ <0106.g1:< A B C D E >>` is :eq:`equiangular <0106.g1:< B A E ) = 0106.g1:< A B C ) = 0106.g1:< B C D ) = 0106.g1:< C D E ) = 0106.g1:< A E D )>`.
 
-But it was also proved equilateral;
+But it was also proved :eq:`equilateral <0106.g1:/ A B / = 0106.g1:/ B C / = 0106.g1:/ C D / = 0106.g1:/ D E / = 0106.g1:/ E A />`;
 
 .. qed::
 

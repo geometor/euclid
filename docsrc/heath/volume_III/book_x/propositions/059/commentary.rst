@@ -85,11 +85,11 @@ Let :g:`$AB$ <0135.g1:/ A B />` be a straight line, and let it be cut into unequ
 .. folio:: 0136
    :page: 132
 
-For let :g:`$AB$ <0135.g1:/ A B />` be bisected at :g:`$D$ <0135.g1:D>`.
+For let :g:`$AB$ <0135.g1:/ A B />` be :eq:`bisected <0135.g1:/ A D / = 0135.g1:/ D B />` at :g:`$D$ <0135.g1:D>`.
 
 .. subclause::
 
-   Since then a straight line has been cut into equal parts at :g:`$D$ <0135.g1:D>`, and into unequal parts at :g:`$C$ <0135.g1:C>`,
+   Since then a straight line has been cut into :eq:`equal <0135.g1:/ A D / = 0135.g1:/ D B />` parts at :g:`$D$ <0135.g1:D>`, and into unequal parts at :g:`$C$ <0135.g1:C>`,
 
 .. assertion::
 

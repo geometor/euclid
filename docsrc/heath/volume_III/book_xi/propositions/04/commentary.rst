@@ -19,26 +19,26 @@ Back to :ref:`Proposition XI.4 <XI.4>`.
 
 The steps to be successively proved in order to establish this proposition by Euclid's method are
 
-(1) triangles :g:`$AED$ <0282.g1:< A E D >>`, :g:`$BEC$ <0282.g1:< B E C >>` equal in all respects, :just:`[by I. 4]`
+(1) triangles :g:`$AED$ <0282.g1:< A E D >>`, :g:`$BEC$ <0282.g1:< B E C >>` :eq:`equal <0282.g1:< A E D > = 0282.g1:< B E C >>` in all respects, :just:`[by I. 4]`
 
-(2) triangles :g:`$AEG$ <0282.g1:< A E G >>`, :g:`$BEH$ <0282.g1:< B E H >>` equal in all respects, :just:`[by I. 26]` so that :g:`$AG$ <0282.g1:/ A G />` is equal to :g:`$BH$ <0282.g1:/ B H />`, and :g:`$GE$ <0282.g1:/ G E />` to :g:`$EH$ <0282.g1:/ E H />`,
+(2) triangles :g:`$AEG$ <0282.g1:< A E G >>`, :g:`$BEH$ <0282.g1:< B E H >>` :eq:`equal <0282.g1:< A E G > = 0282.g1:< B E H >>` in all respects, :just:`[by I. 26]` so that :g:`$AG$ <0282.g1:/ A G />` is :eq:`equal <0282.g1:/ A G / = 0282.g1:/ B H /; 0282.g1:/ G E / = 0282.g1:/ E H />` to :g:`$BH$ <0282.g1:/ B H />`, and :g:`$GE$ <0282.g1:/ G E />` to :g:`$EH$ <0282.g1:/ E H />`,
 
-(3) triangles :g:`$AEF$ <0282.g1:< A E F >>`, :g:`$BEF$ <0282.g1:< B E F >>` equal in all respects, :just:`[I. 4] <I.4>` so that :g:`$AF$ <0282.g1:/ A F />` is equal to :g:`$BF$ <0282.g1:/ B F />`,
+(3) triangles :g:`$AEF$ <0282.g1:< A E F >>`, :g:`$BEF$ <0282.g1:< B E F >>` :eq:`equal <0282.g1:< A E F > = 0282.g1:< B E F >>` in all respects, :just:`[I. 4] <I.4>` so that :g:`$AF$ <0282.g1:/ A F />` is :eq:`equal <0282.g1:/ A F / = 0282.g1:/ B F />` to :g:`$BF$ <0282.g1:/ B F />`,
 
-(4) likewise triangles :g:`$CEF$ <0282.g1:< C E F >>`, :g:`$DEF$ <0282.g1:< D E F >>`, so that :g:`$CF$ <0282.g1:/ C F />` is equal to :g:`$DF$ <0282.g1:/ D F />`,
+(4) likewise triangles :g:`$CEF$ <0282.g1:< C E F >>`, :g:`$DEF$ <0282.g1:< D E F >>`, so that :g:`$CF$ <0282.g1:/ C F />` is :eq:`equal <0282.g1:/ C F / = 0282.g1:/ D F />` to :g:`$DF$ <0282.g1:/ D F />`,
 
-(5) triangles :g:`$FAD$ <0282.g1:< F A D >>`, :g:`$FBC$ <0282.g1:< F B C >>` equal in all respects, :just:`[I. 8] <I.8>` so that the angles :g:`$FAG$ <0282.g1:< F A G )>`, :g:`$FBH$ <0282.g1:< F B H )>` are equal, (6) triangles :g:`$FAG$ <0282.g1:< F A G >>`, :g:`$FBH$ <0282.g1:< F B H >>` equal in all respects, :just:`[by (2), (3), (5) and I. 4]` so that :g:`$FG$ <0282.g1:/ F G />` is equal to :g:`$FH$ <0282.g1:/ F H />`,
+(5) triangles :g:`$FAD$ <0282.g1:< F A D >>`, :g:`$FBC$ <0282.g1:< F B C >>` :eq:`equal <0282.g1:< F A D > = 0282.g1:< F B C >>` in all respects, :just:`[I. 8] <I.8>` so that the angles :g:`$FAG$ <0282.g1:< F A G )>`, :g:`$FBH$ <0282.g1:< F B H )>` are :eq:`equal <0282.g1:< F A G ) = 0282.g1:< F B H )>`, (6) triangles :g:`$FAG$ <0282.g1:< F A G >>`, :g:`$FBH$ <0282.g1:< F B H >>` :eq:`equal <0282.g1:< F A G > = 0282.g1:< F B H >>` in all respects, :just:`[by (2), (3), (5) and I. 4]` so that :g:`$FG$ <0282.g1:/ F G />` is :eq:`equal <0282.g1:/ F G / = 0282.g1:/ F H />` to :g:`$FH$ <0282.g1:/ F H />`,
 
 .. _folio-iii-0284:
 
 .. folio:: 0284
    :page: 280
 
-(7) triangles :g:`$FEG$ <0282.g1:< F E G >>`, :g:`$FEH$ <0282.g1:< F E H >>` equal in all respects, :just:`[by (2), (6) and I. 8]` so that the angles :g:`$FEG$ <0282.g1:< F E G )>`, :g:`$FEH$ <0282.g1:< F E H )>` are equal, and therefore :g:`$FE$ <0282.g1:/ F E />` is at right angles to :g:`$GH$ <0282.g1:/ G H />`.
+(7) triangles :g:`$FEG$ <0282.g1:< F E G >>`, :g:`$FEH$ <0282.g1:< F E H >>` :eq:`equal <0282.g1:< F E G > = 0282.g1:< F E H >>` in all respects, :just:`[by (2), (6) and I. 8]` so that the angles :g:`$FEG$ <0282.g1:< F E G )>`, :g:`$FEH$ <0282.g1:< F E H )>` are :eq:`equal <0282.g1:< F E G ) = 0282.g1:< F E H )>`, and therefore :g:`$FE$ <0282.g1:/ F E />` is at :eq:`right angles <0282.g1:< F E G ) = 0282.g1:< F E H )>` to :g:`$GH$ <0282.g1:/ G H />`.
 
 In consequence of the length of the above proof others have been suggested, and the proof which now finds most general acceptance is that of :person:`Cauchy <cauchy>`, which is as follows.
 
-Let :g:`$AB$ <0284.g1:/ A B />` be perpendicular to two straight lines :g:`$BC$ <0284.g1:/ B C />`, :g:`$BD$ <0284.g1:/ B D />` in the plane :g:`$MN$ <0284.g1:< M N >>` at their point of intersection :g:`$B$ <0284.g1:B>`. In the plane :g:`$MN$ <0284.g1:< M N >>` draw :g:`$BE$ <0284.g1:/ B E />`, any straight line through :g:`$B$ <0284.g1:B>`. Join :g:`$CD$ <0284.g1:/ C D />`, and let :g:`$CD$ <0284.g1:/ C D />` meet :g:`$BE$ <0284.g1:/ B E />` in :g:`$E$ <0284.g1:E>`. Produce :g:`$AB$ <0284.g1:[ A B ]>` to :g:`$F$ <0284.g1:F>` so that :g:`$BF$ <0284.g1:/ B F />` is equal to :g:`$AB$ <0284.g1:/ A B />`. Join :g:`$AC$ <0284.g1:/ A C />`, :g:`$AE$ <0284.g1:/ A E />`, :g:`$AD$ <0284.g1:/ A D />`, :g:`$CF$ <0284.g1:/ C F />`, :g:`$EF$ <0284.g1:/ E F />`, :g:`$DF$ <0284.g1:/ D F />`.
+Let :g:`$AB$ <0284.g1:/ A B />` be perpendicular to two straight lines :g:`$BC$ <0284.g1:/ B C />`, :g:`$BD$ <0284.g1:/ B D />` in the plane :g:`$MN$ <0284.g1:< M N >>` at their point of intersection :g:`$B$ <0284.g1:B>`. In the plane :g:`$MN$ <0284.g1:< M N >>` draw :g:`$BE$ <0284.g1:/ B E />`, any straight line through :g:`$B$ <0284.g1:B>`. Join :g:`$CD$ <0284.g1:/ C D />`, and let :g:`$CD$ <0284.g1:/ C D />` meet :g:`$BE$ <0284.g1:/ B E />` in :g:`$E$ <0284.g1:E>`. Produce :g:`$AB$ <0284.g1:[ A B ]>` to :g:`$F$ <0284.g1:F>` so that :g:`$BF$ <0284.g1:/ B F />` is :eq:`equal <0284.g1:/ B F / = 0284.g1:/ A B />` to :g:`$AB$ <0284.g1:/ A B />`. Join :g:`$AC$ <0284.g1:/ A C />`, :g:`$AE$ <0284.g1:/ A E />`, :g:`$AD$ <0284.g1:/ A D />`, :g:`$CF$ <0284.g1:/ C F />`, :g:`$EF$ <0284.g1:/ E F />`, :g:`$DF$ <0284.g1:/ D F />`.
 
 .. picture:: 0284.g1.svg
    :alt: Book XI, Proposition 4, Cauchy's Proof
@@ -47,40 +47,40 @@ Since :g:`$BC$ <0284.g1:/ B C />` is perpendicular to :g:`$AF$ <0284.g1:/ A F />
 
 .. assertion::
 
-   :g:`$AC$ <0284.g1:/ A C />` is equal to :g:`$CF$ <0284.g1:/ C F />`.
+   :g:`$AC$ <0284.g1:/ A C />` is :eq:`equal <0284.g1:/ A C / = 0284.g1:/ C F />` to :g:`$CF$ <0284.g1:/ C F />`.
 
 .. assertion::
 
-   Similarly :g:`$AD$ <0284.g1:/ A D />` is equal to :g:`$DF$ <0284.g1:/ D F />`.
+   Similarly :g:`$AD$ <0284.g1:/ A D />` is :eq:`equal <0284.g1:/ A D / = 0284.g1:/ D F />` to :g:`$DF$ <0284.g1:/ D F />`.
 
 .. subclause::
 
-   Since in the triangles :g:`$ACD$ <0284.g1:< A C D >>`, :g:`$FCD$ <0284.g1:< F C D >>` the two sides :g:`$AC$ <0284.g1:/ A C />`, :g:`$CD$ <0284.g1:/ C D />` are respectively equal to the two sides :g:`$FC$ <0284.g1:/ F C />`, :g:`$CD$ <0284.g1:/ C D />`, and the third sides :g:`$AD$ <0284.g1:/ A D />`, :g:`$FD$ <0284.g1:/ F D />` are also equal,
+   Since in the triangles :g:`$ACD$ <0284.g1:< A C D >>`, :g:`$FCD$ <0284.g1:< F C D >>` the two sides :g:`$AC$ <0284.g1:/ A C />`, :g:`$CD$ <0284.g1:/ C D />` are respectively :eq:`equal <0284.g1:/ A C / = 0284.g1:/ F C />` to the two sides :g:`$FC$ <0284.g1:/ F C />`, :g:`$CD$ <0284.g1:/ C D />`, and the third sides :g:`$AD$ <0284.g1:/ A D />`, :g:`$FD$ <0284.g1:/ F D />` are also :eq:`equal <0284.g1:/ A D / = 0284.g1:/ F D />`,
 
 .. assertion:: [I. 8] <I.8>
 
-   the angles :g:`$ACD$ <0284.g1:< A C D )>`, :g:`$FCD$ <0284.g1:< F C D )>` are equal.
+   the angles :g:`$ACD$ <0284.g1:< A C D )>`, :g:`$FCD$ <0284.g1:< F C D )>` are :eq:`equal <0284.g1:< A C D ) = 0284.g1:< F C D )>`.
 
-The triangles :g:`$ACE$ <0284.g1:< A C E >>`, :g:`$FCE$ <0284.g1:< F C E >>` thus have two sides and the included angle equal, whence
+The triangles :g:`$ACE$ <0284.g1:< A C E >>`, :g:`$FCE$ <0284.g1:< F C E >>` thus have two sides and the included angle :eq:`equal <0284.g1:/ A C / = 0284.g1:/ F C /; 0284.g1:< A C D ) = 0284.g1:< F C D )>`, whence
 
 .. assertion:: [I. 4] <I.4>
 
-   :g:`$EA$ <0284.g1:/ E A />` is equal to :g:`$EF$ <0284.g1:/ E F />`.
+   :g:`$EA$ <0284.g1:/ E A />` is :eq:`equal <0284.g1:/ E A / = 0284.g1:/ E F />` to :g:`$EF$ <0284.g1:/ E F />`.
 
-The triangles :g:`$ABE$ <0284.g1:< A B E >>`, :g:`$FBE$ <0284.g1:< F B E >>` have now all their sides equal respectively;
+The triangles :g:`$ABE$ <0284.g1:< A B E >>`, :g:`$FBE$ <0284.g1:< F B E >>` have now all their sides :eq:`equal <0284.g1:/ A B / = 0284.g1:/ B F /; 0284.g1:/ E A / = 0284.g1:/ E F />` respectively;
 
 .. assertion::
 
-   therefore the angles :g:`$ABE$ <0284.g1:< A B E )>`, :g:`$FBE$ <0284.g1:< F B E )>` are equal, :just:`[I. 8] <I.8>` and :g:`$AB$ <0284.g1:/ A B />` is perpendicular to :g:`$BE$ <0284.g1:/ B E />`.
+   therefore the angles :g:`$ABE$ <0284.g1:< A B E )>`, :g:`$FBE$ <0284.g1:< F B E )>` are :eq:`equal <0284.g1:< A B E ) = 0284.g1:< F B E )>`, :just:`[I. 8] <I.8>` and :g:`$AB$ <0284.g1:/ A B />` is :eq:`perpendicular <0284.g1:< A B E ) = 0284.g1:< F B E )>` to :g:`$BE$ <0284.g1:/ B E />`.
 
 And :g:`$BE$ <0284.g1:/ B E />` is in any straight line through :g:`$B$ <0284.g1:B>` in the plane :g:`$MN$ <0284.g1:< M N >>`.
 
-:person:`Legendre <legendre>`'s proof is not so easy, but it is interesting.  We are first required to draw through any point :g:`$E$ <0284.g2:E>` within the angle :g:`$CBD$ <0284.g2:< C B D )>` a straight line :g:`$CD$ <0284.g2:/ C D />` bisected at :g:`$E$ <0284.g2:E>`. To do this we draw :g:`$EK$ <0284.g2:/ E K />` parallel to :g:`$DB$ <0284.g2:/ D B />` meeting :g:`$BC$ <0284.g2:/ B C />` in :g:`$K$ <0284.g2:K>`, and then mark off :g:`$KC$ <0284.g2:/ K C />` equal to :g:`$BK$ <0284.g2:/ B K />`. :g:`$CE$ <0284.g2:/ C E />` is then joined and produced to :g:`$D$ <0284.g2:D>`; and :g:`$CD$ <0284.g2:/ C D />` is the straight line required.
+:person:`Legendre <legendre>`'s proof is not so easy, but it is interesting.  We are first required to draw through any point :g:`$E$ <0284.g2:E>` within the angle :g:`$CBD$ <0284.g2:< C B D )>` a straight line :g:`$CD$ <0284.g2:/ C D />` :eq:`bisected <0284.g2:/ C E / = 0284.g2:/ E D />` at :g:`$E$ <0284.g2:E>`. To do this we draw :g:`$EK$ <0284.g2:/ E K />` parallel to :g:`$DB$ <0284.g2:/ D B />` meeting :g:`$BC$ <0284.g2:/ B C />` in :g:`$K$ <0284.g2:K>`, and then mark off :g:`$KC$ <0284.g2:/ K C />` :eq:`equal <0284.g2:/ K C / = 0284.g2:/ B K />` to :g:`$BK$ <0284.g2:/ B K />`. :g:`$CE$ <0284.g2:/ C E />` is then joined and produced to :g:`$D$ <0284.g2:D>`; and :g:`$CD$ <0284.g2:/ C D />` is the straight line required.
 
 .. picture:: 0284.g2.svg
    :alt: Book XI, Proposition 4, Legendre's Construction
 
-Now, joining :g:`$AC$ <0284.g1:/ A C />`, :g:`$AE$ <0284.g1:/ A E />`, :g:`$AD$ <0284.g1:/ A D />` in the figure above, we have, since :g:`$CD$ <0284.g1:/ C D />` is bisected at :g:`$E$ <0284.g1:E>`,
+Now, joining :g:`$AC$ <0284.g1:/ A C />`, :g:`$AE$ <0284.g1:/ A E />`, :g:`$AD$ <0284.g1:/ A D />` in the figure above, we have, since :g:`$CD$ <0284.g1:/ C D />` is :eq:`bisected <0284.g1:/ C E / = 0284.g1:/ E D />` at :g:`$E$ <0284.g1:E>`,
 
 (1) in the triangle :g:`$ACD$ <0284.g1:< A C D >>`,
 

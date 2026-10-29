@@ -20,11 +20,11 @@ PROPOSITION 31.
 
    In right-angled triangles the figure on the side subtending the right angle is equal to the similar and similarly described figures on the sides containing the right angle.
 
-Let :g:`$ABC$ <0275.g1:< A B C >>` be a right-angled triangle having the angle :g:`$BAC$ <0275.g1:< B A C )>` right ;
+Let :g:`$ABC$ <0275.g1:< A B C >>` be a right-angled triangle having the angle :g:`$BAC$ <0275.g1:< B A C )>` :eq:`right <0275.g1:< B A C )>` ;
 
 I say that the figure on :g:`$BC$ <0275.g1:/ B C />` is equal to the similar and similarly described figures on :g:`$BA$ <0275.g1:/ B A />`, :g:`$AC$ <0275.g1:/ A C />`.
 
-Let :g:`$AD$ <0275.g1:/ A D />` be drawn perpendicular.
+Let :g:`$AD$ <0275.g1:/ A D />` be drawn :eq:`perpendicular <0275.g1:/ A D />`.
 
 .. subclause::
 
@@ -37,7 +37,7 @@ Let :g:`$AD$ <0275.g1:/ A D />` be drawn perpendicular.
 
 .. subclause::
 
-   been drawn from the right angle at :g:`$A$ <0275.g1:A>` perpendicular to the base :g:`$BC$ <0275.g1:/ B C />`,
+   been drawn from the right angle at :g:`$A$ <0275.g1:A>` :eq:`perpendicular <0275.g1:/ A D / = 0275.g1:/ B C />` to the base :g:`$BC$ <0275.g1:/ B C />`,
 
 .. assertion::
 

@@ -32,11 +32,11 @@ But :g:`$AE$ <0152.g1:/ A E />`, by hypothesis, is the same multiple of :g:`$CF$
 
 .. assertion::
 
-   wherefore :g:`$EG$ <0152.g1:/ E G />` is equal to :g:`$AB$ <0152.g1:/ A B />`.
+   wherefore :g:`$EG$ <0152.g1:/ E G />` is :eq:`equal <0152.g1:/ E G / = 0152.g1:/ A B />` to :g:`$AB$ <0152.g1:/ A B />`.
 
-Take from them the common magnitude :g:`$AE$ <0152.g1:/ A E />`; the remainder :g:`$AG$ <0152.g1:/ A G />` is equal to the remainder :g:`$EB$ <0152.g1:/ E B />`.
+Take from them the common magnitude :g:`$AE$ <0152.g1:/ A E />`; the remainder :g:`$AG$ <0152.g1:/ A G />` is :eq:`equal <0152.g1:/ A G / = 0152.g1:/ E B />` to the remainder :g:`$EB$ <0152.g1:/ E B />`.
 
-Wherefore, since :g:`$AE$ <0152.g1:/ A E />` is the same multiple of :g:`$CF$ <0152.g1:/ C F />` that :g:`$AG$ <0152.g1:/ A G />` is of :g:`$FD$ <0152.g1:/ F D />`, and since :g:`$AG$ <0152.g1:/ A G />` is equal to :g:`$EB$ <0152.g1:/ E B />`,
+Wherefore, since :g:`$AE$ <0152.g1:/ A E />` is the same multiple of :g:`$CF$ <0152.g1:/ C F />` that :g:`$AG$ <0152.g1:/ A G />` is of :g:`$FD$ <0152.g1:/ F D />`, and since :g:`$AG$ <0152.g1:/ A G />` is :eq:`equal <0152.g1:/ A G / = 0152.g1:/ E B />` to :g:`$EB$ <0152.g1:/ E B />`,
 
 .. assertion::
 

@@ -53,7 +53,7 @@ let the semicircle :g:`$ADB$ <0085.g1:( A D B )>` be described on :g:`$AB$ <0085
 
 .. assertion::
 
-   therefore :g:`$BE$ <0085.g1:/ B E />` is equal to :g:`$DF$ <0085.g1:/ D F />`; therefore :g:`$BC$ <0085.g1:/ B C />` is double of :g:`$FD$ <0085.g1:/ F D />`, so that the rectangle :g:`$AB$ <0085.g1:/ A B />`, :g:`$BC$ <0085.g1:/ B C />` is also double of the rectangle :g:`$AB$ <0085.g1:/ A B />`, :g:`$FD$ <0085.g1:/ F D />`.
+   therefore :g:`$BE$ <0085.g1:/ B E />` is :eq:`equal <0085.g1:/ B E / = 0085.g1:/ D F />` to :g:`$DF$ <0085.g1:/ D F />`; therefore :g:`$BC$ <0085.g1:/ B C />` is double of :g:`$FD$ <0085.g1:/ F D />`, so that the rectangle :g:`$AB$ <0085.g1:/ A B />`, :g:`$BC$ <0085.g1:/ B C />` is also double of the rectangle :g:`$AB$ <0085.g1:/ A B />`, :g:`$FD$ <0085.g1:/ F D />`.
 
 .. subclause::
 

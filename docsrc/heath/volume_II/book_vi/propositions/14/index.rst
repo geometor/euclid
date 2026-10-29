@@ -25,7 +25,7 @@ PROPOSITION 14.
 .. folio:: 0223
    :page: 217
 
-Let :g:`$AB$ <0223.g1:< A B >>`, :g:`$BC$ <0223.g1:< B C >>` be equal and equiangular parallelograms having the angles at :g:`$B$ <0223.g1:< D B F )>` equal, and let :g:`$DB$ <0223.g1:/ D B />`, :g:`$BE$ <0223.g1:/ B E />` be placed in a straight line;
+Let :g:`$AB$ <0223.g1:< A B >>`, :g:`$BC$ <0223.g1:< B C >>` be :eq:`equal <0223.g1:< A B > = 0223.g1:< B C >>` and equiangular parallelograms having the angles at :g:`$B$ <0223.g1:< D B F )>` :eq:`equal <0223.g1:< D B F ) = 0223.g1:< G B E )>`, and let :g:`$DB$ <0223.g1:/ D B />`, :g:`$BE$ <0223.g1:/ B E />` be placed in a straight line;
 
 .. assertion::
 
@@ -40,7 +40,7 @@ For let the parallelogram :g:`$FE$ <0223.g1:< F E >>` be completed.
 
 .. subclause::
 
-   Since, then, the parallelogram :g:`$AB$ <0223.g1:< A B >>` is equal to the parallelogram :g:`$BC$ <0223.g1:< B C >>`,
+   Since, then, the parallelogram :g:`$AB$ <0223.g1:< A B >>` is :eq:`equal <0223.g1:< A B > = 0223.g1:< B C >>` to the parallelogram :g:`$BC$ <0223.g1:< B C >>`,
 
 .. subclause::
 
@@ -64,7 +64,7 @@ For let the parallelogram :g:`$FE$ <0223.g1:< F E >>` be completed.
 
 Next, let :g:`$GB$ <0223.g1:/ G B />` be to :g:`$BF$ <0223.g1:/ B F />` as :g:`$DB$ <0223.g1:/ D B />` to :g:`$BE$ <0223.g1:/ B E />`;
 
-I say that the parallelogram :g:`$AB$ <0223.g1:< A B >>` is equal to the parallelogram :g:`$BC$ <0223.g1:< B C >>`.
+I say that the parallelogram :g:`$AB$ <0223.g1:< A B >>` is :eq:`equal <0223.g1:< A B > = 0223.g1:< B C >>` to the parallelogram :g:`$BC$ <0223.g1:< B C >>`.
 
 .. subclause::
 
@@ -76,7 +76,7 @@ I say that the parallelogram :g:`$AB$ <0223.g1:< A B >>` is equal to the paralle
 
 .. assertion::
 
-   therefore the parallelogram :g:`$AB$ <0223.g1:< A B >>` is equal to the parallelogram :g:`$BC$ <0223.g1:< B C >>`. :just:`[V. 9] <V.9>`
+   therefore the parallelogram :g:`$AB$ <0223.g1:< A B >>` is :eq:`equal <0223.g1:< A B > = 0223.g1:< B C >>` to the parallelogram :g:`$BC$ <0223.g1:< B C >>`. :just:`[V. 9] <V.9>`
 
 .. qed::
 

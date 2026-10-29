@@ -31,7 +31,7 @@ I say that the rectangle contained by :g:`$A$ <0389.g1:A>`, :g:`$BC$ <0389.g1:/ 
 
 For let :g:`$BF$ <0389.g1:/ B F />` be drawn from :g:`$B$ <0389.g1:B>` at right angles to :g:`$BC$ <0389.g1:/ B C />`; :just:`[I. 11] <I.11>`
 
-let :g:`$BG$ <0389.g1:/ B G />` be made equal to :g:`$A$ <0389.g1:A>`, :just:`[I. 3] <I.3>`
+let :g:`$BG$ <0389.g1:/ B G />` be made :eq:`equal <0389.g1:/ B G / = 0389.g1:A>` to :g:`$A$ <0389.g1:A>`, :just:`[I. 3] <I.3>`
 
 through :g:`$G$ <0389.g1:G>` let :g:`$GH$ <0389.g1:/ G H />` be drawn parallel to :g:`$BC$ <0389.g1:/ B C />`, :just:`[I. 31] <I.31>`
 
@@ -41,15 +41,15 @@ and through :g:`$D$ <0389.g1:D>`, :g:`$E$ <0389.g1:E>`, :g:`$C$ <0389.g1:C>` let
 
    Then :g:`$BH$ <0389.g1:< B H >>` is equal to :g:`$BK$ <0389.g1:< B K >>`, :g:`$DL$ <0389.g1:< D L >>`, :g:`$EH$ <0389.g1:< E H >>`.
 
-Now :g:`$BH$ <0389.g1:< B H >>` is the rectangle :g:`$A$ <0389.g1:A>`, :g:`$BC$ <0389.g1:/ B C />`,\ [#f1]_ for it is contained by :g:`$GB$ <0389.g1:/ B G />`, :g:`$BC$ <0389.g1:/ B C />`, and :g:`$BG$ <0389.g1:/ B G />` is equal to :g:`$A$ <0389.g1:A>`;
+Now :g:`$BH$ <0389.g1:< B H >>` is the rectangle :g:`$A$ <0389.g1:A>`, :g:`$BC$ <0389.g1:/ B C />`,\ [#f1]_ for it is contained by :g:`$GB$ <0389.g1:/ B G />`, :g:`$BC$ <0389.g1:/ B C />`, and :g:`$BG$ <0389.g1:/ B G />` is :eq:`equal <0389.g1:/ B G / = 0389.g1:A>` to :g:`$A$ <0389.g1:A>`;
 
 .. subclause::
 
-   :g:`$BK$ <0389.g1:< B K >>` is the rectangle :g:`$A$ <0389.g1:A>`, :g:`$BD$ <0389.g1:/ B D />`, for it is contained by :g:`$GB$ <0389.g1:/ B G />`, :g:`$BD$ <0389.g1:/ B D />`, and :g:`$BG$ <0389.g1:/ B G />` is equal to :g:`$A$ <0389.g1:A>`;
+   :g:`$BK$ <0389.g1:< B K >>` is the rectangle :g:`$A$ <0389.g1:A>`, :g:`$BD$ <0389.g1:/ B D />`, for it is contained by :g:`$GB$ <0389.g1:/ B G />`, :g:`$BD$ <0389.g1:/ B D />`, and :g:`$BG$ <0389.g1:/ B G />` is :eq:`equal <0389.g1:/ B G / = 0389.g1:A>` to :g:`$A$ <0389.g1:A>`;
 
 .. subclause::
 
-   and :g:`$DL$ <0389.g1:< D L >>` is the rectangle :g:`$A$ <0389.g1:A>`, :g:`$DE$ <0389.g1:/ D E />`, for :g:`$DK$ <0389.g1:/ D K />`, that is :g:`$BG$ <0389.g1:/ B G />` :just:`[I. 34] <I.34>`, is equal to :g:`$A$ <0389.g1:A>`.
+   and :g:`$DL$ <0389.g1:< D L >>` is the rectangle :g:`$A$ <0389.g1:A>`, :g:`$DE$ <0389.g1:/ D E />`, for :g:`$DK$ <0389.g1:/ D K />`, that is :g:`$BG$ <0389.g1:/ B G />` :just:`[I. 34] <I.34>`, is :eq:`equal <0389.g1:/ D K / = 0389.g1:/ B G / = 0389.g1:A>` to :g:`$A$ <0389.g1:A>`.
 
 .. subclause::
 

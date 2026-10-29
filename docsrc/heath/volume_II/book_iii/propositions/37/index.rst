@@ -53,20 +53,20 @@ the rectangle :g:`$AD$ <0082.g1:/ A D />`, :g:`$DC$ <0082.g1:/ D C />` is equal 
 
 But the rectangle :g:`$AD$ <0082.g1:/ A D />`, :g:`$DC$ <0082.g1:/ D C />` was also equal to the square
 on :g:`$DB$ <0082.g1:/ D B />`;
-therefore the square on :g:`$DE$ <0082.g1:/ D E />` is equal to the square on :g:`$DB$ <0082.g1:/ D B />`;
+therefore the square on :g:`$DE$ <0082.g1:/ D E />` is :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B />` to the square on :g:`$DB$ <0082.g1:/ D B />`;
 
 .. assertion::
 
-   therefore :g:`$DE$ <0082.g1:/ D E />` is equal to :g:`$DB$ <0082.g1:/ D B />`.
+   therefore :g:`$DE$ <0082.g1:/ D E />` is :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B />` to :g:`$DB$ <0082.g1:/ D B />`.
 
-And :g:`$FE$ <0082.g1:/ F E />` is equal to :g:`$FB$ <0082.g1:/ F B />`;
-therefore the two sides :g:`$DE$ <0082.g1:/ D E />`, :g:`$EF$ <0082.g1:/ E F />` are equal to the two sides
+And :g:`$FE$ <0082.g1:/ F E />` is :eq:`equal <0082.g1:/ F E / = 0082.g1:/ F B />` to :g:`$FB$ <0082.g1:/ F B />`;
+therefore the two sides :g:`$DE$ <0082.g1:/ D E />`, :g:`$EF$ <0082.g1:/ E F />` are :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B /; 0082.g1:/ E F / = 0082.g1:/ B F />` to the two sides
 :g:`$DB$ <0082.g1:/ D B />`, :g:`$BF$ <0082.g1:/ B F />`;
 and :g:`$FD$ <0082.g1:/ F D />` is the common base of the triangles;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$DEF$ <0082.g1:< D E F )>` is equal to the angle :g:`$DBF$ <0082.g1:< D B F )>`.
+   therefore the angle :g:`$DEF$ <0082.g1:< D E F )>` is :eq:`equal <0082.g1:< D E F ) = 0082.g1:< D B F )>` to the angle :g:`$DBF$ <0082.g1:< D B F )>`.
 
 But the angle :g:`$DEF$ <0082.g1:< D E F )>` is right;
 

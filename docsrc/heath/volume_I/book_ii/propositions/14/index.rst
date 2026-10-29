@@ -27,23 +27,23 @@ thus it is required to construct a square equal to the rectilineal figure :g:`$A
 .. picture:: 0423.g1.svg
    :alt: Diagram
 
-For let there be constructed the rectangular parallelogram :g:`$BD$ <0423.g1:< B D E C >>` equal to the rectilineal figure :g:`$A$ <0423.g1:A>`. :just:`[I. 45] <I.45>`
+For let there be constructed the rectangular parallelogram :g:`$BD$ <0423.g1:< B D E C >>` :eq:`equal <0423.g1:< B D E C > = 0423.g1:A>` to the rectilineal figure :g:`$A$ <0423.g1:A>`. :just:`[I. 45] <I.45>`
 
-Then, if :g:`$BE$ <0423.g1:/ B E />` is equal to :g:`$ED$ <0423.g1:/ E D />`, that which was enjoined will have been done;\ [#f1]_ for a square :g:`$BD$ <0423.g1:< B D E C >>` has been constructed equal to the rectilineal figure :g:`$A$ <0423.g1:A>`.
+Then, if :g:`$BE$ <0423.g1:/ B E />` is :eq:`equal <0423.g1:/ B E / = 0423.g1:/ E D />` to :g:`$ED$ <0423.g1:/ E D />`, that which was enjoined will have been done;\ [#f1]_ for a square :g:`$BD$ <0423.g1:< B D E C >>` has been constructed :eq:`equal <0423.g1:< B D E C > = 0423.g1:A>` to the rectilineal figure :g:`$A$ <0423.g1:A>`.
 
 But, if not, one of the straight lines :g:`$BE$ <0423.g1:/ B E />`, :g:`$ED$ <0423.g1:/ E D />` is greater.
 
-Let :g:`$BE$ <0423.g1:/ B E />` be greater, and let it be produced to :g:`$F$ <0423.g1:F>`; let :g:`$EF$ <0423.g1:/ E F />` be made equal to :g:`$ED$ <0423.g1:/ E D />`, and let :g:`$BF$ <0423.g1:/ B F />` be bisected at :g:`$G$ <0423.g1:G>`.
+Let :g:`$BE$ <0423.g1:/ B E />` be greater, and let it be produced to :g:`$F$ <0423.g1:F>`; let :g:`$EF$ <0423.g1:/ E F />` be made :eq:`equal <0423.g1:/ E F / = 0423.g1:/ E D />` to :g:`$ED$ <0423.g1:/ E D />`, and let :g:`$BF$ <0423.g1:/ B F />` be :eq:`bisected <0423.g1:/ G B / = 0423.g1:/ G F />` at :g:`$G$ <0423.g1:G>`.
 
 With centre :g:`$G$ <0423.g1:G>` and distance one of the straight lines :g:`$GB$ <0423.g1:/ G B />`, :g:`$GF$ <0423.g1:/ G F />` let the semicircle :g:`$BHF$ <0423.g1:( B H F )>` be described; let :g:`$DE$ <0423.g1:[ D E ]>` be produced to :g:`$H$ <0423.g1:H>`, and let :g:`$GH$ <0423.g1:/ G H />` be joined.
 
-Then, since the straight line :g:`$BF$ <0423.g1:/ B F />` has been cut into equal segments at :g:`$G$ <0423.g1:G>`, and into unequal segments at :g:`$E$ <0423.g1:E>`,
+Then, since the straight line :g:`$BF$ <0423.g1:/ B F />` has been cut into :eq:`equal <0423.g1:/ G B / = 0423.g1:/ G F />` segments at :g:`$G$ <0423.g1:G>`, and into unequal segments at :g:`$E$ <0423.g1:E>`,
 
 .. assertion:: [II. 5] <II.5>
 
    the rectangle contained by :g:`$BE$ <0423.g1:/ B E />`, :g:`$EF$ <0423.g1:/ E F />` together with the square on :g:`$EG$ <0423.g1:/ E G />` is equal to the square on :g:`$GF$ <0423.g1:/ G F />`.
 
-But :g:`$GF$ <0423.g1:/ G F />` is equal to :g:`$GH$ <0423.g1:/ G H />`;
+But :g:`$GF$ <0423.g1:/ G F />` is :eq:`equal <0423.g1:/ G F / = 0423.g1:/ G H />` to :g:`$GH$ <0423.g1:/ G H />`;
 
 .. assertion::
 
@@ -66,19 +66,19 @@ Let the square on :g:`$GE$ <0423.g1:/ G E />` be subtracted from each;
 
    therefore the rectangle contained by :g:`$BE$ <0423.g1:/ B E />`, :g:`$EF$ <0423.g1:/ E F />` which remains is equal to the square on :g:`$EH$ <0423.g1:/ E H />`.
 
-But the rectangle :g:`$BE$ <0423.g1:/ B E />`, :g:`$EF$ <0423.g1:/ E F />` is :g:`$BD$ <0423.g1:< B D E C >>`, for :g:`$EF$ <0423.g1:/ E F />` is equal to :g:`$ED$ <0423.g1:/ E D />`;
+But the rectangle :g:`$BE$ <0423.g1:/ B E />`, :g:`$EF$ <0423.g1:/ E F />` is :g:`$BD$ <0423.g1:< B D E C >>`, for :g:`$EF$ <0423.g1:/ E F />` is :eq:`equal <0423.g1:/ E F / = 0423.g1:/ E D />` to :g:`$ED$ <0423.g1:/ E D />`;
 
 .. assertion::
 
-   therefore the parallelogram :g:`$BD$ <0423.g1:< B D E C >>` is equal to the square on :g:`$HE$ <0423.g1:/ H E />`.
+   therefore the parallelogram :g:`$BD$ <0423.g1:< B D E C >>` is :eq:`equal <0423.g1:< B D E C > = 0423.g1:/ H E />` to the square on :g:`$HE$ <0423.g1:/ H E />`.
 
-And :g:`$BD$ <0423.g1:< B D E C >>` is equal to the rectilineal figure :g:`$A$ <0423.g1:A>`.
+And :g:`$BD$ <0423.g1:< B D E C >>` is :eq:`equal <0423.g1:< B D E C > = 0423.g1:A>` to the rectilineal figure :g:`$A$ <0423.g1:A>`.
 
 .. assertion::
 
-   Therefore the rectilineal figure :g:`$A$ <0423.g1:A>` is also equal to the square which can be described\ [#f2]_ on :g:`$EH$ <0423.g1:/ E H />`.
+   Therefore the rectilineal figure :g:`$A$ <0423.g1:A>` is also :eq:`equal <0423.g1:A = 0423.g1:/ E H />` to the square which can be described\ [#f2]_ on :g:`$EH$ <0423.g1:/ E H />`.
 
-Therefore a square, namely that which can be described on :g:`$EH$ <0423.g1:/ E H />`, has been constructed equal to the given rectilineal figure :g:`$A$ <0423.g1:A>`.
+Therefore a square, namely that which can be described on :g:`$EH$ <0423.g1:/ E H />`, has been constructed :eq:`equal <0423.g1:/ E H / = 0423.g1:A>` to the given rectilineal figure :g:`$A$ <0423.g1:A>`.
 
 .. qed::
 

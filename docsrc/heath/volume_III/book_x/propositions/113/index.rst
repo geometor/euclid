@@ -72,7 +72,7 @@ Let the rectangle :g:`$BC$ <0252.g1:/ B C />`, :g:`$G$ <0252.g1:G>` be also equa
 
    therefore :g:`$KH$ <0252.g1:/ K H />` is also greater than :g:`$G$ <0252.g1:G>`.
 
-Let :g:`$KE$ <0252.g1:/ K E />` be made equal to :g:`$G$ <0252.g1:G>`;
+Let :g:`$KE$ <0252.g1:/ K E />` be made :eq:`equal <0252.g1:/ K E / = 0252.g1:G>` to :g:`$G$ <0252.g1:G>`;
 
 .. assertion::
 

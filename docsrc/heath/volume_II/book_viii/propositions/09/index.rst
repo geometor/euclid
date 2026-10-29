@@ -46,7 +46,7 @@ Let them be taken, and let them be :g:`$M$ <0365.g1:M>`, :g:`$N$ <0365.g1:N>`, :
 
 .. assertion::
 
-   therefore :g:`$M$ <0365.g1:M>`, :g:`$N$ <0365.g1:N>`, :g:`$O$ <0365.g1:O>`, :g:`$P$ <0365.g1:P>` are equal to :g:`$A$ <0365.g1:A>`, :g:`$C$ <0365.g1:C>`, :g:`$D$ <0365.g1:D>`, :g:`$B$ <0365.g1:B>` respectively ; therefore :g:`$M$ <0365.g1:M>` is equal to :g:`$A$ <0365.g1:A>`, and :g:`$P$ <0365.g1:P>` to :g:`$B$ <0365.g1:B>`.
+   therefore :g:`$M$ <0365.g1:M>`, :g:`$N$ <0365.g1:N>`, :g:`$O$ <0365.g1:O>`, :g:`$P$ <0365.g1:P>` are :eq:`equal <0365.g1:M = 0365.g1:A; 0365.g1:N = 0365.g1:C; 0365.g1:O = 0365.g1:D; 0365.g1:P = 0365.g1:B>` to :g:`$A$ <0365.g1:A>`, :g:`$C$ <0365.g1:C>`, :g:`$D$ <0365.g1:D>`, :g:`$B$ <0365.g1:B>` respectively ; therefore :g:`$M$ <0365.g1:M>` is :eq:`equal <0365.g1:M = 0365.g1:A; 0365.g1:P = 0365.g1:B>` to :g:`$A$ <0365.g1:A>`, and :g:`$P$ <0365.g1:P>` to :g:`$B$ <0365.g1:B>`.
 
 .. subclause::
 
@@ -103,7 +103,7 @@ Let them be taken, and let them be :g:`$M$ <0365.g1:M>`, :g:`$N$ <0365.g1:N>`, :
 
 .. subclause::
 
-   But :g:`$M$ <0365.g1:M>` is equal to :g:`$A$ <0365.g1:A>` ;
+   But :g:`$M$ <0365.g1:M>` is :eq:`equal <0365.g1:M = 0365.g1:A>` to :g:`$A$ <0365.g1:A>` ;
 
 .. assertion::
 

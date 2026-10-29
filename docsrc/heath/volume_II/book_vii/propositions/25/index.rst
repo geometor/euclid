@@ -27,11 +27,11 @@ I say that :g:`$B$ <0332.g1:B>`, :g:`$C$ <0332.g1:C>` are prime to one another.
 .. picture:: 0332.g1.svg
    :alt: Book VII, Proposition 25
 
-For let :g:`$D$ <0332.g1:D>` be made equal to :g:`$A$ <0332.g1:A>`.
+For let :g:`$D$ <0332.g1:D>` be made :eq:`equal <0332.g1:D = 0332.g1:A>` to :g:`$A$ <0332.g1:A>`.
 
 .. subclause::
 
-   Since :g:`$A$ <0332.g1:A>`, :g:`$B$ <0332.g1:B>` are prime to one another, and :g:`$A$ <0332.g1:A>` is equal to :g:`$D$ <0332.g1:D>`,
+   Since :g:`$A$ <0332.g1:A>`, :g:`$B$ <0332.g1:B>` are prime to one another, and :g:`$A$ <0332.g1:A>` is :eq:`equal <0332.g1:A = 0332.g1:D>` to :g:`$D$ <0332.g1:D>`,
 
 .. assertion::
 

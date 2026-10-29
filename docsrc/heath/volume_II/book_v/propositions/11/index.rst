@@ -34,19 +34,19 @@ Then since, as :g:`$A$ <0164.g1:A>` is to :g:`$B$ <0164.g1:B>`, so is :g:`$C$ <0
 
 .. assertion::
 
-   therefore, if :g:`$G$ <0164.g1:G>` is in excess of :g:`$L$ <0164.g1:L>`, :g:`$H$ <0164.g1:H>` is also in excess of :g:`$M$ <0164.g1:M>`, if equal, equal, and if less, less.
+   therefore, if :g:`$G$ <0164.g1:G>` is in excess of :g:`$L$ <0164.g1:L>`, :g:`$H$ <0164.g1:H>` is also in excess of :g:`$M$ <0164.g1:M>`, if :eq:`equal <0164.g1:G = 0164.g1:L>`, :eq:`equal <0164.g1:H = 0164.g1:M>`, and if less, less.
 
 Again, since, as :g:`$C$ <0164.g1:C>` is to :g:`$D$ <0164.g1:D>`, so is :g:`$E$ <0164.g1:E>` to :g:`$F$ <0164.g1:F>`, and of :g:`$C$ <0164.g1:C>`, :g:`$E$ <0164.g1:E>` equimultiples :g:`$H$ <0164.g1:H>`, :g:`$K$ <0164.g1:K>` have been taken, and of :g:`$D$ <0164.g1:D>`, :g:`$F$ <0164.g1:F>` other, chance, equimultiples :g:`$M$ <0164.g1:M>`, :g:`$N$ <0164.g1:N>`,
 
 .. assertion::
 
-   therefore, if :g:`$H$ <0164.g1:H>` is in excess of :g:`$M$ <0164.g1:M>`, :g:`$K$ <0164.g1:K>` is also in excess of :g:`$N$ <0164.g1:N>`, if equal, equal, and if less, less.
+   therefore, if :g:`$H$ <0164.g1:H>` is in excess of :g:`$M$ <0164.g1:M>`, :g:`$K$ <0164.g1:K>` is also in excess of :g:`$N$ <0164.g1:N>`, if :eq:`equal <0164.g1:H = 0164.g1:M>`, :eq:`equal <0164.g1:K = 0164.g1:N>`, and if less, less.
 
-But we saw that, if :g:`$H$ <0164.g1:H>` was in excess of :g:`$M$ <0164.g1:M>`, :g:`$G$ <0164.g1:G>` was also in excess of :g:`$L$ <0164.g1:L>`; if equal, equal; and if less, less;
+But we saw that, if :g:`$H$ <0164.g1:H>` was in excess of :g:`$M$ <0164.g1:M>`, :g:`$G$ <0164.g1:G>` was also in excess of :g:`$L$ <0164.g1:L>`; if :eq:`equal <0164.g1:H = 0164.g1:M>`, :eq:`equal <0164.g1:G = 0164.g1:L>`; and if less, less;
 
 .. assertion::
 
-   so that, in addition, if :g:`$G$ <0164.g1:G>` is in excess of :g:`$L$ <0164.g1:L>`, :g:`$K$ <0164.g1:K>` is also in excess of :g:`$N$ <0164.g1:N>`, if equal, equal, and if less, less.
+   so that, in addition, if :g:`$G$ <0164.g1:G>` is in excess of :g:`$L$ <0164.g1:L>`, :g:`$K$ <0164.g1:K>` is also in excess of :g:`$N$ <0164.g1:N>`, if :eq:`equal <0164.g1:G = 0164.g1:L>`, :eq:`equal <0164.g1:K = 0164.g1:N>`, and if less, less.
 
 And :g:`$G$ <0164.g1:G>`, :g:`$K$ <0164.g1:K>` are equimultiples of :g:`$A$ <0164.g1:A>`, :g:`$E$ <0164.g1:E>`, while :g:`$L$ <0164.g1:L>`, :g:`$N$ <0164.g1:N>` are other, chance, equimultiples of :g:`$B$ <0164.g1:B>`, :g:`$F$ <0164.g1:F>`;
 

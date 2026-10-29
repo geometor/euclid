@@ -22,14 +22,14 @@ PROPOSITION 17.
 
    To construct a dodecahedron and comprehend it in a sphere, like the aforesaid figures, and to prove that the side of the dodecahedron is the irrational straight line called apotome.
 
-Let :g:`$ABCD$ <0497.g1:< A B C D >>`, :g:`$CBEF$ <0497.g1:< C B E F >>`, two planes of the aforesaid cube at right angles to one another, be set out, let the sides :g:`$AB$ <0497.g1:/ A B />`, :g:`$BC$ <0497.g1:/ B C />`, :g:`$CD$ <0497.g1:/ C D />`, :g:`$DA$ <0497.g1:/ D A />`, :g:`$EF$ <0497.g1:/ E F />`, :g:`$EB$ <0497.g1:/ E B />`, :g:`$FC$ <0497.g1:/ F C />` be bisected at :g:`$G$ <0497.g1:G>`, :g:`$H$ <0497.g1:H>`, :g:`$K$ <0497.g1:K>`, :g:`$L$ <0497.g1:L>`, :g:`$M$ <0497.g1:M>`, :g:`$N$ <0497.g1:N>`, :g:`$O$ <0497.g1:O>` respectively, let :g:`$GK$ <0497.g1:/ G K />`, :g:`$HL$ <0497.g1:/ H L />`, :g:`$MH$ <0497.g1:/ M H />`, :g:`$NO$ <0497.g1:/ N O />` be joined, let the straight lines :g:`$NP$ <0497.g1:/ N P />`, :g:`$PO$ <0497.g1:/ P O />`, :g:`$HQ$ <0497.g1:/ H Q />` be cut in extreme and mean ratio at the points :g:`$R$ <0497.g1:R>`, :g:`$S$ <0497.g1:S>`, :g:`$T$ <0497.g1:T>` respectively, and let :g:`$RP$ <0497.g1:/ R P />`, :g:`$PS$ <0497.g1:/ P S />`, :g:`$TQ$ <0497.g1:/ T Q />` be their greater segments ; from the points :g:`$R$ <0497.g1:R>`, :g:`$S$ <0497.g1:S>`, :g:`$T$ <0497.g1:T>` let :g:`$RU$ <0497.g1:/ R U />`, :g:`$SV$ <0497.g1:/ S V />`, :g:`$TW$ <0497.g1:/ T W />` be set up at right angles to the planes of the cube towards the outside of the cube, let them be made equal to :g:`$RP$ <0497.g1:/ R P />`, :g:`$PS$ <0497.g1:/ P S />`, :g:`$TQ$ <0497.g1:/ T Q />`, and let :g:`$UB$ <0497.g1:/ U B />`, :g:`$BW$ <0497.g1:/ B W />`, :g:`$WC$ <0497.g1:/ W C />`, :g:`$CV$ <0497.g1:/ C V />`, :g:`$VU$ <0497.g1:/ V U />` be joined.
+Let :g:`$ABCD$ <0497.g1:< A B C D >>`, :g:`$CBEF$ <0497.g1:< C B E F >>`, two planes of the aforesaid cube at right angles to one another, be set out, let the sides :g:`$AB$ <0497.g1:/ A B />`, :g:`$BC$ <0497.g1:/ B C />`, :g:`$CD$ <0497.g1:/ C D />`, :g:`$DA$ <0497.g1:/ D A />`, :g:`$EF$ <0497.g1:/ E F />`, :g:`$EB$ <0497.g1:/ E B />`, :g:`$FC$ <0497.g1:/ F C />` be :eq:`bisected <0497.g1:/ A G / = 0497.g1:/ G B /; 0497.g1:/ B H / = 0497.g1:/ H C /; 0497.g1:/ C K / = 0497.g1:/ K D /; 0497.g1:/ D L / = 0497.g1:/ L A /; 0497.g1:/ E M / = 0497.g1:/ M F /; 0497.g1:/ E N / = 0497.g1:/ N B /; 0497.g1:/ F O / = 0497.g1:/ O C />` at :g:`$G$ <0497.g1:G>`, :g:`$H$ <0497.g1:H>`, :g:`$K$ <0497.g1:K>`, :g:`$L$ <0497.g1:L>`, :g:`$M$ <0497.g1:M>`, :g:`$N$ <0497.g1:N>`, :g:`$O$ <0497.g1:O>` respectively, let :g:`$GK$ <0497.g1:/ G K />`, :g:`$HL$ <0497.g1:/ H L />`, :g:`$MH$ <0497.g1:/ M H />`, :g:`$NO$ <0497.g1:/ N O />` be joined, let the straight lines :g:`$NP$ <0497.g1:/ N P />`, :g:`$PO$ <0497.g1:/ P O />`, :g:`$HQ$ <0497.g1:/ H Q />` be cut in extreme and mean ratio at the points :g:`$R$ <0497.g1:R>`, :g:`$S$ <0497.g1:S>`, :g:`$T$ <0497.g1:T>` respectively, and let :g:`$RP$ <0497.g1:/ R P />`, :g:`$PS$ <0497.g1:/ P S />`, :g:`$TQ$ <0497.g1:/ T Q />` be their greater segments ; from the points :g:`$R$ <0497.g1:R>`, :g:`$S$ <0497.g1:S>`, :g:`$T$ <0497.g1:T>` let :g:`$RU$ <0497.g1:/ R U />`, :g:`$SV$ <0497.g1:/ S V />`, :g:`$TW$ <0497.g1:/ T W />` be set up at right angles to the planes of the cube towards the outside of the cube, let them be made :eq:`equal <0497.g1:/ R U / = 0497.g1:/ R P /; 0497.g1:/ S V / = 0497.g1:/ P S /; 0497.g1:/ T W / = 0497.g1:/ T Q />` to :g:`$RP$ <0497.g1:/ R P />`, :g:`$PS$ <0497.g1:/ P S />`, :g:`$TQ$ <0497.g1:/ T Q />`, and let :g:`$UB$ <0497.g1:/ U B />`, :g:`$BW$ <0497.g1:/ B W />`, :g:`$WC$ <0497.g1:/ W C />`, :g:`$CV$ <0497.g1:/ C V />`, :g:`$VU$ <0497.g1:/ V U />` be joined.
 
 .. picture:: 0497.g1.svg
    :alt: Proposition 17: Construction of pentagon on cube faces
 
 .. assertion::
 
-   I say that the pentagon :g:`$UBWCV$ <0497.g1:< U B W C V >>` is equilateral, and in one plane, and is further equiangular.
+   I say that the pentagon :g:`$UBWCV$ <0497.g1:< U B W C V >>` is :eq:`equilateral <0497.g1:/ U B / = 0497.g1:/ B W / = 0497.g1:/ W C / = 0497.g1:/ C V / = 0497.g1:/ V U />`, and in one plane, and is further equiangular.
 
 For let :g:`$RB$ <0497.g1:/ R B />`, :g:`$SB$ <0497.g1:/ S B />`, :g:`$VB$ <0497.g1:/ V B />` be joined.
 
@@ -48,7 +48,7 @@ For let :g:`$RB$ <0497.g1:/ R B />`, :g:`$SB$ <0497.g1:/ S B />`, :g:`$VB$ <0497
 
 .. subclause::
 
-   But :g:`$PN$ <0497.g1:/ P N />` is equal to :g:`$NB$ <0497.g1:/ N B />`, and :g:`$PR$ <0497.g1:/ P R />` to :g:`$RU$ <0497.g1:/ R U />`;
+   But :g:`$PN$ <0497.g1:/ P N />` is :eq:`equal <0497.g1:/ N P / = 0497.g1:/ N B /; 0497.g1:/ R P / = 0497.g1:/ R U />` to :g:`$NB$ <0497.g1:/ N B />`, and :g:`$PR$ <0497.g1:/ P R />` to :g:`$RU$ <0497.g1:/ R U />`;
 
 .. assertion::
 
@@ -76,15 +76,15 @@ For let :g:`$RB$ <0497.g1:/ R B />`, :g:`$SB$ <0497.g1:/ S B />`, :g:`$VB$ <0497
 
 .. assertion::
 
-   therefore :g:`$BU$ <0497.g1:/ B U />` is equal to :g:`$UV$ <0497.g1:/ U V />`.
+   therefore :g:`$BU$ <0497.g1:/ B U />` is :eq:`equal <0497.g1:/ U B / = 0497.g1:/ V U />` to :g:`$UV$ <0497.g1:/ U V />`.
 
 .. assertion::
 
-   Similarly it can be proved that each of the straight lines :g:`$BW$ <0497.g1:/ B W />`, :g:`$WC$ <0497.g1:/ W C />`, :g:`$CV$ <0497.g1:/ C V />` is also equal to each of the straight lines :g:`$BU$ <0497.g1:/ B U />`, :g:`$UV$ <0497.g1:/ U V />`.
+   Similarly it can be proved that each of the straight lines :g:`$BW$ <0497.g1:/ B W />`, :g:`$WC$ <0497.g1:/ W C />`, :g:`$CV$ <0497.g1:/ C V />` is also :eq:`equal <0497.g1:/ B W / = 0497.g1:/ W C / = 0497.g1:/ C V / = 0497.g1:/ U B / = 0497.g1:/ V U />` to each of the straight lines :g:`$BU$ <0497.g1:/ B U />`, :g:`$UV$ <0497.g1:/ U V />`.
 
 .. assertion::
 
-   Therefore the pentagon :g:`$BUVCW$ <0497.g1:< B U V C W >>` is equilateral.
+   Therefore the pentagon :g:`$BUVCW$ <0497.g1:< B U V C W >>` is :eq:`equilateral <0497.g1:/ U B / = 0497.g1:/ V U / = 0497.g1:/ C V / = 0497.g1:/ W C / = 0497.g1:/ B W />`.
 
 I say next that it is also in one plane.
 
@@ -100,7 +100,7 @@ For let :g:`$PX$ <0497.g1:/ P X />` be drawn from :g:`$P$ <0497.g1:P>` parallel 
 
 .. subclause::
 
-   But :g:`$HQ$ <0497.g1:/ H Q />` is equal to :g:`$HP$ <0497.g1:/ H P />`, and :g:`$QT$ <0497.g1:/ Q T />` to each of the straight lines :g:`$TW$ <0497.g1:/ T W />`, :g:`$PX$ <0497.g1:/ P X />`;
+   But :g:`$HQ$ <0497.g1:/ H Q />` is :eq:`equal <0497.g1:/ H Q / = 0497.g1:/ P H /; 0497.g1:/ T Q / = 0497.g1:/ T W / = 0497.g1:/ P X />` to :g:`$HP$ <0497.g1:/ H P />`, and :g:`$QT$ <0497.g1:/ Q T />` to each of the straight lines :g:`$TW$ <0497.g1:/ T W />`, :g:`$PX$ <0497.g1:/ P X />`;
 
 .. assertion::
 
@@ -135,7 +135,7 @@ I say next that it is also equiangular.
 
 .. subclause::
 
-   For, since the straight line :g:`$NP$ <0497.g1:/ N P />` has been cut in extreme and mean ratio at :g:`$R$ <0497.g1:R>`, and :g:`$PR$ <0497.g1:/ P R />` is the greater segment, while :g:`$PR$ <0497.g1:/ P R />` is equal to :g:`$PS$ <0497.g1:/ P S />`,
+   For, since the straight line :g:`$NP$ <0497.g1:/ N P />` has been cut in extreme and mean ratio at :g:`$R$ <0497.g1:R>`, and :g:`$PR$ <0497.g1:/ P R />` is the greater segment, while :g:`$PR$ <0497.g1:/ P R />` is :eq:`equal <0497.g1:/ R P / = 0497.g1:/ P S />` to :g:`$PS$ <0497.g1:/ P S />`,
 
 .. assertion::
 
@@ -143,7 +143,7 @@ I say next that it is also equiangular.
 
 .. subclause::
 
-   But :g:`$NP$ <0497.g1:/ N P />` is equal to :g:`$NB$ <0497.g1:/ N B />`, and :g:`$PS$ <0497.g1:/ P S />` to :g:`$SV$ <0497.g1:/ S V />`;
+   But :g:`$NP$ <0497.g1:/ N P />` is :eq:`equal <0497.g1:/ N P / = 0497.g1:/ N B /; 0497.g1:/ P S / = 0497.g1:/ S V />` to :g:`$NB$ <0497.g1:/ N B />`, and :g:`$PS$ <0497.g1:/ P S />` to :g:`$SV$ <0497.g1:/ S V />`;
 
 .. assertion::
 
@@ -163,19 +163,19 @@ I say next that it is also equiangular.
 
 .. assertion::
 
-   therefore :g:`$BV$ <0497.g1:/ B V />` is equal to :g:`$BC$ <0497.g1:/ B C />`.
+   therefore :g:`$BV$ <0497.g1:/ B V />` is :eq:`equal <0497.g1:/ V B / = 0497.g1:/ B C />` to :g:`$BC$ <0497.g1:/ B C />`.
 
 .. subclause::
 
-   And, since the two sides :g:`$BU$ <0497.g1:/ B U />`, :g:`$UV$ <0497.g1:/ U V />` are equal to the two sides :g:`$BW$ <0497.g1:/ B W />`, :g:`$WC$ <0497.g1:/ W C />`, and the base :g:`$BV$ <0497.g1:/ B V />` is equal to the base :g:`$BC$ <0497.g1:/ B C />`,
+   And, since the two sides :g:`$BU$ <0497.g1:/ B U />`, :g:`$UV$ <0497.g1:/ U V />` are :eq:`equal <0497.g1:/ U B / = 0497.g1:/ B W /; 0497.g1:/ V U / = 0497.g1:/ W C />` to the two sides :g:`$BW$ <0497.g1:/ B W />`, :g:`$WC$ <0497.g1:/ W C />`, and the base :g:`$BV$ <0497.g1:/ B V />` is :eq:`equal <0497.g1:/ V B / = 0497.g1:/ B C />` to the base :g:`$BC$ <0497.g1:/ B C />`,
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$BUV$ <0497.g1:< B U V )>` is equal to the angle :g:`$BWC$ <0497.g1:< B W C )>`.
+   therefore the angle :g:`$BUV$ <0497.g1:< B U V )>` is :eq:`equal <0497.g1:< B U V ) = 0497.g1:< B W C )>` to the angle :g:`$BWC$ <0497.g1:< B W C )>`.
 
 .. assertion::
 
-   Similarly we can prove that the angle :g:`$UVC$ <0497.g1:< U V C )>` is also equal to the angle :g:`$BWC$ <0497.g1:< B W C )>`; therefore the three angles :g:`$BWC$ <0497.g1:< B W C )>`, :g:`$BUV$ <0497.g1:< B U V )>`, :g:`$UVC$ <0497.g1:< U V C )>` are equal to one another.
+   Similarly we can prove that the angle :g:`$UVC$ <0497.g1:< U V C )>` is also :eq:`equal <0497.g1:< U V C ) = 0497.g1:< B W C )>` to the angle :g:`$BWC$ <0497.g1:< B W C )>`; therefore the three angles :g:`$BWC$ <0497.g1:< B W C )>`, :g:`$BUV$ <0497.g1:< B U V )>`, :g:`$UVC$ <0497.g1:< U V C )>` are :eq:`equal <0497.g1:< B W C ) = 0497.g1:< B U V ) = 0497.g1:< U V C )>` to one another.
 
 .. _folio-iii-0500:
 
@@ -192,11 +192,11 @@ I say next that it is also equiangular.
 
 .. subclause::
 
-   And it was also proved equilateral ;
+   And it was also proved :eq:`equilateral <0497.g1:/ U B / = 0497.g1:/ V U / = 0497.g1:/ C V / = 0497.g1:/ W C / = 0497.g1:/ B W />` ;
 
 .. assertion::
 
-   therefore the pentagon :g:`$BUVCW$ <0497.g1:< B U V C W >>` is equilateral and equiangular, and it is on one side :g:`$BC$ <0497.g1:/ B C />` of the cube.
+   therefore the pentagon :g:`$BUVCW$ <0497.g1:< B U V C W >>` is :eq:`equilateral <0497.g1:/ U B / = 0497.g1:/ V U / = 0497.g1:/ C V / = 0497.g1:/ W C / = 0497.g1:/ B W />` and equiangular, and it is on one side :g:`$BC$ <0497.g1:/ B C />` of the cube.
 
 .. subclause::
 
@@ -232,11 +232,11 @@ Let :g:`$UZ$ <0497.g1:/ U Z />` be joined.
 
 .. subclause::
 
-   But :g:`$NS$ <0497.g1:/ N S />` is equal to :g:`$XZ$ <0497.g1:/ X Z />`, inasmuch as :g:`$NP$ <0497.g1:/ N P />` is also equal to :g:`$PZ$ <0497.g1:/ P Z />`, and :g:`$XP$ <0497.g1:/ X P />` to :g:`$PS$ <0497.g1:/ P S />`.
+   But :g:`$NS$ <0497.g1:/ N S />` is :eq:`equal <0497.g1:/ N S / = 0497.g1:/ X Z />` to :g:`$XZ$ <0497.g1:/ X Z />`, inasmuch as :g:`$NP$ <0497.g1:/ N P />` is also :eq:`equal <0497.g1:/ N P / = 0497.g1:/ P Z /; 0497.g1:/ P X / = 0497.g1:/ P S />` to :g:`$PZ$ <0497.g1:/ P Z />`, and :g:`$XP$ <0497.g1:/ X P />` to :g:`$PS$ <0497.g1:/ P S />`.
 
 .. subclause::
 
-   But further :g:`$PS$ <0497.g1:/ P S />` is also equal to :g:`$XU$ <0497.g1:/ X U />`, since it is also equal to :g:`$RP$ <0497.g1:/ R P />` ;
+   But further :g:`$PS$ <0497.g1:/ P S />` is also :eq:`equal <0497.g1:/ P S / = 0497.g1:/ U X />` to :g:`$XU$ <0497.g1:/ X U />`, since it is also :eq:`equal <0497.g1:/ P S / = 0497.g1:/ R P />` to :g:`$RP$ <0497.g1:/ R P />` ;
 
 .. assertion::
 
@@ -295,7 +295,7 @@ But :g:`$NO$ <0497.g1:/ N O />` is greater than :g:`$RS$ <0497.g1:/ R S />` ; th
 
 .. subclause::
 
-   But :g:`$RS$ <0497.g1:/ R S />` is equal to :g:`$UV$ <0497.g1:/ U V />` ;
+   But :g:`$RS$ <0497.g1:/ R S />` is :eq:`equal <0497.g1:/ R S / = 0497.g1:/ V U />` to :g:`$UV$ <0497.g1:/ U V />` ;
 
 .. assertion::
 

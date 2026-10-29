@@ -21,7 +21,7 @@ As, from this point onward, the text of each proposition usually occupies consid
 
 Here we have to prove that a pair of corresponding sides are in the ratio of the corresponding diameters.
 
-Since $\angle\text{s}$ :g:`$BAE$ <0373.g1:< B A E )>`, :g:`$GFL$ <0373.g1:< G F L )>` are equal, and the sides about those angles proportional,
+Since $\angle\text{s}$ :g:`$BAE$ <0373.g1:< B A E )>`, :g:`$GFL$ <0373.g1:< G F L )>` are :eq:`equal <0373.g1:< B A E ) = 0373.g1:< G F L )>`, and the sides about those angles proportional,
 
 .. assertion::
 
@@ -33,7 +33,7 @@ so that
 
    $\angle$ :g:`$AEB$ <0373.g1:< A E B )>` $= \angle$ :g:`$FLG$ <0373.g1:< F L G )>`
 
-Hence their equals in the same segments, $\angle\text{s}$ :g:`$AMB$ <0373.g1:< A M B )>`, :g:`$FNG$ <0373.g1:< F N G )>`, are equal. And the right angles :g:`$BAM$ <0373.g1:< B A M )>`, :g:`$GFN$ <0373.g1:< G F N )>` are equal. Therefore $\triangle\text{s}$ :g:`$ABM$ <0373.g1:< A B M >>`, :g:`$FGN$ <0373.g1:< F G N >>` are equiangular, so that
+Hence their equals in the same segments, $\angle\text{s}$ :g:`$AMB$ <0373.g1:< A M B )>`, :g:`$FNG$ <0373.g1:< F N G )>`, are :eq:`equal <0373.g1:< A M B ) = 0373.g1:< F N G )>`. And the right angles :g:`$BAM$ <0373.g1:< B A M )>`, :g:`$GFN$ <0373.g1:< G F N )>` are :eq:`equal <0373.g1:< B A M ) = 0373.g1:< G F N )>`. Therefore $\triangle\text{s}$ :g:`$ABM$ <0373.g1:< A B M >>`, :g:`$FGN$ <0373.g1:< F G N >>` are equiangular, so that
 
 .. assertion::
 

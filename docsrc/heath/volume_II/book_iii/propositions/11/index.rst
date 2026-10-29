@@ -43,7 +43,7 @@ Then, since :g:`$AG$ <0030.g2:/ A G />`, :g:`$GF$ <0030.g2:/ G F />` are greater
 .. folio:: 0031
    :page: 25
 
-But :g:`$AG$ <0030.g2:/ A G />` is equal to :g:`$GD$ <0030.g2:/ G D />`;
+But :g:`$AG$ <0030.g2:/ A G />` is :eq:`equal <0030.g2:/ A G / = 0030.g2:/ G D />` to :g:`$GD$ <0030.g2:/ G D />`;
 
 .. assertion::
 

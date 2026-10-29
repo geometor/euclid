@@ -104,7 +104,7 @@ Now to :g:`$CD$ <0231.g1:/ C D />` let there be applied :g:`$CH$ <0231.g1:< C H 
 
 I say next that it is also a sixth apotome.
 
-For, since :g:`$FL$ <0231.g1:< F L >>` is equal to twice the rectangle :g:`$AG$ <0231.g1:/ A G />`, :g:`$GB$ <0231.g1:/ G B />`, let :g:`$FM$ <0231.g1:/ F M />` be bisected at :g:`$N$ <0231.g1:N>`, and let :g:`$NO$ <0231.g1:/ N O />` be drawn through :g:`$N$ <0231.g1:N>` parallel to :g:`$CD$ <0231.g1:/ C D />`; therefore each of the rectangles :g:`$FO$ <0231.g1:< F O >>`, :g:`$NL$ <0231.g1:< N L >>` is equal to the rectangle :g:`$AG$ <0231.g1:/ A G />`, :g:`$GB$ <0231.g1:/ G B />`.
+For, since :g:`$FL$ <0231.g1:< F L >>` is equal to twice the rectangle :g:`$AG$ <0231.g1:/ A G />`, :g:`$GB$ <0231.g1:/ G B />`, let :g:`$FM$ <0231.g1:/ F M />` be :eq:`bisected <0231.g1:/ F N / = 0231.g1:/ N M />` at :g:`$N$ <0231.g1:N>`, and let :g:`$NO$ <0231.g1:/ N O />` be drawn through :g:`$N$ <0231.g1:N>` parallel to :g:`$CD$ <0231.g1:/ C D />`; therefore each of the rectangles :g:`$FO$ <0231.g1:< F O >>`, :g:`$NL$ <0231.g1:< N L >>` is equal to the rectangle :g:`$AG$ <0231.g1:/ A G />`, :g:`$GB$ <0231.g1:/ G B />`.
 
 .. subclause::
 

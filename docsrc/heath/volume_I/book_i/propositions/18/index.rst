@@ -29,7 +29,7 @@ For let :g:`$ABC$ <0297.g1:< A B C >>` be a triangle having the side :g:`$AC$ <0
 
 I say that the angle :g:`$ABC$ <0297.g1:< A B C )>` is also greater than the angle :g:`$BCA$ <0297.g1:< B C A )>`.
 
-For, since :g:`$AC$ <0297.g1:/ A C />` is greater than :g:`$AB$ <0297.g1:/ A B />`, let :g:`$AD$ <0297.g1:/ A D />` be made equal to :g:`$AB$ <0297.g1:/ A B />` :just:`[I. 3] <I.3>`, and let :g:`$BD$ <0297.g1:/ B D />` be joined.
+For, since :g:`$AC$ <0297.g1:/ A C />` is greater than :g:`$AB$ <0297.g1:/ A B />`, let :g:`$AD$ <0297.g1:/ A D />` be made :eq:`equal <0297.g1:/ A D / = 0297.g1:/ A B />` to :g:`$AB$ <0297.g1:/ A B />` :just:`[I. 3] <I.3>`, and let :g:`$BD$ <0297.g1:/ B D />` be joined.
 
 Then, since the angle :g:`$ADB$ <0297.g1:< A D B )>` is an exterior angle of the triangle :g:`$BCD$ <0297.g1:< B C D >>`,
 
@@ -37,11 +37,11 @@ Then, since the angle :g:`$ADB$ <0297.g1:< A D B )>` is an exterior angle of the
 
    it is greater than the interior and opposite angle :g:`$DCB$ <0297.g1:< D C B )>`.
 
-But the angle :g:`$ADB$ <0297.g1:< A D B )>` is equal to the angle :g:`$ABD$ <0297.g1:< A B D )>`,
+But the angle :g:`$ADB$ <0297.g1:< A D B )>` is :eq:`equal <0297.g1:< A D B ) = 0297.g1:< A B D )>` to the angle :g:`$ABD$ <0297.g1:< A B D )>`,
 
 .. subclause::
 
-   since the side :g:`$AB$ <0297.g1:/ A B />` is equal to :g:`$AD$ <0297.g1:/ A D />`;
+   since the side :g:`$AB$ <0297.g1:/ A B />` is :eq:`equal <0297.g1:/ A B / = 0297.g1:/ A D />` to :g:`$AD$ <0297.g1:/ A D />`;
 
 .. assertion::
 

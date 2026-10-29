@@ -53,11 +53,11 @@ Thus :just:`[XIII. 10, note]` $\text{(side of pentagon)}^2 = \frac{r^2}{5} (10 -
 .. picture:: 0491.g1.svg
    :alt: Proposition 16, Alternative Figure
 
-Inscribe the regular pentagon :g:`$EFGHK$ <0491.g1:< E F G H K >>` in the circle :g:`$EFGHK$ <0491.g1:( E F G H K )>` of radius equal to :g:`$BD$ <0491.g1:/ B D />`. Bisect the arcs :g:`$EF$ <0491.g1:( E F )>`, :g:`$FG$ <0491.g1:( F G )>`, ..., so forming a decagon in the circle. Joining successive points of bisection, we obtain another regular pentagon :g:`$LMNOP$ <0491.g1:< L M N O P >>`.
+Inscribe the regular pentagon :g:`$EFGHK$ <0491.g1:< E F G H K >>` in the circle :g:`$EFGHK$ <0491.g1:( E F G H K )>` of radius :eq:`equal <0491.g1:/ V E / = 0491.g1:/ B D />` to :g:`$BD$ <0491.g1:/ B D />`. Bisect the arcs :g:`$EF$ <0491.g1:( E F )>`, :g:`$FG$ <0491.g1:( F G )>`, ..., so forming a decagon in the circle. Joining successive points of bisection, we obtain another regular pentagon :g:`$LMNOP$ <0491.g1:< L M N O P >>`.
 
 :g:`$LMNOP$ <0491.g1:< L M N O P >>` *is one of the pentagons containing five edges of the icosahedron.*
 
-The other circle and inscribed pentagon are obtained by drawing perpendiculars from :g:`$E$ <0491.g1:E>`, :g:`$F$ <0491.g1:F>`, :g:`$G$ <0491.g1:G>`, :g:`$H$ <0491.g1:H>`, :g:`$K$ <0491.g1:K>` to the plane of the circle, as :g:`$EQ$ <0491.g1:/ E Q />`, :g:`$FR$ <0491.g1:/ F R />`, :g:`$GS$ <0491.g1:/ G S />`, :g:`$HT$ <0491.g1:/ H T />`, :g:`$KU$ <0491.g1:/ K U />`, and making each of these perpendiculars equal to the radius of the circle, or, as Euclid says, the side of the regular hexagon in it.
+The other circle and inscribed pentagon are obtained by drawing perpendiculars from :g:`$E$ <0491.g1:E>`, :g:`$F$ <0491.g1:F>`, :g:`$G$ <0491.g1:G>`, :g:`$H$ <0491.g1:H>`, :g:`$K$ <0491.g1:K>` to the plane of the circle, as :g:`$EQ$ <0491.g1:/ E Q />`, :g:`$FR$ <0491.g1:/ F R />`, :g:`$GS$ <0491.g1:/ G S />`, :g:`$HT$ <0491.g1:/ H T />`, :g:`$KU$ <0491.g1:/ K U />`, and making each of these perpendiculars :eq:`equal <0491.g1:/ E Q / = 0491.g1:/ F R / = 0491.g1:/ G S / = 0491.g1:/ H T / = 0491.g1:/ K U / = 0491.g1:/ V E />` to the radius of the circle, or, as Euclid says, the side of the regular hexagon in it.
 
 :g:`$QRSTU$ <0491.g1:< Q R S T U >>` *is the second pentagon (of course equal to the first) containing five edges of the icosahedron.*
 
@@ -76,11 +76,11 @@ have five more triangles formed with the sides of each pentagon as bases, ten mo
 
 Now we come to the proof.
 
-(3) Taking two adjacent perpendiculars, :g:`$EQ$ <0491.g1:/ E Q />`, :g:`$KU$ <0491.g1:/ K U />`, to the plane of the circle :g:`$EFGHK$ <0491.g1:( E F G H K )>`, we see that they are parallel as well as equal; therefore :g:`$QU$ <0491.g1:/ Q U />`, :g:`$EK$ <0491.g1:/ E K />` are equal and parallel.
+(3) Taking two adjacent perpendiculars, :g:`$EQ$ <0491.g1:/ E Q />`, :g:`$KU$ <0491.g1:/ K U />`, to the plane of the circle :g:`$EFGHK$ <0491.g1:( E F G H K )>`, we see that they are parallel as well as :eq:`equal <0491.g1:/ E Q / = 0491.g1:/ K U />`; therefore :g:`$QU$ <0491.g1:/ Q U />`, :g:`$EK$ <0491.g1:/ E K />` are :eq:`equal <0491.g1:/ U Q / = 0491.g1:/ K E />` and parallel.
 
 Similarly for :g:`$QR$ <0491.g1:/ Q R />`, :g:`$EF$ <0491.g1:/ E F />` etc.
 
-Thus the pentagons have their sides equal.
+Thus the pentagons have their sides :eq:`equal <0491.g1:/ Q R / = 0491.g1:/ R S / = 0491.g1:/ S T / = 0491.g1:/ T U / = 0491.g1:/ U Q / = 0491.g1:/ E F / = 0491.g1:/ F G / = 0491.g1:/ G H / = 0491.g1:/ H K / = 0491.g1:/ K E />`.
 
 To prove that the triangles :g:`$QPL$ <0491.g1:< Q P L >>` etc., are equilateral, we have, e.g. :g:`$QL$ <0491.g1:/ Q L />` $^2 = $ :g:`$LE$ <0491.g1:/ L E />` $^2 + $ :g:`$EQ$ <0491.g1:/ E Q />` $^2$
 
@@ -88,11 +88,11 @@ $$= (\text{side of decagon})^2 + (\text{side of hexagon})^2$$
 
 $$= (\text{side of pentagon})^2, \qquad \text{[XIII. 10]}$$
 
-i.e. :g:`$QL$ <0491.g1:/ Q L />` $= (\text{side of pentagon in circle})$ $= $ :g:`$LP$ <0491.g1:/ L P />`. Similarly :g:`$QP$ <0491.g1:/ Q P />` $= $ :g:`$LP$ <0491.g1:/ L P />`, and $\triangle$ :g:`$QPL$ <0491.g1:< Q P L >>` is equilateral.
+i.e. :g:`$QL$ <0491.g1:/ Q L />` $= (\text{side of pentagon in circle})$ $= $ :g:`$LP$ <0491.g1:/ L P />`. Similarly :g:`$QP$ <0491.g1:/ Q P />` $= $ :g:`$LP$ <0491.g1:/ L P />`, and $\triangle$ :g:`$QPL$ <0491.g1:< Q P L >>` is :eq:`equilateral <0491.g1:/ Q L / = 0491.g1:/ P Q / = 0491.g1:/ P L />`.
 
 So for the other triangles between the two pentagons.
 
-(4) Since :g:`$VW$ <0491.g1:/ V W />`, :g:`$EQ$ <0491.g1:/ E Q />` are equal and parallel, :g:`$VE$ <0491.g1:/ V E />`, :g:`$WQ$ <0491.g1:/ W Q />` are equal and parallel. Thus :g:`$WQ$ <0491.g1:/ W Q />` is equal to the side of a regular hexagon in the circles.
+(4) Since :g:`$VW$ <0491.g1:/ V W />`, :g:`$EQ$ <0491.g1:/ E Q />` are :eq:`equal <0491.g1:/ V W / = 0491.g1:/ E Q />` and parallel, :g:`$VE$ <0491.g1:/ V E />`, :g:`$WQ$ <0491.g1:/ W Q />` are :eq:`equal <0491.g1:/ V E / = 0491.g1:/ W Q />` and parallel. Thus :g:`$WQ$ <0491.g1:/ W Q />` is equal to the side of a regular hexagon in the circles.
 
 Now the angle :g:`$ZWQ$ <0491.g1:< Z W Q )>` is right; therefore :g:`$ZQ$ <0491.g1:/ Z Q />` $^2 = $ :g:`$ZW$ <0491.g1:/ Z W />` $^2 + $ :g:`$WQ$ <0491.g1:/ W Q />` $^2$
 
@@ -100,7 +100,7 @@ $$= (\text{side of decagon})^2 + (\text{side of hexagon})^2$$
 
 $$= (\text{side of pentagon})^2. \qquad \text{[XIII. 10]}$$
 
-Thus :g:`$ZQ$ <0491.g1:/ Z Q />`, :g:`$ZR$ <0491.g1:/ Z R />`, :g:`$ZS$ <0491.g1:/ Z S />`, :g:`$ZT$ <0491.g1:/ Z T />`, :g:`$ZU$ <0491.g1:/ Z U />` are all equal to :g:`$QR$ <0491.g1:/ Q R />`, :g:`$RS$ <0491.g1:/ R S />` etc. ; and the triangles with :g:`$Z$ <0491.g1:Z>` as vertex and bases :g:`$QR$ <0491.g1:/ Q R />`, :g:`$RS$ <0491.g1:/ R S />` etc. are equilateral.
+Thus :g:`$ZQ$ <0491.g1:/ Z Q />`, :g:`$ZR$ <0491.g1:/ Z R />`, :g:`$ZS$ <0491.g1:/ Z S />`, :g:`$ZT$ <0491.g1:/ Z T />`, :g:`$ZU$ <0491.g1:/ Z U />` are all :eq:`equal <0491.g1:/ Z Q / = 0491.g1:/ Z R / = 0491.g1:/ Z S / = 0491.g1:/ Z T / = 0491.g1:/ Z U / = 0491.g1:/ Q R / = 0491.g1:/ R S />` to :g:`$QR$ <0491.g1:/ Q R />`, :g:`$RS$ <0491.g1:/ R S />` etc. ; and the triangles with :g:`$Z$ <0491.g1:Z>` as vertex and bases :g:`$QR$ <0491.g1:/ Q R />`, :g:`$RS$ <0491.g1:/ R S />` etc. are :eq:`equilateral <0491.g1:/ Z Q / = 0491.g1:/ Z R / = 0491.g1:/ Z S / = 0491.g1:/ Z T / = 0491.g1:/ Z U / = 0491.g1:/ Q R / = 0491.g1:/ R S / = 0491.g1:/ S T / = 0491.g1:/ T U / = 0491.g1:/ U Q />`.
 
 Similarly for the triangles with :g:`$X$ <0491.g1:X>` as vertex and :g:`$LM$ <0491.g1:/ L M />`, :g:`$MN$ <0491.g1:/ M N />` etc. as bases.
 
@@ -108,7 +108,7 @@ Hence the figure is an icosahedron, being contained by twenty equal equilateral 
 
 (5) *To prove that all the vertices of the icosahedron lie on the sphere which has* :g:`$XZ$ <0491.g1:/ X Z />` *for diameter.*
 
-:g:`$VW$ <0491.g1:/ V W />` being equal to the side of a regular hexagon, and :g:`$WZ$ <0491.g1:/ W Z />` to the side of a regular decagon inscribed in the same circle, :g:`$VZ$ <0491.g1:/ V Z />` is divided at :g:`$W$ <0491.g1:W>` in extreme and mean ratio. :just:`[XIII. 9] <XIII.9>`
+:g:`$VW$ <0491.g1:/ V W />` being :eq:`equal <0491.g1:/ V W / = 0491.g1:/ V E />; 0491.g1:/ W Z / = 0491.g1:/ E L />` to the side of a regular hexagon, and :g:`$WZ$ <0491.g1:/ W Z />` to the side of a regular decagon inscribed in the same circle, :g:`$VZ$ <0491.g1:/ V Z />` is divided at :g:`$W$ <0491.g1:W>` in extreme and mean ratio. :just:`[XIII. 9] <XIII.9>`
 
 Therefore :g:`$ZV$ <0491.g1:/ Z V />` $:$ :g:`$VW$ <0491.g1:/ V W />` $= $ :g:`$VW$ <0491.g1:/ V W />` $:$ :g:`$WZ$ <0491.g1:/ W Z />`, or, since :g:`$VW$ <0491.g1:/ V W />` $= $ :g:`$VE$ <0491.g1:/ V E />`, :g:`$WZ$ <0491.g1:/ W Z />` $= $ :g:`$VX$ <0491.g1:/ V X />`, :g:`$ZV$ <0491.g1:/ Z V />` $:$ :g:`$VE$ <0491.g1:/ V E />` $= $ :g:`$VE$ <0491.g1:/ V E />` $:$ :g:`$VX$ <0491.g1:/ V X />`.
 
@@ -148,7 +148,7 @@ $$= \frac{r}{5} \sqrt{10(5 - \sqrt{5})}.]$$
 
 **Pappus' solution.** This solution (:person:`Pappus <pappus>`, III. pp. 150—6) differs considerably from that of Euclid. Whereas Euclid uses *two* circular sections of the sphere (those circumscribing the pentagons of his construction), :person:`Pappus <pappus>` finds *four* parallel circular sections each passing through three of the vertices of the icosahedron; two of the circles are small circles circumscribing two opposite triangular faces respectively, and the other two circles are between these two circles, parallel to them and equal to one another.
 
-*Analysis.* Suppose the problem solved, the vertices of the icosahedron being :g:`$A$ <0494.g1:A>`, :g:`$B$ <0494.g1:B>`, :g:`$C$ <0494.g1:C>`; :g:`$D$ <0494.g1:D>`, :g:`$E$ <0494.g1:E>`, :g:`$F$ <0494.g1:F>`; :g:`$G$ <0494.g1:G>`, :g:`$H$ <0494.g1:H>`, :g:`$K$ <0494.g1:K>`; :g:`$L$ <0494.g1:L>`, :g:`$M$ <0494.g1:M>`, :g:`$N$ <0494.g1:N>`. Since the straight lines :g:`$BA$ <0494.g1:/ B A />`, :g:`$BC$ <0494.g1:/ B C />`, :g:`$BF$ <0494.g1:/ B F />`, :g:`$BG$ <0494.g1:/ B G />`, :g:`$BE$ <0494.g1:/ B E />` drawn from :g:`$B$ <0494.g1:B>` to the surface of the sphere are equal, :g:`$A$ <0494.g1:A>`, :g:`$C$ <0494.g1:C>`, :g:`$F$ <0494.g1:F>`, :g:`$G$ <0494.g1:G>`, :g:`$E$ <0494.g1:E>` are in one plane. And :g:`$AC$ <0494.g1:/ A C />`, :g:`$CF$ <0494.g1:/ C F />`, :g:`$FG$ <0494.g1:/ F G />`, :g:`$GE$ <0494.g1:/ G E />`, :g:`$EA$ <0494.g1:/ E A />` are equal; therefore :g:`$ACFGE$ <0494.g1:< A C F G E >>` is an equilateral and equiangular pentagon. So are the figures :g:`$KEBCD$ <0494.g1:< K E B C D >>`, :g:`$DHFBA$ <0494.g1:< D H F B A >>`, :g:`$AKLGB$ <0494.g1:< A K L G B >>`, :g:`$AKNHC$ <0494.g1:< A K N H C >>`, and :g:`$CHMGB$ <0494.g1:< C H M G B >>`. Join :g:`$EF$ <0494.g1:/ E F />`, :g:`$KH$ <0494.g1:/ K H />`.
+*Analysis.* Suppose the problem solved, the vertices of the icosahedron being :g:`$A$ <0494.g1:A>`, :g:`$B$ <0494.g1:B>`, :g:`$C$ <0494.g1:C>`; :g:`$D$ <0494.g1:D>`, :g:`$E$ <0494.g1:E>`, :g:`$F$ <0494.g1:F>`; :g:`$G$ <0494.g1:G>`, :g:`$H$ <0494.g1:H>`, :g:`$K$ <0494.g1:K>`; :g:`$L$ <0494.g1:L>`, :g:`$M$ <0494.g1:M>`, :g:`$N$ <0494.g1:N>`. Since the straight lines :g:`$BA$ <0494.g1:/ B A />`, :g:`$BC$ <0494.g1:/ B C />`, :g:`$BF$ <0494.g1:/ B F />`, :g:`$BG$ <0494.g1:/ B G />`, :g:`$BE$ <0494.g1:/ B E />` drawn from :g:`$B$ <0494.g1:B>` to the surface of the sphere are :eq:`equal <0494.g1:/ B A / = 0494.g1:/ B C / = 0494.g1:/ B F / = 0494.g1:/ B G / = 0494.g1:/ B E />`, :g:`$A$ <0494.g1:A>`, :g:`$C$ <0494.g1:C>`, :g:`$F$ <0494.g1:F>`, :g:`$G$ <0494.g1:G>`, :g:`$E$ <0494.g1:E>` are in one plane. And :g:`$AC$ <0494.g1:/ A C />`, :g:`$CF$ <0494.g1:/ C F />`, :g:`$FG$ <0494.g1:/ F G />`, :g:`$GE$ <0494.g1:/ G E />`, :g:`$EA$ <0494.g1:/ E A />` are :eq:`equal <0494.g1:/ A C / = 0494.g1:/ C F / = 0494.g1:/ F G / = 0494.g1:/ G E / = 0494.g1:/ E A />`; therefore :g:`$ACFGE$ <0494.g1:< A C F G E >>` is an :eq:`equilateral <0494.g1:/ A C / = 0494.g1:/ C F / = 0494.g1:/ F G / = 0494.g1:/ G E / = 0494.g1:/ E A />` and equiangular pentagon. So are the figures :g:`$KEBCD$ <0494.g1:< K E B C D >>`, :g:`$DHFBA$ <0494.g1:< D H F B A >>`, :g:`$AKLGB$ <0494.g1:< A K L G B >>`, :g:`$AKNHC$ <0494.g1:< A K N H C >>`, and :g:`$CHMGB$ <0494.g1:< C H M G B >>`. Join :g:`$EF$ <0494.g1:/ E F />`, :g:`$KH$ <0494.g1:/ K H />`.
 
 .. _folio-iii-0494:
 
@@ -162,11 +162,11 @@ Now :g:`$AC$ <0494.g1:/ A C />` will be parallel to :g:`$EF$ <0494.g1:/ E F />` 
 
 Similarly :g:`$BC$ <0494.g1:/ B C />`, :g:`$ED$ <0494.g1:/ E D />`, :g:`$GH$ <0494.g1:/ G H />`, :g:`$LN$ <0494.g1:/ L N />` are all parallel ; and likewise :g:`$BA$ <0494.g1:/ B A />`, :g:`$FD$ <0494.g1:/ F D />`, :g:`$GK$ <0494.g1:/ G K />`, :g:`$MN$ <0494.g1:/ M N />` are all parallel.
 
-Since :g:`$BC$ <0494.g1:/ B C />` is equal and parallel to :g:`$LN$ <0494.g1:/ L N />`, and :g:`$BA$ <0494.g1:/ B A />` to :g:`$MN$ <0494.g1:/ M N />`, the circles :g:`$ABC$ <0494.g1:( A B C )>`, :g:`$LMN$ <0494.g1:( L M N )>` are equal and parallel.
+Since :g:`$BC$ <0494.g1:/ B C />` is :eq:`equal <0494.g1:/ B C / = 0494.g1:/ L N />; 0494.g1:/ B A / = 0494.g1:/ M N />` and parallel to :g:`$LN$ <0494.g1:/ L N />`, and :g:`$BA$ <0494.g1:/ B A />` to :g:`$MN$ <0494.g1:/ M N />`, the circles :g:`$ABC$ <0494.g1:( A B C )>`, :g:`$LMN$ <0494.g1:( L M N )>` are :eq:`equal <0494.g1:( A B C ) = 0494.g1:( L M N )>` and parallel.
 
-Similarly the circles :g:`$DEF$ <0494.g1:( D E F )>`, :g:`$KGH$ <0494.g1:( K G H )>` are equal and parallel; for the triangles inscribed in them are equal (since each of the sides in both is the chord subtending an angle of equal pentagons), and their sides are parallel respectively.
+Similarly the circles :g:`$DEF$ <0494.g1:( D E F )>`, :g:`$KGH$ <0494.g1:( K G H )>` are :eq:`equal <0494.g1:( D E F ) = 0494.g1:( K G H )>` and parallel; for the triangles inscribed in them are :eq:`equal <0494.g1:< D E F > = 0494.g1:< K G H >>` (since each of the sides in both is the chord subtending an angle of equal pentagons), and their sides are parallel respectively.
 
-Now in the equal and parallel circles :g:`$DEF$ <0494.g1:( D E F )>`, :g:`$KGH$ <0494.g1:( K G H )>` the chords :g:`$EF$ <0494.g1:/ E F />`, :g:`$KH$ <0494.g1:/ K H />` are equal and parallel, and on opposite sides of the centres; therefore :g:`$FK$ <0494.g1:/ F K />` is a diameter of the sphere :just:`[Pappus' lemma, pp. 136—8]`, and the angle :g:`$FEK$ <0494.g1:< F E K )>` is right :just:`[Pappus' lemma, p. 138, 20—26]`.
+Now in the :eq:`equal <0494.g1:( D E F ) = 0494.g1:( K G H )>` and parallel circles :g:`$DEF$ <0494.g1:( D E F )>`, :g:`$KGH$ <0494.g1:( K G H )>` the chords :g:`$EF$ <0494.g1:/ E F />`, :g:`$KH$ <0494.g1:/ K H />` are :eq:`equal <0494.g1:/ E F / = 0494.g1:/ K H />` and parallel, and on opposite sides of the centres; therefore :g:`$FK$ <0494.g1:/ F K />` is a diameter of the sphere :just:`[Pappus' lemma, pp. 136—8]`, and the angle :g:`$FEK$ <0494.g1:< F E K )>` is right :just:`[Pappus' lemma, p. 138, 20—26]`.
 
 [The diameter :g:`$FK$ <0494.g1:/ F K />` is not actually drawn in the figure.]
 
@@ -185,11 +185,11 @@ But :g:`$FK$ <0494.g1:/ F K />`, the diameter of the sphere, is given; therefore
 .. folio:: 0495
    :page: 491
 
-Hence the circles are given. and so are the circles :g:`$KHG$ <0494.g1:( K H G )>`, :g:`$LMN$ <0494.g1:( L M N )>` which are equal and parallel to them respectively.
+Hence the circles are given. and so are the circles :g:`$KHG$ <0494.g1:( K H G )>`, :g:`$LMN$ <0494.g1:( L M N )>` which are :eq:`equal <0494.g1:( K G H ) = 0494.g1:( D E F ); 0494.g1:( L M N ) = 0494.g1:( A B C )>` and parallel to them respectively.
 
 *Synthesis.* If $d$ be the diameter of the sphere, set out two straight lines :g:`$x$ <0494.g1:/ x />`, :g:`$y$ <0494.g1:/ y />`, such that $d$, :g:`$x$ <0494.g1:/ x />`, :g:`$y$ <0494.g1:/ y />` are in the ratio of the sides of the pentagon, hexagon and decagon respectively inscribed in one and the same circle.
 
-Draw (1) two equal and parallel circular sections in the sphere, with radii equal to $r$, where $r^2 = \frac{1}{3}$ :g:`$x$ <0494.g1:/ x />` $^2$, as :g:`$DEF$ <0494.g1:( D E F )>`, :g:`$KGH$ <0494.g1:( K G H )>`, and (2) two equal and parallel circular sections as :g:`$ABC$ <0494.g1:( A B C )>`, :g:`$LMN$ <0494.g1:( L M N )>`, with radius $r'$ such that $r'^2 = \frac{1}{3}$ :g:`$y$ <0494.g1:/ y />` $^2$.
+Draw (1) two :eq:`equal <0494.g1:( D E F ) = 0494.g1:( K G H )>` and parallel circular sections in the sphere, with radii equal to $r$, where $r^2 = \frac{1}{3}$ :g:`$x$ <0494.g1:/ x />` $^2$, as :g:`$DEF$ <0494.g1:( D E F )>`, :g:`$KGH$ <0494.g1:( K G H )>`, and (2) two :eq:`equal <0494.g1:( A B C ) = 0494.g1:( L M N )>` and parallel circular sections as :g:`$ABC$ <0494.g1:( A B C )>`, :g:`$LMN$ <0494.g1:( L M N )>`, with radius $r'$ such that $r'^2 = \frac{1}{3}$ :g:`$y$ <0494.g1:/ y />` $^2$.
 
 In the circles (1) draw :g:`$EF$ <0494.g1:/ E F />`, :g:`$KH$ <0494.g1:/ K H />` as sides of inscribed equilateral triangles, parallel to one another, and on opposite sides of the centres; and in the circles (2) draw :g:`$AC$ <0494.g1:/ A C />`, :g:`$LM$ <0494.g1:/ L M />` as sides of inscribed equilateral triangles parallel to one another and to :g:`$EF$ <0494.g1:/ E F />`, :g:`$KH$ <0494.g1:/ K H />`, and so that :g:`$AC$ <0494.g1:/ A C />`, :g:`$EF$ <0494.g1:/ E F />` are on opposite sides of the centres, and likewise :g:`$KH$ <0494.g1:/ K H />`, :g:`$LM$ <0494.g1:/ L M />`.
 
@@ -209,7 +209,7 @@ Construct a cube with edge equal to $l$. Let :g:`$O$ <0496.g1:O>` be the centre 
 
 From :g:`$O$ <0496.g1:O>` draw :g:`$OL$ <0496.g1:/ O L />`, :g:`$OM$ <0496.g1:/ O M />`, :g:`$ON$ <0496.g1:/ O N />` perpendicular to three adjacent faces, and in these draw :g:`$PP'$ <0496.g1:/ P P' />`, :g:`$QQ'$ <0496.g1:/ Q Q' />`, :g:`$RR'$ <0496.g1:/ R R' />` parallel to :g:`$AB$ <0496.g1:/ A B />`, :g:`$AD$ <0496.g1:/ A D />`, :g:`$AE$ <0496.g1:/ A E />` respectively.
 
-Make :g:`$LP$ <0496.g1:/ L P />`, :g:`$LP'$ <0496.g1:/ L P' />`, :g:`$MQ$ <0496.g1:/ M Q />`, :g:`$MQ'$ <0496.g1:/ M Q' />`, :g:`$NR$ <0496.g1:/ N R />`, :g:`$NR'$ <0496.g1:/ N R' />` all equal to $\frac{1}{2}a$.
+Make :g:`$LP$ <0496.g1:/ L P />`, :g:`$LP'$ <0496.g1:/ L P' />`, :g:`$MQ$ <0496.g1:/ M Q />`, :g:`$MQ'$ <0496.g1:/ M Q' />`, :g:`$NR$ <0496.g1:/ N R />`, :g:`$NR'$ <0496.g1:/ N R' />` all :eq:`equal <0496.g1:/ L P / = 0496.g1:/ L P' / = 0496.g1:/ M Q / = 0496.g1:/ M Q' / = 0496.g1:/ N R / = 0496.g1:/ N R' />` to $\frac{1}{2}a$.
 
 Let :g:`$\bar{p}$ <0496.g1:p>`, :g:`$\bar{p}'$ <0496.g1:p'>`, :g:`$\bar{q}$ <0496.g1:q>`, :g:`$\bar{q}'$ <0496.g1:q'>`, :g:`$\bar{r}$ <0496.g1:r>`, :g:`$\bar{r}'$ <0496.g1:r'>` be the reflexes of :g:`$P$ <0496.g1:P>`, :g:`$P'$ <0496.g1:P'>`, :g:`$Q$ <0496.g1:Q>`, :g:`$Q'$ <0496.g1:Q'>`, :g:`$R$ <0496.g1:R>`, :g:`$R'$ <0496.g1:R'>` respectively.
 

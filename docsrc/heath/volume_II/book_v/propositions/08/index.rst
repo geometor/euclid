@@ -37,7 +37,7 @@ ratio than it has to :g:`$AB$ <0156.g1:/ A B />`.
    :alt: Proposition 8 Diagram (Case 1)
 
 For, since :g:`$AB$ <0156.g1:/ A B />` is greater
-than :g:`$C$ <0156.g1:C>`, let :g:`$BE$ <0156.g1:/ E B />` be made equal
+than :g:`$C$ <0156.g1:C>`, let :g:`$BE$ <0156.g1:/ E B />` be made :eq:`equal <0156.g1:/ E B / = 0156.g1:C>`
 to :g:`$C$ <0156.g1:C>` ;
 then the less of the magnitudes
 :g:`$AE$ <0156.g1:/ A E />`, :g:`$EB$ <0156.g1:/ E B />`, if multiplied,
@@ -77,11 +77,11 @@ But :g:`$FG$ <0156.g1:/ F G />` is the same multiple of :g:`$AE$ <0156.g1:/ A E 
 
 Again, since :g:`$GH$ <0156.g1:/ G H />` is the same multiple of :g:`$EB$ <0156.g1:/ E B />` that :g:`$K$ <0156.g1:K>` is
 of :g:`$C$ <0156.g1:C>`,
-and :g:`$EB$ <0156.g1:/ E B />` is equal to :g:`$C$ <0156.g1:C>`,
+and :g:`$EB$ <0156.g1:/ E B />` is :eq:`equal <0156.g1:/ E B / = 0156.g1:C>` to :g:`$C$ <0156.g1:C>`,
 
 .. assertion::
 
-   therefore :g:`$GH$ <0156.g1:/ G H />` is equal to :g:`$K$ <0156.g1:K>`.
+   therefore :g:`$GH$ <0156.g1:/ G H />` is :eq:`equal <0156.g1:/ G H / = 0156.g1:K>` to :g:`$K$ <0156.g1:K>`.
 
 .. _folio-ii-0157:
 

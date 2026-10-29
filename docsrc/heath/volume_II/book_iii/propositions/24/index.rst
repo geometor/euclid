@@ -21,13 +21,13 @@ PROPOSITION 24.
    Similar segments of circles on equal straight lines are equal to one another.
 
 For let :g:`$AEB$ <0060.g1:( A E B )>`, :g:`$CFD$ <0060.g1:( C F D )>` be similar segments of circles on
-equal straight lines :g:`$AB$ <0060.g1:/ A B />`, :g:`$CD$ <0060.g1:/ C D />`;
-I say that the segment :g:`$AEB$ <0060.g1:( A E B )>` is equal to the segment :g:`$CFD$ <0060.g1:( C F D )>`.
+:eq:`equal <0060.g1:/ A B / = 0060.g1:/ C D />` straight lines :g:`$AB$ <0060.g1:/ A B />`, :g:`$CD$ <0060.g1:/ C D />`;
+I say that the segment :g:`$AEB$ <0060.g1:( A E B )>` is :eq:`equal <0060.g1:( A E B ) = 0060.g1:( C F D )>` to the segment :g:`$CFD$ <0060.g1:( C F D )>`.
 
 For, if the segment :g:`$AEB$ <0060.g1:( A E B )>` be applied to :g:`$CFD$ <0060.g1:( C F D )>`, and if the
 point :g:`$A$ <0060.g1:A>` be placed on :g:`$C$ <0060.g1:C>` and the straight line :g:`$AB$ <0060.g1:/ A B />` on :g:`$CD$ <0060.g1:/ C D />`,
 the point :g:`$B$ <0060.g1:B>` will also coincide with the point :g:`$D$ <0060.g1:D>`, because
-:g:`$AB$ <0060.g1:/ A B />` is equal to :g:`$CD$ <0060.g1:/ C D />`;
+:g:`$AB$ <0060.g1:/ A B />` is :eq:`equal <0060.g1:/ A B / = 0060.g1:/ C D />` to :g:`$CD$ <0060.g1:/ C D />`;
 
 .. _folio-ii-0060:
 
@@ -54,7 +54,7 @@ segment :g:`$AEB$ <0060.g1:( A E B )>` will not fail to coincide with :g:`$CFD$ 
 
 .. assertion::
 
-   therefore it will coincide with it and will be equal to it.
+   therefore it will coincide with it and will be :eq:`equal <0060.g1:( A E B ) = 0060.g1:( C F D )>` to it.
 
 .. qed::
 

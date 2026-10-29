@@ -56,7 +56,7 @@ Let :g:`$CD$ <0326.g1:/ C D />` be divided into the parts of :g:`$A$ <0326.g1:A>
 
 .. subclause::
 
-   Now, since the numbers :g:`$CG$ <0326.g1:/ C G />`, :g:`$GD$ <0326.g1:/ G D />` are equal to one another, and the numbers :g:`$EH$ <0326.g1:/ E H />`, :g:`$HF$ <0326.g1:/ H F />` are also equal to one another, while the multitude of :g:`$CG$ <0326.g1:/ C G />`, :g:`$GD$ <0326.g1:/ G D />` is equal to the multitude of :g:`$EH$ <0326.g1:/ E H />`, :g:`$HF$ <0326.g1:/ H F />`,
+   Now, since the numbers :g:`$CG$ <0326.g1:/ C G />`, :g:`$GD$ <0326.g1:/ G D />` are :eq:`equal <0326.g1:/ C G / = 0326.g1:/ G D />` to one another, and the numbers :g:`$EH$ <0326.g1:/ E H />`, :g:`$HF$ <0326.g1:/ H F />` are also :eq:`equal <0326.g1:/ E H / = 0326.g1:/ H F />` to one another, while the multitude of :g:`$CG$ <0326.g1:/ C G />`, :g:`$GD$ <0326.g1:/ G D />` is equal to the multitude of :g:`$EH$ <0326.g1:/ E H />`, :g:`$HF$ <0326.g1:/ H F />`,
 
 .. assertion::
 

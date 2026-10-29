@@ -24,7 +24,7 @@ Let :g:`$BA$ <0220.g1:/ B A />`, :g:`$AC$ <0220.g1:/ A C />` be the two given st
 
 thus it is required to find a third proportional to :g:`$BA$ <0220.g1:/ B A />`, :g:`$AC$ <0220.g1:/ A C />`.
 
-For let them be produced to the points :g:`$D$ <0220.g1:D>`, :g:`$E$ <0220.g1:E>`, and let :g:`$BD$ <0220.g1:/ B D />` be made equal to :g:`$AC$ <0220.g1:/ A C />`; :just:`[I. 3] <I.3>`
+For let them be produced to the points :g:`$D$ <0220.g1:D>`, :g:`$E$ <0220.g1:E>`, and let :g:`$BD$ <0220.g1:/ B D />` be made :eq:`equal <0220.g1:/ B D / = 0220.g1:/ A C />` to :g:`$AC$ <0220.g1:/ A C />`; :just:`[I. 3] <I.3>`
 
 let :g:`$BC$ <0220.g1:/ B C />` be joined, and through :g:`$D$ <0220.g1:D>` let :g:`$DE$ <0220.g1:/ D E />` be drawn parallel to it. :just:`[I. 31] <I.31>`
 
@@ -39,7 +39,7 @@ Since, then, :g:`$BC$ <0220.g1:/ B C />` has been drawn parallel to :g:`$DE$ <02
 
 .. assertion::
 
-   But :g:`$BD$ <0220.g1:/ B D />` is equal to :g:`$AC$ <0220.g1:/ A C />`; therefore, as :g:`$AB$ <0220.g1:/ A B />` is to :g:`$AC$ <0220.g1:/ A C />`, so is :g:`$AC$ <0220.g1:/ A C />` to :g:`$CE$ <0220.g1:/ C E />`.
+   But :g:`$BD$ <0220.g1:/ B D />` is :eq:`equal <0220.g1:/ B D / = 0220.g1:/ A C />` to :g:`$AC$ <0220.g1:/ A C />`; therefore, as :g:`$AB$ <0220.g1:/ A B />` is to :g:`$AC$ <0220.g1:/ A C />`, so is :g:`$AC$ <0220.g1:/ A C />` to :g:`$CE$ <0220.g1:/ C E />`.
 
 .. qed::
 

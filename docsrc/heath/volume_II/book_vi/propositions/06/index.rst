@@ -21,25 +21,25 @@ PROPOSITION 6.
    If two triangles have one angle equal to one angle and the sides about the equal angles proportional, the triangles will be equiangular and will have those angles equal which the corresponding sides subtend.
 
 Let :g:`$ABC$ <0211.g1:< A B C >>`, :g:`$DEF$ <0211.g1:< D E F >>` be two triangles having one angle :g:`$BAC$ <0211.g1:< B A C )>`
-equal to one angle :g:`$EDF$ <0211.g1:< E D F )>` and the sides about the equal angles
+:eq:`equal <0211.g1:< B A C ) = 0211.g1:< E D F )>` to one angle :g:`$EDF$ <0211.g1:< E D F )>` and the sides about the equal angles
 proportional, so that,
 
 .. assertion::
 
    as :g:`$BA$ <0211.g1:/ B A />` is to :g:`$AC$ <0211.g1:/ A C />`, so is :g:`$ED$ <0211.g1:/ E D />` to :g:`$DF$ <0211.g1:/ D F />`;
 
-I say that the triangle :g:`$ABC$ <0211.g1:< A B C >>` is equiangular with the triangle
-:g:`$DEF$ <0211.g1:< D E F >>`, and will have the angle :g:`$ABC$ <0211.g1:< A B C )>` equal to the angle :g:`$DEF$ <0211.g1:< D E F )>`,
+I say that the triangle :g:`$ABC$ <0211.g1:< A B C >>` is :eq:`equiangular <0211.g1:< B A C ) = 0211.g1:< E D F ); 0211.g1:< A B C ) = 0211.g1:< D E F ); 0211.g1:< A C B ) = 0211.g1:< D F E )>` with the triangle
+:g:`$DEF$ <0211.g1:< D E F >>`, and will have the angle :g:`$ABC$ <0211.g1:< A B C )>` :eq:`equal <0211.g1:< A B C ) = 0211.g1:< D E F ); 0211.g1:< A C B ) = 0211.g1:< D F E )>` to the angle :g:`$DEF$ <0211.g1:< D E F )>`,
 and the angle :g:`$ACB$ <0211.g1:< A C B )>` to the angle :g:`$DFE$ <0211.g1:< D F E )>`.
 
 For on the straight line :g:`$DF$ <0211.g1:/ D F />`, and at the points :g:`$D$ <0211.g1:D>`, :g:`$F$ <0211.g1:F>` on it,
-let there be constructed the angle :g:`$FDG$ <0211.g1:< F D G )>` equal to either of the
-angles :g:`$BAC$ <0211.g1:< B A C )>`, :g:`$EDF$ <0211.g1:< E D F )>`, and the angle :g:`$DFG$ <0211.g1:< D F G )>` equal to the angle
+let there be constructed the angle :g:`$FDG$ <0211.g1:< F D G )>` :eq:`equal <0211.g1:< F D G ) = 0211.g1:< B A C ) = 0211.g1:< E D F )>` to either of the
+angles :g:`$BAC$ <0211.g1:< B A C )>`, :g:`$EDF$ <0211.g1:< E D F )>`, and the angle :g:`$DFG$ <0211.g1:< D F G )>` :eq:`equal <0211.g1:< D F G ) = 0211.g1:< A C B )>` to the angle
 :g:`$ACB$ <0211.g1:< A C B )>`; :just:`[I. 23] <I.23>`
 
 .. assertion::
 
-   therefore the remaining angle at :g:`$B$ <0211.g1:< B )>` is equal to the remaining angle at :g:`$G$ <0211.g1:< G )>`. :just:`[I. 32] <I.32>`
+   therefore the remaining angle at :g:`$B$ <0211.g1:< B )>` is :eq:`equal <0211.g1:< B ) = 0211.g1:< G )>` to the remaining angle at :g:`$G$ <0211.g1:< G )>`. :just:`[I. 32] <I.32>`
 
 .. _folio-ii-0211:
 
@@ -48,7 +48,7 @@ angles :g:`$BAC$ <0211.g1:< B A C )>`, :g:`$EDF$ <0211.g1:< E D F )>`, and the a
 
 .. assertion::
 
-   Therefore the triangle :g:`$ABC$ <0211.g1:< A B C >>` is equiangular with the triangle :g:`$DGF$ <0211.g1:< D G F >>`.
+   Therefore the triangle :g:`$ABC$ <0211.g1:< A B C >>` is :eq:`equiangular <0211.g1:< B A C ) = 0211.g1:< F D G ); 0211.g1:< A C B ) = 0211.g1:< D F G ); 0211.g1:< B ) = 0211.g1:< G )>` with the triangle :g:`$DGF$ <0211.g1:< D G F >>`.
 
 .. assertion::
 
@@ -65,41 +65,41 @@ But, by hypothesis, as :g:`$BA$ <0211.g1:/ B A />` is to :g:`$AC$ <0211.g1:/ A C
 
 .. assertion:: [V. 9] <V.9>
 
-   Therefore :g:`$ED$ <0211.g1:/ E D />` is equal to :g:`$DG$ <0211.g1:/ D G />`;
+   Therefore :g:`$ED$ <0211.g1:/ E D />` is :eq:`equal <0211.g1:/ E D / = 0211.g1:/ D G />` to :g:`$DG$ <0211.g1:/ D G />`;
 
 and :g:`$DF$ <0211.g1:/ D F />` is common;
 
 .. subclause::
 
-   therefore the two sides :g:`$ED$ <0211.g1:/ E D />`, :g:`$DF$ <0211.g1:/ D F />` are equal to the two sides :g:`$GD$ <0211.g1:/ G D />`, :g:`$DF$ <0211.g1:/ D F />`; and the angle :g:`$EDF$ <0211.g1:< E D F )>` is equal to the angle :g:`$GDF$ <0211.g1:< G D F )>`;
+   therefore the two sides :g:`$ED$ <0211.g1:/ E D />`, :g:`$DF$ <0211.g1:/ D F />` are :eq:`equal <0211.g1:/ E D / = 0211.g1:/ G D />; 0211.g1:/ D F / = 0211.g1:/ D F />` to the two sides :g:`$GD$ <0211.g1:/ G D />`, :g:`$DF$ <0211.g1:/ D F />`; and the angle :g:`$EDF$ <0211.g1:< E D F )>` is :eq:`equal <0211.g1:< E D F ) = 0211.g1:< G D F )>` to the angle :g:`$GDF$ <0211.g1:< G D F )>`;
 
 .. assertion::
 
-   therefore the base :g:`$EF$ <0211.g1:/ E F />` is equal to the base :g:`$GF$ <0211.g1:/ G F />`,
+   therefore the base :g:`$EF$ <0211.g1:/ E F />` is :eq:`equal <0211.g1:/ E F / = 0211.g1:/ G F />` to the base :g:`$GF$ <0211.g1:/ G F />`,
 
 .. subclause::
 
-   and the triangle :g:`$DEF$ <0211.g1:< D E F >>` is equal to the triangle :g:`$DGF$ <0211.g1:< D G F >>`, and the remaining angles will be equal to the remaining angles, namely those which the equal sides subtend. :just:`[I. 4] <I.4>`
+   and the triangle :g:`$DEF$ <0211.g1:< D E F >>` is :eq:`equal <0211.g1:< D E F > = 0211.g1:< D G F >>` to the triangle :g:`$DGF$ <0211.g1:< D G F >>`, and the remaining angles will be :eq:`equal <0211.g1:< D F G ) = 0211.g1:< D F E ); 0211.g1:< D G F ) = 0211.g1:< D E F )>` to the remaining angles, namely those which the equal sides subtend. :just:`[I. 4] <I.4>`
 
 .. assertion::
 
-   Therefore the angle :g:`$DFG$ <0211.g1:< D F G )>` is equal to the angle :g:`$DFE$ <0211.g1:< D F E )>`, and the angle :g:`$DGF$ <0211.g1:< D G F )>` to the angle :g:`$DEF$ <0211.g1:< D E F )>`.
+   Therefore the angle :g:`$DFG$ <0211.g1:< D F G )>` is :eq:`equal <0211.g1:< D F G ) = 0211.g1:< D F E ); 0211.g1:< D G F ) = 0211.g1:< D E F )>` to the angle :g:`$DFE$ <0211.g1:< D F E )>`, and the angle :g:`$DGF$ <0211.g1:< D G F )>` to the angle :g:`$DEF$ <0211.g1:< D E F )>`.
 
-But the angle :g:`$DFG$ <0211.g1:< D F G )>` is equal to the angle :g:`$ACB$ <0211.g1:< A C B )>`;
-
-.. assertion::
-
-   therefore the angle :g:`$ACB$ <0211.g1:< A C B )>` is also equal to the angle :g:`$DFE$ <0211.g1:< D F E )>`.
-
-And, by hypothesis, the angle :g:`$BAC$ <0211.g1:< B A C )>` is also equal to the angle :g:`$EDF$ <0211.g1:< E D F )>`;
+But the angle :g:`$DFG$ <0211.g1:< D F G )>` is :eq:`equal <0211.g1:< D F G ) = 0211.g1:< A C B )>` to the angle :g:`$ACB$ <0211.g1:< A C B )>`;
 
 .. assertion::
 
-   therefore the remaining angle at :g:`$B$ <0211.g1:< B )>` is also equal to the remaining angle at :g:`$E$ <0211.g1:< E )>`; :just:`[I. 32] <I.32>`
+   therefore the angle :g:`$ACB$ <0211.g1:< A C B )>` is also :eq:`equal <0211.g1:< A C B ) = 0211.g1:< D F E )>` to the angle :g:`$DFE$ <0211.g1:< D F E )>`.
+
+And, by hypothesis, the angle :g:`$BAC$ <0211.g1:< B A C )>` is also :eq:`equal <0211.g1:< B A C ) = 0211.g1:< E D F )>` to the angle :g:`$EDF$ <0211.g1:< E D F )>`;
 
 .. assertion::
 
-   therefore the triangle :g:`$ABC$ <0211.g1:< A B C >>` is equiangular with the triangle :g:`$DEF$ <0211.g1:< D E F >>`.
+   therefore the remaining angle at :g:`$B$ <0211.g1:< B )>` is also :eq:`equal <0211.g1:< B ) = 0211.g1:< E )>` to the remaining angle at :g:`$E$ <0211.g1:< E )>`; :just:`[I. 32] <I.32>`
+
+.. assertion::
+
+   therefore the triangle :g:`$ABC$ <0211.g1:< A B C >>` is :eq:`equiangular <0211.g1:< B A C ) = 0211.g1:< E D F ); 0211.g1:< A C B ) = 0211.g1:< D F E ); 0211.g1:< B ) = 0211.g1:< E )>` with the triangle :g:`$DEF$ <0211.g1:< D E F >>`.
 
 .. qed::
 

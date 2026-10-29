@@ -43,11 +43,11 @@ Now draw :g:`$D'E'$ <0237.g2:/ D' E' />` parallel to :g:`$DE$ <0237.g2:/ D E />`
 
 Let the parallel to the last side but one, :g:`$FG$ <0237.g2:/ F G />`, meet :g:`$CG$ <0237.g2:/ C G />`, produced if necessary, in :g:`$G'$ <0237.g2:G'>`.
 
-Then :g:`$CD'E'F'G'$ <0237.g2:< C D' E' F' G' >>` is similar and similarly situated to :g:`$CDEFG$ <0237.g2:< C D E F G >>`, and it is constructed on :g:`$CD'$ <0237.g2:/ C D' />`, a straight line equal to :g:`$AB$ <0237.g2:/ A B />`.
+Then :g:`$CD'E'F'G'$ <0237.g2:< C D' E' F' G' >>` is similar and similarly situated to :g:`$CDEFG$ <0237.g2:< C D E F G >>`, and it is constructed on :g:`$CD'$ <0237.g2:/ C D' />`, a straight line :eq:`equal <0237.g2:/ C D' / = 0237.g2:/ A B />` to :g:`$AB$ <0237.g2:/ A B />`.
 
 The proof of this is obvious.
 
-A more general construction is indicated in the subjoined figure. If :g:`$CDEFG$ <0238.g1:< C D E F G >>` be the given polygon, suppose its angular points all joined to any point :g:`$O$ <0238.g1:O>` and the connecting straight lines produced both ways. Then, if :g:`$C'D'$ <0238.g1:/ C' D' />`, a straight line equal to :g:`$AB$ <0237.g2:/ A B />`, be placed so that it is parallel to :g:`$CD$ <0238.g1:/ C D />`, and :g:`$C'$ <0238.g1:C'>`, :g:`$D'$ <0238.g1:D'>` lie respectively on :g:`$OC$ <0238.g1:/ O C />`, :g:`$OD$ <0238.g1:/ O D />` (this can of course be done by finding fourth proportionals), we have only to draw :g:`$D'E'$ <0238.g1:/ D' E' />`, :g:`$E'F'$ <0238.g1:/ E' F' />`, etc., parallel to the corresponding sides of the original polygon in the manner shown.
+A more general construction is indicated in the subjoined figure. If :g:`$CDEFG$ <0238.g1:< C D E F G >>` be the given polygon, suppose its angular points all joined to any point :g:`$O$ <0238.g1:O>` and the connecting straight lines produced both ways. Then, if :g:`$C'D'$ <0238.g1:/ C' D' />`, a straight line :eq:`equal <0238.g1:/ C' D' / = 0237.g2:/ A B />` to :g:`$AB$ <0237.g2:/ A B />`, be placed so that it is parallel to :g:`$CD$ <0238.g1:/ C D />`, and :g:`$C'$ <0238.g1:C'>`, :g:`$D'$ <0238.g1:D'>` lie respectively on :g:`$OC$ <0238.g1:/ O C />`, :g:`$OD$ <0238.g1:/ O D />` (this can of course be done by finding fourth proportionals), we have only to draw :g:`$D'E'$ <0238.g1:/ D' E' />`, :g:`$E'F'$ <0238.g1:/ E' F' />`, etc., parallel to the corresponding sides of the original polygon in the manner shown.
 
 .. _folio-ii-0238:
 

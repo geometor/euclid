@@ -21,7 +21,8 @@ STANDALONE_STYLE = """
       --geom-bg: #ffffff;
       --geom-point-stroke: #ffffff;
       --geom-poly-fill: #000000;
-      --geom-accent: #ef4444;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -29,7 +30,8 @@ STANDALONE_STYLE = """
         --geom-bg: #1e1e20;
         --geom-point-stroke: #1e1e20;
         --geom-poly-fill: #d6cfc5;
-        --geom-accent: #ef4444;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
       }
     }
     .euclid-graphic {
@@ -98,6 +100,18 @@ STANDALONE_STYLE = """
       stroke-width: 1.5;
       stroke-linecap: round;
       fill: none;
+    }
+    .geom-tick-mark {
+      stroke: var(--geom-assert);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      fill: none;
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-linecap: round;
     }
     .grid-line {
       stroke: var(--geom-fg);
@@ -195,6 +209,40 @@ STANDALONE_STYLE = """
       opacity: 1 !important;
       fill: var(--geom-accent) !important;
       stroke: none !important;
+    }
+    .geom-assert-active {
+      opacity: 1 !important;
+      stroke: var(--geom-assert) !important;
+    }
+    text.geom-assert-active, text.geom-assert-secondary, text.geom-assert-active *, text.geom-assert-secondary * {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    polygon.geom-assert-active, path.geom-polygon.geom-assert-active, .wedge.angle.geom-assert-active, path.wedge.geom-assert-active, path.angle.geom-assert-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: var(--geom-assert) !important;
+      stroke: var(--geom-assert) !important;
+    }
+    path.geom-ang-arc.geom-assert-active {
+      opacity: 1 !important;
+      fill: none !important;
+      stroke: var(--geom-assert) !important;
+    }
+    circle.geom-point.geom-assert-active, circle.geom-assert-active {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    path.geom-assert-active.geom-tick-1 {
+      marker-mid: url(#geom-tick-1);
+    }
+    path.geom-assert-active.geom-tick-2 {
+      marker-mid: url(#geom-tick-2);
+    }
+    path.geom-assert-active.geom-tick-3 {
+      marker-mid: url(#geom-tick-3);
     }
 """.strip("\n")
 
@@ -507,15 +555,128 @@ def _add_path_bbox(d: str, bbox: BBox) -> None:
             break
 
 
+def _fmt_num(v: float) -> str:
+    if abs(v - round(v)) < 1e-6:
+        return str(int(round(v)))
+    return f"{v:.2f}".rstrip("0").rstrip(".")
+
+
+_WEDGE_D_RE = re.compile(
+    r"^M\s*([+-]?\d+(?:\.\d+)?)\s*[,\s]\s*([+-]?\d+(?:\.\d+)?)\s*"
+    r"L\s*([+-]?\d+(?:\.\d+)?)\s*[,\s]\s*([+-]?\d+(?:\.\d+)?)\s*"
+    r"A\s*([+-]?\d+(?:\.\d+)?)\s*[,\s]\s*([+-]?\d+(?:\.\d+)?)\s+"
+    r"([+-]?\d+(?:\.\d+)?)\s+([01])\s*[,\s]\s*([01])\s+"
+    r"([+-]?\d+(?:\.\d+)?)\s*[,\s]\s*([+-]?\d+(?:\.\d+)?)\s*[Zz]\s*$"
+)
+
+_STRAIGHT_2PT_D_RE = re.compile(
+    r"^M\s*([+-]?\d+(?:\.\d+)?)\s*[,\s]\s*([+-]?\d+(?:\.\d+)?)\s*"
+    r"L\s*([+-]?\d+(?:\.\d+)?)\s*[,\s]\s*([+-]?\d+(?:\.\d+)?)\s*$"
+)
+
+
+def _wedge_to_mid_arc_d(d: str) -> str | None:
+    """Convert a closed angle wedge 'M vx vy L x1 y1 A rx ry rot laf sf x2 y2 Z'
+    into a 3-vertex open arc 'M x1 y1 A r r 0 0 sf mx my A r r 0 0 sf x2 y2'.
+    """
+    m = _WEDGE_D_RE.match(d.strip())
+    if not m:
+        return None
+    vx, vy = float(m.group(1)), float(m.group(2))
+    x1, y1 = float(m.group(3)), float(m.group(4))
+    rx = float(m.group(5))
+    sf = int(m.group(9))
+    x2, y2 = float(m.group(10)), float(m.group(11))
+
+    theta1 = math.atan2(y1 - vy, x1 - vx)
+    theta2 = math.atan2(y2 - vy, x2 - vx)
+    two_pi = 2.0 * math.pi
+    if sf == 1:
+        dtheta = (theta2 - theta1) % two_pi
+    else:
+        dtheta = -((theta1 - theta2) % two_pi)
+    theta_mid = theta1 + dtheta / 2.0
+    r = rx if rx > 0 else (math.hypot(x1 - vx, y1 - vy) + math.hypot(x2 - vx, y2 - vy)) / 2.0
+    mx = vx + r * math.cos(theta_mid)
+    my = vy + r * math.sin(theta_mid)
+
+    r_str = _fmt_num(r)
+    return (
+        f"M {_fmt_num(x1)} {_fmt_num(y1)} "
+        f"A {r_str} {r_str} 0 0 {sf} {_fmt_num(mx)} {_fmt_num(my)} "
+        f"A {r_str} {r_str} 0 0 {sf} {_fmt_num(x2)} {_fmt_num(y2)}"
+    )
+
+
+def _ensure_tick_defs(root: ET.Element) -> None:
+    """Ensure <defs> with #geom-tick-1, #geom-tick-2, #geom-tick-3 exists in root."""
+    for child in list(root):
+        if _local_tag(child.tag) == "defs":
+            root.remove(child)
+
+    defs_el = ET.Element(f"{{{SVG_NS}}}defs")
+    marker_specs = [
+        ("geom-tick-1", ["0"]),
+        ("geom-tick-2", ["-1.8", "1.8"]),
+        ("geom-tick-3", ["-3.2", "0", "3.2"]),
+    ]
+    for m_id, xs in marker_specs:
+        marker = ET.SubElement(
+            defs_el,
+            f"{{{SVG_NS}}}marker",
+            {
+                "id": m_id,
+                "viewBox": "-6 -6 12 12",
+                "refX": "0",
+                "refY": "0",
+                "markerWidth": "12",
+                "markerHeight": "12",
+                "markerUnits": "userSpaceOnUse",
+                "orient": "auto",
+            },
+        )
+        for x_str in xs:
+            ET.SubElement(
+                marker,
+                f"{{{SVG_NS}}}line",
+                {
+                    "x1": x_str,
+                    "y1": "-4.5",
+                    "x2": x_str,
+                    "y2": "4.5",
+                    "class": "geom-tick-mark",
+                },
+            )
+
+    insert_idx = 0
+    for i, child in enumerate(root):
+        if _local_tag(child.tag) == "style":
+            insert_idx = i + 1
+            break
+    root.insert(insert_idx, defs_el)
+
+
+def _iter_non_defs(el: ET.Element) -> Iterable[ET.Element]:
+    """Yield el and all descendants, skipping <defs> subtrees."""
+    tag = _local_tag(el.tag)
+    if tag == "defs":
+        return
+    yield el
+    for child in el:
+        yield from _iter_non_defs(child)
+
+
 def compute_svg_bbox(root: ET.Element) -> BBox:
     """Compute tight bounding box of all geometric and text elements in root."""
     bbox = BBox()
 
-    for el in root.iter():
+    for el in _iter_non_defs(root):
         tag = _local_tag(el.tag)
         classes = set(el.get("class", "").split())
 
         if tag in ("svg", "g", "style", "defs", "title", "desc", "image"):
+            continue
+        if "geom-ang-arc" in classes:
             continue
 
         if tag == "rect":
@@ -681,12 +842,19 @@ def normalize_and_recalibrate_svg(
             ):
                 root.remove(child)
 
-    # Normalize classes and attributes on all elements
-    for parent in root.iter():
+    # Normalize classes and attributes on all elements (skipping <defs>)
+    for parent in _iter_non_defs(root):
         parent_id = parent.get("id", "")
         in_highlights = parent_id == "highlights"
+        # Remove previously generated .geom-ang-arc elements before regenerating cleanly
+        for child in list(parent):
+            if "geom-ang-arc" in child.get("class", "").split():
+                parent.remove(child)
+
         for el in parent:
             tag = _local_tag(el.tag)
+            if tag == "defs":
+                continue
             cls_list = el.get("class", "").split()
 
             # Legacy class mapping (0132.g1, 0507.g1, 0512.g1)
@@ -770,6 +938,72 @@ def normalize_and_recalibrate_svg(
             if cls_list:
                 el.set("class", " ".join(cls_list))
 
+            # Convert <line> into a 3-vertex midpoint <path> so marker-mid works directly
+            if tag == "line":
+                x1 = float(el.get("x1", "0"))
+                y1 = float(el.get("y1", "0"))
+                x2 = float(el.get("x2", "0"))
+                y2 = float(el.get("y2", "0"))
+                mx = (x1 + x2) / 2.0
+                my = (y1 + y2) / 2.0
+                for attr in ("x1", "y1", "x2", "y2"):
+                    el.attrib.pop(attr, None)
+                el.tag = f"{{{SVG_NS}}}path"
+                el.set(
+                    "d",
+                    f"M {_fmt_num(x1)} {_fmt_num(y1)} L {_fmt_num(mx)} {_fmt_num(my)} L {_fmt_num(x2)} {_fmt_num(y2)}",
+                )
+            elif tag == "path":
+                d_val = el.get("d", "").strip()
+                m2 = _STRAIGHT_2PT_D_RE.match(d_val)
+                if m2:
+                    x1, y1 = float(m2.group(1)), float(m2.group(2))
+                    x2, y2 = float(m2.group(3)), float(m2.group(4))
+                    mx = (x1 + x2) / 2.0
+                    my = (y1 + y2) / 2.0
+                    el.set(
+                        "d",
+                        f"M {_fmt_num(x1)} {_fmt_num(y1)} L {_fmt_num(mx)} {_fmt_num(my)} L {_fmt_num(x2)} {_fmt_num(y2)}",
+                    )
+
+    # Generate 3-vertex midpoint .geom-ang-arc paths for all angle wedges
+    highlights_group = None
+    graphics_group = None
+    for child in root:
+        if _local_tag(child.tag) == "g":
+            gid = child.get("id", "")
+            if gid == "highlights":
+                highlights_group = child
+            elif gid in ("graphics", "elements") and graphics_group is None:
+                graphics_group = child
+    arc_target_group = highlights_group if highlights_group is not None else (graphics_group if graphics_group is not None else root)
+
+    seen_arc_refs: set[str] = set()
+    for el in list(_iter_non_defs(root)):
+        if _local_tag(el.tag) != "path":
+            continue
+        cls_set = set(el.get("class", "").split())
+        if not ("wedge" in cls_set or "angle" in cls_set):
+            continue
+        ref = el.get("data-ref", "").strip()
+        if not ref or ref in seen_arc_refs:
+            continue
+        arc_d = _wedge_to_mid_arc_d(el.get("d", ""))
+        if not arc_d:
+            continue
+        arc_attrib: dict[str, str] = {}
+        w_id = el.get("id", "").strip()
+        if w_id:
+            arc_attrib["id"] = re.sub(r"^(el|hl)-ang-", "hl-arc-", w_id)
+        arc_attrib["data-ref"] = ref
+        aliases = el.get("data-aliases", "").strip()
+        if aliases:
+            arc_attrib["data-aliases"] = aliases
+        arc_attrib["d"] = arc_d
+        arc_attrib["class"] = "geom-ang-arc geom-overlay"
+        arc_target_group.append(ET.Element(f"{{{SVG_NS}}}path", arc_attrib))
+        seen_arc_refs.add(ref)
+
     # Compute tight bounding box
     bbox = compute_svg_bbox(root)
     if not bbox.is_valid:
@@ -789,7 +1023,7 @@ def normalize_and_recalibrate_svg(
     if "data-graphic-id" not in root.attrib:
         root.set("data-graphic-id", svg_path.stem)
 
-    # Update standalone <style> block
+    # Update standalone <style> block and <defs> tick markers
     style_el = None
     for child in root:
         if _local_tag(child.tag) == "style":
@@ -799,6 +1033,7 @@ def normalize_and_recalibrate_svg(
         style_el = ET.Element(f"{{{SVG_NS}}}style")
         root.insert(0, style_el)
     style_el.text = "\n" + STANDALONE_STYLE + "\n  "
+    _ensure_tick_defs(root)
 
     if write:
         ET.indent(tree, space="  ")

@@ -37,11 +37,11 @@ Now :g:`$AE$ <0390.g1:< A E >>` is the square on :g:`$AB$ <0390.g1:/ A B />`;
 
 .. subclause::
 
-   :g:`$AF$ <0390.g1:< A F >>` is the rectangle contained by :g:`$BA$ <0390.g1:/ A B />`, :g:`$AC$ <0390.g1:/ A C />`, for it is contained by :g:`$DA$ <0390.g1:/ A D />`, :g:`$AC$ <0390.g1:/ A C />`, and :g:`$AD$ <0390.g1:/ A D />` is equal to :g:`$AB$ <0390.g1:/ A B />`;
+   :g:`$AF$ <0390.g1:< A F >>` is the rectangle contained by :g:`$BA$ <0390.g1:/ A B />`, :g:`$AC$ <0390.g1:/ A C />`, for it is contained by :g:`$DA$ <0390.g1:/ A D />`, :g:`$AC$ <0390.g1:/ A C />`, and :g:`$AD$ <0390.g1:/ A D />` is :eq:`equal <0390.g1:/ A D / = 0390.g1:/ A B />` to :g:`$AB$ <0390.g1:/ A B />`;
 
 .. subclause::
 
-   and :g:`$CE$ <0390.g1:< C E >>` is the rectangle :g:`$AB$ <0390.g1:/ A B />`, :g:`$BC$ <0390.g1:/ B C />`, for :g:`$BE$ <0390.g1:/ B E />` is equal to :g:`$AB$ <0390.g1:/ A B />`.
+   and :g:`$CE$ <0390.g1:< C E >>` is the rectangle :g:`$AB$ <0390.g1:/ A B />`, :g:`$BC$ <0390.g1:/ B C />`, for :g:`$BE$ <0390.g1:/ B E />` is :eq:`equal <0390.g1:/ B E / = 0390.g1:/ A B />` to :g:`$AB$ <0390.g1:/ A B />`.
 
 .. assertion::
 

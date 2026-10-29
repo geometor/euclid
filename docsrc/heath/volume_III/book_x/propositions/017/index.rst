@@ -38,15 +38,15 @@ Let :g:`$A$ <0046.g1:A>`, :g:`$BC$ <0046.g1:/ B C />` be two unequal straight li
 .. picture:: 0046.g1.svg
    :alt: Proposition 17
 
-For let :g:`$BC$ <0046.g1:/ B C />` be bisected at the point :g:`$E$ <0046.g1:E>`, and let :g:`$EF$ <0046.g1:/ F E />` be made equal to :g:`$DE$ <0046.g1:/ E D />`.
+For let :g:`$BC$ <0046.g1:/ B C />` be :eq:`bisected <0046.g1:/ B E / = 0046.g1:/ E C />` at the point :g:`$E$ <0046.g1:E>`, and let :g:`$EF$ <0046.g1:/ F E />` be made :eq:`equal <0046.g1:/ F E / = 0046.g1:/ E D />` to :g:`$DE$ <0046.g1:/ E D />`.
 
 .. assertion::
 
-   Therefore the remainder :g:`$DC$ <0046.g1:/ D C />` is equal to :g:`$BF$ <0046.g1:/ B F />`.
+   Therefore the remainder :g:`$DC$ <0046.g1:/ D C />` is :eq:`equal <0046.g1:/ D C / = 0046.g1:/ B F />` to :g:`$BF$ <0046.g1:/ B F />`.
 
 .. subclause::
 
-   And, since the straight line :g:`$BC$ <0046.g1:/ B C />` has been cut into equal parts at :g:`$E$ <0046.g1:E>`, and into unequal parts at :g:`$D$ <0046.g1:D>`,
+   And, since the straight line :g:`$BC$ <0046.g1:/ B C />` has been cut into :eq:`equal <0046.g1:/ B E / = 0046.g1:/ E C />` parts at :g:`$E$ <0046.g1:E>`, and into unequal parts at :g:`$D$ <0046.g1:D>`,
 
 .. assertion::
 
@@ -89,7 +89,7 @@ It is to be proved that :g:`$BC$ <0046.g1:/ B C />` is also commensurable with :
 
 .. subclause::
 
-   But :g:`$CD$ <0046.g1:/ D C />` is commensurable in length with :g:`$CD$ <0046.g1:/ D C />`, :g:`$BF$ <0046.g1:/ B F />`, for :g:`$CD$ <0046.g1:/ D C />` is equal to :g:`$BF$ <0046.g1:/ B F />`. :just:`[X. 6] <X.6>`
+   But :g:`$CD$ <0046.g1:/ D C />` is commensurable in length with :g:`$CD$ <0046.g1:/ D C />`, :g:`$BF$ <0046.g1:/ B F />`, for :g:`$CD$ <0046.g1:/ D C />` is :eq:`equal <0046.g1:/ D C / = 0046.g1:/ B F />` to :g:`$BF$ <0046.g1:/ B F />`. :just:`[X. 6] <X.6>`
 
 .. assertion::
 

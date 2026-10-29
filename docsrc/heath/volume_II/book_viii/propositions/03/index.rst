@@ -58,7 +58,7 @@ Let them be taken, and let them be :g:`$L$ <0354.g1:L>`, :g:`$M$ <0354.g1:M>`, :
 
 .. assertion::
 
-   therefore the numbers :g:`$A$ <0354.g1:A>`, :g:`$B$ <0354.g1:B>`, :g:`$C$ <0354.g1:C>`, :g:`$D$ <0354.g1:D>` are equal to the numbers :g:`$L$ <0354.g1:L>`, :g:`$M$ <0354.g1:M>`, :g:`$N$ <0354.g1:N>`, :g:`$O$ <0354.g1:O>` respectively ; therefore :g:`$A$ <0354.g1:A>` is equal to :g:`$L$ <0354.g1:L>`, and :g:`$D$ <0354.g1:D>` to :g:`$O$ <0354.g1:O>`.
+   therefore the numbers :g:`$A$ <0354.g1:A>`, :g:`$B$ <0354.g1:B>`, :g:`$C$ <0354.g1:C>`, :g:`$D$ <0354.g1:D>` are :eq:`equal <0354.g1:A = 0354.g1:L; 0354.g1:B = 0354.g1:M; 0354.g1:C = 0354.g1:N; 0354.g1:D = 0354.g1:O>` to the numbers :g:`$L$ <0354.g1:L>`, :g:`$M$ <0354.g1:M>`, :g:`$N$ <0354.g1:N>`, :g:`$O$ <0354.g1:O>` respectively ; therefore :g:`$A$ <0354.g1:A>` is :eq:`equal <0354.g1:A = 0354.g1:L; 0354.g1:D = 0354.g1:O>` to :g:`$L$ <0354.g1:L>`, and :g:`$D$ <0354.g1:D>` to :g:`$O$ <0354.g1:O>`.
 
 .. subclause::
 

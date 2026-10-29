@@ -20,7 +20,7 @@ PROPOSITION 6.
 
    If a straight line be bisected and a straight line be added to it in a straight line, the rectangle contained by the whole with the added straight line and the added straight line together with the square on the half is equal to the square on the straight line made up of the half and the added straight line.
 
-For let a straight line :g:`$AB$ <0400.g1:/ A B />` be bisected at the point :g:`$C$ <0400.g1:C>`, and let a straight line :g:`$BD$ <0400.g1:/ B D />` be added to it in a straight line;
+For let a straight line :g:`$AB$ <0400.g1:/ A B />` be :eq:`bisected <0400.g1:/ A C / = 0400.g1:/ C B />` at the point :g:`$C$ <0400.g1:C>`, and let a straight line :g:`$BD$ <0400.g1:/ B D />` be added to it in a straight line;
 
 I say that the rectangle contained by :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />` together with the square on :g:`$CB$ <0400.g1:/ C B />` is equal to the square on :g:`$CD$ <0400.g1:/ C D />`.
 
@@ -39,25 +39,25 @@ through the point :g:`$H$ <0400.g1:H>` let :g:`$KM$ <0400.g1:/ K M />` be drawn 
 .. picture:: 0400.g1.svg
    :alt: Diagram
 
-Then, since :g:`$AC$ <0400.g1:/ A C />` is equal to :g:`$CB$ <0400.g1:/ C B />`,
+Then, since :g:`$AC$ <0400.g1:/ A C />` is :eq:`equal <0400.g1:/ A C / = 0400.g1:/ C B />` to :g:`$CB$ <0400.g1:/ C B />`,
 
 .. assertion:: [I. 36] <I.36>
 
-   :g:`$AL$ <0400.g1:< A L >>` is also equal to :g:`$CH$ <0400.g1:< C H >>`.
+   :g:`$AL$ <0400.g1:< A L >>` is also :eq:`equal <0400.g1:< A L > = 0400.g1:< C H >>` to :g:`$CH$ <0400.g1:< C H >>`.
 
-But :g:`$CH$ <0400.g1:< C H >>` is equal to :g:`$HF$ <0400.g1:< H F >>`. :just:`[I. 43] <I.43>`
+But :g:`$CH$ <0400.g1:< C H >>` is :eq:`equal <0400.g1:< C H > = 0400.g1:< H F >>` to :g:`$HF$ <0400.g1:< H F >>`. :just:`[I. 43] <I.43>`
 
 .. assertion::
 
-   Therefore :g:`$AL$ <0400.g1:< A L >>` is also equal to :g:`$HF$ <0400.g1:< H F >>`.
+   Therefore :g:`$AL$ <0400.g1:< A L >>` is also :eq:`equal <0400.g1:< A L > = 0400.g1:< H F >>` to :g:`$HF$ <0400.g1:< H F >>`.
 
 Let :g:`$CM$ <0400.g1:< C M >>` be added to each;
 
 .. assertion::
 
-   therefore the whole :g:`$AM$ <0400.g1:< A M >>` is equal to the gnomon :g:`$NOP$ <0400.g1:< N O P >>`.
+   therefore the whole :g:`$AM$ <0400.g1:< A M >>` is :eq:`equal <0400.g1:< A M > = 0400.g1:< N O P >>` to the gnomon :g:`$NOP$ <0400.g1:< N O P >>`.
 
-But :g:`$AM$ <0400.g1:< A M >>` is the rectangle :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />`, for :g:`$DM$ <0400.g1:/ D M />` is equal to :g:`$DB$ <0400.g1:/ D B />`;
+But :g:`$AM$ <0400.g1:< A M >>` is the rectangle :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />`, for :g:`$DM$ <0400.g1:/ D M />` is :eq:`equal <0400.g1:/ D M / = 0400.g1:/ D B />` to :g:`$DB$ <0400.g1:/ D B />`;
 
 .. assertion::
 

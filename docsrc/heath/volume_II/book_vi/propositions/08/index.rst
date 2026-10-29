@@ -20,7 +20,7 @@ PROPOSITION 8.
 
    If in a right-angled triangle a perpendicular be drawn from the right angle to the base, the triangles adjoining the perpendicular are similar both to the whole and to one another.
 
-Let :g:`$ABC$ <0216.g1:< A B C >>` be a right-angled triangle having the angle :g:`$BAC$ <0216.g1:< B A C )>` right, and let :g:`$AD$ <0216.g1:/ A D />` be drawn from :g:`$A$ <0216.g1:A>` perpendicular to :g:`$BC$ <0216.g1:/ B C />`;
+Let :g:`$ABC$ <0216.g1:< A B C >>` be a right-angled triangle having the angle :g:`$BAC$ <0216.g1:< B A C )>` right, and let :g:`$AD$ <0216.g1:/ A D />` be drawn from :g:`$A$ <0216.g1:A>` :eq:`perpendicular <0216.g1:< B D A ) = 0216.g1:< A D C )>` to :g:`$BC$ <0216.g1:/ B C />`;
 
 I say that each of the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` is similar to the whole :g:`$ABC$ <0216.g1:< A B C >>` and, further, they are similar to one another.
 
@@ -29,26 +29,26 @@ I say that each of the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216
 .. folio:: 0216
    :page: 210
 
-For, since the angle :g:`$BAC$ <0216.g1:< B A C )>` is equal to the angle :g:`$ADB$ <0216.g1:< A D B )>`, for each is right, and the angle at :g:`$B$ <0216.g1:< A B C )>` is common to the two triangles :g:`$ABC$ <0216.g1:< A B C >>` and :g:`$ABD$ <0216.g1:< A B D >>`,
+For, since the angle :g:`$BAC$ <0216.g1:< B A C )>` is :eq:`equal <0216.g1:< B A C ) = 0216.g1:< A D B )>` to the angle :g:`$ADB$ <0216.g1:< A D B )>`, for each is right, and the angle at :g:`$B$ <0216.g1:< A B C )>` is common to the two triangles :g:`$ABC$ <0216.g1:< A B C >>` and :g:`$ABD$ <0216.g1:< A B D >>`,
 
 .. picture:: 0216.g1.svg
    :alt: Proposition 8
 
 .. assertion::
 
-   therefore the remaining angle :g:`$ACB$ <0216.g1:< A C B )>` is equal to the remaining angle :g:`$BAD$ <0216.g1:< B A D )>`; :just:`[I. 32] <I.32>`
+   therefore the remaining angle :g:`$ACB$ <0216.g1:< A C B )>` is :eq:`equal <0216.g1:< A C B ) = 0216.g1:< B A D )>` to the remaining angle :g:`$BAD$ <0216.g1:< B A D )>`; :just:`[I. 32] <I.32>`
 
 .. assertion::
 
-   therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is equiangular with the triangle :g:`$ABD$ <0216.g1:< A B D >>`.
+   therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is :eq:`equiangular <0216.g1:< B A C ) = 0216.g1:< A D B ); 0216.g1:< A B C ) = 0216.g1:< A B C ); 0216.g1:< A C B ) = 0216.g1:< B A D )>` with the triangle :g:`$ABD$ <0216.g1:< A B D >>`.
 
 .. assertion::
 
-   Therefore, as :g:`$BC$ <0216.g1:/ B C />` which subtends the right angle in the triangle :g:`$ABC$ <0216.g1:< A B C >>` is to :g:`$BA$ <0216.g1:/ B A />` which subtends the right angle in the triangle :g:`$ABD$ <0216.g1:< A B D >>`, so is :g:`$AB$ <0216.g1:/ A B />` itself which subtends the angle at :g:`$C$ <0216.g1:< A C B )>` in the triangle :g:`$ABC$ <0216.g1:< A B C >>` to :g:`$BD$ <0216.g1:/ B D />` which subtends the equal angle :g:`$BAD$ <0216.g1:< B A D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>`, and so also is :g:`$AC$ <0216.g1:/ A C />` to :g:`$AD$ <0216.g1:/ A D />` which subtends the angle at :g:`$B$ <0216.g1:< A B C )>` common to the two triangles. :just:`[VI. 4] <VI.4>`
+   Therefore, as :g:`$BC$ <0216.g1:/ B C />` which subtends the right angle in the triangle :g:`$ABC$ <0216.g1:< A B C >>` is to :g:`$BA$ <0216.g1:/ B A />` which subtends the right angle in the triangle :g:`$ABD$ <0216.g1:< A B D >>`, so is :g:`$AB$ <0216.g1:/ A B />` itself which subtends the angle at :g:`$C$ <0216.g1:< A C B )>` in the triangle :g:`$ABC$ <0216.g1:< A B C >>` to :g:`$BD$ <0216.g1:/ B D />` which subtends the :eq:`equal <0216.g1:< A C B ) = 0216.g1:< B A D )>` angle :g:`$BAD$ <0216.g1:< B A D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>`, and so also is :g:`$AC$ <0216.g1:/ A C />` to :g:`$AD$ <0216.g1:/ A D />` which subtends the angle at :g:`$B$ <0216.g1:< A B C )>` common to the two triangles. :just:`[VI. 4] <VI.4>`
 
 .. assertion::
 
-   Therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is both equiangular to the triangle :g:`$ABD$ <0216.g1:< A B D >>` and has the sides about the equal angles proportional.
+   Therefore the triangle :g:`$ABC$ <0216.g1:< A B C >>` is both :eq:`equiangular <0216.g1:< B A C ) = 0216.g1:< A D B ); 0216.g1:< A B C ) = 0216.g1:< A B C ); 0216.g1:< A C B ) = 0216.g1:< B A D )>` to the triangle :g:`$ABD$ <0216.g1:< A B D >>` and has the sides about the equal angles proportional.
 
 .. assertion::
 
@@ -64,19 +64,19 @@ For, since the angle :g:`$BAC$ <0216.g1:< B A C )>` is equal to the angle :g:`$A
 
 I say next that the triangles :g:`$ABD$ <0216.g1:< A B D >>`, :g:`$ADC$ <0216.g1:< A D C >>` are also similar to one another.
 
-For, since the right angle :g:`$BDA$ <0216.g1:< B D A )>` is equal to the right angle :g:`$ADC$ <0216.g1:< A D C )>`, and moreover the angle :g:`$BAD$ <0216.g1:< B A D )>` was also proved equal to the angle at :g:`$C$ <0216.g1:< A C B )>`,
+For, since the right angle :g:`$BDA$ <0216.g1:< B D A )>` is :eq:`equal <0216.g1:< B D A ) = 0216.g1:< A D C )>` to the right angle :g:`$ADC$ <0216.g1:< A D C )>`, and moreover the angle :g:`$BAD$ <0216.g1:< B A D )>` was also proved :eq:`equal <0216.g1:< B A D ) = 0216.g1:< A C B )>` to the angle at :g:`$C$ <0216.g1:< A C B )>`,
 
 .. assertion::
 
-   therefore the remaining angle at :g:`$B$ <0216.g1:< A B D )>` is also equal to the remaining angle :g:`$DAC$ <0216.g1:< D A C )>`; :just:`[I. 32] <I.32>`
+   therefore the remaining angle at :g:`$B$ <0216.g1:< A B D )>` is also :eq:`equal <0216.g1:< A B D ) = 0216.g1:< D A C )>` to the remaining angle :g:`$DAC$ <0216.g1:< D A C )>`; :just:`[I. 32] <I.32>`
 
 .. assertion::
 
-   therefore the triangle :g:`$ABD$ <0216.g1:< A B D >>` is equiangular with the triangle :g:`$ADC$ <0216.g1:< A D C >>`.
+   therefore the triangle :g:`$ABD$ <0216.g1:< A B D >>` is :eq:`equiangular <0216.g1:< B D A ) = 0216.g1:< A D C ); 0216.g1:< B A D ) = 0216.g1:< A C B ); 0216.g1:< A B D ) = 0216.g1:< D A C )>` with the triangle :g:`$ADC$ <0216.g1:< A D C >>`.
 
 .. assertion::
 
-   Therefore, as :g:`$BD$ <0216.g1:/ B D />` which subtends the angle :g:`$BAD$ <0216.g1:< B A D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>` is to :g:`$DA$ <0216.g1:/ D A />` which subtends the angle at :g:`$C$ <0216.g1:< A C D )>` in the triangle :g:`$ADC$ <0216.g1:< A D C >>` equal to the angle :g:`$BAD$ <0216.g1:< B A D )>`, so is :g:`$AD$ <0216.g1:/ A D />` itself which subtends the angle at :g:`$B$ <0216.g1:< A B D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>` to :g:`$DC$ <0216.g1:/ D C />` which subtends the angle :g:`$DAC$ <0216.g1:< D A C )>` in the triangle :g:`$ADC$ <0216.g1:< A D C >>` equal
+   Therefore, as :g:`$BD$ <0216.g1:/ B D />` which subtends the angle :g:`$BAD$ <0216.g1:< B A D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>` is to :g:`$DA$ <0216.g1:/ D A />` which subtends the angle at :g:`$C$ <0216.g1:< A C D )>` in the triangle :g:`$ADC$ <0216.g1:< A D C >>` :eq:`equal <0216.g1:< A C D ) = 0216.g1:< B A D )>` to the angle :g:`$BAD$ <0216.g1:< B A D )>`, so is :g:`$AD$ <0216.g1:/ A D />` itself which subtends the angle at :g:`$B$ <0216.g1:< A B D )>` in the triangle :g:`$ABD$ <0216.g1:< A B D >>` to :g:`$DC$ <0216.g1:/ D C />` which subtends the angle :g:`$DAC$ <0216.g1:< D A C )>` in the triangle :g:`$ADC$ <0216.g1:< A D C >>` :eq:`equal <0216.g1:< D A C ) = 0216.g1:< A B D )>`
 
 .. _folio-ii-0217:
 

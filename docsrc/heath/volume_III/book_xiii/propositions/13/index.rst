@@ -25,7 +25,7 @@ PROPOSITION 13.
 .. folio:: 0472
    :page: 468
 
-Let the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere be set out, and let it be cut at the point :g:`$C$ <0472.g1:C>` so that :g:`$AC$ <0472.g1:/ A C />` is double of :g:`$CB$ <0472.g1:/ C B />`; let the semicircle :g:`$ADB$ <0472.g1:( A D B )>` be described on :g:`$AB$ <0472.g1:/ A B />`, let :g:`$CD$ <0472.g1:/ C D />` be drawn from the point :g:`$C$ <0472.g1:C>` at right angles to :g:`$AB$ <0472.g1:/ A B />`, and let :g:`$DA$ <0472.g1:/ D A />` be joined; let the circle :g:`$EFG$ <0472.g1:( E F G )>` which has its radius equal to :g:`$DC$ <0472.g1:/ D C />` be set out, let the equilateral triangle :g:`$EFG$ <0472.g1:< E F G >>` be inscribed in the circle :g:`$EFG$ <0472.g1:( E F G )>`, :just:`[IV. 2] <IV.2>` let the centre of the circle, the point :g:`$H$ <0472.g1:H>`, be taken, :just:`[III. 1] <III.1>` let :g:`$EH$ <0472.g1:/ E H />`, :g:`$HF$ <0472.g1:/ H F />`, :g:`$HG$ <0472.g1:/ H G />` be joined; from the point :g:`$H$ <0472.g1:H>` let :g:`$HK$ <0472.g1:/ H K />` be set up at right angles to the plane of the circle :g:`$EFG$ <0472.g1:( E F G )>`, :just:`[XI. 12] <XI.12>` let :g:`$HK$ <0472.g1:/ H K />` equal to the straight line :g:`$AC$ <0472.g1:/ A C />` be cut off from :g:`$HK$ <0472.g1:/ H K />`, and let :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />` be joined.
+Let the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere be set out, and let it be cut at the point :g:`$C$ <0472.g1:C>` so that :g:`$AC$ <0472.g1:/ A C />` is double of :g:`$CB$ <0472.g1:/ C B />`; let the semicircle :g:`$ADB$ <0472.g1:( A D B )>` be described on :g:`$AB$ <0472.g1:/ A B />`, let :g:`$CD$ <0472.g1:/ C D />` be drawn from the point :g:`$C$ <0472.g1:C>` at right angles to :g:`$AB$ <0472.g1:/ A B />`, and let :g:`$DA$ <0472.g1:/ D A />` be joined; let the circle :g:`$EFG$ <0472.g1:( E F G )>` which has its radius :eq:`equal <0472.g1:/ E H / = 0472.g1:/ H F / = 0472.g1:/ H G / = 0472.g1:/ D C />` to :g:`$DC$ <0472.g1:/ D C />` be set out, let the :eq:`equilateral <0472.g1:/ E F / = 0472.g1:/ F G / = 0472.g1:/ G E />` triangle :g:`$EFG$ <0472.g1:< E F G >>` be inscribed in the circle :g:`$EFG$ <0472.g1:( E F G )>`, :just:`[IV. 2] <IV.2>` let the centre of the circle, the point :g:`$H$ <0472.g1:H>`, be taken, :just:`[III. 1] <III.1>` let :g:`$EH$ <0472.g1:/ E H />`, :g:`$HF$ <0472.g1:/ H F />`, :g:`$HG$ <0472.g1:/ H G />` be joined; from the point :g:`$H$ <0472.g1:H>` let :g:`$HK$ <0472.g1:/ H K />` be set up at right angles to the plane of the circle :g:`$EFG$ <0472.g1:( E F G )>`, :just:`[XI. 12] <XI.12>` let :g:`$HK$ <0472.g1:/ H K />` :eq:`equal <0472.g1:/ H K / = 0472.g1:/ A C />` to the straight line :g:`$AC$ <0472.g1:/ A C />` be cut off from :g:`$HK$ <0472.g1:/ H K />`, and let :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />` be joined.
 
 .. picture:: 0472.g1.svg
    :alt: Proposition 13 Diagrams
@@ -48,11 +48,11 @@ Let the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere be set out, and
 
 .. subclause::
 
-   And, since :g:`$AC$ <0472.g1:/ A C />` is equal to :g:`$HK$ <0472.g1:/ H K />`, and :g:`$CD$ <0472.g1:/ C D />` to :g:`$HE$ <0472.g1:/ H E />`, and they contain right angles,
+   And, since :g:`$AC$ <0472.g1:/ A C />` is :eq:`equal <0472.g1:/ A C / = 0472.g1:/ H K /; 0472.g1:/ C D / = 0472.g1:/ H E />` to :g:`$HK$ <0472.g1:/ H K />`, and :g:`$CD$ <0472.g1:/ C D />` to :g:`$HE$ <0472.g1:/ H E />`, and they contain :eq:`right angles <0472.g1:< A C D ) = 0472.g1:< K H E )>`,
 
 .. assertion:: [I. 4] <I.4>
 
-   therefore the base :g:`$DA$ <0472.g1:/ D A />` is equal to the base :g:`$KE$ <0472.g1:/ K E />`.
+   therefore the base :g:`$DA$ <0472.g1:/ D A />` is :eq:`equal <0472.g1:/ D A / = 0472.g1:/ K E />` to the base :g:`$KE$ <0472.g1:/ K E />`.
 
 .. _folio-iii-0473:
 
@@ -61,7 +61,7 @@ Let the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere be set out, and
 
 .. assertion::
 
-   For the same reason each of the straight lines :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />` is also equal to :g:`$DA$ <0472.g1:/ D A />`; therefore the three straight lines :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />` are equal to one another.
+   For the same reason each of the straight lines :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />` is also :eq:`equal <0472.g1:/ K F / = 0472.g1:/ K G / = 0472.g1:/ D A />` to :g:`$DA$ <0472.g1:/ D A />`; therefore the three straight lines :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />` are :eq:`equal <0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G />` to one another.
 
 .. subclause::
 
@@ -81,31 +81,31 @@ Let the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere be set out, and
 
 .. subclause::
 
-   But the square on :g:`$FE$ <0472.g1:/ F E />` is also triple of the square on :g:`$EH$ <0472.g1:/ E H />`, :just:`[XIII. 12] <XIII.12>` and :g:`$DC$ <0472.g1:/ D C />` is equal to :g:`$EH$ <0472.g1:/ E H />`;
+   But the square on :g:`$FE$ <0472.g1:/ F E />` is also triple of the square on :g:`$EH$ <0472.g1:/ E H />`, :just:`[XIII. 12] <XIII.12>` and :g:`$DC$ <0472.g1:/ D C />` is :eq:`equal <0472.g1:/ D C / = 0472.g1:/ E H />` to :g:`$EH$ <0472.g1:/ E H />`;
 
 .. assertion::
 
-   therefore :g:`$DA$ <0472.g1:/ D A />` is also equal to :g:`$EF$ <0472.g1:/ E F />`.
+   therefore :g:`$DA$ <0472.g1:/ D A />` is also :eq:`equal <0472.g1:/ D A / = 0472.g1:/ E F />` to :g:`$EF$ <0472.g1:/ E F />`.
 
 .. subclause::
 
-   But :g:`$DA$ <0472.g1:/ D A />` was proved equal to each of the straight lines :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />`;
+   But :g:`$DA$ <0472.g1:/ D A />` was proved :eq:`equal <0472.g1:/ D A / = 0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G />` to each of the straight lines :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />`;
 
 .. assertion::
 
-   therefore each of the straight lines :g:`$EF$ <0472.g1:/ E F />`, :g:`$FG$ <0472.g1:/ F G />`, :g:`$GE$ <0472.g1:/ G E />` is also equal to each of the straight lines :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />`; therefore the four triangles :g:`$EFG$ <0472.g1:< E F G >>`, :g:`$KEF$ <0472.g1:< K E F >>`, :g:`$KFG$ <0472.g1:< K F G >>`, :g:`$KEG$ <0472.g1:< K E G >>` are equilateral.
+   therefore each of the straight lines :g:`$EF$ <0472.g1:/ E F />`, :g:`$FG$ <0472.g1:/ F G />`, :g:`$GE$ <0472.g1:/ G E />` is also :eq:`equal <0472.g1:/ E F / = 0472.g1:/ F G / = 0472.g1:/ G E / = 0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G />` to each of the straight lines :g:`$KE$ <0472.g1:/ K E />`, :g:`$KF$ <0472.g1:/ K F />`, :g:`$KG$ <0472.g1:/ K G />`; therefore the four triangles :g:`$EFG$ <0472.g1:< E F G >>`, :g:`$KEF$ <0472.g1:< K E F >>`, :g:`$KFG$ <0472.g1:< K F G >>`, :g:`$KEG$ <0472.g1:< K E G >>` are :eq:`equilateral <0472.g1:/ E F / = 0472.g1:/ F G / = 0472.g1:/ G E / = 0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G />`.
 
 .. assertion::
 
-   Therefore a pyramid has been constructed out of four equilateral triangles, the triangle :g:`$EFG$ <0472.g1:< E F G >>` being its base and the point :g:`$K$ <0472.g1:K>` its vertex.
+   Therefore a pyramid has been constructed out of four :eq:`equilateral <0472.g1:/ E F / = 0472.g1:/ F G / = 0472.g1:/ G E / = 0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G />` triangles, the triangle :g:`$EFG$ <0472.g1:< E F G >>` being its base and the point :g:`$K$ <0472.g1:K>` its vertex.
 
 It is next required to comprehend it in the given sphere and to prove that the square on the diameter of the sphere is one and a half times the square on the side of the pyramid.
 
-For let the straight line :g:`$HL$ <0472.g1:/ H L />` be produced in a straight line with :g:`$KH$ <0472.g1:/ K H />`, and let :g:`$HL$ <0472.g1:/ H L />` be made equal to :g:`$CB$ <0472.g1:/ C B />`.
+For let the straight line :g:`$HL$ <0472.g1:/ H L />` be produced in a straight line with :g:`$KH$ <0472.g1:/ K H />`, and let :g:`$HL$ <0472.g1:/ H L />` be made :eq:`equal <0472.g1:/ H L / = 0472.g1:/ C B />` to :g:`$CB$ <0472.g1:/ C B />`.
 
 .. subclause::
 
-   Now, since, as :g:`$AC$ <0472.g1:/ A C />` is to :g:`$CD$ <0472.g1:/ C D />`, so is :g:`$CD$ <0472.g1:/ C D />` to :g:`$CB$ <0472.g1:/ C B />`, :just:`[VI. 8, Por.]` while :g:`$AC$ <0472.g1:/ A C />` is equal to :g:`$KH$ <0472.g1:/ K H />`, :g:`$CD$ <0472.g1:/ C D />` to :g:`$HE$ <0472.g1:/ H E />`, and :g:`$CB$ <0472.g1:/ C B />` to :g:`$HL$ <0472.g1:/ H L />`,
+   Now, since, as :g:`$AC$ <0472.g1:/ A C />` is to :g:`$CD$ <0472.g1:/ C D />`, so is :g:`$CD$ <0472.g1:/ C D />` to :g:`$CB$ <0472.g1:/ C B />`, :just:`[VI. 8, Por.]` while :g:`$AC$ <0472.g1:/ A C />` is :eq:`equal <0472.g1:/ A C / = 0472.g1:/ K H /; 0472.g1:/ C D / = 0472.g1:/ H E /; 0472.g1:/ C B / = 0472.g1:/ H L />` to :g:`$KH$ <0472.g1:/ K H />`, :g:`$CD$ <0472.g1:/ C D />` to :g:`$HE$ <0472.g1:/ H E />`, and :g:`$CB$ <0472.g1:/ C B />` to :g:`$HL$ <0472.g1:/ H L />`,
 
 .. assertion::
 
@@ -113,7 +113,7 @@ For let the straight line :g:`$HL$ <0472.g1:/ H L />` be produced in a straight 
 
 .. subclause::
 
-   And each of the angles :g:`$KHE$ <0472.g1:< K H E )>`, :g:`$EHL$ <0472.g1:< E H L )>` is right;
+   And each of the angles :g:`$KHE$ <0472.g1:< K H E )>`, :g:`$EHL$ <0472.g1:< E H L )>` is :eq:`right <0472.g1:< K H E ) = 0472.g1:< E H L )>`;
 
 .. assertion::
 
@@ -128,7 +128,7 @@ If then, :g:`$KL$ <0472.g1:/ K L />` remaining fixed, the semicircle be carried 
 
 .. subclause::
 
-   For :g:`$KL$ <0472.g1:/ K L />`, the diameter of the sphere, is equal to the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere, inasmuch as :g:`$KH$ <0472.g1:/ K H />` was made equal to :g:`$AC$ <0472.g1:/ A C />`, and :g:`$HL$ <0472.g1:/ H L />` to :g:`$CB$ <0472.g1:/ C B />`.
+   For :g:`$KL$ <0472.g1:/ K L />`, the diameter of the sphere, is :eq:`equal <0472.g1:/ K L / = 0472.g1:/ A B />` to the diameter :g:`$AB$ <0472.g1:/ A B />` of the given sphere, inasmuch as :g:`$KH$ <0472.g1:/ K H />` was made :eq:`equal <0472.g1:/ K H / = 0472.g1:/ A C /; 0472.g1:/ H L / = 0472.g1:/ C B />` to :g:`$AC$ <0472.g1:/ A C />`, and :g:`$HL$ <0472.g1:/ H L />` to :g:`$CB$ <0472.g1:/ C B />`.
 
 I say next that the square on the diameter of the sphere is one and a half times the square on the side of the pyramid.
 
@@ -150,7 +150,7 @@ I say next that the square on the diameter of the sphere is one and a half times
 
 .. subclause::
 
-   And :g:`$BA$ <0472.g1:/ B A />` is the diameter of the given sphere, and :g:`$AD$ <0472.g1:/ A D />` is equal to the side of the pyramid.
+   And :g:`$BA$ <0472.g1:/ B A />` is the diameter of the given sphere, and :g:`$AD$ <0472.g1:/ A D />` is :eq:`equal <0472.g1:/ A D / = 0472.g1:/ E F / = 0472.g1:/ F G / = 0472.g1:/ G E / = 0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G />` to the side of the pyramid.
 
 .. qed::
 

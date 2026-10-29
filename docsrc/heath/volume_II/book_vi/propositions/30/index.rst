@@ -29,7 +29,7 @@ thus it is required to cut :g:`$AB$ <0273.g1:/ A B />` in extreme and mean ratio
 
 .. subclause::
 
-   On :g:`$AB$ <0273.g1:/ A B />` let the square :g:`$BC$ <0273.g1:< B C >>` be described ; and let there be applied to :g:`$AC$ <0273.g1:/ A C />` the parallelogram :g:`$CD$ <0273.g1:< C D >>` equal to :g:`$BC$ <0273.g1:< B C >>` and exceeding by the figure :g:`$AD$ <0273.g1:< A D >>` similar to :g:`$BC$ <0273.g1:< B C >>`. :just:`[VI. 29] <VI.29>`
+   On :g:`$AB$ <0273.g1:/ A B />` let the square :g:`$BC$ <0273.g1:< B C >>` be described ; and let there be applied to :g:`$AC$ <0273.g1:/ A C />` the parallelogram :g:`$CD$ <0273.g1:< C D >>` :eq:`equal <0273.g1:< C D > = 0273.g1:< B C >>` to :g:`$BC$ <0273.g1:< B C >>` and exceeding by the figure :g:`$AD$ <0273.g1:< A D >>` similar to :g:`$BC$ <0273.g1:< B C >>`. :just:`[VI. 29] <VI.29>`
 
 .. subclause::
 
@@ -41,11 +41,11 @@ thus it is required to cut :g:`$AB$ <0273.g1:/ A B />` in extreme and mean ratio
 
 .. subclause::
 
-   And, since :g:`$BC$ <0273.g1:< B C >>` is equal to :g:`$CD$ <0273.g1:< C D >>`, let :g:`$CE$ <0273.g1:< C E >>` be subtracted from each ;
+   And, since :g:`$BC$ <0273.g1:< B C >>` is :eq:`equal <0273.g1:< B C > = 0273.g1:< C D >>` to :g:`$CD$ <0273.g1:< C D >>`, let :g:`$CE$ <0273.g1:< C E >>` be subtracted from each ;
 
 .. assertion::
 
-   therefore the remainder :g:`$BF$ <0273.g1:< B F >>` is equal to the remainder :g:`$AD$ <0273.g1:< A D >>`.
+   therefore the remainder :g:`$BF$ <0273.g1:< B F >>` is :eq:`equal <0273.g1:< B F > = 0273.g1:< A D >>` to the remainder :g:`$AD$ <0273.g1:< A D >>`.
 
 .. _folio-ii-0274:
 
@@ -66,7 +66,7 @@ thus it is required to cut :g:`$AB$ <0273.g1:/ A B />` in extreme and mean ratio
 
 .. subclause::
 
-   But :g:`$FE$ <0273.g1:/ F E />` is equal to :g:`$AB$ <0273.g1:/ A B />`, and :g:`$ED$ <0273.g1:/ E D />` to :g:`$AE$ <0273.g1:/ A E />`.
+   But :g:`$FE$ <0273.g1:/ F E />` is :eq:`equal <0273.g1:/ F E / = 0273.g1:/ A B />; 0273.g1:/ E D / = 0273.g1:/ A E />` to :g:`$AB$ <0273.g1:/ A B />`, and :g:`$ED$ <0273.g1:/ E D />` to :g:`$AE$ <0273.g1:/ A E />`.
 
 .. assertion::
 

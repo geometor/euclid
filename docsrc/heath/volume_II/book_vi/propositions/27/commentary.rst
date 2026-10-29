@@ -95,7 +95,7 @@ Let :g:`$ED$ <0266.g1:[ E D ]>` produced meet :g:`$AG$ <0266.g1:/ A G />` in :g:
 .. picture:: 0266.g1.svg
    :alt: Proposition 27 second case
 
-Now, since :g:`$BF$ <0266.g1:/ B F />` is the diagonal of the parallelogram :g:`$KH$ <0266.g1:< K H >>`, the complements :g:`$KD$ <0266.g1:< K D >>`, :g:`$DH$ <0266.g1:< D H >>` are equal.
+Now, since :g:`$BF$ <0266.g1:/ B F />` is the diagonal of the parallelogram :g:`$KH$ <0266.g1:< K H >>`, the complements :g:`$KD$ <0266.g1:< K D >>`, :g:`$DH$ <0266.g1:< D H >>` are :eq:`equal <0266.g1:< K D > = 0266.g1:< D H >>`.
 
 But
 
@@ -113,8 +113,8 @@ Add :g:`$OK$ <0266.g1:< O K >>` to each; and
 
 This other "case" of the proposition is found in all the mss., but :person:`Heiberg <heiberg>` relegates it to the Appendix as being very obviously interpolated. The reasons for this course are that it is not in Euclid's manner to give a separate demonstration of such a "case"; it is rather his habit to give one case only and to leave the student to satisfy himself about any others (cf. I. 7). Internal evidence is also against the genuineness of the separate proof. It is put after the *conclusion* of the proposition instead of before it, and, if Euclid had intended to discuss two cases, he would have distinguished them at the beginning of the proposition, as it was his invariable practice to do. Moreover the second "case" is the less worth giving because it can be so easily reduced to the first. For suppose :g:`$F'$ <0266.g1:F'>` to be taken on :g:`$BD$ <0266.g1:/ B D />` so that :g:`$FD$ <0266.g1:/ F D />` = :g:`$F'D$ <0266.g1:/ F' D />`. Produce :g:`$BF$ <0266.g1:[ B F ]>` to meet :g:`$AG$ <0266.g1:[ A G ]>` produced in :g:`$P$ <0266.g1:P>`. Complete the parallelogram :g:`$BAPQ$ <0266.g1:< B A P Q >>`, and draw through :g:`$F'$ <0266.g1:F'>` straight lines parallel to and meeting its opposite sides.
 
-Then the complement :g:`$F'Q$ <0266.g1:< F' Q >>` is equal to the complement :g:`$AF'$ <0266.g1:< A F' >>`.
+Then the complement :g:`$F'Q$ <0266.g1:< F' Q >>` is :eq:`equal <0266.g1:< F' Q > = 0266.g1:< A F' >>` to the complement :g:`$AF'$ <0266.g1:< A F' >>`.
 
-And it is at once seen that :g:`$AF$ <0266.g1:< A F >>`, :g:`$F'Q$ <0266.g1:< F' Q >>` are equal and similar. Hence the solution of the problem represented by :g:`$AF$ <0266.g1:< A F >>` or :g:`$F'Q$ <0266.g1:< F' Q >>` gives a parallelogram of the same size as :g:`$AF'$ <0266.g1:< A F' >>` arrived at as in the first "case."
+And it is at once seen that :g:`$AF$ <0266.g1:< A F >>`, :g:`$F'Q$ <0266.g1:< F' Q >>` are :eq:`equal <0266.g1:< A F > = 0266.g1:< F' Q >>` and similar. Hence the solution of the problem represented by :g:`$AF$ <0266.g1:< A F >>` or :g:`$F'Q$ <0266.g1:< F' Q >>` gives a parallelogram of the same size as :g:`$AF'$ <0266.g1:< A F' >>` arrived at as in the first "case."
 
 It is worth noting that the actual difference between the parallelogram :g:`$AF$ <0266.g1:< A F >>` and the maximum area :g:`$AD$ <0266.g1:< A D >>` that it can possibly have is represented in the figure. The difference is the small parallelogram :g:`$DF$ <0266.g1:< D F >>`.

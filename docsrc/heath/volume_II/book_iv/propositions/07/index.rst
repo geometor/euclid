@@ -50,7 +50,7 @@ For the same reason
    the angles at the points :g:`$B$ <0098.g2:B>`, :g:`$C$ <0098.g2:C>`, :g:`$D$ <0098.g2:D>` are also right.
 
 Now, since the angle :g:`$AEB$ <0098.g2:< A E B )>` is right,
-and the angle :g:`$EBG$ <0098.g2:< E B G )>` is also right,
+and the angle :g:`$EBG$ <0098.g2:< E B G )>` is also :eq:`right <0098.g2:< A E B ) = 0098.g2:< E B G )>`,
 
 .. assertion:: [I. 28] <I.28>
 
@@ -76,32 +76,32 @@ Similarly we can prove that
    each of the straight lines :g:`$GF$ <0098.g2:/ G F />`, :g:`$HK$ <0098.g2:/ H K />` is parallel to :g:`$BED$ <0098.g2:/ B E D />`.
 
 Therefore :g:`$GK$ <0098.g2:< F G H K >>`, :g:`$GC$ <0098.g2:< G H C A >>`, :g:`$AK$ <0098.g2:< A C K F >>`, :g:`$FB$ <0098.g2:< F G B D >>`, :g:`$BK$ <0098.g2:< B H K D >>` are parallelograms;
-therefore :g:`$GF$ <0098.g2:/ G F />` is equal to :g:`$HK$ <0098.g2:/ H K />`, and :g:`$GH$ <0098.g2:/ G H />` to :g:`$FK$ <0098.g2:/ F K />`. :just:`[I. 34] <I.34>`
+therefore :g:`$GF$ <0098.g2:/ G F />` is :eq:`equal <0098.g2:/ G F / = 0098.g2:/ H K />` to :g:`$HK$ <0098.g2:/ H K />`, and :g:`$GH$ <0098.g2:/ G H />` :eq:`to <0098.g2:/ G H / = 0098.g2:/ F K />` :g:`$FK$ <0098.g2:/ F K />`. :just:`[I. 34] <I.34>`
 
-And, since :g:`$AC$ <0098.g2:/ A C />` is equal to :g:`$BD$ <0098.g2:/ B D />`,
-and :g:`$AC$ <0098.g2:/ A C />` is also equal to each of the straight lines :g:`$GH$ <0098.g2:/ G H />`, :g:`$FK$ <0098.g2:/ F K />`,
+And, since :g:`$AC$ <0098.g2:/ A C />` is :eq:`equal <0098.g2:/ A C / = 0098.g2:/ B D />` to :g:`$BD$ <0098.g2:/ B D />`,
+and :g:`$AC$ <0098.g2:/ A C />` is also :eq:`equal <0098.g2:/ A C / = 0098.g2:/ G H / = 0098.g2:/ F K />` to each of the straight lines :g:`$GH$ <0098.g2:/ G H />`, :g:`$FK$ <0098.g2:/ F K />`,
 
 .. subclause:: [I. 34] <I.34>
 
-   while :g:`$BD$ <0098.g2:/ B D />` is equal to each of the straight lines :g:`$GF$ <0098.g2:/ G F />`, :g:`$HK$ <0098.g2:/ H K />`,
+   while :g:`$BD$ <0098.g2:/ B D />` is :eq:`equal <0098.g2:/ B D / = 0098.g2:/ G F / = 0098.g2:/ H K />` to each of the straight lines :g:`$GF$ <0098.g2:/ G F />`, :g:`$HK$ <0098.g2:/ H K />`,
 
-therefore the quadrilateral :g:`$FGHK$ <0098.g2:< F G H K >>` is equilateral.
+therefore the quadrilateral :g:`$FGHK$ <0098.g2:< F G H K >>` is :eq:`equilateral <0098.g2:/ G F / = 0098.g2:/ G H / = 0098.g2:/ H K / = 0098.g2:/ F K />`.
 
 I say next that it is also right-angled.
 
 For, since :g:`$GBEA$ <0098.g2:< G B E A >>` is a parallelogram,
 and the angle :g:`$AEB$ <0098.g2:< A E B )>` is right,
-therefore the angle :g:`$AGB$ <0098.g2:< A G B )>` is also right. :just:`[I. 34] <I.34>`
+therefore the angle :g:`$AGB$ <0098.g2:< A G B )>` is also :eq:`right <0098.g2:< A E B ) = 0098.g2:< A G B )>`. :just:`[I. 34] <I.34>`
 
 Similarly we can prove that
 
 .. assertion::
 
-   the angles at :g:`$H$ <0098.g2:< G H K )>`, :g:`$K$ <0098.g2:< H K F )>`, :g:`$F$ <0098.g2:< K F G )>` are also right.
+   the angles at :g:`$H$ <0098.g2:< G H K )>`, :g:`$K$ <0098.g2:< H K F )>`, :g:`$F$ <0098.g2:< K F G )>` are also :eq:`right <0098.g2:< A G B ) = 0098.g2:< G H K ) = 0098.g2:< H K F ) = 0098.g2:< K F G )>`.
 
 Therefore :g:`$FGHK$ <0098.g2:< F G H K >>` is right-angled.
 
-But it was also proved equilateral;
+But it was also proved :eq:`equilateral <0098.g2:/ G F / = 0098.g2:/ G H / = 0098.g2:/ H K / = 0098.g2:/ F K />`;
 
 .. assertion::
 

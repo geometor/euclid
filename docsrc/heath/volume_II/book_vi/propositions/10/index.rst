@@ -31,7 +31,7 @@ Let :g:`$AB$ <0219.g1:/ A B />` be the given uncut straight line, and :g:`$AC$ <
 
 .. assertion:: [I. 34] <I.34>
 
-   therefore :g:`$DH$ <0219.g1:/ D H />` is equal to :g:`$FG$ <0219.g1:/ F G />` and :g:`$HK$ <0219.g1:/ H K />` to :g:`$GB$ <0219.g1:/ G B />`.
+   therefore :g:`$DH$ <0219.g1:/ D H />` is :eq:`equal <0219.g1:/ D H / = 0219.g1:/ F G /; 0219.g1:/ H K / = 0219.g1:/ G B />` to :g:`$FG$ <0219.g1:/ F G />` and :g:`$HK$ <0219.g1:/ H K />` to :g:`$GB$ <0219.g1:/ G B />`.
 
 Now, since the straight line :g:`$HE$ <0219.g1:/ H E />` has been drawn parallel to :g:`$KC$ <0219.g1:/ K C />`, one of the sides of the triangle :g:`$DKC$ <0219.g1:< D K C >>`,
 
@@ -46,7 +46,7 @@ Now, since the straight line :g:`$HE$ <0219.g1:/ H E />` has been drawn parallel
 
 .. assertion::
 
-   But :g:`$KH$ <0219.g1:/ K H />` is equal to :g:`$BG$ <0219.g1:/ B G />`, and :g:`$HD$ <0219.g1:/ H D />` to :g:`$GF$ <0219.g1:/ G F />`; therefore, as :g:`$CE$ <0219.g1:/ C E />` is to :g:`$ED$ <0219.g1:/ E D />`, so is :g:`$BG$ <0219.g1:/ B G />` to :g:`$GF$ <0219.g1:/ G F />`.
+   But :g:`$KH$ <0219.g1:/ K H />` is :eq:`equal <0219.g1:/ K H / = 0219.g1:/ B G /; 0219.g1:/ H D / = 0219.g1:/ G F />` to :g:`$BG$ <0219.g1:/ B G />`, and :g:`$HD$ <0219.g1:/ H D />` to :g:`$GF$ <0219.g1:/ G F />`; therefore, as :g:`$CE$ <0219.g1:/ C E />` is to :g:`$ED$ <0219.g1:/ E D />`, so is :g:`$BG$ <0219.g1:/ B G />` to :g:`$GF$ <0219.g1:/ G F />`.
 
 Again, since :g:`$FD$ <0219.g1:/ F D />` has been drawn parallel to :g:`$GE$ <0219.g1:/ G E />`, one of the sides of the triangle :g:`$AGE$ <0219.g1:< A G E >>`,
 

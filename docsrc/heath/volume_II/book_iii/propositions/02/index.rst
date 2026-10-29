@@ -34,11 +34,11 @@ For suppose it does not, but, if possible, let it fall outside, as :g:`$AEB$ <00
 .. folio:: 0015
    :page: 9
 
-Then, since :g:`$DA$ <0014.g1:/ D A />` is equal to :g:`$DB$ <0014.g1:/ D B />`,
+Then, since :g:`$DA$ <0014.g1:/ D A />` is :eq:`equal <0014.g1:/ D A / = 0014.g1:/ D B />` to :g:`$DB$ <0014.g1:/ D B />`,
 
 .. subclause:: [I. 5] <I.5>
 
-   the angle :g:`$DAE$ <0014.g1:< D A E )>` is also equal to the angle :g:`$DBE$ <0014.g1:< D B E )>`.
+   the angle :g:`$DAE$ <0014.g1:< D A E )>` is also :eq:`equal <0014.g1:< D A E ) = 0014.g1:< D B E )>` to the angle :g:`$DBE$ <0014.g1:< D B E )>`.
 
 And, since one side :g:`$AEB$ <0014.g1:/ A E B />` of the triangle :g:`$DAE$ <0014.g1:< D A E >>` is produced,
 
@@ -46,7 +46,7 @@ And, since one side :g:`$AEB$ <0014.g1:/ A E B />` of the triangle :g:`$DAE$ <00
 
    the angle :g:`$DEB$ <0014.g1:< D E B )>` is greater than the angle :g:`$DAE$ <0014.g1:< D A E )>`.
 
-But the angle :g:`$DAE$ <0014.g1:< D A E )>` is equal to the angle :g:`$DBE$ <0014.g1:< D B E )>`;
+But the angle :g:`$DAE$ <0014.g1:< D A E )>` is :eq:`equal <0014.g1:< D A E ) = 0014.g1:< D B E )>` to the angle :g:`$DBE$ <0014.g1:< D B E )>`;
 
 .. assertion::
 
@@ -58,7 +58,7 @@ And the greater angle is subtended by the greater side; :just:`[I. 19] <I.19>`
 
    therefore :g:`$DB$ <0014.g1:/ D B />` is greater than :g:`$DE$ <0014.g1:/ D E />`.
 
-But :g:`$DB$ <0014.g1:/ D B />` is equal to :g:`$DF$ <0014.g1:/ D F />`;
+But :g:`$DB$ <0014.g1:/ D B />` is :eq:`equal <0014.g1:/ D B / = 0014.g1:/ D F />` to :g:`$DF$ <0014.g1:/ D F />`;
 
 .. assertion::
 

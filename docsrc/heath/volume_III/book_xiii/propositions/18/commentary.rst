@@ -61,7 +61,7 @@ LEMMA.
 
    But that the angle of the equilateral and equiangular pentagon is a right angle and a fifth we must prove thus.
 
-Let :g:`$ABCDE$ <0512.g1:< A B C D E >>` be an equilateral and equiangular pentagon, let the circle :g:`$ABCDE$ <0512.g1:( A B C D E )>` be circumscribed about it, let its centre :g:`$F$ <0512.g1:F>` be taken, and let :g:`$FA$ <0512.g1:/ F A />`, :g:`$FB$ <0512.g1:/ F B />`, :g:`$FC$ <0512.g1:/ F C />`, :g:`$FD$ <0512.g1:/ F D />`, :g:`$FE$ <0512.g1:/ F E />` be joined.
+Let :g:`$ABCDE$ <0512.g1:< A B C D E >>` be an :eq:`equilateral <0512.g1:/ A B / = 0512.g1:/ B C / = 0512.g1:/ C D / = 0512.g1:/ D E / = 0512.g1:/ E A />` and equiangular pentagon, let the circle :g:`$ABCDE$ <0512.g1:( A B C D E )>` be circumscribed about it, let its centre :g:`$F$ <0512.g1:F>` be taken, and let :g:`$FA$ <0512.g1:/ F A />`, :g:`$FB$ <0512.g1:/ F B />`, :g:`$FC$ <0512.g1:/ F C />`, :g:`$FD$ <0512.g1:/ F D />`, :g:`$FE$ <0512.g1:/ F E />` be joined.
 
 .. assertion::
 
@@ -69,7 +69,7 @@ Let :g:`$ABCDE$ <0512.g1:< A B C D E >>` be an equilateral and equiangular penta
 
 .. subclause::
 
-   And, since the angles at :g:`$F$ <0512.g1:F>` are equal to four right angles and are equal,
+   And, since the angles at :g:`$F$ <0512.g1:F>` are equal to four right angles and are :eq:`equal <0512.g1:< A F B ) = 0512.g1:< B F C ) = 0512.g1:< C F D ) = 0512.g1:< D F E ) = 0512.g1:< E F A )>`,
 
 .. picture:: 0512.g1.svg
    :alt: Lemma Pentagon Diagram
@@ -85,7 +85,7 @@ Let :g:`$ABCDE$ <0512.g1:< A B C D E >>` be an equilateral and equiangular penta
 
 .. subclause::
 
-   But the angle :g:`$FAB$ <0512.g1:< F A B )>` is equal to the angle :g:`$FBC$ <0512.g1:< F B C )>`;
+   But the angle :g:`$FAB$ <0512.g1:< F A B )>` is :eq:`equal <0512.g1:< F A B ) = 0512.g1:< F B C )>` to the angle :g:`$FBC$ <0512.g1:< F B C )>`;
 
 .. assertion::
 
@@ -115,7 +115,7 @@ Euclid here exhibits the edges of all the five regular solids in one figure.
 
 (3) :g:`$AB$ <0507.g1:/ A B />` $^2 = 2$ :g:`$BE$ <0507.g1:/ E B />` $^2$. Therefore :g:`$BE$ <0507.g1:/ E B />` $= \sqrt{2} \cdot r = (\text{edge of octahedron})$.
 
-(4) Draw :g:`$AG$ <0507.g1:/ A G />` perpendicular and equal to :g:`$AB$ <0507.g1:/ A B />`. Join :g:`$GC$ <0507.g1:/ G C />`, meeting the semicircle in :g:`$H$ <0507.g1:H>`, and draw :g:`$HK$ <0507.g1:/ H K />` perpendicular to :g:`$AB$ <0507.g1:/ A B />`. Then :g:`$GA$ <0507.g1:/ A G />` $= 2$ :g:`$AC$ <0507.g1:/ A C />`; therefore, by similar triangles, :g:`$HK$ <0507.g1:/ H K />` $= 2$ :g:`$KC$ <0507.g1:/ C K />`. Hence :g:`$HK$ <0507.g1:/ H K />` $^2 = 4$ :g:`$KC$ <0507.g1:/ C K />` $^2$, and therefore $5$ :g:`$KC$ <0507.g1:/ C K />` $^2 =$ :g:`$HK$ <0507.g1:/ H K />` $^2 +$ :g:`$KC$ <0507.g1:/ C K />` $^2$ $= $ :g:`$HC$ <0507.g1:/ H C />` $^2$ $= $ :g:`$CB$ <0507.g1:/ C B />` $^2$.
+(4) Draw :g:`$AG$ <0507.g1:/ A G />` perpendicular and :eq:`equal <0507.g1:/ A G / = 0507.g1:/ A B />` to :g:`$AB$ <0507.g1:/ A B />`. Join :g:`$GC$ <0507.g1:/ G C />`, meeting the semicircle in :g:`$H$ <0507.g1:H>`, and draw :g:`$HK$ <0507.g1:/ H K />` perpendicular to :g:`$AB$ <0507.g1:/ A B />`. Then :g:`$GA$ <0507.g1:/ A G />` $= 2$ :g:`$AC$ <0507.g1:/ A C />`; therefore, by similar triangles, :g:`$HK$ <0507.g1:/ H K />` $= 2$ :g:`$KC$ <0507.g1:/ C K />`. Hence :g:`$HK$ <0507.g1:/ H K />` $^2 = 4$ :g:`$KC$ <0507.g1:/ C K />` $^2$, and therefore $5$ :g:`$KC$ <0507.g1:/ C K />` $^2 =$ :g:`$HK$ <0507.g1:/ H K />` $^2 +$ :g:`$KC$ <0507.g1:/ C K />` $^2$ $= $ :g:`$HC$ <0507.g1:/ H C />` $^2$ $= $ :g:`$CB$ <0507.g1:/ C B />` $^2$.
 
 Again, since :g:`$AB$ <0507.g1:/ A B />` $= 2$ :g:`$CB$ <0507.g1:/ C B />`, and :g:`$AD$ <0507.g1:/ A D />` $= 2$ :g:`$DB$ <0507.g1:/ D B />`, by subtraction, :g:`$BD$ <0507.g1:/ D B />` $= 2$ :g:`$DC$ <0507.g1:/ C D />`, or :g:`$BC$ <0507.g1:/ C B />` $= 3$ :g:`$DC$ <0507.g1:/ C D />`.
 
@@ -128,7 +128,7 @@ Therefore $9$ :g:`$DC$ <0507.g1:/ C D />` $^2 =$ :g:`$BC$ <0507.g1:/ C B />` $^2
 
 Hence :g:`$KC$ <0507.g1:/ C K />` $>$ :g:`$CD$ <0507.g1:/ C D />`.
 
-Make :g:`$CL$ <0507.g1:/ C L />` equal to :g:`$KC$ <0507.g1:/ C K />`, draw :g:`$LM$ <0507.g1:/ L M />` at right angles to :g:`$AB$ <0507.g1:/ A B />`, and join :g:`$AM$ <0507.g1:/ A M />`, :g:`$MB$ <0507.g1:/ M B />`.
+Make :g:`$CL$ <0507.g1:/ C L />` :eq:`equal <0507.g1:/ C L / = 0507.g1:/ C K />` to :g:`$KC$ <0507.g1:/ C K />`, draw :g:`$LM$ <0507.g1:/ L M />` at right angles to :g:`$AB$ <0507.g1:/ A B />`, and join :g:`$AM$ <0507.g1:/ A M />`, :g:`$MB$ <0507.g1:/ M B />`.
 
 Since :g:`$CB$ <0507.g1:/ C B />` $^2 = 5$ :g:`$KC$ <0507.g1:/ C K />` $^2$, :g:`$AB$ <0507.g1:/ A B />` $^2 = 5$ :g:`$KL$ <0507.g1:/ K L />` $^2$.
 

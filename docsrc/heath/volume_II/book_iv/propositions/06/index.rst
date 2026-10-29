@@ -33,19 +33,19 @@ to one another, and let :g:`$AB$ <0097.g1:/ A B />`, :g:`$BC$ <0097.g1:/ B C />`
 .. picture:: 0097.g1.svg
    :alt: Proposition 6 diagram
 
-Then, since :g:`$BE$ <0097.g1:/ B E />` is equal to :g:`$ED$ <0097.g1:/ E D />`, for
+Then, since :g:`$BE$ <0097.g1:/ B E />` is :eq:`equal <0097.g1:/ B E / = 0097.g1:/ E D />` to :g:`$ED$ <0097.g1:/ E D />`, for
 :g:`$E$ <0097.g1:E>` is the centre,
 and :g:`$EA$ <0097.g1:/ E A />` is common and at right angles,
-therefore the base :g:`$AB$ <0097.g1:/ A B />` is equal to the
+therefore the base :g:`$AB$ <0097.g1:/ A B />` is :eq:`equal <0097.g1:/ A B / = 0097.g1:/ A D />` to the
 base :g:`$AD$ <0097.g1:/ A D />`. :just:`[I. 4] <I.4>`
 
 For the same reason
-each of the straight lines :g:`$BC$ <0097.g1:/ B C />`, :g:`$CD$ <0097.g1:/ C D />` is also equal to each of
+each of the straight lines :g:`$BC$ <0097.g1:/ B C />`, :g:`$CD$ <0097.g1:/ C D />` is also :eq:`equal <0097.g1:/ B C / = 0097.g1:/ C D / = 0097.g1:/ A B / = 0097.g1:/ A D />` to each of
 the straight lines :g:`$AB$ <0097.g1:/ A B />`, :g:`$AD$ <0097.g1:/ A D />`;
 
 .. assertion::
 
-   therefore the quadrilateral :g:`$ABCD$ <0097.g1:< A B C D >>` is equilateral.
+   therefore the quadrilateral :g:`$ABCD$ <0097.g1:< A B C D >>` is :eq:`equilateral <0097.g1:/ A B / = 0097.g1:/ B C / = 0097.g1:/ C D / = 0097.g1:/ D A />`.
 
 I say next that it is also right-angled.
 
@@ -58,13 +58,13 @@ therefore :g:`$BAD$ <0097.g1:( B A D )>` is a semicircle;
    therefore the angle :g:`$BAD$ <0097.g1:< B A D )>` is right.
 
 For the same reason
-each of the angles :g:`$ABC$ <0097.g1:< A B C )>`, :g:`$BCD$ <0097.g1:< B C D )>`, :g:`$CDA$ <0097.g1:< C D A )>` is also right;
+each of the angles :g:`$ABC$ <0097.g1:< A B C )>`, :g:`$BCD$ <0097.g1:< B C D )>`, :g:`$CDA$ <0097.g1:< C D A )>` is also :eq:`right <0097.g1:< A B C ) = 0097.g1:< B C D ) = 0097.g1:< C D A ) = 0097.g1:< B A D )>`;
 
 .. assertion::
 
    therefore the quadrilateral :g:`$ABCD$ <0097.g1:< A B C D >>` is right-angled.
 
-But it was also proved equilateral;
+But it was also proved :eq:`equilateral <0097.g1:/ A B / = 0097.g1:/ B C / = 0097.g1:/ C D / = 0097.g1:/ D A />`;
 therefore it is a square; :just:`[I. Def. 22] <I.def.22>`
 and it has been inscribed in the circle :g:`$ABCD$ <0097.g1:( A B C D )>`.
 

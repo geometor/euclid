@@ -26,16 +26,16 @@ I say that :g:`$A$ <0161.g1:A>` is greater than :g:`$B$ <0161.g1:B>`.
 .. picture:: 0161.g1.svg
    :alt: Folio 0161 Figure 1
 
-For, if not, :g:`$A$ <0161.g1:A>` is either equal to :g:`$B$ <0161.g1:B>` or less.
+For, if not, :g:`$A$ <0161.g1:A>` is either :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>` or less.
 
-Now :g:`$A$ <0161.g1:A>` is not equal to :g:`$B$ <0161.g1:B>` ;
+Now :g:`$A$ <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>` ;
 for in that case each of the magnitudes :g:`$A$ <0161.g1:A>`, :g:`$B$ <0161.g1:B>` would have
 had the same ratio to :g:`$C$ <0161.g1:C>` ; :just:`[V. 7] <V.7>`
 but they have not ;
 
 .. assertion::
 
-   therefore :g:`$A$ <0161.g1:A>` is not equal to :g:`$B$ <0161.g1:B>`.
+   therefore :g:`$A$ <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>`.
 
 Nor again is :g:`$A$ <0161.g1:A>` less than :g:`$B$ <0161.g1:B>` ;
 for in that case :g:`$A$ <0161.g1:A>` would have had to :g:`$C$ <0161.g1:C>` a less ratio than :g:`$B$ <0161.g1:B>`
@@ -46,7 +46,7 @@ but it has not ;
 
    therefore :g:`$A$ <0161.g1:A>` is not less than :g:`$B$ <0161.g1:B>`.
 
-But it was proved not to be equal either ;
+But it was proved not to be :eq:`equal <0161.g1:A = 0161.g1:B>` either ;
 
 .. assertion::
 
@@ -55,16 +55,16 @@ But it was proved not to be equal either ;
 Again, let :g:`$C$ <0161.g1:C>` have to :g:`$B$ <0161.g1:B>` a greater ratio than :g:`$C$ <0161.g1:C>` has to :g:`$A$ <0161.g1:A>` ;
 I say that :g:`$B$ <0161.g1:B>` is less than :g:`$A$ <0161.g1:A>`.
 
-For, if not, it is either equal or greater.
+For, if not, it is either :eq:`equal <0161.g1:B = 0161.g1:A>` or greater.
 
-Now :g:`$B$ <0161.g1:B>` is not equal to :g:`$A$ <0161.g1:A>` ;
+Now :g:`$B$ <0161.g1:B>` is not :eq:`equal <0161.g1:B = 0161.g1:A>` to :g:`$A$ <0161.g1:A>` ;
 for in that case :g:`$C$ <0161.g1:C>` would have had the same ratio to each of
 the magnitudes :g:`$A$ <0161.g1:A>`, :g:`$B$ <0161.g1:B>` ; :just:`[V. 7] <V.7>`
 but it has not ;
 
 .. assertion::
 
-   therefore :g:`$A$ <0161.g1:A>` is not equal to :g:`$B$ <0161.g1:B>`.
+   therefore :g:`$A$ <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`$B$ <0161.g1:B>`.
 
 .. _folio-ii-0162:
 
@@ -80,7 +80,7 @@ but it has not ;
 
    therefore :g:`$B$ <0161.g1:B>` is not greater than :g:`$A$ <0161.g1:A>`.
 
-But it was proved that it is not equal either ;
+But it was proved that it is not :eq:`equal <0161.g1:B = 0161.g1:A>` either ;
 
 .. assertion::
 

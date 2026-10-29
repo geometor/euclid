@@ -20,12 +20,12 @@ PROPOSITION 14.
 
    Cones and cylinders which are on equal bases are to one another as their heights.
 
-For let :g:`$EB$ <0423.g1:< E B >>`, :g:`$FD$ <0423.g1:< F D >>` be cylinders on equal bases, the circles :g:`$AB$ <0423.g1:( A B )>`, :g:`$CD$ <0423.g1:( C D )>`; I say that, as the cylinder :g:`$EB$ <0423.g1:< E B >>` is to the cylinder :g:`$FD$ <0423.g1:< F D >>`, so is the axis :g:`$GH$ <0423.g1:/ G H />` to the axis :g:`$KL$ <0423.g1:/ K L />`.
+For let :g:`$EB$ <0423.g1:< E B >>`, :g:`$FD$ <0423.g1:< F D >>` be cylinders on :eq:`equal <0423.g1:( A B ) = 0423.g1:( C D )>` bases, the circles :g:`$AB$ <0423.g1:( A B )>`, :g:`$CD$ <0423.g1:( C D )>`; I say that, as the cylinder :g:`$EB$ <0423.g1:< E B >>` is to the cylinder :g:`$FD$ <0423.g1:< F D >>`, so is the axis :g:`$GH$ <0423.g1:/ G H />` to the axis :g:`$KL$ <0423.g1:/ K L />`.
 
 .. picture:: 0423.g1.svg
    :alt: Proposition 14 Diagram
 
-For let the axis :g:`$KL$ <0423.g1:/ K L />` be produced to the point :g:`$N$ <0423.g1:N>`, let :g:`$LN$ <0423.g1:/ L N />` be made equal to the axis :g:`$GH$ <0423.g1:/ G H />`, and let the cylinder :g:`$CM$ <0423.g1:< C M >>` be conceived about :g:`$LN$ <0423.g1:/ L N />` as axis.
+For let the axis :g:`$KL$ <0423.g1:/ K L />` be produced to the point :g:`$N$ <0423.g1:N>`, let :g:`$LN$ <0423.g1:/ L N />` be made :eq:`equal <0423.g1:/ L N / = 0423.g1:/ G H />` to the axis :g:`$GH$ <0423.g1:/ G H />`, and let the cylinder :g:`$CM$ <0423.g1:< C M >>` be conceived about :g:`$LN$ <0423.g1:/ L N />` as axis.
 
 .. subclause::
 
@@ -33,11 +33,11 @@ For let the axis :g:`$KL$ <0423.g1:/ K L />` be produced to the point :g:`$N$ <0
 
 .. subclause::
 
-   But the bases are equal to one another:
+   But the bases are :eq:`equal <0423.g1:( A B ) = 0423.g1:( C D )>` to one another:
 
 .. assertion::
 
-   therefore the cylinders :g:`$EB$ <0423.g1:< E B >>`, :g:`$CM$ <0423.g1:< C M >>` are also equal.
+   therefore the cylinders :g:`$EB$ <0423.g1:< E B >>`, :g:`$CM$ <0423.g1:< C M >>` are also :eq:`equal <0423.g1:< E B > = 0423.g1:< C M >>`.
 
 .. subclause::
 
@@ -49,7 +49,7 @@ For let the axis :g:`$KL$ <0423.g1:/ K L />` be produced to the point :g:`$N$ <0
 
 .. subclause::
 
-   But the cylinder :g:`$CM$ <0423.g1:< C M >>` is equal to the cylinder :g:`$EB$ <0423.g1:< E B >>`, and the axis :g:`$LN$ <0423.g1:/ L N />` to the axis :g:`$GH$ <0423.g1:/ G H />`;
+   But the cylinder :g:`$CM$ <0423.g1:< C M >>` is :eq:`equal <0423.g1:< C M > = 0423.g1:< E B >; 0423.g1:/ L N / = 0423.g1:/ G H />` to the cylinder :g:`$EB$ <0423.g1:< E B >>`, and the axis :g:`$LN$ <0423.g1:/ L N />` to the axis :g:`$GH$ <0423.g1:/ G H />`;
 
 .. assertion::
 

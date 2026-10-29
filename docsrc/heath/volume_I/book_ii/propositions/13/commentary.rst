@@ -43,18 +43,18 @@ Let us take first the case where all the angles of the triangle are acute.
 
 As before, if we draw :g:`$ALP$ <0421.g2:/ A L P />`, :g:`$BMQ$ <0421.g2:/ B M Q />`, :g:`$CNR$ <0421.g2:/ C N R />` perpendicular to :g:`$BC$ <0421.g2:/ B C />`, :g:`$CA$ <0421.g2:/ C A />`, :g:`$AB$ <0421.g2:/ A B />` and meeting the further sides of the squares on :g:`$BC$ <0421.g2:/ B C />`, :g:`$CA$ <0421.g2:/ C A />`, :g:`$AB$ <0421.g2:/ A B />` in :g:`$P$ <0421.g2:P>`, :g:`$Q$ <0421.g2:Q>`, :g:`$R$ <0421.g2:R>`, and if we join :g:`$KC$ <0421.g2:/ K C />`, :g:`$AD$ <0421.g2:/ A D />`, we have
 
-the triangles :g:`$KBC$ <0421.g2:< K B C >>`, :g:`$ABD$ <0421.g2:< A B D >>` equal in all respects,
+the triangles :g:`$KBC$ <0421.g2:< K B C >>`, :g:`$ABD$ <0421.g2:< A B D >>` :eq:`equal <0421.g2:< K B C > = 0421.g2:< A B D >>` in all respects,
 
-and consequently the rectangles :g:`$BP$ <0421.g2:< B L P D >>`, :g:`$BR$ <0421.g2:< B N R K >>` equal to one another.
+and consequently the rectangles :g:`$BP$ <0421.g2:< B L P D >>`, :g:`$BR$ <0421.g2:< B N R K >>` :eq:`equal <0421.g2:< B L P D > = 0421.g2:< B N R K >>` to one another.
 
-Similarly the rectangles :g:`$CP$ <0421.g2:< L C E P >>`, :g:`$CQ$ <0421.g2:< C M Q F >>` are equal to one another.
+Similarly the rectangles :g:`$CP$ <0421.g2:< L C E P >>`, :g:`$CQ$ <0421.g2:< C M Q F >>` are :eq:`equal <0421.g2:< L C E P > = 0421.g2:< C M Q F >>` to one another.
 
 .. _folio-i-0422:
 
 .. folio:: 0422
    :page: 408
 
-Next, by joining :g:`$BG$ <0421.g2:/ B G />`, :g:`$CH$ <0421.g2:/ C H />`, we prove in like manner that the rectangles :g:`$AR$ <0421.g2:< A N R H >>`, :g:`$AQ$ <0421.g2:< A M Q G >>` are equal.
+Next, by joining :g:`$BG$ <0421.g2:/ B G />`, :g:`$CH$ <0421.g2:/ C H />`, we prove in like manner that the rectangles :g:`$AR$ <0421.g2:< A N R H >>`, :g:`$AQ$ <0421.g2:< A M Q G >>` are :eq:`equal <0421.g2:< A N R H > = 0421.g2:< A M Q G >>`.
 
 Now the square on :g:`$BC$ <0421.g2:/ B C />` is equal to the sum of the rectangles :g:`$BP$ <0421.g2:< B L P D >>`, :g:`$CP$ <0421.g2:< L C E P >>`,
 
@@ -62,7 +62,7 @@ i.e. to the sum of the rectangles :g:`$BR$ <0421.g2:< B N R K >>`, :g:`$CQ$ <042
 
 i.e. to the sum of the squares :g:`$BH$ <0421.g2:< A B K H >>`, :g:`$CG$ <0421.g2:< C A G F >>` diminished by the rectangles :g:`$AR$ <0421.g2:< A N R H >>`, :g:`$AQ$ <0421.g2:< A M Q G >>`.
 
-But the rectangles :g:`$AR$ <0421.g2:< A N R H >>`, :g:`$AQ$ <0421.g2:< A M Q G >>` are equal, and they are respectively the rectangles contained by :g:`$BA$ <0421.g2:/ B A />`, :g:`$AN$ <0421.g2:/ A N />` and by :g:`$CA$ <0421.g2:/ C A />`, :g:`$AM$ <0421.g2:/ A M />`.
+But the rectangles :g:`$AR$ <0421.g2:< A N R H >>`, :g:`$AQ$ <0421.g2:< A M Q G >>` are :eq:`equal <0421.g2:< A N R H > = 0421.g2:< A M Q G >>`, and they are respectively the rectangles contained by :g:`$BA$ <0421.g2:/ B A />`, :g:`$AN$ <0421.g2:/ A N />` and by :g:`$CA$ <0421.g2:/ C A />`, :g:`$AM$ <0421.g2:/ A M />`.
 
 Therefore the square on :g:`$BC$ <0421.g2:/ B C />` is less than the squares on :g:`$BA$ <0421.g2:/ B A />`, :g:`$AC$ <0421.g2:/ A C />` by twice the rectangle :g:`$BA$ <0421.g2:/ B A />`, :g:`$AN$ <0421.g2:/ A N />` or :g:`$CA$ <0421.g2:/ C A />`, :g:`$AM$ <0421.g2:/ A M />`.
 
@@ -85,7 +85,7 @@ i.e. to the difference between the sum of the squares :g:`$BE$ <0422.g1:< B C E 
 
 (since :g:`$AR$ <0422.g1:< A N R H >>` is the difference between :g:`$BR$ <0422.g1:< B N R K >>` and :g:`$BH$ <0422.g1:< A B K H >>`).
 
-But :g:`$BP$ <0422.g1:< B L P D >>`, :g:`$BR$ <0422.g1:< B N R K >>` are equal, and they are respectively the rectangles :g:`$CB$ <0422.g1:/ C B />`, :g:`$BL$ <0422.g1:/ B L />` and :g:`$AB$ <0422.g1:/ A B />`, :g:`$BN$ <0422.g1:/ B N />`.
+But :g:`$BP$ <0422.g1:< B L P D >>`, :g:`$BR$ <0422.g1:< B N R K >>` are :eq:`equal <0422.g1:< B L P D > = 0422.g1:< B N R K >>`, and they are respectively the rectangles :g:`$CB$ <0422.g1:/ C B />`, :g:`$BL$ <0422.g1:/ B L />` and :g:`$AB$ <0422.g1:/ A B />`, :g:`$BN$ <0422.g1:/ B N />`.
 
 Therefore the square on :g:`$CA$ <0422.g1:/ C A />` is less than the squares on :g:`$AB$ <0422.g1:/ A B />`, :g:`$BC$ <0422.g1:/ B C />` by twice the rectangle :g:`$CB$ <0422.g1:/ C B />`, :g:`$BL$ <0422.g1:/ B L />` or :g:`$AB$ <0422.g1:/ A B />`, :g:`$BN$ <0422.g1:/ B N />`.
 
@@ -94,7 +94,7 @@ Heron's proof of his converse proposition (:person:`an-Nairīzī <an-nairizi>`, 
 .. picture:: 0422.g2.svg
    :alt: Diagram
 
-Draw :g:`$BD$ <0422.g2:/ B D />` at right angles to :g:`$BC$ <0422.g2:/ B C />` and of length equal to :g:`$BA$ <0422.g2:/ B A />`.
+Draw :g:`$BD$ <0422.g2:/ B D />` at right angles to :g:`$BC$ <0422.g2:/ B C />` and of length :eq:`equal <0422.g2:/ B D / = 0422.g2:/ B A />` to :g:`$BA$ <0422.g2:/ B A />`.
 
 Join :g:`$DC$ <0422.g2:/ D C />`.
 
@@ -108,7 +108,7 @@ Therefore the square on :g:`$AC$ <0422.g2:/ A C />` is less than the square on :
 
 Therefore :g:`$AC$ <0422.g2:/ A C />` is less than :g:`$DC$ <0422.g2:/ D C />`.
 
-Hence in the two triangles :g:`$DBC$ <0422.g2:< D B C >>`, :g:`$ABC$ <0422.g2:< A B C >>` the sides about the angles :g:`$DBC$ <0422.g2:< D B C )>`, :g:`$ABC$ <0422.g2:< A B C )>` are respectively equal, but the base :g:`$DC$ <0422.g2:/ D C />` is greater than the base :g:`$AC$ <0422.g2:/ A C />`.
+Hence in the two triangles :g:`$DBC$ <0422.g2:< D B C >>`, :g:`$ABC$ <0422.g2:< A B C >>` the sides about the angles :g:`$DBC$ <0422.g2:< D B C )>`, :g:`$ABC$ <0422.g2:< A B C )>` are respectively :eq:`equal <0422.g2:/ B D / = 0422.g2:/ B A />`, but the base :g:`$DC$ <0422.g2:/ D C />` is greater than the base :g:`$AC$ <0422.g2:/ A C />`.
 
 .. _folio-i-0423:
 

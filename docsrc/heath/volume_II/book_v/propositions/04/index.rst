@@ -50,7 +50,7 @@ And, since, as :g:`$A$ <0148.g1:A>` is to :g:`$B$ <0148.g1:B>`, so is :g:`$C$ <0
 
 .. assertion::
 
-   therefore, if :g:`$K$ <0148.g1:K>` is in excess of :g:`$M$ <0148.g1:M>`, :g:`$L$ <0148.g1:L>` also is in excess of :g:`$N$ <0148.g1:N>`, if it is equal, equal, and if less, less. :just:`[V. Def. 5] <V.def.5>`
+   therefore, if :g:`$K$ <0148.g1:K>` is in excess of :g:`$M$ <0148.g1:M>`, :g:`$L$ <0148.g1:L>` also is in excess of :g:`$N$ <0148.g1:N>`, if it is :eq:`equal <0148.g1:K = 0148.g1:M>`, :eq:`equal <0148.g1:L = 0148.g1:N>`, and if less, less. :just:`[V. Def. 5] <V.def.5>`
 
 And :g:`$K$ <0148.g1:K>`, :g:`$L$ <0148.g1:L>` are equimultiples of :g:`$E$ <0148.g1:E>`, :g:`$F$ <0148.g1:F>`, and :g:`$M$ <0148.g1:M>`, :g:`$N$ <0148.g1:N>` other, chance, equimultiples of :g:`$G$ <0148.g1:G>`, :g:`$H$ <0148.g1:H>`;
 

@@ -32,7 +32,7 @@ Let there be three magnitudes :g:`$A$ <0184.g1:A>`, :g:`$B$ <0184.g1:B>`, :g:`$C
 
 and let :g:`$A$ <0184.g1:A>` be greater than :g:`$C$ <0184.g1:C>` :term:`*ex aequali* <ex-aequali>`;
 
-I say that :g:`$D$ <0184.g1:D>` will also be greater than :g:`$F$ <0184.g1:F>`; if :g:`$A$ <0184.g1:A>` is equal to :g:`$C$ <0184.g1:C>`, equal; and if less, less.
+I say that :g:`$D$ <0184.g1:D>` will also be greater than :g:`$F$ <0184.g1:F>`; if :g:`$A$ <0184.g1:A>` is :eq:`equal <0184.g1:A = 0184.g1:C>` to :g:`$C$ <0184.g1:C>`, :eq:`equal <0184.g1:D = 0184.g1:F>`; and if less, less.
 
 .. picture:: 0184.g1.svg
    :alt: Proposition 21
@@ -66,7 +66,7 @@ But, as :g:`$A$ <0184.g1:A>` is to :g:`$B$ <0184.g1:B>`, so is :g:`$E$ <0184.g1:
 .. folio:: 0185
    :page: 179
 
-Similarly we can prove that, if :g:`$A$ <0184.g1:A>` be equal to :g:`$C$ <0184.g1:C>`, :g:`$D$ <0184.g1:D>` will also be equal to :g:`$F$ <0184.g1:F>`; and if less, less.
+Similarly we can prove that, if :g:`$A$ <0184.g1:A>` be :eq:`equal <0184.g1:A = 0184.g1:C>` to :g:`$C$ <0184.g1:C>`, :g:`$D$ <0184.g1:D>` will also be :eq:`equal <0184.g1:D = 0184.g1:F>` to :g:`$F$ <0184.g1:F>`; and if less, less.
 
 .. qed::
 

@@ -5,7 +5,8 @@
       --geom-bg: #ffffff;
       --geom-point-stroke: #ffffff;
       --geom-poly-fill: #000000;
-      --geom-accent: #ef4444;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -13,7 +14,8 @@
         --geom-bg: #1e1e20;
         --geom-point-stroke: #1e1e20;
         --geom-poly-fill: #d6cfc5;
-        --geom-accent: #ef4444;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
       }
     }
     .euclid-graphic {
@@ -82,6 +84,18 @@
       stroke-width: 1.5;
       stroke-linecap: round;
       fill: none;
+    }
+    .geom-tick-mark {
+      stroke: var(--geom-assert);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      fill: none;
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-linecap: round;
     }
     .grid-line {
       stroke: var(--geom-fg);
@@ -180,36 +194,84 @@
       fill: var(--geom-accent) !important;
       stroke: none !important;
     }
+    .geom-assert-active {
+      opacity: 1 !important;
+      stroke: var(--geom-assert) !important;
+    }
+    text.geom-assert-active, text.geom-assert-secondary, text.geom-assert-active *, text.geom-assert-secondary * {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    polygon.geom-assert-active, path.geom-polygon.geom-assert-active, .wedge.angle.geom-assert-active, path.wedge.geom-assert-active, path.angle.geom-assert-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: var(--geom-assert) !important;
+      stroke: var(--geom-assert) !important;
+    }
+    path.geom-ang-arc.geom-assert-active {
+      opacity: 1 !important;
+      fill: none !important;
+      stroke: var(--geom-assert) !important;
+    }
+    circle.geom-point.geom-assert-active, circle.geom-assert-active {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    path.geom-assert-active.geom-tick-1 {
+      marker-mid: url(#geom-tick-1);
+    }
+    path.geom-assert-active.geom-tick-2 {
+      marker-mid: url(#geom-tick-2);
+    }
+    path.geom-assert-active.geom-tick-3 {
+      marker-mid: url(#geom-tick-3);
+    }
   </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+    </marker>
+  </defs>
   <g id="elements">
-    <line id="el-AO-1" x1="26" y1="26" x2="138" y2="26" class="geom-line" />
-    <line id="el-AO-2" x1="138" y1="26" x2="154" y2="42" class="geom-line" />
-    <line id="el-AO-3" x1="154" y1="42" x2="42" y2="42" class="geom-line" />
-    <line id="el-AO-4" x1="42" y1="42" x2="26" y2="26" class="geom-line" />
-    <line id="el-AO-5" x1="26" y1="97" x2="138" y2="97" class="geom-line" />
-    <line id="el-AO-6" x1="138" y1="97" x2="154" y2="113" class="geom-line" />
-    <line id="el-AO-7" x1="154" y1="113" x2="42" y2="113" class="geom-line" />
-    <line id="el-AO-8" x1="42" y1="113" x2="26" y2="97" class="geom-line" />
-    <line id="el-AO-9" x1="26" y1="26" x2="26" y2="97" class="geom-line" />
-    <line id="el-AO-10" x1="138" y1="26" x2="138" y2="97" class="geom-line" />
-    <line id="el-AO-11" x1="154" y1="42" x2="154" y2="113" class="geom-line" />
-    <line id="el-AO-12" x1="42" y1="42" x2="42" y2="113" class="geom-line" />
-    <line id="el-AO-13" x1="26" y1="26" x2="42" y2="113" class="geom-line" />
-    <line id="el-AO-14" x1="138" y1="26" x2="154" y2="113" class="geom-line" />
-    <line id="el-GP-1" x1="275" y1="32" x2="345" y2="32" class="geom-line" />
-    <line id="el-GP-2" x1="345" y1="32" x2="378" y2="60" class="geom-line" />
-    <line id="el-GP-3" x1="378" y1="60" x2="308" y2="60" class="geom-line" />
-    <line id="el-GP-4" x1="308" y1="60" x2="275" y2="32" class="geom-line" />
-    <line id="el-GP-5" x1="275" y1="102" x2="345" y2="102" class="geom-line" />
-    <line id="el-GP-6" x1="345" y1="102" x2="378" y2="130" class="geom-line" />
-    <line id="el-GP-7" x1="378" y1="130" x2="308" y2="130" class="geom-line" />
-    <line id="el-GP-8" x1="308" y1="130" x2="275" y2="102" class="geom-line" />
-    <line id="el-GP-9" x1="275" y1="32" x2="275" y2="102" class="geom-line" />
-    <line id="el-GP-10" x1="345" y1="32" x2="345" y2="102" class="geom-line" />
-    <line id="el-GP-11" x1="378" y1="60" x2="378" y2="130" class="geom-line" />
-    <line id="el-GP-12" x1="308" y1="60" x2="308" y2="130" class="geom-line" />
-    <line id="el-GP-13" x1="275" y1="32" x2="378" y2="60" class="geom-line" />
-    <line id="el-GP-14" x1="275" y1="102" x2="378" y2="130" class="geom-line" />
+    <path id="el-AO-1" class="geom-line" d="M 26 26 L 82 26 L 138 26" />
+    <path id="el-AO-2" class="geom-line" d="M 138 26 L 146 34 L 154 42" />
+    <path id="el-AO-3" class="geom-line" d="M 154 42 L 98 42 L 42 42" />
+    <path id="el-AO-4" class="geom-line" d="M 42 42 L 34 34 L 26 26" />
+    <path id="el-AO-5" class="geom-line" d="M 26 97 L 82 97 L 138 97" />
+    <path id="el-AO-6" class="geom-line" d="M 138 97 L 146 105 L 154 113" />
+    <path id="el-AO-7" class="geom-line" d="M 154 113 L 98 113 L 42 113" />
+    <path id="el-AO-8" class="geom-line" d="M 42 113 L 34 105 L 26 97" />
+    <path id="el-AO-9" class="geom-line" d="M 26 26 L 26 61.5 L 26 97" />
+    <path id="el-AO-10" class="geom-line" d="M 138 26 L 138 61.5 L 138 97" />
+    <path id="el-AO-11" class="geom-line" d="M 154 42 L 154 77.5 L 154 113" />
+    <path id="el-AO-12" class="geom-line" d="M 42 42 L 42 77.5 L 42 113" />
+    <path id="el-AO-13" class="geom-line" d="M 26 26 L 34 69.5 L 42 113" />
+    <path id="el-AO-14" class="geom-line" d="M 138 26 L 146 69.5 L 154 113" />
+    <path id="el-GP-1" class="geom-line" d="M 275 32 L 310 32 L 345 32" />
+    <path id="el-GP-2" class="geom-line" d="M 345 32 L 361.5 46 L 378 60" />
+    <path id="el-GP-3" class="geom-line" d="M 378 60 L 343 60 L 308 60" />
+    <path id="el-GP-4" class="geom-line" d="M 308 60 L 291.5 46 L 275 32" />
+    <path id="el-GP-5" class="geom-line" d="M 275 102 L 310 102 L 345 102" />
+    <path id="el-GP-6" class="geom-line" d="M 345 102 L 361.5 116 L 378 130" />
+    <path id="el-GP-7" class="geom-line" d="M 378 130 L 343 130 L 308 130" />
+    <path id="el-GP-8" class="geom-line" d="M 308 130 L 291.5 116 L 275 102" />
+    <path id="el-GP-9" class="geom-line" d="M 275 32 L 275 67 L 275 102" />
+    <path id="el-GP-10" class="geom-line" d="M 345 32 L 345 67 L 345 102" />
+    <path id="el-GP-11" class="geom-line" d="M 378 60 L 378 95 L 378 130" />
+    <path id="el-GP-12" class="geom-line" d="M 308 60 L 308 95 L 308 130" />
+    <path id="el-GP-13" class="geom-line" d="M 275 32 L 326.5 46 L 378 60" />
+    <path id="el-GP-14" class="geom-line" d="M 275 102 L 326.5 116 L 378 130" />
   </g>
   <g id="graphics">
     <polygon id="el-sol-AO" data-ref="&lt; A O &gt;" data-aliases="&lt; O A &gt;" data-type="polygon" points="26,26 138,26 154,42 154,113 42,113 26,97" class="geom-polygon" />

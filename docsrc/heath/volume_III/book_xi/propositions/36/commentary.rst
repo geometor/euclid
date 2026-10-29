@@ -17,7 +17,7 @@ Back to :ref:`Proposition XI.36 <XI.36>`.
 .. folio:: 0362
    :page: 358
 
-The edges of the parallelepiped :g:`$HL$ <0361.g1:< H L >>` being respectively equal to :g:`$A$ <0361.g1:/ A />`, :g:`$B$ <0361.g1:/ B />`, :g:`$C$ <0361.g1:/ C />`, and those of the equiangular parallelepiped :g:`$KE$ <0361.g1:< K E >>` being all equal to :g:`$B$ <0361.g1:/ B />`, we regard :g:`$MN$ <0361.g1:< M N >>` (*not* containing the edge :g:`$OL$ <0361.g1:/ O L />` equal to :g:`$B$ <0361.g1:/ B />`) as the base of the first parallelepiped, and consequently :g:`$FD$ <0361.g1:< F D >>`, equiangular to :g:`$MN$ <0361.g1:< M N >>`, as the base of :g:`$KE$ <0361.g1:< K E >>`.
+The edges of the parallelepiped :g:`$HL$ <0361.g1:< H L >>` being respectively equal to :g:`$A$ <0361.g1:/ A />`, :g:`$B$ <0361.g1:/ B />`, :g:`$C$ <0361.g1:/ C />`, and those of the equiangular parallelepiped :g:`$KE$ <0361.g1:< K E >>` being all equal to :g:`$B$ <0361.g1:/ B />`, we regard :g:`$MN$ <0361.g1:< M N >>` (*not* containing the edge :g:`$OL$ <0361.g1:/ O L />` :eq:`equal <0361.g1:/ O L / = 0361.g1:/ B />` to :g:`$B$ <0361.g1:/ B />`) as the base of the first parallelepiped, and consequently :g:`$FD$ <0361.g1:< F D >>`, equiangular to :g:`$MN$ <0361.g1:< M N >>`, as the base of :g:`$KE$ <0361.g1:< K E >>`.
 
 Then the solids have the same height. [XI. 35, Por.]
 

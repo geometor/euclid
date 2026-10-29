@@ -33,15 +33,15 @@ Then, since the point :g:`$E$ <0018.g1:E>` is the centre of the circle :g:`$ABC$
 
 .. assertion:: [I. Def. 15] <I.def.15>
 
-   :g:`$EC$ <0018.g1:/ E C />` is equal to :g:`$EF$ <0018.g1:/ E F />`.
+   :g:`$EC$ <0018.g1:/ E C />` is :eq:`equal <0018.g1:/ E C / = 0018.g1:/ E F />` to :g:`$EF$ <0018.g1:/ E F />`.
 
 Again, since the point :g:`$E$ <0018.g1:E>` is the centre of the circle :g:`$CDG$ <0018.g1:( C D G )>`,
 
 .. assertion::
 
-   :g:`$EC$ <0018.g1:/ E C />` is equal to :g:`$EG$ <0018.g1:/ E G />`.
+   :g:`$EC$ <0018.g1:/ E C />` is :eq:`equal <0018.g1:/ E C / = 0018.g1:/ E G />` to :g:`$EG$ <0018.g1:/ E G />`.
 
-But :g:`$EC$ <0018.g1:/ E C />` was proved equal to :g:`$EF$ <0018.g1:/ E F />` also; therefore :g:`$EF$ <0018.g1:/ E F />` is also equal to :g:`$EG$ <0018.g1:/ E G />`, the less to the greater: which is impossible.
+But :g:`$EC$ <0018.g1:/ E C />` was proved :eq:`equal <0018.g1:/ E C / = 0018.g1:/ E F />` to :g:`$EF$ <0018.g1:/ E F />` also; therefore :g:`$EF$ <0018.g1:/ E F />` is also :eq:`equal <0018.g1:/ E F / = 0018.g1:/ E G />` to :g:`$EG$ <0018.g1:/ E G />`, the less to the greater: which is impossible.
 
 .. assertion::
 

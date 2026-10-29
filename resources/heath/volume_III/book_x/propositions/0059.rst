@@ -33,7 +33,7 @@ For on :g:`$AB$ <0059.g1:/ A B />` let the square :g:`$AD$ <0059.g1:< A D >>` be
 
 .. subclause::
 
-   And, since :g:`$AB$ <0059.g1:/ A B />` is commensurable in length with :g:`$BC$ <0059.g1:/ B C />`, while :g:`$AB$ <0059.g1:/ A B />` is equal to :g:`$BD$ <0059.g1:/ B D />`,
+   And, since :g:`$AB$ <0059.g1:/ A B />` is commensurable in length with :g:`$BC$ <0059.g1:/ B C />`, while :g:`$AB$ <0059.g1:/ A B />` is :eq:`equal <0059.g1:/ A B / = 0059.g1:/ B D />` to :g:`$BD$ <0059.g1:/ B D />`,
 
 .. assertion::
 

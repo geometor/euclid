@@ -46,7 +46,7 @@ For let :g:`$DG$ <0199.g1:/ D G />` be the annex to :g:`$AD$ <0199.g1:/ A D />`;
 
    therefore, if there be applied to :g:`$AG$ <0199.g1:/ A G />` a parallelogram equal to the fourth part of the square on :g:`$GD$ <0199.g1:/ G D />` and deficient by a square figure, it divides it into commensurable parts. :just:`[X. 17] <X.17>`
 
-Let then :g:`$DG$ <0199.g1:/ D G />` be bisected at :g:`$E$ <0199.g1:E>`, let there be applied to :g:`$AG$ <0199.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0199.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0199.g1:/ A F />`, :g:`$FG$ <0199.g1:/ F G />`;
+Let then :g:`$DG$ <0199.g1:/ D G />` be :eq:`bisected <0199.g1:/ D E / = 0199.g1:/ E G />` at :g:`$E$ <0199.g1:E>`, let there be applied to :g:`$AG$ <0199.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0199.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0199.g1:/ A F />`, :g:`$FG$ <0199.g1:/ F G />`;
 
 .. assertion::
 
@@ -85,7 +85,7 @@ Let then :g:`$DG$ <0199.g1:/ D G />` be bisected at :g:`$E$ <0199.g1:E>`, let th
 
    Therefore each of the rectangles :g:`$DH$ <0199.g1:< D H >>`, :g:`$EK$ <0199.g1:< E K >>` is rational. :just:`[x. 19]`
 
-Let then the square :g:`$LM$ <0199.g1:< L M >>` be constructed equal to :g:`$AI$ <0199.g1:< A I >>`, and let there be subtracted :g:`$NO$ <0199.g1:< N O >>` equal to :g:`$FK$ <0199.g1:< F K >>` and being about the same angle with :g:`$LM$ <0199.g1:< L M >>`, namely the angle :g:`$LPM$ <0199.g1:< L P M )>`;
+Let then the square :g:`$LM$ <0199.g1:< L M >>` be constructed :eq:`equal <0199.g1:< L M > = 0199.g1:< A I >>` to :g:`$AI$ <0199.g1:< A I >>`, and let there be subtracted :g:`$NO$ <0199.g1:< N O >>` :eq:`equal <0199.g1:< N O > = 0199.g1:< F K >>` to :g:`$FK$ <0199.g1:< F K >>` and being about the same angle with :g:`$LM$ <0199.g1:< L M >>`, namely the angle :g:`$LPM$ <0199.g1:< L P M )>`;
 
 .. assertion::
 
@@ -119,15 +119,15 @@ Let :g:`$PR$ <0199.g1:/ P R />` be their diameter, and let the figure be drawn.
 
 .. subclause::
 
-   But :g:`$MN$ <0199.g1:< M N >>` is also a mean proportional between the squares :g:`$LM$ <0199.g1:< L M >>`, :g:`$NO$ <0199.g1:< N O >>`, and :g:`$AI$ <0199.g1:< A I >>` is equal to :g:`$LM$ <0199.g1:< L M >>`, and :g:`$FK$ <0199.g1:< F K >>` to :g:`$NO$ <0199.g1:< N O >>`;
+   But :g:`$MN$ <0199.g1:< M N >>` is also a mean proportional between the squares :g:`$LM$ <0199.g1:< L M >>`, :g:`$NO$ <0199.g1:< N O >>`, and :g:`$AI$ <0199.g1:< A I >>` is :eq:`equal <0199.g1:< A I > = 0199.g1:< L M >; 0199.g1:< F K > = 0199.g1:< N O >>` to :g:`$LM$ <0199.g1:< L M >>`, and :g:`$FK$ <0199.g1:< F K >>` to :g:`$NO$ <0199.g1:< N O >>`;
 
 .. assertion::
 
-   therefore :g:`$MN$ <0199.g1:< M N >>` is also equal to :g:`$EK$ <0199.g1:< E K >>`.
+   therefore :g:`$MN$ <0199.g1:< M N >>` is also :eq:`equal <0199.g1:< M N > = 0199.g1:< E K >>` to :g:`$EK$ <0199.g1:< E K >>`.
 
 .. subclause::
 
-   But :g:`$DH$ <0199.g1:< D H >>` is equal to :g:`$EK$ <0199.g1:< E K >>`, and :g:`$LO$ <0199.g1:< L O >>` equal to :g:`$MN$ <0199.g1:< M N >>`;
+   But :g:`$DH$ <0199.g1:< D H >>` is :eq:`equal <0199.g1:< D H > = 0199.g1:< E K >>` to :g:`$EK$ <0199.g1:< E K >>`, and :g:`$LO$ <0199.g1:< L O >>` :eq:`equal <0199.g1:< L O > = 0199.g1:< M N >>` to :g:`$MN$ <0199.g1:< M N >>`;
 
 .. assertion::
 
@@ -139,7 +139,7 @@ Let :g:`$PR$ <0199.g1:/ P R />` be their diameter, and let the figure be drawn.
 
 .. assertion::
 
-   therefore the remainder :g:`$AB$ <0199.g1:< A B >>` is equal to :g:`$TS$ <0199.g1:< T S >>`.
+   therefore the remainder :g:`$AB$ <0199.g1:< A B >>` is :eq:`equal <0199.g1:< A B > = 0199.g1:< T S >>` to :g:`$TS$ <0199.g1:< T S >>`.
 
 .. _folio-iii-0201:
 
@@ -158,7 +158,7 @@ I say that :g:`$LN$ <0199.g1:/ L N />` is a first apotome of a medial straight l
 
 .. subclause::
 
-   For, since :g:`$EK$ <0199.g1:< E K >>` is rational and is equal to :g:`$LO$ <0199.g1:< L O >>`,
+   For, since :g:`$EK$ <0199.g1:< E K >>` is rational and is :eq:`equal <0199.g1:< E K > = 0199.g1:< L O >>` to :g:`$LO$ <0199.g1:< L O >>`,
 
 .. assertion::
 

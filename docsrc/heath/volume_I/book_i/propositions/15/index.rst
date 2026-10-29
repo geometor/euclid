@@ -25,7 +25,7 @@ PROPOSITION 15.
 
 For let the straight lines :g:`$AB$ <0291.g2:/ A B />`, :g:`$CD$ <0291.g2:/ C D />` cut one another at the point :g:`$E$ <0291.g2:E>`;
 
-I say that the angle :g:`$AEC$ <0291.g2:< A E C )>` is equal to the angle :g:`$DEB$ <0291.g2:< D E B )>`, and the angle :g:`$CEB$ <0291.g2:< C E B )>` to the angle :g:`$AED$ <0291.g2:< A E D )>`.
+I say that the angle :g:`$AEC$ <0291.g2:< A E C )>` is :eq:`equal <0291.g2:< A E C ) = 0291.g2:< D E B ); 0291.g2:< C E B ) = 0291.g2:< A E D )>` to the angle :g:`$DEB$ <0291.g2:< D E B )>`, and the angle :g:`$CEB$ <0291.g2:< C E B )>` to the angle :g:`$AED$ <0291.g2:< A E D )>`.
 
 For, since the straight line :g:`$AE$ <0291.g2:/ A E />` stands on the straight line :g:`$CD$ <0291.g2:/ C D />`, making the angles :g:`$CEA$ <0291.g2:< C E A )>`, :g:`$AED$ <0291.g2:< A E D )>`,
 
@@ -54,9 +54,9 @@ But the angles :g:`$CEA$ <0291.g2:< C E A )>`, :g:`$AED$ <0291.g2:< A E D )>` we
 
    Let the angle :g:`$AED$ <0291.g2:< A E D )>` be subtracted from each;
 
-therefore the remaining angle :g:`$CEA$ <0291.g2:< C E A )>` is equal to the remaining angle :g:`$BED$ <0291.g2:< B E D )>`. :just:`[C. N. 3] <I.cn.3>`
+therefore the remaining angle :g:`$CEA$ <0291.g2:< C E A )>` is :eq:`equal <0291.g2:< C E A ) = 0291.g2:< B E D )>` to the remaining angle :g:`$BED$ <0291.g2:< B E D )>`. :just:`[C. N. 3] <I.cn.3>`
 
-Similarly it can be proved that the angles :g:`$CEB$ <0291.g2:< C E B )>`, :g:`$DEA$ <0291.g2:< D E A )>` are also equal.
+Similarly it can be proved that the angles :g:`$CEB$ <0291.g2:< C E B )>`, :g:`$DEA$ <0291.g2:< D E A )>` are also :eq:`equal <0291.g2:< C E B ) = 0291.g2:< D E A )>`.
 
 .. qed::
 

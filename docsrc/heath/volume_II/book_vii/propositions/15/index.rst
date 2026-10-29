@@ -40,7 +40,7 @@ I say that, alternately also, the unit :g:`$A$ <0321.g1:A>` measures the number 
 
    therefore, as many units as there are in :g:`$BC$ <0321.g1:/ B C />`, so many numbers equal to :g:`$D$ <0321.g1:D>` are there in :g:`$EF$ <0321.g1:/ E F />` also.
 
-Let :g:`$BC$ <0321.g1:/ B C />` be divided into the units in it, :g:`$BG$ <0321.g1:/ B G />`, :g:`$GH$ <0321.g1:/ G H />`, :g:`$HC$ <0321.g1:/ H C />`, and :g:`$EF$ <0321.g1:/ E F />` into the numbers :g:`$EK$ <0321.g1:/ E K />`, :g:`$KL$ <0321.g1:/ K L />`, :g:`$LF$ <0321.g1:/ L F />` equal to :g:`$D$ <0321.g1:D>`.
+Let :g:`$BC$ <0321.g1:/ B C />` be divided into the units in it, :g:`$BG$ <0321.g1:/ B G />`, :g:`$GH$ <0321.g1:/ G H />`, :g:`$HC$ <0321.g1:/ H C />`, and :g:`$EF$ <0321.g1:/ E F />` into the numbers :g:`$EK$ <0321.g1:/ E K />`, :g:`$KL$ <0321.g1:/ K L />`, :g:`$LF$ <0321.g1:/ L F />` :eq:`equal <0321.g1:/ E K / = 0321.g1:/ K L / = 0321.g1:/ L F / = 0321.g1:D>` to :g:`$D$ <0321.g1:D>`.
 
 .. assertion::
 
@@ -48,7 +48,7 @@ Let :g:`$BC$ <0321.g1:/ B C />` be divided into the units in it, :g:`$BG$ <0321.
 
 .. subclause::
 
-   And, since the units :g:`$BG$ <0321.g1:/ B G />`, :g:`$GH$ <0321.g1:/ G H />`, :g:`$HC$ <0321.g1:/ H C />` are equal to one another, and the numbers :g:`$EK$ <0321.g1:/ E K />`, :g:`$KL$ <0321.g1:/ K L />`, :g:`$LF$ <0321.g1:/ L F />` are also equal to one another, while the multitude of the units :g:`$BG$ <0321.g1:/ B G />`, :g:`$GH$ <0321.g1:/ G H />`, :g:`$HC$ <0321.g1:/ H C />` is equal to the multitude of the numbers :g:`$EK$ <0321.g1:/ E K />`, :g:`$KL$ <0321.g1:/ K L />`, :g:`$LF$ <0321.g1:/ L F />`,
+   And, since the units :g:`$BG$ <0321.g1:/ B G />`, :g:`$GH$ <0321.g1:/ G H />`, :g:`$HC$ <0321.g1:/ H C />` are :eq:`equal <0321.g1:/ B G / = 0321.g1:/ G H / = 0321.g1:/ H C />` to one another, and the numbers :g:`$EK$ <0321.g1:/ E K />`, :g:`$KL$ <0321.g1:/ K L />`, :g:`$LF$ <0321.g1:/ L F />` are also :eq:`equal <0321.g1:/ E K / = 0321.g1:/ K L / = 0321.g1:/ L F />` to one another, while the multitude of the units :g:`$BG$ <0321.g1:/ B G />`, :g:`$GH$ <0321.g1:/ G H />`, :g:`$HC$ <0321.g1:/ H C />` is equal to the multitude of the numbers :g:`$EK$ <0321.g1:/ E K />`, :g:`$KL$ <0321.g1:/ K L />`, :g:`$LF$ <0321.g1:/ L F />`,
 
 .. assertion::
 
@@ -60,7 +60,7 @@ Let :g:`$BC$ <0321.g1:/ B C />` be divided into the units in it, :g:`$BG$ <0321.
 
 .. subclause::
 
-   But the unit :g:`$BG$ <0321.g1:/ B G />` is equal to the unit :g:`$A$ <0321.g1:A>`, and the number :g:`$EK$ <0321.g1:/ E K />` to the number :g:`$D$ <0321.g1:D>`.
+   But the unit :g:`$BG$ <0321.g1:/ B G />` is :eq:`equal <0321.g1:/ B G / = 0321.g1:A; 0321.g1:/ E K / = 0321.g1:D>` to the unit :g:`$A$ <0321.g1:A>`, and the number :g:`$EK$ <0321.g1:/ E K />` to the number :g:`$D$ <0321.g1:D>`.
 
 .. assertion::
 

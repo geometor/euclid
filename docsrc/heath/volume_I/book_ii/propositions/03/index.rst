@@ -35,11 +35,11 @@ let :g:`$ED$ <0392.g1:/ D E />` be drawn through to :g:`$F$ <0392.g1:F>`, and th
 
    Then :g:`$AE$ <0392.g1:< A E >>` is equal to :g:`$AD$ <0392.g1:< A D >>`, :g:`$CE$ <0392.g1:< C E >>`.
 
-Now :g:`$AE$ <0392.g1:< A E >>` is the rectangle contained by :g:`$AB$ <0392.g1:/ A B />`, :g:`$BC$ <0392.g1:/ B C />`, for it is contained by :g:`$AB$ <0392.g1:/ A B />`, :g:`$BE$ <0392.g1:/ B E />`, and :g:`$BE$ <0392.g1:/ B E />` is equal to :g:`$BC$ <0392.g1:/ B C />`;
+Now :g:`$AE$ <0392.g1:< A E >>` is the rectangle contained by :g:`$AB$ <0392.g1:/ A B />`, :g:`$BC$ <0392.g1:/ B C />`, for it is contained by :g:`$AB$ <0392.g1:/ A B />`, :g:`$BE$ <0392.g1:/ B E />`, and :g:`$BE$ <0392.g1:/ B E />` is :eq:`equal <0392.g1:/ B E / = 0392.g1:/ B C />` to :g:`$BC$ <0392.g1:/ B C />`;
 
 .. subclause::
 
-   :g:`$AD$ <0392.g1:< A D >>` is the rectangle :g:`$AC$ <0392.g1:/ A C />`, :g:`$CB$ <0392.g1:/ B C />`, for :g:`$DC$ <0392.g1:/ C D />` is equal to :g:`$CB$ <0392.g1:/ B C />`;
+   :g:`$AD$ <0392.g1:< A D >>` is the rectangle :g:`$AC$ <0392.g1:/ A C />`, :g:`$CB$ <0392.g1:/ B C />`, for :g:`$DC$ <0392.g1:/ C D />` is :eq:`equal <0392.g1:/ C D / = 0392.g1:/ B C />` to :g:`$CB$ <0392.g1:/ B C />`;
 
 .. subclause::
 

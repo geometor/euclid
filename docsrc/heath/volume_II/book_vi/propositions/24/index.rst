@@ -86,7 +86,7 @@ I say that each of the parallelograms :g:`$EG$ <0257.g1:< E G >>`, :g:`$HK$ <025
 
 .. assertion::
 
-   the angle :g:`$AFG$ <0257.g1:< A F G )>` is equal to the angle :g:`$DCA$ <0257.g1:< D C A )>` ;
+   the angle :g:`$AFG$ <0257.g1:< A F G )>` is :eq:`equal <0257.g1:< A F G ) = 0257.g1:< D C A )>` to the angle :g:`$DCA$ <0257.g1:< D C A )>` ;
 
 .. subclause::
 
@@ -94,7 +94,7 @@ I say that each of the parallelograms :g:`$EG$ <0257.g1:< E G >>`, :g:`$HK$ <025
 
 .. assertion::
 
-   therefore the triangle :g:`$ADC$ <0257.g1:< A D C >>` is equiangular with the triangle :g:`$AGF$ <0257.g1:< A G F >>`.
+   therefore the triangle :g:`$ADC$ <0257.g1:< A D C >>` is :eq:`equiangular <0257.g1:< A F G ) = 0257.g1:< D C A ); 0257.g1:< D A C ) = 0257.g1:< D A C )>` with the triangle :g:`$AGF$ <0257.g1:< A G F >>`.
 
 .. subclause::
 

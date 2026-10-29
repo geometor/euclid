@@ -26,12 +26,12 @@ Let the four magnitudes :g:`$AB$ <0191.g1:/ A B />`, :g:`$CD$ <0191.g1:/ C D />`
 
 I say that :g:`$AB$ <0191.g1:/ A B />`, :g:`$F$ <0191.g1:F>` are greater than :g:`$CD$ <0191.g1:/ C D />`, :g:`$E$ <0191.g1:E>`.
 
-For let :g:`$AG$ <0191.g1:/ A G />` be made equal to :g:`$E$ <0191.g1:E>`, and :g:`$CH$ <0191.g1:/ C H />` equal to :g:`$F$ <0191.g1:F>`.
+For let :g:`$AG$ <0191.g1:/ A G />` be made :eq:`equal <0191.g1:/ A G / = 0191.g1:E>` to :g:`$E$ <0191.g1:E>`, and :g:`$CH$ <0191.g1:/ C H />` :eq:`equal <0191.g1:/ C H / = 0191.g1:F>` to :g:`$F$ <0191.g1:F>`.
 
 .. picture:: 0191.g1.svg
    :alt: Book V, Proposition 25, Line Segments
 
-Since, as :g:`$AB$ <0191.g1:/ A B />` is to :g:`$CD$ <0191.g1:/ C D />`, so is :g:`$E$ <0191.g1:E>` to :g:`$F$ <0191.g1:F>`, and :g:`$E$ <0191.g1:E>` is equal to :g:`$AG$ <0191.g1:/ A G />`, and :g:`$F$ <0191.g1:F>` to :g:`$CH$ <0191.g1:/ C H />`,
+Since, as :g:`$AB$ <0191.g1:/ A B />` is to :g:`$CD$ <0191.g1:/ C D />`, so is :g:`$E$ <0191.g1:E>` to :g:`$F$ <0191.g1:F>`, and :g:`$E$ <0191.g1:E>` is :eq:`equal <0191.g1:E = 0191.g1:/ A G /; 0191.g1:F = 0191.g1:/ C H />` to :g:`$AG$ <0191.g1:/ A G />`, and :g:`$F$ <0191.g1:F>` to :g:`$CH$ <0191.g1:/ C H />`,
 
 .. assertion::
 
@@ -51,7 +51,7 @@ And since, as the whole :g:`$AB$ <0191.g1:/ A B />` is to the whole :g:`$CD$ <01
 
    therefore :g:`$GB$ <0191.g1:/ G B />` is also greater than :g:`$HD$ <0191.g1:/ H D />`.
 
-And, since :g:`$AG$ <0191.g1:/ A G />` is equal to :g:`$E$ <0191.g1:E>`, and :g:`$CH$ <0191.g1:/ C H />` to :g:`$F$ <0191.g1:F>`,
+And, since :g:`$AG$ <0191.g1:/ A G />` is :eq:`equal <0191.g1:/ A G / = 0191.g1:E; 0191.g1:/ C H / = 0191.g1:F>` to :g:`$E$ <0191.g1:E>`, and :g:`$CH$ <0191.g1:/ C H />` to :g:`$F$ <0191.g1:F>`,
 
 .. assertion::
 

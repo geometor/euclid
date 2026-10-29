@@ -34,11 +34,11 @@ the angle :g:`$BAC$ <0052.g1:< B A C )>`.
 For let :g:`$AE$ <0052.g1:/ A E />` be joined and drawn
 through to :g:`$F$ <0052.g1:F>`.
 
-Then, since :g:`$EA$ <0052.g1:/ E A />` is equal to :g:`$EB$ <0052.g1:/ E B />`,
+Then, since :g:`$EA$ <0052.g1:/ E A />` is :eq:`equal <0052.g1:/ E A / = 0052.g1:/ E B />` to :g:`$EB$ <0052.g1:/ E B />`,
 
 .. assertion::
 
-   the angle :g:`$EAB$ <0052.g1:< E A B )>` is also equal to the angle :g:`$EBA$ <0052.g1:< E B A )>`; :just:`[I. 5] <I.5>`
+   the angle :g:`$EAB$ <0052.g1:< E A B )>` is also :eq:`equal <0052.g1:< E A B ) = 0052.g1:< E B A )>` to the angle :g:`$EBA$ <0052.g1:< E B A )>`; :just:`[I. 5] <I.5>`
 
 therefore the angles :g:`$EAB$ <0052.g1:< E A B )>`, :g:`$EBA$ <0052.g1:< E B A )>` are double of the angle
 :g:`$EAB$ <0052.g1:< E A B )>`.
