@@ -115,6 +115,11 @@ For let the square :g:`$AE$ <0450.g1:< A E >>` be described on :g:`$AB$ <0450.g1
 
    :just:`Q. E. D.`
 
+Required for
+------------
+
+:ref:`XIII.16 <XIII.16>`, :ref:`XIII.18 <XIII.18>`
+
 ----
 
 See :ref:`Commentary on Proposition XIII.3 <XIII.3.commentary>`.

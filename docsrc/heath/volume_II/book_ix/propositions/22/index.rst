@@ -6,7 +6,7 @@
 :title: Proposition IX.22
 :folios: 0419, 0420
 :pages: 413, 414
-:dependencies: IX.21, VII.def.7
+:dependencies: VII.def.7, IX.21
 
 .. _IX.22:
 
@@ -51,3 +51,27 @@ I say that the whole :g:`$AE$ <0420.g1:/ A E />` is even.
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.7" [label="VII.def.7", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
+     "IX.21" [label="IX.21", fillcolor="#222244", URL="../21/index.html", target="_top"];
+     "IX.22" [label="IX.22", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.21" -> "VII.def.6";
+     "IX.22" -> "VII.def.7";
+     "IX.22" -> "IX.21";
+   }
+
+Required for
+------------
+
+:ref:`IX.23 <IX.23>`, :ref:`IX.29 <IX.29>`, :ref:`IX.30 <IX.30>`, :ref:`IX.31 <IX.31>`

@@ -86,6 +86,21 @@ That is, the remainder :g:`$EB$ <0151.g1:/ E B />` will be the same multiple of 
 
 .. [#f1] **let EB be made that multiple of** :g:`$CG$ <0151.g1:/ C G />`, τοσαυταπλάσιον γεγονέτω καὶ τὸ ΕΒ τοῦ ΓΗ. From this way of stating the construction one might suppose that $CG$ was given and :g:`$EB$ <0151.g1:/ E B />` had to be found equal to a certain multiple of it. But in fact :g:`$EB$ <0151.g1:/ E B />` is what is given and :g:`$CG$ <0151.g1:/ C G />` has to be found, i.e. :g:`$CG$ <0151.g1:/ C G />` has to be constructed as a certain *submultiple* of :g:`$EB$ <0151.g1:/ E B />`.
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.1" [label="V.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
+     "V.5" [label="V.5", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.5" -> "V.1";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition V.5 <V.5.commentary>`.

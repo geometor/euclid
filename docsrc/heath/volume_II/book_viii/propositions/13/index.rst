@@ -98,3 +98,33 @@ And the number of terms in each is the same, namely $(n + 1)$.
 Therefore, :term:`*ex aequali* <ex-aequali>`,
 
 $$a^n : b^n = b^n : c^n = c^n : d^n = \dots$$
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.20" [label="VII.def.20", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
+     "VII.5" [label="VII.5", fillcolor="#222244", URL="../../../book_vii/propositions/05/index.html", target="_top"];
+     "VII.6" [label="VII.6", fillcolor="#222244", URL="../../../book_vii/propositions/06/index.html", target="_top"];
+     "VII.9" [label="VII.9", fillcolor="#222244", URL="../../../book_vii/propositions/09/index.html", target="_top"];
+     "VII.10" [label="VII.10", fillcolor="#222244", URL="../../../book_vii/propositions/10/index.html", target="_top"];
+     "VII.13" [label="VII.13", fillcolor="#222244", URL="../../../book_vii/propositions/13/index.html", target="_top"];
+     "VII.14" [label="VII.14", fillcolor="#222244", URL="../../../book_vii/propositions/14/index.html", target="_top"];
+     "VIII.13" [label="VIII.13", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.13" -> "VII.def.20";
+     "VII.6" -> "VII.5";
+     "VII.9" -> "VII.5";
+     "VII.10" -> "VII.5";
+     "VII.9" -> "VII.6";
+     "VII.10" -> "VII.6";
+     "VII.10" -> "VII.9";
+     "VII.13" -> "VII.10";
+     "VII.14" -> "VII.13";
+     "VIII.13" -> "VII.14";
+   }

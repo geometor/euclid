@@ -6,7 +6,7 @@
 :title: Proposition III.1
 :folios: 0012, 0013
 :pages: 6, 7
-:dependencies: I.8, I.def.10
+:dependencies: I.def.10, I.8
 
 .. _III.1:
 
@@ -81,6 +81,63 @@ Similarly we can prove that neither is any other point except :g:`$F$ <0012.g1:F
 .. [#f1] **For suppose it is not.** This is expressed in the Greek by the two words Μὴ γάρ, but such an elliptical phrase is impossible in English.
 
 .. [#f2] **the two sides AD, DG are equal to the two sides BD, DG respectively.** As before observed, Euclid is not always careful to put the equals in corresponding order. The text here has ":g:`$GD$ <0012.g1:/ G D />`, :g:`$DB$ <0012.g1:/ D B />`."
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "I.def.10" [label="I.def.10", fillcolor="#224422", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.15" [label="I.def.15", fillcolor="#224422", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.post.1" [label="I.post.1", fillcolor="#444422", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
+     "I.post.2" [label="I.post.2", fillcolor="#444422", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
+     "I.post.3" [label="I.post.3", fillcolor="#444422", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
+     "I.cn.1" [label="I.cn.1", fillcolor="#442222", URL="../../../../volume_I/book_i/common_notions/index.html#i-cn-1", target="_top"];
+     "I.cn.3" [label="I.cn.3", fillcolor="#442222", URL="../../../../volume_I/book_i/common_notions/index.html#i-cn-3", target="_top"];
+     "I.cn.4" [label="I.cn.4", fillcolor="#442222", URL="../../../../volume_I/book_i/common_notions/index.html#i-cn-4", target="_top"];
+     "I.1" [label="I.1", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/01/index.html", target="_top"];
+     "I.2" [label="I.2", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/02/index.html", target="_top"];
+     "I.3" [label="I.3", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/03/index.html", target="_top"];
+     "I.4" [label="I.4", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/04/index.html", target="_top"];
+     "I.5" [label="I.5", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/05/index.html", target="_top"];
+     "I.7" [label="I.7", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/07/index.html", target="_top"];
+     "I.8" [label="I.8", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/08/index.html", target="_top"];
+     "III.1" [label="III.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "III.1" -> "I.def.10";
+     "I.1" -> "I.def.15";
+     "I.3" -> "I.def.15";
+     "I.1" -> "I.post.1";
+     "I.2" -> "I.post.1";
+     "I.5" -> "I.post.1";
+     "I.7" -> "I.post.1";
+     "I.2" -> "I.post.2";
+     "I.5" -> "I.post.2";
+     "I.1" -> "I.post.3";
+     "I.2" -> "I.post.3";
+     "I.3" -> "I.post.3";
+     "I.1" -> "I.cn.1";
+     "I.2" -> "I.cn.1";
+     "I.3" -> "I.cn.1";
+     "I.2" -> "I.cn.3";
+     "I.4" -> "I.cn.4";
+     "I.2" -> "I.1";
+     "I.3" -> "I.2";
+     "I.5" -> "I.3";
+     "I.5" -> "I.4";
+     "I.7" -> "I.5";
+     "I.8" -> "I.7";
+     "III.1" -> "I.8";
+   }
+
+Required for
+------------
+
+:ref:`III.2 <III.2>`, :ref:`III.4 <III.4>`, :ref:`III.8 <III.8>`, :ref:`III.9 <III.9>`, :ref:`III.10 <III.10>`, :ref:`III.13 <III.13>`, :ref:`III.14 <III.14>`, :ref:`III.15 <III.15>`, :ref:`III.17 <III.17>`, :ref:`III.24 <III.24>`, :ref:`III.25 <III.25>`, :ref:`III.26 <III.26>`, :ref:`III.27 <III.27>`, :ref:`III.28 <III.28>`, :ref:`III.29 <III.29>`, :ref:`III.30 <III.30>`, :ref:`IV.3 <IV.3>`, :ref:`IV.11 <IV.11>`, :ref:`IV.12 <IV.12>`, :ref:`IV.15 <IV.15>`, :ref:`IV.16 <IV.16>`, :ref:`VI.33 <VI.33>`, :ref:`XII.1 <XII.1>`, :ref:`XII.2 <XII.2>`, :ref:`XII.5 <XII.5>`, :ref:`XII.6 <XII.6>`, :ref:`XII.7 <XII.7>`, :ref:`XII.8 <XII.8>`, :ref:`XII.10 <XII.10>`, :ref:`XII.11 <XII.11>`, :ref:`XII.12 <XII.12>`, :ref:`XII.13 <XII.13>`, :ref:`XII.14 <XII.14>`, :ref:`XII.15 <XII.15>`, :ref:`XII.17 <XII.17>`, :ref:`XII.18 <XII.18>`, :ref:`XIII.8 <XIII.8>`, :ref:`XIII.9 <XIII.9>`, :ref:`XIII.10 <XIII.10>`, :ref:`XIII.11 <XIII.11>`, :ref:`XIII.12 <XIII.12>`, :ref:`XIII.13 <XIII.13>`, :ref:`XIII.16 <XIII.16>`, :ref:`XIII.18 <XIII.18>`
 
 ----
 

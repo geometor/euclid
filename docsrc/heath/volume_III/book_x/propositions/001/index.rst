@@ -6,6 +6,7 @@
 :title: Proposition X.1
 :folios: 0018, 0019
 :pages: 14, 15
+:dependencies: V.def.4
 
 .. _X.1:
 
@@ -72,6 +73,26 @@ Let, then, :g:`$AK$ <0018.g1:/ A K />`, :g:`$KH$ <0018.g1:/ K H />`, :g:`$HB$ <0
 .. assertion::
 
    And the theorem can be similarly proved even if the parts subtracted be halves.
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.4" [label="V.def.4", fillcolor="#224422", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
+     "X.1" [label="X.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "X.1" -> "V.def.4";
+   }
+
+Required for
+------------
+
+:ref:`XII.5 <XII.5>`, :ref:`XII.6 <XII.6>`, :ref:`XII.7 <XII.7>`, :ref:`XII.8 <XII.8>`, :ref:`XII.10 <XII.10>`, :ref:`XII.11 <XII.11>`, :ref:`XII.12 <XII.12>`, :ref:`XII.13 <XII.13>`, :ref:`XII.14 <XII.14>`, :ref:`XII.15 <XII.15>`, :ref:`XII.16 <XII.16>`, :ref:`XII.17 <XII.17>`, :ref:`XII.18 <XII.18>`
 
 ----
 

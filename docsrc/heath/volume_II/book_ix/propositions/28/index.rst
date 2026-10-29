@@ -6,7 +6,7 @@
 :title: Proposition IX.28
 :folios: 0422
 :pages: 416
-:dependencies: IX.21, VII.def.15
+:dependencies: VII.def.15, IX.21
 
 .. _IX.28:
 
@@ -54,3 +54,22 @@ I say that :g:`$C$ <0422.g2:C>` is even.
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
+     "IX.21" [label="IX.21", fillcolor="#222244", URL="../21/index.html", target="_top"];
+     "IX.28" [label="IX.28", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.21" -> "VII.def.6";
+     "IX.28" -> "VII.def.15";
+     "IX.28" -> "IX.21";
+   }

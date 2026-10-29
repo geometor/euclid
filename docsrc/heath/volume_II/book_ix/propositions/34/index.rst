@@ -61,3 +61,18 @@ I say next that it is also even-times odd.
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.8" [label="VII.def.8", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-8", target="_top"];
+     "IX.34" [label="IX.34", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.34" -> "VII.def.8";
+   }

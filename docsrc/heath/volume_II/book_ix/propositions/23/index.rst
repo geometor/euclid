@@ -6,7 +6,7 @@
 :title: Proposition IX.23
 :folios: 0420
 :pages: 414
-:dependencies: IX.21, IX.22, VII.def.7
+:dependencies: VII.def.7, IX.21, IX.22
 
 .. _IX.23:
 
@@ -54,3 +54,31 @@ Let the unit :g:`$DE$ <0420.g2:/ D E />` be subtracted from :g:`$CD$ <0420.g2:/ 
    :just:`Q. E. D.`
 
 .. [#f1] Literally “let there be as many numbers as we please, of which *let the multitude be odd*.” This form, natural in Greek, is awkward in English.
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.7" [label="VII.def.7", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
+     "IX.21" [label="IX.21", fillcolor="#222244", URL="../21/index.html", target="_top"];
+     "IX.22" [label="IX.22", fillcolor="#222244", URL="../22/index.html", target="_top"];
+     "IX.23" [label="IX.23", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.21" -> "VII.def.6";
+     "IX.22" -> "VII.def.7";
+     "IX.23" -> "VII.def.7";
+     "IX.22" -> "IX.21";
+     "IX.23" -> "IX.21";
+     "IX.23" -> "IX.22";
+   }
+
+Required for
+------------
+
+:ref:`IX.29 <IX.29>`, :ref:`IX.30 <IX.30>`, :ref:`IX.31 <IX.31>`

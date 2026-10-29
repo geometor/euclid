@@ -64,6 +64,35 @@ I say that :g:`$B$ <0402.g1:B>`, the least of the numbers :g:`$B$ <0402.g1:B>`, 
 
    :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.20" [label="VII.def.20", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
+     "VII.5" [label="VII.5", fillcolor="#222244", URL="../../../book_vii/propositions/05/index.html", target="_top"];
+     "VII.6" [label="VII.6", fillcolor="#222244", URL="../../../book_vii/propositions/06/index.html", target="_top"];
+     "VII.12" [label="VII.12", fillcolor="#222244", URL="../../../book_vii/propositions/12/index.html", target="_top"];
+     "VII.15" [label="VII.15", fillcolor="#222244", URL="../../../book_vii/propositions/15/index.html", target="_top"];
+     "IX.11" [label="IX.11", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.12" -> "VII.def.20";
+     "VII.6" -> "VII.5";
+     "VII.12" -> "VII.5";
+     "VII.12" -> "VII.6";
+     "VII.15" -> "VII.12";
+     "IX.11" -> "VII.15";
+   }
+
+Required for
+------------
+
+:ref:`IX.12 <IX.12>`, :ref:`IX.13 <IX.13>`, :ref:`IX.32 <IX.32>`, :ref:`IX.36 <IX.36>`
+
 ----
 
 See :ref:`Commentary on Proposition IX.11 <IX.11.commentary>`.
