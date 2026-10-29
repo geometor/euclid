@@ -18,18 +18,18 @@ Back to :ref:`Proposition VI.33 <VI.33>`.
    :page: 274
 
 This proposition as generally given includes a second part relating to *sectors* of circles, corresponding to the following words added to the enunciation: "and further the sectors, as constructed at the centres" (ἔτι δὲ καὶ οἱ τομεῖς ἅτε [or οἵτε] πρὸς τοῖς κέντροις συνιστάμενοι). There is of course a corresponding addition to the "definition" or "particular statement," "and further the sector :g:`$GBOC$ <0279.g2:< G B O C )>` to the sector :g:`$HEQF$ <0279.g2:< H E Q F )>`." These additions are clearly due to Theon, as may be gathered from his own statement in his commentary on the μαθηματικὴ σύνταξις of :person:`Ptolemy <ptolemy>`, "But that sectors in equal circles are to one another as the angles on which they stand, has been proved by me in my edition of the
-Elements at the end of the sixth book." :person:`Campanus <campanus>` omits them, and P has them only in a later hand in the margin or between the lines. Theon's proof scarcely needs to be given here in full, as it can easily be supplied. From the equality of the arcs :g:`$BC$ <0279.g2:( B C )>`, :g:`$CK$ <0279.g2:( C K )>` he infers [III. 29] the equality of the chords :g:`$BC$ <0279.g2:/ B C />`, :g:`$CK$ <0279.g2:/ C K />`. Hence, the radii being equal, the triangles :g:`$GBC$ <0279.g2:< G B C >>`, :g:`$GCK$ <0279.g2:< G C K >>` are equal in all respects [I. 8, 4]. Next, since the arcs :g:`$BC$ <0279.g2:( B C )>`, :g:`$CK$ <0279.g2:( C K )>` are equal, so are the arcs :g:`$BAC$ <0279.g2:( B A C )>`, :g:`$CAK$ <0279.g2:( C A K )>`. Therefore the angles at the circumference subtended by the latter, i.e. the angles in the segments :g:`$BOC$ <0279.g2:( B O C )>`, :g:`$CPK$ <0279.g2:( C P K )>`, are equal [III. 27], and the segments are therefore similar [III. Def. 11] and equal [III. 24].
+Elements at the end of the sixth book." :person:`Campanus <campanus>` omits them, and P has them only in a later hand in the margin or between the lines. Theon's proof scarcely needs to be given here in full, as it can easily be supplied. From the equality of the arcs :g:`$BC$ <0279.g2:( B C )>`, :g:`$CK$ <0279.g2:( C K )>` he infers [III. 29] the equality of the chords :g:`$BC$ <0279.g2:/ B C />`, :g:`$CK$ <0279.g2:/ C K />`. Hence, the radii being equal, the triangles :g:`$GBC$ <0279.g2:< G B C >>`, :g:`$GCK$ <0279.g2:< G C K >>` are :eq:`equal <0279.g2:< G B C > = 0279.g2:< G C K >>` in all respects [I. 8, 4]. Next, since the arcs :g:`$BC$ <0279.g2:( B C )>`, :g:`$CK$ <0279.g2:( C K )>` are :eq:`equal <0279.g2:( B C ) = 0279.g2:( C K )>`, so are the arcs :g:`$BAC$ <0279.g2:( B A C )>`, :g:`$CAK$ <0279.g2:( C A K )>`. Therefore the angles at the circumference subtended by the latter, i.e. the angles in the segments :g:`$BOC$ <0279.g2:( B O C )>`, :g:`$CPK$ <0279.g2:( C P K )>`, are equal [III. 27], and the segments are therefore similar [III. Def. 11] and :eq:`equal <0279.g2:( B O C ) = 0279.g2:( C P K )>` [III. 24].
 
 .. _folio-ii-0281:
 
 .. folio:: 0281
    :page: 275
 
-Adding to the equal segments the equal triangles :g:`$GBC$ <0279.g2:< G B C >>`, :g:`$GCK$ <0279.g2:< G C K >>` respectively, we see that
+Adding to the equal segments the :eq:`equal <0279.g2:< G B C > = 0279.g2:< G C K >>` triangles :g:`$GBC$ <0279.g2:< G B C >>`, :g:`$GCK$ <0279.g2:< G C K >>` respectively, we see that
 
 .. container:: center
 
-   the sectors :g:`$GBC$ <0279.g2:< G B C )>`, :g:`$GCK$ <0279.g2:< G C K )>` are equal.
+   the sectors :g:`$GBC$ <0279.g2:< G B C )>`, :g:`$GCK$ <0279.g2:< G C K )>` are :eq:`equal <0279.g2:< G B C ) = 0279.g2:< G C K )>`.
 
 Thus, in equal circles, sectors standing on equal arcs are equal; and the rest of the proof proceeds as in Euclid's proposition.
 

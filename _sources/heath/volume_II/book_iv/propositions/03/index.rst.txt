@@ -33,8 +33,8 @@ Let :g:`$EF$ <0089.g1:/ E F />` be produced in both directions to the points
 let the centre :g:`$K$ <0089.g1:K>` of the circle :g:`$ABC$ <0089.g1:( A B C )>` be taken :just:`[III. 1] <III.1>`, and let
 the straight line :g:`$KB$ <0089.g1:/ K B />` be drawn across at random;\ [#f1]_
 on the straight line :g:`$KB$ <0089.g1:/ K B />`, and at the point :g:`$K$ <0089.g1:K>` on it, let the
-angle :g:`$BKA$ <0089.g1:< B K A )>` be constructed equal to the angle :g:`$DEG$ <0089.g1:< D E G )>`,
-and the angle :g:`$BKC$ <0089.g1:< B K C )>` equal to the angle :g:`$DFH$ <0089.g1:< D F H )>`; :just:`[I. 23] <I.23>`
+angle :g:`$BKA$ <0089.g1:< B K A )>` be constructed :eq:`equal <0089.g1:< B K A ) = 0089.g1:< D E G )>` to the angle :g:`$DEG$ <0089.g1:< D E G )>`,
+and the angle :g:`$BKC$ <0089.g1:< B K C )>` :eq:`equal <0089.g1:< B K C ) = 0089.g1:< D F H )>` to the angle :g:`$DFH$ <0089.g1:< D F H )>`; :just:`[I. 23] <I.23>`
 and through the points :g:`$A$ <0089.g1:A>`, :g:`$B$ <0089.g1:B>`, :g:`$C$ <0089.g1:C>` let :g:`$LAM$ <0089.g1:/ L A M />`, :g:`$MBN$ <0089.g1:/ M B N />`, :g:`$NCL$ <0089.g1:/ N C L />` be
 drawn touching the circle :g:`$ABC$ <0089.g1:( A B C )>`. :just:`[III. 16, Por.]`
 
@@ -64,20 +64,20 @@ But the angles :g:`$DEG$ <0089.g1:< D E G )>`, :g:`$DEF$ <0089.g1:< D E F )>` ar
 angles; :just:`[I. 13] <I.13>`
 therefore the angles :g:`$AKB$ <0089.g1:< A K B )>`, :g:`$AMB$ <0089.g1:< A M B )>` are equal to the angles
 :g:`$DEG$ <0089.g1:< D E G )>`, :g:`$DEF$ <0089.g1:< D E F )>`,
-of which the angle :g:`$AKB$ <0089.g1:< A K B )>` is equal to the angle :g:`$DEG$ <0089.g1:< D E G )>`;
+of which the angle :g:`$AKB$ <0089.g1:< A K B )>` is :eq:`equal <0089.g1:< A K B ) = 0089.g1:< D E G )>` to the angle :g:`$DEG$ <0089.g1:< D E G )>`;
 
 .. assertion::
 
-   therefore the angle :g:`$AMB$ <0089.g1:< A M B )>` which remains is equal to the angle :g:`$DEF$ <0089.g1:< D E F )>` which remains.
+   therefore the angle :g:`$AMB$ <0089.g1:< A M B )>` which remains is :eq:`equal <0089.g1:< A M B ) = 0089.g1:< D E F )>` to the angle :g:`$DEF$ <0089.g1:< D E F )>` which remains.
 
 Similarly it can be proved that the angle :g:`$LNB$ <0089.g1:< L N B )>` is also
-equal to the angle :g:`$DFE$ <0089.g1:< D F E )>`;
+:eq:`equal <0089.g1:< L N B ) = 0089.g1:< D F E )>` to the angle :g:`$DFE$ <0089.g1:< D F E )>`;
 
 .. assertion::
 
-   therefore the remaining angle :g:`$MLN$ <0089.g1:< M L N )>` is equal to the angle :g:`$EDF$ <0089.g1:< E D F )>`. :just:`[I. 32] <I.32>`
+   therefore the remaining angle :g:`$MLN$ <0089.g1:< M L N )>` is :eq:`equal <0089.g1:< M L N ) = 0089.g1:< E D F )>` to the angle :g:`$EDF$ <0089.g1:< E D F )>`. :just:`[I. 32] <I.32>`
 
-Therefore the triangle :g:`$LMN$ <0089.g1:< L M N >>` is equiangular with the
+Therefore the triangle :g:`$LMN$ <0089.g1:< L M N >>` is :eq:`equiangular <0089.g1:< A M B ) = 0089.g1:< D E F ); 0089.g1:< L N B ) = 0089.g1:< D F E ); 0089.g1:< M L N ) = 0089.g1:< E D F )>` with the
 triangle :g:`$DEF$ <0089.g1:< D E F >>`; and it has been circumscribed about the
 circle :g:`$ABC$ <0089.g1:( A B C )>`.
 

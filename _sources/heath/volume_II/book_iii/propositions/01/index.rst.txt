@@ -26,7 +26,7 @@ Let :g:`$ABC$ <0012.g1:( A B C )>` be the given circle;
 
 thus it is required to find the centre of the circle :g:`$ABC$ <0012.g1:( A B C )>`.
 
-Let a straight line :g:`$AB$ <0012.g1:/ A B />` be drawn through it at random, and let it be bisected at the point :g:`$D$ <0012.g1:D>`; from :g:`$D$ <0012.g1:D>` let :g:`$DC$ <0012.g1:/ D C />` be drawn at right angles to :g:`$AB$ <0012.g1:/ A B />` and let it be drawn through to :g:`$E$ <0012.g1:E>`; let :g:`$CE$ <0012.g1:/ C E />` be bisected at :g:`$F$ <0012.g1:F>`;
+Let a straight line :g:`$AB$ <0012.g1:/ A B />` be drawn through it at random, and let it be :eq:`bisected <0012.g1:/ A D / = 0012.g1:/ D B />` at the point :g:`$D$ <0012.g1:D>`; from :g:`$D$ <0012.g1:D>` let :g:`$DC$ <0012.g1:/ D C />` be drawn at right angles to :g:`$AB$ <0012.g1:/ A B />` and let it be drawn through to :g:`$E$ <0012.g1:E>`; let :g:`$CE$ <0012.g1:/ C E />` be :eq:`bisected <0012.g1:/ C F / = 0012.g1:/ F E />` at :g:`$F$ <0012.g1:F>`;
 
 I say that :g:`$F$ <0012.g1:F>` is the centre of the circle :g:`$ABC$ <0012.g1:( A B C )>`.
 
@@ -35,17 +35,17 @@ I say that :g:`$F$ <0012.g1:F>` is the centre of the circle :g:`$ABC$ <0012.g1:(
 
 For suppose it is not,\ [#f1]_ but, if possible, let :g:`$G$ <0012.g1:G>` be the centre, and let :g:`$GA$ <0012.g1:/ G A />`, :g:`$GD$ <0012.g1:/ G D />`, :g:`$GB$ <0012.g1:/ G B />` be joined.
 
-Then, since :g:`$AD$ <0012.g1:/ A D />` is equal to :g:`$DB$ <0012.g1:/ D B />`, and :g:`$DG$ <0012.g1:/ D G />` is common,
+Then, since :g:`$AD$ <0012.g1:/ A D />` is :eq:`equal <0012.g1:/ A D / = 0012.g1:/ D B />` to :g:`$DB$ <0012.g1:/ D B />`, and :g:`$DG$ <0012.g1:/ D G />` is common,
 
 .. subclause::
 
-   the two sides :g:`$AD$ <0012.g1:/ A D />`, :g:`$DG$ <0012.g1:/ D G />` are equal to the two sides :g:`$BD$ <0012.g1:/ B D />`, :g:`$DG$ <0012.g1:/ D G />` respectively;\ [#f2]_
+   the two sides :g:`$AD$ <0012.g1:/ A D />`, :g:`$DG$ <0012.g1:/ D G />` are :eq:`equal <0012.g1:/ A D / = 0012.g1:/ B D />` to the two sides :g:`$BD$ <0012.g1:/ B D />`, :g:`$DG$ <0012.g1:/ D G />` respectively;\ [#f2]_
 
-and the base :g:`$GA$ <0012.g1:/ G A />` is equal to the base :g:`$GB$ <0012.g1:/ G B />`, for they are radii;
+and the base :g:`$GA$ <0012.g1:/ G A />` is :eq:`equal <0012.g1:/ G A / = 0012.g1:/ G B />` to the base :g:`$GB$ <0012.g1:/ G B />`, for they are radii;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$ADG$ <0012.g1:< A D G )>` is equal to the angle :g:`$GDB$ <0012.g1:< G D B )>`.
+   therefore the angle :g:`$ADG$ <0012.g1:< A D G )>` is :eq:`equal <0012.g1:< A D G ) = 0012.g1:< G D B )>` to the angle :g:`$GDB$ <0012.g1:< G D B )>`.
 
 But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; :just:`[I. Def. 10] <I.def.10>`
 
@@ -58,7 +58,7 @@ But, when a straight line set up on a straight line makes the adjacent angles eq
 .. folio:: 0013
    :page: 7
 
-But the angle :g:`$FDB$ <0012.g1:< F D B )>` is also right; therefore the angle :g:`$FDB$ <0012.g1:< F D B )>` is equal to the angle :g:`$GDB$ <0012.g1:< G D B )>`, the greater to the less: which is impossible.
+But the angle :g:`$FDB$ <0012.g1:< F D B )>` is also right; therefore the angle :g:`$FDB$ <0012.g1:< F D B )>` is :eq:`equal <0012.g1:< F D B ) = 0012.g1:< G D B )>` to the angle :g:`$GDB$ <0012.g1:< G D B )>`, the greater to the less: which is impossible.
 
 .. assertion::
 

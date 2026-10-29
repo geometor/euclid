@@ -25,7 +25,7 @@ PROPOSITION 12.
 .. folio:: 0471
    :page: 467
 
-Let :g:`$ABC$ <0471.g1:( A B C )>` be a circle, and let the equilateral triangle :g:`$ABC$ <0471.g1:< A B C >>` be inscribed in it; I say that the square on one side of the triangle :g:`$ABC$ <0471.g1:< A B C >>` is triple of the square on the radius of the circle.
+Let :g:`$ABC$ <0471.g1:( A B C )>` be a circle, and let the :eq:`equilateral <0471.g1:/ A B / = 0471.g1:/ B C / = 0471.g1:/ C A />` triangle :g:`$ABC$ <0471.g1:< A B C >>` be inscribed in it; I say that the square on one side of the triangle :g:`$ABC$ <0471.g1:< A B C >>` is triple of the square on the radius of the circle.
 
 .. picture:: 0471.g1.svg
    :alt: Proposition 12 Diagram
@@ -34,7 +34,7 @@ For let the centre :g:`$D$ <0471.g1:D>` of the circle :g:`$ABC$ <0471.g1:( A B C
 
 .. subclause::
 
-   Then, since the triangle :g:`$ABC$ <0471.g1:< A B C >>` is equilateral,
+   Then, since the triangle :g:`$ABC$ <0471.g1:< A B C >>` is :eq:`equilateral <0471.g1:/ A B / = 0471.g1:/ B C / = 0471.g1:/ C A />`,
 
 .. assertion::
 
@@ -42,7 +42,7 @@ For let the centre :g:`$D$ <0471.g1:D>` of the circle :g:`$ABC$ <0471.g1:( A B C
 
 .. assertion::
 
-   Therefore the circumference :g:`$BE$ <0471.g1:( B E )>` is a sixth part of the circumference of the circle; therefore the straight line :g:`$BE$ <0471.g1:/ B E />` belongs to a hexagon; therefore it is equal to the radius :g:`$DE$ <0471.g1:/ D E />`. :just:`[IV. 15, Por.]`
+   Therefore the circumference :g:`$BE$ <0471.g1:( B E )>` is a sixth part of the circumference of the circle; therefore the straight line :g:`$BE$ <0471.g1:/ B E />` belongs to a hexagon; therefore it is :eq:`equal <0471.g1:/ B E / = 0471.g1:/ D E />` to the radius :g:`$DE$ <0471.g1:/ D E />`. :just:`[IV. 15, Por.]`
 
 .. subclause::
 
@@ -66,7 +66,7 @@ For let the centre :g:`$D$ <0471.g1:D>` of the circle :g:`$ABC$ <0471.g1:( A B C
 
 .. subclause::
 
-   But :g:`$BE$ <0471.g1:/ B E />` is equal to :g:`$DE$ <0471.g1:/ D E />`;
+   But :g:`$BE$ <0471.g1:/ B E />` is :eq:`equal <0471.g1:/ B E / = 0471.g1:/ D E />` to :g:`$DE$ <0471.g1:/ D E />`;
 
 .. assertion::
 

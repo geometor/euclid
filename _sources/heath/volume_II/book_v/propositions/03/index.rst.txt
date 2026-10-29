@@ -35,7 +35,7 @@ For, since :g:`$EF$ <0147.g1:/ E F />` is the same multiple of :g:`$A$ <0147.g1:
 .. folio:: 0147
    :page: 141
 
-Let :g:`$EF$ <0147.g1:/ E F />` be divided into the magnitudes :g:`$EK$ <0147.g1:/ E K />`, :g:`$KF$ <0147.g1:/ K F />` equal to :g:`$A$ <0147.g1:A>`, and :g:`$GH$ <0147.g1:/ G H />` into the magnitudes :g:`$GL$ <0147.g1:/ G L />`, :g:`$LH$ <0147.g1:/ L H />` equal to :g:`$C$ <0147.g1:C>`; then the multitude of the magnitudes :g:`$EK$ <0147.g1:/ E K />`, :g:`$KF$ <0147.g1:/ K F />` will be equal to the multitude of the magnitudes :g:`$GL$ <0147.g1:/ G L />`, :g:`$LH$ <0147.g1:/ L H />`.
+Let :g:`$EF$ <0147.g1:/ E F />` be divided into the magnitudes :g:`$EK$ <0147.g1:/ E K />`, :g:`$KF$ <0147.g1:/ K F />` :eq:`equal <0147.g1:/ E K / = 0147.g1:/ K F / = 0147.g1:A>` to :g:`$A$ <0147.g1:A>`, and :g:`$GH$ <0147.g1:/ G H />` into the magnitudes :g:`$GL$ <0147.g1:/ G L />`, :g:`$LH$ <0147.g1:/ L H />` :eq:`equal <0147.g1:/ G L / = 0147.g1:/ L H / = 0147.g1:C>` to :g:`$C$ <0147.g1:C>`; then the multitude of the magnitudes :g:`$EK$ <0147.g1:/ E K />`, :g:`$KF$ <0147.g1:/ K F />` will be equal to the multitude of the magnitudes :g:`$GL$ <0147.g1:/ G L />`, :g:`$LH$ <0147.g1:/ L H />`.
 
 .. picture:: 0147.g1.svg
    :alt: Proposition 3 diagram
@@ -44,7 +44,7 @@ And, since :g:`$A$ <0147.g1:A>` is the same multiple of :g:`$B$ <0147.g1:B>` tha
 
 .. subclause::
 
-   while :g:`$EK$ <0147.g1:/ E K />` is equal to :g:`$A$ <0147.g1:A>`, and :g:`$GL$ <0147.g1:/ G L />` to :g:`$C$ <0147.g1:C>`,
+   while :g:`$EK$ <0147.g1:/ E K />` is :eq:`equal <0147.g1:/ E K / = 0147.g1:A; 0147.g1:/ G L / = 0147.g1:C>` to :g:`$A$ <0147.g1:A>`, and :g:`$GL$ <0147.g1:/ G L />` to :g:`$C$ <0147.g1:C>`,
 
 .. assertion::
 

@@ -30,7 +30,7 @@ Let there be set out two rational straight lines :g:`$AB$ <0079.g1:/ A B />`, :g
 .. folio:: 0080
    :page: 76
 
-let :g:`$BC$ <0079.g1:/ B C />` be bisected at :g:`$D$ <0079.g1:D>`, let there be applied to :g:`$AB$ <0079.g1:/ A B />` a parallelogram equal to the square on either of the straight lines :g:`$BD$ <0079.g1:/ B D />`, :g:`$DC$ <0079.g1:/ D C />` and deficient by a square figure, and let it be the rectangle :g:`$AE$ <0079.g1:/ A E />`, :g:`$EB$ <0079.g1:/ E B />` ; :just:`[VI. 28] <VI.28>` let the semicircle :g:`$AFB$ <0079.g1:( A F B )>` be described on :g:`$AB$ <0079.g1:/ A B />`, let :g:`$EF$ <0079.g1:/ E F />` be drawn at right angles to :g:`$AB$ <0079.g1:/ A B />`, and let :g:`$AF$ <0079.g1:/ A F />`, :g:`$FB$ <0079.g1:/ F B />` be joined.
+let :g:`$BC$ <0079.g1:/ B C />` be :eq:`bisected <0079.g1:/ B D / = 0079.g1:/ D C />` at :g:`$D$ <0079.g1:D>`, let there be applied to :g:`$AB$ <0079.g1:/ A B />` a parallelogram equal to the square on either of the straight lines :g:`$BD$ <0079.g1:/ B D />`, :g:`$DC$ <0079.g1:/ D C />` and deficient by a square figure, and let it be the rectangle :g:`$AE$ <0079.g1:/ A E />`, :g:`$EB$ <0079.g1:/ E B />` ; :just:`[VI. 28] <VI.28>` let the semicircle :g:`$AFB$ <0079.g1:( A F B )>` be described on :g:`$AB$ <0079.g1:/ A B />`, let :g:`$EF$ <0079.g1:/ E F />` be drawn at :eq:`right angles <0079.g1:< A E F ) = 0079.g1:< B E F )>` to :g:`$AB$ <0079.g1:/ A B />`, and let :g:`$AF$ <0079.g1:/ A F />`, :g:`$FB$ <0079.g1:/ F B />` be joined.
 
 .. subclause::
 
@@ -62,7 +62,7 @@ let :g:`$BC$ <0079.g1:/ B C />` be bisected at :g:`$D$ <0079.g1:D>`, let there b
 
 .. assertion::
 
-   therefore :g:`$FE$ <0079.g1:/ F E />` is equal to :g:`$BD$ <0079.g1:/ B D />` ; therefore :g:`$BC$ <0079.g1:/ B C />` is double of :g:`$FE$ <0079.g1:/ F E />`, so that the rectangle :g:`$AB$ <0079.g1:/ A B />`, :g:`$BC$ <0079.g1:/ B C />` is also commensurable with the rectangle :g:`$AB$ <0079.g1:/ A B />`, :g:`$EF$ <0079.g1:/ E F />`.
+   therefore :g:`$FE$ <0079.g1:/ F E />` is :eq:`equal <0079.g1:/ F E / = 0079.g1:/ B D />` to :g:`$BD$ <0079.g1:/ B D />` ; therefore :g:`$BC$ <0079.g1:/ B C />` is double of :g:`$FE$ <0079.g1:/ F E />`, so that the rectangle :g:`$AB$ <0079.g1:/ A B />`, :g:`$BC$ <0079.g1:/ B C />` is also commensurable with the rectangle :g:`$AB$ <0079.g1:/ A B />`, :g:`$EF$ <0079.g1:/ E F />`.
 
 .. subclause:: [X. 21] <X.21>
 

@@ -118,15 +118,15 @@ Let the parallelogram :g:`$AC$ <0119.g1:< A C >>` be completed; I say that :g:`$
 
 .. subclause::
 
-   For, since :g:`$DB$ <0119.g1:/ D B />` is equal to :g:`$BF$ <0119.g1:/ F B />`, and :g:`$BE$ <0119.g1:/ B E />` to :g:`$BG$ <0119.g1:/ B G />`,
+   For, since :g:`$DB$ <0119.g1:/ D B />` is :eq:`equal <0119.g1:/ D B / = 0119.g1:/ F B /; 0119.g1:/ B E / = 0119.g1:/ B G />` to :g:`$BF$ <0119.g1:/ F B />`, and :g:`$BE$ <0119.g1:/ B E />` to :g:`$BG$ <0119.g1:/ B G />`,
 
 .. assertion::
 
-   therefore the whole :g:`$DE$ <0119.g1:/ D E />` is equal to the whole :g:`$FG$ <0119.g1:/ F G />`.
+   therefore the whole :g:`$DE$ <0119.g1:/ D E />` is :eq:`equal <0119.g1:/ D E / = 0119.g1:/ F G />` to the whole :g:`$FG$ <0119.g1:/ F G />`.
 
 .. subclause::
 
-   But :g:`$DE$ <0119.g1:/ D E />` is equal to each of the straight lines :g:`$AH$ <0119.g1:/ A H />`, :g:`$KC$ <0119.g1:/ K C />`, and :g:`$FG$ <0119.g1:/ F G />` is equal to each of the straight lines :g:`$AK$ <0119.g1:/ A K />`, :g:`$HC$ <0119.g1:/ H C />`; :just:`[I. 34] <I.34>`
+   But :g:`$DE$ <0119.g1:/ D E />` is :eq:`equal <0119.g1:/ D E / = 0119.g1:/ A H / = 0119.g1:/ K C />` to each of the straight lines :g:`$AH$ <0119.g1:/ A H />`, :g:`$KC$ <0119.g1:/ K C />`, and :g:`$FG$ <0119.g1:/ F G />` is :eq:`equal <0119.g1:/ F G / = 0119.g1:/ A K / = 0119.g1:/ H C />` to each of the straight lines :g:`$AK$ <0119.g1:/ A K />`, :g:`$HC$ <0119.g1:/ H C />`; :just:`[I. 34] <I.34>`
 
 .. _folio-iii-0120:
 
@@ -135,11 +135,11 @@ Let the parallelogram :g:`$AC$ <0119.g1:< A C >>` be completed; I say that :g:`$
 
 .. assertion::
 
-   therefore each of the straight lines :g:`$AH$ <0119.g1:/ A H />`, :g:`$KC$ <0119.g1:/ K C />` is also equal to each of the straight lines :g:`$AK$ <0119.g1:/ A K />`, :g:`$HC$ <0119.g1:/ H C />`.
+   therefore each of the straight lines :g:`$AH$ <0119.g1:/ A H />`, :g:`$KC$ <0119.g1:/ K C />` is also :eq:`equal <0119.g1:/ A H / = 0119.g1:/ K C / = 0119.g1:/ A K / = 0119.g1:/ H C />` to each of the straight lines :g:`$AK$ <0119.g1:/ A K />`, :g:`$HC$ <0119.g1:/ H C />`.
 
 .. assertion::
 
-   Therefore the parallelogram :g:`$AC$ <0119.g1:< A C >>` is equilateral.
+   Therefore the parallelogram :g:`$AC$ <0119.g1:< A C >>` is :eq:`equilateral <0119.g1:/ A H / = 0119.g1:/ K C / = 0119.g1:/ A K / = 0119.g1:/ H C />`.
 
 .. subclause::
 
@@ -165,7 +165,7 @@ I say next that :g:`$DC$ <0119.g1:< D C >>` is also a mean proportional between 
 
 .. subclause::
 
-   For since, as :g:`$AD$ <0119.g1:/ A D />` is to :g:`$DK$ <0119.g1:/ D K />`, so is :g:`$KG$ <0119.g1:/ K G />` to :g:`$GC$ <0119.g1:/ G C />`— for they are equal respectively— and, :term:`*componendo* <componendo>`, as :g:`$AK$ <0119.g1:/ A K />` is to :g:`$KD$ <0119.g1:/ D K />`, so is :g:`$KC$ <0119.g1:/ K C />` to :g:`$CG$ <0119.g1:/ G C />`, :just:`[V. 18] <V.18>` while, as :g:`$AK$ <0119.g1:/ A K />` is to :g:`$KD$ <0119.g1:/ D K />`, so is :g:`$AC$ <0119.g1:< A C >>` to :g:`$CD$ <0119.g1:< D C >>`, and, as :g:`$KC$ <0119.g1:/ K C />` is to :g:`$CG$ <0119.g1:/ G C />`, so is :g:`$DC$ <0119.g1:< D C >>` to :g:`$CB$ <0119.g1:< B C >>`, :just:`[VI. 1] <VI.1>`
+   For since, as :g:`$AD$ <0119.g1:/ A D />` is to :g:`$DK$ <0119.g1:/ D K />`, so is :g:`$KG$ <0119.g1:/ K G />` to :g:`$GC$ <0119.g1:/ G C />`— for they are :eq:`equal <0119.g1:/ A D / = 0119.g1:/ K G /; 0119.g1:/ D K / = 0119.g1:/ G C />` respectively— and, :term:`*componendo* <componendo>`, as :g:`$AK$ <0119.g1:/ A K />` is to :g:`$KD$ <0119.g1:/ D K />`, so is :g:`$KC$ <0119.g1:/ K C />` to :g:`$CG$ <0119.g1:/ G C />`, :just:`[V. 18] <V.18>` while, as :g:`$AK$ <0119.g1:/ A K />` is to :g:`$KD$ <0119.g1:/ D K />`, so is :g:`$AC$ <0119.g1:< A C >>` to :g:`$CD$ <0119.g1:< D C >>`, and, as :g:`$KC$ <0119.g1:/ K C />` is to :g:`$CG$ <0119.g1:/ G C />`, so is :g:`$DC$ <0119.g1:< D C >>` to :g:`$CB$ <0119.g1:< B C >>`, :just:`[VI. 1] <VI.1>`
 
 .. assertion:: [V. 11] <V.11>
 

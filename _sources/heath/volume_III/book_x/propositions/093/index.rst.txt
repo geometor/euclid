@@ -43,7 +43,7 @@ For let the area :g:`$AB$ <0203.g1:< A B >>` be contained by the rational straig
 
    therefore, if there be applied to :g:`$AG$ <0203.g1:/ A G />` a parallelogram equal to the fourth part of the square on :g:`$GD$ <0203.g1:/ G D />` and deficient by a square figure, it will divide it into commensurable parts. :just:`[x. 17]`
 
-Let then :g:`$DG$ <0203.g1:/ D G />` be bisected at :g:`$E$ <0203.g1:E>`, let there be applied to :g:`$AG$ <0203.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0203.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0203.g1:/ A F />`, :g:`$FG$ <0203.g1:/ F G />`.
+Let then :g:`$DG$ <0203.g1:/ D G />` be :eq:`bisected <0203.g1:/ D E / = 0203.g1:/ E G />` at :g:`$E$ <0203.g1:E>`, let there be applied to :g:`$AG$ <0203.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0203.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0203.g1:/ A F />`, :g:`$FG$ <0203.g1:/ F G />`.
 
 .. _folio-iii-0204:
 
@@ -116,7 +116,7 @@ Let :g:`$EH$ <0203.g1:/ E H />`, :g:`$FI$ <0203.g1:/ F I />`, :g:`$GK$ <0203.g1:
 
    therefore :g:`$AI$ <0203.g1:< A I >>` is incommensurable with :g:`$EK$ <0203.g1:< E K >>`.
 
-Now let the square :g:`$LM$ <0203.g1:< L M >>` be constructed equal to :g:`$AI$ <0203.g1:< A I >>`, and let there be subtracted :g:`$NO$ <0203.g1:< N O >>` equal to :g:`$FK$ <0203.g1:< F K >>` and being about the same angle with :g:`$LM$ <0203.g1:< L M >>`; therefore :g:`$LM$ <0203.g1:< L M >>`, :g:`$NO$ <0203.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>` Let :g:`$PR$ <0203.g1:/ P R />` be their diameter, and let the figure be drawn.
+Now let the square :g:`$LM$ <0203.g1:< L M >>` be constructed :eq:`equal <0203.g1:< L M > = 0203.g1:< A I >>` to :g:`$AI$ <0203.g1:< A I >>`, and let there be subtracted :g:`$NO$ <0203.g1:< N O >>` :eq:`equal <0203.g1:< N O > = 0203.g1:< F K >>` to :g:`$FK$ <0203.g1:< F K >>` and being about the same angle with :g:`$LM$ <0203.g1:< L M >>`; therefore :g:`$LM$ <0203.g1:< L M >>`, :g:`$NO$ <0203.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>` Let :g:`$PR$ <0203.g1:/ P R />` be their diameter, and let the figure be drawn.
 
 .. subclause::
 
@@ -141,15 +141,15 @@ Now let the square :g:`$LM$ <0203.g1:< L M >>` be constructed equal to :g:`$AI$ 
 
 .. subclause::
 
-   But :g:`$MN$ <0203.g1:< M N >>` is also a mean proportional between the squares :g:`$LM$ <0203.g1:< L M >>`, :g:`$NO$ <0203.g1:< N O >>`, and :g:`$AI$ <0203.g1:< A I >>` is equal to :g:`$LM$ <0203.g1:< L M >>`, and :g:`$FK$ <0203.g1:< F K >>` to :g:`$NO$ <0203.g1:< N O >>`;
+   But :g:`$MN$ <0203.g1:< M N >>` is also a mean proportional between the squares :g:`$LM$ <0203.g1:< L M >>`, :g:`$NO$ <0203.g1:< N O >>`, and :g:`$AI$ <0203.g1:< A I >>` is :eq:`equal <0203.g1:< A I > = 0203.g1:< L M >; 0203.g1:< F K > = 0203.g1:< N O >>` to :g:`$LM$ <0203.g1:< L M >>`, and :g:`$FK$ <0203.g1:< F K >>` to :g:`$NO$ <0203.g1:< N O >>`;
 
 .. assertion::
 
-   therefore :g:`$EK$ <0203.g1:< E K >>` is also equal to :g:`$MN$ <0203.g1:< M N >>`.
+   therefore :g:`$EK$ <0203.g1:< E K >>` is also :eq:`equal <0203.g1:< E K > = 0203.g1:< M N >>` to :g:`$MN$ <0203.g1:< M N >>`.
 
 .. subclause::
 
-   But :g:`$MN$ <0203.g1:< M N >>` is equal to :g:`$LO$ <0203.g1:< L O >>`, and :g:`$EK$ <0203.g1:< E K >>` equal to :g:`$DH$ <0203.g1:< D H >>`;
+   But :g:`$MN$ <0203.g1:< M N >>` is :eq:`equal <0203.g1:< M N > = 0203.g1:< L O >>` to :g:`$LO$ <0203.g1:< L O >>`, and :g:`$EK$ <0203.g1:< E K >>` :eq:`equal <0203.g1:< E K > = 0203.g1:< D H >>` to :g:`$DH$ <0203.g1:< D H >>`;
 
 .. assertion::
 
@@ -161,7 +161,7 @@ Now let the square :g:`$LM$ <0203.g1:< L M >>` be constructed equal to :g:`$AI$ 
 
 .. assertion::
 
-   therefore the remainder :g:`$AB$ <0203.g1:< A B >>` is equal to :g:`$ST$ <0203.g1:< S T >>`, that is, to the square on :g:`$LN$ <0203.g1:/ L N />`; therefore :g:`$LN$ <0203.g1:/ L N />` is the “side” of the area :g:`$AB$ <0203.g1:< A B >>`.
+   therefore the remainder :g:`$AB$ <0203.g1:< A B >>` is :eq:`equal <0203.g1:< A B > = 0203.g1:< S T >>` to :g:`$ST$ <0203.g1:< S T >>`, that is, to the square on :g:`$LN$ <0203.g1:/ L N />`; therefore :g:`$LN$ <0203.g1:/ L N />` is the “side” of the area :g:`$AB$ <0203.g1:< A B >>`.
 
 I say that :g:`$LN$ <0203.g1:/ L N />` is a second apotome of a medial straight line.
 

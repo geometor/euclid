@@ -38,7 +38,7 @@ Take :g:`$D$ <0517.g1:D>` the centre of the circle, draw :g:`$DE$ <0517.g1:/ D E
 
 I say that :g:`$DE$ <0517.g1:/ D E />` is half the sum of the side of the hexagon and of the side of the decagon inscribed in the same circle.
 
-Let :g:`$DC$ <0517.g1:/ D C />`, :g:`$CF$ <0517.g1:/ C F />` be joined; make :g:`$GE$ <0517.g1:/ G E />` equal to :g:`$EF$ <0517.g1:/ E F />`, and join :g:`$GC$ <0517.g1:/ G C />`.
+Let :g:`$DC$ <0517.g1:/ D C />`, :g:`$CF$ <0517.g1:/ C F />` be joined; make :g:`$GE$ <0517.g1:/ G E />` :eq:`equal <0517.g1:/ G E / = 0517.g1:/ E F />` to :g:`$EF$ <0517.g1:/ E F />`, and join :g:`$GC$ <0517.g1:/ G C />`.
 
 Since the circumference of the circle is five times the arc :g:`$BFC$ <0517.g1:( B F C )>`,
 and half the circumference of the circle is the arc :g:`$ACF$ <0517.g1:( A C F )>`,
@@ -308,9 +308,9 @@ Take :g:`$E$ <0521.g1:E>` the centre of the circle, join :g:`$AE$ <0521.g1:/ A E
 Let :g:`$AE$ <0521.g1:/ A E />` $= 2 $ :g:`$EG$ <0521.g1:/ E G />`, :g:`$KC$ <0521.g1:/ K C />` $= 3 $ :g:`$CH$ <0521.g1:/ C H />`.
 
 Through :g:`$G$ <0521.g1:G>` draw :g:`$DM$ <0521.g1:/ D M />` at right angles to :g:`$AF$ <0521.g1:/ A F />` meeting the circle at :g:`$D$ <0521.g1:D>`, :g:`$M$ <0521.g1:M>`;
-:g:`$DM$ <0521.g1:/ D M />` is then the side of the inscribed equilateral triangle.
+:g:`$DM$ <0521.g1:/ D M />` is then the side of the inscribed :eq:`equilateral <0521.g1:/ A D / = 0521.g1:/ A M / = 0521.g1:/ D M />` triangle.
 
-Join :g:`$AD$ <0521.g1:/ A D />`, :g:`$AM$ <0521.g1:/ A M />`, which are equal to :g:`$DM$ <0521.g1:/ D M />`.
+Join :g:`$AD$ <0521.g1:/ A D />`, :g:`$AM$ <0521.g1:/ A M />`, which are :eq:`equal <0521.g1:/ A D / = 0521.g1:/ A M / = 0521.g1:/ D M />` to :g:`$DM$ <0521.g1:/ D M />`.
 
 .. picture:: 0521.g1.svg
    :alt: Book XIV, Prop. 6 Alternative Proof

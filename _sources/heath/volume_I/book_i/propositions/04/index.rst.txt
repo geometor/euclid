@@ -23,28 +23,28 @@ PROPOSITION 4.
 .. picture:: 0261.g1.svg
    :alt: Proposition 4 figure
 
-Let :g:`$ABC$ <0261.g1:< A B C >>`, :g:`$DEF$ <0261.g1:< D E F >>` be two triangles having the two sides :g:`$AB$ <0261.g1:/ A B />`, :g:`$AC$ <0261.g1:/ A C />` equal to the two sides :g:`$DE$ <0261.g1:/ D E />`, :g:`$DF$ <0261.g1:/ D F />` respectively, namely :g:`$AB$ <0261.g1:/ A B />` to :g:`$DE$ <0261.g1:/ D E />` and :g:`$AC$ <0261.g1:/ A C />` to :g:`$DF$ <0261.g1:/ D F />`, and the angle :g:`$BAC$ <0261.g1:< B A C )>`\ [#f5]_ equal to the angle :g:`$EDF$ <0261.g1:< E D F )>`.
+Let :g:`$ABC$ <0261.g1:< A B C >>`, :g:`$DEF$ <0261.g1:< D E F >>` be two triangles having the two sides :g:`$AB$ <0261.g1:/ A B />`, :g:`$AC$ <0261.g1:/ A C />` :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E /; 0261.g1:/ A C / = 0261.g1:/ D F />` to the two sides :g:`$DE$ <0261.g1:/ D E />`, :g:`$DF$ <0261.g1:/ D F />` respectively, namely :g:`$AB$ <0261.g1:/ A B />` to :g:`$DE$ <0261.g1:/ D E />` and :g:`$AC$ <0261.g1:/ A C />` to :g:`$DF$ <0261.g1:/ D F />`, and the angle :g:`$BAC$ <0261.g1:< B A C )>`\ [#f5]_ :eq:`equal <0261.g1:< B A C ) = 0261.g1:< E D F )>` to the angle :g:`$EDF$ <0261.g1:< E D F )>`.
 
-I say that the base :g:`$BC$ <0261.g1:/ B C />` is also equal to the base :g:`$EF$ <0261.g1:/ E F />`, the triangle :g:`$ABC$ <0261.g1:< A B C >>` will be equal to the triangle :g:`$DEF$ <0261.g1:< D E F >>`, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle :g:`$ABC$ <0261.g1:< A B C )>` to the angle :g:`$DEF$ <0261.g1:< D E F )>`, and the angle :g:`$ACB$ <0261.g1:< A C B )>` to the angle :g:`$DFE$ <0261.g1:< D F E )>`.
+I say that the base :g:`$BC$ <0261.g1:/ B C />` is also :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to the base :g:`$EF$ <0261.g1:/ E F />`, the triangle :g:`$ABC$ <0261.g1:< A B C >>` will be :eq:`equal <0261.g1:< A B C > = 0261.g1:< D E F >>` to the triangle :g:`$DEF$ <0261.g1:< D E F >>`, and the remaining angles will be :eq:`equal <0261.g1:< A B C ) = 0261.g1:< D E F ); 0261.g1:< A C B ) = 0261.g1:< D F E )>` to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle :g:`$ABC$ <0261.g1:< A B C )>` to the angle :g:`$DEF$ <0261.g1:< D E F )>`, and the angle :g:`$ACB$ <0261.g1:< A C B )>` to the angle :g:`$DFE$ <0261.g1:< D F E )>`.
 
-For, if the triangle :g:`$ABC$ <0261.g1:< A B C >>` be applied\ [#f6]_ to the triangle :g:`$DEF$ <0261.g1:< D E F >>`, and if the point :g:`$A$ <0261.g1:A>` be placed on the point :g:`$D$ <0261.g1:D>` and the straight line :g:`$AB$ <0261.g1:/ A B />` on :g:`$DE$ <0261.g1:/ D E />`, then the point :g:`$B$ <0261.g1:B>` will also coincide with :g:`$E$ <0261.g1:E>`, because :g:`$AB$ <0261.g1:/ A B />` is equal to :g:`$DE$ <0261.g1:/ D E />`.
+For, if the triangle :g:`$ABC$ <0261.g1:< A B C >>` be applied\ [#f6]_ to the triangle :g:`$DEF$ <0261.g1:< D E F >>`, and if the point :g:`$A$ <0261.g1:A>` be placed on the point :g:`$D$ <0261.g1:D>` and the straight line :g:`$AB$ <0261.g1:/ A B />` on :g:`$DE$ <0261.g1:/ D E />`, then the point :g:`$B$ <0261.g1:B>` will also coincide with :g:`$E$ <0261.g1:E>`, because :g:`$AB$ <0261.g1:/ A B />` is :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E />` to :g:`$DE$ <0261.g1:/ D E />`.
 
 .. _folio-i-0262:
 
 .. folio:: 0262
    :page: 248
 
-Again, :g:`$AB$ <0261.g1:/ A B />` coinciding with :g:`$DE$ <0261.g1:/ D E />`, the straight line :g:`$AC$ <0261.g1:/ A C />` will also coincide with :g:`$DF$ <0261.g1:/ D F />`, because the angle :g:`$BAC$ <0261.g1:< B A C )>` is equal to the angle :g:`$EDF$ <0261.g1:< E D F )>`; hence the point :g:`$C$ <0261.g1:C>` will also coincide with the point :g:`$F$ <0261.g1:F>`, because :g:`$AC$ <0261.g1:/ A C />` is again equal to :g:`$DF$ <0261.g1:/ D F />`.
+Again, :g:`$AB$ <0261.g1:/ A B />` coinciding with :g:`$DE$ <0261.g1:/ D E />`, the straight line :g:`$AC$ <0261.g1:/ A C />` will also coincide with :g:`$DF$ <0261.g1:/ D F />`, because the angle :g:`$BAC$ <0261.g1:< B A C )>` is :eq:`equal <0261.g1:< B A C ) = 0261.g1:< E D F )>` to the angle :g:`$EDF$ <0261.g1:< E D F )>`; hence the point :g:`$C$ <0261.g1:C>` will also coincide with the point :g:`$F$ <0261.g1:F>`, because :g:`$AC$ <0261.g1:/ A C />` is again :eq:`equal <0261.g1:/ A C / = 0261.g1:/ D F />` to :g:`$DF$ <0261.g1:/ D F />`.
 
-But :g:`$B$ <0261.g1:B>` also coincided with :g:`$E$ <0261.g1:E>`; hence the base :g:`$BC$ <0261.g1:/ B C />` will coincide with the base :g:`$EF$ <0261.g1:/ E F />` [For if, when :g:`$B$ <0261.g1:B>` coincides with :g:`$E$ <0261.g1:E>` and :g:`$C$ <0261.g1:C>` with :g:`$F$ <0261.g1:F>`, the base :g:`$BC$ <0261.g1:/ B C />` does not coincide with the base :g:`$EF$ <0261.g1:/ E F />`, two straight lines will enclose a space: which is impossible. Therefore the base :g:`$BC$ <0261.g1:/ B C />` will coincide with :g:`$EF$ <0261.g1:/ E F />`]\ [#f7]_ and will be equal to it. :just:`[C.N. 4] <I.cn.4>`
+But :g:`$B$ <0261.g1:B>` also coincided with :g:`$E$ <0261.g1:E>`; hence the base :g:`$BC$ <0261.g1:/ B C />` will coincide with the base :g:`$EF$ <0261.g1:/ E F />` [For if, when :g:`$B$ <0261.g1:B>` coincides with :g:`$E$ <0261.g1:E>` and :g:`$C$ <0261.g1:C>` with :g:`$F$ <0261.g1:F>`, the base :g:`$BC$ <0261.g1:/ B C />` does not coincide with the base :g:`$EF$ <0261.g1:/ E F />`, two straight lines will enclose a space: which is impossible. Therefore the base :g:`$BC$ <0261.g1:/ B C />` will coincide with :g:`$EF$ <0261.g1:/ E F />`]\ [#f7]_ and will be :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to it. :just:`[C.N. 4] <I.cn.4>`
 
 Thus the whole triangle :g:`$ABC$ <0261.g1:< A B C >>` will coincide with the whole triangle :g:`$DEF$ <0261.g1:< D E F >>`,
 
 .. assertion::
 
-   and will be equal to it.
+   and will be :eq:`equal <0261.g1:< A B C > = 0261.g1:< D E F >>` to it.
 
-And the remaining angles will also coincide with the remaining angles and will be equal to them,
+And the remaining angles will also coincide with the remaining angles and will be :eq:`equal <0261.g1:< A B C ) = 0261.g1:< D E F ); 0261.g1:< A C B ) = 0261.g1:< D F E )>` to them,
 
 .. subclause::
 

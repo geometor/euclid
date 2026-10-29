@@ -47,17 +47,17 @@ For, whatever part :g:`$AE$ <0312.g1:/ A E />` is of :g:`$CF$ <0312.g1:/ C F />`
 
 .. assertion::
 
-   therefore :g:`$GF$ <0312.g1:/ G F />` is equal to :g:`$CD$ <0312.g1:/ C D />`.
+   therefore :g:`$GF$ <0312.g1:/ G F />` is :eq:`equal <0312.g1:/ G F / = 0312.g1:/ C D />` to :g:`$CD$ <0312.g1:/ C D />`.
 
 Let :g:`$CF$ <0312.g1:/ C F />` be subtracted from each;
 
 .. assertion::
 
-   therefore the remainder :g:`$GC$ <0312.g1:/ G C />` is equal to the remainder :g:`$FD$ <0312.g1:/ F D />`.
+   therefore the remainder :g:`$GC$ <0312.g1:/ G C />` is :eq:`equal <0312.g1:/ G C / = 0312.g1:/ F D />` to the remainder :g:`$FD$ <0312.g1:/ F D />`.
 
 .. subclause::
 
-   Now since, whatever part :g:`$AE$ <0312.g1:/ A E />` is of :g:`$CF$ <0312.g1:/ C F />`, the same part also is :g:`$EB$ <0312.g1:/ E B />` of :g:`$GC$ <0312.g1:/ G C />`, while :g:`$GC$ <0312.g1:/ G C />` is equal to :g:`$FD$ <0312.g1:/ F D />`,
+   Now since, whatever part :g:`$AE$ <0312.g1:/ A E />` is of :g:`$CF$ <0312.g1:/ C F />`, the same part also is :g:`$EB$ <0312.g1:/ E B />` of :g:`$GC$ <0312.g1:/ G C />`, while :g:`$GC$ <0312.g1:/ G C />` is :eq:`equal <0312.g1:/ G C / = 0312.g1:/ F D />` to :g:`$FD$ <0312.g1:/ F D />`,
 
 .. assertion::
 

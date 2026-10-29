@@ -5,7 +5,8 @@
       --geom-bg: #ffffff;
       --geom-point-stroke: #ffffff;
       --geom-poly-fill: #000000;
-      --geom-accent: #ef4444;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -13,7 +14,8 @@
         --geom-bg: #1e1e20;
         --geom-point-stroke: #1e1e20;
         --geom-poly-fill: #d6cfc5;
-        --geom-accent: #ef4444;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
       }
     }
     .euclid-graphic {
@@ -82,6 +84,18 @@
       stroke-width: 1.5;
       stroke-linecap: round;
       fill: none;
+    }
+    .geom-tick-mark {
+      stroke: var(--geom-assert);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      fill: none;
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-linecap: round;
     }
     .grid-line {
       stroke: var(--geom-fg);
@@ -180,7 +194,55 @@
       fill: var(--geom-accent) !important;
       stroke: none !important;
     }
+    .geom-assert-active {
+      opacity: 1 !important;
+      stroke: var(--geom-assert) !important;
+    }
+    text.geom-assert-active, text.geom-assert-secondary, text.geom-assert-active *, text.geom-assert-secondary * {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    polygon.geom-assert-active, path.geom-polygon.geom-assert-active, .wedge.angle.geom-assert-active, path.wedge.geom-assert-active, path.angle.geom-assert-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: var(--geom-assert) !important;
+      stroke: var(--geom-assert) !important;
+    }
+    path.geom-ang-arc.geom-assert-active {
+      opacity: 1 !important;
+      fill: none !important;
+      stroke: var(--geom-assert) !important;
+    }
+    circle.geom-point.geom-assert-active, circle.geom-assert-active {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    path.geom-assert-active.geom-tick-1 {
+      marker-mid: url(#geom-tick-1);
+    }
+    path.geom-assert-active.geom-tick-2 {
+      marker-mid: url(#geom-tick-2);
+    }
+    path.geom-assert-active.geom-tick-3 {
+      marker-mid: url(#geom-tick-3);
+    }
   </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+    </marker>
+  </defs>
   <g id="elements">
     <circle id="el-cir-CB" data-ref="( C B )" data-type="circle" cx="114.0" cy="128.0" r="92.0" class="geom-circle" />
     <circle id="el-cir-CA" data-ref="( C A )" data-type="circle" cx="114.0" cy="128.0" r="81.0" class="geom-circle" />
@@ -188,29 +250,29 @@
   <g id="graphics">
     <path id="el-arc-DBE" data-ref="( D B E )" data-aliases="( E B D )" data-type="arc" d="M 70.38,47.0 A 92.0,92.0 0 0,1 157.62,47.0" class="geom-arc geom-overlay" />
     <path id="el-arc-MN" data-ref="( M N )" data-aliases="( N M ) | ( M B N )" data-type="arc" d="M 81.85,41.8 A 92.0,92.0 0 0,1 146.15,41.8" class="geom-arc geom-overlay" />
-    <line id="el-seg-CB" data-ref="/ C B /" data-aliases="/ B C / | / C A B /" data-type="segment" x1="114.0" y1="128.0" x2="114.0" y2="36.0" class="geom-line" />
-    <line id="el-seg-DE" data-ref="/ D E /" data-aliases="/ E D / | / D P A Q E /" data-type="segment" x1="70.38" y1="47.0" x2="157.62" y2="47.0" class="geom-line" />
-    <line id="el-seg-MN" data-ref="/ M N /" data-aliases="/ N M /" data-type="segment" x1="81.85" y1="41.8" x2="146.15" y2="41.8" class="geom-line" />
-    <line id="el-seg-CM" data-ref="/ C M /" data-aliases="/ M C / | / C P M /" data-type="segment" x1="114.0" y1="128.0" x2="81.85" y2="41.8" class="geom-line" />
-    <line id="el-seg-CN" data-ref="/ C N /" data-aliases="/ N C / | / C Q N /" data-type="segment" x1="114.0" y1="128.0" x2="146.15" y2="41.8" class="geom-line" />
-    <line id="el-seg-CA" data-ref="/ C A /" data-aliases="/ A C /" data-type="segment" x1="114.0" y1="128.0" x2="114.0" y2="47.0" class="geom-line geom-overlay" />
-    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="114.0" y1="47.0" x2="114.0" y2="36.0" class="geom-line geom-overlay" />
-    <line id="el-seg-PQ" data-ref="/ P Q /" data-aliases="/ Q P / | / P A Q /" data-type="segment" x1="83.79" y1="47.0" x2="144.21" y2="47.0" class="geom-line geom-overlay" />
-    <line id="el-seg-CP" data-ref="/ C P /" data-aliases="/ P C /" data-type="segment" x1="114.0" y1="128.0" x2="83.79" y2="47.0" class="geom-line geom-overlay" />
-    <line id="el-seg-CQ" data-ref="/ C Q /" data-aliases="/ Q C /" data-type="segment" x1="114.0" y1="128.0" x2="144.21" y2="47.0" class="geom-line geom-overlay" />
+    <path id="el-seg-CB" data-ref="/ C B /" data-aliases="/ B C / | / C A B /" data-type="segment" class="geom-line" d="M 114 128 L 114 82 L 114 36" />
+    <path id="el-seg-DE" data-ref="/ D E /" data-aliases="/ E D / | / D P A Q E /" data-type="segment" class="geom-line" d="M 70.38 47 L 114 47 L 157.62 47" />
+    <path id="el-seg-MN" data-ref="/ M N /" data-aliases="/ N M /" data-type="segment" class="geom-line" d="M 81.85 41.8 L 114 41.8 L 146.15 41.8" />
+    <path id="el-seg-CM" data-ref="/ C M /" data-aliases="/ M C / | / C P M /" data-type="segment" class="geom-line" d="M 114 128 L 97.92 84.9 L 81.85 41.8" />
+    <path id="el-seg-CN" data-ref="/ C N /" data-aliases="/ N C / | / C Q N /" data-type="segment" class="geom-line" d="M 114 128 L 130.07 84.9 L 146.15 41.8" />
+    <path id="el-seg-CA" data-ref="/ C A /" data-aliases="/ A C /" data-type="segment" class="geom-line geom-overlay" d="M 114 128 L 114 87.5 L 114 47" />
+    <path id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" class="geom-line geom-overlay" d="M 114 47 L 114 41.5 L 114 36" />
+    <path id="el-seg-PQ" data-ref="/ P Q /" data-aliases="/ Q P / | / P A Q /" data-type="segment" class="geom-line geom-overlay" d="M 83.79 47 L 114 47 L 144.21 47" />
+    <path id="el-seg-CP" data-ref="/ C P /" data-aliases="/ P C /" data-type="segment" class="geom-line geom-overlay" d="M 114 128 L 98.9 87.5 L 83.79 47" />
+    <path id="el-seg-CQ" data-ref="/ C Q /" data-aliases="/ Q C /" data-type="segment" class="geom-line geom-overlay" d="M 114 128 L 129.11 87.5 L 144.21 47" />
   </g>
   <g id="highlights" style="pointer-events: none;">
     <circle id="hl-cir-CB" data-ref="( C B )" cx="114.0" cy="128.0" r="92.0" class="geom-circle geom-overlay" />
     <circle id="hl-cir-CA" data-ref="( C A )" cx="114.0" cy="128.0" r="81.0" class="geom-circle geom-overlay" />
     <path id="hl-arc-DBE" data-ref="( D B E )" data-aliases="( E B D )" d="M 70.38,47.0 A 92.0,92.0 0 0,1 157.62,47.0" class="geom-arc geom-overlay" />
     <path id="hl-arc-MN" data-ref="( M N )" data-aliases="( N M ) | ( M B N )" d="M 81.85,41.8 A 92.0,92.0 0 0,1 146.15,41.8" class="geom-arc geom-overlay" />
-    <line id="hl-seg-CB" data-ref="/ C B /" data-aliases="/ B C / | / C A B /" x1="114.0" y1="128.0" x2="114.0" y2="36.0" class="geom-line geom-overlay" />
-    <line id="hl-seg-CA" data-ref="/ C A /" data-aliases="/ A C /" x1="114.0" y1="128.0" x2="114.0" y2="47.0" class="geom-line geom-overlay" />
-    <line id="hl-seg-DE" data-ref="/ D E /" data-aliases="/ E D / | / D P A Q E /" x1="70.38" y1="47.0" x2="157.62" y2="47.0" class="geom-line geom-overlay" />
-    <line id="hl-seg-MN" data-ref="/ M N /" data-aliases="/ N M /" x1="81.85" y1="41.8" x2="146.15" y2="41.8" class="geom-line geom-overlay" />
-    <line id="hl-seg-CM" data-ref="/ C M /" data-aliases="/ M C / | / C P M /" x1="114.0" y1="128.0" x2="81.85" y2="41.8" class="geom-line geom-overlay" />
-    <line id="hl-seg-CN" data-ref="/ C N /" data-aliases="/ N C / | / C Q N /" x1="114.0" y1="128.0" x2="146.15" y2="41.8" class="geom-line geom-overlay" />
-    <line id="hl-seg-PQ" data-ref="/ P Q /" data-aliases="/ Q P / | / P A Q /" x1="83.79" y1="47.0" x2="144.21" y2="47.0" class="geom-line geom-overlay" />
+    <path id="hl-seg-CB" data-ref="/ C B /" data-aliases="/ B C / | / C A B /" class="geom-line geom-overlay" d="M 114 128 L 114 82 L 114 36" />
+    <path id="hl-seg-CA" data-ref="/ C A /" data-aliases="/ A C /" class="geom-line geom-overlay" d="M 114 128 L 114 87.5 L 114 47" />
+    <path id="hl-seg-DE" data-ref="/ D E /" data-aliases="/ E D / | / D P A Q E /" class="geom-line geom-overlay" d="M 70.38 47 L 114 47 L 157.62 47" />
+    <path id="hl-seg-MN" data-ref="/ M N /" data-aliases="/ N M /" class="geom-line geom-overlay" d="M 81.85 41.8 L 114 41.8 L 146.15 41.8" />
+    <path id="hl-seg-CM" data-ref="/ C M /" data-aliases="/ M C / | / C P M /" class="geom-line geom-overlay" d="M 114 128 L 97.92 84.9 L 81.85 41.8" />
+    <path id="hl-seg-CN" data-ref="/ C N /" data-aliases="/ N C / | / C Q N /" class="geom-line geom-overlay" d="M 114 128 L 130.07 84.9 L 146.15 41.8" />
+    <path id="hl-seg-PQ" data-ref="/ P Q /" data-aliases="/ Q P / | / P A Q /" class="geom-line geom-overlay" d="M 83.79 47 L 114 47 L 144.21 47" />
   </g>
   <g id="points">
     <circle id="el-pt-B" data-ref="B" data-type="point" cx="114.0" cy="36.0" r="3.0" class="geom-point" />

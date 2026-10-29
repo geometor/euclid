@@ -20,7 +20,7 @@ PROPOSITION 5.
 
    If a straight line be cut in extreme and mean ratio, and there be added to it a straight line equal to the greater segment, the whole straight line has been cut in extreme and mean ratio, and the original straight line is the greater segment.
 
-For let the straight line :g:`$AB$ <0452.g1:/ A B />` be cut in extreme and mean ratio at the point :g:`$C$ <0452.g1:C>`, let :g:`$AC$ <0452.g1:/ A C />` be the greater segment, and let :g:`$AD$ <0452.g1:/ A D />` be equal to :g:`$AC$ <0452.g1:/ A C />`.
+For let the straight line :g:`$AB$ <0452.g1:/ A B />` be cut in extreme and mean ratio at the point :g:`$C$ <0452.g1:C>`, let :g:`$AC$ <0452.g1:/ A C />` be the greater segment, and let :g:`$AD$ <0452.g1:/ A D />` be :eq:`equal <0452.g1:/ A D / = 0452.g1:/ A C />` to :g:`$AC$ <0452.g1:/ A C />`.
 
 .. picture:: 0452.g1.svg
    :alt: Book XIII, Proposition 5
@@ -48,23 +48,23 @@ For let the square :g:`$AE$ <0452.g1:< A E >>` be described on :g:`$AB$ <0452.g1
 
 .. assertion::
 
-   therefore :g:`$CE$ <0452.g1:< C E >>` is equal to :g:`$HC$ <0452.g1:< H C >>`.
+   therefore :g:`$CE$ <0452.g1:< C E >>` is :eq:`equal <0452.g1:< C E > = 0452.g1:< H C >>` to :g:`$HC$ <0452.g1:< H C >>`.
 
 .. subclause::
 
-   But :g:`$HE$ <0452.g1:< H E >>` is equal to :g:`$CE$ <0452.g1:< C E >>`, and :g:`$DH$ <0452.g1:< D H >>` is equal to :g:`$HC$ <0452.g1:< H C >>`;
+   But :g:`$HE$ <0452.g1:< H E >>` is :eq:`equal <0452.g1:< H E > = 0452.g1:< C E >>` to :g:`$CE$ <0452.g1:< C E >>`, and :g:`$DH$ <0452.g1:< D H >>` is :eq:`equal <0452.g1:< D H > = 0452.g1:< H C >>` to :g:`$HC$ <0452.g1:< H C >>`;
 
 .. assertion::
 
-   therefore :g:`$DH$ <0452.g1:< D H >>` is also equal to :g:`$HE$ <0452.g1:< H E >>`.
+   therefore :g:`$DH$ <0452.g1:< D H >>` is also :eq:`equal <0452.g1:< D H > = 0452.g1:< H E >>` to :g:`$HE$ <0452.g1:< H E >>`.
 
 .. assertion::
 
-   Therefore the whole :g:`$DK$ <0452.g1:< D K >>` is equal to the whole :g:`$AE$ <0452.g1:< A E >>`.
+   Therefore the whole :g:`$DK$ <0452.g1:< D K >>` is :eq:`equal <0452.g1:< D K > = 0452.g1:< A E >>` to the whole :g:`$AE$ <0452.g1:< A E >>`.
 
 .. subclause::
 
-   And :g:`$DK$ <0452.g1:< D K >>` is the rectangle :g:`$BD$ <0452.g1:/ B D />`, :g:`$DA$ <0452.g1:/ D A />`, for :g:`$AD$ <0452.g1:/ A D />` is equal to :g:`$DL$ <0452.g1:/ D L />`; and :g:`$AE$ <0452.g1:< A E >>` is the square on :g:`$AB$ <0452.g1:/ A B />`;
+   And :g:`$DK$ <0452.g1:< D K >>` is the rectangle :g:`$BD$ <0452.g1:/ B D />`, :g:`$DA$ <0452.g1:/ D A />`, for :g:`$AD$ <0452.g1:/ A D />` is :eq:`equal <0452.g1:/ A D / = 0452.g1:/ D L />` to :g:`$DL$ <0452.g1:/ D L />`; and :g:`$AE$ <0452.g1:< A E >>` is the square on :g:`$AB$ <0452.g1:/ A B />`;
 
 .. assertion::
 

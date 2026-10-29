@@ -22,7 +22,7 @@ PROPOSITION 19.
 
 Let :g:`$A$ <0325.g1:A>`, :g:`$B$ <0325.g1:B>`, :g:`$C$ <0325.g1:C>`, :g:`$D$ <0325.g1:D>` be four numbers in proportion, so that, as :g:`$A$ <0325.g1:A>` is to :g:`$B$ <0325.g1:B>`, so is :g:`$C$ <0325.g1:C>` to :g:`$D$ <0325.g1:D>`; and let :g:`$A$ <0325.g1:A>` by multiplying :g:`$D$ <0325.g1:D>` make :g:`$E$ <0325.g1:E>`, and let :g:`$B$ <0325.g1:B>` by multiplying :g:`$C$ <0325.g1:C>` make :g:`$F$ <0325.g1:F>`;
 
-I say that :g:`$E$ <0325.g1:E>` is equal to :g:`$F$ <0325.g1:F>`.
+I say that :g:`$E$ <0325.g1:E>` is :eq:`equal <0325.g1:E = 0325.g1:F>` to :g:`$F$ <0325.g1:F>`.
 
 For let :g:`$A$ <0325.g1:A>` by multiplying :g:`$C$ <0325.g1:C>` make :g:`$G$ <0325.g1:G>`.
 
@@ -72,9 +72,9 @@ For let :g:`$A$ <0325.g1:A>` by multiplying :g:`$C$ <0325.g1:C>` make :g:`$G$ <0
 
 .. assertion:: [cf. V. 9]
 
-   therefore :g:`$E$ <0325.g1:E>` is equal to :g:`$F$ <0325.g1:F>`.
+   therefore :g:`$E$ <0325.g1:E>` is :eq:`equal <0325.g1:E = 0325.g1:F>` to :g:`$F$ <0325.g1:F>`.
 
-Again, let :g:`$E$ <0325.g1:E>` be equal to :g:`$F$ <0325.g1:F>`;
+Again, let :g:`$E$ <0325.g1:E>` be :eq:`equal <0325.g1:E = 0325.g1:F>` to :g:`$F$ <0325.g1:F>`;
 
 I say that, as :g:`$A$ <0325.g1:A>` is to :g:`$B$ <0325.g1:B>`, so is :g:`$C$ <0325.g1:C>` to :g:`$D$ <0325.g1:D>`.
 
@@ -82,7 +82,7 @@ For, with the same construction,
 
 .. subclause::
 
-   since :g:`$E$ <0325.g1:E>` is equal to :g:`$F$ <0325.g1:F>`,
+   since :g:`$E$ <0325.g1:E>` is :eq:`equal <0325.g1:E = 0325.g1:F>` to :g:`$F$ <0325.g1:F>`,
 
 .. assertion:: [cf. V. 7]
 

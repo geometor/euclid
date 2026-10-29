@@ -31,11 +31,11 @@ thus it is required to apply to the given straight line :g:`$AB$ <0267.g1:/ A B 
 
 .. subclause::
 
-   Let :g:`$AB$ <0267.g1:/ A B />` be bisected at the point :g:`$E$ <0267.g1:E>`, and on :g:`$EB$ <0267.g1:/ E B />` let :g:`$EBFG$ <0267.g1:< E B F G >>` be described similar and similarly situated to :g:`$D$ <0267.g1:< D >>` ; :just:`[VI. 18] <VI.18>` let the parallelogram :g:`$AG$ <0267.g1:< A G >>` be completed.
+   Let :g:`$AB$ <0267.g1:/ A B />` be :eq:`bisected <0267.g1:/ A E / = 0267.g1:/ E B />` at the point :g:`$E$ <0267.g1:E>`, and on :g:`$EB$ <0267.g1:/ E B />` let :g:`$EBFG$ <0267.g1:< E B F G >>` be described similar and similarly situated to :g:`$D$ <0267.g1:< D >>` ; :just:`[VI. 18] <VI.18>` let the parallelogram :g:`$AG$ <0267.g1:< A G >>` be completed.
 
 .. subclause::
 
-   If then :g:`$AG$ <0267.g1:< A G >>` is equal to :g:`$C$ <0267.g1:< C >>`, that which was enjoined will have been done ; for there has been applied to the given straight line :g:`$AB$ <0267.g1:/ A B />` the parallelogram :g:`$AG$ <0267.g1:< A G >>` equal to the given rectilineal figure :g:`$C$ <0267.g1:< C >>` and deficient by a parallelogrammic figure :g:`$GB$ <0267.g1:< G B >>` which is similar to :g:`$D$ <0267.g1:< D >>`.
+   If then :g:`$AG$ <0267.g1:< A G >>` is :eq:`equal <0267.g1:< A G > = 0267.g1:< C >>` to :g:`$C$ <0267.g1:< C >>`, that which was enjoined will have been done ; for there has been applied to the given straight line :g:`$AB$ <0267.g1:/ A B />` the parallelogram :g:`$AG$ <0267.g1:< A G >>` :eq:`equal <0267.g1:< A G > = 0267.g1:< C >>` to the given rectilineal figure :g:`$C$ <0267.g1:< C >>` and deficient by a parallelogrammic figure :g:`$GB$ <0267.g1:< G B >>` which is similar to :g:`$D$ <0267.g1:< D >>`.
 
 .. picture:: 0267.g1.svg
    :alt: Book VI Proposition 28
@@ -46,7 +46,7 @@ thus it is required to apply to the given straight line :g:`$AB$ <0267.g1:/ A B 
 
 .. assertion::
 
-   Now :g:`$HE$ <0267.g1:< H E >>` is equal to :g:`$GB$ <0267.g1:< G B >>` ;
+   Now :g:`$HE$ <0267.g1:< H E >>` is :eq:`equal <0267.g1:< H E > = 0267.g1:< G B >>` to :g:`$GB$ <0267.g1:< G B >>` ;
 
 .. assertion::
 
@@ -82,11 +82,11 @@ thus it is required to apply to the given straight line :g:`$AB$ <0267.g1:/ A B 
 
 .. subclause::
 
-   Let :g:`$GO$ <0267.g1:/ G O />` be made equal to :g:`$KL$ <0267.g1:/ K L />`, and :g:`$GP$ <0267.g1:/ G P />` equal to :g:`$LM$ <0267.g1:/ L M />` ; and let the parallelogram :g:`$OGPQ$ <0267.g1:< O G P Q >>` be completed ;
+   Let :g:`$GO$ <0267.g1:/ G O />` be made :eq:`equal <0267.g1:/ G O / = 0267.g1:/ K L />` to :g:`$KL$ <0267.g1:/ K L />`, and :g:`$GP$ <0267.g1:/ G P />` :eq:`equal <0267.g1:/ G P / = 0267.g1:/ L M />` to :g:`$LM$ <0267.g1:/ L M />` ; and let the parallelogram :g:`$OGPQ$ <0267.g1:< O G P Q >>` be completed ;
 
 .. assertion::
 
-   therefore it is equal and similar to :g:`$KM$ <0267.g1:< K M >>`.
+   therefore it is :eq:`equal <0267.g1:< O G P Q > = 0267.g1:< K M >>` and similar to :g:`$KM$ <0267.g1:< K M >>`.
 
 .. assertion:: [VI. 21] <VI.21>
 
@@ -107,27 +107,27 @@ thus it is required to apply to the given straight line :g:`$AB$ <0267.g1:/ A B 
 
 .. subclause::
 
-   Then, since :g:`$BG$ <0267.g1:< B G >>` is equal to :g:`$C$ <0267.g1:< C >>`, :g:`$KM$ <0267.g1:< K M >>`, and in them :g:`$GQ$ <0267.g1:< G Q >>` is equal to :g:`$KM$ <0267.g1:< K M >>`,
+   Then, since :g:`$BG$ <0267.g1:< B G >>` is equal to :g:`$C$ <0267.g1:< C >>`, :g:`$KM$ <0267.g1:< K M >>`, and in them :g:`$GQ$ <0267.g1:< G Q >>` is :eq:`equal <0267.g1:< G Q > = 0267.g1:< K M >>` to :g:`$KM$ <0267.g1:< K M >>`,
 
 .. assertion::
 
-   therefore the remainder, the gnomon :g:`$UWV$ <0267.g1:< U W V >>`, is equal to the remainder :g:`$C$ <0267.g1:< C >>`.
+   therefore the remainder, the gnomon :g:`$UWV$ <0267.g1:< U W V >>`, is :eq:`equal <0267.g1:< U W V > = 0267.g1:< C >>` to the remainder :g:`$C$ <0267.g1:< C >>`.
 
 .. subclause::
 
-   And, since :g:`$PR$ <0267.g1:< P R >>` is equal to :g:`$OS$ <0267.g1:< O S >>`, let :g:`$QB$ <0267.g1:< Q B >>` be added to each ;
+   And, since :g:`$PR$ <0267.g1:< P R >>` is :eq:`equal <0267.g1:< P R > = 0267.g1:< O S >>` to :g:`$OS$ <0267.g1:< O S >>`, let :g:`$QB$ <0267.g1:< Q B >>` be added to each ;
 
 .. assertion::
 
-   therefore the whole :g:`$PB$ <0267.g1:< P B >>` is equal to the whole :g:`$OB$ <0267.g1:< O B >>`.
+   therefore the whole :g:`$PB$ <0267.g1:< P B >>` is :eq:`equal <0267.g1:< P B > = 0267.g1:< O B >>` to the whole :g:`$OB$ <0267.g1:< O B >>`.
 
 .. subclause::
 
-   But :g:`$OB$ <0267.g1:< O B >>` is equal to :g:`$TE$ <0267.g1:< T E >>`, since the side :g:`$AE$ <0267.g1:/ A E />` is also equal to the side :g:`$EB$ <0267.g1:/ E B />` ; :just:`[I. 36] <I.36>`
+   But :g:`$OB$ <0267.g1:< O B >>` is :eq:`equal <0267.g1:< O B > = 0267.g1:< T E >>` to :g:`$TE$ <0267.g1:< T E >>`, since the side :g:`$AE$ <0267.g1:/ A E />` is also :eq:`equal <0267.g1:/ A E / = 0267.g1:/ E B />` to the side :g:`$EB$ <0267.g1:/ E B />` ; :just:`[I. 36] <I.36>`
 
 .. assertion::
 
-   therefore :g:`$TE$ <0267.g1:< T E >>` is also equal to :g:`$PB$ <0267.g1:< P B >>`.
+   therefore :g:`$TE$ <0267.g1:< T E >>` is also :eq:`equal <0267.g1:< T E > = 0267.g1:< P B >>` to :g:`$PB$ <0267.g1:< P B >>`.
 
 .. subclause::
 
@@ -135,19 +135,19 @@ thus it is required to apply to the given straight line :g:`$AB$ <0267.g1:/ A B 
 
 .. assertion::
 
-   therefore the whole :g:`$TS$ <0267.g1:< T S >>` is equal to the whole, the gnomon :g:`$VWU$ <0267.g1:< V W U >>`.
+   therefore the whole :g:`$TS$ <0267.g1:< T S >>` is :eq:`equal <0267.g1:< T S > = 0267.g1:< V W U >>` to the whole, the gnomon :g:`$VWU$ <0267.g1:< V W U >>`.
 
 .. subclause::
 
-   But the gnomon :g:`$VWU$ <0267.g1:< V W U >>` was proved equal to :g:`$C$ <0267.g1:< C >>` ;
+   But the gnomon :g:`$VWU$ <0267.g1:< V W U >>` was proved :eq:`equal <0267.g1:< V W U > = 0267.g1:< C >>` to :g:`$C$ <0267.g1:< C >>` ;
 
 .. assertion::
 
-   therefore :g:`$TS$ <0267.g1:< T S >>` is also equal to :g:`$C$ <0267.g1:< C >>`.
+   therefore :g:`$TS$ <0267.g1:< T S >>` is also :eq:`equal <0267.g1:< T S > = 0267.g1:< C >>` to :g:`$C$ <0267.g1:< C >>`.
 
 .. qed::
 
-   Therefore to the given straight line :g:`$AB$ <0267.g1:/ A B />` there has been applied the parallelogram :g:`$ST$ <0267.g1:< S T >>` equal to the given rectilineal figure :g:`$C$ <0267.g1:< C >>` and deficient by a parallelogrammic figure :g:`$QB$ <0267.g1:< Q B >>` which is similar to :g:`$D$ <0267.g1:< D >>`. :just:`Q. E. F.`
+   Therefore to the given straight line :g:`$AB$ <0267.g1:/ A B />` there has been applied the parallelogram :g:`$ST$ <0267.g1:< S T >>` :eq:`equal <0267.g1:< S T > = 0267.g1:< C >>` to the given rectilineal figure :g:`$C$ <0267.g1:< C >>` and deficient by a parallelogrammic figure :g:`$QB$ <0267.g1:< Q B >>` which is similar to :g:`$D$ <0267.g1:< D >>`. :just:`Q. E. F.`
 
 ----
 

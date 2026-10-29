@@ -31,7 +31,7 @@ For let :g:`$AB$ <0291.g1:/ A B />`, :g:`$CD$ <0291.g1:/ C D />` meet the plane 
 
    therefore :g:`$AB$ <0291.g1:/ A B />`, :g:`$CD$ <0291.g1:/ C D />`, :g:`$BD$ <0291.g1:/ B D />` are in one plane.
 
-Let :g:`$DE$ <0291.g1:/ D E />` be drawn, in the plane of reference, at right angles to :g:`$BD$ <0291.g1:/ B D />`, let :g:`$DE$ <0291.g1:/ D E />` be made equal to :g:`$AB$ <0291.g1:/ A B />`, and let :g:`$BE$ <0291.g1:/ B E />`, :g:`$AE$ <0291.g1:/ A E />`, :g:`$AD$ <0291.g1:/ A D />` be joined.
+Let :g:`$DE$ <0291.g1:/ D E />` be drawn, in the plane of reference, at right angles to :g:`$BD$ <0291.g1:/ B D />`, let :g:`$DE$ <0291.g1:/ D E />` be made :eq:`equal <0291.g1:/ D E / = 0291.g1:/ A B />` to :g:`$AB$ <0291.g1:/ A B />`, and let :g:`$BE$ <0291.g1:/ B E />`, :g:`$AE$ <0291.g1:/ A E />`, :g:`$AD$ <0291.g1:/ A D />` be joined.
 
 .. subclause::
 
@@ -39,7 +39,7 @@ Let :g:`$DE$ <0291.g1:/ D E />` be drawn, in the plane of reference, at right an
 
 .. assertion::
 
-   therefore :g:`$AB$ <0291.g1:/ A B />` is also at right angles to all the straight lines which meet it and are in the plane of reference; :just:`[XI. Def. 3] <XI.def.3>` therefore each of the angles :g:`$ABD$ <0291.g1:< A B D )>`, :g:`$ABE$ <0291.g1:< A B E )>` is right.
+   therefore :g:`$AB$ <0291.g1:/ A B />` is also at right angles to all the straight lines which meet it and are in the plane of reference; :just:`[XI. Def. 3] <XI.def.3>` therefore each of the angles :g:`$ABD$ <0291.g1:< A B D )>`, :g:`$ABE$ <0291.g1:< A B E )>` is :eq:`right <0291.g1:< A B D ) = 0291.g1:< A B E )>`.
 
 .. subclause::
 
@@ -64,19 +64,19 @@ Let :g:`$DE$ <0291.g1:/ D E />` be drawn, in the plane of reference, at right an
 
 .. subclause::
 
-   And, since :g:`$AB$ <0291.g1:/ A B />` is equal to :g:`$DE$ <0291.g1:/ D E />`, and :g:`$BD$ <0291.g1:/ B D />` is common, the two sides :g:`$AB$ <0291.g1:/ A B />`, :g:`$BD$ <0291.g1:/ B D />` are equal to the two sides :g:`$ED$ <0291.g1:/ E D />`, :g:`$DB$ <0291.g1:/ D B />`; and the angle :g:`$ABD$ <0291.g1:< A B D )>` is equal to the angle :g:`$EDB$ <0291.g1:< E D B )>`, for each is right;
+   And, since :g:`$AB$ <0291.g1:/ A B />` is :eq:`equal <0291.g1:/ A B / = 0291.g1:/ D E />` to :g:`$DE$ <0291.g1:/ D E />`, and :g:`$BD$ <0291.g1:/ B D />` is common, the two sides :g:`$AB$ <0291.g1:/ A B />`, :g:`$BD$ <0291.g1:/ B D />` are :eq:`equal <0291.g1:/ A B / = 0291.g1:/ E D />` to the two sides :g:`$ED$ <0291.g1:/ E D />`, :g:`$DB$ <0291.g1:/ D B />`; and the angle :g:`$ABD$ <0291.g1:< A B D )>` is :eq:`equal <0291.g1:< A B D ) = 0291.g1:< E D B )>` to the angle :g:`$EDB$ <0291.g1:< E D B )>`, for each is :eq:`right <0291.g1:< A B D ) = 0291.g1:< E D B )>`;
 
 .. assertion::
 
-   therefore the base :g:`$AD$ <0291.g1:/ A D />` is equal to the base :g:`$BE$ <0291.g1:/ B E />`.
+   therefore the base :g:`$AD$ <0291.g1:/ A D />` is :eq:`equal <0291.g1:/ A D / = 0291.g1:/ B E />` to the base :g:`$BE$ <0291.g1:/ B E />`.
 
 .. subclause::
 
-   And, since :g:`$AB$ <0291.g1:/ A B />` is equal to :g:`$DE$ <0291.g1:/ D E />`, and :g:`$BE$ <0291.g1:/ B E />` to :g:`$AD$ <0291.g1:/ A D />`, the two sides :g:`$AB$ <0291.g1:/ A B />`, :g:`$BE$ <0291.g1:/ B E />` are equal to the two sides :g:`$ED$ <0291.g1:/ E D />`, :g:`$DA$ <0291.g1:/ D A />` respectively, and :g:`$AE$ <0291.g1:/ A E />` is their common base;
+   And, since :g:`$AB$ <0291.g1:/ A B />` is :eq:`equal <0291.g1:/ A B / = 0291.g1:/ D E /; 0291.g1:/ B E / = 0291.g1:/ A D />` to :g:`$DE$ <0291.g1:/ D E />`, and :g:`$BE$ <0291.g1:/ B E />` to :g:`$AD$ <0291.g1:/ A D />`, the two sides :g:`$AB$ <0291.g1:/ A B />`, :g:`$BE$ <0291.g1:/ B E />` are :eq:`equal <0291.g1:/ A B / = 0291.g1:/ E D /; 0291.g1:/ B E / = 0291.g1:/ D A />` to the two sides :g:`$ED$ <0291.g1:/ E D />`, :g:`$DA$ <0291.g1:/ D A />` respectively, and :g:`$AE$ <0291.g1:/ A E />` is their common base;
 
 .. assertion::
 
-   therefore the angle :g:`$ABE$ <0291.g1:< A B E )>` is equal to the angle :g:`$EDA$ <0291.g1:< E D A )>`.
+   therefore the angle :g:`$ABE$ <0291.g1:< A B E )>` is :eq:`equal <0291.g1:< A B E ) = 0291.g1:< E D A )>` to the angle :g:`$EDA$ <0291.g1:< E D A )>`.
 
 .. subclause::
 

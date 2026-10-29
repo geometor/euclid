@@ -34,7 +34,7 @@ Then, since the segment :g:`$ACB$ <0058.g2:( A C B )>` is
 similar to the segment :g:`$ADB$ <0058.g2:( A D B )>`,
 and similar segments of circles are those which admit equal
 angles, :just:`[III. Def. 11] <III.def.11>`
-the angle :g:`$ACB$ <0058.g2:< A C B )>` is equal to the angle :g:`$ADB$ <0058.g2:< A D B )>`, the exterior
+the angle :g:`$ACB$ <0058.g2:< A C B )>` is :eq:`equal <0058.g2:< A C B ) = 0058.g2:< A D B )>` to the angle :g:`$ADB$ <0058.g2:< A D B )>`, the exterior
 to the interior: which is impossible. :just:`[I. 16] <I.16>`
 
 .. _folio-ii-0059:

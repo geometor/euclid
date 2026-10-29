@@ -109,7 +109,7 @@ Let there be also inscribed in the circle :g:`$ABCD$ <0414.g1:( A B C D )>` the 
 
 .. subclause::
 
-   And the sides are proportional about equal angles, namely the angles :g:`$BKL$ <0414.g1:< B K L )>`, :g:`$FMN$ <0414.g1:< F M N )>`;
+   And the sides are proportional about :eq:`equal <0414.g1:< B K L ) = 0414.g1:< F M N )>` angles, namely the angles :g:`$BKL$ <0414.g1:< B K L )>`, :g:`$FMN$ <0414.g1:< F M N )>`;
 
 .. assertion::
 
@@ -117,7 +117,7 @@ Let there be also inscribed in the circle :g:`$ABCD$ <0414.g1:( A B C D )>` the 
 
 .. subclause::
 
-   Again, since, as :g:`$BK$ <0414.g1:/ B K />` is to :g:`$KT$ <0414.g1:/ K T />`, so is :g:`$FM$ <0414.g1:/ F M />` to :g:`$MP$ <0414.g1:/ M P />`, and they are about equal angles, namely the angles :g:`$BKT$ <0414.g1:< B K T )>`, :g:`$FMP$ <0414.g1:< F M P )>`, inasmuch as, whatever part the angle :g:`$BKT$ <0414.g1:< B K T )>` is of the four right angles at the centre :g:`$K$ <0414.g1:K>`, the same part also is the angle :g:`$FMP$ <0414.g1:< F M P )>` of the four right angles at the centre :g:`$M$ <0414.g1:M>`; since then the sides are proportional about equal angles,
+   Again, since, as :g:`$BK$ <0414.g1:/ B K />` is to :g:`$KT$ <0414.g1:/ K T />`, so is :g:`$FM$ <0414.g1:/ F M />` to :g:`$MP$ <0414.g1:/ M P />`, and they are about :eq:`equal <0414.g1:< B K T ) = 0414.g1:< F M P )>` angles, namely the angles :g:`$BKT$ <0414.g1:< B K T )>`, :g:`$FMP$ <0414.g1:< F M P )>`, inasmuch as, whatever part the angle :g:`$BKT$ <0414.g1:< B K T )>` is of the four right angles at the centre :g:`$K$ <0414.g1:K>`, the same part also is the angle :g:`$FMP$ <0414.g1:< F M P )>` of the four right angles at the centre :g:`$M$ <0414.g1:M>`; since then the sides are proportional about :eq:`equal <0414.g1:< B K T ) = 0414.g1:< F M P )>` angles,
 
 .. assertion::
 
@@ -125,7 +125,7 @@ Let there be also inscribed in the circle :g:`$ABCD$ <0414.g1:( A B C D )>` the 
 
 .. subclause::
 
-   Again, since it was proved that, as :g:`$BK$ <0414.g1:/ B K />` is to :g:`$KL$ <0414.g1:/ K L />`, so is :g:`$FM$ <0414.g1:/ F M />` to :g:`$MN$ <0414.g1:/ M N />`, while :g:`$BK$ <0414.g1:/ B K />` is equal to :g:`$KT$ <0414.g1:/ K T />`, and :g:`$FM$ <0414.g1:/ F M />` to :g:`$PM$ <0414.g1:/ P M />`,
+   Again, since it was proved that, as :g:`$BK$ <0414.g1:/ B K />` is to :g:`$KL$ <0414.g1:/ K L />`, so is :g:`$FM$ <0414.g1:/ F M />` to :g:`$MN$ <0414.g1:/ M N />`, while :g:`$BK$ <0414.g1:/ B K />` is :eq:`equal <0414.g1:/ B K / = 0414.g1:/ K T /; 0414.g1:/ F M / = 0414.g1:/ P M />` to :g:`$KT$ <0414.g1:/ K T />`, and :g:`$FM$ <0414.g1:/ F M />` to :g:`$PM$ <0414.g1:/ P M />`,
 
 .. assertion::
 
@@ -133,7 +133,7 @@ Let there be also inscribed in the circle :g:`$ABCD$ <0414.g1:( A B C D )>` the 
 
 .. subclause::
 
-   and the sides are proportional about equal angles, namely the angles :g:`$TKL$ <0414.g1:< T K L )>`, :g:`$PMN$ <0414.g1:< P M N )>`, for they are right;
+   and the sides are proportional about :eq:`equal <0414.g1:< T K L ) = 0414.g1:< P M N )>` angles, namely the angles :g:`$TKL$ <0414.g1:< T K L )>`, :g:`$PMN$ <0414.g1:< P M N )>`, for they are :eq:`right <0414.g1:< T K L ) = 0414.g1:< P M N )>`;
 
 .. assertion::
 

@@ -27,9 +27,9 @@ I say that they do not bisect one another.
 .. picture:: 0017.g1.svg
    :alt: Proposition 4
 
-For, if possible, let them bisect one another, so that :g:`$AE$ <0017.g1:/ A E />` is equal to :g:`$EC$ <0017.g1:/ E C />`, and :g:`$BE$ <0017.g1:/ B E />` to :g:`$ED$ <0017.g1:/ E D />`; let the centre of the circle :g:`$ABCD$ <0017.g1:( A B C D )>` be taken :just:`[III. 1] <III.1>`, and let it be :g:`$F$ <0017.g1:F>`; let :g:`$FE$ <0017.g1:/ F E />` be joined.
+For, if possible, let them :eq:`bisect <0017.g1:/ A E / = 0017.g1:/ E C /; 0017.g1:/ B E / = 0017.g1:/ E D />` one another, so that :g:`$AE$ <0017.g1:/ A E />` is :eq:`equal <0017.g1:/ A E / = 0017.g1:/ E C /; 0017.g1:/ B E / = 0017.g1:/ E D />` to :g:`$EC$ <0017.g1:/ E C />`, and :g:`$BE$ <0017.g1:/ B E />` to :g:`$ED$ <0017.g1:/ E D />`; let the centre of the circle :g:`$ABCD$ <0017.g1:( A B C D )>` be taken :just:`[III. 1] <III.1>`, and let it be :g:`$F$ <0017.g1:F>`; let :g:`$FE$ <0017.g1:/ F E />` be joined.
 
-Then, since a straight line :g:`$FE$ <0017.g1:/ F E />` through the centre bisects a straight line :g:`$AC$ <0017.g1:/ A C />` not through the centre,
+Then, since a straight line :g:`$FE$ <0017.g1:/ F E />` through the centre :eq:`bisects <0017.g1:/ A E / = 0017.g1:/ E C />` a straight line :g:`$AC$ <0017.g1:/ A C />` not through the centre,
 
 .. subclause:: [III. 3] <III.3>
 
@@ -39,7 +39,7 @@ Then, since a straight line :g:`$FE$ <0017.g1:/ F E />` through the centre bisec
 
    therefore the angle :g:`$FEA$ <0017.g1:< F E A )>` is right.
 
-Again, since a straight line :g:`$FE$ <0017.g1:/ F E />` bisects a straight line :g:`$BD$ <0017.g1:/ B D />`,
+Again, since a straight line :g:`$FE$ <0017.g1:/ F E />` :eq:`bisects <0017.g1:/ B E / = 0017.g1:/ E D />` a straight line :g:`$BD$ <0017.g1:/ B D />`,
 
 .. subclause:: [III. 3] <III.3>
 
@@ -54,7 +54,7 @@ Again, since a straight line :g:`$FE$ <0017.g1:/ F E />` bisects a straight line
 .. folio:: 0018
    :page: 12
 
-But the angle :g:`$FEA$ <0017.g1:< F E A )>` was also proved right; therefore the angle :g:`$FEA$ <0017.g1:< F E A )>` is equal to the angle :g:`$FEB$ <0017.g1:< F E B )>`, the less to the greater: which is impossible.
+But the angle :g:`$FEA$ <0017.g1:< F E A )>` was also proved right; therefore the angle :g:`$FEA$ <0017.g1:< F E A )>` is :eq:`equal <0017.g1:< F E A ) = 0017.g1:< F E B )>` to the angle :g:`$FEB$ <0017.g1:< F E B )>`, the less to the greater: which is impossible.
 
 .. assertion::
 

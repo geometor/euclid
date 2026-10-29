@@ -31,7 +31,7 @@ For let there be described on :g:`$BC$ <0363.g1:/ B C />` the square :g:`$BDEC$ 
 
 through :g:`$A$ <0363.g1:A>` let :g:`$AL$ <0363.g1:/ A L />` be drawn parallel to either :g:`$BD$ <0363.g1:/ B D />` or :g:`$CE$ <0363.g1:/ C E />`, and let :g:`$AD$ <0363.g1:/ A D />`, :g:`$FC$ <0363.g1:/ F C />` be joined.
 
-Then, since each of the angles :g:`$BAC$ <0363.g1:< B A C )>`, :g:`$BAG$ <0363.g1:< B A G )>` is right, it follows that with a straight line :g:`$BA$ <0363.g1:/ B A />`, and at the point :g:`$A$ <0363.g1:A>` on it, the two straight lines :g:`$AC$ <0363.g1:/ A C />`, :g:`$AG$ <0363.g1:/ A G />` not lying on the same side make the adjacent angles equal to two right angles;
+Then, since each of the angles :g:`$BAC$ <0363.g1:< B A C )>`, :g:`$BAG$ <0363.g1:< B A G )>` is :eq:`right <0363.g1:< B A C ) = 0363.g1:< B A G )>`, it follows that with a straight line :g:`$BA$ <0363.g1:/ B A />`, and at the point :g:`$A$ <0363.g1:A>` on it, the two straight lines :g:`$AC$ <0363.g1:/ A C />`, :g:`$AG$ <0363.g1:/ A G />` not lying on the same side make the adjacent angles equal to two right angles;
 
 .. assertion:: [I. 14] <I.14>
 
@@ -41,26 +41,26 @@ Then, since each of the angles :g:`$BAC$ <0363.g1:< B A C )>`, :g:`$BAG$ <0363.g
 
    For the same reason :g:`$BA$ <0363.g1:/ B A />` is also in a straight line with :g:`$AH$ <0363.g1:/ A H />`.
 
-And, since the angle :g:`$DBC$ <0363.g1:< D B C )>` is equal to the angle :g:`$FBA$ <0363.g1:< F B A )>`: for each is right: let the angle :g:`$ABC$ <0363.g1:< A B C )>` be added to each;
+And, since the angle :g:`$DBC$ <0363.g1:< D B C )>` is :eq:`equal <0363.g1:< D B C ) = 0363.g1:< F B A )>` to the angle :g:`$FBA$ <0363.g1:< F B A )>`: for each is right: let the angle :g:`$ABC$ <0363.g1:< A B C )>` be added to each;
 
 .. assertion:: [C. N. 2] <I.cn.2>
 
-   therefore the whole angle :g:`$DBA$ <0363.g1:< D B A )>` is equal to the whole angle :g:`$FBC$ <0363.g1:< F B C )>`.
+   therefore the whole angle :g:`$DBA$ <0363.g1:< D B A )>` is :eq:`equal <0363.g1:< D B A ) = 0363.g1:< F B C )>` to the whole angle :g:`$FBC$ <0363.g1:< F B C )>`.
 
 .. _folio-i-0364:
 
 .. folio:: 0364
    :page: 350
 
-And, since :g:`$DB$ <0363.g1:/ D B />` is equal to :g:`$BC$ <0363.g1:/ B C />`, and :g:`$FB$ <0363.g1:/ F B />` to :g:`$BA$ <0363.g1:/ B A />`, the two sides :g:`$AB$ <0363.g1:/ A B />`, :g:`$BD$ <0363.g1:/ B D />`\ [#f3]_ are equal to the two sides :g:`$FB$ <0363.g1:/ F B />`, :g:`$BC$ <0363.g1:/ B C />` respectively, and the angle :g:`$ABD$ <0363.g1:< A B D )>` is equal to the angle :g:`$FBC$ <0363.g1:< F B C )>`;
+And, since :g:`$DB$ <0363.g1:/ D B />` is :eq:`equal <0363.g1:/ D B / = 0363.g1:/ B C /; 0363.g1:/ F B / = 0363.g1:/ B A />` to :g:`$BC$ <0363.g1:/ B C />`, and :g:`$FB$ <0363.g1:/ F B />` to :g:`$BA$ <0363.g1:/ B A />`, the two sides :g:`$AB$ <0363.g1:/ A B />`, :g:`$BD$ <0363.g1:/ B D />`\ [#f3]_ are :eq:`equal <0363.g1:/ A B / = 0363.g1:/ F B /; 0363.g1:/ B D / = 0363.g1:/ B C />` to the two sides :g:`$FB$ <0363.g1:/ F B />`, :g:`$BC$ <0363.g1:/ B C />` respectively, and the angle :g:`$ABD$ <0363.g1:< A B D )>` is :eq:`equal <0363.g1:< A B D ) = 0363.g1:< F B C )>` to the angle :g:`$FBC$ <0363.g1:< F B C )>`;
 
 .. subclause::
 
-   therefore the base :g:`$AD$ <0363.g1:/ A D />` is equal to the base :g:`$FC$ <0363.g1:/ F C />`,
+   therefore the base :g:`$AD$ <0363.g1:/ A D />` is :eq:`equal <0363.g1:/ A D / = 0363.g1:/ F C />` to the base :g:`$FC$ <0363.g1:/ F C />`,
 
 .. assertion:: [I. 4] <I.4>
 
-   and the triangle :g:`$ABD$ <0363.g1:< A B D >>` is equal to the triangle :g:`$FBC$ <0363.g1:< F B C >>`.
+   and the triangle :g:`$ABD$ <0363.g1:< A B D >>` is :eq:`equal <0363.g1:< A B D > = 0363.g1:< F B C >>` to the triangle :g:`$FBC$ <0363.g1:< F B C >>`.
 
 Now the parallelogram :g:`$BL$ <0363.g1:< B L >>` is double of the triangle :g:`$ABD$ <0363.g1:< A B D >>`, for they have the same base :g:`$BD$ <0363.g1:/ B D />` and are in the same parallels :g:`$BD$ <0363.g1:/ B D />`, :g:`$AL$ <0363.g1:/ A L />`. :just:`[I. 41] <I.41>`
 
@@ -70,9 +70,9 @@ And the square :g:`$GB$ <0363.g1:< G B >>` is double of the triangle :g:`$FBC$ <
 
 .. assertion::
 
-   Therefore the parallelogram :g:`$BL$ <0363.g1:< B L >>` is also equal to the square :g:`$GB$ <0363.g1:< G B >>`.
+   Therefore the parallelogram :g:`$BL$ <0363.g1:< B L >>` is also :eq:`equal <0363.g1:< B L > = 0363.g1:< G B >>` to the square :g:`$GB$ <0363.g1:< G B >>`.
 
-Similarly, if :g:`$AE$ <0363.g1:/ A E />`, :g:`$BK$ <0363.g1:/ B K />` be joined, the parallelogram :g:`$CL$ <0363.g1:< C L >>` can also be proved equal to the square :g:`$HC$ <0363.g1:< H C >>`;
+Similarly, if :g:`$AE$ <0363.g1:/ A E />`, :g:`$BK$ <0363.g1:/ B K />` be joined, the parallelogram :g:`$CL$ <0363.g1:< C L >>` can also be proved :eq:`equal <0363.g1:< C L > = 0363.g1:< H C >>` to the square :g:`$HC$ <0363.g1:< H C >>`;
 
 .. assertion::
 
@@ -92,7 +92,7 @@ And the square :g:`$BDEC$ <0363.g1:< B D E C >>` is described on :g:`$BC$ <0363.
 
 .. [#f2] **subtending the right angle.** Here ὑποτεινούσης, “subtending,” is used with the simple accusative (τὴν ὀρθὴν :term:`γωνίαν <angle>`) instead of being followed by ὑπό and the accusative, which seems to be the original and more orthodox construction. Cf. I. 18, note.
 
-.. [#f3] **the two sides AB, BD....** :person:`Euclid <euclid>` actually writes “:g:`$DB$ <0363.g1:/ D B />`, :g:`$BA$ <0363.g1:/ B A />`,” and therefore the equal sides in the two triangles are not mentioned in corresponding order, though he adheres to the words ἑκατέρα ἑκατέρα “respectively.” Here :g:`$DB$ <0363.g1:/ D B />` is equal to :g:`$BC$ <0363.g1:/ B C />` and :g:`$BA$ <0363.g1:/ B A />` to :g:`$FB$ <0363.g1:/ F B />`.
+.. [#f3] **the two sides AB, BD....** :person:`Euclid <euclid>` actually writes “:g:`$DB$ <0363.g1:/ D B />`, :g:`$BA$ <0363.g1:/ B A />`,” and therefore the equal sides in the two triangles are not mentioned in corresponding order, though he adheres to the words ἑκατέρα ἑκατέρα “respectively.” Here :g:`$DB$ <0363.g1:/ D B />` is :eq:`equal <0363.g1:/ D B / = 0363.g1:/ B C /; 0363.g1:/ B A / = 0363.g1:/ F B />` to :g:`$BC$ <0363.g1:/ B C />` and :g:`$BA$ <0363.g1:/ B A />` to :g:`$FB$ <0363.g1:/ F B />`.
 
 .. [#f4] **[But the doubles of equals are equal to one another.]** :person:`Heiberg <heiberg>` brackets these words as an interpolation, since it quotes a Common Notion which is itself interpolated. Cf. notes on I. 37, p. 332, and on interpolated Common Notions, pp. 223–4.
 

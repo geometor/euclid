@@ -21,15 +21,15 @@ We will denote a pyramid with vertex :g:`$D$ <0382.g1:D>` and base :g:`$ABC$ <03
 
 The following are the steps of the proof.
 
-I. To prove pyramid :g:`$H(AEG)$ <0382.g1:< H A E G >>` equal and similar to pyramid :g:`$D(HKL)$ <0382.g1:< D H K L >>`.
+I. To prove pyramid :g:`$H(AEG)$ <0382.g1:< H A E G >>` :eq:`equal <0382.g1:< H A E G > = 0382.g1:< D H K L >>` and similar to pyramid :g:`$D(HKL)$ <0382.g1:< D H K L >>`.
 
-Since sides of $\triangle$ :g:`$DAB$ <0382.g1:< D A B >>` are bisected at :g:`$H$ <0382.g1:H>`, :g:`$E$ <0382.g1:E>`, :g:`$K$ <0382.g1:K>`,
+Since sides of $\triangle$ :g:`$DAB$ <0382.g1:< D A B >>` are :eq:`bisected <0382.g1:/ A H / = 0382.g1:/ H D /; 0382.g1:/ A E / = 0382.g1:/ E B /; 0382.g1:/ D K / = 0382.g1:/ K B />` at :g:`$H$ <0382.g1:H>`, :g:`$E$ <0382.g1:E>`, :g:`$K$ <0382.g1:K>`,
 :g:`$HE$ <0382.g1:/ H E />` $\parallel$ :g:`$DB$ <0382.g1:/ D B />`, and :g:`$HK$ <0382.g1:/ H K />` $\parallel$ :g:`$AB$ <0382.g1:/ A B />`.
 Hence
 :g:`$HK$ <0382.g1:/ H K />` $=$ :g:`$EB$ <0382.g1:/ E B />` $=$ :g:`$EA$ <0382.g1:/ E A />`,
 :g:`$HE$ <0382.g1:/ H E />` $=$ :g:`$KB$ <0382.g1:/ K B />` $=$ :g:`$DK$ <0382.g1:/ D K />`.
-Therefore (1) $\triangle\text{s}$ :g:`$HAE$ <0382.g1:< H A E >>`, :g:`$DHK$ <0382.g1:< D H K >>` are equal and similar.
-Similarly (2) $\triangle\text{s}$ :g:`$HAG$ <0382.g1:< H A G >>`, :g:`$DHL$ <0382.g1:< D H L >>` are equal and similar.
+Therefore (1) $\triangle\text{s}$ :g:`$HAE$ <0382.g1:< H A E >>`, :g:`$DHK$ <0382.g1:< D H K >>` are :eq:`equal <0382.g1:< H A E > = 0382.g1:< D H K >>` and similar.
+Similarly (2) $\triangle\text{s}$ :g:`$HAG$ <0382.g1:< H A G >>`, :g:`$DHL$ <0382.g1:< D H L >>` are :eq:`equal <0382.g1:< H A G > = 0382.g1:< D H L >>` and similar.
 Again, :g:`$LH$ <0382.g1:/ L H />`, :g:`$HK$ <0382.g1:/ H K />` are respectively $\parallel$ to :g:`$GA$ <0382.g1:/ G A />`, :g:`$AE$ <0382.g1:/ A E />` in a different plane;
 therefore
 $\angle$ :g:`$GAE$ <0382.g1:< G A E )>` $= \angle$ :g:`$LHK$ <0382.g1:< L H K )>`.
@@ -39,10 +39,10 @@ $\angle$ :g:`$GAE$ <0382.g1:< G A E )>` $= \angle$ :g:`$LHK$ <0382.g1:< L H K )>
 .. folio:: 0386
    :page: 382
 
-And :g:`$LH$ <0382.g1:/ L H />`, :g:`$HK$ <0382.g1:/ H K />` are respectively equal to :g:`$GA$ <0382.g1:/ G A />`, :g:`$AE$ <0382.g1:/ A E />`.
-Therefore (3) $\triangle\text{s}$ :g:`$GAE$ <0382.g1:< G A E >>`, :g:`$LHK$ <0382.g1:< L H K >>` are equal and similar.
-Similarly (4) $\triangle\text{s}$ :g:`$HGE$ <0382.g1:< H G E >>`, :g:`$DLK$ <0382.g1:< D L K >>` are equal and similar.
-Therefore [XI. Def. 10] the pyramids :g:`$H(AEG)$ <0382.g1:< H A E G >>` and :g:`$D(HKL)$ <0382.g1:< D H K L >>` are equal and similar.
+And :g:`$LH$ <0382.g1:/ L H />`, :g:`$HK$ <0382.g1:/ H K />` are respectively :eq:`equal <0382.g1:/ L H / = 0382.g1:/ G A /; 0382.g1:/ H K / = 0382.g1:/ A E />` to :g:`$GA$ <0382.g1:/ G A />`, :g:`$AE$ <0382.g1:/ A E />`.
+Therefore (3) $\triangle\text{s}$ :g:`$GAE$ <0382.g1:< G A E >>`, :g:`$LHK$ <0382.g1:< L H K >>` are :eq:`equal <0382.g1:< G A E > = 0382.g1:< L H K >>` and similar.
+Similarly (4) $\triangle\text{s}$ :g:`$HGE$ <0382.g1:< H G E >>`, :g:`$DLK$ <0382.g1:< D L K >>` are :eq:`equal <0382.g1:< H G E > = 0382.g1:< D L K >>` and similar.
+Therefore [XI. Def. 10] the pyramids :g:`$H(AEG)$ <0382.g1:< H A E G >>` and :g:`$D(HKL)$ <0382.g1:< D H K L >>` are :eq:`equal <0382.g1:< H A E G > = 0382.g1:< D H K L >>` and similar.
 
 II. To prove the pyramid :g:`$D(HKL)$ <0382.g1:< D H K L >>` similar to the pyramid :g:`$D(ABC)$ <0382.g1:< D A B C >>`.
 (1) The $\triangle\text{s}$ :g:`$DHK$ <0382.g1:< D H K >>`, :g:`$DAB$ <0382.g1:< D A B >>` are equiangular and therefore similar.
@@ -57,10 +57,10 @@ Therefore (4) $\triangle\text{s}$ :g:`$BAC$ <0382.g1:< B A C >>`, :g:`$KHL$ <038
 Consequently the pyramid :g:`$D(ABC)$ <0382.g1:< D A B C >>` is similar to the pyramid :g:`$D(HKL)$ <0382.g1:< D H K L >>`,
 and therefore also to the pyramid :g:`$H(AEG)$ <0382.g1:< H A E G >>`.
 
-III. To prove prism :g:`$(GCF, HLK)$ <0382.g1:< G C F H L K >>` equal to prism :g:`$(HGE, KFB)$ <0382.g1:< H G E K F B >>`.
+III. To prove prism :g:`$(GCF, HLK)$ <0382.g1:< G C F H L K >>` :eq:`equal <0382.g1:< G C F H L K > = 0382.g1:< H G E K F B >>` to prism :g:`$(HGE, KFB)$ <0382.g1:< H G E K F B >>`.
 
 The prisms may be regarded as having the same _height_ (the distance between the planes :g:`$HKL$ <0382.g1:< H K L >>`, :g:`$ABC$ <0382.g1:< A B C >>`) and having for bases (1) the $\triangle$ :g:`$CGF$ <0382.g1:< C G F >>` and (2) the $\square$ :g:`$EBFG$ <0382.g1:< E B F G >>`, which is the double of the $\triangle$ :g:`$CGF$ <0382.g1:< C G F >>`.
-Therefore, by XI. 39, the prisms are equal.
+Therefore, by XI. 39, the prisms are :eq:`equal <0382.g1:< G C F H L K > = 0382.g1:< H G E K F B >>`.
 
 IV. To prove the prisms greater than the small pyramids.
 

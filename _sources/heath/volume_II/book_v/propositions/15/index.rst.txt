@@ -29,9 +29,9 @@ I say that, as :g:`$C$ <0169.g1:C>` is to :g:`$F$ <0169.g1:F>`, so is :g:`$AB$ <
 
 For, since :g:`$AB$ <0169.g1:/ A B />` is the same multiple of :g:`$C$ <0169.g1:C>` that :g:`$DE$ <0169.g1:/ D E />` is of :g:`$F$ <0169.g1:F>`, as many magnitudes as there are in :g:`$AB$ <0169.g1:/ A B />` equal to :g:`$C$ <0169.g1:C>`, so many are there also in :g:`$DE$ <0169.g1:/ D E />` equal to :g:`$F$ <0169.g1:F>`.
 
-Let :g:`$AB$ <0169.g1:/ A B />` be divided into the magnitudes :g:`$AG$ <0169.g1:/ A G />`, :g:`$GH$ <0169.g1:/ G H />`, :g:`$HB$ <0169.g1:/ H B />` equal to :g:`$C$ <0169.g1:C>`, and :g:`$DE$ <0169.g1:/ D E />` into the magnitudes :g:`$DK$ <0169.g1:/ D K />`, :g:`$KL$ <0169.g1:/ K L />`, :g:`$LE$ <0169.g1:/ L E />` equal to :g:`$F$ <0169.g1:F>` ; then the multitude of the magnitudes :g:`$AG$ <0169.g1:/ A G />`, :g:`$GH$ <0169.g1:/ G H />`, :g:`$HB$ <0169.g1:/ H B />` will be equal to the multitude of the magnitudes :g:`$DK$ <0169.g1:/ D K />`, :g:`$KL$ <0169.g1:/ K L />`, :g:`$LE$ <0169.g1:/ L E />`.
+Let :g:`$AB$ <0169.g1:/ A B />` be divided into the magnitudes :g:`$AG$ <0169.g1:/ A G />`, :g:`$GH$ <0169.g1:/ G H />`, :g:`$HB$ <0169.g1:/ H B />` :eq:`equal <0169.g1:/ A G / = 0169.g1:/ G H / = 0169.g1:/ H B / = 0169.g1:C>` to :g:`$C$ <0169.g1:C>`, and :g:`$DE$ <0169.g1:/ D E />` into the magnitudes :g:`$DK$ <0169.g1:/ D K />`, :g:`$KL$ <0169.g1:/ K L />`, :g:`$LE$ <0169.g1:/ L E />` :eq:`equal <0169.g1:/ D K / = 0169.g1:/ K L / = 0169.g1:/ L E / = 0169.g1:F>` to :g:`$F$ <0169.g1:F>` ; then the multitude of the magnitudes :g:`$AG$ <0169.g1:/ A G />`, :g:`$GH$ <0169.g1:/ G H />`, :g:`$HB$ <0169.g1:/ H B />` will be equal to the multitude of the magnitudes :g:`$DK$ <0169.g1:/ D K />`, :g:`$KL$ <0169.g1:/ K L />`, :g:`$LE$ <0169.g1:/ L E />`.
 
-And, since :g:`$AG$ <0169.g1:/ A G />`, :g:`$GH$ <0169.g1:/ G H />`, :g:`$HB$ <0169.g1:/ H B />` are equal to one another, and :g:`$DK$ <0169.g1:/ D K />`, :g:`$KL$ <0169.g1:/ K L />`, :g:`$LE$ <0169.g1:/ L E />` are also equal to one another,
+And, since :g:`$AG$ <0169.g1:/ A G />`, :g:`$GH$ <0169.g1:/ G H />`, :g:`$HB$ <0169.g1:/ H B />` are :eq:`equal <0169.g1:/ A G / = 0169.g1:/ G H / = 0169.g1:/ H B />` to one another, and :g:`$DK$ <0169.g1:/ D K />`, :g:`$KL$ <0169.g1:/ K L />`, :g:`$LE$ <0169.g1:/ L E />` are also :eq:`equal <0169.g1:/ D K / = 0169.g1:/ K L / = 0169.g1:/ L E />` to one another,
 
 .. assertion:: [V. 7] <V.7>
 
@@ -48,7 +48,7 @@ Therefore, as one of the antecedents is to one of the consequents, so will all t
 .. folio:: 0170
    :page: 164
 
-But :g:`$AG$ <0169.g1:/ A G />` is equal to :g:`$C$ <0169.g1:C>` and :g:`$DK$ <0169.g1:/ D K />` to :g:`$F$ <0169.g1:F>` ;
+But :g:`$AG$ <0169.g1:/ A G />` is :eq:`equal <0169.g1:/ A G / = 0169.g1:C; 0169.g1:/ D K / = 0169.g1:F>` to :g:`$C$ <0169.g1:C>` and :g:`$DK$ <0169.g1:/ D K />` to :g:`$F$ <0169.g1:F>` ;
 
 .. assertion::
 

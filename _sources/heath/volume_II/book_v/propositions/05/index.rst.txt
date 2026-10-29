@@ -43,7 +43,7 @@ But, by the assumption, :g:`$AE$ <0151.g1:/ A E />` is the same multiple of :g:`
 
 .. assertion::
 
-   therefore :g:`$GF$ <0151.g1:/ G F />` is equal to :g:`$CD$ <0151.g1:/ C D />`.
+   therefore :g:`$GF$ <0151.g1:/ G F />` is :eq:`equal <0151.g1:/ G F / = 0151.g1:/ C D />` to :g:`$CD$ <0151.g1:/ C D />`.
 
 .. subclause::
 
@@ -51,7 +51,7 @@ But, by the assumption, :g:`$AE$ <0151.g1:/ A E />` is the same multiple of :g:`
 
 .. assertion::
 
-   therefore the remainder :g:`$GC$ <0151.g1:/ C G />` is equal to the remainder :g:`$FD$ <0151.g1:/ F D />`.
+   therefore the remainder :g:`$GC$ <0151.g1:/ C G />` is :eq:`equal <0151.g1:/ C G / = 0151.g1:/ F D />` to the remainder :g:`$FD$ <0151.g1:/ F D />`.
 
 .. _folio-ii-0152:
 
@@ -62,7 +62,7 @@ And, since :g:`$AE$ <0151.g1:/ A E />` is the same multiple of :g:`$CF$ <0151.g1
 
 .. subclause::
 
-   and :g:`$GC$ <0151.g1:/ C G />` is equal to :g:`$DF$ <0151.g1:/ F D />`,
+   and :g:`$GC$ <0151.g1:/ C G />` is :eq:`equal <0151.g1:/ C G / = 0151.g1:/ F D />` to :g:`$DF$ <0151.g1:/ F D />`,
 
 .. assertion::
 

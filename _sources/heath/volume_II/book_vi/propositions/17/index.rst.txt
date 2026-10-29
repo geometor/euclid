@@ -27,13 +27,13 @@ I say that the rectangle contained by :g:`$A$ <0234.g1:A>`, :g:`$C$ <0234.g1:C>`
 .. picture:: 0234.g1.svg
    :alt: Proposition 17
 
-Let :g:`$D$ <0234.g1:D>` be made equal to :g:`$B$ <0234.g1:B>`.
+Let :g:`$D$ <0234.g1:D>` be made :eq:`equal <0234.g1:D = 0234.g1:B>` to :g:`$B$ <0234.g1:B>`.
 
 Then, since, as :g:`$A$ <0234.g1:A>` is to :g:`$B$ <0234.g1:B>`, so is :g:`$B$ <0234.g1:B>` to :g:`$C$ <0234.g1:C>`,
 
 .. subclause::
 
-   and :g:`$B$ <0234.g1:B>` is equal to :g:`$D$ <0234.g1:D>`,
+   and :g:`$B$ <0234.g1:B>` is :eq:`equal <0234.g1:B = 0234.g1:D>` to :g:`$D$ <0234.g1:D>`,
 
 .. assertion::
 
@@ -47,7 +47,7 @@ But, if four straight lines be proportional, the rectangle contained by the extr
 
 .. subclause::
 
-   But the rectangle :g:`$B$ <0234.g1:B>`, :g:`$D$ <0234.g1:D>` is the square on :g:`$B$ <0234.g1:B>`, for :g:`$B$ <0234.g1:B>` is equal to :g:`$D$ <0234.g1:D>`;
+   But the rectangle :g:`$B$ <0234.g1:B>`, :g:`$D$ <0234.g1:D>` is the square on :g:`$B$ <0234.g1:B>`, for :g:`$B$ <0234.g1:B>` is :eq:`equal <0234.g1:B = 0234.g1:D>` to :g:`$D$ <0234.g1:D>`;
 
 .. assertion::
 
@@ -66,7 +66,7 @@ For, with the same construction, since the rectangle :g:`$A$ <0234.g1:A>`, :g:`$
 
 .. subclause::
 
-   while the square on :g:`$B$ <0234.g1:B>` is the rectangle :g:`$B$ <0234.g1:B>`, :g:`$D$ <0234.g1:D>`, for :g:`$B$ <0234.g1:B>` is equal to :g:`$D$ <0234.g1:D>`,
+   while the square on :g:`$B$ <0234.g1:B>` is the rectangle :g:`$B$ <0234.g1:B>`, :g:`$D$ <0234.g1:D>`, for :g:`$B$ <0234.g1:B>` is :eq:`equal <0234.g1:B = 0234.g1:D>` to :g:`$D$ <0234.g1:D>`,
 
 .. assertion::
 
@@ -80,7 +80,7 @@ But, if the rectangle contained by the extremes be equal to that contained by th
 
 .. subclause::
 
-   But :g:`$B$ <0234.g1:B>` is equal to :g:`$D$ <0234.g1:D>`;
+   But :g:`$B$ <0234.g1:B>` is :eq:`equal <0234.g1:B = 0234.g1:D>` to :g:`$D$ <0234.g1:D>`;
 
 .. assertion::
 

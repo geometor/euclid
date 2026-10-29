@@ -31,7 +31,7 @@ For let there be applied to :g:`$DE$ <0136.g1:/ D E />` the rectangle :g:`$DH$ <
 
    therefore the remainder, twice the rectangle :g:`$AC$ <0136.g1:/ A C />`, :g:`$CB$ <0136.g1:/ C B />`, is equal to :g:`$MF$ <0136.g1:< M F >>`.
 
-Let :g:`$MG$ <0136.g1:/ M G />` be bisected at :g:`$N$ <0136.g1:N>`, and let :g:`$NO$ <0136.g1:/ N O />` be drawn parallel [to :g:`$ML$ <0136.g1:/ M L />` or :g:`$GF$ <0136.g1:/ G F />`].
+Let :g:`$MG$ <0136.g1:/ M G />` be :eq:`bisected <0136.g1:/ M N / = 0136.g1:/ N G />` at :g:`$N$ <0136.g1:N>`, and let :g:`$NO$ <0136.g1:/ N O />` be drawn parallel [to :g:`$ML$ <0136.g1:/ M L />` or :g:`$GF$ <0136.g1:/ G F />`].
 
 .. assertion::
 

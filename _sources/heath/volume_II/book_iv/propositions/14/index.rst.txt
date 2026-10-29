@@ -44,25 +44,25 @@ lines :g:`$FB$ <0112.g1:/ F B />`, :g:`$FA$ <0112.g1:/ F A />`, :g:`$FE$ <0112.g
 .. folio:: 0113
    :page: 107
 
-Now, since the angle :g:`$BCD$ <0112.g1:< B C D )>` is equal to the angle :g:`$CDE$ <0112.g1:< C D E )>`,
+Now, since the angle :g:`$BCD$ <0112.g1:< B C D )>` is :eq:`equal <0112.g1:< B C D ) = 0112.g1:< C D E )>` to the angle :g:`$CDE$ <0112.g1:< C D E )>`,
 and the angle :g:`$FCD$ <0112.g1:< F C D )>` is half of the angle :g:`$BCD$ <0112.g1:< B C D )>`,
 and the angle :g:`$CDF$ <0112.g1:< C D F )>` half of the angle :g:`$CDE$ <0112.g1:< C D E )>`,
 
 .. assertion::
 
-   therefore the angle :g:`$FCD$ <0112.g1:< F C D )>` is also equal to the angle :g:`$CDF$ <0112.g1:< C D F )>`,
+   therefore the angle :g:`$FCD$ <0112.g1:< F C D )>` is also :eq:`equal <0112.g1:< F C D ) = 0112.g1:< C D F )>` to the angle :g:`$CDF$ <0112.g1:< C D F )>`,
 
 .. assertion:: [I. 6] <I.6>
 
-   so that the side :g:`$FC$ <0112.g1:/ F C />` is also equal to the side :g:`$FD$ <0112.g1:/ F D />`.
+   so that the side :g:`$FC$ <0112.g1:/ F C />` is also :eq:`equal <0112.g1:/ F C / = 0112.g1:/ F D />` to the side :g:`$FD$ <0112.g1:/ F D />`.
 
 Similarly it can be proved that
-each of the straight lines :g:`$FB$ <0112.g1:/ F B />`, :g:`$FA$ <0112.g1:/ F A />`, :g:`$FE$ <0112.g1:/ F E />` is also equal to each
+each of the straight lines :g:`$FB$ <0112.g1:/ F B />`, :g:`$FA$ <0112.g1:/ F A />`, :g:`$FE$ <0112.g1:/ F E />` is also :eq:`equal <0112.g1:/ F B / = 0112.g1:/ F A / = 0112.g1:/ F E / = 0112.g1:/ F C / = 0112.g1:/ F D />` to each
 of the straight lines :g:`$FC$ <0112.g1:/ F C />`, :g:`$FD$ <0112.g1:/ F D />`;
 
 .. assertion::
 
-   therefore the five straight lines :g:`$FA$ <0112.g1:/ F A />`, :g:`$FB$ <0112.g1:/ F B />`, :g:`$FC$ <0112.g1:/ F C />`, :g:`$FD$ <0112.g1:/ F D />`, :g:`$FE$ <0112.g1:/ F E />` are equal to one another.
+   therefore the five straight lines :g:`$FA$ <0112.g1:/ F A />`, :g:`$FB$ <0112.g1:/ F B />`, :g:`$FC$ <0112.g1:/ F C />`, :g:`$FD$ <0112.g1:/ F D />`, :g:`$FE$ <0112.g1:/ F E />` are :eq:`equal <0112.g1:/ F A / = 0112.g1:/ F B / = 0112.g1:/ F C / = 0112.g1:/ F D / = 0112.g1:/ F E />` to one another.
 
 Therefore the circle described with centre :g:`$F$ <0112.g1:F>` and distance
 one of the straight lines :g:`$FA$ <0112.g1:/ F A />`, :g:`$FB$ <0112.g1:/ F B />`, :g:`$FC$ <0112.g1:/ F C />`, :g:`$FD$ <0112.g1:/ F D />`, :g:`$FE$ <0112.g1:/ F E />` will pass

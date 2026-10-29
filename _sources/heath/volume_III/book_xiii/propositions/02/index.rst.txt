@@ -53,11 +53,11 @@ Let the squares :g:`$AF$ <0447.g1:< A F >>`, :g:`$CG$ <0447.g1:< C G >>` be desc
 
 .. assertion::
 
-   therefore the gnomon :g:`$MNO$ <0447.g1:< M N O >>` is equal to :g:`$CG$ <0447.g1:< C G >>`.
+   therefore the gnomon :g:`$MNO$ <0447.g1:< M N O >>` is :eq:`equal <0447.g1:< M N O > = 0447.g1:< C G >>` to :g:`$CG$ <0447.g1:< C G >>`.
 
 .. subclause::
 
-   And, since :g:`$DC$ <0447.g1:/ D C />` is double of :g:`$CA$ <0447.g1:/ C A />`, while :g:`$DC$ <0447.g1:/ D C />` is equal to :g:`$CK$ <0447.g1:/ C K />`, and :g:`$AC$ <0447.g1:/ A C />` to :g:`$CH$ <0447.g1:/ C H />`,
+   And, since :g:`$DC$ <0447.g1:/ D C />` is double of :g:`$CA$ <0447.g1:/ C A />`, while :g:`$DC$ <0447.g1:/ D C />` is :eq:`equal <0447.g1:/ D C / = 0447.g1:/ C K /; 0447.g1:/ A C / = 0447.g1:/ C H />` to :g:`$CK$ <0447.g1:/ C K />`, and :g:`$AC$ <0447.g1:/ A C />` to :g:`$CH$ <0447.g1:/ C H />`,
 
 .. assertion:: [VI. 1] <VI.1>
 
@@ -78,15 +78,15 @@ Let the squares :g:`$AF$ <0447.g1:< A F >>`, :g:`$CG$ <0447.g1:< C G >>` be desc
 
 .. subclause::
 
-   But the whole gnomon :g:`$MNO$ <0447.g1:< M N O >>` was also proved equal to the whole :g:`$CG$ <0447.g1:< C G >>`;
+   But the whole gnomon :g:`$MNO$ <0447.g1:< M N O >>` was also proved :eq:`equal <0447.g1:< M N O > = 0447.g1:< C G >>` to the whole :g:`$CG$ <0447.g1:< C G >>`;
 
 .. assertion::
 
-   therefore the remainder :g:`$HF$ <0447.g1:< H F >>` is equal to :g:`$BG$ <0447.g1:< B G >>`.
+   therefore the remainder :g:`$HF$ <0447.g1:< H F >>` is :eq:`equal <0447.g1:< H F > = 0447.g1:< B G >>` to :g:`$BG$ <0447.g1:< B G >>`.
 
 .. subclause::
 
-   And :g:`$BG$ <0447.g1:< B G >>` is the rectangle :g:`$CD$ <0447.g1:/ C D />`, :g:`$DB$ <0447.g1:/ D B />`, for :g:`$CD$ <0447.g1:/ C D />` is equal to :g:`$DG$ <0447.g1:/ D G />`; and :g:`$HF$ <0447.g1:< H F >>` is the square on :g:`$CB$ <0447.g1:/ C B />`;
+   And :g:`$BG$ <0447.g1:< B G >>` is the rectangle :g:`$CD$ <0447.g1:/ C D />`, :g:`$DB$ <0447.g1:/ D B />`, for :g:`$CD$ <0447.g1:/ C D />` is :eq:`equal <0447.g1:/ C D / = 0447.g1:/ D G />` to :g:`$DG$ <0447.g1:/ D G />`; and :g:`$HF$ <0447.g1:< H F >>` is the square on :g:`$CB$ <0447.g1:/ C B />`;
 
 .. assertion::
 

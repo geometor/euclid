@@ -20,9 +20,9 @@ PROPOSITION 38.
 
    Triangles which are on equal bases and in the same parallels are equal to one another.
 
-Let :g:`$ABC$ <0347.g1:< A B C >>`, :g:`$DEF$ <0347.g1:< D E F >>` be triangles on equal bases :g:`$BC$ <0347.g1:/ B C />`, :g:`$EF$ <0347.g1:/ E F />` and in the same parallels :g:`$BF$ <0347.g1:/ B F />`, :g:`$AD$ <0347.g1:/ A D />`;
+Let :g:`$ABC$ <0347.g1:< A B C >>`, :g:`$DEF$ <0347.g1:< D E F >>` be triangles on :eq:`equal <0347.g1:/ B C / = 0347.g1:/ E F />` bases :g:`$BC$ <0347.g1:/ B C />`, :g:`$EF$ <0347.g1:/ E F />` and in the same parallels :g:`$BF$ <0347.g1:/ B F />`, :g:`$AD$ <0347.g1:/ A D />`;
 
-I say that the triangle :g:`$ABC$ <0347.g1:< A B C >>` is equal to the triangle :g:`$DEF$ <0347.g1:< D E F >>`.
+I say that the triangle :g:`$ABC$ <0347.g1:< A B C >>` is :eq:`equal <0347.g1:< A B C > = 0347.g1:< D E F >>` to the triangle :g:`$DEF$ <0347.g1:< D E F >>`.
 
 .. picture:: 0347.g1.svg
    :alt: Folio 0347 Figure 1 - Proposition 38
@@ -33,24 +33,24 @@ through :g:`$B$ <0347.g1:B>` let :g:`$BG$ <0347.g1:/ B G />` be drawn parallel t
 
 and through :g:`$F$ <0347.g1:F>` let :g:`$FH$ <0347.g1:/ F H />` be drawn parallel to :g:`$DE$ <0347.g1:/ D E />`.
 
-Then each of the figures :g:`$GBCA$ <0347.g1:< G B C A >>`, :g:`$DEFH$ <0347.g1:< D E F H >>` is a parallelogram; and :g:`$GBCA$ <0347.g1:< G B C A >>` is equal to :g:`$DEFH$ <0347.g1:< D E F H >>`;
+Then each of the figures :g:`$GBCA$ <0347.g1:< G B C A >>`, :g:`$DEFH$ <0347.g1:< D E F H >>` is a parallelogram; and :g:`$GBCA$ <0347.g1:< G B C A >>` is :eq:`equal <0347.g1:< G B C A > = 0347.g1:< D E F H >>` to :g:`$DEFH$ <0347.g1:< D E F H >>`;
 
 .. _folio-i-0348:
 
 .. folio:: 0348
    :page: 334
 
-for they are on equal bases :g:`$BC$ <0347.g1:/ B C />`, :g:`$EF$ <0347.g1:/ E F />` and in the same parallels :g:`$BF$ <0347.g1:/ B F />`, :g:`$GH$ <0347.g1:/ G H />`. :just:`[I. 36] <I.36>`
+for they are on :eq:`equal <0347.g1:/ B C / = 0347.g1:/ E F />` bases :g:`$BC$ <0347.g1:/ B C />`, :g:`$EF$ <0347.g1:/ E F />` and in the same parallels :g:`$BF$ <0347.g1:/ B F />`, :g:`$GH$ <0347.g1:/ G H />`. :just:`[I. 36] <I.36>`
 
-Moreover the triangle :g:`$ABC$ <0347.g1:< A B C >>` is half of the parallelogram :g:`$GBCA$ <0347.g1:< G B C A >>`; for the diameter :g:`$AB$ <0347.g1:/ A B />` bisects it. :just:`[I. 34] <I.34>`
+Moreover the triangle :g:`$ABC$ <0347.g1:< A B C >>` is half of the parallelogram :g:`$GBCA$ <0347.g1:< G B C A >>`; for the diameter :g:`$AB$ <0347.g1:/ A B />` :eq:`bisects <0347.g1:< G A B > = 0347.g1:< A B C >>` it. :just:`[I. 34] <I.34>`
 
-And the triangle :g:`$FED$ <0347.g1:< F E D >>` is half of the parallelogram :g:`$DEFH$ <0347.g1:< D E F H >>`; for the diameter :g:`$DF$ <0347.g1:/ D F />` bisects it. :just:`[I. 34] <I.34>`
+And the triangle :g:`$FED$ <0347.g1:< F E D >>` is half of the parallelogram :g:`$DEFH$ <0347.g1:< D E F H >>`; for the diameter :g:`$DF$ <0347.g1:/ D F />` :eq:`bisects <0347.g1:< D E F > = 0347.g1:< D H F >>` it. :just:`[I. 34] <I.34>`
 
 [But the halves of equal things are equal to one another.]
 
 .. assertion::
 
-   Therefore the triangle :g:`$ABC$ <0347.g1:< A B C >>` is equal to the triangle :g:`$DEF$ <0347.g1:< D E F >>`.
+   Therefore the triangle :g:`$ABC$ <0347.g1:< A B C >>` is :eq:`equal <0347.g1:< A B C > = 0347.g1:< D E F >>` to the triangle :g:`$DEF$ <0347.g1:< D E F >>`.
 
 .. qed::
 

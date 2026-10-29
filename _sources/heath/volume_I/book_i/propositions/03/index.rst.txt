@@ -27,7 +27,7 @@ Let :g:`$AB$ <0260.g1:/ A B />`, :g:`$C$ <0260.g1:C>` be the two given unequal s
 
 Thus it is required to cut off from :g:`$AB$ <0260.g1:/ A B />` the greater a straight line equal to :g:`$C$ <0260.g1:C>` the less.
 
-At the point :g:`$A$ <0260.g1:A>` let :g:`$AD$ <0260.g1:/ A D />` be placed equal to the straight line :g:`$C$ <0260.g1:C>`; :just:`[I. 2] <I.2>`
+At the point :g:`$A$ <0260.g1:A>` let :g:`$AD$ <0260.g1:/ A D />` be placed :eq:`equal <0260.g1:/ A D / = 0260.g1:C>` to the straight line :g:`$C$ <0260.g1:C>`; :just:`[I. 2] <I.2>`
 
 and with centre :g:`$A$ <0260.g1:A>` and distance :g:`$AD$ <0260.g1:/ A D />` let the circle :g:`$DEF$ <0260.g1:( D E F )>` be described. :just:`[Post. 3] <I.post.3>`
 Now, since the point :g:`$A$ <0260.g1:A>` is the centre of the circle :g:`$DEF$ <0260.g1:( D E F )>`,
@@ -39,13 +39,13 @@ Now, since the point :g:`$A$ <0260.g1:A>` is the centre of the circle :g:`$DEF$ 
 
 .. assertion:: [Def. 15] <I.def.15>
 
-   :g:`$AE$ <0260.g1:/ A E />` is equal to :g:`$AD$ <0260.g1:/ A D />`.
+   :g:`$AE$ <0260.g1:/ A E />` is :eq:`equal <0260.g1:/ A E / = 0260.g1:/ A D />` to :g:`$AD$ <0260.g1:/ A D />`.
 
-But :g:`$C$ <0260.g1:C>` is also equal to :g:`$AD$ <0260.g1:/ A D />`.
+But :g:`$C$ <0260.g1:C>` is also :eq:`equal <0260.g1:C = 0260.g1:/ A D />` to :g:`$AD$ <0260.g1:/ A D />`.
 
-Therefore each of the straight lines :g:`$AE$ <0260.g1:/ A E />`, :g:`$C$ <0260.g1:C>` is equal to :g:`$AD$ <0260.g1:/ A D />`; so that :g:`$AE$ <0260.g1:/ A E />` is also equal to :g:`$C$ <0260.g1:C>`. :just:`[C.N. 1] <I.cn.1>`
+Therefore each of the straight lines :g:`$AE$ <0260.g1:/ A E />`, :g:`$C$ <0260.g1:C>` is :eq:`equal <0260.g1:/ A E / = 0260.g1:C = 0260.g1:/ A D />` to :g:`$AD$ <0260.g1:/ A D />`; so that :g:`$AE$ <0260.g1:/ A E />` is also :eq:`equal <0260.g1:/ A E / = 0260.g1:C>` to :g:`$C$ <0260.g1:C>`. :just:`[C.N. 1] <I.cn.1>`
 
-Therefore, given the two straight lines :g:`$AB$ <0260.g1:/ A B />`, :g:`$C$ <0260.g1:C>`, from :g:`$AB$ <0260.g1:/ A B />` the greater :g:`$AE$ <0260.g1:/ A E />` has been cut off equal to :g:`$C$ <0260.g1:C>` the less.
+Therefore, given the two straight lines :g:`$AB$ <0260.g1:/ A B />`, :g:`$C$ <0260.g1:C>`, from :g:`$AB$ <0260.g1:/ A B />` the greater :g:`$AE$ <0260.g1:/ A E />` has been cut off :eq:`equal <0260.g1:/ A E / = 0260.g1:C>` to :g:`$C$ <0260.g1:C>` the less.
 
 .. qed::
 

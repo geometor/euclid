@@ -83,7 +83,7 @@ For let :g:`$A$ <0030.g1:A>` be divided into as many equal parts as there are un
 
 .. assertion:: [V. 9] <V.9>
 
-   therefore :g:`$B$ <0030.g1:B>` is equal to :g:`$F$ <0030.g1:F>`.
+   therefore :g:`$B$ <0030.g1:B>` is :eq:`equal <0030.g1:B = 0030.g1:F>` to :g:`$F$ <0030.g1:F>`.
 
 .. subclause::
 

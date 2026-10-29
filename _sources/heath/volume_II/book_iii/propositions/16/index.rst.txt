@@ -39,8 +39,8 @@ For suppose it does not, but,
 if possible, let it fall within as :g:`$CA$ <0044.g1:/ C A />`,
 and let :g:`$DC$ <0044.g1:/ D C />` be joined.
 
-Since :g:`$DA$ <0044.g1:/ D A />` is equal to :g:`$DC$ <0044.g1:/ D C />`,
-the angle :g:`$DAC$ <0044.g1:< D A C )>` is also equal to
+Since :g:`$DA$ <0044.g1:/ D A />` is :eq:`equal <0044.g1:/ D A / = 0044.g1:/ D C />` to :g:`$DC$ <0044.g1:/ D C />`,
+the angle :g:`$DAC$ <0044.g1:< D A C )>` is also :eq:`equal <0044.g1:< D A C ) = 0044.g1:< A C D )>` to
 the angle :g:`$ACD$ <0044.g1:< A C D )>`. :just:`[I. 5] <I.5>`
 
 But the angle :g:`$DAC$ <0044.g1:< D A C )>` is right;
@@ -81,7 +81,7 @@ Then, since the angle :g:`$AGD$ <0044.g1:< A G D )>` is right,
 
    :g:`$AD$ <0044.g1:/ A D />` is greater than :g:`$DG$ <0044.g1:/ D G />`.
 
-But :g:`$DA$ <0044.g1:/ D A />` is equal to :g:`$DH$ <0044.g1:/ D H />`;
+But :g:`$DA$ <0044.g1:/ D A />` is :eq:`equal <0044.g1:/ D A / = 0044.g1:/ D H />` to :g:`$DH$ <0044.g1:/ D H />`;
 therefore :g:`$DH$ <0044.g1:/ D H />` is greater than :g:`$DG$ <0044.g1:/ D G />`, the less than the
 greater: which is impossible.
 

@@ -29,7 +29,7 @@ PROPOSITION 3.
 
    remaining sides of the triangle, the straight line joined from the vertex to the point of section will bisect the angle of the triangle.
 
-Let :g:`$ABC$ <0202.g1:< A B C >>` be a triangle, and let the angle :g:`$BAC$ <0202.g1:< B A C )>` be bisected by the straight line :g:`$AD$ <0202.g1:/ A D />`;
+Let :g:`$ABC$ <0202.g1:< A B C >>` be a triangle, and let the angle :g:`$BAC$ <0202.g1:< B A C )>` be :eq:`bisected <0202.g1:< B A D ) = 0202.g1:< C A D )>` by the straight line :g:`$AD$ <0202.g1:/ A D />`;
 
 I say that, as :g:`$BD$ <0202.g1:/ B D />` is to :g:`$CD$ <0202.g1:/ C D />`, so is :g:`$BA$ <0202.g1:/ B A />` to :g:`$AC$ <0202.g1:/ A C />`.
 
@@ -42,29 +42,29 @@ Then, since the straight line :g:`$AC$ <0202.g1:/ A C />` falls upon the paralle
 
 .. assertion:: [I. 29] <I.29>
 
-   the angle :g:`$ACE$ <0202.g1:< A C E )>` is equal to the angle :g:`$CAD$ <0202.g1:< C A D )>`.
+   the angle :g:`$ACE$ <0202.g1:< A C E )>` is :eq:`equal <0202.g1:< A C E ) = 0202.g1:< C A D )>` to the angle :g:`$CAD$ <0202.g1:< C A D )>`.
 
-But the angle :g:`$CAD$ <0202.g1:< C A D )>` is by hypothesis equal to the angle :g:`$BAD$ <0202.g1:< B A D )>`;
+But the angle :g:`$CAD$ <0202.g1:< C A D )>` is by hypothesis :eq:`equal <0202.g1:< C A D ) = 0202.g1:< B A D )>` to the angle :g:`$BAD$ <0202.g1:< B A D )>`;
 
 .. assertion::
 
-   therefore the angle :g:`$BAD$ <0202.g1:< B A D )>` is also equal to the angle :g:`$ACE$ <0202.g1:< A C E )>`.
+   therefore the angle :g:`$BAD$ <0202.g1:< B A D )>` is also :eq:`equal <0202.g1:< B A D ) = 0202.g1:< A C E )>` to the angle :g:`$ACE$ <0202.g1:< A C E )>`.
 
 Again, since the straight line :g:`$BAE$ <0202.g1:/ B A E />` falls upon the parallels :g:`$AD$ <0202.g1:/ A D />`, :g:`$EC$ <0202.g1:/ E C />`,
 
 .. assertion::
 
-   the exterior angle :g:`$BAD$ <0202.g1:< B A D )>` is equal to the interior angle :g:`$AEC$ <0202.g1:< A E C )>`. :just:`[I. 29] <I.29>`
+   the exterior angle :g:`$BAD$ <0202.g1:< B A D )>` is :eq:`equal <0202.g1:< B A D ) = 0202.g1:< A E C )>` to the interior angle :g:`$AEC$ <0202.g1:< A E C )>`. :just:`[I. 29] <I.29>`
 
-But the angle :g:`$ACE$ <0202.g1:< A C E )>` was also proved equal to the angle :g:`$BAD$ <0202.g1:< B A D )>`;
+But the angle :g:`$ACE$ <0202.g1:< A C E )>` was also proved :eq:`equal <0202.g1:< A C E ) = 0202.g1:< B A D )>` to the angle :g:`$BAD$ <0202.g1:< B A D )>`;
 
 .. assertion::
 
-   therefore the angle :g:`$ACE$ <0202.g1:< A C E )>` is also equal to the angle :g:`$AEC$ <0202.g1:< A E C )>`,
+   therefore the angle :g:`$ACE$ <0202.g1:< A C E )>` is also :eq:`equal <0202.g1:< A C E ) = 0202.g1:< A E C )>` to the angle :g:`$AEC$ <0202.g1:< A E C )>`,
 
 .. assertion:: [I. 6] <I.6>
 
-   so that the side :g:`$AE$ <0202.g1:/ A E />` is also equal to the side :g:`$AC$ <0202.g1:/ A C />`.
+   so that the side :g:`$AE$ <0202.g1:/ A E />` is also :eq:`equal <0202.g1:/ A E / = 0202.g1:/ A C />` to the side :g:`$AC$ <0202.g1:/ A C />`.
 
 And, since :g:`$AD$ <0202.g1:/ A D />` has been drawn parallel to :g:`$EC$ <0202.g1:/ E C />`, one of the sides of the triangle :g:`$BCE$ <0202.g1:< B C E >>`,
 
@@ -72,7 +72,7 @@ And, since :g:`$AD$ <0202.g1:/ A D />` has been drawn parallel to :g:`$EC$ <0202
 
    therefore, proportionally, as :g:`$BD$ <0202.g1:/ B D />` is to :g:`$DC$ <0202.g1:/ D C />`, so is :g:`$BA$ <0202.g1:/ B A />` to :g:`$AE$ <0202.g1:/ A E />`. :just:`[VI. 2] <VI.2>`
 
-But :g:`$AE$ <0202.g1:/ A E />` is equal to :g:`$AC$ <0202.g1:/ A C />`;
+But :g:`$AE$ <0202.g1:/ A E />` is :eq:`equal <0202.g1:/ A E / = 0202.g1:/ A C />` to :g:`$AC$ <0202.g1:/ A C />`;
 
 .. assertion::
 
@@ -80,7 +80,7 @@ But :g:`$AE$ <0202.g1:/ A E />` is equal to :g:`$AC$ <0202.g1:/ A C />`;
 
 Again, let :g:`$BA$ <0202.g1:/ B A />` be to :g:`$AC$ <0202.g1:/ A C />` as :g:`$BD$ <0202.g1:/ B D />` to :g:`$DC$ <0202.g1:/ D C />`, and let :g:`$AD$ <0202.g1:/ A D />` be joined;
 
-I say that the angle :g:`$BAC$ <0202.g1:< B A C )>` has been bisected by the straight line :g:`$AD$ <0202.g1:/ A D />`.
+I say that the angle :g:`$BAC$ <0202.g1:< B A C )>` has been :eq:`bisected <0202.g1:< B A D ) = 0202.g1:< C A D )>` by the straight line :g:`$AD$ <0202.g1:/ A D />`.
 
 For, with the same construction, since, as :g:`$BD$ <0202.g1:/ B D />` is to :g:`$DC$ <0202.g1:/ D C />`, so is :g:`$BA$ <0202.g1:/ B A />` to :g:`$AC$ <0202.g1:/ A C />`,
 and also, as :g:`$BD$ <0202.g1:/ B D />` is to :g:`$DC$ <0202.g1:/ D C />`, so is :g:`$BA$ <0202.g1:/ B A />` to :g:`$AE$ <0202.g1:/ A E />`: for :g:`$AD$ <0202.g1:/ A D />` has been drawn parallel to :g:`$EC$ <0202.g1:/ E C />`, one of the sides of the triangle :g:`$BCE$ <0202.g1:< B C E >>`: :just:`[VI. 2] <VI.2>`
@@ -96,19 +96,19 @@ and also, as :g:`$BD$ <0202.g1:/ B D />` is to :g:`$DC$ <0202.g1:/ D C />`, so i
 
 .. assertion::
 
-   Therefore :g:`$AC$ <0202.g1:/ A C />` is equal to :g:`$AE$ <0202.g1:/ A E />`, :just:`[V. 9] <V.9>` so that the angle :g:`$AEC$ <0202.g1:< A E C )>` is also equal to the angle :g:`$ACE$ <0202.g1:< A C E )>`. :just:`[I. 5] <I.5>`
+   Therefore :g:`$AC$ <0202.g1:/ A C />` is :eq:`equal <0202.g1:/ A C / = 0202.g1:/ A E />` to :g:`$AE$ <0202.g1:/ A E />`, :just:`[V. 9] <V.9>` so that the angle :g:`$AEC$ <0202.g1:< A E C )>` is also :eq:`equal <0202.g1:< A E C ) = 0202.g1:< A C E )>` to the angle :g:`$ACE$ <0202.g1:< A C E )>`. :just:`[I. 5] <I.5>`
 
-But the angle :g:`$AEC$ <0202.g1:< A E C )>` is equal to the exterior angle :g:`$BAD$ <0202.g1:< B A D )>`, :just:`[I. 29] <I.29>`
+But the angle :g:`$AEC$ <0202.g1:< A E C )>` is :eq:`equal <0202.g1:< A E C ) = 0202.g1:< B A D )>` to the exterior angle :g:`$BAD$ <0202.g1:< B A D )>`, :just:`[I. 29] <I.29>`
 
-and the angle :g:`$ACE$ <0202.g1:< A C E )>` is equal to the alternate angle :g:`$CAD$ <0202.g1:< C A D )>`; :just:`[*id*.]`
-
-.. assertion::
-
-   therefore the angle :g:`$BAD$ <0202.g1:< B A D )>` is also equal to the angle :g:`$CAD$ <0202.g1:< C A D )>`.
+and the angle :g:`$ACE$ <0202.g1:< A C E )>` is :eq:`equal <0202.g1:< A C E ) = 0202.g1:< C A D )>` to the alternate angle :g:`$CAD$ <0202.g1:< C A D )>`; :just:`[*id*.]`
 
 .. assertion::
 
-   Therefore the angle :g:`$BAC$ <0202.g1:< B A C )>` has been bisected by the straight line :g:`$AD$ <0202.g1:/ A D />`.
+   therefore the angle :g:`$BAD$ <0202.g1:< B A D )>` is also :eq:`equal <0202.g1:< B A D ) = 0202.g1:< C A D )>` to the angle :g:`$CAD$ <0202.g1:< C A D )>`.
+
+.. assertion::
+
+   Therefore the angle :g:`$BAC$ <0202.g1:< B A C )>` has been :eq:`bisected <0202.g1:< B A D ) = 0202.g1:< C A D )>` by the straight line :g:`$AD$ <0202.g1:/ A D />`.
 
 .. qed::
 

@@ -27,15 +27,15 @@ Let :g:`$ABC$ <0298.g1:< A B C >>` be a triangle having the angle :g:`$ABC$ <029
 
 I say that the side :g:`$AC$ <0298.g1:/ A C />` is also greater than the side :g:`$AB$ <0298.g1:/ A B />`.
 
-For, if not, :g:`$AC$ <0298.g1:/ A C />` is either equal to :g:`$AB$ <0298.g1:/ A B />` or less.
+For, if not, :g:`$AC$ <0298.g1:/ A C />` is either :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`$AB$ <0298.g1:/ A B />` or less.
 
-Now :g:`$AC$ <0298.g1:/ A C />` is not equal to :g:`$AB$ <0298.g1:/ A B />`; for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been equal to the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 5] <I.5>`
+Now :g:`$AC$ <0298.g1:/ A C />` is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`$AB$ <0298.g1:/ A B />`; for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been :eq:`equal <0298.g1:< A B C ) = 0298.g1:< A C B )>` to the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 5] <I.5>`
 
 but it is not;
 
 .. assertion::
 
-   therefore :g:`$AC$ <0298.g1:/ A C />` is not equal to :g:`$AB$ <0298.g1:/ A B />`.
+   therefore :g:`$AC$ <0298.g1:/ A C />` is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`$AB$ <0298.g1:/ A B />`.
 
 Neither is :g:`$AC$ <0298.g1:/ A C />` less than :g:`$AB$ <0298.g1:/ A B />`, for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been less than the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 18] <I.18>`
 
@@ -45,7 +45,7 @@ but it is not;
 
    therefore :g:`$AC$ <0298.g1:/ A C />` is not less than :g:`$AB$ <0298.g1:/ A B />`.
 
-And it was proved that it is not equal either.
+And it was proved that it is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` either.
 
 .. assertion::
 

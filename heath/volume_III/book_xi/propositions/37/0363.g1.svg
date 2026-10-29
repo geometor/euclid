@@ -5,7 +5,8 @@
       --geom-bg: #ffffff;
       --geom-point-stroke: #ffffff;
       --geom-poly-fill: #000000;
-      --geom-accent: #ef4444;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -13,7 +14,8 @@
         --geom-bg: #1e1e20;
         --geom-point-stroke: #1e1e20;
         --geom-poly-fill: #d6cfc5;
-        --geom-accent: #ef4444;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
       }
     }
     .euclid-graphic {
@@ -82,6 +84,18 @@
       stroke-width: 1.5;
       stroke-linecap: round;
       fill: none;
+    }
+    .geom-tick-mark {
+      stroke: var(--geom-assert);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      fill: none;
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-linecap: round;
     }
     .grid-line {
       stroke: var(--geom-fg);
@@ -180,63 +194,111 @@
       fill: var(--geom-accent) !important;
       stroke: none !important;
     }
+    .geom-assert-active {
+      opacity: 1 !important;
+      stroke: var(--geom-assert) !important;
+    }
+    text.geom-assert-active, text.geom-assert-secondary, text.geom-assert-active *, text.geom-assert-secondary * {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    polygon.geom-assert-active, path.geom-polygon.geom-assert-active, .wedge.angle.geom-assert-active, path.wedge.geom-assert-active, path.angle.geom-assert-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: var(--geom-assert) !important;
+      stroke: var(--geom-assert) !important;
+    }
+    path.geom-ang-arc.geom-assert-active {
+      opacity: 1 !important;
+      fill: none !important;
+      stroke: var(--geom-assert) !important;
+    }
+    circle.geom-point.geom-assert-active, circle.geom-assert-active {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    path.geom-assert-active.geom-tick-1 {
+      marker-mid: url(#geom-tick-1);
+    }
+    path.geom-assert-active.geom-tick-2 {
+      marker-mid: url(#geom-tick-2);
+    }
+    path.geom-assert-active.geom-tick-3 {
+      marker-mid: url(#geom-tick-3);
+    }
   </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+    </marker>
+  </defs>
   <g id="elements">
-    <line id="el-KA-1" x1="55" y1="64" x2="115" y2="64" class="geom-line" />
-    <line id="el-KA-2" x1="115" y1="64" x2="112" y2="106" class="geom-line" />
-    <line id="el-KA-3" x1="112" y1="106" x2="52" y2="106" class="geom-line" />
-    <line id="el-KA-4" x1="52" y1="106" x2="55" y2="64" class="geom-line" />
-    <line id="el-KA-5" x1="68" y1="82" x2="128" y2="82" class="geom-line" />
-    <line id="el-KA-6" x1="128" y1="82" x2="125" y2="124" class="geom-line" />
-    <line id="el-KA-7" x1="65" y1="124" x2="68" y2="82" class="geom-line" />
-    <line id="el-KA-8" x1="55" y1="64" x2="68" y2="82" class="geom-line" />
-    <line id="el-KA-9" x1="115" y1="64" x2="128" y2="82" class="geom-line" />
-    <line id="el-KA-10" x1="112" y1="106" x2="125" y2="124" class="geom-line" />
-    <line id="el-KA-11" x1="52" y1="106" x2="65" y2="124" class="geom-line" />
-    <line id="el-LC-1" x1="166" y1="54" x2="242" y2="54" class="geom-line" />
-    <line id="el-LC-2" x1="242" y1="54" x2="238" y2="104" class="geom-line" />
-    <line id="el-LC-3" x1="238" y1="104" x2="162" y2="104" class="geom-line" />
-    <line id="el-LC-4" x1="162" y1="104" x2="166" y2="54" class="geom-line" />
-    <line id="el-LC-5" x1="182" y1="76" x2="258" y2="76" class="geom-line" />
-    <line id="el-LC-6" x1="258" y1="76" x2="254" y2="126" class="geom-line" />
-    <line id="el-LC-7" x1="178" y1="126" x2="182" y2="76" class="geom-line" />
-    <line id="el-LC-8" x1="166" y1="54" x2="182" y2="76" class="geom-line" />
-    <line id="el-LC-9" x1="242" y1="54" x2="258" y2="76" class="geom-line" />
-    <line id="el-LC-10" x1="238" y1="104" x2="254" y2="126" class="geom-line" />
-    <line id="el-LC-11" x1="162" y1="104" x2="178" y2="126" class="geom-line" />
-    <line id="el-ME-1" x1="282" y1="42" x2="375" y2="42" class="geom-line" />
-    <line id="el-ME-2" x1="375" y1="42" x2="371" y2="102" class="geom-line" />
-    <line id="el-ME-3" x1="371" y1="102" x2="278" y2="102" class="geom-line" />
-    <line id="el-ME-4" x1="278" y1="102" x2="282" y2="42" class="geom-line" />
-    <line id="el-ME-5" x1="302" y1="68" x2="395" y2="68" class="geom-line" />
-    <line id="el-ME-6" x1="395" y1="68" x2="391" y2="128" class="geom-line" />
-    <line id="el-ME-7" x1="298" y1="128" x2="302" y2="68" class="geom-line" />
-    <line id="el-ME-8" x1="282" y1="42" x2="302" y2="68" class="geom-line" />
-    <line id="el-ME-9" x1="375" y1="42" x2="395" y2="68" class="geom-line" />
-    <line id="el-ME-10" x1="371" y1="102" x2="391" y2="128" class="geom-line" />
-    <line id="el-ME-11" x1="278" y1="102" x2="298" y2="128" class="geom-line" />
-    <line id="el-NG-1" x1="402" y1="20" x2="518" y2="20" class="geom-line" />
-    <line id="el-NG-2" x1="518" y1="20" x2="512" y2="96" class="geom-line" />
-    <line id="el-NG-3" x1="512" y1="96" x2="396" y2="96" class="geom-line" />
-    <line id="el-NG-4" x1="396" y1="96" x2="402" y2="20" class="geom-line" />
-    <line id="el-NG-5" x1="426" y1="52" x2="542" y2="52" class="geom-line" />
-    <line id="el-NG-6" x1="542" y1="52" x2="536" y2="128" class="geom-line" />
-    <line id="el-NG-7" x1="420" y1="128" x2="426" y2="52" class="geom-line" />
-    <line id="el-NG-8" x1="402" y1="20" x2="426" y2="52" class="geom-line" />
-    <line id="el-NG-9" x1="518" y1="20" x2="542" y2="52" class="geom-line" />
-    <line id="el-NG-10" x1="512" y1="96" x2="536" y2="128" class="geom-line" />
-    <line id="el-NG-11" x1="396" y1="96" x2="420" y2="128" class="geom-line" />
-    <line id="el-SV-1" x1="440" y1="206" x2="546" y2="206" class="geom-line" />
-    <line id="el-SV-2" x1="546" y1="206" x2="542" y2="276" class="geom-line" />
-    <line id="el-SV-3" x1="542" y1="276" x2="436" y2="276" class="geom-line" />
-    <line id="el-SV-4" x1="436" y1="276" x2="440" y2="206" class="geom-line" />
-    <line id="el-SV-5" x1="462" y1="232" x2="568" y2="232" class="geom-line" />
-    <line id="el-SV-6" x1="568" y1="232" x2="564" y2="302" class="geom-line" />
-    <line id="el-SV-7" x1="458" y1="302" x2="462" y2="232" class="geom-line" />
-    <line id="el-SV-8" x1="440" y1="206" x2="462" y2="232" class="geom-line" />
-    <line id="el-SV-9" x1="546" y1="206" x2="568" y2="232" class="geom-line" />
-    <line id="el-SV-10" x1="542" y1="276" x2="564" y2="302" class="geom-line" />
-    <line id="el-SV-11" x1="436" y1="276" x2="458" y2="302" class="geom-line" />
+    <path id="el-KA-1" class="geom-line" d="M 55 64 L 85 64 L 115 64" />
+    <path id="el-KA-2" class="geom-line" d="M 115 64 L 113.5 85 L 112 106" />
+    <path id="el-KA-3" class="geom-line" d="M 112 106 L 82 106 L 52 106" />
+    <path id="el-KA-4" class="geom-line" d="M 52 106 L 53.5 85 L 55 64" />
+    <path id="el-KA-5" class="geom-line" d="M 68 82 L 98 82 L 128 82" />
+    <path id="el-KA-6" class="geom-line" d="M 128 82 L 126.5 103 L 125 124" />
+    <path id="el-KA-7" class="geom-line" d="M 65 124 L 66.5 103 L 68 82" />
+    <path id="el-KA-8" class="geom-line" d="M 55 64 L 61.5 73 L 68 82" />
+    <path id="el-KA-9" class="geom-line" d="M 115 64 L 121.5 73 L 128 82" />
+    <path id="el-KA-10" class="geom-line" d="M 112 106 L 118.5 115 L 125 124" />
+    <path id="el-KA-11" class="geom-line" d="M 52 106 L 58.5 115 L 65 124" />
+    <path id="el-LC-1" class="geom-line" d="M 166 54 L 204 54 L 242 54" />
+    <path id="el-LC-2" class="geom-line" d="M 242 54 L 240 79 L 238 104" />
+    <path id="el-LC-3" class="geom-line" d="M 238 104 L 200 104 L 162 104" />
+    <path id="el-LC-4" class="geom-line" d="M 162 104 L 164 79 L 166 54" />
+    <path id="el-LC-5" class="geom-line" d="M 182 76 L 220 76 L 258 76" />
+    <path id="el-LC-6" class="geom-line" d="M 258 76 L 256 101 L 254 126" />
+    <path id="el-LC-7" class="geom-line" d="M 178 126 L 180 101 L 182 76" />
+    <path id="el-LC-8" class="geom-line" d="M 166 54 L 174 65 L 182 76" />
+    <path id="el-LC-9" class="geom-line" d="M 242 54 L 250 65 L 258 76" />
+    <path id="el-LC-10" class="geom-line" d="M 238 104 L 246 115 L 254 126" />
+    <path id="el-LC-11" class="geom-line" d="M 162 104 L 170 115 L 178 126" />
+    <path id="el-ME-1" class="geom-line" d="M 282 42 L 328.5 42 L 375 42" />
+    <path id="el-ME-2" class="geom-line" d="M 375 42 L 373 72 L 371 102" />
+    <path id="el-ME-3" class="geom-line" d="M 371 102 L 324.5 102 L 278 102" />
+    <path id="el-ME-4" class="geom-line" d="M 278 102 L 280 72 L 282 42" />
+    <path id="el-ME-5" class="geom-line" d="M 302 68 L 348.5 68 L 395 68" />
+    <path id="el-ME-6" class="geom-line" d="M 395 68 L 393 98 L 391 128" />
+    <path id="el-ME-7" class="geom-line" d="M 298 128 L 300 98 L 302 68" />
+    <path id="el-ME-8" class="geom-line" d="M 282 42 L 292 55 L 302 68" />
+    <path id="el-ME-9" class="geom-line" d="M 375 42 L 385 55 L 395 68" />
+    <path id="el-ME-10" class="geom-line" d="M 371 102 L 381 115 L 391 128" />
+    <path id="el-ME-11" class="geom-line" d="M 278 102 L 288 115 L 298 128" />
+    <path id="el-NG-1" class="geom-line" d="M 402 20 L 460 20 L 518 20" />
+    <path id="el-NG-2" class="geom-line" d="M 518 20 L 515 58 L 512 96" />
+    <path id="el-NG-3" class="geom-line" d="M 512 96 L 454 96 L 396 96" />
+    <path id="el-NG-4" class="geom-line" d="M 396 96 L 399 58 L 402 20" />
+    <path id="el-NG-5" class="geom-line" d="M 426 52 L 484 52 L 542 52" />
+    <path id="el-NG-6" class="geom-line" d="M 542 52 L 539 90 L 536 128" />
+    <path id="el-NG-7" class="geom-line" d="M 420 128 L 423 90 L 426 52" />
+    <path id="el-NG-8" class="geom-line" d="M 402 20 L 414 36 L 426 52" />
+    <path id="el-NG-9" class="geom-line" d="M 518 20 L 530 36 L 542 52" />
+    <path id="el-NG-10" class="geom-line" d="M 512 96 L 524 112 L 536 128" />
+    <path id="el-NG-11" class="geom-line" d="M 396 96 L 408 112 L 420 128" />
+    <path id="el-SV-1" class="geom-line" d="M 440 206 L 493 206 L 546 206" />
+    <path id="el-SV-2" class="geom-line" d="M 546 206 L 544 241 L 542 276" />
+    <path id="el-SV-3" class="geom-line" d="M 542 276 L 489 276 L 436 276" />
+    <path id="el-SV-4" class="geom-line" d="M 436 276 L 438 241 L 440 206" />
+    <path id="el-SV-5" class="geom-line" d="M 462 232 L 515 232 L 568 232" />
+    <path id="el-SV-6" class="geom-line" d="M 568 232 L 566 267 L 564 302" />
+    <path id="el-SV-7" class="geom-line" d="M 458 302 L 460 267 L 462 232" />
+    <path id="el-SV-8" class="geom-line" d="M 440 206 L 451 219 L 462 232" />
+    <path id="el-SV-9" class="geom-line" d="M 546 206 L 557 219 L 568 232" />
+    <path id="el-SV-10" class="geom-line" d="M 542 276 L 553 289 L 564 302" />
+    <path id="el-SV-11" class="geom-line" d="M 436 276 L 447 289 L 458 302" />
   </g>
   <g id="graphics">
     <polygon id="el-sol-KA" data-ref="&lt; K A &gt;" data-aliases="&lt; A K &gt;" data-type="polygon" points="55,64 115,64 128,82 125,124 65,124 52,106" class="geom-polygon" />
@@ -244,15 +306,15 @@
     <polygon id="el-sol-ME" data-ref="&lt; M E &gt;" data-aliases="&lt; E M &gt;" data-type="polygon" points="282,42 375,42 395,68 391,128 298,128 278,102" class="geom-polygon" />
     <polygon id="el-sol-NG" data-ref="&lt; N G &gt;" data-aliases="&lt; G N &gt;" data-type="polygon" points="402,20 518,20 542,52 536,128 420,128 396,96" class="geom-polygon" />
     <polygon id="el-sol-SV" data-ref="&lt; S V &gt;" data-aliases="&lt; V S &gt;" data-type="polygon" points="440,206 546,206 568,232 564,302 458,302 436,276" class="geom-polygon" />
-    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="65" y1="124" x2="125" y2="124" class="geom-line" />
-    <line id="el-seg-CD" data-ref="/ C D /" data-aliases="/ D C /" data-type="segment" x1="178" y1="126" x2="254" y2="126" class="geom-line" />
-    <line id="el-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" data-type="segment" x1="298" y1="128" x2="391" y2="128" class="geom-line" />
-    <line id="el-seg-GH" data-ref="/ G H /" data-aliases="/ H G /" data-type="segment" x1="420" y1="128" x2="536" y2="128" class="geom-line" />
-    <line id="el-seg-ST" data-ref="/ S T /" data-aliases="/ T S /" data-type="segment" x1="458" y1="302" x2="564" y2="302" class="geom-line" />
-    <line id="el-mag-O" data-ref="O" data-aliases="/ O /" data-type="segment" x1="52" y1="168" x2="142" y2="168" class="geom-line" />
-    <line id="el-mag-P" data-ref="P" data-aliases="/ P /" data-type="segment" x1="176" y1="168" x2="308" y2="168" class="geom-line" />
-    <line id="el-mag-Q" data-ref="Q" data-aliases="/ Q /" data-type="segment" x1="232" y1="152" x2="345" y2="152" class="geom-line" />
-    <line id="el-mag-R" data-ref="R" data-aliases="/ R /" data-type="segment" x1="396" y1="152" x2="542" y2="152" class="geom-line" />
+    <path id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" class="geom-line" d="M 65 124 L 95 124 L 125 124" />
+    <path id="el-seg-CD" data-ref="/ C D /" data-aliases="/ D C /" data-type="segment" class="geom-line" d="M 178 126 L 216 126 L 254 126" />
+    <path id="el-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" data-type="segment" class="geom-line" d="M 298 128 L 344.5 128 L 391 128" />
+    <path id="el-seg-GH" data-ref="/ G H /" data-aliases="/ H G /" data-type="segment" class="geom-line" d="M 420 128 L 478 128 L 536 128" />
+    <path id="el-seg-ST" data-ref="/ S T /" data-aliases="/ T S /" data-type="segment" class="geom-line" d="M 458 302 L 511 302 L 564 302" />
+    <path id="el-mag-O" data-ref="O" data-aliases="/ O /" data-type="segment" class="geom-line" d="M 52 168 L 97 168 L 142 168" />
+    <path id="el-mag-P" data-ref="P" data-aliases="/ P /" data-type="segment" class="geom-line" d="M 176 168 L 242 168 L 308 168" />
+    <path id="el-mag-Q" data-ref="Q" data-aliases="/ Q /" data-type="segment" class="geom-line" d="M 232 152 L 288.5 152 L 345 152" />
+    <path id="el-mag-R" data-ref="R" data-aliases="/ R /" data-type="segment" class="geom-line" d="M 396 152 L 469 152 L 542 152" />
   </g>
   <g id="highlights" style="pointer-events: none;">
     <polygon id="hl-sol-KA" data-ref="&lt; K A &gt;" data-aliases="&lt; A K &gt;" points="55,64 115,64 128,82 125,124 65,124 52,106" class="geom-polygon geom-overlay" />
@@ -260,15 +322,15 @@
     <polygon id="hl-sol-ME" data-ref="&lt; M E &gt;" data-aliases="&lt; E M &gt;" points="282,42 375,42 395,68 391,128 298,128 278,102" class="geom-polygon geom-overlay" />
     <polygon id="hl-sol-NG" data-ref="&lt; N G &gt;" data-aliases="&lt; G N &gt;" points="402,20 518,20 542,52 536,128 420,128 396,96" class="geom-polygon geom-overlay" />
     <polygon id="hl-sol-SV" data-ref="&lt; S V &gt;" data-aliases="&lt; V S &gt;" points="440,206 546,206 568,232 564,302 458,302 436,276" class="geom-polygon geom-overlay" />
-    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" x1="65" y1="124" x2="125" y2="124" class="geom-line geom-overlay" />
-    <line id="hl-seg-CD" data-ref="/ C D /" data-aliases="/ D C /" x1="178" y1="126" x2="254" y2="126" class="geom-line geom-overlay" />
-    <line id="hl-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" x1="298" y1="128" x2="391" y2="128" class="geom-line geom-overlay" />
-    <line id="hl-seg-GH" data-ref="/ G H /" data-aliases="/ H G /" x1="420" y1="128" x2="536" y2="128" class="geom-line geom-overlay" />
-    <line id="hl-seg-ST" data-ref="/ S T /" data-aliases="/ T S /" x1="458" y1="302" x2="564" y2="302" class="geom-line geom-overlay" />
-    <line id="hl-mag-O" data-ref="O" data-aliases="/ O /" x1="52" y1="168" x2="142" y2="168" class="geom-line geom-overlay" />
-    <line id="hl-mag-P" data-ref="P" data-aliases="/ P /" x1="176" y1="168" x2="308" y2="168" class="geom-line geom-overlay" />
-    <line id="hl-mag-Q" data-ref="Q" data-aliases="/ Q /" x1="232" y1="152" x2="345" y2="152" class="geom-line geom-overlay" />
-    <line id="hl-mag-R" data-ref="R" data-aliases="/ R /" x1="396" y1="152" x2="542" y2="152" class="geom-line geom-overlay" />
+    <path id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" class="geom-line geom-overlay" d="M 65 124 L 95 124 L 125 124" />
+    <path id="hl-seg-CD" data-ref="/ C D /" data-aliases="/ D C /" class="geom-line geom-overlay" d="M 178 126 L 216 126 L 254 126" />
+    <path id="hl-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" class="geom-line geom-overlay" d="M 298 128 L 344.5 128 L 391 128" />
+    <path id="hl-seg-GH" data-ref="/ G H /" data-aliases="/ H G /" class="geom-line geom-overlay" d="M 420 128 L 478 128 L 536 128" />
+    <path id="hl-seg-ST" data-ref="/ S T /" data-aliases="/ T S /" class="geom-line geom-overlay" d="M 458 302 L 511 302 L 564 302" />
+    <path id="hl-mag-O" data-ref="O" data-aliases="/ O /" class="geom-line geom-overlay" d="M 52 168 L 97 168 L 142 168" />
+    <path id="hl-mag-P" data-ref="P" data-aliases="/ P /" class="geom-line geom-overlay" d="M 176 168 L 242 168 L 308 168" />
+    <path id="hl-mag-Q" data-ref="Q" data-aliases="/ Q /" class="geom-line geom-overlay" d="M 232 152 L 288.5 152 L 345 152" />
+    <path id="hl-mag-R" data-ref="R" data-aliases="/ R /" class="geom-line geom-overlay" d="M 396 152 L 469 152 L 542 152" />
   </g>
   <g id="points">
     <circle id="el-pt-K" data-ref="K" data-type="point" cx="115" cy="64" r="3.2" class="geom-point" />

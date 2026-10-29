@@ -48,7 +48,7 @@ For let the figure of the semicircle be set out, let :g:`$DB$ <0474.g1:/ D B />`
 
 .. subclause::
 
-   And since, as :g:`$AB$ <0474.g1:/ A B />` is to :g:`$BC$ <0474.g1:/ B C />`, so is :g:`$EB$ <0474.g1:< E B >>` to :g:`$BF$ <0474.g1:< B F >>`, :just:`[VI. 1] <VI.1>` and :g:`$EB$ <0474.g1:< E B >>` is the rectangle :g:`$BA$ <0474.g1:/ B A />`, :g:`$AC$ <0474.g1:/ A C />`, for :g:`$EA$ <0474.g1:/ E A />` is equal to :g:`$AC$ <0474.g1:/ A C />`, and :g:`$BF$ <0474.g1:< B F >>` is the rectangle :g:`$AC$ <0474.g1:/ A C />`, :g:`$CB$ <0474.g1:/ C B />`,
+   And since, as :g:`$AB$ <0474.g1:/ A B />` is to :g:`$BC$ <0474.g1:/ B C />`, so is :g:`$EB$ <0474.g1:< E B >>` to :g:`$BF$ <0474.g1:< B F >>`, :just:`[VI. 1] <VI.1>` and :g:`$EB$ <0474.g1:< E B >>` is the rectangle :g:`$BA$ <0474.g1:/ B A />`, :g:`$AC$ <0474.g1:/ A C />`, for :g:`$EA$ <0474.g1:/ E A />` is :eq:`equal <0474.g1:/ E A / = 0474.g1:/ A C />` to :g:`$AC$ <0474.g1:/ A C />`, and :g:`$BF$ <0474.g1:< B F >>` is the rectangle :g:`$AC$ <0474.g1:/ A C />`, :g:`$CB$ <0474.g1:/ C B />`,
 
 .. assertion::
 
@@ -70,7 +70,7 @@ In the figure of the proposition, the semicircle really represents half of a sec
 
 The proof is in three parts, the object of which is to prove
 
-(1) that :g:`$KEFG$ <0472.g1:< K E F G >>` is a tetrahedron with all its edges equal to :g:`$AD$ <0472.g1:/ A D />`,
+(1) that :g:`$KEFG$ <0472.g1:< K E F G >>` is a tetrahedron with all its edges :eq:`equal <0472.g1:/ E F / = 0472.g1:/ F G / = 0472.g1:/ G E / = 0472.g1:/ K E / = 0472.g1:/ K F / = 0472.g1:/ K G / = 0472.g1:/ A D />` to :g:`$AD$ <0472.g1:/ A D />`,
 
 (2) that it is inscribable in a sphere of diameter equal to :g:`$AB$ <0472.g1:/ A B />`,
 
@@ -82,7 +82,7 @@ To prove (1) we have to show
 
 (b) that :g:`$AD$ <0472.g1:/ A D />` $= $ :g:`$EF$ <0472.g1:/ E F />`.
 
-(a) Since :g:`$HE$ <0472.g1:/ H E />` $= $ :g:`$HF$ <0472.g1:/ H F />` $= $ :g:`$HG$ <0472.g1:/ H G />` $= $ :g:`$CD$ <0472.g1:/ C D />`, :g:`$KH$ <0472.g1:/ K H />` $= $ :g:`$AC$ <0472.g1:/ A C />`, and $\angle\text{s}$ :g:`$ACD$ <0472.g1:< A C D )>`, :g:`$KHE$ <0472.g1:< K H E )>`, :g:`$KHF$ <0472.g1:< K H F )>`, :g:`$KHG$ <0472.g1:< K H G )>` are right, $\Delta\text{s}$ :g:`$ACD$ <0472.g1:< A C D >>`, :g:`$KHE$ <0472.g1:< K H E >>`, :g:`$KHF$ <0472.g1:< K H F >>`, :g:`$KHG$ <0472.g1:< K H G >>` are equal in all respects; therefore :g:`$KE$ <0472.g1:/ K E />` $= $ :g:`$KF$ <0472.g1:/ K F />` $= $ :g:`$KG$ <0472.g1:/ K G />` $= $ :g:`$AD$ <0472.g1:/ A D />`.
+(a) Since :g:`$HE$ <0472.g1:/ H E />` $= $ :g:`$HF$ <0472.g1:/ H F />` $= $ :g:`$HG$ <0472.g1:/ H G />` $= $ :g:`$CD$ <0472.g1:/ C D />`, :g:`$KH$ <0472.g1:/ K H />` $= $ :g:`$AC$ <0472.g1:/ A C />`, and $\angle\text{s}$ :g:`$ACD$ <0472.g1:< A C D )>`, :g:`$KHE$ <0472.g1:< K H E )>`, :g:`$KHF$ <0472.g1:< K H F )>`, :g:`$KHG$ <0472.g1:< K H G )>` are :eq:`right <0472.g1:< A C D ) = 0472.g1:< K H E ) = 0472.g1:< K H F ) = 0472.g1:< K H G )>`, $\Delta\text{s}$ :g:`$ACD$ <0472.g1:< A C D >>`, :g:`$KHE$ <0472.g1:< K H E >>`, :g:`$KHF$ <0472.g1:< K H F >>`, :g:`$KHG$ <0472.g1:< K H G >>` are :eq:`equal <0472.g1:< A C D > = 0472.g1:< K H E > = 0472.g1:< K H F > = 0472.g1:< K H G >>` in all respects; therefore :g:`$KE$ <0472.g1:/ K E />` $= $ :g:`$KF$ <0472.g1:/ K F />` $= $ :g:`$KG$ <0472.g1:/ K G />` $= $ :g:`$AD$ <0472.g1:/ A D />`.
 
 (b) Since :g:`$AB$ <0472.g1:/ A B />` $= 3$ :g:`$BC$ <0472.g1:/ B C />`, and :g:`$AB$ <0472.g1:/ A B />` $:$ :g:`$BC$ <0472.g1:/ B C />` $= $ :g:`$AB$ <0472.g1:/ A B />` $\cdot$ :g:`$AC$ <0472.g1:/ A C />` $:$ :g:`$AC$ <0472.g1:/ A C />` $\cdot$ :g:`$CB$ <0472.g1:/ C B />` $= $ :g:`$AD$ <0472.g1:/ A D />` $^2 : $ :g:`$CD$ <0472.g1:/ C D />` $^2$, it follows that :g:`$AD$ <0472.g1:/ A D />` $^2 = 3$ :g:`$CD$ <0472.g1:/ C D />` $^2$. But [XIII. 12] :g:`$EF$ <0472.g1:/ E F />` $^2 = 3$ :g:`$EH$ <0472.g1:/ E H />` $^2$; and :g:`$EH$ <0472.g1:/ E H />` $= $ :g:`$CD$ <0472.g1:/ C D />`, by construction
 
@@ -95,9 +95,9 @@ Therefore :g:`$AD$ <0472.g1:/ A D />` $= $ :g:`$EF$ <0472.g1:/ E F />`. Thus :g:
 
 (2) We now observe the usefulness of Euclid’s description of a sphere [in XI. Def. 14].
 
-Producing :g:`$KH$ <0472.g1:/ K H />` ($= $ :g:`$AC$ <0472.g1:/ A C />`) to :g:`$L$ <0472.g1:L>` so that :g:`$HL$ <0472.g1:/ H L />` $= $ :g:`$CB$ <0472.g1:/ C B />`, we have :g:`$KL$ <0472.g1:/ K L />` equal to :g:`$AB$ <0472.g1:/ A B />`; thus :g:`$KL$ <0472.g1:/ K L />` is a diameter of the sphere which should circumscribe our tetrahedron, and we have only to prove that :g:`$E$ <0472.g1:E>`, :g:`$F$ <0472.g1:F>`, :g:`$G$ <0472.g1:G>` lie on semicircles described on :g:`$KL$ <0472.g1:/ K L />` as diameter.
+Producing :g:`$KH$ <0472.g1:/ K H />` ($= $ :g:`$AC$ <0472.g1:/ A C />`) to :g:`$L$ <0472.g1:L>` so that :g:`$HL$ <0472.g1:/ H L />` $= $ :g:`$CB$ <0472.g1:/ C B />`, we have :g:`$KL$ <0472.g1:/ K L />` :eq:`equal <0472.g1:/ K L / = 0472.g1:/ A B />` to :g:`$AB$ <0472.g1:/ A B />`; thus :g:`$KL$ <0472.g1:/ K L />` is a diameter of the sphere which should circumscribe our tetrahedron, and we have only to prove that :g:`$E$ <0472.g1:E>`, :g:`$F$ <0472.g1:F>`, :g:`$G$ <0472.g1:G>` lie on semicircles described on :g:`$KL$ <0472.g1:/ K L />` as diameter.
 
-E.g. for the point :g:`$E$ <0472.g1:E>`, since :g:`$AC$ <0472.g1:/ A C />` $:$ :g:`$CD$ <0472.g1:/ C D />` $= $ :g:`$CD$ <0472.g1:/ C D />` $:$ :g:`$CB$ <0472.g1:/ C B />`, while :g:`$AC$ <0472.g1:/ A C />` $= $ :g:`$KH$ <0472.g1:/ K H />`, :g:`$CD$ <0472.g1:/ C D />` $= $ :g:`$HE$ <0472.g1:/ H E />`, :g:`$CB$ <0472.g1:/ C B />` $= $ :g:`$HL$ <0472.g1:/ H L />`, we have :g:`$KH$ <0472.g1:/ K H />` $:$ :g:`$HE$ <0472.g1:/ H E />` $= $ :g:`$HE$ <0472.g1:/ H E />` $:$ :g:`$HL$ <0472.g1:/ H L />`, or :g:`$KH$ <0472.g1:/ K H />` $\cdot$ :g:`$HL$ <0472.g1:/ H L />` $= $ :g:`$HE$ <0472.g1:/ H E />` $^2$, whence, the angles :g:`$KHE$ <0472.g1:< K H E )>`, :g:`$EHL$ <0472.g1:< E H L )>` being right, :g:`$EKL$ <0472.g1:< E K L >>` is a triangle right-angled at :g:`$E$ <0472.g1:E>` [cf. VI. 8].
+E.g. for the point :g:`$E$ <0472.g1:E>`, since :g:`$AC$ <0472.g1:/ A C />` $:$ :g:`$CD$ <0472.g1:/ C D />` $= $ :g:`$CD$ <0472.g1:/ C D />` $:$ :g:`$CB$ <0472.g1:/ C B />`, while :g:`$AC$ <0472.g1:/ A C />` $= $ :g:`$KH$ <0472.g1:/ K H />`, :g:`$CD$ <0472.g1:/ C D />` $= $ :g:`$HE$ <0472.g1:/ H E />`, :g:`$CB$ <0472.g1:/ C B />` $= $ :g:`$HL$ <0472.g1:/ H L />`, we have :g:`$KH$ <0472.g1:/ K H />` $:$ :g:`$HE$ <0472.g1:/ H E />` $= $ :g:`$HE$ <0472.g1:/ H E />` $:$ :g:`$HL$ <0472.g1:/ H L />`, or :g:`$KH$ <0472.g1:/ K H />` $\cdot$ :g:`$HL$ <0472.g1:/ H L />` $= $ :g:`$HE$ <0472.g1:/ H E />` $^2$, whence, the angles :g:`$KHE$ <0472.g1:< K H E )>`, :g:`$EHL$ <0472.g1:< E H L )>` being :eq:`right <0472.g1:< K H E ) = 0472.g1:< E H L )>`, :g:`$EKL$ <0472.g1:< E K L >>` is a triangle right-angled at :g:`$E$ <0472.g1:E>` [cf. VI. 8].
 
 Hence :g:`$E$ <0472.g1:E>` lies on a semicircle on :g:`$KL$ <0472.g1:/ K L />` as diameter. Similarly for :g:`$F$ <0472.g1:F>`, :g:`$G$ <0472.g1:G>`. Thus a semicircle on :g:`$KL$ <0472.g1:/ K L />` as diameter revolving round :g:`$KL$ <0472.g1:/ K L />` passes successively through :g:`$E$ <0472.g1:E>`, :g:`$F$ <0472.g1:F>`, :g:`$G$ <0472.g1:G>`.
 
@@ -131,7 +131,7 @@ Through :g:`$A$ <0477.g1:A>` draw :g:`$EF$ <0477.g1:/ E F />` parallel to :g:`$C
 
 Similarly :g:`$GH$ <0477.g1:/ G H />` drawn through :g:`$D$ <0477.g1:D>` parallel to :g:`$AB$ <0477.g1:/ A B />` touches the sphere.
 
-And the plane through :g:`$GH$ <0477.g1:/ G H />`, :g:`$CD$ <0477.g1:/ C D />` makes a circular section equal and parallel to :g:`$AB$ <0477.g1:( A B )>`.
+And the plane through :g:`$GH$ <0477.g1:/ G H />`, :g:`$CD$ <0477.g1:/ C D />` makes a circular section :eq:`equal <0477.g1:( L M ) = 0477.g1:( A B )>` and parallel to :g:`$AB$ <0477.g1:( A B )>`.
 
 Through the centre :g:`$K$ <0477.g1:K>` of that circular section, and in the plane of the section, draw :g:`$LM$ <0477.g1:/ L M />` perpendicular to :g:`$CD$ <0477.g1:/ C D />` and therefore parallel to :g:`$AB$ <0477.g1:/ A B />`. Join :g:`$BL$ <0477.g1:/ B L />`, :g:`$BM$ <0477.g1:/ B M />`.
 

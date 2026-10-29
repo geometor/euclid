@@ -31,7 +31,7 @@ For, since :g:`$AD$ <0121.g1:/ A D />` is a first binomial straight line, let it
 
 It is then manifest that :g:`$AE$ <0121.g1:/ A E />`, :g:`$ED$ <0121.g1:/ E D />` are rational straight lines commensurable in square only, the square on :g:`$AE$ <0121.g1:/ A E />` is greater than the square on :g:`$ED$ <0121.g1:/ E D />` by the square on a straight line commensurable with :g:`$AE$ <0121.g1:/ A E />`, and :g:`$AE$ <0121.g1:/ A E />` is commensurable in length with the rational straight line :g:`$AB$ <0121.g1:/ A B />` set out. :just:`[X. Deff. II. 1]`
 
-Let :g:`$ED$ <0121.g1:/ E D />` be bisected at the point :g:`$F$ <0121.g1:F>`.
+Let :g:`$ED$ <0121.g1:/ E D />` be :eq:`bisected <0121.g1:/ E F / = 0121.g1:/ F D />` at the point :g:`$F$ <0121.g1:F>`.
 
 .. picture:: 0121.g1.svg
    :alt: Proposition 54
@@ -50,7 +50,7 @@ Let then the rectangle :g:`$AG$ <0121.g1:/ A G />`, :g:`$GE$ <0121.g1:/ G E />` 
 
    therefore :g:`$AG$ <0121.g1:/ A G />` is commensurable in length with :g:`$EG$ <0121.g1:/ G E />`.
 
-Let :g:`$GH$ <0121.g1:/ G H />`, :g:`$EK$ <0121.g1:/ E K />`, :g:`$FL$ <0121.g1:/ F L />` be drawn from :g:`$G$ <0121.g1:G>`, :g:`$E$ <0121.g1:E>`, :g:`$F$ <0121.g1:F>` parallel to either of the straight lines :g:`$AB$ <0121.g1:/ A B />`, :g:`$CD$ <0121.g1:/ D C />`; let the square :g:`$SN$ <0121.g1:< S N >>` be constructed equal to the parallelogram :g:`$AH$ <0121.g1:< A H >>`, and the square :g:`$NQ$ <0121.g1:< N Q >>` equal to :g:`$GK$ <0121.g1:< G K >>`, :just:`[II. 14] <II.14>` and let them be placed so that :g:`$MN$ <0121.g1:/ M N />` is in a straight line with :g:`$NO$ <0121.g1:/ N O />`;
+Let :g:`$GH$ <0121.g1:/ G H />`, :g:`$EK$ <0121.g1:/ E K />`, :g:`$FL$ <0121.g1:/ F L />` be drawn from :g:`$G$ <0121.g1:G>`, :g:`$E$ <0121.g1:E>`, :g:`$F$ <0121.g1:F>` parallel to either of the straight lines :g:`$AB$ <0121.g1:/ A B />`, :g:`$CD$ <0121.g1:/ D C />`; let the square :g:`$SN$ <0121.g1:< S N >>` be constructed :eq:`equal <0121.g1:< S N > = 0121.g1:< A H >>` to the parallelogram :g:`$AH$ <0121.g1:< A H >>`, and the square :g:`$NQ$ <0121.g1:< N Q >>` :eq:`equal <0121.g1:< N Q > = 0121.g1:< G K >>` to :g:`$GK$ <0121.g1:< G K >>`, :just:`[II. 14] <II.14>` and let them be placed so that :g:`$MN$ <0121.g1:/ M N />` is in a straight line with :g:`$NO$ <0121.g1:/ N O />`;
 
 .. assertion::
 
@@ -80,7 +80,7 @@ And let the parallelogram :g:`$SQ$ <0121.g1:< S Q >>` be completed;
 
 .. subclause::
 
-   But :g:`$AH$ <0121.g1:< A H >>` is equal to :g:`$SN$ <0121.g1:< S N >>`, and :g:`$GK$ <0121.g1:< G K >>` to :g:`$NQ$ <0121.g1:< N Q >>`;
+   But :g:`$AH$ <0121.g1:< A H >>` is :eq:`equal <0121.g1:< A H > = 0121.g1:< S N >; 0121.g1:< G K > = 0121.g1:< N Q >>` to :g:`$SN$ <0121.g1:< S N >>`, and :g:`$GK$ <0121.g1:< G K >>` to :g:`$NQ$ <0121.g1:< N Q >>`;
 
 .. assertion::
 
@@ -97,19 +97,19 @@ And let the parallelogram :g:`$SQ$ <0121.g1:< S Q >>` be completed;
 
 .. assertion::
 
-   therefore :g:`$EL$ <0121.g1:< E L >>` is equal to :g:`$MR$ <0121.g1:< M R >>`,
+   therefore :g:`$EL$ <0121.g1:< E L >>` is :eq:`equal <0121.g1:< E L > = 0121.g1:< M R >>` to :g:`$MR$ <0121.g1:< M R >>`,
 
 .. assertion::
 
-   so that it is also equal to :g:`$PO$ <0121.g1:< P O >>`.
+   so that it is also :eq:`equal <0121.g1:< E L > = 0121.g1:< P O >>` to :g:`$PO$ <0121.g1:< P O >>`.
 
 .. subclause::
 
-   But :g:`$AH$ <0121.g1:< A H >>`, :g:`$GK$ <0121.g1:< G K >>` are also equal to :g:`$SN$ <0121.g1:< S N >>`, :g:`$NQ$ <0121.g1:< N Q >>`;
+   But :g:`$AH$ <0121.g1:< A H >>`, :g:`$GK$ <0121.g1:< G K >>` are also :eq:`equal <0121.g1:< A H > = 0121.g1:< S N >; 0121.g1:< G K > = 0121.g1:< N Q >>` to :g:`$SN$ <0121.g1:< S N >>`, :g:`$NQ$ <0121.g1:< N Q >>`;
 
 .. assertion::
 
-   therefore the whole :g:`$AC$ <0121.g1:< A C >>` is equal to the whole :g:`$SQ$ <0121.g1:< S Q >>`, that is, to the square on :g:`$MO$ <0121.g1:/ M O />`;
+   therefore the whole :g:`$AC$ <0121.g1:< A C >>` is :eq:`equal <0121.g1:< A C > = 0121.g1:< S Q >>` to the whole :g:`$SQ$ <0121.g1:< S Q >>`, that is, to the square on :g:`$MO$ <0121.g1:/ M O />`;
 
 .. assertion::
 
@@ -147,7 +147,7 @@ I say next that :g:`$MO$ <0121.g1:/ M O />` is binomial.
 
 .. subclause::
 
-   But :g:`$AH$ <0121.g1:< A H >>` is equal to :g:`$SN$ <0121.g1:< S N >>`, and :g:`$GK$ <0121.g1:< G K >>` to :g:`$NQ$ <0121.g1:< N Q >>`;
+   But :g:`$AH$ <0121.g1:< A H >>` is :eq:`equal <0121.g1:< A H > = 0121.g1:< S N >; 0121.g1:< G K > = 0121.g1:< N Q >>` to :g:`$SN$ <0121.g1:< S N >>`, and :g:`$GK$ <0121.g1:< G K >>` to :g:`$NQ$ <0121.g1:< N Q >>`;
 
 .. assertion::
 
@@ -167,7 +167,7 @@ I say next that :g:`$MO$ <0121.g1:/ M O />` is binomial.
 
 .. subclause::
 
-   But :g:`$AH$ <0121.g1:< A H >>` is equal to :g:`$SN$ <0121.g1:< S N >>`, and :g:`$EL$ <0121.g1:< E L >>` to :g:`$MR$ <0121.g1:< M R >>`;
+   But :g:`$AH$ <0121.g1:< A H >>` is :eq:`equal <0121.g1:< A H > = 0121.g1:< S N >; 0121.g1:< E L > = 0121.g1:< M R >>` to :g:`$SN$ <0121.g1:< S N >>`, and :g:`$EL$ <0121.g1:< E L >>` to :g:`$MR$ <0121.g1:< M R >>`;
 
 .. assertion::
 
@@ -183,7 +183,7 @@ I say next that :g:`$MO$ <0121.g1:/ M O />` is binomial.
 
 .. subclause::
 
-   But :g:`$PN$ <0121.g1:/ N P />` is equal to :g:`$MN$ <0121.g1:/ M N />`, and :g:`$NR$ <0121.g1:/ R N />` to :g:`$NO$ <0121.g1:/ N O />`;
+   But :g:`$PN$ <0121.g1:/ N P />` is :eq:`equal <0121.g1:/ N P / = 0121.g1:/ M N /; 0121.g1:/ R N / = 0121.g1:/ N O />` to :g:`$MN$ <0121.g1:/ M N />`, and :g:`$NR$ <0121.g1:/ R N />` to :g:`$NO$ <0121.g1:/ N O />`;
 
 .. assertion::
 

@@ -36,7 +36,7 @@ The present place is suitable for giving certain important propositions, includi
 
 .. enunciation::
 
-   :g:`$AD$ <0229.g1:/ A D />` meeting :g:`$BC$ <0229.g1:/ B C />` (*produced if necessary*) in :g:`$D$ <0229.g1:D>` and :g:`$AE$ <0229.g1:/ A E />` meeting the circle again in :g:`$E$ <0229.g1:E>`, such that the angles :g:`$DAB$ <0229.g1:< D A B )>`, :g:`$EAC$ <0229.g1:< E A C )>` are equal, then the rectangle :g:`$AD$ <0229.g1:/ A D />`, :g:`$AE$ <0229.g1:/ A E />` is equal to the rectangle :g:`$BA$ <0229.g1:/ B A />`, :g:`$AC$ <0229.g1:/ A C />`.
+   :g:`$AD$ <0229.g1:/ A D />` meeting :g:`$BC$ <0229.g1:/ B C />` (*produced if necessary*) in :g:`$D$ <0229.g1:D>` and :g:`$AE$ <0229.g1:/ A E />` meeting the circle again in :g:`$E$ <0229.g1:E>`, such that the angles :g:`$DAB$ <0229.g1:< D A B )>`, :g:`$EAC$ <0229.g1:< E A C )>` are :eq:`equal <0229.g1:< D A B ) = 0229.g1:< E A C )>`, then the rectangle :g:`$AD$ <0229.g1:/ A D />`, :g:`$AE$ <0229.g1:/ A E />` is equal to the rectangle :g:`$BA$ <0229.g1:/ B A />`, :g:`$AC$ <0229.g1:/ A C />`.
 
 .. picture:: 0229.g1.svg
    :alt: Proposition B general theorem (internal)
@@ -46,11 +46,11 @@ The present place is suitable for giving certain important propositions, includi
 
 Join :g:`$CE$ <0229.g1:/ C E />`.
 
-The angles :g:`$BAD$ <0229.g1:< B A D )>`, :g:`$EAC$ <0229.g1:< E A C )>` are equal, by hypothesis; and the angles :g:`$ABD$ <0229.g1:< A B D )>`, :g:`$AEC$ <0229.g1:< A E C )>` are equal. :just:`[III. 21, 22]`
+The angles :g:`$BAD$ <0229.g1:< B A D )>`, :g:`$EAC$ <0229.g1:< E A C )>` are :eq:`equal <0229.g1:< B A D ) = 0229.g1:< E A C )>`, by hypothesis; and the angles :g:`$ABD$ <0229.g1:< A B D )>`, :g:`$AEC$ <0229.g1:< A E C )>` are :eq:`equal <0229.g1:< A B D ) = 0229.g1:< A E C )>`. :just:`[III. 21, 22]`
 
 .. assertion::
 
-   Therefore the triangles :g:`$ABD$ <0229.g1:< A B D >>`, :g:`$AEC$ <0229.g1:< A E C >>` are equiangular.
+   Therefore the triangles :g:`$ABD$ <0229.g1:< A B D >>`, :g:`$AEC$ <0229.g1:< A E C >>` are :eq:`equiangular <0229.g1:< B A D ) = 0229.g1:< E A C ); 0229.g1:< A B D ) = 0229.g1:< A E C )>`.
 
 Hence
 
@@ -98,7 +98,7 @@ In the first case (*a*) we have
 .. folio:: 0230
    :page: 224
 
-The following converse of :person:`Simson <simson>`'s Prop. B may be given: *If a straight line :g:`$AD$ <0230.g1:/ A D />` be drawn from the vertex :g:`$A$ <0230.g1:A>` of a triangle to meet the base, so that the square on :g:`$AD$ <0230.g1:/ A D />` together with the rectangle :g:`$BD$ <0230.g1:/ B D />`, :g:`$DC$ <0230.g1:/ D C />` is equal to the rectangle :g:`$BA$ <0230.g1:/ B A />`, :g:`$AC$ <0230.g1:/ A C />`, the line :g:`$AD$ <0230.g1:/ A D />` will bisect the angle :g:`$BAC$ <0230.g1:< B A C )>` except when the sides :g:`$AB$ <0230.g1:/ A B />`, :g:`$AC$ <0230.g1:/ A C />` are equal, in which case every line drawn to the base will have the property mentioned.*
+The following converse of :person:`Simson <simson>`'s Prop. B may be given: *If a straight line :g:`$AD$ <0230.g1:/ A D />` be drawn from the vertex :g:`$A$ <0230.g1:A>` of a triangle to meet the base, so that the square on :g:`$AD$ <0230.g1:/ A D />` together with the rectangle :g:`$BD$ <0230.g1:/ B D />`, :g:`$DC$ <0230.g1:/ D C />` is equal to the rectangle :g:`$BA$ <0230.g1:/ B A />`, :g:`$AC$ <0230.g1:/ A C />`, the line :g:`$AD$ <0230.g1:/ A D />` will bisect the angle :g:`$BAC$ <0230.g1:< B A C )>` except when the sides :g:`$AB$ <0230.g1:/ A B />`, :g:`$AC$ <0230.g1:/ A C />` are :eq:`equal <0230.g1:/ A B / = 0230.g1:/ A C />`, in which case every line drawn to the base will have the property mentioned.*
 
 Let the circumscribed circle be drawn, and let :g:`$AD$ <0230.g1:/ A D />` produced meet it in :g:`$E$ <0230.g1:E>`; join :g:`$CE$ <0230.g1:/ C E />`.
 
@@ -120,15 +120,15 @@ Hence
 
 .. subclause:: [III. 21] <III.21>
 
-   But the angle :g:`$ABD$ <0230.g1:< A B D )>` is equal to the angle :g:`$AEC$ <0230.g1:< A E C )>`.
+   But the angle :g:`$ABD$ <0230.g1:< A B D )>` is :eq:`equal <0230.g1:< A B D ) = 0230.g1:< A E C )>` to the angle :g:`$AEC$ <0230.g1:< A E C )>`.
 
 .. assertion::
 
-   Therefore the angles :g:`$BDA$ <0230.g1:< B D A )>`, :g:`$ECA$ <0230.g1:< E C A )>` are either equal or supplementary. :just:`[VI. 7 and note]`
+   Therefore the angles :g:`$BDA$ <0230.g1:< B D A )>`, :g:`$ECA$ <0230.g1:< E C A )>` are either :eq:`equal <0230.g1:< B D A ) = 0230.g1:< E C A )>` or supplementary. :just:`[VI. 7 and note]`
 
-(*a*) If they are equal, the angles :g:`$BAD$ <0230.g1:< B A D )>`, :g:`$EAC$ <0230.g1:< E A C )>` are also equal, and :g:`$AD$ <0230.g1:/ A D />` bisects the angle :g:`$BAC$ <0230.g1:< B A C )>`.
+(*a*) If they are :eq:`equal <0230.g1:< B D A ) = 0230.g1:< E C A )>`, the angles :g:`$BAD$ <0230.g1:< B A D )>`, :g:`$EAC$ <0230.g1:< E A C )>` are also :eq:`equal <0230.g1:< B A D ) = 0230.g1:< E A C )>`, and :g:`$AD$ <0230.g1:/ A D />` bisects the angle :g:`$BAC$ <0230.g1:< B A C )>`.
 
-(*b*) If they are supplementary, the angle :g:`$ADC$ <0230.g1:< A D C )>` must be equal to the angle :g:`$ACE$ <0230.g1:< A C E )>`.
+(*b*) If they are supplementary, the angle :g:`$ADC$ <0230.g1:< A D C )>` must be :eq:`equal <0230.g1:< A D C ) = 0230.g1:< A C E )>` to the angle :g:`$ACE$ <0230.g1:< A C E )>`.
 
 Therefore the angles :g:`$BAD$ <0230.g1:< B A D )>`, :g:`$ABD$ <0230.g1:< A B D )>` are together equal to the angles :g:`$ACB$ <0230.g1:< A C B )>`, :g:`$BCE$ <0230.g1:< B C E )>`, i.e. to the angles :g:`$ACD$ <0230.g1:< A C D )>`, :g:`$BAD$ <0230.g1:< B A D )>`.
 
@@ -136,7 +136,7 @@ Take away the common angle :g:`$BAD$ <0230.g1:< B A D )>`, and
 
 .. assertion::
 
-   the angles :g:`$ABD$ <0230.g1:< A B D )>`, :g:`$ACD$ <0230.g1:< A C D )>` are equal, or :g:`$AB$ <0230.g1:/ A B />` is equal to :g:`$AC$ <0230.g1:/ A C />`.
+   the angles :g:`$ABD$ <0230.g1:< A B D )>`, :g:`$ACD$ <0230.g1:< A C D )>` are :eq:`equal <0230.g1:< A B D ) = 0230.g1:< A C D )>`, or :g:`$AB$ <0230.g1:/ A B />` is :eq:`equal <0230.g1:/ A B / = 0230.g1:/ A C />` to :g:`$AC$ <0230.g1:/ A C />`.
 
 .. picture:: 0230.g1.svg
    :alt: Converse of Simson's Prop. B
@@ -171,13 +171,13 @@ Join :g:`$EC$ <0230.g3:/ E C />`.
 .. folio:: 0231
    :page: 225
 
-Since the right angle :g:`$BDA$ <0230.g3:< B D A )>` is equal to the right angle :g:`$ECA$ <0230.g3:< E C A )>` in a semicircle, :just:`[III. 31] <III.31>`
+Since the right angle :g:`$BDA$ <0230.g3:< B D A )>` is :eq:`equal <0230.g3:< B D A ) = 0230.g3:< E C A )>` to the right angle :g:`$ECA$ <0230.g3:< E C A )>` in a semicircle, :just:`[III. 31] <III.31>`
 
-and the angles :g:`$ABD$ <0230.g3:< A B D )>`, :g:`$AEC$ <0230.g3:< A E C )>` in the same segment are equal, :just:`[III. 21] <III.21>`
+and the angles :g:`$ABD$ <0230.g3:< A B D )>`, :g:`$AEC$ <0230.g3:< A E C )>` in the same segment are :eq:`equal <0230.g3:< A B D ) = 0230.g3:< A E C )>`, :just:`[III. 21] <III.21>`
 
 .. assertion::
 
-   the triangles :g:`$ABD$ <0230.g3:< A B D >>`, :g:`$AEC$ <0230.g3:< A E C >>` are equiangular.
+   the triangles :g:`$ABD$ <0230.g3:< A B D >>`, :g:`$AEC$ <0230.g3:< A E C >>` are :eq:`equiangular <0230.g3:< B D A ) = 0230.g3:< E C A ); 0230.g3:< A B D ) = 0230.g3:< A E C )>`.
 
 Therefore,
 
@@ -212,7 +212,7 @@ I shall give the proof in :person:`Ptolemy <ptolemy>`'s words, with the addition
 
 It is to be proved that the rectangle contained by :g:`$AC$ <0231.g2:/ A C />` and :g:`$BD$ <0231.g2:/ B D />` is equal to the sum of the rectangles :g:`$AB$ <0231.g2:/ A B />`, :g:`$DC$ <0231.g2:/ D C />` and :g:`$AD$ <0231.g2:/ A D />`, :g:`$BC$ <0231.g2:/ B C />`.
 
-For let the angle :g:`$ABE$ <0231.g2:< A B E )>` be made equal to the angle contained by :g:`$DB$ <0231.g2:/ D B />`, :g:`$BC$ <0231.g2:/ B C />`.
+For let the angle :g:`$ABE$ <0231.g2:< A B E )>` be made :eq:`equal <0231.g2:< A B E ) = 0231.g2:< D B C )>` to the angle contained by :g:`$DB$ <0231.g2:/ D B />`, :g:`$BC$ <0231.g2:/ B C />`.
 
 .. picture:: 0231.g2.svg
    :alt: Proposition D (Ptolemy's figure)
@@ -224,15 +224,15 @@ If then we add [or subtract] the angle :g:`$EBD$ <0231.g2:< E B D )>`,
 
 .. assertion::
 
-   the angle :g:`$ABD$ <0231.g2:< A B D )>` will also be equal to the angle :g:`$EBC$ <0231.g2:< E B C )>`.
+   the angle :g:`$ABD$ <0231.g2:< A B D )>` will also be :eq:`equal <0231.g2:< A B D ) = 0231.g2:< E B C )>` to the angle :g:`$EBC$ <0231.g2:< E B C )>`.
 
 .. subclause::
 
-   But the angle :g:`$BDA$ <0231.g2:< B D A )>` is also equal to the angle :g:`$BCE$ <0231.g2:< B C E )>`, :just:`[III. 21] <III.21>` for they subtend the same segment;
+   But the angle :g:`$BDA$ <0231.g2:< B D A )>` is also :eq:`equal <0231.g2:< B D A ) = 0231.g2:< B C E )>` to the angle :g:`$BCE$ <0231.g2:< B C E )>`, :just:`[III. 21] <III.21>` for they subtend the same segment;
 
 .. assertion::
 
-   therefore the triangle :g:`$ABD$ <0231.g2:< A B D >>` is equiangular with the triangle :g:`$EBC$ <0231.g2:< E B C >>`.
+   therefore the triangle :g:`$ABD$ <0231.g2:< A B D >>` is :eq:`equiangular <0231.g2:< A B D ) = 0231.g2:< E B C ); 0231.g2:< B D A ) = 0231.g2:< B C E )>` with the triangle :g:`$EBC$ <0231.g2:< E B C >>`.
 
 Hence, proportionally,
 
@@ -244,11 +244,11 @@ Hence, proportionally,
 
    Therefore the rectangle :g:`$BC$ <0231.g2:/ B C />`, :g:`$AD$ <0231.g2:/ A D />` is equal to the rectangle :g:`$BD$ <0231.g2:/ B D />`, :g:`$CE$ <0231.g2:/ C E />`. :just:`[VI. 16] <VI.16>`
 
-Again, since the angle :g:`$ABE$ <0231.g2:< A B E )>` is equal to the angle :g:`$DBC$ <0231.g2:< D B C )>`, and the angle :g:`$BAE$ <0231.g2:< B A E )>` is also equal to the angle :g:`$BDC$ <0231.g2:< B D C )>`, :just:`[III. 21] <III.21>`
+Again, since the angle :g:`$ABE$ <0231.g2:< A B E )>` is :eq:`equal <0231.g2:< A B E ) = 0231.g2:< D B C )>` to the angle :g:`$DBC$ <0231.g2:< D B C )>`, and the angle :g:`$BAE$ <0231.g2:< B A E )>` is also :eq:`equal <0231.g2:< B A E ) = 0231.g2:< B D C )>` to the angle :g:`$BDC$ <0231.g2:< B D C )>`, :just:`[III. 21] <III.21>`
 
 .. assertion::
 
-   the triangle :g:`$ABE$ <0231.g2:< A B E >>` is equiangular with the triangle :g:`$DBC$ <0231.g2:< D B C >>`.
+   the triangle :g:`$ABE$ <0231.g2:< A B E >>` is :eq:`equiangular <0231.g2:< A B E ) = 0231.g2:< D B C ); 0231.g2:< B A E ) = 0231.g2:< B D C )>` with the triangle :g:`$DBC$ <0231.g2:< D B C >>`.
 
 .. _folio-ii-0232:
 
@@ -358,14 +358,14 @@ Lastly, the following proposition may be given which :person:`Playfair <playfair
 
    If the angle :g:`$BAC$ <0233.g1:< B A C )>` of a triangle :g:`$ABC$ <0233.g1:< A B C >>` be bisected by the straight line :g:`$AD$ <0233.g1:/ A D />` meeting the circle circumscribed about the triangle in :g:`$D$ <0233.g1:D>`, and if :g:`$BD$ <0233.g1:/ B D />` be joined, then the sum of :g:`$BA$ <0233.g1:/ B A />`, :g:`$AC$ <0233.g1:/ A C />` is to :g:`$AD$ <0233.g1:/ A D />` as :g:`$BC$ <0233.g1:/ B C />` is to :g:`$BD$ <0233.g1:/ B D />`.
 
-Join :g:`$CD$ <0233.g1:/ C D />`. Then, since :g:`$AD$ <0233.g1:/ A D />` bisects the angle :g:`$BAC$ <0233.g1:< B A C )>`, the subtended arcs :g:`$BD$ <0233.g1:( O B )< B O D >>`, :g:`$DC$ <0233.g1:( O D )< D O C >>`, and therefore the chords :g:`$BD$ <0233.g1:/ B D />`, :g:`$DC$ <0233.g1:/ D C />`, are equal.
+Join :g:`$CD$ <0233.g1:/ C D />`. Then, since :g:`$AD$ <0233.g1:/ A D />` bisects the angle :g:`$BAC$ <0233.g1:< B A C )>`, the subtended arcs :g:`$BD$ <0233.g1:( O B )< B O D >>`, :g:`$DC$ <0233.g1:( O D )< D O C >>`, and therefore the chords :g:`$BD$ <0233.g1:/ B D />`, :g:`$DC$ <0233.g1:/ D C />`, are :eq:`equal <0233.g1:( O B )< B O D > = 0233.g1:( O D )< D O C >; 0233.g1:/ B D / = 0233.g1:/ D C />`.
 
 .. picture:: 0233.g1.svg
    :alt: Proposition E
 
 (1) The result can now be easily deduced from :person:`Ptolemy <ptolemy>`'s theorem.
 
-For the rectangle :g:`$AD$ <0233.g1:/ A D />`, :g:`$BC$ <0233.g1:/ B C />` is equal to the sum of the rectangles :g:`$AB$ <0233.g1:/ A B />`, :g:`$DC$ <0233.g1:/ D C />` and :g:`$AC$ <0233.g1:/ A C />`, :g:`$BD$ <0233.g1:/ B D />`, *i.e.* (since :g:`$BD$ <0233.g1:/ B D />`, :g:`$CD$ <0233.g1:/ C D />` are equal) to the rectangle contained by :g:`$BA$ <0233.g1:/ B A />` + :g:`$AC$ <0233.g1:/ A C />` and :g:`$BD$ <0233.g1:/ B D />`.
+For the rectangle :g:`$AD$ <0233.g1:/ A D />`, :g:`$BC$ <0233.g1:/ B C />` is equal to the sum of the rectangles :g:`$AB$ <0233.g1:/ A B />`, :g:`$DC$ <0233.g1:/ D C />` and :g:`$AC$ <0233.g1:/ A C />`, :g:`$BD$ <0233.g1:/ B D />`, *i.e.* (since :g:`$BD$ <0233.g1:/ B D />`, :g:`$CD$ <0233.g1:/ C D />` are :eq:`equal <0233.g1:/ B D / = 0233.g1:/ C D />`) to the rectangle contained by :g:`$BA$ <0233.g1:/ B A />` + :g:`$AC$ <0233.g1:/ A C />` and :g:`$BD$ <0233.g1:/ B D />`.
 
 .. assertion::
 
@@ -393,11 +393,11 @@ Therefore also
 
    :g:`$BA$ <0233.g1:/ B A />` + :g:`$AC$ <0233.g1:/ A C />` is to :g:`$BC$ <0233.g1:/ B C />` as :g:`$AC$ <0233.g1:/ A C />` to :g:`$CE$ <0233.g1:/ C E />`.
 
-Again, since the angles :g:`$BAD$ <0233.g1:< B A D )>`, :g:`$EAC$ <0233.g1:< E A C )>` are equal, and the angles :g:`$ADB$ <0233.g1:< A D B )>`, :g:`$ACE$ <0233.g1:< A C E )>` are also equal, :just:`[III. 21] <III.21>`
+Again, since the angles :g:`$BAD$ <0233.g1:< B A D )>`, :g:`$EAC$ <0233.g1:< E A C )>` are :eq:`equal <0233.g1:< B A D ) = 0233.g1:< E A C )>`, and the angles :g:`$ADB$ <0233.g1:< A D B )>`, :g:`$ACE$ <0233.g1:< A C E )>` are also :eq:`equal <0233.g1:< A D B ) = 0233.g1:< A C E )>`, :just:`[III. 21] <III.21>`
 
 .. assertion::
 
-   the triangles :g:`$ABD$ <0233.g1:< A B D >>`, :g:`$AEC$ <0233.g1:< A E C >>` are equiangular.
+   the triangles :g:`$ABD$ <0233.g1:< A B D >>`, :g:`$AEC$ <0233.g1:< A E C >>` are :eq:`equiangular <0233.g1:< B A D ) = 0233.g1:< E A C ); 0233.g1:< A D B ) = 0233.g1:< A C E )>`.
 
 Therefore
 

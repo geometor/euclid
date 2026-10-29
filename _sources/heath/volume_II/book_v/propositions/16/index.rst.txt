@@ -59,7 +59,7 @@ But, as :g:`$C$ <0170.g1:C>` is to :g:`$D$ <0170.g1:D>`, so is :g:`$E$ <0170.g1:
 
 .. assertion::
 
-   Therefore, if :g:`$E$ <0170.g1:E>` is in excess of :g:`$G$ <0170.g1:G>`, :g:`$F$ <0170.g1:F>` is also in excess of :g:`$H$ <0170.g1:H>`, if equal, equal, and if less, less.
+   Therefore, if :g:`$E$ <0170.g1:E>` is in excess of :g:`$G$ <0170.g1:G>`, :g:`$F$ <0170.g1:F>` is also in excess of :g:`$H$ <0170.g1:H>`, if :eq:`equal <0170.g1:E = 0170.g1:G>`, :eq:`equal <0170.g1:F = 0170.g1:H>`, and if less, less.
 
 .. _folio-ii-0171:
 

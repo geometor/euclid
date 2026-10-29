@@ -31,7 +31,7 @@ thus it is required to cut off from :g:`$AB$ <0218.g1:/ A B />` a prescribed par
 
 Let the third part be that prescribed.
 
-Let a straight line :g:`$AC$ <0218.g1:/ A C />` be drawn through from :g:`$A$ <0218.g1:A>` containing with :g:`$AB$ <0218.g1:/ A B />` any angle;\ [#f1]_ let a point :g:`$D$ <0218.g1:D>` be taken at random on :g:`$AC$ <0218.g1:/ A C />`, and let :g:`$DE$ <0218.g1:/ D E />`, :g:`$EC$ <0218.g1:/ E C />` be made equal to :g:`$AD$ <0218.g1:/ A D />`. :just:`[I. 3] <I.3>`
+Let a straight line :g:`$AC$ <0218.g1:/ A C />` be drawn through from :g:`$A$ <0218.g1:A>` containing with :g:`$AB$ <0218.g1:/ A B />` any angle;\ [#f1]_ let a point :g:`$D$ <0218.g1:D>` be taken at random on :g:`$AC$ <0218.g1:/ A C />`, and let :g:`$DE$ <0218.g1:/ D E />`, :g:`$EC$ <0218.g1:/ E C />` be made :eq:`equal <0218.g1:/ D E / = 0218.g1:/ E C / = 0218.g1:/ A D />` to :g:`$AD$ <0218.g1:/ A D />`. :just:`[I. 3] <I.3>`
 
 .. picture:: 0218.g1.svg
    :alt: Proposition 9

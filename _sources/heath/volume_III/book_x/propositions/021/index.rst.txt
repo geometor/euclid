@@ -40,7 +40,7 @@ For on :g:`$AB$ <0054.g1:/ A B />` let the square :g:`$AD$ <0054.g1:< A D >>` be
 
 .. subclause::
 
-   And, since :g:`$AB$ <0054.g1:/ A B />` is incommensurable in length with :g:`$BC$ <0054.g1:/ B C />`, for by hypothesis they are commensurable in square only, while :g:`$AB$ <0054.g1:/ A B />` is equal to :g:`$BD$ <0054.g1:/ B D />`,
+   And, since :g:`$AB$ <0054.g1:/ A B />` is incommensurable in length with :g:`$BC$ <0054.g1:/ B C />`, for by hypothesis they are commensurable in square only, while :g:`$AB$ <0054.g1:/ A B />` is :eq:`equal <0054.g1:/ A B / = 0054.g1:/ B D />` to :g:`$BD$ <0054.g1:/ B D />`,
 
 .. assertion::
 

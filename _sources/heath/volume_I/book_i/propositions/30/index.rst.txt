@@ -33,19 +33,19 @@ Then, since the straight line :g:`$GK$ <0328.g1:/ G K />` has fallen on the para
 
 .. assertion:: [I. 29] <I.29>
 
-   the angle :g:`$AGK$ <0328.g1:< A G K )>` is equal to the angle :g:`$GHF$ <0328.g1:< G H F )>`.
+   the angle :g:`$AGK$ <0328.g1:< A G K )>` is :eq:`equal <0328.g1:< A G K ) = 0328.g1:< G H F )>` to the angle :g:`$GHF$ <0328.g1:< G H F )>`.
 
 Again, since the straight line :g:`$GK$ <0328.g1:/ G K />` has fallen on the parallel straight lines :g:`$EF$ <0328.g1:/ E F />`, :g:`$CD$ <0328.g1:/ C D />`,
 
 .. assertion:: [I. 29] <I.29>
 
-   the angle :g:`$GHF$ <0328.g1:< G H F )>` is equal to the angle :g:`$GKD$ <0328.g1:< G K D )>`.
+   the angle :g:`$GHF$ <0328.g1:< G H F )>` is :eq:`equal <0328.g1:< G H F ) = 0328.g1:< G K D )>` to the angle :g:`$GKD$ <0328.g1:< G K D )>`.
 
-But the angle :g:`$AGK$ <0328.g1:< A G K )>` was also proved equal to the angle :g:`$GHF$ <0328.g1:< G H F )>`;
+But the angle :g:`$AGK$ <0328.g1:< A G K )>` was also proved :eq:`equal <0328.g1:< A G K ) = 0328.g1:< G H F )>` to the angle :g:`$GHF$ <0328.g1:< G H F )>`;
 
 .. assertion:: [C. N. 1] <I.cn.1>
 
-   therefore the angle :g:`$AGK$ <0328.g1:< A G K )>` is also equal to the angle :g:`$GKD$ <0328.g1:< G K D )>`;
+   therefore the angle :g:`$AGK$ <0328.g1:< A G K )>` is also :eq:`equal <0328.g1:< A G K ) = 0328.g1:< G K D )>` to the angle :g:`$GKD$ <0328.g1:< G K D )>`;
 
 .. subclause::
 

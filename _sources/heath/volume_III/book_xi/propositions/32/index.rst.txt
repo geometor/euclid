@@ -25,11 +25,11 @@ Let :g:`$AB$ <0345.g1:< A B >>`, :g:`$CD$ <0345.g1:< C D >>` be parallelepipedal
 .. picture:: 0345.g1.svg
    :alt: Book XI, Proposition 32
 
-For let :g:`$FH$ <0345.g1:< F H >>` equal to :g:`$AE$ <0345.g1:< A E >>` be applied to :g:`$FG$ <0345.g1:/ F G />`, :just:`[I. 45] <I.45>` and on :g:`$FH$ <0345.g1:< F H >>` as base, and with the same height as that of :g:`$CD$ <0345.g1:< C D >>`, let the parallelepipedal solid :g:`$GK$ <0345.g1:< G K >>` be completed.
+For let :g:`$FH$ <0345.g1:< F H >>` :eq:`equal <0345.g1:< F H > = 0345.g1:< A E >>` to :g:`$AE$ <0345.g1:< A E >>` be applied to :g:`$FG$ <0345.g1:/ F G />`, :just:`[I. 45] <I.45>` and on :g:`$FH$ <0345.g1:< F H >>` as base, and with the same height as that of :g:`$CD$ <0345.g1:< C D >>`, let the parallelepipedal solid :g:`$GK$ <0345.g1:< G K >>` be completed.
 
 .. assertion::
 
-   Then the solid :g:`$AB$ <0345.g1:< A B >>` is equal to the solid :g:`$GK$ <0345.g1:< G K >>`; for they are on equal bases :g:`$AE$ <0345.g1:< A E >>`, :g:`$FH$ <0345.g1:< F H >>` and of the same height. :just:`[XI. 31] <XI.31>`
+   Then the solid :g:`$AB$ <0345.g1:< A B >>` is :eq:`equal <0345.g1:< A B > = 0345.g1:< G K >>` to the solid :g:`$GK$ <0345.g1:< G K >>`; for they are on :eq:`equal <0345.g1:< A E > = 0345.g1:< F H >>` bases :g:`$AE$ <0345.g1:< A E >>`, :g:`$FH$ <0345.g1:< F H >>` and of the same height. :just:`[XI. 31] <XI.31>`
 
 .. subclause::
 
@@ -41,7 +41,7 @@ For let :g:`$FH$ <0345.g1:< F H >>` equal to :g:`$AE$ <0345.g1:< A E >>` be appl
 
 .. subclause::
 
-   But the base :g:`$FH$ <0345.g1:< F H >>` is equal to the base :g:`$AE$ <0345.g1:< A E >>`, and the solid :g:`$GK$ <0345.g1:< G K >>` to the solid :g:`$AB$ <0345.g1:< A B >>`;
+   But the base :g:`$FH$ <0345.g1:< F H >>` is :eq:`equal <0345.g1:< F H > = 0345.g1:< A E >; 0345.g1:< G K > = 0345.g1:< A B >>` to the base :g:`$AE$ <0345.g1:< A E >>`, and the solid :g:`$GK$ <0345.g1:< G K >>` to the solid :g:`$AB$ <0345.g1:< A B >>`;
 
 .. assertion::
 

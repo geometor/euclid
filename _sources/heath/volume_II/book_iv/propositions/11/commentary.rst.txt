@@ -35,7 +35,7 @@ angles to one another.
 
 Bisect :g:`$OD$ <0108.g1:/ O D />` in :g:`$E$ <0108.g1:E>`.
 
-Draw :g:`$AE$ <0108.g1:/ A E />` and cut off :g:`$EF$ <0108.g1:/ E F />` equal to :g:`$OE$ <0108.g1:/ O E />`.
+Draw :g:`$AE$ <0108.g1:/ A E />` and cut off :g:`$EF$ <0108.g1:/ E F />` :eq:`equal <0108.g1:/ E F / = 0108.g1:/ O E />` to :g:`$OE$ <0108.g1:/ O E />`.
 
 Place round the circle ten chords equal
 to :g:`$AF$ <0108.g1:/ A F />`.

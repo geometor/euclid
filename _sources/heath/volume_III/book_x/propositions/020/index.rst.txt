@@ -48,7 +48,7 @@ For on :g:`$AB$ <0053.g1:/ A B />` let the square :g:`$AD$ <0053.g1:< A D >>` be
 
 .. subclause::
 
-   and :g:`$DB$ <0053.g1:/ D B />` is equal to :g:`$BA$ <0053.g1:/ B A />`;
+   and :g:`$DB$ <0053.g1:/ D B />` is :eq:`equal <0053.g1:/ D B / = 0053.g1:/ B A />` to :g:`$BA$ <0053.g1:/ B A />`;
 
 .. assertion::
 

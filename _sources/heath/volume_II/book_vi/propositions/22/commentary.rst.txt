@@ -23,7 +23,7 @@ The second assumption in the first step of the first part of the proof, viz. tha
 
    :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />` as :g:`$CD$ <0247.g1:/ C D />` to :g:`$O$ <0247.g1:O>`, :g:`$EF$ <0247.g1:/ E F />` is to :g:`$GH$ <0247.g1:/ G H />` as :g:`$GH$ <0247.g1:/ G H />` to :g:`$P$ <0247.g1:P>`, and :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />` as :g:`$EF$ <0247.g1:/ E F />` to :g:`$GH$ <0247.g1:/ G H />`.
 
-The defect in the proof of this proposition is well known, namely the assumption, without proof, that, because the figures :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>` are equal, besides being similar and similarly situated, their corresponding sides :g:`$GH$ <0247.g1:/ G H />`, :g:`$QR$ <0247.g1:/ Q R />` are equal. Hence the minimum addition necessary to make the proof complete is a proof of a lemma to the effect that, *if two similar figures are also equal, any pair of corresponding sides are equal*.
+The defect in the proof of this proposition is well known, namely the assumption, without proof, that, because the figures :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>` are :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>`, besides being similar and similarly situated, their corresponding sides :g:`$GH$ <0247.g1:/ G H />`, :g:`$QR$ <0247.g1:/ Q R />` are :eq:`equal <0247.g1:/ G H / = 0247.g1:/ Q R />`. Hence the minimum addition necessary to make the proof complete is a proof of a lemma to the effect that, *if two similar figures are also equal, any pair of corresponding sides are equal*.
 
 To supply this lemma is one alternative; another is to prove, as a preliminary proposition, a much more general theorem, viz. that, *if the duplicate ratios of two ratios are equal, the two ratios are themselves equal*. When this is proved, the second part of VI. 22 is an immediate inference from it, and the effect is, of course, to substitute a new proof instead of supplementing Euclid's.
 
@@ -33,7 +33,7 @@ The case of equality of the figures is the case required for VI. 22; and the pro
 
 "But that, if rectilineal figures be equal and similar, their corresponding sides are equal to one another we will prove thus.
 
-Let :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>` be equal and similar rectilineal figures, and suppose that,
+Let :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>` be :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>` and similar rectilineal figures, and suppose that,
 
 .. container:: center
 
@@ -43,7 +43,7 @@ I say that
 
 .. container:: center
 
-   :g:`$RQ$ <0247.g1:/ R Q />` is equal to :g:`$HG$ <0247.g1:/ H G />`.
+   :g:`$RQ$ <0247.g1:/ R Q />` is :eq:`equal <0247.g1:/ R Q / = 0247.g1:/ H G />` to :g:`$HG$ <0247.g1:/ H G />`.
 
 For, if they are unequal, one of them is greater; let :g:`$RQ$ <0247.g1:/ R Q />` be greater than :g:`$HG$ <0247.g1:/ H G />`.
 
@@ -66,11 +66,11 @@ For, if they are unequal, one of them is greater; let :g:`$RQ$ <0247.g1:/ R Q />
 
 .. assertion::
 
-   But it is also equal : which is impossible.
+   But it is also :eq:`equal <0247.g1:< R S > = 0247.g1:< H N >>` : which is impossible.
 
 .. assertion::
 
-   Therefore :g:`$QR$ <0247.g1:/ Q R />` is not unequal to :g:`$GH$ <0247.g1:/ G H />`; therefore it is equal to it."
+   Therefore :g:`$QR$ <0247.g1:/ Q R />` is not unequal to :g:`$GH$ <0247.g1:/ G H />`; therefore it is :eq:`equal <0247.g1:/ Q R / = 0247.g1:/ G H />` to it."
 
 ----
 

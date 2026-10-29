@@ -20,7 +20,7 @@ PROPOSITION 19.
 
    Similar triangles are to one another in the duplicate ratio of the corresponding sides.
 
-Let :g:`$ABC$ <0238.g2:< A B C >>`, :g:`$DEF$ <0238.g2:< D E F >>` be similar triangles having the angle at :g:`$B$ <0238.g2:< A B C )>` equal to the angle at :g:`$E$ <0238.g2:< D E F )>`, and such that, as :g:`$AB$ <0238.g2:/ A B />` is to :g:`$BC$ <0238.g2:/ B C />`, so is :g:`$DE$ <0238.g2:/ D E />` to :g:`$EF$ <0238.g2:/ E F />`,\ [#f1]_ so that :g:`$BC$ <0238.g2:/ B C />` corresponds to :g:`$EF$ <0238.g2:/ E F />`; :just:`[v. Def. 11] <V.def.11>`
+Let :g:`$ABC$ <0238.g2:< A B C >>`, :g:`$DEF$ <0238.g2:< D E F >>` be similar triangles having the angle at :g:`$B$ <0238.g2:< A B C )>` :eq:`equal <0238.g2:< A B C ) = 0238.g2:< D E F )>` to the angle at :g:`$E$ <0238.g2:< D E F )>`, and such that, as :g:`$AB$ <0238.g2:/ A B />` is to :g:`$BC$ <0238.g2:/ B C />`, so is :g:`$DE$ <0238.g2:/ D E />` to :g:`$EF$ <0238.g2:/ E F />`,\ [#f1]_ so that :g:`$BC$ <0238.g2:/ B C />` corresponds to :g:`$EF$ <0238.g2:/ E F />`; :just:`[v. Def. 11] <V.def.11>`
 
 I say that the triangle :g:`$ABC$ <0238.g2:< A B C >>` has to the triangle :g:`$DEF$ <0238.g2:< D E F >>` a ratio duplicate of that which :g:`$BC$ <0238.g2:/ B C />` has to :g:`$EF$ <0238.g2:/ E F />`.
 
@@ -62,7 +62,7 @@ and let :g:`$AG$ <0238.g2:/ A G />` be joined.
 
 .. assertion::
 
-   therefore the triangle :g:`$ABG$ <0238.g2:< A B G >>` is equal to the triangle :g:`$DEF$ <0238.g2:< D E F >>`.
+   therefore the triangle :g:`$ABG$ <0238.g2:< A B G >>` is :eq:`equal <0238.g2:< A B G > = 0238.g2:< D E F >>` to the triangle :g:`$DEF$ <0238.g2:< D E F >>`.
 
 .. subclause::
 
@@ -82,7 +82,7 @@ and let :g:`$AG$ <0238.g2:/ A G />` be joined.
 
 .. subclause::
 
-   But the triangle :g:`$ABG$ <0238.g2:< A B G >>` is equal to the triangle :g:`$DEF$ <0238.g2:< D E F >>`;
+   But the triangle :g:`$ABG$ <0238.g2:< A B G >>` is :eq:`equal <0238.g2:< A B G > = 0238.g2:< D E F >>` to the triangle :g:`$DEF$ <0238.g2:< D E F >>`;
 
 .. assertion::
 
@@ -96,7 +96,7 @@ and let :g:`$AG$ <0238.g2:/ A G />` be joined.
 
    PORISM. From this it is manifest that, if three straight lines be proportional, then, as the first is to the third, so is the figure described on the first to that which is similar and similarly described on the second. :just:`Q. E. D.`
 
-.. [#f1] **and such that, as** :g:`$AB$ <0238.g2:/ A B />` **is to** :g:`$BC$ <0238.g2:/ B C />`, **so is** :g:`$DE$ <0238.g2:/ D E />` **to** :g:`$EF$ <0238.g2:/ E F />`, literally "(triangles) having the angle at :g:`$B$ <0238.g2:< A B C )>` equal to the angle at :g:`$E$ <0238.g2:< D E F )>`, and (*having*), *as* :g:`$AB$ <0238.g2:/ A B />` *to* :g:`$BC$ <0238.g2:/ B C />`, *so* :g:`$DE$ <0238.g2:/ D E />` *to* :g:`$EF$ <0238.g2:/ E F />`."
+.. [#f1] **and such that, as** :g:`$AB$ <0238.g2:/ A B />` **is to** :g:`$BC$ <0238.g2:/ B C />`, **so is** :g:`$DE$ <0238.g2:/ D E />` **to** :g:`$EF$ <0238.g2:/ E F />`, literally "(triangles) having the angle at :g:`$B$ <0238.g2:< A B C )>` :eq:`equal <0238.g2:< A B C ) = 0238.g2:< D E F )>` to the angle at :g:`$E$ <0238.g2:< D E F )>`, and (*having*), *as* :g:`$AB$ <0238.g2:/ A B />` *to* :g:`$BC$ <0238.g2:/ B C />`, *so* :g:`$DE$ <0238.g2:/ D E />` *to* :g:`$EF$ <0238.g2:/ E F />`."
 
 ----
 

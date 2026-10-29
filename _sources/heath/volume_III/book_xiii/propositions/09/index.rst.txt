@@ -48,7 +48,7 @@ Since :g:`$BC$ <0459.g1:/ B C />` is the side of an equilateral decagon,
 
 .. subclause:: [I. 5] <I.5>
 
-   And, since the angle :g:`$EBC$ <0459.g1:< E B C )>` is equal to the angle :g:`$ECB$ <0459.g1:< E C B )>`,
+   And, since the angle :g:`$EBC$ <0459.g1:< E B C )>` is :eq:`equal <0459.g1:< E B C ) = 0459.g1:< E C B )>` to the angle :g:`$ECB$ <0459.g1:< E C B )>`,
 
 .. assertion:: [I. 32] <I.32>
 
@@ -56,7 +56,7 @@ Since :g:`$BC$ <0459.g1:/ B C />` is the side of an equilateral decagon,
 
 .. subclause::
 
-   And, since the straight line :g:`$EC$ <0459.g1:/ E C />` is equal to :g:`$CD$ <0459.g1:/ C D />`, for each of them is equal to the side of the hexagon inscribed in the circle :g:`$ABC$ <0459.g1:( A B C )>`, :just:`[IV. 15, Por.]` the angle :g:`$CED$ <0459.g1:< C E D )>` is also equal to the angle :g:`$CDE$ <0459.g1:< C D E )>`; :just:`[I. 5] <I.5>`
+   And, since the straight line :g:`$EC$ <0459.g1:/ E C />` is :eq:`equal <0459.g1:/ E C / = 0459.g1:/ C D />` to :g:`$CD$ <0459.g1:/ C D />`, for each of them is equal to the side of the hexagon inscribed in the circle :g:`$ABC$ <0459.g1:( A B C )>`, :just:`[IV. 15, Por.]` the angle :g:`$CED$ <0459.g1:< C E D )>` is also :eq:`equal <0459.g1:< C E D ) = 0459.g1:< C D E )>` to the angle :g:`$CDE$ <0459.g1:< C D E )>`; :just:`[I. 5] <I.5>`
 
 .. assertion:: [I. 32] <I.32>
 
@@ -76,7 +76,7 @@ Since :g:`$BC$ <0459.g1:/ B C />` is the side of an equilateral decagon,
 
 .. assertion::
 
-   therefore the angle :g:`$EDC$ <0459.g1:< E D C )>` is equal to the angle :g:`$BEC$ <0459.g1:< B E C )>`.
+   therefore the angle :g:`$EDC$ <0459.g1:< E D C )>` is :eq:`equal <0459.g1:< E D C ) = 0459.g1:< B E C )>` to the angle :g:`$BEC$ <0459.g1:< B E C )>`.
 
 .. subclause::
 
@@ -84,7 +84,7 @@ Since :g:`$BC$ <0459.g1:/ B C />` is the side of an equilateral decagon,
 
 .. assertion::
 
-   therefore the remaining angle :g:`$BED$ <0459.g1:< B E D )>` is also equal to the remaining angle :g:`$ECB$ <0459.g1:< E C B )>`; :just:`[I. 32] <I.32>`
+   therefore the remaining angle :g:`$BED$ <0459.g1:< B E D )>` is also :eq:`equal <0459.g1:< B E D ) = 0459.g1:< E C B )>` to the remaining angle :g:`$ECB$ <0459.g1:< E C B )>`; :just:`[I. 32] <I.32>`
 
 .. assertion::
 
@@ -96,7 +96,7 @@ Since :g:`$BC$ <0459.g1:/ B C />` is the side of an equilateral decagon,
 
 .. subclause::
 
-   But :g:`$EB$ <0459.g1:/ E B />` is equal to :g:`$CD$ <0459.g1:/ C D />`.
+   But :g:`$EB$ <0459.g1:/ E B />` is :eq:`equal <0459.g1:/ E B / = 0459.g1:/ C D />` to :g:`$CD$ <0459.g1:/ C D />`.
 
 .. assertion::
 

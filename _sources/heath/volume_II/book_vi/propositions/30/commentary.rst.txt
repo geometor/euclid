@@ -19,7 +19,7 @@ Back to :ref:`Proposition VI.30 <VI.30>`.
 
 It will be observed that the construction in the text is a direct application of the preceding Prop. 29 in the particular case where the *excess* of the parallelogram which is applied is a *square*. This fact coupled with the position of VI. 30 is a sufficient indication that the construction is Euclid's.
 
-In one place Theon appears to have amplified the argument. The text above says "But :g:`$FE$ <0273.g1:/ F E />` is equal to :g:`$AB$ <0273.g1:/ A B />`," while the MSS. B, F, V and p have "But :g:`$FE$ <0273.g1:/ F E />` is equal to :g:`$AC$ <0273.g1:/ A C />`, that is, to :g:`$AB$ <0273.g1:/ A B />`."
+In one place Theon appears to have amplified the argument. The text above says "But :g:`$FE$ <0273.g1:/ F E />` is :eq:`equal <0273.g1:/ F E / = 0273.g1:/ A B />` to :g:`$AB$ <0273.g1:/ A B />`," while the MSS. B, F, V and p have "But :g:`$FE$ <0273.g1:/ F E />` is :eq:`equal <0273.g1:/ F E / = 0273.g1:/ A C / = 0273.g1:/ A B />` to :g:`$AC$ <0273.g1:/ A C />`, that is, to :g:`$AB$ <0273.g1:/ A B />`."
 
 The MSS. give after :term:`ὅπερ ἔδει ποιῆσαι <hoper-edei-poiesai>` an alternative construction which :person:`Heiberg <heiberg>` relegates to the Appendix. The text-books give this construction alone and leave out the other. It will be remembered that the alternative proof does no more than refer to the equivalent construction in II. 11.
 

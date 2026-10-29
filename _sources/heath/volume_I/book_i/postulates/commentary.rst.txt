@@ -42,7 +42,7 @@ There is still something more that must be inferred from the Postulate combined 
 
 Suppose, he says, :g:`$ACB$ <0210.g1:/ A C B />`, :g:`$ADB$ <0210.g1:/ A D B />` to be two straight lines enclosing a space. Produce them (beyond :g:`$B$ <0210.g1:B>`) indefinitely. With centre :g:`$B$ <0210.g1:B>` and distance :g:`$AB$ <0210.g1:/ A B />` describe a circle, cutting the lines so produced in :g:`$F$ <0210.g1:F>`, :g:`$E$ <0210.g1:E>` respectively.
 
-Then, since :g:`$ACBF$ <0210.g1:/ A C B F />`, :g:`$ADBE$ <0210.g1:/ A D B E />` are both diameters cutting off semi-circles, the arcs :g:`$AE$ <0210.g1:( A E )>`, :g:`$AEF$ <0210.g1:( A E F )>` are equal: which is impossible. Therefore etc.
+Then, since :g:`$ACBF$ <0210.g1:/ A C B F />`, :g:`$ADBE$ <0210.g1:/ A D B E />` are both diameters cutting off semi-circles, the arcs :g:`$AE$ <0210.g1:( A E )>`, :g:`$AEF$ <0210.g1:( A E F )>` are :eq:`equal <0210.g1:( A E ) = 0210.g1:( A E F )>`: which is impossible. Therefore etc.
 
 .. picture:: 0210.g1.svg
    :alt: Proclus' proof that two straight lines cannot enclose a space
@@ -70,7 +70,7 @@ POSTULATE 2.
 I translate πεπερασμένην by *finite*, because that is the received equivalent, and because any alternative word such as *limited*, *terminated*, if applied to a straight line, would equally fail to express what modern Italian geometers aptly call a *rectilineal segment*, that is, a straight line having *two* extremities.
 
 Just as Post. 1 asserting the possibility of drawing a straight line from any one point to another must be held to declare at the same time that the straight line so drawn is unique, so Post. 2 maintaining the possibility of producing a finite straight line (a "rectilineal segment") continuously in a straight line must also be held to assert that the straight line can only be produced *in one way* at either end, or that the produced part in either direction is *unique*; in other words, that *two straight lines cannot have a common segment*. This latter assumption is not expressly appealed to by :person:`Euclid <euclid>` until XI. 1. But it is needed at the very beginning of Book I. :person:`Proclus <proclus>` (:cite:`p. 214, 18 <proclus:in-euclid:214.18>`) says that :person:`Zeno <zeno>` of Sidon, an Epicurean, maintained that the very first proposition I. 1 requires it to be admitted that "two straight lines cannot have the same segments"; otherwise $AC$, $BC$ might meet before they arrive at $C$ and have the rest of their length common, in which case the actual triangle formed by them and $AB$ would not be equilateral. The assumption that two straight lines cannot have a common segment is certainly necessary in I. 4, where one side of one triangle is placed on that side of the other
-triangle which is equal to it, and it is inferred that the two coincide throughout their length: this would by no means follow if two straight lines could have a common segment. :person:`Proclus <proclus>` (:cite:`p. 215, 24 <proclus:in-euclid:215.24>`), while observing that Post. 2 clearly indicates that the produced portion must be *one*, attempts to prove it, but unsuccessfully. Both he and :person:`Simplicius <simplicius>` practically use the same argument. Suppose, says :person:`Proclus <proclus>`, that the straight lines :g:`$AC$ <0211.g1:/ A C />`, :g:`$AD$ <0211.g1:/ A D />` have :g:`$AB$ <0211.g1:/ A B />` as a common segment. With centre :g:`$B$ <0211.g1:B>` and radius :g:`$BA$ <0211.g1:/ B A />` describe a circle (Post. 3) meeting :g:`$AC$ <0211.g1:/ A C />`, :g:`$AD$ <0211.g1:/ A D />` in :g:`$C$ <0211.g1:C>`, :g:`$D$ <0211.g1:D>`. Then, since :g:`$ABC$ <0211.g1:/ A B C />` is a straight line through the centre, :g:`$AEC$ <0211.g1:( A E C )>` is a semi-circle. Similarly, :g:`$ABD$ <0211.g1:/ A B D />` being a straight line through the centre, :g:`$AED$ <0211.g1:( A E D )>` is a semi-circle. Therefore :g:`$AEC$ <0211.g1:( A E C )>` is equal to :g:`$AED$ <0211.g1:( A E D )>`: which is impossible.
+triangle which is equal to it, and it is inferred that the two coincide throughout their length: this would by no means follow if two straight lines could have a common segment. :person:`Proclus <proclus>` (:cite:`p. 215, 24 <proclus:in-euclid:215.24>`), while observing that Post. 2 clearly indicates that the produced portion must be *one*, attempts to prove it, but unsuccessfully. Both he and :person:`Simplicius <simplicius>` practically use the same argument. Suppose, says :person:`Proclus <proclus>`, that the straight lines :g:`$AC$ <0211.g1:/ A C />`, :g:`$AD$ <0211.g1:/ A D />` have :g:`$AB$ <0211.g1:/ A B />` as a common segment. With centre :g:`$B$ <0211.g1:B>` and radius :g:`$BA$ <0211.g1:/ B A />` describe a circle (Post. 3) meeting :g:`$AC$ <0211.g1:/ A C />`, :g:`$AD$ <0211.g1:/ A D />` in :g:`$C$ <0211.g1:C>`, :g:`$D$ <0211.g1:D>`. Then, since :g:`$ABC$ <0211.g1:/ A B C />` is a straight line through the centre, :g:`$AEC$ <0211.g1:( A E C )>` is a semi-circle. Similarly, :g:`$ABD$ <0211.g1:/ A B D />` being a straight line through the centre, :g:`$AED$ <0211.g1:( A E D )>` is a semi-circle. Therefore :g:`$AEC$ <0211.g1:( A E C )>` is :eq:`equal <0211.g1:( A E C ) = 0211.g1:( A E D )>` to :g:`$AED$ <0211.g1:( A E D )>`: which is impossible.
 
 .. _folio-i-0211:
 
@@ -136,12 +136,12 @@ Hence (*a*) only is true, and there is only *one* point :g:`$D$ <0211.g2:D>` suc
 .. folio:: 0213
    :page: 199
 
-Suppose that two straight lines :g:`$AC$ <0213.g1:/ A C />`, :g:`$AD$ <0213.g1:/ A D />` have a common segment :g:`$AB$ <0213.g1:/ A B />`, and let :g:`$BE$ <0213.g1:/ B E />` be drawn at right angles to :g:`$AC$ <0213.g1:/ A C />`.
-Then the angle :g:`$EBC$ <0213.g1:< E B C )>` is right.
-If then the angle :g:`$EBD$ <0213.g1:< E B D )>` is also right, the two angles will be equal: which is impossible.
+Suppose that two straight lines :g:`$AC$ <0213.g1:/ A C />`, :g:`$AD$ <0213.g1:/ A D />` have a common segment :g:`$AB$ <0213.g1:/ A B />`, and let :g:`$BE$ <0213.g1:/ B E />` be drawn at :eq:`right angles <0213.g1:< E B A ) = 0213.g1:< E B C )>` to :g:`$AC$ <0213.g1:/ A C />`.
+Then the angle :g:`$EBC$ <0213.g1:< E B C )>` is :eq:`right <0213.g1:< E B C ) = 0213.g1:< E B A )>`.
+If then the angle :g:`$EBD$ <0213.g1:< E B D )>` is also right, the two angles will be :eq:`equal <0213.g1:< E B C ) = 0213.g1:< E B D )>`: which is impossible.
 If the angle :g:`$EBD$ <0213.g1:< E B D )>` is not right, draw :g:`$BF$ <0213.g1:/ B F />` at right angles to :g:`$AD$ <0213.g1:/ A D />`; therefore the angle :g:`$FBA$ <0213.g1:< F B A )>` is right.
-But the angle :g:`$EBA$ <0213.g1:< E B A )>` is right.
-Therefore the angles :g:`$EBA$ <0213.g1:< E B A )>`, :g:`$FBA$ <0213.g1:< F B A )>` are equal: which is impossible.
+But the angle :g:`$EBA$ <0213.g1:< E B A )>` is :eq:`right <0213.g1:< E B A ) = 0213.g1:< E B C )>`.
+Therefore the angles :g:`$EBA$ <0213.g1:< E B A )>`, :g:`$FBA$ <0213.g1:< F B A )>` are :eq:`equal <0213.g1:< E B A ) = 0213.g1:< F B A )>`: which is impossible.
 
 .. picture:: 0213.g1.svg
    :alt: Zeno and Posidonius on straight lines with a common segment
@@ -191,9 +191,9 @@ Then, if we apply :g:`$DE$ <0214.g1:/ D E />` to :g:`$AB$ <0214.g1:/ A B />`, :g
 .. picture:: 0214.g1.svg
    :alt: Proclus' proof of Postulate 4
 
-Produce :g:`$CB$ <0214.g1:/ C B />` to :g:`$H$ <0214.g1:H>`. Then, since :g:`$ABC$ <0214.g1:< A B C )>` is a right angle, so is :g:`$ABH$ <0214.g1:< A B H )>`, and the two angles are equal (a right angle being by definition equal to its adjacent angle).
+Produce :g:`$CB$ <0214.g1:/ C B />` to :g:`$H$ <0214.g1:H>`. Then, since :g:`$ABC$ <0214.g1:< A B C )>` is a right angle, so is :g:`$ABH$ <0214.g1:< A B H )>`, and the two angles are :eq:`equal <0214.g1:< A B C ) = 0214.g1:< A B H )>` (a right angle being by definition equal to its adjacent angle).
 Therefore the angle :g:`$ABH$ <0214.g1:< A B H )>` is *greater* than the angle :g:`$ABG$ <0214.g1:< A B G )>`.
-Producing :g:`$GB$ <0214.g1:/ G B />` to :g:`$K$ <0214.g1:K>`, we have similarly the two angles :g:`$ABK$ <0214.g1:< A B K )>`, :g:`$ABG$ <0214.g1:< A B G )>` both right and equal to one another; whence the angle :g:`$ABH$ <0214.g1:< A B H )>` is *less* than the angle :g:`$ABG$ <0214.g1:< A B G )>`.
+Producing :g:`$GB$ <0214.g1:/ G B />` to :g:`$K$ <0214.g1:K>`, we have similarly the two angles :g:`$ABK$ <0214.g1:< A B K )>`, :g:`$ABG$ <0214.g1:< A B G )>` both right and :eq:`equal <0214.g1:< A B K ) = 0214.g1:< A B G )>` to one another; whence the angle :g:`$ABH$ <0214.g1:< A B H )>` is *less* than the angle :g:`$ABG$ <0214.g1:< A B G )>`.
 But it is also greater: which is impossible.
 Therefore etc.
 A defect in this proof is the assumption that :g:`$CB$ <0214.g1:/ C B />`, :g:`$GB$ <0214.g1:/ G B />` can each be produced only in one way, and that :g:`$BK$ <0214.g1:/ B K />` falls outside the angle :g:`$ABH$ <0214.g1:< A B H )>`.
@@ -207,9 +207,9 @@ Saccheri's proof is more careful in that he premises a third lemma in addition t
 .. folio:: 0215
    :page: 201
 
-Suppose now that :g:`$DA$ <0215.g1:/ D A />` standing on :g:`$BAC$ <0215.g1:/ B A C />` makes the two angles :g:`$DAB$ <0215.g1:< D A B )>`, :g:`$DAC$ <0215.g1:< D A C )>` equal, so that each is a right angle by the definition.
-Similarly, let :g:`$LH$ <0215.g1:/ L H />` form with the straight line :g:`$FHM$ <0215.g1:/ F H M />` the right angles :g:`$LHF$ <0215.g1:< L H F )>`, :g:`$LHM$ <0215.g1:< L H M )>`.
-Let :g:`$DA$ <0215.g1:/ D A />`, :g:`$HL$ <0215.g1:/ H L />` be equal; and suppose the whole of the second figure so laid upon the first that the point :g:`$H$ <0215.g1:H>` falls on :g:`$A$ <0215.g1:A>`, and :g:`$L$ <0215.g1:L>` on :g:`$D$ <0215.g1:D>`.
+Suppose now that :g:`$DA$ <0215.g1:/ D A />` standing on :g:`$BAC$ <0215.g1:/ B A C />` makes the two angles :g:`$DAB$ <0215.g1:< D A B )>`, :g:`$DAC$ <0215.g1:< D A C )>` :eq:`equal <0215.g1:< D A B ) = 0215.g1:< D A C )>`, so that each is a right angle by the definition.
+Similarly, let :g:`$LH$ <0215.g1:/ L H />` form with the straight line :g:`$FHM$ <0215.g1:/ F H M />` the :eq:`right angles <0215.g1:< L H F ) = 0215.g1:< L H M )>` :g:`$LHF$ <0215.g1:< L H F )>`, :g:`$LHM$ <0215.g1:< L H M )>`.
+Let :g:`$DA$ <0215.g1:/ D A />`, :g:`$HL$ <0215.g1:/ H L />` be :eq:`equal <0215.g1:/ D A / = 0215.g1:/ H L />`; and suppose the whole of the second figure so laid upon the first that the point :g:`$H$ <0215.g1:H>` falls on :g:`$A$ <0215.g1:A>`, and :g:`$L$ <0215.g1:L>` on :g:`$D$ <0215.g1:D>`.
 Then the straight line :g:`$FHM$ <0215.g1:/ F H M />` will (by the third lemma) not *touch* the straight line :g:`$BC$ <0215.g1:/ B C />` at :g:`$A$ <0215.g1:A>`; it will either
 
 (*a*) coincide exactly with :g:`$BC$ <0215.g1:/ B C />`, or
@@ -219,10 +219,10 @@ Then the straight line :g:`$FHM$ <0215.g1:/ F H M />` will (by the third lemma) 
    :alt: Saccheri's proof of the equality of right angles
 
 If the alternative (*a*) is true, we have already proved the exact equality of all rectilineal right angles.
-Under alternative (*b*) we prove that the angle :g:`$LHF$ <0215.g1:< L H F )>`, being equal to the angle :g:`$DAF$ <0215.g1:< D A F )>`, is less than the angle :g:`$DAB$ <0215.g1:< D A B )>` or :g:`$DAC$ <0215.g1:< D A C )>`, and *a fortiori* less than the angle :g:`$DAM$ <0215.g1:< D A M )>` or :g:`$LHM$ <0215.g1:< L H M )>`: which is contrary to the hypothesis.
+Under alternative (*b*) we prove that the angle :g:`$LHF$ <0215.g1:< L H F )>`, being :eq:`equal <0215.g1:< L H F ) = 0215.g1:< D A F )>` to the angle :g:`$DAF$ <0215.g1:< D A F )>`, is less than the angle :g:`$DAB$ <0215.g1:< D A B )>` or :g:`$DAC$ <0215.g1:< D A C )>`, and *a fortiori* less than the angle :g:`$DAM$ <0215.g1:< D A M )>` or :g:`$LHM$ <0215.g1:< L H M )>`: which is contrary to the hypothesis.
 [Hence (*a*) is the only possible alternative, so that all right angles are equal.]
 :person:`Saccheri <saccheri>` adds that it makes no difference if the angle :g:`$DAF$ <0215.g1:< D A F )>` diverges *infinitely little* from the angle :g:`$DAB$ <0215.g1:< D A B )>`. This would equally lead to a conclusion contradicting the hypothesis.
-It will be observed that :person:`Saccheri <saccheri>` speaks of "the exact equality of all *rectilineal* right angles." He may have had in mind the remark of :person:`Pappus <pappus>`, quoted by :person:`Proclus <proclus>` (:cite:`p. 189, 11 <proclus:in-euclid:189.11>`), that the converse of this postulate, namely that an angle which is equal to a right angle is also right, is not necessarily true, unless the former angle is *rectilineal*. Suppose two equal straight lines :g:`$BA$ <0215.g2:/ B A />`, :g:`$BC$ <0215.g2:/ B C />` at right angles to one another, and semi-circles described on :g:`$BA$ <0215.g2:/ B A />`, :g:`$BC$ <0215.g2:/ B C />` respectively as :g:`$AEB$ <0215.g2:( A E B )>`, :g:`$BDC$ <0215.g2:( B D C )>` in the figure. Then, since the semi-circles are equal, they coincide if applied to one another. Hence the "angles" :g:`$EBA$ <0215.g2:< E B A )>`, :g:`$DBC$ <0215.g2:< D B C )>` are equal. Add to each the "angle" :g:`$ABD$ <0215.g2:< A B D )>`; and it follows that the *lunular* angle :g:`$EBD$ <0215.g2:< E B D )>` is equal to the right angle :g:`$ABC$ <0215.g2:< A B C )>`. (Similarly, if :g:`$BA$ <0215.g2:/ B A />`, :g:`$BC$ <0215.g2:/ B C />` be inclined at an acute or obtuse angle, instead of at a right angle, we find a *lunular* angle equal to an acute or obtuse angle.) This is one of the curiosities which Greek commentators delighted in.
+It will be observed that :person:`Saccheri <saccheri>` speaks of "the exact equality of all *rectilineal* right angles." He may have had in mind the remark of :person:`Pappus <pappus>`, quoted by :person:`Proclus <proclus>` (:cite:`p. 189, 11 <proclus:in-euclid:189.11>`), that the converse of this postulate, namely that an angle which is equal to a right angle is also right, is not necessarily true, unless the former angle is *rectilineal*. Suppose two :eq:`equal <0215.g2:/ B A / = 0215.g2:/ B C />` straight lines :g:`$BA$ <0215.g2:/ B A />`, :g:`$BC$ <0215.g2:/ B C />` at right angles to one another, and semi-circles described on :g:`$BA$ <0215.g2:/ B A />`, :g:`$BC$ <0215.g2:/ B C />` respectively as :g:`$AEB$ <0215.g2:( A E B )>`, :g:`$BDC$ <0215.g2:( B D C )>` in the figure. Then, since the semi-circles are :eq:`equal <0215.g2:( A E B ) = 0215.g2:( B D C )>`, they coincide if applied to one another. Hence the "angles" :g:`$EBA$ <0215.g2:< E B A )>`, :g:`$DBC$ <0215.g2:< D B C )>` are :eq:`equal <0215.g2:< E B A ) = 0215.g2:< D B C )>`. Add to each the "angle" :g:`$ABD$ <0215.g2:< A B D )>`; and it follows that the *lunular* angle :g:`$EBD$ <0215.g2:< E B D )>` is :eq:`equal <0215.g2:< E B D ) = 0215.g2:< A B C )>` to the right angle :g:`$ABC$ <0215.g2:< A B C )>`. (Similarly, if :g:`$BA$ <0215.g2:/ B A />`, :g:`$BC$ <0215.g2:/ B C />` be inclined at an acute or obtuse angle, instead of at a right angle, we find a *lunular* angle equal to an acute or obtuse angle.) This is one of the curiosities which Greek commentators delighted in.
 
 .. picture:: 0215.g2.svg
    :alt: Pappus' lunular angle equal to a right angle
@@ -290,8 +290,8 @@ the angles :g:`$AFG$ <0218.g1:< A F G )>`, :g:`$FGC$ <0218.g1:< C G F )>` are eq
 "Let, then, :g:`$FA$ <0218.g1:/ F A />`, :g:`$GC$ <0218.g1:/ G C />` meet at :g:`$L$ <0218.g1:L>`.
 "Therefore the straight lines :g:`$LABK$ <0218.g1:/ L A B K />`, :g:`$LCDK$ <0218.g1:/ L C D K />` enclose a space: which is impossible.
 "Therefore it is not possible for two straight lines to meet when the interior angles are equal to two right angles. Therefore they are parallel."
-[The argument in the words italicised would be clearer if it had been shown that the two interior angles on one side of :g:`$EH$ <0218.g1:/ E H />` are *severally* equal to the two interior angles on the other, namely :g:`$BFG$ <0218.g1:< B F G )>` to :g:`$CGF$ <0218.g1:< C G F )>` and :g:`$FGD$ <0218.g1:< F G D )>` to :g:`$AFG$ <0218.g1:< A F G )>`; whence, assuming :g:`$FB$ <0218.g1:/ F B />`, :g:`$GD$ <0218.g1:/ G D />` to meet in :g:`$K$ <0218.g1:K>`, we can take the triangle :g:`$KFG$ <0218.g1:< K F G >>` and place it (e.g. by rotating it in the plane about :g:`$O$ <0218.g1:O>` the middle point of :g:`$FG$ <0218.g1:/ F G />`) so that :g:`$FG$ <0218.g1:/ F G />` falls where :g:`$GF$ <0218.g1:/ F G />` is in the figure and :g:`$GD$ <0218.g1:/ G D />` falls on :g:`$FA$ <0218.g1:/ F A />`, in which case :g:`$FB$ <0218.g1:/ F B />` must also fall on :g:`$GC$ <0218.g1:/ G C />`; hence, since :g:`$FB$ <0218.g1:/ F B />`, :g:`$GD$ <0218.g1:/ G D />` meet at :g:`$K$ <0218.g1:K>`, :g:`$GC$ <0218.g1:/ G C />` and :g:`$FA$ <0218.g1:/ F A />` must meet at a corresponding point :g:`$L$ <0218.g1:L>`. Or, as Mr Frankland does, we may substitute for :g:`$FG$ <0218.g1:/ F G />` a straight line :g:`$MN$ <0218.g1:/ M N />` through :g:`$O$ <0218.g1:O>` the middle point of :g:`$FG$ <0218.g1:/ F G />` drawn perpendicular to one of the parallels, say :g:`$AB$ <0218.g1:/ A B />`. Then, since the two triangles :g:`$OMF$ <0218.g1:< O M F >>`, :g:`$ONG$ <0218.g1:< O N G >>` have two angles equal respectively, namely :g:`$FOM$ <0218.g1:< F O M )>` to
-:g:`$GON$ <0218.g1:< G O N )>` (I. 15) and :g:`$OFM$ <0218.g1:< B F G )>` to :g:`$OGN$ <0218.g1:< F G D )>`, and one side :g:`$OF$ <0218.g1:/ O F />` equal to one side :g:`$OG$ <0218.g1:/ O G />`, the triangles are congruent, the angle :g:`$ONG$ <0218.g1:< O N G )>` is a right angle, and :g:`$MN$ <0218.g1:/ M N />` is perpendicular to both :g:`$AB$ <0218.g1:/ A B />` and :g:`$CD$ <0218.g1:/ C D />`. Then, by the same method of application, :g:`$MA$ <0218.g1:/ M A />`, :g:`$NC$ <0218.g1:/ N C />` are shown to form with :g:`$MN$ <0218.g1:/ M N />` a triangle :g:`$MALCN$ <0218.g1:< M A L C N >>` congruent with the triangle :g:`$NDKBM$ <0218.g1:< N D K B M >>`, and :g:`$MA$ <0218.g1:/ M A />`, :g:`$NC$ <0218.g1:/ N C />` meet at a point :g:`$L$ <0218.g1:L>` corresponding to :g:`$K$ <0218.g1:K>`. Thus the two straight lines would meet at the *two* points :g:`$K$ <0218.g1:K>`, :g:`$L$ <0218.g1:L>`. This is what happens under the :person:`Riemann <riemann>` hypothesis, where the axiom that two straight lines cannot enclose a space does not hold, but all straight lines meeting in one point have another point common also, and e.g. in the particular figure just used :g:`$K$ <0218.g1:K>`, :g:`$L$ <0218.g1:L>` are points common to all perpendiculars to :g:`$MN$ <0218.g1:/ M N />`. If we suppose that :g:`$K$ <0218.g1:K>`, :g:`$L$ <0218.g1:L>` are not distinct points, but *one* point, the axiom that two straight lines cannot enclose a space is *not* contradicted.]
+[The argument in the words italicised would be clearer if it had been shown that the two interior angles on one side of :g:`$EH$ <0218.g1:/ E H />` are *severally* :eq:`equal <0218.g1:< B F G ) = 0218.g1:< C G F ); 0218.g1:< F G D ) = 0218.g1:< A F G )>` to the two interior angles on the other, namely :g:`$BFG$ <0218.g1:< B F G )>` to :g:`$CGF$ <0218.g1:< C G F )>` and :g:`$FGD$ <0218.g1:< F G D )>` to :g:`$AFG$ <0218.g1:< A F G )>`; whence, assuming :g:`$FB$ <0218.g1:/ F B />`, :g:`$GD$ <0218.g1:/ G D />` to meet in :g:`$K$ <0218.g1:K>`, we can take the triangle :g:`$KFG$ <0218.g1:< K F G >>` and place it (e.g. by rotating it in the plane about :g:`$O$ <0218.g1:O>` the :eq:`middle point <0218.g1:/ O F / = 0218.g1:/ O G />` of :g:`$FG$ <0218.g1:/ F G />`) so that :g:`$FG$ <0218.g1:/ F G />` falls where :g:`$GF$ <0218.g1:/ F G />` is in the figure and :g:`$GD$ <0218.g1:/ G D />` falls on :g:`$FA$ <0218.g1:/ F A />`, in which case :g:`$FB$ <0218.g1:/ F B />` must also fall on :g:`$GC$ <0218.g1:/ G C />`; hence, since :g:`$FB$ <0218.g1:/ F B />`, :g:`$GD$ <0218.g1:/ G D />` meet at :g:`$K$ <0218.g1:K>`, :g:`$GC$ <0218.g1:/ G C />` and :g:`$FA$ <0218.g1:/ F A />` must meet at a corresponding point :g:`$L$ <0218.g1:L>`. Or, as Mr Frankland does, we may substitute for :g:`$FG$ <0218.g1:/ F G />` a straight line :g:`$MN$ <0218.g1:/ M N />` through :g:`$O$ <0218.g1:O>` the :eq:`middle point <0218.g1:/ O F / = 0218.g1:/ O G />` of :g:`$FG$ <0218.g1:/ F G />` drawn perpendicular to one of the parallels, say :g:`$AB$ <0218.g1:/ A B />`. Then, since the two triangles :g:`$OMF$ <0218.g1:< O M F >>`, :g:`$ONG$ <0218.g1:< O N G >>` have two angles :eq:`equal <0218.g1:< F O M ) = 0218.g1:< G O N ); 0218.g1:< B F G ) = 0218.g1:< F G D )>` respectively, namely :g:`$FOM$ <0218.g1:< F O M )>` to
+:g:`$GON$ <0218.g1:< G O N )>` (I. 15) and :g:`$OFM$ <0218.g1:< B F G )>` to :g:`$OGN$ <0218.g1:< F G D )>`, and one side :g:`$OF$ <0218.g1:/ O F />` :eq:`equal <0218.g1:/ O F / = 0218.g1:/ O G />` to one side :g:`$OG$ <0218.g1:/ O G />`, the triangles are :eq:`congruent <0218.g1:< O M F > = 0218.g1:< O N G >>`, the angle :g:`$ONG$ <0218.g1:< O N G )>` is a right angle, and :g:`$MN$ <0218.g1:/ M N />` is perpendicular to both :g:`$AB$ <0218.g1:/ A B />` and :g:`$CD$ <0218.g1:/ C D />`. Then, by the same method of application, :g:`$MA$ <0218.g1:/ M A />`, :g:`$NC$ <0218.g1:/ N C />` are shown to form with :g:`$MN$ <0218.g1:/ M N />` a triangle :g:`$MALCN$ <0218.g1:< M A L C N >>` :eq:`congruent <0218.g1:< M A L C N > = 0218.g1:< N D K B M >>` with the triangle :g:`$NDKBM$ <0218.g1:< N D K B M >>`, and :g:`$MA$ <0218.g1:/ M A />`, :g:`$NC$ <0218.g1:/ N C />` meet at a point :g:`$L$ <0218.g1:L>` corresponding to :g:`$K$ <0218.g1:K>`. Thus the two straight lines would meet at the *two* points :g:`$K$ <0218.g1:K>`, :g:`$L$ <0218.g1:L>`. This is what happens under the :person:`Riemann <riemann>` hypothesis, where the axiom that two straight lines cannot enclose a space does not hold, but all straight lines meeting in one point have another point common also, and e.g. in the particular figure just used :g:`$K$ <0218.g1:K>`, :g:`$L$ <0218.g1:L>` are points common to all perpendiculars to :g:`$MN$ <0218.g1:/ M N />`. If we suppose that :g:`$K$ <0218.g1:K>`, :g:`$L$ <0218.g1:L>` are not distinct points, but *one* point, the axiom that two straight lines cannot enclose a space is *not* contradicted.]
 
 .. _folio-i-0219:
 
@@ -380,9 +380,9 @@ Before passing to his own attempt at a proof, :person:`Proclus <proclus>` (:cite
 
 Let :g:`$AB$ <0220.g2:/ A B />`, :g:`$CD$ <0220.g2:/ C D />` make with :g:`$AC$ <0220.g2:/ A C />` the angles :g:`$BAC$ <0220.g2:< B A C )>`, :g:`$ACD$ <0220.g2:< A C D )>` together less than two right angles.
 
-Bisect :g:`$AC$ <0220.g2:/ A C />` at :g:`$E$ <0220.g2:E>` and along :g:`$AB$ <0220.g2:/ A B />`, :g:`$CD$ <0220.g2:/ C D />` respectively measure :g:`$AF$ <0220.g2:/ A F />`, :g:`$CG$ <0220.g2:/ C G />` so that each is equal to :g:`$AE$ <0220.g2:/ A E />`.
+:eq:`Bisect <0220.g2:/ A E / = 0220.g2:/ E C />` :g:`$AC$ <0220.g2:/ A C />` at :g:`$E$ <0220.g2:E>` and along :g:`$AB$ <0220.g2:/ A B />`, :g:`$CD$ <0220.g2:/ C D />` respectively measure :g:`$AF$ <0220.g2:/ A F />`, :g:`$CG$ <0220.g2:/ C G />` so that each is :eq:`equal <0220.g2:/ A F / = 0220.g2:/ C G / = 0220.g2:/ A E />` to :g:`$AE$ <0220.g2:/ A E />`.
 
-Bisect :g:`$FG$ <0220.g2:/ F G />` at :g:`$H$ <0220.g2:H>` and mark off :g:`$FK$ <0220.g2:/ F K />`, :g:`$GL$ <0220.g2:/ G L />` each equal to :g:`$FH$ <0220.g2:/ F H />`; and so on.
+:eq:`Bisect <0220.g2:/ F H / = 0220.g2:/ H G />` :g:`$FG$ <0220.g2:/ F G />` at :g:`$H$ <0220.g2:H>` and mark off :g:`$FK$ <0220.g2:/ F K />`, :g:`$GL$ <0220.g2:/ G L />` each :eq:`equal <0220.g2:/ F K / = 0220.g2:/ G L / = 0220.g2:/ F H />` to :g:`$FH$ <0220.g2:/ F H />`; and so on.
 
 .. picture:: 0220.g2.svg
    :alt: Diagram of Zeno-like bisection argument examined by Proclus
@@ -470,7 +470,7 @@ direction of :g:`$A$ <0222.g2:A>`, :g:`$C$ <0222.g2:C>`, the straight lines :g:`
 
 [:person:`Saccheri <saccheri>` points out that even the first part (*a*) requires proof. As regards the converse (*b*) he asks, why should not the successive acute angles made by the perpendiculars with :g:`$AB$ <0222.g2:/ A B />`, while remaining acute, become greater and greater as the perpendiculars become smaller until we arrive at last at a perpendicular which is a common perpendicular to *both* lines? If that happens, all the author's efforts are in vain. And, if you are to assume the truth of the statement in the lemma without proof, would it not, as :person:`Wallis <wallis>` said, be as easy to assume as axiomatic the statement in Post. 5 without more ado?]
 
-II. *If* :g:`$\text{AC}$ <0223.g1:/ A C />`, :g:`$\text{BD}$ <0223.g1:/ B D />` *be drawn from the extremities of* :g:`$\text{AB}$ <0223.g1:/ A B />` *at right angles to it and on the same side, and if* :g:`$\text{AC}$ <0223.g1:/ A C />`, :g:`$\text{BD}$ <0223.g1:/ B D />` *be made equal to one another and* :g:`$\text{CD}$ <0223.g1:/ C D />` *be joined, each of the angles* :g:`$\text{ACD}$ <0223.g1:< A C D )>`, :g:`$\text{BDC}$ <0223.g1:< B D C )>` *will be right, and* :g:`$\text{CD}$ <0223.g1:/ C D />` *will be equal to* :g:`$\text{AB}$ <0223.g1:/ A B />`.
+II. *If* :g:`$\text{AC}$ <0223.g1:/ A C />`, :g:`$\text{BD}$ <0223.g1:/ B D />` *be drawn from the extremities of* :g:`$\text{AB}$ <0223.g1:/ A B />` *at right angles to it and on the same side, and if* :g:`$\text{AC}$ <0223.g1:/ A C />`, :g:`$\text{BD}$ <0223.g1:/ B D />` *be made* :eq:`*equal* <0223.g1:/ A C / = 0223.g1:/ B D />` *to one another and* :g:`$\text{CD}$ <0223.g1:/ C D />` *be joined, each of the angles* :g:`$\text{ACD}$ <0223.g1:< A C D )>`, :g:`$\text{BDC}$ <0223.g1:< B D C )>` *will be* :eq:`*right* <0223.g1:< A C D ) = 0223.g1:< B D C )>`, *and* :g:`$\text{CD}$ <0223.g1:/ C D />` *will be* :eq:`*equal* <0223.g1:/ C D / = 0223.g1:/ A B />` *to* :g:`$\text{AB}$ <0223.g1:/ A B />`.
 
 The first part of this lemma is proved by *reductio ad absurdum* from the preceding lemma. If, e.g., the angle :g:`$ACD$ <0223.g1:< A C D )>` is not right, it must either be acute or obtuse.
 
@@ -479,7 +479,7 @@ The first part of this lemma is proved by *reductio ad absurdum* from the preced
 
 Suppose it is acute; then, by lemma 1, :g:`$AC$ <0223.g1:/ A C />` is greater than :g:`$BD$ <0223.g1:/ B D />`, which is contrary to the hypothesis. And so on.
 
-The angles :g:`$ACD$ <0223.g1:< A C D )>`, :g:`$BDC$ <0223.g1:< B D C )>` being proved to be right angles, it is easy to prove that :g:`$AB$ <0223.g1:/ A B />`, :g:`$CD$ <0223.g1:/ C D />` are equal.
+The angles :g:`$ACD$ <0223.g1:< A C D )>`, :g:`$BDC$ <0223.g1:< B D C )>` being proved to be :eq:`right angles <0223.g1:< A C D ) = 0223.g1:< B D C )>`, it is easy to prove that :g:`$AB$ <0223.g1:/ A B />`, :g:`$CD$ <0223.g1:/ C D />` are :eq:`equal <0223.g1:/ A B / = 0223.g1:/ C D />`.
 
 [It is of course assumed in this "proof" that, if the angle :g:`$ACD$ <0223.g1:< A C D )>` is acute, the angle :g:`$BDC$ <0223.g1:< B D C )>` is obtuse, and *vice versa*.]
 
@@ -507,21 +507,21 @@ Lastly, let :g:`$GH$ <0223.g2:/ G H />` fall on the side of :g:`$CD$ <0223.g2:/ 
 .. folio:: 0224
    :page: 210
 
-Along :g:`$HC$ <0223.g2:/ H C />` set off :g:`$HK$ <0223.g2:/ H K />`, :g:`$KL$ <0223.g2:/ K L />` etc., each equal to :g:`$EH$ <0223.g2:/ E H />`, until we get the first point of division, as :g:`$M$ <0223.g2:M>`, beyond :g:`$C$ <0223.g2:C>`.
+Along :g:`$HC$ <0223.g2:/ H C />` set off :g:`$HK$ <0223.g2:/ H K />`, :g:`$KL$ <0223.g2:/ K L />` etc., each :eq:`equal <0223.g2:/ H K / = 0223.g2:/ K L / = 0223.g2:/ E H />` to :g:`$EH$ <0223.g2:/ E H />`, until we get the first point of division, as :g:`$M$ <0223.g2:M>`, beyond :g:`$C$ <0223.g2:C>`.
 
-Along :g:`$GB$ <0223.g2:/ G B />` set off :g:`$GN$ <0223.g2:/ G N />`, :g:`$NO$ <0223.g2:/ N O />` etc., each equal to :g:`$EG$ <0223.g2:/ E G />`, until :g:`$EP$ <0223.g2:/ E P />` is the same multiple of :g:`$EG$ <0223.g2:/ E G />` that :g:`$EM$ <0223.g2:/ E M />` is of :g:`$EH$ <0223.g2:/ E H />`.
+Along :g:`$GB$ <0223.g2:/ G B />` set off :g:`$GN$ <0223.g2:/ G N />`, :g:`$NO$ <0223.g2:/ N O />` etc., each :eq:`equal <0223.g2:/ G N / = 0223.g2:/ N O / = 0223.g2:/ E G />` to :g:`$EG$ <0223.g2:/ E G />`, until :g:`$EP$ <0223.g2:/ E P />` is the same multiple of :g:`$EG$ <0223.g2:/ E G />` that :g:`$EM$ <0223.g2:/ E M />` is of :g:`$EH$ <0223.g2:/ E H />`.
 
 Then we can prove that the perpendiculars from :g:`$N$ <0223.g2:N>`, :g:`$O$ <0223.g2:O>`, :g:`$P$ <0223.g2:P>` on :g:`$EC$ <0223.g2:/ E C />` fall on the points :g:`$K$ <0223.g2:K>`, :g:`$L$ <0223.g2:L>`, :g:`$M$ <0223.g2:M>` respectively.
 
 For take the first perpendicular, that from :g:`$N$ <0223.g2:N>`, and call it :g:`$NS$ <0223.g2:/ N S />`.
 
-Draw :g:`$EQ$ <0223.g2:/ E Q />` at right angles to :g:`$EH$ <0223.g2:/ E H />` and equal to :g:`$GH$ <0223.g2:/ G H />`, and set off :g:`$SR$ <0223.g2:/ S R />` along :g:`$SN$ <0223.g2:/ N S />` also equal to :g:`$GH$ <0223.g2:/ G H />`. Join :g:`$QG$ <0223.g2:/ Q G />`, :g:`$GR$ <0223.g2:/ G R />`.
+Draw :g:`$EQ$ <0223.g2:/ E Q />` at right angles to :g:`$EH$ <0223.g2:/ E H />` and :eq:`equal <0223.g2:/ E Q / = 0223.g2:/ G H />` to :g:`$GH$ <0223.g2:/ G H />`, and set off :g:`$SR$ <0223.g2:/ S R />` along :g:`$SN$ <0223.g2:/ N S />` also :eq:`equal <0223.g2:/ S R / = 0223.g2:/ G H />` to :g:`$GH$ <0223.g2:/ G H />`. Join :g:`$QG$ <0223.g2:/ Q G />`, :g:`$GR$ <0223.g2:/ G R />`.
 
-Then (second lemma) the angles :g:`$EQG$ <0223.g2:< E Q G )>`, :g:`$QGH$ <0223.g2:< Q G H )>` are right, and :g:`$QG$ <0223.g2:/ Q G />` $=$ :g:`$EH$ <0223.g2:/ E H />`.
+Then (second lemma) the angles :g:`$EQG$ <0223.g2:< E Q G )>`, :g:`$QGH$ <0223.g2:< Q G H )>` are :eq:`right <0223.g2:< E Q G ) = 0223.g2:< Q G H )>`, and :g:`$QG$ <0223.g2:/ Q G />` $=$ :g:`$EH$ <0223.g2:/ E H />`.
 
-Similarly the angles :g:`$SRG$ <0223.g2:< S R G )>`, :g:`$RGH$ <0223.g2:< R G H )>` are right, and :g:`$RG$ <0223.g2:/ G R />` $=$ :g:`$SH$ <0223.g2:/ H K />`.
+Similarly the angles :g:`$SRG$ <0223.g2:< S R G )>`, :g:`$RGH$ <0223.g2:< R G H )>` are :eq:`right <0223.g2:< S R G ) = 0223.g2:< R G H )>`, and :g:`$RG$ <0223.g2:/ G R />` $=$ :g:`$SH$ <0223.g2:/ H K />`.
 
-Thus :g:`$RGQ$ <0223.g2:/ R Q />` is one straight line, and the vertically opposite angles :g:`$NGR$ <0223.g2:< N G R )>`, :g:`$EGQ$ <0223.g2:< E G Q )>` are equal. The angles :g:`$NRG$ <0223.g2:< N R G )>`, :g:`$EQG$ <0223.g2:< E Q G )>` are both right, and :g:`$NG$ <0223.g2:/ G N />` $=$ :g:`$GE$ <0223.g2:/ E G />`, by construction.
+Thus :g:`$RGQ$ <0223.g2:/ R Q />` is one straight line, and the vertically opposite angles :g:`$NGR$ <0223.g2:< N G R )>`, :g:`$EGQ$ <0223.g2:< E G Q )>` are :eq:`equal <0223.g2:< N G R ) = 0223.g2:< E G Q )>`. The angles :g:`$NRG$ <0223.g2:< N R G )>`, :g:`$EQG$ <0223.g2:< E Q G )>` are both :eq:`right <0223.g2:< N R G ) = 0223.g2:< E Q G )>`, and :g:`$NG$ <0223.g2:/ G N />` $=$ :g:`$GE$ <0223.g2:/ E G />`, by construction.
 
 Therefore (I. 26) :g:`$RG$ <0223.g2:/ G R />` $=$ :g:`$GQ$ <0223.g2:/ Q G />`;
 
@@ -576,7 +576,7 @@ Gerolamo Saccheri.
 
 The book :cite:`*Euclides ab omni naevo vindicatus* <saccheri:euclides-vindicatus>` (1733) by :person:`Gerolamo Saccheri <saccheri>` (1667—1733), a Jesuit, and professor at the University of Pavia, is now accessible (1) edited in German by Engel and :person:`Stäckel <staeckel>`, :cite:`*Die Theorie der Parallellinien von Euklid bis auf Gauss* <staeckel-engel:parallellinien>`, 1895, pp. 41—136, and (2) in an Italian version, abridged but annotated, *L'Euclide emendato del P. Gerolamo Saccheri*, by G. Boccardini (Hoepli, Milan, 1904). It is of much greater importance than all the earlier attempts to prove Post. 5 because :person:`Saccheri <saccheri>` was the first to contemplate the possibility of hypotheses other than that of :person:`Euclid <euclid>`, and to work out a number of consequences of those hypotheses. He was therefore a true precursor of :person:`Legendre <legendre>` and of :person:`Lobachewsky <lobachevsky>`, as :person:`Beltrami <beltrami>` called him (1889), and, it might be added, of :person:`Riemann <riemann>` also. For, as :person:`Veronese <veronese>` observes (*Fondamenti di geometria*, p. 570), :person:`Saccheri <saccheri>` obtained a glimpse of the theory of parallels in all its generality, while :person:`Legendre <legendre>`, :person:`Lobachewsky <lobachevsky>` and G. :person:`Bolyai <bolyai>` excluded *a priori*, without knowing it, the "hypothesis of the obtuse angle," or the :person:`Riemann <riemann>` hypothesis. :person:`Saccheri <saccheri>`, however, was the victim of the preconceived notion of his time that the sole possible geometry was the Euclidean, and he presents the curious spectacle of a man laboriously erecting a structure upon new foundations for the very purpose of demolishing it afterwards; he sought for contradictions in the heart of the systems which he constructed, in order to prove thereby the falsity of his hypotheses.
 
-For the purpose of formulating his hypotheses he takes a plane quadrilateral :g:`$ABDC$ <0225.g1:< A B D C >>`, two opposite sides of which, :g:`$AC$ <0225.g1:/ A C />`, :g:`$BD$ <0225.g1:/ B D />`, are equal and perpendicular to a third :g:`$AB$ <0225.g1:/ A B />`. Then the angles at :g:`$C$ <0225.g1:C>` and :g:`$D$ <0225.g1:D>` are easily proved to be equal. On the Euclidean hypothesis they are both right angles; but apart from this hypothesis they might be both obtuse or both acute. To the three possibilities, which :person:`Saccheri <saccheri>` distinguishes by the names (1) *the hypothesis of the right angle*, (2) *the hypothesis of the obtuse angle* and (3) *the hypothesis of the acute angle* respectively, there corresponds a certain group of theorems; and Saccheri's point of view is that the Postulate will be completely proved if the consequences which follow from the last two hypotheses comprise results inconsistent with one another.
+For the purpose of formulating his hypotheses he takes a plane quadrilateral :g:`$ABDC$ <0225.g1:< A B D C >>`, two opposite sides of which, :g:`$AC$ <0225.g1:/ A C />`, :g:`$BD$ <0225.g1:/ B D />`, are :eq:`equal <0225.g1:/ A C / = 0225.g1:/ B D />` and perpendicular to a third :g:`$AB$ <0225.g1:/ A B />`. Then the angles at :g:`$C$ <0225.g1:C>` and :g:`$D$ <0225.g1:D>` are easily proved to be :eq:`equal <0225.g1:< A C D ) = 0225.g1:< B D C )>`. On the Euclidean hypothesis they are both right angles; but apart from this hypothesis they might be both obtuse or both acute. To the three possibilities, which :person:`Saccheri <saccheri>` distinguishes by the names (1) *the hypothesis of the right angle*, (2) *the hypothesis of the obtuse angle* and (3) *the hypothesis of the acute angle* respectively, there corresponds a certain group of theorems; and Saccheri's point of view is that the Postulate will be completely proved if the consequences which follow from the last two hypotheses comprise results inconsistent with one another.
 
 .. picture:: 0225.g1.svg
    :alt: Saccheri's isosceles birectangular quadrilateral ABDC
@@ -652,12 +652,12 @@ No account of our present subject would be complete without a full reference to 
 
 It is required to prove that the sum of the angles of a triangle cannot be *less* than two right angles.
 
-Suppose :g:`$A$ <0228.g1:< C A B )>` is the least of the three angles of a triangle :g:`$ABC$ <0228.g1:< A B C >>`. Apply to the opposite side :g:`$BC$ <0228.g1:/ B C />` a triangle :g:`$DBC$ <0228.g1:< D B C >>`, equal to the triangle :g:`$ACB$ <0228.g1:< A B C >>`, and such that the angle :g:`$DBC$ <0228.g1:< D B C )>` is equal to the angle :g:`$ACB$ <0228.g1:< A C B )>`, and the angle :g:`$DCB$ <0228.g1:< D C B )>` to the angle :g:`$ABC$ <0228.g1:< A B C )>`; and *draw any straight line through* :g:`$D$ <0228.g1:D>` *cutting* :g:`$AB$ <0228.g1:/ A B />`, :g:`$AC$ <0228.g1:/ A C />` *produced in* :g:`$E$ <0228.g1:E>`, :g:`$F$ <0228.g1:F>`.
+Suppose :g:`$A$ <0228.g1:< C A B )>` is the least of the three angles of a triangle :g:`$ABC$ <0228.g1:< A B C >>`. Apply to the opposite side :g:`$BC$ <0228.g1:/ B C />` a triangle :g:`$DBC$ <0228.g1:< D B C >>`, :eq:`equal <0228.g1:< D B C > = 0228.g1:< A B C >>` to the triangle :g:`$ACB$ <0228.g1:< A B C >>`, and such that the angle :g:`$DBC$ <0228.g1:< D B C )>` is :eq:`equal <0228.g1:< D B C ) = 0228.g1:< A C B ); 0228.g1:< D C B ) = 0228.g1:< A B C )>` to the angle :g:`$ACB$ <0228.g1:< A C B )>`, and the angle :g:`$DCB$ <0228.g1:< D C B )>` to the angle :g:`$ABC$ <0228.g1:< A B C )>`; and *draw any straight line through* :g:`$D$ <0228.g1:D>` *cutting* :g:`$AB$ <0228.g1:/ A B />`, :g:`$AC$ <0228.g1:/ A C />` *produced in* :g:`$E$ <0228.g1:E>`, :g:`$F$ <0228.g1:F>`.
 
 .. picture:: 0228.g1.svg
    :alt: Legendre's construction for doubling the angle deficit of a triangle
 
-If now the sum of the angles of the triangle :g:`$ABC$ <0228.g1:< A B C >>` is less than two right angles, being equal to $2R - \delta$ say, the sum of the angles of the triangle :g:`$DBC$ <0228.g1:< D B C >>`, equal to the triangle :g:`$ABC$ <0228.g1:< A B C >>`, is also $2R - \delta$.
+If now the sum of the angles of the triangle :g:`$ABC$ <0228.g1:< A B C >>` is less than two right angles, being equal to $2R - \delta$ say, the sum of the angles of the triangle :g:`$DBC$ <0228.g1:< D B C >>`, :eq:`equal <0228.g1:< D B C > = 0228.g1:< A B C >>` to the triangle :g:`$ABC$ <0228.g1:< A B C >>`, is also $2R - \delta$.
 
 Since the sum of the three angles of the remaining triangles :g:`$DEB$ <0228.g1:< D E B >>`, :g:`$FDC$ <0228.g1:< F D C >>` respectively cannot at all events be *greater* than two right angles [for Legendre's proofs of this see below], the sum of the twelve angles of the four triangles in the figure *cannot be greater* than
 
@@ -687,7 +687,7 @@ But again, in the twelfth, he returned to the plan of constructing any number of
 
 Let :g:`$ABC$ <0229.g1:< A B C >>` be the given triangle; let :g:`$AB$ <0229.g1:/ A B />` be the greatest side and :g:`$BC$ <0229.g1:/ B C />` the least; therefore :g:`$C$ <0229.g1:< A C B )>` is the greatest angle and :g:`$A$ <0229.g1:< C A B )>` the least.
 
-From :g:`$A$ <0229.g1:A>` draw :g:`$AD$ <0229.g1:/ A D />` to the middle point of :g:`$BC$ <0229.g1:/ B C />`, and produce :g:`$AD$ <0229.g1:/ A D />` to :g:`$C'$ <0229.g1:C'>`, making :g:`$AC'$ <0229.g1:/ A C' />` equal to :g:`$AB$ <0229.g1:/ A B />`.
+From :g:`$A$ <0229.g1:A>` draw :g:`$AD$ <0229.g1:/ A D />` to the :eq:`middle point <0229.g1:/ B D / = 0229.g1:/ D C />` of :g:`$BC$ <0229.g1:/ B C />`, and produce :g:`$AD$ <0229.g1:/ A D />` to :g:`$C'$ <0229.g1:C'>`, making :g:`$AC'$ <0229.g1:/ A C' />` :eq:`equal <0229.g1:/ A C' / = 0229.g1:/ A B />` to :g:`$AB$ <0229.g1:/ A B />`.
 
 Produce :g:`$AB$ <0229.g1:/ A B />` to :g:`$B'$ <0229.g1:B'>`, making :g:`$AB'$ <0229.g1:/ A B' />` equal to twice :g:`$AD$ <0229.g1:/ A D />`.
 
@@ -696,19 +696,19 @@ The triangle :g:`$AB'C'$ <0229.g1:< A B' C' >>` is then such that the sum of its
 .. picture:: 0229.g1.svg
    :alt: Legendre's twelfth edition construction of successive triangles
 
-For take :g:`$AK$ <0229.g1:/ A K />` along :g:`$AB$ <0229.g1:/ A B />` equal to :g:`$AD$ <0229.g1:/ A D />`, and join :g:`$C'K$ <0229.g1:/ C' K />`.
+For take :g:`$AK$ <0229.g1:/ A K />` along :g:`$AB$ <0229.g1:/ A B />` :eq:`equal <0229.g1:/ A K / = 0229.g1:/ A D />` to :g:`$AD$ <0229.g1:/ A D />`, and join :g:`$C'K$ <0229.g1:/ C' K />`.
 
-Then the triangles :g:`$ABD$ <0229.g1:< A B D >>`, :g:`$AC'K$ <0229.g1:< A C' K >>` have two sides and the included angles respectively equal, and are therefore equal in all respects; and :g:`$C'K$ <0229.g1:/ C' K />` is equal to :g:`$BD$ <0229.g1:/ B D />` or :g:`$DC$ <0229.g1:/ D C />`.
+Then the triangles :g:`$ABD$ <0229.g1:< A B D >>`, :g:`$AC'K$ <0229.g1:< A C' K >>` have two sides and the included angles respectively :eq:`equal <0229.g1:/ A B / = 0229.g1:/ A C' /; 0229.g1:/ A D / = 0229.g1:/ A K />`, and are therefore :eq:`equal <0229.g1:< A B D > = 0229.g1:< A C' K >>` in all respects; and :g:`$C'K$ <0229.g1:/ C' K />` is :eq:`equal <0229.g1:/ C' K / = 0229.g1:/ B D / = 0229.g1:/ D C />` to :g:`$BD$ <0229.g1:/ B D />` or :g:`$DC$ <0229.g1:/ D C />`.
 
-Next, in the triangles :g:`$B'C'K$ <0229.g1:< B' C' K >>`, :g:`$ACD$ <0229.g1:< A C D >>`, the angles :g:`$B'KC'$ <0229.g1:< B' K C' )>`, :g:`$ADC$ <0229.g1:< A D C )>` are equal, being respectively supplementary to the equal angles :g:`$AKC'$ <0229.g1:< A K C' )>`, :g:`$ADB$ <0229.g1:< A D B )>`; and the two sides about the equal angles are respectively equal;
+Next, in the triangles :g:`$B'C'K$ <0229.g1:< B' C' K >>`, :g:`$ACD$ <0229.g1:< A C D >>`, the angles :g:`$B'KC'$ <0229.g1:< B' K C' )>`, :g:`$ADC$ <0229.g1:< A D C )>` are :eq:`equal <0229.g1:< B' K C' ) = 0229.g1:< A D C )>`, being respectively supplementary to the :eq:`equal <0229.g1:< A K C' ) = 0229.g1:< A D B )>` angles :g:`$AKC'$ <0229.g1:< A K C' )>`, :g:`$ADB$ <0229.g1:< A D B )>`; and the two sides about the equal angles are respectively equal;
 
-therefore the triangles :g:`$B'C'K$ <0229.g1:< B' C' K >>`, :g:`$ACD$ <0229.g1:< A C D >>` are equal in all respects.
+therefore the triangles :g:`$B'C'K$ <0229.g1:< B' C' K >>`, :g:`$ACD$ <0229.g1:< A C D >>` are :eq:`equal <0229.g1:< B' C' K > = 0229.g1:< A C D >>` in all respects.
 
 Thus the angle :g:`$AC'B'$ <0229.g1:< A C' B' )>` is the sum of two angles respectively equal to the angles :g:`$B$ <0229.g1:< A B C )>`, :g:`$C$ <0229.g1:< A C B )>` of the original triangle; and the angle :g:`$A$ <0229.g1:< C A B )>` in the original triangle is the sum of two angles respectively equal to the angles at :g:`$A$ <0229.g1:A>` and :g:`$B'$ <0229.g1:B'>` in the triangle :g:`$AB'C'$ <0229.g1:< A B' C' >>`.
 
 It follows that the sum of the three angles of the new triangle :g:`$AB'C'$ <0229.g1:< A B' C' >>` is equal to the sum of the angles of the triangle :g:`$ABC$ <0229.g1:< A B C >>`.
 
-Moreover, the side :g:`$AC'$ <0229.g1:/ A C' />`, being equal to :g:`$AB$ <0229.g1:/ A B />`, and therefore greater than :g:`$AC$ <0229.g1:/ A C />`, is greater than :g:`$B'C'$ <0229.g1:/ B' C' />` which is equal to :g:`$AC$ <0229.g1:/ A C />`.
+Moreover, the side :g:`$AC'$ <0229.g1:/ A C' />`, being :eq:`equal <0229.g1:/ A C' / = 0229.g1:/ A B />` to :g:`$AB$ <0229.g1:/ A B />`, and therefore greater than :g:`$AC$ <0229.g1:/ A C />`, is greater than :g:`$B'C'$ <0229.g1:/ B' C' />` which is :eq:`equal <0229.g1:/ B' C' / = 0229.g1:/ A C />` to :g:`$AC$ <0229.g1:/ A C />`.
 
 Hence the angle :g:`$C'AB'$ <0229.g1:< C' A B' )>` is less than the angle :g:`$AB'C'$ <0229.g1:< A B' C' )>`; so that the angle :g:`$C'AB'$ <0229.g1:< C' A B' )>` is less than $\frac{1}{2}A$, where :g:`$A$ <0229.g1:< C A B )>` denotes the angle :g:`$CAB$ <0229.g1:< C A B )>` of the original triangle.
 
@@ -738,9 +738,9 @@ This :person:`Legendre <legendre>` proved in two ways.
 
 Let :g:`$ABC$ <0230.g1:< A B C >>` be the given triangle, and :g:`$ACJ$ <0230.g1:/ A C J />` a straight line.
 
-Make :g:`$CE$ <0230.g1:/ C E />` equal to :g:`$AC$ <0230.g1:/ A C />`, the angle :g:`$DCE$ <0230.g1:< D C E )>` equal to the angle :g:`$BAC$ <0230.g1:< B A C )>`, and :g:`$DC$ <0230.g1:/ C D />` equal to :g:`$AB$ <0230.g1:/ A B />`. Join :g:`$DE$ <0230.g1:/ D E />`.
+Make :g:`$CE$ <0230.g1:/ C E />` :eq:`equal <0230.g1:/ C E / = 0230.g1:/ A C />` to :g:`$AC$ <0230.g1:/ A C />`, the angle :g:`$DCE$ <0230.g1:< D C E )>` :eq:`equal <0230.g1:< D C E ) = 0230.g1:< B A C )>` to the angle :g:`$BAC$ <0230.g1:< B A C )>`, and :g:`$DC$ <0230.g1:/ C D />` :eq:`equal <0230.g1:/ C D / = 0230.g1:/ A B />` to :g:`$AB$ <0230.g1:/ A B />`. Join :g:`$DE$ <0230.g1:/ D E />`.
 
-Then the triangle :g:`$DCE$ <0230.g1:< D C E >>` is equal to the triangle :g:`$BAC$ <0230.g1:< A B C >>` in all respects.
+Then the triangle :g:`$DCE$ <0230.g1:< D C E >>` is :eq:`equal <0230.g1:< D C E > = 0230.g1:< A B C >>` to the triangle :g:`$BAC$ <0230.g1:< A B C >>` in all respects.
 
 If then the sum of the three angles of the triangle :g:`$ABC$ <0230.g1:< A B C >>` is greater than
 
@@ -755,13 +755,13 @@ Subtracting the equal angles on both sides, we have the result that
 
    the angle :g:`$ABC$ <0230.g1:< A B C )>` is *greater* than the angle :g:`$BCD$ <0230.g1:< B C D )>`.
 
-But the two sides :g:`$AB$ <0230.g1:/ A B />`, :g:`$BC$ <0230.g1:/ B C />` of the triangle :g:`$ABC$ <0230.g1:< A B C >>` are respectively equal to the two sides :g:`$DC$ <0230.g1:/ C D />`, :g:`$CB$ <0230.g1:/ B C />` of the triangle :g:`$BCD$ <0230.g1:< B C D >>`.
+But the two sides :g:`$AB$ <0230.g1:/ A B />`, :g:`$BC$ <0230.g1:/ B C />` of the triangle :g:`$ABC$ <0230.g1:< A B C >>` are respectively :eq:`equal <0230.g1:/ A B / = 0230.g1:/ C D />` to the two sides :g:`$DC$ <0230.g1:/ C D />`, :g:`$CB$ <0230.g1:/ B C />` of the triangle :g:`$BCD$ <0230.g1:< B C D >>`.
 
 Therefore the base :g:`$AC$ <0230.g1:/ A C />` is *greater* than the base :g:`$BD$ <0230.g1:/ B D />` (Eucl. I. 24).
 
-Next, make the triangle :g:`$FEG$ <0230.g1:< F E G >>` (by the same construction) equal in all respects to the triangle :g:`$BAC$ <0230.g1:< A B C >>` or :g:`$DCE$ <0230.g1:< D C E >>`; and we prove in the same way that :g:`$CE$ <0230.g1:/ C E />` (or :g:`$AC$ <0230.g1:/ A C />`) is *greater* than :g:`$DF$ <0230.g1:/ D F />`.
+Next, make the triangle :g:`$FEG$ <0230.g1:< F E G >>` (by the same construction) :eq:`equal <0230.g1:< F E G > = 0230.g1:< A B C > = 0230.g1:< D C E >>` in all respects to the triangle :g:`$BAC$ <0230.g1:< A B C >>` or :g:`$DCE$ <0230.g1:< D C E >>`; and we prove in the same way that :g:`$CE$ <0230.g1:/ C E />` (or :g:`$AC$ <0230.g1:/ A C />`) is *greater* than :g:`$DF$ <0230.g1:/ D F />`.
 
-And, at the same time, :g:`$BD$ <0230.g1:/ B D />` is equal to :g:`$DF$ <0230.g1:/ D F />`, because the angles :g:`$BCD$ <0230.g1:< B C D )>`, :g:`$DEF$ <0230.g1:< D E F )>` are equal.
+And, at the same time, :g:`$BD$ <0230.g1:/ B D />` is :eq:`equal <0230.g1:/ B D / = 0230.g1:/ D F />` to :g:`$DF$ <0230.g1:/ D F />`, because the angles :g:`$BCD$ <0230.g1:< B C D )>`, :g:`$DEF$ <0230.g1:< D E F )>` are :eq:`equal <0230.g1:< B C D ) = 0230.g1:< D E F )>`.
 
 Continuing the construction of further triangles, however small the difference between :g:`$AC$ <0230.g1:/ A C />` and :g:`$BD$ <0230.g1:/ B D />` is, we shall ultimately reach some multiple
 of this difference, represented in the figure by (say) the difference between the straight line :g:`$AJ$ <0230.g1:/ A J />` and the composite line :g:`$BDFHK$ <0230.g1:/ B D F H K />`, which will be greater than any assigned length, and greater therefore than the sum of :g:`$AB$ <0230.g1:/ A B />` and :g:`$JK$ <0230.g1:/ J K />`.
@@ -779,12 +779,12 @@ Therefore etc.
 
 If possible, let $2R + \alpha$ be the sum of the three angles of the triangle :g:`$ABC$ <0231.g1:< A B C >>`, of which :g:`$A$ <0231.g1:< C A B )>` is not greater than either of the others.
 
-Bisect :g:`$BC$ <0231.g1:/ B C />` at :g:`$H$ <0231.g1:H>`, and produce :g:`$AH$ <0231.g1:/ A H />` to :g:`$D$ <0231.g1:D>`, making :g:`$HD$ <0231.g1:/ H D />` equal to :g:`$AH$ <0231.g1:/ A H />`; join :g:`$BD$ <0231.g1:/ B D />`.
+:eq:`Bisect <0231.g1:/ B H / = 0231.g1:/ H C />` :g:`$BC$ <0231.g1:/ B C />` at :g:`$H$ <0231.g1:H>`, and produce :g:`$AH$ <0231.g1:/ A H />` to :g:`$D$ <0231.g1:D>`, making :g:`$HD$ <0231.g1:/ H D />` :eq:`equal <0231.g1:/ H D / = 0231.g1:/ A H />` to :g:`$AH$ <0231.g1:/ A H />`; join :g:`$BD$ <0231.g1:/ B D />`.
 
 .. picture:: 0231.g1.svg
    :alt: Diagram for Legendre's second proof of Theorem I
 
-Then the triangles :g:`$AHC$ <0231.g1:< A H C >>`, :g:`$DHB$ <0231.g1:< D H B >>` are equal in all respects (I. 4); and the angles :g:`$CAH$ <0231.g1:< C A H )>`, :g:`$ACH$ <0231.g1:< A C H )>` are respectively equal to the angles :g:`$BDH$ <0231.g1:< B D H )>`, :g:`$DBH$ <0231.g1:< D B H )>`.
+Then the triangles :g:`$AHC$ <0231.g1:< A H C >>`, :g:`$DHB$ <0231.g1:< D H B >>` are :eq:`equal <0231.g1:< A H C > = 0231.g1:< D H B >>` in all respects (I. 4); and the angles :g:`$CAH$ <0231.g1:< C A H )>`, :g:`$ACH$ <0231.g1:< A C H )>` are respectively :eq:`equal <0231.g1:< C A H ) = 0231.g1:< B D H ); 0231.g1:< A C H ) = 0231.g1:< D B H )>` to the angles :g:`$BDH$ <0231.g1:< B D H )>`, :g:`$DBH$ <0231.g1:< D B H )>`.
 
 It follows that the sum of the angles of the triangle :g:`$ABD$ <0231.g1:< A B D >>` is equal to the sum of the angles of the original triangle, i.e. to $2R + \alpha$.
 
@@ -869,14 +869,14 @@ LEMMA. *It is always possible, through a point* :g:`$P$ <0233.g1:P>`, *to draw a
 
 Let :g:`$Q$ <0233.g1:Q>` be the foot of the perpendicular from :g:`$P$ <0233.g1:P>` upon :g:`$r$ <0233.g1:[ Q R' ]>`.
 
-Let a segment :g:`$QR$ <0233.g1:/ Q R />` be taken on :g:`$r$ <0233.g1:[ Q R' ]>`, on either side of :g:`$Q$ <0233.g1:Q>`, such that :g:`$QR$ <0233.g1:/ Q R />` is equal to :g:`$PQ$ <0233.g1:/ P Q />`.
+Let a segment :g:`$QR$ <0233.g1:/ Q R />` be taken on :g:`$r$ <0233.g1:[ Q R' ]>`, on either side of :g:`$Q$ <0233.g1:Q>`, such that :g:`$QR$ <0233.g1:/ Q R />` is :eq:`equal <0233.g1:/ Q R / = 0233.g1:/ P Q />` to :g:`$PQ$ <0233.g1:/ P Q />`.
 
 .. picture:: 0233.g1.svg
    :alt: Diagram for Lemma to Proposition VII
 
-Join :g:`$PR$ <0233.g1:/ P R />`, and mark off the segment :g:`$RR'$ <0233.g1:/ R R' />` equal to :g:`$PR$ <0233.g1:/ P R />`; join :g:`$PR'$ <0233.g1:/ P R' />`.
+Join :g:`$PR$ <0233.g1:/ P R />`, and mark off the segment :g:`$RR'$ <0233.g1:/ R R' />` :eq:`equal <0233.g1:/ R R' / = 0233.g1:/ P R />` to :g:`$PR$ <0233.g1:/ P R />`; join :g:`$PR'$ <0233.g1:/ P R' />`.
 
-If :g:`$\omega$ <0233.g1:< Q P R )>` represents the angle :g:`$QPR$ <0233.g1:< Q P R )>` or the angle :g:`$QRP$ <0233.g1:< Q R P )>`, each of the equal angles :g:`$RPR'$ <0233.g1:< R P R' )>`, :g:`$RR'P$ <0233.g1:< R R' P )>` is not greater than :g:`$\omega/2$ <0233.g1:< R P R' )>`.
+If :g:`$\omega$ <0233.g1:< Q P R )>` represents the angle :g:`$QPR$ <0233.g1:< Q P R )>` or the angle :g:`$QRP$ <0233.g1:< Q R P )>`, each of the :eq:`equal <0233.g1:< R P R' ) = 0233.g1:< R R' P )>` angles :g:`$RPR'$ <0233.g1:< R P R' )>`, :g:`$RR'P$ <0233.g1:< R R' P )>` is not greater than :g:`$\omega/2$ <0233.g1:< R P R' )>`.
 
 Continuing the construction, we obtain, after the requisite number of operations, a triangle $PR_{n-1}R_n$ in which each of the equal angles is equal to or less than $\omega/2^n$.
 

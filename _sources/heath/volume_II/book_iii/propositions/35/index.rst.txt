@@ -32,7 +32,7 @@ I say that the rectangle contained by :g:`$AE$ <0077.g2:/ A E />`,
 If now :g:`$AC$ <0077.g2:/ A C />`, :g:`$BD$ <0077.g2:/ B D />` are through the centre,
 so that :g:`$E$ <0077.g2:E>` is the centre of the circle :g:`$ABCD$ <0077.g2:( A B C D )>`,
 it is manifest that, :g:`$AE$ <0077.g2:/ A E />`, :g:`$EC$ <0077.g2:/ E C />`, :g:`$DE$ <0077.g2:/ D E />`, :g:`$EB$ <0077.g2:/ E B />`
-being equal,
+being :eq:`equal <0077.g2:/ A E / = 0077.g2:/ E C / = 0077.g2:/ D E / = 0077.g2:/ E B />`,
 the rectangle contained by :g:`$AE$ <0077.g2:/ A E />`, :g:`$EC$ <0077.g2:/ E C />` is also equal to the
 rectangle contained by :g:`$DE$ <0077.g2:/ D E />`, :g:`$EB$ <0077.g2:/ E B />`.
 
@@ -62,7 +62,7 @@ angles,
 
 .. assertion::
 
-   therefore :g:`$AG$ <0078.g1:/ A G />` is equal to :g:`$GC$ <0078.g1:/ G C />`.
+   therefore :g:`$AG$ <0078.g1:/ A G />` is :eq:`equal <0078.g1:/ A G / = 0078.g1:/ G C />` to :g:`$GC$ <0078.g1:/ G C />`.
 
 Since, then, the straight line :g:`$AC$ <0078.g1:/ A C />` has been cut into equal
 parts at :g:`$G$ <0078.g1:G>` and into unequal parts at :g:`$E$ <0078.g1:E>`,
@@ -79,7 +79,7 @@ and the square on :g:`$FC$ <0078.g1:/ F C />` is equal to the squares on :g:`$CG
 therefore the rectangle :g:`$AE$ <0078.g1:/ A E />`, :g:`$EC$ <0078.g1:/ E C />` together with the square
 on :g:`$FE$ <0078.g1:/ F E />` is equal to the square on :g:`$FC$ <0078.g1:/ F C />`.
 
-And :g:`$FC$ <0078.g1:/ F C />` is equal to :g:`$FB$ <0078.g1:/ F B />`;
+And :g:`$FC$ <0078.g1:/ F C />` is :eq:`equal <0078.g1:/ F C / = 0078.g1:/ F B />` to :g:`$FB$ <0078.g1:/ F B />`;
 therefore the rectangle :g:`$AE$ <0078.g1:/ A E />`, :g:`$EC$ <0078.g1:/ E C />` together with the square on
 :g:`$EF$ <0078.g1:/ E F />` is equal to the square on :g:`$FB$ <0078.g1:/ F B />`.
 

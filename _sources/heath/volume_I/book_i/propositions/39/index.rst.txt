@@ -20,7 +20,7 @@ PROPOSITION 39.
 
    Equal triangles which are on the same base and on the same side are also in the same parallels.
 
-Let :g:`$ABC$ <0350.g2:< A B C >>`, :g:`$DBC$ <0350.g2:< D B C >>` be equal triangles which are on the same base :g:`$BC$ <0350.g2:/ B C />` and on the same side of it; [I say that they are also in the same parallels.]\ [#f1]_ And [For] let :g:`$AD$ <0350.g2:/ A D />` be joined;
+Let :g:`$ABC$ <0350.g2:< A B C >>`, :g:`$DBC$ <0350.g2:< D B C >>` be :eq:`equal <0350.g2:< A B C > = 0350.g2:< D B C >>` triangles which are on the same base :g:`$BC$ <0350.g2:/ B C />` and on the same side of it; [I say that they are also in the same parallels.]\ [#f1]_ And [For] let :g:`$AD$ <0350.g2:/ A D />` be joined;
 
 I say that :g:`$AD$ <0350.g2:/ A D />` is parallel to :g:`$BC$ <0350.g2:/ B C />`.
 
@@ -31,13 +31,13 @@ For, if not, let :g:`$AE$ <0350.g2:/ A E />` be drawn through the point :g:`$A$ 
 
 and let :g:`$EC$ <0350.g2:/ E C />` be joined.
 
-Therefore the triangle :g:`$ABC$ <0350.g2:< A B C >>` is equal to the triangle :g:`$EBC$ <0350.g2:< E B C >>`; for it is on the same base :g:`$BC$ <0350.g2:/ B C />` with it and in the same parallels. :just:`[I. 37] <I.37>`
+Therefore the triangle :g:`$ABC$ <0350.g2:< A B C >>` is :eq:`equal <0350.g2:< A B C > = 0350.g2:< E B C >>` to the triangle :g:`$EBC$ <0350.g2:< E B C >>`; for it is on the same base :g:`$BC$ <0350.g2:/ B C />` with it and in the same parallels. :just:`[I. 37] <I.37>`
 
-But :g:`$ABC$ <0350.g2:< A B C >>` is equal to :g:`$DBC$ <0350.g2:< D B C >>`;
+But :g:`$ABC$ <0350.g2:< A B C >>` is :eq:`equal <0350.g2:< A B C > = 0350.g2:< D B C >>` to :g:`$DBC$ <0350.g2:< D B C >>`;
 
 .. assertion::
 
-   therefore :g:`$DBC$ <0350.g2:< D B C >>` is also equal to :g:`$EBC$ <0350.g2:< E B C >>`, :just:`[C. N. 1] <I.cn.1>` the greater to the less: which is impossible.
+   therefore :g:`$DBC$ <0350.g2:< D B C >>` is also :eq:`equal <0350.g2:< D B C > = 0350.g2:< E B C >>` to :g:`$EBC$ <0350.g2:< E B C >>`, :just:`[C. N. 1] <I.cn.1>` the greater to the less: which is impossible.
 
 .. assertion::
 

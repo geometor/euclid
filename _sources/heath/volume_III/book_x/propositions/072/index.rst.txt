@@ -25,8 +25,8 @@ For let two medial areas :g:`$AB$ <0159.g1:< A B >>`, :g:`$CD$ <0159.g1:< C D >>
 .. picture:: 0159.g1.svg
    :alt: Proposition 72 diagram
 
-For :g:`$AB$ <0159.g1:< A B >>` is either greater or less than :g:`$CD$ <0159.g1:< C D >>`. First, if it so chance, let :g:`$AB$ <0159.g1:< A B >>` be greater than :g:`$CD$ <0159.g1:< C D >>`. Let the rational straight line :g:`$EF$ <0159.g1:/ E F />` be set out, and to :g:`$EF$ <0159.g1:/ E F />` let there be applied the rectangle :g:`$EG$ <0159.g1:< E G >>` equal to
-:g:`$AB$ <0159.g1:< A B >>` and producing :g:`$EH$ <0159.g1:/ E H />` as breadth, and the rectangle :g:`$HI$ <0159.g1:< H I >>` equal to :g:`$CD$ <0159.g1:< C D >>` and producing :g:`$HK$ <0159.g1:/ H K />` as breadth.
+For :g:`$AB$ <0159.g1:< A B >>` is either greater or less than :g:`$CD$ <0159.g1:< C D >>`. First, if it so chance, let :g:`$AB$ <0159.g1:< A B >>` be greater than :g:`$CD$ <0159.g1:< C D >>`. Let the rational straight line :g:`$EF$ <0159.g1:/ E F />` be set out, and to :g:`$EF$ <0159.g1:/ E F />` let there be applied the rectangle :g:`$EG$ <0159.g1:< E G >>` :eq:`equal <0159.g1:< E G > = 0159.g1:< A B >>` to
+:g:`$AB$ <0159.g1:< A B >>` and producing :g:`$EH$ <0159.g1:/ E H />` as breadth, and the rectangle :g:`$HI$ <0159.g1:< H I >>` :eq:`equal <0159.g1:< H I > = 0159.g1:< C D >>` to :g:`$CD$ <0159.g1:< C D >>` and producing :g:`$HK$ <0159.g1:/ H K />` as breadth.
 
 .. _folio-iii-0160:
 
@@ -51,7 +51,7 @@ For :g:`$AB$ <0159.g1:< A B >>` is either greater or less than :g:`$CD$ <0159.g1
 
 .. subclause::
 
-   And, since :g:`$AB$ <0159.g1:< A B >>` is incommensurable with :g:`$CD$ <0159.g1:< C D >>`, and :g:`$AB$ <0159.g1:< A B >>` is equal to :g:`$EG$ <0159.g1:< E G >>`, and :g:`$CD$ <0159.g1:< C D >>` to :g:`$HI$ <0159.g1:< H I >>`,
+   And, since :g:`$AB$ <0159.g1:< A B >>` is incommensurable with :g:`$CD$ <0159.g1:< C D >>`, and :g:`$AB$ <0159.g1:< A B >>` is :eq:`equal <0159.g1:< A B > = 0159.g1:< E G >; 0159.g1:< C D > = 0159.g1:< H I >>` to :g:`$EG$ <0159.g1:< E G >>`, and :g:`$CD$ <0159.g1:< C D >>` to :g:`$HI$ <0159.g1:< H I >>`,
 
 .. assertion::
 

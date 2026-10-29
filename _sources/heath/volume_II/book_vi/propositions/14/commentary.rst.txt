@@ -30,7 +30,7 @@ The conclusion that, since :g:`$DB$ <0223.g1:/ D B />`, :g:`$BE$ <0223.g1:/ B E 
 
 .. subclause::
 
-   The angle :g:`$DBF$ <0223.g1:< D B F )>` is equal to the angle :g:`$GBE$ <0223.g1:< G B E )>`; add to each the angle :g:`$FBE$ <0223.g1:< F B E )>`;
+   The angle :g:`$DBF$ <0223.g1:< D B F )>` is :eq:`equal <0223.g1:< D B F ) = 0223.g1:< G B E )>` to the angle :g:`$GBE$ <0223.g1:< G B E )>`; add to each the angle :g:`$FBE$ <0223.g1:< F B E )>`;
 
 .. assertion::
 
@@ -59,7 +59,7 @@ The proposition VI. 14 contains a theorem and one partial converse of it; so als
 
    Equal parallelograms [triangles] which have the sides about one angle in each reciprocally proportional are equiangular [have the angles included by those sides either equal or supplementary].
 
-Let :g:`$AB$ <0224.g1:< A B >>`, :g:`$BC$ <0224.g1:< B C >>` be equal parallelograms, or let :g:`$FBD$ <0224.g1:< F B D >>`, :g:`$EBG$ <0224.g1:< E B G >>` be equal
+Let :g:`$AB$ <0224.g1:< A B >>`, :g:`$BC$ <0224.g1:< B C >>` be :eq:`equal <0224.g1:< A B > = 0224.g1:< B C >>` parallelograms, or let :g:`$FBD$ <0224.g1:< F B D >>`, :g:`$EBG$ <0224.g1:< E B G >>` be :eq:`equal <0224.g1:< F B D > = 0224.g1:< E B G >>`
 triangles, such that the sides about the angles at :g:`$B$ <0224.g1:B>` are reciprocally proportional, i.e. such that
 
 .. _folio-ii-0225:
@@ -71,7 +71,7 @@ triangles, such that the sides about the angles at :g:`$B$ <0224.g1:B>` are reci
 
    :g:`$DB$ <0224.g1:/ D B />` : :g:`$BE$ <0224.g1:/ B E />` = :g:`$GB$ <0224.g1:/ G B />` : :g:`$BF$ <0224.g1:/ B F />`.
 
-We shall prove that the angles :g:`$FBD$ <0224.g1:< F B D )>`, :g:`$EBG$ <0224.g1:< E B G )>` are either equal or supplementary.
+We shall prove that the angles :g:`$FBD$ <0224.g1:< F B D )>`, :g:`$EBG$ <0224.g1:< E B G )>` are either :eq:`equal <0224.g1:< F B D ) = 0224.g1:< E B G )>` or supplementary.
 
 Place the figures so that :g:`$DB$ <0224.g1:/ D B />`, :g:`$BE$ <0224.g1:/ B E />` are in one straight line. Then :g:`$FB$ <0224.g1:/ F B />`, :g:`$BG$ <0224.g1:/ B G />` are either in a straight line, or not in a straight line.
 
@@ -79,9 +79,9 @@ Place the figures so that :g:`$DB$ <0224.g1:/ D B />`, :g:`$BE$ <0224.g1:/ B E /
 
 .. assertion:: [I. 15] <I.15>
 
-   the angle :g:`$FBD$ <0224.g1:< F B D )>` is equal to the angle :g:`$EBG$ <0224.g1:< E B G )>`.
+   the angle :g:`$FBD$ <0224.g1:< F B D )>` is :eq:`equal <0224.g1:< F B D ) = 0224.g1:< E B G )>` to the angle :g:`$EBG$ <0224.g1:< E B G )>`.
 
-(2) If :g:`$FB$ <0224.g1:/ F B />`, :g:`$BG$ <0224.g1:/ B G />` are not in a straight line, produce :g:`$FB$ <0224.g1:/ F B />` to :g:`$H$ <0224.g1:H>` so that :g:`$BH$ <0224.g1:/ B H />` may be equal to :g:`$BG$ <0224.g1:/ B G />`. Join :g:`$EH$ <0224.g1:/ E H />`, and complete the parallelogram :g:`$EBHK$ <0224.g1:< E B H K >>`.
+(2) If :g:`$FB$ <0224.g1:/ F B />`, :g:`$BG$ <0224.g1:/ B G />` are not in a straight line, produce :g:`$FB$ <0224.g1:/ F B />` to :g:`$H$ <0224.g1:H>` so that :g:`$BH$ <0224.g1:/ B H />` may be :eq:`equal <0224.g1:/ B H / = 0224.g1:/ B G />` to :g:`$BG$ <0224.g1:/ B G />`. Join :g:`$EH$ <0224.g1:/ E H />`, and complete the parallelogram :g:`$EBHK$ <0224.g1:< E B H K >>`.
 
 Now, since
 
@@ -89,18 +89,18 @@ Now, since
 
    :g:`$DB$ <0224.g1:/ D B />` : :g:`$BE$ <0224.g1:/ B E />` = :g:`$GB$ <0224.g1:/ G B />` : :g:`$BF$ <0224.g1:/ B F />` and :g:`$GB$ <0224.g1:/ G B />` = :g:`$HB$ <0224.g1:/ H B />`, :g:`$DB$ <0224.g1:/ D B />` : :g:`$BE$ <0224.g1:/ B E />` = :g:`$HB$ <0224.g1:/ H B />` : :g:`$BF$ <0224.g1:/ B F />`,
 
-and therefore, by VI. 14 or 15, the parallelograms :g:`$AB$ <0224.g1:< A B >>`, :g:`$BK$ <0224.g1:< B K >>` are equal, or the triangles :g:`$FBD$ <0224.g1:< F B D >>`, :g:`$EBH$ <0224.g1:< E B H >>` are equal.
+and therefore, by VI. 14 or 15, the parallelograms :g:`$AB$ <0224.g1:< A B >>`, :g:`$BK$ <0224.g1:< B K >>` are :eq:`equal <0224.g1:< A B > = 0224.g1:< B K >>`, or the triangles :g:`$FBD$ <0224.g1:< F B D >>`, :g:`$EBH$ <0224.g1:< E B H >>` are :eq:`equal <0224.g1:< F B D > = 0224.g1:< E B H >>`.
 
-But the parallelograms :g:`$AB$ <0224.g1:< A B >>`, :g:`$BC$ <0224.g1:< B C >>` are equal, and the triangles :g:`$FBD$ <0224.g1:< F B D >>`, :g:`$EBG$ <0224.g1:< E B G >>` are equal; therefore the parallelograms :g:`$BC$ <0224.g1:< B C >>`, :g:`$BK$ <0224.g1:< B K >>` are equal, and the triangles :g:`$EBH$ <0224.g1:< E B H >>`, :g:`$EBG$ <0224.g1:< E B G >>` are equal.
+But the parallelograms :g:`$AB$ <0224.g1:< A B >>`, :g:`$BC$ <0224.g1:< B C >>` are :eq:`equal <0224.g1:< A B > = 0224.g1:< B C >>`, and the triangles :g:`$FBD$ <0224.g1:< F B D >>`, :g:`$EBG$ <0224.g1:< E B G >>` are :eq:`equal <0224.g1:< F B D > = 0224.g1:< E B G >>`; therefore the parallelograms :g:`$BC$ <0224.g1:< B C >>`, :g:`$BK$ <0224.g1:< B K >>` are :eq:`equal <0224.g1:< B C > = 0224.g1:< B K >>`, and the triangles :g:`$EBH$ <0224.g1:< E B H >>`, :g:`$EBG$ <0224.g1:< E B G >>` are :eq:`equal <0224.g1:< E B H > = 0224.g1:< E B G >>`.
 
 Therefore these parallelograms or triangles are within the same parallels: that is, :g:`$G$ <0224.g1:G>`, :g:`$C$ <0224.g1:C>`, :g:`$H$ <0224.g1:H>`, :g:`$K$ <0224.g1:K>` are in a straight line which is parallel to :g:`$DE$ <0224.g1:/ D E />`. :just:`[I. 39] <I.39>`
 
-Now, since :g:`$BG$ <0224.g1:/ B G />`, :g:`$BH$ <0224.g1:/ B H />` are equal, the angles :g:`$BGH$ <0224.g1:< B G H )>`, :g:`$BHG$ <0224.g1:< B H G )>` are equal.
+Now, since :g:`$BG$ <0224.g1:/ B G />`, :g:`$BH$ <0224.g1:/ B H />` are :eq:`equal <0224.g1:/ B G / = 0224.g1:/ B H />`, the angles :g:`$BGH$ <0224.g1:< B G H )>`, :g:`$BHG$ <0224.g1:< B H G )>` are :eq:`equal <0224.g1:< B G H ) = 0224.g1:< B H G )>`.
 
 By parallels, it follows that
 
 .. assertion::
 
-   the angle :g:`$EBG$ <0224.g1:< E B G )>` is equal to the angle :g:`$DBH$ <0224.g1:< D B H )>`,
+   the angle :g:`$EBG$ <0224.g1:< E B G )>` is :eq:`equal <0224.g1:< E B G ) = 0224.g1:< D B H )>` to the angle :g:`$DBH$ <0224.g1:< D B H )>`,
 
 whence the angle :g:`$EBG$ <0224.g1:< E B G )>` is supplementary to the angle :g:`$FBD$ <0224.g1:< F B D )>`.

@@ -20,7 +20,7 @@ PROPOSITION 23.
 
    Equiangular parallelograms have to one another the ratio compounded of the ratios of their sides.\ [#f1]_
 
-Let :g:`$AC$ <0253.g1:< A C >>`, :g:`$CF$ <0253.g1:< C F >>` be equiangular parallelograms having the angle :g:`$BCD$ <0253.g1:< B C D )>` equal to the angle :g:`$ECG$ <0253.g1:< E C G )>`;
+Let :g:`$AC$ <0253.g1:< A C >>`, :g:`$CF$ <0253.g1:< C F >>` be equiangular parallelograms having the angle :g:`$BCD$ <0253.g1:< B C D )>` :eq:`equal <0253.g1:< B C D ) = 0253.g1:< E C G )>` to the angle :g:`$ECG$ <0253.g1:< E C G )>`;
 
 I say that the parallelogram :g:`$AC$ <0253.g1:< A C >>` has to the parallelogram :g:`$CF$ <0253.g1:< C F >>` the ratio compounded of the ratios of the sides.\ [#f1]_
 

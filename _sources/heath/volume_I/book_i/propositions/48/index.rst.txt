@@ -27,9 +27,9 @@ I say that the angle :g:`$BAC$ <0382.g2:< B A C )>` is right.
 .. picture:: 0382.g2.svg
    :alt: Folio 0382 Figure 2 - Proposition 48
 
-For let :g:`$AD$ <0382.g2:/ A D />` be drawn from the point :g:`$A$ <0382.g2:A>` at right angles to the straight line :g:`$AC$ <0382.g2:/ A C />`, let :g:`$AD$ <0382.g2:/ A D />` be made equal to :g:`$BA$ <0382.g2:/ B A />`, and let :g:`$DC$ <0382.g2:/ D C />` be joined.
+For let :g:`$AD$ <0382.g2:/ A D />` be drawn from the point :g:`$A$ <0382.g2:A>` at right angles to the straight line :g:`$AC$ <0382.g2:/ A C />`, let :g:`$AD$ <0382.g2:/ A D />` be made :eq:`equal <0382.g2:/ A D / = 0382.g2:/ B A />` to :g:`$BA$ <0382.g2:/ B A />`, and let :g:`$DC$ <0382.g2:/ D C />` be joined.
 
-Since :g:`$DA$ <0382.g2:/ D A />` is equal to :g:`$AB$ <0382.g2:/ A B />`, the square on :g:`$DA$ <0382.g2:/ D A />` is also equal to the square on :g:`$AB$ <0382.g2:/ A B />`.
+Since :g:`$DA$ <0382.g2:/ D A />` is :eq:`equal <0382.g2:/ D A / = 0382.g2:/ A B />` to :g:`$AB$ <0382.g2:/ A B />`, the square on :g:`$DA$ <0382.g2:/ D A />` is also equal to the square on :g:`$AB$ <0382.g2:/ A B />`.
 
 Let the square on :g:`$AC$ <0382.g2:/ A C />` be added to each;
 
@@ -46,19 +46,19 @@ and the square on :g:`$BC$ <0382.g2:/ B C />` is equal to the squares on :g:`$BA
 
 .. assertion::
 
-   therefore the square on :g:`$DC$ <0382.g2:/ D C />` is equal to the square on :g:`$BC$ <0382.g2:/ B C />`, so that the side :g:`$DC$ <0382.g2:/ D C />` is also equal to :g:`$BC$ <0382.g2:/ B C />`.
+   therefore the square on :g:`$DC$ <0382.g2:/ D C />` is equal to the square on :g:`$BC$ <0382.g2:/ B C />`, so that the side :g:`$DC$ <0382.g2:/ D C />` is also :eq:`equal <0382.g2:/ D C / = 0382.g2:/ B C />` to :g:`$BC$ <0382.g2:/ B C />`.
 
-And, since :g:`$DA$ <0382.g2:/ D A />` is equal to :g:`$AB$ <0382.g2:/ A B />`, and :g:`$AC$ <0382.g2:/ A C />` is common, the two sides :g:`$DA$ <0382.g2:/ D A />`, :g:`$AC$ <0382.g2:/ A C />` are equal to the two sides :g:`$BA$ <0382.g2:/ B A />`, :g:`$AC$ <0382.g2:/ A C />`; and the base :g:`$DC$ <0382.g2:/ D C />` is equal to the base :g:`$BC$ <0382.g2:/ B C />`;
+And, since :g:`$DA$ <0382.g2:/ D A />` is :eq:`equal <0382.g2:/ D A / = 0382.g2:/ A B />` to :g:`$AB$ <0382.g2:/ A B />`, and :g:`$AC$ <0382.g2:/ A C />` is common, the two sides :g:`$DA$ <0382.g2:/ D A />`, :g:`$AC$ <0382.g2:/ A C />` are :eq:`equal <0382.g2:/ D A / = 0382.g2:/ B A />` to the two sides :g:`$BA$ <0382.g2:/ B A />`, :g:`$AC$ <0382.g2:/ A C />`; and the base :g:`$DC$ <0382.g2:/ D C />` is :eq:`equal <0382.g2:/ D C / = 0382.g2:/ B C />` to the base :g:`$BC$ <0382.g2:/ B C />`;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$DAC$ <0382.g2:< D A C )>` is equal to the angle :g:`$BAC$ <0382.g2:< B A C )>`.
+   therefore the angle :g:`$DAC$ <0382.g2:< D A C )>` is :eq:`equal <0382.g2:< D A C ) = 0382.g2:< B A C )>` to the angle :g:`$BAC$ <0382.g2:< B A C )>`.
 
 But the angle :g:`$DAC$ <0382.g2:< D A C )>` is right;
 
 .. assertion::
 
-   therefore the angle :g:`$BAC$ <0382.g2:< B A C )>` is also right.
+   therefore the angle :g:`$BAC$ <0382.g2:< B A C )>` is also :eq:`right <0382.g2:< B A C ) = 0382.g2:< D A C )>`.
 
 .. qed::
 

@@ -25,7 +25,7 @@ Let :g:`$ABC$ <0086.g1:( A B C )>` be the given circle, and :g:`$D$ <0086.g1:D>`
 line not greater than the diameter
 of the circle;
 thus it is required to fit into the
-circle :g:`$ABC$ <0086.g1:( A B C )>` a straight line equal
+circle :g:`$ABC$ <0086.g1:( A B C )>` a straight line :eq:`equal <0086.g1:/ C A / = 0086.g1:D>`
 to the straight line :g:`$D$ <0086.g1:D>`.
 
 .. picture:: 0086.g1.svg
@@ -34,13 +34,13 @@ to the straight line :g:`$D$ <0086.g1:D>`.
 Let a diameter :g:`$BC$ <0086.g1:/ B C />` of the
 circle :g:`$ABC$ <0086.g1:( A B C )>` be drawn.
 
-Then, if :g:`$BC$ <0086.g1:/ B C />` is equal to :g:`$D$ <0086.g1:D>`,
+Then, if :g:`$BC$ <0086.g1:/ B C />` is :eq:`equal <0086.g1:/ B C / = 0086.g1:D>` to :g:`$D$ <0086.g1:D>`,
 that which was enjoined will have
-been done; for :g:`$BC$ <0086.g1:/ B C />` has been fitted into the circle :g:`$ABC$ <0086.g1:( A B C )>` equal
+been done; for :g:`$BC$ <0086.g1:/ B C />` has been fitted into the circle :g:`$ABC$ <0086.g1:( A B C )>` :eq:`equal <0086.g1:/ B C / = 0086.g1:D>`
 to the straight line :g:`$D$ <0086.g1:D>`.
 
 But, if :g:`$BC$ <0086.g1:/ B C />` is greater than :g:`$D$ <0086.g1:D>`,
-let :g:`$CE$ <0086.g1:/ C E />` be made equal to :g:`$D$ <0086.g1:D>`, and with centre :g:`$C$ <0086.g1:C>` and distance
+let :g:`$CE$ <0086.g1:/ C E />` be made :eq:`equal <0086.g1:/ C E / = 0086.g1:D>` to :g:`$D$ <0086.g1:D>`, and with centre :g:`$C$ <0086.g1:C>` and distance
 :g:`$CE$ <0086.g1:/ C E />` let the circle :g:`$EAF$ <0086.g1:( E A F )>` be described;
 let :g:`$CA$ <0086.g1:/ C A />` be joined.
 
@@ -48,16 +48,16 @@ Then, since the point :g:`$C$ <0086.g1:C>` is the centre of the circle :g:`$EAF$
 
 .. assertion::
 
-   :g:`$CA$ <0086.g1:/ C A />` is equal to :g:`$CE$ <0086.g1:/ C E />`.
+   :g:`$CA$ <0086.g1:/ C A />` is :eq:`equal <0086.g1:/ C A / = 0086.g1:/ C E />` to :g:`$CE$ <0086.g1:/ C E />`.
 
-But :g:`$CE$ <0086.g1:/ C E />` is equal to :g:`$D$ <0086.g1:D>`;
+But :g:`$CE$ <0086.g1:/ C E />` is :eq:`equal <0086.g1:/ C E / = 0086.g1:D>` to :g:`$D$ <0086.g1:D>`;
 
 .. assertion::
 
-   therefore :g:`$D$ <0086.g1:D>` is also equal to :g:`$CA$ <0086.g1:/ C A />`.
+   therefore :g:`$D$ <0086.g1:D>` is also :eq:`equal <0086.g1:D = 0086.g1:/ C A />` to :g:`$CA$ <0086.g1:/ C A />`.
 
 Therefore into the given circle :g:`$ABC$ <0086.g1:( A B C )>` there has been fitted
-:g:`$CA$ <0086.g1:/ C A />` equal to the given straight line :g:`$D$ <0086.g1:D>`.
+:g:`$CA$ <0086.g1:/ C A />` :eq:`equal <0086.g1:/ C A / = 0086.g1:D>` to the given straight line :g:`$D$ <0086.g1:D>`.
 
 ----
 

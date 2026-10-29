@@ -68,7 +68,7 @@ To :g:`$CD$ <0228.g1:/ C D />` let there be applied :g:`$CH$ <0228.g1:< C K H D 
 
    therefore the remainder :g:`$FL$ <0228.g1:< F M L E >>` is equal to twice the rectangle :g:`$AG$ <0228.g1:/ A G />`, :g:`$GB$ <0228.g1:/ B G />`. :just:`[II. 7] <II.7>`
 
-Let then :g:`$FM$ <0228.g1:/ F M />` be bisected at :g:`$N$ <0228.g1:N>`, and through :g:`$N$ <0228.g1:N>` let :g:`$NO$ <0228.g1:/ N O />` be drawn parallel to either of the straight lines :g:`$CD$ <0228.g1:/ C D />`, :g:`$ML$ <0228.g1:/ M L />`;
+Let then :g:`$FM$ <0228.g1:/ F M />` be :eq:`bisected <0228.g1:/ F N / = 0228.g1:/ N M />` at :g:`$N$ <0228.g1:N>`, and through :g:`$N$ <0228.g1:N>` let :g:`$NO$ <0228.g1:/ N O />` be drawn parallel to either of the straight lines :g:`$CD$ <0228.g1:/ C D />`, :g:`$ML$ <0228.g1:/ M L />`;
 
 .. assertion::
 

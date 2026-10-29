@@ -29,14 +29,14 @@ Let :g:`$AB$ <0156.g1:< A B >>` be rational, and :g:`$CD$ <0156.g1:< C D >>` med
 
 For :g:`$AB$ <0156.g1:< A B >>` is either greater or less than :g:`$CD$ <0156.g1:< C D >>`.
 
-First, let it be greater; let a rational straight line :g:`$EF$ <0156.g1:/ E F />` be set out, let there be applied to :g:`$EF$ <0156.g1:/ E F />` the rectangle :g:`$EG$ <0156.g1:< E G >>` equal to :g:`$AB$ <0156.g1:< A B >>`, producing :g:`$EH$ <0156.g1:/ E H />` as breadth, and let :g:`$HI$ <0156.g1:< H I >>`, equal to :g:`$DC$ <0156.g1:< D C >>`, be applied to :g:`$EF$ <0156.g1:/ E F />`, producing :g:`$HK$ <0156.g1:/ H K />` as breadth.
+First, let it be greater; let a rational straight line :g:`$EF$ <0156.g1:/ E F />` be set out, let there be applied to :g:`$EF$ <0156.g1:/ E F />` the rectangle :g:`$EG$ <0156.g1:< E G >>` :eq:`equal <0156.g1:< E G > = 0156.g1:< A B >>` to :g:`$AB$ <0156.g1:< A B >>`, producing :g:`$EH$ <0156.g1:/ E H />` as breadth, and let :g:`$HI$ <0156.g1:< H I >>`, :eq:`equal <0156.g1:< H I > = 0156.g1:< D C >>` to :g:`$DC$ <0156.g1:< D C >>`, be applied to :g:`$EF$ <0156.g1:/ E F />`, producing :g:`$HK$ <0156.g1:/ H K />` as breadth.
 
 .. picture:: 0156.g1.svg
    :alt: Proposition 71
 
 .. subclause::
 
-   Then, since :g:`$AB$ <0156.g1:< A B >>` is rational and is equal to :g:`$EG$ <0156.g1:< E G >>`,
+   Then, since :g:`$AB$ <0156.g1:< A B >>` is rational and is :eq:`equal <0156.g1:< A B > = 0156.g1:< E G >>` to :g:`$EG$ <0156.g1:< E G >>`,
 
 .. assertion::
 
@@ -52,7 +52,7 @@ First, let it be greater; let a rational straight line :g:`$EF$ <0156.g1:/ E F /
 
 .. subclause::
 
-   Again, since :g:`$CD$ <0156.g1:< C D >>` is medial and is equal to :g:`$HI$ <0156.g1:< H I >>`,
+   Again, since :g:`$CD$ <0156.g1:< C D >>` is medial and is :eq:`equal <0156.g1:< C D > = 0156.g1:< H I >>` to :g:`$HI$ <0156.g1:< H I >>`,
 
 .. assertion::
 
@@ -97,7 +97,7 @@ First, let it be greater; let a rational straight line :g:`$EF$ <0156.g1:/ E F /
 
 .. subclause::
 
-   And, since :g:`$AB$ <0156.g1:< A B >>` is greater than :g:`$CD$ <0156.g1:< C D >>`, while :g:`$AB$ <0156.g1:< A B >>` is equal to :g:`$EG$ <0156.g1:< E G >>` and :g:`$CD$ <0156.g1:< C D >>` to :g:`$HI$ <0156.g1:< H I >>`,
+   And, since :g:`$AB$ <0156.g1:< A B >>` is greater than :g:`$CD$ <0156.g1:< C D >>`, while :g:`$AB$ <0156.g1:< A B >>` is :eq:`equal <0156.g1:< A B > = 0156.g1:< E G >; 0156.g1:< C D > = 0156.g1:< H I >>` to :g:`$EG$ <0156.g1:< E G >>` and :g:`$CD$ <0156.g1:< C D >>` to :g:`$HI$ <0156.g1:< H I >>`,
 
 .. assertion::
 

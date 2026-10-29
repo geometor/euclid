@@ -20,7 +20,7 @@ PROPOSITION 11.
 
    If in a circle which has its diameter rational an equilateral pentagon be inscribed, the side of the pentagon is the irrational straight line called minor.
 
-For in the circle :g:`$ABCDE$ <0466.g1:( A B C D E )>` which has its diameter rational let the equilateral pentagon :g:`$ABCDE$ <0466.g1:< A B C D E >>` be inscribed; I say that the side of the pentagon is the irrational straight line called minor.
+For in the circle :g:`$ABCDE$ <0466.g1:( A B C D E )>` which has its diameter rational let the :eq:`equilateral <0466.g1:/ A B / = 0466.g1:/ B C / = 0466.g1:/ C D / = 0466.g1:/ D E / = 0466.g1:/ E A />` pentagon :g:`$ABCDE$ <0466.g1:< A B C D E >>` be inscribed; I say that the side of the pentagon is the irrational straight line called minor.
 
 For let the centre of the circle, the point :g:`$F$ <0466.g1:F>`, be taken, let :g:`$AF$ <0466.g1:/ A F />`, :g:`$FB$ <0466.g1:/ F B />` be joined and carried through to the points, :g:`$G$ <0466.g1:G>`, :g:`$H$ <0466.g1:H>`, let :g:`$AC$ <0466.g1:/ A C />` be joined, and let :g:`$FK$ <0466.g1:/ F K />` be made a fourth part of :g:`$AF$ <0466.g1:/ A F />`.
 
@@ -42,11 +42,11 @@ For let the centre of the circle, the point :g:`$F$ <0466.g1:F>`, be taken, let 
 
 .. subclause::
 
-   And, since the circumference :g:`$ACG$ <0466.g1:( A C G )>` is equal to the circumference :g:`$ADG$ <0466.g1:( A D G )>`, and in them :g:`$ABC$ <0466.g1:( A B C )>` is equal to :g:`$AED$ <0466.g1:( A E D )>`,
+   And, since the circumference :g:`$ACG$ <0466.g1:( A C G )>` is :eq:`equal <0466.g1:( A C G ) = 0466.g1:( A D G )>` to the circumference :g:`$ADG$ <0466.g1:( A D G )>`, and in them :g:`$ABC$ <0466.g1:( A B C )>` is :eq:`equal <0466.g1:( A B C ) = 0466.g1:( A E D )>` to :g:`$AED$ <0466.g1:( A E D )>`,
 
 .. assertion::
 
-   therefore the remainder :g:`$CG$ <0466.g1:( C G )>` is equal to the remainder :g:`$GD$ <0466.g1:( G D )>`.
+   therefore the remainder :g:`$CG$ <0466.g1:( C G )>` is :eq:`equal <0466.g1:( C G ) = 0466.g1:( G D )>` to the remainder :g:`$GD$ <0466.g1:( G D )>`.
 
 .. _folio-iii-0466:
 
@@ -66,11 +66,11 @@ For let the centre of the circle, the point :g:`$F$ <0466.g1:F>`, be taken, let 
 
 .. subclause::
 
-   Since then the angle :g:`$ALC$ <0466.g1:< A L C )>` is equal to the angle :g:`$AMF$ <0466.g1:< A M F )>`, and the angle :g:`$LAC$ <0466.g1:< L A C )>` is common to the two triangles :g:`$ACL$ <0466.g1:< A C L >>` and :g:`$AMF$ <0466.g1:< A M F >>`,
+   Since then the angle :g:`$ALC$ <0466.g1:< A L C )>` is :eq:`equal <0466.g1:< A L C ) = 0466.g1:< A M F )>` to the angle :g:`$AMF$ <0466.g1:< A M F )>`, and the angle :g:`$LAC$ <0466.g1:< L A C )>` is common to the two triangles :g:`$ACL$ <0466.g1:< A C L >>` and :g:`$AMF$ <0466.g1:< A M F >>`,
 
 .. assertion::
 
-   therefore the remaining angle :g:`$ACL$ <0466.g1:< A C L )>` is equal to the remaining angle :g:`$MFA$ <0466.g1:< M F A )>`; :just:`[I. 32] <I.32>` therefore the triangle :g:`$ACL$ <0466.g1:< A C L >>` is equiangular with the triangle :g:`$AMF$ <0466.g1:< A M F >>`; therefore, proportionally, as :g:`$LC$ <0466.g1:/ L C />` is to :g:`$CA$ <0466.g1:/ C A />`, so is :g:`$MF$ <0466.g1:/ M F />` to :g:`$FA$ <0466.g1:/ F A />`.
+   therefore the remaining angle :g:`$ACL$ <0466.g1:< A C L )>` is :eq:`equal <0466.g1:< A C L ) = 0466.g1:< M F A )>` to the remaining angle :g:`$MFA$ <0466.g1:< M F A )>`; :just:`[I. 32] <I.32>` therefore the triangle :g:`$ACL$ <0466.g1:< A C L >>` is equiangular with the triangle :g:`$AMF$ <0466.g1:< A M F >>`; therefore, proportionally, as :g:`$LC$ <0466.g1:/ L C />` is to :g:`$CA$ <0466.g1:/ C A />`, so is :g:`$MF$ <0466.g1:/ M F />` to :g:`$FA$ <0466.g1:/ F A />`.
 
 .. subclause::
 

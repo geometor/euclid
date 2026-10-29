@@ -136,7 +136,7 @@ This is indeed at once manifest;
 
 .. assertion::
 
-   :g:`$DC$ <0045.g1:/ C D />` is equal to :g:`$CB$ <0045.g1:/ C B />`;
+   :g:`$DC$ <0045.g1:/ C D />` is :eq:`equal <0045.g1:/ C D / = 0045.g1:/ C B />` to :g:`$CB$ <0045.g1:/ C B />`;
 
 .. assertion::
 

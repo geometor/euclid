@@ -39,9 +39,9 @@ I say that in the triangle :g:`$ABC$ <0300.g2:< A B C >>` two sides taken togeth
 .. picture:: 0300.g2.svg
    :alt: Proposition 20 figure
 
-For let :g:`$BA$ <0300.g2:[ B A ]>` be drawn through to the point :g:`$D$ <0300.g2:D>`, let :g:`$DA$ <0300.g2:/ D A />` be made equal to :g:`$CA$ <0300.g2:/ C A />`, and let :g:`$DC$ <0300.g2:/ D C />` be joined.
+For let :g:`$BA$ <0300.g2:[ B A ]>` be drawn through to the point :g:`$D$ <0300.g2:D>`, let :g:`$DA$ <0300.g2:/ D A />` be made :eq:`equal <0300.g2:/ D A / = 0300.g2:/ C A />` to :g:`$CA$ <0300.g2:/ C A />`, and let :g:`$DC$ <0300.g2:/ D C />` be joined.
 
-Then, since :g:`$DA$ <0300.g2:/ D A />` is equal to :g:`$AC$ <0300.g2:/ A C />`, the angle :g:`$ADC$ <0300.g2:< A D C )>` is also equal to the angle :g:`$ACD$ <0300.g2:< A C D )>`; :just:`[I. 5] <I.5>`
+Then, since :g:`$DA$ <0300.g2:/ D A />` is :eq:`equal <0300.g2:/ D A / = 0300.g2:/ A C />` to :g:`$AC$ <0300.g2:/ A C />`, the angle :g:`$ADC$ <0300.g2:< A D C )>` is also :eq:`equal <0300.g2:< A D C ) = 0300.g2:< A C D )>` to the angle :g:`$ACD$ <0300.g2:< A C D )>`; :just:`[I. 5] <I.5>`
 
 .. assertion:: [C. N. 5] <I.cn.5>
 
@@ -58,7 +58,7 @@ And, since :g:`$DCB$ <0300.g2:< D C B >>` is a triangle having the angle :g:`$BC
 .. folio:: 0301
    :page: 287
 
-But :g:`$DA$ <0300.g2:/ D A />` is equal to :g:`$AC$ <0300.g2:/ A C />`;
+But :g:`$DA$ <0300.g2:/ D A />` is :eq:`equal <0300.g2:/ D A / = 0300.g2:/ A C />` to :g:`$AC$ <0300.g2:/ A C />`;
 
 .. assertion::
 

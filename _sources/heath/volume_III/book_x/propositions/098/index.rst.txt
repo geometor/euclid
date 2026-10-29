@@ -102,7 +102,7 @@ To :g:`$CD$ <0219.g1:/ C D />` let there be applied :g:`$CH$ <0219.g1:< C K H D 
 
 I say next that it is also a second apotome.
 
-For let :g:`$FM$ <0219.g1:/ F M />` be bisected at :g:`$N$ <0219.g1:N>`, and let :g:`$NO$ <0219.g1:/ N O />` be drawn through :g:`$N$ <0219.g1:N>` parallel to :g:`$CD$ <0219.g1:/ C D />`;
+For let :g:`$FM$ <0219.g1:/ F M />` be :eq:`bisected <0219.g1:/ F N / = 0219.g1:/ N M />` at :g:`$N$ <0219.g1:N>`, and let :g:`$NO$ <0219.g1:/ N O />` be drawn through :g:`$N$ <0219.g1:N>` parallel to :g:`$CD$ <0219.g1:/ C D />`;
 
 .. assertion::
 

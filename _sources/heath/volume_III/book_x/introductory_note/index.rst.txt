@@ -252,7 +252,7 @@ If, again (p. 182), :g:`$CD$ <0013.g2:/ C D />` be equal to the radius of a semi
 .. picture:: 0013.g2.svg
    :alt: Pappus semicircle construction: excess of binomial
 
-rational, and if the tangent :g:`$DB$ <0013.g2:/ D B />` be drawn and the angle :g:`$ADB$ <0013.g2:< A D B )>` be bisected by :g:`$DF$ <0013.g2:/ D F />` meeting the circumference in :g:`$F$ <0013.g2:F>`, then :g:`$DF$ <0013.g2:/ D F />` is the excess by which the binomial exceeds the *straight line which produces with a rational area a medial*
+rational, and if the tangent :g:`$DB$ <0013.g2:/ D B />` be drawn and the angle :g:`$ADB$ <0013.g2:< A D B )>` be :eq:`bisected <0013.g2:< A D F ) = 0013.g2:< F D B )>` by :g:`$DF$ <0013.g2:/ D F />` meeting the circumference in :g:`$F$ <0013.g2:F>`, then :g:`$DF$ <0013.g2:/ D F />` is the excess by which the binomial exceeds the *straight line which produces with a rational area a medial*
 whole (see Eucl. x. 77). (In the figure :g:`$DK$ <0013.g2:/ D K />` is the binomial and :g:`$KF$ <0013.g2:/ K F />` the other irrational straight line.) As a matter of fact, if $\rho$ be the radius,
 
 .. _folio-iii-0014:

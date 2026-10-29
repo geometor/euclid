@@ -23,13 +23,13 @@ PROPOSITION 27.
 .. picture:: 0321.g1.svg
    :alt: Folio 0321 Figure 1 - Proposition 27
 
-For let the straight line :g:`$EF$ <0321.g1:/ E F />` falling on the two straight lines :g:`$AB$ <0321.g1:/ A B />`, :g:`$CD$ <0321.g1:/ C D />` make the alternate angles :g:`$AEF$ <0321.g1:< A E F )>`, :g:`$EFD$ <0321.g1:< E F D )>` equal to one another;
+For let the straight line :g:`$EF$ <0321.g1:/ E F />` falling on the two straight lines :g:`$AB$ <0321.g1:/ A B />`, :g:`$CD$ <0321.g1:/ C D />` make the alternate angles :g:`$AEF$ <0321.g1:< A E F )>`, :g:`$EFD$ <0321.g1:< E F D )>` :eq:`equal <0321.g1:< A E F ) = 0321.g1:< E F D )>` to one another;
 
 I say that :g:`$AB$ <0321.g1:/ A B />` is parallel to :g:`$CD$ <0321.g1:/ C D />`.
 
 For, if not, :g:`$AB$ <0321.g1:/ A B />`, :g:`$CD$ <0321.g1:/ C D />` when produced will meet either in the direction of :g:`$B$ <0321.g1:B>`, :g:`$D$ <0321.g1:D>` or towards :g:`$A$ <0321.g1:A>`, :g:`$C$ <0321.g1:C>`.\ [#f3]_ Let them be produced and meet, in the direction of :g:`$B$ <0321.g1:B>`, :g:`$D$ <0321.g1:D>`, at :g:`$G$ <0321.g1:G>`.
 
-Then, in the triangle :g:`$GEF$ <0321.g1:< G E F >>`, the exterior angle :g:`$AEF$ <0321.g1:< A E F )>` is equal to the interior and opposite angle :g:`$EFG$ <0321.g1:< E F G )>`:
+Then, in the triangle :g:`$GEF$ <0321.g1:< G E F >>`, the exterior angle :g:`$AEF$ <0321.g1:< A E F )>` is :eq:`equal <0321.g1:< A E F ) = 0321.g1:< E F G )>` to the interior and opposite angle :g:`$EFG$ <0321.g1:< E F G )>`:
 
 .. assertion:: [I. 16] <I.16>
 

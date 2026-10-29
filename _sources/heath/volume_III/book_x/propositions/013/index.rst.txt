@@ -63,7 +63,7 @@ Let :g:`$AB$ <0040.g2:/ A B />`, :g:`$C$ <0040.g2:C>` be the given two unequal s
 .. picture:: 0040.g2.svg
    :alt: Lemma Diagram
 
-Let the semicircle :g:`$ADB$ <0040.g2:( A D B )>` be described on :g:`$AB$ <0040.g2:/ A B />`, and let :g:`$AD$ <0040.g2:/ A D />` be fitted into it equal to :g:`$C$ <0040.g2:C>`; :just:`[IV. 1] <IV.1>` let :g:`$DB$ <0040.g2:/ D B />` be joined.
+Let the semicircle :g:`$ADB$ <0040.g2:( A D B )>` be described on :g:`$AB$ <0040.g2:/ A B />`, and let :g:`$AD$ <0040.g2:/ A D />` be fitted into it :eq:`equal <0040.g2:/ A D / = 0040.g2:C>` to :g:`$C$ <0040.g2:C>`; :just:`[IV. 1] <IV.1>` let :g:`$DB$ <0040.g2:/ D B />` be joined.
 
 .. assertion::
 

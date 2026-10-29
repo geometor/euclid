@@ -31,7 +31,7 @@ For let :g:`$BE$ <0200.g1:/ B E />`, :g:`$CD$ <0200.g1:/ C D />` be joined.
 
 .. assertion::
 
-   Therefore the triangle :g:`$BDE$ <0200.g1:< B D E >>` is equal to the triangle :g:`$CDE$ <0200.g1:< C D E >>`;
+   Therefore the triangle :g:`$BDE$ <0200.g1:< B D E >>` is :eq:`equal <0200.g1:< B D E > = 0200.g1:< C D E >>` to the triangle :g:`$CDE$ <0200.g1:< C D E >>`;
 
 for they are on the same base :g:`$DE$ <0200.g1:/ D E />` and in the same parallels :g:`$DE$ <0200.g1:/ D E />`, :g:`$BC$ <0200.g1:/ B C />`. :just:`[I. 38] <I.38>`
 
@@ -78,7 +78,7 @@ therefore also,
 
 .. assertion:: [V. 9] <V.9>
 
-   Therefore the triangle :g:`$BDE$ <0200.g1:< B D E >>` is equal to the triangle :g:`$CDE$ <0200.g1:< C D E >>`;
+   Therefore the triangle :g:`$BDE$ <0200.g1:< B D E >>` is :eq:`equal <0200.g1:< B D E > = 0200.g1:< C D E >>` to the triangle :g:`$CDE$ <0200.g1:< C D E >>`;
 
 .. subclause::
 

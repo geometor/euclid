@@ -20,33 +20,33 @@ PROPOSITION 24.
 
    If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also have the base greater than the base.
 
-Let :g:`$ABC$ <0310.g2:< A B C >>`, :g:`$DEF$ <0310.g2:< D E F >>` be two triangles having the two sides :g:`$AB$ <0310.g2:/ A B />`, :g:`$AC$ <0310.g2:/ A C />` equal to the two sides :g:`$DE$ <0310.g2:/ D E />`, :g:`$DF$ <0310.g2:/ D F />` respectively, namely :g:`$AB$ <0310.g2:/ A B />` to :g:`$DE$ <0310.g2:/ D E />`, and :g:`$AC$ <0310.g2:/ A C />` to :g:`$DF$ <0310.g2:/ D F />`, and let the angle at :g:`$A$ <0310.g2:< B A C )>` be greater than the angle at :g:`$D$ <0310.g2:< E D F )>`;
+Let :g:`$ABC$ <0310.g2:< A B C >>`, :g:`$DEF$ <0310.g2:< D E F >>` be two triangles having the two sides :g:`$AB$ <0310.g2:/ A B />`, :g:`$AC$ <0310.g2:/ A C />` :eq:`equal <0310.g2:/ A B / = 0310.g2:/ D E /; 0310.g2:/ A C / = 0310.g2:/ D F />` to the two sides :g:`$DE$ <0310.g2:/ D E />`, :g:`$DF$ <0310.g2:/ D F />` respectively, namely :g:`$AB$ <0310.g2:/ A B />` to :g:`$DE$ <0310.g2:/ D E />`, and :g:`$AC$ <0310.g2:/ A C />` to :g:`$DF$ <0310.g2:/ D F />`, and let the angle at :g:`$A$ <0310.g2:< B A C )>` be greater than the angle at :g:`$D$ <0310.g2:< E D F )>`;
 
 I say that the base :g:`$BC$ <0310.g2:/ B C />` is also greater than the base :g:`$EF$ <0310.g2:/ E F />`.
 
 .. picture:: 0310.g2.svg
    :alt: Folio 0310 Figure 2 - Proposition 24
 
-For, since the angle :g:`$BAC$ <0310.g2:< B A C )>` is greater than the angle :g:`$EDF$ <0310.g2:< E D F )>`,\ [#f1]_ let there be constructed, on the straight line :g:`$DE$ <0310.g2:/ D E />`, and at the point :g:`$D$ <0310.g2:D>` on it, the angle :g:`$EDG$ <0310.g2:< E D G )>` equal to the angle :g:`$BAC$ <0310.g2:< B A C )>`; :just:`[I. 23] <I.23>`
+For, since the angle :g:`$BAC$ <0310.g2:< B A C )>` is greater than the angle :g:`$EDF$ <0310.g2:< E D F )>`,\ [#f1]_ let there be constructed, on the straight line :g:`$DE$ <0310.g2:/ D E />`, and at the point :g:`$D$ <0310.g2:D>` on it, the angle :g:`$EDG$ <0310.g2:< E D G )>` :eq:`equal <0310.g2:< E D G ) = 0310.g2:< B A C )>` to the angle :g:`$BAC$ <0310.g2:< B A C )>`; :just:`[I. 23] <I.23>`
 
-let :g:`$DG$ <0310.g2:/ D G />` be made equal to either of the two straight lines :g:`$AC$ <0310.g2:/ A C />`, :g:`$DF$ <0310.g2:/ D F />`, and let :g:`$EG$ <0310.g2:/ E G />`, :g:`$FG$ <0310.g2:/ F G />` be joined.
+let :g:`$DG$ <0310.g2:/ D G />` be made :eq:`equal <0310.g2:/ D G / = 0310.g2:/ A C / = 0310.g2:/ D F />` to either of the two straight lines :g:`$AC$ <0310.g2:/ A C />`, :g:`$DF$ <0310.g2:/ D F />`, and let :g:`$EG$ <0310.g2:/ E G />`, :g:`$FG$ <0310.g2:/ F G />` be joined.
 
 .. _folio-i-0311:
 
 .. folio:: 0311
    :page: 297
 
-Then, since :g:`$AB$ <0310.g2:/ A B />` is equal to :g:`$DE$ <0310.g2:/ D E />`, and :g:`$AC$ <0310.g2:/ A C />` to :g:`$DG$ <0310.g2:/ D G />`, the two sides :g:`$BA$ <0310.g2:/ B A />`, :g:`$AC$ <0310.g2:/ A C />` are equal to the two sides :g:`$ED$ <0310.g2:/ E D />`, :g:`$DG$ <0310.g2:/ D G />`, respectively; and the angle :g:`$BAC$ <0310.g2:< B A C )>` is equal to the angle :g:`$EDG$ <0310.g2:< E D G )>`;
+Then, since :g:`$AB$ <0310.g2:/ A B />` is :eq:`equal <0310.g2:/ A B / = 0310.g2:/ D E /; 0310.g2:/ A C / = 0310.g2:/ D G />` to :g:`$DE$ <0310.g2:/ D E />`, and :g:`$AC$ <0310.g2:/ A C />` to :g:`$DG$ <0310.g2:/ D G />`, the two sides :g:`$BA$ <0310.g2:/ B A />`, :g:`$AC$ <0310.g2:/ A C />` are :eq:`equal <0310.g2:/ B A / = 0310.g2:/ E D /; 0310.g2:/ A C / = 0310.g2:/ D G />` to the two sides :g:`$ED$ <0310.g2:/ E D />`, :g:`$DG$ <0310.g2:/ D G />`, respectively; and the angle :g:`$BAC$ <0310.g2:< B A C )>` is :eq:`equal <0310.g2:< B A C ) = 0310.g2:< E D G )>` to the angle :g:`$EDG$ <0310.g2:< E D G )>`;
 
 .. assertion:: [I. 4] <I.4>
 
-   therefore the base :g:`$BC$ <0310.g2:/ B C />` is equal to the base :g:`$EG$ <0310.g2:/ E G />`.
+   therefore the base :g:`$BC$ <0310.g2:/ B C />` is :eq:`equal <0310.g2:/ B C / = 0310.g2:/ E G />` to the base :g:`$EG$ <0310.g2:/ E G />`.
 
-Again, since :g:`$DF$ <0310.g2:/ D F />` is equal to :g:`$DG$ <0310.g2:/ D G />`,
+Again, since :g:`$DF$ <0310.g2:/ D F />` is :eq:`equal <0310.g2:/ D F / = 0310.g2:/ D G />` to :g:`$DG$ <0310.g2:/ D G />`,
 
 .. assertion:: [I. 5] <I.5>
 
-   the angle :g:`$DGF$ <0310.g2:< D G F )>` is also equal to the angle :g:`$DFG$ <0310.g2:< D F G )>`;
+   the angle :g:`$DGF$ <0310.g2:< D G F )>` is also :eq:`equal <0310.g2:< D G F ) = 0310.g2:< D F G )>` to the angle :g:`$DFG$ <0310.g2:< D F G )>`;
 
 .. assertion::
 
@@ -66,7 +66,7 @@ And, since :g:`$EFG$ <0310.g2:< E F G >>` is a triangle having the angle :g:`$EF
 
    the side :g:`$EG$ <0310.g2:/ E G />` is also greater than :g:`$EF$ <0310.g2:/ E F />`.
 
-But :g:`$EG$ <0310.g2:/ E G />` is equal to :g:`$BC$ <0310.g2:/ B C />`.
+But :g:`$EG$ <0310.g2:/ E G />` is :eq:`equal <0310.g2:/ E G / = 0310.g2:/ B C />` to :g:`$BC$ <0310.g2:/ B C />`.
 
 .. assertion::
 

@@ -33,11 +33,11 @@ Then since, as :g:`$A$ <0165.g1:A>` is to :g:`$B$ <0165.g1:B>`, so is :g:`$C$ <0
 
 .. assertion::
 
-   therefore, if :g:`$G$ <0165.g1:G>` is in excess of :g:`$L$ <0165.g1:L>`, :g:`$H$ <0165.g1:H>` is also in excess of :g:`$M$ <0165.g1:M>`, and :g:`$K$ <0165.g1:K>` of :g:`$N$ <0165.g1:N>`, if equal, equal, and if less, less;
+   therefore, if :g:`$G$ <0165.g1:G>` is in excess of :g:`$L$ <0165.g1:L>`, :g:`$H$ <0165.g1:H>` is also in excess of :g:`$M$ <0165.g1:M>`, and :g:`$K$ <0165.g1:K>` of :g:`$N$ <0165.g1:N>`, if :eq:`equal <0165.g1:G = 0165.g1:L>`, :eq:`equal <0165.g1:H = 0165.g1:M; 0165.g1:K = 0165.g1:N>`, and if less, less;
 
 .. assertion::
 
-   so that, in addition, if :g:`$G$ <0165.g1:G>` is in excess of :g:`$L$ <0165.g1:L>`, then :g:`$G$ <0165.g1:G>`, :g:`$H$ <0165.g1:H>`, :g:`$K$ <0165.g1:K>` are in excess of :g:`$L$ <0165.g1:L>`, :g:`$M$ <0165.g1:M>`, :g:`$N$ <0165.g1:N>`, if equal, equal, and if less, less.
+   so that, in addition, if :g:`$G$ <0165.g1:G>` is in excess of :g:`$L$ <0165.g1:L>`, then :g:`$G$ <0165.g1:G>`, :g:`$H$ <0165.g1:H>`, :g:`$K$ <0165.g1:K>` are in excess of :g:`$L$ <0165.g1:L>`, :g:`$M$ <0165.g1:M>`, :g:`$N$ <0165.g1:N>`, if :eq:`equal <0165.g1:G = 0165.g1:L>`, equal, and if less, less.
 
 .. _folio-ii-0166:
 

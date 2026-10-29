@@ -43,7 +43,7 @@ For let :g:`$BG$ <0301.g1:/ B G />` be drawn from the point :g:`$B$ <0301.g1:B>`
 
 .. assertion::
 
-   therefore each of the angles :g:`$BGH$ <0301.g1:< B G H )>`, :g:`$BGK$ <0301.g1:< B G K )>` is right.
+   therefore each of the angles :g:`$BGH$ <0301.g1:< B G H )>`, :g:`$BGK$ <0301.g1:< B G K )>` is :eq:`right <0301.g1:< B G H ) = 0301.g1:< B G K )>`.
 
 .. subclause:: [XI. 9] <XI.9>
 

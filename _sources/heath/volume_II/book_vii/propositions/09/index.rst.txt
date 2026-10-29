@@ -34,11 +34,11 @@ I say that, alternately also, whatever part or parts :g:`$A$ <0315.g1:A>` is of 
 
    therefore, as many numbers as there are in :g:`$BC$ <0315.g1:/ B C />` equal to :g:`$A$ <0315.g1:A>`, so many also are there in :g:`$EF$ <0315.g1:/ E F />` equal to :g:`$D$ <0315.g1:D>`.
 
-Let :g:`$BC$ <0315.g1:/ B C />` be divided into the numbers equal to :g:`$A$ <0315.g1:A>`, namely :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />`, and :g:`$EF$ <0315.g1:/ E F />` into those equal to :g:`$D$ <0315.g1:D>`, namely :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />`; thus the multitude of :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />` will be equal to the multitude of :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />`.
+Let :g:`$BC$ <0315.g1:/ B C />` be divided into the numbers :eq:`equal <0315.g1:/ B G / = 0315.g1:/ G C / = 0315.g1:A>` to :g:`$A$ <0315.g1:A>`, namely :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />`, and :g:`$EF$ <0315.g1:/ E F />` into those :eq:`equal <0315.g1:/ E H / = 0315.g1:/ H F / = 0315.g1:D>` to :g:`$D$ <0315.g1:D>`, namely :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />`; thus the multitude of :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />` will be equal to the multitude of :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />`.
 
 .. subclause::
 
-   Now, since the numbers :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />` are equal to one another, and the numbers :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />` are also equal to one another, while the multitude of :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />` is equal to the multitude of :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />`,
+   Now, since the numbers :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />` are :eq:`equal <0315.g1:/ B G / = 0315.g1:/ G C />` to one another, and the numbers :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />` are also :eq:`equal <0315.g1:/ E H / = 0315.g1:/ H F />` to one another, while the multitude of :g:`$BG$ <0315.g1:/ B G />`, :g:`$GC$ <0315.g1:/ G C />` is equal to the multitude of :g:`$EH$ <0315.g1:/ E H />`, :g:`$HF$ <0315.g1:/ H F />`,
 
 .. assertion::
 
@@ -55,7 +55,7 @@ Let :g:`$BC$ <0315.g1:/ B C />` be divided into the numbers equal to :g:`$A$ <03
 
 .. subclause::
 
-   But :g:`$BG$ <0315.g1:/ B G />` is equal to :g:`$A$ <0315.g1:A>`, and :g:`$EH$ <0315.g1:/ E H />` to :g:`$D$ <0315.g1:D>`;
+   But :g:`$BG$ <0315.g1:/ B G />` is :eq:`equal <0315.g1:/ B G / = 0315.g1:A; 0315.g1:/ E H / = 0315.g1:D>` to :g:`$A$ <0315.g1:A>`, and :g:`$EH$ <0315.g1:/ E H />` to :g:`$D$ <0315.g1:D>`;
 
 .. assertion::
 
