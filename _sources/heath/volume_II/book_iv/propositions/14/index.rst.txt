@@ -85,8 +85,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "I.6" [label="I.6", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/06/index.html", target="_top"];
-     "IV.14" [label="IV.14", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "I.6" [label="I.6", fillcolor="#222244", tooltip="I.6: If in a triangle two angles be equal to one another, the sides which subtend the equal angles will also be equal to one another.", URL="../../../../volume_I/book_i/propositions/06/index.html", target="_top"];
+     "IV.14" [label="IV.14", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IV.14: About a given pentagon, which is equilateral and equiangular, to circumscribe a circle.", URL="index.html", target="_top"];
      "IV.14" -> "I.6";
    }
 

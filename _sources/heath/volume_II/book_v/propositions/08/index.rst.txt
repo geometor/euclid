@@ -189,10 +189,10 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.def.4" [label="V.def.4", fillcolor="#224422", URL="../../definitions/index.html#v-def-4", target="_top"];
-     "V.def.7" [label="V.def.7", fillcolor="#224422", URL="../../definitions/index.html#v-def-7", target="_top"];
-     "V.1" [label="V.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
-     "V.8" [label="V.8", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../definitions/index.html#v-def-4", target="_top"];
+     "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
+     "V.8" [label="V.8", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.8: Of unequal magnitudes, the greater has to the same a greater ratio than the less has; and the same has to the less a greater ratio than it has to the greater.", URL="index.html", target="_top"];
      "V.8" -> "V.def.4";
      "V.8" -> "V.def.7";
      "V.8" -> "V.1";

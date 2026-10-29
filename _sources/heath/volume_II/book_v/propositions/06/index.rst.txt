@@ -90,8 +90,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.2" [label="V.2", fillcolor="#222244", URL="../02/index.html", target="_top"];
-     "V.6" [label="V.6", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
+     "V.6" [label="V.6", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.6: If two magnitudes be equimultiples of two magnitudes, and any magnitudes subtracted from them be equimultiples of the same, the remainders also are either equal to the same or…", URL="index.html", target="_top"];
      "V.6" -> "V.2";
    }
 

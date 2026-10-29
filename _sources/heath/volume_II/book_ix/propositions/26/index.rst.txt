@@ -57,10 +57,10 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
-     "VII.def.7" [label="VII.def.7", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
-     "IX.24" [label="IX.24", fillcolor="#222244", URL="../24/index.html", target="_top"];
-     "IX.26" [label="IX.26", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.7" [label="VII.def.7", fillcolor="#224422", tooltip="VII.def.7: An odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number.", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
+     "IX.24" [label="IX.24", fillcolor="#222244", tooltip="IX.24: If from an even number an even number be subtracted, the remainder will be even.", URL="../24/index.html", target="_top"];
+     "IX.26" [label="IX.26", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.26: If from an odd number an odd number be subtracted, the remainder will be even.", URL="index.html", target="_top"];
      "IX.24" -> "VII.def.6";
      "IX.26" -> "VII.def.7";
      "IX.26" -> "IX.24";

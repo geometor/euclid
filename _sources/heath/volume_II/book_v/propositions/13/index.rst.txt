@@ -75,9 +75,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.def.5" [label="V.def.5", fillcolor="#224422", URL="../../definitions/index.html#v-def-5", target="_top"];
-     "V.def.7" [label="V.def.7", fillcolor="#224422", URL="../../definitions/index.html#v-def-7", target="_top"];
-     "V.13" [label="V.13", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.13" [label="V.13", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.13: If a first magnitude have to a second the same ratio as a third to a fourth, and the third have to the fourth a greater ratio than a fifth has to a sixth, the first will also have…", URL="index.html", target="_top"];
      "V.13" -> "V.def.5";
      "V.13" -> "V.def.7";
    }

@@ -86,8 +86,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.def.5" [label="V.def.5", fillcolor="#224422", URL="../../definitions/index.html#v-def-5", target="_top"];
-     "V.7" [label="V.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.7" [label="V.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="index.html", target="_top"];
      "V.7" -> "V.def.5";
    }
 

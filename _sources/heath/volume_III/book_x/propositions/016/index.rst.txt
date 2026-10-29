@@ -156,8 +156,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "X.def.1" [label="X.def.1", fillcolor="#224422", URL="../../definitions/index.html#x-def-1", target="_top"];
-     "X.16" [label="X.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "X.def.1" [label="X.def.1", fillcolor="#224422", tooltip="X.def.1: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.", URL="../../definitions/index.html#x-def-1", target="_top"];
+     "X.16" [label="X.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.16: If two incommensurable magnitudes be added together, the whole will also be incommensurable with each of them; and, if the whole be incommensurable with one of them, the original…", URL="index.html", target="_top"];
      "X.16" -> "X.def.1";
    }
 

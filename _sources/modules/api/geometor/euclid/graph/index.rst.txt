@@ -30,6 +30,9 @@ Functions
    geometor.euclid.graph.canonical_sort_key
    geometor.euclid.graph.get_node_type
    geometor.euclid.graph.extract_dependencies_from_rst_body
+   geometor.euclid.graph.clean_rst_enunciation
+   geometor.euclid.graph.truncate_enunciation
+   geometor.euclid.graph.format_node_tooltip
    geometor.euclid.graph.generate_proof_chain_dot
    geometor.euclid.graph.build_graph
 
@@ -73,7 +76,22 @@ Module Contents
    from Euclid's proof and porisms are recorded.
 
 
-.. py:function:: generate_proof_chain_dot(graph: networkx.DiGraph, element_ref: str, current_dir: pathlib.Path, label_to_target: Dict[str, Tuple[pathlib.Path, Optional[str]]]) -> str
+.. py:function:: clean_rst_enunciation(raw_text: str) -> str
+
+   Strip RST inline roles, footnote markers, emphasis, and item numbers from an enunciation or definition.
+
+
+.. py:function:: truncate_enunciation(text: str, max_chars: int = 180) -> str
+
+   Collapse whitespace and truncate a long enunciation cleanly at a word boundary.
+
+
+.. py:function:: format_node_tooltip(node_id: str, enunciations: Dict[str, str], max_chars: int = 180) -> str
+
+   Format a truncated enunciation tooltip for a Graphviz node.
+
+
+.. py:function:: generate_proof_chain_dot(graph: networkx.DiGraph, element_ref: str, current_dir: pathlib.Path, label_to_target: Dict[str, Tuple[pathlib.Path, Optional[str]]], enunciations: Optional[Dict[str, str]] = None) -> str
 
    Generate a Graphviz DOT string for the transitive proof chain of element_ref.
 
@@ -86,7 +104,8 @@ Module Contents
 
    Build the NetworkX dependency graph from the composed RST files under docsrc/heath/.
 
-   If inject_rst is True, updates :dependencies: and injects the 'Dependency Graph'
-   (.. graphviz::) and 'Required for' sections into every proposition's index.rst.
+   If inject_rst is True, updates :dependencies:, writes resources/heath/enunciations.json,
+   and injects the 'Dependency Graph' (.. graphviz::) and 'Required for' sections into
+   every proposition's index.rst.
 
 

@@ -66,9 +66,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.def.5" [label="V.def.5", fillcolor="#224422", URL="../../definitions/index.html#v-def-5", target="_top"];
-     "V.1" [label="V.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
-     "V.12" [label="V.12", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
+     "V.12" [label="V.12", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.12: If any number of magnitudes be proportional, as one of the antecedents is to one of the consequents, so will all the antecedents be to all the consequents.", URL="index.html", target="_top"];
      "V.12" -> "V.def.5";
      "V.12" -> "V.1";
    }
