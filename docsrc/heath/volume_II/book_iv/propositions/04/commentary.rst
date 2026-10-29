@@ -64,9 +64,9 @@ $$p \cdot EG = 2 \cdot \Delta ABC,$$
 
 where $p$ is the perimeter.
 
-Produce :g:`$CB$ <0093.g1:/ C B />` to :g:`$H$ <0093.g1:H>`, so that :g:`$BH$ <0093.g1:/ B H />` = :g:`$AD$ <0093.g1:/ A D />`.
+Produce :g:`$CB$ <0093.g1:/ C B />` to :g:`$H$ <0093.g1:H>`, so that :g:`$BH$ <0093.g1:/ B H />` :eq:`= <0093.g1:/ B H / = 0093.g1:/ A D />` :g:`$AD$ <0093.g1:/ A D />`.
 
-Then, since :g:`$AD$ <0093.g1:/ A D />` = :g:`$AF$ <0093.g1:/ A F />`, :g:`$DB$ <0093.g1:/ D B />` = :g:`$BE$ <0093.g1:/ B E />`, :g:`$FC$ <0093.g1:/ F C />` = :g:`$CE$ <0093.g1:/ C E />`,
+Then, since :g:`$AD$ <0093.g1:/ A D />` :eq:`= <0093.g1:/ A D / = 0093.g1:/ A F />` :g:`$AF$ <0093.g1:/ A F />`, :g:`$DB$ <0093.g1:/ D B />` :eq:`= <0093.g1:/ D B / = 0093.g1:/ B E />` :g:`$BE$ <0093.g1:/ B E />`, :g:`$FC$ <0093.g1:/ F C />` :eq:`= <0093.g1:/ F C / = 0093.g1:/ C E />` :g:`$CE$ <0093.g1:/ C E />`,
 
 $$CH = \tfrac{1}{2}p.$$
 
@@ -92,9 +92,9 @@ Therefore the angles :g:`$CGB$ <0093.g1:< C G B )>`, :g:`$CLB$ <0093.g1:< C L B 
 
 Now the angles :g:`$CGB$ <0093.g1:< C G B )>`, :g:`$AGD$ <0093.g1:< A G D )>` are equal to two right angles, since :g:`$AG$ <0093.g1:/ A G />`, :g:`$BG$ <0093.g1:/ B G />`, :g:`$CG$ <0093.g1:/ C G />` bisect the angles at :g:`$G$ <0093.g1:G>`, and the angles :g:`$CGB$ <0093.g1:< C G B )>`, :g:`$AGD$ <0093.g1:< A G D )>` are equal to the angles :g:`$AGC$ <0093.g1:< A G C )>`, :g:`$DGB$ <0093.g1:< D G B )>`, while the sum of all four is equal to four right angles.
 
-Therefore the angles :g:`$AGD$ <0093.g1:< A G D )>`, :g:`$CLB$ <0093.g1:< C L B )>` are equal.
+Therefore the angles :g:`$AGD$ <0093.g1:< A G D )>`, :g:`$CLB$ <0093.g1:< C L B )>` are :eq:`equal <0093.g1:< A G D ) = 0093.g1:< C L B )>`.
 
-So are the right angles :g:`$ADG$ <0093.g1:< A D G )>`, :g:`$CBL$ <0093.g1:< C B L )>`.
+So are the :eq:`right <0093.g1:< A D G ) = 0093.g1:< C B L )>` angles :g:`$ADG$ <0093.g1:< A D G )>`, :g:`$CBL$ <0093.g1:< C B L )>`.
 
 Therefore the triangles :g:`$AGD$ <0093.g1:< A G D >>`, :g:`$CLB$ <0093.g1:< C L B >>` are similar.
 

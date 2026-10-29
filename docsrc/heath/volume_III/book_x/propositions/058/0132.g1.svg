@@ -5,7 +5,8 @@
       --geom-bg: #ffffff;
       --geom-point-stroke: #ffffff;
       --geom-poly-fill: #000000;
-      --geom-accent: #ef4444;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -13,7 +14,8 @@
         --geom-bg: #1e1e20;
         --geom-point-stroke: #1e1e20;
         --geom-poly-fill: #d6cfc5;
-        --geom-accent: #ef4444;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
       }
     }
     .euclid-graphic {
@@ -82,6 +84,18 @@
       stroke-width: 1.5;
       stroke-linecap: round;
       fill: none;
+    }
+    .geom-tick-mark {
+      stroke: var(--geom-assert);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      fill: none;
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-linecap: round;
     }
     .grid-line {
       stroke: var(--geom-fg);
@@ -180,7 +194,55 @@
       fill: var(--geom-accent) !important;
       stroke: none !important;
     }
+    .geom-assert-active {
+      opacity: 1 !important;
+      stroke: var(--geom-assert) !important;
+    }
+    text.geom-assert-active, text.geom-assert-secondary, text.geom-assert-active *, text.geom-assert-secondary * {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    polygon.geom-assert-active, path.geom-polygon.geom-assert-active, .wedge.angle.geom-assert-active, path.wedge.geom-assert-active, path.angle.geom-assert-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: var(--geom-assert) !important;
+      stroke: var(--geom-assert) !important;
+    }
+    path.geom-ang-arc.geom-assert-active {
+      opacity: 1 !important;
+      fill: none !important;
+      stroke: var(--geom-assert) !important;
+    }
+    circle.geom-point.geom-assert-active, circle.geom-assert-active {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    path.geom-assert-active.geom-tick-1 {
+      marker-mid: url(#geom-tick-1);
+    }
+    path.geom-assert-active.geom-tick-2 {
+      marker-mid: url(#geom-tick-2);
+    }
+    path.geom-assert-active.geom-tick-3 {
+      marker-mid: url(#geom-tick-3);
+    }
   </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+    </marker>
+  </defs>
   <g id="elements" />
   <g id="graphics">
     <polygon id="&lt; A B C D &gt;" data-ref="&lt; A B C D &gt;" data-aliases="&lt; A C &gt;" class="geom-polygon" points="17.0,20.0 17.0,72.5 218.0,72.5 218.0,20.0" />
@@ -194,33 +256,33 @@
     <polygon id="&lt; N O Q R &gt;" data-ref="&lt; N O Q R &gt;" data-aliases="&lt; N Q &gt; | &lt; N O &gt;" class="geom-polygon" points="363.0,54.5 398.5,54.5 398.5,20.0 363.0,20.0" />
     <polygon id="&lt; TL M N R &gt;" data-ref="&lt; TL M N R &gt;" data-aliases="&lt; M R &gt;" class="geom-polygon" points="291.5,20.0 291.5,54.5 363.0,54.5 363.0,20.0" />
     <polygon id="&lt; N P BR O &gt;" data-ref="&lt; N P BR O &gt;" data-aliases="&lt; N P &gt;" class="geom-polygon" points="363.0,54.5 363.0,126.5 398.5,126.5 398.5,54.5" />
-    <line id="/ A D /" data-ref="/ A D /" data-aliases="/ D A /" class="geom-line" x1="17.0" y1="20.0" x2="218.0" y2="20.0" />
-    <line id="/ A E /" data-ref="/ A E /" data-aliases="/ E A /" class="geom-line" x1="17.0" y1="20.0" x2="133.5" y2="20.0" />
-    <line id="/ E D /" data-ref="/ E D /" data-aliases="/ D E /" class="geom-line" x1="133.5" y1="20.0" x2="218.0" y2="20.0" />
-    <line id="/ E F /" data-ref="/ E F /" data-aliases="/ F E /" class="geom-line" x1="133.5" y1="20.0" x2="176.5" y2="20.0" />
-    <line id="/ F D /" data-ref="/ F D /" data-aliases="/ D F /" class="geom-line" x1="176.5" y1="20.0" x2="218.0" y2="20.0" />
-    <line id="/ A G /" data-ref="/ A G /" data-aliases="/ G A /" class="geom-line" x1="17.0" y1="20.0" x2="115.5" y2="20.0" />
-    <line id="/ G E /" data-ref="/ G E /" data-aliases="/ E G /" class="geom-line" x1="115.5" y1="20.0" x2="133.5" y2="20.0" />
-    <line id="/ B C /" data-ref="/ B C /" data-aliases="/ C B /" class="geom-line" x1="17.0" y1="72.5" x2="218.0" y2="72.5" />
-    <line id="/ A B /" data-ref="/ A B /" data-aliases="/ B A /" class="geom-line" x1="17.0" y1="20.0" x2="17.0" y2="72.5" />
-    <line id="/ G H /" data-ref="/ G H /" data-aliases="/ H G /" class="geom-line" x1="115.5" y1="20.0" x2="115.5" y2="72.5" />
-    <line id="/ E K /" data-ref="/ E K /" data-aliases="/ K E /" class="geom-line" x1="133.5" y1="20.0" x2="133.5" y2="72.5" />
-    <line id="/ F L /" data-ref="/ F L /" data-aliases="/ L F /" class="geom-line" x1="176.5" y1="20.0" x2="176.5" y2="72.5" />
-    <line id="/ D C /" data-ref="/ D C /" data-aliases="/ C D /" class="geom-line" x1="218.0" y1="20.0" x2="218.0" y2="72.5" />
-    <line id="/ TL Q /" data-ref="/ TL Q /" class="geom-line" x1="291.5" y1="20.0" x2="398.5" y2="20.0" />
-    <line id="/ S BR /" data-ref="/ S BR /" class="geom-line" x1="291.5" y1="126.5" x2="398.5" y2="126.5" />
-    <line id="/ TL S /" data-ref="/ TL S /" class="geom-line" x1="291.5" y1="20.0" x2="291.5" y2="126.5" />
-    <line id="/ Q BR /" data-ref="/ Q BR /" class="geom-line" x1="398.5" y1="20.0" x2="398.5" y2="126.5" />
-    <line id="/ M O /" data-ref="/ M O /" data-aliases="/ O M /" class="geom-line" x1="291.5" y1="54.5" x2="398.5" y2="54.5" />
-    <line id="/ M N /" data-ref="/ M N /" data-aliases="/ N M /" class="geom-line" x1="291.5" y1="54.5" x2="363.0" y2="54.5" />
-    <line id="/ N O /" data-ref="/ N O /" data-aliases="/ O N /" class="geom-line" x1="363.0" y1="54.5" x2="398.5" y2="54.5" />
-    <line id="/ R P /" data-ref="/ R P /" data-aliases="/ P R /" class="geom-line" x1="363.0" y1="20.0" x2="363.0" y2="126.5" />
-    <line id="/ R N /" data-ref="/ R N /" data-aliases="/ N R /" class="geom-line" x1="363.0" y1="20.0" x2="363.0" y2="54.5" />
-    <line id="/ N P /" data-ref="/ N P /" data-aliases="/ P N /" class="geom-line" x1="363.0" y1="54.5" x2="363.0" y2="126.5" />
-    <line id="/ M S /" data-ref="/ M S /" data-aliases="/ S M /" class="geom-line" x1="291.5" y1="54.5" x2="291.5" y2="126.5" />
-    <line id="/ S P /" data-ref="/ S P /" data-aliases="/ P S /" class="geom-line" x1="291.5" y1="126.5" x2="363.0" y2="126.5" />
-    <line id="/ O Q /" data-ref="/ O Q /" data-aliases="/ Q O /" class="geom-line" x1="398.5" y1="54.5" x2="398.5" y2="20.0" />
-    <line id="/ R Q /" data-ref="/ R Q /" data-aliases="/ Q R /" class="geom-line" x1="363.0" y1="20.0" x2="398.5" y2="20.0" />
+    <path id="/ A D /" data-ref="/ A D /" data-aliases="/ D A /" class="geom-line" d="M 17 20 L 117.5 20 L 218 20" />
+    <path id="/ A E /" data-ref="/ A E /" data-aliases="/ E A /" class="geom-line" d="M 17 20 L 75.25 20 L 133.5 20" />
+    <path id="/ E D /" data-ref="/ E D /" data-aliases="/ D E /" class="geom-line" d="M 133.5 20 L 175.75 20 L 218 20" />
+    <path id="/ E F /" data-ref="/ E F /" data-aliases="/ F E /" class="geom-line" d="M 133.5 20 L 155 20 L 176.5 20" />
+    <path id="/ F D /" data-ref="/ F D /" data-aliases="/ D F /" class="geom-line" d="M 176.5 20 L 197.25 20 L 218 20" />
+    <path id="/ A G /" data-ref="/ A G /" data-aliases="/ G A /" class="geom-line" d="M 17 20 L 66.25 20 L 115.5 20" />
+    <path id="/ G E /" data-ref="/ G E /" data-aliases="/ E G /" class="geom-line" d="M 115.5 20 L 124.5 20 L 133.5 20" />
+    <path id="/ B C /" data-ref="/ B C /" data-aliases="/ C B /" class="geom-line" d="M 17 72.5 L 117.5 72.5 L 218 72.5" />
+    <path id="/ A B /" data-ref="/ A B /" data-aliases="/ B A /" class="geom-line" d="M 17 20 L 17 46.25 L 17 72.5" />
+    <path id="/ G H /" data-ref="/ G H /" data-aliases="/ H G /" class="geom-line" d="M 115.5 20 L 115.5 46.25 L 115.5 72.5" />
+    <path id="/ E K /" data-ref="/ E K /" data-aliases="/ K E /" class="geom-line" d="M 133.5 20 L 133.5 46.25 L 133.5 72.5" />
+    <path id="/ F L /" data-ref="/ F L /" data-aliases="/ L F /" class="geom-line" d="M 176.5 20 L 176.5 46.25 L 176.5 72.5" />
+    <path id="/ D C /" data-ref="/ D C /" data-aliases="/ C D /" class="geom-line" d="M 218 20 L 218 46.25 L 218 72.5" />
+    <path id="/ TL Q /" data-ref="/ TL Q /" class="geom-line" d="M 291.5 20 L 345 20 L 398.5 20" />
+    <path id="/ S BR /" data-ref="/ S BR /" class="geom-line" d="M 291.5 126.5 L 345 126.5 L 398.5 126.5" />
+    <path id="/ TL S /" data-ref="/ TL S /" class="geom-line" d="M 291.5 20 L 291.5 73.25 L 291.5 126.5" />
+    <path id="/ Q BR /" data-ref="/ Q BR /" class="geom-line" d="M 398.5 20 L 398.5 73.25 L 398.5 126.5" />
+    <path id="/ M O /" data-ref="/ M O /" data-aliases="/ O M /" class="geom-line" d="M 291.5 54.5 L 345 54.5 L 398.5 54.5" />
+    <path id="/ M N /" data-ref="/ M N /" data-aliases="/ N M /" class="geom-line" d="M 291.5 54.5 L 327.25 54.5 L 363 54.5" />
+    <path id="/ N O /" data-ref="/ N O /" data-aliases="/ O N /" class="geom-line" d="M 363 54.5 L 380.75 54.5 L 398.5 54.5" />
+    <path id="/ R P /" data-ref="/ R P /" data-aliases="/ P R /" class="geom-line" d="M 363 20 L 363 73.25 L 363 126.5" />
+    <path id="/ R N /" data-ref="/ R N /" data-aliases="/ N R /" class="geom-line" d="M 363 20 L 363 37.25 L 363 54.5" />
+    <path id="/ N P /" data-ref="/ N P /" data-aliases="/ P N /" class="geom-line" d="M 363 54.5 L 363 90.5 L 363 126.5" />
+    <path id="/ M S /" data-ref="/ M S /" data-aliases="/ S M /" class="geom-line" d="M 291.5 54.5 L 291.5 90.5 L 291.5 126.5" />
+    <path id="/ S P /" data-ref="/ S P /" data-aliases="/ P S /" class="geom-line" d="M 291.5 126.5 L 327.25 126.5 L 363 126.5" />
+    <path id="/ O Q /" data-ref="/ O Q /" data-aliases="/ Q O /" class="geom-line" d="M 398.5 54.5 L 398.5 37.25 L 398.5 20" />
+    <path id="/ R Q /" data-ref="/ R Q /" data-aliases="/ Q R /" class="geom-line" d="M 363 20 L 380.75 20 L 398.5 20" />
   </g>
   <g id="highlights">
     <polygon id="highlight-&lt; A B C D &gt;" data-ref="&lt; A B C D &gt;" data-aliases="&lt; A C &gt;" class="geom-polygon geom-overlay" points="17.0,20.0 17.0,72.5 218.0,72.5 218.0,20.0" />
@@ -234,29 +296,29 @@
     <polygon id="highlight-&lt; N O Q R &gt;" data-ref="&lt; N O Q R &gt;" data-aliases="&lt; N Q &gt; | &lt; N O &gt;" class="geom-polygon geom-overlay" points="363.0,54.5 398.5,54.5 398.5,20.0 363.0,20.0" />
     <polygon id="highlight-&lt; TL M N R &gt;" data-ref="&lt; TL M N R &gt;" data-aliases="&lt; M R &gt;" class="geom-polygon geom-overlay" points="291.5,20.0 291.5,54.5 363.0,54.5 363.0,20.0" />
     <polygon id="highlight-&lt; N P BR O &gt;" data-ref="&lt; N P BR O &gt;" data-aliases="&lt; N P &gt;" class="geom-polygon geom-overlay" points="363.0,54.5 363.0,126.5 398.5,126.5 398.5,54.5" />
-    <line id="highlight-/ A D /" data-ref="/ A D /" data-aliases="/ D A /" class="geom-line geom-overlay" x1="17.0" y1="20.0" x2="218.0" y2="20.0" />
-    <line id="highlight-/ A E /" data-ref="/ A E /" data-aliases="/ E A /" class="geom-line geom-overlay" x1="17.0" y1="20.0" x2="133.5" y2="20.0" />
-    <line id="highlight-/ E D /" data-ref="/ E D /" data-aliases="/ D E /" class="geom-line geom-overlay" x1="133.5" y1="20.0" x2="218.0" y2="20.0" />
-    <line id="highlight-/ E F /" data-ref="/ E F /" data-aliases="/ F E /" class="geom-line geom-overlay" x1="133.5" y1="20.0" x2="176.5" y2="20.0" />
-    <line id="highlight-/ F D /" data-ref="/ F D /" data-aliases="/ D F /" class="geom-line geom-overlay" x1="176.5" y1="20.0" x2="218.0" y2="20.0" />
-    <line id="highlight-/ A G /" data-ref="/ A G /" data-aliases="/ G A /" class="geom-line geom-overlay" x1="17.0" y1="20.0" x2="115.5" y2="20.0" />
-    <line id="highlight-/ G E /" data-ref="/ G E /" data-aliases="/ E G /" class="geom-line geom-overlay" x1="115.5" y1="20.0" x2="133.5" y2="20.0" />
-    <line id="highlight-/ B C /" data-ref="/ B C /" data-aliases="/ C B /" class="geom-line geom-overlay" x1="17.0" y1="72.5" x2="218.0" y2="72.5" />
-    <line id="highlight-/ A B /" data-ref="/ A B /" data-aliases="/ B A /" class="geom-line geom-overlay" x1="17.0" y1="20.0" x2="17.0" y2="72.5" />
-    <line id="highlight-/ G H /" data-ref="/ G H /" data-aliases="/ H G /" class="geom-line geom-overlay" x1="115.5" y1="20.0" x2="115.5" y2="72.5" />
-    <line id="highlight-/ E K /" data-ref="/ E K /" data-aliases="/ K E /" class="geom-line geom-overlay" x1="133.5" y1="20.0" x2="133.5" y2="72.5" />
-    <line id="highlight-/ F L /" data-ref="/ F L /" data-aliases="/ L F /" class="geom-line geom-overlay" x1="176.5" y1="20.0" x2="176.5" y2="72.5" />
-    <line id="highlight-/ D C /" data-ref="/ D C /" data-aliases="/ C D /" class="geom-line geom-overlay" x1="218.0" y1="20.0" x2="218.0" y2="72.5" />
-    <line id="highlight-/ M O /" data-ref="/ M O /" data-aliases="/ O M /" class="geom-line geom-overlay" x1="291.5" y1="54.5" x2="398.5" y2="54.5" />
-    <line id="highlight-/ M N /" data-ref="/ M N /" data-aliases="/ N M /" class="geom-line geom-overlay" x1="291.5" y1="54.5" x2="363.0" y2="54.5" />
-    <line id="highlight-/ N O /" data-ref="/ N O /" data-aliases="/ O N /" class="geom-line geom-overlay" x1="363.0" y1="54.5" x2="398.5" y2="54.5" />
-    <line id="highlight-/ R P /" data-ref="/ R P /" data-aliases="/ P R /" class="geom-line geom-overlay" x1="363.0" y1="20.0" x2="363.0" y2="126.5" />
-    <line id="highlight-/ R N /" data-ref="/ R N /" data-aliases="/ N R /" class="geom-line geom-overlay" x1="363.0" y1="20.0" x2="363.0" y2="54.5" />
-    <line id="highlight-/ N P /" data-ref="/ N P /" data-aliases="/ P N /" class="geom-line geom-overlay" x1="363.0" y1="54.5" x2="363.0" y2="126.5" />
-    <line id="highlight-/ M S /" data-ref="/ M S /" data-aliases="/ S M /" class="geom-line geom-overlay" x1="291.5" y1="54.5" x2="291.5" y2="126.5" />
-    <line id="highlight-/ S P /" data-ref="/ S P /" data-aliases="/ P S /" class="geom-line geom-overlay" x1="291.5" y1="126.5" x2="363.0" y2="126.5" />
-    <line id="highlight-/ O Q /" data-ref="/ O Q /" data-aliases="/ Q O /" class="geom-line geom-overlay" x1="398.5" y1="54.5" x2="398.5" y2="20.0" />
-    <line id="highlight-/ R Q /" data-ref="/ R Q /" data-aliases="/ Q R /" class="geom-line geom-overlay" x1="363.0" y1="20.0" x2="398.5" y2="20.0" />
+    <path id="highlight-/ A D /" data-ref="/ A D /" data-aliases="/ D A /" class="geom-line geom-overlay" d="M 17 20 L 117.5 20 L 218 20" />
+    <path id="highlight-/ A E /" data-ref="/ A E /" data-aliases="/ E A /" class="geom-line geom-overlay" d="M 17 20 L 75.25 20 L 133.5 20" />
+    <path id="highlight-/ E D /" data-ref="/ E D /" data-aliases="/ D E /" class="geom-line geom-overlay" d="M 133.5 20 L 175.75 20 L 218 20" />
+    <path id="highlight-/ E F /" data-ref="/ E F /" data-aliases="/ F E /" class="geom-line geom-overlay" d="M 133.5 20 L 155 20 L 176.5 20" />
+    <path id="highlight-/ F D /" data-ref="/ F D /" data-aliases="/ D F /" class="geom-line geom-overlay" d="M 176.5 20 L 197.25 20 L 218 20" />
+    <path id="highlight-/ A G /" data-ref="/ A G /" data-aliases="/ G A /" class="geom-line geom-overlay" d="M 17 20 L 66.25 20 L 115.5 20" />
+    <path id="highlight-/ G E /" data-ref="/ G E /" data-aliases="/ E G /" class="geom-line geom-overlay" d="M 115.5 20 L 124.5 20 L 133.5 20" />
+    <path id="highlight-/ B C /" data-ref="/ B C /" data-aliases="/ C B /" class="geom-line geom-overlay" d="M 17 72.5 L 117.5 72.5 L 218 72.5" />
+    <path id="highlight-/ A B /" data-ref="/ A B /" data-aliases="/ B A /" class="geom-line geom-overlay" d="M 17 20 L 17 46.25 L 17 72.5" />
+    <path id="highlight-/ G H /" data-ref="/ G H /" data-aliases="/ H G /" class="geom-line geom-overlay" d="M 115.5 20 L 115.5 46.25 L 115.5 72.5" />
+    <path id="highlight-/ E K /" data-ref="/ E K /" data-aliases="/ K E /" class="geom-line geom-overlay" d="M 133.5 20 L 133.5 46.25 L 133.5 72.5" />
+    <path id="highlight-/ F L /" data-ref="/ F L /" data-aliases="/ L F /" class="geom-line geom-overlay" d="M 176.5 20 L 176.5 46.25 L 176.5 72.5" />
+    <path id="highlight-/ D C /" data-ref="/ D C /" data-aliases="/ C D /" class="geom-line geom-overlay" d="M 218 20 L 218 46.25 L 218 72.5" />
+    <path id="highlight-/ M O /" data-ref="/ M O /" data-aliases="/ O M /" class="geom-line geom-overlay" d="M 291.5 54.5 L 345 54.5 L 398.5 54.5" />
+    <path id="highlight-/ M N /" data-ref="/ M N /" data-aliases="/ N M /" class="geom-line geom-overlay" d="M 291.5 54.5 L 327.25 54.5 L 363 54.5" />
+    <path id="highlight-/ N O /" data-ref="/ N O /" data-aliases="/ O N /" class="geom-line geom-overlay" d="M 363 54.5 L 380.75 54.5 L 398.5 54.5" />
+    <path id="highlight-/ R P /" data-ref="/ R P /" data-aliases="/ P R /" class="geom-line geom-overlay" d="M 363 20 L 363 73.25 L 363 126.5" />
+    <path id="highlight-/ R N /" data-ref="/ R N /" data-aliases="/ N R /" class="geom-line geom-overlay" d="M 363 20 L 363 37.25 L 363 54.5" />
+    <path id="highlight-/ N P /" data-ref="/ N P /" data-aliases="/ P N /" class="geom-line geom-overlay" d="M 363 54.5 L 363 90.5 L 363 126.5" />
+    <path id="highlight-/ M S /" data-ref="/ M S /" data-aliases="/ S M /" class="geom-line geom-overlay" d="M 291.5 54.5 L 291.5 90.5 L 291.5 126.5" />
+    <path id="highlight-/ S P /" data-ref="/ S P /" data-aliases="/ P S /" class="geom-line geom-overlay" d="M 291.5 126.5 L 327.25 126.5 L 363 126.5" />
+    <path id="highlight-/ O Q /" data-ref="/ O Q /" data-aliases="/ Q O /" class="geom-line geom-overlay" d="M 398.5 54.5 L 398.5 37.25 L 398.5 20" />
+    <path id="highlight-/ R Q /" data-ref="/ R Q /" data-aliases="/ Q R /" class="geom-line geom-overlay" d="M 363 20 L 380.75 20 L 398.5 20" />
     <circle id="highlight-A" data-ref="A" class="geom-point geom-overlay" cx="17.0" cy="20.0" r="4" />
     <circle id="highlight-G" data-ref="G" class="geom-point geom-overlay" cx="115.5" cy="20.0" r="4" />
     <circle id="highlight-E" data-ref="E" class="geom-point geom-overlay" cx="133.5" cy="20.0" r="4" />

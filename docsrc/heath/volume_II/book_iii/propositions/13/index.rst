@@ -42,7 +42,7 @@ the centre of the circle :g:`$ABCD$ <0038.g3:( A B C D )>`,
 
 .. assertion::
 
-   :g:`$BG$ <0038.g3:/ B G />` is equal to :g:`$GD$ <0038.g3:/ G D />`;
+   :g:`$BG$ <0038.g3:/ B G />` is :eq:`equal <0038.g3:/ B G / = 0038.g3:/ G D />` to :g:`$GD$ <0038.g3:/ G D />`;
 
 .. _folio-ii-0039:
 
@@ -62,7 +62,7 @@ Again, since the point :g:`$H$ <0038.g3:H>` is the centre of the circle
 
 .. assertion::
 
-   :g:`$BH$ <0038.g3:/ B H />` is equal to :g:`$HD$ <0038.g3:/ H D />`;
+   :g:`$BH$ <0038.g3:/ B H />` is :eq:`equal <0038.g3:/ B H / = 0038.g3:/ H D />` to :g:`$HD$ <0038.g3:/ H D />`;
 
 but it was also proved much greater than it: which is
 impossible.

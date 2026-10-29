@@ -43,11 +43,11 @@ For let the squares :g:`$AE$ <0444.g1:< A E >>`, :g:`$DF$ <0444.g1:< D F >>` be 
 
 .. assertion::
 
-   therefore :g:`$CE$ <0444.g1:< C E >>` is equal to :g:`$FH$ <0444.g1:< F H >>`.
+   therefore :g:`$CE$ <0444.g1:< C E >>` is :eq:`equal <0444.g1:< C E > = 0444.g1:< F H >>` to :g:`$FH$ <0444.g1:< F H >>`.
 
 .. subclause::
 
-   And, since :g:`$BA$ <0444.g1:/ B A />` is double of :g:`$AD$ <0444.g1:/ A D />`, while :g:`$BA$ <0444.g1:/ B A />` is equal to :g:`$KA$ <0444.g1:/ K A />`, and :g:`$AD$ <0444.g1:/ A D />` to :g:`$AH$ <0444.g1:/ A H />`,
+   And, since :g:`$BA$ <0444.g1:/ B A />` is double of :g:`$AD$ <0444.g1:/ A D />`, while :g:`$BA$ <0444.g1:/ B A />` is :eq:`equal <0444.g1:/ B A / = 0444.g1:/ K A /; 0444.g1:/ A D / = 0444.g1:/ A H />` to :g:`$KA$ <0444.g1:/ K A />`, and :g:`$AD$ <0444.g1:/ A D />` to :g:`$AH$ <0444.g1:/ A H />`,
 
 .. assertion::
 
@@ -76,11 +76,11 @@ For let the squares :g:`$AE$ <0444.g1:< A E >>`, :g:`$DF$ <0444.g1:< D F >>` be 
 
 .. subclause::
 
-   But :g:`$CE$ <0444.g1:< C E >>` was also proved equal to :g:`$HF$ <0444.g1:< H F >>`;
+   But :g:`$CE$ <0444.g1:< C E >>` was also proved :eq:`equal <0444.g1:< C E > = 0444.g1:< H F >>` to :g:`$HF$ <0444.g1:< H F >>`;
 
 .. assertion::
 
-   therefore the whole square :g:`$AE$ <0444.g1:< A E >>` is equal to the gnomon :g:`$MNO$ <0444.g1:< M N O >>`.
+   therefore the whole square :g:`$AE$ <0444.g1:< A E >>` is :eq:`equal <0444.g1:< A E > = 0444.g1:< M N O >>` to the gnomon :g:`$MNO$ <0444.g1:< M N O >>`.
 
 .. subclause::
 
@@ -92,7 +92,7 @@ For let the squares :g:`$AE$ <0444.g1:< A E >>`, :g:`$DF$ <0444.g1:< D F >>` be 
 
 .. subclause::
 
-   But :g:`$AE$ <0444.g1:< A E >>` is equal to the gnomon :g:`$MNO$ <0444.g1:< M N O >>`;
+   But :g:`$AE$ <0444.g1:< A E >>` is :eq:`equal <0444.g1:< A E > = 0444.g1:< M N O >>` to the gnomon :g:`$MNO$ <0444.g1:< M N O >>`;
 
 .. assertion::
 

@@ -49,7 +49,7 @@ And, since :g:`$CA$ <0299.g1:/ C A />` is at right angles to the plane of refere
 
 .. assertion::
 
-   therefore the angle :g:`$CAE$ <0299.g1:< C A E )>` is equal to the angle :g:`$BAE$ <0299.g1:< B A E )>`.
+   therefore the angle :g:`$CAE$ <0299.g1:< C A E )>` is :eq:`equal <0299.g1:< C A E ) = 0299.g1:< B A E )>` to the angle :g:`$BAE$ <0299.g1:< B A E )>`.
 
 .. assertion::
 

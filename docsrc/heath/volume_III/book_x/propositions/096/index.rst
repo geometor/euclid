@@ -43,7 +43,7 @@ For let the area :g:`$AB$ <0213.g1:< A B >>` be contained by the rational straig
 
    therefore, if there be applied to :g:`$AG$ <0213.g1:/ A G />` a parallelogram equal to the fourth part of the square on :g:`$DG$ <0213.g1:/ D G />` and deficient by a square figure, it will divide it into incommensurable parts. :just:`[x. 18]`
 
-Let then :g:`$DG$ <0213.g1:/ D G />` be bisected at :g:`$E$ <0213.g1:E>`, let there be applied to :g:`$AG$ <0213.g1:/ A G />` a parallelogram equal to the square
+Let then :g:`$DG$ <0213.g1:/ D G />` be :eq:`bisected <0213.g1:/ D E / = 0213.g1:/ E G />` at :g:`$E$ <0213.g1:E>`, let there be applied to :g:`$AG$ <0213.g1:/ A G />` a parallelogram equal to the square
 on :g:`$EG$ <0213.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0213.g1:/ A F />`, :g:`$FG$ <0213.g1:/ F G />`; therefore :g:`$AF$ <0213.g1:/ A F />` is incommensurable in length with :g:`$FG$ <0213.g1:/ F G />`.
 
 .. _folio-iii-0214:
@@ -91,7 +91,7 @@ on :g:`$EG$ <0213.g1:/ E G />` and deficient by a square figure, and let it be t
 
    therefore :g:`$AK$ <0213.g1:< A K >>` is incommensurable with :g:`$KD$ <0213.g1:< K D >>`.
 
-Now let the square :g:`$LM$ <0213.g1:< L M >>` be constructed equal to :g:`$AI$ <0213.g1:< A I >>`, and let :g:`$NO$ <0213.g1:< N O >>` equal to :g:`$FK$ <0213.g1:< F K >>`, and about the same angle, be subtracted ; therefore the squares :g:`$LM$ <0213.g1:< L M >>`, :g:`$NO$ <0213.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>`
+Now let the square :g:`$LM$ <0213.g1:< L M >>` be constructed :eq:`equal <0213.g1:< L M > = 0213.g1:< A I >>` to :g:`$AI$ <0213.g1:< A I >>`, and let :g:`$NO$ <0213.g1:< N O >>` :eq:`equal <0213.g1:< N O > = 0213.g1:< F K >>` to :g:`$FK$ <0213.g1:< F K >>`, and about the same angle, be subtracted ; therefore the squares :g:`$LM$ <0213.g1:< L M >>`, :g:`$NO$ <0213.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>`
 
 Let :g:`$PR$ <0213.g1:/ P R />` be their diameter, and let the figure be drawn.
 

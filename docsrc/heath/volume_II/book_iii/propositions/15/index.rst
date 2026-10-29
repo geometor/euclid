@@ -36,18 +36,18 @@ Then, since :g:`$BC$ <0042.g1:/ B C />` is nearer to the
 centre and :g:`$FG$ <0042.g1:/ F G />` more remote, :g:`$EK$ <0042.g1:/ E K />` is
 greater than :g:`$EH$ <0042.g1:/ E H />`. :just:`[III. Def. 5] <III.def.5>`
 
-Let :g:`$EL$ <0042.g1:/ E L />` be made equal to :g:`$EH$ <0042.g1:/ E H />`,
+Let :g:`$EL$ <0042.g1:/ E L />` be made :eq:`equal <0042.g1:/ E L / = 0042.g1:/ E H />` to :g:`$EH$ <0042.g1:/ E H />`,
 through :g:`$L$ <0042.g1:L>` let :g:`$LM$ <0042.g1:/ L M />` be drawn at right
 angles to :g:`$EK$ <0042.g1:/ E K />` and carried through to :g:`$N$ <0042.g1:N>`, and let :g:`$ME$ <0042.g1:/ M E />`, :g:`$EN$ <0042.g1:/ E N />`,
 :g:`$FE$ <0042.g1:/ F E />`, :g:`$EG$ <0042.g1:/ E G />` be joined.
 
-Then, since :g:`$EH$ <0042.g1:/ E H />` is equal to :g:`$EL$ <0042.g1:/ E L />`,
+Then, since :g:`$EH$ <0042.g1:/ E H />` is :eq:`equal <0042.g1:/ E H / = 0042.g1:/ E L />` to :g:`$EL$ <0042.g1:/ E L />`,
 
 .. assertion:: [III. 14] <III.14>
 
-   :g:`$BC$ <0042.g1:/ B C />` is also equal to :g:`$MN$ <0042.g1:/ M N />`.
+   :g:`$BC$ <0042.g1:/ B C />` is also :eq:`equal <0042.g1:/ B C / = 0042.g1:/ M N />` to :g:`$MN$ <0042.g1:/ M N />`.
 
-Again, since :g:`$AE$ <0042.g1:/ A E />` is equal to :g:`$EM$ <0042.g1:/ E M />`, and :g:`$ED$ <0042.g1:/ E D />` to :g:`$EN$ <0042.g1:/ E N />`,
+Again, since :g:`$AE$ <0042.g1:/ A E />` is :eq:`equal <0042.g1:/ A E / = 0042.g1:/ E M /; 0042.g1:/ E D / = 0042.g1:/ E N />` to :g:`$EM$ <0042.g1:/ E M />`, and :g:`$ED$ <0042.g1:/ E D />` to :g:`$EN$ <0042.g1:/ E N />`,
 
 .. assertion::
 
@@ -59,18 +59,18 @@ Again, since :g:`$AE$ <0042.g1:/ A E />` is equal to :g:`$EM$ <0042.g1:/ E M />`
    :page: 37
 
 But :g:`$ME$ <0042.g1:/ M E />`, :g:`$EN$ <0042.g1:/ E N />` are greater than :g:`$MN$ <0042.g1:/ M N />`, :just:`[I. 20] <I.20>`
-and :g:`$MN$ <0042.g1:/ M N />` is equal to :g:`$BC$ <0042.g1:/ B C />`;
+and :g:`$MN$ <0042.g1:/ M N />` is :eq:`equal <0042.g1:/ M N / = 0042.g1:/ B C />` to :g:`$BC$ <0042.g1:/ B C />`;
 
 .. assertion::
 
    therefore :g:`$AD$ <0042.g1:/ A D />` is greater than :g:`$BC$ <0042.g1:/ B C />`.
 
-And, since the two sides :g:`$ME$ <0042.g1:/ M E />`, :g:`$EN$ <0042.g1:/ E N />` are equal to the two
+And, since the two sides :g:`$ME$ <0042.g1:/ M E />`, :g:`$EN$ <0042.g1:/ E N />` are :eq:`equal <0042.g1:/ M E / = 0042.g1:/ F E /; 0042.g1:/ E N / = 0042.g1:/ E G />` to the two
 sides :g:`$FE$ <0042.g1:/ F E />`, :g:`$EG$ <0042.g1:/ E G />`,
 and the angle :g:`$MEN$ <0042.g1:< M E N )>` greater than the angle :g:`$FEG$ <0042.g1:< F E G )>`,
 therefore the base :g:`$MN$ <0042.g1:/ M N />` is greater than the base :g:`$FG$ <0042.g1:/ F G />`. :just:`[I. 24] <I.24>`
 
-But :g:`$MN$ <0042.g1:/ M N />` was proved equal to :g:`$BC$ <0042.g1:/ B C />`.
+But :g:`$MN$ <0042.g1:/ M N />` was proved :eq:`equal <0042.g1:/ M N / = 0042.g1:/ B C />` to :g:`$BC$ <0042.g1:/ B C />`.
 Therefore the diameter :g:`$AD$ <0042.g1:/ A D />` is greatest and :g:`$BC$ <0042.g1:/ B C />` greater
 than :g:`$FG$ <0042.g1:/ F G />`.
 

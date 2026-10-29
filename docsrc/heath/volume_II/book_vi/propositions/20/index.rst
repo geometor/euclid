@@ -35,7 +35,7 @@ Let :g:`$BE$ <0241.g1:/ B E />`, :g:`$EC$ <0241.g1:/ E C />`, :g:`$GL$ <0241.g1:
 
 .. assertion::
 
-   the angle :g:`$BAE$ <0241.g1:< B A E )>` is equal to the angle :g:`$GFL$ <0241.g1:< G F L )>`;
+   the angle :g:`$BAE$ <0241.g1:< B A E )>` is :eq:`equal <0241.g1:< B A E ) = 0241.g1:< G F L )>` to the angle :g:`$GFL$ <0241.g1:< G F L )>`;
 
 .. assertion:: [VI. Def. 1] <VI.def.1>
 
@@ -43,11 +43,11 @@ Let :g:`$BE$ <0241.g1:/ B E />`, :g:`$EC$ <0241.g1:/ E C />`, :g:`$GL$ <0241.g1:
 
 .. subclause::
 
-   Since then :g:`$ABE$ <0241.g1:< A B E >>`, :g:`$FGL$ <0241.g1:< F G L >>` are two triangles having one angle equal to one angle and the sides about the equal angles proportional,
+   Since then :g:`$ABE$ <0241.g1:< A B E >>`, :g:`$FGL$ <0241.g1:< F G L >>` are two triangles having one angle :eq:`equal <0241.g1:< B A E ) = 0241.g1:< G F L )>` to one angle and the sides about the equal angles proportional,
 
 .. assertion::
 
-   therefore the triangle :g:`$ABE$ <0241.g1:< A B E >>` is equiangular with the triangle :g:`$FGL$ <0241.g1:< F G L >>`; :just:`[VI. 6] <VI.6>`
+   therefore the triangle :g:`$ABE$ <0241.g1:< A B E >>` is :eq:`equiangular <0241.g1:< B A E ) = 0241.g1:< G F L ); 0241.g1:< A B E ) = 0241.g1:< F G L )>` with the triangle :g:`$FGL$ <0241.g1:< F G L >>`; :just:`[VI. 6] <VI.6>`
 
 .. assertion:: [VI. 4 and Def. 1] <VI.4, VI.def.1>
 
@@ -55,7 +55,7 @@ Let :g:`$BE$ <0241.g1:/ B E />`, :g:`$EC$ <0241.g1:/ E C />`, :g:`$GL$ <0241.g1:
 
 .. assertion::
 
-   therefore the angle :g:`$ABE$ <0241.g1:< A B E )>` is equal to the angle :g:`$FGL$ <0241.g1:< F G L )>`.
+   therefore the angle :g:`$ABE$ <0241.g1:< A B E )>` is :eq:`equal <0241.g1:< A B E ) = 0241.g1:< F G L )>` to the angle :g:`$FGL$ <0241.g1:< F G L )>`.
 
 .. _folio-ii-0242:
 
@@ -64,11 +64,11 @@ Let :g:`$BE$ <0241.g1:/ B E />`, :g:`$EC$ <0241.g1:/ E C />`, :g:`$GL$ <0241.g1:
 
 .. subclause::
 
-   But the whole angle :g:`$ABC$ <0241.g1:< A B C )>` is also equal to the whole angle :g:`$FGH$ <0241.g1:< F G H )>` because of the similarity of the polygons;
+   But the whole angle :g:`$ABC$ <0241.g1:< A B C )>` is also :eq:`equal <0241.g1:< A B C ) = 0241.g1:< F G H )>` to the whole angle :g:`$FGH$ <0241.g1:< F G H )>` because of the similarity of the polygons;
 
 .. assertion::
 
-   therefore the remaining angle :g:`$EBC$ <0241.g1:< E B C )>` is equal to the angle :g:`$LGH$ <0241.g1:< L G H )>`.
+   therefore the remaining angle :g:`$EBC$ <0241.g1:< E B C )>` is :eq:`equal <0241.g1:< E B C ) = 0241.g1:< L G H )>` to the angle :g:`$LGH$ <0241.g1:< L G H )>`.
 
 .. subclause::
 
@@ -92,11 +92,11 @@ Let :g:`$BE$ <0241.g1:/ B E />`, :g:`$EC$ <0241.g1:/ E C />`, :g:`$GL$ <0241.g1:
 
 .. assertion::
 
-   that is, the sides about the equal angles :g:`$EBC$ <0241.g1:< E B C )>`, :g:`$LGH$ <0241.g1:< L G H )>` are proportional;
+   that is, the sides about the :eq:`equal <0241.g1:< E B C ) = 0241.g1:< L G H )>` angles :g:`$EBC$ <0241.g1:< E B C )>`, :g:`$LGH$ <0241.g1:< L G H )>` are proportional;
 
 .. assertion::
 
-   therefore the triangle :g:`$EBC$ <0241.g1:< E B C >>` is equiangular with the triangle :g:`$LGH$ <0241.g1:< L G H >>`, :just:`[VI. 6] <VI.6>`
+   therefore the triangle :g:`$EBC$ <0241.g1:< E B C >>` is :eq:`equiangular <0241.g1:< E B C ) = 0241.g1:< L G H )>` with the triangle :g:`$LGH$ <0241.g1:< L G H >>`, :just:`[VI. 6] <VI.6>`
 
 .. assertion::
 
@@ -120,19 +120,19 @@ For let :g:`$AC$ <0241.g1:/ A C />`, :g:`$FH$ <0241.g1:/ F H />` be joined.
 
 .. subclause::
 
-   Then since, because of the similarity of the polygons, the angle :g:`$ABC$ <0241.g1:< A B C )>` is equal to the angle :g:`$FGH$ <0241.g1:< F G H )>`, and, as :g:`$AB$ <0241.g1:/ A B />` is to :g:`$BC$ <0241.g1:/ B C />`, so is :g:`$FG$ <0241.g1:/ F G />` to :g:`$GH$ <0241.g1:/ G H />`,
+   Then since, because of the similarity of the polygons, the angle :g:`$ABC$ <0241.g1:< A B C )>` is :eq:`equal <0241.g1:< A B C ) = 0241.g1:< F G H )>` to the angle :g:`$FGH$ <0241.g1:< F G H )>`, and, as :g:`$AB$ <0241.g1:/ A B />` is to :g:`$BC$ <0241.g1:/ B C />`, so is :g:`$FG$ <0241.g1:/ F G />` to :g:`$GH$ <0241.g1:/ G H />`,
 
 .. assertion:: [VI. 6] <VI.6>
 
-   the triangle :g:`$ABC$ <0241.g1:< A B C >>` is equiangular with the triangle :g:`$FGH$ <0241.g1:< F G H >>`;
+   the triangle :g:`$ABC$ <0241.g1:< A B C >>` is :eq:`equiangular <0241.g1:< A B C ) = 0241.g1:< F G H ); 0241.g1:< B A C ) = 0241.g1:< G F H ); 0241.g1:< B C A ) = 0241.g1:< G H F )>` with the triangle :g:`$FGH$ <0241.g1:< F G H >>`;
 
 .. assertion::
 
-   therefore the angle :g:`$BAC$ <0241.g1:< B A C )>` is equal to the angle :g:`$GFH$ <0241.g1:< G F H )>`, and the angle :g:`$BCA$ <0241.g1:< B C A )>` to the angle :g:`$GHF$ <0241.g1:< G H F )>`.
+   therefore the angle :g:`$BAC$ <0241.g1:< B A C )>` is :eq:`equal <0241.g1:< B A C ) = 0241.g1:< G F H ); 0241.g1:< B C A ) = 0241.g1:< G H F )>` to the angle :g:`$GFH$ <0241.g1:< G F H )>`, and the angle :g:`$BCA$ <0241.g1:< B C A )>` to the angle :g:`$GHF$ <0241.g1:< G H F )>`.
 
 .. subclause::
 
-   And, since the angle :g:`$BAM$ <0241.g1:< B A M )>` is equal to the angle :g:`$GFN$ <0241.g1:< G F N )>`, and the angle :g:`$ABM$ <0241.g1:< A B M )>` is also equal to the angle :g:`$FGN$ <0241.g1:< F G N )>`,
+   And, since the angle :g:`$BAM$ <0241.g1:< B A M )>` is :eq:`equal <0241.g1:< B A M ) = 0241.g1:< G F N )>` to the angle :g:`$GFN$ <0241.g1:< G F N )>`, and the angle :g:`$ABM$ <0241.g1:< A B M )>` is also :eq:`equal <0241.g1:< A B M ) = 0241.g1:< F G N )>` to the angle :g:`$FGN$ <0241.g1:< F G N )>`,
 
 .. _folio-ii-0243:
 
@@ -141,15 +141,15 @@ For let :g:`$AC$ <0241.g1:/ A C />`, :g:`$FH$ <0241.g1:/ F H />` be joined.
 
 .. assertion::
 
-   therefore the remaining angle :g:`$AMB$ <0241.g1:< A M B )>` is also equal to the remaining angle :g:`$FNG$ <0241.g1:< F N G )>`; :just:`[I. 32] <I.32>`
+   therefore the remaining angle :g:`$AMB$ <0241.g1:< A M B )>` is also :eq:`equal <0241.g1:< A M B ) = 0241.g1:< F N G )>` to the remaining angle :g:`$FNG$ <0241.g1:< F N G )>`; :just:`[I. 32] <I.32>`
 
 .. assertion::
 
-   therefore the triangle :g:`$ABM$ <0241.g1:< A B M >>` is equiangular with the triangle :g:`$FGN$ <0241.g1:< F G N >>`.
+   therefore the triangle :g:`$ABM$ <0241.g1:< A B M >>` is :eq:`equiangular <0241.g1:< B A M ) = 0241.g1:< G F N ); 0241.g1:< A B M ) = 0241.g1:< F G N ); 0241.g1:< A M B ) = 0241.g1:< F N G )>` with the triangle :g:`$FGN$ <0241.g1:< F G N >>`.
 
 .. assertion::
 
-   Similarly we can prove that the triangle :g:`$BMC$ <0241.g1:< B M C >>` is also equiangular with the triangle :g:`$GNH$ <0241.g1:< G N H >>`.
+   Similarly we can prove that the triangle :g:`$BMC$ <0241.g1:< B M C >>` is also :eq:`equiangular <0241.g1:< B C A ) = 0241.g1:< G H F ); 0241.g1:< E B C ) = 0241.g1:< L G H )>` with the triangle :g:`$GNH$ <0241.g1:< G N H >>`.
 
 .. assertion::
 

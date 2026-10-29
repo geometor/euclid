@@ -43,7 +43,7 @@ For let the area :g:`$AB$ <0207.g1:< A B >>` be contained by the rational straig
 
    therefore, if there be applied to :g:`$AG$ <0207.g1:/ A G />` a parallelogram equal to the fourth part of the square on :g:`$GD$ <0207.g1:/ G D />` and deficient by a square figure, it will divide it into incommensurable parts. :just:`[x. 18]`
 
-Let then :g:`$DG$ <0207.g1:/ D G />` be bisected at :g:`$E$ <0207.g1:E>`, let there be applied to :g:`$AG$ <0207.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0207.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0207.g1:/ A F />`, :g:`$FG$ <0207.g1:/ F G />`;
+Let then :g:`$DG$ <0207.g1:/ D G />` be :eq:`bisected <0207.g1:/ D E / = 0207.g1:/ E G />` at :g:`$E$ <0207.g1:E>`, let there be applied to :g:`$AG$ <0207.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0207.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0207.g1:/ A F />`, :g:`$FG$ <0207.g1:/ F G />`;
 
 .. assertion::
 
@@ -80,7 +80,7 @@ Let :g:`$EH$ <0207.g1:/ E H />`, :g:`$FI$ <0207.g1:/ F I />`, :g:`$GK$ <0207.g1:
 
    therefore :g:`$AI$ <0207.g1:< A I >>` is also incommensurable with :g:`$FK$ <0207.g1:< F K >>`.
 
-Now let the square :g:`$LM$ <0207.g1:< L M >>` be constructed equal to :g:`$AI$ <0207.g1:< A I >>`, and let there be subtracted :g:`$NO$ <0207.g1:< N O >>` equal to :g:`$FK$ <0207.g1:< F K >>` and about the same angle, the angle :g:`$LPM$ <0207.g1:< L P M )>`. Therefore the squares :g:`$LM$ <0207.g1:< L M >>`, :g:`$NO$ <0207.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>` Let :g:`$PR$ <0207.g1:/ P R />` be their diameter, and let the figure be drawn.
+Now let the square :g:`$LM$ <0207.g1:< L M >>` be constructed :eq:`equal <0207.g1:< L M > = 0207.g1:< A I >>` to :g:`$AI$ <0207.g1:< A I >>`, and let there be subtracted :g:`$NO$ <0207.g1:< N O >>` :eq:`equal <0207.g1:< N O > = 0207.g1:< F K >>` to :g:`$FK$ <0207.g1:< F K >>` and about the same angle, the angle :g:`$LPM$ <0207.g1:< L P M )>`. Therefore the squares :g:`$LM$ <0207.g1:< L M >>`, :g:`$NO$ <0207.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>` Let :g:`$PR$ <0207.g1:/ P R />` be their diameter, and let the figure be drawn.
 
 .. subclause::
 
@@ -100,15 +100,15 @@ Now let the square :g:`$LM$ <0207.g1:< L M >>` be constructed equal to :g:`$AI$ 
 
 .. subclause::
 
-   But :g:`$MN$ <0207.g1:< M N >>` is also a mean proportional between the squares :g:`$LM$ <0207.g1:< L M >>`, :g:`$NO$ <0207.g1:< N O >>`, and :g:`$AI$ <0207.g1:< A I >>` is equal to :g:`$LM$ <0207.g1:< L M >>`, and :g:`$FK$ <0207.g1:< F K >>` to :g:`$NO$ <0207.g1:< N O >>`;
+   But :g:`$MN$ <0207.g1:< M N >>` is also a mean proportional between the squares :g:`$LM$ <0207.g1:< L M >>`, :g:`$NO$ <0207.g1:< N O >>`, and :g:`$AI$ <0207.g1:< A I >>` is :eq:`equal <0207.g1:< A I > = 0207.g1:< L M >; 0207.g1:< F K > = 0207.g1:< N O >>` to :g:`$LM$ <0207.g1:< L M >>`, and :g:`$FK$ <0207.g1:< F K >>` to :g:`$NO$ <0207.g1:< N O >>`;
 
 .. assertion::
 
-   therefore :g:`$EK$ <0207.g1:< E K >>` is also equal to :g:`$MN$ <0207.g1:< M N >>`.
+   therefore :g:`$EK$ <0207.g1:< E K >>` is also :eq:`equal <0207.g1:< E K > = 0207.g1:< M N >>` to :g:`$MN$ <0207.g1:< M N >>`.
 
 .. subclause::
 
-   But :g:`$DH$ <0207.g1:< D H >>` is equal to :g:`$EK$ <0207.g1:< E K >>`, and :g:`$LO$ <0207.g1:< L O >>` is equal to :g:`$MN$ <0207.g1:< M N >>`;
+   But :g:`$DH$ <0207.g1:< D H >>` is :eq:`equal <0207.g1:< D H > = 0207.g1:< E K >>` to :g:`$EK$ <0207.g1:< E K >>`, and :g:`$LO$ <0207.g1:< L O >>` is :eq:`equal <0207.g1:< L O > = 0207.g1:< M N >>` to :g:`$MN$ <0207.g1:< M N >>`;
 
 .. assertion::
 
@@ -120,7 +120,7 @@ Now let the square :g:`$LM$ <0207.g1:< L M >>` be constructed equal to :g:`$AI$ 
 
 .. assertion::
 
-   therefore the remainder :g:`$AB$ <0207.g1:< A B >>` is equal to :g:`$ST$ <0207.g1:< S T >>`, that is, to the square on :g:`$LN$ <0207.g1:/ L N />`; therefore :g:`$LN$ <0207.g1:/ L N />` is the “side” of the area :g:`$AB$ <0207.g1:< A B >>`.
+   therefore the remainder :g:`$AB$ <0207.g1:< A B >>` is :eq:`equal <0207.g1:< A B > = 0207.g1:< S T >>` to :g:`$ST$ <0207.g1:< S T >>`, that is, to the square on :g:`$LN$ <0207.g1:/ L N />`; therefore :g:`$LN$ <0207.g1:/ L N />` is the “side” of the area :g:`$AB$ <0207.g1:< A B >>`.
 
 .. _folio-iii-0209:
 

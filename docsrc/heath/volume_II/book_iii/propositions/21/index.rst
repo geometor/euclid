@@ -23,7 +23,7 @@ PROPOSITION 21.
 Let :g:`$ABCD$ <0055.g1:( A B C D )>` be a circle, and let the angles :g:`$BAD$ <0055.g1:< B A D )>`, :g:`$BED$ <0055.g1:< B E D )>`
 be angles in the same segment :g:`$BAED$ <0055.g1:< B A E D )>`;
 I say that the angles :g:`$BAD$ <0055.g1:< B A D )>`, :g:`$BED$ <0055.g1:< B E D )>` are
-equal to one another.
+:eq:`equal <0055.g1:< B A D ) = 0055.g1:< B E D )>` to one another.
 
 .. picture:: 0055.g1.svg
    :alt: Diagram for Proposition 21
@@ -47,7 +47,7 @@ For the same reason
 
 .. assertion::
 
-   the angle :g:`$BFD$ <0055.g1:< B F D )>` is also double of the angle :g:`$BED$ <0055.g1:< B E D )>`; therefore the angle :g:`$BAD$ <0055.g1:< B A D )>` is equal to the angle :g:`$BED$ <0055.g1:< B E D )>`.
+   the angle :g:`$BFD$ <0055.g1:< B F D )>` is also double of the angle :g:`$BED$ <0055.g1:< B E D )>`; therefore the angle :g:`$BAD$ <0055.g1:< B A D )>` is :eq:`equal <0055.g1:< B A D ) = 0055.g1:< B E D )>` to the angle :g:`$BED$ <0055.g1:< B E D )>`.
 
 .. qed::
 

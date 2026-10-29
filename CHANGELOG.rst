@@ -3,6 +3,17 @@ changelog
 
 :project: geometor.euclid
 
+0.3.2
+-----
+*2026-10-28*
+
+**added**
+
+-   **Equality Assertion Highlighting**:
+    -   Curated 2,904 inline ``:eq:`` equality annotations across 569 folios spanning all 13 Books of Euclid's *Elements*.
+    -   Recalibrated all 831 geometric SVGs with ``<defs>`` center tick markers (``#geom-tick-1/2/3``), 3-vertex midpoint segment paths, and 3-vertex midpoint angle arcs (``.geom-ang-arc``).
+    -   Recompiled ``docsrc/heath/`` and rebuilt ``docs/`` HTML edition.
+
 0.2.3
 -----
 *2025-12-16*

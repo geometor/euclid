@@ -61,7 +61,7 @@ But the angle :g:`$ABF$ <0072.g1:< A B F )>` is also right;
 therefore the angle :g:`$ABF$ <0072.g1:< A B F )>` is equal to the angles :g:`$BAD$ <0072.g1:< B A D )>`, :g:`$ABD$ <0072.g1:< A B D )>`.
 
 Let the angle :g:`$ABD$ <0072.g1:< A B D )>` be subtracted from each;
-therefore the angle :g:`$DBF$ <0072.g1:< D B F )>` which remains is equal to the angle
+therefore the angle :g:`$DBF$ <0072.g1:< D B F )>` which remains is :eq:`equal <0072.g1:< D B F ) = 0072.g1:< B A D )>` to the angle
 :g:`$BAD$ <0072.g1:< B A D )>` in the alternate segment of the circle.
 
 Next, since :g:`$ABCD$ <0072.g1:< A B C D >>` is a quadrilateral in a circle,
@@ -74,9 +74,9 @@ therefore the angles :g:`$DBF$ <0072.g1:< D B F )>`, :g:`$DBE$ <0072.g1:< D B E 
 
 .. subclause::
 
-   of which the angle :g:`$BAD$ <0072.g1:< B A D )>` was proved equal to the angle :g:`$DBF$ <0072.g1:< D B F )>`;
+   of which the angle :g:`$BAD$ <0072.g1:< B A D )>` was proved :eq:`equal <0072.g1:< B A D ) = 0072.g1:< D B F )>` to the angle :g:`$DBF$ <0072.g1:< D B F )>`;
 
-therefore the angle :g:`$DBE$ <0072.g1:< D B E )>` which remains is equal to the
+therefore the angle :g:`$DBE$ <0072.g1:< D B E )>` which remains is :eq:`equal <0072.g1:< D B E ) = 0072.g1:< D C B )>` to the
 angle :g:`$DCB$ <0072.g1:< D C B )>` in the alternate segment :g:`$DCB$ <0072.g1:( D C B )>` of the circle.
 
 .. qed::

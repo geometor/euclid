@@ -20,20 +20,20 @@ PROPOSITION 9.
 
    If a straight line be cut into equal and unequal segments, the squares on the unequal segments of the whole are double of the square on the half and of the square on the straight line between the points of section.
 
-For let a straight line :g:`$AB$ <0406.g1:/ A B />` be cut into equal segments at :g:`$C$ <0406.g1:C>`, and into unequal segments at :g:`$D$ <0406.g1:D>`;
+For let a straight line :g:`$AB$ <0406.g1:/ A B />` be cut into :eq:`equal <0406.g1:/ A C / = 0406.g1:/ C B />` segments at :g:`$C$ <0406.g1:C>`, and into unequal segments at :g:`$D$ <0406.g1:D>`;
 
 I say that the squares on :g:`$AD$ <0406.g1:/ A D />`, :g:`$DB$ <0406.g1:/ D B />` are double of the squares on :g:`$AC$ <0406.g1:/ A C />`, :g:`$CD$ <0406.g1:/ C D />`.
 
-For let :g:`$CE$ <0406.g1:/ C E />` be drawn from :g:`$C$ <0406.g1:C>` at right angles to :g:`$AB$ <0406.g1:/ A B />`, and let it be made equal to either :g:`$AC$ <0406.g1:/ A C />` or :g:`$CB$ <0406.g1:/ C B />`; let :g:`$EA$ <0406.g1:/ E A />`, :g:`$EB$ <0406.g1:/ E B />` be joined, let :g:`$DF$ <0406.g1:/ D F />` be drawn through :g:`$D$ <0406.g1:D>` parallel to :g:`$EC$ <0406.g1:/ E C />`, and :g:`$FG$ <0406.g1:/ F G />` through :g:`$F$ <0406.g1:F>` parallel to :g:`$AB$ <0406.g1:/ A B />`, and let :g:`$AF$ <0406.g1:/ A F />` be joined.
+For let :g:`$CE$ <0406.g1:/ C E />` be drawn from :g:`$C$ <0406.g1:C>` at right angles to :g:`$AB$ <0406.g1:/ A B />`, and let it be made :eq:`equal <0406.g1:/ C E / = 0406.g1:/ A C / = 0406.g1:/ C B />` to either :g:`$AC$ <0406.g1:/ A C />` or :g:`$CB$ <0406.g1:/ C B />`; let :g:`$EA$ <0406.g1:/ E A />`, :g:`$EB$ <0406.g1:/ E B />` be joined, let :g:`$DF$ <0406.g1:/ D F />` be drawn through :g:`$D$ <0406.g1:D>` parallel to :g:`$EC$ <0406.g1:/ E C />`, and :g:`$FG$ <0406.g1:/ F G />` through :g:`$F$ <0406.g1:F>` parallel to :g:`$AB$ <0406.g1:/ A B />`, and let :g:`$AF$ <0406.g1:/ A F />` be joined.
 
 .. picture:: 0406.g1.svg
    :alt: Diagram
 
-Then, since :g:`$AC$ <0406.g1:/ A C />` is equal to :g:`$CE$ <0406.g1:/ C E />`, the angle :g:`$EAC$ <0406.g1:< E A C )>` is also equal to the angle :g:`$AEC$ <0406.g1:< A E C )>`.
+Then, since :g:`$AC$ <0406.g1:/ A C />` is :eq:`equal <0406.g1:/ A C / = 0406.g1:/ C E />` to :g:`$CE$ <0406.g1:/ C E />`, the angle :g:`$EAC$ <0406.g1:< E A C )>` is also :eq:`equal <0406.g1:< E A C ) = 0406.g1:< A E C )>` to the angle :g:`$AEC$ <0406.g1:< A E C )>`.
 
 And, since the angle at :g:`$C$ <0406.g1:C>` is right, the remaining angles :g:`$EAC$ <0406.g1:< E A C )>`, :g:`$AEC$ <0406.g1:< A E C )>` are equal to one right angle. :just:`[I. 32] <I.32>`
 
-And they are equal;
+And they are :eq:`equal <0406.g1:< E A C ) = 0406.g1:< A E C )>`;
 
 .. assertion::
 
@@ -46,7 +46,7 @@ For the same reason each of the angles :g:`$CEB$ <0406.g1:< C E B )>`, :g:`$EBC$
    therefore the whole angle :g:`$AEB$ <0406.g1:< A E B )>` is right.
 
 And, since the angle :g:`$GEF$ <0406.g1:< G E F )>` is half a right angle,
-and the angle :g:`$EGF$ <0406.g1:< E G F )>` is right, for it is equal to the interior and opposite angle :g:`$ECB$ <0406.g1:< E C B )>`, :just:`[I. 29] <I.29>`
+and the angle :g:`$EGF$ <0406.g1:< E G F )>` is :eq:`right <0406.g1:< E G F ) = 0406.g1:< E C B )>`, for it is :eq:`equal <0406.g1:< E G F ) = 0406.g1:< E C B )>` to the interior and opposite angle :g:`$ECB$ <0406.g1:< E C B )>`, :just:`[I. 29] <I.29>`
 
 .. _folio-i-0407:
 
@@ -57,25 +57,25 @@ and the angle :g:`$EGF$ <0406.g1:< E G F )>` is right, for it is equal to the in
 
    the remaining angle :g:`$EFG$ <0406.g1:< E F G )>` is half a right angle;
 
-therefore the angle :g:`$GEF$ <0406.g1:< G E F )>` is equal to the angle :g:`$EFG$ <0406.g1:< E F G )>`,
+therefore the angle :g:`$GEF$ <0406.g1:< G E F )>` is :eq:`equal <0406.g1:< G E F ) = 0406.g1:< E F G )>` to the angle :g:`$EFG$ <0406.g1:< E F G )>`,
 
 .. assertion:: [I. 6] <I.6>
 
-   so that the side :g:`$EG$ <0406.g1:/ E G />` is also equal to :g:`$GF$ <0406.g1:/ G F />`.
+   so that the side :g:`$EG$ <0406.g1:/ E G />` is also :eq:`equal <0406.g1:/ E G / = 0406.g1:/ G F />` to :g:`$GF$ <0406.g1:/ G F />`.
 
-Again, since the angle at :g:`$B$ <0406.g1:B>` is half a right angle, and the angle :g:`$FDB$ <0406.g1:< F D B )>` is right, for it is again equal to the interior and opposite angle :g:`$ECB$ <0406.g1:< E C B )>`, :just:`[I. 29] <I.29>`
+Again, since the angle at :g:`$B$ <0406.g1:B>` is half a right angle, and the angle :g:`$FDB$ <0406.g1:< F D B )>` is :eq:`right <0406.g1:< F D B ) = 0406.g1:< E C B )>`, for it is again :eq:`equal <0406.g1:< F D B ) = 0406.g1:< E C B )>` to the interior and opposite angle :g:`$ECB$ <0406.g1:< E C B )>`, :just:`[I. 29] <I.29>`
 
 .. subclause:: [I. 32] <I.32>
 
    the remaining angle :g:`$BFD$ <0406.g1:< B F D )>` is half a right angle;
 
-therefore the angle at :g:`$B$ <0406.g1:B>` is equal to the angle :g:`$DFB$ <0406.g1:< D F B )>`,
+therefore the angle at :g:`$B$ <0406.g1:B>` is :eq:`equal <0406.g1:< E B C ) = 0406.g1:< D F B )>` to the angle :g:`$DFB$ <0406.g1:< D F B )>`,
 
 .. assertion:: [I. 6] <I.6>
 
-   so that the side :g:`$FD$ <0406.g1:/ F D />` is also equal to the side :g:`$DB$ <0406.g1:/ D B />`.
+   so that the side :g:`$FD$ <0406.g1:/ F D />` is also :eq:`equal <0406.g1:/ F D / = 0406.g1:/ D B />` to the side :g:`$DB$ <0406.g1:/ D B />`.
 
-Now, since :g:`$AC$ <0406.g1:/ A C />` is equal to :g:`$CE$ <0406.g1:/ C E />`, the square on :g:`$AC$ <0406.g1:/ A C />` is also equal to the square on :g:`$CE$ <0406.g1:/ C E />`;
+Now, since :g:`$AC$ <0406.g1:/ A C />` is :eq:`equal <0406.g1:/ A C / = 0406.g1:/ C E />` to :g:`$CE$ <0406.g1:/ C E />`, the square on :g:`$AC$ <0406.g1:/ A C />` is also :eq:`equal <0406.g1:/ A C / = 0406.g1:/ C E />` to the square on :g:`$CE$ <0406.g1:/ C E />`;
 
 .. assertion::
 
@@ -87,7 +87,7 @@ But the square on :g:`$EA$ <0406.g1:/ E A />` is equal to the squares on :g:`$AC
 
    therefore the square on :g:`$EA$ <0406.g1:/ E A />` is double of the square on :g:`$AC$ <0406.g1:/ A C />`.
 
-Again, since :g:`$EG$ <0406.g1:/ E G />` is equal to :g:`$GF$ <0406.g1:/ G F />`, the square on :g:`$EG$ <0406.g1:/ E G />` is also equal to the square on :g:`$GF$ <0406.g1:/ G F />`;
+Again, since :g:`$EG$ <0406.g1:/ E G />` is :eq:`equal <0406.g1:/ E G / = 0406.g1:/ G F />` to :g:`$GF$ <0406.g1:/ G F />`, the square on :g:`$EG$ <0406.g1:/ E G />` is also :eq:`equal <0406.g1:/ E G / = 0406.g1:/ G F />` to the square on :g:`$GF$ <0406.g1:/ G F />`;
 
 .. assertion::
 
@@ -99,7 +99,7 @@ But the square on :g:`$EF$ <0406.g1:/ E F />` is equal to the squares on :g:`$EG
 
    therefore the square on :g:`$EF$ <0406.g1:/ E F />` is double of the square on :g:`$GF$ <0406.g1:/ G F />`.
 
-But :g:`$GF$ <0406.g1:/ G F />` is equal to :g:`$CD$ <0406.g1:/ C D />`; :just:`[I. 34] <I.34>`
+But :g:`$GF$ <0406.g1:/ G F />` is :eq:`equal <0406.g1:/ G F / = 0406.g1:/ C D />` to :g:`$CD$ <0406.g1:/ C D />`; :just:`[I. 34] <I.34>`
 
 .. assertion::
 
@@ -128,7 +128,7 @@ But the squares on :g:`$AD$ <0406.g1:/ A D />`, :g:`$DF$ <0406.g1:/ D F />` are 
 .. folio:: 0408
    :page: 394
 
-And :g:`$DF$ <0406.g1:/ D F />` is equal to :g:`$DB$ <0406.g1:/ D B />`;
+And :g:`$DF$ <0406.g1:/ D F />` is :eq:`equal <0406.g1:/ D F / = 0406.g1:/ D B />` to :g:`$DB$ <0406.g1:/ D B />`;
 
 .. assertion::
 

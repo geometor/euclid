@@ -19,7 +19,7 @@ Back to :ref:`Proposition XIII.15 <XIII.15>`.
 
 :g:`$AB$ <0482.g1:/ A B />` is divided so that :g:`$AC$ <0482.g1:/ A C />` $= 2$ :g:`$CB$ <0482.g1:/ C B />`; :g:`$CD$ <0482.g1:/ C D />` is drawn at right angles to :g:`$AB$ <0482.g1:/ A B />`, and :g:`$BD$ <0482.g1:/ B D />` is joined.
 
-:g:`$KG$ <0482.g1:< K G >>` is, by construction, a cube of side equal to :g:`$BD$ <0482.g1:/ B D />`.
+:g:`$KG$ <0482.g1:< K G >>` is, by construction, a cube of side :eq:`equal <0482.g1:/ K E / = 0482.g1:/ E F / = 0482.g1:/ B D />` to :g:`$BD$ <0482.g1:/ B D />`.
 
 To prove (1) that it is inscribable in a sphere.
 
@@ -60,7 +60,7 @@ In this case too :person:`Pappus <pappus>` (III. pp. 144—148) gives the full a
 
 *Analysis.*
 
-Suppose the problem solved, and let the vertices of the cube be :g:`$A$ <0484.g1:A>`, :g:`$B$ <0484.g1:B>`, :g:`$C$ <0484.g1:C>`, :g:`$D$ <0484.g1:D>`, :g:`$E$ <0484.g1:E>`, :g:`$F$ <0484.g1:F>`, :g:`$G$ <0484.g1:G>`, :g:`$H$ <0484.g1:H>`. Draw planes through :g:`$A$ <0484.g1:A>`, :g:`$B$ <0484.g1:B>`, :g:`$C$ <0484.g1:C>`, :g:`$D$ <0484.g1:D>` and :g:`$E$ <0484.g1:E>`, :g:`$F$ <0484.g1:F>`, :g:`$G$ <0484.g1:G>`, :g:`$H$ <0484.g1:H>` respectively; these will produce parallel circular sections, which are also equal since the inscribed squares are equal. And :g:`$CE$ <0484.g1:/ C E />` will be a diameter of the sphere. Join :g:`$EG$ <0484.g1:/ E G />`. Now, since :g:`$EG$ <0484.g1:/ E G />` $^2 = 2$ :g:`$EH$ <0484.g1:/ E H />` $^2 = 2$ :g:`$GC$ <0484.g1:/ G C />` $^2$, and the angle :g:`$CGE$ <0484.g1:< C G E )>` is right,
+Suppose the problem solved, and let the vertices of the cube be :g:`$A$ <0484.g1:A>`, :g:`$B$ <0484.g1:B>`, :g:`$C$ <0484.g1:C>`, :g:`$D$ <0484.g1:D>`, :g:`$E$ <0484.g1:E>`, :g:`$F$ <0484.g1:F>`, :g:`$G$ <0484.g1:G>`, :g:`$H$ <0484.g1:H>`. Draw planes through :g:`$A$ <0484.g1:A>`, :g:`$B$ <0484.g1:B>`, :g:`$C$ <0484.g1:C>`, :g:`$D$ <0484.g1:D>` and :g:`$E$ <0484.g1:E>`, :g:`$F$ <0484.g1:F>`, :g:`$G$ <0484.g1:G>`, :g:`$H$ <0484.g1:H>` respectively; these will produce parallel circular sections, which are also :eq:`equal <0484.g1:( A B C D ) = 0484.g1:( E F G H )>` since the inscribed squares are :eq:`equal <0484.g1:< A B C D > = 0484.g1:< E F G H >>`. And :g:`$CE$ <0484.g1:/ C E />` will be a diameter of the sphere. Join :g:`$EG$ <0484.g1:/ E G />`. Now, since :g:`$EG$ <0484.g1:/ E G />` $^2 = 2$ :g:`$EH$ <0484.g1:/ E H />` $^2 = 2$ :g:`$GC$ <0484.g1:/ G C />` $^2$, and the angle :g:`$CGE$ <0484.g1:< C G E )>` is right,
 
 .. assertion::
 
@@ -83,7 +83,7 @@ Draw two parallel circular sections with equal diameters $d'$, such that
 
 $$d^2 = \frac{3}{2}d'^2,$$
 
-where $d$ is the diameter of the given sphere. Inscribe a square in one of the circles, as :g:`$ABCD$ <0484.g1:< A B C D >>`. In the other circle draw :g:`$FG$ <0484.g1:/ F G />` equal and parallel to :g:`$BC$ <0484.g1:/ B C />`, and complete the square on :g:`$FG$ <0484.g1:/ F G />` inscribed in the circle :g:`$EFGH$ <0484.g1:( E F G H )>`.
+where $d$ is the diameter of the given sphere. Inscribe a square in one of the circles, as :g:`$ABCD$ <0484.g1:< A B C D >>`. In the other circle draw :g:`$FG$ <0484.g1:/ F G />` :eq:`equal <0484.g1:/ F G / = 0484.g1:/ B C />` and parallel to :g:`$BC$ <0484.g1:/ B C />`, and complete the square on :g:`$FG$ <0484.g1:/ F G />` inscribed in the circle :g:`$EFGH$ <0484.g1:( E F G H )>`.
 
 .. assertion::
 

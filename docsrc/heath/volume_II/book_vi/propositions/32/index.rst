@@ -35,7 +35,7 @@ I say that :g:`$BC$ <0277.g1:/ B C />` is in a straight line with :g:`$CE$ <0277
 
 .. assertion::
 
-   the alternate angles :g:`$BAC$ <0277.g1:< B A C )>`, :g:`$ACD$ <0277.g1:< A C D )>` are equal to one another. :just:`[I. 29] <I.29>`
+   the alternate angles :g:`$BAC$ <0277.g1:< B A C )>`, :g:`$ACD$ <0277.g1:< A C D )>` are :eq:`equal <0277.g1:< B A C ) = 0277.g1:< A C D )>` to one another. :just:`[I. 29] <I.29>`
 
 .. subclause::
 
@@ -43,30 +43,30 @@ I say that :g:`$BC$ <0277.g1:/ B C />` is in a straight line with :g:`$CE$ <0277
 
 .. assertion::
 
-   the angle :g:`$CDE$ <0277.g1:< C D E )>` is also equal to the angle :g:`$ACD$ <0277.g1:< A C D )>`;
+   the angle :g:`$CDE$ <0277.g1:< C D E )>` is also :eq:`equal <0277.g1:< C D E ) = 0277.g1:< A C D )>` to the angle :g:`$ACD$ <0277.g1:< A C D )>`;
 
 .. assertion::
 
-   so that the angle :g:`$BAC$ <0277.g1:< B A C )>` is equal to the angle :g:`$CDE$ <0277.g1:< C D E )>`.
+   so that the angle :g:`$BAC$ <0277.g1:< B A C )>` is :eq:`equal <0277.g1:< B A C ) = 0277.g1:< C D E )>` to the angle :g:`$CDE$ <0277.g1:< C D E )>`.
 
 .. picture:: 0277.g1.svg
    :alt: Proposition 32
 
 .. subclause::
 
-   And, since :g:`$ABC$ <0277.g1:< A B C >>`, :g:`$DCE$ <0277.g1:< D C E >>` are two triangles having one angle, the angle at :g:`$A$ <0277.g1:A>`, equal to one angle, the angle at :g:`$D$ <0277.g1:D>`, and the sides about the equal angles proportional, so that, as :g:`$BA$ <0277.g1:/ B A />` is to :g:`$AC$ <0277.g1:/ A C />`, so is :g:`$CD$ <0277.g1:/ C D />` to :g:`$DE$ <0277.g1:/ D E />`,
+   And, since :g:`$ABC$ <0277.g1:< A B C >>`, :g:`$DCE$ <0277.g1:< D C E >>` are two triangles having one angle, the angle at :g:`$A$ <0277.g1:A>`, :eq:`equal <0277.g1:< B A C ) = 0277.g1:< C D E )>` to one angle, the angle at :g:`$D$ <0277.g1:D>`, and the sides about the equal angles proportional, so that, as :g:`$BA$ <0277.g1:/ B A />` is to :g:`$AC$ <0277.g1:/ A C />`, so is :g:`$CD$ <0277.g1:/ C D />` to :g:`$DE$ <0277.g1:/ D E />`,
 
 .. assertion::
 
-   therefore the triangle :g:`$ABC$ <0277.g1:< A B C >>` is equiangular with the triangle :g:`$DCE$ <0277.g1:< D C E >>`; :just:`[VI. 6] <VI.6>`
+   therefore the triangle :g:`$ABC$ <0277.g1:< A B C >>` is :eq:`equiangular <0277.g1:< B A C ) = 0277.g1:< C D E ); 0277.g1:< A B C ) = 0277.g1:< D C E )>` with the triangle :g:`$DCE$ <0277.g1:< D C E >>`; :just:`[VI. 6] <VI.6>`
 
 .. assertion::
 
-   therefore the angle :g:`$ABC$ <0277.g1:< A B C )>` is equal to the angle :g:`$DCE$ <0277.g1:< D C E )>`.
+   therefore the angle :g:`$ABC$ <0277.g1:< A B C )>` is :eq:`equal <0277.g1:< A B C ) = 0277.g1:< D C E )>` to the angle :g:`$DCE$ <0277.g1:< D C E )>`.
 
 .. subclause::
 
-   But the angle :g:`$ACD$ <0277.g1:< A C D )>` was also proved equal to the angle :g:`$BAC$ <0277.g1:< B A C )>`;
+   But the angle :g:`$ACD$ <0277.g1:< A C D )>` was also proved :eq:`equal <0277.g1:< A C D ) = 0277.g1:< B A C )>` to the angle :g:`$BAC$ <0277.g1:< B A C )>`;
 
 .. assertion::
 

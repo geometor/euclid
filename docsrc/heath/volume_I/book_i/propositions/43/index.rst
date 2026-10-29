@@ -22,28 +22,28 @@ PROPOSITION 43.
 
 Let :g:`$ABCD$ <0354.g1:< A B C D >>` be a parallelogram, and :g:`$AC$ <0354.g1:/ A C />` its diameter; and about :g:`$AC$ <0354.g1:/ A C />`\ [#f2]_ let :g:`$EH$ <0354.g1:< A E K H >>`, :g:`$FG$ <0354.g1:< K F C G >>` be parallelograms, and :g:`$BK$ <0354.g1:< E B F K >>`, :g:`$KD$ <0354.g1:< H K G D >>` the so-called complements;
 
-I say that the complement :g:`$BK$ <0354.g1:< E B F K >>` is equal to the complement :g:`$KD$ <0354.g1:< H K G D >>`.
+I say that the complement :g:`$BK$ <0354.g1:< E B F K >>` is :eq:`equal <0354.g1:< E B F K > = 0354.g1:< H K G D >>` to the complement :g:`$KD$ <0354.g1:< H K G D >>`.
 
 .. picture:: 0354.g1.svg
    :alt: Folio 0354 Figure 1 - Proposition 43
 
-For, since :g:`$ABCD$ <0354.g1:< A B C D >>` is a parallelogram, and :g:`$AC$ <0354.g1:/ A C />` its diameter, the triangle :g:`$ABC$ <0354.g1:< A B C >>` is equal to the triangle :g:`$ACD$ <0354.g1:< A C D >>`. :just:`[I. 34] <I.34>`
+For, since :g:`$ABCD$ <0354.g1:< A B C D >>` is a parallelogram, and :g:`$AC$ <0354.g1:/ A C />` its diameter, the triangle :g:`$ABC$ <0354.g1:< A B C >>` is :eq:`equal <0354.g1:< A B C > = 0354.g1:< A C D >>` to the triangle :g:`$ACD$ <0354.g1:< A C D >>`. :just:`[I. 34] <I.34>`
 
-Again, since :g:`$EH$ <0354.g1:< A E K H >>` is a parallelogram, and :g:`$AK$ <0354.g1:/ A K />` is its diameter, the triangle :g:`$AEK$ <0354.g1:< A E K >>` is equal to the triangle :g:`$AHK$ <0354.g1:< A H K >>`.
+Again, since :g:`$EH$ <0354.g1:< A E K H >>` is a parallelogram, and :g:`$AK$ <0354.g1:/ A K />` is its diameter, the triangle :g:`$AEK$ <0354.g1:< A E K >>` is :eq:`equal <0354.g1:< A E K > = 0354.g1:< A H K >>` to the triangle :g:`$AHK$ <0354.g1:< A H K >>`.
 
-For the same reason the triangle :g:`$KFC$ <0354.g1:< K F C >>` is also equal to :g:`$KGC$ <0354.g1:< K G C >>`.
+For the same reason the triangle :g:`$KFC$ <0354.g1:< K F C >>` is also :eq:`equal <0354.g1:< K F C > = 0354.g1:< K G C >>` to :g:`$KGC$ <0354.g1:< K G C >>`.
 
-Now, since the triangle :g:`$AEK$ <0354.g1:< A E K >>` is equal to the triangle :g:`$AHK$ <0354.g1:< A H K >>`, and :g:`$KFC$ <0354.g1:< K F C >>` to :g:`$KGC$ <0354.g1:< K G C >>`,
+Now, since the triangle :g:`$AEK$ <0354.g1:< A E K >>` is :eq:`equal <0354.g1:< A E K > = 0354.g1:< A H K >; 0354.g1:< K F C > = 0354.g1:< K G C >>` to the triangle :g:`$AHK$ <0354.g1:< A H K >>`, and :g:`$KFC$ <0354.g1:< K F C >>` to :g:`$KGC$ <0354.g1:< K G C >>`,
 
 .. assertion:: [C. N. 2] <I.cn.2>
 
    the triangle :g:`$AEK$ <0354.g1:< A E K >>` together with :g:`$KGC$ <0354.g1:< K G C >>` is equal to the triangle :g:`$AHK$ <0354.g1:< A H K >>` together with :g:`$KFC$ <0354.g1:< K F C >>`.
 
-And the whole triangle :g:`$ABC$ <0354.g1:< A B C >>` is also equal to the whole :g:`$ADC$ <0354.g1:< A D C >>`;
+And the whole triangle :g:`$ABC$ <0354.g1:< A B C >>` is also :eq:`equal <0354.g1:< A B C > = 0354.g1:< A D C >>` to the whole :g:`$ADC$ <0354.g1:< A D C >>`;
 
 .. assertion::
 
-   therefore the complement :g:`$BK$ <0354.g1:< E B F K >>` which remains is equal to the complement :g:`$KD$ <0354.g1:< H K G D >>` which remains. :just:`[C. N. 3] <I.cn.3>`
+   therefore the complement :g:`$BK$ <0354.g1:< E B F K >>` which remains is :eq:`equal <0354.g1:< E B F K > = 0354.g1:< H K G D >>` to the complement :g:`$KD$ <0354.g1:< H K G D >>` which remains. :just:`[C. N. 3] <I.cn.3>`
 
 .. qed::
 

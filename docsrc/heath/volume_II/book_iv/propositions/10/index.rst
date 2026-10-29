@@ -29,7 +29,7 @@ the square on :g:`$CA$ <0102.g1:/ C A />`; :just:`[II. 11] <II.11>`
 with centre :g:`$A$ <0102.g1:A>` and distance :g:`$AB$ <0102.g1:/ A B />` let
 the circle :g:`$BDE$ <0102.g1:( B D E )>` be described,
 and let there be fitted in the circle
-:g:`$BDE$ <0102.g1:( B D E )>` the straight line :g:`$BD$ <0102.g1:/ B D />` equal to
+:g:`$BDE$ <0102.g1:( B D E )>` the straight line :g:`$BD$ <0102.g1:/ B D />` :eq:`equal <0102.g1:/ B D / = 0102.g1:/ A C />` to
 the straight line :g:`$AC$ <0102.g1:/ A C />` which is not
 greater than the diameter of the
 circle :g:`$BDE$ <0102.g1:( B D E )>`. :just:`[IV. 1] <IV.1>`
@@ -43,7 +43,7 @@ the circle :g:`$ACD$ <0102.g1:( A C D )>` be circumscribed about the triangle :g
 
 Then, since the rectangle :g:`$AB$ <0102.g1:/ A B />`, :g:`$BC$ <0102.g1:/ B C />` is equal to the square
 on :g:`$AC$ <0102.g1:/ A C />`,
-and :g:`$AC$ <0102.g1:/ A C />` is equal to :g:`$BD$ <0102.g1:/ B D />`,
+and :g:`$AC$ <0102.g1:/ A C />` is :eq:`equal <0102.g1:/ A C / = 0102.g1:/ B D />` to :g:`$BD$ <0102.g1:/ B D />`,
 
 .. assertion::
 
@@ -65,9 +65,9 @@ from the point of contact at :g:`$D$ <0102.g1:D>`,
 
 .. assertion::
 
-   therefore the angle :g:`$BDC$ <0102.g1:< B D C )>` is equal to the angle :g:`$DAC$ <0102.g1:< D A C )>` in the alternate segment of the circle. :just:`[III. 32] <III.32>`
+   therefore the angle :g:`$BDC$ <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< D A C )>` to the angle :g:`$DAC$ <0102.g1:< D A C )>` in the alternate segment of the circle. :just:`[III. 32] <III.32>`
 
-Since, then, the angle :g:`$BDC$ <0102.g1:< B D C )>` is equal to the angle :g:`$DAC$ <0102.g1:< D A C )>`,
+Since, then, the angle :g:`$BDC$ <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< D A C )>` to the angle :g:`$DAC$ <0102.g1:< D A C )>`,
 
 .. subclause::
 
@@ -87,34 +87,34 @@ But the exterior angle :g:`$BCD$ <0102.g1:< B C D )>` is equal to the angles :g:
 
 .. assertion::
 
-   therefore the angle :g:`$BDA$ <0102.g1:< B D A )>` is also equal to the angle :g:`$BCD$ <0102.g1:< B C D )>`.
+   therefore the angle :g:`$BDA$ <0102.g1:< B D A )>` is also :eq:`equal <0102.g1:< B D A ) = 0102.g1:< B C D )>` to the angle :g:`$BCD$ <0102.g1:< B C D )>`.
 
-But the angle :g:`$BDA$ <0102.g1:< B D A )>` is equal to the angle :g:`$CBD$ <0102.g1:< C B D )>`, since the
-side :g:`$AD$ <0102.g1:/ A D />` is also equal to :g:`$AB$ <0102.g1:/ A B />`; :just:`[I. 5] <I.5>`
-
-.. assertion::
-
-   so that the angle :g:`$DBA$ <0102.g1:< D B A )>` is also equal to the angle :g:`$BCD$ <0102.g1:< B C D )>`.
+But the angle :g:`$BDA$ <0102.g1:< B D A )>` is :eq:`equal <0102.g1:< B D A ) = 0102.g1:< C B D )>` to the angle :g:`$CBD$ <0102.g1:< C B D )>`, since the
+side :g:`$AD$ <0102.g1:/ A D />` is also :eq:`equal <0102.g1:/ A D / = 0102.g1:/ A B />` to :g:`$AB$ <0102.g1:/ A B />`; :just:`[I. 5] <I.5>`
 
 .. assertion::
 
-   Therefore the three angles :g:`$BDA$ <0102.g1:< B D A )>`, :g:`$DBA$ <0102.g1:< D B A )>`, :g:`$BCD$ <0102.g1:< B C D )>` are equal to one another.
+   so that the angle :g:`$DBA$ <0102.g1:< D B A )>` is also :eq:`equal <0102.g1:< D B A ) = 0102.g1:< B C D )>` to the angle :g:`$BCD$ <0102.g1:< B C D )>`.
 
-And, since the angle :g:`$DBC$ <0102.g1:< D B C )>` is equal to the angle :g:`$BCD$ <0102.g1:< B C D )>`,
+.. assertion::
+
+   Therefore the three angles :g:`$BDA$ <0102.g1:< B D A )>`, :g:`$DBA$ <0102.g1:< D B A )>`, :g:`$BCD$ <0102.g1:< B C D )>` are :eq:`equal <0102.g1:< B D A ) = 0102.g1:< D B A ) = 0102.g1:< B C D )>` to one another.
+
+And, since the angle :g:`$DBC$ <0102.g1:< D B C )>` is :eq:`equal <0102.g1:< D B C ) = 0102.g1:< B C D )>` to the angle :g:`$BCD$ <0102.g1:< B C D )>`,
 
 .. assertion:: [I. 6] <I.6>
 
-   the side :g:`$BD$ <0102.g1:/ B D />` is also equal to the side :g:`$DC$ <0102.g1:/ D C />`.
+   the side :g:`$BD$ <0102.g1:/ B D />` is also :eq:`equal <0102.g1:/ B D / = 0102.g1:/ D C />` to the side :g:`$DC$ <0102.g1:/ D C />`.
 
-But :g:`$BD$ <0102.g1:/ B D />` is by hypothesis equal to :g:`$CA$ <0102.g1:/ C A />`;
+But :g:`$BD$ <0102.g1:/ B D />` is by hypothesis :eq:`equal <0102.g1:/ B D / = 0102.g1:/ C A />` to :g:`$CA$ <0102.g1:/ C A />`;
 
 .. assertion::
 
-   therefore :g:`$CA$ <0102.g1:/ C A />` is also equal to :g:`$CD$ <0102.g1:/ C D />`,
+   therefore :g:`$CA$ <0102.g1:/ C A />` is also :eq:`equal <0102.g1:/ C A / = 0102.g1:/ C D />` to :g:`$CD$ <0102.g1:/ C D />`,
 
 .. assertion:: [I. 5] <I.5>
 
-   so that the angle :g:`$CDA$ <0102.g1:< C D A )>` is also equal to the angle :g:`$DAC$ <0102.g1:< D A C )>`;
+   so that the angle :g:`$CDA$ <0102.g1:< C D A )>` is also :eq:`equal <0102.g1:< C D A ) = 0102.g1:< D A C )>` to the angle :g:`$DAC$ <0102.g1:< D A C )>`;
 
 .. assertion::
 
@@ -126,7 +126,7 @@ But the angle :g:`$BCD$ <0102.g1:< B C D )>` is equal to the angles :g:`$CDA$ <0
 
    therefore the angle :g:`$BCD$ <0102.g1:< B C D )>` is also double of the angle :g:`$CAD$ <0102.g1:< C A D )>`.
 
-But the angle :g:`$BCD$ <0102.g1:< B C D )>` is equal to each of the angles :g:`$BDA$ <0102.g1:< B D A )>`,
+But the angle :g:`$BCD$ <0102.g1:< B C D )>` is :eq:`equal <0102.g1:< B C D ) = 0102.g1:< B D A ) = 0102.g1:< D B A )>` to each of the angles :g:`$BDA$ <0102.g1:< B D A )>`,
 :g:`$DBA$ <0102.g1:< D B A )>`;
 
 .. assertion::
@@ -135,7 +135,7 @@ But the angle :g:`$BCD$ <0102.g1:< B C D )>` is equal to each of the angles :g:`
 
 .. qed::
 
-   Therefore the isosceles triangle :g:`$ABD$ <0102.g1:< A B D >>` has been constructed having each of the angles at the base :g:`$DB$ <0102.g1:/ D B />` double of the remaining one. :just:`Q. E. F.`
+   Therefore the :eq:`isosceles <0102.g1:/ A B / = 0102.g1:/ A D />` triangle :g:`$ABD$ <0102.g1:< A B D >>` has been constructed having each of the angles at the base :g:`$DB$ <0102.g1:/ D B />` double of the remaining one. :just:`Q. E. F.`
 
 ----
 

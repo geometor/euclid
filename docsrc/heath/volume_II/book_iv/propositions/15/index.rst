@@ -38,13 +38,13 @@ joined.
    :alt: Book IV Proposition 15: Regular hexagon :g:`$ABCDEF$ <0113.g1:< A B C D E F >>` inscribed in circle with auxiliary circle EGCH
 
 I say that the hexagon $ABCDEF$ is
-equilateral and equiangular.
+:eq:`equilateral <0113.g1:/ A B / = 0113.g1:/ B C / = 0113.g1:/ C D / = 0113.g1:/ D E / = 0113.g1:/ E F / = 0113.g1:/ F A />` and equiangular.
 
 For, since the point :g:`$G$ <0113.g1:G>` is the centre of the circle :g:`$ABCDEF$ <0113.g1:( A B C D E F )>`,
 
 .. assertion::
 
-   :g:`$GE$ <0113.g1:/ G E />` is equal to :g:`$GD$ <0113.g1:/ G D />`.
+   :g:`$GE$ <0113.g1:/ G E />` is :eq:`equal <0113.g1:/ G E / = 0113.g1:/ G D />` to :g:`$GD$ <0113.g1:/ G D />`.
 
 .. _folio-ii-0114:
 
@@ -55,19 +55,19 @@ Again, since the point :g:`$D$ <0113.g1:D>` is the centre of the circle :g:`$GCH
 
 .. assertion::
 
-   :g:`$DE$ <0113.g1:/ D E />` is equal to :g:`$DG$ <0113.g1:/ G D />`.
+   :g:`$DE$ <0113.g1:/ D E />` is :eq:`equal <0113.g1:/ D E / = 0113.g1:/ G D />` to :g:`$DG$ <0113.g1:/ G D />`.
 
-But :g:`$GE$ <0113.g1:/ G E />` was proved equal to :g:`$GD$ <0113.g1:/ G D />`;
-
-.. assertion::
-
-   therefore :g:`$GE$ <0113.g1:/ G E />` is also equal to :g:`$ED$ <0113.g1:/ D E />`;
+But :g:`$GE$ <0113.g1:/ G E />` was proved :eq:`equal <0113.g1:/ G E / = 0113.g1:/ G D />` to :g:`$GD$ <0113.g1:/ G D />`;
 
 .. assertion::
 
-   therefore the triangle :g:`$EGD$ <0113.g1:< E G D >>` is equilateral;
+   therefore :g:`$GE$ <0113.g1:/ G E />` is also :eq:`equal <0113.g1:/ G E / = 0113.g1:/ D E />` to :g:`$ED$ <0113.g1:/ D E />`;
 
-and therefore its three angles :g:`$EGD$ <0113.g1:< E G D )>`, :g:`$GDE$ <0113.g1:< G D E )>`, :g:`$DEG$ <0113.g1:< D E G )>` are equal
+.. assertion::
+
+   therefore the triangle :g:`$EGD$ <0113.g1:< E G D >>` is :eq:`equilateral <0113.g1:/ G E / = 0113.g1:/ G D / = 0113.g1:/ D E />`;
+
+and therefore its three angles :g:`$EGD$ <0113.g1:< E G D )>`, :g:`$GDE$ <0113.g1:< G D E )>`, :g:`$DEG$ <0113.g1:< D E G )>` are :eq:`equal <0113.g1:< E G D ) = 0113.g1:< G D E ) = 0113.g1:< D E G )>`
 to one another, inasmuch as, in isosceles triangles, the angles
 at the base are equal to one another. :just:`[I. 5] <I.5>`
 
@@ -88,35 +88,35 @@ the adjacent angles :g:`$EGC$ <0113.g1:< E G C )>`, :g:`$CGB$ <0113.g1:< C G B )
 
    therefore the remaining angle :g:`$CGB$ <0113.g1:< C G B )>` is also one-third of two right angles.
 
-Therefore the angles :g:`$EGD$ <0113.g1:< E G D )>`, :g:`$DGC$ <0113.g1:< D G C )>`, :g:`$CGB$ <0113.g1:< C G B )>` are equal to one
+Therefore the angles :g:`$EGD$ <0113.g1:< E G D )>`, :g:`$DGC$ <0113.g1:< D G C )>`, :g:`$CGB$ <0113.g1:< C G B )>` are :eq:`equal <0113.g1:< E G D ) = 0113.g1:< D G C ) = 0113.g1:< C G B )>` to one
 another;
 so that the angles vertical to them, the angles :g:`$BGA$ <0113.g1:< B G A )>`, :g:`$AGF$ <0113.g1:< A G F )>`,
-:g:`$FGE$ <0113.g1:< F G E )>` are equal. :just:`[I. 15] <I.15>`
+:g:`$FGE$ <0113.g1:< F G E )>` are :eq:`equal <0113.g1:< B G A ) = 0113.g1:< A G F ) = 0113.g1:< F G E )>`. :just:`[I. 15] <I.15>`
 
 .. assertion::
 
-   Therefore the six angles :g:`$EGD$ <0113.g1:< E G D )>`, :g:`$DGC$ <0113.g1:< D G C )>`, :g:`$CGB$ <0113.g1:< C G B )>`, :g:`$BGA$ <0113.g1:< B G A )>`, :g:`$AGF$ <0113.g1:< A G F )>`, :g:`$FGE$ <0113.g1:< F G E )>` are equal to one another.
+   Therefore the six angles :g:`$EGD$ <0113.g1:< E G D )>`, :g:`$DGC$ <0113.g1:< D G C )>`, :g:`$CGB$ <0113.g1:< C G B )>`, :g:`$BGA$ <0113.g1:< B G A )>`, :g:`$AGF$ <0113.g1:< A G F )>`, :g:`$FGE$ <0113.g1:< F G E )>` are :eq:`equal <0113.g1:< E G D ) = 0113.g1:< D G C ) = 0113.g1:< C G B ) = 0113.g1:< B G A ) = 0113.g1:< A G F ) = 0113.g1:< F G E )>` to one another.
 
 But equal angles stand on equal circumferences; :just:`[III. 26] <III.26>`
 
 .. assertion::
 
-   therefore the six circumferences :g:`$AB$ <0113.g1:( A B )>`, :g:`$BC$ <0113.g1:( B C )>`, :g:`$CD$ <0113.g1:( C D )>`, :g:`$DE$ <0113.g1:( D E )>`, :g:`$EF$ <0113.g1:( E F )>`, :g:`$FA$ <0113.g1:( F A )>` are equal to one another.
+   therefore the six circumferences :g:`$AB$ <0113.g1:( A B )>`, :g:`$BC$ <0113.g1:( B C )>`, :g:`$CD$ <0113.g1:( C D )>`, :g:`$DE$ <0113.g1:( D E )>`, :g:`$EF$ <0113.g1:( E F )>`, :g:`$FA$ <0113.g1:( F A )>` are :eq:`equal <0113.g1:( A B ) = 0113.g1:( B C ) = 0113.g1:( C D ) = 0113.g1:( D E ) = 0113.g1:( E F ) = 0113.g1:( F A )>` to one another.
 
 And equal circumferences are subtended by equal straight
 lines; :just:`[III. 29] <III.29>`
 
 .. assertion::
 
-   therefore the six straight lines are equal to one another;
+   therefore the six straight lines are :eq:`equal <0113.g1:/ A B / = 0113.g1:/ B C / = 0113.g1:/ C D / = 0113.g1:/ D E / = 0113.g1:/ E F / = 0113.g1:/ F A />` to one another;
 
 .. assertion::
 
-   therefore the hexagon :g:`$ABCDEF$ <0113.g1:< A B C D E F >>` is equilateral.
+   therefore the hexagon :g:`$ABCDEF$ <0113.g1:< A B C D E F >>` is :eq:`equilateral <0113.g1:/ A B / = 0113.g1:/ B C / = 0113.g1:/ C D / = 0113.g1:/ D E / = 0113.g1:/ E F / = 0113.g1:/ F A />`.
 
 I say next that it is also equiangular.
 
-For, since the circumference :g:`$FA$ <0113.g1:( F A )>` is equal to the circumference
+For, since the circumference :g:`$FA$ <0113.g1:( F A )>` is :eq:`equal <0113.g1:( F A ) = 0113.g1:( D E )>` to the circumference
 :g:`$ED$ <0113.g1:( D E )>`,
 
 .. subclause::
@@ -125,7 +125,7 @@ For, since the circumference :g:`$FA$ <0113.g1:( F A )>` is equal to the circumf
 
 .. assertion::
 
-   therefore the whole :g:`$FABCD$ <0113.g1:( F A B C D )>` is equal to the whole :g:`$EDCBA$ <0113.g1:( E D C B A )>`;
+   therefore the whole :g:`$FABCD$ <0113.g1:( F A B C D )>` is :eq:`equal <0113.g1:( F A B C D ) = 0113.g1:( E D C B A )>` to the whole :g:`$EDCBA$ <0113.g1:( E D C B A )>`;
 
 .. _folio-ii-0115:
 
@@ -137,7 +137,7 @@ and the angle :g:`$AFE$ <0113.g1:< A F E )>` on the circumference :g:`$EDCBA$ <0
 
 .. assertion:: [III. 27] <III.27>
 
-   therefore the angle :g:`$AFE$ <0113.g1:< A F E )>` is equal to the angle :g:`$DEF$ <0113.g1:< D E F )>`.
+   therefore the angle :g:`$AFE$ <0113.g1:< A F E )>` is :eq:`equal <0113.g1:< A F E ) = 0113.g1:< D E F )>` to the angle :g:`$DEF$ <0113.g1:< D E F )>`.
 
 Similarly it can be proved that the remaining angles of
 the hexagon :g:`$ABCDEF$ <0113.g1:< A B C D E F >>` are also severally equal to each of
@@ -147,7 +147,7 @@ the angles :g:`$AFE$ <0113.g1:< A F E )>`, :g:`$FED$ <0113.g1:< F E D )>`;
 
    therefore the hexagon :g:`$ABCDEF$ <0113.g1:< A B C D E F >>` is equiangular.
 
-But it was also proved equilateral;
+But it was also proved :eq:`equilateral <0113.g1:/ A B / = 0113.g1:/ B C / = 0113.g1:/ C D / = 0113.g1:/ D E / = 0113.g1:/ E F / = 0113.g1:/ F A />`;
 and it has been inscribed in the circle :g:`$ABCDEF$ <0113.g1:( A B C D E F )>`.
 
 .. qed::

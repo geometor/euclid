@@ -5,7 +5,8 @@
       --geom-bg: #ffffff;
       --geom-point-stroke: #ffffff;
       --geom-poly-fill: #000000;
-      --geom-accent: #ef4444;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -13,7 +14,8 @@
         --geom-bg: #1e1e20;
         --geom-point-stroke: #1e1e20;
         --geom-poly-fill: #d6cfc5;
-        --geom-accent: #ef4444;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
       }
     }
     .euclid-graphic {
@@ -82,6 +84,18 @@
       stroke-width: 1.5;
       stroke-linecap: round;
       fill: none;
+    }
+    .geom-tick-mark {
+      stroke: var(--geom-assert);
+      stroke-width: 2;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      fill: none;
+      stroke: var(--geom-assert);
+      stroke-width: 2.2;
+      stroke-linecap: round;
     }
     .grid-line {
       stroke: var(--geom-fg);
@@ -180,7 +194,55 @@
       fill: var(--geom-accent) !important;
       stroke: none !important;
     }
+    .geom-assert-active {
+      opacity: 1 !important;
+      stroke: var(--geom-assert) !important;
+    }
+    text.geom-assert-active, text.geom-assert-secondary, text.geom-assert-active *, text.geom-assert-secondary * {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    polygon.geom-assert-active, path.geom-polygon.geom-assert-active, .wedge.angle.geom-assert-active, path.wedge.geom-assert-active, path.angle.geom-assert-active {
+      opacity: 1 !important;
+      fill-opacity: 0.22 !important;
+      fill: var(--geom-assert) !important;
+      stroke: var(--geom-assert) !important;
+    }
+    path.geom-ang-arc.geom-assert-active {
+      opacity: 1 !important;
+      fill: none !important;
+      stroke: var(--geom-assert) !important;
+    }
+    circle.geom-point.geom-assert-active, circle.geom-assert-active {
+      opacity: 1 !important;
+      fill: var(--geom-assert) !important;
+      stroke: none !important;
+    }
+    path.geom-assert-active.geom-tick-1 {
+      marker-mid: url(#geom-tick-1);
+    }
+    path.geom-assert-active.geom-tick-2 {
+      marker-mid: url(#geom-tick-2);
+    }
+    path.geom-assert-active.geom-tick-3 {
+      marker-mid: url(#geom-tick-3);
+    }
   </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+    </marker>
+  </defs>
   <g id="elements">
   </g>
   <g id="graphics">
@@ -197,32 +259,32 @@
     <path id="el-ang-BHG" data-ref="&lt; B H G )" data-aliases="&lt; G H B )" data-type="wedge" d="M 225 20 L 240.35 32.82 A 20 20 0 0 0 245.00 20.00 Z" class="wedge angle geom-overlay" />
     <path id="el-ang-GFE" data-ref="&lt; G F E )" data-aliases="&lt; E F G )" data-type="wedge" d="M 375 20 L 362.05 20.00 A 12.95 12.95 0 0 0 371.40 32.44 Z" class="wedge angle geom-overlay" />
     <path id="el-ang-ABM" data-ref="&lt; A B M )" data-aliases="&lt; M B A )" data-type="wedge" d="M 316 96 L 306.81 96.00 A 9.19 9.19 0 0 0 313.20 104.75 Z" class="wedge angle geom-overlay" />
-    <line id="el-seg-C1C2" data-ref="/ C1 C2 /" data-aliases="/ C2 C1 /" data-type="segment" x1="36" y1="23" x2="10" y2="97" class="geom-line" />
-    <line id="el-seg-C2C3" data-ref="/ C2 C3 /" data-aliases="/ C3 C2 /" data-type="segment" x1="10" y1="97" x2="89" y2="97" class="geom-line" />
-    <line id="el-seg-C3C1" data-ref="/ C3 C1 /" data-aliases="/ C1 C3 /" data-type="segment" x1="89" y1="97" x2="36" y2="23" class="geom-line" />
-    <line id="el-seg-DD1" data-ref="/ D D1 /" data-aliases="/ D1 D /" data-type="segment" x1="184" y1="76" x2="176" y2="23" class="geom-line" />
-    <line id="el-seg-DD2" data-ref="/ D D2 /" data-aliases="/ D2 D /" data-type="segment" x1="184" y1="76" x2="129" y2="109" class="geom-line" />
-    <line id="el-seg-HF" data-ref="/ H F /" data-aliases="/ F H / | / H G F /" data-type="segment" x1="225" y1="20" x2="375" y2="20" class="geom-line" />
-    <line id="el-seg-HG" data-ref="/ H G /" data-aliases="/ G H /" data-type="segment" x1="225" y1="20" x2="338" y2="20" class="geom-line" />
-    <line id="el-seg-FG" data-ref="/ F G /" data-aliases="/ G F /" data-type="segment" x1="375" y1="20" x2="338" y2="20" class="geom-line" />
-    <line id="el-seg-AE" data-ref="/ A E /" data-aliases="/ E A / | / A B E /" data-type="segment" x1="204" y1="96" x2="353" y2="96" class="geom-line" />
-    <line id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" x1="204" y1="96" x2="316" y2="96" class="geom-line" />
-    <line id="el-seg-BE" data-ref="/ B E /" data-aliases="/ E B /" data-type="segment" x1="316" y1="96" x2="353" y2="96" class="geom-line" />
-    <line id="el-seg-LK" data-ref="/ L K /" data-aliases="/ K L / | / L M K /" data-type="segment" x1="196" y1="121" x2="345" y2="121" class="geom-line" />
-    <line id="el-seg-LM" data-ref="/ L M /" data-aliases="/ M L /" data-type="segment" x1="196" y1="121" x2="308" y2="121" class="geom-line" />
-    <line id="el-seg-MK" data-ref="/ M K /" data-aliases="/ K M /" data-type="segment" x1="308" y1="121" x2="345" y2="121" class="geom-line" />
-    <line id="el-seg-HL" data-ref="/ H L /" data-aliases="/ L H / | / H A L /" data-type="segment" x1="225" y1="20" x2="196" y2="121" class="geom-line" />
-    <line id="el-seg-AH" data-ref="/ A H /" data-aliases="/ H A /" data-type="segment" x1="204" y1="96" x2="225" y2="20" class="geom-line" />
-    <line id="el-seg-AL" data-ref="/ A L /" data-aliases="/ L A /" data-type="segment" x1="204" y1="96" x2="196" y2="121" class="geom-line" />
-    <line id="el-seg-GM" data-ref="/ G M /" data-aliases="/ M G / | / G B M /" data-type="segment" x1="338" y1="20" x2="308" y2="121" class="geom-line" />
-    <line id="el-seg-BG" data-ref="/ B G /" data-aliases="/ G B /" data-type="segment" x1="316" y1="96" x2="338" y2="20" class="geom-line" />
-    <line id="el-seg-BM" data-ref="/ B M /" data-aliases="/ M B /" data-type="segment" x1="316" y1="96" x2="308" y2="121" class="geom-line" />
-    <line id="el-seg-FK" data-ref="/ F K /" data-aliases="/ K F / | / F E K /" data-type="segment" x1="375" y1="20" x2="345" y2="121" class="geom-line" />
-    <line id="el-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" data-type="segment" x1="353" y1="96" x2="375" y2="20" class="geom-line" />
-    <line id="el-seg-EK" data-ref="/ E K /" data-aliases="/ K E /" data-type="segment" x1="353" y1="96" x2="345" y2="121" class="geom-line" />
-    <line id="el-seg-HK" data-ref="/ H K /" data-aliases="/ K H / | / H B K /" data-type="segment" x1="225" y1="20" x2="345" y2="121" class="geom-line" />
-    <line id="el-seg-HB" data-ref="/ H B /" data-aliases="/ B H /" data-type="segment" x1="225" y1="20" x2="316" y2="96" class="geom-line" />
-    <line id="el-seg-BK" data-ref="/ B K /" data-aliases="/ K B /" data-type="segment" x1="316" y1="96" x2="345" y2="121" class="geom-line" />
+    <path id="el-seg-C1C2" data-ref="/ C1 C2 /" data-aliases="/ C2 C1 /" data-type="segment" class="geom-line" d="M 36 23 L 23 60 L 10 97" />
+    <path id="el-seg-C2C3" data-ref="/ C2 C3 /" data-aliases="/ C3 C2 /" data-type="segment" class="geom-line" d="M 10 97 L 49.5 97 L 89 97" />
+    <path id="el-seg-C3C1" data-ref="/ C3 C1 /" data-aliases="/ C1 C3 /" data-type="segment" class="geom-line" d="M 89 97 L 62.5 60 L 36 23" />
+    <path id="el-seg-DD1" data-ref="/ D D1 /" data-aliases="/ D1 D /" data-type="segment" class="geom-line" d="M 184 76 L 180 49.5 L 176 23" />
+    <path id="el-seg-DD2" data-ref="/ D D2 /" data-aliases="/ D2 D /" data-type="segment" class="geom-line" d="M 184 76 L 156.5 92.5 L 129 109" />
+    <path id="el-seg-HF" data-ref="/ H F /" data-aliases="/ F H / | / H G F /" data-type="segment" class="geom-line" d="M 225 20 L 300 20 L 375 20" />
+    <path id="el-seg-HG" data-ref="/ H G /" data-aliases="/ G H /" data-type="segment" class="geom-line" d="M 225 20 L 281.5 20 L 338 20" />
+    <path id="el-seg-FG" data-ref="/ F G /" data-aliases="/ G F /" data-type="segment" class="geom-line" d="M 375 20 L 356.5 20 L 338 20" />
+    <path id="el-seg-AE" data-ref="/ A E /" data-aliases="/ E A / | / A B E /" data-type="segment" class="geom-line" d="M 204 96 L 278.5 96 L 353 96" />
+    <path id="el-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" data-type="segment" class="geom-line" d="M 204 96 L 260 96 L 316 96" />
+    <path id="el-seg-BE" data-ref="/ B E /" data-aliases="/ E B /" data-type="segment" class="geom-line" d="M 316 96 L 334.5 96 L 353 96" />
+    <path id="el-seg-LK" data-ref="/ L K /" data-aliases="/ K L / | / L M K /" data-type="segment" class="geom-line" d="M 196 121 L 270.5 121 L 345 121" />
+    <path id="el-seg-LM" data-ref="/ L M /" data-aliases="/ M L /" data-type="segment" class="geom-line" d="M 196 121 L 252 121 L 308 121" />
+    <path id="el-seg-MK" data-ref="/ M K /" data-aliases="/ K M /" data-type="segment" class="geom-line" d="M 308 121 L 326.5 121 L 345 121" />
+    <path id="el-seg-HL" data-ref="/ H L /" data-aliases="/ L H / | / H A L /" data-type="segment" class="geom-line" d="M 225 20 L 210.5 70.5 L 196 121" />
+    <path id="el-seg-AH" data-ref="/ A H /" data-aliases="/ H A /" data-type="segment" class="geom-line" d="M 204 96 L 214.5 58 L 225 20" />
+    <path id="el-seg-AL" data-ref="/ A L /" data-aliases="/ L A /" data-type="segment" class="geom-line" d="M 204 96 L 200 108.5 L 196 121" />
+    <path id="el-seg-GM" data-ref="/ G M /" data-aliases="/ M G / | / G B M /" data-type="segment" class="geom-line" d="M 338 20 L 323 70.5 L 308 121" />
+    <path id="el-seg-BG" data-ref="/ B G /" data-aliases="/ G B /" data-type="segment" class="geom-line" d="M 316 96 L 327 58 L 338 20" />
+    <path id="el-seg-BM" data-ref="/ B M /" data-aliases="/ M B /" data-type="segment" class="geom-line" d="M 316 96 L 312 108.5 L 308 121" />
+    <path id="el-seg-FK" data-ref="/ F K /" data-aliases="/ K F / | / F E K /" data-type="segment" class="geom-line" d="M 375 20 L 360 70.5 L 345 121" />
+    <path id="el-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" data-type="segment" class="geom-line" d="M 353 96 L 364 58 L 375 20" />
+    <path id="el-seg-EK" data-ref="/ E K /" data-aliases="/ K E /" data-type="segment" class="geom-line" d="M 353 96 L 349 108.5 L 345 121" />
+    <path id="el-seg-HK" data-ref="/ H K /" data-aliases="/ K H / | / H B K /" data-type="segment" class="geom-line" d="M 225 20 L 285 70.5 L 345 121" />
+    <path id="el-seg-HB" data-ref="/ H B /" data-aliases="/ B H /" data-type="segment" class="geom-line" d="M 225 20 L 270.5 58 L 316 96" />
+    <path id="el-seg-BK" data-ref="/ B K /" data-aliases="/ K B /" data-type="segment" class="geom-line" d="M 316 96 L 330.5 108.5 L 345 121" />
   </g>
   <g id="highlights" style="pointer-events: none;">
     <polygon id="hl-poly-C1C2C3" data-ref="&lt; C &gt;" data-aliases="&lt; C1 C2 C3 &gt; | &lt; C1 C3 C2 &gt; | &lt; C2 C1 C3 &gt; | &lt; C2 C3 C1 &gt; | &lt; C3 C1 C2 &gt; | &lt; C3 C2 C1 &gt; | C" points="36,23 10,97 89,97" class="geom-polygon geom-overlay" />
@@ -238,32 +300,39 @@
     <path id="hl-ang-BHG" data-ref="&lt; B H G )" data-aliases="&lt; G H B )" d="M 225 20 L 240.35 32.82 A 20 20 0 0 0 245.00 20.00 Z" class="wedge angle geom-overlay" />
     <path id="hl-ang-GFE" data-ref="&lt; G F E )" data-aliases="&lt; E F G )" d="M 375 20 L 362.05 20.00 A 12.95 12.95 0 0 0 371.40 32.44 Z" class="wedge angle geom-overlay" />
     <path id="hl-ang-ABM" data-ref="&lt; A B M )" data-aliases="&lt; M B A )" d="M 316 96 L 306.81 96.00 A 9.19 9.19 0 0 0 313.20 104.75 Z" class="wedge angle geom-overlay" />
-    <line id="hl-seg-C1C2" data-ref="/ C1 C2 /" data-aliases="/ C2 C1 /" x1="36" y1="23" x2="10" y2="97" class="geom-line geom-overlay" />
-    <line id="hl-seg-C2C3" data-ref="/ C2 C3 /" data-aliases="/ C3 C2 /" x1="10" y1="97" x2="89" y2="97" class="geom-line geom-overlay" />
-    <line id="hl-seg-C3C1" data-ref="/ C3 C1 /" data-aliases="/ C1 C3 /" x1="89" y1="97" x2="36" y2="23" class="geom-line geom-overlay" />
-    <line id="hl-seg-DD1" data-ref="/ D D1 /" data-aliases="/ D1 D /" x1="184" y1="76" x2="176" y2="23" class="geom-line geom-overlay" />
-    <line id="hl-seg-DD2" data-ref="/ D D2 /" data-aliases="/ D2 D /" x1="184" y1="76" x2="129" y2="109" class="geom-line geom-overlay" />
-    <line id="hl-seg-HF" data-ref="/ H F /" data-aliases="/ F H / | / H G F /" x1="225" y1="20" x2="375" y2="20" class="geom-line geom-overlay" />
-    <line id="hl-seg-HG" data-ref="/ H G /" data-aliases="/ G H /" x1="225" y1="20" x2="338" y2="20" class="geom-line geom-overlay" />
-    <line id="hl-seg-FG" data-ref="/ F G /" data-aliases="/ G F /" x1="375" y1="20" x2="338" y2="20" class="geom-line geom-overlay" />
-    <line id="hl-seg-AE" data-ref="/ A E /" data-aliases="/ E A / | / A B E /" x1="204" y1="96" x2="353" y2="96" class="geom-line geom-overlay" />
-    <line id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" x1="204" y1="96" x2="316" y2="96" class="geom-line geom-overlay" />
-    <line id="hl-seg-BE" data-ref="/ B E /" data-aliases="/ E B /" x1="316" y1="96" x2="353" y2="96" class="geom-line geom-overlay" />
-    <line id="hl-seg-LK" data-ref="/ L K /" data-aliases="/ K L / | / L M K /" x1="196" y1="121" x2="345" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-LM" data-ref="/ L M /" data-aliases="/ M L /" x1="196" y1="121" x2="308" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-MK" data-ref="/ M K /" data-aliases="/ K M /" x1="308" y1="121" x2="345" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-HL" data-ref="/ H L /" data-aliases="/ L H / | / H A L /" x1="225" y1="20" x2="196" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-AH" data-ref="/ A H /" data-aliases="/ H A /" x1="204" y1="96" x2="225" y2="20" class="geom-line geom-overlay" />
-    <line id="hl-seg-AL" data-ref="/ A L /" data-aliases="/ L A /" x1="204" y1="96" x2="196" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-GM" data-ref="/ G M /" data-aliases="/ M G / | / G B M /" x1="338" y1="20" x2="308" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-BG" data-ref="/ B G /" data-aliases="/ G B /" x1="316" y1="96" x2="338" y2="20" class="geom-line geom-overlay" />
-    <line id="hl-seg-BM" data-ref="/ B M /" data-aliases="/ M B /" x1="316" y1="96" x2="308" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-FK" data-ref="/ F K /" data-aliases="/ K F / | / F E K /" x1="375" y1="20" x2="345" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" x1="353" y1="96" x2="375" y2="20" class="geom-line geom-overlay" />
-    <line id="hl-seg-EK" data-ref="/ E K /" data-aliases="/ K E /" x1="353" y1="96" x2="345" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-HK" data-ref="/ H K /" data-aliases="/ K H / | / H B K /" x1="225" y1="20" x2="345" y2="121" class="geom-line geom-overlay" />
-    <line id="hl-seg-HB" data-ref="/ H B /" data-aliases="/ B H /" x1="225" y1="20" x2="316" y2="96" class="geom-line geom-overlay" />
-    <line id="hl-seg-BK" data-ref="/ B K /" data-aliases="/ K B /" x1="316" y1="96" x2="345" y2="121" class="geom-line geom-overlay" />
+    <path id="hl-seg-C1C2" data-ref="/ C1 C2 /" data-aliases="/ C2 C1 /" class="geom-line geom-overlay" d="M 36 23 L 23 60 L 10 97" />
+    <path id="hl-seg-C2C3" data-ref="/ C2 C3 /" data-aliases="/ C3 C2 /" class="geom-line geom-overlay" d="M 10 97 L 49.5 97 L 89 97" />
+    <path id="hl-seg-C3C1" data-ref="/ C3 C1 /" data-aliases="/ C1 C3 /" class="geom-line geom-overlay" d="M 89 97 L 62.5 60 L 36 23" />
+    <path id="hl-seg-DD1" data-ref="/ D D1 /" data-aliases="/ D1 D /" class="geom-line geom-overlay" d="M 184 76 L 180 49.5 L 176 23" />
+    <path id="hl-seg-DD2" data-ref="/ D D2 /" data-aliases="/ D2 D /" class="geom-line geom-overlay" d="M 184 76 L 156.5 92.5 L 129 109" />
+    <path id="hl-seg-HF" data-ref="/ H F /" data-aliases="/ F H / | / H G F /" class="geom-line geom-overlay" d="M 225 20 L 300 20 L 375 20" />
+    <path id="hl-seg-HG" data-ref="/ H G /" data-aliases="/ G H /" class="geom-line geom-overlay" d="M 225 20 L 281.5 20 L 338 20" />
+    <path id="hl-seg-FG" data-ref="/ F G /" data-aliases="/ G F /" class="geom-line geom-overlay" d="M 375 20 L 356.5 20 L 338 20" />
+    <path id="hl-seg-AE" data-ref="/ A E /" data-aliases="/ E A / | / A B E /" class="geom-line geom-overlay" d="M 204 96 L 278.5 96 L 353 96" />
+    <path id="hl-seg-AB" data-ref="/ A B /" data-aliases="/ B A /" class="geom-line geom-overlay" d="M 204 96 L 260 96 L 316 96" />
+    <path id="hl-seg-BE" data-ref="/ B E /" data-aliases="/ E B /" class="geom-line geom-overlay" d="M 316 96 L 334.5 96 L 353 96" />
+    <path id="hl-seg-LK" data-ref="/ L K /" data-aliases="/ K L / | / L M K /" class="geom-line geom-overlay" d="M 196 121 L 270.5 121 L 345 121" />
+    <path id="hl-seg-LM" data-ref="/ L M /" data-aliases="/ M L /" class="geom-line geom-overlay" d="M 196 121 L 252 121 L 308 121" />
+    <path id="hl-seg-MK" data-ref="/ M K /" data-aliases="/ K M /" class="geom-line geom-overlay" d="M 308 121 L 326.5 121 L 345 121" />
+    <path id="hl-seg-HL" data-ref="/ H L /" data-aliases="/ L H / | / H A L /" class="geom-line geom-overlay" d="M 225 20 L 210.5 70.5 L 196 121" />
+    <path id="hl-seg-AH" data-ref="/ A H /" data-aliases="/ H A /" class="geom-line geom-overlay" d="M 204 96 L 214.5 58 L 225 20" />
+    <path id="hl-seg-AL" data-ref="/ A L /" data-aliases="/ L A /" class="geom-line geom-overlay" d="M 204 96 L 200 108.5 L 196 121" />
+    <path id="hl-seg-GM" data-ref="/ G M /" data-aliases="/ M G / | / G B M /" class="geom-line geom-overlay" d="M 338 20 L 323 70.5 L 308 121" />
+    <path id="hl-seg-BG" data-ref="/ B G /" data-aliases="/ G B /" class="geom-line geom-overlay" d="M 316 96 L 327 58 L 338 20" />
+    <path id="hl-seg-BM" data-ref="/ B M /" data-aliases="/ M B /" class="geom-line geom-overlay" d="M 316 96 L 312 108.5 L 308 121" />
+    <path id="hl-seg-FK" data-ref="/ F K /" data-aliases="/ K F / | / F E K /" class="geom-line geom-overlay" d="M 375 20 L 360 70.5 L 345 121" />
+    <path id="hl-seg-EF" data-ref="/ E F /" data-aliases="/ F E /" class="geom-line geom-overlay" d="M 353 96 L 364 58 L 375 20" />
+    <path id="hl-seg-EK" data-ref="/ E K /" data-aliases="/ K E /" class="geom-line geom-overlay" d="M 353 96 L 349 108.5 L 345 121" />
+    <path id="hl-seg-HK" data-ref="/ H K /" data-aliases="/ K H / | / H B K /" class="geom-line geom-overlay" d="M 225 20 L 285 70.5 L 345 121" />
+    <path id="hl-seg-HB" data-ref="/ H B /" data-aliases="/ B H /" class="geom-line geom-overlay" d="M 225 20 L 270.5 58 L 316 96" />
+    <path id="hl-seg-BK" data-ref="/ B K /" data-aliases="/ K B /" class="geom-line geom-overlay" d="M 316 96 L 330.5 108.5 L 345 121" />
+    <path id="hl-arc-D1DD2" data-ref="&lt; D )" data-aliases="&lt; D1 D D2 ) | &lt; D2 D D1 ) | D" d="M 181.2 57.45 A 18.76 18.76 0 0 0 167.03 68 A 18.76 18.76 0 0 0 167.91 85.65" class="geom-ang-arc geom-overlay" />
+    <path id="hl-arc-EBG" data-ref="&lt; E B G )" data-aliases="&lt; G B E )" d="M 328.95 96 A 12.95 12.95 0 0 0 326.35 88.22 A 12.95 12.95 0 0 0 319.6 83.56" class="geom-ang-arc geom-overlay" />
+    <path id="hl-arc-AHF" data-ref="&lt; A H F )" data-aliases="&lt; F H A )" d="M 219.67 39.28 A 20 20 0 0 0 237.11 35.92 A 20 20 0 0 0 245 20" class="geom-ang-arc geom-overlay" />
+    <path id="hl-arc-HFE" data-ref="&lt; H F E )" data-aliases="&lt; E F H )" d="M 355 20 A 20 20 0 0 0 359.01 32.02 A 20 20 0 0 0 369.44 39.21" class="geom-ang-arc geom-overlay" />
+    <path id="hl-arc-BHG" data-ref="&lt; B H G )" data-aliases="&lt; G H B )" d="M 240.35 32.82 A 20 20 0 0 0 243.8 26.82 A 20 20 0 0 0 245 20" class="geom-ang-arc geom-overlay" />
+    <path id="hl-arc-GFE" data-ref="&lt; G F E )" data-aliases="&lt; E F G )" d="M 362.05 20 A 12.95 12.95 0 0 0 364.65 27.78 A 12.95 12.95 0 0 0 371.4 32.44" class="geom-ang-arc geom-overlay" />
+    <path id="hl-arc-ABM" data-ref="&lt; A B M )" data-aliases="&lt; M B A )" d="M 306.81 96 A 9.19 9.19 0 0 0 308.58 101.42 A 9.19 9.19 0 0 0 313.2 104.75" class="geom-ang-arc geom-overlay" />
   </g>
   <g id="points">
     <circle id="el-pt-H" data-ref="H" data-type="point" cx="225" cy="20" r="3.5" class="geom-point" />

@@ -34,15 +34,15 @@ Then, since the point :g:`$F$ <0019.g1:F>` is the centre of the circle :g:`$ABC$
 
 .. assertion::
 
-   :g:`$FC$ <0019.g1:/ F C />` is equal to :g:`$FB$ <0019.g1:/ F B />`.
+   :g:`$FC$ <0019.g1:/ F C />` is :eq:`equal <0019.g1:/ F C / = 0019.g1:/ F B />` to :g:`$FB$ <0019.g1:/ F B />`.
 
 Again, since the point :g:`$F$ <0019.g1:F>` is the centre of the circle :g:`$CDE$ <0019.g1:( C D E )>`,
 
 .. assertion::
 
-   :g:`$FC$ <0019.g1:/ F C />` is equal to :g:`$FE$ <0019.g1:/ F E />`.
+   :g:`$FC$ <0019.g1:/ F C />` is :eq:`equal <0019.g1:/ F C / = 0019.g1:/ F E />` to :g:`$FE$ <0019.g1:/ F E />`.
 
-But :g:`$FC$ <0019.g1:/ F C />` was proved equal to :g:`$FB$ <0019.g1:/ F B />`; therefore :g:`$FE$ <0019.g1:/ F E />` is also equal to :g:`$FB$ <0019.g1:/ F B />`, the less to the greater: which is impossible.
+But :g:`$FC$ <0019.g1:/ F C />` was proved :eq:`equal <0019.g1:/ F C / = 0019.g1:/ F B />` to :g:`$FB$ <0019.g1:/ F B />`; therefore :g:`$FE$ <0019.g1:/ F E />` is also :eq:`equal <0019.g1:/ F E / = 0019.g1:/ F B />` to :g:`$FB$ <0019.g1:/ F B />`, the less to the greater: which is impossible.
 
 .. assertion::
 

@@ -68,7 +68,7 @@ Let two numbers :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` be set 
 .. picture:: 0067.g1.svg
    :alt: Lemma 1 diagram
 
-Let :g:`$AC$ <0067.g1:/ A C />` be bisected at :g:`$D$ <0067.g1:D>`.
+Let :g:`$AC$ <0067.g1:/ A C />` be :eq:`bisected <0067.g1:/ A D / = 0067.g1:/ C D />` at :g:`$D$ <0067.g1:D>`.
 
 Let :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` also be either similar plane numbers, or square numbers, which are themselves also similar plane numbers.
 
@@ -124,7 +124,7 @@ Lemma 2.
 
    To find two square numbers such that their sum is not square.
 
-For let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />`, as we said, be square, and :g:`$CA$ <0068.g1:/ C A />` even, and let :g:`$CA$ <0068.g1:/ C A />` be bisected by :g:`$D$ <0068.g1:D>`.
+For let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />`, as we said, be square, and :g:`$CA$ <0068.g1:/ C A />` even, and let :g:`$CA$ <0068.g1:/ C A />` be :eq:`bisected <0068.g1:/ A D / = 0068.g1:/ C D />` by :g:`$D$ <0068.g1:D>`.
 
 .. picture:: 0068.g1.svg
    :alt: Lemma 2
@@ -153,7 +153,7 @@ First, if possible, let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <00
 
 .. assertion::
 
-   therefore the remainder :g:`$GC$ <0068.g1:/ G C />` is also double of the remainder :g:`$EC$ <0068.g1:/ E C />`; therefore :g:`$GC$ <0068.g1:/ G C />` is bisected by :g:`$E$ <0068.g1:E>`.
+   therefore the remainder :g:`$GC$ <0068.g1:/ G C />` is also double of the remainder :g:`$EC$ <0068.g1:/ E C />`; therefore :g:`$GC$ <0068.g1:/ G C />` is :eq:`bisected <0068.g1:/ G E / = 0068.g1:/ E C />` by :g:`$E$ <0068.g1:E>`.
 
 .. assertion::
 
@@ -178,7 +178,7 @@ First, if possible, let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <00
 
 .. assertion::
 
-   it follows that :g:`$AB$ <0068.g1:/ A B />` is equal to :g:`$GB$ <0068.g1:/ G B />`: which is absurd.
+   it follows that :g:`$AB$ <0068.g1:/ A B />` is :eq:`equal <0068.g1:/ A B / = 0068.g1:/ G B />` to :g:`$GB$ <0068.g1:/ G B />`: which is absurd.
 
 .. assertion::
 
@@ -190,7 +190,7 @@ For, if possible, let it be equal to the square on :g:`$BF$ <0068.g1:/ B F />`, 
 
 .. assertion::
 
-   Now it will again follow that :g:`$HC$ <0068.g1:/ H C />` is double of :g:`$CF$ <0068.g1:/ C F />`; so that :g:`$CH$ <0068.g1:/ C H />` has also been bisected at :g:`$F$ <0068.g1:F>`, and for this reason the product of :g:`$HB$ <0068.g1:/ H B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$FC$ <0068.g1:/ F C />` is equal to the square on :g:`$BF$ <0068.g1:/ B F />`. :just:`[II. 6] <II.6>`
+   Now it will again follow that :g:`$HC$ <0068.g1:/ H C />` is double of :g:`$CF$ <0068.g1:/ C F />`; so that :g:`$CH$ <0068.g1:/ C H />` has also been :eq:`bisected <0068.g1:/ H F / = 0068.g1:/ C F />` at :g:`$F$ <0068.g1:F>`, and for this reason the product of :g:`$HB$ <0068.g1:/ H B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$FC$ <0068.g1:/ F C />` is equal to the square on :g:`$BF$ <0068.g1:/ B F />`. :just:`[II. 6] <II.6>`
 
 .. subclause::
 

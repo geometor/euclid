@@ -41,21 +41,21 @@ straight line :g:`$BC$ <0094.g1:/ B C />`, or outside :g:`$BC$ <0094.g1:/ B C />
 First let them meet within at :g:`$F$ <0094.g1:F>`, and let :g:`$FB$ <0094.g1:/ F B />`, :g:`$FC$ <0094.g1:/ F C />`, :g:`$FA$ <0094.g1:/ F A />` be
 joined.
 
-Then, since :g:`$AD$ <0094.g1:/ A D />` is equal to :g:`$DB$ <0094.g1:/ D B />`,
+Then, since :g:`$AD$ <0094.g1:/ A D />` is :eq:`equal <0094.g1:/ A D / = 0094.g1:/ D B />` to :g:`$DB$ <0094.g1:/ D B />`,
 and :g:`$DF$ <0094.g1:/ D F />` is common and at right angles,
-therefore the base :g:`$AF$ <0094.g1:/ A F />` is equal to the base :g:`$FB$ <0094.g1:/ F B />`. :just:`[I. 4] <I.4>`
+therefore the base :g:`$AF$ <0094.g1:/ A F />` is :eq:`equal <0094.g1:/ A F / = 0094.g1:/ F B />` to the base :g:`$FB$ <0094.g1:/ F B />`. :just:`[I. 4] <I.4>`
 
 Similarly we can prove that
 
 .. assertion::
 
-   :g:`$CF$ <0094.g1:/ C F />` is also equal to :g:`$AF$ <0094.g1:/ A F />`;
+   :g:`$CF$ <0094.g1:/ C F />` is also :eq:`equal <0094.g1:/ C F / = 0094.g1:/ A F />` to :g:`$AF$ <0094.g1:/ A F />`;
 
-so that :g:`$FB$ <0094.g1:/ F B />` is also equal to :g:`$FC$ <0094.g1:/ F C />`;
+so that :g:`$FB$ <0094.g1:/ F B />` is also :eq:`equal <0094.g1:/ F B / = 0094.g1:/ F C />` to :g:`$FC$ <0094.g1:/ F C />`;
 
 .. assertion::
 
-   therefore the three straight lines :g:`$FA$ <0094.g1:/ F A />`, :g:`$FB$ <0094.g1:/ F B />`, :g:`$FC$ <0094.g1:/ F C />` are equal to one another.
+   therefore the three straight lines :g:`$FA$ <0094.g1:/ F A />`, :g:`$FB$ <0094.g1:/ F B />`, :g:`$FC$ <0094.g1:/ F C />` are :eq:`equal <0094.g1:/ F A / = 0094.g1:/ F B / = 0094.g1:/ F C />` to one another.
 
 Therefore the circle described with centre :g:`$F$ <0094.g1:F>` and distance
 one of the straight lines :g:`$FA$ <0094.g1:/ F A />`, :g:`$FB$ <0094.g1:/ F B />`, :g:`$FC$ <0094.g1:/ F C />` will pass also through
@@ -74,17 +74,17 @@ Again, let :g:`$DF$ <0094.g1:/ D F />`, :g:`$EF$ <0094.g1:/ E F />` meet outside
 as is the case in the third figure, and let :g:`$AF$ <0094.g1:/ A F />`, :g:`$BF$ <0094.g1:/ B F />`, :g:`$CF$ <0094.g1:/ C F />` be
 joined.
 
-Then again, since :g:`$AD$ <0094.g1:/ A D />` is equal to :g:`$DB$ <0094.g1:/ D B />`,
+Then again, since :g:`$AD$ <0094.g1:/ A D />` is :eq:`equal <0094.g1:/ A D / = 0094.g1:/ D B />` to :g:`$DB$ <0094.g1:/ D B />`,
 and :g:`$DF$ <0094.g1:/ D F />` is common and at right angles,
-therefore the base :g:`$AF$ <0094.g1:/ A F />` is equal to the base :g:`$FB$ <0094.g1:/ F B />`. :just:`[I. 4] <I.4>`
+therefore the base :g:`$AF$ <0094.g1:/ A F />` is :eq:`equal <0094.g1:/ A F / = 0094.g1:/ F B />` to the base :g:`$FB$ <0094.g1:/ F B />`. :just:`[I. 4] <I.4>`
 
 Similarly we can prove that
 
 .. assertion::
 
-   :g:`$CF$ <0094.g1:/ C F />` is also equal to :g:`$AF$ <0094.g1:/ A F />`;
+   :g:`$CF$ <0094.g1:/ C F />` is also :eq:`equal <0094.g1:/ C F / = 0094.g1:/ A F />` to :g:`$AF$ <0094.g1:/ A F />`;
 
-so that :g:`$BF$ <0094.g1:/ B F />` is also equal to :g:`$FC$ <0094.g1:/ F C />`;
+so that :g:`$BF$ <0094.g1:/ B F />` is also :eq:`equal <0094.g1:/ B F / = 0094.g1:/ F C />` to :g:`$FC$ <0094.g1:/ F C />`;
 therefore the circle described with centre :g:`$F$ <0094.g1:F>` and distance one
 of the straight lines :g:`$FA$ <0094.g1:/ F A />`, :g:`$FB$ <0094.g1:/ F B />`, :g:`$FC$ <0094.g1:/ F C />` will pass also through
 the remaining points, and will have been circumscribed about

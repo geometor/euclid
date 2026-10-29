@@ -72,7 +72,7 @@ And, since, as :g:`$AB$ <0173.g1:/ A B />` is to :g:`$BE$ <0173.g1:/ E B />`, so
 
 .. assertion::
 
-   therefore, if :g:`$GK$ <0173.g1:/ G K />` is in excess of :g:`$HO$ <0173.g1:/ H O />`, :g:`$LN$ <0173.g1:/ L N />` is also in excess of :g:`$MP$ <0173.g1:/ M P />`, if equal, equal, and if less, less.
+   therefore, if :g:`$GK$ <0173.g1:/ G K />` is in excess of :g:`$HO$ <0173.g1:/ H O />`, :g:`$LN$ <0173.g1:/ L N />` is also in excess of :g:`$MP$ <0173.g1:/ M P />`, if :eq:`equal <0173.g1:/ G K / = 0173.g1:/ H O />`, :eq:`equal <0173.g1:/ L N / = 0173.g1:/ M P />`, and if less, less.
 
 .. subclause::
 
@@ -103,7 +103,7 @@ But we saw that, if :g:`$GK$ <0173.g1:/ G K />` was in excess of :g:`$HO$ <0173.
 
 so that, if :g:`$GH$ <0173.g1:/ G H />` is in excess of :g:`$KO$ <0173.g1:/ K O />`, :g:`$LM$ <0173.g1:/ L M />` is also in excess of :g:`$NP$ <0173.g1:/ N P />`.
 
-Similarly we can prove that, if :g:`$GH$ <0173.g1:/ G H />` be equal to :g:`$KO$ <0173.g1:/ K O />`, :g:`$LM$ <0173.g1:/ L M />` will also be equal to :g:`$NP$ <0173.g1:/ N P />`, and if less, less.
+Similarly we can prove that, if :g:`$GH$ <0173.g1:/ G H />` be :eq:`equal <0173.g1:/ G H / = 0173.g1:/ K O />` to :g:`$KO$ <0173.g1:/ K O />`, :g:`$LM$ <0173.g1:/ L M />` will also be :eq:`equal <0173.g1:/ L M / = 0173.g1:/ N P />` to :g:`$NP$ <0173.g1:/ N P />`, and if less, less.
 
 And :g:`$GH$ <0173.g1:/ G H />`, :g:`$LM$ <0173.g1:/ L M />` are equimultiples of :g:`$AE$ <0173.g1:/ A E />`, :g:`$CF$ <0173.g1:/ C F />`, while :g:`$KO$ <0173.g1:/ K O />`, :g:`$NP$ <0173.g1:/ N P />` are other, chance, equimultiples of :g:`$EB$ <0173.g1:/ E B />`, :g:`$FD$ <0173.g1:/ F D />`:
 

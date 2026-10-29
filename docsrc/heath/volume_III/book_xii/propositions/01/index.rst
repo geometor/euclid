@@ -31,9 +31,9 @@ For let :g:`$BE$ <0373.g1:/ B E />`, :g:`$AM$ <0373.g1:/ A M />`, :g:`$GL$ <0373
 
 .. subclause::
 
-   Now, since the polygon :g:`$ABCDE$ <0373.g1:< A B C D E >>` is similar to the polygon :g:`$FGHKL$ <0373.g1:< F G H K L >>`, the angle :g:`$BAE$ <0373.g1:< B A E )>` is equal to the angle :g:`$GFL$ <0373.g1:< G F L )>`, and, as :g:`$BA$ <0373.g1:/ B A />` is to :g:`$AE$ <0373.g1:/ A E />`, so is :g:`$GF$ <0373.g1:/ G F />` to :g:`$FL$ <0373.g1:/ F L />`. :just:`[VI. Def. 1] <VI.def.1>`
+   Now, since the polygon :g:`$ABCDE$ <0373.g1:< A B C D E >>` is similar to the polygon :g:`$FGHKL$ <0373.g1:< F G H K L >>`, the angle :g:`$BAE$ <0373.g1:< B A E )>` is :eq:`equal <0373.g1:< B A E ) = 0373.g1:< G F L )>` to the angle :g:`$GFL$ <0373.g1:< G F L )>`, and, as :g:`$BA$ <0373.g1:/ B A />` is to :g:`$AE$ <0373.g1:/ A E />`, so is :g:`$GF$ <0373.g1:/ G F />` to :g:`$FL$ <0373.g1:/ F L />`. :just:`[VI. Def. 1] <VI.def.1>`
 
-Thus :g:`$BAE$ <0373.g1:< B A E >>`, :g:`$GFL$ <0373.g1:< G F L >>` are two triangles which have one angle equal to one angle, namely the angle :g:`$BAE$ <0373.g1:< B A E )>` to the angle :g:`$GFL$ <0373.g1:< G F L )>`, and the sides about the equal angles proportional;
+Thus :g:`$BAE$ <0373.g1:< B A E >>`, :g:`$GFL$ <0373.g1:< G F L >>` are two triangles which have one angle :eq:`equal <0373.g1:< B A E ) = 0373.g1:< G F L )>` to one angle, namely the angle :g:`$BAE$ <0373.g1:< B A E )>` to the angle :g:`$GFL$ <0373.g1:< G F L )>`, and the sides about the equal angles proportional;
 
 .. assertion::
 
@@ -41,7 +41,7 @@ Thus :g:`$BAE$ <0373.g1:< B A E >>`, :g:`$GFL$ <0373.g1:< G F L >>` are two tria
 
 .. assertion::
 
-   Therefore the angle :g:`$AEB$ <0373.g1:< A E B )>` is equal to the angle :g:`$FLG$ <0373.g1:< F L G )>`.
+   Therefore the angle :g:`$AEB$ <0373.g1:< A E B )>` is :eq:`equal <0373.g1:< A E B ) = 0373.g1:< F L G )>` to the angle :g:`$FLG$ <0373.g1:< F L G )>`.
 
 .. _folio-iii-0374:
 
@@ -50,15 +50,15 @@ Thus :g:`$BAE$ <0373.g1:< B A E >>`, :g:`$GFL$ <0373.g1:< G F L >>` are two tria
 
 .. subclause::
 
-   But the angle :g:`$AEB$ <0373.g1:< A E B )>` is equal to the angle :g:`$AMB$ <0373.g1:< A M B )>`, for they stand on the same circumference; :just:`[III. 27] <III.27>` and the angle :g:`$FLG$ <0373.g1:< F L G )>` to the angle :g:`$FNG$ <0373.g1:< F N G )>`;
+   But the angle :g:`$AEB$ <0373.g1:< A E B )>` is :eq:`equal <0373.g1:< A E B ) = 0373.g1:< A M B ); 0373.g1:< F L G ) = 0373.g1:< F N G )>` to the angle :g:`$AMB$ <0373.g1:< A M B )>`, for they stand on the same circumference; :just:`[III. 27] <III.27>` and the angle :g:`$FLG$ <0373.g1:< F L G )>` to the angle :g:`$FNG$ <0373.g1:< F N G )>`;
 
 .. assertion::
 
-   therefore the angle :g:`$AMB$ <0373.g1:< A M B )>` is also equal to the angle :g:`$FNG$ <0373.g1:< F N G )>`.
+   therefore the angle :g:`$AMB$ <0373.g1:< A M B )>` is also :eq:`equal <0373.g1:< A M B ) = 0373.g1:< F N G )>` to the angle :g:`$FNG$ <0373.g1:< F N G )>`.
 
 .. subclause::
 
-   But the right angle :g:`$BAM$ <0373.g1:< B A M )>` is also equal to the right angle :g:`$GFN$ <0373.g1:< G F N )>`; :just:`[III. 31] <III.31>`
+   But the right angle :g:`$BAM$ <0373.g1:< B A M )>` is also :eq:`equal <0373.g1:< B A M ) = 0373.g1:< G F N )>` to the right angle :g:`$GFN$ <0373.g1:< G F N )>`; :just:`[III. 31] <III.31>`
 
 .. assertion::
 

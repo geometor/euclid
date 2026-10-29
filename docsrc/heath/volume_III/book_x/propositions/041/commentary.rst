@@ -76,7 +76,7 @@ Let the straight line :g:`$AB$ <0095.g1:/ A B />` be set out, let the whole be c
 .. picture:: 0095.g1.svg
    :alt: Lemma before Proposition 42 diagram
 
-For let :g:`$AB$ <0095.g1:/ A B />` be bisected at :g:`$E$ <0095.g1:E>`.
+For let :g:`$AB$ <0095.g1:/ A B />` be :eq:`bisected <0095.g1:/ A E / = 0095.g1:/ E B />` at :g:`$E$ <0095.g1:E>`.
 
 .. subclause::
 
@@ -88,7 +88,7 @@ For let :g:`$AB$ <0095.g1:/ A B />` be bisected at :g:`$E$ <0095.g1:E>`.
 
 .. subclause::
 
-   But :g:`$AE$ <0095.g1:/ A E />` is equal to :g:`$EB$ <0095.g1:/ E B />`;
+   But :g:`$AE$ <0095.g1:/ A E />` is :eq:`equal <0095.g1:/ A E / = 0095.g1:/ E B />` to :g:`$EB$ <0095.g1:/ E B />`;
 
 .. assertion::
 

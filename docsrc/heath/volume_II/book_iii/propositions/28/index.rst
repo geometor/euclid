@@ -20,10 +20,10 @@ PROPOSITION 28.
 
    In equal circles equal straight lines cut off equal circumferences, the greater equal to the greater and the less to the less.
 
-Let :g:`$ABC$ <0065.g1:( A B C )>`, :g:`$DEF$ <0065.g1:( D E F )>` be equal circles, and in the circles let
-:g:`$AB$ <0065.g1:/ A B />`, :g:`$DE$ <0065.g1:/ D E />` be equal straight lines cutting off :g:`$ACB$ <0065.g1:( A C B )>`, :g:`$DFE$ <0065.g1:( D F E )>` as
+Let :g:`$ABC$ <0065.g1:( A B C )>`, :g:`$DEF$ <0065.g1:( D E F )>` be :eq:`equal <0065.g1:( A B C ) = 0065.g1:( D E F )>` circles, and in the circles let
+:g:`$AB$ <0065.g1:/ A B />`, :g:`$DE$ <0065.g1:/ D E />` be :eq:`equal <0065.g1:/ A B / = 0065.g1:/ D E />` straight lines cutting off :g:`$ACB$ <0065.g1:( A C B )>`, :g:`$DFE$ <0065.g1:( D F E )>` as
 greater circumferences and :g:`$AGB$ <0065.g1:( A G B )>`, :g:`$DHE$ <0065.g1:( D H E )>` as lesser;
-I say that the greater circumference :g:`$ACB$ <0065.g1:( A C B )>` is equal to the
+I say that the greater circumference :g:`$ACB$ <0065.g1:( A C B )>` is :eq:`equal <0065.g1:( A C B ) = 0065.g1:( D F E ); 0065.g1:( A G B ) = 0065.g1:( D H E )>` to the
 greater circumference :g:`$DFE$ <0065.g1:( D F E )>`, and the less circumference :g:`$AGB$ <0065.g1:( A G B )>`
 to :g:`$DHE$ <0065.g1:( D H E )>`.
 
@@ -33,34 +33,34 @@ to :g:`$DHE$ <0065.g1:( D H E )>`.
 For let the centres :g:`$K$ <0065.g1:K>`, :g:`$L$ <0065.g1:L>` of the circles be taken, and let
 :g:`$AK$ <0065.g1:/ A K />`, :g:`$KB$ <0065.g1:/ K B />`, :g:`$DL$ <0065.g1:/ D L />`, :g:`$LE$ <0065.g1:/ L E />` be joined.
 
-Now, since the circles are equal,
+Now, since the circles are :eq:`equal <0065.g1:( A B C ) = 0065.g1:( D E F )>`,
 
 .. assertion::
 
-   the radii are also equal; therefore the two sides :g:`$AK$ <0065.g1:/ A K />`, :g:`$KB$ <0065.g1:/ K B />` are equal to the two
+   the radii are also :eq:`equal <0065.g1:/ A K / = 0065.g1:/ K B / = 0065.g1:/ D L / = 0065.g1:/ L E />`; therefore the two sides :g:`$AK$ <0065.g1:/ A K />`, :g:`$KB$ <0065.g1:/ K B />` are :eq:`equal <0065.g1:/ A K / = 0065.g1:/ D L /; 0065.g1:/ K B / = 0065.g1:/ L E />` to the two
 
 sides :g:`$DL$ <0065.g1:/ D L />`, :g:`$LE$ <0065.g1:/ L E />`;
-and the base :g:`$AB$ <0065.g1:/ A B />` is equal to the base :g:`$DE$ <0065.g1:/ D E />`;
+and the base :g:`$AB$ <0065.g1:/ A B />` is :eq:`equal <0065.g1:/ A B / = 0065.g1:/ D E />` to the base :g:`$DE$ <0065.g1:/ D E />`;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$AKB$ <0065.g1:< A K B )>` is equal to the angle :g:`$DLE$ <0065.g1:< D L E )>`.
+   therefore the angle :g:`$AKB$ <0065.g1:< A K B )>` is :eq:`equal <0065.g1:< A K B ) = 0065.g1:< D L E )>` to the angle :g:`$DLE$ <0065.g1:< D L E )>`.
 
 But equal angles stand on equal circumferences, when
 they are at the centres; :just:`[III. 26] <III.26>`
 
 .. assertion::
 
-   therefore the circumference :g:`$AGB$ <0065.g1:( A G B )>` is equal to :g:`$DHE$ <0065.g1:( D H E )>`.
+   therefore the circumference :g:`$AGB$ <0065.g1:( A G B )>` is :eq:`equal <0065.g1:( A G B ) = 0065.g1:( D H E )>` to :g:`$DHE$ <0065.g1:( D H E )>`.
 
 .. _folio-ii-0066:
 
 .. folio:: 0066
    :page: 60
 
-And the whole circle :g:`$ABC$ <0065.g1:( A B C )>` is also equal to the whole
+And the whole circle :g:`$ABC$ <0065.g1:( A B C )>` is also :eq:`equal <0065.g1:( A B C ) = 0065.g1:( D E F )>` to the whole
 circle :g:`$DEF$ <0065.g1:( D E F )>`;
-therefore the circumference :g:`$ACB$ <0065.g1:( A C B )>` which remains is also equal
+therefore the circumference :g:`$ACB$ <0065.g1:( A C B )>` which remains is also :eq:`equal <0065.g1:( A C B ) = 0065.g1:( D F E )>`
 to the circumference :g:`$DFE$ <0065.g1:( D F E )>` which remains.
 
 .. qed::

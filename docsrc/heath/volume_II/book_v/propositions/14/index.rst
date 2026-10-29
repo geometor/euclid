@@ -47,7 +47,7 @@ But, as :g:`$A$ <0168.g1:A>` is to :g:`$B$ <0168.g1:B>`, so is :g:`$C$ <0168.g1:
 
    therefore :g:`$D$ <0168.g1:D>` is less than :g:`$B$ <0168.g1:B>` ; so that :g:`$B$ <0168.g1:B>` is greater than :g:`$D$ <0168.g1:D>`.
 
-Similarly we can prove that, if :g:`$A$ <0168.g1:A>` be equal to :g:`$C$ <0168.g1:C>`, :g:`$B$ <0168.g1:B>` will also be equal to :g:`$D$ <0168.g1:D>` ; and, if :g:`$A$ <0168.g1:A>` be less than :g:`$C$ <0168.g1:C>`, :g:`$B$ <0168.g1:B>` will also be less than :g:`$D$ <0168.g1:D>`.
+Similarly we can prove that, if :g:`$A$ <0168.g1:A>` be :eq:`equal <0168.g1:A = 0168.g1:C>` to :g:`$C$ <0168.g1:C>`, :g:`$B$ <0168.g1:B>` will also be :eq:`equal <0168.g1:B = 0168.g1:D>` to :g:`$D$ <0168.g1:D>` ; and, if :g:`$A$ <0168.g1:A>` be less than :g:`$C$ <0168.g1:C>`, :g:`$B$ <0168.g1:B>` will also be less than :g:`$D$ <0168.g1:D>`.
 
 .. qed::
 

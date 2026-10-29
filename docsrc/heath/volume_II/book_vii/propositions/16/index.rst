@@ -24,7 +24,7 @@ PROPOSITION 16.
 
 Let :g:`$A$ <0322.g1:A>`, :g:`$B$ <0322.g1:B>` be two numbers, and let :g:`$A$ <0322.g1:A>` by multiplying :g:`$B$ <0322.g1:B>` make :g:`$C$ <0322.g1:C>`, and :g:`$B$ <0322.g1:B>` by multiplying :g:`$A$ <0322.g1:A>` make :g:`$D$ <0322.g1:D>`;
 
-I say that :g:`$C$ <0322.g1:C>` is equal to :g:`$D$ <0322.g1:D>`.
+I say that :g:`$C$ <0322.g1:C>` is :eq:`equal <0322.g1:C = 0322.g1:D>` to :g:`$D$ <0322.g1:D>`.
 
 .. picture:: 0322.g1.svg
    :alt: Proposition 16 Diagram
@@ -75,7 +75,7 @@ I say that :g:`$C$ <0322.g1:C>` is equal to :g:`$D$ <0322.g1:D>`.
 
 .. assertion::
 
-   Therefore :g:`$C$ <0322.g1:C>` is equal to :g:`$D$ <0322.g1:D>`.
+   Therefore :g:`$C$ <0322.g1:C>` is :eq:`equal <0322.g1:C = 0322.g1:D>` to :g:`$D$ <0322.g1:D>`.
 
 .. qed::
 

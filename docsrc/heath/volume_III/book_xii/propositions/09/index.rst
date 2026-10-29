@@ -22,7 +22,7 @@ PROPOSITION 9.
 
    In equal pyramids which have triangular bases the bases are reciprocally proportional to the heights; and those pyramids in which the bases are reciprocally proportional to the heights are equal.
 
-For let there be equal pyramids which have the triangular bases :g:`$ABC$ <0402.g1:< A B C >>`, :g:`$DEF$ <0402.g1:< D E F >>` and vertices the points :g:`$G$ <0402.g1:G>`, :g:`$H$ <0402.g1:H>`; I say that in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D E F H >>` the bases are reciprocally proportional to the heights, that is, as the base :g:`$ABC$ <0402.g1:< A B C >>` is to the base :g:`$DEF$ <0402.g1:< D E F >>`, so is the height of the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>` to the height of the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>`.
+For let there be :eq:`equal <0402.g1:< A B C G > = 0402.g1:< D E F H >>` pyramids which have the triangular bases :g:`$ABC$ <0402.g1:< A B C >>`, :g:`$DEF$ <0402.g1:< D E F >>` and vertices the points :g:`$G$ <0402.g1:G>`, :g:`$H$ <0402.g1:H>`; I say that in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D E F H >>` the bases are reciprocally proportional to the heights, that is, as the base :g:`$ABC$ <0402.g1:< A B C >>` is to the base :g:`$DEF$ <0402.g1:< D E F >>`, so is the height of the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>` to the height of the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>`.
 
 .. picture:: 0402.g1.svg
    :alt: Book XII, Proposition 9
@@ -31,11 +31,11 @@ For let the parallelepipedal solids :g:`$BGML$ <0402.g1:< B G M L >>`, :g:`$EHQP
 
 .. subclause::
 
-   Now, since the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` is equal to the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`, and the solid :g:`$BGML$ <0402.g1:< B G M L >>` is six times the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>`, and the solid :g:`$EHQP$ <0402.g1:< E H Q P >>` six times the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`,
+   Now, since the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` is :eq:`equal <0402.g1:< A B C G > = 0402.g1:< D E F H >>` to the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`, and the solid :g:`$BGML$ <0402.g1:< B G M L >>` is six times the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>`, and the solid :g:`$EHQP$ <0402.g1:< E H Q P >>` six times the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`,
 
 .. assertion::
 
-   therefore the solid :g:`$BGML$ <0402.g1:< B G M L >>` is equal to the solid :g:`$EHQP$ <0402.g1:< E H Q P >>`.
+   therefore the solid :g:`$BGML$ <0402.g1:< B G M L >>` is :eq:`equal <0402.g1:< B G M L > = 0402.g1:< E H Q P >>` to the solid :g:`$EHQP$ <0402.g1:< E H Q P >>`.
 
 .. subclause::
 
@@ -70,7 +70,7 @@ For let the parallelepipedal solids :g:`$BGML$ <0402.g1:< B G M L >>`, :g:`$EHQP
 
    Therefore in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D E F H >>` the bases are reciprocally proportional to the heights.
 
-Next, in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D E F H >>` let the bases be reciprocally proportional to the heights ; that is, as the base :g:`$ABC$ <0402.g1:< A B C >>` is to the base :g:`$DEF$ <0402.g1:< D E F >>`, so let the height of the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>` be to the height of the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` ; I say that the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` is equal to the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`.
+Next, in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D E F H >>` let the bases be reciprocally proportional to the heights ; that is, as the base :g:`$ABC$ <0402.g1:< A B C >>` is to the base :g:`$DEF$ <0402.g1:< D E F >>`, so let the height of the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>` be to the height of the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` ; I say that the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` is :eq:`equal <0402.g1:< A B C G > = 0402.g1:< D E F H >>` to the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`.
 
 .. subclause::
 
@@ -94,7 +94,7 @@ Next, in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D
 
 .. assertion::
 
-   therefore the parallelepipedal solid :g:`$BGML$ <0402.g1:< B G M L >>` is equal to the parallelepipedal solid :g:`$EHQP$ <0402.g1:< E H Q P >>`.
+   therefore the parallelepipedal solid :g:`$BGML$ <0402.g1:< B G M L >>` is :eq:`equal <0402.g1:< B G M L > = 0402.g1:< E H Q P >>` to the parallelepipedal solid :g:`$EHQP$ <0402.g1:< E H Q P >>`.
 
 .. subclause::
 
@@ -107,7 +107,7 @@ Next, in the pyramids :g:`$ABCG$ <0402.g1:< A B C G >>`, :g:`$DEFH$ <0402.g1:< D
 
 .. assertion::
 
-   therefore the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` is equal to the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`.
+   therefore the pyramid :g:`$ABCG$ <0402.g1:< A B C G >>` is :eq:`equal <0402.g1:< A B C G > = 0402.g1:< D E F H >>` to the pyramid :g:`$DEFH$ <0402.g1:< D E F H >>`.
 
 .. assertion::
 

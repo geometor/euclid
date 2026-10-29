@@ -162,11 +162,11 @@ columns should be found to agree in the model and the original as far as the mil
 .. picture:: 0130.g1.svg
    :alt: Folio 0130 Figure 1
 
-"Let :g:`$OAB$ <0130.g1:< O A B >>` be a triangle to one side :g:`$AB$ <0130.g1:/ A B />` of which :g:`$ab$ <0130.g1:/ a b />` is drawn parallel, and on :g:`$OA$ <0130.g1:[ O A ]>` produced set off :g:`$AA_2$ <0130.g1:/ A A_2 />`, :g:`$A_2A_3$ <0130.g1:/ A_2 A_3 />` etc. equal to :g:`$OA$ <0130.g1:/ O A />`, and :g:`$aa_2$ <0130.g1:/ a a_2 />`, :g:`$a_2a_3$ <0130.g1:/ a_2 a_3 />` etc. equal to :g:`$Oa$ <0130.g1:/ O a />`.
+"Let :g:`$OAB$ <0130.g1:< O A B >>` be a triangle to one side :g:`$AB$ <0130.g1:/ A B />` of which :g:`$ab$ <0130.g1:/ a b />` is drawn parallel, and on :g:`$OA$ <0130.g1:[ O A ]>` produced set off :g:`$AA_2$ <0130.g1:/ A A_2 />`, :g:`$A_2A_3$ <0130.g1:/ A_2 A_3 />` etc. :eq:`equal <0130.g1:/ A A_2 / = 0130.g1:/ A_2 A_3 / = 0130.g1:/ O A />` to :g:`$OA$ <0130.g1:/ O A />`, and :g:`$aa_2$ <0130.g1:/ a a_2 />`, :g:`$a_2a_3$ <0130.g1:/ a_2 a_3 />` etc. :eq:`equal <0130.g1:/ a a_2 / = 0130.g1:/ a_2 a_3 / = 0130.g1:/ O a />` to :g:`$Oa$ <0130.g1:/ O a />`.
 
 Through every one of the points so obtained draw parallels to :g:`$AB$ <0130.g1:/ A B />`, meeting :g:`$OB$ <0130.g1:[ O B ]>` produced in :g:`$b_2$ <0130.g1:b_2>`, :g:`$B_2$ <0130.g1:B_2>` etc.
 
-Then it is easily proved that :g:`$bb_2$ <0130.g1:/ b b_2 />`, :g:`$b_2b_3$ <0130.g1:/ b_2 b_3 />` etc. are severally equal to :g:`$Ob$ <0130.g1:/ O b />`, and :g:`$BB_2$ <0130.g1:/ B B_2 />`, :g:`$B_2B_3$ <0130.g1:/ B_2 B_3 />` etc. to :g:`$OB$ <0130.g1:/ O B />`.
+Then it is easily proved that :g:`$bb_2$ <0130.g1:/ b b_2 />`, :g:`$b_2b_3$ <0130.g1:/ b_2 b_3 />` etc. are severally :eq:`equal <0130.g1:/ b b_2 / = 0130.g1:/ b_2 b_3 / = 0130.g1:/ O b />; 0130.g1:/ B B_2 / = 0130.g1:/ B_2 B_3 / = 0130.g1:/ O B />` to :g:`$Ob$ <0130.g1:/ O b />`, and :g:`$BB_2$ <0130.g1:/ B B_2 />`, :g:`$B_2B_3$ <0130.g1:/ B_2 B_3 />` etc. to :g:`$OB$ <0130.g1:/ O B />`.
 
 Consequently a distribution of the multiples of :g:`$OA$ <0130.g1:/ O A />` among the multiples of :g:`$Oa$ <0130.g1:/ O a />` is made on one line, and of :g:`$OB$ <0130.g1:/ O B />` among those of :g:`$Ob$ <0130.g1:/ O b />` on the other.
 
@@ -308,7 +308,7 @@ therefore, if :g:`$E$ <0133.g1:E>` be a greater multiple of :g:`$B$ <0133.g1:B>`
 that is, if :g:`$E$ <0133.g1:E>` be greater than :g:`$G$ <0133.g1:G>`, :g:`$F$ <0133.g1:F>` is greater than :g:`$H$ <0133.g1:H>`.
 
 In like manner,
-if :g:`$E$ <0133.g1:E>` be equal to :g:`$G$ <0133.g1:G>`, or less, :g:`$F$ <0133.g1:F>` is equal to :g:`$H$ <0133.g1:H>`, or less than it.
+if :g:`$E$ <0133.g1:E>` be :eq:`equal <0133.g1:E = 0133.g1:G>` to :g:`$G$ <0133.g1:G>`, or less, :g:`$F$ <0133.g1:F>` is :eq:`equal <0133.g1:F = 0133.g1:H>` to :g:`$H$ <0133.g1:H>`, or less than it.
 
 But :g:`$E$ <0133.g1:E>`, :g:`$F$ <0133.g1:F>` are equimultiples, any whatever, of :g:`$A$ <0133.g1:A>`, :g:`$C$ <0133.g1:C>` ;
 and :g:`$G$ <0133.g1:G>`, :g:`$H$ <0133.g1:H>` any equimultiples whatever of :g:`$B$ <0133.g1:B>`, :g:`$D$ <0133.g1:D>`.
@@ -366,16 +366,16 @@ and, first, let :g:`$A$ <0134.g2:A>` be a multiple of :g:`$B$ <0134.g2:B>` ;
 
 :g:`$C$ <0134.g2:C>` is the same multiple of :g:`$D$ <0134.g2:D>`.
 
-Take :g:`$E$ <0134.g2:E>` equal to :g:`$A$ <0134.g2:A>`, and whatever multiple :g:`$A$ <0134.g2:A>` or :g:`$E$ <0134.g2:E>` is of :g:`$B$ <0134.g2:B>`, make :g:`$F$ <0134.g2:F>` the same multiple of :g:`$D$ <0134.g2:D>`.
+Take :g:`$E$ <0134.g2:E>` :eq:`equal <0134.g2:E = 0134.g2:A>` to :g:`$A$ <0134.g2:A>`, and whatever multiple :g:`$A$ <0134.g2:A>` or :g:`$E$ <0134.g2:E>` is of :g:`$B$ <0134.g2:B>`, make :g:`$F$ <0134.g2:F>` the same multiple of :g:`$D$ <0134.g2:D>`.
 
 Then, because :g:`$A$ <0134.g2:A>` is to :g:`$B$ <0134.g2:B>` as :g:`$C$ <0134.g2:C>` is to :g:`$D$ <0134.g2:D>`,
 and of :g:`$B$ <0134.g2:B>` the second and :g:`$D$ <0134.g2:D>` the fourth equimultiples have been taken :g:`$E$ <0134.g2:E>` and :g:`$F$ <0134.g2:F>`,
 
 :g:`$A$ <0134.g2:A>` is to :g:`$E$ <0134.g2:E>` as :g:`$C$ <0134.g2:C>` is to :g:`$F$ <0134.g2:F>`. [V. 4, Cor.]
 
-But :g:`$A$ <0134.g2:A>` is equal to :g:`$E$ <0134.g2:E>` ;
+But :g:`$A$ <0134.g2:A>` is :eq:`equal <0134.g2:A = 0134.g2:E>` to :g:`$E$ <0134.g2:E>` ;
 
-therefore :g:`$C$ <0134.g2:C>` is equal to :g:`$F$ <0134.g2:F>`.
+therefore :g:`$C$ <0134.g2:C>` is :eq:`equal <0134.g2:C = 0134.g2:F>` to :g:`$F$ <0134.g2:F>`.
 
 [In support of this inference :person:`Simson <simson>` cites his Prop. A, which however we can directly deduce from V. Def. 5 by taking any, but *the same*, equimultiples of all four magnitudes.]
 
@@ -419,7 +419,7 @@ And :g:`$CD$ <0135.g1:/ C D />`, :g:`$GH$ <0135.g1:/ G H />` are equimultiples o
 therefore :g:`$AB$ <0135.g1:/ A B />` is to :g:`$CD$ <0135.g1:/ C D />` as :g:`$M$ <0135.g1:M>` is to :g:`$GH$ <0135.g1:/ G H />`.
 
 But, by hypothesis, :g:`$AB$ <0135.g1:/ A B />` is to :g:`$CD$ <0135.g1:/ C D />` as :g:`$EF$ <0135.g1:/ E F />` is to :g:`$GH$ <0135.g1:/ G H />` ;
-therefore :g:`$M$ <0135.g1:M>` is equal to :g:`$EF$ <0135.g1:/ E F />`, [V. 9]
+therefore :g:`$M$ <0135.g1:M>` is :eq:`equal <0135.g1:M = 0135.g1:/ E F />` to :g:`$EF$ <0135.g1:/ E F />`, [V. 9]
 and consequently :g:`$EF$ <0135.g1:/ E F />` is the same multiple of :g:`$GL$ <0135.g1:/ G L />` that :g:`$AB$ <0135.g1:/ A B />` is of :g:`$CK$ <0135.g1:/ C K />`.
 
 ----

@@ -38,15 +38,15 @@ Then, since the point :g:`$F$ <0034.g1:F>` is the centre of the circle :g:`$ABC$
 
 .. assertion::
 
-   :g:`$FA$ <0034.g1:/ F A />` is equal to :g:`$FC$ <0034.g1:/ F C />`.
+   :g:`$FA$ <0034.g1:/ F A />` is :eq:`equal <0034.g1:/ F A / = 0034.g1:/ F C />` to :g:`$FC$ <0034.g1:/ F C />`.
 
 Again, since the point :g:`$G$ <0034.g1:G>` is the centre of the circle :g:`$ADE$ <0034.g1:( A D E )>`,
 
 .. assertion::
 
-   :g:`$GA$ <0034.g1:/ G A />` is equal to :g:`$GD$ <0034.g1:/ G D />`.
+   :g:`$GA$ <0034.g1:/ G A />` is :eq:`equal <0034.g1:/ G A / = 0034.g1:/ G D />` to :g:`$GD$ <0034.g1:/ G D />`.
 
-But :g:`$FA$ <0034.g1:/ F A />` was also proved equal to :g:`$FC$ <0034.g1:/ F C />`;
+But :g:`$FA$ <0034.g1:/ F A />` was also proved :eq:`equal <0034.g1:/ F A / = 0034.g1:/ F C />` to :g:`$FC$ <0034.g1:/ F C />`;
 
 .. assertion::
 

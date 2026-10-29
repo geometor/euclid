@@ -27,7 +27,7 @@ I say that the remainder :g:`$EB$ <0313.g1:/ E B />` is also the same parts of t
 .. picture:: 0313.g1.svg
    :alt: Book VII, Proposition 8
 
-For let :g:`$GH$ <0313.g1:/ G H />` be made equal to :g:`$AB$ <0313.g1:/ A B />`.
+For let :g:`$GH$ <0313.g1:/ G H />` be made :eq:`equal <0313.g1:/ G H / = 0313.g1:/ A B />` to :g:`$AB$ <0313.g1:/ A B />`.
 
 .. assertion::
 
@@ -54,7 +54,7 @@ Let :g:`$GH$ <0313.g1:/ G H />` be divided into the parts of :g:`$CD$ <0313.g1:/
 
 .. subclause::
 
-   Let :g:`$GM$ <0313.g1:/ G M />` be made equal to :g:`$AL$ <0313.g1:/ A L />`.
+   Let :g:`$GM$ <0313.g1:/ G M />` be made :eq:`equal <0313.g1:/ G M / = 0313.g1:/ A L />` to :g:`$AL$ <0313.g1:/ A L />`.
 
 .. assertion::
 
@@ -74,7 +74,7 @@ Let :g:`$GH$ <0313.g1:/ G H />` be divided into the parts of :g:`$CD$ <0313.g1:/
 
 .. subclause::
 
-   Let :g:`$KN$ <0313.g1:/ K N />` be made equal to :g:`$EL$ <0313.g1:/ L E />`.
+   Let :g:`$KN$ <0313.g1:/ K N />` be made :eq:`equal <0313.g1:/ K N / = 0313.g1:/ L E />` to :g:`$EL$ <0313.g1:/ L E />`.
 
 .. assertion::
 
@@ -94,7 +94,7 @@ Let :g:`$GH$ <0313.g1:/ G H />` be divided into the parts of :g:`$CD$ <0313.g1:/
 
 .. subclause::
 
-   But the sum of :g:`$MK$ <0313.g1:/ M K />`, :g:`$NH$ <0313.g1:/ N H />` is equal to :g:`$EB$ <0313.g1:/ E B />`, and :g:`$HG$ <0313.g1:/ G H />` is equal to :g:`$BA$ <0313.g1:/ A B />`;
+   But the sum of :g:`$MK$ <0313.g1:/ M K />`, :g:`$NH$ <0313.g1:/ N H />` is equal to :g:`$EB$ <0313.g1:/ E B />`, and :g:`$HG$ <0313.g1:/ G H />` is :eq:`equal <0313.g1:/ G H / = 0313.g1:/ A B />` to :g:`$BA$ <0313.g1:/ A B />`;
 
 .. assertion::
 

@@ -39,10 +39,10 @@ are equal to two right angles.
 .. picture:: 0058.g1.svg
    :alt: Diagram for Proposition 22
 
-But the angle :g:`$CAB$ <0058.g1:< C A B )>` is equal to the
+But the angle :g:`$CAB$ <0058.g1:< C A B )>` is :eq:`equal <0058.g1:< C A B ) = 0058.g1:< B D C )>` to the
 angle :g:`$BDC$ <0058.g1:< B D C )>`, for they are in the same
 segment :g:`$BADC$ <0058.g1:( B A D C )>`; :just:`[III. 21] <III.21>`
-and the angle :g:`$ACB$ <0058.g1:< A C B )>` is equal to the angle
+and the angle :g:`$ACB$ <0058.g1:< A C B )>` is :eq:`equal <0058.g1:< A C B ) = 0058.g1:< A D B )>` to the angle
 :g:`$ADB$ <0058.g1:< A D B )>`, for they are in the same segment
 :g:`$ADCB$ <0058.g1:( A D C B )>`;
 therefore the whole angle :g:`$ADC$ <0058.g1:< A D C )>` is equal

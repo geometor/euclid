@@ -65,7 +65,7 @@ whence it follows that
 
 $$\text{(solid } GN\text{)} = \text{(solid } SV\text{)}.$$
 
-But these solids are similar and similarly situated; therefore their faces are similar and equal; :just:`[XI. Def. 10] <XI.def.10>` therefore the corresponding sides :g:`$GH$ <0363.g1:/ G H />`, :g:`$ST$ <0363.g1:/ S T />` are equal.
+But these solids are similar and similarly situated; therefore their faces are similar and equal; :just:`[XI. Def. 10] <XI.def.10>` therefore the corresponding sides :g:`$GH$ <0363.g1:/ G H />`, :g:`$ST$ <0363.g1:/ S T />` are :eq:`equal <0363.g1:/ G H / = 0363.g1:/ S T />`.
 
 [For this inference cf. note on VI. 22. The equality of :g:`$GH$ <0363.g1:/ G H />`, :g:`$ST$ <0363.g1:/ S T />` may readily be proved by application of the two parallelepipeds to one another, since, being similar, they are equiangular.]
 
@@ -75,17 +75,17 @@ $$AB : CD = EF : GH.$$
 
 ----
 
-The text of the MSS. has here a proposition which is as badly placed as it is unnecessary. *If a plane be at right angles to a plane, and from any one of the points in one of the planes a perpendicular be drawn to the other plane, the perpendicular so drawn will fall on the common section of the planes.* It is of the nature of a lemma to XII. 17, where alone the fact is made use of. :person:`Heiberg <heiberg>` observes that it is omitted in **b** and that the copyist of **P** knew other texts which did not contain it. From these facts it is fairly concluded that the proposition was interpolated. The truth of it is of course immediately obvious by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`. Let the plane :g:`$CAD$ <0364.g1:< C A D >>` be perpendicular to the plane :g:`$AB$ <0364.g1:< A B >>`, and let a perpendicular be drawn to the latter from any point :g:`$E$ <0364.g1:E>` in the former.
+The text of the MSS. has here a proposition which is as badly placed as it is unnecessary. *If a plane be at right angles to a plane, and from any one of the points in one of the planes a perpendicular be drawn to the other plane, the perpendicular so drawn will fall on the common section of the planes.* It is of the nature of a lemma to XII. 17, where alone the fact is made use of. :person:`Heiberg <heiberg>` observes that it is omitted in **b** and that the copyist of **P** knew other texts which did not contain it. From these facts it is fairly concluded that the proposition was interpolated. The truth of it is of course immediately obvious by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`. Let the plane :g:`$CAD$ <0364.g1:< C A D >>` be :eq:`perpendicular <0364.g1:< C A D > = 0364.g1:< A B >>` to the plane :g:`$AB$ <0364.g1:< A B >>`, and let a perpendicular be drawn to the latter from any point :g:`$E$ <0364.g1:E>` in the former.
 
 .. picture:: 0364.g1.svg
    :alt: Interpolated lemma diagram
 
 If it does not fall on :g:`$AD$ <0364.g1:/ A D />`, the common section, let it meet the plane :g:`$AB$ <0364.g1:< A B >>` in :g:`$F$ <0364.g1:F>`.
 
-Draw :g:`$FG$ <0364.g1:/ F G />` in :g:`$AB$ <0364.g1:< A B >>` perpendicular to :g:`$AD$ <0364.g1:/ A D />`, and join :g:`$EG$ <0364.g1:/ E G />`.
+Draw :g:`$FG$ <0364.g1:/ F G />` in :g:`$AB$ <0364.g1:< A B >>` :eq:`perpendicular <0364.g1:/ F G / = 0364.g1:/ A D />` to :g:`$AD$ <0364.g1:/ A D />`, and join :g:`$EG$ <0364.g1:/ E G />`.
 
-Then :g:`$FG$ <0364.g1:/ F G />` is perpendicular to the plane :g:`$CAD$ <0364.g1:< C A D >>` :just:`[XI. Def. 4] <XI.def.4>`, and therefore to :g:`$GE$ <0364.g1:/ G E />` :just:`[XI. Def. 3] <XI.def.3>`. Therefore :g:`$\angle EGF$ <0364.g1:< E G F )>` is right.
+Then :g:`$FG$ <0364.g1:/ F G />` is :eq:`perpendicular <0364.g1:/ F G / = 0364.g1:< C A D >; 0364.g1:/ F G / = 0364.g1:/ G E />` to the plane :g:`$CAD$ <0364.g1:< C A D >>` :just:`[XI. Def. 4] <XI.def.4>`, and therefore to :g:`$GE$ <0364.g1:/ G E />` :just:`[XI. Def. 3] <XI.def.3>`. Therefore :g:`$\angle EGF$ <0364.g1:< E G F )>` is :eq:`right <0364.g1:< E G F )>`.
 
-Also, since :g:`$EF$ <0364.g1:/ E F />` is perpendicular to :g:`$AB$ <0364.g1:< A B >>`, the angle :g:`$EFG$ <0364.g1:< E F G )>` is right.
+Also, since :g:`$EF$ <0364.g1:/ E F />` is :eq:`perpendicular <0364.g1:/ E F / = 0364.g1:< A B >>` to :g:`$AB$ <0364.g1:< A B >>`, the angle :g:`$EFG$ <0364.g1:< E F G )>` is :eq:`right <0364.g1:< E F G )>`.
 
 That is, the triangle :g:`$EGF$ <0364.g1:< E G F >>` has two right angles: which is impossible.

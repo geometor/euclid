@@ -20,7 +20,7 @@ PROPOSITION 40.
 
    Equal triangles which are on equal bases and on the same side are also in the same parallels.
 
-Let :g:`$ABC$ <0351.g1:< A B C >>`, :g:`$CDE$ <0351.g1:< C D E >>` be equal triangles on equal bases :g:`$BC$ <0351.g1:/ B C />`, :g:`$CE$ <0351.g1:/ C E />` and on the same side.
+Let :g:`$ABC$ <0351.g1:< A B C >>`, :g:`$CDE$ <0351.g1:< C D E >>` be :eq:`equal <0351.g1:< A B C > = 0351.g1:< C D E >>` triangles on :eq:`equal <0351.g1:/ B C / = 0351.g1:/ C E />` bases :g:`$BC$ <0351.g1:/ B C />`, :g:`$CE$ <0351.g1:/ C E />` and on the same side.
 
 I say that they are also in the same parallels.
 
@@ -33,13 +33,13 @@ For, if not, let :g:`$AF$ <0351.g1:/ A F />` be drawn through :g:`$A$ <0351.g1:A
 .. picture:: 0351.g1.svg
    :alt: Folio 0351 Figure 1 - Proposition 40
 
-Therefore the triangle :g:`$ABC$ <0351.g1:< A B C >>` is equal to the triangle :g:`$FCE$ <0351.g1:< F C E >>`; for they are on equal bases :g:`$BC$ <0351.g1:/ B C />`, :g:`$CE$ <0351.g1:/ C E />` and in the same parallels :g:`$BE$ <0351.g1:/ B E />`, :g:`$AF$ <0351.g1:/ A F />`. :just:`[I. 38] <I.38>`
+Therefore the triangle :g:`$ABC$ <0351.g1:< A B C >>` is :eq:`equal <0351.g1:< A B C > = 0351.g1:< F C E >>` to the triangle :g:`$FCE$ <0351.g1:< F C E >>`; for they are on :eq:`equal <0351.g1:/ B C / = 0351.g1:/ C E />` bases :g:`$BC$ <0351.g1:/ B C />`, :g:`$CE$ <0351.g1:/ C E />` and in the same parallels :g:`$BE$ <0351.g1:/ B E />`, :g:`$AF$ <0351.g1:/ A F />`. :just:`[I. 38] <I.38>`
 
-But the triangle :g:`$ABC$ <0351.g1:< A B C >>` is equal to the triangle :g:`$DCE$ <0351.g1:< D C E >>`;
+But the triangle :g:`$ABC$ <0351.g1:< A B C >>` is :eq:`equal <0351.g1:< A B C > = 0351.g1:< D C E >>` to the triangle :g:`$DCE$ <0351.g1:< D C E >>`;
 
 .. assertion::
 
-   therefore the triangle :g:`$DCE$ <0351.g1:< D C E >>` is also equal to the triangle :g:`$FCE$ <0351.g1:< F C E >>`, :just:`[C. N. 1] <I.cn.1>` the greater to the less: which is impossible.
+   therefore the triangle :g:`$DCE$ <0351.g1:< D C E >>` is also :eq:`equal <0351.g1:< D C E > = 0351.g1:< F C E >>` to the triangle :g:`$FCE$ <0351.g1:< F C E >>`, :just:`[C. N. 1] <I.cn.1>` the greater to the less: which is impossible.
 
 .. assertion::
 

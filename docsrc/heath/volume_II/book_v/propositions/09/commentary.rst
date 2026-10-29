@@ -18,12 +18,12 @@ Back to :ref:`Proposition V.9 <V.9>`.
    :page: 154
 
 If :g:`$A$ <0160.g1:A>` is to :g:`$C$ <0160.g1:C>` as :g:`$B$ <0160.g1:B>` is to :g:`$C$ <0160.g1:C>`,
-or if :g:`$C$ <0160.g1:C>` is to :g:`$A$ <0160.g1:A>` as :g:`$C$ <0160.g1:C>` is to :g:`$B$ <0160.g1:B>`, then :g:`$A$ <0160.g1:A>` is equal to :g:`$B$ <0160.g1:B>`.
+or if :g:`$C$ <0160.g1:C>` is to :g:`$A$ <0160.g1:A>` as :g:`$C$ <0160.g1:C>` is to :g:`$B$ <0160.g1:B>`, then :g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
 
 :person:`Simson <simson>` gives a more explicit proof of this proposition which has the advantage of referring back to the fundamental 5th and 7th definitions, instead of quoting the results of previous propositions, which, as will be seen from the next note, may be, in the circumstances, unsafe.
 
 "Let :g:`$A$ <0160.g1:A>`, :g:`$B$ <0160.g1:B>` have each of them the same ratio to :g:`$C$ <0160.g1:C>` ;
-:g:`$A$ <0160.g1:A>` is equal to :g:`$B$ <0160.g1:B>`.
+:g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
 
 For, if they are not equal, one of them is greater than the other ;
 let :g:`$A$ <0160.g1:A>` be the greater.
@@ -43,7 +43,7 @@ and $D$ is greater than $F$,
 But $E$ is not greater than $F$ : which is impossible.
 
 Next, let :g:`$C$ <0160.g1:C>` have the same ratio to each of the magnitudes :g:`$A$ <0160.g1:A>` and :g:`$B$ <0160.g1:B>` ;
-:g:`$A$ <0160.g1:A>` is equal to :g:`$B$ <0160.g1:B>`.
+:g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
 
 For, if not, one of them is greater than the other ;
 let :g:`$A$ <0160.g1:A>` be the greater.
@@ -68,4 +68,4 @@ But $F$ is not greater than $D$ : which is impossible.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0160.g1:A>` is equal to :g:`$B$ <0160.g1:B>`."
+   Therefore :g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`."

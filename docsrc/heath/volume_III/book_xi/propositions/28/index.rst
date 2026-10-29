@@ -27,7 +27,7 @@ For let the parallelepipedal solid :g:`$AB$ <0334.g1:< A B >>` be cut by the pla
 
 .. subclause::
 
-   For, since the triangle :g:`$CGF$ <0334.g1:< C G F >>` is equal to the triangle :g:`$CFB$ <0334.g1:< C F B >>`, :just:`[I. 34] <I.34>` and :g:`$ADE$ <0334.g1:< A D E >>` to :g:`$DEH$ <0334.g1:< D E H >>`, while the parallelogram :g:`$CA$ <0334.g1:< C A >>` is also equal to the parallelogram :g:`$EB$ <0334.g1:< E B >>`, for they are opposite, and :g:`$GE$ <0334.g1:< G E >>` to :g:`$CH$ <0334.g1:< C H >>`,
+   For, since the triangle :g:`$CGF$ <0334.g1:< C G F >>` is :eq:`equal <0334.g1:< C G F > = 0334.g1:< C F B >; 0334.g1:< A D E > = 0334.g1:< D E H >>` to the triangle :g:`$CFB$ <0334.g1:< C F B >>`, :just:`[I. 34] <I.34>` and :g:`$ADE$ <0334.g1:< A D E >>` to :g:`$DEH$ <0334.g1:< D E H >>`, while the parallelogram :g:`$CA$ <0334.g1:< C A >>` is also :eq:`equal <0334.g1:< C A > = 0334.g1:< E B >; 0334.g1:< G E > = 0334.g1:< C H >>` to the parallelogram :g:`$EB$ <0334.g1:< E B >>`, for they are opposite, and :g:`$GE$ <0334.g1:< G E >>` to :g:`$CH$ <0334.g1:< C H >>`,
 
 .. assertion::
 

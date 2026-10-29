@@ -29,15 +29,15 @@ To prove both propositions together we suppose :g:`$CD$ <0293.g1:/ C D />` given
 .. picture:: 0293.g1.svg
    :alt: Proposition 8, Legendre's alternative
 
-(1) As before, we make :g:`$DE$ <0293.g1:/ D E />` equal to :g:`$DF$ <0293.g1:/ D F />` and join :g:`$BE$ <0293.g1:/ B E />`, :g:`$BF$ <0293.g1:/ B F />`, :g:`$AE$ <0293.g1:/ A E />`, :g:`$AF$ <0293.g1:/ A F />`.
+(1) As before, we make :g:`$DE$ <0293.g1:/ D E />` :eq:`equal <0293.g1:/ D E / = 0293.g1:/ D F />` to :g:`$DF$ <0293.g1:/ D F />` and join :g:`$BE$ <0293.g1:/ B E />`, :g:`$BF$ <0293.g1:/ B F />`, :g:`$AE$ <0293.g1:/ A E />`, :g:`$AF$ <0293.g1:/ A F />`.
 
 .. subclause::
 
-   Then, since the angles :g:`$BDE$ <0293.g1:< B D E )>`, :g:`$BDF$ <0293.g1:< B D F )>` are right, and :g:`$DE$ <0293.g1:/ D E />`, :g:`$DF$ <0293.g1:/ D F />` equal,
+   Then, since the angles :g:`$BDE$ <0293.g1:< B D E )>`, :g:`$BDF$ <0293.g1:< B D F )>` are :eq:`right <0293.g1:< B D E ) = 0293.g1:< B D F )>`, and :g:`$DE$ <0293.g1:/ D E />`, :g:`$DF$ <0293.g1:/ D F />` :eq:`equal <0293.g1:/ D E / = 0293.g1:/ D F />`,
 
 .. assertion:: [I. 4] <I.4>
 
-   :g:`$BE$ <0293.g1:/ B E />` is equal to :g:`$BF$ <0293.g1:/ B F />`.
+   :g:`$BE$ <0293.g1:/ B E />` is :eq:`equal <0293.g1:/ B E / = 0293.g1:/ B F />` to :g:`$BF$ <0293.g1:/ B F />`.
 
 .. subclause::
 
@@ -45,19 +45,19 @@ To prove both propositions together we suppose :g:`$CD$ <0293.g1:/ C D />` given
 
 .. assertion::
 
-   the angles :g:`$ABE$ <0293.g1:< A B E )>`, :g:`$ABF$ <0293.g1:< A B F )>` are both right.
+   the angles :g:`$ABE$ <0293.g1:< A B E )>`, :g:`$ABF$ <0293.g1:< A B F )>` are both :eq:`right <0293.g1:< A B E ) = 0293.g1:< A B F )>`.
 
 .. assertion::
 
-   Therefore, in the triangles :g:`$ABE$ <0293.g1:< A B E >>`, :g:`$ABF$ <0293.g1:< A B F >>`, :g:`$AE$ <0293.g1:/ A E />` is equal to :g:`$AF$ <0293.g1:/ A F />`. :just:`[I. 4] <I.4>`
+   Therefore, in the triangles :g:`$ABE$ <0293.g1:< A B E >>`, :g:`$ABF$ <0293.g1:< A B F >>`, :g:`$AE$ <0293.g1:/ A E />` is :eq:`equal <0293.g1:/ A E / = 0293.g1:/ A F />` to :g:`$AF$ <0293.g1:/ A F />`. :just:`[I. 4] <I.4>`
 
 .. subclause::
 
-   Lastly, in the triangles :g:`$ADE$ <0293.g1:< A D E >>`, :g:`$ADF$ <0293.g1:< A D F >>`, since :g:`$AE$ <0293.g1:/ A E />` is equal to :g:`$AF$ <0293.g1:/ A F />`, and :g:`$DE$ <0293.g1:/ D E />` to :g:`$DF$ <0293.g1:/ D F />`, while :g:`$AD$ <0293.g1:/ A D />` is common,
+   Lastly, in the triangles :g:`$ADE$ <0293.g1:< A D E >>`, :g:`$ADF$ <0293.g1:< A D F >>`, since :g:`$AE$ <0293.g1:/ A E />` is :eq:`equal <0293.g1:/ A E / = 0293.g1:/ A F /; 0293.g1:/ D E / = 0293.g1:/ D F />` to :g:`$AF$ <0293.g1:/ A F />`, and :g:`$DE$ <0293.g1:/ D E />` to :g:`$DF$ <0293.g1:/ D F />`, while :g:`$AD$ <0293.g1:/ A D />` is common,
 
 .. assertion::
 
-   the angle :g:`$ADE$ <0293.g1:< A D E )>` is equal to the angle :g:`$ADF$ <0293.g1:< A D F )>`, :just:`[I. 8] <I.8>` so that :g:`$AD$ <0293.g1:/ A D />` is perpendicular to :g:`$EF$ <0293.g1:/ E F />`.
+   the angle :g:`$ADE$ <0293.g1:< A D E )>` is :eq:`equal <0293.g1:< A D E ) = 0293.g1:< A D F )>` to the angle :g:`$ADF$ <0293.g1:< A D F )>`, :just:`[I. 8] <I.8>` so that :g:`$AD$ <0293.g1:/ A D />` is :eq:`perpendicular <0293.g1:< A D E ) = 0293.g1:< A D F )>` to :g:`$EF$ <0293.g1:/ E F />`.
 
 .. subclause::
 

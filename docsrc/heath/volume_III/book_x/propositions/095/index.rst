@@ -50,7 +50,7 @@ For let the area :g:`$AB$ <0210.g1:< A B >>` be contained by the rational straig
 
    Therefore, if there be applied to :g:`$AG$ <0210.g1:/ A G />` a parallelogram equal to the fourth part of the square on :g:`$DG$ <0210.g1:/ D G />` and deficient by a square figure, it will divide it into incommensurable parts. :just:`[x. 18]`
 
-Let then :g:`$DG$ <0210.g1:/ D G />` be bisected at the point :g:`$E$ <0210.g1:E>`, let there be applied to :g:`$AG$ <0210.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0210.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0210.g1:/ A F />`, :g:`$FG$ <0210.g1:/ F G />`;
+Let then :g:`$DG$ <0210.g1:/ D G />` be :eq:`bisected <0210.g1:/ D E / = 0210.g1:/ E G />` at the point :g:`$E$ <0210.g1:E>`, let there be applied to :g:`$AG$ <0210.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0210.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0210.g1:/ A F />`, :g:`$FG$ <0210.g1:/ F G />`;
 
 .. assertion::
 
@@ -72,7 +72,7 @@ Let then :g:`$DG$ <0210.g1:/ D G />` be bisected at the point :g:`$E$ <0210.g1:E
 
    :g:`$DK$ <0210.g1:< D K >>` is rational.
 
-Now let the square :g:`$LM$ <0210.g1:< L M >>` be constructed equal to :g:`$AI$ <0210.g1:< A I >>`, and let the square :g:`$NO$ <0210.g1:< N O >>` equal to :g:`$FK$ <0210.g1:< F K >>` and about the same angle, the angle :g:`$LPM$ <0210.g1:< L P M )>`, be subtracted; therefore the squares :g:`$LM$ <0210.g1:< L M >>`, :g:`$NO$ <0210.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>`
+Now let the square :g:`$LM$ <0210.g1:< L M >>` be constructed :eq:`equal <0210.g1:< L M > = 0210.g1:< A I >>` to :g:`$AI$ <0210.g1:< A I >>`, and let the square :g:`$NO$ <0210.g1:< N O >>` :eq:`equal <0210.g1:< N O > = 0210.g1:< F K >>` to :g:`$FK$ <0210.g1:< F K >>` and about the same angle, the angle :g:`$LPM$ <0210.g1:< L P M )>`, be subtracted; therefore the squares :g:`$LM$ <0210.g1:< L M >>`, :g:`$NO$ <0210.g1:< N O >>` are about the same diameter. :just:`[VI. 26] <VI.26>`
 
 Let :g:`$PR$ <0210.g1:/ P R />` be their diameter, and let the figure be drawn. Similarly then we can prove that :g:`$LN$ <0210.g1:/ L N />` is the “side” of the area :g:`$AB$ <0210.g1:< A B >>`.
 

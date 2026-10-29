@@ -39,7 +39,7 @@ thus it is required to construct a triangle out of straight lines equal to :g:`$
 .. picture:: 0306.g1.svg
    :alt: Folio 0306 Figure 1 - Proposition 22
 
-Let there be set out a straight line :g:`$DE$ <0306.g1:[ D E ]>`, terminated at :g:`$D$ <0306.g1:D>` but of infinite length in the direction of :g:`$E$ <0306.g1:E>`, and let :g:`$DF$ <0306.g1:/ D F />` be made equal to :g:`$A$ <0306.g1:A>`, :g:`$FG$ <0306.g1:/ F G />` equal to :g:`$B$ <0306.g1:B>`, and :g:`$GH$ <0306.g1:/ G H />` equal to :g:`$C$ <0306.g1:C>`. :just:`[I. 3] <I.3>`
+Let there be set out a straight line :g:`$DE$ <0306.g1:[ D E ]>`, terminated at :g:`$D$ <0306.g1:D>` but of infinite length in the direction of :g:`$E$ <0306.g1:E>`, and let :g:`$DF$ <0306.g1:/ D F />` be made :eq:`equal <0306.g1:/ D F / = 0306.g1:A>` to :g:`$A$ <0306.g1:A>`, :g:`$FG$ <0306.g1:/ F G />` :eq:`equal <0306.g1:/ F G / = 0306.g1:B>` to :g:`$B$ <0306.g1:B>`, and :g:`$GH$ <0306.g1:/ G H />` :eq:`equal <0306.g1:/ G H / = 0306.g1:C>` to :g:`$C$ <0306.g1:C>`. :just:`[I. 3] <I.3>`
 
 With centre :g:`$F$ <0306.g1:F>` and distance :g:`$FD$ <0306.g1:/ F D />` let the circle :g:`$DKL$ <0306.g1:( D K L )>` be described;
 
@@ -47,7 +47,7 @@ again, with centre :g:`$G$ <0306.g1:G>` and distance :g:`$GH$ <0306.g1:/ G H />`
 
 and let :g:`$KF$ <0306.g1:/ K F />`, :g:`$KG$ <0306.g1:/ K G />` be joined;
 
-I say that the triangle :g:`$KFG$ <0306.g1:< K F G >>` has been constructed out of three straight lines equal to :g:`$A$ <0306.g1:A>`, :g:`$B$ <0306.g1:B>`, :g:`$C$ <0306.g1:C>`.
+I say that the triangle :g:`$KFG$ <0306.g1:< K F G >>` has been constructed out of three straight lines :eq:`equal <0306.g1:/ K F / = 0306.g1:A; 0306.g1:/ F G / = 0306.g1:B; 0306.g1:/ K G / = 0306.g1:C>` to :g:`$A$ <0306.g1:A>`, :g:`$B$ <0306.g1:B>`, :g:`$C$ <0306.g1:C>`.
 
 .. _folio-i-0307:
 
@@ -58,33 +58,33 @@ For, since the point :g:`$F$ <0306.g1:F>` is the centre of the circle :g:`$DKL$ 
 
 .. assertion::
 
-   :g:`$FD$ <0306.g1:/ F D />` is equal to :g:`$FK$ <0306.g1:/ F K />`.
+   :g:`$FD$ <0306.g1:/ F D />` is :eq:`equal <0306.g1:/ F D / = 0306.g1:/ F K />` to :g:`$FK$ <0306.g1:/ F K />`.
 
-But :g:`$FD$ <0306.g1:/ F D />` is equal to :g:`$A$ <0306.g1:A>`;
+But :g:`$FD$ <0306.g1:/ F D />` is :eq:`equal <0306.g1:/ F D / = 0306.g1:A>` to :g:`$A$ <0306.g1:A>`;
 
 .. assertion::
 
-   therefore :g:`$KF$ <0306.g1:/ K F />` is also equal to :g:`$A$ <0306.g1:A>`.
+   therefore :g:`$KF$ <0306.g1:/ K F />` is also :eq:`equal <0306.g1:/ K F / = 0306.g1:A>` to :g:`$A$ <0306.g1:A>`.
 
 Again, since the point :g:`$G$ <0306.g1:G>` is the centre of the circle :g:`$LKH$ <0306.g1:( L K H )>`,
 
 .. assertion::
 
-   :g:`$GH$ <0306.g1:/ G H />` is equal to :g:`$GK$ <0306.g1:/ G K />`.
+   :g:`$GH$ <0306.g1:/ G H />` is :eq:`equal <0306.g1:/ G H / = 0306.g1:/ G K />` to :g:`$GK$ <0306.g1:/ G K />`.
 
-But :g:`$GH$ <0306.g1:/ G H />` is equal to :g:`$C$ <0306.g1:C>`;
-
-.. assertion::
-
-   therefore :g:`$KG$ <0306.g1:/ K G />` is also equal to :g:`$C$ <0306.g1:C>`.
-
-And :g:`$FG$ <0306.g1:/ F G />` is also equal to :g:`$B$ <0306.g1:B>`;
+But :g:`$GH$ <0306.g1:/ G H />` is :eq:`equal <0306.g1:/ G H / = 0306.g1:C>` to :g:`$C$ <0306.g1:C>`;
 
 .. assertion::
 
-   therefore the three straight lines :g:`$KF$ <0306.g1:/ K F />`, :g:`$FG$ <0306.g1:/ F G />`, :g:`$GK$ <0306.g1:/ G K />` are equal to the three straight lines :g:`$A$ <0306.g1:A>`, :g:`$B$ <0306.g1:B>`, :g:`$C$ <0306.g1:C>`.
+   therefore :g:`$KG$ <0306.g1:/ K G />` is also :eq:`equal <0306.g1:/ K G / = 0306.g1:C>` to :g:`$C$ <0306.g1:C>`.
 
-Therefore out of the three straight lines :g:`$KF$ <0306.g1:/ K F />`, :g:`$FG$ <0306.g1:/ F G />`, :g:`$GK$ <0306.g1:/ G K />`, which are equal to the three given straight lines :g:`$A$ <0306.g1:A>`, :g:`$B$ <0306.g1:B>`, :g:`$C$ <0306.g1:C>`, the triangle :g:`$KFG$ <0306.g1:< K F G >>` has been constructed.
+And :g:`$FG$ <0306.g1:/ F G />` is also :eq:`equal <0306.g1:/ F G / = 0306.g1:B>` to :g:`$B$ <0306.g1:B>`;
+
+.. assertion::
+
+   therefore the three straight lines :g:`$KF$ <0306.g1:/ K F />`, :g:`$FG$ <0306.g1:/ F G />`, :g:`$GK$ <0306.g1:/ G K />` are :eq:`equal <0306.g1:/ K F / = 0306.g1:A; 0306.g1:/ F G / = 0306.g1:B; 0306.g1:/ G K / = 0306.g1:C>` to the three straight lines :g:`$A$ <0306.g1:A>`, :g:`$B$ <0306.g1:B>`, :g:`$C$ <0306.g1:C>`.
+
+Therefore out of the three straight lines :g:`$KF$ <0306.g1:/ K F />`, :g:`$FG$ <0306.g1:/ F G />`, :g:`$GK$ <0306.g1:/ G K />`, which are :eq:`equal <0306.g1:/ K F / = 0306.g1:A; 0306.g1:/ F G / = 0306.g1:B; 0306.g1:/ G K / = 0306.g1:C>` to the three given straight lines :g:`$A$ <0306.g1:A>`, :g:`$B$ <0306.g1:B>`, :g:`$C$ <0306.g1:C>`, the triangle :g:`$KFG$ <0306.g1:< K F G >>` has been constructed.
 
 .. qed::
 

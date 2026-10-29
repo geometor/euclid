@@ -27,7 +27,7 @@ thus it is required to construct one and the same figure similar to :g:`$ABC$ <0
 .. picture:: 0259.g1.svg
    :alt: Proposition 25 Diagram
 
-Let there be applied to :g:`$BC$ <0259.g1:/ B C />` the parallelogram :g:`$BE$ <0259.g1:< B L E C >>` equal to the triangle :g:`$ABC$ <0259.g1:< A B C >>` :just:`[I. 44] <I.44>`, and to :g:`$CE$ <0259.g1:/ C E />` the parallelogram :g:`$CM$ <0259.g1:< C E M F >>` equal to :g:`$D$ <0259.g1:< D >>` in the angle :g:`$FCE$ <0259.g1:< F C E )>` which is equal to the angle :g:`$CBL$ <0259.g1:< C B L )>`. :just:`[I. 45] <I.45>`
+Let there be applied to :g:`$BC$ <0259.g1:/ B C />` the parallelogram :g:`$BE$ <0259.g1:< B L E C >>` :eq:`equal <0259.g1:< B L E C > = 0259.g1:< A B C >>` to the triangle :g:`$ABC$ <0259.g1:< A B C >>` :just:`[I. 44] <I.44>`, and to :g:`$CE$ <0259.g1:/ C E />` the parallelogram :g:`$CM$ <0259.g1:< C E M F >>` :eq:`equal <0259.g1:< C E M F > = 0259.g1:< D >>` to :g:`$D$ <0259.g1:< D >>` in the angle :g:`$FCE$ <0259.g1:< F C E )>` which is :eq:`equal <0259.g1:< F C E ) = 0259.g1:< C B L )>` to the angle :g:`$CBL$ <0259.g1:< C B L )>`. :just:`[I. 45] <I.45>`
 
 .. _folio-ii-0260:
 
@@ -64,19 +64,19 @@ Let there be applied to :g:`$BC$ <0259.g1:/ B C />` the parallelogram :g:`$BE$ <
 
 .. subclause::
 
-   But the triangle :g:`$ABC$ <0259.g1:< A B C >>` is equal to the parallelogram :g:`$BE$ <0259.g1:< B L E C >>` ;
+   But the triangle :g:`$ABC$ <0259.g1:< A B C >>` is :eq:`equal <0259.g1:< A B C > = 0259.g1:< B L E C >>` to the parallelogram :g:`$BE$ <0259.g1:< B L E C >>` ;
 
 .. assertion::
 
-   therefore the triangle :g:`$KGH$ <0259.g1:< K G H >>` is also equal to the parallelogram :g:`$EF$ <0259.g1:< C E M F >>`.
+   therefore the triangle :g:`$KGH$ <0259.g1:< K G H >>` is also :eq:`equal <0259.g1:< K G H > = 0259.g1:< C E M F >>` to the parallelogram :g:`$EF$ <0259.g1:< C E M F >>`.
 
 .. subclause::
 
-   But the parallelogram :g:`$EF$ <0259.g1:< C E M F >>` is equal to :g:`$D$ <0259.g1:< D >>` ;
+   But the parallelogram :g:`$EF$ <0259.g1:< C E M F >>` is :eq:`equal <0259.g1:< C E M F > = 0259.g1:< D >>` to :g:`$D$ <0259.g1:< D >>` ;
 
 .. assertion::
 
-   therefore :g:`$KGH$ <0259.g1:< K G H >>` is also equal to :g:`$D$ <0259.g1:< D >>`.
+   therefore :g:`$KGH$ <0259.g1:< K G H >>` is also :eq:`equal <0259.g1:< K G H > = 0259.g1:< D >>` to :g:`$D$ <0259.g1:< D >>`.
 
 .. assertion::
 
@@ -84,7 +84,7 @@ Let there be applied to :g:`$BC$ <0259.g1:/ B C />` the parallelogram :g:`$BE$ <
 
 .. qed::
 
-   Therefore one and the same figure :g:`$KGH$ <0259.g1:< K G H >>` has been constructed similar to the given rectilineal figure :g:`$ABC$ <0259.g1:< A B C >>` and equal to the other given figure :g:`$D$ <0259.g1:< D >>`. :just:`Q. E. F.`
+   Therefore one and the same figure :g:`$KGH$ <0259.g1:< K G H >>` has been constructed similar to the given rectilineal figure :g:`$ABC$ <0259.g1:< A B C >>` and :eq:`equal <0259.g1:< K G H > = 0259.g1:< D >>` to the other given figure :g:`$D$ <0259.g1:< D >>`. :just:`Q. E. F.`
 
 .. [#f1] **to which the figure to be constructed must be similar,** literally "to which it is required to construct (one) similar," ᾧ δεῖ ὅμοιον συστήσασθαι.
 

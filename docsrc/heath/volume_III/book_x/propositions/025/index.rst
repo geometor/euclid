@@ -31,7 +31,7 @@ For on :g:`$AB$ <0060.g1:/ A B />`, :g:`$BC$ <0060.g1:/ B C />` let the squares 
 
    therefore each of the squares :g:`$AD$ <0060.g1:< A D >>`, :g:`$BE$ <0060.g1:< B E >>` is medial.
 
-Let a rational straight line :g:`$FG$ <0060.g1:/ F G />` be set out, to :g:`$FG$ <0060.g1:/ F G />` let there be applied the rectangular parallelogram :g:`$GH$ <0060.g1:< G H >>` equal to :g:`$AD$ <0060.g1:< A D >>`, producing :g:`$FH$ <0060.g1:/ F H />` as breadth, to :g:`$HM$ <0060.g1:/ H M />` let there be applied the rectangular parallelogram :g:`$MK$ <0060.g1:< M K >>` equal to :g:`$AC$ <0060.g1:< A C >>`, producing :g:`$HK$ <0060.g1:/ H K />` as breadth, and further to :g:`$KN$ <0060.g1:/ K N />` let there be similarly applied :g:`$NL$ <0060.g1:< N L >>` equal to :g:`$BE$ <0060.g1:< B E >>`, producing :g:`$KL$ <0060.g1:/ K L />` as breadth;
+Let a rational straight line :g:`$FG$ <0060.g1:/ F G />` be set out, to :g:`$FG$ <0060.g1:/ F G />` let there be applied the rectangular parallelogram :g:`$GH$ <0060.g1:< G H >>` :eq:`equal <0060.g1:< G H > = 0060.g1:< A D >>` to :g:`$AD$ <0060.g1:< A D >>`, producing :g:`$FH$ <0060.g1:/ F H />` as breadth, to :g:`$HM$ <0060.g1:/ H M />` let there be applied the rectangular parallelogram :g:`$MK$ <0060.g1:< M K >>` :eq:`equal <0060.g1:< M K > = 0060.g1:< A C >>` to :g:`$AC$ <0060.g1:< A C >>`, producing :g:`$HK$ <0060.g1:/ H K />` as breadth, and further to :g:`$KN$ <0060.g1:/ K N />` let there be similarly applied :g:`$NL$ <0060.g1:< N L >>` :eq:`equal <0060.g1:< N L > = 0060.g1:< B E >>` to :g:`$BE$ <0060.g1:< B E >>`, producing :g:`$KL$ <0060.g1:/ K L />` as breadth;
 
 .. assertion::
 
@@ -39,7 +39,7 @@ Let a rational straight line :g:`$FG$ <0060.g1:/ F G />` be set out, to :g:`$FG$
 
 .. subclause::
 
-   Since then each of the squares :g:`$AD$ <0060.g1:< A D >>`, :g:`$BE$ <0060.g1:< B E >>` is medial, and :g:`$AD$ <0060.g1:< A D >>` is equal to :g:`$GH$ <0060.g1:< G H >>`, and :g:`$BE$ <0060.g1:< B E >>` to :g:`$NL$ <0060.g1:< N L >>`,
+   Since then each of the squares :g:`$AD$ <0060.g1:< A D >>`, :g:`$BE$ <0060.g1:< B E >>` is medial, and :g:`$AD$ <0060.g1:< A D >>` is :eq:`equal <0060.g1:< A D > = 0060.g1:< G H >; 0060.g1:< B E > = 0060.g1:< N L >>` to :g:`$GH$ <0060.g1:< G H >>`, and :g:`$BE$ <0060.g1:< B E >>` to :g:`$NL$ <0060.g1:< N L >>`,
 
 .. assertion::
 
@@ -84,7 +84,7 @@ Let a rational straight line :g:`$FG$ <0060.g1:/ F G />` be set out, to :g:`$FG$
 
 .. subclause::
 
-   And, since :g:`$DB$ <0060.g1:/ D B />` is equal to :g:`$BA$ <0060.g1:/ B A />`, and :g:`$OB$ <0060.g1:/ O B />` to :g:`$BC$ <0060.g1:/ B C />`,
+   And, since :g:`$DB$ <0060.g1:/ D B />` is :eq:`equal <0060.g1:/ D B / = 0060.g1:/ B A /; 0060.g1:/ O B / = 0060.g1:/ B C />` to :g:`$BA$ <0060.g1:/ B A />`, and :g:`$OB$ <0060.g1:/ O B />` to :g:`$BC$ <0060.g1:/ B C />`,
 
 .. assertion::
 
@@ -100,7 +100,7 @@ Let a rational straight line :g:`$FG$ <0060.g1:/ F G />` be set out, to :g:`$FG$
 
 .. subclause::
 
-   But :g:`$AD$ <0060.g1:< A D >>` is equal to :g:`$GH$ <0060.g1:< G H >>`, :g:`$AC$ <0060.g1:< A C >>` to :g:`$MK$ <0060.g1:< M K >>` and :g:`$CO$ <0060.g1:< C O >>` to :g:`$NL$ <0060.g1:< N L >>`;
+   But :g:`$AD$ <0060.g1:< A D >>` is :eq:`equal <0060.g1:< A D > = 0060.g1:< G H >; 0060.g1:< A C > = 0060.g1:< M K >; 0060.g1:< C O > = 0060.g1:< N L >>` to :g:`$GH$ <0060.g1:< G H >>`, :g:`$AC$ <0060.g1:< A C >>` to :g:`$MK$ <0060.g1:< M K >>` and :g:`$CO$ <0060.g1:< C O >>` to :g:`$NL$ <0060.g1:< N L >>`;
 
 .. assertion::
 
@@ -144,7 +144,7 @@ Let a rational straight line :g:`$FG$ <0060.g1:/ F G />` be set out, to :g:`$FG$
 
 .. subclause::
 
-   But :g:`$HN$ <0060.g1:< H N >>` is equal to :g:`$AC$ <0060.g1:< A C >>`;
+   But :g:`$HN$ <0060.g1:< H N >>` is :eq:`equal <0060.g1:< H N > = 0060.g1:< A C >>` to :g:`$AC$ <0060.g1:< A C >>`;
 
 .. assertion::
 

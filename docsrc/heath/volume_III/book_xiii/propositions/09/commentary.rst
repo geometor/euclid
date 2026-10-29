@@ -17,7 +17,7 @@ Back to :ref:`Proposition XIII.9 <XIII.9>`.
 .. folio:: 0460
    :page: 456
 
-:g:`$BC$ <0459.g1:/ B C />` is the side of a regular decagon inscribed in the circle; :g:`$CD$ <0459.g1:/ C D />` is the side of the inscribed regular hexagon, and is therefore equal to the radius :g:`$BE$ <0459.g1:/ B E />` or :g:`$EC$ <0459.g1:/ E C />`.
+:g:`$BC$ <0459.g1:/ B C />` is the side of a regular decagon inscribed in the circle; :g:`$CD$ <0459.g1:/ C D />` is the side of the inscribed regular hexagon, and is therefore :eq:`equal <0459.g1:/ C D / = 0459.g1:/ B E / = 0459.g1:/ E C />` to the radius :g:`$BE$ <0459.g1:/ B E />` or :g:`$EC$ <0459.g1:/ E C />`.
 
 Therefore, in order to prove our theorem, we have only to show that the triangles :g:`$EBC$ <0459.g1:< E B C >>`, :g:`$DBE$ <0459.g1:< D B E >>` are similar.
 

@@ -45,7 +45,7 @@ But the angles :g:`$ABC$ <0290.g1:< A B C )>`, :g:`$ABD$ <0290.g1:< A B D )>` ar
 
    Let the angle :g:`$CBA$ <0290.g1:< C B A )>` be subtracted from each;
 
-therefore the remaining angle :g:`$ABE$ <0290.g1:< A B E )>` is equal to the remaining angle :g:`$ABD$ <0290.g1:< A B D )>`, :just:`[C. N. 3] <I.cn.3>`
+therefore the remaining angle :g:`$ABE$ <0290.g1:< A B E )>` is :eq:`equal <0290.g1:< A B E ) = 0290.g1:< A B D )>` to the remaining angle :g:`$ABD$ <0290.g1:< A B D )>`, :just:`[C. N. 3] <I.cn.3>`
 
 .. assertion::
 

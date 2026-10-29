@@ -37,7 +37,7 @@ inasmuch as the diameter of the sphere, which is of course the diameter both of 
 .. folio:: 0430
    :page: 426
 
-Let then :g:`$BCDE$ <0429.g1:( B C D E )>` be the circle in the greater sphere, and :g:`$FGH$ <0429.g1:( F G H )>` the circle in the lesser sphere ; let two diameters in them, :g:`$BD$ <0429.g1:/ B D />`, :g:`$CE$ <0429.g1:/ C E />`, be drawn at right angles to one another ; then, given the two circles :g:`$BCDE$ <0429.g1:( B C D E )>`, :g:`$FGH$ <0429.g1:( F G H )>` about the same centre, let there be inscribed in the greater circle :g:`$BCDE$ <0429.g1:( B C D E )>` an equilateral polygon with an even number of sides which does not touch the lesser circle :g:`$FGH$ <0429.g1:( F G H )>`, let :g:`$BK$ <0429.g1:/ B K />`, :g:`$KL$ <0429.g1:/ K L />`, :g:`$LM$ <0429.g1:/ L M />`, :g:`$ME$ <0429.g1:/ M E />` be its sides in the quadrant :g:`$BE$ <0429.g1:( B E )>`, let :g:`$KA$ <0429.g1:/ K A />` be joined and carried through to :g:`$N$ <0429.g1:N>`, let :g:`$AO$ <0429.g1:/ A O />` be set up from the point :g:`$A$ <0429.g1:A>` at right angles to the plane of the circle :g:`$BCDE$ <0429.g1:( B C D E )>`, and let it meet the surface of the sphere at :g:`$O$ <0429.g1:O>`, and through :g:`$AO$ <0429.g1:/ A O />` and each of the straight lines :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />` let planes be carried ; they will then make greatest circles on the surface of the sphere, for the reason stated. Let them make such, and in them let :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>` be the semicircles on :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />`.
+Let then :g:`$BCDE$ <0429.g1:( B C D E )>` be the circle in the greater sphere, and :g:`$FGH$ <0429.g1:( F G H )>` the circle in the lesser sphere ; let two diameters in them, :g:`$BD$ <0429.g1:/ B D />`, :g:`$CE$ <0429.g1:/ C E />`, be drawn at right angles to one another ; then, given the two circles :g:`$BCDE$ <0429.g1:( B C D E )>`, :g:`$FGH$ <0429.g1:( F G H )>` about the same centre, let there be inscribed in the greater circle :g:`$BCDE$ <0429.g1:( B C D E )>` an :eq:`equilateral <0429.g1:/ B K / = 0429.g1:/ K L / = 0429.g1:/ L M / = 0429.g1:/ M E />` polygon with an even number of sides which does not touch the lesser circle :g:`$FGH$ <0429.g1:( F G H )>`, let :g:`$BK$ <0429.g1:/ B K />`, :g:`$KL$ <0429.g1:/ K L />`, :g:`$LM$ <0429.g1:/ L M />`, :g:`$ME$ <0429.g1:/ M E />` be its sides in the quadrant :g:`$BE$ <0429.g1:( B E )>`, let :g:`$KA$ <0429.g1:/ K A />` be joined and carried through to :g:`$N$ <0429.g1:N>`, let :g:`$AO$ <0429.g1:/ A O />` be set up from the point :g:`$A$ <0429.g1:A>` at right angles to the plane of the circle :g:`$BCDE$ <0429.g1:( B C D E )>`, and let it meet the surface of the sphere at :g:`$O$ <0429.g1:O>`, and through :g:`$AO$ <0429.g1:/ A O />` and each of the straight lines :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />` let planes be carried ; they will then make greatest circles on the surface of the sphere, for the reason stated. Let them make such, and in them let :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>` be the semicircles on :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />`.
 
 .. subclause::
 
@@ -49,15 +49,15 @@ Let then :g:`$BCDE$ <0429.g1:( B C D E )>` be the circle in the greater sphere, 
 
 .. subclause::
 
-   And, since the semicircles :g:`$BED$ <0429.g1:( B E D )>`, :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>` are equal, for they are on the equal diameters :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />`,
+   And, since the semicircles :g:`$BED$ <0429.g1:( B E D )>`, :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>` are :eq:`equal <0429.g1:( B E D ) = 0429.g1:( B O D ) = 0429.g1:( K O N )>`, for they are on the :eq:`equal <0429.g1:/ B D / = 0429.g1:/ K N />` diameters :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />`,
 
 .. assertion::
 
-   therefore the quadrants :g:`$BE$ <0429.g1:( B E )>`, :g:`$BO$ <0429.g1:( B O )>`, :g:`$KO$ <0429.g1:( K O )>` are also equal to one another.
+   therefore the quadrants :g:`$BE$ <0429.g1:( B E )>`, :g:`$BO$ <0429.g1:( B O )>`, :g:`$KO$ <0429.g1:( K O )>` are also :eq:`equal <0429.g1:( B E ) = 0429.g1:( B O ) = 0429.g1:( K O )>` to one another.
 
 .. assertion::
 
-   Therefore there are as many straight lines in the quadrants :g:`$BO$ <0429.g1:( B O )>`, :g:`$KO$ <0429.g1:( K O )>` equal to the straight lines :g:`$BK$ <0429.g1:/ B K />`, :g:`$KL$ <0429.g1:/ K L />`, :g:`$LM$ <0429.g1:/ L M />`, :g:`$ME$ <0429.g1:/ M E />` as there are sides of the polygon in the quadrant :g:`$BE$ <0429.g1:( B E )>`.
+   Therefore there are as many straight lines in the quadrants :g:`$BO$ <0429.g1:( B O )>`, :g:`$KO$ <0429.g1:( K O )>` :eq:`equal <0429.g1:/ B P / = 0429.g1:/ P Q / = 0429.g1:/ Q R / = 0429.g1:/ R O / = 0429.g1:/ K S / = 0429.g1:/ S T / = 0429.g1:/ T U / = 0429.g1:/ U O / = 0429.g1:/ B K / = 0429.g1:/ K L / = 0429.g1:/ L M / = 0429.g1:/ M E />` to the straight lines :g:`$BK$ <0429.g1:/ B K />`, :g:`$KL$ <0429.g1:/ K L />`, :g:`$LM$ <0429.g1:/ L M />`, :g:`$ME$ <0429.g1:/ M E />` as there are sides of the polygon in the quadrant :g:`$BE$ <0429.g1:( B E )>`.
 
 Let them be inscribed, and let them be :g:`$BP$ <0429.g1:/ B P />`, :g:`$PQ$ <0429.g1:/ P Q />`, :g:`$QR$ <0429.g1:/ Q R />`, :g:`$RO$ <0429.g1:/ R O />` and :g:`$KS$ <0429.g1:/ K S />`, :g:`$ST$ <0429.g1:/ S T />`, :g:`$TU$ <0429.g1:/ T U />`, :g:`$UO$ <0429.g1:/ U O />`, let :g:`$SP$ <0429.g1:/ S P />`, :g:`$TQ$ <0429.g1:/ T Q />`, :g:`$UR$ <0429.g1:/ U R />` be joined,
 and from :g:`$P$ <0429.g1:P>`, :g:`$S$ <0429.g1:S>` let perpendiculars be drawn to the plane of the circle :g:`$BCDE$ <0429.g1:( B C D E )>` ; :just:`[XI. 11] <XI.11>` these will fall on :g:`$BD$ <0429.g1:/ B D />`, :g:`$KN$ <0429.g1:/ K N />`, the common sections of the planes, inasmuch as the planes of :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>` are also at right angles to the plane of the circle :g:`$BCDE$ <0429.g1:( B C D E )>`. :just:`[cf. XI. Def. 4]` Let them so fall, and let them be :g:`$PV$ <0429.g1:/ P V />`, :g:`$SW$ <0429.g1:/ S W />`, and let :g:`$WV$ <0429.g1:/ W V />` be joined.
@@ -69,19 +69,19 @@ and from :g:`$P$ <0429.g1:P>`, :g:`$S$ <0429.g1:S>` let perpendiculars be drawn 
 
 .. subclause::
 
-   Now since, in the equal semicircles :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>`, equal straight lines :g:`$BP$ <0429.g1:/ B P />`, :g:`$KS$ <0429.g1:/ K S />` have been cut off, and the perpendiculars :g:`$PV$ <0429.g1:/ P V />`, :g:`$SW$ <0429.g1:/ S W />` have been drawn,
+   Now since, in the :eq:`equal <0429.g1:( B O D ) = 0429.g1:( K O N )>` semicircles :g:`$BOD$ <0429.g1:( B O D )>`, :g:`$KON$ <0429.g1:( K O N )>`, :eq:`equal <0429.g1:/ B P / = 0429.g1:/ K S />` straight lines :g:`$BP$ <0429.g1:/ B P />`, :g:`$KS$ <0429.g1:/ K S />` have been cut off, and the perpendiculars :g:`$PV$ <0429.g1:/ P V />`, :g:`$SW$ <0429.g1:/ S W />` have been drawn,
 
 .. assertion:: [III. 27, I. 26] <III.27, I.26>
 
-   therefore :g:`$PV$ <0429.g1:/ P V />` is equal to :g:`$SW$ <0429.g1:/ S W />`, and :g:`$BV$ <0429.g1:/ B V />` to :g:`$KW$ <0429.g1:/ K W />`.
+   therefore :g:`$PV$ <0429.g1:/ P V />` is :eq:`equal <0429.g1:/ P V / = 0429.g1:/ S W /; 0429.g1:/ B V / = 0429.g1:/ K W />` to :g:`$SW$ <0429.g1:/ S W />`, and :g:`$BV$ <0429.g1:/ B V />` to :g:`$KW$ <0429.g1:/ K W />`.
 
 .. subclause::
 
-   But the whole :g:`$BA$ <0429.g1:/ B A />` is also equal to the whole :g:`$KA$ <0429.g1:/ K A />` ;
+   But the whole :g:`$BA$ <0429.g1:/ B A />` is also :eq:`equal <0429.g1:/ B A / = 0429.g1:/ K A />` to the whole :g:`$KA$ <0429.g1:/ K A />` ;
 
 .. assertion::
 
-   therefore the remainder :g:`$VA$ <0429.g1:/ V A />` is also equal to the remainder :g:`$WA$ <0429.g1:/ W A />` ; therefore, as :g:`$BV$ <0429.g1:/ B V />` is to :g:`$VA$ <0429.g1:/ V A />`, so is :g:`$KW$ <0429.g1:/ K W />` to :g:`$WA$ <0429.g1:/ W A />` ; therefore :g:`$WV$ <0429.g1:/ W V />` is parallel to :g:`$KB$ <0429.g1:/ K B />`. :just:`[VI. 2] <VI.2>`
+   therefore the remainder :g:`$VA$ <0429.g1:/ V A />` is also :eq:`equal <0429.g1:/ V A / = 0429.g1:/ W A />` to the remainder :g:`$WA$ <0429.g1:/ W A />` ; therefore, as :g:`$BV$ <0429.g1:/ B V />` is to :g:`$VA$ <0429.g1:/ V A />`, so is :g:`$KW$ <0429.g1:/ K W />` to :g:`$WA$ <0429.g1:/ W A />` ; therefore :g:`$WV$ <0429.g1:/ W V />` is parallel to :g:`$KB$ <0429.g1:/ K B />`. :just:`[VI. 2] <VI.2>`
 
 .. subclause::
 
@@ -93,11 +93,11 @@ and from :g:`$P$ <0429.g1:P>`, :g:`$S$ <0429.g1:S>` let perpendiculars be drawn 
 
 .. subclause::
 
-   But it was also proved equal to it ;
+   But it was also proved :eq:`equal <0429.g1:/ P V / = 0429.g1:/ S W />` to it ;
 
 .. assertion:: [I. 33] <I.33>
 
-   therefore :g:`$WV$ <0429.g1:/ W V />`, :g:`$SP$ <0429.g1:/ S P />` are also equal and parallel.
+   therefore :g:`$WV$ <0429.g1:/ W V />`, :g:`$SP$ <0429.g1:/ S P />` are also :eq:`equal <0429.g1:/ W V / = 0429.g1:/ S P />` and parallel.
 
 .. subclause::
 
@@ -146,11 +146,11 @@ Let :g:`$AX$ <0429.g1:/ A X />` be drawn from the point :g:`$A$ <0429.g1:A>` per
 
 .. subclause::
 
-   And, since :g:`$AB$ <0429.g1:/ A B />` is equal to :g:`$AK$ <0429.g1:/ A K />`,
+   And, since :g:`$AB$ <0429.g1:/ A B />` is :eq:`equal <0429.g1:/ A B / = 0429.g1:/ A K />` to :g:`$AK$ <0429.g1:/ A K />`,
 
 .. assertion::
 
-   the square on :g:`$AB$ <0429.g1:/ A B />` is also equal to the square on :g:`$AK$ <0429.g1:/ A K />`.
+   the square on :g:`$AB$ <0429.g1:/ A B />` is also :eq:`equal <0429.g1:/ A B / = 0429.g1:/ A K />` to the square on :g:`$AK$ <0429.g1:/ A K />`.
 
 .. subclause::
 
@@ -164,11 +164,11 @@ Let the square on :g:`$AX$ <0429.g1:/ A X />` be subtracted from each ;
 
 .. assertion::
 
-   therefore the remainder, the square on :g:`$BX$ <0429.g1:/ B X />`, is equal to the remainder, the square on :g:`$XK$ <0429.g1:/ X K />` ; therefore :g:`$BX$ <0429.g1:/ B X />` is equal to :g:`$XK$ <0429.g1:/ X K />`.
+   therefore the remainder, the square on :g:`$BX$ <0429.g1:/ B X />`, is :eq:`equal <0429.g1:/ B X / = 0429.g1:/ X K />` to the remainder, the square on :g:`$XK$ <0429.g1:/ X K />` ; therefore :g:`$BX$ <0429.g1:/ B X />` is :eq:`equal <0429.g1:/ B X / = 0429.g1:/ X K />` to :g:`$XK$ <0429.g1:/ X K />`.
 
 .. assertion::
 
-   Similarly we can prove that the straight lines joined from :g:`$X$ <0429.g1:X>` to :g:`$P$ <0429.g1:P>`, :g:`$S$ <0429.g1:S>` are equal to each of the straight lines :g:`$BX$ <0429.g1:/ B X />`, :g:`$XK$ <0429.g1:/ X K />`.
+   Similarly we can prove that the straight lines joined from :g:`$X$ <0429.g1:X>` to :g:`$P$ <0429.g1:P>`, :g:`$S$ <0429.g1:S>` are :eq:`equal <0429.g1:/ B X / = 0429.g1:/ X K />` to each of the straight lines :g:`$BX$ <0429.g1:/ B X />`, :g:`$XK$ <0429.g1:/ X K />`.
 
 .. _folio-iii-0433:
 
@@ -181,7 +181,7 @@ Let the square on :g:`$AX$ <0429.g1:/ A X />` be subtracted from each ;
 
 .. subclause::
 
-   Now, since :g:`$KB$ <0429.g1:/ K B />` is greater than :g:`$WV$ <0429.g1:/ W V />`, while :g:`$WV$ <0429.g1:/ W V />` is equal to :g:`$SP$ <0429.g1:/ S P />`,
+   Now, since :g:`$KB$ <0429.g1:/ K B />` is greater than :g:`$WV$ <0429.g1:/ W V />`, while :g:`$WV$ <0429.g1:/ W V />` is :eq:`equal <0429.g1:/ W V / = 0429.g1:/ S P />` to :g:`$SP$ <0429.g1:/ S P />`,
 
 .. assertion::
 
@@ -189,7 +189,7 @@ Let the square on :g:`$AX$ <0429.g1:/ A X />` be subtracted from each ;
 
 .. subclause::
 
-   But :g:`$KB$ <0429.g1:/ K B />` is equal to each of the straight lines :g:`$KS$ <0429.g1:/ K S />`, :g:`$BP$ <0429.g1:/ B P />`;
+   But :g:`$KB$ <0429.g1:/ K B />` is :eq:`equal <0429.g1:/ K B / = 0429.g1:/ K S / = 0429.g1:/ B P />` to each of the straight lines :g:`$KS$ <0429.g1:/ K S />`, :g:`$BP$ <0429.g1:/ B P />`;
 
 .. assertion::
 
@@ -197,7 +197,7 @@ Let the square on :g:`$AX$ <0429.g1:/ A X />` be subtracted from each ;
 
 .. subclause::
 
-   And, since :g:`$KBPS$ <0429.g1:< K B P S >>` is a quadrilateral in a circle, and :g:`$KB$ <0429.g1:/ K B />`, :g:`$BP$ <0429.g1:/ B P />`, :g:`$KS$ <0429.g1:/ K S />` are equal, and :g:`$PS$ <0429.g1:/ P S />` less, and :g:`$BX$ <0429.g1:/ B X />` is the radius of the circle,
+   And, since :g:`$KBPS$ <0429.g1:< K B P S >>` is a quadrilateral in a circle, and :g:`$KB$ <0429.g1:/ K B />`, :g:`$BP$ <0429.g1:/ B P />`, :g:`$KS$ <0429.g1:/ K S />` are :eq:`equal <0429.g1:/ K B / = 0429.g1:/ B P / = 0429.g1:/ K S />`, and :g:`$PS$ <0429.g1:/ P S />` less, and :g:`$BX$ <0429.g1:/ B X />` is the radius of the circle,
 
 .. assertion::
 
@@ -231,11 +231,11 @@ Let :g:`$KZ$ <0429.g1:/ K Z />` be drawn from :g:`$K$ <0429.g1:K>` perpendicular
 
 .. subclause::
 
-   And, since :g:`$BA$ <0429.g1:/ B A />` is equal to :g:`$KA$ <0429.g1:/ K A />`,
+   And, since :g:`$BA$ <0429.g1:/ B A />` is :eq:`equal <0429.g1:/ B A / = 0429.g1:/ K A />` to :g:`$KA$ <0429.g1:/ K A />`,
 
 .. assertion::
 
-   the square on :g:`$BA$ <0429.g1:/ B A />` is equal to the square on :g:`$AK$ <0429.g1:/ A K />`.
+   the square on :g:`$BA$ <0429.g1:/ B A />` is :eq:`equal <0429.g1:/ B A / = 0429.g1:/ A K />` to the square on :g:`$AK$ <0429.g1:/ A K />`.
 
 .. subclause::
 

@@ -42,15 +42,15 @@ For, since :g:`$E$ <0049.g1:E>` is the centre of the circles :g:`$BCD$ <0049.g1:
 
 .. assertion::
 
-   :g:`$EA$ <0049.g1:/ E A />` is equal to :g:`$EF$ <0049.g1:/ E F />`, and :g:`$ED$ <0049.g1:/ E D />` to :g:`$EB$ <0049.g1:/ E B />`;
+   :g:`$EA$ <0049.g1:/ E A />` is :eq:`equal <0049.g1:/ E A / = 0049.g1:/ E F /; 0049.g1:/ E D / = 0049.g1:/ E B />` to :g:`$EF$ <0049.g1:/ E F />`, and :g:`$ED$ <0049.g1:/ E D />` to :g:`$EB$ <0049.g1:/ E B />`;
 
-therefore the two sides :g:`$AE$ <0049.g1:/ A E />`, :g:`$EB$ <0049.g1:/ E B />` are equal to the two sides
+therefore the two sides :g:`$AE$ <0049.g1:/ A E />`, :g:`$EB$ <0049.g1:/ E B />` are :eq:`equal <0049.g1:/ A E / = 0049.g1:/ F E /; 0049.g1:/ E B / = 0049.g1:/ E D />` to the two sides
 :g:`$FE$ <0049.g1:/ F E />`, :g:`$ED$ <0049.g1:/ E D />`:
 and they contain a common angle, the angle at :g:`$E$ <0049.g1:E>`;
 
 .. assertion::
 
-   therefore the base :g:`$DF$ <0049.g1:/ D F />` is equal to the base :g:`$AB$ <0049.g1:/ A B />`, and the triangle :g:`$DEF$ <0049.g1:< D E F >>` is equal to the triangle :g:`$BEA$ <0049.g1:< B E A >>`, and the remaining angles to the remaining angles; :just:`[I. 4] <I.4>` therefore the angle :g:`$EDF$ <0049.g1:< E D F )>` is equal to the angle :g:`$EBA$ <0049.g1:< E B A )>`.
+   therefore the base :g:`$DF$ <0049.g1:/ D F />` is :eq:`equal <0049.g1:/ D F / = 0049.g1:/ A B />` to the base :g:`$AB$ <0049.g1:/ A B />`, and the triangle :g:`$DEF$ <0049.g1:< D E F >>` is :eq:`equal <0049.g1:< D E F > = 0049.g1:< B E A >>` to the triangle :g:`$BEA$ <0049.g1:< B E A >>`, and the remaining angles to the remaining angles; :just:`[I. 4] <I.4>` therefore the angle :g:`$EDF$ <0049.g1:< E D F )>` is :eq:`equal <0049.g1:< E D F ) = 0049.g1:< E B A )>` to the angle :g:`$EBA$ <0049.g1:< E B A )>`.
 
 But the angle :g:`$EDF$ <0049.g1:< E D F )>` is right;
 

@@ -33,23 +33,23 @@ let :g:`$BD$ <0393.g1:/ B D />` be joined;
 
 through :g:`$C$ <0393.g1:C>` let :g:`$CF$ <0393.g1:/ C F />` be drawn parallel to either :g:`$AD$ <0393.g1:/ A D />` or :g:`$EB$ <0393.g1:/ B E />`, and through :g:`$G$ <0393.g1:G>` let :g:`$HK$ <0393.g1:/ H K />` be drawn parallel to either :g:`$AB$ <0393.g1:/ A B />` or :g:`$DE$ <0393.g1:/ D E />`. :just:`[I. 31] <I.31>`
 
-Then, since :g:`$CF$ <0393.g1:/ C F />` is parallel to :g:`$AD$ <0393.g1:/ A D />`, and :g:`$BD$ <0393.g1:/ B D />` has fallen on them, the exterior angle :g:`$CGB$ <0393.g1:< C G B )>` is equal to the interior and opposite angle :g:`$ADB$ <0393.g1:< A D B )>`. :just:`[I. 29] <I.29>`
+Then, since :g:`$CF$ <0393.g1:/ C F />` is parallel to :g:`$AD$ <0393.g1:/ A D />`, and :g:`$BD$ <0393.g1:/ B D />` has fallen on them, the exterior angle :g:`$CGB$ <0393.g1:< C G B )>` is :eq:`equal <0393.g1:< C G B ) = 0393.g1:< A D B )>` to the interior and opposite angle :g:`$ADB$ <0393.g1:< A D B )>`. :just:`[I. 29] <I.29>`
 
-But the angle :g:`$ADB$ <0393.g1:< A D B )>` is equal to the angle :g:`$ABD$ <0393.g1:< A B D )>`, since the side :g:`$BA$ <0393.g1:/ A B />` is also equal to :g:`$AD$ <0393.g1:/ A D />`; :just:`[I. 5] <I.5>`
+But the angle :g:`$ADB$ <0393.g1:< A D B )>` is :eq:`equal <0393.g1:< A D B ) = 0393.g1:< A B D )>` to the angle :g:`$ABD$ <0393.g1:< A B D )>`, since the side :g:`$BA$ <0393.g1:/ A B />` is also :eq:`equal <0393.g1:/ A B / = 0393.g1:/ A D />` to :g:`$AD$ <0393.g1:/ A D />`; :just:`[I. 5] <I.5>`
 
-therefore the angle :g:`$CGB$ <0393.g1:< C G B )>` is also equal to the angle :g:`$GBC$ <0393.g1:< G B C )>`, so that the side :g:`$BC$ <0393.g1:/ B C />` is also equal to the side :g:`$CG$ <0393.g1:/ C G />`. :just:`[I. 6] <I.6>`
-But :g:`$CB$ <0393.g1:/ B C />` is equal to :g:`$GK$ <0393.g1:/ G K />`, and :g:`$CG$ <0393.g1:/ C G />` to :g:`$KB$ <0393.g1:/ B K />`; :just:`[I. 34] <I.34>`
+therefore the angle :g:`$CGB$ <0393.g1:< C G B )>` is also :eq:`equal <0393.g1:< C G B ) = 0393.g1:< G B C )>` to the angle :g:`$GBC$ <0393.g1:< G B C )>`, so that the side :g:`$BC$ <0393.g1:/ B C />` is also :eq:`equal <0393.g1:/ B C / = 0393.g1:/ C G />` to the side :g:`$CG$ <0393.g1:/ C G />`. :just:`[I. 6] <I.6>`
+But :g:`$CB$ <0393.g1:/ B C />` is :eq:`equal <0393.g1:/ B C / = 0393.g1:/ G K /; 0393.g1:/ C G / = 0393.g1:/ B K />` to :g:`$GK$ <0393.g1:/ G K />`, and :g:`$CG$ <0393.g1:/ C G />` to :g:`$KB$ <0393.g1:/ B K />`; :just:`[I. 34] <I.34>`
 
 .. _folio-i-0394:
 
 .. folio:: 0394
    :page: 380
 
-therefore :g:`$GK$ <0393.g1:/ G K />` is also equal to :g:`$KB$ <0393.g1:/ B K />`;
+therefore :g:`$GK$ <0393.g1:/ G K />` is also :eq:`equal <0393.g1:/ G K / = 0393.g1:/ B K />` to :g:`$KB$ <0393.g1:/ B K />`;
 
 .. assertion::
 
-   therefore :g:`$CGKB$ <0393.g1:< C G K B >>` is equilateral.
+   therefore :g:`$CGKB$ <0393.g1:< C G K B >>` is :eq:`equilateral <0393.g1:/ B C / = 0393.g1:/ C G / = 0393.g1:/ G K / = 0393.g1:/ B K />`.
 
 I say next that it is also right-angled.
 
@@ -59,11 +59,11 @@ But the angle :g:`$KBC$ <0393.g1:< K B C )>` is right;
 
 .. assertion::
 
-   therefore the angle :g:`$BCG$ <0393.g1:< G C B )>` is also right,
+   therefore the angle :g:`$BCG$ <0393.g1:< G C B )>` is also :eq:`right <0393.g1:< G C B ) = 0393.g1:< K B C )>`,
 
-so that the opposite angles :g:`$CGK$ <0393.g1:< C G K )>`, :g:`$GKB$ <0393.g1:< G K B )>` are also right. :just:`[I. 34] <I.34>`
+so that the opposite angles :g:`$CGK$ <0393.g1:< C G K )>`, :g:`$GKB$ <0393.g1:< G K B )>` are also :eq:`right <0393.g1:< C G K ) = 0393.g1:< G K B ) = 0393.g1:< K B C ) = 0393.g1:< G C B )>`. :just:`[I. 34] <I.34>`
 
-Therefore :g:`$CGKB$ <0393.g1:< C G K B >>` is right-angled; and it was also proved equilateral;
+Therefore :g:`$CGKB$ <0393.g1:< C G K B >>` is right-angled; and it was also proved :eq:`equilateral <0393.g1:/ B C / = 0393.g1:/ C G / = 0393.g1:/ G K / = 0393.g1:/ B K />`;
 
 .. assertion::
 
@@ -81,7 +81,7 @@ and it is described on :g:`$HG$ <0393.g1:/ H G />`, that is :g:`$AC$ <0393.g1:/ 
 
    Therefore the squares :g:`$HF$ <0393.g1:< H F >>`, :g:`$KC$ <0393.g1:< K C >>` are the squares on :g:`$AC$ <0393.g1:/ A C />`, :g:`$CB$ <0393.g1:/ B C />`.
 
-Now, since :g:`$AG$ <0393.g1:< A G >>` is equal to :g:`$GE$ <0393.g1:< G E >>`, and :g:`$AG$ <0393.g1:< A G >>` is the rectangle :g:`$AC$ <0393.g1:/ A C />`, :g:`$CB$ <0393.g1:/ B C />`, for :g:`$GC$ <0393.g1:/ C G />` is equal to :g:`$CB$ <0393.g1:/ B C />`, therefore :g:`$GE$ <0393.g1:< G E >>` is also equal to the rectangle :g:`$AC$ <0393.g1:/ A C />`, :g:`$CB$ <0393.g1:/ B C />`.
+Now, since :g:`$AG$ <0393.g1:< A G >>` is :eq:`equal <0393.g1:< A G > = 0393.g1:< G E >>` to :g:`$GE$ <0393.g1:< G E >>`, and :g:`$AG$ <0393.g1:< A G >>` is the rectangle :g:`$AC$ <0393.g1:/ A C />`, :g:`$CB$ <0393.g1:/ B C />`, for :g:`$GC$ <0393.g1:/ C G />` is :eq:`equal <0393.g1:/ C G / = 0393.g1:/ B C />` to :g:`$CB$ <0393.g1:/ B C />`, therefore :g:`$GE$ <0393.g1:< G E >>` is also equal to the rectangle :g:`$AC$ <0393.g1:/ A C />`, :g:`$CB$ <0393.g1:/ B C />`.
 
 .. assertion::
 

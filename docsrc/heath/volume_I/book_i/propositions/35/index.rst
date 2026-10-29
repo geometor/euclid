@@ -22,10 +22,10 @@ PROPOSITION 35.
 
 Let :g:`$ABCD$ <0341.g1:< A B C D >>`, :g:`$EBCF$ <0341.g1:< E B C F >>` be parallelograms on the same base :g:`$BC$ <0341.g1:/ B C />` and in the same parallels :g:`$AF$ <0341.g1:/ A F />`, :g:`$BC$ <0341.g1:/ B C />`;
 
-I say that :g:`$ABCD$ <0341.g1:< A B C D >>` is equal to the parallelogram :g:`$EBCF$ <0341.g1:< E B C F >>`.
+I say that :g:`$ABCD$ <0341.g1:< A B C D >>` is :eq:`equal <0341.g1:< A B C D > = 0341.g1:< E B C F >>` to the parallelogram :g:`$EBCF$ <0341.g1:< E B C F >>`.
 
-For, since :g:`$ABCD$ <0341.g1:< A B C D >>` is a parallelogram, :g:`$AD$ <0341.g1:/ A D />` is equal to :g:`$BC$ <0341.g1:/ B C />`. :just:`[I. 34] <I.34>`
-For the same reason also :g:`$EF$ <0341.g1:/ E F />` is equal to :g:`$BC$ <0341.g1:/ B C />`,
+For, since :g:`$ABCD$ <0341.g1:< A B C D >>` is a parallelogram, :g:`$AD$ <0341.g1:/ A D />` is :eq:`equal <0341.g1:/ A D / = 0341.g1:/ B C />` to :g:`$BC$ <0341.g1:/ B C />`. :just:`[I. 34] <I.34>`
+For the same reason also :g:`$EF$ <0341.g1:/ E F />` is :eq:`equal <0341.g1:/ E F / = 0341.g1:/ B C />` to :g:`$BC$ <0341.g1:/ B C />`,
 
 .. _folio-i-0341:
 
@@ -34,42 +34,42 @@ For the same reason also :g:`$EF$ <0341.g1:/ E F />` is equal to :g:`$BC$ <0341.
 
 .. assertion:: [C. N. 1] <I.cn.1>
 
-   so that :g:`$AD$ <0341.g1:/ A D />` is also equal to :g:`$EF$ <0341.g1:/ E F />`;
+   so that :g:`$AD$ <0341.g1:/ A D />` is also :eq:`equal <0341.g1:/ A D / = 0341.g1:/ E F />` to :g:`$EF$ <0341.g1:/ E F />`;
 
 and :g:`$DE$ <0341.g1:/ D E />` is common;
 
 .. assertion:: [C. N. 2] <I.cn.2>
 
-   therefore the whole :g:`$AE$ <0341.g1:/ A E />` is equal to the whole :g:`$DF$ <0341.g1:/ D F />`.
+   therefore the whole :g:`$AE$ <0341.g1:/ A E />` is :eq:`equal <0341.g1:/ A E / = 0341.g1:/ D F />` to the whole :g:`$DF$ <0341.g1:/ D F />`.
 
-But :g:`$AB$ <0341.g1:/ A B />` is also equal to :g:`$DC$ <0341.g1:/ D C />`; :just:`[I. 34] <I.34>`
+But :g:`$AB$ <0341.g1:/ A B />` is also :eq:`equal <0341.g1:/ A B / = 0341.g1:/ D C />` to :g:`$DC$ <0341.g1:/ D C />`; :just:`[I. 34] <I.34>`
 
-therefore the two sides :g:`$EA$ <0341.g1:/ E A />`, :g:`$AB$ <0341.g1:/ A B />` are equal to the two sides :g:`$FD$ <0341.g1:/ F D />`, :g:`$DC$ <0341.g1:/ D C />` respectively,
+therefore the two sides :g:`$EA$ <0341.g1:/ E A />`, :g:`$AB$ <0341.g1:/ A B />` are :eq:`equal <0341.g1:/ E A / = 0341.g1:/ F D /; 0341.g1:/ A B / = 0341.g1:/ D C />` to the two sides :g:`$FD$ <0341.g1:/ F D />`, :g:`$DC$ <0341.g1:/ D C />` respectively,
 
 .. picture:: 0341.g1.svg
    :alt: Folio 0341 Figure 1 - Proposition 35
 
-and the angle :g:`$FDC$ <0341.g1:< F D C )>` is equal to the angle :g:`$EAB$ <0341.g1:< E A B )>`, the exterior to the interior; :just:`[I. 29] <I.29>`
+and the angle :g:`$FDC$ <0341.g1:< F D C )>` is :eq:`equal <0341.g1:< F D C ) = 0341.g1:< E A B )>` to the angle :g:`$EAB$ <0341.g1:< E A B )>`, the exterior to the interior; :just:`[I. 29] <I.29>`
 
 .. subclause::
 
-   therefore the base :g:`$EB$ <0341.g1:/ E B />` is equal to the base :g:`$FC$ <0341.g1:/ F C />`,
+   therefore the base :g:`$EB$ <0341.g1:/ E B />` is :eq:`equal <0341.g1:/ E B / = 0341.g1:/ F C />` to the base :g:`$FC$ <0341.g1:/ F C />`,
 
 .. assertion:: [I. 4] <I.4>
 
-   and the triangle :g:`$EAB$ <0341.g1:< E A B >>` will be equal to the triangle :g:`$FDC$ <0341.g1:< F D C >>`.\ [#f1]_
+   and the triangle :g:`$EAB$ <0341.g1:< E A B >>` will be :eq:`equal <0341.g1:< E A B > = 0341.g1:< F D C >>` to the triangle :g:`$FDC$ <0341.g1:< F D C >>`.\ [#f1]_
 
 Let :g:`$DGE$ <0341.g1:< D G E >>` be subtracted\ [#f2]_ from each;
 
 .. assertion:: [C. N. 3] <I.cn.3>
 
-   therefore the trapezium :g:`$ABGD$ <0341.g1:< A B G D >>` which remains is equal to the trapezium :g:`$EGCF$ <0341.g1:< E G C F >>` which remains.
+   therefore the trapezium :g:`$ABGD$ <0341.g1:< A B G D >>` which remains is :eq:`equal <0341.g1:< A B G D > = 0341.g1:< E G C F >>` to the trapezium :g:`$EGCF$ <0341.g1:< E G C F >>` which remains.
 
 Let the triangle :g:`$GBC$ <0341.g1:< G B C >>` be added to each;
 
 .. assertion:: [C. N. 2] <I.cn.2>
 
-   therefore the whole parallelogram :g:`$ABCD$ <0341.g1:< A B C D >>` is equal to the whole parallelogram :g:`$EBCF$ <0341.g1:< E B C F >>`.
+   therefore the whole parallelogram :g:`$ABCD$ <0341.g1:< A B C D >>` is :eq:`equal <0341.g1:< A B C D > = 0341.g1:< E B C F >>` to the whole parallelogram :g:`$EBCF$ <0341.g1:< E B C F >>`.
 
 .. qed::
 

@@ -62,7 +62,7 @@ I say that :g:`$ABCD$ <0261.g1:< A B C D >>` is about the same diameter with :g:
 
 .. assertion::
 
-   Therefore :g:`$AE$ <0261.g1:/ A E />` is equal to :g:`$AK$ <0261.g1:/ A K />` :just:`[V. 9] <V.9>`, the less to the greater : which is impossible.
+   Therefore :g:`$AE$ <0261.g1:/ A E />` is :eq:`equal <0261.g1:/ A E / = 0261.g1:/ A K />` to :g:`$AK$ <0261.g1:/ A K />` :just:`[V. 9] <V.9>`, the less to the greater : which is impossible.
 
 .. assertion::
 

@@ -22,9 +22,9 @@ PROPOSITION 44.
 
 Let :g:`$AB$ <0356.g1:/ A B />` be the given straight line, :g:`$C$ <0356.g1:< C >>` the given triangle and :g:`$D$ <0356.g1:< D )>` the given rectilineal angle;
 
-thus it is required to apply to the given straight line :g:`$AB$ <0356.g1:/ A B />`, in an angle equal to the angle :g:`$D$ <0356.g1:< D )>`, a parallelogram equal to the given triangle :g:`$C$ <0356.g1:< C >>`.
+thus it is required to apply to the given straight line :g:`$AB$ <0356.g1:/ A B />`, in an angle :eq:`equal <0356.g1:< A B M ) = 0356.g1:< D )>` to the angle :g:`$D$ <0356.g1:< D )>`, a parallelogram :eq:`equal <0356.g1:< A B M L > = 0356.g1:< C >>` to the given triangle :g:`$C$ <0356.g1:< C >>`.
 
-Let the parallelogram :g:`$BEFG$ <0356.g1:< B E F G >>` be constructed equal to the triangle :g:`$C$ <0356.g1:< C >>`, in the angle :g:`$EBG$ <0356.g1:< E B G )>` which is equal to :g:`$D$ <0356.g1:< D )>` :just:`[I. 42] <I.42>`; let it be placed so that :g:`$BE$ <0356.g1:/ B E />` is in a straight line with :g:`$AB$ <0356.g1:/ A B />`; let
+Let the parallelogram :g:`$BEFG$ <0356.g1:< B E F G >>` be constructed :eq:`equal <0356.g1:< B E F G > = 0356.g1:< C >>` to the triangle :g:`$C$ <0356.g1:< C >>`, in the angle :g:`$EBG$ <0356.g1:< E B G )>` which is :eq:`equal <0356.g1:< E B G ) = 0356.g1:< D )>` to :g:`$D$ <0356.g1:< D )>` :just:`[I. 42] <I.42>`; let it be placed so that :g:`$BE$ <0356.g1:/ B E />` is in a straight line with :g:`$AB$ <0356.g1:/ A B />`; let
 :g:`$FG$ <0356.g1:/ F G />` be drawn through to :g:`$H$ <0356.g1:H>`, and let :g:`$AH$ <0356.g1:/ A H />` be drawn through :g:`$A$ <0356.g1:A>` parallel to either :g:`$BG$ <0356.g1:/ B G />` or :g:`$EF$ <0356.g1:/ E F />`. :just:`[I. 31] <I.31>`
 
 .. _folio-i-0356:
@@ -57,25 +57,25 @@ Then :g:`$HLKF$ <0356.g1:< H L K F >>` is a parallelogram, :g:`$HK$ <0356.g1:/ H
 
 .. assertion:: [I. 43] <I.43>
 
-   therefore :g:`$LB$ <0356.g1:< A B M L >>` is equal to :g:`$BF$ <0356.g1:< B E F G >>`.
+   therefore :g:`$LB$ <0356.g1:< A B M L >>` is :eq:`equal <0356.g1:< A B M L > = 0356.g1:< B E F G >>` to :g:`$BF$ <0356.g1:< B E F G >>`.
 
-But :g:`$BF$ <0356.g1:< B E F G >>` is equal to the triangle :g:`$C$ <0356.g1:< C >>`;
+But :g:`$BF$ <0356.g1:< B E F G >>` is :eq:`equal <0356.g1:< B E F G > = 0356.g1:< C >>` to the triangle :g:`$C$ <0356.g1:< C >>`;
 
 .. assertion:: [C. N. 1] <I.cn.1>
 
-   therefore :g:`$LB$ <0356.g1:< A B M L >>` is also equal to :g:`$C$ <0356.g1:< C >>`.
+   therefore :g:`$LB$ <0356.g1:< A B M L >>` is also :eq:`equal <0356.g1:< A B M L > = 0356.g1:< C >>` to :g:`$C$ <0356.g1:< C >>`.
 
-And, since the angle :g:`$GBE$ <0356.g1:< G B E )>` is equal to the angle :g:`$ABM$ <0356.g1:< A B M )>`, :just:`[I. 15] <I.15>`
+And, since the angle :g:`$GBE$ <0356.g1:< G B E )>` is :eq:`equal <0356.g1:< G B E ) = 0356.g1:< A B M )>` to the angle :g:`$ABM$ <0356.g1:< A B M )>`, :just:`[I. 15] <I.15>`
 
-while the angle :g:`$GBE$ <0356.g1:< G B E )>` is equal to :g:`$D$ <0356.g1:< D )>`,
+while the angle :g:`$GBE$ <0356.g1:< G B E )>` is :eq:`equal <0356.g1:< G B E ) = 0356.g1:< D )>` to :g:`$D$ <0356.g1:< D )>`,
 
 .. assertion::
 
-   the angle :g:`$ABM$ <0356.g1:< A B M )>` is also equal to the angle :g:`$D$ <0356.g1:< D )>`.
+   the angle :g:`$ABM$ <0356.g1:< A B M )>` is also :eq:`equal <0356.g1:< A B M ) = 0356.g1:< D )>` to the angle :g:`$D$ <0356.g1:< D )>`.
 
 .. qed::
 
-   Therefore the parallelogram :g:`$LB$ <0356.g1:< A B M L >>` equal to the given triangle :g:`$C$ <0356.g1:< C >>` has been applied to the given straight line :g:`$AB$ <0356.g1:/ A B />`, in the angle :g:`$ABM$ <0356.g1:< A B M )>` which is equal to :g:`$D$ <0356.g1:< D )>`. :just:`Q. E. F.`
+   Therefore the parallelogram :g:`$LB$ <0356.g1:< A B M L >>` :eq:`equal <0356.g1:< A B M L > = 0356.g1:< C >>` to the given triangle :g:`$C$ <0356.g1:< C >>` has been applied to the given straight line :g:`$AB$ <0356.g1:/ A B />`, in the angle :g:`$ABM$ <0356.g1:< A B M )>` which is :eq:`equal <0356.g1:< A B M ) = 0356.g1:< D )>` to :g:`$D$ <0356.g1:< D )>`. :just:`Q. E. F.`
 
 .. [#f1] **since the straight line** :g:`$HF$ <0356.g1:/ H F />` **falls**.... The verb is in the aorist (ἐνέπεσεν) here and in similar expressions in the following propositions.
 

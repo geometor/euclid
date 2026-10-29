@@ -46,7 +46,7 @@ For let the area :g:`$AB$ <0195.g1:< A B >>` be contained by the rational straig
 .. picture:: 0195.g1.svg
    :alt: Proposition 91 Diagram
 
-Let :g:`$DG$ <0195.g1:/ D G />` be bisected at :g:`$E$ <0195.g1:E>`, let there be applied to :g:`$AG$ <0195.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0195.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0195.g1:/ A F />`, :g:`$FG$ <0195.g1:/ F G />`;
+Let :g:`$DG$ <0195.g1:/ D G />` be :eq:`bisected <0195.g1:/ D E / = 0195.g1:/ E G />` at :g:`$E$ <0195.g1:E>`, let there be applied to :g:`$AG$ <0195.g1:/ A G />` a parallelogram equal to the square on :g:`$EG$ <0195.g1:/ E G />` and deficient by a square figure, and let it be the rectangle :g:`$AF$ <0195.g1:/ A F />`, :g:`$FG$ <0195.g1:/ F G />`;
 
 .. assertion::
 
@@ -99,7 +99,7 @@ And through the points :g:`$E$ <0195.g1:E>`, :g:`$F$ <0195.g1:F>`, :g:`$G$ <0195
 
    therefore each of the straight lines :g:`$DE$ <0195.g1:/ D E />`, :g:`$EG$ <0195.g1:/ E G />` is also rational and incommensurable in length with :g:`$AC$ <0195.g1:/ A C />` ; :just:`[X. 13] <X.13>` therefore each of the rectangles :g:`$DH$ <0195.g1:< D H >>`, :g:`$EK$ <0195.g1:< E K >>` is medial. :just:`[X. 21] <X.21>`
 
-Now let the square :g:`$LM$ <0195.g1:< L M >>` be made equal to :g:`$AI$ <0195.g1:< A I >>`, and let there be subtracted the square :g:`$NO$ <0195.g1:< N O >>` having a common angle with it, the angle :g:`$LPM$ <0195.g1:< L P M )>`, and equal to :g:`$FK$ <0195.g1:< F K >>` ;
+Now let the square :g:`$LM$ <0195.g1:< L M >>` be made :eq:`equal <0195.g1:< L M > = 0195.g1:< A I >>` to :g:`$AI$ <0195.g1:< A I >>`, and let there be subtracted the square :g:`$NO$ <0195.g1:< N O >>` having a common angle with it, the angle :g:`$LPM$ <0195.g1:< L P M )>`, and :eq:`equal <0195.g1:< N O > = 0195.g1:< F K >>` to :g:`$FK$ <0195.g1:< F K >>` ;
 
 .. assertion::
 
@@ -125,15 +125,15 @@ Let :g:`$PR$ <0195.g1:/ P R />` be their diameter, and let the figure be drawn.
 
 .. subclause::
 
-   But :g:`$MN$ <0195.g1:< M N >>` is also a mean proportional between :g:`$LM$ <0195.g1:< L M >>`, :g:`$NO$ <0195.g1:< N O >>`, as was before proved, :just:`[Lemma after X. 53]` and :g:`$AI$ <0195.g1:< A I >>` is equal to the square :g:`$LM$ <0195.g1:< L M >>`, and :g:`$KF$ <0195.g1:< K F >>` to :g:`$NO$ <0195.g1:< N O >>` ;
+   But :g:`$MN$ <0195.g1:< M N >>` is also a mean proportional between :g:`$LM$ <0195.g1:< L M >>`, :g:`$NO$ <0195.g1:< N O >>`, as was before proved, :just:`[Lemma after X. 53]` and :g:`$AI$ <0195.g1:< A I >>` is :eq:`equal <0195.g1:< A I > = 0195.g1:< L M >; 0195.g1:< K F > = 0195.g1:< N O >>` to the square :g:`$LM$ <0195.g1:< L M >>`, and :g:`$KF$ <0195.g1:< K F >>` to :g:`$NO$ <0195.g1:< N O >>` ;
 
 .. assertion::
 
-   therefore :g:`$MN$ <0195.g1:< M N >>` is also equal to :g:`$EK$ <0195.g1:< E K >>`.
+   therefore :g:`$MN$ <0195.g1:< M N >>` is also :eq:`equal <0195.g1:< M N > = 0195.g1:< E K >>` to :g:`$EK$ <0195.g1:< E K >>`.
 
 .. subclause::
 
-   But :g:`$EK$ <0195.g1:< E K >>` is equal to :g:`$DH$ <0195.g1:< D H >>`, and :g:`$MN$ <0195.g1:< M N >>` to :g:`$LO$ <0195.g1:< L O >>` ;
+   But :g:`$EK$ <0195.g1:< E K >>` is :eq:`equal <0195.g1:< E K > = 0195.g1:< D H >; 0195.g1:< M N > = 0195.g1:< L O >>` to :g:`$DH$ <0195.g1:< D H >>`, and :g:`$MN$ <0195.g1:< M N >>` to :g:`$LO$ <0195.g1:< L O >>` ;
 
 .. assertion::
 
@@ -145,7 +145,7 @@ Let :g:`$PR$ <0195.g1:/ P R />` be their diameter, and let the figure be drawn.
 
 .. assertion::
 
-   therefore the remainder :g:`$AB$ <0195.g1:< A B >>` is equal to :g:`$ST$ <0195.g1:< S T >>`.
+   therefore the remainder :g:`$AB$ <0195.g1:< A B >>` is :eq:`equal <0195.g1:< A B > = 0195.g1:< S T >>` to :g:`$ST$ <0195.g1:< S T >>`.
 
 .. subclause::
 
@@ -164,7 +164,7 @@ I say next that :g:`$LN$ <0195.g1:/ L N />` is an apotome.
 
 .. subclause::
 
-   For, since each of the rectangles :g:`$AI$ <0195.g1:< A I >>`, :g:`$FK$ <0195.g1:< F K >>` is rational, and they are equal to :g:`$LM$ <0195.g1:< L M >>`, :g:`$NO$ <0195.g1:< N O >>`,
+   For, since each of the rectangles :g:`$AI$ <0195.g1:< A I >>`, :g:`$FK$ <0195.g1:< F K >>` is rational, and they are :eq:`equal <0195.g1:< A I > = 0195.g1:< L M >; 0195.g1:< F K > = 0195.g1:< N O >>` to :g:`$LM$ <0195.g1:< L M >>`, :g:`$NO$ <0195.g1:< N O >>`,
 
 .. assertion::
 
@@ -172,7 +172,7 @@ I say next that :g:`$LN$ <0195.g1:/ L N />` is an apotome.
 
 .. subclause::
 
-   Again, since :g:`$DH$ <0195.g1:< D H >>` is medial and is equal to :g:`$LO$ <0195.g1:< L O >>`,
+   Again, since :g:`$DH$ <0195.g1:< D H >>` is medial and is :eq:`equal <0195.g1:< D H > = 0195.g1:< L O >>` to :g:`$LO$ <0195.g1:< L O >>`,
 
 .. assertion::
 

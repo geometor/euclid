@@ -20,7 +20,7 @@ PROPOSITION 18.
 
    To set out the sides of the five figures and to compare them with one another.
 
-Let :g:`$AB$ <0507.g1:/ A B />`, the diameter of the given sphere, be set out, and let it be cut at :g:`$C$ <0507.g1:C>` so that :g:`$AC$ <0507.g1:/ A C />` is equal to :g:`$CB$ <0507.g1:/ C B />`, and at :g:`$D$ <0507.g1:D>` so that :g:`$AD$ <0507.g1:/ A D />` is double of :g:`$DB$ <0507.g1:/ D B />`; let the semicircle :g:`$AEB$ <0507.g1:( A E B )>` be described on :g:`$AB$ <0507.g1:/ A B />`, from :g:`$C$ <0507.g1:C>`, :g:`$D$ <0507.g1:D>` let :g:`$CE$ <0507.g1:/ C E />`, :g:`$DF$ <0507.g1:/ D F />` be drawn at right angles to :g:`$AB$ <0507.g1:/ A B />`, and let :g:`$AF$ <0507.g1:/ A F />`, :g:`$FB$ <0507.g1:/ F B />`, :g:`$EB$ <0507.g1:/ E B />` be joined.
+Let :g:`$AB$ <0507.g1:/ A B />`, the diameter of the given sphere, be set out, and let it be cut at :g:`$C$ <0507.g1:C>` so that :g:`$AC$ <0507.g1:/ A C />` is :eq:`equal <0507.g1:/ A C / = 0507.g1:/ C B />` to :g:`$CB$ <0507.g1:/ C B />`, and at :g:`$D$ <0507.g1:D>` so that :g:`$AD$ <0507.g1:/ A D />` is double of :g:`$DB$ <0507.g1:/ D B />`; let the semicircle :g:`$AEB$ <0507.g1:( A E B )>` be described on :g:`$AB$ <0507.g1:/ A B />`, from :g:`$C$ <0507.g1:C>`, :g:`$D$ <0507.g1:D>` let :g:`$CE$ <0507.g1:/ C E />`, :g:`$DF$ <0507.g1:/ D F />` be drawn at right angles to :g:`$AB$ <0507.g1:/ A B />`, and let :g:`$AF$ <0507.g1:/ A F />`, :g:`$FB$ <0507.g1:/ F B />`, :g:`$EB$ <0507.g1:/ E B />` be joined.
 
 .. assertion::
 
@@ -88,7 +88,7 @@ Let :g:`$AB$ <0507.g1:/ A B />`, the diameter of the given sphere, be set out, a
 
 .. subclause::
 
-   And, since :g:`$AC$ <0507.g1:/ A C />` is equal to :g:`$CB$ <0507.g1:/ C B />`,
+   And, since :g:`$AC$ <0507.g1:/ A C />` is :eq:`equal <0507.g1:/ A C / = 0507.g1:/ C B />` to :g:`$CB$ <0507.g1:/ C B />`,
 
 .. assertion::
 
@@ -114,11 +114,11 @@ Let :g:`$AB$ <0507.g1:/ A B />`, the diameter of the given sphere, be set out, a
 
    therefore :g:`$BE$ <0507.g1:/ E B />` is the side of the octahedron.
 
-Next, let :g:`$AG$ <0507.g1:/ A G />` be drawn from the point :g:`$A$ <0507.g1:A>` at right angles to the straight line :g:`$AB$ <0507.g1:/ A B />`, let :g:`$AG$ <0507.g1:/ A G />` be made equal to :g:`$AB$ <0507.g1:/ A B />`, let :g:`$GC$ <0507.g1:/ G C />` be joined, and from :g:`$H$ <0507.g1:H>` let :g:`$HK$ <0507.g1:/ H K />` be drawn perpendicular to :g:`$AB$ <0507.g1:/ A B />`.
+Next, let :g:`$AG$ <0507.g1:/ A G />` be drawn from the point :g:`$A$ <0507.g1:A>` at right angles to the straight line :g:`$AB$ <0507.g1:/ A B />`, let :g:`$AG$ <0507.g1:/ A G />` be made :eq:`equal <0507.g1:/ A G / = 0507.g1:/ A B />` to :g:`$AB$ <0507.g1:/ A B />`, let :g:`$GC$ <0507.g1:/ G C />` be joined, and from :g:`$H$ <0507.g1:H>` let :g:`$HK$ <0507.g1:/ H K />` be drawn perpendicular to :g:`$AB$ <0507.g1:/ A B />`.
 
 .. subclause::
 
-   Then, since :g:`$GA$ <0507.g1:/ A G />` is double of :g:`$AC$ <0507.g1:/ A C />`, for :g:`$GA$ <0507.g1:/ A G />` is equal to :g:`$AB$ <0507.g1:/ A B />`, and, as :g:`$GA$ <0507.g1:/ A G />` is to :g:`$AC$ <0507.g1:/ A C />`, so is :g:`$HK$ <0507.g1:/ H K />` to :g:`$KC$ <0507.g1:/ C K />`,
+   Then, since :g:`$GA$ <0507.g1:/ A G />` is double of :g:`$AC$ <0507.g1:/ A C />`, for :g:`$GA$ <0507.g1:/ A G />` is :eq:`equal <0507.g1:/ A G / = 0507.g1:/ A B />` to :g:`$AB$ <0507.g1:/ A B />`, and, as :g:`$GA$ <0507.g1:/ A G />` is to :g:`$AC$ <0507.g1:/ A C />`, so is :g:`$HK$ <0507.g1:/ H K />` to :g:`$KC$ <0507.g1:/ C K />`,
 
 .. assertion::
 
@@ -135,7 +135,7 @@ Next, let :g:`$AG$ <0507.g1:/ A G />` be drawn from the point :g:`$A$ <0507.g1:A
 
 .. subclause::
 
-   But :g:`$HC$ <0507.g1:/ H C />` is equal to :g:`$CB$ <0507.g1:/ C B />`;
+   But :g:`$HC$ <0507.g1:/ H C />` is :eq:`equal <0507.g1:/ H C / = 0507.g1:/ C B />` to :g:`$CB$ <0507.g1:/ C B />`;
 
 .. assertion::
 
@@ -161,7 +161,7 @@ Next, let :g:`$AG$ <0507.g1:/ A G />` be drawn from the point :g:`$A$ <0507.g1:A
 
    therefore the square on :g:`$CK$ <0507.g1:/ C K />` is greater than the square on :g:`$CD$ <0507.g1:/ C D />`; therefore :g:`$CK$ <0507.g1:/ C K />` is greater than :g:`$CD$ <0507.g1:/ C D />`.
 
-Let :g:`$CL$ <0507.g1:/ C L />` be made equal to :g:`$CK$ <0507.g1:/ C K />`, from :g:`$L$ <0507.g1:L>` let :g:`$LM$ <0507.g1:/ L M />` be drawn at right angles to :g:`$AB$ <0507.g1:/ A B />`, and let :g:`$MB$ <0507.g1:/ M B />` be joined.
+Let :g:`$CL$ <0507.g1:/ C L />` be made :eq:`equal <0507.g1:/ C L / = 0507.g1:/ C K />` to :g:`$CK$ <0507.g1:/ C K />`, from :g:`$L$ <0507.g1:L>` let :g:`$LM$ <0507.g1:/ L M />` be drawn at right angles to :g:`$AB$ <0507.g1:/ A B />`, and let :g:`$MB$ <0507.g1:/ M B />` be joined.
 
 .. subclause::
 
@@ -185,7 +185,7 @@ Let :g:`$CL$ <0507.g1:/ C L />` be made equal to :g:`$CK$ <0507.g1:/ C K />`, fr
 
 .. subclause::
 
-   And, since the diameter of the sphere is made up of the side of the hexagon and two of the sides of the decagon inscribed in the same circle, :just:`[XIII. 16, Por.]` and :g:`$AB$ <0507.g1:/ A B />` is the diameter of the sphere, while :g:`$KL$ <0507.g1:/ K L />` is a side of the hexagon, and :g:`$AK$ <0507.g1:/ A K />` is equal to :g:`$LB$ <0507.g1:/ L B />`,
+   And, since the diameter of the sphere is made up of the side of the hexagon and two of the sides of the decagon inscribed in the same circle, :just:`[XIII. 16, Por.]` and :g:`$AB$ <0507.g1:/ A B />` is the diameter of the sphere, while :g:`$KL$ <0507.g1:/ K L />` is a side of the hexagon, and :g:`$AK$ <0507.g1:/ A K />` is :eq:`equal <0507.g1:/ A K / = 0507.g1:/ L B />` to :g:`$LB$ <0507.g1:/ L B />`,
 
 .. assertion::
 
@@ -198,7 +198,7 @@ Let :g:`$CL$ <0507.g1:/ C L />` be made equal to :g:`$CK$ <0507.g1:/ C K />`, fr
 
 .. subclause::
 
-   And, since :g:`$LB$ <0507.g1:/ L B />` belongs to a decagon, and :g:`$ML$ <0507.g1:/ L M />` to a hexagon, for :g:`$ML$ <0507.g1:/ L M />` is equal to :g:`$KL$ <0507.g1:/ K L />`, since it is also equal to :g:`$HK$ <0507.g1:/ H K />`, being the same distance from the centre, and each of the straight lines :g:`$HK$ <0507.g1:/ H K />`, :g:`$KL$ <0507.g1:/ K L />` is double of :g:`$KC$ <0507.g1:/ C K />`,
+   And, since :g:`$LB$ <0507.g1:/ L B />` belongs to a decagon, and :g:`$ML$ <0507.g1:/ L M />` to a hexagon, for :g:`$ML$ <0507.g1:/ L M />` is :eq:`equal <0507.g1:/ L M / = 0507.g1:/ K L />` to :g:`$KL$ <0507.g1:/ K L />`, since it is also :eq:`equal <0507.g1:/ L M / = 0507.g1:/ H K />` to :g:`$HK$ <0507.g1:/ H K />`, being the same distance from the centre, and each of the straight lines :g:`$HK$ <0507.g1:/ H K />`, :g:`$KL$ <0507.g1:/ K L />` is double of :g:`$KC$ <0507.g1:/ C K />`,
 
 .. assertion:: [XIII. 10] <XIII.10>
 
@@ -295,7 +295,7 @@ Let :g:`$CL$ <0507.g1:/ C L />` be made equal to :g:`$CK$ <0507.g1:/ C K />`, fr
 
 .. subclause::
 
-   But :g:`$KL$ <0507.g1:/ K L />` is equal to :g:`$LM$ <0507.g1:/ L M />` ;
+   But :g:`$KL$ <0507.g1:/ K L />` is :eq:`equal <0507.g1:/ K L / = 0507.g1:/ L M />` to :g:`$LM$ <0507.g1:/ L M />` ;
 
 .. assertion::
 

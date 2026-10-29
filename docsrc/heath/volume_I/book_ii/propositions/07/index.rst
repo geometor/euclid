@@ -31,13 +31,13 @@ For let the square :g:`$ADEB$ <0402.g1:< A D E B >>` be described on :g:`$AB$ <0
 
 and let the figure be drawn.
 
-Then, since :g:`$AG$ <0402.g1:< A G >>` is equal to :g:`$GE$ <0402.g1:< G E >>`, :just:`[I. 43] <I.43>`
+Then, since :g:`$AG$ <0402.g1:< A G >>` is :eq:`equal <0402.g1:< A G > = 0402.g1:< G E >>` to :g:`$GE$ <0402.g1:< G E >>`, :just:`[I. 43] <I.43>`
 
 let :g:`$CF$ <0402.g1:< C F >>` be added to each;
 
 .. assertion::
 
-   therefore the whole :g:`$AF$ <0402.g1:< A F >>` is equal to the whole :g:`$CE$ <0402.g1:< C E >>`.
+   therefore the whole :g:`$AF$ <0402.g1:< A F >>` is :eq:`equal <0402.g1:< A F > = 0402.g1:< C E >>` to the whole :g:`$CE$ <0402.g1:< C E >>`.
 
 .. assertion::
 
@@ -54,7 +54,7 @@ But :g:`$AF$ <0402.g1:< A F >>`, :g:`$CE$ <0402.g1:< C E >>` are the gnomon :g:`
 .. folio:: 0403
    :page: 389
 
-But twice the rectangle :g:`$AB$ <0402.g1:/ A B />`, :g:`$BC$ <0402.g1:/ B C />` is also double of :g:`$AF$ <0402.g1:< A F >>`; for :g:`$BF$ <0402.g1:/ B F />` is equal to :g:`$BC$ <0402.g1:/ B C />`;
+But twice the rectangle :g:`$AB$ <0402.g1:/ A B />`, :g:`$BC$ <0402.g1:/ B C />` is also double of :g:`$AF$ <0402.g1:< A F >>`; for :g:`$BF$ <0402.g1:/ B F />` is :eq:`equal <0402.g1:/ B F / = 0402.g1:/ B C />` to :g:`$BC$ <0402.g1:/ B C />`;
 
 .. assertion::
 

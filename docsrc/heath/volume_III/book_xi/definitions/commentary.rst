@@ -97,7 +97,7 @@ Then since, in the plane :g:`$MAN$ <0268.g1:< M A N >>`, :g:`$MC$ <0268.g1:/ M C
 
 For the same reason, :g:`$MB$ <0268.g1:/ M B />`, :g:`$AP$ <0268.g1:/ A P />` are parallel.
 
-Therefore [XI. 10] the angle :g:`$BMC$ <0268.g1:< B M C )>` is equal to the angle :g:`$PAN$ <0268.g1:< P A N )>`.
+Therefore [XI. 10] the angle :g:`$BMC$ <0268.g1:< B M C )>` is :eq:`equal <0268.g1:< B M C ) = 0268.g1:< P A N )>` to the angle :g:`$PAN$ <0268.g1:< P A N )>`.
 
 And :g:`$M$ <0268.g1:M>` may be any point on :g:`$MA$ <0268.g1:/ M A />`. Therefore the plane angle described in the definition is the same at all points of :g:`$AM$ <0268.g1:/ A M />`.
 
@@ -111,9 +111,9 @@ And :g:`$M$ <0268.g1:M>` may be any point on :g:`$MA$ <0268.g1:/ M A />`. Theref
 
 (2) In the plane :g:`$NAP$ <0268.g1:< N A P >>` draw the arc :g:`$NDP$ <0268.g1:( N D P )>` of any circle with centre :g:`$A$ <0268.g1:A>`, and draw the radius :g:`$AD$ <0268.g1:/ A D />`.
 
-Now the planes :g:`$NAP$ <0268.g1:< N A P >>`, :g:`$CMB$ <0268.g1:< C M B >>`, being both at right angles to the straight line :g:`$MA$ <0268.g1:/ M A />`, are parallel; [XI. 14] therefore the intersections :g:`$AD$ <0268.g1:/ A D />`, :g:`$ME$ <0268.g1:/ M E />` of these planes with the plane :g:`$MAD$ <0268.g1:< M A D >>` are parallel, [XI. 16] and consequently the angles :g:`$BME$ <0268.g1:< B M E )>`, :g:`$PAD$ <0268.g1:< P A D )>` are equal. [XI. 10]
+Now the planes :g:`$NAP$ <0268.g1:< N A P >>`, :g:`$CMB$ <0268.g1:< C M B >>`, being both at right angles to the straight line :g:`$MA$ <0268.g1:/ M A />`, are parallel; [XI. 14] therefore the intersections :g:`$AD$ <0268.g1:/ A D />`, :g:`$ME$ <0268.g1:/ M E />` of these planes with the plane :g:`$MAD$ <0268.g1:< M A D >>` are parallel, [XI. 16] and consequently the angles :g:`$BME$ <0268.g1:< B M E )>`, :g:`$PAD$ <0268.g1:< P A D )>` are :eq:`equal <0268.g1:< B M E ) = 0268.g1:< P A D )>`. [XI. 10]
 
-If now the plane angle :g:`$NAD$ <0268.g1:< N A D )>` were equal to the plane angle :g:`$DAP$ <0268.g1:< D A P )>`, the dihedral angle :g:`$NAMD$ <0268.g1:< N A M D )>` would be equal to the dihedral angle :g:`$DAMP$ <0268.g1:< D A M P )>`; for, if the angle :g:`$PAD$ <0268.g1:< P A D )>` were applied to the angle :g:`$DAN$ <0268.g1:< D A N )>`, :g:`$AM$ <0268.g1:/ A M />` remaining the same, the corresponding dihedral angles would coincide.
+If now the plane angle :g:`$NAD$ <0268.g1:< N A D )>` were :eq:`equal <0268.g1:< N A D ) = 0268.g1:< D A P )>` to the plane angle :g:`$DAP$ <0268.g1:< D A P )>`, the dihedral angle :g:`$NAMD$ <0268.g1:< N A M D )>` would be :eq:`equal <0268.g1:< N A M D ) = 0268.g1:< D A M P )>` to the dihedral angle :g:`$DAMP$ <0268.g1:< D A M P )>`; for, if the angle :g:`$PAD$ <0268.g1:< P A D )>` were applied to the angle :g:`$DAN$ <0268.g1:< D A N )>`, :g:`$AM$ <0268.g1:/ A M />` remaining the same, the corresponding dihedral angles would coincide.
 
 Successive applications of this result show that, if the angles :g:`$NAD$ <0268.g1:< N A D )>`, :g:`$DAP$ <0268.g1:< D A P )>` each contain a certain angle a certain number of times, the dihedral angles :g:`$NAMD$ <0268.g1:< N A M D )>`, :g:`$DAMP$ <0268.g1:< D A M P )>` will contain the corresponding dihedral angle the same number of times respectively.
 

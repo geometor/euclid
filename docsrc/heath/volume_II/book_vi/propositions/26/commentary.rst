@@ -23,7 +23,7 @@ If the straight line :g:`$AHC$ <0261.g1:/ A H C />` does not pass through :g:`$F
 
 It is of course possible to prove the proposition directly, as is done by Dr Lachlan. Let :g:`$AF$ <0261.g1:/ A F />`, :g:`$AC$ <0261.g1:/ A C />` be the diagonals, and let us make no assumption as to how they fall.
 
-Then, since :g:`$EF$ <0261.g1:/ E F />` is parallel to :g:`$AG$ <0261.g1:/ A G />` and therefore to :g:`$BC$ <0261.g1:/ B C />`, the angles :g:`$AEF$ <0261.g1:< A E F )>`, :g:`$ABC$ <0261.g1:< A B C )>` are equal.
+Then, since :g:`$EF$ <0261.g1:/ E F />` is parallel to :g:`$AG$ <0261.g1:/ A G />` and therefore to :g:`$BC$ <0261.g1:/ B C />`, the angles :g:`$AEF$ <0261.g1:< A E F )>`, :g:`$ABC$ <0261.g1:< A B C )>` are :eq:`equal <0261.g1:< A E F ) = 0261.g1:< A B C )>`.
 
 And, since the parallelograms are similar,
 
@@ -33,7 +33,7 @@ And, since the parallelograms are similar,
 
 Hence the triangles :g:`$AEF$ <0261.g1:< A E F >>`, :g:`$ABC$ <0261.g1:< A B C >>` are similar, :just:`[VI. 6] <VI.6>`
 
-and therefore the angle :g:`$FAE$ <0261.g1:< F A E )>` is equal to the angle :g:`$CAB$ <0261.g1:< F A E )>`.
+and therefore the angle :g:`$FAE$ <0261.g1:< F A E )>` is :eq:`equal <0261.g1:< F A E ) = 0261.g1:< F A E )>` to the angle :g:`$CAB$ <0261.g1:< F A E )>`.
 
 Therefore :g:`$AF$ <0261.g1:/ A F />` falls on :g:`$AC$ <0261.g1:/ A C />`.
 

@@ -49,7 +49,7 @@ there will be three in the circumference
 
    therefore in the remainder :g:`$BC$ <0116.g1:( B C )>` there will be two of the equal segments.
 
-Let :g:`$BC$ <0116.g1:( B C )>` be bisected at :g:`$E$ <0116.g1:E>`; :just:`[III. 30] <III.30>`
+Let :g:`$BC$ <0116.g1:( B C )>` be :eq:`bisected <0116.g1:( B E ) = 0116.g1:( E C )>` at :g:`$E$ <0116.g1:E>`; :just:`[III. 30] <III.30>`
 
 .. assertion::
 

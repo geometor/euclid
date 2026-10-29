@@ -36,7 +36,7 @@ I say that the sum of :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>` is also the sam
 
    therefore, as many numbers as there are in :g:`$BC$ <0310.g1:/ B C />` equal to :g:`$A$ <0310.g1:A>`, so many numbers are there also in :g:`$EF$ <0310.g1:/ E F />` equal to :g:`$D$ <0310.g1:D>`.
 
-Let :g:`$BC$ <0310.g1:/ B C />` be divided into the numbers equal to :g:`$A$ <0310.g1:A>`, namely :g:`$BG$ <0310.g1:/ B G />`, :g:`$GC$ <0310.g1:/ G C />`, and :g:`$EF$ <0310.g1:/ E F />` into the numbers equal to :g:`$D$ <0310.g1:D>`, namely :g:`$EH$ <0310.g1:/ E H />`, :g:`$HF$ <0310.g1:/ H F />`;
+Let :g:`$BC$ <0310.g1:/ B C />` be divided into the numbers :eq:`equal <0310.g1:/ B G / = 0310.g1:/ G C / = 0310.g1:A>` to :g:`$A$ <0310.g1:A>`, namely :g:`$BG$ <0310.g1:/ B G />`, :g:`$GC$ <0310.g1:/ G C />`, and :g:`$EF$ <0310.g1:/ E F />` into the numbers :eq:`equal <0310.g1:/ E H / = 0310.g1:/ H F / = 0310.g1:D>` to :g:`$D$ <0310.g1:D>`, namely :g:`$EH$ <0310.g1:/ E H />`, :g:`$HF$ <0310.g1:/ H F />`;
 
 .. assertion::
 
@@ -44,7 +44,7 @@ Let :g:`$BC$ <0310.g1:/ B C />` be divided into the numbers equal to :g:`$A$ <03
 
 .. subclause::
 
-   And, since :g:`$BG$ <0310.g1:/ B G />` is equal to :g:`$A$ <0310.g1:A>`, and :g:`$EH$ <0310.g1:/ E H />` to :g:`$D$ <0310.g1:D>`,
+   And, since :g:`$BG$ <0310.g1:/ B G />` is :eq:`equal <0310.g1:/ B G / = 0310.g1:A; 0310.g1:/ E H / = 0310.g1:D>` to :g:`$A$ <0310.g1:A>`, and :g:`$EH$ <0310.g1:/ E H />` to :g:`$D$ <0310.g1:D>`,
 
 .. assertion::
 

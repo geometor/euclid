@@ -25,13 +25,13 @@ Let there be set out two medial straight lines :g:`$AB$ <0082.g1:/ A B />`, :g:`
 .. picture:: 0082.g1.svg
    :alt: Proposition 34 diagram
 
-let the semicircle :g:`$ADB$ <0082.g1:( A D B )>` be described on :g:`$AB$ <0082.g1:/ A B />`, let :g:`$BC$ <0082.g1:/ B C />` be bisected at :g:`$E$ <0082.g1:E>`, let there be applied to :g:`$AB$ <0082.g1:/ A B />` a parallelogram equal to the square on :g:`$BE$ <0082.g1:/ B E />` and deficient by a square figure, namely the rectangle :g:`$AF$ <0082.g1:/ A F />`, :g:`$FB$ <0082.g1:/ F B />` ; :just:`[VI. 28] <VI.28>`
+let the semicircle :g:`$ADB$ <0082.g1:( A D B )>` be described on :g:`$AB$ <0082.g1:/ A B />`, let :g:`$BC$ <0082.g1:/ B C />` be :eq:`bisected <0082.g1:/ B E / = 0082.g1:/ E C />` at :g:`$E$ <0082.g1:E>`, let there be applied to :g:`$AB$ <0082.g1:/ A B />` a parallelogram equal to the square on :g:`$BE$ <0082.g1:/ B E />` and deficient by a square figure, namely the rectangle :g:`$AF$ <0082.g1:/ A F />`, :g:`$FB$ <0082.g1:/ F B />` ; :just:`[VI. 28] <VI.28>`
 
 .. assertion:: [X. 18] <X.18>
 
    therefore :g:`$AF$ <0082.g1:/ A F />` is incommensurable in length with :g:`$FB$ <0082.g1:/ F B />`.
 
-Let :g:`$FD$ <0082.g1:/ F D />` be drawn from :g:`$F$ <0082.g1:F>` at right angles to :g:`$AB$ <0082.g1:/ A B />`, and let :g:`$AD$ <0082.g1:/ A D />`, :g:`$DB$ <0082.g1:/ D B />` be joined.
+Let :g:`$FD$ <0082.g1:/ F D />` be drawn from :g:`$F$ <0082.g1:F>` at :eq:`right angles <0082.g1:< A F D ) = 0082.g1:< B F D )>` to :g:`$AB$ <0082.g1:/ A B />`, and let :g:`$AD$ <0082.g1:/ A D />`, :g:`$DB$ <0082.g1:/ D B />` be joined.
 
 .. _folio-iii-0083:
 

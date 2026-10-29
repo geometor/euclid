@@ -55,7 +55,7 @@ to it,
 the rectangle :g:`$AD$ <0080.g1:/ A D />`, :g:`$DC$ <0080.g1:/ D C />` together with the square on :g:`$FC$ <0080.g1:/ F C />` is
 equal to the square on :g:`$FD$ <0080.g1:/ F D />`. :just:`[II. 6] <II.6>`
 
-But :g:`$FC$ <0080.g1:/ F C />` is equal to :g:`$FB$ <0080.g1:/ F B />`;
+But :g:`$FC$ <0080.g1:/ F C />` is :eq:`equal <0080.g1:/ F C / = 0080.g1:/ F B />` to :g:`$FB$ <0080.g1:/ F B />`;
 therefore the rectangle :g:`$AD$ <0080.g1:/ A D />`, :g:`$DC$ <0080.g1:/ D C />` together with the square on
 :g:`$FB$ <0080.g1:/ F B />` is equal to the square on :g:`$FD$ <0080.g1:/ F D />`.
 
@@ -90,7 +90,7 @@ through the centre cuts a straight line
 
 .. assertion::
 
-   therefore :g:`$AF$ <0080.g2:/ A F />` is equal to :g:`$FC$ <0080.g2:/ F C />`.
+   therefore :g:`$AF$ <0080.g2:/ A F />` is :eq:`equal <0080.g2:/ A F / = 0080.g2:/ F C />` to :g:`$FC$ <0080.g2:/ F C />`.
 
 .. _folio-ii-0081:
 
@@ -112,7 +112,7 @@ and the square on :g:`$ED$ <0080.g2:/ E D />` is equal to the squares on :g:`$DF
 therefore the rectangle :g:`$AD$ <0080.g2:/ A D />`, :g:`$DC$ <0080.g2:/ D C />` together with the square on
 :g:`$EC$ <0080.g2:/ E C />` is equal to the square on :g:`$ED$ <0080.g2:/ E D />`.
 
-And :g:`$EC$ <0080.g2:/ E C />` is equal to :g:`$EB$ <0080.g2:/ E B />`;
+And :g:`$EC$ <0080.g2:/ E C />` is :eq:`equal <0080.g2:/ E C / = 0080.g2:/ E B />` to :g:`$EB$ <0080.g2:/ E B />`;
 therefore the rectangle :g:`$AD$ <0080.g2:/ A D />`, :g:`$DC$ <0080.g2:/ D C />` together with the square on
 :g:`$EB$ <0080.g2:/ E B />` is equal to the square on :g:`$ED$ <0080.g2:/ E D />`.
 

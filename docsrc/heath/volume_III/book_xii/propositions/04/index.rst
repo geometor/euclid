@@ -31,7 +31,7 @@ I say that, as the base :g:`$ABC$ <0387.g1:< A B C >>` is to the base :g:`$DEF$ 
 
 .. subclause::
 
-   For, since :g:`$BO$ <0387.g1:/ B O />` is equal to :g:`$OC$ <0387.g1:/ O C />`, and :g:`$AL$ <0387.g1:/ A L />` to :g:`$LC$ <0387.g1:/ L C />`,
+   For, since :g:`$BO$ <0387.g1:/ B O />` is :eq:`equal <0387.g1:/ B O / = 0387.g1:/ O C /; 0387.g1:/ A L / = 0387.g1:/ L C />` to :g:`$OC$ <0387.g1:/ O C />`, and :g:`$AL$ <0387.g1:/ A L />` to :g:`$LC$ <0387.g1:/ L C />`,
 
 .. assertion::
 
@@ -95,7 +95,7 @@ I say that, as the base :g:`$ABC$ <0387.g1:< A B C >>` is to the base :g:`$DEF$ 
 
 .. subclause::
 
-   But, as the base :g:`$PMN$ <0387.g1:< P M N >>` is to the base :g:`$STU$ <0387.g1:< S T U >>`, so is the base :g:`$ABC$ <0387.g1:< A B C >>` to the base :g:`$DEF$ <0387.g1:< D E F >>`; for the triangles :g:`$PMN$ <0387.g1:< P M N >>`, :g:`$STU$ <0387.g1:< S T U >>` are equal to the triangles :g:`$LOC$ <0387.g1:< L O C >>`, :g:`$RVF$ <0387.g1:< R V F >>` respectively.
+   But, as the base :g:`$PMN$ <0387.g1:< P M N >>` is to the base :g:`$STU$ <0387.g1:< S T U >>`, so is the base :g:`$ABC$ <0387.g1:< A B C >>` to the base :g:`$DEF$ <0387.g1:< D E F >>`; for the triangles :g:`$PMN$ <0387.g1:< P M N >>`, :g:`$STU$ <0387.g1:< S T U >>` are :eq:`equal <0387.g1:< P M N > = 0387.g1:< L O C >; 0387.g1:< S T U > = 0387.g1:< R V F >>` to the triangles :g:`$LOC$ <0387.g1:< L O C >>`, :g:`$RVF$ <0387.g1:< R V F >>` respectively.
 
 .. assertion::
 

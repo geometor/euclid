@@ -55,7 +55,7 @@ Then, since
 
    :g:`$DC$ <0255.g1:/ D C />` : :g:`$CE$ <0255.g1:/ C E />` = :g:`$CG$ <0255.g1:/ C G />` : :g:`$CK$ <0255.g1:/ C K />`,
 
-the parallelograms :g:`$DK$ <0255.g1:< D K >>`, :g:`$CF$ <0255.g1:< C F >>` are equal. :just:`[VI. 14] <VI.14>`
+the parallelograms :g:`$DK$ <0255.g1:< D K >>`, :g:`$CF$ <0255.g1:< C F >>` are :eq:`equal <0255.g1:< D K > = 0255.g1:< C F >>`. :just:`[VI. 14] <VI.14>`
 
 Therefore
 
@@ -67,7 +67,7 @@ Prop. 68 of the $Data$ uses the same construction to prove that, *If two equiang
 
 I do not use the figure of the $Data$ but, for convenience' sake, I adhere to the figure given above. Suppose that the ratio of the parallelograms is given, and also that of :g:`$CD$ <0255.g1:/ C D />` to :g:`$CE$ <0255.g1:/ C E />`.
 
-Apply to :g:`$CD$ <0255.g1:/ C D />` the parallelogram :g:`$DK$ <0255.g1:< D K >>` equal to :g:`$CF$ <0255.g1:< C F >>` and such that :g:`$CK$ <0255.g1:/ C K />`, :g:`$CB$ <0255.g1:/ C B />` coincide in direction. :just:`[I. 45] <I.45>`
+Apply to :g:`$CD$ <0255.g1:/ C D />` the parallelogram :g:`$DK$ <0255.g1:< D K >>` :eq:`equal <0255.g1:< D K > = 0255.g1:< C F >>` to :g:`$CF$ <0255.g1:< C F >>` and such that :g:`$CK$ <0255.g1:/ C K />`, :g:`$CB$ <0255.g1:/ C B />` coincide in direction. :just:`[I. 45] <I.45>`
 
 Then the ratio of :g:`$AC$ <0255.g1:< A C >>` to :g:`$KD$ <0255.g1:< K D >>` is given, being equal to that of :g:`$AC$ <0255.g1:< A C >>` to :g:`$CF$ <0255.g1:< C F >>`.
 
@@ -98,7 +98,7 @@ Therefore the ratio of :g:`$CB$ <0255.g1:/ C B />` to :g:`$CG$ <0255.g1:/ C G />
 
 Lastly we may refer to Prop. 70 of the :cite:`*Data* <euclid:data>`, the first part of which proves what corresponds exactly to VI. 23, namely that, *If in two equiangular parallelograms the sides containing the equal angles have a given ratio to one another* [i.e. one side in one to one side in the other], *the parallelograms themselves will also have a given ratio to one another*. [Here the ratios of :g:`$BC$ <0255.g1:/ B C />` to :g:`$CG$ <0255.g1:/ C G />` and of :g:`$CD$ <0255.g1:/ C D />` to :g:`$CE$ <0255.g1:/ C E />` are given.]
 
-The construction is the same as in the last case, and we have :g:`$KD$ <0255.g1:< K D >>` equal to :g:`$CF$ <0255.g1:< C F >>`, so that
+The construction is the same as in the last case, and we have :g:`$KD$ <0255.g1:< K D >>` :eq:`equal <0255.g1:< K D > = 0255.g1:< C F >>` to :g:`$CF$ <0255.g1:< C F >>`, so that
 
 .. container:: center
 
@@ -116,12 +116,12 @@ Euclid extends these propositions to the case of two parallelograms which have *
 .. picture:: 0256.g1.svg
    :alt: Pappus's Theorem on Equiangular Parallelograms
 
-Let :g:`$AC$ <0256.g1:< A C >>`, :g:`$DF$ <0256.g1:< D F >>` be equiangular parallelograms on the bases :g:`$BC$ <0256.g1:/ B C />`, :g:`$EF$ <0256.g1:/ E F />`, and let the angles at :g:`$B$ <0256.g1:< A B G )>`, :g:`$E$ <0256.g1:< D E H )>` be equal.
+Let :g:`$AC$ <0256.g1:< A C >>`, :g:`$DF$ <0256.g1:< D F >>` be equiangular parallelograms on the bases :g:`$BC$ <0256.g1:/ B C />`, :g:`$EF$ <0256.g1:/ E F />`, and let the angles at :g:`$B$ <0256.g1:< A B G )>`, :g:`$E$ <0256.g1:< D E H )>` be :eq:`equal <0256.g1:< A B G ) = 0256.g1:< D E H )>`.
 
 Draw perpendiculars :g:`$AG$ <0256.g1:/ A G />`, :g:`$DH$ <0256.g1:/ D H />` to :g:`$BC$ <0256.g1:/ B C />`, :g:`$EF$ <0256.g1:/ E F />` respectively.
 
-Since the angles at :g:`$B$ <0256.g1:< A B G )>`, :g:`$G$ <0256.g1:< A G B )>` are equal to those at :g:`$E$ <0256.g1:< D E H )>`, :g:`$H$ <0256.g1:< D H E )>`,
-> the triangles :g:`$ABG$ <0256.g1:< A B G >>`, :g:`$DEH$ <0256.g1:< D E H >>` are equiangular.
+Since the angles at :g:`$B$ <0256.g1:< A B G )>`, :g:`$G$ <0256.g1:< A G B )>` are :eq:`equal <0256.g1:< A B G ) = 0256.g1:< D E H ); 0256.g1:< A G B ) = 0256.g1:< D H E )>` to those at :g:`$E$ <0256.g1:< D E H )>`, :g:`$H$ <0256.g1:< D H E )>`,
+> the triangles :g:`$ABG$ <0256.g1:< A B G >>`, :g:`$DEH$ <0256.g1:< D E H >>` are :eq:`equiangular <0256.g1:< A B G ) = 0256.g1:< D E H ); 0256.g1:< A G B ) = 0256.g1:< D H E )>`.
 
 Therefore
 

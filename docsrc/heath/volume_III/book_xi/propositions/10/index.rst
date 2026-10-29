@@ -22,28 +22,28 @@ PROPOSITION 10.
 
    If two straight lines meeting one another be parallel to two straight lines meeting one another not in the same plane, they will contain equal angles.
 
-For let the two straight lines :g:`$AB$ <0295.g1:/ A B />`, :g:`$BC$ <0295.g1:/ B C />` meeting one another be parallel to the two straight lines :g:`$DE$ <0295.g1:/ D E />`, :g:`$EF$ <0295.g1:/ E F />` meeting one another, not in the same plane; I say that the angle :g:`$ABC$ <0295.g1:< A B C )>` is equal to the angle :g:`$DEF$ <0295.g1:< D E F )>`.
+For let the two straight lines :g:`$AB$ <0295.g1:/ A B />`, :g:`$BC$ <0295.g1:/ B C />` meeting one another be parallel to the two straight lines :g:`$DE$ <0295.g1:/ D E />`, :g:`$EF$ <0295.g1:/ E F />` meeting one another, not in the same plane; I say that the angle :g:`$ABC$ <0295.g1:< A B C )>` is :eq:`equal <0295.g1:< A B C ) = 0295.g1:< D E F )>` to the angle :g:`$DEF$ <0295.g1:< D E F )>`.
 
 .. picture:: 0295.g1.svg
    :alt: Proposition 10
 
-For let :g:`$BA$ <0295.g1:/ B A />`, :g:`$BC$ <0295.g1:/ B C />`, :g:`$ED$ <0295.g1:/ E D />`, :g:`$EF$ <0295.g1:/ E F />` be cut off equal to one another, and let :g:`$AD$ <0295.g1:/ A D />`, :g:`$CF$ <0295.g1:/ C F />`, :g:`$BE$ <0295.g1:/ B E />`, :g:`$AC$ <0295.g1:/ A C />`, :g:`$DF$ <0295.g1:/ D F />` be joined.
+For let :g:`$BA$ <0295.g1:/ B A />`, :g:`$BC$ <0295.g1:/ B C />`, :g:`$ED$ <0295.g1:/ E D />`, :g:`$EF$ <0295.g1:/ E F />` be cut off :eq:`equal <0295.g1:/ B A / = 0295.g1:/ B C / = 0295.g1:/ E D / = 0295.g1:/ E F />` to one another, and let :g:`$AD$ <0295.g1:/ A D />`, :g:`$CF$ <0295.g1:/ C F />`, :g:`$BE$ <0295.g1:/ B E />`, :g:`$AC$ <0295.g1:/ A C />`, :g:`$DF$ <0295.g1:/ D F />` be joined.
 
 .. subclause::
 
-   Now, since :g:`$BA$ <0295.g1:/ B A />` is equal and parallel to :g:`$ED$ <0295.g1:/ E D />`,
+   Now, since :g:`$BA$ <0295.g1:/ B A />` is :eq:`equal <0295.g1:/ B A / = 0295.g1:/ E D />` and parallel to :g:`$ED$ <0295.g1:/ E D />`,
 
 .. assertion:: [I. 33] <I.33>
 
-   therefore :g:`$AD$ <0295.g1:/ A D />` is also equal and parallel to :g:`$BE$ <0295.g1:/ B E />`.
+   therefore :g:`$AD$ <0295.g1:/ A D />` is also :eq:`equal <0295.g1:/ A D / = 0295.g1:/ B E />` and parallel to :g:`$BE$ <0295.g1:/ B E />`.
 
 .. subclause::
 
-   For the same reason :g:`$CF$ <0295.g1:/ C F />` is also equal and parallel to :g:`$BE$ <0295.g1:/ B E />`.
+   For the same reason :g:`$CF$ <0295.g1:/ C F />` is also :eq:`equal <0295.g1:/ C F / = 0295.g1:/ B E />` and parallel to :g:`$BE$ <0295.g1:/ B E />`.
 
 .. assertion::
 
-   Therefore each of the straight lines :g:`$AD$ <0295.g1:/ A D />`, :g:`$CF$ <0295.g1:/ C F />` is equal and parallel to :g:`$BE$ <0295.g1:/ B E />`.
+   Therefore each of the straight lines :g:`$AD$ <0295.g1:/ A D />`, :g:`$CF$ <0295.g1:/ C F />` is :eq:`equal <0295.g1:/ A D / = 0295.g1:/ B E / = 0295.g1:/ C F />` and parallel to :g:`$BE$ <0295.g1:/ B E />`.
 
 .. subclause::
 
@@ -51,7 +51,7 @@ For let :g:`$BA$ <0295.g1:/ B A />`, :g:`$BC$ <0295.g1:/ B C />`, :g:`$ED$ <0295
 
 .. assertion::
 
-   therefore :g:`$AD$ <0295.g1:/ A D />` is parallel and equal to :g:`$CF$ <0295.g1:/ C F />`.
+   therefore :g:`$AD$ <0295.g1:/ A D />` is parallel and :eq:`equal <0295.g1:/ A D / = 0295.g1:/ C F />` to :g:`$CF$ <0295.g1:/ C F />`.
 
 .. subclause::
 
@@ -59,15 +59,15 @@ For let :g:`$BA$ <0295.g1:/ B A />`, :g:`$BC$ <0295.g1:/ B C />`, :g:`$ED$ <0295
 
 .. assertion:: [I. 33] <I.33>
 
-   therefore :g:`$AC$ <0295.g1:/ A C />` is also equal and, parallel to :g:`$DF$ <0295.g1:/ D F />`.
+   therefore :g:`$AC$ <0295.g1:/ A C />` is also :eq:`equal <0295.g1:/ A C / = 0295.g1:/ D F />` and, parallel to :g:`$DF$ <0295.g1:/ D F />`.
 
 .. subclause::
 
-   Now, since the two sides :g:`$AB$ <0295.g1:/ A B />`, :g:`$BC$ <0295.g1:/ B C />` are equal to the two sides :g:`$DE$ <0295.g1:/ D E />`, :g:`$EF$ <0295.g1:/ E F />`, and the base :g:`$AC$ <0295.g1:/ A C />` is equal to the base :g:`$DF$ <0295.g1:/ D F />`,
+   Now, since the two sides :g:`$AB$ <0295.g1:/ A B />`, :g:`$BC$ <0295.g1:/ B C />` are :eq:`equal <0295.g1:/ A B / = 0295.g1:/ D E /; 0295.g1:/ B C / = 0295.g1:/ E F />` to the two sides :g:`$DE$ <0295.g1:/ D E />`, :g:`$EF$ <0295.g1:/ E F />`, and the base :g:`$AC$ <0295.g1:/ A C />` is :eq:`equal <0295.g1:/ A C / = 0295.g1:/ D F />` to the base :g:`$DF$ <0295.g1:/ D F />`,
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$ABC$ <0295.g1:< A B C )>` is equal to the angle :g:`$DEF$ <0295.g1:< D E F )>`.
+   therefore the angle :g:`$ABC$ <0295.g1:< A B C )>` is :eq:`equal <0295.g1:< A B C ) = 0295.g1:< D E F )>` to the angle :g:`$DEF$ <0295.g1:< D E F )>`.
 
 .. qed::
 
