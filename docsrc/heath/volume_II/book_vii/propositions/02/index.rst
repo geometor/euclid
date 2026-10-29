@@ -154,9 +154,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.12" [label="VII.def.12", fillcolor="#224422", URL="../../definitions/index.html#vii-def-12", target="_top"];
-     "VII.1" [label="VII.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
-     "VII.2" [label="VII.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
+     "VII.1" [label="VII.1", fillcolor="#222244", tooltip="VII.1: Two unequal numbers being set out, and the less being continually subtracted in turn from the greater, if the number which is left never measures the one before it until an unit…", URL="../01/index.html", target="_top"];
+     "VII.2" [label="VII.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.2: Given two numbers not prime to one another, to find their greatest common measure.", URL="index.html", target="_top"];
      "VII.1" -> "VII.def.12";
      "VII.2" -> "VII.1";
    }

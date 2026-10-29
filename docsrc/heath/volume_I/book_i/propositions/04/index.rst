@@ -86,8 +86,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "I.cn.4" [label="I.cn.4", fillcolor="#442222", URL="../../common_notions/index.html#i-cn-4", target="_top"];
-     "I.4" [label="I.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "I.cn.4" [label="I.cn.4", fillcolor="#442222", tooltip="I.cn.4: Things which coincide with one another are equal to one another.", URL="../../common_notions/index.html#i-cn-4", target="_top"];
+     "I.4" [label="I.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="I.4: If two triangles have the two sides equal to two sides respectively, and have the angles contained by the equal straight lines equal, they will also have the base equal to the…", URL="index.html", target="_top"];
      "I.4" -> "I.cn.4";
    }
 

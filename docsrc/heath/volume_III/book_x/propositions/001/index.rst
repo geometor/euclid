@@ -84,8 +84,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.def.4" [label="V.def.4", fillcolor="#224422", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
-     "X.1" [label="X.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
+     "X.1" [label="X.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.1: Two unequal magnitudes being set out, if from the greater there be subtracted a magnitude greater than its half, and from that which is left a magnitude greater than its half, and…", URL="index.html", target="_top"];
      "X.1" -> "V.def.4";
    }
 

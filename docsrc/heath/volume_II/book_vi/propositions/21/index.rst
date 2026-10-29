@@ -70,8 +70,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VI.def.1" [label="VI.def.1", fillcolor="#224422", URL="../../definitions/index.html#vi-def-1", target="_top"];
-     "VI.21" [label="VI.21", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VI.def.1" [label="VI.def.1", fillcolor="#224422", tooltip="VI.def.1: Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional.", URL="../../definitions/index.html#vi-def-1", target="_top"];
+     "VI.21" [label="VI.21", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VI.21: Figures which are similar to the same rectilineal figure are also similar to one another.", URL="index.html", target="_top"];
      "VI.21" -> "VI.def.1";
    }
 

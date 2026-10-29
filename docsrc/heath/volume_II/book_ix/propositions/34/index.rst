@@ -72,7 +72,7 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.8" [label="VII.def.8", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-8", target="_top"];
-     "IX.34" [label="IX.34", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.8" [label="VII.def.8", fillcolor="#224422", tooltip="VII.def.8: An even-times even number is that which is measured by an even number according to an even number.", URL="../../../book_vii/definitions/index.html#vii-def-8", target="_top"];
+     "IX.34" [label="IX.34", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.34: If a number neither be one of those which are continually doubled from a dyad, nor have its half odd, it is both even-times even and even-times odd.", URL="index.html", target="_top"];
      "IX.34" -> "VII.def.8";
    }

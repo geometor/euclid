@@ -76,8 +76,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.12" [label="VII.def.12", fillcolor="#224422", URL="../../definitions/index.html#vii-def-12", target="_top"];
-     "VII.23" [label="VII.23", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
+     "VII.23" [label="VII.23", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.23: If two numbers be prime to one another, the number which measures the one of them will be prime to the remaining number.", URL="index.html", target="_top"];
      "VII.23" -> "VII.def.12";
    }
 
