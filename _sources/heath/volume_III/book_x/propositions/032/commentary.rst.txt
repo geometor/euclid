@@ -83,9 +83,9 @@ $$\begin{array}{lcc}
 LEMMA.
 ~~~~~~
 
-Let :g:`$ABC$ <0078.g1:< A B C >>` be a right-angled triangle having the angle :g:`$A$ <0078.g1:< B A C )>` right, and let the :eq:`perpendicular <0078.g1:< A D B ) = 0078.g1:< A D C )>` :g:`$AD$ <0078.g1:/ A D />` be drawn ;
+Let :g:`ABC <0078.g1:< A B C >>` be a right-angled triangle having the angle :g:`A <0078.g1:< B A C )>` right, and let the :eq:`perpendicular <0078.g1:< A D B ) = 0078.g1:< A D C )>` :g:`AD <0078.g1:/ A D />` be drawn ;
 
-I say that the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B D />` is equal to the square on :g:`$BA$ <0078.g1:/ B A />`, the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$CD$ <0078.g1:/ C D />` equal to the square on :g:`$CA$ <0078.g1:/ C A />`, the rectangle :g:`$BD$ <0078.g1:/ B D />`, :g:`$DC$ <0078.g1:/ D C />` equal to the square on :g:`$AD$ <0078.g1:/ A D />`, and, further, the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$AD$ <0078.g1:/ A D />` equal to the rectangle :g:`$BA$ <0078.g1:/ B A />`, :g:`$AC$ <0078.g1:/ A C />`.
+I say that the rectangle :g:`CB <0078.g1:/ C B />`, :g:`BD <0078.g1:/ B D />` is equal to the square on :g:`BA <0078.g1:/ B A />`, the rectangle :g:`BC <0078.g1:/ B C />`, :g:`CD <0078.g1:/ C D />` equal to the square on :g:`CA <0078.g1:/ C A />`, the rectangle :g:`BD <0078.g1:/ B D />`, :g:`DC <0078.g1:/ D C />` equal to the square on :g:`AD <0078.g1:/ A D />`, and, further, the rectangle :g:`BC <0078.g1:/ B C />`, :g:`AD <0078.g1:/ A D />` equal to the rectangle :g:`BA <0078.g1:/ B A />`, :g:`AC <0078.g1:/ A C />`.
 
 .. picture:: 0078.g1.svg
    :alt: Lemma diagram
@@ -95,27 +95,27 @@ I say that the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B D />
 .. folio:: 0079
    :page: 75
 
-And first that the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B D />` is equal to the square on :g:`$BA$ <0078.g1:/ B A />`.
+And first that the rectangle :g:`CB <0078.g1:/ C B />`, :g:`BD <0078.g1:/ B D />` is equal to the square on :g:`BA <0078.g1:/ B A />`.
 
 .. subclause::
 
-   For, since in a right-angled triangle :g:`$AD$ <0078.g1:/ A D />` has been drawn from the right angle :eq:`perpendicular <0078.g1:< A D B ) = 0078.g1:< A D C )>` to the base,
+   For, since in a right-angled triangle :g:`AD <0078.g1:/ A D />` has been drawn from the right angle :eq:`perpendicular <0078.g1:< A D B ) = 0078.g1:< A D C )>` to the base,
 
 .. assertion::
 
-   therefore the triangles :g:`$ABD$ <0078.g1:< A B D >>`, :g:`$ADC$ <0078.g1:< A D C >>` are similar both to the whole :g:`$ABC$ <0078.g1:< A B C >>` and to one another. :just:`[VI. 8] <VI.8>`
+   therefore the triangles :g:`ABD <0078.g1:< A B D >>`, :g:`ADC <0078.g1:< A D C >>` are similar both to the whole :g:`ABC <0078.g1:< A B C >>` and to one another. :just:`[VI. 8] <VI.8>`
 
 .. subclause::
 
-   And since the triangle :g:`$ABC$ <0078.g1:< A B C >>` is similar to the triangle :g:`$ABD$ <0078.g1:< A B D >>`,
+   And since the triangle :g:`ABC <0078.g1:< A B C >>` is similar to the triangle :g:`ABD <0078.g1:< A B D >>`,
 
 .. assertion::
 
-   therefore, as :g:`$CB$ <0078.g1:/ C B />` is to :g:`$BA$ <0078.g1:/ B A />`, so is :g:`$BA$ <0078.g1:/ B A />` to :g:`$BD$ <0078.g1:/ B D />` ; :just:`[VI. 4] <VI.4>` therefore the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B D />` is equal to the square on :g:`$AB$ <0078.g1:/ A B />`. :just:`[VI. 17] <VI.17>`
+   therefore, as :g:`CB <0078.g1:/ C B />` is to :g:`BA <0078.g1:/ B A />`, so is :g:`BA <0078.g1:/ B A />` to :g:`BD <0078.g1:/ B D />` ; :just:`[VI. 4] <VI.4>` therefore the rectangle :g:`CB <0078.g1:/ C B />`, :g:`BD <0078.g1:/ B D />` is equal to the square on :g:`AB <0078.g1:/ A B />`. :just:`[VI. 17] <VI.17>`
 
 .. subclause::
 
-   For the same reason the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$CD$ <0078.g1:/ C D />` is also equal to the square on :g:`$AC$ <0078.g1:/ A C />`.
+   For the same reason the rectangle :g:`BC <0078.g1:/ B C />`, :g:`CD <0078.g1:/ C D />` is also equal to the square on :g:`AC <0078.g1:/ A C />`.
 
 .. subclause::
 
@@ -123,21 +123,21 @@ And first that the rectangle :g:`$CB$ <0078.g1:/ C B />`, :g:`$BD$ <0078.g1:/ B 
 
 .. assertion::
 
-   therefore, as :g:`$BD$ <0078.g1:/ B D />` is to :g:`$DA$ <0078.g1:/ D A />`, so is :g:`$AD$ <0078.g1:/ A D />` to :g:`$DC$ <0078.g1:/ D C />` ; therefore the rectangle :g:`$BD$ <0078.g1:/ B D />`, :g:`$DC$ <0078.g1:/ D C />` is equal to the square on :g:`$AD$ <0078.g1:/ A D />`. :just:`[VI. 17] <VI.17>`
+   therefore, as :g:`BD <0078.g1:/ B D />` is to :g:`DA <0078.g1:/ D A />`, so is :g:`AD <0078.g1:/ A D />` to :g:`DC <0078.g1:/ D C />` ; therefore the rectangle :g:`BD <0078.g1:/ B D />`, :g:`DC <0078.g1:/ D C />` is equal to the square on :g:`AD <0078.g1:/ A D />`. :just:`[VI. 17] <VI.17>`
 
-I say that the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$AD$ <0078.g1:/ A D />` is also equal to the rectangle :g:`$BA$ <0078.g1:/ B A />`, :g:`$AC$ <0078.g1:/ A C />`.
+I say that the rectangle :g:`BC <0078.g1:/ B C />`, :g:`AD <0078.g1:/ A D />` is also equal to the rectangle :g:`BA <0078.g1:/ B A />`, :g:`AC <0078.g1:/ A C />`.
 
 .. subclause::
 
-   For since, as we said, :g:`$ABC$ <0078.g1:< A B C >>` is similar to :g:`$ABD$ <0078.g1:< A B D >>`,
+   For since, as we said, :g:`ABC <0078.g1:< A B C >>` is similar to :g:`ABD <0078.g1:< A B D >>`,
 
 .. assertion:: [VI. 4] <VI.4>
 
-   therefore, as :g:`$BC$ <0078.g1:/ B C />` is to :g:`$CA$ <0078.g1:/ C A />`, so is :g:`$BA$ <0078.g1:/ B A />` to :g:`$AD$ <0078.g1:/ A D />`.
+   therefore, as :g:`BC <0078.g1:/ B C />` is to :g:`CA <0078.g1:/ C A />`, so is :g:`BA <0078.g1:/ B A />` to :g:`AD <0078.g1:/ A D />`.
 
 .. assertion::
 
-   Therefore the rectangle :g:`$BC$ <0078.g1:/ B C />`, :g:`$AD$ <0078.g1:/ A D />` is equal to the rectangle :g:`$BA$ <0078.g1:/ B A />`, :g:`$AC$ <0078.g1:/ A C />`. :just:`[VI. 16] <VI.16>`
+   Therefore the rectangle :g:`BC <0078.g1:/ B C />`, :g:`AD <0078.g1:/ A D />` is equal to the rectangle :g:`BA <0078.g1:/ B A />`, :g:`AC <0078.g1:/ A C />`. :just:`[VI. 16] <VI.16>`
 
 .. qed::
 

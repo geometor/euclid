@@ -20,26 +20,26 @@ PROPOSITION 34.
 
    If a number neither be one of those which are continually doubled from a dyad, nor have its half odd, it is both even-times even and even-times odd.
 
-For let the number :g:`$A$ <0425.g2:A>` neither be one of those doubled from a dyad, nor have its half odd;
+For let the number :g:`A <0425.g2:A>` neither be one of those doubled from a dyad, nor have its half odd;
 
-I say that :g:`$A$ <0425.g2:A>` is both even-times even and even-times odd.
+I say that :g:`A <0425.g2:A>` is both even-times even and even-times odd.
 
 .. picture:: 0425.g2.svg
    :alt: Proposition 34 Diagram
 
 .. assertion::
 
-   Now that :g:`$A$ <0425.g2:A>` is even-times even is manifest; for it has not its half odd. :just:`[VII. Def. 8] <VII.def.8>`
+   Now that :g:`A <0425.g2:A>` is even-times even is manifest; for it has not its half odd. :just:`[VII. Def. 8] <VII.def.8>`
 
 I say next that it is also even-times odd.
 
 .. subclause::
 
-   For, if we bisect :g:`$A$ <0425.g2:A>`, then bisect its half, and do this continually, we shall come upon some odd number which will measure :g:`$A$ <0425.g2:A>` according to an even number.
+   For, if we bisect :g:`A <0425.g2:A>`, then bisect its half, and do this continually, we shall come upon some odd number which will measure :g:`A <0425.g2:A>` according to an even number.
 
 .. subclause::
 
-   For, if not, we shall come upon a dyad, and :g:`$A$ <0425.g2:A>` will be among those which are doubled from a dyad: which is contrary to the hypothesis.
+   For, if not, we shall come upon a dyad, and :g:`A <0425.g2:A>` will be among those which are doubled from a dyad: which is contrary to the hypothesis.
 
 .. _folio-ii-0426:
 
@@ -48,7 +48,7 @@ I say next that it is also even-times odd.
 
 .. assertion::
 
-   Thus :g:`$A$ <0425.g2:A>` is even-times odd.
+   Thus :g:`A <0425.g2:A>` is even-times odd.
 
 .. subclause::
 
@@ -56,7 +56,7 @@ I say next that it is also even-times odd.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0425.g2:A>` is both even-times even and even-times odd.
+   Therefore :g:`A <0425.g2:A>` is both even-times even and even-times odd.
 
 .. qed::
 

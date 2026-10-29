@@ -22,45 +22,45 @@ PROPOSITION 20.
 
    If a rational area be applied to a rational straight line, it produces as breadth a straight line rational and commensurable in length with the straight line to which it is applied.
 
-For let the rational area :g:`$AC$ <0053.g1:< A C >>` be applied to :g:`$AB$ <0053.g1:/ A B />`, a straight line once more rational in any of the aforesaid ways, producing :g:`$BC$ <0053.g1:/ B C />` as breadth; I say that :g:`$BC$ <0053.g1:/ B C />` is rational and commensurable in length with :g:`$BA$ <0053.g1:/ B A />`.
+For let the rational area :g:`AC <0053.g1:< A C >>` be applied to :g:`AB <0053.g1:/ A B />`, a straight line once more rational in any of the aforesaid ways, producing :g:`BC <0053.g1:/ B C />` as breadth; I say that :g:`BC <0053.g1:/ B C />` is rational and commensurable in length with :g:`BA <0053.g1:/ B A />`.
 
-For on :g:`$AB$ <0053.g1:/ A B />` let the square :g:`$AD$ <0053.g1:< A D >>` be described;
+For on :g:`AB <0053.g1:/ A B />` let the square :g:`AD <0053.g1:< A D >>` be described;
 
 .. assertion:: [X. Def. 4] <X.def.4>
 
-   therefore :g:`$AD$ <0053.g1:< A D >>` is rational.
+   therefore :g:`AD <0053.g1:< A D >>` is rational.
 
 .. subclause::
 
-   But :g:`$AC$ <0053.g1:< A C >>` is also rational;
+   But :g:`AC <0053.g1:< A C >>` is also rational;
 
 .. assertion::
 
-   therefore :g:`$DA$ <0053.g1:< D A >>` is commensurable with :g:`$AC$ <0053.g1:< A C >>`.
+   therefore :g:`DA <0053.g1:< D A >>` is commensurable with :g:`AC <0053.g1:< A C >>`.
 
 .. subclause:: [VI. 1] <VI.1>
 
-   And, as :g:`$DA$ <0053.g1:< D A >>` is to :g:`$AC$ <0053.g1:< A C >>`, so is :g:`$DB$ <0053.g1:/ D B />` to :g:`$BC$ <0053.g1:/ B C />`.
+   And, as :g:`DA <0053.g1:< D A >>` is to :g:`AC <0053.g1:< A C >>`, so is :g:`DB <0053.g1:/ D B />` to :g:`BC <0053.g1:/ B C />`.
 
 .. assertion:: [X. 11] <X.11>
 
-   Therefore :g:`$DB$ <0053.g1:/ D B />` is also commensurable with :g:`$BC$ <0053.g1:/ B C />`;
+   Therefore :g:`DB <0053.g1:/ D B />` is also commensurable with :g:`BC <0053.g1:/ B C />`;
 
 .. subclause::
 
-   and :g:`$DB$ <0053.g1:/ D B />` is :eq:`equal <0053.g1:/ D B / = 0053.g1:/ B A />` to :g:`$BA$ <0053.g1:/ B A />`;
+   and :g:`DB <0053.g1:/ D B />` is :eq:`equal <0053.g1:/ D B / = 0053.g1:/ B A />` to :g:`BA <0053.g1:/ B A />`;
 
 .. assertion::
 
-   therefore :g:`$AB$ <0053.g1:/ A B />` is also commensurable with :g:`$BC$ <0053.g1:/ B C />`.
+   therefore :g:`AB <0053.g1:/ A B />` is also commensurable with :g:`BC <0053.g1:/ B C />`.
 
 .. subclause::
 
-   But :g:`$AB$ <0053.g1:/ A B />` is rational;
+   But :g:`AB <0053.g1:/ A B />` is rational;
 
 .. assertion::
 
-   therefore :g:`$BC$ <0053.g1:/ B C />` is also rational and commensurable in length with :g:`$AB$ <0053.g1:/ A B />`.
+   therefore :g:`BC <0053.g1:/ B C />` is also rational and commensurable in length with :g:`AB <0053.g1:/ A B />`.
 
 .. qed::
 

@@ -17,9 +17,9 @@ Back to :ref:`Proposition IV.4 <IV.4>`.
 .. folio:: 0092
    :page: 86
 
-Euclid does not think it necessary to prove that :g:`$BD$ <0091.g1:/ B D />`, :g:`$CD$ <0091.g1:/ C D />` *will* meet; this is indeed obvious, for the angles :g:`$DBC$ <0091.g1:< D B C )>`, :g:`$DCB$ <0091.g1:< D C B )>` are together half of the angles :g:`$ABC$ <0091.g1:< A B C )>`, :g:`$ACB$ <0091.g1:< A C B )>`, which themselves are together less than two right angles, and therefore the two bisectors of the angles :g:`$B$ <0091.g1:< A B C )>`, :g:`$C$ <0091.g1:< A C B )>` must meet, by Post. 5.
+Euclid does not think it necessary to prove that :g:`BD <0091.g1:/ B D />`, :g:`CD <0091.g1:/ C D />` *will* meet; this is indeed obvious, for the angles :g:`DBC <0091.g1:< D B C )>`, :g:`DCB <0091.g1:< D C B )>` are together half of the angles :g:`ABC <0091.g1:< A B C )>`, :g:`ACB <0091.g1:< A C B )>`, which themselves are together less than two right angles, and therefore the two bisectors of the angles :g:`B <0091.g1:< A B C )>`, :g:`C <0091.g1:< A C B )>` must meet, by Post. 5.
 
-It follows from the proof of this proposition that, if the bisectors of two angles :g:`$B$ <0091.g1:< A B C )>`, :g:`$C$ <0091.g1:< A C B )>` of a triangle meet in :g:`$D$ <0091.g1:D>`, the line joining :g:`$D$ <0091.g1:D>` to :g:`$A$ <0091.g1:A>` also bisects the third angle :g:`$A$ <0091.g1:< B A C )>`, or the bisectors of the three angles of a triangle meet in a point.
+It follows from the proof of this proposition that, if the bisectors of two angles :g:`B <0091.g1:< A B C )>`, :g:`C <0091.g1:< A C B )>` of a triangle meet in :g:`D <0091.g1:D>`, the line joining :g:`D <0091.g1:D>` to :g:`A <0091.g1:A>` also bisects the third angle :g:`A <0091.g1:< B A C )>`, or the bisectors of the three angles of a triangle meet in a point.
 
 It will be observed that Euclid uses the *indirect* form of proof when showing that the circle touches the three sides of the triangle. :person:`Simson <simson>` proves it directly, and points out that Euclid does the same in III. 17, 33 and 37, whereas in IV. 8 and 13 as well as here he uses the *indirect* form. The difference is unimportant, being one of form and not of substance; the indirect proof refers back to III. 16, whereas the direct refers back to the Porism to that proposition.
 
@@ -41,14 +41,14 @@ $$\Delta = \sqrt{s(s - a)(s - b)(s - c)},$$
 
 although it requires the theory of proportions and uses some ungeometrical expressions, e.g. the product of two areas and the "side" of such a product, where of course the areas are so many square units of length. The proof is given in the :cite:`*Metrica* <heron:metrica>`, I. 8, and in the :cite:`*Dioptra* <heron:dioptra>`, 30 (:person:`Heron <heron>`, Vol. III., Teubner, 1903, pp. 20—24 and pp. 280—4, or :person:`Heron <heron>`, ed. :person:`Hultsch <hultsch>`, pp. 235—7).
 
-Suppose the sides of the triangle :g:`$ABC$ <0093.g1:< A B C >>` to be given in length.
+Suppose the sides of the triangle :g:`ABC <0093.g1:< A B C >>` to be given in length.
 
-Inscribe the circle :g:`$DEF$ <0093.g1:( D E F )>`, and let :g:`$G$ <0093.g1:G>` be its centre.
+Inscribe the circle :g:`DEF <0093.g1:( D E F )>`, and let :g:`G <0093.g1:G>` be its centre.
 
 .. picture:: 0093.g1.svg
    :alt: Heron's proof diagram
 
-Join :g:`$AG$ <0093.g1:/ A G />`, :g:`$BG$ <0093.g1:/ B G />`, :g:`$CG$ <0093.g1:/ C G />`, :g:`$DG$ <0093.g1:/ D G />`, :g:`$EG$ <0093.g1:/ E G />`, :g:`$FG$ <0093.g1:/ F G />`.
+Join :g:`AG <0093.g1:/ A G />`, :g:`BG <0093.g1:/ B G />`, :g:`CG <0093.g1:/ C G />`, :g:`DG <0093.g1:/ D G />`, :g:`EG <0093.g1:/ E G />`, :g:`FG <0093.g1:/ F G />`.
 
 Then
 
@@ -64,9 +64,9 @@ $$p \cdot EG = 2 \cdot \Delta ABC,$$
 
 where $p$ is the perimeter.
 
-Produce :g:`$CB$ <0093.g1:/ C B />` to :g:`$H$ <0093.g1:H>`, so that :g:`$BH$ <0093.g1:/ B H />` :eq:`= <0093.g1:/ B H / = 0093.g1:/ A D />` :g:`$AD$ <0093.g1:/ A D />`.
+Produce :g:`CB <0093.g1:/ C B />` to :g:`H <0093.g1:H>`, so that :g:`BH <0093.g1:/ B H />` :eq:`= <0093.g1:/ B H / = 0093.g1:/ A D />` :g:`AD <0093.g1:/ A D />`.
 
-Then, since :g:`$AD$ <0093.g1:/ A D />` :eq:`= <0093.g1:/ A D / = 0093.g1:/ A F />` :g:`$AF$ <0093.g1:/ A F />`, :g:`$DB$ <0093.g1:/ D B />` :eq:`= <0093.g1:/ D B / = 0093.g1:/ B E />` :g:`$BE$ <0093.g1:/ B E />`, :g:`$FC$ <0093.g1:/ F C />` :eq:`= <0093.g1:/ F C / = 0093.g1:/ C E />` :g:`$CE$ <0093.g1:/ C E />`,
+Then, since :g:`AD <0093.g1:/ A D />` :eq:`= <0093.g1:/ A D / = 0093.g1:/ A F />` :g:`AF <0093.g1:/ A F />`, :g:`DB <0093.g1:/ D B />` :eq:`= <0093.g1:/ D B / = 0093.g1:/ B E />` :g:`BE <0093.g1:/ B E />`, :g:`FC <0093.g1:/ F C />` :eq:`= <0093.g1:/ F C / = 0093.g1:/ C E />` :g:`CE <0093.g1:/ C E />`,
 
 $$CH = \tfrac{1}{2}p.$$
 
@@ -79,24 +79,24 @@ $$CH \cdot EG = \Delta ABC.$$
 .. folio:: 0094
    :page: 88
 
-But :g:`$CH$ <0093.g1:/ C H />` · :g:`$EG$ <0093.g1:/ E G />` is the "side" of the product $CH^2 \cdot EG^2$, that is $\sqrt{CH^2 \cdot EG^2}$;
+But :g:`CH <0093.g1:/ C H />` · :g:`EG <0093.g1:/ E G />` is the "side" of the product $CH^2 \cdot EG^2$, that is $\sqrt{CH^2 \cdot EG^2}$;
 therefore
 
 $$(\Delta ABC)^2 = CH^2 \cdot EG^2.$$
 
-Draw :g:`$GL$ <0093.g1:/ G L />` at right angles to :g:`$CG$ <0093.g1:/ C G />`, and :g:`$BL$ <0093.g1:/ B L />` at right angles to :g:`$CB$ <0093.g1:/ C B />`, meeting at :g:`$L$ <0093.g1:L>`. Join :g:`$CL$ <0093.g1:/ C L />`.
+Draw :g:`GL <0093.g1:/ G L />` at right angles to :g:`CG <0093.g1:/ C G />`, and :g:`BL <0093.g1:/ B L />` at right angles to :g:`CB <0093.g1:/ C B />`, meeting at :g:`L <0093.g1:L>`. Join :g:`CL <0093.g1:/ C L />`.
 
-Then, since each of the angles :g:`$CGL$ <0093.g1:< C G L )>`, :g:`$CBL$ <0093.g1:< C B L )>` is right, :g:`$CGBL$ <0093.g1:< C G B L >>` is a quadrilateral in a circle.
+Then, since each of the angles :g:`CGL <0093.g1:< C G L )>`, :g:`CBL <0093.g1:< C B L )>` is right, :g:`CGBL <0093.g1:< C G B L >>` is a quadrilateral in a circle.
 
-Therefore the angles :g:`$CGB$ <0093.g1:< C G B )>`, :g:`$CLB$ <0093.g1:< C L B )>` are equal to two right angles.
+Therefore the angles :g:`CGB <0093.g1:< C G B )>`, :g:`CLB <0093.g1:< C L B )>` are equal to two right angles.
 
-Now the angles :g:`$CGB$ <0093.g1:< C G B )>`, :g:`$AGD$ <0093.g1:< A G D )>` are equal to two right angles, since :g:`$AG$ <0093.g1:/ A G />`, :g:`$BG$ <0093.g1:/ B G />`, :g:`$CG$ <0093.g1:/ C G />` bisect the angles at :g:`$G$ <0093.g1:G>`, and the angles :g:`$CGB$ <0093.g1:< C G B )>`, :g:`$AGD$ <0093.g1:< A G D )>` are equal to the angles :g:`$AGC$ <0093.g1:< A G C )>`, :g:`$DGB$ <0093.g1:< D G B )>`, while the sum of all four is equal to four right angles.
+Now the angles :g:`CGB <0093.g1:< C G B )>`, :g:`AGD <0093.g1:< A G D )>` are equal to two right angles, since :g:`AG <0093.g1:/ A G />`, :g:`BG <0093.g1:/ B G />`, :g:`CG <0093.g1:/ C G />` bisect the angles at :g:`G <0093.g1:G>`, and the angles :g:`CGB <0093.g1:< C G B )>`, :g:`AGD <0093.g1:< A G D )>` are equal to the angles :g:`AGC <0093.g1:< A G C )>`, :g:`DGB <0093.g1:< D G B )>`, while the sum of all four is equal to four right angles.
 
-Therefore the angles :g:`$AGD$ <0093.g1:< A G D )>`, :g:`$CLB$ <0093.g1:< C L B )>` are :eq:`equal <0093.g1:< A G D ) = 0093.g1:< C L B )>`.
+Therefore the angles :g:`AGD <0093.g1:< A G D )>`, :g:`CLB <0093.g1:< C L B )>` are :eq:`equal <0093.g1:< A G D ) = 0093.g1:< C L B )>`.
 
-So are the :eq:`right <0093.g1:< A D G ) = 0093.g1:< C B L )>` angles :g:`$ADG$ <0093.g1:< A D G )>`, :g:`$CBL$ <0093.g1:< C B L )>`.
+So are the :eq:`right <0093.g1:< A D G ) = 0093.g1:< C B L )>` angles :g:`ADG <0093.g1:< A D G )>`, :g:`CBL <0093.g1:< C B L )>`.
 
-Therefore the triangles :g:`$AGD$ <0093.g1:< A G D >>`, :g:`$CLB$ <0093.g1:< C L B >>` are similar.
+Therefore the triangles :g:`AGD <0093.g1:< A G D >>`, :g:`CLB <0093.g1:< C L B >>` are similar.
 
 Hence
 
@@ -127,4 +127,4 @@ Therefore
 
 .. container:: center
 
-   (\Delta :g:`$ABC$ <0094.g1:< A B C >>`)^2 = CH^2 \cdot EG^2 = CH \cdot HB \cdot CE \cdot EB = \tfrac{1}{2}p\,(\tfrac{1}{2}p - BC)(\tfrac{1}{2}p - AB)(\tfrac{1}{2}p - AC).
+   (\Delta :g:`ABC <0094.g1:< A B C >>`)^2 = CH^2 \cdot EG^2 = CH \cdot HB \cdot CE \cdot EB = \tfrac{1}{2}p\,(\tfrac{1}{2}p - BC)(\tfrac{1}{2}p - AB)(\tfrac{1}{2}p - AC).

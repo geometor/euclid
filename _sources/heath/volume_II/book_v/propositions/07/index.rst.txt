@@ -20,51 +20,51 @@ PROPOSITION 7.
 
    Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.
 
-Let :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>` be :eq:`equal <0154.g1:A = 0154.g1:B>` magnitudes and :g:`$C$ <0154.g1:C>` any other, chance, magnitude;
+Let :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` be :eq:`equal <0154.g1:A = 0154.g1:B>` magnitudes and :g:`C <0154.g1:C>` any other, chance, magnitude;
 
-I say that each of the magnitudes :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>` has the same ratio to :g:`$C$ <0154.g1:C>`, and :g:`$C$ <0154.g1:C>` has the same ratio to each of the magnitudes :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>`.
+I say that each of the magnitudes :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` has the same ratio to :g:`C <0154.g1:C>`, and :g:`C <0154.g1:C>` has the same ratio to each of the magnitudes :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>`.
 
 .. picture:: 0154.g1.svg
    :alt: Proposition 7 Diagram
 
-For let equimultiples :g:`$D$ <0154.g1:D>`, :g:`$E$ <0154.g1:E>` of :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>` be taken, and of :g:`$C$ <0154.g1:C>` another, chance, multiple :g:`$F$ <0154.g1:F>`.
+For let equimultiples :g:`D <0154.g1:D>`, :g:`E <0154.g1:E>` of :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` be taken, and of :g:`C <0154.g1:C>` another, chance, multiple :g:`F <0154.g1:F>`.
 
-Then, since :g:`$D$ <0154.g1:D>` is the same multiple of :g:`$A$ <0154.g1:A>` that :g:`$E$ <0154.g1:E>` is of :g:`$B$ <0154.g1:B>`,
+Then, since :g:`D <0154.g1:D>` is the same multiple of :g:`A <0154.g1:A>` that :g:`E <0154.g1:E>` is of :g:`B <0154.g1:B>`,
 
 .. subclause::
 
-   while :g:`$A$ <0154.g1:A>` is :eq:`equal <0154.g1:A = 0154.g1:B>` to :g:`$B$ <0154.g1:B>`,
+   while :g:`A <0154.g1:A>` is :eq:`equal <0154.g1:A = 0154.g1:B>` to :g:`B <0154.g1:B>`,
 
 .. assertion::
 
-   therefore :g:`$D$ <0154.g1:D>` is :eq:`equal <0154.g1:D = 0154.g1:E>` to :g:`$E$ <0154.g1:E>`.
+   therefore :g:`D <0154.g1:D>` is :eq:`equal <0154.g1:D = 0154.g1:E>` to :g:`E <0154.g1:E>`.
 
-But :g:`$F$ <0154.g1:F>` is another, chance, magnitude.
+But :g:`F <0154.g1:F>` is another, chance, magnitude.
 
 .. _folio-ii-0155:
 
 .. folio:: 0155
    :page: 149
 
-If therefore :g:`$D$ <0154.g1:D>` is in excess of :g:`$F$ <0154.g1:F>`, :g:`$E$ <0154.g1:E>` is also in excess of :g:`$F$ <0154.g1:F>`, if :eq:`equal <0154.g1:D = 0154.g1:F>` to it, :eq:`equal <0154.g1:E = 0154.g1:F>`; and, if less, less.
+If therefore :g:`D <0154.g1:D>` is in excess of :g:`F <0154.g1:F>`, :g:`E <0154.g1:E>` is also in excess of :g:`F <0154.g1:F>`, if :eq:`equal <0154.g1:D = 0154.g1:F>` to it, :eq:`equal <0154.g1:E = 0154.g1:F>`; and, if less, less.
 
-And :g:`$D$ <0154.g1:D>`, :g:`$E$ <0154.g1:E>` are equimultiples of :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>`, while :g:`$F$ <0154.g1:F>` is another, chance, multiple of :g:`$C$ <0154.g1:C>`;
-
-.. assertion:: [V. Def. 5] <V.def.5>
-
-   therefore, as :g:`$A$ <0154.g1:A>` is to :g:`$C$ <0154.g1:C>`, so is :g:`$B$ <0154.g1:B>` to :g:`$C$ <0154.g1:C>`.
-
-I say next that :g:`$C$ <0154.g1:C>` also has the same ratio to each of the magnitudes :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>`.
-
-For, with the same construction, we can prove similarly that :g:`$D$ <0154.g1:D>` is :eq:`equal <0154.g1:D = 0154.g1:E>` to :g:`$E$ <0154.g1:E>`; and :g:`$F$ <0154.g1:F>` is some other magnitude.
-
-If therefore :g:`$F$ <0154.g1:F>` is in excess of :g:`$D$ <0154.g1:D>`, it is also in excess of :g:`$E$ <0154.g1:E>`, if :eq:`equal <0154.g1:F = 0154.g1:D>`, :eq:`equal <0154.g1:F = 0154.g1:E>`; and, if less, less.
-
-And :g:`$F$ <0154.g1:F>` is a multiple of :g:`$C$ <0154.g1:C>`, while :g:`$D$ <0154.g1:D>`, :g:`$E$ <0154.g1:E>` are other, chance, equimultiples of :g:`$A$ <0154.g1:A>`, :g:`$B$ <0154.g1:B>`;
+And :g:`D <0154.g1:D>`, :g:`E <0154.g1:E>` are equimultiples of :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>`, while :g:`F <0154.g1:F>` is another, chance, multiple of :g:`C <0154.g1:C>`;
 
 .. assertion:: [V. Def. 5] <V.def.5>
 
-   therefore, as :g:`$C$ <0154.g1:C>` is to :g:`$A$ <0154.g1:A>`, so is :g:`$C$ <0154.g1:C>` to :g:`$B$ <0154.g1:B>`.
+   therefore, as :g:`A <0154.g1:A>` is to :g:`C <0154.g1:C>`, so is :g:`B <0154.g1:B>` to :g:`C <0154.g1:C>`.
+
+I say next that :g:`C <0154.g1:C>` also has the same ratio to each of the magnitudes :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>`.
+
+For, with the same construction, we can prove similarly that :g:`D <0154.g1:D>` is :eq:`equal <0154.g1:D = 0154.g1:E>` to :g:`E <0154.g1:E>`; and :g:`F <0154.g1:F>` is some other magnitude.
+
+If therefore :g:`F <0154.g1:F>` is in excess of :g:`D <0154.g1:D>`, it is also in excess of :g:`E <0154.g1:E>`, if :eq:`equal <0154.g1:F = 0154.g1:D>`, :eq:`equal <0154.g1:F = 0154.g1:E>`; and, if less, less.
+
+And :g:`F <0154.g1:F>` is a multiple of :g:`C <0154.g1:C>`, while :g:`D <0154.g1:D>`, :g:`E <0154.g1:E>` are other, chance, equimultiples of :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>`;
+
+.. assertion:: [V. Def. 5] <V.def.5>
+
+   therefore, as :g:`C <0154.g1:C>` is to :g:`A <0154.g1:A>`, so is :g:`C <0154.g1:C>` to :g:`B <0154.g1:B>`.
 
 Therefore etc.
 

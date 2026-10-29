@@ -21,18 +21,18 @@ In the enunciation of this proposition we have ὑποτείνειν (“subtend
 
 “In order to assist the student in remembering which of these two propositions [I. 18, 19] is demonstrated directly and which indirectly, it may be observed that the order is similar to that in I. 5 and I. 6” (:person:`Todhunter <todhunter>`).
 
-An alternative proof of I. 18 given by :person:`Porphyry <porphyry>` (see :person:`Proclus <proclus>`, :cite:`pp. 315, 11—316, 13 <proclus:in-euclid:315.11-316.13>`) is interesting. It starts by supposing a length :eq:`equal <0297.g2:/ C D / = 0297.g2:/ A B />` to :g:`$AB$ <0297.g2:/ A B />` cut off from the other end of :g:`$AC$ <0297.g2:/ A C />`; that is, :g:`$CD$ <0297.g2:/ C D />` and not :g:`$AD$ <0297.g2:/ A D />` is made :eq:`equal <0297.g2:/ C D / = 0297.g2:/ A B />` to :g:`$AB$ <0297.g2:/ A B />`.
+An alternative proof of I. 18 given by :person:`Porphyry <porphyry>` (see :person:`Proclus <proclus>`, :cite:`pp. 315, 11—316, 13 <proclus:in-euclid:315.11-316.13>`) is interesting. It starts by supposing a length :eq:`equal <0297.g2:/ C D / = 0297.g2:/ A B />` to :g:`AB <0297.g2:/ A B />` cut off from the other end of :g:`AC <0297.g2:/ A C />`; that is, :g:`CD <0297.g2:/ C D />` and not :g:`AD <0297.g2:/ A D />` is made :eq:`equal <0297.g2:/ C D / = 0297.g2:/ A B />` to :g:`AB <0297.g2:/ A B />`.
 
 .. picture:: 0297.g2.svg
    :alt: Porphyry Alternative Proof of I. 18 Figure
 
-Produce :g:`$AB$ <0297.g2:/ A B />` to :g:`$E$ <0297.g2:E>` so that :g:`$BE$ <0297.g2:/ B E />` is :eq:`equal <0297.g2:/ B E / = 0297.g2:/ A D />` to :g:`$AD$ <0297.g2:/ A D />`, and join :g:`$EC$ <0297.g2:/ E C />`. Then, since :g:`$AB$ <0297.g2:/ A B />` is :eq:`equal <0297.g2:/ A B / = 0297.g2:/ C D /; 0297.g2:/ B E / = 0297.g2:/ A D />` to :g:`$CD$ <0297.g2:/ C D />`, and :g:`$BE$ <0297.g2:/ B E />` to :g:`$AD$ <0297.g2:/ A D />`, :g:`$AE$ <0297.g2:/ A E />` is :eq:`equal <0297.g2:/ A E / = 0297.g2:/ A C />` to :g:`$AC$ <0297.g2:/ A C />`.
+Produce :g:`AB <0297.g2:/ A B />` to :g:`E <0297.g2:E>` so that :g:`BE <0297.g2:/ B E />` is :eq:`equal <0297.g2:/ B E / = 0297.g2:/ A D />` to :g:`AD <0297.g2:/ A D />`, and join :g:`EC <0297.g2:/ E C />`. Then, since :g:`AB <0297.g2:/ A B />` is :eq:`equal <0297.g2:/ A B / = 0297.g2:/ C D /; 0297.g2:/ B E / = 0297.g2:/ A D />` to :g:`CD <0297.g2:/ C D />`, and :g:`BE <0297.g2:/ B E />` to :g:`AD <0297.g2:/ A D />`, :g:`AE <0297.g2:/ A E />` is :eq:`equal <0297.g2:/ A E / = 0297.g2:/ A C />` to :g:`AC <0297.g2:/ A C />`.
 
 .. _folio-i-0298:
 
 .. folio:: 0298
    :page: 284
 
-Therefore the angle :g:`$AEC$ <0297.g2:< A E C )>` is :eq:`equal <0297.g2:< A E C ) = 0297.g2:< A C E )>` to the angle :g:`$ACE$ <0297.g2:< A C E )>`. Now the angle :g:`$ABC$ <0297.g2:< A B C )>` is greater than the angle :g:`$AEC$ <0297.g2:< A E C )>`, :just:`[I. 16] <I.16>`
+Therefore the angle :g:`AEC <0297.g2:< A E C )>` is :eq:`equal <0297.g2:< A E C ) = 0297.g2:< A C E )>` to the angle :g:`ACE <0297.g2:< A C E )>`. Now the angle :g:`ABC <0297.g2:< A B C )>` is greater than the angle :g:`AEC <0297.g2:< A E C )>`, :just:`[I. 16] <I.16>`
 
-and therefore greater than the angle :g:`$ACE$ <0297.g2:< A C E )>`. Hence, *a fortiori*, the angle :g:`$ABC$ <0297.g2:< A B C )>` is greater than the angle :g:`$ACB$ <0297.g2:< A C B )>`.
+and therefore greater than the angle :g:`ACE <0297.g2:< A C E )>`. Hence, *a fortiori*, the angle :g:`ABC <0297.g2:< A B C )>` is greater than the angle :g:`ACB <0297.g2:< A C B )>`.

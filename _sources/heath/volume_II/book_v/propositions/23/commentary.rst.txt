@@ -21,7 +21,7 @@ There is an important difference between the version given by :person:`Simson <s
 
 .. assertion::
 
-   as :g:`$G$ <0187.g1:G>` is to :g:`$H$ <0187.g1:H>`, so is :g:`$M$ <0187.g1:M>` to :g:`$N$ <0187.g1:N>`,
+   as :g:`G <0187.g1:G>` is to :g:`H <0187.g1:H>`, so is :g:`M <0187.g1:M>` to :g:`N <0187.g1:N>`,
 
 or, with the notation used in the note on Prop. 20,
 
@@ -33,7 +33,7 @@ it has to be proved further that,
 
 .. assertion::
 
-   as :g:`$H$ <0187.g1:H>` is to :g:`$L$ <0187.g1:L>`, so is :g:`$K$ <0187.g1:K>` to :g:`$M$ <0187.g1:M>`,
+   as :g:`H <0187.g1:H>` is to :g:`L <0187.g1:L>`, so is :g:`K <0187.g1:K>` to :g:`M <0187.g1:M>`,
 
 or
 
@@ -43,11 +43,11 @@ or
 
 and it is clear that the latter result may be directly inferred from v. 4. The reading translated by :person:`Simson <simson>` makes this inference:
 
-"And because, as :g:`$B$ <0187.g1:B>` is to :g:`$C$ <0187.g1:C>`, so is :g:`$D$ <0187.g1:D>` to :g:`$E$ <0187.g1:E>`, and :g:`$H$ <0187.g1:H>`, :g:`$K$ <0187.g1:K>` are equimultiples of :g:`$B$ <0187.g1:B>`, :g:`$D$ <0187.g1:D>`, and :g:`$L$ <0187.g1:L>`, :g:`$M$ <0187.g1:M>` of :g:`$C$ <0187.g1:C>`, :g:`$E$ <0187.g1:E>`,
+"And because, as :g:`B <0187.g1:B>` is to :g:`C <0187.g1:C>`, so is :g:`D <0187.g1:D>` to :g:`E <0187.g1:E>`, and :g:`H <0187.g1:H>`, :g:`K <0187.g1:K>` are equimultiples of :g:`B <0187.g1:B>`, :g:`D <0187.g1:D>`, and :g:`L <0187.g1:L>`, :g:`M <0187.g1:M>` of :g:`C <0187.g1:C>`, :g:`E <0187.g1:E>`,
 
 .. assertion:: [V. 4] <V.4>
 
-   therefore, as :g:`$H$ <0187.g1:H>` is to :g:`$L$ <0187.g1:L>`, so is :g:`$K$ <0187.g1:K>` to :g:`$M$ <0187.g1:M>`."
+   therefore, as :g:`H <0187.g1:H>` is to :g:`L <0187.g1:L>`, so is :g:`K <0187.g1:K>` to :g:`M <0187.g1:M>`."
 
 The version in :person:`Heiberg <heiberg>`'s text is not only much longer (it adopts the roundabout method of using each of three Propositions v. 11, 15, 16 twice
 over), but it is open to the objection that it uses v. 16 which is only applicable if the four magnitudes are *of the same kind*; whereas v. 23, the proposition now in question, is not subject to this restriction.
@@ -57,39 +57,39 @@ over), but it is open to the objection that it uses v. 16 which is only applicab
 .. folio:: 0189
    :page: 183
 
-:person:`Simson <simson>` rightly observes that in the last step of the proof it should be stated that ":g:`$G$ <0187.g1:G>`, :g:`$K$ <0187.g1:K>` are *any equimultiples whatever* of :g:`$A$ <0187.g1:A>`, :g:`$D$ <0187.g1:D>`, and :g:`$L$ <0187.g1:L>`, :g:`$N$ <0187.g1:N>` *any whatever* of :g:`$C$ <0187.g1:C>`, :g:`$F$ <0187.g1:F>`."
+:person:`Simson <simson>` rightly observes that in the last step of the proof it should be stated that ":g:`G <0187.g1:G>`, :g:`K <0187.g1:K>` are *any equimultiples whatever* of :g:`A <0187.g1:A>`, :g:`D <0187.g1:D>`, and :g:`L <0187.g1:L>`, :g:`N <0187.g1:N>` *any whatever* of :g:`C <0187.g1:C>`, :g:`F <0187.g1:F>`."
 
 He also gives the extension of the proposition to any number of magnitudes, enunciating it thus:
 
 "If there be any number of magnitudes, and as many others, which, taken two and two, in a cross order, have the same ratio; the first shall have to the last of the first magnitudes the same ratio which the first of the others has to the last"; and adding to the proof as follows:
 
-"Next, let there be four magnitudes :g:`$A$ <0189.g1:A>`, :g:`$B$ <0189.g1:B>`, :g:`$C$ <0189.g1:C>`, :g:`$D$ <0189.g1:D>`, and other four :g:`$E$ <0189.g1:E>`, :g:`$F$ <0189.g1:F>`, :g:`$G$ <0189.g1:G>`, :g:`$H$ <0189.g1:H>`, which, taken two and two in a cross order, have the same ratio, viz.:
+"Next, let there be four magnitudes :g:`A <0189.g1:A>`, :g:`B <0189.g1:B>`, :g:`C <0189.g1:C>`, :g:`D <0189.g1:D>`, and other four :g:`E <0189.g1:E>`, :g:`F <0189.g1:F>`, :g:`G <0189.g1:G>`, :g:`H <0189.g1:H>`, which, taken two and two in a cross order, have the same ratio, viz.:
 
 .. container:: center
 
-   :g:`$A$ <0189.g1:A>` to :g:`$B$ <0189.g1:B>` as :g:`$G$ <0189.g1:G>` to :g:`$H$ <0189.g1:H>`, :g:`$B$ <0189.g1:B>` to :g:`$C$ <0189.g1:C>` as :g:`$F$ <0189.g1:F>` to :g:`$G$ <0189.g1:G>`, and :g:`$C$ <0189.g1:C>` to :g:`$D$ <0189.g1:D>` as :g:`$E$ <0189.g1:E>` to :g:`$F$ <0189.g1:F>`;
+   :g:`A <0189.g1:A>` to :g:`B <0189.g1:B>` as :g:`G <0189.g1:G>` to :g:`H <0189.g1:H>`, :g:`B <0189.g1:B>` to :g:`C <0189.g1:C>` as :g:`F <0189.g1:F>` to :g:`G <0189.g1:G>`, and :g:`C <0189.g1:C>` to :g:`D <0189.g1:D>` as :g:`E <0189.g1:E>` to :g:`F <0189.g1:F>`;
 
-then :g:`$A$ <0189.g1:A>` is to :g:`$D$ <0189.g1:D>` as :g:`$E$ <0189.g1:E>` to :g:`$H$ <0189.g1:H>`.
+then :g:`A <0189.g1:A>` is to :g:`D <0189.g1:D>` as :g:`E <0189.g1:E>` to :g:`H <0189.g1:H>`.
 
 .. picture:: 0189.g1.svg
    :alt: Simson's Four Magnitudes Cross Order Table
 
-Because :g:`$A$ <0189.g1:A>`, :g:`$B$ <0189.g1:B>`, :g:`$C$ <0189.g1:C>` are three magnitudes, and :g:`$F$ <0189.g1:F>`, :g:`$G$ <0189.g1:G>`, :g:`$H$ <0189.g1:H>` other three which, taken two and two in a cross order, have the same ratio, by the first case,
+Because :g:`A <0189.g1:A>`, :g:`B <0189.g1:B>`, :g:`C <0189.g1:C>` are three magnitudes, and :g:`F <0189.g1:F>`, :g:`G <0189.g1:G>`, :g:`H <0189.g1:H>` other three which, taken two and two in a cross order, have the same ratio, by the first case,
 
 .. assertion::
 
-   :g:`$A$ <0189.g1:A>` is to :g:`$C$ <0189.g1:C>` as :g:`$F$ <0189.g1:F>` to :g:`$H$ <0189.g1:H>`.
+   :g:`A <0189.g1:A>` is to :g:`C <0189.g1:C>` as :g:`F <0189.g1:F>` to :g:`H <0189.g1:H>`.
 
 But
 
 .. assertion::
 
-   :g:`$C$ <0189.g1:C>` is to :g:`$D$ <0189.g1:D>` as :g:`$E$ <0189.g1:E>` to :g:`$F$ <0189.g1:F>`;
+   :g:`C <0189.g1:C>` is to :g:`D <0189.g1:D>` as :g:`E <0189.g1:E>` to :g:`F <0189.g1:F>`;
 
 wherefore again, by the first case,
 
 .. assertion::
 
-   :g:`$A$ <0189.g1:A>` is to :g:`$D$ <0189.g1:D>` as :g:`$E$ <0189.g1:E>` to :g:`$H$ <0189.g1:H>`.
+   :g:`A <0189.g1:A>` is to :g:`D <0189.g1:D>` as :g:`E <0189.g1:E>` to :g:`H <0189.g1:H>`.
 
 And so on, whatever be the number of magnitudes."

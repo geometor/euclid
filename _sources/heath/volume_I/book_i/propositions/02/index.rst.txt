@@ -25,43 +25,43 @@ PROPOSITION 2.
 .. picture:: 0258.g1.svg
    :alt: Proposition 2 figure
 
-Let :g:`$A$ <0258.g1:A>` be the given point, and :g:`$BC$ <0258.g1:/ B C />` the given straight line.
+Let :g:`A <0258.g1:A>` be the given point, and :g:`BC <0258.g1:/ B C />` the given straight line.
 
-Thus it is required to place at the point :g:`$A$ <0258.g1:A>` (as an extremity) a straight line equal to the given straight line :g:`$BC$ <0258.g1:/ B C />`.
+Thus it is required to place at the point :g:`A <0258.g1:A>` (as an extremity) a straight line equal to the given straight line :g:`BC <0258.g1:/ B C />`.
 
-From the point :g:`$A$ <0258.g1:A>` to the point :g:`$B$ <0258.g1:B>` let the straight line :g:`$AB$ <0258.g1:/ A B />` be joined; :just:`[Post. 1] <I.post.1>`
+From the point :g:`A <0258.g1:A>` to the point :g:`B <0258.g1:B>` let the straight line :g:`AB <0258.g1:/ A B />` be joined; :just:`[Post. 1] <I.post.1>`
 
-and on it let the :eq:`equilateral <0258.g1:/ D A / = 0258.g1:/ D B / = 0258.g1:/ A B />` triangle :g:`$DAB$ <0258.g1:< D A B >>` be constructed. :just:`[I. 1] <I.1>`
+and on it let the :eq:`equilateral <0258.g1:/ D A / = 0258.g1:/ D B / = 0258.g1:/ A B />` triangle :g:`DAB <0258.g1:< D A B >>` be constructed. :just:`[I. 1] <I.1>`
 
-Let the straight lines :g:`$AE$ <0258.g1:/ A E />`, :g:`$BF$ <0258.g1:/ B F />` be produced\ [#f2]_ in a straight line with :g:`$DA$ <0258.g1:/ D A />`, :g:`$DB$ <0258.g1:/ D B />`; :just:`[Post. 2] <I.post.2>`
+Let the straight lines :g:`AE <0258.g1:/ A E />`, :g:`BF <0258.g1:/ B F />` be produced\ [#f2]_ in a straight line with :g:`DA <0258.g1:/ D A />`, :g:`DB <0258.g1:/ D B />`; :just:`[Post. 2] <I.post.2>`
 
-with centre :g:`$B$ <0258.g1:B>` and distance :g:`$BC$ <0258.g1:/ B C />` let the circle :g:`$CGH$ <0258.g1:( B C )>` be described; :just:`[Post. 3] <I.post.3>`
+with centre :g:`B <0258.g1:B>` and distance :g:`BC <0258.g1:/ B C />` let the circle :g:`CGH <0258.g1:( B C )>` be described; :just:`[Post. 3] <I.post.3>`
 
-and again, with centre :g:`$D$ <0258.g1:D>` and distance :g:`$DG$ <0258.g1:/ D G />` let the circle :g:`$GKL$ <0258.g1:( D G )>` be described. :just:`[Post. 3] <I.post.3>`
+and again, with centre :g:`D <0258.g1:D>` and distance :g:`DG <0258.g1:/ D G />` let the circle :g:`GKL <0258.g1:( D G )>` be described. :just:`[Post. 3] <I.post.3>`
 
-Then, since the point :g:`$B$ <0258.g1:B>` is the centre of the circle :g:`$CGH$ <0258.g1:( B C )>`,
-
-.. assertion::
-
-   :g:`$BC$ <0258.g1:/ B C />` is :eq:`equal <0258.g1:/ B C / = 0258.g1:/ B G />` to :g:`$BG$ <0258.g1:/ B G />`.
-
-Again, since the point :g:`$D$ <0258.g1:D>` is the centre of the circle :g:`$GKL$ <0258.g1:( D G )>`,
+Then, since the point :g:`B <0258.g1:B>` is the centre of the circle :g:`CGH <0258.g1:( B C )>`,
 
 .. assertion::
 
-   :g:`$DL$ <0258.g1:/ D L />` is :eq:`equal <0258.g1:/ D L / = 0258.g1:/ D G />` to :g:`$DG$ <0258.g1:/ D G />`.
+   :g:`BC <0258.g1:/ B C />` is :eq:`equal <0258.g1:/ B C / = 0258.g1:/ B G />` to :g:`BG <0258.g1:/ B G />`.
 
-And in these :g:`$DA$ <0258.g1:/ D A />` is :eq:`equal <0258.g1:/ D A / = 0258.g1:/ D B />` to :g:`$DB$ <0258.g1:/ D B />`; therefore the remainder :g:`$AL$ <0258.g1:/ A L />` is :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B G />` to the remainder :g:`$BG$ <0258.g1:/ B G />`.\ [#f3]_ :just:`[C.N. 3] <I.cn.3>`
+Again, since the point :g:`D <0258.g1:D>` is the centre of the circle :g:`GKL <0258.g1:( D G )>`,
 
-But :g:`$BC$ <0258.g1:/ B C />` was also proved :eq:`equal <0258.g1:/ B C / = 0258.g1:/ B G />` to :g:`$BG$ <0258.g1:/ B G />`; therefore each of the straight lines :g:`$AL$ <0258.g1:/ A L />`, :g:`$BC$ <0258.g1:/ B C />` is :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B C / = 0258.g1:/ B G />` to :g:`$BG$ <0258.g1:/ B G />`.
+.. assertion::
+
+   :g:`DL <0258.g1:/ D L />` is :eq:`equal <0258.g1:/ D L / = 0258.g1:/ D G />` to :g:`DG <0258.g1:/ D G />`.
+
+And in these :g:`DA <0258.g1:/ D A />` is :eq:`equal <0258.g1:/ D A / = 0258.g1:/ D B />` to :g:`DB <0258.g1:/ D B />`; therefore the remainder :g:`AL <0258.g1:/ A L />` is :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B G />` to the remainder :g:`BG <0258.g1:/ B G />`.\ [#f3]_ :just:`[C.N. 3] <I.cn.3>`
+
+But :g:`BC <0258.g1:/ B C />` was also proved :eq:`equal <0258.g1:/ B C / = 0258.g1:/ B G />` to :g:`BG <0258.g1:/ B G />`; therefore each of the straight lines :g:`AL <0258.g1:/ A L />`, :g:`BC <0258.g1:/ B C />` is :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B C / = 0258.g1:/ B G />` to :g:`BG <0258.g1:/ B G />`.
 
 And things which are equal to the same thing are also equal to one another; :just:`[C.N. 1] <I.cn.1>`
 
 .. assertion::
 
-   therefore :g:`$AL$ <0258.g1:/ A L />` is also :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B C />` to :g:`$BC$ <0258.g1:/ B C />`.
+   therefore :g:`AL <0258.g1:/ A L />` is also :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B C />` to :g:`BC <0258.g1:/ B C />`.
 
-Therefore at the given point :g:`$A$ <0258.g1:A>` the straight line :g:`$AL$ <0258.g1:/ A L />` is placed :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B C />` to the given straight line :g:`$BC$ <0258.g1:/ B C />`.
+Therefore at the given point :g:`A <0258.g1:A>` the straight line :g:`AL <0258.g1:/ A L />` is placed :eq:`equal <0258.g1:/ A L / = 0258.g1:/ B C />` to the given straight line :g:`BC <0258.g1:/ B C />`.
 
 .. qed::
 
@@ -71,7 +71,7 @@ Therefore at the given point :g:`$A$ <0258.g1:A>` the straight line :g:`$AL$ <02
 
 .. [#f2] **Let the straight lines AE, BF be produced....** It will be observed that in this first application of Postulate 2, and again in I. 5, :person:`Euclid <euclid>` speaks of the *continuation* of the straight line as that which is produced in such cases, ἐκβεβλήσθωσαν and προσεκβεβλήσθωσαν meaning little more than *drawing* straight lines “in a straight line with” the given straight lines. The first place in which :person:`Euclid <euclid>` uses phraseology exactly corresponding to ours when
 
-.. [#f3] **the remainder AL...the remainder BG.** The Greek expressions are λοιπὴ ἡ ΑΛ and λοιπῇ τῇ ΒΗ, and the literal translation would be “:g:`$AL$ <0258.g1:/ A L />` (or :g:`$BG$ <0258.g1:/ B G />`) *remaining*,” but the shade of meaning conveyed by the position of the definite article can hardly be expressed in English.
+.. [#f3] **the remainder AL...the remainder BG.** The Greek expressions are λοιπὴ ἡ ΑΛ and λοιπῇ τῇ ΒΗ, and the literal translation would be “:g:`AL <0258.g1:/ A L />` (or :g:`BG <0258.g1:/ B G />`) *remaining*,” but the shade of meaning conveyed by the position of the definite article can hardly be expressed in English.
 
 Dependency Graph
 ----------------

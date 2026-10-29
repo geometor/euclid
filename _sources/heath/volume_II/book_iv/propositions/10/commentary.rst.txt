@@ -55,42 +55,42 @@ The construction of this triangle depends upon II. 11, or the problem of dividin
 
 We may suppose the construction of IV. 10 to have been arrived at by analysis somewhat as follows (:person:`Todhunter <todhunter>`'s Euclid, p. 325).
 
-Suppose the problem solved, i.e. let :g:`$ABD$ <0102.g1:< A B D >>` be an isosceles triangle having each of its base angles double of the vertical angle.
+Suppose the problem solved, i.e. let :g:`ABD <0102.g1:< A B D >>` be an isosceles triangle having each of its base angles double of the vertical angle.
 
-Bisect the angle :g:`$ADB$ <0102.g1:< A D B )>` by the straight line :g:`$DC$ <0102.g1:/ D C />` meeting :g:`$AB$ <0102.g1:/ A B />` in :g:`$C$ <0102.g1:C>`. :just:`[I. 9] <I.9>`
+Bisect the angle :g:`ADB <0102.g1:< A D B )>` by the straight line :g:`DC <0102.g1:/ D C />` meeting :g:`AB <0102.g1:/ A B />` in :g:`C <0102.g1:C>`. :just:`[I. 9] <I.9>`
 
-Therefore the angle :g:`$BDC$ <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< B A D )>` to the angle :g:`$BAD$ <0102.g1:< B A D )>`; and the angle :g:`$CDA$ <0102.g1:< C D A )>` is also :eq:`equal <0102.g1:< C D A ) = 0102.g1:< B A D )>` to the angle :g:`$BAD$ <0102.g1:< B A D )>`,
-
-.. assertion::
-
-   so that :g:`$DC$ <0102.g1:/ D C />` is :eq:`equal <0102.g1:/ D C / = 0102.g1:/ C A />` to :g:`$CA$ <0102.g1:/ C A />`.
-
-Again, since, in the triangles :g:`$BCD$ <0102.g1:< B C D >>`, :g:`$BDA$ <0102.g1:< B D A >>`,
-the angle :g:`$BDC$ <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< B A D )>` to the angle :g:`$BAD$ <0102.g1:< B A D )>`,
-and the angle :g:`$B$ <0102.g1:< C B D )>` is common,
-the third angle :g:`$BCD$ <0102.g1:< B C D )>` is :eq:`equal <0102.g1:< B C D ) = 0102.g1:< B D A )>` to the third angle :g:`$BDA$ <0102.g1:< B D A )>`, and therefore :eq:`to <0102.g1:< B C D ) = 0102.g1:< D B C )>` the angle :g:`$DBC$ <0102.g1:< D B C )>`.
+Therefore the angle :g:`BDC <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< B A D )>` to the angle :g:`BAD <0102.g1:< B A D )>`; and the angle :g:`CDA <0102.g1:< C D A )>` is also :eq:`equal <0102.g1:< C D A ) = 0102.g1:< B A D )>` to the angle :g:`BAD <0102.g1:< B A D )>`,
 
 .. assertion::
 
-   Therefore :g:`$DC$ <0102.g1:/ D C />` is :eq:`equal <0102.g1:/ D C / = 0102.g1:/ D B />` to :g:`$DB$ <0102.g1:/ D B />`.
+   so that :g:`DC <0102.g1:/ D C />` is :eq:`equal <0102.g1:/ D C / = 0102.g1:/ C A />` to :g:`CA <0102.g1:/ C A />`.
 
-Now, if a circle be described about the triangle :g:`$ACD$ <0102.g1:< A C D >>` :just:`[IV. 5] <IV.5>`, since the angle :g:`$BDC$ <0102.g1:< B D C )>` is equal to the angle in the segment :g:`$CAD$ <0102.g1:( C A D )>`,
-:g:`$BD$ <0102.g1:/ B D />` must touch the circle [by the converse of III. 32 easily proved from it by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`].
+Again, since, in the triangles :g:`BCD <0102.g1:< B C D >>`, :g:`BDA <0102.g1:< B D A >>`,
+the angle :g:`BDC <0102.g1:< B D C )>` is :eq:`equal <0102.g1:< B D C ) = 0102.g1:< B A D )>` to the angle :g:`BAD <0102.g1:< B A D )>`,
+and the angle :g:`B <0102.g1:< C B D )>` is common,
+the third angle :g:`BCD <0102.g1:< B C D )>` is :eq:`equal <0102.g1:< B C D ) = 0102.g1:< B D A )>` to the third angle :g:`BDA <0102.g1:< B D A )>`, and therefore :eq:`to <0102.g1:< B C D ) = 0102.g1:< D B C )>` the angle :g:`DBC <0102.g1:< D B C )>`.
 
-Hence :just:`[III. 36] <III.36>` the square on :g:`$BD$ <0102.g1:/ B D />` and therefore the square on :g:`$CD$ <0102.g1:/ C D />`, or :g:`$AC$ <0102.g1:/ A C />`, is equal to the rectangle :g:`$AB$ <0102.g1:/ A B />`, :g:`$BC$ <0102.g1:/ B C />`.
+.. assertion::
 
-Thus the problem is reduced to that of cutting :g:`$AB$ <0102.g1:/ A B />` at :g:`$C$ <0102.g1:C>` so that the rectangle :g:`$AB$ <0102.g1:/ A B />`, :g:`$BC$ <0102.g1:/ B C />` is equal to the square on :g:`$AC$ <0102.g1:/ A C />`. :just:`[II. 11] <II.11>`
-When this is done, we have only to draw a circle with centre :g:`$A$ <0102.g1:A>` and radius :g:`$AB$ <0102.g1:/ A B />` and place in it a chord :g:`$BD$ <0102.g1:/ B D />` :eq:`equal <0102.g1:/ B D / = 0102.g1:/ A C />` in length to :g:`$AC$ <0102.g1:/ A C />`. :just:`[IV. 1] <IV.1>`
+   Therefore :g:`DC <0102.g1:/ D C />` is :eq:`equal <0102.g1:/ D C / = 0102.g1:/ D B />` to :g:`DB <0102.g1:/ D B />`.
+
+Now, if a circle be described about the triangle :g:`ACD <0102.g1:< A C D >>` :just:`[IV. 5] <IV.5>`, since the angle :g:`BDC <0102.g1:< B D C )>` is equal to the angle in the segment :g:`CAD <0102.g1:( C A D )>`,
+:g:`BD <0102.g1:/ B D />` must touch the circle [by the converse of III. 32 easily proved from it by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`].
+
+Hence :just:`[III. 36] <III.36>` the square on :g:`BD <0102.g1:/ B D />` and therefore the square on :g:`CD <0102.g1:/ C D />`, or :g:`AC <0102.g1:/ A C />`, is equal to the rectangle :g:`AB <0102.g1:/ A B />`, :g:`BC <0102.g1:/ B C />`.
+
+Thus the problem is reduced to that of cutting :g:`AB <0102.g1:/ A B />` at :g:`C <0102.g1:C>` so that the rectangle :g:`AB <0102.g1:/ A B />`, :g:`BC <0102.g1:/ B C />` is equal to the square on :g:`AC <0102.g1:/ A C />`. :just:`[II. 11] <II.11>`
+When this is done, we have only to draw a circle with centre :g:`A <0102.g1:A>` and radius :g:`AB <0102.g1:/ A B />` and place in it a chord :g:`BD <0102.g1:/ B D />` :eq:`equal <0102.g1:/ B D / = 0102.g1:/ A C />` in length to :g:`AC <0102.g1:/ A C />`. :just:`[IV. 1] <IV.1>`
 
 .. _folio-ii-0106:
 
 .. folio:: 0106
    :page: 100
 
-Since each of the angles :g:`$ABD$ <0102.g1:< A B D )>`, :g:`$ADB$ <0102.g1:< A D B )>` is double of the angle :g:`$BAD$ <0102.g1:< B A D )>`, the latter is equal to one-fifth of the sum of all three, i.e. is one-fifth of two right angles, or two-fifths of a right angle, and each of the base angles is four-fifths of a right angle.
+Since each of the angles :g:`ABD <0102.g1:< A B D )>`, :g:`ADB <0102.g1:< A D B )>` is double of the angle :g:`BAD <0102.g1:< B A D )>`, the latter is equal to one-fifth of the sum of all three, i.e. is one-fifth of two right angles, or two-fifths of a right angle, and each of the base angles is four-fifths of a right angle.
 
-If we bisect the angle :g:`$BAD$ <0102.g1:< B A D )>`, we obtain an angle equal to one-fifth of a right angle, so that the proposition enables us *to divide a right angle into five equal parts*.
+If we bisect the angle :g:`BAD <0102.g1:< B A D )>`, we obtain an angle equal to one-fifth of a right angle, so that the proposition enables us *to divide a right angle into five equal parts*.
 
-It will be observed that :g:`$BD$ <0102.g1:/ B D />` is the side of a regular *decagon* inscribed in the larger circle.
+It will be observed that :g:`BD <0102.g1:/ B D />` is the side of a regular *decagon* inscribed in the larger circle.
 
-:person:`Proclus <proclus>`, as remarked above (Vol. I. p. 130), gives IV. 10 as an instance in which two of the six formal divisions of a proposition, the *setting-out* and the "*definition*," are left out, and explains that they are unnecessary because there is no *datum* in the enunciation. This is however no more than formally true, because Euclid does begin his proposition by *setting out* "any straight line :g:`$AB$ <0102.g1:/ A B />`," and he constructs an isosceles triangle having :g:`$AB$ <0102.g1:/ A B />` for one of its equal sides, i.e. he does practically imply a datum in the enunciation, and a corresponding *setting-out* and "*definition*" in the proposition itself.
+:person:`Proclus <proclus>`, as remarked above (Vol. I. p. 130), gives IV. 10 as an instance in which two of the six formal divisions of a proposition, the *setting-out* and the "*definition*," are left out, and explains that they are unnecessary because there is no *datum* in the enunciation. This is however no more than formally true, because Euclid does begin his proposition by *setting out* "any straight line :g:`AB <0102.g1:/ A B />`," and he constructs an isosceles triangle having :g:`AB <0102.g1:/ A B />` for one of its equal sides, i.e. he does practically imply a datum in the enunciation, and a corresponding *setting-out* and "*definition*" in the proposition itself.

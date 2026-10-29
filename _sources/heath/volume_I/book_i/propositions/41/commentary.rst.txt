@@ -22,7 +22,7 @@ On this proposition :person:`Proclus <proclus>` (:cite:`pp. 414, 15—415, 16 <p
 He next (pp. 415, 22—416, 14) proves the proposition that,
 
 *If a triangle be formed by joining the middle point of either of the non-parallel sides to the extremities of the opposite side, the area of the trapezium is always double of that of the triangle.*
-Let :g:`$ABCD$ <0353.g1:< A B C D >>` be a trapezium in which :g:`$AD$ <0353.g1:/ A D />`, :g:`$BC$ <0353.g1:/ B C />` are the parallel sides, and :g:`$E$ <0353.g1:E>` the :eq:`middle point <0353.g1:/ C E / = 0353.g1:/ D E />` of one of the non-parallel sides, say :g:`$DC$ <0353.g1:/ D C />`. Join :g:`$EA$ <0353.g1:/ E A />`, :g:`$EB$ <0353.g1:/ E B />` and produce :g:`$BE$ <0353.g1:/ B E />` to meet :g:`$AD$ <0353.g1:/ A D />` produced in :g:`$F$ <0353.g1:F>`.
+Let :g:`ABCD <0353.g1:< A B C D >>` be a trapezium in which :g:`AD <0353.g1:/ A D />`, :g:`BC <0353.g1:/ B C />` are the parallel sides, and :g:`E <0353.g1:E>` the :eq:`middle point <0353.g1:/ C E / = 0353.g1:/ D E />` of one of the non-parallel sides, say :g:`DC <0353.g1:/ D C />`. Join :g:`EA <0353.g1:/ E A />`, :g:`EB <0353.g1:/ E B />` and produce :g:`BE <0353.g1:/ B E />` to meet :g:`AD <0353.g1:/ A D />` produced in :g:`F <0353.g1:F>`.
 
 .. _folio-i-0353:
 
@@ -32,9 +32,9 @@ Let :g:`$ABCD$ <0353.g1:< A B C D >>` be a trapezium in which :g:`$AD$ <0353.g1:
 .. picture:: 0353.g1.svg
    :alt: Folio 0353 Figure 1 - Proclus Lemma on Trapezium and Triangle Area
 
-Then the triangles :g:`$BEC$ <0353.g1:< B E C >>`, :g:`$FED$ <0353.g1:< F E D >>` have two angles equal respectively, and one side :g:`$CE$ <0353.g1:/ C E />` :eq:`equal <0353.g1:/ C E / = 0353.g1:/ D E />` to one side :g:`$DE$ <0353.g1:/ D E />`; therefore the triangles are :eq:`equal <0353.g1:< B E C > = 0353.g1:< F E D >>` in all respects. [I. 26]
+Then the triangles :g:`BEC <0353.g1:< B E C >>`, :g:`FED <0353.g1:< F E D >>` have two angles equal respectively, and one side :g:`CE <0353.g1:/ C E />` :eq:`equal <0353.g1:/ C E / = 0353.g1:/ D E />` to one side :g:`DE <0353.g1:/ D E />`; therefore the triangles are :eq:`equal <0353.g1:< B E C > = 0353.g1:< F E D >>` in all respects. [I. 26]
 
-Add to each the quadrilateral :g:`$ABED$ <0353.g1:< A B E D >>`; therefore the trapezium :g:`$ABCD$ <0353.g1:< A B C D >>` is :eq:`equal <0353.g1:< A B C D > = 0353.g1:< A B F >>` to the triangle :g:`$ABF$ <0353.g1:< A B F >>`, that is, to twice the triangle :g:`$AEB$ <0353.g1:< A E B >>`, since :g:`$BE$ <0353.g1:/ B E />` is :eq:`equal <0353.g1:/ B E / = 0353.g1:/ E F />` to :g:`$EF$ <0353.g1:/ E F />`. [I. 38]
+Add to each the quadrilateral :g:`ABED <0353.g1:< A B E D >>`; therefore the trapezium :g:`ABCD <0353.g1:< A B C D >>` is :eq:`equal <0353.g1:< A B C D > = 0353.g1:< A B F >>` to the triangle :g:`ABF <0353.g1:< A B F >>`, that is, to twice the triangle :g:`AEB <0353.g1:< A E B >>`, since :g:`BE <0353.g1:/ B E />` is :eq:`equal <0353.g1:/ B E / = 0353.g1:/ E F />` to :g:`EF <0353.g1:/ E F />`. [I. 38]
 
 The three properties proved by :person:`Proclus <proclus>` may be combined in one enunciation thus:
 

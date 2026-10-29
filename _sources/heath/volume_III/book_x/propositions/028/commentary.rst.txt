@@ -55,7 +55,7 @@ LEMMA I.
 
    To find two square numbers such that their sum is also square.
 
-Let two numbers :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` be set out, and let them be either both even or both odd.
+Let two numbers :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />` be set out, and let them be either both even or both odd.
 
 .. subclause::
 
@@ -63,34 +63,34 @@ Let two numbers :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` be set 
 
 .. assertion::
 
-   therefore the remainder :g:`$AC$ <0067.g1:/ A C />` is even.
+   therefore the remainder :g:`AC <0067.g1:/ A C />` is even.
 
 .. picture:: 0067.g1.svg
    :alt: Lemma 1 diagram
 
-Let :g:`$AC$ <0067.g1:/ A C />` be :eq:`bisected <0067.g1:/ A D / = 0067.g1:/ C D />` at :g:`$D$ <0067.g1:D>`.
+Let :g:`AC <0067.g1:/ A C />` be :eq:`bisected <0067.g1:/ A D / = 0067.g1:/ C D />` at :g:`D <0067.g1:D>`.
 
-Let :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` also be either similar plane numbers, or square numbers, which are themselves also similar plane numbers.
-
-.. subclause::
-
-   Now the product of :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` together with the square on :g:`$CD$ <0067.g1:/ C D />` is equal to the square on :g:`$BD$ <0067.g1:/ B D />`. :just:`[II. 6] <II.6>`
+Let :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />` also be either similar plane numbers, or square numbers, which are themselves also similar plane numbers.
 
 .. subclause::
 
-   And the product of :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` is square, inasmuch as it was proved that, if two similar plane numbers by multiplying one another make some number the product is square. :just:`[IX. 1] <IX.1>`
+   Now the product of :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />` together with the square on :g:`CD <0067.g1:/ C D />` is equal to the square on :g:`BD <0067.g1:/ B D />`. :just:`[II. 6] <II.6>`
+
+.. subclause::
+
+   And the product of :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />` is square, inasmuch as it was proved that, if two similar plane numbers by multiplying one another make some number the product is square. :just:`[IX. 1] <IX.1>`
 
 .. assertion::
 
-   Therefore two square numbers, the product of :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />`, and the square on :g:`$CD$ <0067.g1:/ C D />`, have been found which, when added together, make the square on :g:`$BD$ <0067.g1:/ B D />`.
+   Therefore two square numbers, the product of :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />`, and the square on :g:`CD <0067.g1:/ C D />`, have been found which, when added together, make the square on :g:`BD <0067.g1:/ B D />`.
 
 .. assertion::
 
-   And it is manifest that two square numbers, the square on :g:`$BD$ <0067.g1:/ B D />` and the square on :g:`$CD$ <0067.g1:/ C D />`, have again been found such that their difference, the product of :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />`, is a square, whenever :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />` are similar plane numbers.
+   And it is manifest that two square numbers, the square on :g:`BD <0067.g1:/ B D />` and the square on :g:`CD <0067.g1:/ C D />`, have again been found such that their difference, the product of :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />`, is a square, whenever :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />` are similar plane numbers.
 
 .. assertion::
 
-   But when they are not similar plane numbers, two square numbers, the square on :g:`$BD$ <0067.g1:/ B D />` and the square on :g:`$DC$ <0067.g1:/ D C />`, have been found such that their difference, the product of :g:`$AB$ <0067.g1:/ A B />`, :g:`$BC$ <0067.g1:/ B C />`, is not square.
+   But when they are not similar plane numbers, two square numbers, the square on :g:`BD <0067.g1:/ B D />` and the square on :g:`DC <0067.g1:/ D C />`, have been found such that their difference, the product of :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />`, is not square.
 
 .. qed::
 
@@ -124,44 +124,44 @@ Lemma 2.
 
    To find two square numbers such that their sum is not square.
 
-For let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />`, as we said, be square, and :g:`$CA$ <0068.g1:/ C A />` even, and let :g:`$CA$ <0068.g1:/ C A />` be :eq:`bisected <0068.g1:/ A D / = 0068.g1:/ C D />` by :g:`$D$ <0068.g1:D>`.
+For let the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />`, as we said, be square, and :g:`CA <0068.g1:/ C A />` even, and let :g:`CA <0068.g1:/ C A />` be :eq:`bisected <0068.g1:/ A D / = 0068.g1:/ C D />` by :g:`D <0068.g1:D>`.
 
 .. picture:: 0068.g1.svg
    :alt: Lemma 2
 
 .. assertion::
 
-   It is then manifest that the square product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CD$ <0068.g1:/ C D />` is equal to the square on :g:`$BD$ <0068.g1:/ B D />`. :just:`[See Lemma 1]`
+   It is then manifest that the square product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CD <0068.g1:/ C D />` is equal to the square on :g:`BD <0068.g1:/ B D />`. :just:`[See Lemma 1]`
 
-Let the unit :g:`$DE$ <0068.g1:/ D E />` be subtracted;
-
-.. assertion::
-
-   therefore the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is less than the square on :g:`$BD$ <0068.g1:/ B D />`.
-
-I say then that the square product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` will not be square.
-
-.. subclause::
-
-   For, if it is square, it is either equal to the square on :g:`$BE$ <0068.g1:/ B E />`, or less than the square on :g:`$BE$ <0068.g1:/ B E />`, but cannot any more be greater, lest the unit be divided.
-
-First, if possible, let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` be equal to the square on :g:`$BE$ <0068.g1:/ B E />`, and let :g:`$GA$ <0068.g1:/ G A />` be double of the unit :g:`$DE$ <0068.g1:/ D E />`.
-
-.. subclause::
-
-   Since then the whole :g:`$AC$ <0068.g1:/ A C />` is double of the whole :g:`$CD$ <0068.g1:/ C D />`, and in them :g:`$AG$ <0068.g1:/ A G />` is double of :g:`$DE$ <0068.g1:/ D E />`,
+Let the unit :g:`DE <0068.g1:/ D E />` be subtracted;
 
 .. assertion::
 
-   therefore the remainder :g:`$GC$ <0068.g1:/ G C />` is also double of the remainder :g:`$EC$ <0068.g1:/ E C />`; therefore :g:`$GC$ <0068.g1:/ G C />` is :eq:`bisected <0068.g1:/ G E / = 0068.g1:/ E C />` by :g:`$E$ <0068.g1:E>`.
+   therefore the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is less than the square on :g:`BD <0068.g1:/ B D />`.
 
-.. assertion::
-
-   Therefore the product of :g:`$GB$ <0068.g1:/ G B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is equal to the square on :g:`$BE$ <0068.g1:/ B E />`. :just:`[II. 6] <II.6>`
+I say then that the square product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` will not be square.
 
 .. subclause::
 
-   But the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is also, by hypothesis, equal to the square on :g:`$BE$ <0068.g1:/ B E />`;
+   For, if it is square, it is either equal to the square on :g:`BE <0068.g1:/ B E />`, or less than the square on :g:`BE <0068.g1:/ B E />`, but cannot any more be greater, lest the unit be divided.
+
+First, if possible, let the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` be equal to the square on :g:`BE <0068.g1:/ B E />`, and let :g:`GA <0068.g1:/ G A />` be double of the unit :g:`DE <0068.g1:/ D E />`.
+
+.. subclause::
+
+   Since then the whole :g:`AC <0068.g1:/ A C />` is double of the whole :g:`CD <0068.g1:/ C D />`, and in them :g:`AG <0068.g1:/ A G />` is double of :g:`DE <0068.g1:/ D E />`,
+
+.. assertion::
+
+   therefore the remainder :g:`GC <0068.g1:/ G C />` is also double of the remainder :g:`EC <0068.g1:/ E C />`; therefore :g:`GC <0068.g1:/ G C />` is :eq:`bisected <0068.g1:/ G E / = 0068.g1:/ E C />` by :g:`E <0068.g1:E>`.
+
+.. assertion::
+
+   Therefore the product of :g:`GB <0068.g1:/ G B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is equal to the square on :g:`BE <0068.g1:/ B E />`. :just:`[II. 6] <II.6>`
+
+.. subclause::
+
+   But the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is also, by hypothesis, equal to the square on :g:`BE <0068.g1:/ B E />`;
 
 .. _folio-iii-0069:
 
@@ -170,47 +170,47 @@ First, if possible, let the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <00
 
 .. assertion::
 
-   therefore the product of :g:`$GB$ <0068.g1:/ G B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is equal to the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />`.
+   therefore the product of :g:`GB <0068.g1:/ G B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is equal to the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />`.
 
 .. subclause::
 
-   And, if the common square on :g:`$CE$ <0068.g1:/ C E />` be subtracted,
+   And, if the common square on :g:`CE <0068.g1:/ C E />` be subtracted,
 
 .. assertion::
 
-   it follows that :g:`$AB$ <0068.g1:/ A B />` is :eq:`equal <0068.g1:/ A B / = 0068.g1:/ G B />` to :g:`$GB$ <0068.g1:/ G B />`: which is absurd.
+   it follows that :g:`AB <0068.g1:/ A B />` is :eq:`equal <0068.g1:/ A B / = 0068.g1:/ G B />` to :g:`GB <0068.g1:/ G B />`: which is absurd.
 
 .. assertion::
 
-   Therefore the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is not equal to the square on :g:`$BE$ <0068.g1:/ B E />`.
+   Therefore the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is not equal to the square on :g:`BE <0068.g1:/ B E />`.
 
-I say next that neither is it less than the square on :g:`$BE$ <0068.g1:/ B E />`.
+I say next that neither is it less than the square on :g:`BE <0068.g1:/ B E />`.
 
-For, if possible, let it be equal to the square on :g:`$BF$ <0068.g1:/ B F />`, and let :g:`$HA$ <0068.g1:/ H A />` be double of :g:`$DF$ <0068.g1:/ D F />`.
+For, if possible, let it be equal to the square on :g:`BF <0068.g1:/ B F />`, and let :g:`HA <0068.g1:/ H A />` be double of :g:`DF <0068.g1:/ D F />`.
 
 .. assertion::
 
-   Now it will again follow that :g:`$HC$ <0068.g1:/ H C />` is double of :g:`$CF$ <0068.g1:/ C F />`; so that :g:`$CH$ <0068.g1:/ C H />` has also been :eq:`bisected <0068.g1:/ H F / = 0068.g1:/ C F />` at :g:`$F$ <0068.g1:F>`, and for this reason the product of :g:`$HB$ <0068.g1:/ H B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$FC$ <0068.g1:/ F C />` is equal to the square on :g:`$BF$ <0068.g1:/ B F />`. :just:`[II. 6] <II.6>`
+   Now it will again follow that :g:`HC <0068.g1:/ H C />` is double of :g:`CF <0068.g1:/ C F />`; so that :g:`CH <0068.g1:/ C H />` has also been :eq:`bisected <0068.g1:/ H F / = 0068.g1:/ C F />` at :g:`F <0068.g1:F>`, and for this reason the product of :g:`HB <0068.g1:/ H B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`FC <0068.g1:/ F C />` is equal to the square on :g:`BF <0068.g1:/ B F />`. :just:`[II. 6] <II.6>`
 
 .. subclause::
 
-   But, by hypothesis, the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is also equal to the square on :g:`$BF$ <0068.g1:/ B F />`.
+   But, by hypothesis, the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is also equal to the square on :g:`BF <0068.g1:/ B F />`.
 
 .. assertion::
 
-   Thus the product of :g:`$HB$ <0068.g1:/ H B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CF$ <0068.g1:/ C F />` will also be equal to the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />`: which is absurd.
+   Thus the product of :g:`HB <0068.g1:/ H B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CF <0068.g1:/ C F />` will also be equal to the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />`: which is absurd.
 
 .. assertion::
 
-   Therefore the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is not less than the square on :g:`$BE$ <0068.g1:/ B E />`.
+   Therefore the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is not less than the square on :g:`BE <0068.g1:/ B E />`.
 
 .. subclause::
 
-   And it was proved that neither is it equal to the square on :g:`$BE$ <0068.g1:/ B E />`.
+   And it was proved that neither is it equal to the square on :g:`BE <0068.g1:/ B E />`.
 
 .. qed::
 
-   Therefore the product of :g:`$AB$ <0068.g1:/ A B />`, :g:`$BC$ <0068.g1:/ B C />` together with the square on :g:`$CE$ <0068.g1:/ C E />` is not square. :just:`Q. E. D.`
+   Therefore the product of :g:`AB <0068.g1:/ A B />`, :g:`BC <0068.g1:/ B C />` together with the square on :g:`CE <0068.g1:/ C E />` is not square. :just:`Q. E. D.`
 
 ----
 

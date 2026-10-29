@@ -23,24 +23,24 @@ The course of the proof is exactly the same as in XII. 2, except that an arithme
 
 Euclid *exhausts* the cylinder and cone respectively by setting up prisms and pyramids of the same height on the successive regular polygons inscribed in the circle which is the common base, viz. the square, the regular polygon of 8 sides, that of 16 sides, etc.
 
-If :g:`$AB$ <0408.g1:/ A B />` be the side of one polygon, we obtain two sides of the next by :eq:`bisecting <0408.g1:/ A C / = 0408.g1:/ C B />` the arc :g:`$ACB$ <0408.g1:( A C B )>` and joining :g:`$AC$ <0408.g1:/ A C />`, :g:`$CB$ <0408.g1:/ C B />`. Draw the tangent :g:`$DE$ <0408.g1:/ D E />` at :g:`$C$ <0408.g1:C>` and complete the parallelogram :g:`$ABED$ <0408.g1:< A B E D >>`.
+If :g:`AB <0408.g1:/ A B />` be the side of one polygon, we obtain two sides of the next by :eq:`bisecting <0408.g1:/ A C / = 0408.g1:/ C B />` the arc :g:`ACB <0408.g1:( A C B )>` and joining :g:`AC <0408.g1:/ A C />`, :g:`CB <0408.g1:/ C B />`. Draw the tangent :g:`DE <0408.g1:/ D E />` at :g:`C <0408.g1:C>` and complete the parallelogram :g:`ABED <0408.g1:< A B E D >>`.
 
 .. picture:: 0408.g1.svg
    :alt: Book XII, Proposition 10 Diagram
 
-Now suppose a prism erected on the polygon of which :g:`$AB$ <0408.g1:/ A B />` is a side, and of the same height as that of the cylinder.
+Now suppose a prism erected on the polygon of which :g:`AB <0408.g1:/ A B />` is a side, and of the same height as that of the cylinder.
 
-To obtain the prism of the same height on the next polygon we add all the triangular prisms of the same height on the bases :g:`$ACB$ <0408.g1:< A C B >>` and the rest.
+To obtain the prism of the same height on the next polygon we add all the triangular prisms of the same height on the bases :g:`ACB <0408.g1:< A C B >>` and the rest.
 
-Now the prism on :g:`$ACB$ <0408.g1:< A C B >>` is half the prism of the same height on the $\square$ :g:`$ABED$ <0408.g1:< A B E D >>` as base. :just:`[cf. XI. 28]`
-And the prism on $\square$ :g:`$ABED$ <0408.g1:< A B E D >>` includes, and is greater than, the portion of the cylinder standing on the segment :g:`$ACB$ <0408.g1:( A C B )>` of the circle.
+Now the prism on :g:`ACB <0408.g1:< A C B >>` is half the prism of the same height on the $\square$ :g:`ABED <0408.g1:< A B E D >>` as base. :just:`[cf. XI. 28]`
+And the prism on $\square$ :g:`ABED <0408.g1:< A B E D >>` includes, and is greater than, the portion of the cylinder standing on the segment :g:`ACB <0408.g1:( A C B )>` of the circle.
 
 .. _folio-iii-0409:
 
 .. folio:: 0409
    :page: 405
 
-The same thing is true in regard to the other sides of the polygon of which :g:`$AB$ <0408.g1:/ A B />` is one side.
+The same thing is true in regard to the other sides of the polygon of which :g:`AB <0408.g1:/ A B />` is one side.
 
 Thus the process begins with a prism on the square inscribed in the circle, which is more than half the cylinder, the next prism (with eight lateral faces) takes away more than half the remainder, and so on; hence :just:`[X. 1] <X.1>`, if we proceed far enough, we shall ultimately arrive at a prism leaving over portions of the cylinder together less than any assigned volume.
 

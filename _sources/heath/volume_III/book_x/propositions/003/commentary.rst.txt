@@ -40,4 +40,4 @@ It is then proved that $d$ is a common measure of $a$, $b$ ; and next, by a :ter
 
 The Porism corresponds exactly to the Porism to VII. 2.
 
-The process of finding the greatest common measure is probably given in this Book, not only for the sake of completeness, but because in X. 5 a common measure of two magnitudes :g:`$A$ <0028.g1:A>`, :g:`$B$ <0028.g1:B>` is assumed and used, and therefore it is important to show that such a measure can be *found* if not already known.
+The process of finding the greatest common measure is probably given in this Book, not only for the sake of completeness, but because in X. 5 a common measure of two magnitudes :g:`A <0028.g1:A>`, :g:`B <0028.g1:B>` is assumed and used, and therefore it is important to show that such a measure can be *found* if not already known.

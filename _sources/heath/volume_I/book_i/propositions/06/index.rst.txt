@@ -22,38 +22,38 @@ PROPOSITION 6.
 .. picture:: 0269.g1.svg
    :alt: Proposition 6 figure
 
-Let :g:`$ABC$ <0269.g1:< A B C >>` be a triangle having the angle :g:`$ABC$ <0269.g1:< A B C )>` :eq:`equal <0269.g1:< A B C ) = 0269.g1:< A C B )>` to the angle :g:`$ACB$ <0269.g1:< A C B )>`;
+Let :g:`ABC <0269.g1:< A B C >>` be a triangle having the angle :g:`ABC <0269.g1:< A B C )>` :eq:`equal <0269.g1:< A B C ) = 0269.g1:< A C B )>` to the angle :g:`ACB <0269.g1:< A C B )>`;
 
-I say that the side :g:`$AB$ <0269.g1:/ A B />` is also :eq:`equal <0269.g1:/ A B / = 0269.g1:/ A C />` to the side :g:`$AC$ <0269.g1:/ A C />`.
+I say that the side :g:`AB <0269.g1:/ A B />` is also :eq:`equal <0269.g1:/ A B / = 0269.g1:/ A C />` to the side :g:`AC <0269.g1:/ A C />`.
 
-For, if :g:`$AB$ <0269.g1:/ A B />` is unequal to :g:`$AC$ <0269.g1:/ A C />`, one of them is greater.
+For, if :g:`AB <0269.g1:/ A B />` is unequal to :g:`AC <0269.g1:/ A C />`, one of them is greater.
 
-Let :g:`$AB$ <0269.g1:/ A B />` be greater; and from :g:`$AB$ <0269.g1:/ A B />` the greater let :g:`$DB$ <0269.g1:/ D B />` be cut off :eq:`equal <0269.g1:/ D B / = 0269.g1:/ A C />` to :g:`$AC$ <0269.g1:/ A C />` the less; let :g:`$DC$ <0269.g1:/ D C />` be joined.
+Let :g:`AB <0269.g1:/ A B />` be greater; and from :g:`AB <0269.g1:/ A B />` the greater let :g:`DB <0269.g1:/ D B />` be cut off :eq:`equal <0269.g1:/ D B / = 0269.g1:/ A C />` to :g:`AC <0269.g1:/ A C />` the less; let :g:`DC <0269.g1:/ D C />` be joined.
 
-Then, since :g:`$DB$ <0269.g1:/ D B />` is :eq:`equal <0269.g1:/ D B / = 0269.g1:/ A C />` to :g:`$AC$ <0269.g1:/ A C />`, and :g:`$BC$ <0269.g1:/ B C />` is common,
+Then, since :g:`DB <0269.g1:/ D B />` is :eq:`equal <0269.g1:/ D B / = 0269.g1:/ A C />` to :g:`AC <0269.g1:/ A C />`, and :g:`BC <0269.g1:/ B C />` is common,
 
 .. subclause::
 
-   the two sides :g:`$DB$ <0269.g1:/ D B />`, :g:`$BC$ <0269.g1:/ B C />` are :eq:`equal <0269.g1:/ D B / = 0269.g1:/ A C />` to the two sides :g:`$AC$ <0269.g1:/ A C />`, :g:`$CB$ <0269.g1:/ C B />` respectively;
+   the two sides :g:`DB <0269.g1:/ D B />`, :g:`BC <0269.g1:/ B C />` are :eq:`equal <0269.g1:/ D B / = 0269.g1:/ A C />` to the two sides :g:`AC <0269.g1:/ A C />`, :g:`CB <0269.g1:/ C B />` respectively;
 
 .. _folio-i-0270:
 
 .. folio:: 0270
    :page: 256
 
-and the angle :g:`$DBC$ <0269.g1:< D B C )>` is :eq:`equal <0269.g1:< D B C ) = 0269.g1:< A C B )>` to the angle :g:`$ACB$ <0269.g1:< A C B )>`;
+and the angle :g:`DBC <0269.g1:< D B C )>` is :eq:`equal <0269.g1:< D B C ) = 0269.g1:< A C B )>` to the angle :g:`ACB <0269.g1:< A C B )>`;
 
 .. subclause::
 
-   therefore the base :g:`$DC$ <0269.g1:/ D C />` is :eq:`equal <0269.g1:/ D C / = 0269.g1:/ A B />` to the base :g:`$AB$ <0269.g1:/ A B />`,
+   therefore the base :g:`DC <0269.g1:/ D C />` is :eq:`equal <0269.g1:/ D C / = 0269.g1:/ A B />` to the base :g:`AB <0269.g1:/ A B />`,
 
-and the triangle :g:`$DBC$ <0269.g1:< D B C >>` will be :eq:`equal <0269.g1:< D B C > = 0269.g1:< A C B >>` to the triangle :g:`$ACB$ <0269.g1:< A C B >>`,
+and the triangle :g:`DBC <0269.g1:< D B C >>` will be :eq:`equal <0269.g1:< D B C > = 0269.g1:< A C B >>` to the triangle :g:`ACB <0269.g1:< A C B >>`,
 
 .. assertion::
 
    the less to the greater: which is absurd.
 
-Therefore :g:`$AB$ <0269.g1:/ A B />` is not unequal to :g:`$AC$ <0269.g1:/ A C />`;
+Therefore :g:`AB <0269.g1:/ A B />` is not unequal to :g:`AC <0269.g1:/ A C />`;
 
 .. assertion::
 

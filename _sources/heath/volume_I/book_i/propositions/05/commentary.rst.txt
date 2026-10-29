@@ -24,23 +24,23 @@ A pre-Euclidean proof of I. 5.
 
 One of the most interesting of the passages in :person:`Aristotle <aristotle>` indicating differences between Euclid's proofs and those with which :person:`Aristotle <aristotle>` was familiar, in other words, those of the text-books immediately preceding Euclid's, has reference to the theorem of I. 5. The passage (:cite:`*Anal. Prior.* I. 24, 41 b 13—22 <aristotle:anal-prior:I.24.41b13-22>`) is so important that I must quote it in full. :person:`Aristotle <aristotle>` is illustrating the fact that in any syllogism one of the propositions must be affirmative and *universal* (καθόλου). “This,” he says, “is better shown in the case of geometrical propositions” (ἐν τοῖς διαγράμμασιν), e.g. the proposition that *the angles at the base of an isosceles triangle are equal.*
 
-“For let :g:`$A$ <0267.g1:A; 0267.g1:/ O A />`, :g:`$B$ <0267.g1:B; 0267.g1:/ O B />` be drawn [i.e. joined] to the centre.
+“For let :g:`A <0267.g1:A; 0267.g1:/ O A />`, :g:`B <0267.g1:B; 0267.g1:/ O B />` be drawn [i.e. joined] to the centre.
 
 .. _folio-i-0267:
 
 .. folio:: 0267
    :page: 253
 
-“If, then, we assumed (1) that the angle :g:`$AC$ <0267.g1:< A C )>` [i.e. :g:`$A + C$ <0267.g1:< O A B ); 0267.g1:< C )>`] is equal to the angle :g:`$BD$ <0267.g1:< B D )>` [i.e. :g:`$B + D$ <0267.g1:< O B A ); 0267.g1:< D )>`] without asserting generally that *the angles of semicircles are equal*, and again (2) that the *angle* :g:`$C$ <0267.g1:< C )>` is equal to the *angle* :g:`$D$ <0267.g1:< D )>` without making the further assumption that *the two angles of all segments are equal*, and if we then inferred, lastly, that, since the whole angles are equal, and equal angles are subtracted from them, the angles which remain, namely :g:`$E$ <0267.g1:< O A B )>`, :g:`$F$ <0267.g1:< O B A )>`, are equal, we should commit a *petitio principii*, unless we assumed [generally] that, *when equals are subtracted from equals, the remainders are equal*.”
+“If, then, we assumed (1) that the angle :g:`AC <0267.g1:< A C )>` [i.e. :g:`A + C <0267.g1:< O A B ); 0267.g1:< C )>`] is equal to the angle :g:`BD <0267.g1:< B D )>` [i.e. :g:`B + D <0267.g1:< O B A ); 0267.g1:< D )>`] without asserting generally that *the angles of semicircles are equal*, and again (2) that the *angle* :g:`C <0267.g1:< C )>` is equal to the *angle* :g:`D <0267.g1:< D )>` without making the further assumption that *the two angles of all segments are equal*, and if we then inferred, lastly, that, since the whole angles are equal, and equal angles are subtracted from them, the angles which remain, namely :g:`E <0267.g1:< O A B )>`, :g:`F <0267.g1:< O B A )>`, are equal, we should commit a *petitio principii*, unless we assumed [generally] that, *when equals are subtracted from equals, the remainders are equal*.”
 
 .. picture:: 0267.g1.svg
    :alt: Aristotle Pre-Euclidean Proof of I. 5 Diagram
 
 The language is noteworthy in some respects.
 
-(1) :g:`$A$ <0267.g1:A; 0267.g1:/ O A />`, :g:`$B$ <0267.g1:B; 0267.g1:/ O B />` are said to be drawn (ἠγμέναι) to the centre (of the circle of which the two equal sides are radii) as if :g:`$A$ <0267.g1:A; 0267.g1:/ O A />`, :g:`$B$ <0267.g1:B; 0267.g1:/ O B />` were not the angular points but the sides or the radii themselves. (There is a parallel for this in Eucl. IV. 4.)
+(1) :g:`A <0267.g1:A; 0267.g1:/ O A />`, :g:`B <0267.g1:B; 0267.g1:/ O B />` are said to be drawn (ἠγμέναι) to the centre (of the circle of which the two equal sides are radii) as if :g:`A <0267.g1:A; 0267.g1:/ O A />`, :g:`B <0267.g1:B; 0267.g1:/ O B />` were not the angular points but the sides or the radii themselves. (There is a parallel for this in Eucl. IV. 4.)
 
-(2) “The angle :g:`$AC$ <0267.g1:< A C )>`” is the angle which is the sum of :g:`$A$ <0267.g1:< O A B )>` and :g:`$C$ <0267.g1:< C )>`, and :g:`$A$ <0267.g1:< O A B )>` means here the angle at :g:`$A$ <0267.g1:A>` of the *isosceles triangle* shown in the figure, and afterwards spoken of by :person:`Aristotle <aristotle>` as :g:`$E$ <0267.g1:< O A B )>`, while :g:`$C$ <0267.g1:< C )>` is the “mixed” angle between :g:`$AB$ <0267.g1:/ A B />` and the circumference of the smaller segment cut off by it.
+(2) “The angle :g:`AC <0267.g1:< A C )>`” is the angle which is the sum of :g:`A <0267.g1:< O A B )>` and :g:`C <0267.g1:< C )>`, and :g:`A <0267.g1:< O A B )>` means here the angle at :g:`A <0267.g1:A>` of the *isosceles triangle* shown in the figure, and afterwards spoken of by :person:`Aristotle <aristotle>` as :g:`E <0267.g1:< O A B )>`, while :g:`C <0267.g1:< C )>` is the “mixed” angle between :g:`AB <0267.g1:/ A B />` and the circumference of the smaller segment cut off by it.
 
 (3) The “angle *of* a semicircle” (i.e. the “angle” between the diameter and the circumference, at the extremity of the diameter) and the “angle *of* a segment” appear in :person:`Euclid <euclid>` III. 16 and III. Def. 7 respectively, obviously as survivals from earlier text-books.
 
@@ -60,7 +60,7 @@ I. 5 was his own, and it would thus appear that his innovations as regards order
 Proof without producing the sides.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this proof, given by :person:`Proclus <proclus>` (:cite:`pp. 248, 22—249, 19 <proclus:in-euclid:248.22-249.19>`), :g:`$D$ <0265.g1:D>` and :g:`$E$ <0265.g1:E>` are taken on :g:`$AB$ <0268.g1:/ A B /; 0265.g1:/ A B />`, :g:`$AC$ <0268.g1:/ A C /; 0265.g1:/ A C />`, instead of on :g:`$AB$ <0268.g1:/ A B /; 0265.g1:[ A D ]>`, :g:`$AC$ <0268.g1:/ A C /; 0265.g1:[ A E ]>` *produced*, so that :g:`$AD$ <0265.g1:/ A D />`, :g:`$AE$ <0265.g1:/ A E />` are equal. The method of proof is of course exactly like Euclid's, but it does not establish the equality of the angles beyond the base as well.
+In this proof, given by :person:`Proclus <proclus>` (:cite:`pp. 248, 22—249, 19 <proclus:in-euclid:248.22-249.19>`), :g:`D <0265.g1:D>` and :g:`E <0265.g1:E>` are taken on :g:`AB <0268.g1:/ A B /; 0265.g1:/ A B />`, :g:`AC <0268.g1:/ A C /; 0265.g1:/ A C />`, instead of on :g:`AB <0268.g1:/ A B /; 0265.g1:[ A D ]>`, :g:`AC <0268.g1:/ A C /; 0265.g1:[ A E ]>` *produced*, so that :g:`AD <0265.g1:/ A D />`, :g:`AE <0265.g1:/ A E />` are equal. The method of proof is of course exactly like Euclid's, but it does not establish the equality of the angles beyond the base as well.
 
 Pappus' proof.
 ~~~~~~~~~~~~~~
@@ -72,15 +72,15 @@ This very interesting proof is given as follows:
 .. picture:: 0268.g1.svg
    :alt: Pappus Proof of I. 5 Isosceles Triangle ABC
 
-“Let :g:`$ABC$ <0268.g1:< A B C >>` be an isosceles triangle, and :g:`$AB$ <0268.g1:/ A B />` equal to :g:`$AC$ <0268.g1:/ A C />`.
+“Let :g:`ABC <0268.g1:< A B C >>` be an isosceles triangle, and :g:`AB <0268.g1:/ A B />` equal to :g:`AC <0268.g1:/ A C />`.
 
 Let us conceive this one triangle as two triangles, and let us argue in this way.
 
-Since :g:`$AB$ <0268.g1:/ A B />` is equal to :g:`$AC$ <0268.g1:/ A C />`, and :g:`$AC$ <0268.g1:/ A C />` to :g:`$AB$ <0268.g1:/ A B />`, the two sides :g:`$AB$ <0268.g1:/ A B />`, :g:`$AC$ <0268.g1:/ A C />` are equal to the two sides :g:`$AC$ <0268.g1:/ A C />`, :g:`$AB$ <0268.g1:/ A B />`.
+Since :g:`AB <0268.g1:/ A B />` is equal to :g:`AC <0268.g1:/ A C />`, and :g:`AC <0268.g1:/ A C />` to :g:`AB <0268.g1:/ A B />`, the two sides :g:`AB <0268.g1:/ A B />`, :g:`AC <0268.g1:/ A C />` are equal to the two sides :g:`AC <0268.g1:/ A C />`, :g:`AB <0268.g1:/ A B />`.
 
-And the angle :g:`$BAC$ <0268.g1:< B A C )>` is equal to the angle :g:`$CAB$ <0268.g1:< C A B )>`, for it is the same.
+And the angle :g:`BAC <0268.g1:< B A C )>` is equal to the angle :g:`CAB <0268.g1:< C A B )>`, for it is the same.
 
-Therefore all the corresponding parts (in the triangles) are equal, namely :g:`$BC$ <0268.g1:/ B C />` to :g:`$BC$ <0268.g1:/ B C />`, the triangle :g:`$ABC$ <0268.g1:< A B C >>` to the triangle :g:`$ABC$ <0268.g1:< A B C >>` (i.e. :g:`$ACB$ <0268.g1:< A C B >>`), the angle :g:`$ABC$ <0268.g1:< A B C )>` to the angle :g:`$ACB$ <0268.g1:< A C B )>`, and the angle :g:`$ACB$ <0268.g1:< A C B )>` to the angle :g:`$ABC$ <0268.g1:< A B C )>`, (for these are the angles subtended by the equal sides :g:`$AB$ <0268.g1:/ A B />`, :g:`$AC$ <0268.g1:/ A C />`.
+Therefore all the corresponding parts (in the triangles) are equal, namely :g:`BC <0268.g1:/ B C />` to :g:`BC <0268.g1:/ B C />`, the triangle :g:`ABC <0268.g1:< A B C >>` to the triangle :g:`ABC <0268.g1:< A B C >>` (i.e. :g:`ACB <0268.g1:< A C B >>`), the angle :g:`ABC <0268.g1:< A B C )>` to the angle :g:`ACB <0268.g1:< A C B )>`, and the angle :g:`ACB <0268.g1:< A C B )>` to the angle :g:`ABC <0268.g1:< A B C )>`, (for these are the angles subtended by the equal sides :g:`AB <0268.g1:/ A B />`, :g:`AC <0268.g1:/ A C />`.
 
 Therefore in isosceles triangles the angles at the base are equal.”
 

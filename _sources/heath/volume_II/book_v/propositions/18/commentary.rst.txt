@@ -159,26 +159,26 @@ Therefore, by Def. 5,
 
 :person:`Todhunter <todhunter>` gives the following short demonstration from Austin (*Examination of the first six books of Euclid's Elements*).
 
-“Let :g:`$AE$ <0179.g1:/ A E />` be to :g:`$EB$ <0179.g1:/ E B />` as :g:`$CF$ <0179.g1:/ C F />` is to :g:`$FD$ <0179.g1:/ F D />`:
+“Let :g:`AE <0179.g1:/ A E />` be to :g:`EB <0179.g1:/ E B />` as :g:`CF <0179.g1:/ C F />` is to :g:`FD <0179.g1:/ F D />`:
 
 .. assertion::
 
-   :g:`$AB$ <0179.g1:/ A B />` shall be to :g:`$BE$ <0179.g1:/ E B />` as :g:`$CD$ <0179.g1:/ C D />` is to :g:`$DF$ <0179.g1:/ F D />`.
+   :g:`AB <0179.g1:/ A B />` shall be to :g:`BE <0179.g1:/ E B />` as :g:`CD <0179.g1:/ C D />` is to :g:`DF <0179.g1:/ F D />`.
 
 .. _folio-ii-0179:
 
 .. folio:: 0179
    :page: 173
 
-For, because :g:`$AE$ <0179.g1:/ A E />` is to :g:`$EB$ <0179.g1:/ E B />` as :g:`$CF$ <0179.g1:/ C F />` is to :g:`$FD$ <0179.g1:/ F D />`, therefore, alternately,
+For, because :g:`AE <0179.g1:/ A E />` is to :g:`EB <0179.g1:/ E B />` as :g:`CF <0179.g1:/ C F />` is to :g:`FD <0179.g1:/ F D />`, therefore, alternately,
 
 .. assertion:: [V. 16] <V.16>
 
-   $AE$ is to $CF$ as :g:`$EB$ <0179.g1:/ E B />` is to :g:`$FD$ <0179.g1:/ F D />`.
+   $AE$ is to $CF$ as :g:`EB <0179.g1:/ E B />` is to :g:`FD <0179.g1:/ F D />`.
 
 And, as one of the antecedents is to its consequent, so is the sum of the antecedents to the sum of the consequents: :just:`[V. 12] <V.12>`
 
-therefore, as $EB$ is to $FD$, so are :g:`$AE$ <0179.g1:/ A E />`, :g:`$EB$ <0179.g1:/ E B />` together to :g:`$CF$ <0179.g1:/ C F />`, :g:`$FD$ <0179.g1:/ F D />` together; that is,
+therefore, as $EB$ is to $FD$, so are :g:`AE <0179.g1:/ A E />`, :g:`EB <0179.g1:/ E B />` together to :g:`CF <0179.g1:/ C F />`, :g:`FD <0179.g1:/ F D />` together; that is,
 
 .. assertion::
 
@@ -205,30 +205,30 @@ Suppose that
 
 $First$, let all the magnitudes be areas.
 
-Construct a rectangle :g:`$abcd$ <0179.g2:< a b c d >>` equal to :g:`$A$ <0179.g2:< a b c d >>`, and to :g:`$bc$ <0179.g2:/ c b />` apply the rectangle :g:`$bcef$ <0179.g2:< b c e f >>` equal to :g:`$B$ <0179.g2:< b c e f >>`. Also to :g:`$ab$ <0179.g2:/ a b />`, :g:`$bf$ <0179.g2:/ b f />` apply the rectangles :g:`$ag$ <0179.g2:< a b g h >>`, :g:`$bk$ <0179.g2:< b f k g >>` equal to :g:`$C$ <0179.g2:< a b g h >>`, :g:`$D$ <0179.g2:< b f k g >>` respectively.
+Construct a rectangle :g:`abcd <0179.g2:< a b c d >>` equal to :g:`A <0179.g2:< a b c d >>`, and to :g:`bc <0179.g2:/ c b />` apply the rectangle :g:`bcef <0179.g2:< b c e f >>` equal to :g:`B <0179.g2:< b c e f >>`. Also to :g:`ab <0179.g2:/ a b />`, :g:`bf <0179.g2:/ b f />` apply the rectangles :g:`ag <0179.g2:< a b g h >>`, :g:`bk <0179.g2:< b f k g >>` equal to :g:`C <0179.g2:< a b g h >>`, :g:`D <0179.g2:< b f k g >>` respectively.
 
 .. picture:: 0179.g2.svg
    :alt: Smith and Bryant's proof for V. 18
 
-Then, since the rectangles :g:`$ac$ <0179.g2:< a b c d >>`, :g:`$be$ <0179.g2:< b c e f >>` have equal heights :g:`$bc$ <0179.g2:/ c b />`, they are to one another as their bases. :just:`[VI. 1] <VI.1>`
+Then, since the rectangles :g:`ac <0179.g2:< a b c d >>`, :g:`be <0179.g2:< b c e f >>` have equal heights :g:`bc <0179.g2:/ c b />`, they are to one another as their bases. :just:`[VI. 1] <VI.1>`
 
 Hence
 
 .. container:: center
 
-   ab : bf = rect. ac : rect. be = A : B = C : D = rect. :g:`$ag$ <0179.g2:< a b g h >>` : rect. :g:`$bk$ <0179.g2:< b f k g >>`.
+   ab : bf = rect. ac : rect. be = A : B = C : D = rect. :g:`ag <0179.g2:< a b g h >>` : rect. :g:`bk <0179.g2:< b f k g >>`.
 
-Therefore :just:`[VI. 1, converse]` the rectangles $ag, bk$ have the same height, so that :g:`$k$ <0179.g2:k>` is on the straight line :g:`$hg$ <0179.g2:/ h g />`.
+Therefore :just:`[VI. 1, converse]` the rectangles $ag, bk$ have the same height, so that :g:`k <0179.g2:k>` is on the straight line :g:`hg <0179.g2:/ h g />`.
 
 Hence
 
 .. container:: center
 
-   :g:`$A$ <0179.g2:/ a b />` + :g:`$B$ <0179.g2:/ b f />` : B = rect. ae : rect. be = af : bf = rect. ak : rect. bk = :g:`$C$ <0179.g2:< a b g h >>` + :g:`$D$ <0179.g2:< b f k g >>` : D.
+   :g:`A <0179.g2:/ a b />` + :g:`B <0179.g2:/ b f />` : B = rect. ae : rect. be = af : bf = rect. ak : rect. bk = :g:`C <0179.g2:< a b g h >>` + :g:`D <0179.g2:< b f k g >>` : D.
 
 $Secondly$, let the magnitudes $A$, $B$ be straight lines and the magnitudes $C$, $D$ areas.
 
-Let :g:`$ab$ <0179.g2:/ a b />`, :g:`$bf$ <0179.g2:/ b f />` be equal to the straight lines :g:`$A$ <0179.g2:/ a b />`, :g:`$B$ <0179.g2:/ b f />`, and to :g:`$ab$ <0179.g2:/ a b />`, :g:`$bf$ <0179.g2:/ b f />` apply the rectangles :g:`$ag$ <0179.g2:< a b g h >>`, :g:`$bk$ <0179.g2:< b f k g >>` equal to :g:`$C$ <0179.g2:< a b g h >>`, :g:`$D$ <0179.g2:< b f k g >>` respectively. Then, as before, the rectangles :g:`$ag$ <0179.g2:< a b g h >>`, :g:`$bk$ <0179.g2:< b f k g >>` have the same height. Now
+Let :g:`ab <0179.g2:/ a b />`, :g:`bf <0179.g2:/ b f />` be equal to the straight lines :g:`A <0179.g2:/ a b />`, :g:`B <0179.g2:/ b f />`, and to :g:`ab <0179.g2:/ a b />`, :g:`bf <0179.g2:/ b f />` apply the rectangles :g:`ag <0179.g2:< a b g h >>`, :g:`bk <0179.g2:< b f k g >>` equal to :g:`C <0179.g2:< a b g h >>`, :g:`D <0179.g2:< b f k g >>` respectively. Then, as before, the rectangles :g:`ag <0179.g2:< a b g h >>`, :g:`bk <0179.g2:< b f k g >>` have the same height. Now
 
 $$\begin{aligned}
 A + B : B &= af : bf \\

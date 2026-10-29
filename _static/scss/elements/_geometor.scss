@@ -18,6 +18,7 @@
 }
 
 :root {
+  --geom-font-sans: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
   --geom-fg: #18181b;
   --geom-bg: #ffffff;
   --geom-point-stroke: #ffffff;
@@ -77,6 +78,7 @@ article.book-reading-pane {
   --book-font-serif: 'EB Garamond', Garamond, 'Palatino Linotype', Palatino, 'Georgia', 'Times New Roman', serif;
   --book-font-display: 'EB Garamond', Garamond, 'Georgia', serif;
   --book-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --geom-font-sans: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
 
   /* Geometric SVG Palette (Light lines matching text on dark codex background) */
   --geom-fg: var(--book-text, #d6cfc5);
@@ -1170,6 +1172,41 @@ footer.book-footer {
   flex-direction: column;
   align-items: center;
   gap: 0.85rem;
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.25rem;
+    font-family: var(--book-font-mono);
+    font-size: 0.78rem;
+    color: var(--book-text-muted);
+    text-align: center;
+
+    span.category,
+    span.tags {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    a {
+      color: var(--book-text-muted) !important;
+      text-decoration: none !important;
+      background: var(--book-surface);
+      border: 1px solid var(--book-border);
+      border-radius: 3px;
+      padding: 0.08rem 0.4rem;
+      transition: all 0.15s ease;
+
+      &:hover {
+        color: var(--book-link-hover) !important;
+        border-color: var(--book-border-dark);
+        background: var(--book-surface-alt);
+      }
+    }
+  }
 }
 
 .book-footer-ornament {
@@ -1292,6 +1329,17 @@ a.justification {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   margin: 0.4em 0;
   clear: both;
+
+  a.folio-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--book-link, #d4a038);
+      text-decoration: underline;
+    }
+  }
 }
 
 sup.line-num {
@@ -1344,8 +1392,9 @@ figure.photon-svg.diagram-right {
 
 /* Global Base Styles for Inlined Geometric SVGs (Light/Dark Mode via --geom-* vars) */
 svg.euclid-graphic {
-  font-family: var(--book-font-serif, 'EB Garamond', 'Times New Roman', 'Georgia', serif);
-  font-style: italic;
+  font-family: var(--geom-font-sans, 'Fira Sans Condensed', 'Fira Sans', sans-serif);
+  font-style: normal;
+  font-weight: 700;
   background-color: var(--geom-bg, transparent);
 
   &.euclid-thumbnail {
@@ -1511,16 +1560,19 @@ svg.euclid-graphic {
   .geom-label,
   .label,
   .lbl {
+    font-family: var(--geom-font-sans, 'Fira Sans Condensed', 'Fira Sans', sans-serif);
     font-size: 14.5px;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
     fill: var(--geom-fg, #d6cfc5);
     stroke: none;
     user-select: none;
   }
 
   .geom-label-roman {
+    font-family: var(--geom-font-sans, 'Fira Sans Condensed', 'Fira Sans', sans-serif);
     font-size: 14.5px;
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     fill: var(--geom-fg, #d6cfc5);
     stroke: none;
@@ -1528,17 +1580,20 @@ svg.euclid-graphic {
   }
 
   .geom-label-sm {
+    font-family: var(--geom-font-sans, 'Fira Sans Condensed', 'Fira Sans', sans-serif);
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
     fill: var(--geom-fg, #d6cfc5);
     stroke: none;
     user-select: none;
   }
 
   .geom-label-sub {
+    font-family: var(--geom-font-sans, 'Fira Sans Condensed', 'Fira Sans', sans-serif);
     font-size: 11px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     fill: var(--geom-fg, #d6cfc5);
     stroke: none;
   }
@@ -1573,6 +1628,10 @@ svg.euclid-graphic {
 .geom-ref,
 .geom-interactive-ref,
 .katex.geom-interactive-ref {
+  font-family: var(--geom-font-sans, 'Fira Sans Condensed', 'Fira Sans', sans-serif);
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.01em;
   cursor: pointer;
   position: relative;
   white-space: nowrap;
@@ -1580,6 +1639,12 @@ svg.euclid-graphic {
   border-radius: 2px;
   padding: 0 1px;
   transition: all 0.15s ease-in-out;
+
+  sub,
+  sup {
+    font-size: 0.75em;
+    line-height: 0;
+  }
 }
 
 .geom-ref:hover,
@@ -2020,6 +2085,10 @@ svg.euclid-graphic text.geom-assert-secondary tspan {
         }
       }
     }
+
+    > footer {
+      display: none !important;
+    }
   }
 
   &.layout-cards {
@@ -2028,6 +2097,7 @@ svg.euclid-graphic text.geom-assert-secondary tspan {
 
     > article.excerpt > .content {
       flex-direction: column !important;
+      justify-content: flex-start !important;
       align-items: center !important;
       text-align: center !important;
 

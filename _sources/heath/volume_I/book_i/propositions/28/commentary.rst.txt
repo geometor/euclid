@@ -26,11 +26,11 @@ One criterion of parallelism, the equality of alternate angles, is given in **I.
 
 Taking (1) the possible pairs on the *same* side, we may have a pair consisting of
 
-*(a)* two internal angles, viz. the pairs (:g:`$BGH$ <0324.g2:< B G H )>`, :g:`$GHD$ <0324.g2:< G H D )>`) and (:g:`$AGH$ <0324.g2:< A G H )>`, :g:`$GHC$ <0324.g2:< G H C )>`);
+*(a)* two internal angles, viz. the pairs (:g:`BGH <0324.g2:< B G H )>`, :g:`GHD <0324.g2:< G H D )>`) and (:g:`AGH <0324.g2:< A G H )>`, :g:`GHC <0324.g2:< G H C )>`);
 
-*(b)* two external angles, viz. the pairs (:g:`$EGB$ <0324.g2:< E G B )>`, :g:`$DHF$ <0324.g2:< D H F )>`) and (:g:`$EGA$ <0324.g2:< E G A )>`, :g:`$CHF$ <0324.g2:< C H F )>`);
+*(b)* two external angles, viz. the pairs (:g:`EGB <0324.g2:< E G B )>`, :g:`DHF <0324.g2:< D H F )>`) and (:g:`EGA <0324.g2:< E G A )>`, :g:`CHF <0324.g2:< C H F )>`);
 
-*(c)* one external and one internal angle, viz. the pairs (:g:`$EGB$ <0324.g2:< E G B )>`, :g:`$GHD$ <0324.g2:< G H D )>`), (:g:`$FHD$ <0324.g2:< F H D )>`, :g:`$HGB$ <0324.g2:< H G B )>`), (:g:`$EGA$ <0324.g2:< E G A )>`, :g:`$GHC$ <0324.g2:< G H C )>`) and (:g:`$FHC$ <0324.g2:< F H C )>`, :g:`$HGA$ <0324.g2:< H G A )>`).
+*(c)* one external and one internal angle, viz. the pairs (:g:`EGB <0324.g2:< E G B )>`, :g:`GHD <0324.g2:< G H D )>`), (:g:`FHD <0324.g2:< F H D )>`, :g:`HGB <0324.g2:< H G B )>`), (:g:`EGA <0324.g2:< E G A )>`, :g:`GHC <0324.g2:< G H C )>`) and (:g:`FHC <0324.g2:< F H C )>`, :g:`HGA <0324.g2:< H G A )>`).
 
 .. _folio-i-0325:
 
@@ -39,11 +39,11 @@ Taking (1) the possible pairs on the *same* side, we may have a pair consisting 
 
 And (2) the possible pairs on *different* sides of the transversal may consist respectively of
 
-($a$) two internal angles, viz. the pairs (:g:`$AGH$ <0324.g2:< A G H )>`, :g:`$GHD$ <0324.g2:< G H D )>`) and (:g:`$CHG$ <0324.g2:< C H G )>`, :g:`$HGB$ <0324.g2:< H G B )>`);
+($a$) two internal angles, viz. the pairs (:g:`AGH <0324.g2:< A G H )>`, :g:`GHD <0324.g2:< G H D )>`) and (:g:`CHG <0324.g2:< C H G )>`, :g:`HGB <0324.g2:< H G B )>`);
 
-($b$) two external angles, viz. the pairs (:g:`$AGE$ <0324.g2:< A G E )>`, :g:`$DHF$ <0324.g2:< D H F )>`) and (:g:`$EGB$ <0324.g2:< E G B )>`, :g:`$CHF$ <0324.g2:< C H F )>`);
+($b$) two external angles, viz. the pairs (:g:`AGE <0324.g2:< A G E )>`, :g:`DHF <0324.g2:< D H F )>`) and (:g:`EGB <0324.g2:< E G B )>`, :g:`CHF <0324.g2:< C H F )>`);
 
-($c$) one external and one internal, viz. the pairs (:g:`$AGE$ <0324.g2:< A G E )>`, :g:`$GHD$ <0324.g2:< G H D )>`), (:g:`$EGB$ <0324.g2:< E G B )>`, :g:`$GHC$ <0324.g2:< G H C )>`), (:g:`$FHC$ <0324.g2:< F H C )>`, :g:`$HGB$ <0324.g2:< H G B )>`) and (:g:`$FHD$ <0324.g2:< F H D )>`, :g:`$HGA$ <0324.g2:< H G A )>`).
+($c$) one external and one internal, viz. the pairs (:g:`AGE <0324.g2:< A G E )>`, :g:`GHD <0324.g2:< G H D )>`), (:g:`EGB <0324.g2:< E G B )>`, :g:`GHC <0324.g2:< G H C )>`), (:g:`FHC <0324.g2:< F H C )>`, :g:`HGB <0324.g2:< H G B )>`) and (:g:`FHD <0324.g2:< F H D )>`, :g:`HGA <0324.g2:< H G A )>`).
 
 The angles are equal in the pairs (1) ($c$), (2) ($a$) and (2) ($b$), and the sum is equal to two right angles in the case of the pairs (1) ($a$), (1) ($b$) and (2) ($c$). For his criteria :person:`Euclid <euclid>` selects the cases (2) ($a$) [I. 27] and (1) ($c$), (1) ($a$) [I. 28], leaving out the other three, which are of course equivalent but are not quite so easily expressed.
 

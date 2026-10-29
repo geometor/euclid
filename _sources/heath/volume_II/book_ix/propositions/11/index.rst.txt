@@ -25,36 +25,36 @@ PROPOSITION 11.
 .. folio:: 0402
    :page: 396
 
-Let there be as many numbers as we please, :g:`$B$ <0402.g1:B>`, :g:`$C$ <0402.g1:C>`, :g:`$D$ <0402.g1:D>`, :g:`$E$ <0402.g1:E>`, beginning from the unit :g:`$A$ <0402.g1:A>` and in continued proportion ;
+Let there be as many numbers as we please, :g:`B <0402.g1:B>`, :g:`C <0402.g1:C>`, :g:`D <0402.g1:D>`, :g:`E <0402.g1:E>`, beginning from the unit :g:`A <0402.g1:A>` and in continued proportion ;
 
-I say that :g:`$B$ <0402.g1:B>`, the least of the numbers :g:`$B$ <0402.g1:B>`, :g:`$C$ <0402.g1:C>`, :g:`$D$ <0402.g1:D>`, :g:`$E$ <0402.g1:E>`, measures :g:`$E$ <0402.g1:E>` according to some one of the numbers :g:`$C$ <0402.g1:C>`, :g:`$D$ <0402.g1:D>`.
+I say that :g:`B <0402.g1:B>`, the least of the numbers :g:`B <0402.g1:B>`, :g:`C <0402.g1:C>`, :g:`D <0402.g1:D>`, :g:`E <0402.g1:E>`, measures :g:`E <0402.g1:E>` according to some one of the numbers :g:`C <0402.g1:C>`, :g:`D <0402.g1:D>`.
 
 .. picture:: 0402.g1.svg
    :alt: Proposition 11 Diagram
 
 .. subclause::
 
-   For since, as the unit :g:`$A$ <0402.g1:A>` is to :g:`$B$ <0402.g1:B>`, so is :g:`$D$ <0402.g1:D>` to :g:`$E$ <0402.g1:E>`,
+   For since, as the unit :g:`A <0402.g1:A>` is to :g:`B <0402.g1:B>`, so is :g:`D <0402.g1:D>` to :g:`E <0402.g1:E>`,
 
 .. assertion::
 
-   therefore the unit :g:`$A$ <0402.g1:A>` measures the number :g:`$B$ <0402.g1:B>` the same number of times as :g:`$D$ <0402.g1:D>` measures :g:`$E$ <0402.g1:E>`;
+   therefore the unit :g:`A <0402.g1:A>` measures the number :g:`B <0402.g1:B>` the same number of times as :g:`D <0402.g1:D>` measures :g:`E <0402.g1:E>`;
 
 .. assertion::
 
-   therefore, alternately, the unit :g:`$A$ <0402.g1:A>` measures :g:`$D$ <0402.g1:D>` the same number of times as :g:`$B$ <0402.g1:B>` measures :g:`$E$ <0402.g1:E>`. :just:`[VII. 15] <VII.15>`
+   therefore, alternately, the unit :g:`A <0402.g1:A>` measures :g:`D <0402.g1:D>` the same number of times as :g:`B <0402.g1:B>` measures :g:`E <0402.g1:E>`. :just:`[VII. 15] <VII.15>`
 
 .. subclause::
 
-   But the unit :g:`$A$ <0402.g1:A>` measures :g:`$D$ <0402.g1:D>` according to the units in it;
+   But the unit :g:`A <0402.g1:A>` measures :g:`D <0402.g1:D>` according to the units in it;
 
 .. assertion::
 
-   therefore :g:`$B$ <0402.g1:B>` also measures :g:`$E$ <0402.g1:E>` according to the units in :g:`$D$ <0402.g1:D>`;
+   therefore :g:`B <0402.g1:B>` also measures :g:`E <0402.g1:E>` according to the units in :g:`D <0402.g1:D>`;
 
 .. assertion::
 
-   so that :g:`$B$ <0402.g1:B>` the less measures :g:`$E$ <0402.g1:E>` the greater according to some number of those which have place among the proportional numbers.—
+   so that :g:`B <0402.g1:B>` the less measures :g:`E <0402.g1:E>` the greater according to some number of those which have place among the proportional numbers.—
 
 .. assertion::
 

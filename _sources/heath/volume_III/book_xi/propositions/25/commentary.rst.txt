@@ -27,4 +27,4 @@ though it is true, where no solid angle in the figures is contained by more than
 .. folio:: 0331
    :page: 327
 
-Application will also, of course, establish what is assumed by Euclid of the solids formed by the multiples of the original solids, namely that, if :g:`$LF$ <0329.g1:< L F >>` $\gtreqqless$ :g:`$NF$ <0329.g1:< N F >>`, the solid :g:`$LU$ <0329.g1:< L U >>` $\gtreqqless$ the solid :g:`$NU$ <0329.g1:< N U >>`.
+Application will also, of course, establish what is assumed by Euclid of the solids formed by the multiples of the original solids, namely that, if :g:`LF <0329.g1:< L F >>` $\gtreqqless$ :g:`NF <0329.g1:< N F >>`, the solid :g:`LU <0329.g1:< L U >>` $\gtreqqless$ the solid :g:`NU <0329.g1:< N U >>`.

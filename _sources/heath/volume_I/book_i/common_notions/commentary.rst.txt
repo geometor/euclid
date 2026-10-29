@@ -52,12 +52,12 @@ COMMON NOTION 1.
 
 *Things which are equal to the same thing are also equal to one another.*
 
-:person:`Aristotle <aristotle>` throughout emphasises the fact that axioms are self-evident truths, which it is impossible to demonstrate. If, he says, any one should attempt to prove them, it could only be through ignorance. :person:`Aristotle <aristotle>` therefore would undoubtedly have agreed in Proclus' strictures on :person:`Apollonius <apollonius>` for attempting to prove the axioms. :person:`Proclus <proclus>` gives (p. 194, 25), as a specimen of these attempted proofs by :person:`Apollonius <apollonius>`, that of the first of the *Common Notions*. "Let :g:`$A$ <0236.g1:A>` be :eq:`equal <0236.g1:A = 0236.g1:B = 0236.g1:C>` to :g:`$B$ <0236.g1:B>`, and the latter to :g:`$C$ <0236.g1:C>`; I say that :g:`$A$ <0236.g1:A>` is also :eq:`equal <0236.g1:A = 0236.g1:C>` to :g:`$C$ <0236.g1:C>`. For, since :g:`$A$ <0236.g1:A>` is :eq:`equal <0236.g1:A = 0236.g1:B>` to :g:`$B$ <0236.g1:B>`, it occupies the same space with it; and since :g:`$B$ <0236.g1:B>` is :eq:`equal <0236.g1:B = 0236.g1:C>` to :g:`$C$ <0236.g1:C>`, it occupies the same space with it.
+:person:`Aristotle <aristotle>` throughout emphasises the fact that axioms are self-evident truths, which it is impossible to demonstrate. If, he says, any one should attempt to prove them, it could only be through ignorance. :person:`Aristotle <aristotle>` therefore would undoubtedly have agreed in Proclus' strictures on :person:`Apollonius <apollonius>` for attempting to prove the axioms. :person:`Proclus <proclus>` gives (p. 194, 25), as a specimen of these attempted proofs by :person:`Apollonius <apollonius>`, that of the first of the *Common Notions*. "Let :g:`A <0236.g1:A>` be :eq:`equal <0236.g1:A = 0236.g1:B = 0236.g1:C>` to :g:`B <0236.g1:B>`, and the latter to :g:`C <0236.g1:C>`; I say that :g:`A <0236.g1:A>` is also :eq:`equal <0236.g1:A = 0236.g1:C>` to :g:`C <0236.g1:C>`. For, since :g:`A <0236.g1:A>` is :eq:`equal <0236.g1:A = 0236.g1:B>` to :g:`B <0236.g1:B>`, it occupies the same space with it; and since :g:`B <0236.g1:B>` is :eq:`equal <0236.g1:B = 0236.g1:C>` to :g:`C <0236.g1:C>`, it occupies the same space with it.
 
 .. picture:: 0236.g1.svg
    :alt: Diagram for Apollonius's attempted proof of Common Notion 1
 
-Therefore :g:`$A$ <0236.g1:A>` also occupies the same space with :g:`$C$ <0236.g1:C>`."
+Therefore :g:`A <0236.g1:A>` also occupies the same space with :g:`C <0236.g1:C>`."
 
 :person:`Proclus <proclus>` rightly remarks (p. 194, 22) that "the middle term is no more
 intelligible (better known, γνωριμώτερον) than the conclusion, if it is not actually more disputable." Again (p. 195, 6), the proof assumes two things, (1) that things which "occupy the same space" (:term:`τόπος <topos>`) are equal to one another, and (2) that things which occupy the same space with one and the same thing occupy the same space with one another; which is to explain the obvious by something much more obscure, for space is an entity more unknown to us than the things which exist in space.
@@ -117,18 +117,18 @@ The corresponding axiom (*c*) about the *halves* of equals can hardly be genuine
 
 :person:`Proclus <proclus>` and :person:`Simplicius <simplicius>` (in :person:`an-Nairīzī <an-nairizi>`) give proofs of both. The proof of the former, as given by :person:`Simplicius <simplicius>`, is as follows:
 
-Let :g:`$AB$ <0238.g1:/ A B />`, :g:`$CD$ <0238.g1:/ C D />` be :eq:`equal <0238.g1:/ A B / = 0238.g1:/ C D />` magnitudes; and let :g:`$EB$ <0238.g1:/ B E />`, :g:`$FD$ <0238.g1:/ D F />` be added to them respectively, :g:`$EB$ <0238.g1:/ B E />` being greater than :g:`$FD$ <0238.g1:/ D F />`.
+Let :g:`AB <0238.g1:/ A B />`, :g:`CD <0238.g1:/ C D />` be :eq:`equal <0238.g1:/ A B / = 0238.g1:/ C D />` magnitudes; and let :g:`EB <0238.g1:/ B E />`, :g:`FD <0238.g1:/ D F />` be added to them respectively, :g:`EB <0238.g1:/ B E />` being greater than :g:`FD <0238.g1:/ D F />`.
 
-I say that :g:`$AE$ <0238.g1:/ A E />` exceeds :g:`$CF$ <0238.g1:/ C F />` by the same difference as that by which :g:`$BE$ <0238.g1:/ B E />` exceeds :g:`$DF$ <0238.g1:/ D F />`.
+I say that :g:`AE <0238.g1:/ A E />` exceeds :g:`CF <0238.g1:/ C F />` by the same difference as that by which :g:`BE <0238.g1:/ B E />` exceeds :g:`DF <0238.g1:/ D F />`.
 
-Cut off from :g:`$BE$ <0238.g1:/ B E />` the magnitude :g:`$BG$ <0238.g1:/ B G />` :eq:`equal <0238.g1:/ B G / = 0238.g1:/ D F />` to :g:`$DF$ <0238.g1:/ D F />`.
+Cut off from :g:`BE <0238.g1:/ B E />` the magnitude :g:`BG <0238.g1:/ B G />` :eq:`equal <0238.g1:/ B G / = 0238.g1:/ D F />` to :g:`DF <0238.g1:/ D F />`.
 
 .. picture:: 0238.g1.svg
    :alt: Simplicius's proof of Pappus's axiom (e)
 
-Then, since :g:`$AE$ <0238.g1:/ A E />` exceeds :g:`$AG$ <0238.g1:/ A G />` by :g:`$GE$ <0238.g1:/ G E />`, and :g:`$AG$ <0238.g1:/ A G />` is :eq:`equal <0238.g1:/ A G / = 0238.g1:/ C F /; 0238.g1:/ B G / = 0238.g1:/ D F />` to :g:`$CF$ <0238.g1:/ C F />` and :g:`$BG$ <0238.g1:/ B G />` to :g:`$DF$ <0238.g1:/ D F />`,
+Then, since :g:`AE <0238.g1:/ A E />` exceeds :g:`AG <0238.g1:/ A G />` by :g:`GE <0238.g1:/ G E />`, and :g:`AG <0238.g1:/ A G />` is :eq:`equal <0238.g1:/ A G / = 0238.g1:/ C F /; 0238.g1:/ B G / = 0238.g1:/ D F />` to :g:`CF <0238.g1:/ C F />` and :g:`BG <0238.g1:/ B G />` to :g:`DF <0238.g1:/ D F />`,
 
-:g:`$AE$ <0238.g1:/ A E />` exceeds :g:`$CF$ <0238.g1:/ C F />` by the same difference as that by which :g:`$BE$ <0238.g1:/ B E />` exceeds :g:`$DF$ <0238.g1:/ D F />`.
+:g:`AE <0238.g1:/ A E />` exceeds :g:`CF <0238.g1:/ C F />` by the same difference as that by which :g:`BE <0238.g1:/ B E />` exceeds :g:`DF <0238.g1:/ D F />`.
 
 ----
 
@@ -262,87 +262,87 @@ $$(ac) = (a'c').$$
 
 (11) *If two triangles have two sides and the included angles respectively congruent, they have also their third sides congruent as well as the angles opposite to the congruent sides respectively.*
 
-As a matter of fact, Hilbert's postulate corresponding to (11) does not assert the equality of the third sides in each, but only the equality of the two remaining angles in one triangle to the two remaining angles in the other respectively. He proves the equality of the third sides (thereby completing the theorem of Eucl. I. 4) by *reductio ad absurdum* thus. Let :g:`$ABC$ <0243.g1:< A B C >>`, :g:`$A'B'C'$ <0243.g1:< A' B' C' >>` be the two triangles which have the sides :g:`$AB$ <0243.g1:/ A B />`, :g:`$AC$ <0243.g1:/ A C />` respectively :eq:`congruent <0243.g1:/ A B / = 0243.g1:/ A' B' /; 0243.g1:/ A C / = 0243.g1:/ A' C' />` with the sides :g:`$A'B'$ <0243.g1:/ A' B' />`, :g:`$A'C'$ <0243.g1:/ A' C' />` and the included angle at :g:`$A$ <0243.g1:< B A C )>` :eq:`congruent <0243.g1:< B A C ) = 0243.g1:< B' A' C' )>` with the included angle at :g:`$A'$ <0243.g1:< B' A' C' )>`.
+As a matter of fact, Hilbert's postulate corresponding to (11) does not assert the equality of the third sides in each, but only the equality of the two remaining angles in one triangle to the two remaining angles in the other respectively. He proves the equality of the third sides (thereby completing the theorem of Eucl. I. 4) by *reductio ad absurdum* thus. Let :g:`ABC <0243.g1:< A B C >>`, :g:`A'B'C' <0243.g1:< A' B' C' >>` be the two triangles which have the sides :g:`AB <0243.g1:/ A B />`, :g:`AC <0243.g1:/ A C />` respectively :eq:`congruent <0243.g1:/ A B / = 0243.g1:/ A' B' /; 0243.g1:/ A C / = 0243.g1:/ A' C' />` with the sides :g:`A'B' <0243.g1:/ A' B' />`, :g:`A'C' <0243.g1:/ A' C' />` and the included angle at :g:`A <0243.g1:< B A C )>` :eq:`congruent <0243.g1:< B A C ) = 0243.g1:< B' A' C' )>` with the included angle at :g:`A' <0243.g1:< B' A' C' )>`.
 
 .. picture:: 0243.g1.svg
    :alt: Diagram for Hilbert's proof of SAS congruence
 
-Then, by Hilbert's own postulate, the angles :g:`$ABC$ <0243.g1:< A B C )>`, :g:`$A'B'C'$ <0243.g1:< A' B' C' )>` are :eq:`congruent <0243.g1:< A B C ) = 0243.g1:< A' B' C' ); 0243.g1:< A C B ) = 0243.g1:< A' C' B' )>`, as also the angles :g:`$ACB$ <0243.g1:< A C B )>`, :g:`$A'C'B'$ <0243.g1:< A' C' B' )>`.
+Then, by Hilbert's own postulate, the angles :g:`ABC <0243.g1:< A B C )>`, :g:`A'B'C' <0243.g1:< A' B' C' )>` are :eq:`congruent <0243.g1:< A B C ) = 0243.g1:< A' B' C' ); 0243.g1:< A C B ) = 0243.g1:< A' C' B' )>`, as also the angles :g:`ACB <0243.g1:< A C B )>`, :g:`A'C'B' <0243.g1:< A' C' B' )>`.
 
-If :g:`$BC$ <0243.g1:/ B C />` is not congruent with :g:`$B'C'$ <0243.g1:/ B' C' />`, let :g:`$D$ <0243.g1:D>` be taken on :g:`$B'C'$ <0243.g1:/ B' C' />` such that :g:`$BC$ <0243.g1:/ B C />`, :g:`$B'D$ <0243.g1:/ B' D />` are :eq:`congruent <0243.g1:/ B C / = 0243.g1:/ B' D />`, and join :g:`$A'D$ <0243.g1:/ A' D />`.
+If :g:`BC <0243.g1:/ B C />` is not congruent with :g:`B'C' <0243.g1:/ B' C' />`, let :g:`D <0243.g1:D>` be taken on :g:`B'C' <0243.g1:/ B' C' />` such that :g:`BC <0243.g1:/ B C />`, :g:`B'D <0243.g1:/ B' D />` are :eq:`congruent <0243.g1:/ B C / = 0243.g1:/ B' D />`, and join :g:`A'D <0243.g1:/ A' D />`.
 
 .. _folio-i-0244:
 
 .. folio:: 0244
    :page: 230
 
-Then the two triangles :g:`$ABC$ <0243.g1:< A B C >>`, :g:`$A'B'D$ <0243.g1:< A' B' D >>` have two sides and the included angles congruent respectively; therefore, by the same postulate, the angles :g:`$BAC$ <0243.g1:< B A C )>`, :g:`$B'A'D$ <0243.g1:< B' A' D )>` are :eq:`congruent <0243.g1:< B A C ) = 0243.g1:< B' A' D )>`.
+Then the two triangles :g:`ABC <0243.g1:< A B C >>`, :g:`A'B'D <0243.g1:< A' B' D >>` have two sides and the included angles congruent respectively; therefore, by the same postulate, the angles :g:`BAC <0243.g1:< B A C )>`, :g:`B'A'D <0243.g1:< B' A' D )>` are :eq:`congruent <0243.g1:< B A C ) = 0243.g1:< B' A' D )>`.
 
-But the angles :g:`$BAC$ <0243.g1:< B A C )>`, :g:`$B'A'C'$ <0243.g1:< B' A' C' )>` are :eq:`congruent <0243.g1:< B A C ) = 0243.g1:< B' A' C' )>`; therefore, by (4) above, the angles :g:`$B'A'C'$ <0243.g1:< B' A' C' )>`, :g:`$B'A'D$ <0243.g1:< B' A' D )>` are :eq:`congruent <0243.g1:< B' A' C' ) = 0243.g1:< B' A' D )>`: which is impossible, since it contradicts (8) above.
+But the angles :g:`BAC <0243.g1:< B A C )>`, :g:`B'A'C' <0243.g1:< B' A' C' )>` are :eq:`congruent <0243.g1:< B A C ) = 0243.g1:< B' A' C' )>`; therefore, by (4) above, the angles :g:`B'A'C' <0243.g1:< B' A' C' )>`, :g:`B'A'D <0243.g1:< B' A' D )>` are :eq:`congruent <0243.g1:< B' A' C' ) = 0243.g1:< B' A' D )>`: which is impossible, since it contradicts (8) above.
 
-Hence :g:`$BC$ <0243.g1:/ B C />`, :g:`$B'C'$ <0243.g1:/ B' C' />` cannot but be :eq:`congruent <0243.g1:/ B C / = 0243.g1:/ B' C' />`.
+Hence :g:`BC <0243.g1:/ B C />`, :g:`B'C' <0243.g1:/ B' C' />` cannot but be :eq:`congruent <0243.g1:/ B C / = 0243.g1:/ B' C' />`.
 
 Eucl. I. 4 is thus proved; but it seems to be as well to include all of that theorem in the postulate, as is done in (11) above, since the two parts of it are equally suggested by empirical observation of the result of one superposition.
 
 A proof similar to that just given immediately establishes Eucl. I. 26 (1), and :person:`Hilbert <hilbert>` next proves that
 
-*If two angles* :g:`$\text{ABC}$ <0244.g1:< A B C )>`, :g:`$\text{A}'\text{B}'\text{C}'$ <0244.g1:< A' B' C' )>` *are* :eq:`*congruent* <0244.g1:< A B C ) = 0244.g1:< A' B' C' )>` *with one another, their supplementary angles* :g:`$\text{CBD}$ <0244.g1:< C B D )>`, :g:`$\text{C}'\text{B}'\text{D}'$ <0244.g1:< C' B' D' )>` *are also* :eq:`*congruent* <0244.g1:< C B D ) = 0244.g1:< C' B' D' )>` *with one another*.
+*If two angles* :g:`ABC <0244.g1:< A B C )>`, :g:`A'B'C' <0244.g1:< A' B' C' )>` *are* :eq:`*congruent* <0244.g1:< A B C ) = 0244.g1:< A' B' C' )>` *with one another, their supplementary angles* :g:`CBD <0244.g1:< C B D )>`, :g:`C'B'D' <0244.g1:< C' B' D' )>` *are also* :eq:`*congruent* <0244.g1:< C B D ) = 0244.g1:< C' B' D' )>` *with one another*.
 
-We choose :g:`$A$ <0244.g1:A>`, :g:`$D$ <0244.g1:D>` on one of the straight lines forming the first angle, and :g:`$A'$ <0244.g1:A'>`, :g:`$D'$ <0244.g1:D'>` on one of those forming the second angle, and again :g:`$C$ <0244.g1:C>`, :g:`$C'$ <0244.g1:C'>` on the other
+We choose :g:`A <0244.g1:A>`, :g:`D <0244.g1:D>` on one of the straight lines forming the first angle, and :g:`A' <0244.g1:A'>`, :g:`D' <0244.g1:D'>` on one of those forming the second angle, and again :g:`C <0244.g1:C>`, :g:`C' <0244.g1:C'>` on the other
 
 .. picture:: 0244.g1.svg
    :alt: Diagram for congruence of supplementary angles
 
-straight lines forming the angles, so that :g:`$A'B'$ <0244.g1:/ A' B' />` is :eq:`congruent <0244.g1:/ A' B' / = 0244.g1:/ A B /; 0244.g1:/ C' B' / = 0244.g1:/ C B /; 0244.g1:/ B' D' / = 0244.g1:/ B D />` with :g:`$AB$ <0244.g1:/ A B />`, :g:`$C'B'$ <0244.g1:/ C' B' />` with :g:`$CB$ <0244.g1:/ C B />`, and :g:`$D'B'$ <0244.g1:/ B' D' />` with :g:`$DB$ <0244.g1:/ B D />`.
+straight lines forming the angles, so that :g:`A'B' <0244.g1:/ A' B' />` is :eq:`congruent <0244.g1:/ A' B' / = 0244.g1:/ A B /; 0244.g1:/ C' B' / = 0244.g1:/ C B /; 0244.g1:/ B' D' / = 0244.g1:/ B D />` with :g:`AB <0244.g1:/ A B />`, :g:`C'B' <0244.g1:/ C' B' />` with :g:`CB <0244.g1:/ C B />`, and :g:`D'B' <0244.g1:/ B' D' />` with :g:`DB <0244.g1:/ B D />`.
 
-The triangles :g:`$ABC$ <0244.g1:< A B C >>`, :g:`$A'B'C'$ <0244.g1:< A' B' C' >>` are :eq:`congruent <0244.g1:< A B C > = 0244.g1:< A' B' C' >>`, by (11) above; and :g:`$AC$ <0244.g1:/ A C />` is :eq:`congruent <0244.g1:/ A C / = 0244.g1:/ A' C' /; 0244.g1:< C A B ) = 0244.g1:< C' A' B' )>` with :g:`$A'C'$ <0244.g1:/ A' C' />`, and the angle :g:`$CAB$ <0244.g1:< C A B )>` with the angle :g:`$C'A'B'$ <0244.g1:< C' A' B' )>`.
+The triangles :g:`ABC <0244.g1:< A B C >>`, :g:`A'B'C' <0244.g1:< A' B' C' >>` are :eq:`congruent <0244.g1:< A B C > = 0244.g1:< A' B' C' >>`, by (11) above; and :g:`AC <0244.g1:/ A C />` is :eq:`congruent <0244.g1:/ A C / = 0244.g1:/ A' C' /; 0244.g1:< C A B ) = 0244.g1:< C' A' B' )>` with :g:`A'C' <0244.g1:/ A' C' />`, and the angle :g:`CAB <0244.g1:< C A B )>` with the angle :g:`C'A'B' <0244.g1:< C' A' B' )>`.
 
-Thus, :g:`$AD$ <0244.g1:/ A D />`, :g:`$A'D'$ <0244.g1:/ A' D' />` being :eq:`congruent <0244.g1:/ A D / = 0244.g1:/ A' D' />`, by (9), the triangles :g:`$CAD$ <0244.g1:< C A D >>`, :g:`$C'A'D'$ <0244.g1:< C' A' D' >>` are also :eq:`congruent <0244.g1:< C A D > = 0244.g1:< C' A' D' >>`, by (11);
+Thus, :g:`AD <0244.g1:/ A D />`, :g:`A'D' <0244.g1:/ A' D' />` being :eq:`congruent <0244.g1:/ A D / = 0244.g1:/ A' D' />`, by (9), the triangles :g:`CAD <0244.g1:< C A D >>`, :g:`C'A'D' <0244.g1:< C' A' D' >>` are also :eq:`congruent <0244.g1:< C A D > = 0244.g1:< C' A' D' >>`, by (11);
 
-whence :g:`$CD$ <0244.g1:/ C D />` is :eq:`congruent <0244.g1:/ C D / = 0244.g1:/ C' D' /; 0244.g1:< A D C ) = 0244.g1:< A' D' C' )>` with :g:`$C'D'$ <0244.g1:/ C' D' />`, and the angle :g:`$ADC$ <0244.g1:< A D C )>` with the angle :g:`$A'D'C'$ <0244.g1:< A' D' C' )>`.
+whence :g:`CD <0244.g1:/ C D />` is :eq:`congruent <0244.g1:/ C D / = 0244.g1:/ C' D' /; 0244.g1:< A D C ) = 0244.g1:< A' D' C' )>` with :g:`C'D' <0244.g1:/ C' D' />`, and the angle :g:`ADC <0244.g1:< A D C )>` with the angle :g:`A'D'C' <0244.g1:< A' D' C' )>`.
 
-Lastly, by (11), the triangles :g:`$CDB$ <0244.g1:< C D B >>`, :g:`$C'D'B'$ <0244.g1:< C' D' B' >>` are :eq:`congruent <0244.g1:< C D B > = 0244.g1:< C' D' B' >>`, and the angles :g:`$CBD$ <0244.g1:< C B D )>`, :g:`$C'B'D'$ <0244.g1:< C' B' D' )>` are thus :eq:`congruent <0244.g1:< C B D ) = 0244.g1:< C' B' D' )>`.
+Lastly, by (11), the triangles :g:`CDB <0244.g1:< C D B >>`, :g:`C'D'B' <0244.g1:< C' D' B' >>` are :eq:`congruent <0244.g1:< C D B > = 0244.g1:< C' D' B' >>`, and the angles :g:`CBD <0244.g1:< C B D )>`, :g:`C'B'D' <0244.g1:< C' B' D' )>` are thus :eq:`congruent <0244.g1:< C B D ) = 0244.g1:< C' B' D' )>`.
 
 Hilbert's next proposition is that
 
-*Given that the angle* :g:`$(\text{h}, \text{k})$ <0244.g2:< A O B )>` *in the plane $\alpha$ is* :eq:`*congruent* <0244.g2:< A O B ) = 0244.g2:< A' O' B' )>` *with the angle* :g:`$(\text{h}', \text{k}')$ <0244.g2:< A' O' B' )>` *in the plane $\alpha'$, and that* :g:`$\text{l}$ <0244.g2:[ O C ]>` *is a half-ray in the plane $\alpha$ starting from the vertex of the angle* :g:`$(\text{h}, \text{k})$ <0244.g2:< A O B )>` *and lying within that angle, there always exists a half-ray* :g:`$\text{l}'$ <0244.g2:[ O' C' ]>` *in the second plane $\alpha'$, starting from the vertex of the angle* :g:`$(\text{h}', \text{k}')$ <0244.g2:< A' O' B' )>` *and lying within that angle, such that*
+*Given that the angle* :g:`(h, k) <0244.g2:< A O B )>` *in the plane $\alpha$ is* :eq:`*congruent* <0244.g2:< A O B ) = 0244.g2:< A' O' B' )>` *with the angle* :g:`(h', k') <0244.g2:< A' O' B' )>` *in the plane $\alpha'$, and that* :g:`l <0244.g2:[ O C ]>` *is a half-ray in the plane $\alpha$ starting from the vertex of the angle* :g:`(h, k) <0244.g2:< A O B )>` *and lying within that angle, there always exists a half-ray* :g:`l' <0244.g2:[ O' C' ]>` *in the second plane $\alpha'$, starting from the vertex of the angle* :g:`(h', k') <0244.g2:< A' O' B' )>` *and lying within that angle, such that*
 
 $$(\text{h}, \text{l}) \equiv (\text{h}', \text{l}'), \text{ and } (\text{k}, \text{l}) \equiv (\text{k}', \text{l}').$$
 
-If :g:`$O$ <0244.g2:O>`, :g:`$O'$ <0244.g2:O'>` are the vertices, we choose points :g:`$A$ <0244.g2:A>`, :g:`$B$ <0244.g2:B>` on :g:`$h$ <0244.g2:[ O A ]>`, :g:`$k$ <0244.g2:[ O B ]>`, and points :g:`$A'$ <0244.g2:A'>`, :g:`$B'$ <0244.g2:B'>` on :g:`$h'$ <0244.g2:[ O' A' ]>`, :g:`$k'$ <0244.g2:[ O' B' ]>` respectively, such that :g:`$OA$ <0244.g2:/ O A />`, :g:`$O'A'$ <0244.g2:/ O' A' />` are :eq:`congruent <0244.g2:/ O A / = 0244.g2:/ O' A' /; 0244.g2:/ O B / = 0244.g2:/ O' B' />` and also :g:`$OB$ <0244.g2:/ O B />`, :g:`$O'B'$ <0244.g2:/ O' B' />`.
+If :g:`O <0244.g2:O>`, :g:`O' <0244.g2:O'>` are the vertices, we choose points :g:`A <0244.g2:A>`, :g:`B <0244.g2:B>` on :g:`h <0244.g2:[ O A ]>`, :g:`k <0244.g2:[ O B ]>`, and points :g:`A' <0244.g2:A'>`, :g:`B' <0244.g2:B'>` on :g:`h' <0244.g2:[ O' A' ]>`, :g:`k' <0244.g2:[ O' B' ]>` respectively, such that :g:`OA <0244.g2:/ O A />`, :g:`O'A' <0244.g2:/ O' A' />` are :eq:`congruent <0244.g2:/ O A / = 0244.g2:/ O' A' /; 0244.g2:/ O B / = 0244.g2:/ O' B' />` and also :g:`OB <0244.g2:/ O B />`, :g:`O'B' <0244.g2:/ O' B' />`.
 
 .. picture:: 0244.g2.svg
    :alt: Diagram for interior half-ray congruence
 
-The triangles :g:`$OAB$ <0244.g2:< O A B >>`, :g:`$O'A'B'$ <0244.g2:< O' A' B' >>` are then :eq:`congruent <0244.g2:< O A B > = 0244.g2:< O' A' B' >>`; and, if :g:`$l$ <0244.g2:[ O C ]>` meets :g:`$AB$ <0244.g2:/ A B />` in :g:`$C$ <0244.g2:C>`, we can determine :g:`$C'$ <0244.g2:C'>` on :g:`$A'B'$ <0244.g2:/ A' B' />` such that :g:`$A'C'$ <0244.g2:/ A' C' />` is :eq:`congruent <0244.g2:/ A' C' / = 0244.g2:/ A C />` with :g:`$AC$ <0244.g2:/ A C />`.
+The triangles :g:`OAB <0244.g2:< O A B >>`, :g:`O'A'B' <0244.g2:< O' A' B' >>` are then :eq:`congruent <0244.g2:< O A B > = 0244.g2:< O' A' B' >>`; and, if :g:`l <0244.g2:[ O C ]>` meets :g:`AB <0244.g2:/ A B />` in :g:`C <0244.g2:C>`, we can determine :g:`C' <0244.g2:C'>` on :g:`A'B' <0244.g2:/ A' B' />` such that :g:`A'C' <0244.g2:/ A' C' />` is :eq:`congruent <0244.g2:/ A' C' / = 0244.g2:/ A C />` with :g:`AC <0244.g2:/ A C />`.
 
-Then :g:`$l'$ <0244.g2:[ O' C' ]>` drawn from :g:`$O'$ <0244.g2:O'>` through :g:`$C'$ <0244.g2:C'>` is the half-ray required.
+Then :g:`l' <0244.g2:[ O' C' ]>` drawn from :g:`O' <0244.g2:O'>` through :g:`C' <0244.g2:C'>` is the half-ray required.
 
 .. _folio-i-0245:
 
 .. folio:: 0245
    :page: 231
 
-The :eq:`congruence <0244.g2:< A O C ) = 0244.g2:< A' O' C' ); 0244.g2:< B O C ) = 0244.g2:< B' O' C' )>` of the angles :g:`$(h, l)$ <0244.g2:< A O C )>`, :g:`$(h', l')$ <0244.g2:< A' O' C' )>` follows from (11) directly, and that of :g:`$(k, l)$ <0244.g2:< B O C )>` and :g:`$(k', l')$ <0244.g2:< B' O' C' )>` follows in the same way after we have inferred by means of (9) that, :g:`$AB$ <0244.g2:/ A B />`, :g:`$AC$ <0244.g2:/ A C />` being respectively :eq:`congruent <0244.g2:/ A B / = 0244.g2:/ A' B' /; 0244.g2:/ A C / = 0244.g2:/ A' C' />` with :g:`$A'B'$ <0244.g2:/ A' B' />`, :g:`$A'C'$ <0244.g2:/ A' C' />`, the difference :g:`$BC$ <0244.g2:/ C B />` is :eq:`congruent <0244.g2:/ C B / = 0244.g2:/ C' B' />` with the difference :g:`$B'C'$ <0244.g2:/ C' B' />`.
+The :eq:`congruence <0244.g2:< A O C ) = 0244.g2:< A' O' C' ); 0244.g2:< B O C ) = 0244.g2:< B' O' C' )>` of the angles :g:`(h, l) <0244.g2:< A O C )>`, :g:`(h', l') <0244.g2:< A' O' C' )>` follows from (11) directly, and that of :g:`(k, l) <0244.g2:< B O C )>` and :g:`(k', l') <0244.g2:< B' O' C' )>` follows in the same way after we have inferred by means of (9) that, :g:`AB <0244.g2:/ A B />`, :g:`AC <0244.g2:/ A C />` being respectively :eq:`congruent <0244.g2:/ A B / = 0244.g2:/ A' B' /; 0244.g2:/ A C / = 0244.g2:/ A' C' />` with :g:`A'B' <0244.g2:/ A' B' />`, :g:`A'C' <0244.g2:/ A' C' />`, the difference :g:`BC <0244.g2:/ C B />` is :eq:`congruent <0244.g2:/ C B / = 0244.g2:/ C' B' />` with the difference :g:`B'C' <0244.g2:/ C' B' />`.
 
 It is by means of the two propositions just given that :person:`Hilbert <hilbert>` proves that
 
 *All right angles are congruent with one another.*
 
-Let the angle :g:`$BAD$ <0245.g1:< B A D )>` be :eq:`congruent <0245.g1:< B A D ) = 0245.g1:< C A D )>` with its adjacent angle :g:`$CAD$ <0245.g1:< C A D )>`, and likewise the angle :g:`$B'A'D'$ <0245.g1:< B' A' D' )>` :eq:`congruent <0245.g1:< B' A' D' ) = 0245.g1:< C' A' D' )>` with its adjacent angle :g:`$C'A'D'$ <0245.g1:< C' A' D' )>`. All four angles are then right angles.
+Let the angle :g:`BAD <0245.g1:< B A D )>` be :eq:`congruent <0245.g1:< B A D ) = 0245.g1:< C A D )>` with its adjacent angle :g:`CAD <0245.g1:< C A D )>`, and likewise the angle :g:`B'A'D' <0245.g1:< B' A' D' )>` :eq:`congruent <0245.g1:< B' A' D' ) = 0245.g1:< C' A' D' )>` with its adjacent angle :g:`C'A'D' <0245.g1:< C' A' D' )>`. All four angles are then right angles.
 
 .. picture:: 0245.g1.svg
    :alt: Diagram for congruence of all right angles
 
-If the angle :g:`$B'A'D'$ <0245.g1:< B' A' D' )>` is not congruent with the angle :g:`$BAD$ <0245.g1:< B A D )>`, let the angle with :g:`$AB$ <0245.g1:/ A B />` for one side and :eq:`congruent <0245.g1:< B' A' D' ) = 0245.g1:< B A D'' )>` with the angle :g:`$B'A'D'$ <0245.g1:< B' A' D' )>` be the angle :g:`$BAD''$ <0245.g1:< B A D'' )>`, so that :g:`$AD''$ <0245.g1:/ A D'' />` falls either within the angle :g:`$BAD$ <0245.g1:< B A D )>` or within the angle :g:`$DAC$ <0245.g1:< C A D )>`. Suppose the former.
+If the angle :g:`B'A'D' <0245.g1:< B' A' D' )>` is not congruent with the angle :g:`BAD <0245.g1:< B A D )>`, let the angle with :g:`AB <0245.g1:/ A B />` for one side and :eq:`congruent <0245.g1:< B' A' D' ) = 0245.g1:< B A D'' )>` with the angle :g:`B'A'D' <0245.g1:< B' A' D' )>` be the angle :g:`BAD'' <0245.g1:< B A D'' )>`, so that :g:`AD'' <0245.g1:/ A D'' />` falls either within the angle :g:`BAD <0245.g1:< B A D )>` or within the angle :g:`DAC <0245.g1:< C A D )>`. Suppose the former.
 
-By the last proposition but one (about adjacent angles), the angles :g:`$B'A'D'$ <0245.g1:< B' A' D' )>`, :g:`$BAD''$ <0245.g1:< B A D'' )>` being :eq:`congruent <0245.g1:< B' A' D' ) = 0245.g1:< B A D'' )>`, the angles :g:`$C'A'D'$ <0245.g1:< C' A' D' )>`, :g:`$CAD''$ <0245.g1:< C A D'' )>` are :eq:`congruent <0245.g1:< C' A' D' ) = 0245.g1:< C A D'' )>`.
+By the last proposition but one (about adjacent angles), the angles :g:`B'A'D' <0245.g1:< B' A' D' )>`, :g:`BAD'' <0245.g1:< B A D'' )>` being :eq:`congruent <0245.g1:< B' A' D' ) = 0245.g1:< B A D'' )>`, the angles :g:`C'A'D' <0245.g1:< C' A' D' )>`, :g:`CAD'' <0245.g1:< C A D'' )>` are :eq:`congruent <0245.g1:< C' A' D' ) = 0245.g1:< C A D'' )>`.
 
-Hence, by the hypothesis and postulate (4) above, the angles :g:`$BAD''$ <0245.g1:< B A D'' )>`, :g:`$CAD''$ <0245.g1:< C A D'' )>` are also :eq:`congruent <0245.g1:< B A D'' ) = 0245.g1:< C A D'' )>`.
+Hence, by the hypothesis and postulate (4) above, the angles :g:`BAD'' <0245.g1:< B A D'' )>`, :g:`CAD'' <0245.g1:< C A D'' )>` are also :eq:`congruent <0245.g1:< B A D'' ) = 0245.g1:< C A D'' )>`.
 
-And, since the angles :g:`$BAD$ <0245.g1:< B A D )>`, :g:`$CAD$ <0245.g1:< C A D )>` are :eq:`congruent <0245.g1:< B A D ) = 0245.g1:< C A D )>`, we can find within the angle :g:`$CAD$ <0245.g1:< C A D )>` a half-ray :g:`$CAD'''$ <0245.g1:[ A D''' ]>` such that the angles :g:`$BAD''$ <0245.g1:< B A D'' )>`, :g:`$CAD'''$ <0245.g1:< C A D''' )>` are :eq:`congruent <0245.g1:< B A D'' ) = 0245.g1:< C A D''' ); 0245.g1:< D A D'' ) = 0245.g1:< D A D''' )>`, and likewise the angles :g:`$DAD''$ <0245.g1:< D A D'' )>`, :g:`$DAD'''$ <0245.g1:< D A D''' )>` (by the last proposition).
+And, since the angles :g:`BAD <0245.g1:< B A D )>`, :g:`CAD <0245.g1:< C A D )>` are :eq:`congruent <0245.g1:< B A D ) = 0245.g1:< C A D )>`, we can find within the angle :g:`CAD <0245.g1:< C A D )>` a half-ray :g:`CAD''' <0245.g1:[ A D''' ]>` such that the angles :g:`BAD'' <0245.g1:< B A D'' )>`, :g:`CAD''' <0245.g1:< C A D''' )>` are :eq:`congruent <0245.g1:< B A D'' ) = 0245.g1:< C A D''' ); 0245.g1:< D A D'' ) = 0245.g1:< D A D''' )>`, and likewise the angles :g:`DAD'' <0245.g1:< D A D'' )>`, :g:`DAD''' <0245.g1:< D A D''' )>` (by the last proposition).
 
-But the angles :g:`$BAD''$ <0245.g1:< B A D'' )>`, :g:`$CAD''$ <0245.g1:< C A D'' )>` were :eq:`congruent <0245.g1:< B A D'' ) = 0245.g1:< C A D'' )>` (see above); and it follows, by (4), that the angles :g:`$CAD''$ <0245.g1:< C A D'' )>`, :g:`$CAD'''$ <0245.g1:< C A D''' )>` are :eq:`congruent <0245.g1:< C A D'' ) = 0245.g1:< C A D''' )>`: which is impossible, since it contradicts postulate (8).
+But the angles :g:`BAD'' <0245.g1:< B A D'' )>`, :g:`CAD'' <0245.g1:< C A D'' )>` were :eq:`congruent <0245.g1:< B A D'' ) = 0245.g1:< C A D'' )>` (see above); and it follows, by (4), that the angles :g:`CAD'' <0245.g1:< C A D'' )>`, :g:`CAD''' <0245.g1:< C A D''' )>` are :eq:`congruent <0245.g1:< C A D'' ) = 0245.g1:< C A D''' )>`: which is impossible, since it contradicts postulate (8).
 
 Therefore etc.
 
@@ -355,7 +355,7 @@ Lastly, :person:`Hilbert <hilbert>` proves Eucl. I. 8 by means of the theorem of
 .. picture:: 0245.g2.svg
    :alt: Diagram for Hilbert's proof of Euclid I. 8
 
-:g:`$ABC$ <0245.g2:< A B C >>`, :g:`$A'B'C'$ <0245.g2:< A' B' C' >>` being the given triangles with three sides respectively :eq:`congruent <0245.g2:/ A B / = 0245.g2:/ A' B' /; 0245.g2:/ A C / = 0245.g2:/ A' C' /; 0245.g2:/ B C / = 0245.g2:/ B' C' />`, we suppose an angle :g:`$CBA''$ <0245.g2:< C B A'' )>` to be determined, on the side of :g:`$BC$ <0245.g2:/ B C />` opposite to :g:`$A$ <0245.g2:A>`, :eq:`congruent <0245.g2:< C B A'' ) = 0245.g2:< A' B' C' )>` with the angle :g:`$A'B'C'$ <0245.g2:< A' B' C' )>`, and we make :g:`$BA''$ <0245.g2:/ B A'' />` :eq:`equal <0245.g2:/ B A'' / = 0245.g2:/ A' B' />` to :g:`$A'B'$ <0245.g2:/ A' B' />`.
+:g:`ABC <0245.g2:< A B C >>`, :g:`A'B'C' <0245.g2:< A' B' C' >>` being the given triangles with three sides respectively :eq:`congruent <0245.g2:/ A B / = 0245.g2:/ A' B' /; 0245.g2:/ A C / = 0245.g2:/ A' C' /; 0245.g2:/ B C / = 0245.g2:/ B' C' />`, we suppose an angle :g:`CBA'' <0245.g2:< C B A'' )>` to be determined, on the side of :g:`BC <0245.g2:/ B C />` opposite to :g:`A <0245.g2:A>`, :eq:`congruent <0245.g2:< C B A'' ) = 0245.g2:< A' B' C' )>` with the angle :g:`A'B'C' <0245.g2:< A' B' C' )>`, and we make :g:`BA'' <0245.g2:/ B A'' />` :eq:`equal <0245.g2:/ B A'' / = 0245.g2:/ A' B' />` to :g:`A'B' <0245.g2:/ A' B' />`.
 
 The proof is obvious, being equivalent to the alternative proof often given in our text-books for Eucl. I. 8.
 
@@ -525,40 +525,40 @@ It is possible to use the Postulate of :person:`Dedekind <dedekind>` to prove th
 
 For this purpose it is necessary to assume (1) the proposition with reference to the perpendicular and obliques drawn from a given point to a given straight line, namely that of all straight lines drawn from a given point to a given straight line the perpendicular is the shortest, and of the rest (the obliques) that is the longer which has the longer projection upon the straight line, while those are equal the projections of which are equal, so that for any given length of projection there are two equal obliques and two only, one on each side of the perpendicular, and (2) the proposition that any side of a triangle is less than the sum of the other two.
 
-Consider the circle :g:`$(C)$ <0251.g1:( O R )>` with centre :g:`$O$ <0251.g1:O>`, and a straight line :g:`$(r)$ <0251.g1:[ P B ]>` with one point :g:`$A$ <0251.g1:A>` inside and one point :g:`$B$ <0251.g1:B>` outside the circle.
+Consider the circle :g:`(C) <0251.g1:( O R )>` with centre :g:`O <0251.g1:O>`, and a straight line :g:`(r) <0251.g1:[ P B ]>` with one point :g:`A <0251.g1:A>` inside and one point :g:`B <0251.g1:B>` outside the circle.
 
 .. picture:: 0251.g1.svg
    :alt: Intersections of a straight line with a circle
 
-By the definition of the circle, if :g:`$R$ <0251.g1:/ O M />` is the radius,
+By the definition of the circle, if :g:`R <0251.g1:/ O M />` is the radius,
 
 $$OA < R, \quad OB > R.$$
 
-Draw :g:`$OP$ <0251.g1:/ O P />` perpendicular to the straight line :g:`$r$ <0251.g1:[ P B ]>`.
+Draw :g:`OP <0251.g1:/ O P />` perpendicular to the straight line :g:`r <0251.g1:[ P B ]>`.
 
-Then :g:`$OP$ <0251.g1:/ O P />` < :g:`$OA$ <0251.g1:/ O A />`, so that :g:`$OP$ <0251.g1:/ O P />` is always less than :g:`$R$ <0251.g1:/ O M />`, and :g:`$P$ <0251.g1:P>` is therefore within the circle :g:`$C$ <0251.g1:( O R )>`.
+Then :g:`OP <0251.g1:/ O P />` < :g:`OA <0251.g1:/ O A />`, so that :g:`OP <0251.g1:/ O P />` is always less than :g:`R <0251.g1:/ O M />`, and :g:`P <0251.g1:P>` is therefore within the circle :g:`C <0251.g1:( O R )>`.
 
-Now let us fix our attention on the finite segment :g:`$AB$ <0251.g1:/ A B />` of the straight line :g:`$r$ <0251.g1:[ P B ]>`. It can be divided into two parts, (1) that containing all the points :g:`$H$ <0251.g1:A>` for which $OH < R$ (i.e. points inside :g:`$C$ <0251.g1:( O R )>`), and (2) that containing all the points :g:`$K$ <0251.g1:B>` for which $OK \geqq R$ (points outside :g:`$C$ <0251.g1:( O R )>` or on the circumference of :g:`$C$ <0251.g1:( O R )>`).
+Now let us fix our attention on the finite segment :g:`AB <0251.g1:/ A B />` of the straight line :g:`r <0251.g1:[ P B ]>`. It can be divided into two parts, (1) that containing all the points :g:`H <0251.g1:A>` for which $OH < R$ (i.e. points inside :g:`C <0251.g1:( O R )>`), and (2) that containing all the points :g:`K <0251.g1:B>` for which $OK \geqq R$ (points outside :g:`C <0251.g1:( O R )>` or on the circumference of :g:`C <0251.g1:( O R )>`).
 
-Thus, remembering that, of two obliques from a given point to a given straight line, that is greater the projection of which is greater, we can assert that all the points of the segment :g:`$PB$ <0251.g1:/ P B />` which *precede* a point inside :g:`$C$ <0251.g1:( O R )>` are inside :g:`$C$ <0251.g1:( O R )>`, and those which *follow* a point on the circumference of :g:`$C$ <0251.g1:( O R )>` or outside :g:`$C$ <0251.g1:( O R )>` are outside :g:`$C$ <0251.g1:( O R )>`.
+Thus, remembering that, of two obliques from a given point to a given straight line, that is greater the projection of which is greater, we can assert that all the points of the segment :g:`PB <0251.g1:/ P B />` which *precede* a point inside :g:`C <0251.g1:( O R )>` are inside :g:`C <0251.g1:( O R )>`, and those which *follow* a point on the circumference of :g:`C <0251.g1:( O R )>` or outside :g:`C <0251.g1:( O R )>` are outside :g:`C <0251.g1:( O R )>`.
 
-Hence, by the Postulate of :person:`Dedekind <dedekind>`, there exists on the segment :g:`$PB$ <0251.g1:/ P B />` a
-point :g:`$M$ <0251.g1:M>` such that all the points which precede it belong to the first part and those which follow it to the second part.
+Hence, by the Postulate of :person:`Dedekind <dedekind>`, there exists on the segment :g:`PB <0251.g1:/ P B />` a
+point :g:`M <0251.g1:M>` such that all the points which precede it belong to the first part and those which follow it to the second part.
 
 .. _folio-i-0252:
 
 .. folio:: 0252
    :page: 238
 
-I say that :g:`$M$ <0251.g1:M>` is common to the straight line :g:`$r$ <0251.g1:[ P B ]>` and the circle :g:`$C$ <0251.g1:( O R )>`, or
+I say that :g:`M <0251.g1:M>` is common to the straight line :g:`r <0251.g1:[ P B ]>` and the circle :g:`C <0251.g1:( O R )>`, or
 
 $$OM = R.$$
 
-For suppose, e.g., that :g:`$OM$ <0251.g1:/ O M />` < :g:`$R$ <0251.g1:/ O M />`.
+For suppose, e.g., that :g:`OM <0251.g1:/ O M />` < :g:`R <0251.g1:/ O M />`.
 
-There will then exist a segment (or length) :g:`$\sigma$ <0251.g1:/ M M' />` less than the difference between :g:`$R$ <0251.g1:/ O M />` and :g:`$OM$ <0251.g1:/ O M />`.
+There will then exist a segment (or length) :g:`σ <0251.g1:/ M M' />` less than the difference between :g:`R <0251.g1:/ O M />` and :g:`OM <0251.g1:/ O M />`.
 
-Consider the point :g:`$M'$ <0251.g1:M'>`, one of those which *follow* :g:`$M$ <0251.g1:M>`, such that :g:`$MM'$ <0251.g1:/ M M' />` is equal to :g:`$\sigma$ <0251.g1:/ M M' />`.
+Consider the point :g:`M' <0251.g1:M'>`, one of those which *follow* :g:`M <0251.g1:M>`, such that :g:`MM' <0251.g1:/ M M' />` is equal to :g:`σ <0251.g1:/ M M' />`.
 
 Then, because any side of a triangle is less than the sum of the other two,
 
@@ -574,11 +574,11 @@ $$OM' < R,$$
 
 which is absurd.
 
-A similar absurdity would follow if we suppose that :g:`$OM$ <0251.g1:/ O M />` > :g:`$R$ <0251.g1:/ O M />`.
+A similar absurdity would follow if we suppose that :g:`OM <0251.g1:/ O M />` > :g:`R <0251.g1:/ O M />`.
 
-Therefore :g:`$OM$ <0251.g1:/ O M />` must be equal to :g:`$R$ <0251.g1:/ O M />`.
+Therefore :g:`OM <0251.g1:/ O M />` must be equal to :g:`R <0251.g1:/ O M />`.
 
-It is immediately obvious that, corresponding to the point :g:`$M$ <0251.g1:M>` on the segment :g:`$PB$ <0251.g1:/ P B />` which is common to :g:`$r$ <0251.g1:[ P B ]>` and :g:`$C$ <0251.g1:( O R )>`, there is another point on :g:`$r$ <0251.g1:[ P B ]>` which has the same property, namely that which is symmetrical to :g:`$M$ <0251.g1:M>` with respect to :g:`$P$ <0251.g1:P>`.
+It is immediately obvious that, corresponding to the point :g:`M <0251.g1:M>` on the segment :g:`PB <0251.g1:/ P B />` which is common to :g:`r <0251.g1:[ P B ]>` and :g:`C <0251.g1:( O R )>`, there is another point on :g:`r <0251.g1:[ P B ]>` which has the same property, namely that which is symmetrical to :g:`M <0251.g1:M>` with respect to :g:`P <0251.g1:P>`.
 
 And the proposition is proved.
 
@@ -587,54 +587,54 @@ Intersections of two circles.
 
 We can likewise use the Postulate of :person:`Dedekind <dedekind>` to prove that
 
-*If in a given plane a circle* :g:`$C$ <0252.g1:( O A )>` *has one point* :g:`$X$ <0252.g1:X>` *inside and one point* :g:`$Y$ <0252.g1:Y>` *outside another circle* :g:`$C'$ <0252.g1:( O' C' )>`, *the two circles intersect in two points.*
+*If in a given plane a circle* :g:`C <0252.g1:( O A )>` *has one point* :g:`X <0252.g1:X>` *inside and one point* :g:`Y <0252.g1:Y>` *outside another circle* :g:`C' <0252.g1:( O' C' )>`, *the two circles intersect in two points.*
 
 We must first prove the following
 
 *Lemma.*
 ^^^^^^^^
 
-If :g:`$O$ <0252.g1:O>`, :g:`$O'$ <0252.g1:O'>` are the centres of two circles :g:`$C$ <0252.g1:( O A )>`, :g:`$C'$ <0252.g1:( O' C' )>`, and :g:`$R$ <0252.g1:/ A O />`, :g:`$R'$ <0252.g1:( O' C' )>` their radii respectively, the straight line :g:`$OO'$ <0252.g1:[ O O' ]>` meets the circle :g:`$C$ <0252.g1:( O A )>` in two points :g:`$A$ <0252.g1:A>`, :g:`$B$ <0252.g1:B>`, one of which is inside :g:`$C'$ <0252.g1:( O' C' )>` and the other outside it.
+If :g:`O <0252.g1:O>`, :g:`O' <0252.g1:O'>` are the centres of two circles :g:`C <0252.g1:( O A )>`, :g:`C' <0252.g1:( O' C' )>`, and :g:`R <0252.g1:/ A O />`, :g:`R' <0252.g1:( O' C' )>` their radii respectively, the straight line :g:`OO' <0252.g1:[ O O' ]>` meets the circle :g:`C <0252.g1:( O A )>` in two points :g:`A <0252.g1:A>`, :g:`B <0252.g1:B>`, one of which is inside :g:`C' <0252.g1:( O' C' )>` and the other outside it.
 
-Now one of these points must fall (1) on the prolongation of :g:`$O'O$ <0252.g1:/ O O' />` beyond :g:`$O$ <0252.g1:O>` or (2) on :g:`$OO'$ <0252.g2:/ O O' />` itself or (3) on the prolongation of :g:`$OO'$ <0253.g1:/ O O' />` beyond :g:`$O'$ <0253.g1:O'>`.
+Now one of these points must fall (1) on the prolongation of :g:`O'O <0252.g1:/ O O' />` beyond :g:`O <0252.g1:O>` or (2) on :g:`OO' <0252.g2:/ O O' />` itself or (3) on the prolongation of :g:`OO' <0253.g1:/ O O' />` beyond :g:`O' <0253.g1:O'>`.
 
 .. picture:: 0252.g1.svg
    :alt: Intersections of two circles, Lemma Case 1
 
-(1) First, suppose :g:`$A$ <0252.g1:A>` to lie on :g:`$O'O$ <0252.g1:/ O O' />` produced.
+(1) First, suppose :g:`A <0252.g1:A>` to lie on :g:`O'O <0252.g1:/ O O' />` produced.
 
 Then
 
 $$AO' = AO + OO' = R + OO' \ldots\ldots (\alpha).$$
 
-But, in the triangle :g:`$OO'Y$ <0252.g1:< O O' Y >>`,
+But, in the triangle :g:`OO'Y <0252.g1:< O O' Y >>`,
 
 $$O'Y < OY + OO',$$
 
-and, since :g:`$O'Y$ <0252.g1:/ O' Y />` > :g:`$R'$ <0252.g1:( O' C' )>`, :g:`$OY$ <0252.g1:/ O Y />` = :g:`$R$ <0252.g1:/ A O />`,
+and, since :g:`O'Y <0252.g1:/ O' Y />` > :g:`R' <0252.g1:( O' C' )>`, :g:`OY <0252.g1:/ O Y />` = :g:`R <0252.g1:/ A O />`,
 
 $$R' < R + OO'.$$
 
-It follows from $(\alpha)$ that :g:`$AO'$ <0252.g1:/ A O' />` > :g:`$R'$ <0252.g1:( O' C' )>`; and :g:`$A$ <0252.g1:A>` therefore lies *outside* :g:`$C'$ <0252.g1:( O' C' )>`.
+It follows from $(\alpha)$ that :g:`AO' <0252.g1:/ A O' />` > :g:`R' <0252.g1:( O' C' )>`; and :g:`A <0252.g1:A>` therefore lies *outside* :g:`C' <0252.g1:( O' C' )>`.
 
 .. picture:: 0252.g2.svg
    :alt: Intersections of two circles, Lemma Case 2
 
-(2) Secondly, suppose :g:`$A$ <0252.g2:A>` to lie on :g:`$OO'$ <0252.g2:/ O O' />`.
+(2) Secondly, suppose :g:`A <0252.g2:A>` to lie on :g:`OO' <0252.g2:/ O O' />`.
 
 Then
 
 $$OO' = OA + AO' = R + AO' \ldots (\beta).$$
 
-From the triangle :g:`$OO'X$ <0252.g2:< O O' X >>` we have
+From the triangle :g:`OO'X <0252.g2:< O O' X >>` we have
 
 $$OO' < OX + O'X,$$
 
-and, since :g:`$OX$ <0252.g2:/ O X />` = :g:`$R$ <0252.g2:/ O A />`, :g:`$O'X$ <0252.g2:/ O' X />` < :g:`$R'$ <0252.g2:( O' C' )>`, it follows that
+and, since :g:`OX <0252.g2:/ O X />` = :g:`R <0252.g2:/ O A />`, :g:`O'X <0252.g2:/ O' X />` < :g:`R' <0252.g2:( O' C' )>`, it follows that
 
 $$OO' < R + R',$$
 
-whence, by $(\beta)$, :g:`$AO'$ <0252.g2:/ A O' />` < :g:`$R'$ <0252.g2:( O' C' )>`, so that :g:`$A$ <0252.g2:A>` lies *inside* :g:`$C'$ <0252.g2:( O' C' )>`.
+whence, by $(\beta)$, :g:`AO' <0252.g2:/ A O' />` < :g:`R' <0252.g2:( O' C' )>`, so that :g:`A <0252.g2:A>` lies *inside* :g:`C' <0252.g2:( O' C' )>`.
 
 .. _folio-i-0253:
 
@@ -644,13 +644,13 @@ whence, by $(\beta)$, :g:`$AO'$ <0252.g2:/ A O' />` < :g:`$R'$ <0252.g2:( O' C' 
 .. picture:: 0253.g1.svg
    :alt: Intersections of two circles, Lemma Case 3
 
-(3) Thirdly, suppose :g:`$A$ <0253.g1:A>` to lie on :g:`$OO'$ <0253.g1:/ O O' />` produced.
+(3) Thirdly, suppose :g:`A <0253.g1:A>` to lie on :g:`OO' <0253.g1:/ O O' />` produced.
 
 Then
 
 $$R = OA = OO' + O'A \ldots\ldots\ldots (\gamma).$$
 
-And, in the triangle :g:`$OO'X$ <0253.g1:< O O' X >>`,
+And, in the triangle :g:`OO'X <0253.g1:< O O' X >>`,
 
 $$OX < OO' + O'X,$$
 
@@ -666,33 +666,33 @@ or
 
 $$O'A < O'X,$$
 
-and :g:`$A$ <0253.g1:A>` lies *inside* :g:`$C'$ <0253.g1:( O' C' )>`.
+and :g:`A <0253.g1:A>` lies *inside* :g:`C' <0253.g1:( O' C' )>`.
 
-It is to be observed that one of the two points :g:`$A$ <0253.g1:A>`, :g:`$B$ <0253.g1:B>` is in the position of case (1) and the other in the position of either case (2) or case (3): whence we must conclude that one of the two points :g:`$A$ <0253.g1:A>`, :g:`$B$ <0253.g1:B>` is *inside* and the other *outside* the circle :g:`$C'$ <0253.g1:( O' C' )>`.
+It is to be observed that one of the two points :g:`A <0253.g1:A>`, :g:`B <0253.g1:B>` is in the position of case (1) and the other in the position of either case (2) or case (3): whence we must conclude that one of the two points :g:`A <0253.g1:A>`, :g:`B <0253.g1:B>` is *inside* and the other *outside* the circle :g:`C' <0253.g1:( O' C' )>`.
 
 *Proof of theorem.*
 ^^^^^^^^^^^^^^^^^^^
 
-The circle :g:`$C$ <0253.g2:( O A )>` is divided by the points :g:`$A$ <0253.g2:A>`, :g:`$B$ <0253.g2:B>` into two semicircles. Consider one of them, and suppose it to be described by a point moving from :g:`$A$ <0253.g2:A>` to :g:`$B$ <0253.g2:B>`.
+The circle :g:`C <0253.g2:( O A )>` is divided by the points :g:`A <0253.g2:A>`, :g:`B <0253.g2:B>` into two semicircles. Consider one of them, and suppose it to be described by a point moving from :g:`A <0253.g2:A>` to :g:`B <0253.g2:B>`.
 
 .. picture:: 0253.g2.svg
    :alt: Intersections of two circles, Proof of theorem
 
-Take two separate points :g:`$P$ <0253.g2:P>`, :g:`$Q$ <0253.g2:Q>` on it and, to fix our ideas, suppose that :g:`$P$ <0253.g2:P>` precedes :g:`$Q$ <0253.g2:Q>`.
+Take two separate points :g:`P <0253.g2:P>`, :g:`Q <0253.g2:Q>` on it and, to fix our ideas, suppose that :g:`P <0253.g2:P>` precedes :g:`Q <0253.g2:Q>`.
 
-Comparing the triangles :g:`$OO'P$ <0253.g2:< O O' P >>`, :g:`$OO'Q$ <0253.g2:< O O' Q >>`, we observe that one side :g:`$OO'$ <0253.g2:/ O O' />` is common, :g:`$OP$ <0253.g2:/ O P />` is equal to :g:`$OQ$ <0253.g2:/ O Q />`, and the angle :g:`$POO'$ <0253.g2:< P O O' )>` is less than the angle :g:`$QOO'$ <0253.g2:< Q O O' )>`.
+Comparing the triangles :g:`OO'P <0253.g2:< O O' P >>`, :g:`OO'Q <0253.g2:< O O' Q >>`, we observe that one side :g:`OO' <0253.g2:/ O O' />` is common, :g:`OP <0253.g2:/ O P />` is equal to :g:`OQ <0253.g2:/ O Q />`, and the angle :g:`POO' <0253.g2:< P O O' )>` is less than the angle :g:`QOO' <0253.g2:< Q O O' )>`.
 
-Therefore :g:`$O'P$ <0253.g2:/ O' P />` < :g:`$O'Q$ <0253.g2:/ O' Q />`.
+Therefore :g:`O'P <0253.g2:/ O' P />` < :g:`O'Q <0253.g2:/ O' Q />`.
 
-Now, considering the semicircle :g:`$APQB$ <0253.g2:( O A )< A O B >>` as divided into two parts, so that the points of the first part are inside the circle :g:`$C'$ <0253.g2:( O' C' )>`, and those of the second part on the circumference of :g:`$C'$ <0253.g2:( O' C' )>` or outside it, we have the conditions necessary for the applicability of the Postulate of :person:`Dedekind <dedekind>` (which is true for arcs of circles as for straight lines); whence *there exists a point* :g:`$M$ <0253.g2:M>` *separating the two parts.*
+Now, considering the semicircle :g:`APQB <0253.g2:( O A )< A O B >>` as divided into two parts, so that the points of the first part are inside the circle :g:`C' <0253.g2:( O' C' )>`, and those of the second part on the circumference of :g:`C' <0253.g2:( O' C' )>` or outside it, we have the conditions necessary for the applicability of the Postulate of :person:`Dedekind <dedekind>` (which is true for arcs of circles as for straight lines); whence *there exists a point* :g:`M <0253.g2:M>` *separating the two parts.*
 
-I say that :g:`$O'M$ <0253.g2:/ O' M />` = :g:`$R'$ <0253.g2:( O' C' )>`.
+I say that :g:`O'M <0253.g2:/ O' M />` = :g:`R' <0253.g2:( O' C' )>`.
 
-For, if not, suppose :g:`$O'M$ <0253.g2:/ O' M />` < :g:`$R'$ <0253.g2:( O' C' )>`.
+For, if not, suppose :g:`O'M <0253.g2:/ O' M />` < :g:`R' <0253.g2:( O' C' )>`.
 
-If then :g:`$\sigma$ <0253.g2:/ M M' />` signifies the difference between :g:`$R'$ <0253.g2:( O' C' )>` and :g:`$O'M$ <0253.g2:/ O' M />`, suppose a point :g:`$M'$ <0253.g2:M'>`, which *follows* :g:`$M$ <0253.g2:M>`, taken on the semicircle such that the chord :g:`$MM'$ <0253.g2:/ M M' />` is not greater than :g:`$\sigma$ <0253.g2:/ M M' />` (for a way of doing this see below).
+If then :g:`σ <0253.g2:/ M M' />` signifies the difference between :g:`R' <0253.g2:( O' C' )>` and :g:`O'M <0253.g2:/ O' M />`, suppose a point :g:`M' <0253.g2:M'>`, which *follows* :g:`M <0253.g2:M>`, taken on the semicircle such that the chord :g:`MM' <0253.g2:/ M M' />` is not greater than :g:`σ <0253.g2:/ M M' />` (for a way of doing this see below).
 
-Then, in the triangle :g:`$O'MM'$ <0253.g2:< O' M M' >>`,
+Then, in the triangle :g:`O'MM' <0253.g2:< O' M M' >>`,
 
 $$O'M' < O'M + MM' < O'M + \sigma,$$
 
@@ -700,30 +700,30 @@ and therefore
 
 $$O'M' < R'.$$
 
-It follows that :g:`$M'$ <0253.g2:M'>`, a point on the arc :g:`$MB$ <0253.g2:( O A )< M O B >>`, is inside the circle :g:`$C'$ <0253.g2:( O' C' )>`: which is absurd.
+It follows that :g:`M' <0253.g2:M'>`, a point on the arc :g:`MB <0253.g2:( O A )< M O B >>`, is inside the circle :g:`C' <0253.g2:( O' C' )>`: which is absurd.
 
-Similarly it may be proved that :g:`$O'M$ <0253.g2:/ O' M />` is not greater than :g:`$R$ <0253.g2:( O' C' )>`.
+Similarly it may be proved that :g:`O'M <0253.g2:/ O' M />` is not greater than :g:`R <0253.g2:( O' C' )>`.
 
-Hence :g:`$O'M$ <0253.g2:/ O' M />` = :g:`$R$ <0253.g2:( O' C' )>`.
+Hence :g:`O'M <0253.g2:/ O' M />` = :g:`R <0253.g2:( O' C' )>`.
 
-[To find a point :g:`$M'$ <0254.g1:M'>` such that the chord :g:`$MM'$ <0254.g1:/ M M' />` is not greater than :g:`$\sigma$ <0254.g1:/ M M' />`, we may proceed thus.
+[To find a point :g:`M' <0254.g1:M'>` such that the chord :g:`MM' <0254.g1:/ M M' />` is not greater than :g:`σ <0254.g1:/ M M' />`, we may proceed thus.
 
-Draw from :g:`$M$ <0254.g1:M>` a straight line :g:`$MP$ <0254.g1:/ M P />` distinct from :g:`$OM$ <0254.g1:/ O M />`, and cut off :g:`$MP$ <0254.g1:/ M P />` on it equal to :g:`$\sigma/2$ <0254.g1:/ M P />`.
+Draw from :g:`M <0254.g1:M>` a straight line :g:`MP <0254.g1:/ M P />` distinct from :g:`OM <0254.g1:/ O M />`, and cut off :g:`MP <0254.g1:/ M P />` on it equal to :g:`σ/2 <0254.g1:/ M P />`.
 
 .. _folio-i-0254:
 
 .. folio:: 0254
    :page: 240
 
-Join :g:`$OP$ <0254.g1:/ O P />`, and draw another radius :g:`$OQ$ <0254.g1:/ O Q />` such that the angle :g:`$POQ$ <0254.g1:< P O Q )>` is :eq:`equal <0254.g1:< P O Q ) = 0254.g1:< M O P )>` to the angle :g:`$MOP$ <0254.g1:< M O P )>`.
+Join :g:`OP <0254.g1:/ O P />`, and draw another radius :g:`OQ <0254.g1:/ O Q />` such that the angle :g:`POQ <0254.g1:< P O Q )>` is :eq:`equal <0254.g1:< P O Q ) = 0254.g1:< M O P )>` to the angle :g:`MOP <0254.g1:< M O P )>`.
 
 .. picture:: 0254.g1.svg
    :alt: Construction of chord MM' not greater than sigma
 
-The intersection, :g:`$M'$ <0254.g1:M'>`, of :g:`$OQ$ <0254.g1:/ O Q />` with the circle satisfies the required condition.
+The intersection, :g:`M' <0254.g1:M'>`, of :g:`OQ <0254.g1:/ O Q />` with the circle satisfies the required condition.
 
-For :g:`$MM'$ <0254.g1:/ M M' />` meets :g:`$OP$ <0254.g1:/ O P />` at right angles in :g:`$S$ <0254.g1:S>`.
+For :g:`MM' <0254.g1:/ M M' />` meets :g:`OP <0254.g1:/ O P />` at right angles in :g:`S <0254.g1:S>`.
 
-Therefore, in the right-angled triangle :g:`$MSP$ <0254.g1:< M S P >>`, :g:`$MS$ <0254.g1:/ M S />` is not greater than :g:`$MP$ <0254.g1:/ M P />` (it is less, unless :g:`$MP$ <0254.g1:/ M P />` coincides with :g:`$MS$ <0254.g1:/ M S />`, when it is equal).
+Therefore, in the right-angled triangle :g:`MSP <0254.g1:< M S P >>`, :g:`MS <0254.g1:/ M S />` is not greater than :g:`MP <0254.g1:/ M P />` (it is less, unless :g:`MP <0254.g1:/ M P />` coincides with :g:`MS <0254.g1:/ M S />`, when it is equal).
 
-Therefore :g:`$MS$ <0254.g1:/ M S />` is not greater than :g:`$\sigma/2$ <0254.g1:/ M P />`, so that :g:`$MM'$ <0254.g1:/ M M' />` is not greater than :g:`$\sigma$ <0254.g1:/ M M' />`.]
+Therefore :g:`MS <0254.g1:/ M S />` is not greater than :g:`σ/2 <0254.g1:/ M P />`, so that :g:`MM' <0254.g1:/ M M' />` is not greater than :g:`σ <0254.g1:/ M M' />`.]

@@ -20,12 +20,12 @@ PROPOSITION 7.
 
    If two straight lines be parallel and points be taken at random on each of them, the straight line joining the points is in the same plane with the parallel straight lines.
 
-Let :g:`$AB$ <0289.g1:/ A B />`, :g:`$CD$ <0289.g1:/ C D />` be two parallel straight lines, and let points :g:`$E$ <0289.g1:E>`, :g:`$F$ <0289.g1:F>` be taken at random on them respectively; I say that the straight line joining the points :g:`$E$ <0289.g1:E>`, :g:`$F$ <0289.g1:F>` is in the same plane with the parallel straight lines.
+Let :g:`AB <0289.g1:/ A B />`, :g:`CD <0289.g1:/ C D />` be two parallel straight lines, and let points :g:`E <0289.g1:E>`, :g:`F <0289.g1:F>` be taken at random on them respectively; I say that the straight line joining the points :g:`E <0289.g1:E>`, :g:`F <0289.g1:F>` is in the same plane with the parallel straight lines.
 
 .. picture:: 0289.g1.svg
    :alt: Book XI - Proposition 7
 
-For suppose it is not, but, if possible, let it be in a more elevated plane as :g:`$EGF$ <0289.g1:( E G F )>`, and let a plane be drawn through :g:`$EGF$ <0289.g1:( E G F )>`;
+For suppose it is not, but, if possible, let it be in a more elevated plane as :g:`EGF <0289.g1:( E G F )>`, and let a plane be drawn through :g:`EGF <0289.g1:( E G F )>`;
 
 .. assertion::
 
@@ -36,15 +36,15 @@ For suppose it is not, but, if possible, let it be in a more elevated plane as :
 .. folio:: 0290
    :page: 286
 
-Let it make it, as :g:`$EF$ <0289.g1:/ E F />`;
+Let it make it, as :g:`EF <0289.g1:/ E F />`;
 
 .. assertion::
 
-   therefore the two straight lines :g:`$EGF$ <0289.g1:( E G F )>`, :g:`$EF$ <0289.g1:/ E F />` will enclose an area: which is impossible.
+   therefore the two straight lines :g:`EGF <0289.g1:( E G F )>`, :g:`EF <0289.g1:/ E F />` will enclose an area: which is impossible.
 
 .. assertion::
 
-   Therefore the straight line joined from :g:`$E$ <0289.g1:E>` to :g:`$F$ <0289.g1:F>` is not in a plane more elevated; therefore the straight line joined from :g:`$E$ <0289.g1:E>` to :g:`$F$ <0289.g1:F>` is in the plane through the parallel straight lines :g:`$AB$ <0289.g1:/ A B />`, :g:`$CD$ <0289.g1:/ C D />`.
+   Therefore the straight line joined from :g:`E <0289.g1:E>` to :g:`F <0289.g1:F>` is not in a plane more elevated; therefore the straight line joined from :g:`E <0289.g1:E>` to :g:`F <0289.g1:F>` is in the plane through the parallel straight lines :g:`AB <0289.g1:/ A B />`, :g:`CD <0289.g1:/ C D />`.
 
 .. qed::
 

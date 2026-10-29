@@ -20,7 +20,7 @@ PROPOSITION 12.
 
    To a given infinite straight line, from a given point which is not on it, to draw a perpendicular straight line.\ [#f1]_
 
-Let :g:`$AB$ <0285.g1:[ A B ]>` be the given infinite straight line, and :g:`$C$ <0285.g1:C>` the given point which is not on it;
+Let :g:`AB <0285.g1:[ A B ]>` be the given infinite straight line, and :g:`C <0285.g1:C>` the given point which is not on it;
 
 .. _folio-i-0285:
 
@@ -30,33 +30,33 @@ Let :g:`$AB$ <0285.g1:[ A B ]>` be the given infinite straight line, and :g:`$C$
 .. picture:: 0285.g1.svg
    :alt: Proposition 12 figure
 
-thus it is required to draw to the given infinite straight line :g:`$AB$ <0285.g1:[ A B ]>`, from the given point :g:`$C$ <0285.g1:C>` which is not on it, a perpendicular straight line.
+thus it is required to draw to the given infinite straight line :g:`AB <0285.g1:[ A B ]>`, from the given point :g:`C <0285.g1:C>` which is not on it, a perpendicular straight line.
 
-For let a point :g:`$D$ <0285.g1:D>` be taken at random on the other side of the straight line :g:`$AB$ <0285.g1:[ A B ]>`,\ [#f2]_ and with centre :g:`$C$ <0285.g1:C>` and distance :g:`$CD$ <0285.g1:/ C D />` let the circle :g:`$EFG$ <0285.g1:( C D )>` be described; :just:`[Post. 3] <I.post.3>`
+For let a point :g:`D <0285.g1:D>` be taken at random on the other side of the straight line :g:`AB <0285.g1:[ A B ]>`,\ [#f2]_ and with centre :g:`C <0285.g1:C>` and distance :g:`CD <0285.g1:/ C D />` let the circle :g:`EFG <0285.g1:( C D )>` be described; :just:`[Post. 3] <I.post.3>`
 
-let the straight line :g:`$EG$ <0285.g1:/ E G />` be :eq:`bisected <0285.g1:/ G H / = 0285.g1:/ H E />` at :g:`$H$ <0285.g1:H>`, :just:`[I. 10] <I.10>`
+let the straight line :g:`EG <0285.g1:/ E G />` be :eq:`bisected <0285.g1:/ G H / = 0285.g1:/ H E />` at :g:`H <0285.g1:H>`, :just:`[I. 10] <I.10>`
 
-and let the straight lines :g:`$CG$ <0285.g1:/ C G />`, :g:`$CH$ <0285.g1:/ C H />`, :g:`$CE$ <0285.g1:/ C E />` be joined. :just:`[Post. 1] <I.post.1>`
+and let the straight lines :g:`CG <0285.g1:/ C G />`, :g:`CH <0285.g1:/ C H />`, :g:`CE <0285.g1:/ C E />` be joined. :just:`[Post. 1] <I.post.1>`
 
-I say that :g:`$CH$ <0285.g1:/ C H />` has been drawn :eq:`perpendicular <0285.g1:< C H G ) = 0285.g1:< E H C )>` to the given infinite straight line :g:`$AB$ <0285.g1:[ A B ]>` from the given point :g:`$C$ <0285.g1:C>` which is not on it.
+I say that :g:`CH <0285.g1:/ C H />` has been drawn :eq:`perpendicular <0285.g1:< C H G ) = 0285.g1:< E H C )>` to the given infinite straight line :g:`AB <0285.g1:[ A B ]>` from the given point :g:`C <0285.g1:C>` which is not on it.
 
-For, since :g:`$GH$ <0285.g1:/ G H />` is :eq:`equal <0285.g1:/ G H / = 0285.g1:/ H E />` to :g:`$HE$ <0285.g1:/ H E />`, and :g:`$HC$ <0285.g1:/ H C />` is common,
+For, since :g:`GH <0285.g1:/ G H />` is :eq:`equal <0285.g1:/ G H / = 0285.g1:/ H E />` to :g:`HE <0285.g1:/ H E />`, and :g:`HC <0285.g1:/ H C />` is common,
 
 .. assertion::
 
-   the two sides :g:`$GH$ <0285.g1:/ G H />`, :g:`$HC$ <0285.g1:/ H C />` are :eq:`equal <0285.g1:/ G H / = 0285.g1:/ E H />` to the two sides :g:`$EH$ <0285.g1:/ E H />`, :g:`$HC$ <0285.g1:/ H C />` respectively;
+   the two sides :g:`GH <0285.g1:/ G H />`, :g:`HC <0285.g1:/ H C />` are :eq:`equal <0285.g1:/ G H / = 0285.g1:/ E H />` to the two sides :g:`EH <0285.g1:/ E H />`, :g:`HC <0285.g1:/ H C />` respectively;
 
-and the base :g:`$CG$ <0285.g1:/ C G />` is :eq:`equal <0285.g1:/ C G / = 0285.g1:/ C E />` to the base :g:`$CE$ <0285.g1:/ C E />`;
+and the base :g:`CG <0285.g1:/ C G />` is :eq:`equal <0285.g1:/ C G / = 0285.g1:/ C E />` to the base :g:`CE <0285.g1:/ C E />`;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$CHG$ <0285.g1:< C H G )>` is :eq:`equal <0285.g1:< C H G ) = 0285.g1:< E H C )>` to the angle :g:`$EHC$ <0285.g1:< E H C )>`.
+   therefore the angle :g:`CHG <0285.g1:< C H G )>` is :eq:`equal <0285.g1:< C H G ) = 0285.g1:< E H C )>` to the angle :g:`EHC <0285.g1:< E H C )>`.
 
 And they are adjacent angles.
 
 But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is called a perpendicular to that on which it stands. :just:`[Def. 10] <I.def.10>`
 
-Therefore :g:`$CH$ <0285.g1:/ C H />` has been drawn :eq:`perpendicular <0285.g1:< C H G ) = 0285.g1:< E H C )>` to the given infinite straight line :g:`$AB$ <0285.g1:[ A B ]>` from the given point :g:`$C$ <0285.g1:C>` which is not on it.
+Therefore :g:`CH <0285.g1:/ C H />` has been drawn :eq:`perpendicular <0285.g1:< C H G ) = 0285.g1:< E H C )>` to the given infinite straight line :g:`AB <0285.g1:[ A B ]>` from the given point :g:`C <0285.g1:C>` which is not on it.
 
 .. qed::
 
@@ -64,7 +64,7 @@ Therefore :g:`$CH$ <0285.g1:/ C H />` has been drawn :eq:`perpendicular <0285.g1
 
 .. [#f1] **a perpendicular straight line**, κάθετον εὐθεῖαν γραμμήν. This is the full expression for a perpendicular, :term:`κάθετος <kathetos>` meaning *let fall* or *let down*, so that the expression corresponds to our *plumb-line*. ἡ :term:`κάθετος <kathetos>` is however constantly used alone for a perpendicular, :term:`γραμμή <line>` being understood.
 
-.. [#f2] **on the other side of the straight line** :g:`$AB$ <0285.g1:[ A B ]>`, literally “towards the other parts of the straight line :g:`$AB$ <0285.g1:[ A B ]>`,” ἐπὶ τὰ ἕτερα μέρη τῆς :g:`$AB$ <0285.g1:[ A B ]>`. Cf. “on the same side” (ἐπὶ τὰ αὐτὰ μέρη) in Post. 5 and “in both directions” (ἐφ᾽ ἑκάτερα τὰ μέρη) in Def. 23.
+.. [#f2] **on the other side of the straight line** :g:`AB <0285.g1:[ A B ]>`, literally “towards the other parts of the straight line :g:`AB <0285.g1:[ A B ]>`,” ἐπὶ τὰ ἕτερα μέρη τῆς :g:`AB <0285.g1:[ A B ]>`. Cf. “on the same side” (ἐπὶ τὰ αὐτὰ μέρη) in Post. 5 and “in both directions” (ἐφ᾽ ἑκάτερα τὰ μέρη) in Def. 23.
 
 Dependency Graph
 ----------------

@@ -20,34 +20,34 @@ PROPOSITION 23.
 
    If as many odd numbers as we please be added together, and their multitude be odd, the whole will also be odd.
 
-For let as many odd numbers as we please, :g:`$AB$ <0420.g2:/ A B />`, :g:`$BC$ <0420.g2:/ B C />`, :g:`$CD$ <0420.g2:/ C D />`, the multitude of which is odd,\ [#f1]_ be added together ;
+For let as many odd numbers as we please, :g:`AB <0420.g2:/ A B />`, :g:`BC <0420.g2:/ B C />`, :g:`CD <0420.g2:/ C D />`, the multitude of which is odd,\ [#f1]_ be added together ;
 
-I say that the whole :g:`$AD$ <0420.g2:/ A D />` is also odd.
+I say that the whole :g:`AD <0420.g2:/ A D />` is also odd.
 
 .. picture:: 0420.g2.svg
    :alt: Book IX, Proposition 23
 
-Let the unit :g:`$DE$ <0420.g2:/ D E />` be subtracted from :g:`$CD$ <0420.g2:/ C D />` ;
+Let the unit :g:`DE <0420.g2:/ D E />` be subtracted from :g:`CD <0420.g2:/ C D />` ;
 
 .. assertion:: [VII. Def. 7] <VII.def.7>
 
-   therefore the remainder :g:`$CE$ <0420.g2:/ C E />` is even.
+   therefore the remainder :g:`CE <0420.g2:/ C E />` is even.
 
 .. subclause:: [IX. 22] <IX.22>
 
-   But :g:`$CA$ <0420.g2:/ A C />` is also even ;
+   But :g:`CA <0420.g2:/ A C />` is also even ;
 
 .. assertion:: [IX. 21] <IX.21>
 
-   therefore the whole :g:`$AE$ <0420.g2:/ A E />` is also even.
+   therefore the whole :g:`AE <0420.g2:/ A E />` is also even.
 
 .. subclause::
 
-   And :g:`$DE$ <0420.g2:/ D E />` is an unit.
+   And :g:`DE <0420.g2:/ D E />` is an unit.
 
 .. assertion:: [VII. Def. 7] <VII.def.7>
 
-   Therefore :g:`$AD$ <0420.g2:/ A D />` is odd.
+   Therefore :g:`AD <0420.g2:/ A D />` is odd.
 
 .. qed::
 

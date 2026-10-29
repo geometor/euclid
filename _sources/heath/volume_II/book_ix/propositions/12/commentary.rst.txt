@@ -54,4 +54,4 @@ Hence $p, a$ are not prime to one another: therefore they have some common facto
 
 But $p$ is the only number which measures $p$; therefore $p$ measures $a$.
 
-:person:`Heiberg <heiberg>` remarks that, as, in the :term:`ἔκθεσις <ekthesis>`, Euclid sets himself to prove that :g:`$E$ <0403.g1:E>` measures :g:`$A$ <0403.g1:A>`, the words bracketed above are unnecessary and therefore perhaps interpolated.
+:person:`Heiberg <heiberg>` remarks that, as, in the :term:`ἔκθεσις <ekthesis>`, Euclid sets himself to prove that :g:`E <0403.g1:E>` measures :g:`A <0403.g1:A>`, the words bracketed above are unnecessary and therefore perhaps interpolated.

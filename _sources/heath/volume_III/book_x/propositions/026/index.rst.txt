@@ -20,42 +20,42 @@ PROPOSITION 26.
 
    A medial area does not exceed a medial area by a rational area.
 
-For, if possible, let the medial area :g:`$AB$ <0062.g1:< A B >>` exceed the medial area :g:`$AC$ <0062.g1:< A C >>` by the rational area :g:`$DB$ <0062.g1:< D B >>`, and let a rational straight line :g:`$EF$ <0062.g1:/ E F />` be set out; to :g:`$EF$ <0062.g1:/ E F />` let there be applied the rectangular parallelogram :g:`$FH$ <0062.g1:< F H >>` :eq:`equal <0062.g1:< F H > = 0062.g1:< A B >>` to :g:`$AB$ <0062.g1:< A B >>`, producing :g:`$EH$ <0062.g1:/ E H />` as breadth, and let the rectangle :g:`$FG$ <0062.g1:< F G >>` :eq:`equal <0062.g1:< F G > = 0062.g1:< A C >>` to :g:`$AC$ <0062.g1:< A C >>` be subtracted;
+For, if possible, let the medial area :g:`AB <0062.g1:< A B >>` exceed the medial area :g:`AC <0062.g1:< A C >>` by the rational area :g:`DB <0062.g1:< D B >>`, and let a rational straight line :g:`EF <0062.g1:/ E F />` be set out; to :g:`EF <0062.g1:/ E F />` let there be applied the rectangular parallelogram :g:`FH <0062.g1:< F H >>` :eq:`equal <0062.g1:< F H > = 0062.g1:< A B >>` to :g:`AB <0062.g1:< A B >>`, producing :g:`EH <0062.g1:/ E H />` as breadth, and let the rectangle :g:`FG <0062.g1:< F G >>` :eq:`equal <0062.g1:< F G > = 0062.g1:< A C >>` to :g:`AC <0062.g1:< A C >>` be subtracted;
 
 .. assertion::
 
-   therefore the remainder :g:`$BD$ <0062.g1:< B D >>` is :eq:`equal <0062.g1:< B D > = 0062.g1:< K H >>` to the remainder :g:`$KH$ <0062.g1:< K H >>`.
+   therefore the remainder :g:`BD <0062.g1:< B D >>` is :eq:`equal <0062.g1:< B D > = 0062.g1:< K H >>` to the remainder :g:`KH <0062.g1:< K H >>`.
 
 .. picture:: 0062.g1.svg
    :alt: Proposition 26 diagram
 
 .. subclause::
 
-   But :g:`$DB$ <0062.g1:< D B >>` is rational;
+   But :g:`DB <0062.g1:< D B >>` is rational;
 
 .. assertion::
 
-   therefore :g:`$KH$ <0062.g1:< K H >>` is also rational.
+   therefore :g:`KH <0062.g1:< K H >>` is also rational.
 
 .. subclause::
 
-   Since, then, each of the rectangles :g:`$AB$ <0062.g1:< A B >>`, :g:`$AC$ <0062.g1:< A C >>` is medial, and :g:`$AB$ <0062.g1:< A B >>` is :eq:`equal <0062.g1:< A B > = 0062.g1:< F H >; 0062.g1:< A C > = 0062.g1:< F G >>` to :g:`$FH$ <0062.g1:< F H >>`, and :g:`$AC$ <0062.g1:< A C >>` to :g:`$FG$ <0062.g1:< F G >>`,
+   Since, then, each of the rectangles :g:`AB <0062.g1:< A B >>`, :g:`AC <0062.g1:< A C >>` is medial, and :g:`AB <0062.g1:< A B >>` is :eq:`equal <0062.g1:< A B > = 0062.g1:< F H >; 0062.g1:< A C > = 0062.g1:< F G >>` to :g:`FH <0062.g1:< F H >>`, and :g:`AC <0062.g1:< A C >>` to :g:`FG <0062.g1:< F G >>`,
 
 .. assertion::
 
-   therefore each of the rectangles :g:`$FH$ <0062.g1:< F H >>`, :g:`$FG$ <0062.g1:< F G >>` is also medial.
+   therefore each of the rectangles :g:`FH <0062.g1:< F H >>`, :g:`FG <0062.g1:< F G >>` is also medial.
 
 .. subclause::
 
-   And they are applied to the rational straight line :g:`$EF$ <0062.g1:/ E F />`;
+   And they are applied to the rational straight line :g:`EF <0062.g1:/ E F />`;
 
 .. assertion::
 
-   therefore each of the straight lines :g:`$HE$ <0062.g1:/ H E />`, :g:`$EG$ <0062.g1:/ E G />` is rational and incommensurable in length with :g:`$EF$ <0062.g1:/ E F />`. :just:`[X. 22] <X.22>`
+   therefore each of the straight lines :g:`HE <0062.g1:/ H E />`, :g:`EG <0062.g1:/ E G />` is rational and incommensurable in length with :g:`EF <0062.g1:/ E F />`. :just:`[X. 22] <X.22>`
 
 .. subclause::
 
-   And, since [:g:`$DB$ <0062.g1:< D B >>` is rational and is :eq:`equal <0062.g1:< D B > = 0062.g1:< K H >>` to :g:`$KH$ <0062.g1:< K H >>`, therefore] :g:`$KH$ <0062.g1:< K H >>` is [also] rational; and it is applied to the rational straight line :g:`$EF$ <0062.g1:/ E F />`;
+   And, since [:g:`DB <0062.g1:< D B >>` is rational and is :eq:`equal <0062.g1:< D B > = 0062.g1:< K H >>` to :g:`KH <0062.g1:< K H >>`, therefore] :g:`KH <0062.g1:< K H >>` is [also] rational; and it is applied to the rational straight line :g:`EF <0062.g1:/ E F />`;
 
 .. _folio-iii-0063:
 
@@ -64,47 +64,47 @@ For, if possible, let the medial area :g:`$AB$ <0062.g1:< A B >>` exceed the med
 
 .. assertion::
 
-   therefore :g:`$GH$ <0062.g1:/ G H />` is rational and commensurable in length with :g:`$EF$ <0062.g1:/ E F />`. :just:`[X. 20] <X.20>`
+   therefore :g:`GH <0062.g1:/ G H />` is rational and commensurable in length with :g:`EF <0062.g1:/ E F />`. :just:`[X. 20] <X.20>`
 
 .. subclause::
 
-   But :g:`$EG$ <0062.g1:/ E G />` is also rational, and is incommensurable in length with :g:`$EF$ <0062.g1:/ E F />`;
+   But :g:`EG <0062.g1:/ E G />` is also rational, and is incommensurable in length with :g:`EF <0062.g1:/ E F />`;
 
 .. assertion:: [X. 13] <X.13>
 
-   therefore :g:`$EG$ <0062.g1:/ E G />` is incommensurable in length with :g:`$GH$ <0062.g1:/ G H />`.
+   therefore :g:`EG <0062.g1:/ E G />` is incommensurable in length with :g:`GH <0062.g1:/ G H />`.
 
 .. subclause::
 
-   And, as :g:`$EG$ <0062.g1:/ E G />` is to :g:`$GH$ <0062.g1:/ G H />`, so is the square on :g:`$EG$ <0062.g1:/ E G />` to the rectangle :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />`;
+   And, as :g:`EG <0062.g1:/ E G />` is to :g:`GH <0062.g1:/ G H />`, so is the square on :g:`EG <0062.g1:/ E G />` to the rectangle :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />`;
 
 .. assertion::
 
-   therefore the square on :g:`$EG$ <0062.g1:/ E G />` is incommensurable with the rectangle :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />`. :just:`[X. 11] <X.11>`
+   therefore the square on :g:`EG <0062.g1:/ E G />` is incommensurable with the rectangle :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />`. :just:`[X. 11] <X.11>`
 
 .. subclause::
 
-   But the squares on :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />` are commensurable with the square on :g:`$EG$ <0062.g1:/ E G />`, for both are rational; and twice the rectangle :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />` is commensurable with the rectangle :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />`, for it is double of it; :just:`[X. 6] <X.6>`
+   But the squares on :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />` are commensurable with the square on :g:`EG <0062.g1:/ E G />`, for both are rational; and twice the rectangle :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />` is commensurable with the rectangle :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />`, for it is double of it; :just:`[X. 6] <X.6>`
 
 .. assertion::
 
-   therefore the squares on :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />` are incommensurable with twice the rectangle :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />`; :just:`[X. 13] <X.13>`
+   therefore the squares on :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />` are incommensurable with twice the rectangle :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />`; :just:`[X. 13] <X.13>`
 
 .. assertion::
 
-   therefore also the sum of the squares on :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />` and twice the rectangle :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />`, that is, the square on :g:`$EH$ <0062.g1:/ E H />` :just:`[II. 4] <II.4>`, is incommensurable with the squares on :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />`. :just:`[X. 16] <X.16>`
+   therefore also the sum of the squares on :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />` and twice the rectangle :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />`, that is, the square on :g:`EH <0062.g1:/ E H />` :just:`[II. 4] <II.4>`, is incommensurable with the squares on :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />`. :just:`[X. 16] <X.16>`
 
 .. subclause::
 
-   But the squares on :g:`$EG$ <0062.g1:/ E G />`, :g:`$GH$ <0062.g1:/ G H />` are rational;
+   But the squares on :g:`EG <0062.g1:/ E G />`, :g:`GH <0062.g1:/ G H />` are rational;
 
 .. assertion:: [X. Def. 4] <X.def.4>
 
-   therefore the square on :g:`$EH$ <0062.g1:/ E H />` is irrational.
+   therefore the square on :g:`EH <0062.g1:/ E H />` is irrational.
 
 .. assertion::
 
-   Therefore :g:`$EH$ <0062.g1:/ E H />` is irrational.
+   Therefore :g:`EH <0062.g1:/ E H />` is irrational.
 
 .. subclause::
 

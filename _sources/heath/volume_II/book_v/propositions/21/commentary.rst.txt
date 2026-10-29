@@ -28,35 +28,35 @@ $$\text{then, according as } a > = < c, \quad d > = < f.$$
 
 :person:`Simson <simson>`'s alterations correspond to those which he makes in Prop. 20. After the first case he proceeds thus.
 
-"Secondly, let :g:`$A$ <0184.g1:A>` be :eq:`equal <0184.g1:A = 0184.g1:C>` to :g:`$C$ <0184.g1:C>`; then shall :g:`$D$ <0184.g1:D>` be :eq:`equal <0184.g1:D = 0184.g1:F>` to :g:`$F$ <0184.g1:F>`. Because :g:`$A$ <0184.g1:A>` and :g:`$C$ <0184.g1:C>` are :eq:`equal <0184.g1:A = 0184.g1:C>`,
+"Secondly, let :g:`A <0184.g1:A>` be :eq:`equal <0184.g1:A = 0184.g1:C>` to :g:`C <0184.g1:C>`; then shall :g:`D <0184.g1:D>` be :eq:`equal <0184.g1:D = 0184.g1:F>` to :g:`F <0184.g1:F>`. Because :g:`A <0184.g1:A>` and :g:`C <0184.g1:C>` are :eq:`equal <0184.g1:A = 0184.g1:C>`,
 
 .. assertion:: [V. 7] <V.7>
 
-   :g:`$A$ <0184.g1:A>` is to :g:`$B$ <0184.g1:B>` as :g:`$C$ <0184.g1:C>` is to :g:`$B$ <0184.g1:B>`.
+   :g:`A <0184.g1:A>` is to :g:`B <0184.g1:B>` as :g:`C <0184.g1:C>` is to :g:`B <0184.g1:B>`.
 
-But :g:`$A$ <0184.g1:A>` is to :g:`$B$ <0184.g1:B>` as :g:`$E$ <0184.g1:E>` is to :g:`$F$ <0184.g1:F>`, and :g:`$C$ <0184.g1:C>` is to :g:`$B$ <0184.g1:B>` as :g:`$E$ <0184.g1:E>` is to :g:`$D$ <0184.g1:D>`:
+But :g:`A <0184.g1:A>` is to :g:`B <0184.g1:B>` as :g:`E <0184.g1:E>` is to :g:`F <0184.g1:F>`, and :g:`C <0184.g1:C>` is to :g:`B <0184.g1:B>` as :g:`E <0184.g1:E>` is to :g:`D <0184.g1:D>`:
 
 .. assertion:: [V. 11] <V.11>
 
-   wherefore :g:`$E$ <0184.g1:E>` is to :g:`$F$ <0184.g1:F>` as :g:`$E$ <0184.g1:E>` to :g:`$D$ <0184.g1:D>`,
+   wherefore :g:`E <0184.g1:E>` is to :g:`F <0184.g1:F>` as :g:`E <0184.g1:E>` to :g:`D <0184.g1:D>`,
 
 .. assertion:: [V. 9] <V.9>
 
-   and therefore :g:`$D$ <0184.g1:D>` is :eq:`equal <0184.g1:D = 0184.g1:F>` to :g:`$F$ <0184.g1:F>`.
+   and therefore :g:`D <0184.g1:D>` is :eq:`equal <0184.g1:D = 0184.g1:F>` to :g:`F <0184.g1:F>`.
 
-Next, let :g:`$A$ <0184.g1:A>` be less than :g:`$C$ <0184.g1:C>`; then shall :g:`$D$ <0184.g1:D>` be less than :g:`$F$ <0184.g1:F>`. For :g:`$C$ <0184.g1:C>` is greater than :g:`$A$ <0184.g1:A>`, and, as was shown,
+Next, let :g:`A <0184.g1:A>` be less than :g:`C <0184.g1:C>`; then shall :g:`D <0184.g1:D>` be less than :g:`F <0184.g1:F>`. For :g:`C <0184.g1:C>` is greater than :g:`A <0184.g1:A>`, and, as was shown,
 
 .. assertion::
 
-   :g:`$C$ <0184.g1:C>` is to :g:`$B$ <0184.g1:B>` as :g:`$E$ <0184.g1:E>` to :g:`$D$ <0184.g1:D>`,
+   :g:`C <0184.g1:C>` is to :g:`B <0184.g1:B>` as :g:`E <0184.g1:E>` to :g:`D <0184.g1:D>`,
 
 and, in like manner,
 
 .. assertion::
 
-   :g:`$B$ <0184.g1:B>` is to :g:`$A$ <0184.g1:A>` as :g:`$F$ <0184.g1:F>` to :g:`$E$ <0184.g1:E>`;
+   :g:`B <0184.g1:B>` is to :g:`A <0184.g1:A>` as :g:`F <0184.g1:F>` to :g:`E <0184.g1:E>`;
 
-therefore :g:`$F$ <0184.g1:F>` is greater than :g:`$D$ <0184.g1:D>`, by the first case, and therefore :g:`$D$ <0184.g1:D>` is less than :g:`$F$ <0184.g1:F>`."
+therefore :g:`F <0184.g1:F>` is greater than :g:`D <0184.g1:D>`, by the first case, and therefore :g:`D <0184.g1:D>` is less than :g:`F <0184.g1:F>`."
 
 The proof may be shown thus.
 

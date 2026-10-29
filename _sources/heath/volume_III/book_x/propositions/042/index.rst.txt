@@ -20,27 +20,27 @@ PROPOSITION 42.
 
    A binomial straight line is divided into its terms at one point only.
 
-Let :g:`$AB$ <0096.g1:/ A B />` be a binomial straight line divided into its terms at :g:`$C$ <0096.g1:C>`;
+Let :g:`AB <0096.g1:/ A B />` be a binomial straight line divided into its terms at :g:`C <0096.g1:C>`;
 
 .. assertion::
 
-   therefore :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />` are rational straight lines commensurable in square only. :just:`[X. 36] <X.36>`
+   therefore :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />` are rational straight lines commensurable in square only. :just:`[X. 36] <X.36>`
 
 .. picture:: 0096.g1.svg
    :alt: Proposition 42 diagram
 
-I say that :g:`$AB$ <0096.g1:/ A B />` is not divided at another point into two rational straight lines commensurable in square only.
+I say that :g:`AB <0096.g1:/ A B />` is not divided at another point into two rational straight lines commensurable in square only.
 
 .. _folio-iii-0097:
 
 .. folio:: 0097
    :page: 93
 
-For, if possible, let it be divided at :g:`$D$ <0096.g1:D>` also, so that :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />` are also rational straight lines commensurable in square only.
+For, if possible, let it be divided at :g:`D <0096.g1:D>` also, so that :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />` are also rational straight lines commensurable in square only.
 
 .. assertion::
 
-   It is then manifest that :g:`$AC$ <0096.g1:/ A C />` is not the same with :g:`$DB$ <0096.g1:/ D B />`.
+   It is then manifest that :g:`AC <0096.g1:/ A C />` is not the same with :g:`DB <0096.g1:/ D B />`.
 
 .. subclause::
 
@@ -48,27 +48,27 @@ For, if possible, let it be divided at :g:`$D$ <0096.g1:D>` also, so that :g:`$A
 
 .. assertion::
 
-   Then :g:`$AD$ <0096.g1:/ A D />` will also be the same as :g:`$CB$ <0096.g1:/ C B />`, and, as :g:`$AC$ <0096.g1:/ A C />` is to :g:`$CB$ <0096.g1:/ C B />`, so will :g:`$BD$ <0096.g1:/ B D />` be to :g:`$DA$ <0096.g1:/ D A />`; thus :g:`$AB$ <0096.g1:/ A B />` will be divided at :g:`$D$ <0096.g1:D>` also in the same way as by the division at :g:`$C$ <0096.g1:C>`: which is contrary to the hypothesis.
+   Then :g:`AD <0096.g1:/ A D />` will also be the same as :g:`CB <0096.g1:/ C B />`, and, as :g:`AC <0096.g1:/ A C />` is to :g:`CB <0096.g1:/ C B />`, so will :g:`BD <0096.g1:/ B D />` be to :g:`DA <0096.g1:/ D A />`; thus :g:`AB <0096.g1:/ A B />` will be divided at :g:`D <0096.g1:D>` also in the same way as by the division at :g:`C <0096.g1:C>`: which is contrary to the hypothesis.
 
 .. assertion::
 
-   Therefore :g:`$AC$ <0096.g1:/ A C />` is not the same with :g:`$DB$ <0096.g1:/ D B />`.
+   Therefore :g:`AC <0096.g1:/ A C />` is not the same with :g:`DB <0096.g1:/ D B />`.
 
 .. assertion::
 
-   For this reason also the points :g:`$C$ <0096.g1:C>`, :g:`$D$ <0096.g1:D>` are not equidistant from the point of bisection.
+   For this reason also the points :g:`C <0096.g1:C>`, :g:`D <0096.g1:D>` are not equidistant from the point of bisection.
 
 .. assertion::
 
-   Therefore that by which the squares on :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />` differ from the squares on :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />` is also that by which twice the rectangle :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />` differs from twice the rectangle :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />`, because both the squares on :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />` together with twice the rectangle :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />`, and the squares on :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />` together with twice the rectangle :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />`, are equal to the square on :g:`$AB$ <0096.g1:/ A B />`. :just:`[II. 4] <II.4>`
+   Therefore that by which the squares on :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />` differ from the squares on :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />` is also that by which twice the rectangle :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />` differs from twice the rectangle :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />`, because both the squares on :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />` together with twice the rectangle :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />`, and the squares on :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />` together with twice the rectangle :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />`, are equal to the square on :g:`AB <0096.g1:/ A B />`. :just:`[II. 4] <II.4>`
 
 .. subclause::
 
-   But the squares on :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />` differ from the squares on :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />` by a rational area, for both are rational;
+   But the squares on :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />` differ from the squares on :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />` by a rational area, for both are rational;
 
 .. assertion::
 
-   therefore twice the rectangle :g:`$AD$ <0096.g1:/ A D />`, :g:`$DB$ <0096.g1:/ D B />` also differs from twice the rectangle :g:`$AC$ <0096.g1:/ A C />`, :g:`$CB$ <0096.g1:/ C B />` by a rational area, though they are medial :just:`[X. 21] <X.21>`: which is absurd, for a medial area does not exceed a medial by a rational area. :just:`[X. 26] <X.26>`
+   therefore twice the rectangle :g:`AD <0096.g1:/ A D />`, :g:`DB <0096.g1:/ D B />` also differs from twice the rectangle :g:`AC <0096.g1:/ A C />`, :g:`CB <0096.g1:/ C B />` by a rational area, though they are medial :just:`[X. 21] <X.21>`: which is absurd, for a medial area does not exceed a medial by a rational area. :just:`[X. 26] <X.26>`
 
 .. assertion::
 

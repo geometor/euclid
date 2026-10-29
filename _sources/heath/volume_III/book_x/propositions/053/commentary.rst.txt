@@ -105,28 +105,28 @@ For the square is $p\{(k + \lambda)p \pm 2\sqrt{k\lambda}\cdot p\}$; and the exp
 LEMMA.
 ~~~~~~
 
-Let there be two squares :g:`$AB$ <0119.g1:< A B >>`, :g:`$BC$ <0119.g1:< B C >>`, and let them be placed so that :g:`$DB$ <0119.g1:/ D B />` is in a straight line with :g:`$BE$ <0119.g1:/ B E />`;
+Let there be two squares :g:`AB <0119.g1:< A B >>`, :g:`BC <0119.g1:< B C >>`, and let them be placed so that :g:`DB <0119.g1:/ D B />` is in a straight line with :g:`BE <0119.g1:/ B E />`;
 
 .. assertion::
 
-   therefore :g:`$FB$ <0119.g1:/ F B />` is also in a straight line with :g:`$BG$ <0119.g1:/ B G />`.
+   therefore :g:`FB <0119.g1:/ F B />` is also in a straight line with :g:`BG <0119.g1:/ B G />`.
 
 .. picture:: 0119.g1.svg
    :alt: Lemma to Proposition 54
 
-Let the parallelogram :g:`$AC$ <0119.g1:< A C >>` be completed; I say that :g:`$AC$ <0119.g1:< A C >>` is a square, that :g:`$DG$ <0119.g1:< D G >>` is a mean proportional between :g:`$AB$ <0119.g1:< A B >>`, :g:`$BC$ <0119.g1:< B C >>`, and further that :g:`$DC$ <0119.g1:< D C >>` is a mean proportional between :g:`$AC$ <0119.g1:< A C >>`, :g:`$CB$ <0119.g1:< B C >>`.
+Let the parallelogram :g:`AC <0119.g1:< A C >>` be completed; I say that :g:`AC <0119.g1:< A C >>` is a square, that :g:`DG <0119.g1:< D G >>` is a mean proportional between :g:`AB <0119.g1:< A B >>`, :g:`BC <0119.g1:< B C >>`, and further that :g:`DC <0119.g1:< D C >>` is a mean proportional between :g:`AC <0119.g1:< A C >>`, :g:`CB <0119.g1:< B C >>`.
 
 .. subclause::
 
-   For, since :g:`$DB$ <0119.g1:/ D B />` is :eq:`equal <0119.g1:/ D B / = 0119.g1:/ F B /; 0119.g1:/ B E / = 0119.g1:/ B G />` to :g:`$BF$ <0119.g1:/ F B />`, and :g:`$BE$ <0119.g1:/ B E />` to :g:`$BG$ <0119.g1:/ B G />`,
+   For, since :g:`DB <0119.g1:/ D B />` is :eq:`equal <0119.g1:/ D B / = 0119.g1:/ F B /; 0119.g1:/ B E / = 0119.g1:/ B G />` to :g:`BF <0119.g1:/ F B />`, and :g:`BE <0119.g1:/ B E />` to :g:`BG <0119.g1:/ B G />`,
 
 .. assertion::
 
-   therefore the whole :g:`$DE$ <0119.g1:/ D E />` is :eq:`equal <0119.g1:/ D E / = 0119.g1:/ F G />` to the whole :g:`$FG$ <0119.g1:/ F G />`.
+   therefore the whole :g:`DE <0119.g1:/ D E />` is :eq:`equal <0119.g1:/ D E / = 0119.g1:/ F G />` to the whole :g:`FG <0119.g1:/ F G />`.
 
 .. subclause::
 
-   But :g:`$DE$ <0119.g1:/ D E />` is :eq:`equal <0119.g1:/ D E / = 0119.g1:/ A H / = 0119.g1:/ K C />` to each of the straight lines :g:`$AH$ <0119.g1:/ A H />`, :g:`$KC$ <0119.g1:/ K C />`, and :g:`$FG$ <0119.g1:/ F G />` is :eq:`equal <0119.g1:/ F G / = 0119.g1:/ A K / = 0119.g1:/ H C />` to each of the straight lines :g:`$AK$ <0119.g1:/ A K />`, :g:`$HC$ <0119.g1:/ H C />`; :just:`[I. 34] <I.34>`
+   But :g:`DE <0119.g1:/ D E />` is :eq:`equal <0119.g1:/ D E / = 0119.g1:/ A H / = 0119.g1:/ K C />` to each of the straight lines :g:`AH <0119.g1:/ A H />`, :g:`KC <0119.g1:/ K C />`, and :g:`FG <0119.g1:/ F G />` is :eq:`equal <0119.g1:/ F G / = 0119.g1:/ A K / = 0119.g1:/ H C />` to each of the straight lines :g:`AK <0119.g1:/ A K />`, :g:`HC <0119.g1:/ H C />`; :just:`[I. 34] <I.34>`
 
 .. _folio-iii-0120:
 
@@ -135,11 +135,11 @@ Let the parallelogram :g:`$AC$ <0119.g1:< A C >>` be completed; I say that :g:`$
 
 .. assertion::
 
-   therefore each of the straight lines :g:`$AH$ <0119.g1:/ A H />`, :g:`$KC$ <0119.g1:/ K C />` is also :eq:`equal <0119.g1:/ A H / = 0119.g1:/ K C / = 0119.g1:/ A K / = 0119.g1:/ H C />` to each of the straight lines :g:`$AK$ <0119.g1:/ A K />`, :g:`$HC$ <0119.g1:/ H C />`.
+   therefore each of the straight lines :g:`AH <0119.g1:/ A H />`, :g:`KC <0119.g1:/ K C />` is also :eq:`equal <0119.g1:/ A H / = 0119.g1:/ K C / = 0119.g1:/ A K / = 0119.g1:/ H C />` to each of the straight lines :g:`AK <0119.g1:/ A K />`, :g:`HC <0119.g1:/ H C />`.
 
 .. assertion::
 
-   Therefore the parallelogram :g:`$AC$ <0119.g1:< A C >>` is :eq:`equilateral <0119.g1:/ A H / = 0119.g1:/ K C / = 0119.g1:/ A K / = 0119.g1:/ H C />`.
+   Therefore the parallelogram :g:`AC <0119.g1:< A C >>` is :eq:`equilateral <0119.g1:/ A H / = 0119.g1:/ K C / = 0119.g1:/ A K / = 0119.g1:/ H C />`.
 
 .. subclause::
 
@@ -147,33 +147,33 @@ Let the parallelogram :g:`$AC$ <0119.g1:< A C >>` be completed; I say that :g:`$
 
 .. assertion::
 
-   therefore :g:`$AC$ <0119.g1:< A C >>` is a square.
+   therefore :g:`AC <0119.g1:< A C >>` is a square.
 
 .. subclause::
 
-   And since, as :g:`$FB$ <0119.g1:/ F B />` is to :g:`$BG$ <0119.g1:/ B G />`, so is :g:`$DB$ <0119.g1:/ D B />` to :g:`$BE$ <0119.g1:/ B E />`, while, as :g:`$FB$ <0119.g1:/ F B />` is to :g:`$BG$ <0119.g1:/ B G />`, so is :g:`$AB$ <0119.g1:< A B >>` to :g:`$DG$ <0119.g1:< D G >>`, and, as :g:`$DB$ <0119.g1:/ D B />` is to :g:`$BE$ <0119.g1:/ B E />`, so is :g:`$DG$ <0119.g1:< D G >>` to :g:`$BC$ <0119.g1:< B C >>`, :just:`[VI. 1] <VI.1>`
+   And since, as :g:`FB <0119.g1:/ F B />` is to :g:`BG <0119.g1:/ B G />`, so is :g:`DB <0119.g1:/ D B />` to :g:`BE <0119.g1:/ B E />`, while, as :g:`FB <0119.g1:/ F B />` is to :g:`BG <0119.g1:/ B G />`, so is :g:`AB <0119.g1:< A B >>` to :g:`DG <0119.g1:< D G >>`, and, as :g:`DB <0119.g1:/ D B />` is to :g:`BE <0119.g1:/ B E />`, so is :g:`DG <0119.g1:< D G >>` to :g:`BC <0119.g1:< B C >>`, :just:`[VI. 1] <VI.1>`
 
 .. assertion:: [V. 11] <V.11>
 
-   therefore also, as :g:`$AB$ <0119.g1:< A B >>` is to :g:`$DG$ <0119.g1:< D G >>`, so is :g:`$DG$ <0119.g1:< D G >>` to :g:`$BC$ <0119.g1:< B C >>`.
+   therefore also, as :g:`AB <0119.g1:< A B >>` is to :g:`DG <0119.g1:< D G >>`, so is :g:`DG <0119.g1:< D G >>` to :g:`BC <0119.g1:< B C >>`.
 
 .. assertion::
 
-   Therefore :g:`$DG$ <0119.g1:< D G >>` is a mean proportional between :g:`$AB$ <0119.g1:< A B >>`, :g:`$BC$ <0119.g1:< B C >>`.
+   Therefore :g:`DG <0119.g1:< D G >>` is a mean proportional between :g:`AB <0119.g1:< A B >>`, :g:`BC <0119.g1:< B C >>`.
 
-I say next that :g:`$DC$ <0119.g1:< D C >>` is also a mean proportional between :g:`$AC$ <0119.g1:< A C >>`, :g:`$CB$ <0119.g1:< B C >>`.
+I say next that :g:`DC <0119.g1:< D C >>` is also a mean proportional between :g:`AC <0119.g1:< A C >>`, :g:`CB <0119.g1:< B C >>`.
 
 .. subclause::
 
-   For since, as :g:`$AD$ <0119.g1:/ A D />` is to :g:`$DK$ <0119.g1:/ D K />`, so is :g:`$KG$ <0119.g1:/ K G />` to :g:`$GC$ <0119.g1:/ G C />`— for they are :eq:`equal <0119.g1:/ A D / = 0119.g1:/ K G /; 0119.g1:/ D K / = 0119.g1:/ G C />` respectively— and, :term:`*componendo* <componendo>`, as :g:`$AK$ <0119.g1:/ A K />` is to :g:`$KD$ <0119.g1:/ D K />`, so is :g:`$KC$ <0119.g1:/ K C />` to :g:`$CG$ <0119.g1:/ G C />`, :just:`[V. 18] <V.18>` while, as :g:`$AK$ <0119.g1:/ A K />` is to :g:`$KD$ <0119.g1:/ D K />`, so is :g:`$AC$ <0119.g1:< A C >>` to :g:`$CD$ <0119.g1:< D C >>`, and, as :g:`$KC$ <0119.g1:/ K C />` is to :g:`$CG$ <0119.g1:/ G C />`, so is :g:`$DC$ <0119.g1:< D C >>` to :g:`$CB$ <0119.g1:< B C >>`, :just:`[VI. 1] <VI.1>`
+   For since, as :g:`AD <0119.g1:/ A D />` is to :g:`DK <0119.g1:/ D K />`, so is :g:`KG <0119.g1:/ K G />` to :g:`GC <0119.g1:/ G C />`— for they are :eq:`equal <0119.g1:/ A D / = 0119.g1:/ K G /; 0119.g1:/ D K / = 0119.g1:/ G C />` respectively— and, :term:`*componendo* <componendo>`, as :g:`AK <0119.g1:/ A K />` is to :g:`KD <0119.g1:/ D K />`, so is :g:`KC <0119.g1:/ K C />` to :g:`CG <0119.g1:/ G C />`, :just:`[V. 18] <V.18>` while, as :g:`AK <0119.g1:/ A K />` is to :g:`KD <0119.g1:/ D K />`, so is :g:`AC <0119.g1:< A C >>` to :g:`CD <0119.g1:< D C >>`, and, as :g:`KC <0119.g1:/ K C />` is to :g:`CG <0119.g1:/ G C />`, so is :g:`DC <0119.g1:< D C >>` to :g:`CB <0119.g1:< B C >>`, :just:`[VI. 1] <VI.1>`
 
 .. assertion:: [V. 11] <V.11>
 
-   therefore also, as :g:`$AC$ <0119.g1:< A C >>` is to :g:`$DC$ <0119.g1:< D C >>`, so is :g:`$DC$ <0119.g1:< D C >>` to :g:`$BC$ <0119.g1:< B C >>`.
+   therefore also, as :g:`AC <0119.g1:< A C >>` is to :g:`DC <0119.g1:< D C >>`, so is :g:`DC <0119.g1:< D C >>` to :g:`BC <0119.g1:< B C >>`.
 
 .. assertion::
 
-   Therefore :g:`$DC$ <0119.g1:< D C >>` is a mean proportional between :g:`$AC$ <0119.g1:< A C >>`, :g:`$CB$ <0119.g1:< B C >>`.
+   Therefore :g:`DC <0119.g1:< D C >>` is a mean proportional between :g:`AC <0119.g1:< A C >>`, :g:`CB <0119.g1:< B C >>`.
 
 .. qed::
 

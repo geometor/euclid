@@ -21,32 +21,32 @@ PROPOSITION 1.
 
    If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one, that multiple also will all be of all.
 
-Let any number of magnitudes whatever :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` be respectively equimultiples of any magnitudes :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>` equal in multitude;
+Let any number of magnitudes whatever :g:`AB <0144.g1:/ A B />`, :g:`CD <0144.g1:/ C D />` be respectively equimultiples of any magnitudes :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>` equal in multitude;
 
-I say that, whatever multiple :g:`$AB$ <0144.g1:/ A B />` is of :g:`$E$ <0144.g1:E>`, that multiple will :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` also be of :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`.
+I say that, whatever multiple :g:`AB <0144.g1:/ A B />` is of :g:`E <0144.g1:E>`, that multiple will :g:`AB <0144.g1:/ A B />`, :g:`CD <0144.g1:/ C D />` also be of :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>`.
 
 .. picture:: 0144.g1.svg
    :alt: Proposition 1 diagram
 
-For, since :g:`$AB$ <0144.g1:/ A B />` is the same multiple of :g:`$E$ <0144.g1:E>` that :g:`$CD$ <0144.g1:/ C D />` is of :g:`$F$ <0144.g1:F>`, as many magnitudes as there are in :g:`$AB$ <0144.g1:/ A B />` equal to :g:`$E$ <0144.g1:E>`, so many also are there in :g:`$CD$ <0144.g1:/ C D />` equal to :g:`$F$ <0144.g1:F>`.
+For, since :g:`AB <0144.g1:/ A B />` is the same multiple of :g:`E <0144.g1:E>` that :g:`CD <0144.g1:/ C D />` is of :g:`F <0144.g1:F>`, as many magnitudes as there are in :g:`AB <0144.g1:/ A B />` equal to :g:`E <0144.g1:E>`, so many also are there in :g:`CD <0144.g1:/ C D />` equal to :g:`F <0144.g1:F>`.
 
-Let :g:`$AB$ <0144.g1:/ A B />` be divided into the magnitudes :g:`$AG$ <0144.g1:/ A G />`, :g:`$GB$ <0144.g1:/ G B />` :eq:`equal <0144.g1:/ A G / = 0144.g1:/ G B / = 0144.g1:E>` to :g:`$E$ <0144.g1:E>`, and :g:`$CD$ <0144.g1:/ C D />` into :g:`$CH$ <0144.g1:/ C H />`, :g:`$HD$ <0144.g1:/ H D />` :eq:`equal <0144.g1:/ C H / = 0144.g1:/ H D / = 0144.g1:F>` to :g:`$F$ <0144.g1:F>`; then the multitude of the magnitudes :g:`$AG$ <0144.g1:/ A G />`, :g:`$GB$ <0144.g1:/ G B />` will be equal to the multitude of the magnitudes :g:`$CH$ <0144.g1:/ C H />`, :g:`$HD$ <0144.g1:/ H D />`.
+Let :g:`AB <0144.g1:/ A B />` be divided into the magnitudes :g:`AG <0144.g1:/ A G />`, :g:`GB <0144.g1:/ G B />` :eq:`equal <0144.g1:/ A G / = 0144.g1:/ G B / = 0144.g1:E>` to :g:`E <0144.g1:E>`, and :g:`CD <0144.g1:/ C D />` into :g:`CH <0144.g1:/ C H />`, :g:`HD <0144.g1:/ H D />` :eq:`equal <0144.g1:/ C H / = 0144.g1:/ H D / = 0144.g1:F>` to :g:`F <0144.g1:F>`; then the multitude of the magnitudes :g:`AG <0144.g1:/ A G />`, :g:`GB <0144.g1:/ G B />` will be equal to the multitude of the magnitudes :g:`CH <0144.g1:/ C H />`, :g:`HD <0144.g1:/ H D />`.
 
-Now, since :g:`$AG$ <0144.g1:/ A G />` is :eq:`equal <0144.g1:/ A G / = 0144.g1:E; 0144.g1:/ C H / = 0144.g1:F>` to :g:`$E$ <0144.g1:E>`, and :g:`$CH$ <0144.g1:/ C H />` to :g:`$F$ <0144.g1:F>`,
+Now, since :g:`AG <0144.g1:/ A G />` is :eq:`equal <0144.g1:/ A G / = 0144.g1:E; 0144.g1:/ C H / = 0144.g1:F>` to :g:`E <0144.g1:E>`, and :g:`CH <0144.g1:/ C H />` to :g:`F <0144.g1:F>`,
 
 .. assertion::
 
-   therefore :g:`$AG$ <0144.g1:/ A G />` is :eq:`equal <0144.g1:/ A G / = 0144.g1:E>` to :g:`$E$ <0144.g1:E>`, and :g:`$AG$ <0144.g1:/ A G />`, :g:`$CH$ <0144.g1:/ C H />` to :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`.
+   therefore :g:`AG <0144.g1:/ A G />` is :eq:`equal <0144.g1:/ A G / = 0144.g1:E>` to :g:`E <0144.g1:E>`, and :g:`AG <0144.g1:/ A G />`, :g:`CH <0144.g1:/ C H />` to :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>`.
 
 For the same reason
 
 .. assertion::
 
-   :g:`$GB$ <0144.g1:/ G B />` is :eq:`equal <0144.g1:/ G B / = 0144.g1:E>` to :g:`$E$ <0144.g1:E>`, and :g:`$GB$ <0144.g1:/ G B />`, :g:`$HD$ <0144.g1:/ H D />` to :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`;
+   :g:`GB <0144.g1:/ G B />` is :eq:`equal <0144.g1:/ G B / = 0144.g1:E>` to :g:`E <0144.g1:E>`, and :g:`GB <0144.g1:/ G B />`, :g:`HD <0144.g1:/ H D />` to :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>`;
 
 .. assertion::
 
-   therefore, as many magnitudes as there are in :g:`$AB$ <0144.g1:/ A B />` equal to :g:`$E$ <0144.g1:E>`, so many also are there in :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` equal to :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`;
+   therefore, as many magnitudes as there are in :g:`AB <0144.g1:/ A B />` equal to :g:`E <0144.g1:E>`, so many also are there in :g:`AB <0144.g1:/ A B />`, :g:`CD <0144.g1:/ C D />` equal to :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>`;
 
 .. _folio-ii-0145:
 
@@ -55,7 +55,7 @@ For the same reason
 
 .. assertion::
 
-   therefore, whatever multiple :g:`$AB$ <0144.g1:/ A B />` is of :g:`$E$ <0144.g1:E>`, that multiple will :g:`$AB$ <0144.g1:/ A B />`, :g:`$CD$ <0144.g1:/ C D />` also be of :g:`$E$ <0144.g1:E>`, :g:`$F$ <0144.g1:F>`.
+   therefore, whatever multiple :g:`AB <0144.g1:/ A B />` is of :g:`E <0144.g1:E>`, that multiple will :g:`AB <0144.g1:/ A B />`, :g:`CD <0144.g1:/ C D />` also be of :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>`.
 
 .. qed::
 

@@ -20,8 +20,8 @@ PROPOSITION 63.
 
    The square on the major straight line applied to a rational straight line produces as breadth the fourth binomial.
 
-Let :g:`$AB$ <0144.g1:/ A B />` be a major straight line divided at :g:`$C$ <0144.g1:C>`, so that :g:`$AC$ <0144.g1:/ A C />` is greater than :g:`$CB$ <0144.g1:/ C B />`; let :g:`$DE$ <0144.g1:/ D E />` be a rational straight line,
-and to :g:`$DE$ <0144.g1:/ D E />` let there be applied the parallelogram :g:`$DF$ <0144.g1:< D F >>` equal to the square on :g:`$AB$ <0144.g1:/ A B />` and producing :g:`$DG$ <0144.g1:/ D G />` as its breadth ; I say that :g:`$DG$ <0144.g1:/ D G />` is a fourth binomial straight line.
+Let :g:`AB <0144.g1:/ A B />` be a major straight line divided at :g:`C <0144.g1:C>`, so that :g:`AC <0144.g1:/ A C />` is greater than :g:`CB <0144.g1:/ C B />`; let :g:`DE <0144.g1:/ D E />` be a rational straight line,
+and to :g:`DE <0144.g1:/ D E />` let there be applied the parallelogram :g:`DF <0144.g1:< D F >>` equal to the square on :g:`AB <0144.g1:/ A B />` and producing :g:`DG <0144.g1:/ D G />` as its breadth ; I say that :g:`DG <0144.g1:/ D G />` is a fourth binomial straight line.
 
 .. _folio-iii-0144:
 
@@ -35,37 +35,37 @@ Let the same construction be made as before shown.
 
 .. subclause::
 
-   Then, since :g:`$AB$ <0144.g1:/ A B />` is a major straight line divided at :g:`$C$ <0144.g1:C>`, :g:`$AC$ <0144.g1:/ A C />`, :g:`$CB$ <0144.g1:/ C B />` are straight lines incommensurable in square which make the sum of the squares on them rational, but the rectangle contained by them medial. :just:`[x. 39]`
+   Then, since :g:`AB <0144.g1:/ A B />` is a major straight line divided at :g:`C <0144.g1:C>`, :g:`AC <0144.g1:/ A C />`, :g:`CB <0144.g1:/ C B />` are straight lines incommensurable in square which make the sum of the squares on them rational, but the rectangle contained by them medial. :just:`[x. 39]`
 
 .. subclause::
 
-   Since then the sum of the squares on :g:`$AC$ <0144.g1:/ A C />`, :g:`$CB$ <0144.g1:/ C B />` is rational,
+   Since then the sum of the squares on :g:`AC <0144.g1:/ A C />`, :g:`CB <0144.g1:/ C B />` is rational,
 
 .. assertion::
 
-   therefore :g:`$DL$ <0144.g1:< D L >>` is rational ; therefore :g:`$DM$ <0144.g1:/ D M />` is also rational and commensurable in length with :g:`$DE$ <0144.g1:/ D E />`. :just:`[x. 20]`
+   therefore :g:`DL <0144.g1:< D L >>` is rational ; therefore :g:`DM <0144.g1:/ D M />` is also rational and commensurable in length with :g:`DE <0144.g1:/ D E />`. :just:`[x. 20]`
 
 .. subclause::
 
-   Again, since twice the rectangle :g:`$AC$ <0144.g1:/ A C />`, :g:`$CB$ <0144.g1:/ C B />`, that is, :g:`$MF$ <0144.g1:< M F >>`, is medial, and it is applied to the rational straight line :g:`$ML$ <0144.g1:/ M L />`,
+   Again, since twice the rectangle :g:`AC <0144.g1:/ A C />`, :g:`CB <0144.g1:/ C B />`, that is, :g:`MF <0144.g1:< M F >>`, is medial, and it is applied to the rational straight line :g:`ML <0144.g1:/ M L />`,
 
 .. assertion::
 
-   therefore :g:`$MG$ <0144.g1:/ M G />` is also rational and incommensurable in length with :g:`$DE$ <0144.g1:/ D E />` ; :just:`[x. 22]` therefore :g:`$DM$ <0144.g1:/ D M />` is also incommensurable in length with :g:`$MG$ <0144.g1:/ M G />`. :just:`[x. 13]`
+   therefore :g:`MG <0144.g1:/ M G />` is also rational and incommensurable in length with :g:`DE <0144.g1:/ D E />` ; :just:`[x. 22]` therefore :g:`DM <0144.g1:/ D M />` is also incommensurable in length with :g:`MG <0144.g1:/ M G />`. :just:`[x. 13]`
 
 .. assertion::
 
-   Therefore :g:`$DM$ <0144.g1:/ D M />`, :g:`$MG$ <0144.g1:/ M G />` are rational straight lines commensurable in square only ; therefore :g:`$DG$ <0144.g1:/ D G />` is binomial. :just:`[x. 36]`
+   Therefore :g:`DM <0144.g1:/ D M />`, :g:`MG <0144.g1:/ M G />` are rational straight lines commensurable in square only ; therefore :g:`DG <0144.g1:/ D G />` is binomial. :just:`[x. 36]`
 
-It is to be proved that it is also a fourth binomial straight line. In manner similar to the foregoing we can prove that :g:`$DM$ <0144.g1:/ D M />` is greater than :g:`$MG$ <0144.g1:/ M G />`, and that the rectangle :g:`$DK$ <0144.g1:/ D K />`, :g:`$KM$ <0144.g1:/ K M />` is equal to the square on :g:`$MN$ <0144.g1:/ M N />`.
+It is to be proved that it is also a fourth binomial straight line. In manner similar to the foregoing we can prove that :g:`DM <0144.g1:/ D M />` is greater than :g:`MG <0144.g1:/ M G />`, and that the rectangle :g:`DK <0144.g1:/ D K />`, :g:`KM <0144.g1:/ K M />` is equal to the square on :g:`MN <0144.g1:/ M N />`.
 
 .. subclause::
 
-   Since then the square on :g:`$AC$ <0144.g1:/ A C />` is incommensurable with the square on :g:`$CB$ <0144.g1:/ C B />`,
+   Since then the square on :g:`AC <0144.g1:/ A C />` is incommensurable with the square on :g:`CB <0144.g1:/ C B />`,
 
 .. assertion::
 
-   therefore :g:`$DH$ <0144.g1:< D H >>` is also incommensurable with :g:`$KL$ <0144.g1:< K L >>`, so that :g:`$DK$ <0144.g1:/ D K />` is also incommensurable with :g:`$KM$ <0144.g1:/ K M />`. :just:`[vI. 1, x. 11]`
+   therefore :g:`DH <0144.g1:< D H >>` is also incommensurable with :g:`KL <0144.g1:< K L >>`, so that :g:`DK <0144.g1:/ D K />` is also incommensurable with :g:`KM <0144.g1:/ K M />`. :just:`[vI. 1, x. 11]`
 
 .. subclause::
 
@@ -82,15 +82,15 @@ It is to be proved that it is also a fourth binomial straight line. In manner si
 
 .. assertion::
 
-   therefore the square on :g:`$DM$ <0144.g1:/ D M />` is greater than the square on :g:`$MG$ <0144.g1:/ M G />` by the square on a straight line incommensurable with :g:`$DM$ <0144.g1:/ D M />`.
+   therefore the square on :g:`DM <0144.g1:/ D M />` is greater than the square on :g:`MG <0144.g1:/ M G />` by the square on a straight line incommensurable with :g:`DM <0144.g1:/ D M />`.
 
 .. subclause::
 
-   And :g:`$DM$ <0144.g1:/ D M />`, :g:`$MG$ <0144.g1:/ M G />` are rational straight lines commensurable in square only, and :g:`$DM$ <0144.g1:/ D M />` is commensurable with the rational straight line :g:`$DE$ <0144.g1:/ D E />` set out.
+   And :g:`DM <0144.g1:/ D M />`, :g:`MG <0144.g1:/ M G />` are rational straight lines commensurable in square only, and :g:`DM <0144.g1:/ D M />` is commensurable with the rational straight line :g:`DE <0144.g1:/ D E />` set out.
 
 .. qed::
 
-   Therefore :g:`$DG$ <0144.g1:/ D G />` is a fourth binomial straight line. :just:`[x. Deff. II. 4]` :just:`Q. E. D.`
+   Therefore :g:`DG <0144.g1:/ D G />` is a fourth binomial straight line. :just:`[x. Deff. II. 4]` :just:`Q. E. D.`
 
 Dependency Graph
 ----------------

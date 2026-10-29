@@ -39,28 +39,28 @@ Lemma.
 .. picture:: 0054.g2.svg
    :alt: Lemma
 
-Let :g:`$FE$ <0054.g2:/ F E />`, :g:`$EG$ <0054.g2:/ E G />` be two straight lines.
+Let :g:`FE <0054.g2:/ F E />`, :g:`EG <0054.g2:/ E G />` be two straight lines.
 
-I say that, as :g:`$FE$ <0054.g2:/ F E />` is to :g:`$EG$ <0054.g2:/ E G />`, so is the square on :g:`$FE$ <0054.g2:/ F E />` to the rectangle :g:`$FE$ <0054.g2:/ F E />`, :g:`$EG$ <0054.g2:/ E G />`.
+I say that, as :g:`FE <0054.g2:/ F E />` is to :g:`EG <0054.g2:/ E G />`, so is the square on :g:`FE <0054.g2:/ F E />` to the rectangle :g:`FE <0054.g2:/ F E />`, :g:`EG <0054.g2:/ E G />`.
 
 .. _folio-iii-0055:
 
 .. folio:: 0055
    :page: 51
 
-For on :g:`$FE$ <0054.g2:/ F E />` let the square :g:`$DF$ <0054.g2:< D F >>` be described, and let :g:`$GD$ <0054.g2:< G D >>` be completed.
+For on :g:`FE <0054.g2:/ F E />` let the square :g:`DF <0054.g2:< D F >>` be described, and let :g:`GD <0054.g2:< G D >>` be completed.
 
 .. subclause::
 
-   Since then, as :g:`$FE$ <0054.g2:/ F E />` is to :g:`$EG$ <0054.g2:/ E G />`, so is :g:`$FD$ <0054.g2:< F D >>` to :g:`$DG$ <0054.g2:< D G >>`, :just:`[VI. 1] <VI.1>` and :g:`$FD$ <0054.g2:< F D >>` is the square on :g:`$FE$ <0054.g2:/ F E />`, and :g:`$DG$ <0054.g2:< D G >>` the rectangle :g:`$DE$ <0054.g2:/ D E />`, :g:`$EG$ <0054.g2:/ E G />`, that is, the rectangle :g:`$FE$ <0054.g2:/ F E />`, :g:`$EG$ <0054.g2:/ E G />`,
+   Since then, as :g:`FE <0054.g2:/ F E />` is to :g:`EG <0054.g2:/ E G />`, so is :g:`FD <0054.g2:< F D >>` to :g:`DG <0054.g2:< D G >>`, :just:`[VI. 1] <VI.1>` and :g:`FD <0054.g2:< F D >>` is the square on :g:`FE <0054.g2:/ F E />`, and :g:`DG <0054.g2:< D G >>` the rectangle :g:`DE <0054.g2:/ D E />`, :g:`EG <0054.g2:/ E G />`, that is, the rectangle :g:`FE <0054.g2:/ F E />`, :g:`EG <0054.g2:/ E G />`,
 
 .. assertion::
 
-   therefore, as :g:`$FE$ <0054.g2:/ F E />` is to :g:`$EG$ <0054.g2:/ E G />`, so is the square on :g:`$FE$ <0054.g2:/ F E />` to the rectangle :g:`$FE$ <0054.g2:/ F E />`, :g:`$EG$ <0054.g2:/ E G />`.
+   therefore, as :g:`FE <0054.g2:/ F E />` is to :g:`EG <0054.g2:/ E G />`, so is the square on :g:`FE <0054.g2:/ F E />` to the rectangle :g:`FE <0054.g2:/ F E />`, :g:`EG <0054.g2:/ E G />`.
 
 .. assertion::
 
-   Similarly also, as the rectangle :g:`$GE$ <0054.g2:/ G E />`, :g:`$EF$ <0054.g2:/ E F />` is to the square on :g:`$EF$ <0054.g2:/ E F />`, that is, as :g:`$GD$ <0054.g2:< G D >>` is to :g:`$FD$ <0054.g2:< F D >>`, so is :g:`$GE$ <0054.g2:/ G E />` to :g:`$EF$ <0054.g2:/ E F />`.
+   Similarly also, as the rectangle :g:`GE <0054.g2:/ G E />`, :g:`EF <0054.g2:/ E F />` is to the square on :g:`EF <0054.g2:/ E F />`, that is, as :g:`GD <0054.g2:< G D >>` is to :g:`FD <0054.g2:< F D >>`, so is :g:`GE <0054.g2:/ G E />` to :g:`EF <0054.g2:/ E F />`.
 
 .. qed::
 

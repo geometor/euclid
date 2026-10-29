@@ -20,21 +20,21 @@ PROPOSITION 34.
 
    From a given circle to cut off a segment admitting an angle equal to a given rectilineal angle.
 
-Let :g:`$ABC$ <0077.g1:( A B C )>` be the given circle, and the angle at :g:`$D$ <0077.g1:< D )>` the
+Let :g:`ABC <0077.g1:( A B C )>` be the given circle, and the angle at :g:`D <0077.g1:< D )>` the
 given rectilineal angle;
-thus it is required to cut off from the circle :g:`$ABC$ <0077.g1:( A B C )>` a segment
+thus it is required to cut off from the circle :g:`ABC <0077.g1:( A B C )>` a segment
 admitting an angle equal to the given rectilineal angle, the
-angle at :g:`$D$ <0077.g1:< D )>`.
+angle at :g:`D <0077.g1:< D )>`.
 
-Let :g:`$EF$ <0077.g1:/ E F />` be drawn touching :g:`$ABC$ <0077.g1:( A B C )>` at the point :g:`$B$ <0077.g1:B>`, and on
-the straight line :g:`$FB$ <0077.g1:/ F B />`, and at the point :g:`$B$ <0077.g1:B>` on it, let the angle
-:g:`$FBC$ <0077.g1:< F B C )>` be constructed :eq:`equal <0077.g1:< F B C ) = 0077.g1:< D )>` to the angle at :g:`$D$ <0077.g1:< D )>`. :just:`[I. 23] <I.23>`
+Let :g:`EF <0077.g1:/ E F />` be drawn touching :g:`ABC <0077.g1:( A B C )>` at the point :g:`B <0077.g1:B>`, and on
+the straight line :g:`FB <0077.g1:/ F B />`, and at the point :g:`B <0077.g1:B>` on it, let the angle
+:g:`FBC <0077.g1:< F B C )>` be constructed :eq:`equal <0077.g1:< F B C ) = 0077.g1:< D )>` to the angle at :g:`D <0077.g1:< D )>`. :just:`[I. 23] <I.23>`
 
-Then, since a straight line :g:`$EF$ <0077.g1:/ E F />` touches the circle :g:`$ABC$ <0077.g1:( A B C )>`,
-and :g:`$BC$ <0077.g1:/ B C />` has been drawn across from the point of contact
-at :g:`$B$ <0077.g1:B>`,
-the angle :g:`$FBC$ <0077.g1:< F B C )>` is equal to the angle constructed in the alternate
-segment :g:`$BAC$ <0077.g1:( B A C )>`. :just:`[III. 32] <III.32>`
+Then, since a straight line :g:`EF <0077.g1:/ E F />` touches the circle :g:`ABC <0077.g1:( A B C )>`,
+and :g:`BC <0077.g1:/ B C />` has been drawn across from the point of contact
+at :g:`B <0077.g1:B>`,
+the angle :g:`FBC <0077.g1:< F B C )>` is equal to the angle constructed in the alternate
+segment :g:`BAC <0077.g1:( B A C )>`. :just:`[III. 32] <III.32>`
 
 .. _folio-ii-0077:
 
@@ -44,13 +44,13 @@ segment :g:`$BAC$ <0077.g1:( B A C )>`. :just:`[III. 32] <III.32>`
 .. picture:: 0077.g1.svg
    :alt: Proposition 34 diagram
 
-But the angle :g:`$FBC$ <0077.g1:< F B C )>` is :eq:`equal <0077.g1:< F B C ) = 0077.g1:< D )>` to the angle at :g:`$D$ <0077.g1:< D )>`;
-therefore the angle in the segment :g:`$BAC$ <0077.g1:( B A C )>` is equal to the
-angle at :g:`$D$ <0077.g1:< D )>`.
+But the angle :g:`FBC <0077.g1:< F B C )>` is :eq:`equal <0077.g1:< F B C ) = 0077.g1:< D )>` to the angle at :g:`D <0077.g1:< D )>`;
+therefore the angle in the segment :g:`BAC <0077.g1:( B A C )>` is equal to the
+angle at :g:`D <0077.g1:< D )>`.
 
-Therefore from the given circle :g:`$ABC$ <0077.g1:( A B C )>` the segment :g:`$BAC$ <0077.g1:( B A C )>`
+Therefore from the given circle :g:`ABC <0077.g1:( A B C )>` the segment :g:`BAC <0077.g1:( B A C )>`
 has been cut off admitting an angle equal to the given rectilineal
-angle, the angle at :g:`$D$ <0077.g1:< D )>`.
+angle, the angle at :g:`D <0077.g1:< D )>`.
 
 .. qed::
 

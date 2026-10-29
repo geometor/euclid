@@ -25,36 +25,36 @@ PROPOSITION 13.
 .. folio:: 0372
    :page: 366
 
-Let there be as many numbers as we please, :g:`$A$ <0372.g1:A>`, :g:`$B$ <0372.g1:B>`, :g:`$C$ <0372.g1:C>`, in continued proportion, so that, as :g:`$A$ <0372.g1:A>` is to :g:`$B$ <0372.g1:B>`, so is :g:`$B$ <0372.g1:B>` to :g:`$C$ <0372.g1:C>`; let :g:`$A$ <0372.g1:A>`, :g:`$B$ <0372.g1:B>`, :g:`$C$ <0372.g1:C>` by multiplying themselves make :g:`$D$ <0372.g1:D>`, :g:`$E$ <0372.g1:E>`, :g:`$F$ <0372.g1:F>`, and by multiplying :g:`$D$ <0372.g1:D>`, :g:`$E$ <0372.g1:E>`, :g:`$F$ <0372.g1:F>` let them make :g:`$G$ <0372.g1:G>`, :g:`$H$ <0372.g1:H>`, :g:`$K$ <0372.g1:K>`;
+Let there be as many numbers as we please, :g:`A <0372.g1:A>`, :g:`B <0372.g1:B>`, :g:`C <0372.g1:C>`, in continued proportion, so that, as :g:`A <0372.g1:A>` is to :g:`B <0372.g1:B>`, so is :g:`B <0372.g1:B>` to :g:`C <0372.g1:C>`; let :g:`A <0372.g1:A>`, :g:`B <0372.g1:B>`, :g:`C <0372.g1:C>` by multiplying themselves make :g:`D <0372.g1:D>`, :g:`E <0372.g1:E>`, :g:`F <0372.g1:F>`, and by multiplying :g:`D <0372.g1:D>`, :g:`E <0372.g1:E>`, :g:`F <0372.g1:F>` let them make :g:`G <0372.g1:G>`, :g:`H <0372.g1:H>`, :g:`K <0372.g1:K>`;
 
-I say that :g:`$D$ <0372.g1:D>`, :g:`$E$ <0372.g1:E>`, :g:`$F$ <0372.g1:F>` and :g:`$G$ <0372.g1:G>`, :g:`$H$ <0372.g1:H>`, :g:`$K$ <0372.g1:K>` are in continued proportion.
+I say that :g:`D <0372.g1:D>`, :g:`E <0372.g1:E>`, :g:`F <0372.g1:F>` and :g:`G <0372.g1:G>`, :g:`H <0372.g1:H>`, :g:`K <0372.g1:K>` are in continued proportion.
 
 .. picture:: 0372.g1.svg
    :alt: Book VIII, Proposition 13
 
-For let :g:`$A$ <0372.g1:A>` by multiplying :g:`$B$ <0372.g1:B>` make :g:`$L$ <0372.g1:L>`, and let the numbers :g:`$A$ <0372.g1:A>`, :g:`$B$ <0372.g1:B>` by multiplying :g:`$L$ <0372.g1:L>` make :g:`$M$ <0372.g1:M>`, :g:`$N$ <0372.g1:N>` respectively.
+For let :g:`A <0372.g1:A>` by multiplying :g:`B <0372.g1:B>` make :g:`L <0372.g1:L>`, and let the numbers :g:`A <0372.g1:A>`, :g:`B <0372.g1:B>` by multiplying :g:`L <0372.g1:L>` make :g:`M <0372.g1:M>`, :g:`N <0372.g1:N>` respectively.
 
-And again let :g:`$B$ <0372.g1:B>` by multiplying :g:`$C$ <0372.g1:C>` make :g:`$O$ <0372.g1:O>`, and let the numbers :g:`$B$ <0372.g1:B>`, :g:`$C$ <0372.g1:C>` by multiplying :g:`$O$ <0372.g1:O>` make :g:`$P$ <0372.g1:P>`, :g:`$Q$ <0372.g1:Q>` respectively.
+And again let :g:`B <0372.g1:B>` by multiplying :g:`C <0372.g1:C>` make :g:`O <0372.g1:O>`, and let the numbers :g:`B <0372.g1:B>`, :g:`C <0372.g1:C>` by multiplying :g:`O <0372.g1:O>` make :g:`P <0372.g1:P>`, :g:`Q <0372.g1:Q>` respectively.
 
 .. assertion::
 
-   Then, in manner similar to the foregoing, we can prove that :g:`$D$ <0372.g1:D>`, :g:`$L$ <0372.g1:L>`, :g:`$E$ <0372.g1:E>` and :g:`$G$ <0372.g1:G>`, :g:`$M$ <0372.g1:M>`, :g:`$N$ <0372.g1:N>`, :g:`$H$ <0372.g1:H>` are continuously proportional in the ratio of :g:`$A$ <0372.g1:A>` to :g:`$B$ <0372.g1:B>`, and further :g:`$E$ <0372.g1:E>`, :g:`$O$ <0372.g1:O>`, :g:`$F$ <0372.g1:F>` and :g:`$H$ <0372.g1:H>`, :g:`$P$ <0372.g1:P>`, :g:`$Q$ <0372.g1:Q>`, :g:`$K$ <0372.g1:K>` are continuously proportional in the ratio of :g:`$B$ <0372.g1:B>` to :g:`$C$ <0372.g1:C>`.
+   Then, in manner similar to the foregoing, we can prove that :g:`D <0372.g1:D>`, :g:`L <0372.g1:L>`, :g:`E <0372.g1:E>` and :g:`G <0372.g1:G>`, :g:`M <0372.g1:M>`, :g:`N <0372.g1:N>`, :g:`H <0372.g1:H>` are continuously proportional in the ratio of :g:`A <0372.g1:A>` to :g:`B <0372.g1:B>`, and further :g:`E <0372.g1:E>`, :g:`O <0372.g1:O>`, :g:`F <0372.g1:F>` and :g:`H <0372.g1:H>`, :g:`P <0372.g1:P>`, :g:`Q <0372.g1:Q>`, :g:`K <0372.g1:K>` are continuously proportional in the ratio of :g:`B <0372.g1:B>` to :g:`C <0372.g1:C>`.
 
 .. subclause::
 
-   Now, as :g:`$A$ <0372.g1:A>` is to :g:`$B$ <0372.g1:B>`, so is :g:`$B$ <0372.g1:B>` to :g:`$C$ <0372.g1:C>`;
+   Now, as :g:`A <0372.g1:A>` is to :g:`B <0372.g1:B>`, so is :g:`B <0372.g1:B>` to :g:`C <0372.g1:C>`;
 
 .. assertion::
 
-   therefore :g:`$D$ <0372.g1:D>`, :g:`$L$ <0372.g1:L>`, :g:`$E$ <0372.g1:E>` are also in the same ratio with :g:`$E$ <0372.g1:E>`, :g:`$O$ <0372.g1:O>`, :g:`$F$ <0372.g1:F>`, and further :g:`$G$ <0372.g1:G>`, :g:`$M$ <0372.g1:M>`, :g:`$N$ <0372.g1:N>`, :g:`$H$ <0372.g1:H>` in the same ratio with :g:`$H$ <0372.g1:H>`, :g:`$P$ <0372.g1:P>`, :g:`$Q$ <0372.g1:Q>`, :g:`$K$ <0372.g1:K>`.
+   therefore :g:`D <0372.g1:D>`, :g:`L <0372.g1:L>`, :g:`E <0372.g1:E>` are also in the same ratio with :g:`E <0372.g1:E>`, :g:`O <0372.g1:O>`, :g:`F <0372.g1:F>`, and further :g:`G <0372.g1:G>`, :g:`M <0372.g1:M>`, :g:`N <0372.g1:N>`, :g:`H <0372.g1:H>` in the same ratio with :g:`H <0372.g1:H>`, :g:`P <0372.g1:P>`, :g:`Q <0372.g1:Q>`, :g:`K <0372.g1:K>`.
 
 .. subclause::
 
-   And the multitude of :g:`$D$ <0372.g1:D>`, :g:`$L$ <0372.g1:L>`, :g:`$E$ <0372.g1:E>` is equal to the multitude of :g:`$E$ <0372.g1:E>`, :g:`$O$ <0372.g1:O>`, :g:`$F$ <0372.g1:F>`, and that of :g:`$G$ <0372.g1:G>`, :g:`$M$ <0372.g1:M>`, :g:`$N$ <0372.g1:N>`, :g:`$H$ <0372.g1:H>` to that of :g:`$H$ <0372.g1:H>`, :g:`$P$ <0372.g1:P>`, :g:`$Q$ <0372.g1:Q>`, :g:`$K$ <0372.g1:K>`;
+   And the multitude of :g:`D <0372.g1:D>`, :g:`L <0372.g1:L>`, :g:`E <0372.g1:E>` is equal to the multitude of :g:`E <0372.g1:E>`, :g:`O <0372.g1:O>`, :g:`F <0372.g1:F>`, and that of :g:`G <0372.g1:G>`, :g:`M <0372.g1:M>`, :g:`N <0372.g1:N>`, :g:`H <0372.g1:H>` to that of :g:`H <0372.g1:H>`, :g:`P <0372.g1:P>`, :g:`Q <0372.g1:Q>`, :g:`K <0372.g1:K>`;
 
 .. assertion::
 
-   therefore, :term:`*ex aequali* <ex-aequali>`, as :g:`$D$ <0372.g1:D>` is to :g:`$E$ <0372.g1:E>`, so is :g:`$E$ <0372.g1:E>` to :g:`$F$ <0372.g1:F>`, and, as :g:`$G$ <0372.g1:G>` is to :g:`$H$ <0372.g1:H>`, so is :g:`$H$ <0372.g1:H>` to :g:`$K$ <0372.g1:K>`. :just:`[VII. 14] <VII.14>`
+   therefore, :term:`*ex aequali* <ex-aequali>`, as :g:`D <0372.g1:D>` is to :g:`E <0372.g1:E>`, so is :g:`E <0372.g1:E>` to :g:`F <0372.g1:F>`, and, as :g:`G <0372.g1:G>` is to :g:`H <0372.g1:H>`, so is :g:`H <0372.g1:H>` to :g:`K <0372.g1:K>`. :just:`[VII. 14] <VII.14>`
 
 .. _folio-ii-0373:
 

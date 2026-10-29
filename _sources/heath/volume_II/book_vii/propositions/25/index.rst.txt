@@ -20,30 +20,30 @@ PROPOSITION 25.
 
    If two numbers be prime to one another, the product of one of them into itself\ [#f1]_ will be prime to the remaining one.
 
-Let :g:`$A$ <0332.g1:A>`, :g:`$B$ <0332.g1:B>` be two numbers prime to one another, and let :g:`$A$ <0332.g1:A>` by multiplying itself make :g:`$C$ <0332.g1:C>`:
+Let :g:`A <0332.g1:A>`, :g:`B <0332.g1:B>` be two numbers prime to one another, and let :g:`A <0332.g1:A>` by multiplying itself make :g:`C <0332.g1:C>`:
 
-I say that :g:`$B$ <0332.g1:B>`, :g:`$C$ <0332.g1:C>` are prime to one another.
+I say that :g:`B <0332.g1:B>`, :g:`C <0332.g1:C>` are prime to one another.
 
 .. picture:: 0332.g1.svg
    :alt: Book VII, Proposition 25
 
-For let :g:`$D$ <0332.g1:D>` be made :eq:`equal <0332.g1:D = 0332.g1:A>` to :g:`$A$ <0332.g1:A>`.
+For let :g:`D <0332.g1:D>` be made :eq:`equal <0332.g1:D = 0332.g1:A>` to :g:`A <0332.g1:A>`.
 
 .. subclause::
 
-   Since :g:`$A$ <0332.g1:A>`, :g:`$B$ <0332.g1:B>` are prime to one another, and :g:`$A$ <0332.g1:A>` is :eq:`equal <0332.g1:A = 0332.g1:D>` to :g:`$D$ <0332.g1:D>`,
+   Since :g:`A <0332.g1:A>`, :g:`B <0332.g1:B>` are prime to one another, and :g:`A <0332.g1:A>` is :eq:`equal <0332.g1:A = 0332.g1:D>` to :g:`D <0332.g1:D>`,
 
 .. assertion::
 
-   therefore :g:`$D$ <0332.g1:D>`, :g:`$B$ <0332.g1:B>` are also prime to one another.
+   therefore :g:`D <0332.g1:D>`, :g:`B <0332.g1:B>` are also prime to one another.
 
 .. assertion::
 
-   Therefore each of the two numbers :g:`$D$ <0332.g1:D>`, :g:`$A$ <0332.g1:A>` is prime to :g:`$B$ <0332.g1:B>` ;
+   Therefore each of the two numbers :g:`D <0332.g1:D>`, :g:`A <0332.g1:A>` is prime to :g:`B <0332.g1:B>` ;
 
 .. assertion:: [VII. 24] <VII.24>
 
-   therefore the product of :g:`$D$ <0332.g1:D>`, :g:`$A$ <0332.g1:A>` will also be prime to :g:`$B$ <0332.g1:B>`.
+   therefore the product of :g:`D <0332.g1:D>`, :g:`A <0332.g1:A>` will also be prime to :g:`B <0332.g1:B>`.
 
 .. _folio-ii-0333:
 
@@ -52,11 +52,11 @@ For let :g:`$D$ <0332.g1:D>` be made :eq:`equal <0332.g1:D = 0332.g1:A>` to :g:`
 
 .. subclause::
 
-   But the number which is the product of :g:`$D$ <0332.g1:D>`, :g:`$A$ <0332.g1:A>` is :g:`$C$ <0332.g1:C>`.
+   But the number which is the product of :g:`D <0332.g1:D>`, :g:`A <0332.g1:A>` is :g:`C <0332.g1:C>`.
 
 .. assertion::
 
-   Therefore :g:`$C$ <0332.g1:C>`, :g:`$B$ <0332.g1:B>` are prime to one another.
+   Therefore :g:`C <0332.g1:C>`, :g:`B <0332.g1:B>` are prime to one another.
 
 .. qed::
 

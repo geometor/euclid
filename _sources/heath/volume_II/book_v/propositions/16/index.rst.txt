@@ -20,38 +20,38 @@ PROPOSITION 16.
 
    If four magnitudes be proportional, they will also be proportional alternately.
 
-Let :g:`$A$ <0170.g1:A>`, :g:`$B$ <0170.g1:B>`, :g:`$C$ <0170.g1:C>`, :g:`$D$ <0170.g1:D>` be four proportional magnitudes, so that, as :g:`$A$ <0170.g1:A>` is to :g:`$B$ <0170.g1:B>`, so is :g:`$C$ <0170.g1:C>` to :g:`$D$ <0170.g1:D>` ;\ [#f1]_
+Let :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>`, :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` be four proportional magnitudes, so that, as :g:`A <0170.g1:A>` is to :g:`B <0170.g1:B>`, so is :g:`C <0170.g1:C>` to :g:`D <0170.g1:D>` ;\ [#f1]_
 
-I say that they will also be so alternately, that is, as :g:`$A$ <0170.g1:A>` is to :g:`$C$ <0170.g1:C>`, so is :g:`$B$ <0170.g1:B>` to :g:`$D$ <0170.g1:D>`.
+I say that they will also be so alternately, that is, as :g:`A <0170.g1:A>` is to :g:`C <0170.g1:C>`, so is :g:`B <0170.g1:B>` to :g:`D <0170.g1:D>`.
 
 .. picture:: 0170.g1.svg
    :alt: Proposition 16 diagram
 
-For of :g:`$A$ <0170.g1:A>`, :g:`$B$ <0170.g1:B>` let equimultiples :g:`$E$ <0170.g1:E>`, :g:`$F$ <0170.g1:F>` be taken, and of :g:`$C$ <0170.g1:C>`, :g:`$D$ <0170.g1:D>` other, chance, equimultiples :g:`$G$ <0170.g1:G>`, :g:`$H$ <0170.g1:H>`.
+For of :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>` let equimultiples :g:`E <0170.g1:E>`, :g:`F <0170.g1:F>` be taken, and of :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` other, chance, equimultiples :g:`G <0170.g1:G>`, :g:`H <0170.g1:H>`.
 
-Then, since :g:`$E$ <0170.g1:E>` is the same multiple of :g:`$A$ <0170.g1:A>` that :g:`$F$ <0170.g1:F>` is of :g:`$B$ <0170.g1:B>`, and parts have the same ratio as the same multiples of them, :just:`[V. 15] <V.15>`
+Then, since :g:`E <0170.g1:E>` is the same multiple of :g:`A <0170.g1:A>` that :g:`F <0170.g1:F>` is of :g:`B <0170.g1:B>`, and parts have the same ratio as the same multiples of them, :just:`[V. 15] <V.15>`
 
 .. assertion::
 
-   therefore, as :g:`$A$ <0170.g1:A>` is to :g:`$B$ <0170.g1:B>`, so is :g:`$E$ <0170.g1:E>` to :g:`$F$ <0170.g1:F>`.
+   therefore, as :g:`A <0170.g1:A>` is to :g:`B <0170.g1:B>`, so is :g:`E <0170.g1:E>` to :g:`F <0170.g1:F>`.
 
-But as :g:`$A$ <0170.g1:A>` is to :g:`$B$ <0170.g1:B>`, so is :g:`$C$ <0170.g1:C>` to :g:`$D$ <0170.g1:D>` ;
+But as :g:`A <0170.g1:A>` is to :g:`B <0170.g1:B>`, so is :g:`C <0170.g1:C>` to :g:`D <0170.g1:D>` ;
 
 .. assertion:: [V. 11] <V.11>
 
-   therefore also, as :g:`$C$ <0170.g1:C>` is to :g:`$D$ <0170.g1:D>`, so is :g:`$E$ <0170.g1:E>` to :g:`$F$ <0170.g1:F>`.
+   therefore also, as :g:`C <0170.g1:C>` is to :g:`D <0170.g1:D>`, so is :g:`E <0170.g1:E>` to :g:`F <0170.g1:F>`.
 
-Again, since :g:`$G$ <0170.g1:G>`, :g:`$H$ <0170.g1:H>` are equimultiples of :g:`$C$ <0170.g1:C>`, :g:`$D$ <0170.g1:D>`,
+Again, since :g:`G <0170.g1:G>`, :g:`H <0170.g1:H>` are equimultiples of :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>`,
 
 .. assertion:: [V. 15] <V.15>
 
-   therefore, as :g:`$C$ <0170.g1:C>` is to :g:`$D$ <0170.g1:D>`, so is :g:`$G$ <0170.g1:G>` to :g:`$H$ <0170.g1:H>`.
+   therefore, as :g:`C <0170.g1:C>` is to :g:`D <0170.g1:D>`, so is :g:`G <0170.g1:G>` to :g:`H <0170.g1:H>`.
 
-But, as :g:`$C$ <0170.g1:C>` is to :g:`$D$ <0170.g1:D>`, so is :g:`$E$ <0170.g1:E>` to :g:`$F$ <0170.g1:F>` ;
+But, as :g:`C <0170.g1:C>` is to :g:`D <0170.g1:D>`, so is :g:`E <0170.g1:E>` to :g:`F <0170.g1:F>` ;
 
 .. assertion:: [V. 11] <V.11>
 
-   therefore also, as :g:`$E$ <0170.g1:E>` is to :g:`$F$ <0170.g1:F>`, so is :g:`$G$ <0170.g1:G>` to :g:`$H$ <0170.g1:H>`.
+   therefore also, as :g:`E <0170.g1:E>` is to :g:`F <0170.g1:F>`, so is :g:`G <0170.g1:G>` to :g:`H <0170.g1:H>`.
 
 .. subclause::
 
@@ -59,24 +59,24 @@ But, as :g:`$C$ <0170.g1:C>` is to :g:`$D$ <0170.g1:D>`, so is :g:`$E$ <0170.g1:
 
 .. assertion::
 
-   Therefore, if :g:`$E$ <0170.g1:E>` is in excess of :g:`$G$ <0170.g1:G>`, :g:`$F$ <0170.g1:F>` is also in excess of :g:`$H$ <0170.g1:H>`, if :eq:`equal <0170.g1:E = 0170.g1:G>`, :eq:`equal <0170.g1:F = 0170.g1:H>`, and if less, less.
+   Therefore, if :g:`E <0170.g1:E>` is in excess of :g:`G <0170.g1:G>`, :g:`F <0170.g1:F>` is also in excess of :g:`H <0170.g1:H>`, if :eq:`equal <0170.g1:E = 0170.g1:G>`, :eq:`equal <0170.g1:F = 0170.g1:H>`, and if less, less.
 
 .. _folio-ii-0171:
 
 .. folio:: 0171
    :page: 165
 
-Now :g:`$E$ <0170.g1:E>`, :g:`$F$ <0170.g1:F>` are equimultiples of :g:`$A$ <0170.g1:A>`, :g:`$B$ <0170.g1:B>`, and :g:`$G$ <0170.g1:G>`, :g:`$H$ <0170.g1:H>` other, chance, equimultiples of :g:`$C$ <0170.g1:C>`, :g:`$D$ <0170.g1:D>` ;
+Now :g:`E <0170.g1:E>`, :g:`F <0170.g1:F>` are equimultiples of :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>`, and :g:`G <0170.g1:G>`, :g:`H <0170.g1:H>` other, chance, equimultiples of :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` ;
 
 .. assertion:: [V. Def. 5] <V.def.5>
 
-   therefore, as :g:`$A$ <0170.g1:A>` is to :g:`$C$ <0170.g1:C>`, so is :g:`$B$ <0170.g1:B>` to :g:`$D$ <0170.g1:D>`.
+   therefore, as :g:`A <0170.g1:A>` is to :g:`C <0170.g1:C>`, so is :g:`B <0170.g1:B>` to :g:`D <0170.g1:D>`.
 
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] "**Let** :g:`$A$ <0170.g1:A>`, :g:`$B$ <0170.g1:B>`, :g:`$C$ <0170.g1:C>`, :g:`$D$ <0170.g1:D>` **be four proportional magnitudes, so that, as** :g:`$A$ <0170.g1:A>` **is to** :g:`$B$ <0170.g1:B>`, **so is** :g:`$C$ <0170.g1:C>` **to** :g:`$D$ <0170.g1:D>`." In a number of expressions like this it is absolutely necessary, when translating into English, to interpolate words which are not in the Greek. Thus the Greek here is : Ἔστω τέσσαρα :term:`μεγέθη <megethos>` :term:`ἀνάλογον <proportional>` τὰ Α, Β, Γ, Δ, ὡς τὸ Α πρὸς τὸ Β, οὕτως τὸ Γ πρὸς τὸ Δ, literally "Let $A$, $B$, $C$, $D$ be four proportional magnitudes, as $A$ to $B$, so $C$ to $D$." The same remark applies to the corresponding expressions in the next propositions, V. 17, 18, and to other forms of expression in V. 20—23 and later propositions : e.g. in V. 20 we have a phrase meaning literally "Let there be magnitudes...which taken two and two are in the same ratio, as $A$ to $B$, so $D$ to $E$," etc. : in V. 21 "(magnitudes)...which taken two and two are in the same ratio, and let the proportion of them be perturbed, as $A$ to $B$, so $E$ to $F$," etc. In all such cases (where the Greek is so terse as to be almost ungrammatical) I shall insert the words necessary in English, without further remark.
+.. [#f1] "**Let** :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>`, :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` **be four proportional magnitudes, so that, as** :g:`A <0170.g1:A>` **is to** :g:`B <0170.g1:B>`, **so is** :g:`C <0170.g1:C>` **to** :g:`D <0170.g1:D>`." In a number of expressions like this it is absolutely necessary, when translating into English, to interpolate words which are not in the Greek. Thus the Greek here is : Ἔστω τέσσαρα :term:`μεγέθη <megethos>` :term:`ἀνάλογον <proportional>` τὰ Α, Β, Γ, Δ, ὡς τὸ Α πρὸς τὸ Β, οὕτως τὸ Γ πρὸς τὸ Δ, literally "Let $A$, $B$, $C$, $D$ be four proportional magnitudes, as $A$ to $B$, so $C$ to $D$." The same remark applies to the corresponding expressions in the next propositions, V. 17, 18, and to other forms of expression in V. 20—23 and later propositions : e.g. in V. 20 we have a phrase meaning literally "Let there be magnitudes...which taken two and two are in the same ratio, as $A$ to $B$, so $D$ to $E$," etc. : in V. 21 "(magnitudes)...which taken two and two are in the same ratio, and let the proportion of them be perturbed, as $A$ to $B$, so $E$ to $F$," etc. In all such cases (where the Greek is so terse as to be almost ungrammatical) I shall insert the words necessary in English, without further remark.
 
 Dependency Graph
 ----------------

@@ -25,28 +25,28 @@ We may agree with :person:`Simson <simson>` that it would be preferable to enunc
 
    Two straight lines which intersect are in one plane, and three straight lines which intersect two and two are in one plane.
 
-Adopting Smith and Bryant's figure in preference to :person:`Simson <simson>`'s, we suppose three straight lines :g:`$PQ$ <0279.g1:[ P Q ]>`, :g:`$RS$ <0279.g1:[ R S ]>`, :g:`$XY$ <0279.g1:[ X Y ]>` to intersect two and two in :g:`$A$ <0279.g1:A>`, :g:`$B$ <0279.g1:B>`, :g:`$C$ <0279.g1:C>`.
+Adopting Smith and Bryant's figure in preference to :person:`Simson <simson>`'s, we suppose three straight lines :g:`PQ <0279.g1:[ P Q ]>`, :g:`RS <0279.g1:[ R S ]>`, :g:`XY <0279.g1:[ X Y ]>` to intersect two and two in :g:`A <0279.g1:A>`, :g:`B <0279.g1:B>`, :g:`C <0279.g1:C>`.
 
 .. picture:: 0279.g1.svg
    :alt: Book XI, Proposition 2, Commentary Diagram
 
 Then :person:`Simson <simson>`'s proof (adopted by Legendre also) proceeds thus.
 
-Let any plane pass through the straight line :g:`$PQ$ <0279.g1:[ P Q ]>`, and let this plane be turned about :g:`$PQ$ <0279.g1:[ P Q ]>` (produced indefinitely) as axis until it passes through the point :g:`$C$ <0279.g1:C>`.
+Let any plane pass through the straight line :g:`PQ <0279.g1:[ P Q ]>`, and let this plane be turned about :g:`PQ <0279.g1:[ P Q ]>` (produced indefinitely) as axis until it passes through the point :g:`C <0279.g1:C>`.
 
-Then, since the points :g:`$A$ <0279.g1:A>`, :g:`$C$ <0279.g1:C>` are in this plane, the straight line :g:`$AC$ <0279.g1:/ A C />` (and therefore the straight line :g:`$RS$ <0279.g1:[ R S ]>` produced indefinitely) lies wholly in the plane. :just:`[Simson's def.]`
+Then, since the points :g:`A <0279.g1:A>`, :g:`C <0279.g1:C>` are in this plane, the straight line :g:`AC <0279.g1:/ A C />` (and therefore the straight line :g:`RS <0279.g1:[ R S ]>` produced indefinitely) lies wholly in the plane. :just:`[Simson's def.]`
 
-For the same reason, since the points :g:`$B$ <0279.g1:B>`, :g:`$C$ <0279.g1:C>` are in the plane, the straight line :g:`$XY$ <0279.g1:[ X Y ]>` lies wholly in the plane.
+For the same reason, since the points :g:`B <0279.g1:B>`, :g:`C <0279.g1:C>` are in the plane, the straight line :g:`XY <0279.g1:[ X Y ]>` lies wholly in the plane.
 
-Hence all three straight lines :g:`$PQ$ <0279.g1:[ P Q ]>`, :g:`$RS$ <0279.g1:[ R S ]>`, :g:`$XY$ <0279.g1:[ X Y ]>` (and of course any pair of them) lie in one plane.
+Hence all three straight lines :g:`PQ <0279.g1:[ P Q ]>`, :g:`RS <0279.g1:[ R S ]>`, :g:`XY <0279.g1:[ X Y ]>` (and of course any pair of them) lie in one plane.
 
 But it has still to be proved that there is *only one* plane passing through the three straight lines.
 
 This may be done, as in Mr Taylor's Euclid, thus.
 
-Suppose, if possible, that there are *two* different planes through :g:`$A$ <0279.g1:A>`, :g:`$B$ <0279.g1:B>`, :g:`$C$ <0279.g1:C>`.
+Suppose, if possible, that there are *two* different planes through :g:`A <0279.g1:A>`, :g:`B <0279.g1:B>`, :g:`C <0279.g1:C>`.
 
-The straight lines :g:`$BC$ <0279.g1:/ B C />`, :g:`$CA$ <0279.g1:/ C A />`, :g:`$AB$ <0279.g1:/ A B />` then lie wholly in each of the two planes.
+The straight lines :g:`BC <0279.g1:/ B C />`, :g:`CA <0279.g1:/ C A />`, :g:`AB <0279.g1:/ A B />` then lie wholly in each of the two planes.
 
 Now any straight line in *one* of the two planes must intersect at least two of the straight lines (produced if necessary); let it intersect two of them in $K$, $L$.
 

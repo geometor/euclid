@@ -20,20 +20,20 @@ PROPOSITION 39.
 
    If there be two prisms of equal height, and one have a parallelogram as base and the other a triangle, and if the parallelogram be double of the triangle, the prisms will be equal.
 
-Let :g:`$ABCDEF$ <0367.g1:< A B C D E F >>`, :g:`$GHKLMN$ <0367.g1:< G H K L M N >>` be two prisms of equal height, let one have the parallelogram :g:`$AF$ <0367.g1:< A F >>` as base, and the other the triangle :g:`$GHK$ <0367.g1:< G H K >>`, and let the parallelogram :g:`$AF$ <0367.g1:< A F >>` be double of the triangle :g:`$GHK$ <0367.g1:< G H K >>` ; I say that the prism :g:`$ABCDEF$ <0367.g1:< A B C D E F >>` is :eq:`equal <0367.g1:< A B C D E F > = 0367.g1:< G H K L M N >>` to the prism :g:`$GHKLMN$ <0367.g1:< G H K L M N >>`.
+Let :g:`ABCDEF <0367.g1:< A B C D E F >>`, :g:`GHKLMN <0367.g1:< G H K L M N >>` be two prisms of equal height, let one have the parallelogram :g:`AF <0367.g1:< A F >>` as base, and the other the triangle :g:`GHK <0367.g1:< G H K >>`, and let the parallelogram :g:`AF <0367.g1:< A F >>` be double of the triangle :g:`GHK <0367.g1:< G H K >>` ; I say that the prism :g:`ABCDEF <0367.g1:< A B C D E F >>` is :eq:`equal <0367.g1:< A B C D E F > = 0367.g1:< G H K L M N >>` to the prism :g:`GHKLMN <0367.g1:< G H K L M N >>`.
 
 .. picture:: 0367.g1.svg
    :alt: Proposition 39 diagram
 
-For let the solids :g:`$AO$ <0367.g1:< A O >>`, :g:`$GP$ <0367.g1:< G P >>` be completed.
+For let the solids :g:`AO <0367.g1:< A O >>`, :g:`GP <0367.g1:< G P >>` be completed.
 
 .. subclause::
 
-   Since the parallelogram :g:`$AF$ <0367.g1:< A F >>` is double of the triangle :g:`$GHK$ <0367.g1:< G H K >>`, while the parallelogram :g:`$HK$ <0367.g1:< H K >>` is also double of the triangle :g:`$GHK$ <0367.g1:< G H K >>`, :just:`[I. 34] <I.34>`
+   Since the parallelogram :g:`AF <0367.g1:< A F >>` is double of the triangle :g:`GHK <0367.g1:< G H K >>`, while the parallelogram :g:`HK <0367.g1:< H K >>` is also double of the triangle :g:`GHK <0367.g1:< G H K >>`, :just:`[I. 34] <I.34>`
 
 .. assertion::
 
-   therefore the parallelogram :g:`$AF$ <0367.g1:< A F >>` is :eq:`equal <0367.g1:< A F > = 0367.g1:< H K >>` to the parallelogram :g:`$HK$ <0367.g1:< H K >>`.
+   therefore the parallelogram :g:`AF <0367.g1:< A F >>` is :eq:`equal <0367.g1:< A F > = 0367.g1:< H K >>` to the parallelogram :g:`HK <0367.g1:< H K >>`.
 
 .. subclause::
 
@@ -41,15 +41,15 @@ For let the solids :g:`$AO$ <0367.g1:< A O >>`, :g:`$GP$ <0367.g1:< G P >>` be c
 
 .. assertion::
 
-   therefore the solid :g:`$AO$ <0367.g1:< A O >>` is :eq:`equal <0367.g1:< A O > = 0367.g1:< G P >>` to the solid :g:`$GP$ <0367.g1:< G P >>`.
+   therefore the solid :g:`AO <0367.g1:< A O >>` is :eq:`equal <0367.g1:< A O > = 0367.g1:< G P >>` to the solid :g:`GP <0367.g1:< G P >>`.
 
 .. subclause::
 
-   And the prism :g:`$ABCDEF$ <0367.g1:< A B C D E F >>` is half of the solid :g:`$AO$ <0367.g1:< A O >>`, and the prism :g:`$GHKLMN$ <0367.g1:< G H K L M N >>` is half of the solid :g:`$GP$ <0367.g1:< G P >>` ; :just:`[XI. 28] <XI.28>`
+   And the prism :g:`ABCDEF <0367.g1:< A B C D E F >>` is half of the solid :g:`AO <0367.g1:< A O >>`, and the prism :g:`GHKLMN <0367.g1:< G H K L M N >>` is half of the solid :g:`GP <0367.g1:< G P >>` ; :just:`[XI. 28] <XI.28>`
 
 .. assertion::
 
-   therefore the prism :g:`$ABCDEF$ <0367.g1:< A B C D E F >>` is :eq:`equal <0367.g1:< A B C D E F > = 0367.g1:< G H K L M N >>` to the prism :g:`$GHKLMN$ <0367.g1:< G H K L M N >>`.
+   therefore the prism :g:`ABCDEF <0367.g1:< A B C D E F >>` is :eq:`equal <0367.g1:< A B C D E F > = 0367.g1:< G H K L M N >>` to the prism :g:`GHKLMN <0367.g1:< G H K L M N >>`.
 
 .. qed::
 

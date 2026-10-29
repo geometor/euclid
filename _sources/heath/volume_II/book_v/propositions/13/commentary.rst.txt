@@ -25,9 +25,9 @@ a : b &= c : d, \\
 \text{then}\qquad a : b &> e : f.
 \end{aligned}$$
 
-After the words "for, since" in the first line of the proof, Theon added ":g:`$C$ <0166.g1:C>` has to :g:`$D$ <0166.g1:D>` a greater ratio than :g:`$E$ <0166.g1:E>` has to :g:`$F$ <0166.g1:F>`," so that "there are some equimultiples" began, with him, the principal sentence.
+After the words "for, since" in the first line of the proof, Theon added ":g:`C <0166.g1:C>` has to :g:`D <0166.g1:D>` a greater ratio than :g:`E <0166.g1:E>` has to :g:`F <0166.g1:F>`," so that "there are some equimultiples" began, with him, the principal sentence.
 
-The Greek text has, after "of :g:`$D$ <0166.g1:D>`, :g:`$F$ <0166.g1:F>` other, chance, equimultiples," "*and* the multiple of :g:`$C$ <0166.g1:C>` is in excess of the multiple of :g:`$D$ <0166.g1:D>`...." The meaning being "such that," I have substituted this for "and," after :person:`Simson <simson>`.
+The Greek text has, after "of :g:`D <0166.g1:D>`, :g:`F <0166.g1:F>` other, chance, equimultiples," "*and* the multiple of :g:`C <0166.g1:C>` is in excess of the multiple of :g:`D <0166.g1:D>`...." The meaning being "such that," I have substituted this for "and," after :person:`Simson <simson>`.
 
 The following will show the method of Euclid's proof.
 

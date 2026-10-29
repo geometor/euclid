@@ -19,34 +19,34 @@ PROPOSITION 29.
 
    Any prime number is prime to any number which it does not measure.
 
-Let :g:`$A$ <0336.g1:A>` be a prime number, and let it not measure :g:`$B$ <0336.g1:B>`;
+Let :g:`A <0336.g1:A>` be a prime number, and let it not measure :g:`B <0336.g1:B>`;
 
-I say that :g:`$B$ <0336.g1:B>`, :g:`$A$ <0336.g1:A>` are prime to one another.
+I say that :g:`B <0336.g1:B>`, :g:`A <0336.g1:A>` are prime to one another.
 
 .. picture:: 0336.g1.svg
    :alt: Book VII, Proposition 29
 
 .. subclause::
 
-   For, if :g:`$B$ <0336.g1:B>`, :g:`$A$ <0336.g1:A>` are not prime to one another, some number will measure them.
+   For, if :g:`B <0336.g1:B>`, :g:`A <0336.g1:A>` are not prime to one another, some number will measure them.
 
-Let :g:`$C$ <0336.g1:C>` measure them.
-
-.. subclause::
-
-   Since :g:`$C$ <0336.g1:C>` measures :g:`$B$ <0336.g1:B>`, and :g:`$A$ <0336.g1:A>` does not measure :g:`$B$ <0336.g1:B>`,
-
-.. assertion::
-
-   therefore :g:`$C$ <0336.g1:C>` is not the same with :g:`$A$ <0336.g1:A>`.
+Let :g:`C <0336.g1:C>` measure them.
 
 .. subclause::
 
-   Now, since :g:`$C$ <0336.g1:C>` measures :g:`$B$ <0336.g1:B>`, :g:`$A$ <0336.g1:A>`,
+   Since :g:`C <0336.g1:C>` measures :g:`B <0336.g1:B>`, and :g:`A <0336.g1:A>` does not measure :g:`B <0336.g1:B>`,
 
 .. assertion::
 
-   therefore it also measures :g:`$A$ <0336.g1:A>` which is prime, though it is not the same with it : which is impossible.
+   therefore :g:`C <0336.g1:C>` is not the same with :g:`A <0336.g1:A>`.
+
+.. subclause::
+
+   Now, since :g:`C <0336.g1:C>` measures :g:`B <0336.g1:B>`, :g:`A <0336.g1:A>`,
+
+.. assertion::
+
+   therefore it also measures :g:`A <0336.g1:A>` which is prime, though it is not the same with it : which is impossible.
 
 .. _folio-ii-0337:
 
@@ -55,11 +55,11 @@ Let :g:`$C$ <0336.g1:C>` measure them.
 
 .. assertion::
 
-   Therefore no number will measure :g:`$B$ <0336.g1:B>`, :g:`$A$ <0336.g1:A>`.
+   Therefore no number will measure :g:`B <0336.g1:B>`, :g:`A <0336.g1:A>`.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0336.g1:A>`, :g:`$B$ <0336.g1:B>` are prime to one another.
+   Therefore :g:`A <0336.g1:A>`, :g:`B <0336.g1:B>` are prime to one another.
 
 .. qed::
 

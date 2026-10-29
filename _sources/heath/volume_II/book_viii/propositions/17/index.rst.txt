@@ -20,28 +20,28 @@ PROPOSITION 17.
 
    If a cube number do not measure a cube number, neither will the side measure the side; and, if the side do not measure the side, neither will the cube measure the cube.
 
-For let the cube number :g:`$A$ <0376.g2:A>` not measure the cube number :g:`$B$ <0376.g2:B>`, and let :g:`$C$ <0376.g2:C>` be the side of :g:`$A$ <0376.g2:A>`, and :g:`$D$ <0376.g2:D>` of :g:`$B$ <0376.g2:B>`;
+For let the cube number :g:`A <0376.g2:A>` not measure the cube number :g:`B <0376.g2:B>`, and let :g:`C <0376.g2:C>` be the side of :g:`A <0376.g2:A>`, and :g:`D <0376.g2:D>` of :g:`B <0376.g2:B>`;
 
-I say that :g:`$C$ <0376.g2:C>` will not measure :g:`$D$ <0376.g2:D>`.
-
-.. subclause::
-
-   For if :g:`$C$ <0376.g2:C>` measures :g:`$D$ <0376.g2:D>`, :g:`$A$ <0376.g2:A>` will also measure :g:`$B$ <0376.g2:B>`. :just:`[VIII. 15] <VIII.15>`
+I say that :g:`C <0376.g2:C>` will not measure :g:`D <0376.g2:D>`.
 
 .. subclause::
 
-   But :g:`$A$ <0376.g2:A>` does not measure :g:`$B$ <0376.g2:B>`;
+   For if :g:`C <0376.g2:C>` measures :g:`D <0376.g2:D>`, :g:`A <0376.g2:A>` will also measure :g:`B <0376.g2:B>`. :just:`[VIII. 15] <VIII.15>`
+
+.. subclause::
+
+   But :g:`A <0376.g2:A>` does not measure :g:`B <0376.g2:B>`;
 
 .. assertion::
 
-   therefore neither does :g:`$C$ <0376.g2:C>` measure :g:`$D$ <0376.g2:D>`.
+   therefore neither does :g:`C <0376.g2:C>` measure :g:`D <0376.g2:D>`.
 
 .. picture:: 0376.g2.svg
    :alt: Book VIII, Proposition 17
 
-Again, let :g:`$C$ <0376.g2:C>` not measure :g:`$D$ <0376.g2:D>`;
+Again, let :g:`C <0376.g2:C>` not measure :g:`D <0376.g2:D>`;
 
-I say that neither will :g:`$A$ <0376.g2:A>` measure :g:`$B$ <0376.g2:B>`.
+I say that neither will :g:`A <0376.g2:A>` measure :g:`B <0376.g2:B>`.
 
 .. _folio-ii-0377:
 
@@ -50,15 +50,15 @@ I say that neither will :g:`$A$ <0376.g2:A>` measure :g:`$B$ <0376.g2:B>`.
 
 .. subclause:: [VIII. 15] <VIII.15>
 
-   For, if :g:`$A$ <0376.g2:A>` measures :g:`$B$ <0376.g2:B>`, :g:`$C$ <0376.g2:C>` will also measure :g:`$D$ <0376.g2:D>`.
+   For, if :g:`A <0376.g2:A>` measures :g:`B <0376.g2:B>`, :g:`C <0376.g2:C>` will also measure :g:`D <0376.g2:D>`.
 
 .. subclause::
 
-   But :g:`$C$ <0376.g2:C>` does not measure :g:`$D$ <0376.g2:D>`;
+   But :g:`C <0376.g2:C>` does not measure :g:`D <0376.g2:D>`;
 
 .. assertion::
 
-   therefore neither will :g:`$A$ <0376.g2:A>` measure :g:`$B$ <0376.g2:B>`.
+   therefore neither will :g:`A <0376.g2:A>` measure :g:`B <0376.g2:B>`.
 
 .. qed::
 

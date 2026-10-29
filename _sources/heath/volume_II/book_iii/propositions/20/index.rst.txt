@@ -20,59 +20,59 @@ PROPOSITION 20.
 
    In a circle the angle at the centre is double of the angle at the circumference, when the angles have the same circumference as base.
 
-Let :g:`$ABC$ <0052.g1:( A B C )>` be a circle, let the angle :g:`$BEC$ <0052.g1:< B E C )>` be an angle
-at its centre, and the angle :g:`$BAC$ <0052.g1:< B A C )>` an
+Let :g:`ABC <0052.g1:( A B C )>` be a circle, let the angle :g:`BEC <0052.g1:< B E C )>` be an angle
+at its centre, and the angle :g:`BAC <0052.g1:< B A C )>` an
 angle at the circumference, and let
-them have the same circumference :g:`$BC$ <0052.g1:( B C )>`
+them have the same circumference :g:`BC <0052.g1:( B C )>`
 as base;
-I say that the angle :g:`$BEC$ <0052.g1:< B E C )>` is double of
-the angle :g:`$BAC$ <0052.g1:< B A C )>`.
+I say that the angle :g:`BEC <0052.g1:< B E C )>` is double of
+the angle :g:`BAC <0052.g1:< B A C )>`.
 
 .. picture:: 0052.g1.svg
    :alt: Diagram for Proposition 20
 
-For let :g:`$AE$ <0052.g1:/ A E />` be joined and drawn
-through to :g:`$F$ <0052.g1:F>`.
+For let :g:`AE <0052.g1:/ A E />` be joined and drawn
+through to :g:`F <0052.g1:F>`.
 
-Then, since :g:`$EA$ <0052.g1:/ E A />` is :eq:`equal <0052.g1:/ E A / = 0052.g1:/ E B />` to :g:`$EB$ <0052.g1:/ E B />`,
+Then, since :g:`EA <0052.g1:/ E A />` is :eq:`equal <0052.g1:/ E A / = 0052.g1:/ E B />` to :g:`EB <0052.g1:/ E B />`,
 
 .. assertion::
 
-   the angle :g:`$EAB$ <0052.g1:< E A B )>` is also :eq:`equal <0052.g1:< E A B ) = 0052.g1:< E B A )>` to the angle :g:`$EBA$ <0052.g1:< E B A )>`; :just:`[I. 5] <I.5>`
+   the angle :g:`EAB <0052.g1:< E A B )>` is also :eq:`equal <0052.g1:< E A B ) = 0052.g1:< E B A )>` to the angle :g:`EBA <0052.g1:< E B A )>`; :just:`[I. 5] <I.5>`
 
-therefore the angles :g:`$EAB$ <0052.g1:< E A B )>`, :g:`$EBA$ <0052.g1:< E B A )>` are double of the angle
-:g:`$EAB$ <0052.g1:< E A B )>`.
+therefore the angles :g:`EAB <0052.g1:< E A B )>`, :g:`EBA <0052.g1:< E B A )>` are double of the angle
+:g:`EAB <0052.g1:< E A B )>`.
 
-But the angle :g:`$BEF$ <0052.g1:< B E F )>` is equal to the angles :g:`$EAB$ <0052.g1:< E A B )>`, :g:`$EBA$ <0052.g1:< E B A )>`; :just:`[I. 32] <I.32>`
-therefore the angle :g:`$BEF$ <0052.g1:< B E F )>` is also double of the angle
-:g:`$EAB$ <0052.g1:< E A B )>`.
+But the angle :g:`BEF <0052.g1:< B E F )>` is equal to the angles :g:`EAB <0052.g1:< E A B )>`, :g:`EBA <0052.g1:< E B A )>`; :just:`[I. 32] <I.32>`
+therefore the angle :g:`BEF <0052.g1:< B E F )>` is also double of the angle
+:g:`EAB <0052.g1:< E A B )>`.
 
 For the same reason
 
 .. assertion::
 
-   the angle :g:`$FEC$ <0052.g1:< F E C )>` is also double of the angle :g:`$EAC$ <0052.g1:< E A C )>`.
+   the angle :g:`FEC <0052.g1:< F E C )>` is also double of the angle :g:`EAC <0052.g1:< E A C )>`.
 
-Therefore the whole angle :g:`$BEC$ <0052.g1:< B E C )>` is double of the whole
-angle :g:`$BAC$ <0052.g1:< B A C )>`.
+Therefore the whole angle :g:`BEC <0052.g1:< B E C )>` is double of the whole
+angle :g:`BAC <0052.g1:< B A C )>`.
 
 Again let another straight line be inflected,\ [#f1]_ and let there
-be another angle :g:`$BDC$ <0052.g1:< B D C )>`; let :g:`$DE$ <0052.g1:/ D E />` be joined and produced
-to :g:`$G$ <0052.g1:G>`.
+be another angle :g:`BDC <0052.g1:< B D C )>`; let :g:`DE <0052.g1:/ D E />` be joined and produced
+to :g:`G <0052.g1:G>`.
 
 .. _folio-ii-0053:
 
 .. folio:: 0053
    :page: 47
 
-Similarly then we can prove that the angle :g:`$GEC$ <0052.g1:< G E C )>` is
-double of the angle :g:`$EDC$ <0052.g1:< E D C )>`,
+Similarly then we can prove that the angle :g:`GEC <0052.g1:< G E C )>` is
+double of the angle :g:`EDC <0052.g1:< E D C )>`,
 
 .. assertion::
 
-   of which the angle :g:`$GEB$ <0052.g1:< G E B )>` is double of the angle :g:`$EDB$ <0052.g1:< E D B )>`; therefore the angle :g:`$BEC$ <0052.g1:< B E C )>` which remains is double of the
+   of which the angle :g:`GEB <0052.g1:< G E B )>` is double of the angle :g:`EDB <0052.g1:< E D B )>`; therefore the angle :g:`BEC <0052.g1:< B E C )>` which remains is double of the
 
-angle :g:`$BDC$ <0052.g1:< B D C )>`.
+angle :g:`BDC <0052.g1:< B D C )>`.
 
 .. qed::
 

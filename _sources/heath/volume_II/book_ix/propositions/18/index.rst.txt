@@ -20,11 +20,11 @@ PROPOSITION 18.
 
    Given two numbers, to investigate whether it is possible to find a third proportional to them.
 
-Let :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>` be the given two numbers, and let it be required to investigate whether it is possible to find a third proportional to them.
+Let :g:`A <0414.g1:A>`, :g:`B <0414.g1:B>` be the given two numbers, and let it be required to investigate whether it is possible to find a third proportional to them.
 
 .. subclause::
 
-   Now :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>` are either prime to one another or not.
+   Now :g:`A <0414.g1:A>`, :g:`B <0414.g1:B>` are either prime to one another or not.
 
 .. assertion::
 
@@ -35,54 +35,54 @@ Let :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>` be the given two numbers, and let
 .. folio:: 0414
    :page: 408
 
-Next, let :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>` not be prime to one another, and let :g:`$B$ <0414.g1:B>` by multiplying itself make :g:`$C$ <0414.g1:C>`.
+Next, let :g:`A <0414.g1:A>`, :g:`B <0414.g1:B>` not be prime to one another, and let :g:`B <0414.g1:B>` by multiplying itself make :g:`C <0414.g1:C>`.
 
-Then :g:`$A$ <0414.g1:A>` either measures :g:`$C$ <0414.g1:C>` or does not measure it.
+Then :g:`A <0414.g1:A>` either measures :g:`C <0414.g1:C>` or does not measure it.
 
 .. picture:: 0414.g1.svg
    :alt: Proposition 18
 
 .. subclause::
 
-   First, let it measure it according to :g:`$D$ <0414.g1:D>` ;
+   First, let it measure it according to :g:`D <0414.g1:D>` ;
 
 .. assertion::
 
-   therefore :g:`$A$ <0414.g1:A>` by multiplying :g:`$D$ <0414.g1:D>` has made :g:`$C$ <0414.g1:C>`.
+   therefore :g:`A <0414.g1:A>` by multiplying :g:`D <0414.g1:D>` has made :g:`C <0414.g1:C>`.
 
 .. subclause::
 
-   But, further, :g:`$B$ <0414.g1:B>` has also by multiplying itself made :g:`$C$ <0414.g1:C>` ;
+   But, further, :g:`B <0414.g1:B>` has also by multiplying itself made :g:`C <0414.g1:C>` ;
 
 .. assertion::
 
-   therefore the product of :g:`$A$ <0414.g1:A>`, :g:`$D$ <0414.g1:D>` is equal to the square on :g:`$B$ <0414.g1:B>`.
+   therefore the product of :g:`A <0414.g1:A>`, :g:`D <0414.g1:D>` is equal to the square on :g:`B <0414.g1:B>`.
 
 .. assertion::
 
-   Therefore, as :g:`$A$ <0414.g1:A>` is to :g:`$B$ <0414.g1:B>`, so is :g:`$B$ <0414.g1:B>` to :g:`$D$ <0414.g1:D>` ; :just:`[VII. 19] <VII.19>` therefore a third proportional number :g:`$D$ <0414.g1:D>` has been found to :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>`.
+   Therefore, as :g:`A <0414.g1:A>` is to :g:`B <0414.g1:B>`, so is :g:`B <0414.g1:B>` to :g:`D <0414.g1:D>` ; :just:`[VII. 19] <VII.19>` therefore a third proportional number :g:`D <0414.g1:D>` has been found to :g:`A <0414.g1:A>`, :g:`B <0414.g1:B>`.
 
-Next, let :g:`$A$ <0414.g1:A>` not measure :g:`$C$ <0414.g1:C>` ;
+Next, let :g:`A <0414.g1:A>` not measure :g:`C <0414.g1:C>` ;
 
-I say that it is impossible to find a third proportional number to :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>`.
+I say that it is impossible to find a third proportional number to :g:`A <0414.g1:A>`, :g:`B <0414.g1:B>`.
 
-For, if possible, let :g:`$D$ <0414.g1:D>`, such third proportional, have been found.
+For, if possible, let :g:`D <0414.g1:D>`, such third proportional, have been found.
 
 .. assertion::
 
-   Therefore the product of :g:`$A$ <0414.g1:A>`, :g:`$D$ <0414.g1:D>` is equal to the square on :g:`$B$ <0414.g1:B>`.
+   Therefore the product of :g:`A <0414.g1:A>`, :g:`D <0414.g1:D>` is equal to the square on :g:`B <0414.g1:B>`.
 
 .. subclause::
 
-   But the square on :g:`$B$ <0414.g1:B>` is :g:`$C$ <0414.g1:C>` ;
+   But the square on :g:`B <0414.g1:B>` is :g:`C <0414.g1:C>` ;
 
 .. assertion::
 
-   therefore the product of :g:`$A$ <0414.g1:A>`, :g:`$D$ <0414.g1:D>` is equal to :g:`$C$ <0414.g1:C>`.
+   therefore the product of :g:`A <0414.g1:A>`, :g:`D <0414.g1:D>` is equal to :g:`C <0414.g1:C>`.
 
 .. assertion::
 
-   Hence :g:`$A$ <0414.g1:A>` by multiplying :g:`$D$ <0414.g1:D>` has made :g:`$C$ <0414.g1:C>` ; therefore :g:`$A$ <0414.g1:A>` measures :g:`$C$ <0414.g1:C>` according to :g:`$D$ <0414.g1:D>`.
+   Hence :g:`A <0414.g1:A>` by multiplying :g:`D <0414.g1:D>` has made :g:`C <0414.g1:C>` ; therefore :g:`A <0414.g1:A>` measures :g:`C <0414.g1:C>` according to :g:`D <0414.g1:D>`.
 
 .. subclause::
 
@@ -94,7 +94,7 @@ For, if possible, let :g:`$D$ <0414.g1:D>`, such third proportional, have been f
 
 .. assertion::
 
-   Therefore it is not possible to find a third proportional number to :g:`$A$ <0414.g1:A>`, :g:`$B$ <0414.g1:B>` when :g:`$A$ <0414.g1:A>` does not measure :g:`$C$ <0414.g1:C>`.
+   Therefore it is not possible to find a third proportional number to :g:`A <0414.g1:A>`, :g:`B <0414.g1:B>` when :g:`A <0414.g1:A>` does not measure :g:`C <0414.g1:C>`.
 
 .. qed::
 

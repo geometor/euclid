@@ -23,22 +23,22 @@ PROPOSITION 4.
 .. picture:: 0261.g1.svg
    :alt: Proposition 4 figure
 
-Let :g:`$ABC$ <0261.g1:< A B C >>`, :g:`$DEF$ <0261.g1:< D E F >>` be two triangles having the two sides :g:`$AB$ <0261.g1:/ A B />`, :g:`$AC$ <0261.g1:/ A C />` :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E /; 0261.g1:/ A C / = 0261.g1:/ D F />` to the two sides :g:`$DE$ <0261.g1:/ D E />`, :g:`$DF$ <0261.g1:/ D F />` respectively, namely :g:`$AB$ <0261.g1:/ A B />` to :g:`$DE$ <0261.g1:/ D E />` and :g:`$AC$ <0261.g1:/ A C />` to :g:`$DF$ <0261.g1:/ D F />`, and the angle :g:`$BAC$ <0261.g1:< B A C )>`\ [#f5]_ :eq:`equal <0261.g1:< B A C ) = 0261.g1:< E D F )>` to the angle :g:`$EDF$ <0261.g1:< E D F )>`.
+Let :g:`ABC <0261.g1:< A B C >>`, :g:`DEF <0261.g1:< D E F >>` be two triangles having the two sides :g:`AB <0261.g1:/ A B />`, :g:`AC <0261.g1:/ A C />` :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E /; 0261.g1:/ A C / = 0261.g1:/ D F />` to the two sides :g:`DE <0261.g1:/ D E />`, :g:`DF <0261.g1:/ D F />` respectively, namely :g:`AB <0261.g1:/ A B />` to :g:`DE <0261.g1:/ D E />` and :g:`AC <0261.g1:/ A C />` to :g:`DF <0261.g1:/ D F />`, and the angle :g:`BAC <0261.g1:< B A C )>`\ [#f5]_ :eq:`equal <0261.g1:< B A C ) = 0261.g1:< E D F )>` to the angle :g:`EDF <0261.g1:< E D F )>`.
 
-I say that the base :g:`$BC$ <0261.g1:/ B C />` is also :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to the base :g:`$EF$ <0261.g1:/ E F />`, the triangle :g:`$ABC$ <0261.g1:< A B C >>` will be :eq:`equal <0261.g1:< A B C > = 0261.g1:< D E F >>` to the triangle :g:`$DEF$ <0261.g1:< D E F >>`, and the remaining angles will be :eq:`equal <0261.g1:< A B C ) = 0261.g1:< D E F ); 0261.g1:< A C B ) = 0261.g1:< D F E )>` to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle :g:`$ABC$ <0261.g1:< A B C )>` to the angle :g:`$DEF$ <0261.g1:< D E F )>`, and the angle :g:`$ACB$ <0261.g1:< A C B )>` to the angle :g:`$DFE$ <0261.g1:< D F E )>`.
+I say that the base :g:`BC <0261.g1:/ B C />` is also :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to the base :g:`EF <0261.g1:/ E F />`, the triangle :g:`ABC <0261.g1:< A B C >>` will be :eq:`equal <0261.g1:< A B C > = 0261.g1:< D E F >>` to the triangle :g:`DEF <0261.g1:< D E F >>`, and the remaining angles will be :eq:`equal <0261.g1:< A B C ) = 0261.g1:< D E F ); 0261.g1:< A C B ) = 0261.g1:< D F E )>` to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle :g:`ABC <0261.g1:< A B C )>` to the angle :g:`DEF <0261.g1:< D E F )>`, and the angle :g:`ACB <0261.g1:< A C B )>` to the angle :g:`DFE <0261.g1:< D F E )>`.
 
-For, if the triangle :g:`$ABC$ <0261.g1:< A B C >>` be applied\ [#f6]_ to the triangle :g:`$DEF$ <0261.g1:< D E F >>`, and if the point :g:`$A$ <0261.g1:A>` be placed on the point :g:`$D$ <0261.g1:D>` and the straight line :g:`$AB$ <0261.g1:/ A B />` on :g:`$DE$ <0261.g1:/ D E />`, then the point :g:`$B$ <0261.g1:B>` will also coincide with :g:`$E$ <0261.g1:E>`, because :g:`$AB$ <0261.g1:/ A B />` is :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E />` to :g:`$DE$ <0261.g1:/ D E />`.
+For, if the triangle :g:`ABC <0261.g1:< A B C >>` be applied\ [#f6]_ to the triangle :g:`DEF <0261.g1:< D E F >>`, and if the point :g:`A <0261.g1:A>` be placed on the point :g:`D <0261.g1:D>` and the straight line :g:`AB <0261.g1:/ A B />` on :g:`DE <0261.g1:/ D E />`, then the point :g:`B <0261.g1:B>` will also coincide with :g:`E <0261.g1:E>`, because :g:`AB <0261.g1:/ A B />` is :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E />` to :g:`DE <0261.g1:/ D E />`.
 
 .. _folio-i-0262:
 
 .. folio:: 0262
    :page: 248
 
-Again, :g:`$AB$ <0261.g1:/ A B />` coinciding with :g:`$DE$ <0261.g1:/ D E />`, the straight line :g:`$AC$ <0261.g1:/ A C />` will also coincide with :g:`$DF$ <0261.g1:/ D F />`, because the angle :g:`$BAC$ <0261.g1:< B A C )>` is :eq:`equal <0261.g1:< B A C ) = 0261.g1:< E D F )>` to the angle :g:`$EDF$ <0261.g1:< E D F )>`; hence the point :g:`$C$ <0261.g1:C>` will also coincide with the point :g:`$F$ <0261.g1:F>`, because :g:`$AC$ <0261.g1:/ A C />` is again :eq:`equal <0261.g1:/ A C / = 0261.g1:/ D F />` to :g:`$DF$ <0261.g1:/ D F />`.
+Again, :g:`AB <0261.g1:/ A B />` coinciding with :g:`DE <0261.g1:/ D E />`, the straight line :g:`AC <0261.g1:/ A C />` will also coincide with :g:`DF <0261.g1:/ D F />`, because the angle :g:`BAC <0261.g1:< B A C )>` is :eq:`equal <0261.g1:< B A C ) = 0261.g1:< E D F )>` to the angle :g:`EDF <0261.g1:< E D F )>`; hence the point :g:`C <0261.g1:C>` will also coincide with the point :g:`F <0261.g1:F>`, because :g:`AC <0261.g1:/ A C />` is again :eq:`equal <0261.g1:/ A C / = 0261.g1:/ D F />` to :g:`DF <0261.g1:/ D F />`.
 
-But :g:`$B$ <0261.g1:B>` also coincided with :g:`$E$ <0261.g1:E>`; hence the base :g:`$BC$ <0261.g1:/ B C />` will coincide with the base :g:`$EF$ <0261.g1:/ E F />` [For if, when :g:`$B$ <0261.g1:B>` coincides with :g:`$E$ <0261.g1:E>` and :g:`$C$ <0261.g1:C>` with :g:`$F$ <0261.g1:F>`, the base :g:`$BC$ <0261.g1:/ B C />` does not coincide with the base :g:`$EF$ <0261.g1:/ E F />`, two straight lines will enclose a space: which is impossible. Therefore the base :g:`$BC$ <0261.g1:/ B C />` will coincide with :g:`$EF$ <0261.g1:/ E F />`]\ [#f7]_ and will be :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to it. :just:`[C.N. 4] <I.cn.4>`
+But :g:`B <0261.g1:B>` also coincided with :g:`E <0261.g1:E>`; hence the base :g:`BC <0261.g1:/ B C />` will coincide with the base :g:`EF <0261.g1:/ E F />` [For if, when :g:`B <0261.g1:B>` coincides with :g:`E <0261.g1:E>` and :g:`C <0261.g1:C>` with :g:`F <0261.g1:F>`, the base :g:`BC <0261.g1:/ B C />` does not coincide with the base :g:`EF <0261.g1:/ E F />`, two straight lines will enclose a space: which is impossible. Therefore the base :g:`BC <0261.g1:/ B C />` will coincide with :g:`EF <0261.g1:/ E F />`]\ [#f7]_ and will be :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to it. :just:`[C.N. 4] <I.cn.4>`
 
-Thus the whole triangle :g:`$ABC$ <0261.g1:< A B C >>` will coincide with the whole triangle :g:`$DEF$ <0261.g1:< D E F >>`,
+Thus the whole triangle :g:`ABC <0261.g1:< A B C >>` will coincide with the whole triangle :g:`DEF <0261.g1:< D E F >>`,
 
 .. assertion::
 
@@ -48,11 +48,11 @@ And the remaining angles will also coincide with the remaining angles and will b
 
 .. subclause::
 
-   the angle :g:`$ABC$ <0261.g1:< A B C )>` to the angle :g:`$DEF$ <0261.g1:< D E F )>`,
+   the angle :g:`ABC <0261.g1:< A B C )>` to the angle :g:`DEF <0261.g1:< D E F )>`,
 
 .. subclause::
 
-   and the angle :g:`$ACB$ <0261.g1:< A C B )>` to the angle :g:`$DFE$ <0261.g1:< D F E )>`.
+   and the angle :g:`ACB <0261.g1:< A C B )>` to the angle :g:`DFE <0261.g1:< D F E )>`.
 
 Therefore etc.\ [#f8]_
 
@@ -68,11 +68,11 @@ Therefore etc.\ [#f8]_
 
 .. [#f4] **subtend.** ὑποτείνειν ὑπό, “to stretch under,” with accusative.
 
-.. [#f5] **the angle BAC.** The full Greek expression would be ἡ ὑπὸ τῶν ΒΑ, ΑΓ περιεχομένη :term:`γωνία <angle>`, “the angle contained by the (straight lines) :g:`$BA$ <0261.g1:/ B A />`, :g:`$AC$ <0261.g1:/ A C />`.” But it was a common practice of Greek geometers, e.g. of :person:`Archimedes <archimedes>` and :person:`Apollonius <apollonius>` (and :person:`Euclid <euclid>` too in Books X.—XIII.), to use the abbreviation αἱ ΒΑΓ for αἱ ΒΑ, ΑΓ, “the (straight lines) :g:`$BA$ <0261.g1:/ B A />`, :g:`$AC$ <0261.g1:/ A C />`.” Thus, on περιεχομένη being dropped, the expression would become first ἡ ὑπὸ τῶν ΒΑΓ :term:`γωνία <angle>`, then ἡ ὑπὸ ΒΑΓ :term:`γωνία <angle>`, and finally ἡ ὑπὸ ΒΑΓ, without :term:`γωνία <angle>`, as we regularly find it in :person:`Euclid <euclid>`.
+.. [#f5] **the angle BAC.** The full Greek expression would be ἡ ὑπὸ τῶν ΒΑ, ΑΓ περιεχομένη :term:`γωνία <angle>`, “the angle contained by the (straight lines) :g:`BA <0261.g1:/ B A />`, :g:`AC <0261.g1:/ A C />`.” But it was a common practice of Greek geometers, e.g. of :person:`Archimedes <archimedes>` and :person:`Apollonius <apollonius>` (and :person:`Euclid <euclid>` too in Books X.—XIII.), to use the abbreviation αἱ ΒΑΓ for αἱ ΒΑ, ΑΓ, “the (straight lines) :g:`BA <0261.g1:/ B A />`, :g:`AC <0261.g1:/ A C />`.” Thus, on περιεχομένη being dropped, the expression would become first ἡ ὑπὸ τῶν ΒΑΓ :term:`γωνία <angle>`, then ἡ ὑπὸ ΒΑΓ :term:`γωνία <angle>`, and finally ἡ ὑπὸ ΒΑΓ, without :term:`γωνία <angle>`, as we regularly find it in :person:`Euclid <euclid>`.
 
 .. [#f6] **if the triangle be applied to..., coincide.** The difference between the technical use of the passive :term:`ἐφαρμόζεσθαι <epharmozein>` “to be *applied* (to),” and of the active :term:`ἐφαρμόζειν <epharmozein>` “to *coincide* (with)” has been noticed above (note on *Common Notion 4*, pp. 224—5).
 
-.. [#f7] **[For if, when B coincides... coincide with EF].** :person:`Heiberg <heiberg>` (*Paralipomena zu Euklid* in *Hermes*, XXXVIII., 1903, p. 56) has pointed out, as a conclusive reason for regarding these words as an early interpolation, that the text of :person:`an-Nairīzī <an-nairizi>` (*Codex Leidensis* 399, 1, ed. Besthorn-Heiberg, p. 55) does not give the words in this place but after the conclusion Q.E.D., which shows that they constitute a *scholium* only. They were doubtless added by some commentator who thought it necessary to explain the immediate inference that, since :g:`$B$ <0261.g1:B>` coincides with :g:`$E$ <0261.g1:E>` and :g:`$C$ <0261.g1:C>` with :g:`$F$ <0261.g1:F>`, the straight line :g:`$BC$ <0261.g1:/ B C />` coincides with the straight line :g:`$EF$ <0261.g1:/ E F />`, an inference which really follows from the definition of a straight line and Post. 1; and no doubt the Postulate that “Two straight lines cannot enclose a space” (afterwards placed among the *Common Notions*) was interpolated at the same time.
+.. [#f7] **[For if, when B coincides... coincide with EF].** :person:`Heiberg <heiberg>` (*Paralipomena zu Euklid* in *Hermes*, XXXVIII., 1903, p. 56) has pointed out, as a conclusive reason for regarding these words as an early interpolation, that the text of :person:`an-Nairīzī <an-nairizi>` (*Codex Leidensis* 399, 1, ed. Besthorn-Heiberg, p. 55) does not give the words in this place but after the conclusion Q.E.D., which shows that they constitute a *scholium* only. They were doubtless added by some commentator who thought it necessary to explain the immediate inference that, since :g:`B <0261.g1:B>` coincides with :g:`E <0261.g1:E>` and :g:`C <0261.g1:C>` with :g:`F <0261.g1:F>`, the straight line :g:`BC <0261.g1:/ B C />` coincides with the straight line :g:`EF <0261.g1:/ E F />`, an inference which really follows from the definition of a straight line and Post. 1; and no doubt the Postulate that “Two straight lines cannot enclose a space” (afterwards placed among the *Common Notions*) was interpolated at the same time.
 
 .. [#f8] **Therefore etc.** Where (as here) Euclid's *conclusion* merely repeats the enunciation word for word, I shall avoid the repetition and write “Therefore etc.” simply.
 

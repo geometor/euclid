@@ -78,30 +78,30 @@ $$x^4 - 2\sqrt{k}\cdot\rho^2 x^2 + (k-\lambda)\rho^4 = 0.$$
 .. picture:: 0135.g1.svg
    :alt: Lemma after Proposition 59
 
-Let :g:`$AB$ <0135.g1:/ A B />` be a straight line, and let it be cut into unequal parts at :g:`$C$ <0135.g1:C>`, and let :g:`$AC$ <0135.g1:/ A C />` be the greater ; I say that the squares on :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />` are greater than twice the rectangle :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />`.
+Let :g:`AB <0135.g1:/ A B />` be a straight line, and let it be cut into unequal parts at :g:`C <0135.g1:C>`, and let :g:`AC <0135.g1:/ A C />` be the greater ; I say that the squares on :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />` are greater than twice the rectangle :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />`.
 
 .. _folio-iii-0136:
 
 .. folio:: 0136
    :page: 132
 
-For let :g:`$AB$ <0135.g1:/ A B />` be :eq:`bisected <0135.g1:/ A D / = 0135.g1:/ D B />` at :g:`$D$ <0135.g1:D>`.
+For let :g:`AB <0135.g1:/ A B />` be :eq:`bisected <0135.g1:/ A D / = 0135.g1:/ D B />` at :g:`D <0135.g1:D>`.
 
 .. subclause::
 
-   Since then a straight line has been cut into :eq:`equal <0135.g1:/ A D / = 0135.g1:/ D B />` parts at :g:`$D$ <0135.g1:D>`, and into unequal parts at :g:`$C$ <0135.g1:C>`,
+   Since then a straight line has been cut into :eq:`equal <0135.g1:/ A D / = 0135.g1:/ D B />` parts at :g:`D <0135.g1:D>`, and into unequal parts at :g:`C <0135.g1:C>`,
 
 .. assertion::
 
-   therefore the rectangle :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />` together with the square on :g:`$CD$ <0135.g1:/ C D />` is equal to the square on :g:`$AD$ <0135.g1:/ A D />`, :just:`[II. 5] <II.5>` so that the rectangle :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />` is less than the square on :g:`$AD$ <0135.g1:/ A D />` ; therefore twice the rectangle :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />` is less than double of the square on :g:`$AD$ <0135.g1:/ A D />`.
+   therefore the rectangle :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />` together with the square on :g:`CD <0135.g1:/ C D />` is equal to the square on :g:`AD <0135.g1:/ A D />`, :just:`[II. 5] <II.5>` so that the rectangle :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />` is less than the square on :g:`AD <0135.g1:/ A D />` ; therefore twice the rectangle :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />` is less than double of the square on :g:`AD <0135.g1:/ A D />`.
 
 .. subclause::
 
-   But the squares on :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />` are double of the squares on :g:`$AD$ <0135.g1:/ A D />`, :g:`$DC$ <0135.g1:/ D C />` ; :just:`[II. 9] <II.9>`
+   But the squares on :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />` are double of the squares on :g:`AD <0135.g1:/ A D />`, :g:`DC <0135.g1:/ D C />` ; :just:`[II. 9] <II.9>`
 
 .. qed::
 
-   therefore the squares on :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />` are greater than twice the rectangle :g:`$AC$ <0135.g1:/ A C />`, :g:`$CB$ <0135.g1:/ C B />`. :just:`Q. E. D.]`
+   therefore the squares on :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />` are greater than twice the rectangle :g:`AC <0135.g1:/ A C />`, :g:`CB <0135.g1:/ C B />`. :just:`Q. E. D.]`
 
 We have already remarked (note on X. 44) that the Lemma here proving that
 

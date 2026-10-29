@@ -64,7 +64,7 @@ There is no positive evidence on this point. Two possible lines are however mark
 
 The possible proofs by means of proportion would seem to be practically limited to two.
 
-(*a*) One method is to prove, from the similarity of the triangles :g:`$ABC$ <0367.g1:< A B C >>`, :g:`$DBA$ <0367.g1:< D B A >>`, that the rectangle :g:`$CB$ <0367.g1:/ C B />`, :g:`$BD$ <0367.g1:/ B D />` is equal to the square on :g:`$BA$ <0367.g1:/ B A />`, and, from the similarity of the triangles :g:`$ABC$ <0367.g1:< A B C >>`, :g:`$DAC$ <0367.g1:< D A C >>`, that the rectangle :g:`$BC$ <0367.g1:/ B C />`, :g:`$CD$ <0367.g1:/ C D />` is equal to the square on :g:`$CA$ <0367.g1:/ C A />`; whence the result follows by addition.
+(*a*) One method is to prove, from the similarity of the triangles :g:`ABC <0367.g1:< A B C >>`, :g:`DBA <0367.g1:< D B A >>`, that the rectangle :g:`CB <0367.g1:/ C B />`, :g:`BD <0367.g1:/ B D />` is equal to the square on :g:`BA <0367.g1:/ B A />`, and, from the similarity of the triangles :g:`ABC <0367.g1:< A B C >>`, :g:`DAC <0367.g1:< D A C >>`, that the rectangle :g:`BC <0367.g1:/ B C />`, :g:`CD <0367.g1:/ C D />` is equal to the square on :g:`CA <0367.g1:/ C A />`; whence the result follows by addition.
 
 .. picture:: 0367.g1.svg
    :alt: Folio 0367 Figure 1 - Proposition 47 Commentary (Proof by Similar Triangles)
@@ -86,8 +86,8 @@ On the whole, the most probable supposition seems to me to be that :person:`Pyth
 .. picture:: 0368.g1.svg
    :alt: Folio 0368 Figure 1 - Proposition 47 Commentary (Bretschneider and Hankel Dissection)
 
-Were it not for this difficulty, the conjecture of :person:`Bretschneider <bretschneider>` (p. 82), followed by :person:`Hankel <hankel>` (p. 98), would be the most tempting hypothesis. According to this suggestion, we are to suppose a figure like that of Eucl. II. 4 in which :g:`$a$ <0368.g1:/ A E />`, :g:`$b$ <0368.g1:/ E B />` are the sides of the two inner squares respectively, and :g:`$a + b$ <0368.g1:/ A B />` is the side of the complete square. Then, if the two complements, which are equal, are divided by their two diagonals into four equal triangles of sides :g:`$a$ <0368.g1:/ A E />`, :g:`$b$ <0368.g1:/ E B />`, :g:`$c$ <0368.g1:/ A K />`, we can place these triangles round another square of the same size as the whole square, in the manner shown in the second figure, so that the sides :g:`$a$ <0368.g1:/ P T />`, :g:`$b$ <0368.g1:/ T Q />` of successive triangles make up one of the sides of the square and are arranged in cyclic order. It readily follows that the remainder of the square when the four triangles are deducted is, in the one case, a square whose side is :g:`$c$ <0368.g1:/ W T />`, and in the other the sum of two squares whose sides are :g:`$a$ <0368.g1:/ A E />`, :g:`$b$ <0368.g1:/ E B />` respectively. Therefore the square on :g:`$c$ <0368.g1:/ W T />` is equal
-to the sum of the squares on :g:`$a$ <0368.g1:/ A E />`, :g:`$b$ <0368.g1:/ E B />`. All that can be said against this conjectural proof is that it has no specifically Greek colouring but rather recalls the Indian method. Thus Bhāskara (born 1114 A.D.; see :person:`Cantor <cantor>`, I₃, p. 656) simply draws four right-angled triangles equal to the original one inwards, one on each side of the square on the hypotenuse, and says “see!”, without even adding that inspection shows that
+Were it not for this difficulty, the conjecture of :person:`Bretschneider <bretschneider>` (p. 82), followed by :person:`Hankel <hankel>` (p. 98), would be the most tempting hypothesis. According to this suggestion, we are to suppose a figure like that of Eucl. II. 4 in which :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />` are the sides of the two inner squares respectively, and :g:`a + b <0368.g1:/ A B />` is the side of the complete square. Then, if the two complements, which are equal, are divided by their two diagonals into four equal triangles of sides :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />`, :g:`c <0368.g1:/ A K />`, we can place these triangles round another square of the same size as the whole square, in the manner shown in the second figure, so that the sides :g:`a <0368.g1:/ P T />`, :g:`b <0368.g1:/ T Q />` of successive triangles make up one of the sides of the square and are arranged in cyclic order. It readily follows that the remainder of the square when the four triangles are deducted is, in the one case, a square whose side is :g:`c <0368.g1:/ W T />`, and in the other the sum of two squares whose sides are :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />` respectively. Therefore the square on :g:`c <0368.g1:/ W T />` is equal
+to the sum of the squares on :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />`. All that can be said against this conjectural proof is that it has no specifically Greek colouring but rather recalls the Indian method. Thus Bhāskara (born 1114 A.D.; see :person:`Cantor <cantor>`, I₃, p. 656) simply draws four right-angled triangles equal to the original one inwards, one on each side of the square on the hypotenuse, and says “see!”, without even adding that inspection shows that
 
 .. _folio-i-0369:
 
@@ -108,11 +108,11 @@ Though, for the reason given, there is difficulty in supposing that :person:`Pyt
 
 (i) the whole square ($7^2$) is made up of two squares $3^2$ and $4^2$, and two rectangles 3, 4;
 
-(ii) the same square is made up of the square :g:`$EFGH$ <0369.g2:< E F G H >>` and the halves of four of the same rectangles 3, 4, whence the square :g:`$EFGH$ <0369.g2:< E F G H >>`, being equal to the sum of the squares $3^2$ and $4^2$, must contain 25 unit squares and its side, or the diagonal of one of the rectangles, must contain 5 units of length.
+(ii) the same square is made up of the square :g:`EFGH <0369.g2:< E F G H >>` and the halves of four of the same rectangles 3, 4, whence the square :g:`EFGH <0369.g2:< E F G H >>`, being equal to the sum of the squares $3^2$ and $4^2$, must contain 25 unit squares and its side, or the diagonal of one of the rectangles, must contain 5 units of length.
 
 Or the result might equally be seen by observing that
 
-(i) the square :g:`$EFGH$ <0369.g2:< E F G H >>` on the diagonal of one of the rectangles is made up of the halves of four rectangles and the unit square in the middle, while
+(i) the square :g:`EFGH <0369.g2:< E F G H >>` on the diagonal of one of the rectangles is made up of the halves of four rectangles and the unit square in the middle, while
 
 (ii) the squares $3^2$ and $4^2$ placed at adjacent corners of the large square make up two rectangles 3, 4 with the unit square in the middle.
 
@@ -126,18 +126,18 @@ once been *empirically* observed that triangles like 3, 4, 5 did in fact contain
 
 :person:`Zeuthen <zeuthen>` has, in the same paper, shown in a most ingenious way how the property of the triangle 3, 4, 5 could be verified by a sort of combination of the second possible method by similar triangles, (*b*) on p. 354 above, with subdivision of *rectangles* into similar small rectangles. I give the method on account of its interest, although it is no doubt too advanced to have been used by those who first proved the property of the particular triangle.
 
-Let :g:`$ABC$ <0370.g1:< A B C >>` be a triangle right-angled at :g:`$A$ <0370.g1:A>`, and such that the lengths of the sides :g:`$AB$ <0370.g1:/ A B />`, :g:`$AC$ <0370.g1:/ A C />` are 4 and 3 units respectively.
+Let :g:`ABC <0370.g1:< A B C >>` be a triangle right-angled at :g:`A <0370.g1:A>`, and such that the lengths of the sides :g:`AB <0370.g1:/ A B />`, :g:`AC <0370.g1:/ A C />` are 4 and 3 units respectively.
 
-Draw the perpendicular :g:`$AD$ <0370.g1:/ A D />`, divide up :g:`$AB$ <0370.g1:/ A B />`, :g:`$AC$ <0370.g1:/ A C />` into unit lengths, complete the rectangle on :g:`$BC$ <0370.g1:/ B C />` as base and with :g:`$AD$ <0370.g1:/ A D />` as altitude, and subdivide this rectangle into small rectangles by drawing parallels to :g:`$BC$ <0370.g1:/ B C />`, :g:`$AD$ <0370.g1:/ A D />` through the points of division of :g:`$AB$ <0370.g1:/ A B />`, :g:`$AC$ <0370.g1:/ A C />`.
+Draw the perpendicular :g:`AD <0370.g1:/ A D />`, divide up :g:`AB <0370.g1:/ A B />`, :g:`AC <0370.g1:/ A C />` into unit lengths, complete the rectangle on :g:`BC <0370.g1:/ B C />` as base and with :g:`AD <0370.g1:/ A D />` as altitude, and subdivide this rectangle into small rectangles by drawing parallels to :g:`BC <0370.g1:/ B C />`, :g:`AD <0370.g1:/ A D />` through the points of division of :g:`AB <0370.g1:/ A B />`, :g:`AC <0370.g1:/ A C />`.
 
 .. picture:: 0370.g1.svg
    :alt: Folio 0370 Figure 1 - Proposition 47 Commentary (Zeuthen Triangles and Unit Rectangles)
 
-Now, since the diagonals of the small rectangles are all equal, each being of unit length, it follows by similar triangles that the small rectangles are all equal. And the rectangle with :g:`$AB$ <0370.g1:/ A B />` for diagonal contains 16 of the small rectangles, while the rectangle with diagonal :g:`$AC$ <0370.g1:/ A C />` contains 9 of them.
+Now, since the diagonals of the small rectangles are all equal, each being of unit length, it follows by similar triangles that the small rectangles are all equal. And the rectangle with :g:`AB <0370.g1:/ A B />` for diagonal contains 16 of the small rectangles, while the rectangle with diagonal :g:`AC <0370.g1:/ A C />` contains 9 of them.
 
-But the sum of the triangles :g:`$ABD$ <0370.g1:< A B D >>`, :g:`$ADC$ <0370.g1:< A D C >>` is equal to the triangle :g:`$ABC$ <0370.g1:< A B C >>`.
+But the sum of the triangles :g:`ABD <0370.g1:< A B D >>`, :g:`ADC <0370.g1:< A D C >>` is equal to the triangle :g:`ABC <0370.g1:< A B C >>`.
 
-Hence the rectangle with :g:`$BC$ <0370.g1:/ B C />` as diagonal contains $9 + 16$ or 25 of the small rectangles; and therefore :g:`$BC$ <0370.g1:/ B C />` $= 5$.
+Hence the rectangle with :g:`BC <0370.g1:/ B C />` as diagonal contains $9 + 16$ or 25 of the small rectangles; and therefore :g:`BC <0370.g1:/ B C />` $= 5$.
 
 Rational right-angled triangles from the arithmetical standpoint.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -359,7 +359,7 @@ A square on length of $2\frac{1}{2}$ units gives $6\frac{1}{4}$ unit squares (II
 .. picture:: 0376.g1.svg
    :alt: Folio 0376 Figure 1 - Proposition 47 Commentary (Transformation of Rectangle into Square)
 
-[This is not directly done as by :person:`Euclid <euclid>` in II. 14, but the rectangle is first transformed into a gnomon, i.e. into the difference between two squares, which difference is then transformed into one square by the preceding rule. If :g:`$ABCD$ <0376.g1:< A B C D >>` be the given rectangle of which :g:`$BC$ <0376.g1:/ B C />` is the longer side, cut off the square :g:`$ABEF$ <0376.g1:< A B E F >>`, bisect the rectangle :g:`$DE$ <0376.g1:< D E >>` left over by :g:`$HG$ <0376.g1:/ H G />` parallel to :g:`$FE$ <0376.g1:/ F E />`, move the upper half :g:`$DG$ <0376.g1:< D G >>` and place it on :g:`$AF$ <0376.g1:/ A F />` as base in the position :g:`$AK$ <0376.g1:< A K >>`. Then the rectangle :g:`$ABCD$ <0376.g1:< A B C D >>` is equal to the gnomon which is the difference between the square :g:`$LB$ <0376.g1:< L B >>` and the square :g:`$LF$ <0376.g1:< L F >>`. In other words, Āpastamba transforms the rectangle $ab$ into the difference between the squares $\left(\frac{a+b}{2}\right)^2$ and $\left(\frac{a-b}{2}\right)^2$.]
+[This is not directly done as by :person:`Euclid <euclid>` in II. 14, but the rectangle is first transformed into a gnomon, i.e. into the difference between two squares, which difference is then transformed into one square by the preceding rule. If :g:`ABCD <0376.g1:< A B C D >>` be the given rectangle of which :g:`BC <0376.g1:/ B C />` is the longer side, cut off the square :g:`ABEF <0376.g1:< A B E F >>`, bisect the rectangle :g:`DE <0376.g1:< D E >>` left over by :g:`HG <0376.g1:/ H G />` parallel to :g:`FE <0376.g1:/ F E />`, move the upper half :g:`DG <0376.g1:< D G >>` and place it on :g:`AF <0376.g1:/ A F />` as base in the position :g:`AK <0376.g1:< A K >>`. Then the rectangle :g:`ABCD <0376.g1:< A B C D >>` is equal to the gnomon which is the difference between the square :g:`LB <0376.g1:< L B >>` and the square :g:`LF <0376.g1:< L F >>`. In other words, Āpastamba transforms the rectangle $ab$ into the difference between the squares $\left(\frac{a+b}{2}\right)^2$ and $\left(\frac{a-b}{2}\right)^2$.]
 
 (10) An attempt at a transformation of a square ($a^2$) into a rectangle which shall have one side of given length ($b$). (III. 1)
 
@@ -401,35 +401,35 @@ I. The well-known proof of I. 47 obtained by putting two squares side by side, w
 
 His actual construction proceeds thus.
 
-Let :g:`$ABC$ <0379.g1:< A B C >>` be the given triangle right-angled at :g:`$A$ <0379.g1:A>`.
+Let :g:`ABC <0379.g1:< A B C >>` be the given triangle right-angled at :g:`A <0379.g1:A>`.
 
-Construct on :g:`$AB$ <0379.g1:/ A B />` the square :g:`$AD$ <0379.g1:< A D >>`;
-produce :g:`$AC$ <0379.g1:/ A C />` to :g:`$F$ <0379.g1:F>` so that :g:`$EF$ <0379.g1:/ E F />` may be :eq:`equal <0379.g1:/ E F / = 0379.g1:/ A C />` to :g:`$AC$ <0379.g1:/ A C />`.
+Construct on :g:`AB <0379.g1:/ A B />` the square :g:`AD <0379.g1:< A D >>`;
+produce :g:`AC <0379.g1:/ A C />` to :g:`F <0379.g1:F>` so that :g:`EF <0379.g1:/ E F />` may be :eq:`equal <0379.g1:/ E F / = 0379.g1:/ A C />` to :g:`AC <0379.g1:/ A C />`.
 
 .. _folio-i-0379:
 
 .. folio:: 0379
    :page: 365
 
-Construct on :g:`$EF$ <0379.g1:/ E F />` the square :g:`$EG$ <0379.g1:< E G >>`, and produce :g:`$DH$ <0379.g1:/ D H />` to :g:`$K$ <0379.g1:K>` so that :g:`$DK$ <0379.g1:/ D K />` may be :eq:`equal <0379.g1:/ D K / = 0379.g1:/ A C />` to :g:`$AC$ <0379.g1:/ A C />`.
+Construct on :g:`EF <0379.g1:/ E F />` the square :g:`EG <0379.g1:< E G >>`, and produce :g:`DH <0379.g1:/ D H />` to :g:`K <0379.g1:K>` so that :g:`DK <0379.g1:/ D K />` may be :eq:`equal <0379.g1:/ D K / = 0379.g1:/ A C />` to :g:`AC <0379.g1:/ A C />`.
 
 .. picture:: 0379.g1.svg
    :alt: Folio 0379 Figure 1 - Proposition 47 Commentary (Thābit b. Qurra Proof)
 
-It is then proved that, in the triangles :g:`$BAC$ <0379.g1:< B A C >>`, :g:`$CFG$ <0379.g1:< C F G >>`, :g:`$KHG$ <0379.g1:< K H G >>`, :g:`$BDK$ <0379.g1:< B D K >>`,
-the sides :g:`$BA$ <0379.g1:/ B A />`, :g:`$CF$ <0379.g1:/ C F />`, :g:`$KH$ <0379.g1:/ K H />`, :g:`$BD$ <0379.g1:/ B D />` are all :eq:`equal <0379.g1:/ B A / = 0379.g1:/ C F / = 0379.g1:/ K H / = 0379.g1:/ B D />`,
+It is then proved that, in the triangles :g:`BAC <0379.g1:< B A C >>`, :g:`CFG <0379.g1:< C F G >>`, :g:`KHG <0379.g1:< K H G >>`, :g:`BDK <0379.g1:< B D K >>`,
+the sides :g:`BA <0379.g1:/ B A />`, :g:`CF <0379.g1:/ C F />`, :g:`KH <0379.g1:/ K H />`, :g:`BD <0379.g1:/ B D />` are all :eq:`equal <0379.g1:/ B A / = 0379.g1:/ C F / = 0379.g1:/ K H / = 0379.g1:/ B D />`,
 and
-the sides :g:`$AC$ <0379.g1:/ A C />`, :g:`$FG$ <0379.g1:/ F G />`, :g:`$HG$ <0379.g1:/ H G />`, :g:`$DK$ <0379.g1:/ D K />` are all :eq:`equal <0379.g1:/ A C / = 0379.g1:/ F G / = 0379.g1:/ H G / = 0379.g1:/ D K />`.
+the sides :g:`AC <0379.g1:/ A C />`, :g:`FG <0379.g1:/ F G />`, :g:`HG <0379.g1:/ H G />`, :g:`DK <0379.g1:/ D K />` are all :eq:`equal <0379.g1:/ A C / = 0379.g1:/ F G / = 0379.g1:/ H G / = 0379.g1:/ D K />`.
 
 The angles included by the equal sides are all right angles; hence the four triangles are :eq:`equal <0379.g1:< B A C > = 0379.g1:< C F G > = 0379.g1:< K H G > = 0379.g1:< B D K >>` in all respects. [I. 4]
 
-Hence :g:`$BC$ <0379.g1:/ B C />`, :g:`$CG$ <0379.g1:/ C G />`, :g:`$GK$ <0379.g1:/ G K />`, :g:`$KB$ <0379.g1:/ K B />` are all :eq:`equal <0379.g1:/ B C / = 0379.g1:/ C G / = 0379.g1:/ G K / = 0379.g1:/ K B />`.
+Hence :g:`BC <0379.g1:/ B C />`, :g:`CG <0379.g1:/ C G />`, :g:`GK <0379.g1:/ G K />`, :g:`KB <0379.g1:/ K B />` are all :eq:`equal <0379.g1:/ B C / = 0379.g1:/ C G / = 0379.g1:/ G K / = 0379.g1:/ K B />`.
 
-Further the angles :g:`$DBK$ <0379.g1:< D B K )>`, :g:`$ABC$ <0379.g1:< A B C )>` are :eq:`equal <0379.g1:< D B K ) = 0379.g1:< A B C )>`; hence, if we add to each the angle :g:`$DBC$ <0379.g1:< D B C )>`, the angle :g:`$KBC$ <0379.g1:< K B C )>` is :eq:`equal <0379.g1:< K B C ) = 0379.g1:< A B D )>` to the angle :g:`$ABD$ <0379.g1:< A B D )>` and is therefore a right angle.
+Further the angles :g:`DBK <0379.g1:< D B K )>`, :g:`ABC <0379.g1:< A B C )>` are :eq:`equal <0379.g1:< D B K ) = 0379.g1:< A B C )>`; hence, if we add to each the angle :g:`DBC <0379.g1:< D B C )>`, the angle :g:`KBC <0379.g1:< K B C )>` is :eq:`equal <0379.g1:< K B C ) = 0379.g1:< A B D )>` to the angle :g:`ABD <0379.g1:< A B D )>` and is therefore a right angle.
 
-In the same way the angle :g:`$CGK$ <0379.g1:< C G K )>` is right; therefore :g:`$BCGK$ <0379.g1:< B C G K >>` is a square, i.e. the square on :g:`$BC$ <0379.g1:/ B C />`.
+In the same way the angle :g:`CGK <0379.g1:< C G K )>` is right; therefore :g:`BCGK <0379.g1:< B C G K >>` is a square, i.e. the square on :g:`BC <0379.g1:/ B C />`.
 
-Now the sum of the quadrilateral :g:`$GCLH$ <0379.g1:< G C L H >>` and the triangle :g:`$LDB$ <0379.g1:< L D B >>` together with two of the equal triangles make the squares on :g:`$AB$ <0379.g1:/ A B />`, :g:`$AC$ <0379.g1:/ A C />`, and together with the other two make the square on :g:`$BC$ <0379.g1:/ B C />`.
+Now the sum of the quadrilateral :g:`GCLH <0379.g1:< G C L H >>` and the triangle :g:`LDB <0379.g1:< L D B >>` together with two of the equal triangles make the squares on :g:`AB <0379.g1:/ A B />`, :g:`AC <0379.g1:/ A C />`, and together with the other two make the square on :g:`BC <0379.g1:/ B C />`.
 
 Therefore etc.
 
@@ -440,23 +440,23 @@ III. The most interesting of the remaining proofs seems to be that shown in the 
 .. picture:: 0379.g2.svg
    :alt: Folio 0379 Figure 2 - Proposition 47 Commentary (Leonardo da Vinci Proof)
 
-The triangle :g:`$HKL$ <0379.g2:< H K L >>` is constructed on the base :g:`$KH$ <0379.g2:/ K H />` with the side :g:`$KL$ <0379.g2:/ K L />` :eq:`equal <0379.g2:/ K L / = 0379.g2:/ B C />` to :g:`$BC$ <0379.g2:/ B C />` and the side :g:`$LH$ <0379.g2:/ L H />` :eq:`equal <0379.g2:/ L H / = 0379.g2:/ A B />` to :g:`$AB$ <0379.g2:/ A B />`.
+The triangle :g:`HKL <0379.g2:< H K L >>` is constructed on the base :g:`KH <0379.g2:/ K H />` with the side :g:`KL <0379.g2:/ K L />` :eq:`equal <0379.g2:/ K L / = 0379.g2:/ B C />` to :g:`BC <0379.g2:/ B C />` and the side :g:`LH <0379.g2:/ L H />` :eq:`equal <0379.g2:/ L H / = 0379.g2:/ A B />` to :g:`AB <0379.g2:/ A B />`.
 
-Then the triangle :g:`$HLK$ <0379.g2:< H L K >>` is :eq:`equal <0379.g2:< H L K > = 0379.g2:< A B C > = 0379.g2:< E B F >>` in all respects to the triangle :g:`$ABC$ <0379.g2:< A B C >>`, and to the triangle :g:`$EBF$ <0379.g2:< E B F >>`.
+Then the triangle :g:`HLK <0379.g2:< H L K >>` is :eq:`equal <0379.g2:< H L K > = 0379.g2:< A B C > = 0379.g2:< E B F >>` in all respects to the triangle :g:`ABC <0379.g2:< A B C >>`, and to the triangle :g:`EBF <0379.g2:< E B F >>`.
 
-Now :g:`$DB$ <0379.g2:/ D B />`, :g:`$BG$ <0379.g2:/ B G />`, which bisect the angles :g:`$ABE$ <0379.g2:< A B E )>`, :g:`$CBF$ <0379.g2:< C B F )>` respectively, are in a straight line. Join :g:`$BL$ <0379.g2:/ B L />`.
+Now :g:`DB <0379.g2:/ D B />`, :g:`BG <0379.g2:/ B G />`, which bisect the angles :g:`ABE <0379.g2:< A B E )>`, :g:`CBF <0379.g2:< C B F )>` respectively, are in a straight line. Join :g:`BL <0379.g2:/ B L />`.
 
-It is easily proved that the four quadrilaterals :g:`$ADGC$ <0379.g2:< A D G C >>`, :g:`$EDGF$ <0379.g2:< E D G F >>`, :g:`$ABLK$ <0379.g2:< A B L K >>`, :g:`$HLBC$ <0379.g2:< H L B C >>` are all :eq:`equal <0379.g2:< A D G C > = 0379.g2:< E D G F > = 0379.g2:< A B L K > = 0379.g2:< H L B C >>`.
+It is easily proved that the four quadrilaterals :g:`ADGC <0379.g2:< A D G C >>`, :g:`EDGF <0379.g2:< E D G F >>`, :g:`ABLK <0379.g2:< A B L K >>`, :g:`HLBC <0379.g2:< H L B C >>` are all :eq:`equal <0379.g2:< A D G C > = 0379.g2:< E D G F > = 0379.g2:< A B L K > = 0379.g2:< H L B C >>`.
 
 .. _folio-i-0380:
 
 .. folio:: 0380
    :page: 366
 
-Hence the hexagons :g:`$ADEFGC$ <0379.g2:< A D E F G C >>`, :g:`$ABCHLK$ <0379.g2:< A B C H L K >>` are :eq:`equal <0379.g2:< A D E F G C > = 0379.g2:< A B C H L K >>`.
+Hence the hexagons :g:`ADEFGC <0379.g2:< A D E F G C >>`, :g:`ABCHLK <0379.g2:< A B C H L K >>` are :eq:`equal <0379.g2:< A D E F G C > = 0379.g2:< A B C H L K >>`.
 
-Subtracting from the former the two triangles :g:`$ABC$ <0379.g2:< A B C >>`, :g:`$EBF$ <0379.g2:< E B F >>`, and from the latter the two :eq:`equal <0379.g2:< A B C > = 0379.g2:< H L K >>` triangles :g:`$ABC$ <0379.g2:< A B C >>`, :g:`$HLK$ <0379.g2:< H L K >>`, we prove that
-the square :g:`$CK$ <0379.g2:< C K >>` is equal to the sum of the squares :g:`$AE$ <0379.g2:< A E >>`, :g:`$CF$ <0379.g2:< C F >>`.
+Subtracting from the former the two triangles :g:`ABC <0379.g2:< A B C >>`, :g:`EBF <0379.g2:< E B F >>`, and from the latter the two :eq:`equal <0379.g2:< A B C > = 0379.g2:< H L K >>` triangles :g:`ABC <0379.g2:< A B C >>`, :g:`HLK <0379.g2:< H L K >>`, we prove that
+the square :g:`CK <0379.g2:< C K >>` is equal to the sum of the squares :g:`AE <0379.g2:< A E >>`, :g:`CF <0379.g2:< C F >>`.
 
 Pappus' extension of I. 47.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -465,31 +465,31 @@ In this elegant extension the triangle may be *any* triangle (not necessarily ri
 
 :person:`Pappus <pappus>` (IV. p. 177) enunciates the theorem as follows:
 
-*If* :g:`$ABC$ <0380.g1:< A B C >>` *be a triangle, and any parallelograms whatever* :g:`$ABED$ <0380.g1:< A B E D >>`, :g:`$BCFG$ <0380.g1:< B C F G >>` *be described on* :g:`$AB$ <0380.g1:/ A B />`, :g:`$BC$ <0380.g1:/ B C />`, *and if* :g:`$DE$ <0380.g1:/ D E />`, :g:`$FG$ <0380.g1:/ F G />` *be produced to* :g:`$H$ <0380.g1:H>`, *and* :g:`$HB$ <0380.g1:/ H B />` *be joined, the parallelograms* :g:`$ABED$ <0380.g1:< A B E D >>`, :g:`$BCFG$ <0380.g1:< B C F G >>` *are equal to the parallelogram contained by* :g:`$AC$ <0380.g1:/ A C />`, :g:`$HB$ <0380.g1:/ H B />` *in an angle which is equal to the sum of the angles* :g:`$BAC$ <0380.g1:< B A C )>`, :g:`$DHB$ <0380.g1:< D H B )>`.
+*If* :g:`ABC <0380.g1:< A B C >>` *be a triangle, and any parallelograms whatever* :g:`ABED <0380.g1:< A B E D >>`, :g:`BCFG <0380.g1:< B C F G >>` *be described on* :g:`AB <0380.g1:/ A B />`, :g:`BC <0380.g1:/ B C />`, *and if* :g:`DE <0380.g1:/ D E />`, :g:`FG <0380.g1:/ F G />` *be produced to* :g:`H <0380.g1:H>`, *and* :g:`HB <0380.g1:/ H B />` *be joined, the parallelograms* :g:`ABED <0380.g1:< A B E D >>`, :g:`BCFG <0380.g1:< B C F G >>` *are equal to the parallelogram contained by* :g:`AC <0380.g1:/ A C />`, :g:`HB <0380.g1:/ H B />` *in an angle which is equal to the sum of the angles* :g:`BAC <0380.g1:< B A C )>`, :g:`DHB <0380.g1:< D H B )>`.
 
 .. picture:: 0380.g1.svg
    :alt: Folio 0380 Figure 1 - Proposition 47 Commentary (Pappus Extension)
 
-Produce :g:`$HB$ <0380.g1:/ H B />` to :g:`$K$ <0380.g1:K>`; through :g:`$A$ <0380.g1:A>`, :g:`$C$ <0380.g1:C>` draw :g:`$AL$ <0380.g1:/ A L />`, :g:`$CM$ <0380.g1:/ C M />` parallel to :g:`$HK$ <0380.g1:/ H K />`, and join :g:`$LM$ <0380.g1:/ L M />`.
+Produce :g:`HB <0380.g1:/ H B />` to :g:`K <0380.g1:K>`; through :g:`A <0380.g1:A>`, :g:`C <0380.g1:C>` draw :g:`AL <0380.g1:/ A L />`, :g:`CM <0380.g1:/ C M />` parallel to :g:`HK <0380.g1:/ H K />`, and join :g:`LM <0380.g1:/ L M />`.
 
-Then, since :g:`$ALHB$ <0380.g1:< A L H B >>` is a parallelogram, :g:`$AL$ <0380.g1:/ A L />`, :g:`$HB$ <0380.g1:/ H B />` are :eq:`equal <0380.g1:/ A L / = 0380.g1:/ H B />` and parallel.
+Then, since :g:`ALHB <0380.g1:< A L H B >>` is a parallelogram, :g:`AL <0380.g1:/ A L />`, :g:`HB <0380.g1:/ H B />` are :eq:`equal <0380.g1:/ A L / = 0380.g1:/ H B />` and parallel.
 
-Similarly :g:`$MC$ <0380.g1:/ M C />`, :g:`$HB$ <0380.g1:/ H B />` are :eq:`equal <0380.g1:/ M C / = 0380.g1:/ H B />` and parallel.
+Similarly :g:`MC <0380.g1:/ M C />`, :g:`HB <0380.g1:/ H B />` are :eq:`equal <0380.g1:/ M C / = 0380.g1:/ H B />` and parallel.
 
-Therefore :g:`$AL$ <0380.g1:/ A L />`, :g:`$MC$ <0380.g1:/ M C />` are :eq:`equal <0380.g1:/ A L / = 0380.g1:/ M C />` and parallel;
-whence :g:`$LM$ <0380.g1:/ L M />`, :g:`$AC$ <0380.g1:/ A C />` are also :eq:`equal <0380.g1:/ L M / = 0380.g1:/ A C />` and parallel,
-and :g:`$ALMC$ <0380.g1:< A L M C >>` is a parallelogram.
+Therefore :g:`AL <0380.g1:/ A L />`, :g:`MC <0380.g1:/ M C />` are :eq:`equal <0380.g1:/ A L / = 0380.g1:/ M C />` and parallel;
+whence :g:`LM <0380.g1:/ L M />`, :g:`AC <0380.g1:/ A C />` are also :eq:`equal <0380.g1:/ L M / = 0380.g1:/ A C />` and parallel,
+and :g:`ALMC <0380.g1:< A L M C >>` is a parallelogram.
 
-Further, the angle :g:`$LAC$ <0380.g1:< L A C )>` of this parallelogram is equal to the sum of the angles :g:`$BAC$ <0380.g1:< B A C )>`, :g:`$DHB$ <0380.g1:< D H B )>`, since the angle :g:`$DHB$ <0380.g1:< D H B )>` is :eq:`equal <0380.g1:< D H B ) = 0380.g1:< L A B )>` to the angle :g:`$LAB$ <0380.g1:< L A B )>`.
+Further, the angle :g:`LAC <0380.g1:< L A C )>` of this parallelogram is equal to the sum of the angles :g:`BAC <0380.g1:< B A C )>`, :g:`DHB <0380.g1:< D H B )>`, since the angle :g:`DHB <0380.g1:< D H B )>` is :eq:`equal <0380.g1:< D H B ) = 0380.g1:< L A B )>` to the angle :g:`LAB <0380.g1:< L A B )>`.
 
-Now, since the parallelogram :g:`$DABE$ <0380.g1:< D A B E >>` is :eq:`equal <0380.g1:< D A B E > = 0380.g1:< L A B H >>` to the parallelogram :g:`$LABH$ <0380.g1:< L A B H >>` (for they are on the same base :g:`$AB$ <0380.g1:/ A B />` and in the same parallels :g:`$AB$ <0380.g1:/ A B />`, :g:`$DH$ <0380.g1:/ D H />`),
-and likewise :g:`$LABH$ <0380.g1:< L A B H >>` is :eq:`equal <0380.g1:< L A B H > = 0380.g1:< L A K N >>` to :g:`$LAKN$ <0380.g1:< L A K N >>` (for they are on the same base :g:`$LA$ <0380.g1:/ L A />` and in the same parallels :g:`$LA$ <0380.g1:/ L A />`, :g:`$HK$ <0380.g1:/ H K />`),
-the parallelogram :g:`$DABE$ <0380.g1:< D A B E >>` is :eq:`equal <0380.g1:< D A B E > = 0380.g1:< L A K N >>` to the parallelogram :g:`$LAKN$ <0380.g1:< L A K N >>`.
+Now, since the parallelogram :g:`DABE <0380.g1:< D A B E >>` is :eq:`equal <0380.g1:< D A B E > = 0380.g1:< L A B H >>` to the parallelogram :g:`LABH <0380.g1:< L A B H >>` (for they are on the same base :g:`AB <0380.g1:/ A B />` and in the same parallels :g:`AB <0380.g1:/ A B />`, :g:`DH <0380.g1:/ D H />`),
+and likewise :g:`LABH <0380.g1:< L A B H >>` is :eq:`equal <0380.g1:< L A B H > = 0380.g1:< L A K N >>` to :g:`LAKN <0380.g1:< L A K N >>` (for they are on the same base :g:`LA <0380.g1:/ L A />` and in the same parallels :g:`LA <0380.g1:/ L A />`, :g:`HK <0380.g1:/ H K />`),
+the parallelogram :g:`DABE <0380.g1:< D A B E >>` is :eq:`equal <0380.g1:< D A B E > = 0380.g1:< L A K N >>` to the parallelogram :g:`LAKN <0380.g1:< L A K N >>`.
 
 For the same reason,
-the parallelogram :g:`$BGFC$ <0380.g1:< B G F C >>` is :eq:`equal <0380.g1:< B G F C > = 0380.g1:< N K C M >>` to the parallelogram :g:`$NKCM$ <0380.g1:< N K C M >>`.
+the parallelogram :g:`BGFC <0380.g1:< B G F C >>` is :eq:`equal <0380.g1:< B G F C > = 0380.g1:< N K C M >>` to the parallelogram :g:`NKCM <0380.g1:< N K C M >>`.
 
-Therefore the sum of the parallelograms :g:`$DABE$ <0380.g1:< D A B E >>`, :g:`$BGFC$ <0380.g1:< B G F C >>` is equal to the parallelogram :g:`$LACM$ <0380.g1:< L A C M >>`, that is, to the parallelogram which is contained by :g:`$AC$ <0380.g1:/ A C />`, :g:`$HB$ <0380.g1:/ H B />` in an angle :g:`$LAC$ <0380.g1:< L A C )>` which is equal to the sum of the angles :g:`$BAC$ <0380.g1:< B A C )>`, :g:`$BHD$ <0380.g1:< B H D )>`.
+Therefore the sum of the parallelograms :g:`DABE <0380.g1:< D A B E >>`, :g:`BGFC <0380.g1:< B G F C >>` is equal to the parallelogram :g:`LACM <0380.g1:< L A C M >>`, that is, to the parallelogram which is contained by :g:`AC <0380.g1:/ A C />`, :g:`HB <0380.g1:/ H B />` in an angle :g:`LAC <0380.g1:< L A C )>` which is equal to the sum of the angles :g:`BAC <0380.g1:< B A C )>`, :g:`BHD <0380.g1:< B H D )>`.
 
 "And this is far more general than what is proved in the Elements about squares in the case of right-angled (triangles)."
 
@@ -497,86 +497,86 @@ Heron's proof that AL, BK, CF in Euclid's figure meet in a point.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The final words of Proclus' note on I. 47 (p. 429, 9—15) are historically interesting. He says: "The demonstration by the writer of the Elements being clear, I consider that it is unnecessary to add anything further, and that we may be satisfied with what has been written, since in fact those who have added anything more, like :person:`Pappus <pappus>` and :person:`Heron <heron>`, were obliged to draw upon what is proved in the sixth Book, for no really useful object." These words cannot
-of course refer to the extension of I. 47 given by :person:`Pappus <pappus>`; but the key to them, so far as :person:`Heron <heron>` is concerned, is to be found in the commentary of :person:`an-Nairīzī <an-nairizi>` (pp. 175—185, ed. Besthorn-Heiberg; pp. 78—84, ed. :person:`Curtze <curtze>`) on I. 47, wherein he gives Heron's proof that the lines :g:`$AL$ <0363.g1:/ A L />`, :g:`$FC$ <0363.g1:/ F C />`, :g:`$BK$ <0363.g1:/ B K />` in Euclid's figure meet in a point. :person:`Heron <heron>` proved this by means of three lemmas which would most naturally be proved from the principle of similitude as laid down in Book VI., but which :person:`Heron <heron>`, as a *tour de force*, proved on the principles of Book I. only. The *first* lemma is to the following effect.
+of course refer to the extension of I. 47 given by :person:`Pappus <pappus>`; but the key to them, so far as :person:`Heron <heron>` is concerned, is to be found in the commentary of :person:`an-Nairīzī <an-nairizi>` (pp. 175—185, ed. Besthorn-Heiberg; pp. 78—84, ed. :person:`Curtze <curtze>`) on I. 47, wherein he gives Heron's proof that the lines :g:`AL <0363.g1:/ A L />`, :g:`FC <0363.g1:/ F C />`, :g:`BK <0363.g1:/ B K />` in Euclid's figure meet in a point. :person:`Heron <heron>` proved this by means of three lemmas which would most naturally be proved from the principle of similitude as laid down in Book VI., but which :person:`Heron <heron>`, as a *tour de force*, proved on the principles of Book I. only. The *first* lemma is to the following effect.
 
 .. _folio-i-0381:
 
 .. folio:: 0381
    :page: 367
 
-*If, in a triangle* :g:`$ABC$ <0381.g1:< A B C >>`, :g:`$DE$ <0381.g1:/ D E />` *be drawn parallel to the base* :g:`$BC$ <0381.g1:/ B C />`, *and if* :g:`$AF$ <0381.g1:/ A F />` *be drawn from the vertex* :g:`$A$ <0381.g1:A>` *to the* :eq:`*middle point* <0381.g1:/ B F / = 0381.g1:/ F C />` :g:`$F$ <0381.g1:F>` *of* :g:`$BC$ <0381.g1:/ B C />`, *then* :g:`$AF$ <0381.g1:/ A F />` *will also* :eq:`*bisect* <0381.g1:/ D G / = 0381.g1:/ G E />` :g:`$DE$ <0381.g1:/ D E />`.
+*If, in a triangle* :g:`ABC <0381.g1:< A B C >>`, :g:`DE <0381.g1:/ D E />` *be drawn parallel to the base* :g:`BC <0381.g1:/ B C />`, *and if* :g:`AF <0381.g1:/ A F />` *be drawn from the vertex* :g:`A <0381.g1:A>` *to the* :eq:`*middle point* <0381.g1:/ B F / = 0381.g1:/ F C />` :g:`F <0381.g1:F>` *of* :g:`BC <0381.g1:/ B C />`, *then* :g:`AF <0381.g1:/ A F />` *will also* :eq:`*bisect* <0381.g1:/ D G / = 0381.g1:/ G E />` :g:`DE <0381.g1:/ D E />`.
 
 .. picture:: 0381.g1.svg
    :alt: Folio 0381 Figure 1 - Proposition 47 Commentary (Heron First Lemma)
 
-This is proved by drawing :g:`$HK$ <0381.g1:/ H K />` through :g:`$A$ <0381.g1:A>` parallel to :g:`$DE$ <0381.g1:/ D E />` or :g:`$BC$ <0381.g1:/ B C />`, and :g:`$HDL$ <0381.g1:/ H D L />`, :g:`$KEM$ <0381.g1:/ K E M />` through :g:`$D$ <0381.g1:D>`, :g:`$E$ <0381.g1:E>` respectively parallel to :g:`$AGF$ <0381.g1:/ A G F />`, and lastly joining :g:`$DF$ <0381.g1:/ D F />`, :g:`$EF$ <0381.g1:/ E F />`.
+This is proved by drawing :g:`HK <0381.g1:/ H K />` through :g:`A <0381.g1:A>` parallel to :g:`DE <0381.g1:/ D E />` or :g:`BC <0381.g1:/ B C />`, and :g:`HDL <0381.g1:/ H D L />`, :g:`KEM <0381.g1:/ K E M />` through :g:`D <0381.g1:D>`, :g:`E <0381.g1:E>` respectively parallel to :g:`AGF <0381.g1:/ A G F />`, and lastly joining :g:`DF <0381.g1:/ D F />`, :g:`EF <0381.g1:/ E F />`.
 
-Then the triangles :g:`$ABF$ <0381.g1:< A B F >>`, :g:`$AFC$ <0381.g1:< A F C >>` are :eq:`equal <0381.g1:< A B F > = 0381.g1:< A F C >>` (being on :eq:`equal <0381.g1:/ B F / = 0381.g1:/ F C />` bases), and the triangles :g:`$DBF$ <0381.g1:< D B F >>`, :g:`$EFC$ <0381.g1:< E F C >>` are also :eq:`equal <0381.g1:< D B F > = 0381.g1:< E F C >>` (being on :eq:`equal <0381.g1:/ B F / = 0381.g1:/ F C />` bases and between the same parallels).
+Then the triangles :g:`ABF <0381.g1:< A B F >>`, :g:`AFC <0381.g1:< A F C >>` are :eq:`equal <0381.g1:< A B F > = 0381.g1:< A F C >>` (being on :eq:`equal <0381.g1:/ B F / = 0381.g1:/ F C />` bases), and the triangles :g:`DBF <0381.g1:< D B F >>`, :g:`EFC <0381.g1:< E F C >>` are also :eq:`equal <0381.g1:< D B F > = 0381.g1:< E F C >>` (being on :eq:`equal <0381.g1:/ B F / = 0381.g1:/ F C />` bases and between the same parallels).
 
-Therefore, by subtraction, the triangles :g:`$ADF$ <0381.g1:< A D F >>`, :g:`$AEF$ <0381.g1:< A E F >>` are :eq:`equal <0381.g1:< A D F > = 0381.g1:< A E F >>`, and hence the parallelograms :g:`$AL$ <0381.g1:< A L >>`, :g:`$AM$ <0381.g1:< A M >>` are :eq:`equal <0381.g1:< A L > = 0381.g1:< A M >>`.
+Therefore, by subtraction, the triangles :g:`ADF <0381.g1:< A D F >>`, :g:`AEF <0381.g1:< A E F >>` are :eq:`equal <0381.g1:< A D F > = 0381.g1:< A E F >>`, and hence the parallelograms :g:`AL <0381.g1:< A L >>`, :g:`AM <0381.g1:< A M >>` are :eq:`equal <0381.g1:< A L > = 0381.g1:< A M >>`.
 
-These parallelograms are between the same parallels :g:`$LM$ <0381.g1:/ L M />`, :g:`$HK$ <0381.g1:/ H K />`; therefore :g:`$LF$ <0381.g1:/ L F />`, :g:`$FM$ <0381.g1:/ F M />` are :eq:`equal <0381.g1:/ L F / = 0381.g1:/ F M />`, whence :g:`$DG$ <0381.g1:/ D G />`, :g:`$GE$ <0381.g1:/ G E />` are also :eq:`equal <0381.g1:/ D G / = 0381.g1:/ G E />`.
+These parallelograms are between the same parallels :g:`LM <0381.g1:/ L M />`, :g:`HK <0381.g1:/ H K />`; therefore :g:`LF <0381.g1:/ L F />`, :g:`FM <0381.g1:/ F M />` are :eq:`equal <0381.g1:/ L F / = 0381.g1:/ F M />`, whence :g:`DG <0381.g1:/ D G />`, :g:`GE <0381.g1:/ G E />` are also :eq:`equal <0381.g1:/ D G / = 0381.g1:/ G E />`.
 
-The *second* lemma is an extension of this to the case where :g:`$DE$ <0381.g1:/ D E />` meets :g:`$BA$ <0381.g1:/ B A />`, :g:`$CA$ <0381.g1:/ C A />` produced beyond :g:`$A$ <0381.g1:A>`.
+The *second* lemma is an extension of this to the case where :g:`DE <0381.g1:/ D E />` meets :g:`BA <0381.g1:/ B A />`, :g:`CA <0381.g1:/ C A />` produced beyond :g:`A <0381.g1:A>`.
 
-The *third* lemma proves the converse of :person:`Euclid <euclid>` I. 43, that, *If a parallelogram* :g:`$AB$ <0381.g2:< A B >>` *is cut into four others* :g:`$ADGE$ <0381.g2:< A D G E >>`, :g:`$DF$ <0381.g2:< D F >>`, :g:`$FGCB$ <0381.g2:< F G C B >>`, :g:`$CE$ <0381.g2:< C E >>`, *so that* :g:`$DF$ <0381.g2:< D F >>`, :g:`$CE$ <0381.g2:< C E >>` *are* :eq:`*equal* <0381.g2:< D F > = 0381.g2:< C E >>`*, the common vertex* :g:`$G$ <0381.g2:G>` *will be on the diagonal* :g:`$AB$ <0381.g2:/ A B />`.
+The *third* lemma proves the converse of :person:`Euclid <euclid>` I. 43, that, *If a parallelogram* :g:`AB <0381.g2:< A B >>` *is cut into four others* :g:`ADGE <0381.g2:< A D G E >>`, :g:`DF <0381.g2:< D F >>`, :g:`FGCB <0381.g2:< F G C B >>`, :g:`CE <0381.g2:< C E >>`, *so that* :g:`DF <0381.g2:< D F >>`, :g:`CE <0381.g2:< C E >>` *are* :eq:`*equal* <0381.g2:< D F > = 0381.g2:< C E >>`*, the common vertex* :g:`G <0381.g2:G>` *will be on the diagonal* :g:`AB <0381.g2:/ A B />`.
 
 .. picture:: 0381.g2.svg
    :alt: Folio 0381 Figure 2 - Proposition 47 Commentary (Heron Third Lemma)
 
-:person:`Heron <heron>` produces :g:`$AG$ <0381.g2:/ A G />` till it meets :g:`$CF$ <0381.g2:/ C F />` in :g:`$H$ <0381.g2:H>`. Then, if we join :g:`$HB$ <0381.g2:/ H B />`, we have to prove that :g:`$AHB$ <0381.g2:/ A H B />` is one straight line. The proof is as follows. Since the areas :g:`$DF$ <0381.g2:< D F >>`, :g:`$EC$ <0381.g2:< E C >>` are :eq:`equal <0381.g2:< D F > = 0381.g2:< E C >>`, the triangles :g:`$DGF$ <0381.g2:< D G F >>`, :g:`$ECG$ <0381.g2:< E C G >>` are :eq:`equal <0381.g2:< D G F > = 0381.g2:< E C G >>`.
+:person:`Heron <heron>` produces :g:`AG <0381.g2:/ A G />` till it meets :g:`CF <0381.g2:/ C F />` in :g:`H <0381.g2:H>`. Then, if we join :g:`HB <0381.g2:/ H B />`, we have to prove that :g:`AHB <0381.g2:/ A H B />` is one straight line. The proof is as follows. Since the areas :g:`DF <0381.g2:< D F >>`, :g:`EC <0381.g2:< E C >>` are :eq:`equal <0381.g2:< D F > = 0381.g2:< E C >>`, the triangles :g:`DGF <0381.g2:< D G F >>`, :g:`ECG <0381.g2:< E C G >>` are :eq:`equal <0381.g2:< D G F > = 0381.g2:< E C G >>`.
 
-If we add to each the triangle :g:`$GCF$ <0381.g2:< G C F >>`,
-the triangles :g:`$ECF$ <0381.g2:< E C F >>`, :g:`$DCF$ <0381.g2:< D C F >>` are :eq:`equal <0381.g2:< E C F > = 0381.g2:< D C F >>`;
-therefore :g:`$ED$ <0381.g2:/ E D />`, :g:`$CF$ <0381.g2:/ C F />` are parallel.
+If we add to each the triangle :g:`GCF <0381.g2:< G C F >>`,
+the triangles :g:`ECF <0381.g2:< E C F >>`, :g:`DCF <0381.g2:< D C F >>` are :eq:`equal <0381.g2:< E C F > = 0381.g2:< D C F >>`;
+therefore :g:`ED <0381.g2:/ E D />`, :g:`CF <0381.g2:/ C F />` are parallel.
 
-Now it follows from I. 34, 29 and 26 that the triangles :g:`$AKE$ <0381.g2:< A K E >>`, :g:`$GKD$ <0381.g2:< G K D >>` are :eq:`equal <0381.g2:< A K E > = 0381.g2:< G K D >>` in all respects;
-therefore :g:`$EK$ <0381.g2:/ E K />` is :eq:`equal <0381.g2:/ E K / = 0381.g2:/ K D />` to :g:`$KD$ <0381.g2:/ K D />`.
+Now it follows from I. 34, 29 and 26 that the triangles :g:`AKE <0381.g2:< A K E >>`, :g:`GKD <0381.g2:< G K D >>` are :eq:`equal <0381.g2:< A K E > = 0381.g2:< G K D >>` in all respects;
+therefore :g:`EK <0381.g2:/ E K />` is :eq:`equal <0381.g2:/ E K / = 0381.g2:/ K D />` to :g:`KD <0381.g2:/ K D />`.
 
 Hence, by the second lemma,
-:g:`$CH$ <0381.g2:/ C H />` is :eq:`equal <0381.g2:/ C H / = 0381.g2:/ H F />` to :g:`$HF$ <0381.g2:/ H F />`.
+:g:`CH <0381.g2:/ C H />` is :eq:`equal <0381.g2:/ C H / = 0381.g2:/ H F />` to :g:`HF <0381.g2:/ H F />`.
 
-Therefore, in the triangles :g:`$FHB$ <0381.g2:< F H B >>`, :g:`$CHG$ <0381.g2:< C H G >>`,
-the two sides :g:`$BF$ <0381.g2:/ B F />`, :g:`$FH$ <0381.g2:/ F H />` are :eq:`equal <0381.g2:/ B F / = 0381.g2:/ G C /; 0381.g2:/ F H / = 0381.g2:/ C H />` to the two sides :g:`$GC$ <0381.g2:/ G C />`, :g:`$CH$ <0381.g2:/ C H />`,
-and the angle :g:`$BFH$ <0381.g2:< B F H )>` is :eq:`equal <0381.g2:< B F H ) = 0381.g2:< G C H )>` to the angle :g:`$GCH$ <0381.g2:< G C H )>`;
+Therefore, in the triangles :g:`FHB <0381.g2:< F H B >>`, :g:`CHG <0381.g2:< C H G >>`,
+the two sides :g:`BF <0381.g2:/ B F />`, :g:`FH <0381.g2:/ F H />` are :eq:`equal <0381.g2:/ B F / = 0381.g2:/ G C /; 0381.g2:/ F H / = 0381.g2:/ C H />` to the two sides :g:`GC <0381.g2:/ G C />`, :g:`CH <0381.g2:/ C H />`,
+and the angle :g:`BFH <0381.g2:< B F H )>` is :eq:`equal <0381.g2:< B F H ) = 0381.g2:< G C H )>` to the angle :g:`GCH <0381.g2:< G C H )>`;
 hence the triangles are :eq:`equal <0381.g2:< F H B > = 0381.g2:< C H G >>` in all respects,
-and the angle :g:`$BHF$ <0381.g2:< B H F )>` is :eq:`equal <0381.g2:< B H F ) = 0381.g2:< G H C )>` to the angle :g:`$GHC$ <0381.g2:< G H C )>`.
+and the angle :g:`BHF <0381.g2:< B H F )>` is :eq:`equal <0381.g2:< B H F ) = 0381.g2:< G H C )>` to the angle :g:`GHC <0381.g2:< G H C )>`.
 
-Adding to each the angle :g:`$GHF$ <0381.g2:< G H F )>`, we find that the angles :g:`$BHF$ <0381.g2:< B H F )>`, :g:`$FHG$ <0381.g2:< F H G )>` are equal to the angles :g:`$CHG$ <0381.g2:< C H G )>`, :g:`$GHF$ <0381.g2:< G H F )>`,
+Adding to each the angle :g:`GHF <0381.g2:< G H F )>`, we find that the angles :g:`BHF <0381.g2:< B H F )>`, :g:`FHG <0381.g2:< F H G )>` are equal to the angles :g:`CHG <0381.g2:< C H G )>`, :g:`GHF <0381.g2:< G H F )>`,
 and therefore to two right angles.
 
-Therefore :g:`$AHB$ <0381.g2:/ A H B />` is a straight line.
+Therefore :g:`AHB <0381.g2:/ A H B />` is a straight line.
 
 .. _folio-i-0382:
 
 .. folio:: 0382
    :page: 368
 
-:person:`Heron <heron>` now proceeds to prove the proposition that, in the accompanying figure, if :g:`$AKL$ <0382.g1:/ A K L />` perpendicular to :g:`$BC$ <0382.g1:/ B C />` meet :g:`$EC$ <0382.g1:/ E C />` in :g:`$M$ <0382.g1:M>`, and if :g:`$BM$ <0382.g1:/ B M />`, :g:`$MG$ <0382.g1:/ M G />` be joined,
-:g:`$BM$ <0382.g1:/ B M />`, :g:`$MG$ <0382.g1:/ M G />` are in one straight line.
+:person:`Heron <heron>` now proceeds to prove the proposition that, in the accompanying figure, if :g:`AKL <0382.g1:/ A K L />` perpendicular to :g:`BC <0382.g1:/ B C />` meet :g:`EC <0382.g1:/ E C />` in :g:`M <0382.g1:M>`, and if :g:`BM <0382.g1:/ B M />`, :g:`MG <0382.g1:/ M G />` be joined,
+:g:`BM <0382.g1:/ B M />`, :g:`MG <0382.g1:/ M G />` are in one straight line.
 
 .. picture:: 0382.g1.svg
    :alt: Folio 0382 Figure 1 - Proposition 47 Commentary (Heron Concurrency Proof)
 
-Parallelograms are completed as shown in the figure, and the diagonals :g:`$OA$ <0382.g1:/ O A />`, :g:`$FH$ <0382.g1:/ F H />` of the parallelogram :g:`$FH$ <0382.g1:< F H >>` are drawn.
+Parallelograms are completed as shown in the figure, and the diagonals :g:`OA <0382.g1:/ O A />`, :g:`FH <0382.g1:/ F H />` of the parallelogram :g:`FH <0382.g1:< F H >>` are drawn.
 
-Then the triangles :g:`$FAH$ <0382.g1:< F A H >>`, :g:`$BAC$ <0382.g1:< B A C >>` are clearly :eq:`equal <0382.g1:< F A H > = 0382.g1:< B A C >>` in all respects;
-therefore the angle :g:`$HFA$ <0382.g1:< H F A )>` is :eq:`equal <0382.g1:< H F A ) = 0382.g1:< A B C ) = 0382.g1:< C A K )>` to the angle :g:`$ABC$ <0382.g1:< A B C )>`, and therefore to the angle :g:`$CAK$ <0382.g1:< C A K )>` (since :g:`$AK$ <0382.g1:/ A K />` is perpendicular to :g:`$BC$ <0382.g1:/ B C />`).
+Then the triangles :g:`FAH <0382.g1:< F A H >>`, :g:`BAC <0382.g1:< B A C >>` are clearly :eq:`equal <0382.g1:< F A H > = 0382.g1:< B A C >>` in all respects;
+therefore the angle :g:`HFA <0382.g1:< H F A )>` is :eq:`equal <0382.g1:< H F A ) = 0382.g1:< A B C ) = 0382.g1:< C A K )>` to the angle :g:`ABC <0382.g1:< A B C )>`, and therefore to the angle :g:`CAK <0382.g1:< C A K )>` (since :g:`AK <0382.g1:/ A K />` is perpendicular to :g:`BC <0382.g1:/ B C />`).
 
-But, the diagonals of the rectangle :g:`$FH$ <0382.g1:< F H >>` cutting one another in :g:`$Y$ <0382.g1:Y>`,
-:g:`$FY$ <0382.g1:/ F Y />` is :eq:`equal <0382.g1:/ F Y / = 0382.g1:/ Y A />` to :g:`$YA$ <0382.g1:/ Y A />`,
-and the angle :g:`$HFA$ <0382.g1:< H F A )>` is :eq:`equal <0382.g1:< H F A ) = 0382.g1:< O A F )>` to the angle :g:`$OAF$ <0382.g1:< O A F )>`.
+But, the diagonals of the rectangle :g:`FH <0382.g1:< F H >>` cutting one another in :g:`Y <0382.g1:Y>`,
+:g:`FY <0382.g1:/ F Y />` is :eq:`equal <0382.g1:/ F Y / = 0382.g1:/ Y A />` to :g:`YA <0382.g1:/ Y A />`,
+and the angle :g:`HFA <0382.g1:< H F A )>` is :eq:`equal <0382.g1:< H F A ) = 0382.g1:< O A F )>` to the angle :g:`OAF <0382.g1:< O A F )>`.
 
-Therefore the angles :g:`$OAF$ <0382.g1:< O A F )>`, :g:`$CAK$ <0382.g1:< C A K )>` are :eq:`equal <0382.g1:< O A F ) = 0382.g1:< C A K )>`, and accordingly
-:g:`$OA$ <0382.g1:/ O A />`, :g:`$AK$ <0382.g1:/ A K />` are in a straight line.
+Therefore the angles :g:`OAF <0382.g1:< O A F )>`, :g:`CAK <0382.g1:< C A K )>` are :eq:`equal <0382.g1:< O A F ) = 0382.g1:< C A K )>`, and accordingly
+:g:`OA <0382.g1:/ O A />`, :g:`AK <0382.g1:/ A K />` are in a straight line.
 
-Hence :g:`$OM$ <0382.g1:/ O M />` is the diagonal of :g:`$SQ$ <0382.g1:< S Q >>`;
-therefore :g:`$AS$ <0382.g1:< A S >>` is :eq:`equal <0382.g1:< A S > = 0382.g1:< A Q >>` to :g:`$AQ$ <0382.g1:< A Q >>`,
-and, if we add :g:`$AM$ <0382.g1:< A M >>` to each,
-:g:`$FM$ <0382.g1:< F M >>` is :eq:`equal <0382.g1:< F M > = 0382.g1:< M H >>` to :g:`$MH$ <0382.g1:< M H >>`.
+Hence :g:`OM <0382.g1:/ O M />` is the diagonal of :g:`SQ <0382.g1:< S Q >>`;
+therefore :g:`AS <0382.g1:< A S >>` is :eq:`equal <0382.g1:< A S > = 0382.g1:< A Q >>` to :g:`AQ <0382.g1:< A Q >>`,
+and, if we add :g:`AM <0382.g1:< A M >>` to each,
+:g:`FM <0382.g1:< F M >>` is :eq:`equal <0382.g1:< F M > = 0382.g1:< M H >>` to :g:`MH <0382.g1:< M H >>`.
 
-But, since :g:`$EC$ <0382.g1:/ E C />` is the diagonal of the parallelogram :g:`$FN$ <0382.g1:< F N >>`,
-:g:`$FM$ <0382.g1:< F M >>` is :eq:`equal <0382.g1:< F M > = 0382.g1:< M N >>` to :g:`$MN$ <0382.g1:< M N >>`.
+But, since :g:`EC <0382.g1:/ E C />` is the diagonal of the parallelogram :g:`FN <0382.g1:< F N >>`,
+:g:`FM <0382.g1:< F M >>` is :eq:`equal <0382.g1:< F M > = 0382.g1:< M N >>` to :g:`MN <0382.g1:< M N >>`.
 
-Therefore :g:`$MH$ <0382.g1:< M H >>` is :eq:`equal <0382.g1:< M H > = 0382.g1:< M N >>` to :g:`$MN$ <0382.g1:< M N >>`;
-and, by the third lemma, :g:`$BM$ <0382.g1:/ B M />`, :g:`$MG$ <0382.g1:/ M G />` are in a straight line.
+Therefore :g:`MH <0382.g1:< M H >>` is :eq:`equal <0382.g1:< M H > = 0382.g1:< M N >>` to :g:`MN <0382.g1:< M N >>`;
+and, by the third lemma, :g:`BM <0382.g1:/ B M />`, :g:`MG <0382.g1:/ M G />` are in a straight line.

@@ -20,15 +20,15 @@ PROPOSITION 22.
 
    The opposite angles of quadrilaterals in circles are equal to two right angles.
 
-Let :g:`$ABCD$ <0058.g1:( A B C D )>` be a circle, and let :g:`$ABCD$ <0058.g1:< A B C D >>` be a quadrilateral
+Let :g:`ABCD <0058.g1:( A B C D )>` be a circle, and let :g:`ABCD <0058.g1:< A B C D >>` be a quadrilateral
 in it;
 I say that the opposite angles are equal to two right angles.
 
-Let :g:`$AC$ <0058.g1:/ A C />`, :g:`$BD$ <0058.g1:/ B D />` be joined.
+Let :g:`AC <0058.g1:/ A C />`, :g:`BD <0058.g1:/ B D />` be joined.
 
 Then, since in any triangle the three angles are equal to
 two right angles, :just:`[I. 32] <I.32>`
-the three angles :g:`$CAB$ <0058.g1:< C A B )>`, :g:`$ABC$ <0058.g1:< A B C )>`, :g:`$BCA$ <0058.g1:< B C A )>` of the triangle :g:`$ABC$ <0058.g1:< A B C >>`
+the three angles :g:`CAB <0058.g1:< C A B )>`, :g:`ABC <0058.g1:< A B C )>`, :g:`BCA <0058.g1:< B C A )>` of the triangle :g:`ABC <0058.g1:< A B C >>`
 are equal to two right angles.
 
 .. _folio-ii-0058:
@@ -39,24 +39,24 @@ are equal to two right angles.
 .. picture:: 0058.g1.svg
    :alt: Diagram for Proposition 22
 
-But the angle :g:`$CAB$ <0058.g1:< C A B )>` is :eq:`equal <0058.g1:< C A B ) = 0058.g1:< B D C )>` to the
-angle :g:`$BDC$ <0058.g1:< B D C )>`, for they are in the same
-segment :g:`$BADC$ <0058.g1:( B A D C )>`; :just:`[III. 21] <III.21>`
-and the angle :g:`$ACB$ <0058.g1:< A C B )>` is :eq:`equal <0058.g1:< A C B ) = 0058.g1:< A D B )>` to the angle
-:g:`$ADB$ <0058.g1:< A D B )>`, for they are in the same segment
-:g:`$ADCB$ <0058.g1:( A D C B )>`;
-therefore the whole angle :g:`$ADC$ <0058.g1:< A D C )>` is equal
-to the angles :g:`$BAC$ <0058.g1:< B A C )>`, :g:`$ACB$ <0058.g1:< A C B )>`.
+But the angle :g:`CAB <0058.g1:< C A B )>` is :eq:`equal <0058.g1:< C A B ) = 0058.g1:< B D C )>` to the
+angle :g:`BDC <0058.g1:< B D C )>`, for they are in the same
+segment :g:`BADC <0058.g1:( B A D C )>`; :just:`[III. 21] <III.21>`
+and the angle :g:`ACB <0058.g1:< A C B )>` is :eq:`equal <0058.g1:< A C B ) = 0058.g1:< A D B )>` to the angle
+:g:`ADB <0058.g1:< A D B )>`, for they are in the same segment
+:g:`ADCB <0058.g1:( A D C B )>`;
+therefore the whole angle :g:`ADC <0058.g1:< A D C )>` is equal
+to the angles :g:`BAC <0058.g1:< B A C )>`, :g:`ACB <0058.g1:< A C B )>`.
 
-Let the angle :g:`$ABC$ <0058.g1:< A B C )>` be added to each;
-therefore the angles :g:`$ABC$ <0058.g1:< A B C )>`, :g:`$BAC$ <0058.g1:< B A C )>`, :g:`$ACB$ <0058.g1:< A C B )>` are equal to the
-angles :g:`$ABC$ <0058.g1:< A B C )>`, :g:`$ADC$ <0058.g1:< A D C )>`.
-But the angles :g:`$ABC$ <0058.g1:< A B C )>`, :g:`$BAC$ <0058.g1:< B A C )>`, :g:`$ACB$ <0058.g1:< A C B )>` are equal to two right
+Let the angle :g:`ABC <0058.g1:< A B C )>` be added to each;
+therefore the angles :g:`ABC <0058.g1:< A B C )>`, :g:`BAC <0058.g1:< B A C )>`, :g:`ACB <0058.g1:< A C B )>` are equal to the
+angles :g:`ABC <0058.g1:< A B C )>`, :g:`ADC <0058.g1:< A D C )>`.
+But the angles :g:`ABC <0058.g1:< A B C )>`, :g:`BAC <0058.g1:< B A C )>`, :g:`ACB <0058.g1:< A C B )>` are equal to two right
 angles;
-therefore the angles :g:`$ABC$ <0058.g1:< A B C )>`, :g:`$ADC$ <0058.g1:< A D C )>` are also equal to two right
+therefore the angles :g:`ABC <0058.g1:< A B C )>`, :g:`ADC <0058.g1:< A D C )>` are also equal to two right
 angles.
 
-Similarly we can prove that the angles :g:`$BAD$ <0058.g1:< B A D )>`, :g:`$DCB$ <0058.g1:< D C B )>` are
+Similarly we can prove that the angles :g:`BAD <0058.g1:< B A D )>`, :g:`DCB <0058.g1:< D C B )>` are
 also equal to two right angles.
 
 .. qed::

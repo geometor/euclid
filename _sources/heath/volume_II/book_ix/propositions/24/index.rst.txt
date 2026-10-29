@@ -20,16 +20,16 @@ PROPOSITION 24.
 
    If from an even number an even number be subtracted, the remainder will be even.
 
-For from the even number :g:`$AB$ <0420.g3:/ A B />` let the even number :g:`$BC$ <0420.g3:/ B C />` be subtracted :
+For from the even number :g:`AB <0420.g3:/ A B />` let the even number :g:`BC <0420.g3:/ B C />` be subtracted :
 
-I say that the remainder :g:`$CA$ <0420.g3:/ A C />` is even.
+I say that the remainder :g:`CA <0420.g3:/ A C />` is even.
 
 .. picture:: 0420.g3.svg
    :alt: Book IX, Proposition 24
 
 .. subclause::
 
-   For, since :g:`$AB$ <0420.g3:/ A B />` is even, it has a half part. :just:`[VII. Def. 6] <VII.def.6>`
+   For, since :g:`AB <0420.g3:/ A B />` is even, it has a half part. :just:`[VII. Def. 6] <VII.def.6>`
 
 .. _folio-ii-0421:
 
@@ -38,11 +38,11 @@ I say that the remainder :g:`$CA$ <0420.g3:/ A C />` is even.
 
 .. subclause::
 
-   For the same reason :g:`$BC$ <0420.g3:/ B C />` also has a half part ;
+   For the same reason :g:`BC <0420.g3:/ B C />` also has a half part ;
 
 .. assertion::
 
-   so that the remainder [:g:`$CA$ <0420.g3:/ A C />` also has a half part, and] :g:`$AC$ <0420.g3:/ A C />` is therefore even.
+   so that the remainder [:g:`CA <0420.g3:/ A C />` also has a half part, and] :g:`AC <0420.g3:/ A C />` is therefore even.
 
 .. qed::
 

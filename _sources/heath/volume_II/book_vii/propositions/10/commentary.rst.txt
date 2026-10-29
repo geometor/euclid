@@ -27,11 +27,11 @@ And, by VII. 5, 6, whatever fraction one of the $m$ parts of $a$ is of one of th
 
 Whence the result follows.
 
-In the Greek text, after the words "so that, in addition" in the last line but one, is an additional explanation making the reference to VII. 5, 6 clearer, as follows: "whatever part or parts :g:`$AG$ <0316.g1:/ A G />` is of :g:`$DH$ <0316.g1:/ D H />`, the same part or the same parts is :g:`$GB$ <0316.g1:/ G B />` of :g:`$HE$ <0316.g1:/ H E />` also;
+In the Greek text, after the words "so that, in addition" in the last line but one, is an additional explanation making the reference to VII. 5, 6 clearer, as follows: "whatever part or parts :g:`AG <0316.g1:/ A G />` is of :g:`DH <0316.g1:/ D H />`, the same part or the same parts is :g:`GB <0316.g1:/ G B />` of :g:`HE <0316.g1:/ H E />` also;
 
-therefore also, whatever part or parts :g:`$AG$ <0316.g1:/ A G />` is of :g:`$DH$ <0316.g1:/ D H />`, the same part or the same parts is :g:`$AB$ <0316.g1:/ A B />` of :g:`$DE$ <0316.g1:/ D E />` also. :just:`[VII. 5, 6]`
+therefore also, whatever part or parts :g:`AG <0316.g1:/ A G />` is of :g:`DH <0316.g1:/ D H />`, the same part or the same parts is :g:`AB <0316.g1:/ A B />` of :g:`DE <0316.g1:/ D E />` also. :just:`[VII. 5, 6]`
 
-But it was proved that, whatever part or parts :g:`$AG$ <0316.g1:/ A G />` is of :g:`$DH$ <0316.g1:/ D H />`, the same part or the same parts is :g:`$C$ <0316.g1:C>` of :g:`$F$ <0316.g1:F>` also;
+But it was proved that, whatever part or parts :g:`AG <0316.g1:/ A G />` is of :g:`DH <0316.g1:/ D H />`, the same part or the same parts is :g:`C <0316.g1:C>` of :g:`F <0316.g1:F>` also;
 
 therefore also" etc. as in the last two lines of the text.
 

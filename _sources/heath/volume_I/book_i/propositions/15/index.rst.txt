@@ -23,40 +23,40 @@ PROPOSITION 15.
 .. picture:: 0291.g2.svg
    :alt: Proposition 15 figure
 
-For let the straight lines :g:`$AB$ <0291.g2:/ A B />`, :g:`$CD$ <0291.g2:/ C D />` cut one another at the point :g:`$E$ <0291.g2:E>`;
+For let the straight lines :g:`AB <0291.g2:/ A B />`, :g:`CD <0291.g2:/ C D />` cut one another at the point :g:`E <0291.g2:E>`;
 
-I say that the angle :g:`$AEC$ <0291.g2:< A E C )>` is :eq:`equal <0291.g2:< A E C ) = 0291.g2:< D E B ); 0291.g2:< C E B ) = 0291.g2:< A E D )>` to the angle :g:`$DEB$ <0291.g2:< D E B )>`, and the angle :g:`$CEB$ <0291.g2:< C E B )>` to the angle :g:`$AED$ <0291.g2:< A E D )>`.
+I say that the angle :g:`AEC <0291.g2:< A E C )>` is :eq:`equal <0291.g2:< A E C ) = 0291.g2:< D E B ); 0291.g2:< C E B ) = 0291.g2:< A E D )>` to the angle :g:`DEB <0291.g2:< D E B )>`, and the angle :g:`CEB <0291.g2:< C E B )>` to the angle :g:`AED <0291.g2:< A E D )>`.
 
-For, since the straight line :g:`$AE$ <0291.g2:/ A E />` stands on the straight line :g:`$CD$ <0291.g2:/ C D />`, making the angles :g:`$CEA$ <0291.g2:< C E A )>`, :g:`$AED$ <0291.g2:< A E D )>`,
+For, since the straight line :g:`AE <0291.g2:/ A E />` stands on the straight line :g:`CD <0291.g2:/ C D />`, making the angles :g:`CEA <0291.g2:< C E A )>`, :g:`AED <0291.g2:< A E D )>`,
 
 .. assertion:: [I. 13] <I.13>
 
-   the angles :g:`$CEA$ <0291.g2:< C E A )>`, :g:`$AED$ <0291.g2:< A E D )>` are equal to two right angles.
+   the angles :g:`CEA <0291.g2:< C E A )>`, :g:`AED <0291.g2:< A E D )>` are equal to two right angles.
 
 .. _folio-i-0292:
 
 .. folio:: 0292
    :page: 278
 
-Again, since the straight line :g:`$DE$ <0291.g2:/ D E />` stands on the straight line :g:`$AB$ <0291.g2:/ A B />`, making the angles :g:`$AED$ <0291.g2:< A E D )>`, :g:`$DEB$ <0291.g2:< D E B )>`,
+Again, since the straight line :g:`DE <0291.g2:/ D E />` stands on the straight line :g:`AB <0291.g2:/ A B />`, making the angles :g:`AED <0291.g2:< A E D )>`, :g:`DEB <0291.g2:< D E B )>`,
 
 .. assertion:: [I. 13] <I.13>
 
-   the angles :g:`$AED$ <0291.g2:< A E D )>`, :g:`$DEB$ <0291.g2:< D E B )>` are equal to two right angles.
+   the angles :g:`AED <0291.g2:< A E D )>`, :g:`DEB <0291.g2:< D E B )>` are equal to two right angles.
 
-But the angles :g:`$CEA$ <0291.g2:< C E A )>`, :g:`$AED$ <0291.g2:< A E D )>` were also proved equal to two right angles;
+But the angles :g:`CEA <0291.g2:< C E A )>`, :g:`AED <0291.g2:< A E D )>` were also proved equal to two right angles;
 
 .. assertion:: [Post. 4 and C. N. 1] <I.post.4, I.cn.1>
 
-   therefore the angles :g:`$CEA$ <0291.g2:< C E A )>`, :g:`$AED$ <0291.g2:< A E D )>` are equal to the angles :g:`$AED$ <0291.g2:< A E D )>` :g:`$DEB$ <0291.g2:< D E B )>`.
+   therefore the angles :g:`CEA <0291.g2:< C E A )>`, :g:`AED <0291.g2:< A E D )>` are equal to the angles :g:`AED <0291.g2:< A E D )>` :g:`DEB <0291.g2:< D E B )>`.
 
 .. subclause::
 
-   Let the angle :g:`$AED$ <0291.g2:< A E D )>` be subtracted from each;
+   Let the angle :g:`AED <0291.g2:< A E D )>` be subtracted from each;
 
-therefore the remaining angle :g:`$CEA$ <0291.g2:< C E A )>` is :eq:`equal <0291.g2:< C E A ) = 0291.g2:< B E D )>` to the remaining angle :g:`$BED$ <0291.g2:< B E D )>`. :just:`[C. N. 3] <I.cn.3>`
+therefore the remaining angle :g:`CEA <0291.g2:< C E A )>` is :eq:`equal <0291.g2:< C E A ) = 0291.g2:< B E D )>` to the remaining angle :g:`BED <0291.g2:< B E D )>`. :just:`[C. N. 3] <I.cn.3>`
 
-Similarly it can be proved that the angles :g:`$CEB$ <0291.g2:< C E B )>`, :g:`$DEA$ <0291.g2:< D E A )>` are also :eq:`equal <0291.g2:< C E B ) = 0291.g2:< D E A )>`.
+Similarly it can be proved that the angles :g:`CEB <0291.g2:< C E B )>`, :g:`DEA <0291.g2:< D E A )>` are also :eq:`equal <0291.g2:< C E B ) = 0291.g2:< D E A )>`.
 
 .. qed::
 

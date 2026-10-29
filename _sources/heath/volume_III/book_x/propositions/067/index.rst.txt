@@ -20,14 +20,14 @@ PROPOSITION 67.
 
    A straight line commensurable in length with a bimedial straight line is itself also bimedial and the same in order.
 
-Let :g:`$AB$ <0151.g1:/ A B />` be bimedial, and let :g:`$CD$ <0151.g1:/ C D />` be commensurable in length with :g:`$AB$ <0151.g1:/ A B />`;
+Let :g:`AB <0151.g1:/ A B />` be bimedial, and let :g:`CD <0151.g1:/ C D />` be commensurable in length with :g:`AB <0151.g1:/ A B />`;
 
 .. picture:: 0151.g1.svg
    :alt: Proposition 67
 
-I say that :g:`$CD$ <0151.g1:/ C D />` is bimedial and the same in order with :g:`$AB$ <0151.g1:/ A B />`.
+I say that :g:`CD <0151.g1:/ C D />` is bimedial and the same in order with :g:`AB <0151.g1:/ A B />`.
 
-For, since :g:`$AB$ <0151.g1:/ A B />` is bimedial, let it be divided into its medials at :g:`$E$ <0151.g1:E>`;
+For, since :g:`AB <0151.g1:/ A B />` is bimedial, let it be divided into its medials at :g:`E <0151.g1:E>`;
 
 .. _folio-iii-0152:
 
@@ -36,37 +36,37 @@ For, since :g:`$AB$ <0151.g1:/ A B />` is bimedial, let it be divided into its m
 
 .. assertion::
 
-   therefore :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` are medial straight lines commensurable in square only. :just:`[X. 37, 38]`
+   therefore :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` are medial straight lines commensurable in square only. :just:`[X. 37, 38]`
 
-And let it be contrived that, as :g:`$AB$ <0151.g1:/ A B />` is to :g:`$CD$ <0151.g1:/ C D />`, so is :g:`$AE$ <0151.g1:/ A E />` to :g:`$CF$ <0151.g1:/ C F />`;
-
-.. assertion::
-
-   therefore also the remainder :g:`$EB$ <0151.g1:/ E B />` is to the remainder :g:`$FD$ <0151.g1:/ F D />` as :g:`$AB$ <0151.g1:/ A B />` is to :g:`$CD$ <0151.g1:/ C D />`. :just:`[V. 19] <V.19>`
-
-.. subclause::
-
-   But :g:`$AB$ <0151.g1:/ A B />` is commensurable in length with :g:`$CD$ <0151.g1:/ C D />`;
+And let it be contrived that, as :g:`AB <0151.g1:/ A B />` is to :g:`CD <0151.g1:/ C D />`, so is :g:`AE <0151.g1:/ A E />` to :g:`CF <0151.g1:/ C F />`;
 
 .. assertion::
 
-   therefore :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` are also commensurable with :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />` respectively. :just:`[X. 11] <X.11>`
+   therefore also the remainder :g:`EB <0151.g1:/ E B />` is to the remainder :g:`FD <0151.g1:/ F D />` as :g:`AB <0151.g1:/ A B />` is to :g:`CD <0151.g1:/ C D />`. :just:`[V. 19] <V.19>`
 
 .. subclause::
 
-   But :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` are medial;
+   But :g:`AB <0151.g1:/ A B />` is commensurable in length with :g:`CD <0151.g1:/ C D />`;
+
+.. assertion::
+
+   therefore :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` are also commensurable with :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />` respectively. :just:`[X. 11] <X.11>`
+
+.. subclause::
+
+   But :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` are medial;
 
 .. assertion:: [X. 23] <X.23>
 
-   therefore :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />` are also medial.
+   therefore :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />` are also medial.
 
 .. subclause::
 
-   And since, as :g:`$AE$ <0151.g1:/ A E />` is to :g:`$EB$ <0151.g1:/ E B />`, so is :g:`$CF$ <0151.g1:/ C F />` to :g:`$FD$ <0151.g1:/ F D />`, :just:`[V. 11] <V.11>` and :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` are commensurable in square only,
+   And since, as :g:`AE <0151.g1:/ A E />` is to :g:`EB <0151.g1:/ E B />`, so is :g:`CF <0151.g1:/ C F />` to :g:`FD <0151.g1:/ F D />`, :just:`[V. 11] <V.11>` and :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` are commensurable in square only,
 
 .. assertion:: [X. 11] <X.11>
 
-   :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />` are also commensurable in square only.
+   :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />` are also commensurable in square only.
 
 .. subclause::
 
@@ -74,37 +74,37 @@ And let it be contrived that, as :g:`$AB$ <0151.g1:/ A B />` is to :g:`$CD$ <015
 
 .. assertion::
 
-   therefore :g:`$CD$ <0151.g1:/ C D />` is bimedial.
+   therefore :g:`CD <0151.g1:/ C D />` is bimedial.
 
-I say next that it is also the same in order with :g:`$AB$ <0151.g1:/ A B />`.
-
-.. subclause::
-
-   For since, as :g:`$AE$ <0151.g1:/ A E />` is to :g:`$EB$ <0151.g1:/ E B />`, so is :g:`$CF$ <0151.g1:/ C F />` to :g:`$FD$ <0151.g1:/ F D />`,
-
-.. assertion::
-
-   therefore also, as the square on :g:`$AE$ <0151.g1:/ A E />` is to the rectangle :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />`, so is the square on :g:`$CF$ <0151.g1:/ C F />` to the rectangle :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />`; therefore, alternately, as the square on :g:`$AE$ <0151.g1:/ A E />` is to the square on :g:`$CF$ <0151.g1:/ C F />`, so is the rectangle :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` to the rectangle :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />`. :just:`[V. 16] <V.16>`
+I say next that it is also the same in order with :g:`AB <0151.g1:/ A B />`.
 
 .. subclause::
 
-   But the square on :g:`$AE$ <0151.g1:/ A E />` is commensurable with the square on :g:`$CF$ <0151.g1:/ C F />`;
+   For since, as :g:`AE <0151.g1:/ A E />` is to :g:`EB <0151.g1:/ E B />`, so is :g:`CF <0151.g1:/ C F />` to :g:`FD <0151.g1:/ F D />`,
 
 .. assertion::
 
-   therefore the rectangle :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` is also commensurable with the rectangle :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />`.
+   therefore also, as the square on :g:`AE <0151.g1:/ A E />` is to the rectangle :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />`, so is the square on :g:`CF <0151.g1:/ C F />` to the rectangle :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />`; therefore, alternately, as the square on :g:`AE <0151.g1:/ A E />` is to the square on :g:`CF <0151.g1:/ C F />`, so is the rectangle :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` to the rectangle :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />`. :just:`[V. 16] <V.16>`
 
 .. subclause::
 
-   If therefore the rectangle :g:`$AE$ <0151.g1:/ A E />`, :g:`$EB$ <0151.g1:/ E B />` is rational,
+   But the square on :g:`AE <0151.g1:/ A E />` is commensurable with the square on :g:`CF <0151.g1:/ C F />`;
 
 .. assertion::
 
-   the rectangle :g:`$CF$ <0151.g1:/ C F />`, :g:`$FD$ <0151.g1:/ F D />` is also rational, [and for this reason :g:`$CD$ <0151.g1:/ C D />` is a first bimedial]; :just:`[X. 37] <X.37>` but if medial, medial, :just:`[X. 23, Por.]` and each of the straight lines :g:`$AB$ <0151.g1:/ A B />`, :g:`$CD$ <0151.g1:/ C D />` is a second bimedial. :just:`[X. 38] <X.38>`
+   therefore the rectangle :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` is also commensurable with the rectangle :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />`.
+
+.. subclause::
+
+   If therefore the rectangle :g:`AE <0151.g1:/ A E />`, :g:`EB <0151.g1:/ E B />` is rational,
+
+.. assertion::
+
+   the rectangle :g:`CF <0151.g1:/ C F />`, :g:`FD <0151.g1:/ F D />` is also rational, [and for this reason :g:`CD <0151.g1:/ C D />` is a first bimedial]; :just:`[X. 37] <X.37>` but if medial, medial, :just:`[X. 23, Por.]` and each of the straight lines :g:`AB <0151.g1:/ A B />`, :g:`CD <0151.g1:/ C D />` is a second bimedial. :just:`[X. 38] <X.38>`
 
 .. qed::
 
-   And for this reason :g:`$CD$ <0151.g1:/ C D />` will be the same in order with :g:`$AB$ <0151.g1:/ A B />`. :just:`Q. E. D.`
+   And for this reason :g:`CD <0151.g1:/ C D />` will be the same in order with :g:`AB <0151.g1:/ A B />`. :just:`Q. E. D.`
 
 Dependency Graph
 ----------------

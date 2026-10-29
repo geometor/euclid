@@ -20,91 +20,91 @@ PROPOSITION 3.
 
    If a cube number by multiplying itself make some number, the product will be cube.
 
-For let the cube number :g:`$A$ <0392.g1:A>` by multiplying itself make :g:`$B$ <0392.g1:B>`;
+For let the cube number :g:`A <0392.g1:A>` by multiplying itself make :g:`B <0392.g1:B>`;
 
-I say that :g:`$B$ <0392.g1:B>` is cube.
+I say that :g:`B <0392.g1:B>` is cube.
 
 .. _folio-ii-0392:
 
 .. folio:: 0392
    :page: 386
 
-For let :g:`$C$ <0392.g1:C>`, the side of :g:`$A$ <0392.g1:A>`, be taken, and let :g:`$C$ <0392.g1:C>` by multiplying itself make :g:`$D$ <0392.g1:D>`.
+For let :g:`C <0392.g1:C>`, the side of :g:`A <0392.g1:A>`, be taken, and let :g:`C <0392.g1:C>` by multiplying itself make :g:`D <0392.g1:D>`.
 
 .. assertion::
 
-   It is then manifest that :g:`$C$ <0392.g1:C>` by multiplying :g:`$D$ <0392.g1:D>` has made :g:`$A$ <0392.g1:A>`.
+   It is then manifest that :g:`C <0392.g1:C>` by multiplying :g:`D <0392.g1:D>` has made :g:`A <0392.g1:A>`.
 
 .. picture:: 0392.g1.svg
    :alt: Proposition 3 Diagram
 
 .. subclause::
 
-   Now, since :g:`$C$ <0392.g1:C>` by multiplying itself has made :g:`$D$ <0392.g1:D>`,
+   Now, since :g:`C <0392.g1:C>` by multiplying itself has made :g:`D <0392.g1:D>`,
 
 .. assertion::
 
-   therefore :g:`$C$ <0392.g1:C>` measures :g:`$D$ <0392.g1:D>` according to the units in itself.
+   therefore :g:`C <0392.g1:C>` measures :g:`D <0392.g1:D>` according to the units in itself.
 
 .. subclause::
 
-   But further the unit also measures :g:`$C$ <0392.g1:C>` according to the units in it;
+   But further the unit also measures :g:`C <0392.g1:C>` according to the units in it;
 
 .. assertion:: [VII. Def. 20] <VII.def.20>
 
-   therefore, as the unit is to :g:`$C$ <0392.g1:C>`, so is :g:`$C$ <0392.g1:C>` to :g:`$D$ <0392.g1:D>`.
+   therefore, as the unit is to :g:`C <0392.g1:C>`, so is :g:`C <0392.g1:C>` to :g:`D <0392.g1:D>`.
 
 .. subclause::
 
-   Again, since :g:`$C$ <0392.g1:C>` by multiplying :g:`$D$ <0392.g1:D>` has made :g:`$A$ <0392.g1:A>`,
+   Again, since :g:`C <0392.g1:C>` by multiplying :g:`D <0392.g1:D>` has made :g:`A <0392.g1:A>`,
 
 .. assertion::
 
-   therefore :g:`$D$ <0392.g1:D>` measures :g:`$A$ <0392.g1:A>` according to the units in :g:`$C$ <0392.g1:C>`.
+   therefore :g:`D <0392.g1:D>` measures :g:`A <0392.g1:A>` according to the units in :g:`C <0392.g1:C>`.
 
 .. subclause::
 
-   But the unit also measures :g:`$C$ <0392.g1:C>` according to the units in it;
+   But the unit also measures :g:`C <0392.g1:C>` according to the units in it;
 
 .. assertion::
 
-   therefore, as the unit is to :g:`$C$ <0392.g1:C>`, so is :g:`$D$ <0392.g1:D>` to :g:`$A$ <0392.g1:A>`.
+   therefore, as the unit is to :g:`C <0392.g1:C>`, so is :g:`D <0392.g1:D>` to :g:`A <0392.g1:A>`.
 
 .. subclause::
 
-   But, as the unit is to :g:`$C$ <0392.g1:C>`, so is :g:`$C$ <0392.g1:C>` to :g:`$D$ <0392.g1:D>`;
+   But, as the unit is to :g:`C <0392.g1:C>`, so is :g:`C <0392.g1:C>` to :g:`D <0392.g1:D>`;
 
 .. assertion::
 
-   therefore also, as the unit is to :g:`$C$ <0392.g1:C>`, so is :g:`$C$ <0392.g1:C>` to :g:`$D$ <0392.g1:D>`, and :g:`$D$ <0392.g1:D>` to :g:`$A$ <0392.g1:A>`.
+   therefore also, as the unit is to :g:`C <0392.g1:C>`, so is :g:`C <0392.g1:C>` to :g:`D <0392.g1:D>`, and :g:`D <0392.g1:D>` to :g:`A <0392.g1:A>`.
 
 .. assertion::
 
-   Therefore between the unit and the number :g:`$A$ <0392.g1:A>` two mean proportional numbers :g:`$C$ <0392.g1:C>`, :g:`$D$ <0392.g1:D>` have fallen in continued proportion.
+   Therefore between the unit and the number :g:`A <0392.g1:A>` two mean proportional numbers :g:`C <0392.g1:C>`, :g:`D <0392.g1:D>` have fallen in continued proportion.
 
 .. subclause::
 
-   Again, since :g:`$A$ <0392.g1:A>` by multiplying itself has made :g:`$B$ <0392.g1:B>`,
+   Again, since :g:`A <0392.g1:A>` by multiplying itself has made :g:`B <0392.g1:B>`,
 
 .. assertion::
 
-   therefore :g:`$A$ <0392.g1:A>` measures :g:`$B$ <0392.g1:B>` according to the units in itself.
+   therefore :g:`A <0392.g1:A>` measures :g:`B <0392.g1:B>` according to the units in itself.
 
 .. subclause::
 
-   But the unit also measures :g:`$A$ <0392.g1:A>` according to the units in it;
+   But the unit also measures :g:`A <0392.g1:A>` according to the units in it;
 
 .. assertion:: [VII. Def. 20] <VII.def.20>
 
-   therefore, as the unit is to :g:`$A$ <0392.g1:A>`, so is :g:`$A$ <0392.g1:A>` to :g:`$B$ <0392.g1:B>`.
+   therefore, as the unit is to :g:`A <0392.g1:A>`, so is :g:`A <0392.g1:A>` to :g:`B <0392.g1:B>`.
 
 .. subclause::
 
-   But between the unit and :g:`$A$ <0392.g1:A>` two mean proportional numbers have fallen;
+   But between the unit and :g:`A <0392.g1:A>` two mean proportional numbers have fallen;
 
 .. assertion::
 
-   therefore two mean proportional numbers will also fall between :g:`$A$ <0392.g1:A>`, :g:`$B$ <0392.g1:B>`. :just:`[VIII. 8] <VIII.8>`
+   therefore two mean proportional numbers will also fall between :g:`A <0392.g1:A>`, :g:`B <0392.g1:B>`. :just:`[VIII. 8] <VIII.8>`
 
 .. subclause::
 
@@ -112,11 +112,11 @@ For let :g:`$C$ <0392.g1:C>`, the side of :g:`$A$ <0392.g1:A>`, be taken, and le
 
 .. subclause::
 
-   And :g:`$A$ <0392.g1:A>` is cube;
+   And :g:`A <0392.g1:A>` is cube;
 
 .. assertion::
 
-   therefore :g:`$B$ <0392.g1:B>` is also cube.
+   therefore :g:`B <0392.g1:B>` is also cube.
 
 .. qed::
 
