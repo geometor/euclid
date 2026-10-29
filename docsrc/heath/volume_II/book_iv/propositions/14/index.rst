@@ -74,3 +74,23 @@ Let it be circumscribed, and let it be :g:`$ABCDE$ <0112.g1:( A B C D E )>`.
 .. qed::
 
    Therefore about the given pentagon, which is equilateral and equiangular, a circle has been circumscribed. :just:`Q. E. F.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "I.6" [label="I.6", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/06/index.html", target="_top"];
+     "IV.14" [label="IV.14", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IV.14" -> "I.6";
+   }
+
+Required for
+------------
+
+:ref:`XIII.8 <XIII.8>`, :ref:`XIII.11 <XIII.11>`, :ref:`XIII.16 <XIII.16>`, :ref:`XIII.18 <XIII.18>`

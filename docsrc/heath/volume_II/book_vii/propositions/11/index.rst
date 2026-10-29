@@ -6,7 +6,7 @@
 :title: Proposition VII.11
 :folios: 0317
 :pages: 311
-:dependencies: VII.def.20
+:dependencies: VII.def.20, VII.7, VII.8
 
 .. _VII.11:
 
@@ -46,6 +46,33 @@ I say that the remainder :g:`$EB$ <0317.g1:/ E B />` is also to the remainder :g
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.20" [label="VII.def.20", fillcolor="#224422", URL="../../definitions/index.html#vii-def-20", target="_top"];
+     "VII.5" [label="VII.5", fillcolor="#222244", URL="../05/index.html", target="_top"];
+     "VII.7" [label="VII.7", fillcolor="#222244", URL="../07/index.html", target="_top"];
+     "VII.8" [label="VII.8", fillcolor="#222244", URL="../08/index.html", target="_top"];
+     "VII.11" [label="VII.11", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.11" -> "VII.def.20";
+     "VII.7" -> "VII.5";
+     "VII.8" -> "VII.7";
+     "VII.11" -> "VII.7";
+     "VII.11" -> "VII.8";
+   }
+
+Required for
+------------
+
+:ref:`IX.35 <IX.35>`, :ref:`IX.36 <IX.36>`
 
 ----
 

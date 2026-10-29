@@ -1797,6 +1797,13 @@ def compile_edition(
     heath_index.write_text("\n".join(heath_index_lines) + "\n", encoding="utf-8")
     written_files.append(heath_index)
 
+    # =========================================================================
+    # DEPENDENCY GRAPHS (built from composed RST files in docsrc/heath/)
+    # =========================================================================
+    from geometor.euclid.graph import build_graph
+
+    _, graph_stats = build_graph(heath_out_dir=heath_out_dir, inject_rst=True)
+
     total_props = sum(s["propositions_compiled"] for s in book_stats)
     total_comm = sum(s["propositions_with_commentary"] for s in book_stats)
     total_book_files = sum(s["rst_files_written"] for s in book_stats)
@@ -1810,5 +1817,7 @@ def compile_edition(
         "propositions_with_commentary": total_comm,
         "total_rst_files_written": len(written_files) + total_book_files,
         "folio_anchors_emitted": len(seen_folio_anchors),
+        "dependency_graphs_injected": graph_stats["graphs_injected"],
+        "required_for_injected": graph_stats["required_for_injected"],
         "warnings_by_file": all_warnings,
     }

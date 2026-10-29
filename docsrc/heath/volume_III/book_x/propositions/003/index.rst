@@ -6,6 +6,7 @@
 :title: Proposition X.3
 :folios: 0024, 0025
 :pages: 20, 21
+:dependencies: X.2
 
 .. _X.3:
 
@@ -124,6 +125,28 @@ For, if not, there will be some magnitude greater than :g:`$AF$ <0024.g1:/ A F /
 .. assertion::
 
    PORISM. From this it is manifest that, if a magnitude measure two magnitudes, it will also measure their greatest common measure.
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "X.def.1" [label="X.def.1", fillcolor="#224422", URL="../../definitions/index.html#x-def-1", target="_top"];
+     "X.2" [label="X.2", fillcolor="#222244", URL="../002/index.html", target="_top"];
+     "X.3" [label="X.3", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "X.2" -> "X.def.1";
+     "X.3" -> "X.2";
+   }
+
+Required for
+------------
+
+:ref:`X.4 <X.4>`
 
 ----
 

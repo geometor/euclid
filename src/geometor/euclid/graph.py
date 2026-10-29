@@ -1,11 +1,12 @@
-"""Module for building dependency graphs from Euclid's Elements XML."""
+"""Build dependency graphs and inject Graphviz proof chains into composed RST files under docsrc/heath/."""
 
 from __future__ import annotations
-import networkx as nx
-import xml.etree.ElementTree as ET
-import os
+
 import re
 from pathlib import Path
+from typing import Any, Dict, List, Optional, Set, Tuple
+
+import networkx as nx
 
 ROMAN_NUMERALS = {
     "1": "I",
@@ -23,488 +24,452 @@ ROMAN_NUMERALS = {
     "13": "XIII",
 }
 
-SECTION_TYPE_MAP = {"Def": "def", "Post": "post", "CN": "cn", "Prop": "prop"}
+ROMAN_TO_INT = {v: int(k) for k, v in ROMAN_NUMERALS.items()}
 
-CATEGORIES_KEYWORDS = ["construct", "describe", "bisect"]
-TAGS_KEYWORDS = ["line", "circle", "triangle"]
+VALID_BOOKS = set(ROMAN_NUMERALS.values())
+
+SECTION_TYPE_ORDER = {
+    "def": 1,
+    "post": 2,
+    "cn": 3,
+    "prop": 4,
+}
+
+_JUST_ROLE_RE = re.compile(r":just:`([^`]+)`")
+_DIR_JUST_RE = re.compile(
+    r"^\.\.\s+(?:assertion|subclause|sub-clause)::[ \t]+([^\n]+)",
+    re.MULTILINE,
+)
+_EXPLICIT_LABEL_RE = re.compile(r"^\.\.\s+_([^:\n]+):\s*$", re.MULTILINE)
 
 
-def get_taxonomy(enunciation_text: str) -> tuple[list[str], list[str]]:
-    """Extract categories and tags from enunciation text.
+def infer_justification_target(
+    display: str, current_book: Optional[str] = None
+) -> Optional[str]:
+    """Infer canonical target ID(s) from justification text when <target> is omitted."""
+    s = (display or "").strip()
+    if s.startswith("[") and s.endswith("]"):
+        s = s[1:-1].strip()
+    if not s or re.match(
+        r"^(?:Q\.\s*\$?E\$?\.|[*]?id[*]?\.|above|from above|Part\s+\d|First part|Prop\.\s*D|Simson|Pappus|\(\d+\))",
+        s,
+        re.IGNORECASE,
+    ):
+        return None
 
-    Args:
-        enunciation_text (str): The text of the enunciation.
+    m_deff = re.search(
+        r"\b([IVXLCDM]+)\.\s*Deff?\.\s*(III|II)(?:\.\s*(\d+))?",
+        s,
+        re.IGNORECASE,
+    )
+    if m_deff and m_deff.group(1).upper() in VALID_BOOKS:
+        bk = m_deff.group(1).upper()
+        sub = m_deff.group(2).lower()
+        num = m_deff.group(3)
+        return f"{bk}.def.{sub}.{num}" if num else f"{bk}.def.{sub}"
 
-    Returns:
-        tuple: A tuple containing a list of categories and a list of tags.
+    bk_default = (current_book or "I").upper()
+    m_post = re.match(r"^Post\.\s*(\d+)\.?$", s, re.IGNORECASE)
+    if m_post:
+        return f"I.post.{m_post.group(1)}"
+    m_cn = re.match(r"^C\.\s*N\.\s*(\d+)\.?$", s, re.IGNORECASE)
+    if m_cn:
+        return f"I.cn.{m_cn.group(1)}"
+    m_def_bare = re.match(r"^Def\.\s*(\d+)\.?$", s, re.IGNORECASE)
+    if m_def_bare:
+        return f"{bk_default}.def.{m_def_bare.group(1)}"
+
+    results: List[str] = []
+    pat = re.compile(
+        r"\b([IVXLCDM]+)\.\s*(?:(Def\.?)\s*(\d+)|(\d+)(?:\s*(?:,|and|or)\s*(\d+))?)",
+        re.IGNORECASE,
+    )
+    for m in pat.finditer(s):
+        bk = m.group(1).upper()
+        if bk not in VALID_BOOKS:
+            continue
+        if m.group(2):
+            results.append(f"{bk}.def.{m.group(3)}")
+        else:
+            results.append(f"{bk}.{m.group(4)}")
+            if m.group(5):
+                results.append(f"{bk}.{m.group(5)}")
+    if results:
+        return ", ".join(dict.fromkeys(results))
+    return None
+
+
+def parse_justification_arg(
+    raw_arg: str, current_book: Optional[str] = None
+) -> Tuple[str, Optional[str]]:
+    """Parse a justification string into (display_text, target_id)."""
+    text = (raw_arg or "").strip()
+    if not text:
+        return "", None
+
+    match = re.match(r"^(.*?)\s*<([^>]+)>$", text)
+    if match:
+        display = match.group(1).strip()
+        target = match.group(2).strip()
+        if not display:
+            display = f"[{target}]"
+        return display, target
+
+    if text.startswith("[") and text.endswith("]"):
+        return text, infer_justification_target(text, current_book=current_book)
+
+    if re.match(r"^[A-Za-z0-9_.-]+$", text) and "." in text:
+        return f"[{text}]", text
+
+    return text, infer_justification_target(text, current_book=current_book)
+
+
+def canonical_sort_key(ref_id: str) -> Tuple[int, int, int, int, str]:
+    """Return a deterministic sort key for canonical Euclid IDs (e.g. I.def.15, I.post.1, I.cn.4, I.47)."""
+    parts = ref_id.split(".")
+    if not parts:
+        return (999, 999, 0, 0, ref_id)
+
+    book_num = ROMAN_TO_INT.get(parts[0].upper(), 999)
+    if len(parts) == 2 and parts[1].isdigit():
+        return (book_num, SECTION_TYPE_ORDER["prop"], 0, int(parts[1]), ref_id)
+
+    sec_type = parts[1].lower() if len(parts) > 1 else ""
+    type_order = SECTION_TYPE_ORDER.get(sec_type, 99)
+
+    group_order = 0
+    item_num = 0
+    if len(parts) == 3 and parts[2].isdigit():
+        item_num = int(parts[2])
+    elif len(parts) == 4:
+        sub_map = {"i": 1, "ii": 2, "iii": 3}
+        group_order = sub_map.get(parts[2].lower(), 0)
+        if parts[3].isdigit():
+            item_num = int(parts[3])
+
+    return (book_num, type_order, group_order, item_num, ref_id)
+
+
+def get_node_type(ref_id: str) -> str:
+    """Classify a canonical Euclid ID into 'prop', 'def', 'post', or 'cn'."""
+    parts = ref_id.split(".")
+    if len(parts) >= 2:
+        sec = parts[1].lower()
+        if sec in ("def", "post", "cn"):
+            return sec
+        if sec.isdigit():
+            return "prop"
+    return "unknown"
+
+
+def _docutils_anchor_id(label: str) -> str:
+    """Convert an RST explicit label like 'I.def.15' into its docutils HTML id 'i-def-15'."""
+    return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+
+
+def extract_dependencies_from_rst_body(
+    rst_body: str, current_book: Optional[str] = None
+) -> List[str]:
+    """Extract sorted unique canonical dependency IDs from a composed RST body.
+
+    Strips footnote definitions and trailing commentary dividers so only dependencies
+    from Euclid's proof and porisms are recorded.
     """
-    categories = []
-    tags = []
+    # Strip trailing commentary link / hidden toctree / dependency sections
+    proof_part = re.split(r"\n----\n|\nDependency Graph\n----------------", rst_body, maxsplit=1)[0]
+    # Strip footnote definition lines (.. [#f...])
+    cleaned_lines: List[str] = []
+    in_footnote = False
+    for line in proof_part.splitlines():
+        if re.match(r"^\.\.\s+\[#[^\]]+\]", line):
+            in_footnote = True
+            continue
+        if in_footnote:
+            if not line.strip() or line.startswith("   ") or line.startswith("\t"):
+                continue
+            in_footnote = False
+        cleaned_lines.append(line)
+    cleaned_body = "\n".join(cleaned_lines)
 
-    lower_text = enunciation_text.lower()
+    deps: Set[str] = set()
+    for m in _JUST_ROLE_RE.finditer(cleaned_body):
+        _, target = parse_justification_arg(m.group(1), current_book=current_book)
+        if target:
+            for part in target.split(","):
+                p = part.strip()
+                if p:
+                    deps.add(p)
 
-    for keyword in CATEGORIES_KEYWORDS:
-        if keyword in lower_text:
-            categories.append(keyword)
+    for m in _DIR_JUST_RE.finditer(cleaned_body):
+        _, target = parse_justification_arg(m.group(1), current_book=current_book)
+        if target:
+            for part in target.split(","):
+                p = part.strip()
+                if p:
+                    deps.add(p)
 
-    for keyword in TAGS_KEYWORDS:
-        if keyword in lower_text:
-            tags.append(keyword)
-
-    return categories, tags
+    return sorted(deps, key=canonical_sort_key)
 
 
-def convert_inline_xml_to_rst(
-    element: ET.Element | None, dependencies: list[str], is_enunciation: bool = False
+def _strip_existing_graph_sections(rst_text: str) -> str:
+    """Remove any previously injected Dependency Graph and Required for sections from rst_text."""
+    pattern = re.compile(
+        r"\n*Dependency Graph\n----------------\n.*?(?=\n----\n|\n\.\.\s+toctree::|\Z)",
+        re.DOTALL,
+    )
+    cleaned = pattern.sub("", rst_text)
+    req_pattern = re.compile(
+        r"\n*Required for\n------------\n.*?(?=\n----\n|\n\.\.\s+toctree::|\Z)",
+        re.DOTALL,
+    )
+    cleaned = req_pattern.sub("", cleaned)
+    return cleaned
+
+
+def _update_frontmatter_dependencies(rst_text: str, deps: List[str]) -> str:
+    """Insert or update the :dependencies: field in the top metadata block of rst_text."""
+    lines = rst_text.splitlines()
+    dep_line = f":dependencies: {', '.join(deps)}" if deps else None
+
+    end_meta_idx = 0
+    existing_dep_idx: Optional[int] = None
+    for idx, line in enumerate(lines):
+        s = line.strip()
+        if s.startswith(":") and ":" in s[1:]:
+            end_meta_idx = idx + 1
+            if s.startswith(":dependencies:"):
+                existing_dep_idx = idx
+        elif not s and end_meta_idx > 0:
+            break
+        else:
+            break
+
+    if existing_dep_idx is not None:
+        if dep_line:
+            lines[existing_dep_idx] = dep_line
+        else:
+            lines.pop(existing_dep_idx)
+    elif dep_line and end_meta_idx > 0:
+        lines.insert(end_meta_idx, dep_line)
+
+    return "\n".join(lines) + "\n"
+
+
+def generate_proof_chain_dot(
+    graph: nx.DiGraph,
+    element_ref: str,
+    current_dir: Path,
+    label_to_target: Dict[str, Tuple[Path, Optional[str]]],
 ) -> str:
-    """Converts inline XML elements to RST format."""
-    if element is None:
-        return ""
+    """Generate a Graphviz DOT string for the transitive proof chain of element_ref.
 
-    # Handle non-recursive tags first
-    if element.tag == "ref":
-        target_attr = element.get("target")
-        if target_attr:
-            targets = target_attr.split()
-            rst_links = []
-
-            for target in targets:
-                target_parts = target.split(".")
-                canonical_ref = None  # Initialize as None
-                if len(target_parts) >= 3 and target_parts[0] == "elem":
-                    book_num_str = target_parts[1]
-                    book_num_roman = ROMAN_NUMERALS.get(book_num_str)
-
-                    if book_num_roman:
-                        if len(target_parts) == 5:
-                            # Handle nested definitions like elem.10.def.3.1
-                            if target_parts[2] == "def":
-                                group_num = target_parts[3]
-                                item_num = target_parts[4]
-                                canonical_ref = (
-                                    f"{book_num_roman}.def.{group_num}.{item_num}"
-                                )
-                            elif target_parts[2] == "c" and target_parts[3] == "n":
-                                section_type_canonical = "cn"
-                                item_num = target_parts[4]
-                                canonical_ref = f"{book_num_roman}.{section_type_canonical}.{item_num}"
-                            elif target_parts[3] == "p":
-                                prop_num = target_parts[2]
-                                porism_num = target_parts[4]
-                                canonical_ref = (
-                                    f"{book_num_roman}.{prop_num}.p.{porism_num}"
-                                )
-                            elif target_parts[3] == "l":
-                                prop_num = target_parts[2]
-                                lemma_num = target_parts[4]
-                                canonical_ref = (
-                                    f"{book_num_roman}.{prop_num}.l.{lemma_num}"
-                                )
-                        elif len(target_parts) == 4 and target_parts[2] == "post":
-                            section_type_canonical = "post"
-                            item_num = target_parts[3]
-                            canonical_ref = (
-                                f"{book_num_roman}.{section_type_canonical}.{item_num}"
-                            )
-                        elif len(target_parts) == 4:
-                            section_type_str = target_parts[2]
-                            item_num = target_parts[3]
-                            section_type_canonical = SECTION_TYPE_MAP.get(
-                                section_type_str.capitalize()
-                            )
-                            if section_type_canonical:
-                                canonical_ref = f"{book_num_roman}.{section_type_canonical}.{item_num}"
-                        elif len(target_parts) == 3:
-                            item_num = target_parts[2]
-                            if book_num_roman:
-                                canonical_ref = f"{book_num_roman}.{item_num}"
-
-                if canonical_ref:
-                    dependencies.append(canonical_ref)
-                else:
-                    dependencies.append(target)
-
-                ref_link = canonical_ref if canonical_ref else target
-                rst_links.append(f":ref:`{ref_link} <{ref_link}>`")
-
-            return " ".join(rst_links)
-        else:
-            link_text = "".join(element.itertext()).strip()
-            # temp_split_parts = re.split(r'[\s.]+', link_text)
-            canonical_ref = f"**{link_text}**"
-            return f"{canonical_ref}"
-
-    if element.tag == "lb" or element.tag == "pb":
-        return ""
-
-    if element.tag == "figure":
-        return ""  # Handled by the p-handler which deals with block-level elements
-
-    # Handle container-like tags recursively
-    parts = []
-    if element.text:
-        parts.append(element.text)
-
-    for child in element:
-        parts.append(convert_inline_xml_to_rst(child, dependencies, is_enunciation))
-        if child.tail:
-            parts.append(child.tail)
-
-    content = "".join(parts)
-
-    # Apply formatting based on the container's tag
-    if element.tag == "emph":
-        if is_enunciation:
-            return f"{content.strip()}"
-        else:
-            return f"``{content.strip()}``"
-    elif element.tag == "term":
-        return f"**{content.strip()}**"
-
-    return content
-
-
-def parse_book_xml(
-    file_path: str | Path, entry_number_start: int = 0
-) -> tuple[dict, int]:
-    """Parses a book XML file and returns structured data."""
-    tree = ET.parse(file_path)
-    root = tree.getroot()
-
-    book_data = {"book_number_roman": None, "book_number_arabic": None, "sections": []}
-
-    div1 = root.find(".//div1[@type='book']")
-    if div1 is not None:
-        book_data["book_number_arabic"] = div1.attrib.get("n")
-        book_data["book_number_roman"] = ROMAN_NUMERALS.get(
-            book_data["book_number_arabic"]
-        )
-
-        entry_number = entry_number_start  # Initialize entry_number here
-        for div2 in div1.findall(".//div2"):
-            section_type_raw = div2.attrib.get("n")
-            # Handle cases like "Def 1", "Prop 1" in Book 10
-            type_key = section_type_raw.split()[0] if section_type_raw else ""
-            section_type_canonical = SECTION_TYPE_MAP.get(type_key)
-            section_head = div2.find("./head")
-            section_title = (
-                section_head.text if section_head is not None else section_type_raw
-            )
-
-            section_data = {
-                "type_raw": section_type_raw,
-                "type_canonical": section_type_canonical,
-                "title": section_title,
-                "entries": [],
-            }
-
-            for div3 in div2.findall(".//div3"):
-                entry_number += 1  # Increment entry_number here
-                entry_id = div3.attrib.get("id")
-                entry_n = div3.attrib.get("n")
-                entry_head = div3.find("./head")
-                entry_title = entry_head.text if entry_head is not None else entry_id
-
-                # Generate canonical reference for the entry
-                canonical_ref = None
-                folder_name = None
-                # entry_title will be set to canonical_ref later
-
-                if entry_id:
-                    parts = entry_id.split(".")
-                    book_num_roman = ROMAN_NUMERALS.get(parts[1])
-
-                    if book_num_roman:
-                        if len(parts) == 5:
-                            # Handle nested definitions like elem.10.def.3.1
-                            section_type_str = parts[2]
-                            # Check if it is a definition
-                            if section_type_str == "def":
-                                group_num = parts[3]
-                                item_num = parts[4]
-                                canonical_ref = (
-                                    f"{book_num_roman}.def.{group_num}.{item_num}"
-                                )
-                                folder_name = f"def.{group_num}.{item_num}"
-                            elif parts[2] == "c" and parts[3] == "n":
-                                item_num = parts[4]
-                                canonical_ref = f"{book_num_roman}.cn.{item_num}"
-                                folder_name = f"cn.{item_num}"
-                        elif len(parts) == 4 and parts[2] == "post":
-                            item_num = parts[3]
-                            canonical_ref = f"{book_num_roman}.post.{item_num}"
-                            folder_name = f"post.{item_num}"
-                        elif len(parts) == 4:
-                            section_type = SECTION_TYPE_MAP.get(parts[2].capitalize())
-                            item_num = parts[3]
-                            if section_type:
-                                canonical_ref = (
-                                    f"{book_num_roman}.{section_type}.{item_num}"
-                                )
-                                folder_name = f"{section_type}.{item_num}"
-                        elif len(parts) == 3:
-                            item_num = parts[2]
-                            canonical_ref = f"{book_num_roman}.{item_num}"
-                            folder_name = item_num
-
-                entry_title = (
-                    canonical_ref if canonical_ref else entry_id
-                )  # Use canonical_ref as title
-
-                entry_content_rst = []
-                enunc_text = ""
-                dependencies = []
-
-                def format_as_blockquote(text: str) -> str:
-                    if not text:
-                        return ""
-                    lines = text.strip().split("\n")
-                    indented_lines = [f"   {line}" for line in lines]
-                    return "\n".join(indented_lines)
-
-                # Handle Enunciation: either from div4 or the first p tag
-                enunc_div = div3.find("./div4[@type='Enunc']")
-                if enunc_div is not None:
-                    enunc_p = enunc_div.find("p")
-                    if enunc_p is not None:
-                        enunc_text = convert_inline_xml_to_rst(
-                            enunc_p, dependencies, is_enunciation=True
-                        )
-                        entry_content_rst.append(format_as_blockquote(enunc_text))
-                else:
-                    # If no Enunc div4, treat the first p as enunciation
-                    first_p = div3.find("p")
-                    if first_p is not None:
-                        enunc_text = convert_inline_xml_to_rst(
-                            first_p, dependencies, is_enunciation=True
-                        )
-                        entry_content_rst.append(format_as_blockquote(enunc_text))
-
-                # Process remaining elements
-                is_first_p = True
-                for child in div3:
-                    if child.tag == "head":
-                        continue
-
-                    # Skip the enunciation div4 if it exists
-                    if child.tag == "div4" and child.attrib.get("type") == "Enunc":
-                        continue
-
-                    # Skip the first p if it was used as enunciation
-                    if child.tag == "p" and is_first_p and enunc_div is None:
-                        is_first_p = False
-                        continue
-                    is_first_p = False
-
-                    if child.tag == "div4":
-                        div4_type = child.attrib.get("type")
-                        if div4_type == "Proof":
-                            pass
-                        elif div4_type == "QED":
-                            entry_content_rst.append("\n**Q. E. D.**\n")
-                        elif div4_type == "porism":
-                            porism_id = child.attrib.get("id")
-
-                            # Create canonical title like III.1.p.1
-                            porism_title = "Porism"  # Default
-                            if porism_id:
-                                parts = porism_id.split(".")
-                                if len(parts) == 5:
-                                    book_roman = ROMAN_NUMERALS.get(parts[1])
-                                    prop_num = parts[2]
-                                    p_literal = parts[3]
-                                    porism_num = parts[4]
-                                    if book_roman:
-                                        porism_title = f"{book_roman}.{prop_num}.{p_literal}.{porism_num}"
-
-                            porism_content = []
-                            for grand_child in child:
-                                if grand_child.tag == "p":
-                                    inline_rst = convert_inline_xml_to_rst(
-                                        grand_child, dependencies
-                                    )
-                                    if inline_rst:
-                                        porism_content.append(inline_rst)
-
-                            if porism_id and porism_content:
-                                entry_content_rst.append(f"\n.. _{porism_id}:\n")
-                                entry_content_rst.append(f"**{porism_title}**\n")
-                                entry_content_rst.append("\n".join(porism_content))
-                            continue
-
-                        # Process content within div4
-                        div4_inner_content = []
-                        for grand_child in child:
-                            if grand_child.tag == "p":
-                                inline_rst = convert_inline_xml_to_rst(
-                                    grand_child, dependencies
-                                )
-                                if inline_rst:
-                                    div4_inner_content.append(inline_rst)
-                            elif grand_child.tag == "figure":
-                                pass
-                            elif (
-                                grand_child.tag == "hi"
-                                and grand_child.attrib.get("rend") == "center"
-                            ):
-                                content = "".join(grand_child.itertext()).strip()
-                                if content:
-                                    div4_inner_content.append(
-                                        f"\n.. container:: center\n\n   {content}\n"
-                                    )
-                            else:
-                                inline_rst = convert_inline_xml_to_rst(
-                                    grand_child, dependencies
-                                )
-                                if inline_rst:
-                                    div4_inner_content.append(inline_rst)
-
-                        if div4_inner_content:
-                            entry_content_rst.append("\n\n".join(div4_inner_content))
-
-                    elif child.tag == "p":
-                        paragraph_rst_blocks = []
-                        current_inline_parts = []
-
-                        def flush_inline_parts() -> None:
-                            nonlocal current_inline_parts
-                            if not current_inline_parts:
-                                return
-                            full_text = "".join(current_inline_parts)
-                            lines = full_text.split("\n")
-                            cleaned_lines = [
-                                re.sub(r"\s+", " ", line).strip() for line in lines
-                            ]
-                            final_text = "\n".join(
-                                line for line in cleaned_lines if line
-                            )
-                            if final_text:
-                                paragraph_rst_blocks.append(final_text)
-                            current_inline_parts = []
-
-                        if child.text:
-                            current_inline_parts.append(child.text)
-
-                        for grand_child in child:
-                            if grand_child.tag == "figure":
-                                flush_inline_parts()
-                            elif (
-                                grand_child.tag == "hi"
-                                and grand_child.attrib.get("rend") == "center"
-                            ):
-                                flush_inline_parts()
-                                content = convert_inline_xml_to_rst(
-                                    grand_child, dependencies
-                                )
-                                if content:
-                                    indented_content = "\n   ".join(
-                                        content.splitlines()
-                                    )
-                                    paragraph_rst_blocks.append(
-                                        f"\n.. container:: center\n\n   {indented_content}\n"
-                                    )
-                            else:
-                                inline_rst = convert_inline_xml_to_rst(
-                                    grand_child, dependencies
-                                )
-                                if inline_rst:
-                                    current_inline_parts.append(inline_rst)
-
-                            if grand_child.tail:
-                                current_inline_parts.append(grand_child.tail)
-
-                        flush_inline_parts()
-
-                        if paragraph_rst_blocks:
-                            entry_content_rst.append("\n\n".join(paragraph_rst_blocks))
-                    elif child.tag == "figure":
-                        pass
-                    elif child.tag == "hi" and child.attrib.get("rend") == "center":
-                        content = "".join(child.itertext()).strip()
-                        if content:
-                            entry_content_rst.append(
-                                f"\n.. container:: center\n\n   {content}\n"
-                            )
-                    elif child.tag == "note":
-                        note_title = child.attrib.get("n", "")
-                        note_content = []
-                        if note_title:
-                            note_content.append(f"**{note_title}**")
-
-                        note_dependencies = []  # Discard dependencies found in notes
-                        for grand_child in child:
-                            if grand_child.tag == "p":
-                                inline_rst = convert_inline_xml_to_rst(
-                                    grand_child, note_dependencies
-                                )
-                                if inline_rst:
-                                    note_content.append(inline_rst)
-
-                        if note_content:
-                            entry_content_rst.append(f"\n.. note::\n")
-                            full_note_content = "\n\n".join(note_content)
-                            for line in full_note_content.splitlines():
-                                entry_content_rst.append(f"   {line}")
-                        entry_content_rst.append("")  # Add an empty line after the note
-                    else:
-                        inline_rst = convert_inline_xml_to_rst(child, dependencies)
-                        if inline_rst:
-                            entry_content_rst.append(inline_rst)
-
-                section_data["entries"].append(
-                    {
-                        "id": entry_id,
-                        "n": entry_n,
-                        "title": entry_title,
-                        "canonical_ref": canonical_ref,
-                        "folder_name": folder_name,
-                        "content_rst": "\n\n".join(filter(None, entry_content_rst)),
-                        "order": entry_n,
-                        "number": entry_number,
-                        "type": section_type_canonical,
-                        "enunciation": enunc_text,
-                        "dependencies": dependencies,
-                    }
-                )
-            book_data["sections"].append(section_data)
-    return book_data, entry_number
-
-
-def build_graph(xml_dir: Path | None = None) -> tuple[nx.DiGraph, list[dict]]:
-    """Build a NetworkX dependency graph from the XML source files.
-
-    Args:
-        xml_dir (Path, optional): The directory containing the XML book files.
-            Defaults to 'resources/xml/books' in the project root.
-
-    Returns:
-        tuple: A tuple containing the NetworkX DiGraph and a list of book data dictionaries.
+    Note: Sphinx's ``sphinx.ext.graphviz.fix_svg_relative_paths`` resolves ``URL``
+    attributes in DOT relative to the source RST document's directory (``current_dir``)
+    and rewrites them to be relative to ``_images/`` in the output SVG.
     """
-    if xml_dir is None:
-        # Default to project root resources if not specified
-        # Assuming this file is in src/geometor/elements/graph.py
-        # Project root is ../../../..
+    import os
+
+    if element_ref not in graph:
+        return ""
+
+    descendants = nx.descendants(graph, element_ref)
+    if not descendants:
+        return ""
+
+    nodes_in_chain = sorted(descendants.union({element_ref}), key=canonical_sort_key)
+
+    dot_lines = [
+        "digraph {",
+        '  bgcolor="transparent";',
+        '  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];',
+        '  edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];',
+        '  rankdir="TB";',
+    ]
+
+    for node in nodes_in_chain:
+        attrs = [f'label="{node}"']
+        node_type = get_node_type(node)
+
+        fillcolor = "#333333"
+        if node == element_ref:
+            attrs.append("penwidth=2.5")
+            attrs.append('color="#e8b85a"')
+            fillcolor = "#4a453b"
+        else:
+            if node_type == "def":
+                fillcolor = "#224422"
+            elif node_type == "prop":
+                fillcolor = "#222244"
+            elif node_type == "cn":
+                fillcolor = "#442222"
+            elif node_type == "post":
+                fillcolor = "#444422"
+
+        attrs.append(f'fillcolor="{fillcolor}"')
+
+        target_info = label_to_target.get(node.lower())
+        if not target_info and node.lower().startswith("viii.def."):
+            target_info = label_to_target.get("vii." + node.lower()[5:])
+        if target_info:
+            target_html_path, anchor = target_info
+            rel_path = os.path.relpath(target_html_path, start=current_dir).replace("\\", "/")
+            url = f"{rel_path}#{anchor}" if anchor else rel_path
+            attrs.append(f'URL="{url}"')
+            attrs.append('target="_top"')
+
+        attr_str = ", ".join(attrs)
+        dot_lines.append(f'  "{node}" [{attr_str}];')
+
+    for node in nodes_in_chain:
+        for pred in sorted(graph.predecessors(node), key=canonical_sort_key):
+            if pred in nodes_in_chain:
+                dot_lines.append(f'  "{pred}" -> "{node}";')
+
+    dot_lines.append("}")
+    return "\n".join(dot_lines)
+
+
+def build_graph(
+    heath_out_dir: Path | None = None,
+    inject_rst: bool = True,
+) -> Tuple[nx.DiGraph, Dict[str, Any]]:
+    """Build the NetworkX dependency graph from the composed RST files under docsrc/heath/.
+
+    If inject_rst is True, updates :dependencies: and injects the 'Dependency Graph'
+    (.. graphviz::) and 'Required for' sections into every proposition's index.rst.
+    """
+    if heath_out_dir is None:
         current_file = Path(__file__)
         project_root = current_file.parent.parent.parent.parent
-        xml_dir = project_root / "resources/xml/books"
+        heath_out_dir = project_root / "docsrc" / "heath"
 
-    all_books_data = []
-    entry_number = 0
-    for i in range(1, 2):
-        xml_file_path = Path(xml_dir) / f"{i:02d}.xml"
-        if xml_file_path.exists():
-            book_data, entry_number = parse_book_xml(str(xml_file_path), entry_number)
-            all_books_data.append(book_data)
-        else:
-            print(f"Warning: XML file not found at {xml_file_path}")
+    heath_out_dir = Path(heath_out_dir)
 
+    # 1. Index all explicit labels across docsrc/heath/ to map canonical IDs to (html_path, anchor)
+    label_to_target: Dict[str, Tuple[Path, Optional[str]]] = {}
+    prop_files: List[Tuple[str, str, Path]] = []
+
+    for rst_path in sorted(heath_out_dir.rglob("index.rst")):
+        html_path = rst_path.with_suffix(".html")
+        txt = rst_path.read_text(encoding="utf-8")
+
+        m_cid = re.search(r"^:canonical_id:\s*(.+)$", txt, re.MULTILINE)
+        m_type = re.search(r"^:type:\s*(.+)$", txt, re.MULTILINE)
+        m_book = re.search(r"^:book:\s*(.+)$", txt, re.MULTILINE)
+
+        cid = m_cid.group(1).strip() if m_cid else ""
+        utype = m_type.group(1).strip() if m_type else ""
+        book_roman = m_book.group(1).strip() if m_book else "I"
+
+        if cid:
+            label_to_target[cid.lower()] = (html_path, None)
+
+        for m_lbl in _EXPLICIT_LABEL_RE.finditer(txt):
+            lbl = m_lbl.group(1).strip()
+            if lbl.lower() == cid.lower():
+                label_to_target[lbl.lower()] = (html_path, None)
+            else:
+                anchor = _docutils_anchor_id(lbl)
+                label_to_target[lbl.lower()] = (html_path, anchor)
+
+        if utype == "proposition" and cid:
+            prop_files.append((cid, book_roman, rst_path))
+
+    # 2. Extract dependencies from each composed proposition index.rst and build DiGraph
     G = nx.DiGraph()
-    for book_data in all_books_data:
-        for section in book_data["sections"]:
-            for entry in section["entries"]:
-                if entry["canonical_ref"]:
-                    G.add_node(entry["canonical_ref"], **entry)
-                    for dep in sorted(list(set(entry["dependencies"]))):
-                        G.add_edge(entry["canonical_ref"], dep)
+    prop_deps_map: Dict[str, List[str]] = {}
 
-    return G, all_books_data
+    for cid, book_roman, rst_path in prop_files:
+        raw_txt = rst_path.read_text(encoding="utf-8")
+        cleaned_txt = _strip_existing_graph_sections(raw_txt)
+        deps = [
+            d
+            for d in extract_dependencies_from_rst_body(cleaned_txt, current_book=book_roman)
+            if d != cid
+        ]
+        prop_deps_map[cid] = deps
+
+        G.add_node(
+            cid,
+            canonical_ref=cid,
+            type="prop",
+            book=book_roman,
+            dependencies=deps,
+            path=str(rst_path),
+        )
+        for dep in deps:
+            if dep not in G:
+                G.add_node(
+                    dep,
+                    canonical_ref=dep,
+                    type=get_node_type(dep),
+                    book=dep.split(".")[0] if "." in dep else book_roman,
+                    dependencies=[],
+                )
+            G.add_edge(cid, dep)
+
+    # 3. Inject Dependency Graph and Required for sections into composed proposition files
+    graphs_injected = 0
+    required_for_injected = 0
+
+    if inject_rst:
+        for cid, book_roman, rst_path in prop_files:
+            raw_txt = rst_path.read_text(encoding="utf-8")
+            cleaned_txt = _strip_existing_graph_sections(raw_txt)
+            deps = prop_deps_map.get(cid, [])
+            updated_txt = _update_frontmatter_dependencies(cleaned_txt, deps)
+
+            extra_sections: List[str] = []
+
+            dot_str = generate_proof_chain_dot(G, cid, rst_path.parent, label_to_target)
+            if dot_str:
+                indented_dot = "\n".join(f"   {line}" for line in dot_str.splitlines())
+                extra_sections.append(
+                    f"Dependency Graph\n----------------\n\n.. graphviz::\n\n{indented_dot}"
+                )
+                graphs_injected += 1
+
+            ancestors = sorted(
+                [a for a in nx.ancestors(G, cid) if get_node_type(a) == "prop"],
+                key=canonical_sort_key,
+            )
+            if ancestors:
+                ref_links = [f":ref:`{req} <{req}>`" for req in ancestors]
+                extra_sections.append(
+                    f"Required for\n------------\n\n{', '.join(ref_links)}"
+                )
+                required_for_injected += 1
+
+            if extra_sections:
+                insertion = "\n\n" + "\n\n".join(extra_sections) + "\n\n"
+                # Insert before trailing commentary divider (`----`) or hidden `.. toctree::`
+                m_tail = re.search(
+                    r"\n(----\n\nSee :ref:`Commentary|\.\.\s+toctree::\n\s+:hidden:)",
+                    updated_txt,
+                )
+                if m_tail:
+                    split_pos = m_tail.start()
+                    updated_txt = (
+                        updated_txt[:split_pos].rstrip()
+                        + insertion
+                        + updated_txt[split_pos:].lstrip("\n")
+                    )
+                else:
+                    updated_txt = updated_txt.rstrip() + insertion
+
+            if updated_txt != raw_txt:
+                rst_path.write_text(updated_txt.rstrip() + "\n", encoding="utf-8")
+
+    stats = {
+        "propositions_scanned": len(prop_files),
+        "total_nodes": G.number_of_nodes(),
+        "total_edges": G.number_of_edges(),
+        "graphs_injected": graphs_injected,
+        "required_for_injected": required_for_injected,
+    }
+    return G, stats
+
+
+if __name__ == "__main__":
+    _, summary = build_graph()
+    print(summary)

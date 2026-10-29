@@ -80,6 +80,21 @@ Similarly we can prove that, even if :g:`$GB$ <0153.g1:/ G B />` be a multiple o
 
    Therefore etc. :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.2" [label="V.2", fillcolor="#222244", URL="../02/index.html", target="_top"];
+     "V.6" [label="V.6", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.6" -> "V.2";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition V.6 <V.6.commentary>`.

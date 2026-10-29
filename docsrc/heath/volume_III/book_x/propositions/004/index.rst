@@ -132,6 +132,25 @@ For, if possible, let there be some magnitude :g:`$F$ <0026.g1:F>` greater than 
 
    Similarly too, with more magnitudes, the greatest common measure can be found, and the porism can be extended. :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "X.def.1" [label="X.def.1", fillcolor="#224422", URL="../../definitions/index.html#x-def-1", target="_top"];
+     "X.2" [label="X.2", fillcolor="#222244", URL="../002/index.html", target="_top"];
+     "X.3" [label="X.3", fillcolor="#222244", URL="../003/index.html", target="_top"];
+     "X.4" [label="X.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "X.2" -> "X.def.1";
+     "X.3" -> "X.2";
+     "X.4" -> "X.3";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition X.4 <X.4.commentary>`.

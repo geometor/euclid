@@ -6,7 +6,7 @@
 :title: Proposition VIII.10
 :folios: 0366, 0367, 0368
 :pages: 360, 361, 362
-:dependencies: VII.17, VII.18, VII.def.20
+:dependencies: VII.def.20, VII.17, VII.18
 
 .. _VIII.10:
 
@@ -174,6 +174,50 @@ For let :g:`$D$ <0367.g1:D>` by multiplying :g:`$F$ <0367.g1:F>` make :g:`$H$ <0
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.20" [label="VII.def.20", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
+     "VII.5" [label="VII.5", fillcolor="#222244", URL="../../../book_vii/propositions/05/index.html", target="_top"];
+     "VII.6" [label="VII.6", fillcolor="#222244", URL="../../../book_vii/propositions/06/index.html", target="_top"];
+     "VII.9" [label="VII.9", fillcolor="#222244", URL="../../../book_vii/propositions/09/index.html", target="_top"];
+     "VII.10" [label="VII.10", fillcolor="#222244", URL="../../../book_vii/propositions/10/index.html", target="_top"];
+     "VII.12" [label="VII.12", fillcolor="#222244", URL="../../../book_vii/propositions/12/index.html", target="_top"];
+     "VII.13" [label="VII.13", fillcolor="#222244", URL="../../../book_vii/propositions/13/index.html", target="_top"];
+     "VII.15" [label="VII.15", fillcolor="#222244", URL="../../../book_vii/propositions/15/index.html", target="_top"];
+     "VII.16" [label="VII.16", fillcolor="#222244", URL="../../../book_vii/propositions/16/index.html", target="_top"];
+     "VII.17" [label="VII.17", fillcolor="#222244", URL="../../../book_vii/propositions/17/index.html", target="_top"];
+     "VII.18" [label="VII.18", fillcolor="#222244", URL="../../../book_vii/propositions/18/index.html", target="_top"];
+     "VIII.10" [label="VIII.10", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.12" -> "VII.def.20";
+     "VII.13" -> "VII.def.20";
+     "VII.17" -> "VII.def.20";
+     "VIII.10" -> "VII.def.20";
+     "VII.6" -> "VII.5";
+     "VII.9" -> "VII.5";
+     "VII.10" -> "VII.5";
+     "VII.12" -> "VII.5";
+     "VII.9" -> "VII.6";
+     "VII.10" -> "VII.6";
+     "VII.12" -> "VII.6";
+     "VII.10" -> "VII.9";
+     "VII.13" -> "VII.10";
+     "VII.15" -> "VII.12";
+     "VII.17" -> "VII.13";
+     "VII.16" -> "VII.15";
+     "VII.18" -> "VII.16";
+     "VII.18" -> "VII.17";
+     "VIII.10" -> "VII.17";
+     "VIII.10" -> "VII.18";
+   }
 
 ----
 

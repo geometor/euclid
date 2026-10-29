@@ -66,6 +66,23 @@ Let it be measured by :g:`$D$ <0395.g1:D>`; and, as many times as :g:`$D$ <0395.
 
    :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.13" [label="VII.def.13", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-13", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
+     "IX.7" [label="IX.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.7" -> "VII.def.13";
+     "IX.7" -> "VII.def.15";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition IX.7 <IX.7.commentary>`.

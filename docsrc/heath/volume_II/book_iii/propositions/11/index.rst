@@ -69,6 +69,11 @@ But :g:`$AG$ <0030.g2:/ A G />` is :eq:`equal <0030.g2:/ A G / = 0030.g2:/ G D /
 
 .. [#f2] **point of contact** is here συναφή, and in the enunciation of the next proposition ἐπαφή.
 
+Required for
+------------
+
+:ref:`III.13 <III.13>`
+
 ----
 
 See :ref:`Commentary on Proposition III.11 <III.11.commentary>`.

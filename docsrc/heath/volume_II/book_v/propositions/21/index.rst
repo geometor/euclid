@@ -6,7 +6,7 @@
 :title: Proposition V.21
 :folios: 0184, 0185
 :pages: 178, 179
-:dependencies: V.10, V.13, V.8
+:dependencies: V.8, V.10, V.13
 
 .. _V.21:
 
@@ -71,6 +71,43 @@ Similarly we can prove that, if :g:`$A$ <0184.g1:A>` be :eq:`equal <0184.g1:A = 
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.4" [label="V.def.4", fillcolor="#224422", URL="../../definitions/index.html#v-def-4", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.7" [label="V.def.7", fillcolor="#224422", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.1" [label="V.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
+     "V.7" [label="V.7", fillcolor="#222244", URL="../07/index.html", target="_top"];
+     "V.8" [label="V.8", fillcolor="#222244", URL="../08/index.html", target="_top"];
+     "V.10" [label="V.10", fillcolor="#222244", URL="../10/index.html", target="_top"];
+     "V.13" [label="V.13", fillcolor="#222244", URL="../13/index.html", target="_top"];
+     "V.21" [label="V.21", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.8" -> "V.def.4";
+     "V.7" -> "V.def.5";
+     "V.13" -> "V.def.5";
+     "V.8" -> "V.def.7";
+     "V.13" -> "V.def.7";
+     "V.8" -> "V.1";
+     "V.10" -> "V.7";
+     "V.10" -> "V.8";
+     "V.21" -> "V.8";
+     "V.21" -> "V.10";
+     "V.21" -> "V.13";
+   }
+
+Required for
+------------
+
+:ref:`V.23 <V.23>`
 
 ----
 

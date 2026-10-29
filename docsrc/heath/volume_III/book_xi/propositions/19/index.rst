@@ -6,7 +6,7 @@
 :title: Proposition XI.19
 :folios: 0308, 0309
 :pages: 304, 305
-:dependencies: XI.13, XI.def.4
+:dependencies: XI.def.4, XI.13
 
 .. _XI.19:
 
@@ -55,6 +55,27 @@ For suppose it is not, and from the point :g:`$D$ <0308.g2:D>` let :g:`$DE$ <030
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "XI.def.3" [label="XI.def.3", fillcolor="#224422", URL="../../definitions/index.html#xi-def-3", target="_top"];
+     "XI.def.4" [label="XI.def.4", fillcolor="#224422", URL="../../definitions/index.html#xi-def-4", target="_top"];
+     "XI.3" [label="XI.3", fillcolor="#222244", URL="../03/index.html", target="_top"];
+     "XI.13" [label="XI.13", fillcolor="#222244", URL="../13/index.html", target="_top"];
+     "XI.19" [label="XI.19", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "XI.13" -> "XI.def.3";
+     "XI.19" -> "XI.def.4";
+     "XI.13" -> "XI.3";
+     "XI.19" -> "XI.13";
+   }
 
 ----
 
