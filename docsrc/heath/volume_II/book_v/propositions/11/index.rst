@@ -21,38 +21,38 @@ PROPOSITION 11.
 
    Ratios which are the same with the same ratio are also the same with one another.
 
-For, as :g:`$A$ <0164.g1:A>` is to :g:`$B$ <0164.g1:B>`, so let :g:`$C$ <0164.g1:C>` be to :g:`$D$ <0164.g1:D>`, and, as :g:`$C$ <0164.g1:C>` is to :g:`$D$ <0164.g1:D>`, so let :g:`$E$ <0164.g1:E>` be to :g:`$F$ <0164.g1:F>`;
+For, as :g:`A <0164.g1:A>` is to :g:`B <0164.g1:B>`, so let :g:`C <0164.g1:C>` be to :g:`D <0164.g1:D>`, and, as :g:`C <0164.g1:C>` is to :g:`D <0164.g1:D>`, so let :g:`E <0164.g1:E>` be to :g:`F <0164.g1:F>`;
 
-I say that, as :g:`$A$ <0164.g1:A>` is to :g:`$B$ <0164.g1:B>`, so is :g:`$E$ <0164.g1:E>` to :g:`$F$ <0164.g1:F>`.
+I say that, as :g:`A <0164.g1:A>` is to :g:`B <0164.g1:B>`, so is :g:`E <0164.g1:E>` to :g:`F <0164.g1:F>`.
 
 .. picture:: 0164.g1.svg
    :alt: Folio 0164 Figure 1
 
-For of :g:`$A$ <0164.g1:A>`, :g:`$C$ <0164.g1:C>`, :g:`$E$ <0164.g1:E>` let equimultiples :g:`$G$ <0164.g1:G>`, :g:`$H$ <0164.g1:H>`, :g:`$K$ <0164.g1:K>` be taken, and of :g:`$B$ <0164.g1:B>`, :g:`$D$ <0164.g1:D>`, :g:`$F$ <0164.g1:F>` other, chance, equimultiples :g:`$L$ <0164.g1:L>`, :g:`$M$ <0164.g1:M>`, :g:`$N$ <0164.g1:N>`.
+For of :g:`A <0164.g1:A>`, :g:`C <0164.g1:C>`, :g:`E <0164.g1:E>` let equimultiples :g:`G <0164.g1:G>`, :g:`H <0164.g1:H>`, :g:`K <0164.g1:K>` be taken, and of :g:`B <0164.g1:B>`, :g:`D <0164.g1:D>`, :g:`F <0164.g1:F>` other, chance, equimultiples :g:`L <0164.g1:L>`, :g:`M <0164.g1:M>`, :g:`N <0164.g1:N>`.
 
-Then since, as :g:`$A$ <0164.g1:A>` is to :g:`$B$ <0164.g1:B>`, so is :g:`$C$ <0164.g1:C>` to :g:`$D$ <0164.g1:D>`, and of :g:`$A$ <0164.g1:A>`, :g:`$C$ <0164.g1:C>` equimultiples :g:`$G$ <0164.g1:G>`, :g:`$H$ <0164.g1:H>` have been taken, and of :g:`$B$ <0164.g1:B>`, :g:`$D$ <0164.g1:D>` other, chance, equimultiples :g:`$L$ <0164.g1:L>`, :g:`$M$ <0164.g1:M>`,
-
-.. assertion::
-
-   therefore, if :g:`$G$ <0164.g1:G>` is in excess of :g:`$L$ <0164.g1:L>`, :g:`$H$ <0164.g1:H>` is also in excess of :g:`$M$ <0164.g1:M>`, if :eq:`equal <0164.g1:G = 0164.g1:L>`, :eq:`equal <0164.g1:H = 0164.g1:M>`, and if less, less.
-
-Again, since, as :g:`$C$ <0164.g1:C>` is to :g:`$D$ <0164.g1:D>`, so is :g:`$E$ <0164.g1:E>` to :g:`$F$ <0164.g1:F>`, and of :g:`$C$ <0164.g1:C>`, :g:`$E$ <0164.g1:E>` equimultiples :g:`$H$ <0164.g1:H>`, :g:`$K$ <0164.g1:K>` have been taken, and of :g:`$D$ <0164.g1:D>`, :g:`$F$ <0164.g1:F>` other, chance, equimultiples :g:`$M$ <0164.g1:M>`, :g:`$N$ <0164.g1:N>`,
+Then since, as :g:`A <0164.g1:A>` is to :g:`B <0164.g1:B>`, so is :g:`C <0164.g1:C>` to :g:`D <0164.g1:D>`, and of :g:`A <0164.g1:A>`, :g:`C <0164.g1:C>` equimultiples :g:`G <0164.g1:G>`, :g:`H <0164.g1:H>` have been taken, and of :g:`B <0164.g1:B>`, :g:`D <0164.g1:D>` other, chance, equimultiples :g:`L <0164.g1:L>`, :g:`M <0164.g1:M>`,
 
 .. assertion::
 
-   therefore, if :g:`$H$ <0164.g1:H>` is in excess of :g:`$M$ <0164.g1:M>`, :g:`$K$ <0164.g1:K>` is also in excess of :g:`$N$ <0164.g1:N>`, if :eq:`equal <0164.g1:H = 0164.g1:M>`, :eq:`equal <0164.g1:K = 0164.g1:N>`, and if less, less.
+   therefore, if :g:`G <0164.g1:G>` is in excess of :g:`L <0164.g1:L>`, :g:`H <0164.g1:H>` is also in excess of :g:`M <0164.g1:M>`, if :eq:`equal <0164.g1:G = 0164.g1:L>`, :eq:`equal <0164.g1:H = 0164.g1:M>`, and if less, less.
 
-But we saw that, if :g:`$H$ <0164.g1:H>` was in excess of :g:`$M$ <0164.g1:M>`, :g:`$G$ <0164.g1:G>` was also in excess of :g:`$L$ <0164.g1:L>`; if :eq:`equal <0164.g1:H = 0164.g1:M>`, :eq:`equal <0164.g1:G = 0164.g1:L>`; and if less, less;
-
-.. assertion::
-
-   so that, in addition, if :g:`$G$ <0164.g1:G>` is in excess of :g:`$L$ <0164.g1:L>`, :g:`$K$ <0164.g1:K>` is also in excess of :g:`$N$ <0164.g1:N>`, if :eq:`equal <0164.g1:G = 0164.g1:L>`, :eq:`equal <0164.g1:K = 0164.g1:N>`, and if less, less.
-
-And :g:`$G$ <0164.g1:G>`, :g:`$K$ <0164.g1:K>` are equimultiples of :g:`$A$ <0164.g1:A>`, :g:`$E$ <0164.g1:E>`, while :g:`$L$ <0164.g1:L>`, :g:`$N$ <0164.g1:N>` are other, chance, equimultiples of :g:`$B$ <0164.g1:B>`, :g:`$F$ <0164.g1:F>`;
+Again, since, as :g:`C <0164.g1:C>` is to :g:`D <0164.g1:D>`, so is :g:`E <0164.g1:E>` to :g:`F <0164.g1:F>`, and of :g:`C <0164.g1:C>`, :g:`E <0164.g1:E>` equimultiples :g:`H <0164.g1:H>`, :g:`K <0164.g1:K>` have been taken, and of :g:`D <0164.g1:D>`, :g:`F <0164.g1:F>` other, chance, equimultiples :g:`M <0164.g1:M>`, :g:`N <0164.g1:N>`,
 
 .. assertion::
 
-   therefore, as :g:`$A$ <0164.g1:A>` is to :g:`$B$ <0164.g1:B>`, so is :g:`$E$ <0164.g1:E>` to :g:`$F$ <0164.g1:F>`.
+   therefore, if :g:`H <0164.g1:H>` is in excess of :g:`M <0164.g1:M>`, :g:`K <0164.g1:K>` is also in excess of :g:`N <0164.g1:N>`, if :eq:`equal <0164.g1:H = 0164.g1:M>`, :eq:`equal <0164.g1:K = 0164.g1:N>`, and if less, less.
+
+But we saw that, if :g:`H <0164.g1:H>` was in excess of :g:`M <0164.g1:M>`, :g:`G <0164.g1:G>` was also in excess of :g:`L <0164.g1:L>`; if :eq:`equal <0164.g1:H = 0164.g1:M>`, :eq:`equal <0164.g1:G = 0164.g1:L>`; and if less, less;
+
+.. assertion::
+
+   so that, in addition, if :g:`G <0164.g1:G>` is in excess of :g:`L <0164.g1:L>`, :g:`K <0164.g1:K>` is also in excess of :g:`N <0164.g1:N>`, if :eq:`equal <0164.g1:G = 0164.g1:L>`, :eq:`equal <0164.g1:K = 0164.g1:N>`, and if less, less.
+
+And :g:`G <0164.g1:G>`, :g:`K <0164.g1:K>` are equimultiples of :g:`A <0164.g1:A>`, :g:`E <0164.g1:E>`, while :g:`L <0164.g1:L>`, :g:`N <0164.g1:N>` are other, chance, equimultiples of :g:`B <0164.g1:B>`, :g:`F <0164.g1:F>`;
+
+.. assertion::
+
+   therefore, as :g:`A <0164.g1:A>` is to :g:`B <0164.g1:B>`, so is :g:`E <0164.g1:E>` to :g:`F <0164.g1:F>`.
 
 .. qed::
 

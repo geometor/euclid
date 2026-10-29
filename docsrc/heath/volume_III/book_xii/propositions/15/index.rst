@@ -22,23 +22,23 @@ PROPOSITION 15.
 
    In equal cones and cylinders the bases are reciprocally proportional to the heights; and those cones and cylinders in which the bases are reciprocally proportional to the heights are equal.
 
-Let there be :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` cones and cylinders of which the circles :g:`$ABCD$ <0424.g1:( A B C D )>`, :g:`$EFGH$ <0424.g1:( E F G H )>` are the bases; let :g:`$AC$ <0424.g1:/ A C />`, :g:`$EG$ <0424.g1:/ E G />` be the diameters of the bases, and :g:`$KL$ <0424.g1:/ K L />`, :g:`$MN$ <0424.g1:/ M N />` the axes, which are also the heights of the cones or cylinders; let the cylinders :g:`$AO$ <0424.g1:< A O >>`, :g:`$EP$ <0424.g1:< E P >>` be completed. I say that in the cylinders :g:`$AO$ <0424.g1:< A O >>`, :g:`$EP$ <0424.g1:< E P >>` the bases are reciprocally proportional to the heights, that is, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$KL$ <0424.g1:/ K L />`.
+Let there be :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` cones and cylinders of which the circles :g:`ABCD <0424.g1:( A B C D )>`, :g:`EFGH <0424.g1:( E F G H )>` are the bases; let :g:`AC <0424.g1:/ A C />`, :g:`EG <0424.g1:/ E G />` be the diameters of the bases, and :g:`KL <0424.g1:/ K L />`, :g:`MN <0424.g1:/ M N />` the axes, which are also the heights of the cones or cylinders; let the cylinders :g:`AO <0424.g1:< A O >>`, :g:`EP <0424.g1:< E P >>` be completed. I say that in the cylinders :g:`AO <0424.g1:< A O >>`, :g:`EP <0424.g1:< E P >>` the bases are reciprocally proportional to the heights, that is, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`KL <0424.g1:/ K L />`.
 
 .. picture:: 0424.g1.svg
    :alt: Proposition 15 Diagram
 
-For the height :g:`$LK$ <0424.g1:/ L K />` is either :eq:`equal <0424.g1:/ L K / = 0424.g1:/ M N />` to the height :g:`$MN$ <0424.g1:/ M N />` or not equal. First, let it be :eq:`equal <0424.g1:/ L K / = 0424.g1:/ M N />`.
+For the height :g:`LK <0424.g1:/ L K />` is either :eq:`equal <0424.g1:/ L K / = 0424.g1:/ M N />` to the height :g:`MN <0424.g1:/ M N />` or not equal. First, let it be :eq:`equal <0424.g1:/ L K / = 0424.g1:/ M N />`.
 
 .. subclause::
 
-   Now the cylinder :g:`$AO$ <0424.g1:< A O >>` is also :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`$EP$ <0424.g1:< E P >>`. But cones and cylinders which are of the same height are to one another as their bases; :just:`[XII. 11] <XII.11>`
+   Now the cylinder :g:`AO <0424.g1:< A O >>` is also :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`EP <0424.g1:< E P >>`. But cones and cylinders which are of the same height are to one another as their bases; :just:`[XII. 11] <XII.11>`
 
 .. assertion::
 
-   therefore the base :g:`$ABCD$ <0424.g1:( A B C D )>` is also :eq:`equal <0424.g1:( A B C D ) = 0424.g1:( E F G H )>` to the base :g:`$EFGH$ <0424.g1:( E F G H )>`. Hence also, reciprocally, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$KL$ <0424.g1:/ K L />`.
+   therefore the base :g:`ABCD <0424.g1:( A B C D )>` is also :eq:`equal <0424.g1:( A B C D ) = 0424.g1:( E F G H )>` to the base :g:`EFGH <0424.g1:( E F G H )>`. Hence also, reciprocally, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`KL <0424.g1:/ K L />`.
 
-Next, let the height :g:`$LK$ <0424.g1:/ L K />` not be equal to :g:`$MN$ <0424.g1:/ M N />`, but let :g:`$MN$ <0424.g1:/ M N />` be greater; from the height :g:`$MN$ <0424.g1:/ M N />` let :g:`$QN$ <0424.g1:/ Q N />` be cut off :eq:`equal <0424.g1:/ Q N / = 0424.g1:/ K L />` to :g:`$KL$ <0424.g1:/ K L />`, through the point :g:`$Q$ <0424.g1:Q>` let the cylinder :g:`$EP$ <0424.g1:< E P >>` be cut by the plane :g:`$TUS$ <0424.g1:( T U S )>` parallel to the planes of the circles :g:`$EFGH$ <0424.g1:( E F G H )>`, :g:`$RP$ <0424.g1:( R P )>`,
-and let the cylinder :g:`$ES$ <0424.g1:< E S >>` be conceived erected from the circle :g:`$EFGH$ <0424.g1:( E F G H )>` as base and with height :g:`$NQ$ <0424.g1:/ N Q />`.
+Next, let the height :g:`LK <0424.g1:/ L K />` not be equal to :g:`MN <0424.g1:/ M N />`, but let :g:`MN <0424.g1:/ M N />` be greater; from the height :g:`MN <0424.g1:/ M N />` let :g:`QN <0424.g1:/ Q N />` be cut off :eq:`equal <0424.g1:/ Q N / = 0424.g1:/ K L />` to :g:`KL <0424.g1:/ K L />`, through the point :g:`Q <0424.g1:Q>` let the cylinder :g:`EP <0424.g1:< E P >>` be cut by the plane :g:`TUS <0424.g1:( T U S )>` parallel to the planes of the circles :g:`EFGH <0424.g1:( E F G H )>`, :g:`RP <0424.g1:( R P )>`,
+and let the cylinder :g:`ES <0424.g1:< E S >>` be conceived erected from the circle :g:`EFGH <0424.g1:( E F G H )>` as base and with height :g:`NQ <0424.g1:/ N Q />`.
 
 .. _folio-iii-0425:
 
@@ -47,49 +47,49 @@ and let the cylinder :g:`$ES$ <0424.g1:< E S >>` be conceived erected from the c
 
 .. subclause::
 
-   Now, since the cylinder :g:`$AO$ <0424.g1:< A O >>` is :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`$EP$ <0424.g1:< E P >>`,
+   Now, since the cylinder :g:`AO <0424.g1:< A O >>` is :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`EP <0424.g1:< E P >>`,
 
 .. assertion::
 
-   therefore, as the cylinder :g:`$AO$ <0424.g1:< A O >>` is to the cylinder :g:`$ES$ <0424.g1:< E S >>`, so is the cylinder :g:`$EP$ <0424.g1:< E P >>` to the cylinder :g:`$ES$ <0424.g1:< E S >>`. :just:`[v. 7]`
+   therefore, as the cylinder :g:`AO <0424.g1:< A O >>` is to the cylinder :g:`ES <0424.g1:< E S >>`, so is the cylinder :g:`EP <0424.g1:< E P >>` to the cylinder :g:`ES <0424.g1:< E S >>`. :just:`[v. 7]`
 
 .. subclause::
 
-   But, as the cylinder :g:`$AO$ <0424.g1:< A O >>` is to the cylinder :g:`$ES$ <0424.g1:< E S >>`, so is the base :g:`$ABCD$ <0424.g1:( A B C D )>` to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, for the cylinders :g:`$AO$ <0424.g1:< A O >>`, :g:`$ES$ <0424.g1:< E S >>` are of the same height; :just:`[XII. 11] <XII.11>` and, as the cylinder :g:`$EP$ <0424.g1:< E P >>` is to the cylinder :g:`$ES$ <0424.g1:< E S >>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$QN$ <0424.g1:/ Q N />`, for the cylinder :g:`$EP$ <0424.g1:< E P >>` has been cut by a plane which is parallel to its opposite planes. :just:`[XII. 13] <XII.13>`
+   But, as the cylinder :g:`AO <0424.g1:< A O >>` is to the cylinder :g:`ES <0424.g1:< E S >>`, so is the base :g:`ABCD <0424.g1:( A B C D )>` to the base :g:`EFGH <0424.g1:( E F G H )>`, for the cylinders :g:`AO <0424.g1:< A O >>`, :g:`ES <0424.g1:< E S >>` are of the same height; :just:`[XII. 11] <XII.11>` and, as the cylinder :g:`EP <0424.g1:< E P >>` is to the cylinder :g:`ES <0424.g1:< E S >>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`QN <0424.g1:/ Q N />`, for the cylinder :g:`EP <0424.g1:< E P >>` has been cut by a plane which is parallel to its opposite planes. :just:`[XII. 13] <XII.13>`
 
 .. assertion::
 
-   Therefore also, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$QN$ <0424.g1:/ Q N />`. :just:`[v. 11]`
+   Therefore also, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`QN <0424.g1:/ Q N />`. :just:`[v. 11]`
 
 .. subclause::
 
-   But the height :g:`$QN$ <0424.g1:/ Q N />` is :eq:`equal <0424.g1:/ Q N / = 0424.g1:/ K L />` to the height :g:`$KL$ <0424.g1:/ K L />`;
+   But the height :g:`QN <0424.g1:/ Q N />` is :eq:`equal <0424.g1:/ Q N / = 0424.g1:/ K L />` to the height :g:`KL <0424.g1:/ K L />`;
 
 .. assertion::
 
-   therefore, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$KL$ <0424.g1:/ K L />`.
+   therefore, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`KL <0424.g1:/ K L />`.
 
 .. assertion::
 
-   Therefore in the cylinders :g:`$AO$ <0424.g1:< A O >>`, :g:`$EP$ <0424.g1:< E P >>` the bases are reciprocally proportional to the heights.
+   Therefore in the cylinders :g:`AO <0424.g1:< A O >>`, :g:`EP <0424.g1:< E P >>` the bases are reciprocally proportional to the heights.
 
-Next, in the cylinders :g:`$AO$ <0424.g1:< A O >>`, :g:`$EP$ <0424.g1:< E P >>` let the bases be reciprocally proportional to the heights, that is, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so let the height :g:`$MN$ <0424.g1:/ M N />` be to the height :g:`$KL$ <0424.g1:/ K L />`; I say that the cylinder :g:`$AO$ <0424.g1:< A O >>` is :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`$EP$ <0424.g1:< E P >>`.
+Next, in the cylinders :g:`AO <0424.g1:< A O >>`, :g:`EP <0424.g1:< E P >>` let the bases be reciprocally proportional to the heights, that is, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so let the height :g:`MN <0424.g1:/ M N />` be to the height :g:`KL <0424.g1:/ K L />`; I say that the cylinder :g:`AO <0424.g1:< A O >>` is :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`EP <0424.g1:< E P >>`.
 
 .. subclause::
 
-   For, with the same construction, since, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$KL$ <0424.g1:/ K L />`, while the height :g:`$KL$ <0424.g1:/ K L />` is :eq:`equal <0424.g1:/ K L / = 0424.g1:/ Q N />` to the height :g:`$QN$ <0424.g1:/ Q N />`,
+   For, with the same construction, since, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`KL <0424.g1:/ K L />`, while the height :g:`KL <0424.g1:/ K L />` is :eq:`equal <0424.g1:/ K L / = 0424.g1:/ Q N />` to the height :g:`QN <0424.g1:/ Q N />`,
 
 .. assertion::
 
-   therefore, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the height :g:`$MN$ <0424.g1:/ M N />` to the height :g:`$QN$ <0424.g1:/ Q N />`
+   therefore, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the height :g:`MN <0424.g1:/ M N />` to the height :g:`QN <0424.g1:/ Q N />`
 
 .. subclause::
 
-   But, as the base :g:`$ABCD$ <0424.g1:( A B C D )>` is to the base :g:`$EFGH$ <0424.g1:( E F G H )>`, so is the cylinder :g:`$AO$ <0424.g1:< A O >>` to the cylinder :g:`$ES$ <0424.g1:< E S >>`, for they are of the same height; :just:`[XII. 11] <XII.11>` and, as the height :g:`$MN$ <0424.g1:/ M N />` is to :g:`$QN$ <0424.g1:/ Q N />`, so is the cylinder :g:`$EP$ <0424.g1:< E P >>` to the cylinder :g:`$ES$ <0424.g1:< E S >>`; :just:`[XII. 13] <XII.13>`
+   But, as the base :g:`ABCD <0424.g1:( A B C D )>` is to the base :g:`EFGH <0424.g1:( E F G H )>`, so is the cylinder :g:`AO <0424.g1:< A O >>` to the cylinder :g:`ES <0424.g1:< E S >>`, for they are of the same height; :just:`[XII. 11] <XII.11>` and, as the height :g:`MN <0424.g1:/ M N />` is to :g:`QN <0424.g1:/ Q N />`, so is the cylinder :g:`EP <0424.g1:< E P >>` to the cylinder :g:`ES <0424.g1:< E S >>`; :just:`[XII. 13] <XII.13>`
 
 .. assertion::
 
-   therefore, as the cylinder :g:`$AO$ <0424.g1:< A O >>` is to the cylinder :g:`$ES$ <0424.g1:< E S >>`, so is the cylinder :g:`$EP$ <0424.g1:< E P >>` to the cylinder :g:`$ES$ <0424.g1:< E S >>`. :just:`[v. 11]`
+   therefore, as the cylinder :g:`AO <0424.g1:< A O >>` is to the cylinder :g:`ES <0424.g1:< E S >>`, so is the cylinder :g:`EP <0424.g1:< E P >>` to the cylinder :g:`ES <0424.g1:< E S >>`. :just:`[v. 11]`
 
 .. _folio-iii-0426:
 
@@ -98,7 +98,7 @@ Next, in the cylinders :g:`$AO$ <0424.g1:< A O >>`, :g:`$EP$ <0424.g1:< E P >>` 
 
 .. assertion::
 
-   Therefore the cylinder :g:`$AO$ <0424.g1:< A O >>` is :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`$EP$ <0424.g1:< E P >>`. :just:`[v. 9]` And the same is true for the cones also.
+   Therefore the cylinder :g:`AO <0424.g1:< A O >>` is :eq:`equal <0424.g1:< A O > = 0424.g1:< E P >>` to the cylinder :g:`EP <0424.g1:< E P >>`. :just:`[v. 9]` And the same is true for the cones also.
 
 .. qed::
 

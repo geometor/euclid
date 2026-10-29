@@ -33,7 +33,7 @@ Egyptians, was the first to inscribe a right-angled triangle in a circle and sac
 
 If the theorem of I. 32 was proved before Thales' time, or by :person:`Thales <thales>` himself, by the stages indicated in the note of :person:`Geminus <geminus>`, we may be satisfied that the reconstruction of the argument of the older proof by :person:`Hankel <hankel>` (pp. 96–7) and :person:`Cantor <cantor>` (I₃, pp. 143–4) is not far wrong. First, it must have been observed that six angles equal to an angle of an equilateral triangle would, if placed adjacent to one another round a common vertex, fill up the whole space round that vertex. It is true that :person:`Proclus <proclus>` attributes to the Pythagoreans the general theorem that only three kinds of regular polygons, the equilateral triangle, the square and the regular hexagon, can fill up the entire space round a point, but the practical knowledge that equilateral triangles have this property could hardly have escaped the Egyptians, whether they made floors with tiles in the form of equilateral triangles or regular hexagons (:person:`Allman <allman>`, :cite:`*Greek Geometry from Thales to Euclid* <allman:greek-geometry>`, p. 12) or joined the ends of adjacent radii of a figure like the six-spoked wheel, which was their common form of wheel from the time of Ramses II. of the nineteenth Dynasty, say 1300 B.C. (:person:`Cantor <cantor>`, I₃, p. 109). It would then be clear that six angles equal to an angle of an equilateral triangle are equal to four right angles, and therefore that the three angles of an equilateral triangle are equal to two right angles. (It would be as clear or clearer, from observation of a square divided into two triangles by a diagonal, that an isosceles right-angled triangle has each of its equal angles equal to half a right angle, so that an isosceles right-angled triangle must have the sum of its angles equal to two right angles.)
 
-Next, with regard to the :eq:`equilateral <0332.g1:/ A B / = 0332.g1:/ B C / = 0332.g1:/ A C />` triangle, it could not fail to be observed that, if :g:`$AD$ <0332.g1:/ A D />` were drawn from the vertex :g:`$A$ <0332.g1:A>` :eq:`perpendicular <0332.g1:< A D B ) = 0332.g1:< A D C )>` to the base :g:`$BC$ <0332.g1:/ B C />`, each of the two right-angled triangles so formed would have the sum of its angles equal to two right angles; and this would be confirmed by completing the rectangle :g:`$ADCE$ <0332.g1:< A D C E >>`, when it would be seen that the rectangle (with its angles equal to four right angles) was divided by its diagonal into two :eq:`equal <0332.g1:< A D C > = 0332.g1:< A E C >>` triangles, each of which had the sum of its angles equal to two right angles.
+Next, with regard to the :eq:`equilateral <0332.g1:/ A B / = 0332.g1:/ B C / = 0332.g1:/ A C />` triangle, it could not fail to be observed that, if :g:`AD <0332.g1:/ A D />` were drawn from the vertex :g:`A <0332.g1:A>` :eq:`perpendicular <0332.g1:< A D B ) = 0332.g1:< A D C )>` to the base :g:`BC <0332.g1:/ B C />`, each of the two right-angled triangles so formed would have the sum of its angles equal to two right angles; and this would be confirmed by completing the rectangle :g:`ADCE <0332.g1:< A D C E >>`, when it would be seen that the rectangle (with its angles equal to four right angles) was divided by its diagonal into two :eq:`equal <0332.g1:< A D C > = 0332.g1:< A E C >>` triangles, each of which had the sum of its angles equal to two right angles.
 
 .. picture:: 0332.g1.svg
    :alt: Folio 0332 Figure 1 - Equilateral Triangle and Rectangle ADCE
@@ -69,16 +69,16 @@ On the whole, therefore, it would seem that we cannot safely go behind the dictu
 The Pythagorean proof.
 ~~~~~~~~~~~~~~~~~~~~~~
 
-This proof, handed down by :person:`Eudemus <eudemus>` (:person:`Proclus <proclus>`, :cite:`p. 379, 2—15 <proclus:in-euclid:379.2-15>`), is no less elegant than that given by :person:`Euclid <euclid>`, and is a natural development from the last figure in the reconstructed argument of :person:`Hankel <hankel>`. It would be seen, after the theory of parallels was added to geometry, that the actual drawing of the perpendicular and the complete rectangle on :g:`$BC$ <0334.g1:/ B C />` as base was unnecessary, and that the parallel to :g:`$BC$ <0334.g1:/ B C />` through :g:`$A$ <0334.g1:A>` was all that was required.
+This proof, handed down by :person:`Eudemus <eudemus>` (:person:`Proclus <proclus>`, :cite:`p. 379, 2—15 <proclus:in-euclid:379.2-15>`), is no less elegant than that given by :person:`Euclid <euclid>`, and is a natural development from the last figure in the reconstructed argument of :person:`Hankel <hankel>`. It would be seen, after the theory of parallels was added to geometry, that the actual drawing of the perpendicular and the complete rectangle on :g:`BC <0334.g1:/ B C />` as base was unnecessary, and that the parallel to :g:`BC <0334.g1:/ B C />` through :g:`A <0334.g1:A>` was all that was required.
 
 .. picture:: 0334.g1.svg
    :alt: Folio 0334 Figure 1 - The Pythagorean Proof of Proposition 32
 
-Let :g:`$ABC$ <0334.g1:< A B C >>` be a triangle, and through :g:`$A$ <0334.g1:A>` draw :g:`$DE$ <0334.g1:[ D E ]>` parallel to :g:`$BC$ <0334.g1:/ B C />`. [**I.** 31] Then, since :g:`$BC$ <0334.g1:/ B C />`, :g:`$DE$ <0334.g1:[ D E ]>` are parallel, the alternate angles :g:`$DAB$ <0334.g1:< D A B )>`, :g:`$ABC$ <0334.g1:< A B C )>` are :eq:`equal <0334.g1:< D A B ) = 0334.g1:< A B C )>`, [**I.** 29] and so are the alternate angles :g:`$EAC$ <0334.g1:< E A C )>`, :g:`$ACB$ <0334.g1:< A C B )>` also.
+Let :g:`ABC <0334.g1:< A B C >>` be a triangle, and through :g:`A <0334.g1:A>` draw :g:`DE <0334.g1:[ D E ]>` parallel to :g:`BC <0334.g1:/ B C />`. [**I.** 31] Then, since :g:`BC <0334.g1:/ B C />`, :g:`DE <0334.g1:[ D E ]>` are parallel, the alternate angles :g:`DAB <0334.g1:< D A B )>`, :g:`ABC <0334.g1:< A B C )>` are :eq:`equal <0334.g1:< D A B ) = 0334.g1:< A B C )>`, [**I.** 29] and so are the alternate angles :g:`EAC <0334.g1:< E A C )>`, :g:`ACB <0334.g1:< A C B )>` also.
 
-Therefore the angles :g:`$ABC$ <0334.g1:< A B C )>`, :g:`$ACB$ <0334.g1:< A C B )>` are together equal to the angles :g:`$DAB$ <0334.g1:< D A B )>`, :g:`$EAC$ <0334.g1:< E A C )>`.
+Therefore the angles :g:`ABC <0334.g1:< A B C )>`, :g:`ACB <0334.g1:< A C B )>` are together equal to the angles :g:`DAB <0334.g1:< D A B )>`, :g:`EAC <0334.g1:< E A C )>`.
 
-Add to each the angle :g:`$BAC$ <0334.g1:< B A C )>`; therefore the sum of the angles :g:`$ABC$ <0334.g1:< A B C )>`, :g:`$ACB$ <0334.g1:< A C B )>`, :g:`$BAC$ <0334.g1:< B A C )>` is equal to the sum of the angles :g:`$DAB$ <0334.g1:< D A B )>`, :g:`$BAC$ <0334.g1:< B A C )>`, :g:`$CAE$ <0334.g1:< C A E )>`, that is, to two right angles.
+Add to each the angle :g:`BAC <0334.g1:< B A C )>`; therefore the sum of the angles :g:`ABC <0334.g1:< A B C )>`, :g:`ACB <0334.g1:< A C B )>`, :g:`BAC <0334.g1:< B A C )>` is equal to the sum of the angles :g:`DAB <0334.g1:< D A B )>`, :g:`BAC <0334.g1:< B A C )>`, :g:`CAE <0334.g1:< C A E )>`, that is, to two right angles.
 
 Euclid's proof pre-Euclidean.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,16 +105,16 @@ Thibaut's method.
 
 This appeared in Thibaut's *Grundriss der reinen Mathematik*, Göttingen (2 ed. 1809, 3 ed. 1818), and is to the following effect.
 
-Suppose :g:`$CB$ <0335.g1:[ C D ]>` produced to :g:`$D$ <0335.g1:D>`, and let :g:`$BD$ <0335.g1:/ B D />` (produced to any necessary extent either way) revolve in one direction (say clockwise) first about :g:`$B$ <0335.g1:B>` into the position :g:`$BA$ <0335.g1:/ B A />`, then about :g:`$A$ <0335.g1:A>` into the position of :g:`$AC$ <0335.g1:/ A C />` produced both ways, and lastly about :g:`$C$ <0335.g1:C>` into the position :g:`$CB$ <0335.g1:/ C B />` produced both ways.
+Suppose :g:`CB <0335.g1:[ C D ]>` produced to :g:`D <0335.g1:D>`, and let :g:`BD <0335.g1:/ B D />` (produced to any necessary extent either way) revolve in one direction (say clockwise) first about :g:`B <0335.g1:B>` into the position :g:`BA <0335.g1:/ B A />`, then about :g:`A <0335.g1:A>` into the position of :g:`AC <0335.g1:/ A C />` produced both ways, and lastly about :g:`C <0335.g1:C>` into the position :g:`CB <0335.g1:/ C B />` produced both ways.
 
 .. picture:: 0335.g1.svg
    :alt: Folio 0335 Figure 1 - Thibaut's Method of Rotation for Angle-Sum of Triangle
 
-The argument then is that the straight line :g:`$BD$ <0335.g1:/ B D />` has revolved through the sum of the three exterior angles of the triangle. But, since it has at the end of the revolution assumed a position in the same straight line with its original position, it must have revolved through four right angles.
+The argument then is that the straight line :g:`BD <0335.g1:/ B D />` has revolved through the sum of the three exterior angles of the triangle. But, since it has at the end of the revolution assumed a position in the same straight line with its original position, it must have revolved through four right angles.
 
 Therefore the sum of the three exterior angles is equal to four right angles; from which it follows that the sum of the three angles of the triangle is equal to two right angles.
 
-But it is to be observed that the straight line :g:`$BD$ <0335.g1:/ B D />` revolves about *different points in it*, so that there is translation combined with *rotatory* motion, and it is necessary to assume as an axiom that the two motions are independent, and therefore that the translation may be neglected.
+But it is to be observed that the straight line :g:`BD <0335.g1:/ B D />` revolves about *different points in it*, so that there is translation combined with *rotatory* motion, and it is necessary to assume as an axiom that the two motions are independent, and therefore that the translation may be neglected.
 
 Schumacher (letter to :person:`Gauss <gauss>` of 3 May, 1831) tried to represent the rotatory motion graphically in a second figure as mere motion round a point; but :person:`Gauss <gauss>` (letter of 17 May, 1831) pointed out in reply that he really assumed, without proving it, a proposition to the effect that "If two straight lines (1) and (2) which cut one another make angles $A$, $A''$ with a straight line (3) cutting both of them, and if a straight line (4) in the same plane is likewise cut by (1) at an angle $A'$, then (4) will be cut by (2) at the angle $A''$. But this proposition not only needs proof, but we may say that it is, in essence, the very proposition to be proved" (see Engel and :person:`Stäckel <staeckel>`, :cite:`*Die Theorie der Parallellinien von Euklid bis auf Gauss* <staeckel-engel:parallellinien>`, 1895, p. 230).
 
@@ -133,7 +133,7 @@ The two important corollaries added to I. 32 in Simson's edition are given by :p
 
 1. *The sum of the interior angles of a convex rectilineal figure is equal to twice as many right angles as the figure has sides, less four.*
 
-For let one angular point :g:`$A$ <0336.g1:A>` be joined to all the other angular points with which it is not connected already.
+For let one angular point :g:`A <0336.g1:A>` be joined to all the other angular points with which it is not connected already.
 
 .. picture:: 0336.g1.svg
    :alt: Folio 0336 Figure 1 - Extension of Proposition 32 to Convex Polygon

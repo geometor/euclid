@@ -29,12 +29,12 @@ three square feet and five square feet are not commensurable with that of one sq
 
 The actual method by which the Pythagoreans proved the incommensurability of $\sqrt{2}$ with unity was no doubt that referred to by :person:`Aristotle <aristotle>` (*Anal. prior.* i. 23, 41 a 26—7), a :term:`*reductio ad absurdum* <reductio-ad-absurdum>` by which it is proved that, if the diagonal is commensurable with the side, it will follow that the same number is both odd and even. The proof formerly appeared in the texts of Euclid as x. 117, but it is undoubtedly an interpolation, and :person:`August <august>` and :person:`Heiberg <heiberg>` accordingly relegate it to an Appendix. It is in substance as follows.
 
-Suppose :g:`$AC$ <0006.g1:/ A C />`, the diagonal of a square, to be commensurable with :g:`$AB$ <0006.g1:/ A B />`, its side. Let $\alpha : \beta$ be their ratio expressed in the smallest numbers.
+Suppose :g:`AC <0006.g1:/ A C />`, the diagonal of a square, to be commensurable with :g:`AB <0006.g1:/ A B />`, its side. Let $\alpha : \beta$ be their ratio expressed in the smallest numbers.
 
 .. picture:: 0006.g1.svg
    :alt: Square with diagonal AC
 
-Then $\alpha > \beta$ and therefore necessarily $> 1$. Now :g:`$AC^2$ <0006.g1:/ A C />` $:$ :g:`$AB^2$ <0006.g1:/ A B />` $= \alpha^2 : \beta^2$, and, since :g:`$AC^2$ <0006.g1:/ A C />` $= 2$ :g:`$AB^2$ <0006.g1:/ A B />`, :just:`[Eucl. I. 47] <I.47>` $\alpha^2 = 2\beta^2$. Therefore $\alpha^2$ is even, and therefore $\alpha$ is even. Since $\alpha : \beta$ is in its lowest terms, it follows that $\beta$ must be *odd*. Put $\alpha = 2\gamma$; therefore $4\gamma^2 = 2\beta^2$, or $\beta^2 = 2\gamma^2$, so that $\beta^2$, and therefore $\beta$, must be *even*. But $\beta$ was also odd: which is impossible.
+Then $\alpha > \beta$ and therefore necessarily $> 1$. Now :g:`AC^2 <0006.g1:/ A C />` $:$ :g:`AB^2 <0006.g1:/ A B />` $= \alpha^2 : \beta^2$, and, since :g:`AC^2 <0006.g1:/ A C />` $= 2$ :g:`AB^2 <0006.g1:/ A B />`, :just:`[Eucl. I. 47] <I.47>` $\alpha^2 = 2\beta^2$. Therefore $\alpha^2$ is even, and therefore $\alpha$ is even. Since $\alpha : \beta$ is in its lowest terms, it follows that $\beta$ must be *odd*. Put $\alpha = 2\gamma$; therefore $4\gamma^2 = 2\beta^2$, or $\beta^2 = 2\gamma^2$, so that $\beta^2$, and therefore $\beta$, must be *even*. But $\beta$ was also odd: which is impossible.
 
 This proof only enables us to prove the incommensurability of the diagonal of a square with its side, or of $\sqrt{2}$ with unity. In order to prove the incommensurability of the sides of squares, one of which has *three* times the area of another, an entirely different procedure is necessary; and we find in fact that, even a century after :person:`Pythagoras <pythagoras>`’ time, it was still necessary to use *separate proofs* (as the passage of the :cite:`*Theaetetus* <plato:theaetetus>` shows that :person:`Theodorus <theodorus-of-cyrene>` did) to establish the incommensurability with unity of $\sqrt{3}$, $\sqrt{5}$, ... up to $\sqrt{17}$.
 
@@ -238,22 +238,22 @@ It will naturally be asked, what use did the Greek geometers actually make of th
 
 Of course the investigation in Book x. would not have been complete if it had dealt only with the irrationals affected with a *negative* sign. Those affected with the positive sign, the *binomials* etc., had also to be discussed, and we find both portions of Book x., with its nomenclature, made use of by :person:`Pappus <pappus>` in two propositions, of which it may be of interest to give the enunciations here.
 
-If, says :person:`Pappus <pappus>` (IV. p. 178), :g:`$AB$ <0013.g1:/ A B />` be the rational diameter of a semicircle, and if :g:`$AB$ <0013.g1:[ A C ]>` be produced to :g:`$C$ <0013.g1:C>` so that :g:`$BC$ <0013.g1:/ B C />` is equal to the radius, if :g:`$CD$ <0013.g1:/ C D />` be a tangent,
+If, says :person:`Pappus <pappus>` (IV. p. 178), :g:`AB <0013.g1:/ A B />` be the rational diameter of a semicircle, and if :g:`AB <0013.g1:[ A C ]>` be produced to :g:`C <0013.g1:C>` so that :g:`BC <0013.g1:/ B C />` is equal to the radius, if :g:`CD <0013.g1:/ C D />` be a tangent,
 
 .. picture:: 0013.g1.svg
    :alt: Pappus semicircle construction: minor irrational
 
-if :g:`$E$ <0013.g1:E>` be the middle point of the arc :g:`$BD$ <0013.g1:< B F D )>`, and if :g:`$CE$ <0013.g1:/ C E />` be joined, then :g:`$CE$ <0013.g1:/ C E />` is the irrational straight line called *minor*. As a matter of fact, if $\rho$ is the radius,
+if :g:`E <0013.g1:E>` be the middle point of the arc :g:`BD <0013.g1:< B F D )>`, and if :g:`CE <0013.g1:/ C E />` be joined, then :g:`CE <0013.g1:/ C E />` is the irrational straight line called *minor*. As a matter of fact, if $\rho$ is the radius,
 
 $$CE^2 = \rho^2 (5 - 2\sqrt{3}) \text{ and } CE = \sqrt{\frac{5 + \sqrt{13}}{2}} - \sqrt{\frac{5 - \sqrt{13}}{2}}.$$
 
-If, again (p. 182), :g:`$CD$ <0013.g2:/ C D />` be equal to the radius of a semicircle supposed
+If, again (p. 182), :g:`CD <0013.g2:/ C D />` be equal to the radius of a semicircle supposed
 
 .. picture:: 0013.g2.svg
    :alt: Pappus semicircle construction: excess of binomial
 
-rational, and if the tangent :g:`$DB$ <0013.g2:/ D B />` be drawn and the angle :g:`$ADB$ <0013.g2:< A D B )>` be :eq:`bisected <0013.g2:< A D F ) = 0013.g2:< F D B )>` by :g:`$DF$ <0013.g2:/ D F />` meeting the circumference in :g:`$F$ <0013.g2:F>`, then :g:`$DF$ <0013.g2:/ D F />` is the excess by which the binomial exceeds the *straight line which produces with a rational area a medial*
-whole (see Eucl. x. 77). (In the figure :g:`$DK$ <0013.g2:/ D K />` is the binomial and :g:`$KF$ <0013.g2:/ K F />` the other irrational straight line.) As a matter of fact, if $\rho$ be the radius,
+rational, and if the tangent :g:`DB <0013.g2:/ D B />` be drawn and the angle :g:`ADB <0013.g2:< A D B )>` be :eq:`bisected <0013.g2:< A D F ) = 0013.g2:< F D B )>` by :g:`DF <0013.g2:/ D F />` meeting the circumference in :g:`F <0013.g2:F>`, then :g:`DF <0013.g2:/ D F />` is the excess by which the binomial exceeds the *straight line which produces with a rational area a medial*
+whole (see Eucl. x. 77). (In the figure :g:`DK <0013.g2:/ D K />` is the binomial and :g:`KF <0013.g2:/ K F />` the other irrational straight line.) As a matter of fact, if $\rho$ be the radius,
 
 .. _folio-iii-0014:
 

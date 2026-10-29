@@ -20,24 +20,24 @@ PROPOSITION 41.
 
    If a parallelogram have the same base with a triangle and be in the same parallels, the parallelogram is double of the triangle.
 
-For let the parallelogram :g:`$ABCD$ <0352.g1:< A B C D >>` have the same base :g:`$BC$ <0352.g1:/ B C />` with the triangle :g:`$EBC$ <0352.g1:< E B C >>`, and let it be in the same parallels :g:`$BC$ <0352.g1:/ B C />`, :g:`$AE$ <0352.g1:/ A E />`;
+For let the parallelogram :g:`ABCD <0352.g1:< A B C D >>` have the same base :g:`BC <0352.g1:/ B C />` with the triangle :g:`EBC <0352.g1:< E B C >>`, and let it be in the same parallels :g:`BC <0352.g1:/ B C />`, :g:`AE <0352.g1:/ A E />`;
 
-I say that the parallelogram :g:`$ABCD$ <0352.g1:< A B C D >>` is double of the triangle :g:`$BEC$ <0352.g1:< B E C >>`.
+I say that the parallelogram :g:`ABCD <0352.g1:< A B C D >>` is double of the triangle :g:`BEC <0352.g1:< B E C >>`.
 
-For let :g:`$AC$ <0352.g1:/ A C />` be joined.
+For let :g:`AC <0352.g1:/ A C />` be joined.
 
 .. picture:: 0352.g1.svg
    :alt: Folio 0352 Figure 1 - Proposition 41
 
-Then the triangle :g:`$ABC$ <0352.g1:< A B C >>` is :eq:`equal <0352.g1:< A B C > = 0352.g1:< E B C >>` to the triangle :g:`$EBC$ <0352.g1:< E B C >>`; for it is on the same base :g:`$BC$ <0352.g1:/ B C />` with it and in the same parallels :g:`$BC$ <0352.g1:/ B C />`, :g:`$AE$ <0352.g1:/ A E />`. :just:`[I. 37] <I.37>`
+Then the triangle :g:`ABC <0352.g1:< A B C >>` is :eq:`equal <0352.g1:< A B C > = 0352.g1:< E B C >>` to the triangle :g:`EBC <0352.g1:< E B C >>`; for it is on the same base :g:`BC <0352.g1:/ B C />` with it and in the same parallels :g:`BC <0352.g1:/ B C />`, :g:`AE <0352.g1:/ A E />`. :just:`[I. 37] <I.37>`
 
 .. subclause::
 
-   But the parallelogram :g:`$ABCD$ <0352.g1:< A B C D >>` is double of the triangle :g:`$ABC$ <0352.g1:< A B C >>`; for the diameter :g:`$AC$ <0352.g1:/ A C />` bisects it; :just:`[I. 34] <I.34>`
+   But the parallelogram :g:`ABCD <0352.g1:< A B C D >>` is double of the triangle :g:`ABC <0352.g1:< A B C >>`; for the diameter :g:`AC <0352.g1:/ A C />` bisects it; :just:`[I. 34] <I.34>`
 
 .. assertion::
 
-   so that the parallelogram :g:`$ABCD$ <0352.g1:< A B C D >>` is also double of the triangle :g:`$EBC$ <0352.g1:< E B C >>`.
+   so that the parallelogram :g:`ABCD <0352.g1:< A B C D >>` is also double of the triangle :g:`EBC <0352.g1:< E B C >>`.
 
 .. qed::
 

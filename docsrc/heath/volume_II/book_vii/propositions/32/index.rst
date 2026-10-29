@@ -20,13 +20,13 @@ PROPOSITION 32.
 
    Any number either is prime or is measured by some prime number.
 
-Let :g:`$A$ <0339.g1:A>` be a number;
+Let :g:`A <0339.g1:A>` be a number;
 
-I say that :g:`$A$ <0339.g1:A>` either is prime or is measured by some prime number.
+I say that :g:`A <0339.g1:A>` either is prime or is measured by some prime number.
 
 .. subclause::
 
-   If now :g:`$A$ <0339.g1:A>` is prime, that which was enjoined will have been done.
+   If now :g:`A <0339.g1:A>` is prime, that which was enjoined will have been done.
 
 .. picture:: 0339.g1.svg
    :alt: Proposition 32 diagram

@@ -22,22 +22,22 @@ PROPOSITION 15.
 
    If three numbers in continued proportion be the least of those which have the same ratio with them, any two whatever added together will be prime to the remaining number.
 
-Let :g:`$A$ <0410.g1:A>`, :g:`$B$ <0410.g1:B>`, :g:`$C$ <0410.g1:C>`, three numbers in continued proportion, be the least of those which have the same ratio with them ;
+Let :g:`A <0410.g1:A>`, :g:`B <0410.g1:B>`, :g:`C <0410.g1:C>`, three numbers in continued proportion, be the least of those which have the same ratio with them ;
 
-I say that any two of the numbers :g:`$A$ <0410.g1:A>`, :g:`$B$ <0410.g1:B>`, :g:`$C$ <0410.g1:C>` whatever added together are prime to the remaining number, namely :g:`$A$ <0410.g1:A>`, :g:`$B$ <0410.g1:B>` to :g:`$C$ <0410.g1:C>` ; :g:`$B$ <0410.g1:B>`, :g:`$C$ <0410.g1:C>` to :g:`$A$ <0410.g1:A>` ; and further :g:`$A$ <0410.g1:A>`, :g:`$C$ <0410.g1:C>` to :g:`$B$ <0410.g1:B>`.
+I say that any two of the numbers :g:`A <0410.g1:A>`, :g:`B <0410.g1:B>`, :g:`C <0410.g1:C>` whatever added together are prime to the remaining number, namely :g:`A <0410.g1:A>`, :g:`B <0410.g1:B>` to :g:`C <0410.g1:C>` ; :g:`B <0410.g1:B>`, :g:`C <0410.g1:C>` to :g:`A <0410.g1:A>` ; and further :g:`A <0410.g1:A>`, :g:`C <0410.g1:C>` to :g:`B <0410.g1:B>`.
 
 .. picture:: 0410.g1.svg
    :alt: Proposition 15 diagram
 
-For let two numbers :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`, the least of those which have the same ratio with :g:`$A$ <0410.g1:A>`, :g:`$B$ <0410.g1:B>`, :g:`$C$ <0410.g1:C>`, be taken. :just:`[VIII. 2] <VIII.2>`
+For let two numbers :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`, the least of those which have the same ratio with :g:`A <0410.g1:A>`, :g:`B <0410.g1:B>`, :g:`C <0410.g1:C>`, be taken. :just:`[VIII. 2] <VIII.2>`
 
 .. assertion::
 
-   It is then manifest that :g:`$DE$ <0410.g1:/ D E />` by multiplying itself has made :g:`$A$ <0410.g1:A>`, and by multiplying :g:`$EF$ <0410.g1:/ E F />` has made :g:`$B$ <0410.g1:B>`, and, further, :g:`$EF$ <0410.g1:/ E F />` by multiplying itself has made :g:`$C$ <0410.g1:C>`. :just:`[VIII. 2] <VIII.2>`
+   It is then manifest that :g:`DE <0410.g1:/ D E />` by multiplying itself has made :g:`A <0410.g1:A>`, and by multiplying :g:`EF <0410.g1:/ E F />` has made :g:`B <0410.g1:B>`, and, further, :g:`EF <0410.g1:/ E F />` by multiplying itself has made :g:`C <0410.g1:C>`. :just:`[VIII. 2] <VIII.2>`
 
 .. subclause::
 
-   Now, since :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` are least,
+   Now, since :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` are least,
 
 .. assertion:: [VII. 22] <VII.22>
 
@@ -49,15 +49,15 @@ For let two numbers :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`, th
 
 .. assertion::
 
-   therefore :g:`$DF$ <0410.g1:/ D F />` is also prime to each of the numbers :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`.
+   therefore :g:`DF <0410.g1:/ D F />` is also prime to each of the numbers :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`.
 
 .. subclause::
 
-   But further :g:`$DE$ <0410.g1:/ D E />` is also prime to :g:`$EF$ <0410.g1:/ E F />` ;
+   But further :g:`DE <0410.g1:/ D E />` is also prime to :g:`EF <0410.g1:/ E F />` ;
 
 .. assertion::
 
-   therefore :g:`$DF$ <0410.g1:/ D F />`, :g:`$DE$ <0410.g1:/ D E />` are prime to :g:`$EF$ <0410.g1:/ E F />`.
+   therefore :g:`DF <0410.g1:/ D F />`, :g:`DE <0410.g1:/ D E />` are prime to :g:`EF <0410.g1:/ E F />`.
 
 .. subclause::
 
@@ -65,23 +65,23 @@ For let two numbers :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`, th
 
 .. assertion::
 
-   so that the product of :g:`$FD$ <0410.g1:/ D F />`, :g:`$DE$ <0410.g1:/ D E />` is prime to :g:`$EF$ <0410.g1:/ E F />` ; hence the product of :g:`$FD$ <0410.g1:/ D F />`, :g:`$DE$ <0410.g1:/ D E />` is also prime to the square on :g:`$EF$ <0410.g1:/ E F />`. :just:`[VII. 25] <VII.25>`
+   so that the product of :g:`FD <0410.g1:/ D F />`, :g:`DE <0410.g1:/ D E />` is prime to :g:`EF <0410.g1:/ E F />` ; hence the product of :g:`FD <0410.g1:/ D F />`, :g:`DE <0410.g1:/ D E />` is also prime to the square on :g:`EF <0410.g1:/ E F />`. :just:`[VII. 25] <VII.25>`
 
 .. subclause::
 
-   But the product of :g:`$FD$ <0410.g1:/ D F />`, :g:`$DE$ <0410.g1:/ D E />` is the square on :g:`$DE$ <0410.g1:/ D E />` together with the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` ; :just:`[II. 3] <II.3>`
+   But the product of :g:`FD <0410.g1:/ D F />`, :g:`DE <0410.g1:/ D E />` is the square on :g:`DE <0410.g1:/ D E />` together with the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` ; :just:`[II. 3] <II.3>`
 
 .. assertion::
 
-   therefore the square on :g:`$DE$ <0410.g1:/ D E />` together with the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` is prime to the square on :g:`$EF$ <0410.g1:/ E F />`.
+   therefore the square on :g:`DE <0410.g1:/ D E />` together with the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` is prime to the square on :g:`EF <0410.g1:/ E F />`.
 
 .. subclause::
 
-   And the square on :g:`$DE$ <0410.g1:/ D E />` is :g:`$A$ <0410.g1:A>`, the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` is :g:`$B$ <0410.g1:B>`, and the square on :g:`$EF$ <0410.g1:/ E F />` is :g:`$C$ <0410.g1:C>` ;
+   And the square on :g:`DE <0410.g1:/ D E />` is :g:`A <0410.g1:A>`, the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` is :g:`B <0410.g1:B>`, and the square on :g:`EF <0410.g1:/ E F />` is :g:`C <0410.g1:C>` ;
 
 .. assertion::
 
-   therefore :g:`$A$ <0410.g1:A>`, :g:`$B$ <0410.g1:B>` added together are prime to :g:`$C$ <0410.g1:C>`.
+   therefore :g:`A <0410.g1:A>`, :g:`B <0410.g1:B>` added together are prime to :g:`C <0410.g1:C>`.
 
 .. _folio-ii-0411:
 
@@ -90,41 +90,41 @@ For let two numbers :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`, th
 
 .. assertion::
 
-   Similarly we can prove that :g:`$B$ <0410.g1:B>`, :g:`$C$ <0410.g1:C>` added together are prime to :g:`$A$ <0410.g1:A>`.
+   Similarly we can prove that :g:`B <0410.g1:B>`, :g:`C <0410.g1:C>` added together are prime to :g:`A <0410.g1:A>`.
 
-I say next that :g:`$A$ <0410.g1:A>`, :g:`$C$ <0410.g1:C>` added together are also prime to :g:`$B$ <0410.g1:B>`.
+I say next that :g:`A <0410.g1:A>`, :g:`C <0410.g1:C>` added together are also prime to :g:`B <0410.g1:B>`.
 
 .. subclause::
 
-   For, since :g:`$DF$ <0410.g1:/ D F />` is prime to each of the numbers :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`,
+   For, since :g:`DF <0410.g1:/ D F />` is prime to each of the numbers :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`,
 
 .. assertion:: [VII. 24, 25]
 
-   the square on :g:`$DF$ <0410.g1:/ D F />` is also prime to the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`.
+   the square on :g:`DF <0410.g1:/ D F />` is also prime to the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`.
 
 .. subclause::
 
-   But the squares on :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` together with twice the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` are equal to the square on :g:`$DF$ <0410.g1:/ D F />` ; :just:`[II. 4] <II.4>`
+   But the squares on :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` together with twice the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` are equal to the square on :g:`DF <0410.g1:/ D F />` ; :just:`[II. 4] <II.4>`
 
 .. assertion::
 
-   therefore the squares on :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` together with twice the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` are prime to the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`.
+   therefore the squares on :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` together with twice the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` are prime to the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`.
 
 .. assertion::
 
-   *Separando*, the squares on :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` together with once the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` are prime to the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`.
+   *Separando*, the squares on :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` together with once the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` are prime to the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`.
 
 .. assertion::
 
-   Therefore, :term:`*separando* <separando>` again, the squares on :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` are prime to the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />`.
+   Therefore, :term:`*separando* <separando>` again, the squares on :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` are prime to the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />`.
 
 .. subclause::
 
-   And the square on :g:`$DE$ <0410.g1:/ D E />` is :g:`$A$ <0410.g1:A>`, the product of :g:`$DE$ <0410.g1:/ D E />`, :g:`$EF$ <0410.g1:/ E F />` is :g:`$B$ <0410.g1:B>`, and the square on :g:`$EF$ <0410.g1:/ E F />` is :g:`$C$ <0410.g1:C>`.
+   And the square on :g:`DE <0410.g1:/ D E />` is :g:`A <0410.g1:A>`, the product of :g:`DE <0410.g1:/ D E />`, :g:`EF <0410.g1:/ E F />` is :g:`B <0410.g1:B>`, and the square on :g:`EF <0410.g1:/ E F />` is :g:`C <0410.g1:C>`.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0410.g1:A>`, :g:`$C$ <0410.g1:C>` added together are prime to :g:`$B$ <0410.g1:B>`.
+   Therefore :g:`A <0410.g1:A>`, :g:`C <0410.g1:C>` added together are prime to :g:`B <0410.g1:B>`.
 
 .. qed::
 

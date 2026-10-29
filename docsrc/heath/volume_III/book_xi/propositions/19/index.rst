@@ -20,20 +20,20 @@ PROPOSITION 19.
 
    If two planes which cut one another be at right angles to any plane, their common section will also be at right angles to the same plane.
 
-For let the two planes :g:`$AB$ <0308.g2:< A B >>`, :g:`$BC$ <0308.g2:< B C >>` be at right angles to the plane of reference, and let :g:`$BD$ <0308.g2:/ B D />` be their common section; I say that :g:`$BD$ <0308.g2:/ B D />` is at right angles to the plane of reference.
+For let the two planes :g:`AB <0308.g2:< A B >>`, :g:`BC <0308.g2:< B C >>` be at right angles to the plane of reference, and let :g:`BD <0308.g2:/ B D />` be their common section; I say that :g:`BD <0308.g2:/ B D />` is at right angles to the plane of reference.
 
 .. picture:: 0308.g2.svg
    :alt: Book XI, Proposition 19
 
-For suppose it is not, and from the point :g:`$D$ <0308.g2:D>` let :g:`$DE$ <0308.g2:/ D E />` be drawn in the plane :g:`$AB$ <0308.g2:< A B >>` at right angles to the straight line :g:`$AD$ <0308.g2:/ A D />`, and :g:`$DF$ <0308.g2:/ D F />` in the plane :g:`$BC$ <0308.g2:< B C >>` at right angles to :g:`$CD$ <0308.g2:/ C D />`.
+For suppose it is not, and from the point :g:`D <0308.g2:D>` let :g:`DE <0308.g2:/ D E />` be drawn in the plane :g:`AB <0308.g2:< A B >>` at right angles to the straight line :g:`AD <0308.g2:/ A D />`, and :g:`DF <0308.g2:/ D F />` in the plane :g:`BC <0308.g2:< B C >>` at right angles to :g:`CD <0308.g2:/ C D />`.
 
 .. subclause::
 
-   Now, since the plane :g:`$AB$ <0308.g2:< A B >>` is at right angles to the plane of reference, and :g:`$DE$ <0308.g2:/ D E />` has been drawn in the plane :g:`$AB$ <0308.g2:< A B >>` at right angles to :g:`$AD$ <0308.g2:/ A D />`, their common section,
+   Now, since the plane :g:`AB <0308.g2:< A B >>` is at right angles to the plane of reference, and :g:`DE <0308.g2:/ D E />` has been drawn in the plane :g:`AB <0308.g2:< A B >>` at right angles to :g:`AD <0308.g2:/ A D />`, their common section,
 
 .. assertion:: [XI. Def. 4] <XI.def.4>
 
-   therefore :g:`$DE$ <0308.g2:/ D E />` is at right angles to the plane of reference.
+   therefore :g:`DE <0308.g2:/ D E />` is at right angles to the plane of reference.
 
 .. _folio-iii-0309:
 
@@ -42,15 +42,15 @@ For suppose it is not, and from the point :g:`$D$ <0308.g2:D>` let :g:`$DE$ <030
 
 .. assertion::
 
-   Similarly we can prove that :g:`$DF$ <0308.g2:/ D F />` is also at right angles to the plane of reference.
+   Similarly we can prove that :g:`DF <0308.g2:/ D F />` is also at right angles to the plane of reference.
 
 .. assertion::
 
-   Therefore from the same point :g:`$D$ <0308.g2:D>` two straight lines have been set up at right angles to the plane of reference on the same side: which is impossible. :just:`[XI. 13] <XI.13>`
+   Therefore from the same point :g:`D <0308.g2:D>` two straight lines have been set up at right angles to the plane of reference on the same side: which is impossible. :just:`[XI. 13] <XI.13>`
 
 .. assertion::
 
-   Therefore no straight line except the common section :g:`$DB$ <0308.g2:/ D B />` of the planes :g:`$AB$ <0308.g2:< A B >>`, :g:`$BC$ <0308.g2:< B C >>` can be set up from the point :g:`$D$ <0308.g2:D>` at right angles to the plane of reference.
+   Therefore no straight line except the common section :g:`DB <0308.g2:/ D B />` of the planes :g:`AB <0308.g2:< A B >>`, :g:`BC <0308.g2:< B C >>` can be set up from the point :g:`D <0308.g2:D>` at right angles to the plane of reference.
 
 .. qed::
 

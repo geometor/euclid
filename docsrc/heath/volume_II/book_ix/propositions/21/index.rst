@@ -20,20 +20,20 @@ PROPOSITION 21.
 
    If as many even numbers as we please be added together, the whole is even.
 
-For let as many even numbers as we please, :g:`$AB$ <0419.g1:/ A B />`, :g:`$BC$ <0419.g1:/ B C />`, :g:`$CD$ <0419.g1:/ C D />`, :g:`$DE$ <0419.g1:/ D E />`, be added together ;
+For let as many even numbers as we please, :g:`AB <0419.g1:/ A B />`, :g:`BC <0419.g1:/ B C />`, :g:`CD <0419.g1:/ C D />`, :g:`DE <0419.g1:/ D E />`, be added together ;
 
-I say that the whole :g:`$AE$ <0419.g1:/ A E />` is even.
+I say that the whole :g:`AE <0419.g1:/ A E />` is even.
 
 .. picture:: 0419.g1.svg
    :alt: Book IX, Proposition 21
 
 .. subclause::
 
-   For, since each of the numbers :g:`$AB$ <0419.g1:/ A B />`, :g:`$BC$ <0419.g1:/ B C />`, :g:`$CD$ <0419.g1:/ C D />`, :g:`$DE$ <0419.g1:/ D E />` is even, it has a half part ; :just:`[VII. Def. 6] <VII.def.6>`
+   For, since each of the numbers :g:`AB <0419.g1:/ A B />`, :g:`BC <0419.g1:/ B C />`, :g:`CD <0419.g1:/ C D />`, :g:`DE <0419.g1:/ D E />` is even, it has a half part ; :just:`[VII. Def. 6] <VII.def.6>`
 
 .. assertion::
 
-   so that the whole :g:`$AE$ <0419.g1:/ A E />` also has a half part.
+   so that the whole :g:`AE <0419.g1:/ A E />` also has a half part.
 
 .. subclause::
 
@@ -41,7 +41,7 @@ I say that the whole :g:`$AE$ <0419.g1:/ A E />` is even.
 
 .. assertion::
 
-   therefore :g:`$AE$ <0419.g1:/ A E />` is even.
+   therefore :g:`AE <0419.g1:/ A E />` is even.
 
 .. qed::
 

@@ -20,16 +20,16 @@ PROPOSITION 18.
 
    If a straight line be at right angles to any plane, all the planes through it will also be at right angles to the same plane.
 
-For let any straight line :g:`$AB$ <0306.g1:/ A B />` be at right angles to the plane of reference; I say that all the planes through :g:`$AB$ <0306.g1:/ A B />` are also at right angles to the plane of reference.
+For let any straight line :g:`AB <0306.g1:/ A B />` be at right angles to the plane of reference; I say that all the planes through :g:`AB <0306.g1:/ A B />` are also at right angles to the plane of reference.
 
 .. picture:: 0306.g1.svg
    :alt: Book XI, Proposition 18
 
-For let the plane :g:`$DE$ <0306.g1:< D E >>` be drawn through :g:`$AB$ <0306.g1:/ A B />`, let :g:`$CE$ <0306.g1:/ C E />` be the common section of the plane :g:`$DE$ <0306.g1:< D E >>` and the plane of reference, let a point :g:`$F$ <0306.g1:F>` be taken at random on :g:`$CE$ <0306.g1:/ C E />`, and from :g:`$F$ <0306.g1:F>` let :g:`$FG$ <0306.g1:/ F G />` be drawn in the plane :g:`$DE$ <0306.g1:< D E >>` at right angles to :g:`$CE$ <0306.g1:/ C E />`. :just:`[I. 11] <I.11>`
+For let the plane :g:`DE <0306.g1:< D E >>` be drawn through :g:`AB <0306.g1:/ A B />`, let :g:`CE <0306.g1:/ C E />` be the common section of the plane :g:`DE <0306.g1:< D E >>` and the plane of reference, let a point :g:`F <0306.g1:F>` be taken at random on :g:`CE <0306.g1:/ C E />`, and from :g:`F <0306.g1:F>` let :g:`FG <0306.g1:/ F G />` be drawn in the plane :g:`DE <0306.g1:< D E >>` at right angles to :g:`CE <0306.g1:/ C E />`. :just:`[I. 11] <I.11>`
 
 .. subclause::
 
-   Now, since :g:`$AB$ <0306.g1:/ A B />` is at right angles to the plane of reference,
+   Now, since :g:`AB <0306.g1:/ A B />` is at right angles to the plane of reference,
 
 .. _folio-iii-0307:
 
@@ -38,23 +38,23 @@ For let the plane :g:`$DE$ <0306.g1:< D E >>` be drawn through :g:`$AB$ <0306.g1
 
 .. assertion::
 
-   :g:`$AB$ <0306.g1:/ A B />` is also at right angles to all the straight lines which meet it and are in the plane of reference; :just:`[XI. Def. 3] <XI.def.3>` so that it is also at right angles to :g:`$CE$ <0306.g1:/ C E />`; therefore the angle :g:`$ABF$ <0306.g1:< A B F )>` is right.
+   :g:`AB <0306.g1:/ A B />` is also at right angles to all the straight lines which meet it and are in the plane of reference; :just:`[XI. Def. 3] <XI.def.3>` so that it is also at right angles to :g:`CE <0306.g1:/ C E />`; therefore the angle :g:`ABF <0306.g1:< A B F )>` is right.
 
 .. subclause::
 
-   But the angle :g:`$GFB$ <0306.g1:< G F B )>` is also right;
+   But the angle :g:`GFB <0306.g1:< G F B )>` is also right;
 
 .. assertion:: [I. 28] <I.28>
 
-   therefore :g:`$AB$ <0306.g1:/ A B />` is parallel to :g:`$FG$ <0306.g1:/ F G />`.
+   therefore :g:`AB <0306.g1:/ A B />` is parallel to :g:`FG <0306.g1:/ F G />`.
 
 .. subclause::
 
-   But :g:`$AB$ <0306.g1:/ A B />` is at right angles to the plane of reference;
+   But :g:`AB <0306.g1:/ A B />` is at right angles to the plane of reference;
 
 .. assertion:: [XI. 8] <XI.8>
 
-   therefore :g:`$FG$ <0306.g1:/ F G />` is also at right angles to the plane of reference.
+   therefore :g:`FG <0306.g1:/ F G />` is also at right angles to the plane of reference.
 
 .. subclause::
 
@@ -62,13 +62,13 @@ For let the plane :g:`$DE$ <0306.g1:< D E >>` be drawn through :g:`$AB$ <0306.g1
 
 .. subclause::
 
-   And :g:`$FG$ <0306.g1:/ F G />`, drawn in one of the planes :g:`$DE$ <0306.g1:< D E >>` at right angles to :g:`$CE$ <0306.g1:/ C E />`, the common section of the planes, was proved to be at right angles to the plane of reference;
+   And :g:`FG <0306.g1:/ F G />`, drawn in one of the planes :g:`DE <0306.g1:< D E >>` at right angles to :g:`CE <0306.g1:/ C E />`, the common section of the planes, was proved to be at right angles to the plane of reference;
 
 .. assertion::
 
-   therefore the plane :g:`$DE$ <0306.g1:< D E >>` is at right angles to the plane of reference.
+   therefore the plane :g:`DE <0306.g1:< D E >>` is at right angles to the plane of reference.
 
-Similarly also it can be proved that all the planes through :g:`$AB$ <0306.g1:/ A B />` are at right angles to the plane of reference.
+Similarly also it can be proved that all the planes through :g:`AB <0306.g1:/ A B />` are at right angles to the plane of reference.
 
 .. qed::
 

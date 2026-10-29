@@ -22,50 +22,50 @@ PROPOSITION 4.
 
    If a cube number by multiplying a cube number make some number, the product will be cube.
 
-For let the cube number :g:`$A$ <0393.g1:A>` by multiplying the cube number :g:`$B$ <0393.g1:B>` make :g:`$C$ <0393.g1:C>`;
+For let the cube number :g:`A <0393.g1:A>` by multiplying the cube number :g:`B <0393.g1:B>` make :g:`C <0393.g1:C>`;
 
-I say that :g:`$C$ <0393.g1:C>` is cube.
+I say that :g:`C <0393.g1:C>` is cube.
 
 .. picture:: 0393.g1.svg
    :alt: Proposition 4 Diagram
 
-For let :g:`$A$ <0393.g1:A>` by multiplying itself make :g:`$D$ <0393.g1:D>`;
+For let :g:`A <0393.g1:A>` by multiplying itself make :g:`D <0393.g1:D>`;
 
 .. assertion:: [IX. 3] <IX.3>
 
-   therefore :g:`$D$ <0393.g1:D>` is cube.
+   therefore :g:`D <0393.g1:D>` is cube.
 
 .. subclause::
 
-   And, since :g:`$A$ <0393.g1:A>` by multiplying itself has made :g:`$D$ <0393.g1:D>`, and by multiplying :g:`$B$ <0393.g1:B>` has made :g:`$C$ <0393.g1:C>`,
+   And, since :g:`A <0393.g1:A>` by multiplying itself has made :g:`D <0393.g1:D>`, and by multiplying :g:`B <0393.g1:B>` has made :g:`C <0393.g1:C>`,
 
 .. assertion:: [VII. 17] <VII.17>
 
-   therefore, as :g:`$A$ <0393.g1:A>` is to :g:`$B$ <0393.g1:B>`, so is :g:`$D$ <0393.g1:D>` to :g:`$C$ <0393.g1:C>`.
+   therefore, as :g:`A <0393.g1:A>` is to :g:`B <0393.g1:B>`, so is :g:`D <0393.g1:D>` to :g:`C <0393.g1:C>`.
 
 .. subclause::
 
-   And, since :g:`$A$ <0393.g1:A>`, :g:`$B$ <0393.g1:B>` are cube numbers,
+   And, since :g:`A <0393.g1:A>`, :g:`B <0393.g1:B>` are cube numbers,
 
 .. assertion::
 
-   :g:`$A$ <0393.g1:A>`, :g:`$B$ <0393.g1:B>` are similar solid numbers.
+   :g:`A <0393.g1:A>`, :g:`B <0393.g1:B>` are similar solid numbers.
 
 .. assertion::
 
-   Therefore two mean proportional numbers fall between :g:`$A$ <0393.g1:A>`, :g:`$B$ <0393.g1:B>`; :just:`[VIII. 19] <VIII.19>`
+   Therefore two mean proportional numbers fall between :g:`A <0393.g1:A>`, :g:`B <0393.g1:B>`; :just:`[VIII. 19] <VIII.19>`
 
 .. assertion::
 
-   so that two mean proportional numbers will fall between :g:`$D$ <0393.g1:D>`, :g:`$C$ <0393.g1:C>` also. :just:`[VIII. 8] <VIII.8>`
+   so that two mean proportional numbers will fall between :g:`D <0393.g1:D>`, :g:`C <0393.g1:C>` also. :just:`[VIII. 8] <VIII.8>`
 
 .. subclause::
 
-   And :g:`$D$ <0393.g1:D>` is cube;
+   And :g:`D <0393.g1:D>` is cube;
 
 .. assertion:: [VIII. 23] <VIII.23>
 
-   therefore :g:`$C$ <0393.g1:C>` is also cube.
+   therefore :g:`C <0393.g1:C>` is also cube.
 
 .. qed::
 

@@ -20,9 +20,9 @@ PROPOSITION 22.
 
    The least numbers of those which have the same ratio with them are prime to one another.
 
-Let :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>` be the least numbers of those which have the same ratio with them;
+Let :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>` be the least numbers of those which have the same ratio with them;
 
-I say that :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>` are prime to one another.
+I say that :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>` are prime to one another.
 
 .. picture:: 0329.g1.svg
    :alt: Book VII, Proposition 22
@@ -31,22 +31,22 @@ I say that :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>` are prime to one another.
 
    For, if they are not prime to one another, some number will measure them.
 
-Let some number measure them, and let it be :g:`$C$ <0329.g1:C>`.
+Let some number measure them, and let it be :g:`C <0329.g1:C>`.
 
 .. _folio-ii-0330:
 
 .. folio:: 0330
    :page: 324
 
-And, as many times as :g:`$C$ <0329.g1:C>` measures :g:`$A$ <0329.g1:A>`, so many units let there be in :g:`$D$ <0329.g1:D>`, and, as many times as :g:`$C$ <0329.g1:C>` measures :g:`$B$ <0329.g1:B>`, so many units let there be in :g:`$E$ <0329.g1:E>`.
+And, as many times as :g:`C <0329.g1:C>` measures :g:`A <0329.g1:A>`, so many units let there be in :g:`D <0329.g1:D>`, and, as many times as :g:`C <0329.g1:C>` measures :g:`B <0329.g1:B>`, so many units let there be in :g:`E <0329.g1:E>`.
 
 .. subclause::
 
-   Since :g:`$C$ <0329.g1:C>` measures :g:`$A$ <0329.g1:A>` according to the units in :g:`$D$ <0329.g1:D>`,
+   Since :g:`C <0329.g1:C>` measures :g:`A <0329.g1:A>` according to the units in :g:`D <0329.g1:D>`,
 
 .. assertion:: [VII. Def. 15] <VII.def.15>
 
-   therefore :g:`$C$ <0329.g1:C>` by multiplying :g:`$D$ <0329.g1:D>` has made :g:`$A$ <0329.g1:A>`.
+   therefore :g:`C <0329.g1:C>` by multiplying :g:`D <0329.g1:D>` has made :g:`A <0329.g1:A>`.
 
 .. subclause::
 
@@ -54,27 +54,27 @@ And, as many times as :g:`$C$ <0329.g1:C>` measures :g:`$A$ <0329.g1:A>`, so man
 
 .. assertion::
 
-   :g:`$C$ <0329.g1:C>` by multiplying :g:`$E$ <0329.g1:E>` has made :g:`$B$ <0329.g1:B>`.
+   :g:`C <0329.g1:C>` by multiplying :g:`E <0329.g1:E>` has made :g:`B <0329.g1:B>`.
 
 .. assertion::
 
-   Thus the number :g:`$C$ <0329.g1:C>` by multiplying the two numbers :g:`$D$ <0329.g1:D>`, :g:`$E$ <0329.g1:E>` has made :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>` ;
+   Thus the number :g:`C <0329.g1:C>` by multiplying the two numbers :g:`D <0329.g1:D>`, :g:`E <0329.g1:E>` has made :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>` ;
 
 .. assertion:: [VII. 17] <VII.17>
 
-   therefore, as :g:`$D$ <0329.g1:D>` is to :g:`$E$ <0329.g1:E>`, so is :g:`$A$ <0329.g1:A>` to :g:`$B$ <0329.g1:B>` ;
+   therefore, as :g:`D <0329.g1:D>` is to :g:`E <0329.g1:E>`, so is :g:`A <0329.g1:A>` to :g:`B <0329.g1:B>` ;
 
 .. assertion::
 
-   therefore :g:`$D$ <0329.g1:D>`, :g:`$E$ <0329.g1:E>` are in the same ratio with :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>`, being less than they : which is impossible.
+   therefore :g:`D <0329.g1:D>`, :g:`E <0329.g1:E>` are in the same ratio with :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>`, being less than they : which is impossible.
 
 .. assertion::
 
-   Therefore no number will measure the numbers :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>`.
+   Therefore no number will measure the numbers :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>`.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0329.g1:A>`, :g:`$B$ <0329.g1:B>` are prime to one another.
+   Therefore :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>` are prime to one another.
 
 .. qed::
 

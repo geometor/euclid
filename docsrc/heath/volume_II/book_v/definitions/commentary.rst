@@ -130,20 +130,20 @@ To the first question we reply that not only is the test proposed by Euclid tole
 
 To elucidate this :person:`De Morgan <de-morgan>` gives the following illustration.
 
-Suppose there is a straight colonnade composed of equidistant columns (which we will understand to mean the vertical lines forming the axes of the columns respectively), the first of which is at a distance from a bounding wall equal to the distance between consecutive columns. In front of the colonnade let there be a straight row of equidistant railings (regarded as meaning their axes), the first being at a distance from the bounding wall equal to the distance between consecutive railings. Let the columns be numbered from the wall, and also the railings. We suppose of course that the column distance (say, :g:`$C$ <0128.g1:C>`) and the railing distance (say, :g:`$R$ <0128.g1:R>`) are different and that they may bear to each other any ratio, commensurable or incommensurable; i.e. that there need not go any exact number of railings to any exact number of columns.
+Suppose there is a straight colonnade composed of equidistant columns (which we will understand to mean the vertical lines forming the axes of the columns respectively), the first of which is at a distance from a bounding wall equal to the distance between consecutive columns. In front of the colonnade let there be a straight row of equidistant railings (regarded as meaning their axes), the first being at a distance from the bounding wall equal to the distance between consecutive railings. Let the columns be numbered from the wall, and also the railings. We suppose of course that the column distance (say, :g:`C <0128.g1:C>`) and the railing distance (say, :g:`R <0128.g1:R>`) are different and that they may bear to each other any ratio, commensurable or incommensurable; i.e. that there need not go any exact number of railings to any exact number of columns.
 
 .. picture:: 0128.g1.svg
    :alt: Folio 0128 Figure 1
 
-If the construction be supposed carried on to any extent, a spectator can, by mere inspection, and without measurement, compare :g:`$C$ <0128.g1:C>` with :g:`$R$ <0128.g1:R>` to any degree of accuracy. For example, since the 10th railing falls between the 4th and 5th columns, :g:`$10R$ <0128.g1:10R>` is greater than :g:`$4C$ <0128.g1:4C>` and less than :g:`$5C$ <0128.g1:5C>`, and therefore :g:`$R$ <0128.g1:R>` lies between $\frac{4}{10}\text{ths}$ of :g:`$C$ <0128.g1:C>` and $\frac{5}{10}\text{ths}$ of :g:`$C$ <0128.g1:C>`. To get a more accurate notion, the ten-thousandth railing may be taken; suppose it falls between the 4674th and 4675th columns. Therefore $10,000R$ lies between $4674C$ and $4675C$, or :g:`$R$ <0128.g1:R>` lies between $\frac{4674}{10000}$ and $\frac{4675}{10000}$ of :g:`$C$ <0128.g1:C>`. There is no limit to the degree of accuracy thus obtainable; and the ratio of :g:`$R$ <0128.g1:R>` to :g:`$C$ <0128.g1:C>` is determined when the order of distribution of the railings among the columns is assigned *ad infinitum*; or, in other words, when the position of *any* given railing can be found, as to the numbers of the columns between which it lies. Any alteration, however small, in the place of the first railing must at last affect the order of distribution. Suppose e.g. that the first railing is moved from the wall by one part in a thousand of the distance between the columns; then the second railing is pushed forward by $\frac{2}{1000}C$, the third by $\frac{3}{1000}C$, and so on, so that
-the railings after the thousandth are pushed forward by more than :g:`$C$ <0128.g1:C>`; i.e. the order with respect to the columns is disarranged.
+If the construction be supposed carried on to any extent, a spectator can, by mere inspection, and without measurement, compare :g:`C <0128.g1:C>` with :g:`R <0128.g1:R>` to any degree of accuracy. For example, since the 10th railing falls between the 4th and 5th columns, :g:`10R <0128.g1:10R>` is greater than :g:`4C <0128.g1:4C>` and less than :g:`5C <0128.g1:5C>`, and therefore :g:`R <0128.g1:R>` lies between $\frac{4}{10}\text{ths}$ of :g:`C <0128.g1:C>` and $\frac{5}{10}\text{ths}$ of :g:`C <0128.g1:C>`. To get a more accurate notion, the ten-thousandth railing may be taken; suppose it falls between the 4674th and 4675th columns. Therefore $10,000R$ lies between $4674C$ and $4675C$, or :g:`R <0128.g1:R>` lies between $\frac{4674}{10000}$ and $\frac{4675}{10000}$ of :g:`C <0128.g1:C>`. There is no limit to the degree of accuracy thus obtainable; and the ratio of :g:`R <0128.g1:R>` to :g:`C <0128.g1:C>` is determined when the order of distribution of the railings among the columns is assigned *ad infinitum*; or, in other words, when the position of *any* given railing can be found, as to the numbers of the columns between which it lies. Any alteration, however small, in the place of the first railing must at last affect the order of distribution. Suppose e.g. that the first railing is moved from the wall by one part in a thousand of the distance between the columns; then the second railing is pushed forward by $\frac{2}{1000}C$, the third by $\frac{3}{1000}C$, and so on, so that
+the railings after the thousandth are pushed forward by more than :g:`C <0128.g1:C>`; i.e. the order with respect to the columns is disarranged.
 
 .. _folio-ii-0129:
 
 .. folio:: 0129
    :page: 123
 
-Now let it be proposed to make a model of the preceding construction in which $c$ shall be the column distance and $r$ the railing distance. It needs no definition of proportion, nor anything more than the conception which we have of that term prior to definition (and with which we must show the agreement of any definition that we may adopt), to assure us that :g:`$C$ <0128.g1:C>` must be to :g:`$R$ <0128.g1:R>` in the same proportion as $c$ to $r$ if the model be truly formed. Nor is it drawing too largely on that conception of proportion to assert that the distribution of the railings among the columns in the model must be everywhere the same as in the original; for example, that the model would be *out of proportion* if its 37th railing fell between the 18th and 19th columns, while the 37th railing of the original fell between the 17th and 18th columns. Thus the dependence of Euclid's definition upon common notions is settled; for the obvious relation between the construction and its model which has just been described contains the collection of conditions, the fulfilment of which, according to Euclid, constitutes proportion. According to Euclid, whenever $mC$ exceeds, equals, or falls short of $nR$, then $mc$ must exceed, equal, or fall short of $nr$; and, by the most obvious property of the constructions, according as the $m$th column comes after, opposite to, or before the $n$th railing in the original, the $m$th column must come after, opposite to, or before the $n$th railing in the correct model.
+Now let it be proposed to make a model of the preceding construction in which $c$ shall be the column distance and $r$ the railing distance. It needs no definition of proportion, nor anything more than the conception which we have of that term prior to definition (and with which we must show the agreement of any definition that we may adopt), to assure us that :g:`C <0128.g1:C>` must be to :g:`R <0128.g1:R>` in the same proportion as $c$ to $r$ if the model be truly formed. Nor is it drawing too largely on that conception of proportion to assert that the distribution of the railings among the columns in the model must be everywhere the same as in the original; for example, that the model would be *out of proportion* if its 37th railing fell between the 18th and 19th columns, while the 37th railing of the original fell between the 17th and 18th columns. Thus the dependence of Euclid's definition upon common notions is settled; for the obvious relation between the construction and its model which has just been described contains the collection of conditions, the fulfilment of which, according to Euclid, constitutes proportion. According to Euclid, whenever $mC$ exceeds, equals, or falls short of $nR$, then $mc$ must exceed, equal, or fall short of $nr$; and, by the most obvious property of the constructions, according as the $m$th column comes after, opposite to, or before the $n$th railing in the original, the $m$th column must come after, opposite to, or before the $n$th railing in the correct model.
 
 Thus the test proposed by Euclid is necessary. It is also sufficient. For admitting that, to a given original with a given column-distance in the model, there is one correct model railing distance (which must therefore be that which distributes the railings among the columns as in the original), we have seen that any other railing distance, however slightly different, would at last give a different distribution; that is, the correct distance, and the correct distance only, satisfies all the conditions required by Euclid's definition.
 
@@ -162,15 +162,15 @@ columns should be found to agree in the model and the original as far as the mil
 .. picture:: 0130.g1.svg
    :alt: Folio 0130 Figure 1
 
-"Let :g:`$OAB$ <0130.g1:< O A B >>` be a triangle to one side :g:`$AB$ <0130.g1:/ A B />` of which :g:`$ab$ <0130.g1:/ a b />` is drawn parallel, and on :g:`$OA$ <0130.g1:[ O A ]>` produced set off :g:`$AA_2$ <0130.g1:/ A A_2 />`, :g:`$A_2A_3$ <0130.g1:/ A_2 A_3 />` etc. :eq:`equal <0130.g1:/ A A_2 / = 0130.g1:/ A_2 A_3 / = 0130.g1:/ O A />` to :g:`$OA$ <0130.g1:/ O A />`, and :g:`$aa_2$ <0130.g1:/ a a_2 />`, :g:`$a_2a_3$ <0130.g1:/ a_2 a_3 />` etc. :eq:`equal <0130.g1:/ a a_2 / = 0130.g1:/ a_2 a_3 / = 0130.g1:/ O a />` to :g:`$Oa$ <0130.g1:/ O a />`.
+"Let :g:`OAB <0130.g1:< O A B >>` be a triangle to one side :g:`AB <0130.g1:/ A B />` of which :g:`ab <0130.g1:/ a b />` is drawn parallel, and on :g:`OA <0130.g1:[ O A ]>` produced set off :g:`AA_2 <0130.g1:/ A A_2 />`, :g:`A_2A_3 <0130.g1:/ A_2 A_3 />` etc. :eq:`equal <0130.g1:/ A A_2 / = 0130.g1:/ A_2 A_3 / = 0130.g1:/ O A />` to :g:`OA <0130.g1:/ O A />`, and :g:`aa_2 <0130.g1:/ a a_2 />`, :g:`a_2a_3 <0130.g1:/ a_2 a_3 />` etc. :eq:`equal <0130.g1:/ a a_2 / = 0130.g1:/ a_2 a_3 / = 0130.g1:/ O a />` to :g:`Oa <0130.g1:/ O a />`.
 
-Through every one of the points so obtained draw parallels to :g:`$AB$ <0130.g1:/ A B />`, meeting :g:`$OB$ <0130.g1:[ O B ]>` produced in :g:`$b_2$ <0130.g1:b_2>`, :g:`$B_2$ <0130.g1:B_2>` etc.
+Through every one of the points so obtained draw parallels to :g:`AB <0130.g1:/ A B />`, meeting :g:`OB <0130.g1:[ O B ]>` produced in :g:`b_2 <0130.g1:b_2>`, :g:`B_2 <0130.g1:B_2>` etc.
 
-Then it is easily proved that :g:`$bb_2$ <0130.g1:/ b b_2 />`, :g:`$b_2b_3$ <0130.g1:/ b_2 b_3 />` etc. are severally :eq:`equal <0130.g1:/ b b_2 / = 0130.g1:/ b_2 b_3 / = 0130.g1:/ O b />; 0130.g1:/ B B_2 / = 0130.g1:/ B_2 B_3 / = 0130.g1:/ O B />` to :g:`$Ob$ <0130.g1:/ O b />`, and :g:`$BB_2$ <0130.g1:/ B B_2 />`, :g:`$B_2B_3$ <0130.g1:/ B_2 B_3 />` etc. to :g:`$OB$ <0130.g1:/ O B />`.
+Then it is easily proved that :g:`bb_2 <0130.g1:/ b b_2 />`, :g:`b_2b_3 <0130.g1:/ b_2 b_3 />` etc. are severally :eq:`equal <0130.g1:/ b b_2 / = 0130.g1:/ b_2 b_3 / = 0130.g1:/ O b />; 0130.g1:/ B B_2 / = 0130.g1:/ B_2 B_3 / = 0130.g1:/ O B />` to :g:`Ob <0130.g1:/ O b />`, and :g:`BB_2 <0130.g1:/ B B_2 />`, :g:`B_2B_3 <0130.g1:/ B_2 B_3 />` etc. to :g:`OB <0130.g1:/ O B />`.
 
-Consequently a distribution of the multiples of :g:`$OA$ <0130.g1:/ O A />` among the multiples of :g:`$Oa$ <0130.g1:/ O a />` is made on one line, and of :g:`$OB$ <0130.g1:/ O B />` among those of :g:`$Ob$ <0130.g1:/ O b />` on the other.
+Consequently a distribution of the multiples of :g:`OA <0130.g1:/ O A />` among the multiples of :g:`Oa <0130.g1:/ O a />` is made on one line, and of :g:`OB <0130.g1:/ O B />` among those of :g:`Ob <0130.g1:/ O b />` on the other.
 
-The examination of this distribution in all its extent (which is impossible, and hence the apparent difficulty of using the definition) is rendered unnecessary by the known property of parallel lines. For, since :g:`$A_3$ <0130.g1:A_3>` lies between :g:`$a_3$ <0130.g1:a_3>` and :g:`$a_4$ <0130.g1:a_4>`, :g:`$B_3$ <0130.g1:B_3>` must lie between :g:`$b_3$ <0130.g1:b_3>` and :g:`$b_4$ <0130.g1:b_4>`; for, if not, the line :g:`$A_3B_3$ <0130.g1:/ A_3 B_3 />` would cut either :g:`$a_3b_3$ <0130.g1:/ a_3 b_3 />` or :g:`$a_4b_4$ <0130.g1:/ a_4 b_4 />`.
+The examination of this distribution in all its extent (which is impossible, and hence the apparent difficulty of using the definition) is rendered unnecessary by the known property of parallel lines. For, since :g:`A_3 <0130.g1:A_3>` lies between :g:`a_3 <0130.g1:a_3>` and :g:`a_4 <0130.g1:a_4>`, :g:`B_3 <0130.g1:B_3>` must lie between :g:`b_3 <0130.g1:b_3>` and :g:`b_4 <0130.g1:b_4>`; for, if not, the line :g:`A_3B_3 <0130.g1:/ A_3 B_3 />` would cut either :g:`a_3b_3 <0130.g1:/ a_3 b_3 />` or :g:`a_4b_4 <0130.g1:/ a_4 b_4 />`.
 
 Hence, without inquiring where $A_m$ *does* fall, we know that, if it fall between $a_n$ and $a_{n+1}$, $B_m$ must fall between $b_n$ and $b_{n+1}$; or, if $m \cdot OA$ fall in magnitude between $n \cdot Oa$ and $(n+1)Oa$, then $m \cdot OB$ must fall between $n \cdot Ob$ and $(n+1)Ob$."
 
@@ -282,64 +282,64 @@ It has already been observed that Euclid has nowhere proved (though the fact can
 Prop. C is as follows :
 
 *If the first be the same multiple of the second, or the same part of it, that the third is of the fourth, the first is to the second as the third is to the fourth.*
-Let the first :g:`$A$ <0133.g1:A>` be the same *multiple* of :g:`$B$ <0133.g1:B>` the second that :g:`$C$ <0133.g1:C>` the third is of the fourth :g:`$D$ <0133.g1:D>` ;
+Let the first :g:`A <0133.g1:A>` be the same *multiple* of :g:`B <0133.g1:B>` the second that :g:`C <0133.g1:C>` the third is of the fourth :g:`D <0133.g1:D>` ;
 
 .. _folio-ii-0133:
 
 .. folio:: 0133
    :page: 127
 
-:g:`$A$ <0133.g1:A>` is to :g:`$B$ <0133.g1:B>` as :g:`$C$ <0133.g1:C>` is to :g:`$D$ <0133.g1:D>`.
+:g:`A <0133.g1:A>` is to :g:`B <0133.g1:B>` as :g:`C <0133.g1:C>` is to :g:`D <0133.g1:D>`.
 
 .. picture:: 0133.g1.svg
    :alt: Folio 0133 Figure 1
 
-Take of :g:`$A$ <0133.g1:A>`, :g:`$C$ <0133.g1:C>` any equimultiples whatever :g:`$E$ <0133.g1:E>`, :g:`$F$ <0133.g1:F>` ; and of :g:`$B$ <0133.g1:B>`, :g:`$D$ <0133.g1:D>` any equimultiples whatever :g:`$G$ <0133.g1:G>`, :g:`$H$ <0133.g1:H>`.
+Take of :g:`A <0133.g1:A>`, :g:`C <0133.g1:C>` any equimultiples whatever :g:`E <0133.g1:E>`, :g:`F <0133.g1:F>` ; and of :g:`B <0133.g1:B>`, :g:`D <0133.g1:D>` any equimultiples whatever :g:`G <0133.g1:G>`, :g:`H <0133.g1:H>`.
 
-Then, because :g:`$A$ <0133.g1:A>` is the same multiple of :g:`$B$ <0133.g1:B>` that :g:`$C$ <0133.g1:C>` is of :g:`$D$ <0133.g1:D>`,
-and :g:`$E$ <0133.g1:E>` is the same multiple of :g:`$A$ <0133.g1:A>` that :g:`$F$ <0133.g1:F>` is of :g:`$C$ <0133.g1:C>`,
-:g:`$E$ <0133.g1:E>` is the same multiple of :g:`$B$ <0133.g1:B>` that :g:`$F$ <0133.g1:F>` is of :g:`$D$ <0133.g1:D>`. [V. 3]
+Then, because :g:`A <0133.g1:A>` is the same multiple of :g:`B <0133.g1:B>` that :g:`C <0133.g1:C>` is of :g:`D <0133.g1:D>`,
+and :g:`E <0133.g1:E>` is the same multiple of :g:`A <0133.g1:A>` that :g:`F <0133.g1:F>` is of :g:`C <0133.g1:C>`,
+:g:`E <0133.g1:E>` is the same multiple of :g:`B <0133.g1:B>` that :g:`F <0133.g1:F>` is of :g:`D <0133.g1:D>`. [V. 3]
 
-Therefore :g:`$E$ <0133.g1:E>`, :g:`$F$ <0133.g1:F>` are the same multiples of :g:`$B$ <0133.g1:B>`, :g:`$D$ <0133.g1:D>`.
+Therefore :g:`E <0133.g1:E>`, :g:`F <0133.g1:F>` are the same multiples of :g:`B <0133.g1:B>`, :g:`D <0133.g1:D>`.
 
-But :g:`$G$ <0133.g1:G>`, :g:`$H$ <0133.g1:H>` are equimultiples of :g:`$B$ <0133.g1:B>`, :g:`$D$ <0133.g1:D>` ;
-therefore, if :g:`$E$ <0133.g1:E>` be a greater multiple of :g:`$B$ <0133.g1:B>` than :g:`$G$ <0133.g1:G>` is, :g:`$F$ <0133.g1:F>` is a greater multiple of :g:`$D$ <0133.g1:D>` than :g:`$H$ <0133.g1:H>` is of :g:`$D$ <0133.g1:D>` ;
+But :g:`G <0133.g1:G>`, :g:`H <0133.g1:H>` are equimultiples of :g:`B <0133.g1:B>`, :g:`D <0133.g1:D>` ;
+therefore, if :g:`E <0133.g1:E>` be a greater multiple of :g:`B <0133.g1:B>` than :g:`G <0133.g1:G>` is, :g:`F <0133.g1:F>` is a greater multiple of :g:`D <0133.g1:D>` than :g:`H <0133.g1:H>` is of :g:`D <0133.g1:D>` ;
 
-that is, if :g:`$E$ <0133.g1:E>` be greater than :g:`$G$ <0133.g1:G>`, :g:`$F$ <0133.g1:F>` is greater than :g:`$H$ <0133.g1:H>`.
+that is, if :g:`E <0133.g1:E>` be greater than :g:`G <0133.g1:G>`, :g:`F <0133.g1:F>` is greater than :g:`H <0133.g1:H>`.
 
 In like manner,
-if :g:`$E$ <0133.g1:E>` be :eq:`equal <0133.g1:E = 0133.g1:G>` to :g:`$G$ <0133.g1:G>`, or less, :g:`$F$ <0133.g1:F>` is :eq:`equal <0133.g1:F = 0133.g1:H>` to :g:`$H$ <0133.g1:H>`, or less than it.
+if :g:`E <0133.g1:E>` be :eq:`equal <0133.g1:E = 0133.g1:G>` to :g:`G <0133.g1:G>`, or less, :g:`F <0133.g1:F>` is :eq:`equal <0133.g1:F = 0133.g1:H>` to :g:`H <0133.g1:H>`, or less than it.
 
-But :g:`$E$ <0133.g1:E>`, :g:`$F$ <0133.g1:F>` are equimultiples, any whatever, of :g:`$A$ <0133.g1:A>`, :g:`$C$ <0133.g1:C>` ;
-and :g:`$G$ <0133.g1:G>`, :g:`$H$ <0133.g1:H>` any equimultiples whatever of :g:`$B$ <0133.g1:B>`, :g:`$D$ <0133.g1:D>`.
+But :g:`E <0133.g1:E>`, :g:`F <0133.g1:F>` are equimultiples, any whatever, of :g:`A <0133.g1:A>`, :g:`C <0133.g1:C>` ;
+and :g:`G <0133.g1:G>`, :g:`H <0133.g1:H>` any equimultiples whatever of :g:`B <0133.g1:B>`, :g:`D <0133.g1:D>`.
 
-Therefore :g:`$A$ <0133.g1:A>` is to :g:`$B$ <0133.g1:B>` as :g:`$C$ <0133.g1:C>` is to :g:`$D$ <0133.g1:D>`. [V. Def. 5]
+Therefore :g:`A <0133.g1:A>` is to :g:`B <0133.g1:B>` as :g:`C <0133.g1:C>` is to :g:`D <0133.g1:D>`. [V. Def. 5]
 
-Next, let the first :g:`$A$ <0133.g2:A>` be the same *part* of the second :g:`$B$ <0133.g2:B>` that the third :g:`$C$ <0133.g2:C>` is of the fourth :g:`$D$ <0133.g2:D>` :
+Next, let the first :g:`A <0133.g2:A>` be the same *part* of the second :g:`B <0133.g2:B>` that the third :g:`C <0133.g2:C>` is of the fourth :g:`D <0133.g2:D>` :
 
-:g:`$A$ <0133.g2:A>` is to :g:`$B$ <0133.g2:B>` as :g:`$C$ <0133.g2:C>` is to :g:`$D$ <0133.g2:D>`.
+:g:`A <0133.g2:A>` is to :g:`B <0133.g2:B>` as :g:`C <0133.g2:C>` is to :g:`D <0133.g2:D>`.
 
 .. picture:: 0133.g2.svg
    :alt: Folio 0133 Figure 2
 
-For :g:`$B$ <0133.g2:B>` is the same multiple of :g:`$A$ <0133.g2:A>` that :g:`$D$ <0133.g2:D>` is of :g:`$C$ <0133.g2:C>` ;
+For :g:`B <0133.g2:B>` is the same multiple of :g:`A <0133.g2:A>` that :g:`D <0133.g2:D>` is of :g:`C <0133.g2:C>` ;
 wherefore, by the preceding case,
 
-:g:`$B$ <0133.g2:B>` is to :g:`$A$ <0133.g2:A>` as :g:`$D$ <0133.g2:D>` is to :g:`$C$ <0133.g2:C>` ;
+:g:`B <0133.g2:B>` is to :g:`A <0133.g2:A>` as :g:`D <0133.g2:D>` is to :g:`C <0133.g2:C>` ;
 
-and, *inversely*, :g:`$A$ <0133.g2:A>` is to :g:`$B$ <0133.g2:B>` as :g:`$C$ <0133.g2:C>` is to :g:`$D$ <0133.g2:D>`.
+and, *inversely*, :g:`A <0133.g2:A>` is to :g:`B <0133.g2:B>` as :g:`C <0133.g2:C>` is to :g:`D <0133.g2:D>`.
 
-[For this last inference :person:`Simson <simson>` refers to his Proposition B. That proposition is very simply proved by taking any equimultiples $E$, $F$ of :g:`$B$ <0133.g2:B>`, :g:`$D$ <0133.g2:D>` and any equimultiples $G$, $H$ of :g:`$A$ <0133.g2:A>`, :g:`$C$ <0133.g2:C>` and then arguing as follows :
+[For this last inference :person:`Simson <simson>` refers to his Proposition B. That proposition is very simply proved by taking any equimultiples $E$, $F$ of :g:`B <0133.g2:B>`, :g:`D <0133.g2:D>` and any equimultiples $G$, $H$ of :g:`A <0133.g2:A>`, :g:`C <0133.g2:C>` and then arguing as follows :
 
-Since :g:`$A$ <0133.g2:A>` is to :g:`$B$ <0133.g2:B>` as :g:`$C$ <0133.g2:C>` is to :g:`$D$ <0133.g2:D>`,
+Since :g:`A <0133.g2:A>` is to :g:`B <0133.g2:B>` as :g:`C <0133.g2:C>` is to :g:`D <0133.g2:D>`,
 $G$, $H$ are *simultaneously* greater than, equal to, or less than $E$, $F$ respectively ; so that
 $E$, $F$ are *simultaneously* less than, equal to, or greater than $G$, $H$ respectively,
-and therefore [Def. 5] :g:`$B$ <0133.g2:B>` is to :g:`$A$ <0133.g2:A>` as :g:`$D$ <0133.g2:D>` is to :g:`$C$ <0133.g2:C>`.]
+and therefore [Def. 5] :g:`B <0133.g2:B>` is to :g:`A <0133.g2:A>` as :g:`D <0133.g2:D>` is to :g:`C <0133.g2:C>`.]
 
-We have now only to add to Prop. C the case where :g:`$AB$ <0134.g1:/ A B />` contains the *same parts* of :g:`$CD$ <0134.g1:/ C D />` that :g:`$EF$ <0134.g1:/ E F />` does of :g:`$GH$ <0134.g1:/ G H />` :
-in this case likewise :g:`$AB$ <0134.g1:/ A B />` is to :g:`$CD$ <0134.g1:/ C D />` as :g:`$EF$ <0134.g1:/ E F />` to :g:`$GH$ <0134.g1:/ G H />`.
+We have now only to add to Prop. C the case where :g:`AB <0134.g1:/ A B />` contains the *same parts* of :g:`CD <0134.g1:/ C D />` that :g:`EF <0134.g1:/ E F />` does of :g:`GH <0134.g1:/ G H />` :
+in this case likewise :g:`AB <0134.g1:/ A B />` is to :g:`CD <0134.g1:/ C D />` as :g:`EF <0134.g1:/ E F />` to :g:`GH <0134.g1:/ G H />`.
 
-Let :g:`$CK$ <0134.g1:/ C K />` be a part of :g:`$CD$ <0134.g1:/ C D />`, and :g:`$GL$ <0134.g1:/ G L />` the same part of :g:`$GH$ <0134.g1:/ G H />` ; let :g:`$AB$ <0134.g1:/ A B />` be the same multiple of :g:`$CK$ <0134.g1:/ C K />` that :g:`$EF$ <0134.g1:/ E F />` is of :g:`$GL$ <0134.g1:/ G L />`.
+Let :g:`CK <0134.g1:/ C K />` be a part of :g:`CD <0134.g1:/ C D />`, and :g:`GL <0134.g1:/ G L />` the same part of :g:`GH <0134.g1:/ G H />` ; let :g:`AB <0134.g1:/ A B />` be the same multiple of :g:`CK <0134.g1:/ C K />` that :g:`EF <0134.g1:/ E F />` is of :g:`GL <0134.g1:/ G L />`.
 
 .. _folio-ii-0134:
 
@@ -348,79 +348,79 @@ Let :g:`$CK$ <0134.g1:/ C K />` be a part of :g:`$CD$ <0134.g1:/ C D />`, and :g
 
 Therefore, by Prop. C,
 
-:g:`$AB$ <0134.g1:/ A B />` is to :g:`$CK$ <0134.g1:/ C K />` as :g:`$EF$ <0134.g1:/ E F />` to :g:`$GL$ <0134.g1:/ G L />`.
+:g:`AB <0134.g1:/ A B />` is to :g:`CK <0134.g1:/ C K />` as :g:`EF <0134.g1:/ E F />` to :g:`GL <0134.g1:/ G L />`.
 
 .. picture:: 0134.g1.svg
    :alt: Folio 0134 Figure 1
 
-And :g:`$CD$ <0134.g1:/ C D />`, :g:`$GH$ <0134.g1:/ G H />` are equimultiples of :g:`$CK$ <0134.g1:/ C K />`, :g:`$GL$ <0134.g1:/ G L />`, the second and fourth.
+And :g:`CD <0134.g1:/ C D />`, :g:`GH <0134.g1:/ G H />` are equimultiples of :g:`CK <0134.g1:/ C K />`, :g:`GL <0134.g1:/ G L />`, the second and fourth.
 
-Therefore :g:`$AB$ <0134.g1:/ A B />` is to :g:`$CD$ <0134.g1:/ C D />` as :g:`$EF$ <0134.g1:/ E F />` to :g:`$GH$ <0134.g1:/ G H />` [:person:`Simson <simson>`'s Cor. to V. 4, which however is the particular case of V. 4 in which the "equimultiples" of one pair are the pair itself, i.e. the pair multiplied by unity].
+Therefore :g:`AB <0134.g1:/ A B />` is to :g:`CD <0134.g1:/ C D />` as :g:`EF <0134.g1:/ E F />` to :g:`GH <0134.g1:/ G H />` [:person:`Simson <simson>`'s Cor. to V. 4, which however is the particular case of V. 4 in which the "equimultiples" of one pair are the pair itself, i.e. the pair multiplied by unity].
 
 To prove the partial converse we begin with Prop. D.
 
 *If the first be to the second as the third to the fourth, and if the first be a multiple or part of the second, the third is the same multiple or the same part of the fourth.*
 
-Let :g:`$A$ <0134.g2:A>` be to :g:`$B$ <0134.g2:B>` as :g:`$C$ <0134.g2:C>` is to :g:`$D$ <0134.g2:D>` ;
-and, first, let :g:`$A$ <0134.g2:A>` be a multiple of :g:`$B$ <0134.g2:B>` ;
+Let :g:`A <0134.g2:A>` be to :g:`B <0134.g2:B>` as :g:`C <0134.g2:C>` is to :g:`D <0134.g2:D>` ;
+and, first, let :g:`A <0134.g2:A>` be a multiple of :g:`B <0134.g2:B>` ;
 
-:g:`$C$ <0134.g2:C>` is the same multiple of :g:`$D$ <0134.g2:D>`.
+:g:`C <0134.g2:C>` is the same multiple of :g:`D <0134.g2:D>`.
 
-Take :g:`$E$ <0134.g2:E>` :eq:`equal <0134.g2:E = 0134.g2:A>` to :g:`$A$ <0134.g2:A>`, and whatever multiple :g:`$A$ <0134.g2:A>` or :g:`$E$ <0134.g2:E>` is of :g:`$B$ <0134.g2:B>`, make :g:`$F$ <0134.g2:F>` the same multiple of :g:`$D$ <0134.g2:D>`.
+Take :g:`E <0134.g2:E>` :eq:`equal <0134.g2:E = 0134.g2:A>` to :g:`A <0134.g2:A>`, and whatever multiple :g:`A <0134.g2:A>` or :g:`E <0134.g2:E>` is of :g:`B <0134.g2:B>`, make :g:`F <0134.g2:F>` the same multiple of :g:`D <0134.g2:D>`.
 
-Then, because :g:`$A$ <0134.g2:A>` is to :g:`$B$ <0134.g2:B>` as :g:`$C$ <0134.g2:C>` is to :g:`$D$ <0134.g2:D>`,
-and of :g:`$B$ <0134.g2:B>` the second and :g:`$D$ <0134.g2:D>` the fourth equimultiples have been taken :g:`$E$ <0134.g2:E>` and :g:`$F$ <0134.g2:F>`,
+Then, because :g:`A <0134.g2:A>` is to :g:`B <0134.g2:B>` as :g:`C <0134.g2:C>` is to :g:`D <0134.g2:D>`,
+and of :g:`B <0134.g2:B>` the second and :g:`D <0134.g2:D>` the fourth equimultiples have been taken :g:`E <0134.g2:E>` and :g:`F <0134.g2:F>`,
 
-:g:`$A$ <0134.g2:A>` is to :g:`$E$ <0134.g2:E>` as :g:`$C$ <0134.g2:C>` is to :g:`$F$ <0134.g2:F>`. [V. 4, Cor.]
+:g:`A <0134.g2:A>` is to :g:`E <0134.g2:E>` as :g:`C <0134.g2:C>` is to :g:`F <0134.g2:F>`. [V. 4, Cor.]
 
-But :g:`$A$ <0134.g2:A>` is :eq:`equal <0134.g2:A = 0134.g2:E>` to :g:`$E$ <0134.g2:E>` ;
+But :g:`A <0134.g2:A>` is :eq:`equal <0134.g2:A = 0134.g2:E>` to :g:`E <0134.g2:E>` ;
 
-therefore :g:`$C$ <0134.g2:C>` is :eq:`equal <0134.g2:C = 0134.g2:F>` to :g:`$F$ <0134.g2:F>`.
+therefore :g:`C <0134.g2:C>` is :eq:`equal <0134.g2:C = 0134.g2:F>` to :g:`F <0134.g2:F>`.
 
 [In support of this inference :person:`Simson <simson>` cites his Prop. A, which however we can directly deduce from V. Def. 5 by taking any, but *the same*, equimultiples of all four magnitudes.]
 
 .. picture:: 0134.g2.svg
    :alt: Folio 0134 Figure 2
 
-Now :g:`$F$ <0134.g2:F>` is the same multiple of :g:`$D$ <0134.g2:D>` that :g:`$A$ <0134.g2:A>` is of :g:`$B$ <0134.g2:B>` ;
+Now :g:`F <0134.g2:F>` is the same multiple of :g:`D <0134.g2:D>` that :g:`A <0134.g2:A>` is of :g:`B <0134.g2:B>` ;
 
-therefore :g:`$C$ <0134.g2:C>` is the same multiple of :g:`$D$ <0134.g2:D>` that :g:`$A$ <0134.g2:A>` is of :g:`$B$ <0134.g2:B>`.
+therefore :g:`C <0134.g2:C>` is the same multiple of :g:`D <0134.g2:D>` that :g:`A <0134.g2:A>` is of :g:`B <0134.g2:B>`.
 
-Next, let the first :g:`$A$ <0134.g2:A>` be a part of the second :g:`$B$ <0134.g2:B>` ;
+Next, let the first :g:`A <0134.g2:A>` be a part of the second :g:`B <0134.g2:B>` ;
 
-:g:`$C$ <0134.g2:C>` the third is the same part of the fourth :g:`$D$ <0134.g2:D>`.
+:g:`C <0134.g2:C>` the third is the same part of the fourth :g:`D <0134.g2:D>`.
 
-Because :g:`$A$ <0134.g2:A>` is to :g:`$B$ <0134.g2:B>` as :g:`$C$ <0134.g2:C>` is to :g:`$D$ <0134.g2:D>`,
-*inversely*, :g:`$B$ <0134.g2:B>` is to :g:`$A$ <0134.g2:A>` as :g:`$D$ <0134.g2:D>` is to :g:`$C$ <0134.g2:C>`. [Prop. B]
+Because :g:`A <0134.g2:A>` is to :g:`B <0134.g2:B>` as :g:`C <0134.g2:C>` is to :g:`D <0134.g2:D>`,
+*inversely*, :g:`B <0134.g2:B>` is to :g:`A <0134.g2:A>` as :g:`D <0134.g2:D>` is to :g:`C <0134.g2:C>`. [Prop. B]
 
-But :g:`$A$ <0134.g2:A>` is a part of :g:`$B$ <0134.g2:B>` ; therefore :g:`$B$ <0134.g2:B>` is a multiple of :g:`$A$ <0134.g2:A>` ;
-and, by the preceding case, :g:`$D$ <0134.g2:D>` is the same multiple of :g:`$C$ <0134.g2:C>`,
-that is, :g:`$C$ <0134.g2:C>` is the same part of :g:`$D$ <0134.g2:D>` that :g:`$A$ <0134.g2:A>` is of :g:`$B$ <0134.g2:B>`.
+But :g:`A <0134.g2:A>` is a part of :g:`B <0134.g2:B>` ; therefore :g:`B <0134.g2:B>` is a multiple of :g:`A <0134.g2:A>` ;
+and, by the preceding case, :g:`D <0134.g2:D>` is the same multiple of :g:`C <0134.g2:C>`,
+that is, :g:`C <0134.g2:C>` is the same part of :g:`D <0134.g2:D>` that :g:`A <0134.g2:A>` is of :g:`B <0134.g2:B>`.
 
-We have, again, only to add to Prop. D the case where :g:`$AB$ <0135.g1:/ A B />` contains any parts of :g:`$CD$ <0135.g1:/ C D />`, and :g:`$AB$ <0135.g1:/ A B />` is to :g:`$CD$ <0135.g1:/ C D />` as :g:`$EF$ <0135.g1:/ E F />` to :g:`$GH$ <0135.g1:/ G H />` ;
-then shall :g:`$EF$ <0135.g1:/ E F />` contain the same parts of :g:`$GH$ <0135.g1:/ G H />` that :g:`$AB$ <0135.g1:/ A B />` does of :g:`$CD$ <0135.g1:/ C D />`.
+We have, again, only to add to Prop. D the case where :g:`AB <0135.g1:/ A B />` contains any parts of :g:`CD <0135.g1:/ C D />`, and :g:`AB <0135.g1:/ A B />` is to :g:`CD <0135.g1:/ C D />` as :g:`EF <0135.g1:/ E F />` to :g:`GH <0135.g1:/ G H />` ;
+then shall :g:`EF <0135.g1:/ E F />` contain the same parts of :g:`GH <0135.g1:/ G H />` that :g:`AB <0135.g1:/ A B />` does of :g:`CD <0135.g1:/ C D />`.
 
 .. _folio-ii-0135:
 
 .. folio:: 0135
    :page: 129
 
-For let :g:`$CK$ <0135.g1:/ C K />` be a part of :g:`$CD$ <0135.g1:/ C D />`, and :g:`$GL$ <0135.g1:/ G L />` the same part of :g:`$GH$ <0135.g1:/ G H />` ; and let :g:`$AB$ <0135.g1:/ A B />` be a multiple of :g:`$CK$ <0135.g1:/ C K />`.
+For let :g:`CK <0135.g1:/ C K />` be a part of :g:`CD <0135.g1:/ C D />`, and :g:`GL <0135.g1:/ G L />` the same part of :g:`GH <0135.g1:/ G H />` ; and let :g:`AB <0135.g1:/ A B />` be a multiple of :g:`CK <0135.g1:/ C K />`.
 
-:g:`$EF$ <0135.g1:/ E F />` shall be the same multiple of :g:`$GL$ <0135.g1:/ G L />`.
+:g:`EF <0135.g1:/ E F />` shall be the same multiple of :g:`GL <0135.g1:/ G L />`.
 
-Take :g:`$M$ <0135.g1:M>` the same multiple of :g:`$GL$ <0135.g1:/ G L />` that :g:`$AB$ <0135.g1:/ A B />` is of :g:`$CK$ <0135.g1:/ C K />` ;
-therefore :g:`$AB$ <0135.g1:/ A B />` is to :g:`$CK$ <0135.g1:/ C K />` as :g:`$M$ <0135.g1:M>` is to :g:`$GL$ <0135.g1:/ G L />`. [Prop. C]
+Take :g:`M <0135.g1:M>` the same multiple of :g:`GL <0135.g1:/ G L />` that :g:`AB <0135.g1:/ A B />` is of :g:`CK <0135.g1:/ C K />` ;
+therefore :g:`AB <0135.g1:/ A B />` is to :g:`CK <0135.g1:/ C K />` as :g:`M <0135.g1:M>` is to :g:`GL <0135.g1:/ G L />`. [Prop. C]
 
 .. picture:: 0135.g1.svg
    :alt: Folio 0135 Figure 1
 
-And :g:`$CD$ <0135.g1:/ C D />`, :g:`$GH$ <0135.g1:/ G H />` are equimultiples of :g:`$CK$ <0135.g1:/ C K />`, :g:`$GL$ <0135.g1:/ G L />` ;
-therefore :g:`$AB$ <0135.g1:/ A B />` is to :g:`$CD$ <0135.g1:/ C D />` as :g:`$M$ <0135.g1:M>` is to :g:`$GH$ <0135.g1:/ G H />`.
+And :g:`CD <0135.g1:/ C D />`, :g:`GH <0135.g1:/ G H />` are equimultiples of :g:`CK <0135.g1:/ C K />`, :g:`GL <0135.g1:/ G L />` ;
+therefore :g:`AB <0135.g1:/ A B />` is to :g:`CD <0135.g1:/ C D />` as :g:`M <0135.g1:M>` is to :g:`GH <0135.g1:/ G H />`.
 
-But, by hypothesis, :g:`$AB$ <0135.g1:/ A B />` is to :g:`$CD$ <0135.g1:/ C D />` as :g:`$EF$ <0135.g1:/ E F />` is to :g:`$GH$ <0135.g1:/ G H />` ;
-therefore :g:`$M$ <0135.g1:M>` is :eq:`equal <0135.g1:M = 0135.g1:/ E F />` to :g:`$EF$ <0135.g1:/ E F />`, [V. 9]
-and consequently :g:`$EF$ <0135.g1:/ E F />` is the same multiple of :g:`$GL$ <0135.g1:/ G L />` that :g:`$AB$ <0135.g1:/ A B />` is of :g:`$CK$ <0135.g1:/ C K />`.
+But, by hypothesis, :g:`AB <0135.g1:/ A B />` is to :g:`CD <0135.g1:/ C D />` as :g:`EF <0135.g1:/ E F />` is to :g:`GH <0135.g1:/ G H />` ;
+therefore :g:`M <0135.g1:M>` is :eq:`equal <0135.g1:M = 0135.g1:/ E F />` to :g:`EF <0135.g1:/ E F />`, [V. 9]
+and consequently :g:`EF <0135.g1:/ E F />` is the same multiple of :g:`GL <0135.g1:/ G L />` that :g:`AB <0135.g1:/ A B />` is of :g:`CK <0135.g1:/ C K />`.
 
 ----
 
@@ -441,7 +441,7 @@ DEFINITION 7.
 Ὅταν δὲ τῶν :term:`ἰσάκις <isakis>` πολλαπλασίων τὸ μὲν τοῦ πρώτου :term:`πολλαπλάσιον <multiple>` ὑπερέχῃ τοῦ τοῦ δευτέρου πολλαπλασίου, τὸ δὲ τοῦ τρίτου :term:`πολλαπλάσιον <multiple>` μὴ ὑπερέχῃ τοῦ τοῦ τετάρτου πολλαπλασίου, τότε τὸ πρῶτον πρὸς τὸ δεύτερον μείζονα :term:`λόγον ἔχειν <have-a-ratio>` λέγεται, ἤπερ τὸ τρίτον πρὸς τὸ τέταρτον.
 
 As :person:`De Morgan <de-morgan>` observes, the practical test of *disproportion* is simpler than that of proportion. For, whereas no examination of individual cases, however
-extensive, will enable an observer of the construction and its model (the illustration by means of columns and railings described above) to affirm proportion or deny disproportion, and all it enables us to do is to fix limits (as small as we please) to the disproportion (if any), a single instance may enable us to deny proportion or affirm disproportion, and also to state which way the disproportion lies. Let the 19th railing in the original fall beyond the 11th column, while the 19th railing of the (so-called) model does not come up to the 11th column. It follows from this one instance that the railing distance of the model is too small relatively to the column distance, or that the column distance is too great relatively to the railing distance. That is, the ratio of $r$ to $c$ is less than that of :g:`$R$ <0128.g1:R>` to :g:`$C$ <0128.g1:C>`, or the ratio of $c$ to $r$ is greater than that of :g:`$C$ <0128.g1:C>` to :g:`$R$ <0128.g1:R>`.
+extensive, will enable an observer of the construction and its model (the illustration by means of columns and railings described above) to affirm proportion or deny disproportion, and all it enables us to do is to fix limits (as small as we please) to the disproportion (if any), a single instance may enable us to deny proportion or affirm disproportion, and also to state which way the disproportion lies. Let the 19th railing in the original fall beyond the 11th column, while the 19th railing of the (so-called) model does not come up to the 11th column. It follows from this one instance that the railing distance of the model is too small relatively to the column distance, or that the column distance is too great relatively to the railing distance. That is, the ratio of $r$ to $c$ is less than that of :g:`R <0128.g1:R>` to :g:`C <0128.g1:C>`, or the ratio of $c$ to $r$ is greater than that of :g:`C <0128.g1:C>` to :g:`R <0128.g1:R>`.
 
 .. _folio-ii-0136:
 

@@ -35,7 +35,7 @@ $$\alpha^{n+1},\quad \alpha^n\beta,\quad \alpha^{n-1}\beta^2\;\dots\;\alpha^2\be
 
 and we have the *n* means between $a$ and $b$.
 
-It will be observed that, when Euclid says "*For the same reason also, as* :g:`$D$ <0367.g1:D>` *is to* :g:`$F$ <0367.g1:F>`*, so is* :g:`$H$ <0367.g1:H>` *to* :g:`$G$ <0367.g1:G>`, " the reference is really to VII. 18 instead of VII. 17.
+It will be observed that, when Euclid says "*For the same reason also, as* :g:`D <0367.g1:D>` *is to* :g:`F <0367.g1:F>`*, so is* :g:`H <0367.g1:H>` *to* :g:`G <0367.g1:G>`, " the reference is really to VII. 18 instead of VII. 17.
 
 .. _folio-ii-0369:
 

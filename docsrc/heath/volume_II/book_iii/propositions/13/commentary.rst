@@ -30,17 +30,17 @@ Euclid's proof of the first part of the proposition differs from :person:`Simson
 
 :person:`Simson <simson>`'s proof is as follows (there is no real need for giving two figures as he does).
 
-"If it be possible, let the circle :g:`$EBF$ <0040.g1:( E B F )>` touch the circle :g:`$ABC$ <0040.g1:( A B C )>` in more points than one, and first on the inside, in the points :g:`$B$ <0040.g1:B>`, :g:`$D$ <0040.g1:D>`; join :g:`$BD$ <0040.g1:/ B D />`, and draw :g:`$GH$ <0040.g1:/ G H />` bisecting :g:`$BD$ <0040.g1:/ B D />` at right angles.
+"If it be possible, let the circle :g:`EBF <0040.g1:( E B F )>` touch the circle :g:`ABC <0040.g1:( A B C )>` in more points than one, and first on the inside, in the points :g:`B <0040.g1:B>`, :g:`D <0040.g1:D>`; join :g:`BD <0040.g1:/ B D />`, and draw :g:`GH <0040.g1:/ G H />` bisecting :g:`BD <0040.g1:/ B D />` at right angles.
 
 .. picture:: 0040.g1.svg
    :alt: Simson's diagram for Proposition 13
 
-Therefore, because the points :g:`$B$ <0040.g1:B>`, :g:`$D$ <0040.g1:D>` are in the circumference of each of the circles, the straight line :g:`$BD$ <0040.g1:/ B D />` falls within each of them: And their centres are in the straight line :g:`$GH$ <0040.g1:/ G H />` which bisects :g:`$BD$ <0040.g1:/ B D />` at right angles:
+Therefore, because the points :g:`B <0040.g1:B>`, :g:`D <0040.g1:D>` are in the circumference of each of the circles, the straight line :g:`BD <0040.g1:/ B D />` falls within each of them: And their centres are in the straight line :g:`GH <0040.g1:/ G H />` which bisects :g:`BD <0040.g1:/ B D />` at right angles:
 
-Therefore :g:`$GH$ <0040.g1:/ G H />` passes through the point of contact [III. 11]; but it does not pass through it, because the points :g:`$B$ <0040.g1:B>`, :g:`$D$ <0040.g1:D>` are without the straight line :g:`$GH$ <0040.g1:/ G H />`: which is absurd.
+Therefore :g:`GH <0040.g1:/ G H />` passes through the point of contact [III. 11]; but it does not pass through it, because the points :g:`B <0040.g1:B>`, :g:`D <0040.g1:D>` are without the straight line :g:`GH <0040.g1:/ G H />`: which is absurd.
 
 Therefore one circle cannot touch another on the inside in more points than one."
 
-On this :person:`Camerer <camerer>` remarks that, unless III. 11 be more completely elucidated than it is by Euclid's demonstration, which :person:`Simson <simson>` has, it is not sufficiently clear that, besides the point of contact in which :g:`$GH$ <0040.g1:/ G H />` meets the circles, they cannot have another point of contact either (1) on :g:`$GH$ <0040.g1:/ G H />` or (2) outside it. Here again the latter supposition (2) is rendered impossible because in that case there would be a third common point on the opposite side of :g:`$GH$ <0040.g1:/ G H />`; and the former supposition (1) is that which Euclid's proof destroys.
+On this :person:`Camerer <camerer>` remarks that, unless III. 11 be more completely elucidated than it is by Euclid's demonstration, which :person:`Simson <simson>` has, it is not sufficiently clear that, besides the point of contact in which :g:`GH <0040.g1:/ G H />` meets the circles, they cannot have another point of contact either (1) on :g:`GH <0040.g1:/ G H />` or (2) outside it. Here again the latter supposition (2) is rendered impossible because in that case there would be a third common point on the opposite side of :g:`GH <0040.g1:/ G H />`; and the former supposition (1) is that which Euclid's proof destroys.
 
 :person:`Simson <simson>` retains Euclid's proof of the second part of the proposition, though his own proof of the first part would apply to the second part also if a reference to III. 12 were substituted for the reference to III. 11. Euclid might also have proved the second part by the same method as that which he employs for the first part.

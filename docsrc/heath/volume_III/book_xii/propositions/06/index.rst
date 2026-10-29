@@ -22,53 +22,53 @@ PROPOSITION 6.
 
    Pyramids which are of the same height and have polygonal bases are to one another as the bases.
 
-Let there be pyramids of the same height of which the polygons :g:`$ABCDE$ <0396.g1:< A B C D E >>`, :g:`$FGHKL$ <0396.g1:< F G H K L >>` are the bases and the points :g:`$M$ <0396.g1:M>`, :g:`$N$ <0396.g1:N>` the vertices; I say that, as the base :g:`$ABCDE$ <0396.g1:< A B C D E >>` is to the base :g:`$FGHKL$ <0396.g1:< F G H K L >>`, so is the pyramid :g:`$ABCDEM$ <0396.g1:< A B C D E M >>` to the pyramid :g:`$FGHKLN$ <0396.g1:< F G H K L N >>`.
+Let there be pyramids of the same height of which the polygons :g:`ABCDE <0396.g1:< A B C D E >>`, :g:`FGHKL <0396.g1:< F G H K L >>` are the bases and the points :g:`M <0396.g1:M>`, :g:`N <0396.g1:N>` the vertices; I say that, as the base :g:`ABCDE <0396.g1:< A B C D E >>` is to the base :g:`FGHKL <0396.g1:< F G H K L >>`, so is the pyramid :g:`ABCDEM <0396.g1:< A B C D E M >>` to the pyramid :g:`FGHKLN <0396.g1:< F G H K L N >>`.
 
 .. picture:: 0396.g1.svg
    :alt: Proposition 6
 
-For let :g:`$AC$ <0396.g1:/ A C />`, :g:`$AD$ <0396.g1:/ A D />`, :g:`$FH$ <0396.g1:/ F H />`, :g:`$FK$ <0396.g1:/ F K />` be joined.
+For let :g:`AC <0396.g1:/ A C />`, :g:`AD <0396.g1:/ A D />`, :g:`FH <0396.g1:/ F H />`, :g:`FK <0396.g1:/ F K />` be joined.
 
-Since then :g:`$ABCM$ <0396.g1:< A B C M >>`, :g:`$ACDM$ <0396.g1:< A C D M >>` are two pyramids which have triangular bases and equal height, they are to one another as the bases; :just:`[XII. 5] <XII.5>`
-
-.. assertion::
-
-   therefore, as the base :g:`$ABC$ <0396.g1:< A B C >>` is to the base :g:`$ACD$ <0396.g1:< A C D >>`, so is the pyramid :g:`$ABCM$ <0396.g1:< A B C M >>` to the pyramid :g:`$ACDM$ <0396.g1:< A C D M >>`.
+Since then :g:`ABCM <0396.g1:< A B C M >>`, :g:`ACDM <0396.g1:< A C D M >>` are two pyramids which have triangular bases and equal height, they are to one another as the bases; :just:`[XII. 5] <XII.5>`
 
 .. assertion::
 
-   And, :term:`*componendo* <componendo>`, as the base :g:`$ABCD$ <0396.g1:< A B C D >>` is to the base :g:`$ACD$ <0396.g1:< A C D >>`, so is the pyramid :g:`$ABCDM$ <0396.g1:< A B C D M >>` to the pyramid :g:`$ACDM$ <0396.g1:< A C D M >>`. :just:`[V. 18] <V.18>`
-
-But also, as the base :g:`$ACD$ <0396.g1:< A C D >>` is to the base :g:`$ADE$ <0396.g1:< A D E >>`, so is the pyramid :g:`$ACDM$ <0396.g1:< A C D M >>` to the pyramid :g:`$ADEM$ <0396.g1:< A D E M >>`. :just:`[XII. 5] <XII.5>`
+   therefore, as the base :g:`ABC <0396.g1:< A B C >>` is to the base :g:`ACD <0396.g1:< A C D >>`, so is the pyramid :g:`ABCM <0396.g1:< A B C M >>` to the pyramid :g:`ACDM <0396.g1:< A C D M >>`.
 
 .. assertion::
 
-   Therefore, :term:`*ex aequali* <ex-aequali>`, as the base :g:`$ABCD$ <0396.g1:< A B C D >>` is to the base :g:`$ADE$ <0396.g1:< A D E >>`, so is the pyramid :g:`$ABCDM$ <0396.g1:< A B C D M >>` to the pyramid :g:`$ADEM$ <0396.g1:< A D E M >>`. :just:`[V. 22] <V.22>`
+   And, :term:`*componendo* <componendo>`, as the base :g:`ABCD <0396.g1:< A B C D >>` is to the base :g:`ACD <0396.g1:< A C D >>`, so is the pyramid :g:`ABCDM <0396.g1:< A B C D M >>` to the pyramid :g:`ACDM <0396.g1:< A C D M >>`. :just:`[V. 18] <V.18>`
+
+But also, as the base :g:`ACD <0396.g1:< A C D >>` is to the base :g:`ADE <0396.g1:< A D E >>`, so is the pyramid :g:`ACDM <0396.g1:< A C D M >>` to the pyramid :g:`ADEM <0396.g1:< A D E M >>`. :just:`[XII. 5] <XII.5>`
 
 .. assertion::
 
-   And again :term:`*componendo* <componendo>`, as the base :g:`$ABCDE$ <0396.g1:< A B C D E >>` is to the base :g:`$ADE$ <0396.g1:< A D E >>`, so is the pyramid :g:`$ABCDEM$ <0396.g1:< A B C D E M >>` to the pyramid :g:`$ADEM$ <0396.g1:< A D E M >>`. :just:`[V. 18] <V.18>`
+   Therefore, :term:`*ex aequali* <ex-aequali>`, as the base :g:`ABCD <0396.g1:< A B C D >>` is to the base :g:`ADE <0396.g1:< A D E >>`, so is the pyramid :g:`ABCDM <0396.g1:< A B C D M >>` to the pyramid :g:`ADEM <0396.g1:< A D E M >>`. :just:`[V. 22] <V.22>`
 
-Similarly also it can be proved that, as the base :g:`$FGHKL$ <0396.g1:< F G H K L >>` is to the base :g:`$FGH$ <0396.g1:< F G H >>`, so is the pyramid :g:`$FGHKLN$ <0396.g1:< F G H K L N >>` to the pyramid :g:`$FGHN$ <0396.g1:< F G H N >>`.
+.. assertion::
+
+   And again :term:`*componendo* <componendo>`, as the base :g:`ABCDE <0396.g1:< A B C D E >>` is to the base :g:`ADE <0396.g1:< A D E >>`, so is the pyramid :g:`ABCDEM <0396.g1:< A B C D E M >>` to the pyramid :g:`ADEM <0396.g1:< A D E M >>`. :just:`[V. 18] <V.18>`
+
+Similarly also it can be proved that, as the base :g:`FGHKL <0396.g1:< F G H K L >>` is to the base :g:`FGH <0396.g1:< F G H >>`, so is the pyramid :g:`FGHKLN <0396.g1:< F G H K L N >>` to the pyramid :g:`FGHN <0396.g1:< F G H N >>`.
 
 .. _folio-iii-0397:
 
 .. folio:: 0397
    :page: 393
 
-And, since :g:`$ADEM$ <0396.g1:< A D E M >>`, :g:`$FGHN$ <0396.g1:< F G H N >>` are two pyramids which have triangular bases and equal height, therefore, as the base :g:`$ADE$ <0396.g1:< A D E >>` is to the base :g:`$FGH$ <0396.g1:< F G H >>`, so is the pyramid :g:`$ADEM$ <0396.g1:< A D E M >>` to the pyramid :g:`$FGHN$ <0396.g1:< F G H N >>`. :just:`[XII. 5] <XII.5>`
+And, since :g:`ADEM <0396.g1:< A D E M >>`, :g:`FGHN <0396.g1:< F G H N >>` are two pyramids which have triangular bases and equal height, therefore, as the base :g:`ADE <0396.g1:< A D E >>` is to the base :g:`FGH <0396.g1:< F G H >>`, so is the pyramid :g:`ADEM <0396.g1:< A D E M >>` to the pyramid :g:`FGHN <0396.g1:< F G H N >>`. :just:`[XII. 5] <XII.5>`
 
-But, as the base :g:`$ADE$ <0396.g1:< A D E >>` is to the base :g:`$ABCDE$ <0396.g1:< A B C D E >>`, so was the pyramid :g:`$ADEM$ <0396.g1:< A D E M >>` to the pyramid :g:`$ABCDEM$ <0396.g1:< A B C D E M >>`.
-
-.. assertion::
-
-   Therefore also, :term:`*ex aequali* <ex-aequali>`, as the base :g:`$ABCDE$ <0396.g1:< A B C D E >>` is to the base :g:`$FGH$ <0396.g1:< F G H >>`, so is the pyramid :g:`$ABCDEM$ <0396.g1:< A B C D E M >>` to the pyramid :g:`$FGHN$ <0396.g1:< F G H N >>`. :just:`[V. 22] <V.22>`
-
-But further, as the base :g:`$FGH$ <0396.g1:< F G H >>` is to the base :g:`$FGHKL$ <0396.g1:< F G H K L >>`, so also was the pyramid :g:`$FGHN$ <0396.g1:< F G H N >>` to the pyramid :g:`$FGHKLN$ <0396.g1:< F G H K L N >>`.
+But, as the base :g:`ADE <0396.g1:< A D E >>` is to the base :g:`ABCDE <0396.g1:< A B C D E >>`, so was the pyramid :g:`ADEM <0396.g1:< A D E M >>` to the pyramid :g:`ABCDEM <0396.g1:< A B C D E M >>`.
 
 .. assertion::
 
-   Therefore also, :term:`*ex aequali* <ex-aequali>`, as the base :g:`$ABCDE$ <0396.g1:< A B C D E >>` is to the base :g:`$FGHKL$ <0396.g1:< F G H K L >>`, so is the pyramid :g:`$ABCDEM$ <0396.g1:< A B C D E M >>` to the pyramid :g:`$FGHKLN$ <0396.g1:< F G H K L N >>`. :just:`[V. 22] <V.22>`
+   Therefore also, :term:`*ex aequali* <ex-aequali>`, as the base :g:`ABCDE <0396.g1:< A B C D E >>` is to the base :g:`FGH <0396.g1:< F G H >>`, so is the pyramid :g:`ABCDEM <0396.g1:< A B C D E M >>` to the pyramid :g:`FGHN <0396.g1:< F G H N >>`. :just:`[V. 22] <V.22>`
+
+But further, as the base :g:`FGH <0396.g1:< F G H >>` is to the base :g:`FGHKL <0396.g1:< F G H K L >>`, so also was the pyramid :g:`FGHN <0396.g1:< F G H N >>` to the pyramid :g:`FGHKLN <0396.g1:< F G H K L N >>`.
+
+.. assertion::
+
+   Therefore also, :term:`*ex aequali* <ex-aequali>`, as the base :g:`ABCDE <0396.g1:< A B C D E >>` is to the base :g:`FGHKL <0396.g1:< F G H K L >>`, so is the pyramid :g:`ABCDEM <0396.g1:< A B C D E M >>` to the pyramid :g:`FGHKLN <0396.g1:< F G H K L N >>`. :just:`[V. 22] <V.22>`
 
 .. qed::
 

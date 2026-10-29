@@ -53,10 +53,10 @@ Prop. B which, as we have seen, is a direct consequence of the definition of pro
 
 .. container:: center
 
-   (:g:`$BD$ <0275.g1:/ B D />` + :g:`$CD$ <0275.g1:/ C D />`) : :g:`$BC$ <0275.g1:/ B C />` = (sum of figs. on :g:`$BA$ <0275.g1:/ B A />`, :g:`$AC$ <0275.g1:/ A C />`) : (fig. on :g:`$BC$ <0275.g1:/ B C />`).
+   (:g:`BD <0275.g1:/ B D />` + :g:`CD <0275.g1:/ C D />`) : :g:`BC <0275.g1:/ B C />` = (sum of figs. on :g:`BA <0275.g1:/ B A />`, :g:`AC <0275.g1:/ A C />`) : (fig. on :g:`BC <0275.g1:/ B C />`).
 
 But $BD + CD$ is equal to $BC$;
-therefore (by :person:`Simson <simson>`'s Prop. A, which again is an immediate consequence of the definition of proportion) the sum of the figures on $BA$, :g:`$AC$ <0275.g1:/ A C />` is equal to the figure on $BC$.
+therefore (by :person:`Simson <simson>`'s Prop. A, which again is an immediate consequence of the definition of proportion) the sum of the figures on $BA$, :g:`AC <0275.g1:/ A C />` is equal to the figure on $BC$.
 
 The MSS. again give an alternative proof which :person:`Heiberg <heiberg>` places in the Appendix. It first shows that the similar figures on the three sides have the same ratios to one another as the squares on the sides respectively. Whence, by using I. 47 and the same argument based on V. 24 as that explained above, the result is obtained.
 
@@ -82,16 +82,16 @@ $$d : e = e : f,$$
 
 the ratio $a : c$ is duplicate of the ratio $a : b$, and the ratio $d : f$ duplicate of the ratio $d : e$, whence *the ratios which are duplicate of equal ratios are equal*.
 
-Now (fig. on  AC) : (fig. on  :g:`$AB$ <0275.g1:/ A B />`) = the ratio duplicate of  :g:`$AC$ <0275.g1:/ A C />` : :g:`$AB$ <0275.g1:/ A B />`
+Now (fig. on  AC) : (fig. on  :g:`AB <0275.g1:/ A B />`) = the ratio duplicate of  :g:`AC <0275.g1:/ A C />` : :g:`AB <0275.g1:/ A B />`
 
 $$= \text{the ratio duplicate of } CD : DA$$
 
 $$= CD : BD.$$
 
-Hence (sum of figs. on  :g:`$AC$ <0275.g1:/ A C />`, :g:`$AB$ <0275.g1:/ A B />`) : (fig. on  :g:`$AB$ <0275.g1:/ A B />`) = :g:`$BC$ <0275.g1:/ B C />` : :g:`$BD$ <0275.g1:/ B D />`. [V. 18]
+Hence (sum of figs. on  :g:`AC <0275.g1:/ A C />`, :g:`AB <0275.g1:/ A B />`) : (fig. on  :g:`AB <0275.g1:/ A B />`) = :g:`BC <0275.g1:/ B C />` : :g:`BD <0275.g1:/ B D />`. [V. 18]
 
-But (fig. on  :g:`$BC$ <0275.g1:/ B C />`) : (fig. on  :g:`$AB$ <0275.g1:/ A B />`) = :g:`$BC$ <0275.g1:/ B C />` : :g:`$BD$ <0275.g1:/ B D />`
+But (fig. on  :g:`BC <0275.g1:/ B C />`) : (fig. on  :g:`AB <0275.g1:/ A B />`) = :g:`BC <0275.g1:/ B C />` : :g:`BD <0275.g1:/ B D />`
 (as in Euclid's proof).
 
-Therefore the sum of the figures on :g:`$AC$ <0275.g1:/ A C />`, :g:`$AB$ <0275.g1:/ A B />` has to the figure on :g:`$AB$ <0275.g1:/ A B />` the same ratio as the figure on :g:`$BC$ <0275.g1:/ B C />` has to the figure on :g:`$AB$ <0275.g1:/ A B />`, whence
-the figures on :g:`$AC$ <0275.g1:/ A C />`, :g:`$AB$ <0275.g1:/ A B />` are together equal to the figure on :g:`$BC$ <0275.g1:/ B C />`. [V. 9]
+Therefore the sum of the figures on :g:`AC <0275.g1:/ A C />`, :g:`AB <0275.g1:/ A B />` has to the figure on :g:`AB <0275.g1:/ A B />` the same ratio as the figure on :g:`BC <0275.g1:/ B C />` has to the figure on :g:`AB <0275.g1:/ A B />`, whence
+the figures on :g:`AC <0275.g1:/ A C />`, :g:`AB <0275.g1:/ A B />` are together equal to the figure on :g:`BC <0275.g1:/ B C />`. [V. 9]

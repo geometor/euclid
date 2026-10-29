@@ -71,28 +71,28 @@ LEMMA.
 
    And that the aforesaid irrational straight lines are divided only in one way into the straight lines of which they are the sum and which produce the types in question,\ [#f1]_ we will now prove after premising the following lemma.
 
-Let the straight line :g:`$AB$ <0095.g1:/ A B />` be set out, let the whole be cut into unequal parts at each of the points :g:`$C$ <0095.g1:C>`, :g:`$D$ <0095.g1:D>`, and let :g:`$AC$ <0095.g1:/ A C />` be supposed greater than :g:`$DB$ <0095.g1:/ D B />`; I say that the squares on :g:`$AC$ <0095.g1:/ A C />`, :g:`$CB$ <0095.g1:/ C B />` are greater than the squares on :g:`$AD$ <0095.g1:/ A D />`, :g:`$DB$ <0095.g1:/ D B />`.
+Let the straight line :g:`AB <0095.g1:/ A B />` be set out, let the whole be cut into unequal parts at each of the points :g:`C <0095.g1:C>`, :g:`D <0095.g1:D>`, and let :g:`AC <0095.g1:/ A C />` be supposed greater than :g:`DB <0095.g1:/ D B />`; I say that the squares on :g:`AC <0095.g1:/ A C />`, :g:`CB <0095.g1:/ C B />` are greater than the squares on :g:`AD <0095.g1:/ A D />`, :g:`DB <0095.g1:/ D B />`.
 
 .. picture:: 0095.g1.svg
    :alt: Lemma before Proposition 42 diagram
 
-For let :g:`$AB$ <0095.g1:/ A B />` be :eq:`bisected <0095.g1:/ A E / = 0095.g1:/ E B />` at :g:`$E$ <0095.g1:E>`.
+For let :g:`AB <0095.g1:/ A B />` be :eq:`bisected <0095.g1:/ A E / = 0095.g1:/ E B />` at :g:`E <0095.g1:E>`.
 
 .. subclause::
 
-   Then, since :g:`$AC$ <0095.g1:/ A C />` is greater than :g:`$DB$ <0095.g1:/ D B />`, let :g:`$DC$ <0095.g1:/ D C />` be subtracted from each;
+   Then, since :g:`AC <0095.g1:/ A C />` is greater than :g:`DB <0095.g1:/ D B />`, let :g:`DC <0095.g1:/ D C />` be subtracted from each;
 
 .. assertion::
 
-   therefore the remainder :g:`$AD$ <0095.g1:/ A D />` is greater than the remainder :g:`$CB$ <0095.g1:/ C B />`.
+   therefore the remainder :g:`AD <0095.g1:/ A D />` is greater than the remainder :g:`CB <0095.g1:/ C B />`.
 
 .. subclause::
 
-   But :g:`$AE$ <0095.g1:/ A E />` is :eq:`equal <0095.g1:/ A E / = 0095.g1:/ E B />` to :g:`$EB$ <0095.g1:/ E B />`;
+   But :g:`AE <0095.g1:/ A E />` is :eq:`equal <0095.g1:/ A E / = 0095.g1:/ E B />` to :g:`EB <0095.g1:/ E B />`;
 
 .. assertion::
 
-   therefore :g:`$DE$ <0095.g1:/ D E />` is less than :g:`$EC$ <0095.g1:/ E C />`;
+   therefore :g:`DE <0095.g1:/ D E />` is less than :g:`EC <0095.g1:/ E C />`;
 
 .. _folio-iii-0096:
 
@@ -101,27 +101,27 @@ For let :g:`$AB$ <0095.g1:/ A B />` be :eq:`bisected <0095.g1:/ A E / = 0095.g1:
 
 .. assertion::
 
-   therefore the points :g:`$C$ <0095.g1:C>`, :g:`$D$ <0095.g1:D>` are not equidistant from the point of bisection.
+   therefore the points :g:`C <0095.g1:C>`, :g:`D <0095.g1:D>` are not equidistant from the point of bisection.
 
 .. subclause::
 
-   And, since the rectangle :g:`$AC$ <0095.g1:/ A C />`, :g:`$CB$ <0095.g1:/ C B />` together with the square on :g:`$EC$ <0095.g1:/ E C />` is equal to the square on :g:`$EB$ <0095.g1:/ E B />`, :just:`[II. 5] <II.5>` and, further, the rectangle :g:`$AD$ <0095.g1:/ A D />`, :g:`$DB$ <0095.g1:/ D B />` together with the square on :g:`$DE$ <0095.g1:/ D E />` is equal to the square on :g:`$EB$ <0095.g1:/ E B />`, :just:`[id.]`
+   And, since the rectangle :g:`AC <0095.g1:/ A C />`, :g:`CB <0095.g1:/ C B />` together with the square on :g:`EC <0095.g1:/ E C />` is equal to the square on :g:`EB <0095.g1:/ E B />`, :just:`[II. 5] <II.5>` and, further, the rectangle :g:`AD <0095.g1:/ A D />`, :g:`DB <0095.g1:/ D B />` together with the square on :g:`DE <0095.g1:/ D E />` is equal to the square on :g:`EB <0095.g1:/ E B />`, :just:`[id.]`
 
 .. assertion::
 
-   therefore the rectangle :g:`$AC$ <0095.g1:/ A C />`, :g:`$CB$ <0095.g1:/ C B />` together with the square on :g:`$EC$ <0095.g1:/ E C />` is equal to the rectangle :g:`$AD$ <0095.g1:/ A D />`, :g:`$DB$ <0095.g1:/ D B />` together with the square on :g:`$DE$ <0095.g1:/ D E />`.
+   therefore the rectangle :g:`AC <0095.g1:/ A C />`, :g:`CB <0095.g1:/ C B />` together with the square on :g:`EC <0095.g1:/ E C />` is equal to the rectangle :g:`AD <0095.g1:/ A D />`, :g:`DB <0095.g1:/ D B />` together with the square on :g:`DE <0095.g1:/ D E />`.
 
 .. subclause::
 
-   And of these the square on :g:`$DE$ <0095.g1:/ D E />` is less than the square on :g:`$EC$ <0095.g1:/ E C />`;
+   And of these the square on :g:`DE <0095.g1:/ D E />` is less than the square on :g:`EC <0095.g1:/ E C />`;
 
 .. assertion::
 
-   therefore the remainder, the rectangle :g:`$AC$ <0095.g1:/ A C />`, :g:`$CB$ <0095.g1:/ C B />`, is also less than the rectangle :g:`$AD$ <0095.g1:/ A D />`, :g:`$DB$ <0095.g1:/ D B />`, so that twice the rectangle :g:`$AC$ <0095.g1:/ A C />`, :g:`$CB$ <0095.g1:/ C B />` is also less than twice the rectangle :g:`$AD$ <0095.g1:/ A D />`, :g:`$DB$ <0095.g1:/ D B />`.
+   therefore the remainder, the rectangle :g:`AC <0095.g1:/ A C />`, :g:`CB <0095.g1:/ C B />`, is also less than the rectangle :g:`AD <0095.g1:/ A D />`, :g:`DB <0095.g1:/ D B />`, so that twice the rectangle :g:`AC <0095.g1:/ A C />`, :g:`CB <0095.g1:/ C B />` is also less than twice the rectangle :g:`AD <0095.g1:/ A D />`, :g:`DB <0095.g1:/ D B />`.
 
 .. assertion::
 
-   Therefore also the remainder, the sum of the squares on :g:`$AC$ <0095.g1:/ A C />`, :g:`$CB$ <0095.g1:/ C B />`, is greater than the sum of the squares on :g:`$AD$ <0095.g1:/ A D />`, :g:`$DB$ <0095.g1:/ D B />`.
+   Therefore also the remainder, the sum of the squares on :g:`AC <0095.g1:/ A C />`, :g:`CB <0095.g1:/ C B />`, is greater than the sum of the squares on :g:`AD <0095.g1:/ A D />`, :g:`DB <0095.g1:/ D B />`.
 
 .. qed::
 

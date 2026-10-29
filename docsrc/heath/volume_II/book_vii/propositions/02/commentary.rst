@@ -53,4 +53,4 @@ Euclid's proposition is thus *identical* with the algebraical proposition as gen
 
 7." The last phrase is curious, but the meaning of it is obvious enough, as also the meaning of the phrase about ending "at one and the same number."
 
-The proof of the Porism is of course contained in that part of the proposition which proves that :g:`$G$ <0304.g1:G>`, a common measure different from :g:`$CF$ <0304.g1:/ C F />`, must measure :g:`$CF$ <0304.g1:/ C F />`. The supposition, thereby proved to be false, that :g:`$G$ <0304.g1:G>` is greater than :g:`$CF$ <0304.g1:/ C F />` does not affect the validity of the proof that :g:`$G$ <0304.g1:G>` measures :g:`$CF$ <0304.g1:/ C F />` in any case.
+The proof of the Porism is of course contained in that part of the proposition which proves that :g:`G <0304.g1:G>`, a common measure different from :g:`CF <0304.g1:/ C F />`, must measure :g:`CF <0304.g1:/ C F />`. The supposition, thereby proved to be false, that :g:`G <0304.g1:G>` is greater than :g:`CF <0304.g1:/ C F />` does not affect the validity of the proof that :g:`G <0304.g1:G>` measures :g:`CF <0304.g1:/ C F />` in any case.

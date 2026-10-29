@@ -20,16 +20,16 @@ PROPOSITION 6.
 
    If a straight line be bisected and a straight line be added to it in a straight line, the rectangle contained by the whole with the added straight line and the added straight line together with the square on the half is equal to the square on the straight line made up of the half and the added straight line.
 
-For let a straight line :g:`$AB$ <0400.g1:/ A B />` be :eq:`bisected <0400.g1:/ A C / = 0400.g1:/ C B />` at the point :g:`$C$ <0400.g1:C>`, and let a straight line :g:`$BD$ <0400.g1:/ B D />` be added to it in a straight line;
+For let a straight line :g:`AB <0400.g1:/ A B />` be :eq:`bisected <0400.g1:/ A C / = 0400.g1:/ C B />` at the point :g:`C <0400.g1:C>`, and let a straight line :g:`BD <0400.g1:/ B D />` be added to it in a straight line;
 
-I say that the rectangle contained by :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />` together with the square on :g:`$CB$ <0400.g1:/ C B />` is equal to the square on :g:`$CD$ <0400.g1:/ C D />`.
+I say that the rectangle contained by :g:`AD <0400.g1:/ A D />`, :g:`DB <0400.g1:/ D B />` together with the square on :g:`CB <0400.g1:/ C B />` is equal to the square on :g:`CD <0400.g1:/ C D />`.
 
-For let the square :g:`$CEFD$ <0400.g1:< C E F D >>` be described on :g:`$CD$ <0400.g1:/ C D />`, :just:`[I. 46] <I.46>`
+For let the square :g:`CEFD <0400.g1:< C E F D >>` be described on :g:`CD <0400.g1:/ C D />`, :just:`[I. 46] <I.46>`
 
-and let :g:`$DE$ <0400.g1:/ D E />` be joined;
+and let :g:`DE <0400.g1:/ D E />` be joined;
 
-through the point :g:`$B$ <0400.g1:B>` let :g:`$BG$ <0400.g1:/ B G />` be drawn parallel to either :g:`$EC$ <0400.g1:/ E C />` or :g:`$DF$ <0400.g1:/ D F />`,
-through the point :g:`$H$ <0400.g1:H>` let :g:`$KM$ <0400.g1:/ K M />` be drawn parallel to either :g:`$AB$ <0400.g1:/ A B />` or :g:`$EF$ <0400.g1:/ E F />`, and further through :g:`$A$ <0400.g1:A>` let :g:`$AK$ <0400.g1:/ A K />` be drawn parallel to either :g:`$CL$ <0400.g1:/ C L />` or :g:`$DM$ <0400.g1:/ D M />`. :just:`[I. 31] <I.31>`
+through the point :g:`B <0400.g1:B>` let :g:`BG <0400.g1:/ B G />` be drawn parallel to either :g:`EC <0400.g1:/ E C />` or :g:`DF <0400.g1:/ D F />`,
+through the point :g:`H <0400.g1:H>` let :g:`KM <0400.g1:/ K M />` be drawn parallel to either :g:`AB <0400.g1:/ A B />` or :g:`EF <0400.g1:/ E F />`, and further through :g:`A <0400.g1:A>` let :g:`AK <0400.g1:/ A K />` be drawn parallel to either :g:`CL <0400.g1:/ C L />` or :g:`DM <0400.g1:/ D M />`. :just:`[I. 31] <I.31>`
 
 .. _folio-i-0400:
 
@@ -39,41 +39,41 @@ through the point :g:`$H$ <0400.g1:H>` let :g:`$KM$ <0400.g1:/ K M />` be drawn 
 .. picture:: 0400.g1.svg
    :alt: Diagram
 
-Then, since :g:`$AC$ <0400.g1:/ A C />` is :eq:`equal <0400.g1:/ A C / = 0400.g1:/ C B />` to :g:`$CB$ <0400.g1:/ C B />`,
+Then, since :g:`AC <0400.g1:/ A C />` is :eq:`equal <0400.g1:/ A C / = 0400.g1:/ C B />` to :g:`CB <0400.g1:/ C B />`,
 
 .. assertion:: [I. 36] <I.36>
 
-   :g:`$AL$ <0400.g1:< A L >>` is also :eq:`equal <0400.g1:< A L > = 0400.g1:< C H >>` to :g:`$CH$ <0400.g1:< C H >>`.
+   :g:`AL <0400.g1:< A L >>` is also :eq:`equal <0400.g1:< A L > = 0400.g1:< C H >>` to :g:`CH <0400.g1:< C H >>`.
 
-But :g:`$CH$ <0400.g1:< C H >>` is :eq:`equal <0400.g1:< C H > = 0400.g1:< H F >>` to :g:`$HF$ <0400.g1:< H F >>`. :just:`[I. 43] <I.43>`
-
-.. assertion::
-
-   Therefore :g:`$AL$ <0400.g1:< A L >>` is also :eq:`equal <0400.g1:< A L > = 0400.g1:< H F >>` to :g:`$HF$ <0400.g1:< H F >>`.
-
-Let :g:`$CM$ <0400.g1:< C M >>` be added to each;
+But :g:`CH <0400.g1:< C H >>` is :eq:`equal <0400.g1:< C H > = 0400.g1:< H F >>` to :g:`HF <0400.g1:< H F >>`. :just:`[I. 43] <I.43>`
 
 .. assertion::
 
-   therefore the whole :g:`$AM$ <0400.g1:< A M >>` is :eq:`equal <0400.g1:< A M > = 0400.g1:< N O P >>` to the gnomon :g:`$NOP$ <0400.g1:< N O P >>`.
+   Therefore :g:`AL <0400.g1:< A L >>` is also :eq:`equal <0400.g1:< A L > = 0400.g1:< H F >>` to :g:`HF <0400.g1:< H F >>`.
 
-But :g:`$AM$ <0400.g1:< A M >>` is the rectangle :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />`, for :g:`$DM$ <0400.g1:/ D M />` is :eq:`equal <0400.g1:/ D M / = 0400.g1:/ D B />` to :g:`$DB$ <0400.g1:/ D B />`;
-
-.. assertion::
-
-   therefore the gnomon :g:`$NOP$ <0400.g1:< N O P >>` is also equal to the rectangle :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />`.
-
-Let :g:`$LG$ <0400.g1:< L G >>`, which is equal to the square on :g:`$BC$ <0400.g1:/ B C />`, be added to each;
+Let :g:`CM <0400.g1:< C M >>` be added to each;
 
 .. assertion::
 
-   therefore the rectangle contained by :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />` together with the square on :g:`$CB$ <0400.g1:/ C B />` is equal to the gnomon :g:`$NOP$ <0400.g1:< N O P >>` and :g:`$LG$ <0400.g1:< L G >>`.
+   therefore the whole :g:`AM <0400.g1:< A M >>` is :eq:`equal <0400.g1:< A M > = 0400.g1:< N O P >>` to the gnomon :g:`NOP <0400.g1:< N O P >>`.
 
-But the gnomon :g:`$NOP$ <0400.g1:< N O P >>` and :g:`$LG$ <0400.g1:< L G >>` are the whole square :g:`$CEFD$ <0400.g1:< C E F D >>`, which is described on :g:`$CD$ <0400.g1:/ C D />`;
+But :g:`AM <0400.g1:< A M >>` is the rectangle :g:`AD <0400.g1:/ A D />`, :g:`DB <0400.g1:/ D B />`, for :g:`DM <0400.g1:/ D M />` is :eq:`equal <0400.g1:/ D M / = 0400.g1:/ D B />` to :g:`DB <0400.g1:/ D B />`;
 
 .. assertion::
 
-   therefore the rectangle contained by :g:`$AD$ <0400.g1:/ A D />`, :g:`$DB$ <0400.g1:/ D B />` together with the square on :g:`$CB$ <0400.g1:/ C B />` is equal to the square on :g:`$CD$ <0400.g1:/ C D />`.
+   therefore the gnomon :g:`NOP <0400.g1:< N O P >>` is also equal to the rectangle :g:`AD <0400.g1:/ A D />`, :g:`DB <0400.g1:/ D B />`.
+
+Let :g:`LG <0400.g1:< L G >>`, which is equal to the square on :g:`BC <0400.g1:/ B C />`, be added to each;
+
+.. assertion::
+
+   therefore the rectangle contained by :g:`AD <0400.g1:/ A D />`, :g:`DB <0400.g1:/ D B />` together with the square on :g:`CB <0400.g1:/ C B />` is equal to the gnomon :g:`NOP <0400.g1:< N O P >>` and :g:`LG <0400.g1:< L G >>`.
+
+But the gnomon :g:`NOP <0400.g1:< N O P >>` and :g:`LG <0400.g1:< L G >>` are the whole square :g:`CEFD <0400.g1:< C E F D >>`, which is described on :g:`CD <0400.g1:/ C D />`;
+
+.. assertion::
+
+   therefore the rectangle contained by :g:`AD <0400.g1:/ A D />`, :g:`DB <0400.g1:/ D B />` together with the square on :g:`CB <0400.g1:/ C B />` is equal to the square on :g:`CD <0400.g1:/ C D />`.
 
 .. qed::
 

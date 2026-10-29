@@ -20,28 +20,28 @@ PROPOSITION 28.
 
    If an odd number by multiplying an even number make some number, the product will be even.
 
-For let the odd number :g:`$A$ <0422.g2:A>` by multiplying the even number :g:`$B$ <0422.g2:B>` make :g:`$C$ <0422.g2:C>` ;
+For let the odd number :g:`A <0422.g2:A>` by multiplying the even number :g:`B <0422.g2:B>` make :g:`C <0422.g2:C>` ;
 
-I say that :g:`$C$ <0422.g2:C>` is even.
+I say that :g:`C <0422.g2:C>` is even.
 
 .. picture:: 0422.g2.svg
    :alt: Book IX, Proposition 28
 
 .. subclause::
 
-   For, since :g:`$A$ <0422.g2:A>` by multiplying :g:`$B$ <0422.g2:B>` has made :g:`$C$ <0422.g2:C>`,
+   For, since :g:`A <0422.g2:A>` by multiplying :g:`B <0422.g2:B>` has made :g:`C <0422.g2:C>`,
 
 .. assertion::
 
-   therefore :g:`$C$ <0422.g2:C>` is made up of as many numbers equal to :g:`$B$ <0422.g2:B>` as there are units in :g:`$A$ <0422.g2:A>`. :just:`[VII. Def. 15] <VII.def.15>`
+   therefore :g:`C <0422.g2:C>` is made up of as many numbers equal to :g:`B <0422.g2:B>` as there are units in :g:`A <0422.g2:A>`. :just:`[VII. Def. 15] <VII.def.15>`
 
 .. subclause::
 
-   And :g:`$B$ <0422.g2:B>` is even ;
+   And :g:`B <0422.g2:B>` is even ;
 
 .. assertion::
 
-   therefore :g:`$C$ <0422.g2:C>` is made up of even numbers.
+   therefore :g:`C <0422.g2:C>` is made up of even numbers.
 
 .. subclause::
 
@@ -49,7 +49,7 @@ I say that :g:`$C$ <0422.g2:C>` is even.
 
 .. assertion::
 
-   Therefore :g:`$C$ <0422.g2:C>` is even.
+   Therefore :g:`C <0422.g2:C>` is even.
 
 .. qed::
 

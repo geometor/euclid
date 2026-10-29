@@ -25,35 +25,35 @@ PROPOSITION 9.
 .. folio:: 0160
    :page: 154
 
-For let each of the magnitudes :g:`$A$ <0160.g1:A>`, :g:`$B$ <0160.g1:B>` have the same
-ratio to :g:`$C$ <0160.g1:C>` ;
+For let each of the magnitudes :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>` have the same
+ratio to :g:`C <0160.g1:C>` ;
 
-I say that :g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
+I say that :g:`A <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`B <0160.g1:B>`.
 
 .. picture:: 0160.g1.svg
    :alt: Folio 0160 Figure 1
 
 For, otherwise, each of the
-magnitudes :g:`$A$ <0160.g1:A>`, :g:`$B$ <0160.g1:B>` would not
-have had the same ratio to :g:`$C$ <0160.g1:C>` ; :just:`[V. 8] <V.8>`
+magnitudes :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>` would not
+have had the same ratio to :g:`C <0160.g1:C>` ; :just:`[V. 8] <V.8>`
 but it has ;
 
 .. assertion::
 
-   therefore :g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
+   therefore :g:`A <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`B <0160.g1:B>`.
 
-Again, let :g:`$C$ <0160.g1:C>` have the same ratio to each of the magnitudes
-:g:`$A$ <0160.g1:A>`, :g:`$B$ <0160.g1:B>` ;
+Again, let :g:`C <0160.g1:C>` have the same ratio to each of the magnitudes
+:g:`A <0160.g1:A>`, :g:`B <0160.g1:B>` ;
 
-I say that :g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
+I say that :g:`A <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`B <0160.g1:B>`.
 
-For, otherwise, :g:`$C$ <0160.g1:C>` would not have had the same ratio to
-each of the magnitudes :g:`$A$ <0160.g1:A>`, :g:`$B$ <0160.g1:B>` ; :just:`[V. 8] <V.8>`
+For, otherwise, :g:`C <0160.g1:C>` would not have had the same ratio to
+each of the magnitudes :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>` ; :just:`[V. 8] <V.8>`
 but it has ;
 
 .. assertion::
 
-   therefore :g:`$A$ <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`$B$ <0160.g1:B>`.
+   therefore :g:`A <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`B <0160.g1:B>`.
 
 .. qed::
 

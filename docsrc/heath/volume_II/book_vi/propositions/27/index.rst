@@ -22,22 +22,22 @@ PROPOSITION 27.
 
    Of all the parallelograms applied to the same straight line and deficient by parallelogrammic figures similar and similarly situated to that described on the half of the straight line, that parallelogram is greatest which is applied to the half of the straight line and is similar to the defect.
 
-Let :g:`$AB$ <0263.g1:/ A B />` be a straight line and let it be :eq:`bisected <0263.g1:/ A C / = 0263.g1:/ C B />` at :g:`$C$ <0263.g1:C>` ; let there be applied to the straight line :g:`$AB$ <0263.g1:/ A B />` the parallelogram :g:`$AD$ <0263.g1:< A D >>` deficient by the parallelogrammic figure :g:`$DB$ <0263.g1:< D B >>` described on the half of :g:`$AB$ <0263.g1:/ A B />`, that is, :g:`$CB$ <0263.g1:/ C B />` ;
+Let :g:`AB <0263.g1:/ A B />` be a straight line and let it be :eq:`bisected <0263.g1:/ A C / = 0263.g1:/ C B />` at :g:`C <0263.g1:C>` ; let there be applied to the straight line :g:`AB <0263.g1:/ A B />` the parallelogram :g:`AD <0263.g1:< A D >>` deficient by the parallelogrammic figure :g:`DB <0263.g1:< D B >>` described on the half of :g:`AB <0263.g1:/ A B />`, that is, :g:`CB <0263.g1:/ C B />` ;
 
-I say that, of all the parallelograms applied to :g:`$AB$ <0263.g1:/ A B />` and deficient by parallelogrammic figures similar and similarly situated to :g:`$DB$ <0263.g1:< D B >>`, :g:`$AD$ <0263.g1:< A D >>` is greatest.
+I say that, of all the parallelograms applied to :g:`AB <0263.g1:/ A B />` and deficient by parallelogrammic figures similar and similarly situated to :g:`DB <0263.g1:< D B >>`, :g:`AD <0263.g1:< A D >>` is greatest.
 
 .. picture:: 0263.g1.svg
    :alt: Proposition 27
 
 .. subclause::
 
-   For let there be applied to the straight line :g:`$AB$ <0263.g1:/ A B />` the parallelogram :g:`$AF$ <0263.g1:< A F >>` deficient by the parallelogrammic figure :g:`$FB$ <0263.g1:< F B >>` similar and similarly situated to :g:`$DB$ <0263.g1:< D B >>` ;
+   For let there be applied to the straight line :g:`AB <0263.g1:/ A B />` the parallelogram :g:`AF <0263.g1:< A F >>` deficient by the parallelogrammic figure :g:`FB <0263.g1:< F B >>` similar and similarly situated to :g:`DB <0263.g1:< D B >>` ;
 
-I say that :g:`$AD$ <0263.g1:< A D >>` is greater than :g:`$AF$ <0263.g1:< A F >>`.
+I say that :g:`AD <0263.g1:< A D >>` is greater than :g:`AF <0263.g1:< A F >>`.
 
 .. subclause::
 
-   For, since the parallelogram :g:`$DB$ <0263.g1:< D B >>` is similar to the parallelogram :g:`$FB$ <0263.g1:< F B >>`,
+   For, since the parallelogram :g:`DB <0263.g1:< D B >>` is similar to the parallelogram :g:`FB <0263.g1:< F B >>`,
 
 .. assertion:: [VI. 26] <VI.26>
 
@@ -45,35 +45,35 @@ I say that :g:`$AD$ <0263.g1:< A D >>` is greater than :g:`$AF$ <0263.g1:< A F >
 
 .. subclause::
 
-   Let their diameter :g:`$DB$ <0263.g1:/ D B />` be drawn, and let the figure be described.
+   Let their diameter :g:`DB <0263.g1:/ D B />` be drawn, and let the figure be described.
 
 .. subclause::
 
-   Then, since :g:`$CF$ <0263.g1:< C F >>` is :eq:`equal <0263.g1:< C F > = 0263.g1:< F E >>` to :g:`$FE$ <0263.g1:< F E >>`, :just:`[I. 43] <I.43>` and :g:`$FB$ <0263.g1:< F B >>` is common,
+   Then, since :g:`CF <0263.g1:< C F >>` is :eq:`equal <0263.g1:< C F > = 0263.g1:< F E >>` to :g:`FE <0263.g1:< F E >>`, :just:`[I. 43] <I.43>` and :g:`FB <0263.g1:< F B >>` is common,
 
 .. assertion::
 
-   therefore the whole :g:`$CH$ <0263.g1:< C H >>` is :eq:`equal <0263.g1:< C H > = 0263.g1:< K E >>` to the whole :g:`$KE$ <0263.g1:< K E >>`.
+   therefore the whole :g:`CH <0263.g1:< C H >>` is :eq:`equal <0263.g1:< C H > = 0263.g1:< K E >>` to the whole :g:`KE <0263.g1:< K E >>`.
 
 .. assertion::
 
-   But :g:`$CH$ <0263.g1:< C H >>` is :eq:`equal <0263.g1:< C H > = 0263.g1:< C G >>` to :g:`$CG$ <0263.g1:< C G >>`, since :g:`$AC$ <0263.g1:/ A C />` is also :eq:`equal <0263.g1:/ A C / = 0263.g1:/ C B />` to :g:`$CB$ <0263.g1:/ C B />`. :just:`[I. 36] <I.36>`
+   But :g:`CH <0263.g1:< C H >>` is :eq:`equal <0263.g1:< C H > = 0263.g1:< C G >>` to :g:`CG <0263.g1:< C G >>`, since :g:`AC <0263.g1:/ A C />` is also :eq:`equal <0263.g1:/ A C / = 0263.g1:/ C B />` to :g:`CB <0263.g1:/ C B />`. :just:`[I. 36] <I.36>`
 
 .. assertion::
 
-   Therefore :g:`$GC$ <0263.g1:< C G >>` is also :eq:`equal <0263.g1:< C G > = 0263.g1:< K E >>` to :g:`$EK$ <0263.g1:< K E >>`.
+   Therefore :g:`GC <0263.g1:< C G >>` is also :eq:`equal <0263.g1:< C G > = 0263.g1:< K E >>` to :g:`EK <0263.g1:< K E >>`.
 
 .. subclause::
 
-   Let :g:`$CF$ <0263.g1:< C F >>` be added to each ;
+   Let :g:`CF <0263.g1:< C F >>` be added to each ;
 
 .. assertion::
 
-   therefore the whole :g:`$AF$ <0263.g1:< A F >>` is :eq:`equal <0263.g1:< A F > = 0263.g1:< L M N >>` to the gnomon :g:`$LMN$ <0263.g1:< L M N >>` ;
+   therefore the whole :g:`AF <0263.g1:< A F >>` is :eq:`equal <0263.g1:< A F > = 0263.g1:< L M N >>` to the gnomon :g:`LMN <0263.g1:< L M N >>` ;
 
 .. assertion::
 
-   so that the parallelogram :g:`$DB$ <0263.g1:< D B >>`, that is, :g:`$AD$ <0263.g1:< A D >>`, is greater than the parallelogram :g:`$AF$ <0263.g1:< A F >>`.
+   so that the parallelogram :g:`DB <0263.g1:< D B >>`, that is, :g:`AD <0263.g1:< A D >>`, is greater than the parallelogram :g:`AF <0263.g1:< A F >>`.
 
 .. qed::
 

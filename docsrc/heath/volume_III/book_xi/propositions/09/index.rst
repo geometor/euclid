@@ -20,36 +20,36 @@ PROPOSITION 9.
 
    Straight lines which are parallel to the same straight line and are not in the same plane with it are also parallel to one another.
 
-For let each of the straight lines :g:`$AB$ <0294.g1:/ A B />`, :g:`$CD$ <0294.g1:/ C D />` be parallel to :g:`$EF$ <0294.g1:/ E F />`, not being in the same plane with it; I say that :g:`$AB$ <0294.g1:/ A B />` is parallel to :g:`$CD$ <0294.g1:/ C D />`.
+For let each of the straight lines :g:`AB <0294.g1:/ A B />`, :g:`CD <0294.g1:/ C D />` be parallel to :g:`EF <0294.g1:/ E F />`, not being in the same plane with it; I say that :g:`AB <0294.g1:/ A B />` is parallel to :g:`CD <0294.g1:/ C D />`.
 
 .. picture:: 0294.g1.svg
    :alt: Proposition 9
 
-For let a point :g:`$G$ <0294.g1:G>` be taken at random on :g:`$EF$ <0294.g1:/ E F />`, and from it let there be drawn :g:`$GH$ <0294.g1:/ G H />`, in the plane through :g:`$EF$ <0294.g1:/ E F />`, :g:`$AB$ <0294.g1:/ A B />`, at right angles to :g:`$EF$ <0294.g1:/ E F />`, and :g:`$GK$ <0294.g1:/ G K />` in the plane through :g:`$FE$ <0294.g1:/ F E />`, :g:`$CD$ <0294.g1:/ C D />` again at right angles to :g:`$EF$ <0294.g1:/ E F />`.
+For let a point :g:`G <0294.g1:G>` be taken at random on :g:`EF <0294.g1:/ E F />`, and from it let there be drawn :g:`GH <0294.g1:/ G H />`, in the plane through :g:`EF <0294.g1:/ E F />`, :g:`AB <0294.g1:/ A B />`, at right angles to :g:`EF <0294.g1:/ E F />`, and :g:`GK <0294.g1:/ G K />` in the plane through :g:`FE <0294.g1:/ F E />`, :g:`CD <0294.g1:/ C D />` again at right angles to :g:`EF <0294.g1:/ E F />`.
 
 .. subclause::
 
-   Now, since :g:`$EF$ <0294.g1:/ E F />` is at right angles to each of the straight lines :g:`$GH$ <0294.g1:/ G H />`, :g:`$GK$ <0294.g1:/ G K />`,
+   Now, since :g:`EF <0294.g1:/ E F />` is at right angles to each of the straight lines :g:`GH <0294.g1:/ G H />`, :g:`GK <0294.g1:/ G K />`,
 
 .. assertion::
 
-   therefore :g:`$EF$ <0294.g1:/ E F />` is also at right angles to the plane through :g:`$GH$ <0294.g1:/ G H />`, :g:`$GK$ <0294.g1:/ G K />`. :just:`[XI. 4] <XI.4>`
+   therefore :g:`EF <0294.g1:/ E F />` is also at right angles to the plane through :g:`GH <0294.g1:/ G H />`, :g:`GK <0294.g1:/ G K />`. :just:`[XI. 4] <XI.4>`
 
 .. subclause::
 
-   And :g:`$EF$ <0294.g1:/ E F />` is parallel to :g:`$AB$ <0294.g1:/ A B />`;
+   And :g:`EF <0294.g1:/ E F />` is parallel to :g:`AB <0294.g1:/ A B />`;
 
 .. assertion::
 
-   therefore :g:`$AB$ <0294.g1:/ A B />` is also at right angles to the plane through :g:`$HG$ <0294.g1:/ H G />`, :g:`$GK$ <0294.g1:/ G K />`. :just:`[XI. 8] <XI.8>`
+   therefore :g:`AB <0294.g1:/ A B />` is also at right angles to the plane through :g:`HG <0294.g1:/ H G />`, :g:`GK <0294.g1:/ G K />`. :just:`[XI. 8] <XI.8>`
 
 .. subclause::
 
-   For the same reason :g:`$CD$ <0294.g1:/ C D />` is also at right angles to the plane through :g:`$HG$ <0294.g1:/ H G />`, :g:`$GK$ <0294.g1:/ G K />`;
+   For the same reason :g:`CD <0294.g1:/ C D />` is also at right angles to the plane through :g:`HG <0294.g1:/ H G />`, :g:`GK <0294.g1:/ G K />`;
 
 .. assertion::
 
-   therefore each of the straight lines :g:`$AB$ <0294.g1:/ A B />`, :g:`$CD$ <0294.g1:/ C D />` is at right angles to the plane through :g:`$HG$ <0294.g1:/ H G />`, :g:`$GK$ <0294.g1:/ G K />`.
+   therefore each of the straight lines :g:`AB <0294.g1:/ A B />`, :g:`CD <0294.g1:/ C D />` is at right angles to the plane through :g:`HG <0294.g1:/ H G />`, :g:`GK <0294.g1:/ G K />`.
 
 .. subclause::
 
@@ -57,7 +57,7 @@ For let a point :g:`$G$ <0294.g1:G>` be taken at random on :g:`$EF$ <0294.g1:/ E
 
 .. assertion::
 
-   therefore :g:`$AB$ <0294.g1:/ A B />` is parallel to :g:`$CD$ <0294.g1:/ C D />`.
+   therefore :g:`AB <0294.g1:/ A B />` is parallel to :g:`CD <0294.g1:/ C D />`.
 
 Dependency Graph
 ----------------

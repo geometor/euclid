@@ -20,26 +20,26 @@ PROPOSITION 77.
 
    If from a straight line there be subtracted a straight line which is incommensurable in square with the whole, and which with the whole makes the sum of the squares on them medial, but twice the rectangle contained by them rational, the remainder is irrational: and let it be called :term:`**that which produces with a rational area a medial whole** <side-of-a-medial-minus-a-rational-area>`.
 
-For from the straight line :g:`$AB$ <0168.g1:/ A B />` let there be subtracted the straight line :g:`$BC$ <0168.g1:/ B C />` which is incommensurable in square with :g:`$AB$ <0168.g1:/ A B />` and fulfils the given conditions ; :just:`[X. 34] <X.34>` I say that the remainder :g:`$AC$ <0168.g1:/ A C />` is the irrational straight line aforesaid.
+For from the straight line :g:`AB <0168.g1:/ A B />` let there be subtracted the straight line :g:`BC <0168.g1:/ B C />` which is incommensurable in square with :g:`AB <0168.g1:/ A B />` and fulfils the given conditions ; :just:`[X. 34] <X.34>` I say that the remainder :g:`AC <0168.g1:/ A C />` is the irrational straight line aforesaid.
 
 .. picture:: 0168.g1.svg
    :alt: Proposition 77 Diagram
 
 .. subclause::
 
-   For, since the sum of the squares on :g:`$AB$ <0168.g1:/ A B />`, :g:`$BC$ <0168.g1:/ B C />` is medial, while twice the rectangle :g:`$AB$ <0168.g1:/ A B />`, :g:`$BC$ <0168.g1:/ B C />` is rational,
+   For, since the sum of the squares on :g:`AB <0168.g1:/ A B />`, :g:`BC <0168.g1:/ B C />` is medial, while twice the rectangle :g:`AB <0168.g1:/ A B />`, :g:`BC <0168.g1:/ B C />` is rational,
 
 .. assertion::
 
-   therefore the squares on :g:`$AB$ <0168.g1:/ A B />`, :g:`$BC$ <0168.g1:/ B C />` are incommensurable with twice the rectangle :g:`$AB$ <0168.g1:/ A B />`, :g:`$BC$ <0168.g1:/ B C />` ; therefore the remainder also, the square on :g:`$AC$ <0168.g1:/ A C />`, is incommensurable with twice the rectangle :g:`$AB$ <0168.g1:/ A B />`, :g:`$BC$ <0168.g1:/ B C />`. :just:`[II. 7, X. 16] <II.7, X.16>`
+   therefore the squares on :g:`AB <0168.g1:/ A B />`, :g:`BC <0168.g1:/ B C />` are incommensurable with twice the rectangle :g:`AB <0168.g1:/ A B />`, :g:`BC <0168.g1:/ B C />` ; therefore the remainder also, the square on :g:`AC <0168.g1:/ A C />`, is incommensurable with twice the rectangle :g:`AB <0168.g1:/ A B />`, :g:`BC <0168.g1:/ B C />`. :just:`[II. 7, X. 16] <II.7, X.16>`
 
 .. subclause::
 
-   And twice the rectangle :g:`$AB$ <0168.g1:/ A B />`, :g:`$BC$ <0168.g1:/ B C />` is rational ;
+   And twice the rectangle :g:`AB <0168.g1:/ A B />`, :g:`BC <0168.g1:/ B C />` is rational ;
 
 .. assertion::
 
-   therefore the square on :g:`$AC$ <0168.g1:/ A C />` is irrational ; therefore :g:`$AC$ <0168.g1:/ A C />` is irrational.
+   therefore the square on :g:`AC <0168.g1:/ A C />` is irrational ; therefore :g:`AC <0168.g1:/ A C />` is irrational.
 
 .. qed::
 

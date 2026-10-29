@@ -23,33 +23,33 @@ PROPOSITION 19.
 .. picture:: 0298.g1.svg
    :alt: Proposition 19 figure
 
-Let :g:`$ABC$ <0298.g1:< A B C >>` be a triangle having the angle :g:`$ABC$ <0298.g1:< A B C )>` greater than the angle :g:`$BCA$ <0298.g1:< B C A )>`;
+Let :g:`ABC <0298.g1:< A B C >>` be a triangle having the angle :g:`ABC <0298.g1:< A B C )>` greater than the angle :g:`BCA <0298.g1:< B C A )>`;
 
-I say that the side :g:`$AC$ <0298.g1:/ A C />` is also greater than the side :g:`$AB$ <0298.g1:/ A B />`.
+I say that the side :g:`AC <0298.g1:/ A C />` is also greater than the side :g:`AB <0298.g1:/ A B />`.
 
-For, if not, :g:`$AC$ <0298.g1:/ A C />` is either :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`$AB$ <0298.g1:/ A B />` or less.
+For, if not, :g:`AC <0298.g1:/ A C />` is either :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`AB <0298.g1:/ A B />` or less.
 
-Now :g:`$AC$ <0298.g1:/ A C />` is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`$AB$ <0298.g1:/ A B />`; for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been :eq:`equal <0298.g1:< A B C ) = 0298.g1:< A C B )>` to the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 5] <I.5>`
-
-but it is not;
-
-.. assertion::
-
-   therefore :g:`$AC$ <0298.g1:/ A C />` is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`$AB$ <0298.g1:/ A B />`.
-
-Neither is :g:`$AC$ <0298.g1:/ A C />` less than :g:`$AB$ <0298.g1:/ A B />`, for then the angle :g:`$ABC$ <0298.g1:< A B C )>` would also have been less than the angle :g:`$ACB$ <0298.g1:< A C B )>`; :just:`[I. 18] <I.18>`
+Now :g:`AC <0298.g1:/ A C />` is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`AB <0298.g1:/ A B />`; for then the angle :g:`ABC <0298.g1:< A B C )>` would also have been :eq:`equal <0298.g1:< A B C ) = 0298.g1:< A C B )>` to the angle :g:`ACB <0298.g1:< A C B )>`; :just:`[I. 5] <I.5>`
 
 but it is not;
 
 .. assertion::
 
-   therefore :g:`$AC$ <0298.g1:/ A C />` is not less than :g:`$AB$ <0298.g1:/ A B />`.
+   therefore :g:`AC <0298.g1:/ A C />` is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` to :g:`AB <0298.g1:/ A B />`.
+
+Neither is :g:`AC <0298.g1:/ A C />` less than :g:`AB <0298.g1:/ A B />`, for then the angle :g:`ABC <0298.g1:< A B C )>` would also have been less than the angle :g:`ACB <0298.g1:< A C B )>`; :just:`[I. 18] <I.18>`
+
+but it is not;
+
+.. assertion::
+
+   therefore :g:`AC <0298.g1:/ A C />` is not less than :g:`AB <0298.g1:/ A B />`.
 
 And it was proved that it is not :eq:`equal <0298.g1:/ A C / = 0298.g1:/ A B />` either.
 
 .. assertion::
 
-   Therefore :g:`$AC$ <0298.g1:/ A C />` is greater than :g:`$AB$ <0298.g1:/ A B />`.
+   Therefore :g:`AC <0298.g1:/ A C />` is greater than :g:`AB <0298.g1:/ A B />`.
 
 .. qed::
 

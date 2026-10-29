@@ -20,9 +20,9 @@ PROPOSITION 21.
 
    Figures which are similar to the same rectilineal figure are also similar to one another.
 
-For let each of the rectilineal figures :g:`$A$ <0246.g1:A>`, :g:`$B$ <0246.g1:B>` be similar to :g:`$C$ <0246.g1:C>`;
+For let each of the rectilineal figures :g:`A <0246.g1:A>`, :g:`B <0246.g1:B>` be similar to :g:`C <0246.g1:C>`;
 
-I say that :g:`$A$ <0246.g1:A>` is also similar to :g:`$B$ <0246.g1:B>`.
+I say that :g:`A <0246.g1:A>` is also similar to :g:`B <0246.g1:B>`.
 
 .. _folio-ii-0246:
 
@@ -31,7 +31,7 @@ I say that :g:`$A$ <0246.g1:A>` is also similar to :g:`$B$ <0246.g1:B>`.
 
 .. subclause::
 
-   For, since :g:`$A$ <0246.g1:A>` is similar to :g:`$C$ <0246.g1:C>`,
+   For, since :g:`A <0246.g1:A>` is similar to :g:`C <0246.g1:C>`,
 
 .. assertion::
 
@@ -42,7 +42,7 @@ I say that :g:`$A$ <0246.g1:A>` is also similar to :g:`$B$ <0246.g1:B>`.
 
 .. subclause::
 
-   Again, since :g:`$B$ <0246.g1:B>` is similar to :g:`$C$ <0246.g1:C>`,
+   Again, since :g:`B <0246.g1:B>` is similar to :g:`C <0246.g1:C>`,
 
 .. assertion::
 
@@ -50,11 +50,11 @@ I say that :g:`$A$ <0246.g1:A>` is also similar to :g:`$B$ <0246.g1:B>`.
 
 .. assertion::
 
-   Therefore each of the figures :g:`$A$ <0246.g1:A>`, :g:`$B$ <0246.g1:B>` is equiangular with :g:`$C$ <0246.g1:C>` and with :g:`$C$ <0246.g1:C>` has the sides about the equal angles proportional;
+   Therefore each of the figures :g:`A <0246.g1:A>`, :g:`B <0246.g1:B>` is equiangular with :g:`C <0246.g1:C>` and with :g:`C <0246.g1:C>` has the sides about the equal angles proportional;
 
 .. assertion::
 
-   therefore :g:`$A$ <0246.g1:A>` is similar to :g:`$B$ <0246.g1:B>`.
+   therefore :g:`A <0246.g1:A>` is similar to :g:`B <0246.g1:B>`.
 
 .. qed::
 

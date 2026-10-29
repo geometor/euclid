@@ -20,22 +20,22 @@ PROPOSITION 11.
 
    Between two square numbers there is one mean proportional number, and the square has to the square the ratio duplicate of that which the side has to the side.
 
-Let :g:`$A$ <0369.g1:A>`, :g:`$B$ <0369.g1:B>` be square numbers, and let :g:`$C$ <0369.g1:C>` be the side of :g:`$A$ <0369.g1:A>`, and :g:`$D$ <0369.g1:D>` of :g:`$B$ <0369.g1:B>`;
+Let :g:`A <0369.g1:A>`, :g:`B <0369.g1:B>` be square numbers, and let :g:`C <0369.g1:C>` be the side of :g:`A <0369.g1:A>`, and :g:`D <0369.g1:D>` of :g:`B <0369.g1:B>`;
 
-I say that between :g:`$A$ <0369.g1:A>`, :g:`$B$ <0369.g1:B>` there is one mean proportional number, and :g:`$A$ <0369.g1:A>` has to :g:`$B$ <0369.g1:B>` the ratio duplicate of that which :g:`$C$ <0369.g1:C>` has to :g:`$D$ <0369.g1:D>`.
+I say that between :g:`A <0369.g1:A>`, :g:`B <0369.g1:B>` there is one mean proportional number, and :g:`A <0369.g1:A>` has to :g:`B <0369.g1:B>` the ratio duplicate of that which :g:`C <0369.g1:C>` has to :g:`D <0369.g1:D>`.
 
-For let :g:`$C$ <0369.g1:C>` by multiplying :g:`$D$ <0369.g1:D>` make :g:`$E$ <0369.g1:E>`.
+For let :g:`C <0369.g1:C>` by multiplying :g:`D <0369.g1:D>` make :g:`E <0369.g1:E>`.
 
 .. picture:: 0369.g1.svg
    :alt: Book VIII, Proposition 11
 
 .. subclause::
 
-   Now, since :g:`$A$ <0369.g1:A>` is a square and :g:`$C$ <0369.g1:C>` is its side,
+   Now, since :g:`A <0369.g1:A>` is a square and :g:`C <0369.g1:C>` is its side,
 
 .. assertion::
 
-   therefore :g:`$C$ <0369.g1:C>` by multiplying itself has made :g:`$A$ <0369.g1:A>`.
+   therefore :g:`C <0369.g1:C>` by multiplying itself has made :g:`A <0369.g1:A>`.
 
 .. subclause::
 
@@ -43,15 +43,15 @@ For let :g:`$C$ <0369.g1:C>` by multiplying :g:`$D$ <0369.g1:D>` make :g:`$E$ <0
 
 .. assertion::
 
-   :g:`$D$ <0369.g1:D>` by multiplying itself has made :g:`$B$ <0369.g1:B>`.
+   :g:`D <0369.g1:D>` by multiplying itself has made :g:`B <0369.g1:B>`.
 
 .. subclause::
 
-   Since then :g:`$C$ <0369.g1:C>` by multiplying the numbers :g:`$C$ <0369.g1:C>`, :g:`$D$ <0369.g1:D>` has made :g:`$A$ <0369.g1:A>`, :g:`$E$ <0369.g1:E>` respectively,
+   Since then :g:`C <0369.g1:C>` by multiplying the numbers :g:`C <0369.g1:C>`, :g:`D <0369.g1:D>` has made :g:`A <0369.g1:A>`, :g:`E <0369.g1:E>` respectively,
 
 .. assertion:: [VII. 17] <VII.17>
 
-   therefore, as :g:`$C$ <0369.g1:C>` is to :g:`$D$ <0369.g1:D>`, so is :g:`$A$ <0369.g1:A>` to :g:`$E$ <0369.g1:E>`.
+   therefore, as :g:`C <0369.g1:C>` is to :g:`D <0369.g1:D>`, so is :g:`A <0369.g1:A>` to :g:`E <0369.g1:E>`.
 
 .. subclause::
 
@@ -59,33 +59,33 @@ For let :g:`$C$ <0369.g1:C>` by multiplying :g:`$D$ <0369.g1:D>` make :g:`$E$ <0
 
 .. assertion:: [VII. 18] <VII.18>
 
-   as :g:`$C$ <0369.g1:C>` is to :g:`$D$ <0369.g1:D>`, so is :g:`$E$ <0369.g1:E>` to :g:`$B$ <0369.g1:B>`.
+   as :g:`C <0369.g1:C>` is to :g:`D <0369.g1:D>`, so is :g:`E <0369.g1:E>` to :g:`B <0369.g1:B>`.
 
 .. assertion::
 
-   Therefore also, as :g:`$A$ <0369.g1:A>` is to :g:`$E$ <0369.g1:E>`, so is :g:`$E$ <0369.g1:E>` to :g:`$B$ <0369.g1:B>`.
+   Therefore also, as :g:`A <0369.g1:A>` is to :g:`E <0369.g1:E>`, so is :g:`E <0369.g1:E>` to :g:`B <0369.g1:B>`.
 
 .. assertion::
 
-   Therefore between :g:`$A$ <0369.g1:A>`, :g:`$B$ <0369.g1:B>` there is one mean proportional number.
+   Therefore between :g:`A <0369.g1:A>`, :g:`B <0369.g1:B>` there is one mean proportional number.
 
-I say next that :g:`$A$ <0369.g1:A>` also has to :g:`$B$ <0369.g1:B>` the ratio duplicate of that which :g:`$C$ <0369.g1:C>` has to :g:`$D$ <0369.g1:D>`.
+I say next that :g:`A <0369.g1:A>` also has to :g:`B <0369.g1:B>` the ratio duplicate of that which :g:`C <0369.g1:C>` has to :g:`D <0369.g1:D>`.
 
 .. subclause::
 
-   For, since :g:`$A$ <0369.g1:A>`, :g:`$E$ <0369.g1:E>`, :g:`$B$ <0369.g1:B>` are three numbers in proportion,
+   For, since :g:`A <0369.g1:A>`, :g:`E <0369.g1:E>`, :g:`B <0369.g1:B>` are three numbers in proportion,
 
 .. assertion::
 
-   therefore :g:`$A$ <0369.g1:A>` has to :g:`$B$ <0369.g1:B>` the ratio duplicate of that which :g:`$A$ <0369.g1:A>` has to :g:`$E$ <0369.g1:E>`. :just:`[V. Def. 9] <V.def.9>`
+   therefore :g:`A <0369.g1:A>` has to :g:`B <0369.g1:B>` the ratio duplicate of that which :g:`A <0369.g1:A>` has to :g:`E <0369.g1:E>`. :just:`[V. Def. 9] <V.def.9>`
 
 .. subclause::
 
-   But, as :g:`$A$ <0369.g1:A>` is to :g:`$E$ <0369.g1:E>`, so is :g:`$C$ <0369.g1:C>` to :g:`$D$ <0369.g1:D>`.
+   But, as :g:`A <0369.g1:A>` is to :g:`E <0369.g1:E>`, so is :g:`C <0369.g1:C>` to :g:`D <0369.g1:D>`.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0369.g1:A>` has to :g:`$B$ <0369.g1:B>` the ratio duplicate of that which the side :g:`$C$ <0369.g1:C>` has to :g:`$D$ <0369.g1:D>`.
+   Therefore :g:`A <0369.g1:A>` has to :g:`B <0369.g1:B>` the ratio duplicate of that which the side :g:`C <0369.g1:C>` has to :g:`D <0369.g1:D>`.
 
 .. qed::
 

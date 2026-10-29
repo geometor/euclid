@@ -17,7 +17,7 @@ Back to :ref:`Proposition X.38 <X.38>`.
 .. folio:: 0091
    :page: 87
 
-After proving (l. 21) that each of the squares on :g:`$AB$ <0089.g1:/ A B />`, :g:`$BC$ <0089.g1:/ B C />` is medial, Euclid states (ll. 24, 26) that :g:`$EH$ <0089.g1:< E H >>`, which is equal to the *sum* of the squares, is a medial area, but does not explain why. It is because, by hypothesis, the squares on :g:`$AB$ <0089.g1:/ A B />`, :g:`$BC$ <0089.g1:/ B C />` are commensurable, so that the sum of the squares is commensurable with either [x. 15] and is therefore a medial area [x. 23, Por.].
+After proving (l. 21) that each of the squares on :g:`AB <0089.g1:/ A B />`, :g:`BC <0089.g1:/ B C />` is medial, Euclid states (ll. 24, 26) that :g:`EH <0089.g1:< E H >>`, which is equal to the *sum* of the squares, is a medial area, but does not explain why. It is because, by hypothesis, the squares on :g:`AB <0089.g1:/ A B />`, :g:`BC <0089.g1:/ B C />` are commensurable, so that the sum of the squares is commensurable with either [x. 15] and is therefore a medial area [x. 23, Por.].
 
 In this case [x. 28, note] $x$, $y$ are of the forms $k^{\frac{1}{4}}\rho$, $\lambda^{\frac{1}{2}}\rho/k^{\frac{1}{4}}$ respectively. Apply each of the areas $(x^2 + y^2)$ and $2xy$ to a rational straight line $\sigma$, i.e. suppose
 

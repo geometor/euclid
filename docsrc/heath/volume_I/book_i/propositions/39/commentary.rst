@@ -23,4 +23,4 @@ This theorem is of course the partial converse of I. 37. In I. 37 we have triang
 
 :person:`Proclus <proclus>` (:cite:`p. 407, 4—17 <proclus:in-euclid:407.4-17>`) remarks that :person:`Euclid <euclid>` only converts I. 37 and I. 38 relative to triangles, and omits the converses of I. 35, 36 about parallelograms as unnecessary because it is easy to see that the method would be the same, and therefore the reader may properly be left to prove them for himself.
 
-The proof is, as :person:`Proclus <proclus>` points out (p. 408, 5—21), equally easy on the supposition that the assumed parallel :g:`$AE$ <0350.g2:/ A E />` meets :g:`$BD$ <0350.g2:/ B D />` or :g:`$CD$ <0350.g2:/ C D />` produced beyond :g:`$D$ <0350.g2:D>`.
+The proof is, as :person:`Proclus <proclus>` points out (p. 408, 5—21), equally easy on the supposition that the assumed parallel :g:`AE <0350.g2:/ A E />` meets :g:`BD <0350.g2:/ B D />` or :g:`CD <0350.g2:/ C D />` produced beyond :g:`D <0350.g2:D>`.

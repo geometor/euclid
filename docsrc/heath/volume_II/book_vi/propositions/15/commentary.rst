@@ -24,15 +24,15 @@ As indicated in the partial converse given in the last note, this proposition is
 .. folio:: 0227
    :page: 221
 
-Let :g:`$ABC$ <0227.g1:< A B C >>`, :g:`$ADE$ <0227.g1:< A D E >>` be two triangles such that the angles :g:`$BAC$ <0227.g1:< B A C )>`, :g:`$DAE$ <0227.g1:< D A E )>` are supplementary, and also
+Let :g:`ABC <0227.g1:< A B C >>`, :g:`ADE <0227.g1:< A D E >>` be two triangles such that the angles :g:`BAC <0227.g1:< B A C )>`, :g:`DAE <0227.g1:< D A E )>` are supplementary, and also
 
 .. assertion::
 
-   :g:`$CA$ <0227.g1:/ C A />` : :g:`$AD$ <0227.g1:/ A D />` = :g:`$EA$ <0227.g1:/ E A />` : :g:`$AB$ <0227.g1:/ A B />`.
+   :g:`CA <0227.g1:/ C A />` : :g:`AD <0227.g1:/ A D />` = :g:`EA <0227.g1:/ E A />` : :g:`AB <0227.g1:/ A B />`.
 
 .. picture:: 0227.g1.svg
    :alt: Proposition 15, supplementary case
 
-In this case we can place the triangles so that :g:`$CA$ <0227.g1:/ C A />` is in a straight line with :g:`$AD$ <0227.g1:/ A D />`, and :g:`$AB$ <0227.g1:/ A B />` lies along :g:`$AE$ <0227.g1:/ A E />` (since the angle :g:`$EAC$ <0227.g1:< E A C )>`, being supplementary to the angle :g:`$EAD$ <0227.g1:< E A D )>`, is :eq:`equal <0227.g1:< E A C ) = 0227.g1:< B A C )>` to the angle :g:`$BAC$ <0227.g1:< B A C )>`). If we join :g:`$BD$ <0227.g1:/ B D />`, the proof given by Euclid applies to this case also.
+In this case we can place the triangles so that :g:`CA <0227.g1:/ C A />` is in a straight line with :g:`AD <0227.g1:/ A D />`, and :g:`AB <0227.g1:/ A B />` lies along :g:`AE <0227.g1:/ A E />` (since the angle :g:`EAC <0227.g1:< E A C )>`, being supplementary to the angle :g:`EAD <0227.g1:< E A D )>`, is :eq:`equal <0227.g1:< E A C ) = 0227.g1:< B A C )>` to the angle :g:`BAC <0227.g1:< B A C )>`). If we join :g:`BD <0227.g1:/ B D />`, the proof given by Euclid applies to this case also.
 
 It is true that VI. 15 can be immediately inferred from VI. 14, since a triangle is half of a parallelogram with the same base and height. But, Euclid's object being to give the student a grasp of *methods* rather than results, there seems to be no advantage in deducing one proposition from the other instead of using the same method on each.

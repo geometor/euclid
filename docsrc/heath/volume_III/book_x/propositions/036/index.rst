@@ -20,40 +20,40 @@ PROPOSITION 36.
 
    If two rational straight lines commensurable in square only be added together, the whole is irrational; and let it be called :term:`**binomial** <binomial>`.
 
-For let two rational straight lines :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` commensurable in square only be added together;
+For let two rational straight lines :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` commensurable in square only be added together;
 
-I say that the whole :g:`$AC$ <0087.g1:/ A C />` is irrational.
+I say that the whole :g:`AC <0087.g1:/ A C />` is irrational.
 
 .. picture:: 0087.g1.svg
    :alt: Proposition 36
 
 .. subclause::
 
-   For, since :g:`$AB$ <0087.g1:/ A B />` is incommensurable in length with :g:`$BC$ <0087.g1:/ B C />`— for they are commensurable in square only— and, as :g:`$AB$ <0087.g1:/ A B />` is to :g:`$BC$ <0087.g1:/ B C />`, so is the rectangle :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` to the square on :g:`$BC$ <0087.g1:/ B C />`,
+   For, since :g:`AB <0087.g1:/ A B />` is incommensurable in length with :g:`BC <0087.g1:/ B C />`— for they are commensurable in square only— and, as :g:`AB <0087.g1:/ A B />` is to :g:`BC <0087.g1:/ B C />`, so is the rectangle :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` to the square on :g:`BC <0087.g1:/ B C />`,
 
 .. assertion::
 
-   therefore the rectangle :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` is incommensurable with the square on :g:`$BC$ <0087.g1:/ B C />`. :just:`[X. 11] <X.11>`
+   therefore the rectangle :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` is incommensurable with the square on :g:`BC <0087.g1:/ B C />`. :just:`[X. 11] <X.11>`
 
 .. subclause::
 
-   But twice the rectangle :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` is commensurable with the rectangle :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` :just:`[X. 6] <X.6>`, and the squares on :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` are commensurable with the square on :g:`$BC$ <0087.g1:/ B C />`—for :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` are rational straight lines commensurable in square only— :just:`[X. 15] <X.15>`
+   But twice the rectangle :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` is commensurable with the rectangle :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` :just:`[X. 6] <X.6>`, and the squares on :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` are commensurable with the square on :g:`BC <0087.g1:/ B C />`—for :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` are rational straight lines commensurable in square only— :just:`[X. 15] <X.15>`
 
 .. assertion::
 
-   therefore twice the rectangle :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` is incommensurable with the squares on :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />`. :just:`[X. 13] <X.13>`
+   therefore twice the rectangle :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` is incommensurable with the squares on :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />`. :just:`[X. 13] <X.13>`
 
 .. assertion::
 
-   And, :term:`*componendo* <componendo>`, twice the rectangle :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` together with the squares on :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />`, that is, the square on :g:`$AC$ <0087.g1:/ A C />` :just:`[II. 4] <II.4>`, is incommensurable with the sum of the squares on :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />`. :just:`[X. 16] <X.16>`
+   And, :term:`*componendo* <componendo>`, twice the rectangle :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` together with the squares on :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />`, that is, the square on :g:`AC <0087.g1:/ A C />` :just:`[II. 4] <II.4>`, is incommensurable with the sum of the squares on :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />`. :just:`[X. 16] <X.16>`
 
 .. subclause::
 
-   But the sum of the squares on :g:`$AB$ <0087.g1:/ A B />`, :g:`$BC$ <0087.g1:/ B C />` is rational;
+   But the sum of the squares on :g:`AB <0087.g1:/ A B />`, :g:`BC <0087.g1:/ B C />` is rational;
 
 .. assertion::
 
-   therefore the square on :g:`$AC$ <0087.g1:/ A C />` is irrational, so that :g:`$AC$ <0087.g1:/ A C />` is also irrational. :just:`[X. Def. 4] <X.def.4>`
+   therefore the square on :g:`AC <0087.g1:/ A C />` is irrational, so that :g:`AC <0087.g1:/ A C />` is also irrational. :just:`[X. Def. 4] <X.def.4>`
 
 .. qed::
 

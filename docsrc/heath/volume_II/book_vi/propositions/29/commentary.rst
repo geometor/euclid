@@ -27,18 +27,18 @@ The algebraical solution of this equation gives
 
 $$x = - \frac{c}{b} \cdot \frac{a}{2} \pm \sqrt{\frac{c}{b} \left(\frac{c}{b} \cdot \frac{a^2}{4} + S\right)}.$$
 
-The exact correspondence of Euclid's method to the algebraical solution may be seen, as in the case of VI. 28, by supposing the parallelograms to be *rectangles*. In this case Euclid's construction on :g:`$EB$ <0271.g1:/ E B />` of the parallelogram :g:`$EL$ <0271.g1:< E L >>` similar to :g:`$D$ <0271.g1:< D >>` is equivalent to finding that
+The exact correspondence of Euclid's method to the algebraical solution may be seen, as in the case of VI. 28, by supposing the parallelograms to be *rectangles*. In this case Euclid's construction on :g:`EB <0271.g1:/ E B />` of the parallelogram :g:`EL <0271.g1:< E L >>` similar to :g:`D <0271.g1:< D >>` is equivalent to finding that
 
 .. container:: center
 
-   :g:`$FE$ <0271.g1:/ F E />` = $\frac{c}{b} \cdot \frac{a}{2}$, and :g:`$EL$ <0271.g1:< E L >>` = $\frac{c}{b} \cdot \frac{a^2}{4}$.
+   :g:`FE <0271.g1:/ F E />` = $\frac{c}{b} \cdot \frac{a}{2}$, and :g:`EL <0271.g1:< E L >>` = $\frac{c}{b} \cdot \frac{a^2}{4}$.
 
 .. _folio-ii-0273:
 
 .. folio:: 0273
    :page: 267
 
-His determination of the similar parallelogram :g:`$MN$ <0271.g1:< M N >>` equal to the sum of :g:`$EL$ <0271.g1:< E L >>` and $S$ corresponds to proving that
+His determination of the similar parallelogram :g:`MN <0271.g1:< M N >>` equal to the sum of :g:`EL <0271.g1:< E L >>` and $S$ corresponds to proving that
 
 $$FN^2 \cdot \frac{b}{c} = \frac{c}{b} \cdot \frac{a^2}{4} + S,$$
 

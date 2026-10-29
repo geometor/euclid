@@ -25,30 +25,30 @@ PROPOSITION 40.
 .. folio:: 0093
    :page: 89
 
-For let two straight lines :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />` incommensurable in square, and fulfilling the given conditions :just:`[X. 34] <X.34>`, be added together; I say that :g:`$AC$ <0093.g1:/ A C />` is irrational.
+For let two straight lines :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />` incommensurable in square, and fulfilling the given conditions :just:`[X. 34] <X.34>`, be added together; I say that :g:`AC <0093.g1:/ A C />` is irrational.
 
 .. picture:: 0093.g1.svg
    :alt: Proposition 40 diagram
 
 .. subclause::
 
-   For, since the sum of the squares on :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />` is medial, while twice the rectangle :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />` is rational,
+   For, since the sum of the squares on :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />` is medial, while twice the rectangle :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />` is rational,
 
 .. assertion::
 
-   therefore the sum of the squares on :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />` is incommensurable with twice the rectangle :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />`; so that the square on :g:`$AC$ <0093.g1:/ A C />` is also incommensurable with twice the rectangle :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />`. :just:`[X. 16] <X.16>`
+   therefore the sum of the squares on :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />` is incommensurable with twice the rectangle :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />`; so that the square on :g:`AC <0093.g1:/ A C />` is also incommensurable with twice the rectangle :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />`. :just:`[X. 16] <X.16>`
 
 .. subclause::
 
-   But twice the rectangle :g:`$AB$ <0093.g1:/ A B />`, :g:`$BC$ <0093.g1:/ B C />` is rational;
+   But twice the rectangle :g:`AB <0093.g1:/ A B />`, :g:`BC <0093.g1:/ B C />` is rational;
 
 .. assertion::
 
-   therefore the square on :g:`$AC$ <0093.g1:/ A C />` is irrational.
+   therefore the square on :g:`AC <0093.g1:/ A C />` is irrational.
 
 .. assertion:: [X. Def. 4] <X.def.4>
 
-   Therefore :g:`$AC$ <0093.g1:/ A C />` is irrational.
+   Therefore :g:`AC <0093.g1:/ A C />` is irrational.
 
 .. assertion::
 

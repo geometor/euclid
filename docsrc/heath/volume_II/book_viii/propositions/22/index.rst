@@ -20,28 +20,28 @@ PROPOSITION 22.
 
    If three numbers be in continued proportion, and the first be square, the third will also be square.
 
-Let :g:`$A$ <0385.g1:A>`, :g:`$B$ <0385.g1:B>`, :g:`$C$ <0385.g1:C>` be three numbers in continued proportion, and let :g:`$A$ <0385.g1:A>` the first be square;
+Let :g:`A <0385.g1:A>`, :g:`B <0385.g1:B>`, :g:`C <0385.g1:C>` be three numbers in continued proportion, and let :g:`A <0385.g1:A>` the first be square;
 
-I say that :g:`$C$ <0385.g1:C>` the third is also square.
+I say that :g:`C <0385.g1:C>` the third is also square.
 
 .. picture:: 0385.g1.svg
    :alt: Proposition 22
 
 .. subclause::
 
-   For, since between :g:`$A$ <0385.g1:A>`, :g:`$C$ <0385.g1:C>` there is one mean proportional number, :g:`$B$ <0385.g1:B>`,
+   For, since between :g:`A <0385.g1:A>`, :g:`C <0385.g1:C>` there is one mean proportional number, :g:`B <0385.g1:B>`,
 
 .. assertion:: [VIII. 20] <VIII.20>
 
-   therefore :g:`$A$ <0385.g1:A>`, :g:`$C$ <0385.g1:C>` are similar plane numbers.
+   therefore :g:`A <0385.g1:A>`, :g:`C <0385.g1:C>` are similar plane numbers.
 
 .. subclause::
 
-   But :g:`$A$ <0385.g1:A>` is square;
+   But :g:`A <0385.g1:A>` is square;
 
 .. assertion::
 
-   therefore :g:`$C$ <0385.g1:C>` is also square.
+   therefore :g:`C <0385.g1:C>` is also square.
 
 .. qed::
 

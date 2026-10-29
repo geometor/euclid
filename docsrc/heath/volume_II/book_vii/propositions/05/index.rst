@@ -21,34 +21,34 @@ PROPOSITION 5.
 
    If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.
 
-For let the number :g:`$A$ <0310.g1:A>` be a part of :g:`$BC$ <0310.g1:/ B C />`, and another, :g:`$D$ <0310.g1:D>`, the same part of another :g:`$EF$ <0310.g1:/ E F />` that :g:`$A$ <0310.g1:A>` is of :g:`$BC$ <0310.g1:/ B C />`;
+For let the number :g:`A <0310.g1:A>` be a part of :g:`BC <0310.g1:/ B C />`, and another, :g:`D <0310.g1:D>`, the same part of another :g:`EF <0310.g1:/ E F />` that :g:`A <0310.g1:A>` is of :g:`BC <0310.g1:/ B C />`;
 
-I say that the sum of :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>` is also the same part of the sum of :g:`$BC$ <0310.g1:/ B C />`, :g:`$EF$ <0310.g1:/ E F />` that :g:`$A$ <0310.g1:A>` is of :g:`$BC$ <0310.g1:/ B C />`.
+I say that the sum of :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>` is also the same part of the sum of :g:`BC <0310.g1:/ B C />`, :g:`EF <0310.g1:/ E F />` that :g:`A <0310.g1:A>` is of :g:`BC <0310.g1:/ B C />`.
 
 .. picture:: 0310.g1.svg
    :alt: Book VII, Proposition 5
 
 .. subclause::
 
-   For since, whatever part :g:`$A$ <0310.g1:A>` is of :g:`$BC$ <0310.g1:/ B C />`, :g:`$D$ <0310.g1:D>` is also the same part of :g:`$EF$ <0310.g1:/ E F />`,
+   For since, whatever part :g:`A <0310.g1:A>` is of :g:`BC <0310.g1:/ B C />`, :g:`D <0310.g1:D>` is also the same part of :g:`EF <0310.g1:/ E F />`,
 
 .. assertion::
 
-   therefore, as many numbers as there are in :g:`$BC$ <0310.g1:/ B C />` equal to :g:`$A$ <0310.g1:A>`, so many numbers are there also in :g:`$EF$ <0310.g1:/ E F />` equal to :g:`$D$ <0310.g1:D>`.
+   therefore, as many numbers as there are in :g:`BC <0310.g1:/ B C />` equal to :g:`A <0310.g1:A>`, so many numbers are there also in :g:`EF <0310.g1:/ E F />` equal to :g:`D <0310.g1:D>`.
 
-Let :g:`$BC$ <0310.g1:/ B C />` be divided into the numbers :eq:`equal <0310.g1:/ B G / = 0310.g1:/ G C / = 0310.g1:A>` to :g:`$A$ <0310.g1:A>`, namely :g:`$BG$ <0310.g1:/ B G />`, :g:`$GC$ <0310.g1:/ G C />`, and :g:`$EF$ <0310.g1:/ E F />` into the numbers :eq:`equal <0310.g1:/ E H / = 0310.g1:/ H F / = 0310.g1:D>` to :g:`$D$ <0310.g1:D>`, namely :g:`$EH$ <0310.g1:/ E H />`, :g:`$HF$ <0310.g1:/ H F />`;
+Let :g:`BC <0310.g1:/ B C />` be divided into the numbers :eq:`equal <0310.g1:/ B G / = 0310.g1:/ G C / = 0310.g1:A>` to :g:`A <0310.g1:A>`, namely :g:`BG <0310.g1:/ B G />`, :g:`GC <0310.g1:/ G C />`, and :g:`EF <0310.g1:/ E F />` into the numbers :eq:`equal <0310.g1:/ E H / = 0310.g1:/ H F / = 0310.g1:D>` to :g:`D <0310.g1:D>`, namely :g:`EH <0310.g1:/ E H />`, :g:`HF <0310.g1:/ H F />`;
 
 .. assertion::
 
-   then the multitude of :g:`$BG$ <0310.g1:/ B G />`, :g:`$GC$ <0310.g1:/ G C />` will be equal to the multitude of :g:`$EH$ <0310.g1:/ E H />`, :g:`$HF$ <0310.g1:/ H F />`.
+   then the multitude of :g:`BG <0310.g1:/ B G />`, :g:`GC <0310.g1:/ G C />` will be equal to the multitude of :g:`EH <0310.g1:/ E H />`, :g:`HF <0310.g1:/ H F />`.
 
 .. subclause::
 
-   And, since :g:`$BG$ <0310.g1:/ B G />` is :eq:`equal <0310.g1:/ B G / = 0310.g1:A; 0310.g1:/ E H / = 0310.g1:D>` to :g:`$A$ <0310.g1:A>`, and :g:`$EH$ <0310.g1:/ E H />` to :g:`$D$ <0310.g1:D>`,
+   And, since :g:`BG <0310.g1:/ B G />` is :eq:`equal <0310.g1:/ B G / = 0310.g1:A; 0310.g1:/ E H / = 0310.g1:D>` to :g:`A <0310.g1:A>`, and :g:`EH <0310.g1:/ E H />` to :g:`D <0310.g1:D>`,
 
 .. assertion::
 
-   therefore :g:`$BG$ <0310.g1:/ B G />`, :g:`$EH$ <0310.g1:/ E H />` are also equal to :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>`.
+   therefore :g:`BG <0310.g1:/ B G />`, :g:`EH <0310.g1:/ E H />` are also equal to :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>`.
 
 .. subclause::
 
@@ -56,19 +56,19 @@ Let :g:`$BC$ <0310.g1:/ B C />` be divided into the numbers :eq:`equal <0310.g1:
 
 .. assertion::
 
-   :g:`$GC$ <0310.g1:/ G C />`, :g:`$HF$ <0310.g1:/ H F />` are also equal to :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>`.
+   :g:`GC <0310.g1:/ G C />`, :g:`HF <0310.g1:/ H F />` are also equal to :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>`.
 
 .. assertion::
 
-   Therefore, as many numbers as there are in :g:`$BC$ <0310.g1:/ B C />` equal to :g:`$A$ <0310.g1:A>`, so many are there also in :g:`$BC$ <0310.g1:/ B C />`, :g:`$EF$ <0310.g1:/ E F />` equal to :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>`.
+   Therefore, as many numbers as there are in :g:`BC <0310.g1:/ B C />` equal to :g:`A <0310.g1:A>`, so many are there also in :g:`BC <0310.g1:/ B C />`, :g:`EF <0310.g1:/ E F />` equal to :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>`.
 
 .. assertion::
 
-   Therefore, whatever multiple :g:`$BC$ <0310.g1:/ B C />` is of :g:`$A$ <0310.g1:A>`, the same multiple also is the sum of :g:`$BC$ <0310.g1:/ B C />`, :g:`$EF$ <0310.g1:/ E F />` of the sum of :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>`.
+   Therefore, whatever multiple :g:`BC <0310.g1:/ B C />` is of :g:`A <0310.g1:A>`, the same multiple also is the sum of :g:`BC <0310.g1:/ B C />`, :g:`EF <0310.g1:/ E F />` of the sum of :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>`.
 
 .. assertion::
 
-   Therefore, whatever part :g:`$A$ <0310.g1:A>` is of :g:`$BC$ <0310.g1:/ B C />`, the same part also is the sum of :g:`$A$ <0310.g1:A>`, :g:`$D$ <0310.g1:D>` of the sum of :g:`$BC$ <0310.g1:/ B C />`, :g:`$EF$ <0310.g1:/ E F />`.
+   Therefore, whatever part :g:`A <0310.g1:A>` is of :g:`BC <0310.g1:/ B C />`, the same part also is the sum of :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>` of the sum of :g:`BC <0310.g1:/ B C />`, :g:`EF <0310.g1:/ E F />`.
 
 .. qed::
 

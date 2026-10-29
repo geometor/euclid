@@ -29,95 +29,95 @@ PROPOSITION 8.
 
    the nearer to that through the centre is always greater than the more remote, but, of the straight lines falling on the convex circumference, that between the point and the diameter is least, while of the rest the nearer to the least is always less than the more remote, and only two equal straight lines will fall on the circle from the point, one on each side of the least.
 
-Let :g:`$ABC$ <0024.g1:( A B C )>` be a circle, and let a point :g:`$D$ <0024.g1:D>` be taken outside :g:`$ABC$ <0024.g1:( A B C )>`; let there be drawn through from it straight lines :g:`$DA$ <0024.g1:/ D A />`, :g:`$DE$ <0024.g1:/ D E />`, :g:`$DF$ <0024.g1:/ D F />`, :g:`$DC$ <0024.g1:/ D C />`, and let :g:`$DA$ <0024.g1:/ D A />` be through the centre;
+Let :g:`ABC <0024.g1:( A B C )>` be a circle, and let a point :g:`D <0024.g1:D>` be taken outside :g:`ABC <0024.g1:( A B C )>`; let there be drawn through from it straight lines :g:`DA <0024.g1:/ D A />`, :g:`DE <0024.g1:/ D E />`, :g:`DF <0024.g1:/ D F />`, :g:`DC <0024.g1:/ D C />`, and let :g:`DA <0024.g1:/ D A />` be through the centre;
 
-I say that, of the straight lines falling on the concave circumference :g:`$AEFC$ <0024.g1:( A E F C )>`, the straight line :g:`$DA$ <0024.g1:/ D A />` through the centre is greatest, while :g:`$DE$ <0024.g1:/ D E />` is greater than :g:`$DF$ <0024.g1:/ D F />` and :g:`$DF$ <0024.g1:/ D F />` than :g:`$DC$ <0024.g1:/ D C />`; but, of the straight lines falling on the convex circumference :g:`$HLKG$ <0024.g1:( H L K G )>`, the straight line :g:`$DG$ <0024.g1:/ D G />` between the point and the diameter :g:`$AG$ <0024.g1:/ A G />` is least; and the nearer to the least :g:`$DG$ <0024.g1:/ D G />` is always less than the more remote, namely :g:`$DK$ <0024.g1:/ D K />` than :g:`$DL$ <0024.g1:/ D L />`, and :g:`$DL$ <0024.g1:/ D L />` than :g:`$DH$ <0024.g1:/ D H />`.
+I say that, of the straight lines falling on the concave circumference :g:`AEFC <0024.g1:( A E F C )>`, the straight line :g:`DA <0024.g1:/ D A />` through the centre is greatest, while :g:`DE <0024.g1:/ D E />` is greater than :g:`DF <0024.g1:/ D F />` and :g:`DF <0024.g1:/ D F />` than :g:`DC <0024.g1:/ D C />`; but, of the straight lines falling on the convex circumference :g:`HLKG <0024.g1:( H L K G )>`, the straight line :g:`DG <0024.g1:/ D G />` between the point and the diameter :g:`AG <0024.g1:/ A G />` is least; and the nearer to the least :g:`DG <0024.g1:/ D G />` is always less than the more remote, namely :g:`DK <0024.g1:/ D K />` than :g:`DL <0024.g1:/ D L />`, and :g:`DL <0024.g1:/ D L />` than :g:`DH <0024.g1:/ D H />`.
 
 .. picture:: 0024.g1.svg
    :alt: Diagram for Proposition 8
 
-For let the centre of the circle :g:`$ABC$ <0024.g1:( A B C )>` be taken :just:`[III. 1] <III.1>`, and let it be :g:`$M$ <0024.g1:M>`; let :g:`$ME$ <0024.g1:/ M E />`, :g:`$MF$ <0024.g1:/ M F />`, :g:`$MC$ <0024.g1:/ M C />`, :g:`$MK$ <0024.g1:/ M K />`, :g:`$ML$ <0024.g1:/ M L />`, :g:`$MH$ <0024.g1:/ M H />` be joined.
+For let the centre of the circle :g:`ABC <0024.g1:( A B C )>` be taken :just:`[III. 1] <III.1>`, and let it be :g:`M <0024.g1:M>`; let :g:`ME <0024.g1:/ M E />`, :g:`MF <0024.g1:/ M F />`, :g:`MC <0024.g1:/ M C />`, :g:`MK <0024.g1:/ M K />`, :g:`ML <0024.g1:/ M L />`, :g:`MH <0024.g1:/ M H />` be joined.
 
-Then, since :g:`$AM$ <0024.g1:/ A M />` is :eq:`equal <0024.g1:/ A M / = 0024.g1:/ E M />` to :g:`$EM$ <0024.g1:/ E M />`, let :g:`$MD$ <0024.g1:/ M D />` be added to each;
-
-.. assertion::
-
-   therefore :g:`$AD$ <0024.g1:/ A D />` is equal to :g:`$EM$ <0024.g1:/ E M />`, :g:`$MD$ <0024.g1:/ M D />`.
-
-But :g:`$EM$ <0024.g1:/ E M />`, :g:`$MD$ <0024.g1:/ M D />` are greater than :g:`$ED$ <0024.g1:/ E D />`; :just:`[I. 20] <I.20>`
+Then, since :g:`AM <0024.g1:/ A M />` is :eq:`equal <0024.g1:/ A M / = 0024.g1:/ E M />` to :g:`EM <0024.g1:/ E M />`, let :g:`MD <0024.g1:/ M D />` be added to each;
 
 .. assertion::
 
-   therefore :g:`$AD$ <0024.g1:/ A D />` is also greater than :g:`$ED$ <0024.g1:/ E D />`.
+   therefore :g:`AD <0024.g1:/ A D />` is equal to :g:`EM <0024.g1:/ E M />`, :g:`MD <0024.g1:/ M D />`.
 
-Again, since :g:`$ME$ <0024.g1:/ M E />` is :eq:`equal <0024.g1:/ M E / = 0024.g1:/ M F />` to :g:`$MF$ <0024.g1:/ M F />`, and :g:`$MD$ <0024.g1:/ M D />` is common, therefore :g:`$EM$ <0024.g1:/ E M />`, :g:`$MD$ <0024.g1:/ M D />` are :eq:`equal <0024.g1:/ E M / = 0024.g1:/ F M />` to :g:`$FM$ <0024.g1:/ F M />`, :g:`$MD$ <0024.g1:/ M D />`; and the angle :g:`$EMD$ <0024.g1:< E M D )>` is greater than the angle :g:`$FMD$ <0024.g1:< F M D )>`;
+But :g:`EM <0024.g1:/ E M />`, :g:`MD <0024.g1:/ M D />` are greater than :g:`ED <0024.g1:/ E D />`; :just:`[I. 20] <I.20>`
+
+.. assertion::
+
+   therefore :g:`AD <0024.g1:/ A D />` is also greater than :g:`ED <0024.g1:/ E D />`.
+
+Again, since :g:`ME <0024.g1:/ M E />` is :eq:`equal <0024.g1:/ M E / = 0024.g1:/ M F />` to :g:`MF <0024.g1:/ M F />`, and :g:`MD <0024.g1:/ M D />` is common, therefore :g:`EM <0024.g1:/ E M />`, :g:`MD <0024.g1:/ M D />` are :eq:`equal <0024.g1:/ E M / = 0024.g1:/ F M />` to :g:`FM <0024.g1:/ F M />`, :g:`MD <0024.g1:/ M D />`; and the angle :g:`EMD <0024.g1:< E M D )>` is greater than the angle :g:`FMD <0024.g1:< F M D )>`;
 
 .. assertion:: [I. 24] <I.24>
 
-   therefore the base :g:`$ED$ <0024.g1:/ E D />` is greater than the base :g:`$FD$ <0024.g1:/ F D />`.
+   therefore the base :g:`ED <0024.g1:/ E D />` is greater than the base :g:`FD <0024.g1:/ F D />`.
 
-Similarly we can prove that :g:`$FD$ <0024.g1:/ F D />` is greater than :g:`$CD$ <0024.g1:/ C D />`;
+Similarly we can prove that :g:`FD <0024.g1:/ F D />` is greater than :g:`CD <0024.g1:/ C D />`;
 
 .. assertion::
 
-   therefore :g:`$DA$ <0024.g1:/ D A />` is greatest, while :g:`$DE$ <0024.g1:/ D E />` is greater than :g:`$DF$ <0024.g1:/ D F />`, and :g:`$DF$ <0024.g1:/ D F />` than :g:`$DC$ <0024.g1:/ D C />`.
+   therefore :g:`DA <0024.g1:/ D A />` is greatest, while :g:`DE <0024.g1:/ D E />` is greater than :g:`DF <0024.g1:/ D F />`, and :g:`DF <0024.g1:/ D F />` than :g:`DC <0024.g1:/ D C />`.
 
 .. _folio-ii-0025:
 
 .. folio:: 0025
    :page: 19
 
-Next, since :g:`$MK$ <0024.g1:/ M K />`, :g:`$KD$ <0024.g1:/ K D />` are greater than :g:`$MD$ <0024.g1:/ M D />`, :just:`[I. 20] <I.20>`
+Next, since :g:`MK <0024.g1:/ M K />`, :g:`KD <0024.g1:/ K D />` are greater than :g:`MD <0024.g1:/ M D />`, :just:`[I. 20] <I.20>`
 
-and :g:`$MG$ <0024.g1:/ M G />` is :eq:`equal <0024.g1:/ M G / = 0024.g1:/ M K />` to :g:`$MK$ <0024.g1:/ M K />`, therefore the remainder :g:`$KD$ <0024.g1:/ K D />` is greater than the remainder :g:`$GD$ <0024.g1:/ G D />`,
-
-.. assertion::
-
-   so that :g:`$GD$ <0024.g1:/ G D />` is less than :g:`$KD$ <0024.g1:/ K D />`.
-
-And, since on :g:`$MD$ <0024.g1:/ M D />`, one of the sides of the triangle :g:`$MLD$ <0024.g1:< M L D >>`, two straight lines :g:`$MK$ <0024.g1:/ M K />`, :g:`$KD$ <0024.g1:/ K D />` were constructed meeting within the triangle, therefore :g:`$MK$ <0024.g1:/ M K />`, :g:`$KD$ <0024.g1:/ K D />` are less than :g:`$ML$ <0024.g1:/ M L />`, :g:`$LD$ <0024.g1:/ L D />`; :just:`[I. 21] <I.21>`
-
-and :g:`$MK$ <0024.g1:/ M K />` is :eq:`equal <0024.g1:/ M K / = 0024.g1:/ M L />` to :g:`$ML$ <0024.g1:/ M L />`;
+and :g:`MG <0024.g1:/ M G />` is :eq:`equal <0024.g1:/ M G / = 0024.g1:/ M K />` to :g:`MK <0024.g1:/ M K />`, therefore the remainder :g:`KD <0024.g1:/ K D />` is greater than the remainder :g:`GD <0024.g1:/ G D />`,
 
 .. assertion::
 
-   therefore the remainder :g:`$DK$ <0024.g1:/ D K />` is less than the remainder :g:`$DL$ <0024.g1:/ D L />`.
+   so that :g:`GD <0024.g1:/ G D />` is less than :g:`KD <0024.g1:/ K D />`.
 
-Similarly we can prove that :g:`$DL$ <0024.g1:/ D L />` is also less than :g:`$DH$ <0024.g1:/ D H />`;
+And, since on :g:`MD <0024.g1:/ M D />`, one of the sides of the triangle :g:`MLD <0024.g1:< M L D >>`, two straight lines :g:`MK <0024.g1:/ M K />`, :g:`KD <0024.g1:/ K D />` were constructed meeting within the triangle, therefore :g:`MK <0024.g1:/ M K />`, :g:`KD <0024.g1:/ K D />` are less than :g:`ML <0024.g1:/ M L />`, :g:`LD <0024.g1:/ L D />`; :just:`[I. 21] <I.21>`
+
+and :g:`MK <0024.g1:/ M K />` is :eq:`equal <0024.g1:/ M K / = 0024.g1:/ M L />` to :g:`ML <0024.g1:/ M L />`;
 
 .. assertion::
 
-   therefore :g:`$DG$ <0024.g1:/ D G />` is least, while :g:`$DK$ <0024.g1:/ D K />` is less than :g:`$DL$ <0024.g1:/ D L />`, and :g:`$DL$ <0024.g1:/ D L />` than :g:`$DH$ <0024.g1:/ D H />`.
+   therefore the remainder :g:`DK <0024.g1:/ D K />` is less than the remainder :g:`DL <0024.g1:/ D L />`.
 
-I say also that only two equal straight lines will fall from the point :g:`$D$ <0024.g1:D>` on the circle, one on each side of the least :g:`$DG$ <0024.g1:/ D G />`.
+Similarly we can prove that :g:`DL <0024.g1:/ D L />` is also less than :g:`DH <0024.g1:/ D H />`;
 
-On the straight line :g:`$MD$ <0024.g1:/ M D />`, and at the point :g:`$M$ <0024.g1:M>` on it, let the angle :g:`$DMB$ <0024.g1:< D M B )>` be constructed :eq:`equal <0024.g1:< D M B ) = 0024.g1:< K M D )>` to the angle :g:`$KMD$ <0024.g1:< K M D )>`, and let :g:`$DB$ <0024.g1:/ D B />` be joined.
+.. assertion::
 
-Then, since :g:`$MK$ <0024.g1:/ M K />` is :eq:`equal <0024.g1:/ M K / = 0024.g1:/ M B />` to :g:`$MB$ <0024.g1:/ M B />`, and :g:`$MD$ <0024.g1:/ M D />` is common,
+   therefore :g:`DG <0024.g1:/ D G />` is least, while :g:`DK <0024.g1:/ D K />` is less than :g:`DL <0024.g1:/ D L />`, and :g:`DL <0024.g1:/ D L />` than :g:`DH <0024.g1:/ D H />`.
+
+I say also that only two equal straight lines will fall from the point :g:`D <0024.g1:D>` on the circle, one on each side of the least :g:`DG <0024.g1:/ D G />`.
+
+On the straight line :g:`MD <0024.g1:/ M D />`, and at the point :g:`M <0024.g1:M>` on it, let the angle :g:`DMB <0024.g1:< D M B )>` be constructed :eq:`equal <0024.g1:< D M B ) = 0024.g1:< K M D )>` to the angle :g:`KMD <0024.g1:< K M D )>`, and let :g:`DB <0024.g1:/ D B />` be joined.
+
+Then, since :g:`MK <0024.g1:/ M K />` is :eq:`equal <0024.g1:/ M K / = 0024.g1:/ M B />` to :g:`MB <0024.g1:/ M B />`, and :g:`MD <0024.g1:/ M D />` is common,
 
 .. subclause::
 
-   the two sides :g:`$KM$ <0024.g1:/ K M />`, :g:`$MD$ <0024.g1:/ M D />` are :eq:`equal <0024.g1:/ K M / = 0024.g1:/ B M />` to the two sides :g:`$BM$ <0024.g1:/ B M />`, :g:`$MD$ <0024.g1:/ M D />` respectively;
+   the two sides :g:`KM <0024.g1:/ K M />`, :g:`MD <0024.g1:/ M D />` are :eq:`equal <0024.g1:/ K M / = 0024.g1:/ B M />` to the two sides :g:`BM <0024.g1:/ B M />`, :g:`MD <0024.g1:/ M D />` respectively;
 
-and the angle :g:`$KMD$ <0024.g1:< K M D )>` is :eq:`equal <0024.g1:< K M D ) = 0024.g1:< B M D )>` to the angle :g:`$BMD$ <0024.g1:< B M D )>`;
+and the angle :g:`KMD <0024.g1:< K M D )>` is :eq:`equal <0024.g1:< K M D ) = 0024.g1:< B M D )>` to the angle :g:`BMD <0024.g1:< B M D )>`;
 
 .. assertion:: [I. 4] <I.4>
 
-   therefore the base :g:`$DK$ <0024.g1:/ D K />` is :eq:`equal <0024.g1:/ D K / = 0024.g1:/ D B />` to the base :g:`$DB$ <0024.g1:/ D B />`.
+   therefore the base :g:`DK <0024.g1:/ D K />` is :eq:`equal <0024.g1:/ D K / = 0024.g1:/ D B />` to the base :g:`DB <0024.g1:/ D B />`.
 
-I say that no other straight line equal to the straight line :g:`$DK$ <0024.g1:/ D K />` will fall on the circle from the point :g:`$D$ <0024.g1:D>`.
+I say that no other straight line equal to the straight line :g:`DK <0024.g1:/ D K />` will fall on the circle from the point :g:`D <0024.g1:D>`.
 
-For, if possible, let a straight line so fall, and let it be :g:`$DN$ <0024.g1:/ D N />`. Then, since :g:`$DK$ <0024.g1:/ D K />` is :eq:`equal <0024.g1:/ D K / = 0024.g1:/ D N />` to :g:`$DN$ <0024.g1:/ D N />`, while :g:`$DK$ <0024.g1:/ D K />` is :eq:`equal <0024.g1:/ D K / = 0024.g1:/ D B />` to :g:`$DB$ <0024.g1:/ D B />`,
-
-.. assertion::
-
-   :g:`$DB$ <0024.g1:/ D B />` is also :eq:`equal <0024.g1:/ D B / = 0024.g1:/ D N />` to :g:`$DN$ <0024.g1:/ D N />`,
-
-that is, the nearer to the least :g:`$DG$ <0024.g1:/ D G />` equal to the more remote: which was proved impossible.
+For, if possible, let a straight line so fall, and let it be :g:`DN <0024.g1:/ D N />`. Then, since :g:`DK <0024.g1:/ D K />` is :eq:`equal <0024.g1:/ D K / = 0024.g1:/ D N />` to :g:`DN <0024.g1:/ D N />`, while :g:`DK <0024.g1:/ D K />` is :eq:`equal <0024.g1:/ D K / = 0024.g1:/ D B />` to :g:`DB <0024.g1:/ D B />`,
 
 .. assertion::
 
-   Therefore no more than two equal straight lines will fall on the circle :g:`$ABC$ <0024.g1:( A B C )>` from the point :g:`$D$ <0024.g1:D>`, one on each side of :g:`$DG$ <0024.g1:/ D G />` the least.
+   :g:`DB <0024.g1:/ D B />` is also :eq:`equal <0024.g1:/ D B / = 0024.g1:/ D N />` to :g:`DN <0024.g1:/ D N />`,
+
+that is, the nearer to the least :g:`DG <0024.g1:/ D G />` equal to the more remote: which was proved impossible.
+
+.. assertion::
+
+   Therefore no more than two equal straight lines will fall on the circle :g:`ABC <0024.g1:( A B C )>` from the point :g:`D <0024.g1:D>`, one on each side of :g:`DG <0024.g1:/ D G />` the least.
 
 .. qed::
 

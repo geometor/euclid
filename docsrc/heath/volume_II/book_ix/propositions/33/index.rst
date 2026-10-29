@@ -20,9 +20,9 @@ PROPOSITION 33.
 
    If a number have its half odd, it is even-times odd only.
 
-For let the number :g:`$A$ <0425.g1:A>` have its half odd;
+For let the number :g:`A <0425.g1:A>` have its half odd;
 
-I say that :g:`$A$ <0425.g1:A>` is even-times odd only.
+I say that :g:`A <0425.g1:A>` is even-times odd only.
 
 .. picture:: 0425.g1.svg
    :alt: Proposition 33 Diagram
@@ -35,7 +35,7 @@ I say next that it is also even-times odd only.
 
 .. subclause::
 
-   For, if :g:`$A$ <0425.g1:A>` is even-times even also,
+   For, if :g:`A <0425.g1:A>` is even-times even also,
 
 .. assertion::
 
@@ -47,7 +47,7 @@ I say next that it is also even-times odd only.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0425.g1:A>` is even-times odd only.
+   Therefore :g:`A <0425.g1:A>` is even-times odd only.
 
 .. qed::
 

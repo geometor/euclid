@@ -35,8 +35,9 @@ STANDALONE_STYLE = """
       }
     }
     .euclid-graphic {
-      font-family: 'EB Garamond', 'Times New Roman', 'Georgia', serif;
-      font-style: italic;
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
       background-color: var(--geom-bg);
     }
     .geom-line {
@@ -161,28 +162,34 @@ STANDALONE_STYLE = """
       transition: fill 0.15s, r 0.15s;
     }
     .geom-label {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
       font-size: 14.5px;
-      font-weight: bold;
+      font-weight: 700;
+      font-style: normal;
       fill: var(--geom-fg);
       user-select: none;
     }
     .geom-label-roman {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
       font-size: 14.5px;
-      font-weight: bold;
+      font-weight: 700;
       font-style: normal;
       fill: var(--geom-fg);
       user-select: none;
     }
     .geom-label-sm {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
       font-size: 11px;
-      font-weight: bold;
+      font-weight: 700;
+      font-style: normal;
       fill: var(--geom-fg);
       user-select: none;
     }
     .geom-label-sub {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
       font-size: 11px;
       font-style: normal;
-      font-weight: bold;
+      font-weight: 700;
     }
     .geom-overlay {
       opacity: 0;

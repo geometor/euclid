@@ -22,7 +22,7 @@ The alternative proof of this proposition by means of the principles exhibited i
 .. picture:: 0411.g1.svg
    :alt: 0411.g1
 
-It is at once obvious from the figure that the square on :g:`$AD$ <0411.g1:/ A D />` includes within it twice the square on :g:`$AC$ <0411.g1:/ A C />` together with once the square on :g:`$CD$ <0411.g1:/ C D />`. What is left over is the sum of the rectangles :g:`$AH$ <0411.g1:< A H >>`, :g:`$KE$ <0411.g1:< K E >>`. These, which are equivalent to :g:`$BH$ <0411.g1:< B H >>`, :g:`$GK$ <0411.g1:< G K >>`, make up the square on :g:`$CD$ <0411.g1:/ C D />` *less* the square on :g:`$BD$ <0411.g1:/ B D />`. Adding therefore the square :g:`$BG$ <0411.g1:< B G >>` to each side, we have the required result.
+It is at once obvious from the figure that the square on :g:`AD <0411.g1:/ A D />` includes within it twice the square on :g:`AC <0411.g1:/ A C />` together with once the square on :g:`CD <0411.g1:/ C D />`. What is left over is the sum of the rectangles :g:`AH <0411.g1:< A H >>`, :g:`KE <0411.g1:< K E >>`. These, which are equivalent to :g:`BH <0411.g1:< B H >>`, :g:`GK <0411.g1:< G K >>`, make up the square on :g:`CD <0411.g1:/ C D />` *less* the square on :g:`BD <0411.g1:/ B D />`. Adding therefore the square :g:`BG <0411.g1:< B G >>` to each side, we have the required result.
 
 Another alternative proof of the theorem which includes both II. 9 and 10 is worth giving. The theorem states that *the sum of the squares on the sum and difference of two given straight lines is equal to twice the sum of the squares on the lines*.
 
@@ -31,27 +31,27 @@ Another alternative proof of the theorem which includes both II. 9 and 10 is wor
 .. folio:: 0412
    :page: 398
 
-Let :g:`$AD$ <0412.g1:/ A D />`, :g:`$DB$ <0412.g1:/ D B />` be the two given straight lines (of which :g:`$AD$ <0412.g1:/ A D />` is the greater), placed so as to be in one straight line. Make :g:`$AC$ <0412.g1:/ A C />` :eq:`equal <0412.g1:/ A C / = 0412.g1:/ D B />` to :g:`$DB$ <0412.g1:/ D B />` and complete the figure as shown, each of the segments :g:`$CG$ <0412.g1:/ C G />` and :g:`$DH$ <0412.g1:/ D H />` being :eq:`equal <0412.g1:/ C G / = 0412.g1:/ D H / = 0412.g1:/ A C / = 0412.g1:/ D B />` to :g:`$AC$ <0412.g1:/ A C />` or :g:`$DB$ <0412.g1:/ D B />`.
+Let :g:`AD <0412.g1:/ A D />`, :g:`DB <0412.g1:/ D B />` be the two given straight lines (of which :g:`AD <0412.g1:/ A D />` is the greater), placed so as to be in one straight line. Make :g:`AC <0412.g1:/ A C />` :eq:`equal <0412.g1:/ A C / = 0412.g1:/ D B />` to :g:`DB <0412.g1:/ D B />` and complete the figure as shown, each of the segments :g:`CG <0412.g1:/ C G />` and :g:`DH <0412.g1:/ D H />` being :eq:`equal <0412.g1:/ C G / = 0412.g1:/ D H / = 0412.g1:/ A C / = 0412.g1:/ D B />` to :g:`AC <0412.g1:/ A C />` or :g:`DB <0412.g1:/ D B />`.
 
 .. picture:: 0412.g1.svg
    :alt: 0412.g1
 
-Now, :g:`$AD$ <0412.g1:/ A D />`, :g:`$DB$ <0412.g1:/ D B />` being the given straight lines, :g:`$AB$ <0412.g1:/ A B />` is their sum and :g:`$CD$ <0412.g1:/ C D />` is equal to their difference.
+Now, :g:`AD <0412.g1:/ A D />`, :g:`DB <0412.g1:/ D B />` being the given straight lines, :g:`AB <0412.g1:/ A B />` is their sum and :g:`CD <0412.g1:/ C D />` is equal to their difference.
 
-Also :g:`$AD$ <0412.g1:/ A D />` is :eq:`equal <0412.g1:/ A D / = 0412.g1:/ B C />` to :g:`$BC$ <0412.g1:/ B C />`.
+Also :g:`AD <0412.g1:/ A D />` is :eq:`equal <0412.g1:/ A D / = 0412.g1:/ B C />` to :g:`BC <0412.g1:/ B C />`.
 
-And :g:`$AE$ <0412.g1:< A E >>` is the square on :g:`$AB$ <0412.g1:/ A B />`, :g:`$GK$ <0412.g1:< G K >>` is equal to the square on :g:`$CD$ <0412.g1:/ C D />`, :g:`$AK$ <0412.g1:< A K >>` or :g:`$FH$ <0412.g1:< F H >>` is the square on :g:`$AD$ <0412.g1:/ A D />`, and :g:`$BL$ <0412.g1:< B L >>` the square on :g:`$CB$ <0412.g1:/ C B />`, while each of the small squares :g:`$AG$ <0412.g1:< A G >>`, :g:`$BH$ <0412.g1:< B H >>`, :g:`$EK$ <0412.g1:< E K >>`, :g:`$FL$ <0412.g1:< F L >>` is equal to the square on :g:`$AC$ <0412.g1:/ A C />` or :g:`$DB$ <0412.g1:/ D B />`.
+And :g:`AE <0412.g1:< A E >>` is the square on :g:`AB <0412.g1:/ A B />`, :g:`GK <0412.g1:< G K >>` is equal to the square on :g:`CD <0412.g1:/ C D />`, :g:`AK <0412.g1:< A K >>` or :g:`FH <0412.g1:< F H >>` is the square on :g:`AD <0412.g1:/ A D />`, and :g:`BL <0412.g1:< B L >>` the square on :g:`CB <0412.g1:/ C B />`, while each of the small squares :g:`AG <0412.g1:< A G >>`, :g:`BH <0412.g1:< B H >>`, :g:`EK <0412.g1:< E K >>`, :g:`FL <0412.g1:< F L >>` is equal to the square on :g:`AC <0412.g1:/ A C />` or :g:`DB <0412.g1:/ D B />`.
 
-We have to prove that twice the squares on :g:`$AD$ <0412.g1:/ A D />`, :g:`$DB$ <0412.g1:/ D B />` are equal to the squares on :g:`$AB$ <0412.g1:/ A B />`, :g:`$CD$ <0412.g1:/ C D />`.
+We have to prove that twice the squares on :g:`AD <0412.g1:/ A D />`, :g:`DB <0412.g1:/ D B />` are equal to the squares on :g:`AB <0412.g1:/ A B />`, :g:`CD <0412.g1:/ C D />`.
 
-Now twice the square on :g:`$AD$ <0412.g1:/ A D />` is the sum of the squares on :g:`$AD$ <0412.g1:/ A D />`, :g:`$CB$ <0412.g1:/ C B />`, which is equal to the sum of the squares :g:`$BL$ <0412.g1:< B L >>`, :g:`$FH$ <0412.g1:< F H >>`; and the figure shows these to be equal to twice the inner square :g:`$GK$ <0412.g1:< G K >>` and once the remainder of the large square :g:`$AE$ <0412.g1:< A E >>` excluding the two squares :g:`$AG$ <0412.g1:< A G >>`, :g:`$KE$ <0412.g1:< K E >>`, which latter squares are equal to twice the square on :g:`$AC$ <0412.g1:/ A C />` or :g:`$DB$ <0412.g1:/ D B />`.
+Now twice the square on :g:`AD <0412.g1:/ A D />` is the sum of the squares on :g:`AD <0412.g1:/ A D />`, :g:`CB <0412.g1:/ C B />`, which is equal to the sum of the squares :g:`BL <0412.g1:< B L >>`, :g:`FH <0412.g1:< F H >>`; and the figure shows these to be equal to twice the inner square :g:`GK <0412.g1:< G K >>` and once the remainder of the large square :g:`AE <0412.g1:< A E >>` excluding the two squares :g:`AG <0412.g1:< A G >>`, :g:`KE <0412.g1:< K E >>`, which latter squares are equal to twice the square on :g:`AC <0412.g1:/ A C />` or :g:`DB <0412.g1:/ D B />`.
 
-Therefore twice the squares on :g:`$AD$ <0412.g1:/ A D />`, :g:`$DB$ <0412.g1:/ D B />` are equal to twice the inner square :g:`$GK$ <0412.g1:< G K >>` together with once the remainder of the large square :g:`$AE$ <0412.g1:< A E >>`, that is, to the sum of the squares :g:`$AE$ <0412.g1:< A E >>`, :g:`$GK$ <0412.g1:< G K >>`, which are the squares on :g:`$AB$ <0412.g1:/ A B />`, :g:`$CD$ <0412.g1:/ C D />`.
+Therefore twice the squares on :g:`AD <0412.g1:/ A D />`, :g:`DB <0412.g1:/ D B />` are equal to twice the inner square :g:`GK <0412.g1:< G K >>` together with once the remainder of the large square :g:`AE <0412.g1:< A E >>`, that is, to the sum of the squares :g:`AE <0412.g1:< A E >>`, :g:`GK <0412.g1:< G K >>`, which are the squares on :g:`AB <0412.g1:/ A B />`, :g:`CD <0412.g1:/ C D />`.
 
 "Side" and "diagonal" numbers giving successive approximations to $\sqrt{2}$.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:person:`Zeuthen <zeuthen>` pointed out (:cite:`*Die Lehre von den Kegelschnitten im Altertum* <zeuthen:kegelschnitte>`, 1886, pp. 27, 28) that II. 9, 10 have great interest in connexion with a problem of indeterminate analysis which received much attention from the ancient Greeks. If we take the straight line :g:`$AB$ <0412.g2:/ A B />` divided at :g:`$C$ <0412.g2:C>` and :g:`$D$ <0412.g2:D>` as in II. 9, and if we put :g:`$CD$ <0412.g2:/ C D />` $= x$, :g:`$DB$ <0412.g2:/ D B />` $= y$, the result obtained by :person:`Euclid <euclid>`, namely:
+:person:`Zeuthen <zeuthen>` pointed out (:cite:`*Die Lehre von den Kegelschnitten im Altertum* <zeuthen:kegelschnitte>`, 1886, pp. 27, 28) that II. 9, 10 have great interest in connexion with a problem of indeterminate analysis which received much attention from the ancient Greeks. If we take the straight line :g:`AB <0412.g2:/ A B />` divided at :g:`C <0412.g2:C>` and :g:`D <0412.g2:D>` as in II. 9, and if we put :g:`CD <0412.g2:/ C D />` $= x$, :g:`DB <0412.g2:/ D B />` $= y$, the result obtained by :person:`Euclid <euclid>`, namely:
 
 .. picture:: 0412.g2.svg
    :alt: Divided straight line AB
@@ -120,7 +120,7 @@ Euclid's propositions enable us to establish the theorem geometrically; and this
 It is fairly clear that in the famous passage of Plato's *Republic* (546 C) about the "geometrical number" some such system of approximations is hinted at. :person:`Plato <plato>` there contrasts the "*rational diameter of five*" (ῥητὴ :term:`διάμετρος <diameter>` τῆς πεμπάδος) with the "irrational" (diameter). This was certainly taken from the Pythagorean theory of numbers (cf. the expression immediately preceding, 546 B, C πάντα προσήγορα καὶ ῥητὰ πρὸς ἄλληλα ἀπέφηναν, with the phrase πάντα γνωστὰ καὶ ποτάγορα ἀλλάλοις ἀπεργάζεται in the fragment of Philolaus). The reference of :person:`Plato <plato>` is to the following consideration. If the square of side $5$ be taken, the diagonal is $\sqrt{2 . 25}$ or $\sqrt{50}$. This is the Pythagorean "*irrational diameter*" of $5$; and the "rational diameter" was the approximation $\sqrt{50 - 1}$, or $7$.
 
 But the conjecture of :person:`Zeuthen <zeuthen>`, and the attribution of the whole theory of *side*- and *diagonal*-numbers to the Pythagoreans, have now been fully confirmed by the publication of Kroll's edition of *Procli Diadochi in Platonis rempublicam commentarii* (Teubner), Vol. II., 1901. The passages (cc. 23 and 27, pp. 24, 25 and 27—29) which there saw the light for the first time describe the same
-system of forming *side-* and *diagonal-*numbers and definitely attribute it, as well as the distinction between the "rational" and "irrational diameter," to the Pythagoreans. :person:`Proclus <proclus>` further says (p. 27, 16—22) that the property of the *side-* and *diagonal-*numbers "is proved graphically (γραμμικῶς) in the second book of the Elements by *'him'* (ἀπ’ ἐκείνου). *For, if a straight line be bisected and a straight line be added to it, the square on the whole line including the added straight line and the square on the latter alone are double of the square on the half of the original straight line and of the square on the straight line made up of the half and of the added straight line.*" And this is simply Eucl. II. 10. :person:`Proclus <proclus>` then goes on to show specifically how this proposition was used to prove that, with the notation above used, the *diameter* corresponding to the *side* $a + d$ is $2a + d$. Let :g:`$AB$ <0414.g1:/ A B />` be a *side* and :g:`$BC$ <0414.g1:/ B C />` :eq:`equal <0414.g1:/ B C / = 0414.g1:/ A B />` to it, while :g:`$CD$ <0414.g1:/ C D />` is the *diameter* corresponding to :g:`$AB$ <0414.g1:/ A B />`, i.e. a straight line such that the square on it is double of the square on :g:`$AB$ <0414.g1:/ A B />`. (I use the figure supplied by :person:`Hultsch <hultsch>` on p. 397 of Kroll's Vol. II.)
+system of forming *side-* and *diagonal-*numbers and definitely attribute it, as well as the distinction between the "rational" and "irrational diameter," to the Pythagoreans. :person:`Proclus <proclus>` further says (p. 27, 16—22) that the property of the *side-* and *diagonal-*numbers "is proved graphically (γραμμικῶς) in the second book of the Elements by *'him'* (ἀπ’ ἐκείνου). *For, if a straight line be bisected and a straight line be added to it, the square on the whole line including the added straight line and the square on the latter alone are double of the square on the half of the original straight line and of the square on the straight line made up of the half and of the added straight line.*" And this is simply Eucl. II. 10. :person:`Proclus <proclus>` then goes on to show specifically how this proposition was used to prove that, with the notation above used, the *diameter* corresponding to the *side* $a + d$ is $2a + d$. Let :g:`AB <0414.g1:/ A B />` be a *side* and :g:`BC <0414.g1:/ B C />` :eq:`equal <0414.g1:/ B C / = 0414.g1:/ A B />` to it, while :g:`CD <0414.g1:/ C D />` is the *diameter* corresponding to :g:`AB <0414.g1:/ A B />`, i.e. a straight line such that the square on it is double of the square on :g:`AB <0414.g1:/ A B />`. (I use the figure supplied by :person:`Hultsch <hultsch>` on p. 397 of Kroll's Vol. II.)
 
 .. _folio-i-0414:
 
@@ -130,15 +130,15 @@ system of forming *side-* and *diagonal-*numbers and definitely attribute it, as
 .. picture:: 0414.g1.svg
    :alt: 0414.g1
 
-Then, by the theorem of Eucl. II. 10, the squares on :g:`$AD$ <0414.g1:/ A D />`, :g:`$DC$ <0414.g1:/ D C />` are double of the squares on :g:`$AB$ <0414.g1:/ A B />`, :g:`$BD$ <0414.g1:/ B D />`.
+Then, by the theorem of Eucl. II. 10, the squares on :g:`AD <0414.g1:/ A D />`, :g:`DC <0414.g1:/ D C />` are double of the squares on :g:`AB <0414.g1:/ A B />`, :g:`BD <0414.g1:/ B D />`.
 
-But the square on :g:`$DC$ <0414.g1:/ D C />` (i.e. :g:`$BE$ <0414.g1:/ B E />`) is double of the square on :g:`$AB$ <0414.g1:/ A B />`; therefore, by subtraction, the square on :g:`$AD$ <0414.g1:/ A D />` is double of the square on :g:`$BD$ <0414.g1:/ B D />`.
+But the square on :g:`DC <0414.g1:/ D C />` (i.e. :g:`BE <0414.g1:/ B E />`) is double of the square on :g:`AB <0414.g1:/ A B />`; therefore, by subtraction, the square on :g:`AD <0414.g1:/ A D />` is double of the square on :g:`BD <0414.g1:/ B D />`.
 
-And the square on :g:`$DF$ <0414.g1:/ D F />`, the *diagonal* corresponding to the *side* :g:`$BD$ <0414.g1:/ B D />`, is double the square of :g:`$BD$ <0414.g1:/ B D />`.
+And the square on :g:`DF <0414.g1:/ D F />`, the *diagonal* corresponding to the *side* :g:`BD <0414.g1:/ B D />`, is double the square of :g:`BD <0414.g1:/ B D />`.
 
-Therefore the square on :g:`$DF$ <0414.g1:/ D F />` is :eq:`equal <0414.g1:/ D F / = 0414.g1:/ A D />` to the square on :g:`$AD$ <0414.g1:/ A D />`, so that :g:`$DF$ <0414.g1:/ D F />` is :eq:`equal <0414.g1:/ D F / = 0414.g1:/ A D />` to :g:`$AD$ <0414.g1:/ A D />`.
+Therefore the square on :g:`DF <0414.g1:/ D F />` is :eq:`equal <0414.g1:/ D F / = 0414.g1:/ A D />` to the square on :g:`AD <0414.g1:/ A D />`, so that :g:`DF <0414.g1:/ D F />` is :eq:`equal <0414.g1:/ D F / = 0414.g1:/ A D />` to :g:`AD <0414.g1:/ A D />`.
 
-That is, while the *side* :g:`$BD$ <0414.g1:/ B D />` is, with our notation, $a + d$, the corresponding *diagonal*, being equal to :g:`$AD$ <0414.g1:/ A D />`, is $2a + d$.
+That is, while the *side* :g:`BD <0414.g1:/ B D />` is, with our notation, $a + d$, the corresponding *diagonal*, being equal to :g:`AD <0414.g1:/ A D />`, is $2a + d$.
 
 In the above reference by :person:`Proclus <proclus>` to II. 10 ἀπ’ ἐκείνου "by *him*" must apparently mean ὑπ’ Εὐκλείδου, "by :person:`Euclid <euclid>`," although Euclid's name has not been mentioned in the chapter; the phrase would be equivalent to saying "in the second Book of the famous Elements." But, when :person:`Proclus <proclus>` says "this *is proved* in the second Book of the Elements," he does not imply that it had not been proved before; on the contrary, it is clear that the theorem had been proved by the Pythagoreans, and we have therefore here a confirmation of the inference from the part played by the *gnomon* and by I. 47 in Book II. that the whole of the substance of that Book was Pythagorean. For further detailed explanation of the passages of :person:`Proclus <proclus>` reference should be made to Hultsch's note in Kroll's Vol. II. pp. 393—400, and to the separate article, also by :person:`Hultsch <hultsch>`, in the *Bibliotheca Mathematica* $\text{I}_3$, 1900, pp. 8—12.
 
@@ -149,7 +149,7 @@ P. Bergh has an ingenious suggestion (see *Zeitschrift für Math. u. Physik*
 .. folio:: 0415
    :page: 401
 
-XXXI. Hist.-litt. Abt. p. 135, and :person:`Cantor <cantor>`, *Geschichte der Mathematik*, $\text{I}_3$, p. 437) as to the way in which the formation of the successive *side-* and *diagonal-*numbers may have been discovered, namely by observation from a very simple geometrical figure. Let :g:`$ABC$ <0415.g1:< A B C >>` be an :eq:`isosceles <0415.g1:/ A B / = 0415.g1:/ A C />` triangle, right-angled at :g:`$A$ <0415.g1:< B A C )>`, with sides $a_{n-1}$, $a_{n-1}$, $d_{n-1}$ respectively. If now the two sides :g:`$AB$ <0415.g1:/ A B />`, :g:`$AC$ <0415.g1:/ A C />` about the right angle be lengthened by adding $d_{n-1}$ to each, and the extremities :g:`$D$ <0415.g1:D>`, :g:`$E$ <0415.g1:E>` be joined, it is easily seen by means of the figure (in which :g:`$BF$ <0415.g1:/ B F />`, :g:`$CG$ <0415.g1:/ C G />` are perpendicular to :g:`$DE$ <0415.g1:/ D E />`) that the new *diagonal* $d_n$ is equal to $2a_{n-1} + d_{n-1}$, while the equal *sides* $a_n$ are, by construction, equal to $a_{n-1} + d_{n-1}$.
+XXXI. Hist.-litt. Abt. p. 135, and :person:`Cantor <cantor>`, *Geschichte der Mathematik*, $\text{I}_3$, p. 437) as to the way in which the formation of the successive *side-* and *diagonal-*numbers may have been discovered, namely by observation from a very simple geometrical figure. Let :g:`ABC <0415.g1:< A B C >>` be an :eq:`isosceles <0415.g1:/ A B / = 0415.g1:/ A C />` triangle, right-angled at :g:`A <0415.g1:< B A C )>`, with sides $a_{n-1}$, $a_{n-1}$, $d_{n-1}$ respectively. If now the two sides :g:`AB <0415.g1:/ A B />`, :g:`AC <0415.g1:/ A C />` about the right angle be lengthened by adding $d_{n-1}$ to each, and the extremities :g:`D <0415.g1:D>`, :g:`E <0415.g1:E>` be joined, it is easily seen by means of the figure (in which :g:`BF <0415.g1:/ B F />`, :g:`CG <0415.g1:/ C G />` are perpendicular to :g:`DE <0415.g1:/ D E />`) that the new *diagonal* $d_n$ is equal to $2a_{n-1} + d_{n-1}$, while the equal *sides* $a_n$ are, by construction, equal to $a_{n-1} + d_{n-1}$.
 
 .. picture:: 0415.g1.svg
    :alt: 0415.g1
@@ -161,7 +161,7 @@ I. :person:`Pappus <pappus>` (VII. pp. 856—8) uses II. 9, 10 for proving the w
 
 *The sum of the squares on two sides of a triangle is equal to twice the square on half the base together with twice the square on the straight line joining the middle point of the base to the opposite vertex.*
 
-Let :g:`$ABC$ <0415.g2:< A B C >>` be the given triangle and :g:`$D$ <0415.g2:D>` the middle point of the base :g:`$BC$ <0415.g2:/ B C />`. Join :g:`$AD$ <0415.g2:/ A D />`, and draw :g:`$AE$ <0415.g2:/ A E />` perpendicular to :g:`$BC$ <0415.g3:/ B C />` (produced if necessary).
+Let :g:`ABC <0415.g2:< A B C >>` be the given triangle and :g:`D <0415.g2:D>` the middle point of the base :g:`BC <0415.g2:/ B C />`. Join :g:`AD <0415.g2:/ A D />`, and draw :g:`AE <0415.g2:/ A E />` perpendicular to :g:`BC <0415.g3:/ B C />` (produced if necessary).
 
 .. picture:: 0415.g2.svg
    :alt: 0415.g2
@@ -170,16 +170,16 @@ Let :g:`$ABC$ <0415.g2:< A B C >>` be the given triangle and :g:`$D$ <0415.g2:D>
    :alt: 0415.g3
 
 Now, by II. 9, 10,
-the squares on :g:`$BE$ <0415.g2:/ B E />`, :g:`$EC$ <0415.g2:/ E C />` are equal to twice the squares on :g:`$BD$ <0415.g2:/ B D />`, :g:`$DE$ <0415.g2:/ D E />`.
+the squares on :g:`BE <0415.g2:/ B E />`, :g:`EC <0415.g2:/ E C />` are equal to twice the squares on :g:`BD <0415.g2:/ B D />`, :g:`DE <0415.g2:/ D E />`.
 
-Add to each twice the square on :g:`$AE$ <0415.g2:/ A E />`.
+Add to each twice the square on :g:`AE <0415.g2:/ A E />`.
 
 Then, remembering that
-the squares on :g:`$BE$ <0415.g2:/ B E />`, :g:`$EA$ <0415.g2:/ E A />` are equal to the square on :g:`$BA$ <0415.g2:/ B A />`,
-the squares on :g:`$AE$ <0415.g3:/ A E />`, :g:`$EC$ <0415.g3:/ E C />` are equal to the square on :g:`$AC$ <0415.g3:/ A C />`,
-and the squares on :g:`$AE$ <0415.g3:/ A E />`, :g:`$ED$ <0415.g3:/ E D />` are equal to the square on :g:`$AD$ <0415.g3:/ A D />`,
+the squares on :g:`BE <0415.g2:/ B E />`, :g:`EA <0415.g2:/ E A />` are equal to the square on :g:`BA <0415.g2:/ B A />`,
+the squares on :g:`AE <0415.g3:/ A E />`, :g:`EC <0415.g3:/ E C />` are equal to the square on :g:`AC <0415.g3:/ A C />`,
+and the squares on :g:`AE <0415.g3:/ A E />`, :g:`ED <0415.g3:/ E D />` are equal to the square on :g:`AD <0415.g3:/ A D />`,
 we find that
-the squares on :g:`$BA$ <0415.g2:/ B A />`, :g:`$AC$ <0415.g2:/ A C />` are equal to twice the squares on :g:`$AD$ <0415.g2:/ A D />`, :g:`$BD$ <0415.g2:/ B D />`.
+the squares on :g:`BA <0415.g2:/ B A />`, :g:`AC <0415.g2:/ A C />` are equal to twice the squares on :g:`AD <0415.g2:/ A D />`, :g:`BD <0415.g2:/ B D />`.
 
 The proposition is generally proved by means of II. 12, 13, but not, I think, so conveniently as by the method of :person:`Pappus <pappus>`.
 

@@ -20,18 +20,18 @@ PROPOSITION 21.
 
    Numbers prime to one another are the least of those which have the same ratio with them.
 
-Let :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>` be numbers prime to one another;
+Let :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>` be numbers prime to one another;
 
-I say that :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>` are the least of those which have the same ratio with them.
+I say that :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>` are the least of those which have the same ratio with them.
 
 .. picture:: 0328.g1.svg
    :alt: Book VII, Proposition 21
 
 .. subclause::
 
-   For, if not, there will be some numbers less than :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>` which are in the same ratio with :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>`.
+   For, if not, there will be some numbers less than :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>` which are in the same ratio with :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>`.
 
-Let them be :g:`$C$ <0328.g1:C>`, :g:`$D$ <0328.g1:D>`.
+Let them be :g:`C <0328.g1:C>`, :g:`D <0328.g1:D>`.
 
 .. subclause::
 
@@ -39,13 +39,13 @@ Let them be :g:`$C$ <0328.g1:C>`, :g:`$D$ <0328.g1:D>`.
 
 .. assertion::
 
-   therefore :g:`$C$ <0328.g1:C>` measures :g:`$A$ <0328.g1:A>` the same number of times that :g:`$D$ <0328.g1:D>` measures :g:`$B$ <0328.g1:B>`.
+   therefore :g:`C <0328.g1:C>` measures :g:`A <0328.g1:A>` the same number of times that :g:`D <0328.g1:D>` measures :g:`B <0328.g1:B>`.
 
-Now, as many times as :g:`$C$ <0328.g1:C>` measures :g:`$A$ <0328.g1:A>`, so many units let there be in :g:`$E$ <0328.g1:E>`.
+Now, as many times as :g:`C <0328.g1:C>` measures :g:`A <0328.g1:A>`, so many units let there be in :g:`E <0328.g1:E>`.
 
 .. assertion::
 
-   Therefore :g:`$D$ <0328.g1:D>` also measures :g:`$B$ <0328.g1:B>` according to the units in :g:`$E$ <0328.g1:E>`.
+   Therefore :g:`D <0328.g1:D>` also measures :g:`B <0328.g1:B>` according to the units in :g:`E <0328.g1:E>`.
 
 .. _folio-ii-0329:
 
@@ -54,11 +54,11 @@ Now, as many times as :g:`$C$ <0328.g1:C>` measures :g:`$A$ <0328.g1:A>`, so man
 
 .. subclause::
 
-   And, since :g:`$C$ <0328.g1:C>` measures :g:`$A$ <0328.g1:A>` according to the units in :g:`$E$ <0328.g1:E>`,
+   And, since :g:`C <0328.g1:C>` measures :g:`A <0328.g1:A>` according to the units in :g:`E <0328.g1:E>`,
 
 .. assertion:: [VII. 16] <VII.16>
 
-   therefore :g:`$E$ <0328.g1:E>` also measures :g:`$A$ <0328.g1:A>` according to the units in :g:`$C$ <0328.g1:C>`.
+   therefore :g:`E <0328.g1:E>` also measures :g:`A <0328.g1:A>` according to the units in :g:`C <0328.g1:C>`.
 
 .. subclause::
 
@@ -66,19 +66,19 @@ Now, as many times as :g:`$C$ <0328.g1:C>` measures :g:`$A$ <0328.g1:A>`, so man
 
 .. assertion:: [VII. 16] <VII.16>
 
-   :g:`$E$ <0328.g1:E>` also measures :g:`$B$ <0328.g1:B>` according to the units in :g:`$D$ <0328.g1:D>`.
+   :g:`E <0328.g1:E>` also measures :g:`B <0328.g1:B>` according to the units in :g:`D <0328.g1:D>`.
 
 .. assertion::
 
-   Therefore :g:`$E$ <0328.g1:E>` measures :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>` which are prime to one another : which is impossible. :just:`[VII. Def. 12] <VII.def.12>`
+   Therefore :g:`E <0328.g1:E>` measures :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>` which are prime to one another : which is impossible. :just:`[VII. Def. 12] <VII.def.12>`
 
 .. assertion::
 
-   Therefore there will be no numbers less than :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>` which are in the same ratio with :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>`.
+   Therefore there will be no numbers less than :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>` which are in the same ratio with :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>`.
 
 .. assertion::
 
-   Therefore :g:`$A$ <0328.g1:A>`, :g:`$B$ <0328.g1:B>` are the least of those which have the same ratio with them.
+   Therefore :g:`A <0328.g1:A>`, :g:`B <0328.g1:B>` are the least of those which have the same ratio with them.
 
 .. qed::
 

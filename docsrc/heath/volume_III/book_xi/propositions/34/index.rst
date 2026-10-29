@@ -20,17 +20,17 @@ PROPOSITION 34.
 
    In equal parallelepipedal solids the bases are reciprocally proportional to the heights; and those parallelepipedal solids in which the bases are reciprocally proportional to the heights are equal.
 
-Let :g:`$AB$ <0350.g1:< A B >>`, :g:`$CD$ <0350.g1:< C D >>` be :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` parallelepipedal solids; I say that in the parallelepipedal solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CD$ <0350.g1:< C D >>` the bases are reciprocally proportional to the heights, that is, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is the height of the solid :g:`$CD$ <0350.g1:< C D >>` to the height of the solid :g:`$AB$ <0350.g1:< A B >>`.
+Let :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` be :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` parallelepipedal solids; I say that in the parallelepipedal solids :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` the bases are reciprocally proportional to the heights, that is, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is the height of the solid :g:`CD <0350.g1:< C D >>` to the height of the solid :g:`AB <0350.g1:< A B >>`.
 
-First, let the sides which stand up, namely :g:`$AG$ <0350.g1:/ A G />`, :g:`$EF$ <0350.g1:/ E F />`, :g:`$LB$ <0350.g1:/ L B />`, :g:`$HK$ <0350.g1:/ H K />`, :g:`$CM$ <0350.g1:/ C M />`, :g:`$NO$ <0350.g1:/ N O />`, :g:`$PD$ <0350.g1:/ P D />`, :g:`$QR$ <0350.g1:/ Q R />`, be at :eq:`right angles <0350.g1:/ A G / = 0350.g1:< E H >; 0350.g1:/ E F / = 0350.g1:< E H >; 0350.g1:/ L B / = 0350.g1:< E H >; 0350.g1:/ H K / = 0350.g1:< E H >; 0350.g1:/ C M / = 0350.g1:< N Q >; 0350.g1:/ N O / = 0350.g1:< N Q >; 0350.g1:/ P D / = 0350.g1:< N Q >; 0350.g1:/ Q R / = 0350.g1:< N Q >>` to their bases; I say that, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is :g:`$CM$ <0350.g1:/ C M />` to :g:`$AG$ <0350.g1:/ A G />`.
+First, let the sides which stand up, namely :g:`AG <0350.g1:/ A G />`, :g:`EF <0350.g1:/ E F />`, :g:`LB <0350.g1:/ L B />`, :g:`HK <0350.g1:/ H K />`, :g:`CM <0350.g1:/ C M />`, :g:`NO <0350.g1:/ N O />`, :g:`PD <0350.g1:/ P D />`, :g:`QR <0350.g1:/ Q R />`, be at :eq:`right angles <0350.g1:/ A G / = 0350.g1:< E H >; 0350.g1:/ E F / = 0350.g1:< E H >; 0350.g1:/ L B / = 0350.g1:< E H >; 0350.g1:/ H K / = 0350.g1:< E H >; 0350.g1:/ C M / = 0350.g1:< N Q >; 0350.g1:/ N O / = 0350.g1:< N Q >; 0350.g1:/ P D / = 0350.g1:< N Q >; 0350.g1:/ Q R / = 0350.g1:< N Q >>` to their bases; I say that, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is :g:`CM <0350.g1:/ C M />` to :g:`AG <0350.g1:/ A G />`.
 
 .. subclause::
 
-   If now the base :g:`$EH$ <0350.g1:< E H >>` is :eq:`equal <0350.g1:< E H > = 0350.g1:< N Q >>` to the base :g:`$NQ$ <0350.g1:< N Q >>`, while the solid :g:`$AB$ <0350.g1:< A B >>` is also :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`$CD$ <0350.g1:< C D >>`,
+   If now the base :g:`EH <0350.g1:< E H >>` is :eq:`equal <0350.g1:< E H > = 0350.g1:< N Q >>` to the base :g:`NQ <0350.g1:< N Q >>`, while the solid :g:`AB <0350.g1:< A B >>` is also :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`CD <0350.g1:< C D >>`,
 
 .. assertion::
 
-   :g:`$CM$ <0350.g1:/ C M />` will also be :eq:`equal <0350.g1:/ C M / = 0350.g1:/ A G />` to :g:`$AG$ <0350.g1:/ A G />`.
+   :g:`CM <0350.g1:/ C M />` will also be :eq:`equal <0350.g1:/ C M / = 0350.g1:/ A G />` to :g:`AG <0350.g1:/ A G />`.
 
 .. _folio-iii-0350:
 
@@ -39,46 +39,46 @@ First, let the sides which stand up, namely :g:`$AG$ <0350.g1:/ A G />`, :g:`$EF
 
 .. assertion::
 
-   For parallelepipedal solids of the same height are to one another as the bases; :just:`[XI. 32] <XI.32>` and, as the base :g:`$EH$ <0350.g1:< E H >>` is to :g:`$NQ$ <0350.g1:< N Q >>`, so will :g:`$CM$ <0350.g1:/ C M />` be to :g:`$AG$ <0350.g1:/ A G />`, and it is manifest that in the parallelepipedal solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CD$ <0350.g1:< C D >>` the bases are reciprocally proportional to the heights.
+   For parallelepipedal solids of the same height are to one another as the bases; :just:`[XI. 32] <XI.32>` and, as the base :g:`EH <0350.g1:< E H >>` is to :g:`NQ <0350.g1:< N Q >>`, so will :g:`CM <0350.g1:/ C M />` be to :g:`AG <0350.g1:/ A G />`, and it is manifest that in the parallelepipedal solids :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` the bases are reciprocally proportional to the heights.
 
-Next, let the base :g:`$EH$ <0350.g1:< E H >>` not be equal to the base :g:`$NQ$ <0350.g1:< N Q >>`, but let :g:`$EH$ <0350.g1:< E H >>` be greater.
+Next, let the base :g:`EH <0350.g1:< E H >>` not be equal to the base :g:`NQ <0350.g1:< N Q >>`, but let :g:`EH <0350.g1:< E H >>` be greater.
 
 .. picture:: 0350.g1.svg
    :alt: Proposition 34, Diagram 1
 
 .. subclause::
 
-   Now the solid :g:`$AB$ <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`$CD$ <0350.g1:< C D >>`;
+   Now the solid :g:`AB <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`CD <0350.g1:< C D >>`;
 
 .. assertion::
 
-   therefore :g:`$CM$ <0350.g1:/ C M />` is also greater than :g:`$AG$ <0350.g1:/ A G />`.
+   therefore :g:`CM <0350.g1:/ C M />` is also greater than :g:`AG <0350.g1:/ A G />`.
 
-Let then :g:`$CT$ <0350.g1:/ C T />` be made :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`$AG$ <0350.g1:/ A G />`, and let the parallelepipedal solid :g:`$VC$ <0350.g1:< V C >>` be completed on :g:`$NQ$ <0350.g1:< N Q >>` as base and with :g:`$CT$ <0350.g1:/ C T />` as height.
+Let then :g:`CT <0350.g1:/ C T />` be made :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`AG <0350.g1:/ A G />`, and let the parallelepipedal solid :g:`VC <0350.g1:< V C >>` be completed on :g:`NQ <0350.g1:< N Q >>` as base and with :g:`CT <0350.g1:/ C T />` as height.
 
 .. subclause::
 
-   Now, since the solid :g:`$AB$ <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`$CD$ <0350.g1:< C D >>`, and :g:`$CV$ <0350.g1:< C V >>` is outside them, while equals have to the same the same ratio, :just:`[V. 7] <V.7>`
+   Now, since the solid :g:`AB <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`CD <0350.g1:< C D >>`, and :g:`CV <0350.g1:< C V >>` is outside them, while equals have to the same the same ratio, :just:`[V. 7] <V.7>`
 
 .. assertion::
 
-   therefore, as the solid :g:`$AB$ <0350.g1:< A B >>` is to the solid :g:`$CV$ <0350.g1:< C V >>`, so is the solid :g:`$CD$ <0350.g1:< C D >>` to the solid :g:`$CV$ <0350.g1:< C V >>`.
+   therefore, as the solid :g:`AB <0350.g1:< A B >>` is to the solid :g:`CV <0350.g1:< C V >>`, so is the solid :g:`CD <0350.g1:< C D >>` to the solid :g:`CV <0350.g1:< C V >>`.
 
 .. subclause::
 
-   But, as the solid :g:`$AB$ <0350.g1:< A B >>` is to the solid :g:`$CV$ <0350.g1:< C V >>`, so is the base :g:`$EH$ <0350.g1:< E H >>` to the base :g:`$NQ$ <0350.g1:< N Q >>`, for the solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CV$ <0350.g1:< C V >>` are of equal height; :just:`[XI. 32] <XI.32>` and, as the solid :g:`$CD$ <0350.g1:< C D >>` is to the solid :g:`$CV$ <0350.g1:< C V >>`, so is the base :g:`$MQ$ <0350.g1:< M Q >>` to the base :g:`$TQ$ <0350.g1:< T Q >>` :just:`[XI. 25] <XI.25>` and :g:`$CM$ <0350.g1:/ C M />` to :g:`$CT$ <0350.g1:/ C T />` :just:`[VI. 1] <VI.1>`;
+   But, as the solid :g:`AB <0350.g1:< A B >>` is to the solid :g:`CV <0350.g1:< C V >>`, so is the base :g:`EH <0350.g1:< E H >>` to the base :g:`NQ <0350.g1:< N Q >>`, for the solids :g:`AB <0350.g1:< A B >>`, :g:`CV <0350.g1:< C V >>` are of equal height; :just:`[XI. 32] <XI.32>` and, as the solid :g:`CD <0350.g1:< C D >>` is to the solid :g:`CV <0350.g1:< C V >>`, so is the base :g:`MQ <0350.g1:< M Q >>` to the base :g:`TQ <0350.g1:< T Q >>` :just:`[XI. 25] <XI.25>` and :g:`CM <0350.g1:/ C M />` to :g:`CT <0350.g1:/ C T />` :just:`[VI. 1] <VI.1>`;
 
 .. assertion::
 
-   therefore also, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is :g:`$MC$ <0350.g1:/ M C />` to :g:`$CT$ <0350.g1:/ C T />`.
+   therefore also, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is :g:`MC <0350.g1:/ M C />` to :g:`CT <0350.g1:/ C T />`.
 
 .. subclause::
 
-   But :g:`$CT$ <0350.g1:/ C T />` is :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`$AG$ <0350.g1:/ A G />`;
+   But :g:`CT <0350.g1:/ C T />` is :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`AG <0350.g1:/ A G />`;
 
 .. assertion::
 
-   therefore also, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is :g:`$MC$ <0350.g1:/ M C />` to :g:`$AG$ <0350.g1:/ A G />`.
+   therefore also, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is :g:`MC <0350.g1:/ M C />` to :g:`AG <0350.g1:/ A G />`.
 
 .. _folio-iii-0351:
 
@@ -87,19 +87,19 @@ Let then :g:`$CT$ <0350.g1:/ C T />` be made :eq:`equal <0350.g1:/ C T / = 0350.
 
 .. assertion::
 
-   Therefore in the parallelepipedal solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CD$ <0350.g1:< C D >>` the bases are reciprocally proportional to the heights.
+   Therefore in the parallelepipedal solids :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` the bases are reciprocally proportional to the heights.
 
-Again, in the parallelepipedal solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CD$ <0350.g1:< C D >>` let the bases be reciprocally proportional to the heights, that is, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so let the height of the solid :g:`$CD$ <0350.g1:< C D >>` be to the height of the solid :g:`$AB$ <0350.g1:< A B >>`; I say that the solid :g:`$AB$ <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`$CD$ <0350.g1:< C D >>`.
+Again, in the parallelepipedal solids :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` let the bases be reciprocally proportional to the heights, that is, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so let the height of the solid :g:`CD <0350.g1:< C D >>` be to the height of the solid :g:`AB <0350.g1:< A B >>`; I say that the solid :g:`AB <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`CD <0350.g1:< C D >>`.
 
 Let the sides which stand up be again at right angles to the bases.
 
 .. subclause::
 
-   Now, if the base :g:`$EH$ <0350.g1:< E H >>` is :eq:`equal <0350.g1:< E H > = 0350.g1:< N Q >>` to the base :g:`$NQ$ <0350.g1:< N Q >>`, and, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is the height of the solid :g:`$CD$ <0350.g1:< C D >>` to the height of the solid :g:`$AB$ <0350.g1:< A B >>`,
+   Now, if the base :g:`EH <0350.g1:< E H >>` is :eq:`equal <0350.g1:< E H > = 0350.g1:< N Q >>` to the base :g:`NQ <0350.g1:< N Q >>`, and, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is the height of the solid :g:`CD <0350.g1:< C D >>` to the height of the solid :g:`AB <0350.g1:< A B >>`,
 
 .. assertion::
 
-   therefore the height of the solid :g:`$CD$ <0350.g1:< C D >>` is also equal to the height of the solid :g:`$AB$ <0350.g1:< A B >>`.
+   therefore the height of the solid :g:`CD <0350.g1:< C D >>` is also equal to the height of the solid :g:`AB <0350.g1:< A B >>`.
 
 .. subclause::
 
@@ -107,33 +107,33 @@ Let the sides which stand up be again at right angles to the bases.
 
 .. assertion::
 
-   therefore the solid :g:`$AB$ <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`$CD$ <0350.g1:< C D >>`.
+   therefore the solid :g:`AB <0350.g1:< A B >>` is :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>` to the solid :g:`CD <0350.g1:< C D >>`.
 
 .. subclause::
 
-   Next, let the base :g:`$EH$ <0350.g1:< E H >>` not be equal to the base :g:`$NQ$ <0350.g1:< N Q >>`, but let :g:`$EH$ <0350.g1:< E H >>` be greater;
+   Next, let the base :g:`EH <0350.g1:< E H >>` not be equal to the base :g:`NQ <0350.g1:< N Q >>`, but let :g:`EH <0350.g1:< E H >>` be greater;
 
 .. assertion::
 
-   therefore the height of the solid :g:`$CD$ <0350.g1:< C D >>` is also greater than the height of the solid :g:`$AB$ <0350.g1:< A B >>`, that is, :g:`$CM$ <0350.g1:/ C M />` is greater than :g:`$AG$ <0350.g1:/ A G />`.
+   therefore the height of the solid :g:`CD <0350.g1:< C D >>` is also greater than the height of the solid :g:`AB <0350.g1:< A B >>`, that is, :g:`CM <0350.g1:/ C M />` is greater than :g:`AG <0350.g1:/ A G />`.
 
-Let :g:`$CT$ <0350.g1:/ C T />` be again made :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`$AG$ <0350.g1:/ A G />`, and let the solid :g:`$CV$ <0350.g1:< C V >>` be similarly completed.
+Let :g:`CT <0350.g1:/ C T />` be again made :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`AG <0350.g1:/ A G />`, and let the solid :g:`CV <0350.g1:< C V >>` be similarly completed.
 
 .. subclause::
 
-   Since, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is :g:`$MC$ <0350.g1:/ M C />` to :g:`$AG$ <0350.g1:/ A G />`, while :g:`$AG$ <0350.g1:/ A G />` is :eq:`equal <0350.g1:/ A G / = 0350.g1:/ C T />` to :g:`$CT$ <0350.g1:/ C T />`,
+   Since, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is :g:`MC <0350.g1:/ M C />` to :g:`AG <0350.g1:/ A G />`, while :g:`AG <0350.g1:/ A G />` is :eq:`equal <0350.g1:/ A G / = 0350.g1:/ C T />` to :g:`CT <0350.g1:/ C T />`,
 
 .. assertion::
 
-   therefore, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is :g:`$CM$ <0350.g1:/ C M />` to :g:`$CT$ <0350.g1:/ C T />`.
+   therefore, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is :g:`CM <0350.g1:/ C M />` to :g:`CT <0350.g1:/ C T />`.
 
 .. subclause::
 
-   But, as the base :g:`$EH$ <0350.g1:< E H >>` is to the base :g:`$NQ$ <0350.g1:< N Q >>`, so is the solid :g:`$AB$ <0350.g1:< A B >>` to the solid :g:`$CV$ <0350.g1:< C V >>`, for the solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CV$ <0350.g1:< C V >>` are of equal height; :just:`[XI. 32] <XI.32>` and, as :g:`$CM$ <0350.g1:/ C M />` is to :g:`$CT$ <0350.g1:/ C T />`, so is the base :g:`$MQ$ <0350.g1:< M Q >>` to the base :g:`$QT$ <0350.g1:< Q T >>` :just:`[VI. 1] <VI.1>` and the solid :g:`$CD$ <0350.g1:< C D >>` to the solid :g:`$CV$ <0350.g1:< C V >>`. :just:`[XI. 25] <XI.25>`
+   But, as the base :g:`EH <0350.g1:< E H >>` is to the base :g:`NQ <0350.g1:< N Q >>`, so is the solid :g:`AB <0350.g1:< A B >>` to the solid :g:`CV <0350.g1:< C V >>`, for the solids :g:`AB <0350.g1:< A B >>`, :g:`CV <0350.g1:< C V >>` are of equal height; :just:`[XI. 32] <XI.32>` and, as :g:`CM <0350.g1:/ C M />` is to :g:`CT <0350.g1:/ C T />`, so is the base :g:`MQ <0350.g1:< M Q >>` to the base :g:`QT <0350.g1:< Q T >>` :just:`[VI. 1] <VI.1>` and the solid :g:`CD <0350.g1:< C D >>` to the solid :g:`CV <0350.g1:< C V >>`. :just:`[XI. 25] <XI.25>`
 
 .. assertion::
 
-   Therefore also, as the solid :g:`$AB$ <0350.g1:< A B >>` is to the solid :g:`$CV$ <0350.g1:< C V >>`, so is the solid :g:`$CD$ <0350.g1:< C D >>` to the solid :g:`$CV$ <0350.g1:< C V >>`; therefore each of the solids :g:`$AB$ <0350.g1:< A B >>`, :g:`$CD$ <0350.g1:< C D >>` has to :g:`$CV$ <0350.g1:< C V >>` the same ratio.
+   Therefore also, as the solid :g:`AB <0350.g1:< A B >>` is to the solid :g:`CV <0350.g1:< C V >>`, so is the solid :g:`CD <0350.g1:< C D >>` to the solid :g:`CV <0350.g1:< C V >>`; therefore each of the solids :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` has to :g:`CV <0350.g1:< C V >>` the same ratio.
 
 .. _folio-iii-0352:
 
@@ -142,32 +142,32 @@ Let :g:`$CT$ <0350.g1:/ C T />` be again made :eq:`equal <0350.g1:/ C T / = 0350
 
 .. assertion:: [V. 9] <V.9>
 
-   Therefore the solid :g:`$AB$ <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`$CD$ <0352.g1:< C D >>`.
+   Therefore the solid :g:`AB <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`CD <0352.g1:< C D >>`.
 
-Now let the sides which stand up, :g:`$FE$ <0352.g1:/ F E />`, :g:`$BL$ <0352.g1:/ B L />`, :g:`$GA$ <0352.g1:/ G A />`, :g:`$HK$ <0352.g1:/ H K />`, :g:`$ON$ <0352.g1:/ O N />`, :g:`$DP$ <0352.g1:/ D P />`, :g:`$MC$ <0352.g1:/ M C />`, :g:`$RQ$ <0352.g1:/ R Q />`, not be at right angles to their bases; let perpendiculars be drawn from the points :g:`$F$ <0352.g1:F>`, :g:`$G$ <0352.g1:G>`, :g:`$B$ <0352.g1:B>`, :g:`$K$ <0352.g1:K>`, :g:`$O$ <0352.g1:O>`, :g:`$M$ <0352.g1:M>`, :g:`$D$ <0352.g1:D>`, :g:`$R$ <0352.g1:R>` to the planes through :g:`$EH$ <0352.g1:< E H >>`, :g:`$NQ$ <0352.g1:< N Q >>`, and let them meet the planes at :g:`$S$ <0352.g1:S>`, :g:`$T$ <0352.g1:T>`, :g:`$U$ <0352.g1:U>`, :g:`$V$ <0352.g1:V>`, :g:`$W$ <0352.g1:W>`, :g:`$X$ <0352.g1:X>`, :g:`$Y$ <0352.g1:Y>`, :g:`$a$ <0352.g1:a>`, and let the solids :g:`$FV$ <0352.g1:< F V >>`, :g:`$Oa$ <0352.g1:< O a >>` be completed; I say that, in this case too, if the solids :g:`$AB$ <0352.g1:< A B >>`, :g:`$CD$ <0352.g1:< C D >>` are :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>`, the bases are reciprocally proportional to the heights, that is, as the base :g:`$EH$ <0352.g1:< E H >>` is to the base :g:`$NQ$ <0352.g1:< N Q >>`, so is the height of the solid :g:`$CD$ <0352.g1:< C D >>` to the height of the solid :g:`$AB$ <0352.g1:< A B >>`.
+Now let the sides which stand up, :g:`FE <0352.g1:/ F E />`, :g:`BL <0352.g1:/ B L />`, :g:`GA <0352.g1:/ G A />`, :g:`HK <0352.g1:/ H K />`, :g:`ON <0352.g1:/ O N />`, :g:`DP <0352.g1:/ D P />`, :g:`MC <0352.g1:/ M C />`, :g:`RQ <0352.g1:/ R Q />`, not be at right angles to their bases; let perpendiculars be drawn from the points :g:`F <0352.g1:F>`, :g:`G <0352.g1:G>`, :g:`B <0352.g1:B>`, :g:`K <0352.g1:K>`, :g:`O <0352.g1:O>`, :g:`M <0352.g1:M>`, :g:`D <0352.g1:D>`, :g:`R <0352.g1:R>` to the planes through :g:`EH <0352.g1:< E H >>`, :g:`NQ <0352.g1:< N Q >>`, and let them meet the planes at :g:`S <0352.g1:S>`, :g:`T <0352.g1:T>`, :g:`U <0352.g1:U>`, :g:`V <0352.g1:V>`, :g:`W <0352.g1:W>`, :g:`X <0352.g1:X>`, :g:`Y <0352.g1:Y>`, :g:`a <0352.g1:a>`, and let the solids :g:`FV <0352.g1:< F V >>`, :g:`Oa <0352.g1:< O a >>` be completed; I say that, in this case too, if the solids :g:`AB <0352.g1:< A B >>`, :g:`CD <0352.g1:< C D >>` are :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>`, the bases are reciprocally proportional to the heights, that is, as the base :g:`EH <0352.g1:< E H >>` is to the base :g:`NQ <0352.g1:< N Q >>`, so is the height of the solid :g:`CD <0352.g1:< C D >>` to the height of the solid :g:`AB <0352.g1:< A B >>`.
 
 .. picture:: 0352.g1.svg
    :alt: Proposition 34, Diagram 2
 
 .. subclause::
 
-   Since the solid :g:`$AB$ <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`$CD$ <0352.g1:< C D >>`, while :g:`$AB$ <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< B T >>` to :g:`$BT$ <0352.g1:< B T >>`, for they are on the same base :g:`$FK$ <0352.g1:< F K >>` and of the same height; :just:`[XI. 29, 30]` and the solid :g:`$CD$ <0352.g1:< C D >>` is :eq:`equal <0352.g1:< C D > = 0352.g1:< D X >>` to :g:`$DX$ <0352.g1:< D X >>`, for they are again on the same base :g:`$RO$ <0352.g1:< R O >>` and of the same height; :just:`[id.]`
+   Since the solid :g:`AB <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`CD <0352.g1:< C D >>`, while :g:`AB <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< B T >>` to :g:`BT <0352.g1:< B T >>`, for they are on the same base :g:`FK <0352.g1:< F K >>` and of the same height; :just:`[XI. 29, 30]` and the solid :g:`CD <0352.g1:< C D >>` is :eq:`equal <0352.g1:< C D > = 0352.g1:< D X >>` to :g:`DX <0352.g1:< D X >>`, for they are again on the same base :g:`RO <0352.g1:< R O >>` and of the same height; :just:`[id.]`
 
 .. assertion::
 
-   therefore the solid :g:`$BT$ <0352.g1:< B T >>` is also :eq:`equal <0352.g1:< B T > = 0352.g1:< D X >>` to the solid :g:`$DX$ <0352.g1:< D X >>`.
+   therefore the solid :g:`BT <0352.g1:< B T >>` is also :eq:`equal <0352.g1:< B T > = 0352.g1:< D X >>` to the solid :g:`DX <0352.g1:< D X >>`.
 
 .. assertion::
 
-   Therefore, as the base :g:`$FK$ <0352.g1:< F K >>` is to the base :g:`$OR$ <0352.g1:< O R >>`, so is the height of the solid :g:`$DX$ <0352.g1:< D X >>` to the height of the solid :g:`$BT$ <0352.g1:< B T >>`. :just:`[Part 1.]`
+   Therefore, as the base :g:`FK <0352.g1:< F K >>` is to the base :g:`OR <0352.g1:< O R >>`, so is the height of the solid :g:`DX <0352.g1:< D X >>` to the height of the solid :g:`BT <0352.g1:< B T >>`. :just:`[Part 1.]`
 
 .. subclause::
 
-   But the base :g:`$FK$ <0352.g1:< F K >>` is :eq:`equal <0352.g1:< F K > = 0352.g1:< E H >; 0352.g1:< O R > = 0352.g1:< N Q >>` to the base :g:`$EH$ <0352.g1:< E H >>`, and the base :g:`$OR$ <0352.g1:< O R >>` to the base :g:`$NQ$ <0352.g1:< N Q >>`;
+   But the base :g:`FK <0352.g1:< F K >>` is :eq:`equal <0352.g1:< F K > = 0352.g1:< E H >; 0352.g1:< O R > = 0352.g1:< N Q >>` to the base :g:`EH <0352.g1:< E H >>`, and the base :g:`OR <0352.g1:< O R >>` to the base :g:`NQ <0352.g1:< N Q >>`;
 
 .. assertion::
 
-   therefore, as the base :g:`$EH$ <0352.g1:< E H >>` is to the base :g:`$NQ$ <0352.g1:< N Q >>`, so is the height of the solid :g:`$DX$ <0352.g1:< D X >>` to the height of the solid :g:`$BT$ <0352.g1:< B T >>`.
+   therefore, as the base :g:`EH <0352.g1:< E H >>` is to the base :g:`NQ <0352.g1:< N Q >>`, so is the height of the solid :g:`DX <0352.g1:< D X >>` to the height of the solid :g:`BT <0352.g1:< B T >>`.
 
 .. _folio-iii-0353:
 
@@ -176,45 +176,45 @@ Now let the sides which stand up, :g:`$FE$ <0352.g1:/ F E />`, :g:`$BL$ <0352.g1
 
 .. subclause::
 
-   But the solids :g:`$DX$ <0352.g1:< D X >>`, :g:`$BT$ <0352.g1:< B T >>` and the solids :g:`$DC$ <0352.g1:< D C >>`, :g:`$BA$ <0352.g1:< B A >>` have the same heights respectively;
+   But the solids :g:`DX <0352.g1:< D X >>`, :g:`BT <0352.g1:< B T >>` and the solids :g:`DC <0352.g1:< D C >>`, :g:`BA <0352.g1:< B A >>` have the same heights respectively;
 
 .. assertion::
 
-   therefore, as the base :g:`$EH$ <0352.g1:< E H >>` is to the base :g:`$NQ$ <0352.g1:< N Q >>`, so is the height of the solid :g:`$DC$ <0352.g1:< D C >>` to the height of the solid :g:`$AB$ <0352.g1:< A B >>`.
+   therefore, as the base :g:`EH <0352.g1:< E H >>` is to the base :g:`NQ <0352.g1:< N Q >>`, so is the height of the solid :g:`DC <0352.g1:< D C >>` to the height of the solid :g:`AB <0352.g1:< A B >>`.
 
 .. assertion::
 
-   Therefore in the parallelepipedal solids :g:`$AB$ <0352.g1:< A B >>`, :g:`$CD$ <0352.g1:< C D >>` the bases are reciprocally proportional to the heights.
+   Therefore in the parallelepipedal solids :g:`AB <0352.g1:< A B >>`, :g:`CD <0352.g1:< C D >>` the bases are reciprocally proportional to the heights.
 
-Again, in the parallelepipedal solids :g:`$AB$ <0352.g1:< A B >>`, :g:`$CD$ <0352.g1:< C D >>` let the bases be reciprocally proportional to the heights, that is, as the base :g:`$EH$ <0352.g1:< E H >>` is to the base :g:`$NQ$ <0352.g1:< N Q >>`, so let the height of the solid :g:`$CD$ <0352.g1:< C D >>` be to the height of the solid :g:`$AB$ <0352.g1:< A B >>`; I say that the solid :g:`$AB$ <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`$CD$ <0352.g1:< C D >>`.
+Again, in the parallelepipedal solids :g:`AB <0352.g1:< A B >>`, :g:`CD <0352.g1:< C D >>` let the bases be reciprocally proportional to the heights, that is, as the base :g:`EH <0352.g1:< E H >>` is to the base :g:`NQ <0352.g1:< N Q >>`, so let the height of the solid :g:`CD <0352.g1:< C D >>` be to the height of the solid :g:`AB <0352.g1:< A B >>`; I say that the solid :g:`AB <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`CD <0352.g1:< C D >>`.
 
 .. subclause::
 
-   For, with the same construction, since, as the base :g:`$EH$ <0352.g1:< E H >>` is to the base :g:`$NQ$ <0352.g1:< N Q >>`, so is the height of the solid :g:`$CD$ <0352.g1:< C D >>` to the height of the solid :g:`$AB$ <0352.g1:< A B >>`, while the base :g:`$EH$ <0352.g1:< E H >>` is :eq:`equal <0352.g1:< E H > = 0352.g1:< F K >; 0352.g1:< N Q > = 0352.g1:< O R >>` to the base :g:`$FK$ <0352.g1:< F K >>`, and :g:`$NQ$ <0352.g1:< N Q >>` to :g:`$OR$ <0352.g1:< O R >>`,
+   For, with the same construction, since, as the base :g:`EH <0352.g1:< E H >>` is to the base :g:`NQ <0352.g1:< N Q >>`, so is the height of the solid :g:`CD <0352.g1:< C D >>` to the height of the solid :g:`AB <0352.g1:< A B >>`, while the base :g:`EH <0352.g1:< E H >>` is :eq:`equal <0352.g1:< E H > = 0352.g1:< F K >; 0352.g1:< N Q > = 0352.g1:< O R >>` to the base :g:`FK <0352.g1:< F K >>`, and :g:`NQ <0352.g1:< N Q >>` to :g:`OR <0352.g1:< O R >>`,
 
 .. assertion::
 
-   therefore, as the base :g:`$FK$ <0352.g1:< F K >>` is to the base :g:`$OR$ <0352.g1:< O R >>`, so is the height of the solid :g:`$CD$ <0352.g1:< C D >>` to the height of the solid :g:`$AB$ <0352.g1:< A B >>`.
+   therefore, as the base :g:`FK <0352.g1:< F K >>` is to the base :g:`OR <0352.g1:< O R >>`, so is the height of the solid :g:`CD <0352.g1:< C D >>` to the height of the solid :g:`AB <0352.g1:< A B >>`.
 
 .. subclause::
 
-   But the solids :g:`$AB$ <0352.g1:< A B >>`, :g:`$CD$ <0352.g1:< C D >>` and :g:`$BT$ <0352.g1:< B T >>`, :g:`$DX$ <0352.g1:< D X >>` have the same heights respectively;
+   But the solids :g:`AB <0352.g1:< A B >>`, :g:`CD <0352.g1:< C D >>` and :g:`BT <0352.g1:< B T >>`, :g:`DX <0352.g1:< D X >>` have the same heights respectively;
 
 .. assertion::
 
-   therefore, as the base :g:`$FK$ <0352.g1:< F K >>` is to the base :g:`$OR$ <0352.g1:< O R >>`, so is the height of the solid :g:`$DX$ <0352.g1:< D X >>` to the height of the solid :g:`$BT$ <0352.g1:< B T >>`.
+   therefore, as the base :g:`FK <0352.g1:< F K >>` is to the base :g:`OR <0352.g1:< O R >>`, so is the height of the solid :g:`DX <0352.g1:< D X >>` to the height of the solid :g:`BT <0352.g1:< B T >>`.
 
 .. assertion::
 
-   Therefore in the parallelepipedal solids :g:`$BT$ <0352.g1:< B T >>`, :g:`$DX$ <0352.g1:< D X >>` the bases are reciprocally proportional to the heights; therefore the solid :g:`$BT$ <0352.g1:< B T >>` is :eq:`equal <0352.g1:< B T > = 0352.g1:< D X >>` to the solid :g:`$DX$ <0352.g1:< D X >>`. :just:`[Part 1.]`
+   Therefore in the parallelepipedal solids :g:`BT <0352.g1:< B T >>`, :g:`DX <0352.g1:< D X >>` the bases are reciprocally proportional to the heights; therefore the solid :g:`BT <0352.g1:< B T >>` is :eq:`equal <0352.g1:< B T > = 0352.g1:< D X >>` to the solid :g:`DX <0352.g1:< D X >>`. :just:`[Part 1.]`
 
 .. subclause::
 
-   But :g:`$BT$ <0352.g1:< B T >>` is :eq:`equal <0352.g1:< B T > = 0352.g1:< B A >>` to :g:`$BA$ <0352.g1:< B A >>`, for they are on the same base :g:`$FK$ <0352.g1:< F K >>` and of the same height; :just:`[XI. 29, 30]` and the solid :g:`$DX$ <0352.g1:< D X >>` is :eq:`equal <0352.g1:< D X > = 0352.g1:< D C >>` to the solid :g:`$DC$ <0352.g1:< D C >>`. :just:`[id.]`
+   But :g:`BT <0352.g1:< B T >>` is :eq:`equal <0352.g1:< B T > = 0352.g1:< B A >>` to :g:`BA <0352.g1:< B A >>`, for they are on the same base :g:`FK <0352.g1:< F K >>` and of the same height; :just:`[XI. 29, 30]` and the solid :g:`DX <0352.g1:< D X >>` is :eq:`equal <0352.g1:< D X > = 0352.g1:< D C >>` to the solid :g:`DC <0352.g1:< D C >>`. :just:`[id.]`
 
 .. qed::
 
-   Therefore the solid :g:`$AB$ <0352.g1:< A B >>` is also :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`$CD$ <0352.g1:< C D >>`. :just:`Q. E. D.`
+   Therefore the solid :g:`AB <0352.g1:< A B >>` is also :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`CD <0352.g1:< C D >>`. :just:`Q. E. D.`
 
 Dependency Graph
 ----------------

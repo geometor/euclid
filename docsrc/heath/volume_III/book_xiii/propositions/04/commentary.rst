@@ -23,4 +23,4 @@ For, by II. 7,
 
 .. container:: center
 
-   (sq. on :g:`$AB$ <0451.g2:/ A B />`) + (sq. on :g:`$BC$ <0451.g2:/ B C />`) = 2 (rect. :g:`$AB$ <0451.g2:/ A B />`, :g:`$BC$ <0451.g2:/ B C />`) + (sq. on :g:`$AC$ <0451.g2:/ A C />`) = 3 (sq. on :g:`$AC$ <0451.g2:/ A C />`).
+   (sq. on :g:`AB <0451.g2:/ A B />`) + (sq. on :g:`BC <0451.g2:/ B C />`) = 2 (rect. :g:`AB <0451.g2:/ A B />`, :g:`BC <0451.g2:/ B C />`) + (sq. on :g:`AC <0451.g2:/ A C />`) = 3 (sq. on :g:`AC <0451.g2:/ A C />`).

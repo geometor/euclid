@@ -20,30 +20,30 @@ PROPOSITION 23.
 
    If two numbers be prime to one another, the number which measures the one of them will be prime to the remaining number.
 
-Let :g:`$A$ <0330.g1:A>`, :g:`$B$ <0330.g1:B>` be two numbers prime to one another, and let any number :g:`$C$ <0330.g1:C>` measure :g:`$A$ <0330.g1:A>`;
+Let :g:`A <0330.g1:A>`, :g:`B <0330.g1:B>` be two numbers prime to one another, and let any number :g:`C <0330.g1:C>` measure :g:`A <0330.g1:A>`;
 
-I say that :g:`$C$ <0330.g1:C>`, :g:`$B$ <0330.g1:B>` are also prime to one another.
+I say that :g:`C <0330.g1:C>`, :g:`B <0330.g1:B>` are also prime to one another.
 
 .. picture:: 0330.g1.svg
    :alt: Book VII, Proposition 23
 
 .. subclause::
 
-   For, if :g:`$C$ <0330.g1:C>`, :g:`$B$ <0330.g1:B>` are not prime to one another, some number will measure :g:`$C$ <0330.g1:C>`, :g:`$B$ <0330.g1:B>`.
+   For, if :g:`C <0330.g1:C>`, :g:`B <0330.g1:B>` are not prime to one another, some number will measure :g:`C <0330.g1:C>`, :g:`B <0330.g1:B>`.
 
-Let a number measure them, and let it be :g:`$D$ <0330.g1:D>`.
+Let a number measure them, and let it be :g:`D <0330.g1:D>`.
 
 .. subclause::
 
-   Since :g:`$D$ <0330.g1:D>` measures :g:`$C$ <0330.g1:C>`, and :g:`$C$ <0330.g1:C>` measures :g:`$A$ <0330.g1:A>`,
+   Since :g:`D <0330.g1:D>` measures :g:`C <0330.g1:C>`, and :g:`C <0330.g1:C>` measures :g:`A <0330.g1:A>`,
 
 .. assertion::
 
-   therefore :g:`$D$ <0330.g1:D>` also measures :g:`$A$ <0330.g1:A>`.
+   therefore :g:`D <0330.g1:D>` also measures :g:`A <0330.g1:A>`.
 
 .. subclause::
 
-   But it also measures :g:`$B$ <0330.g1:B>` ;
+   But it also measures :g:`B <0330.g1:B>` ;
 
 .. _folio-ii-0331:
 
@@ -52,15 +52,15 @@ Let a number measure them, and let it be :g:`$D$ <0330.g1:D>`.
 
 .. assertion::
 
-   therefore :g:`$D$ <0330.g1:D>` measures :g:`$A$ <0330.g1:A>`, :g:`$B$ <0330.g1:B>` which are prime to one another : which is impossible. :just:`[VII. Def. 12] <VII.def.12>`
+   therefore :g:`D <0330.g1:D>` measures :g:`A <0330.g1:A>`, :g:`B <0330.g1:B>` which are prime to one another : which is impossible. :just:`[VII. Def. 12] <VII.def.12>`
 
 .. assertion::
 
-   Therefore no number will measure the numbers :g:`$C$ <0330.g1:C>`, :g:`$B$ <0330.g1:B>`.
+   Therefore no number will measure the numbers :g:`C <0330.g1:C>`, :g:`B <0330.g1:B>`.
 
 .. assertion::
 
-   Therefore :g:`$C$ <0330.g1:C>`, :g:`$B$ <0330.g1:B>` are prime to one another.
+   Therefore :g:`C <0330.g1:C>`, :g:`B <0330.g1:B>` are prime to one another.
 
 .. qed::
 

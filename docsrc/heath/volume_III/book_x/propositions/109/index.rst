@@ -20,53 +20,53 @@ PROPOSITION 109.
 
    If from a medial area a rational area be subtracted, there arise two other irrational straight lines, either a first apotome of a medial straight line or a straight line which produces with a rational area a medial whole.
 
-For from the medial area :g:`$BC$ <0241.g1:< B C >>` let the rational area :g:`$BD$ <0241.g1:< B D >>` be subtracted.
+For from the medial area :g:`BC <0241.g1:< B C >>` let the rational area :g:`BD <0241.g1:< B D >>` be subtracted.
 
 .. _folio-iii-0241:
 
 .. folio:: 0241
    :page: 237
 
-I say that the “side” of the remainder :g:`$EC$ <0241.g1:< E C >>` becomes one of two irrational straight lines, either a first apotome of a medial straight line or a straight line which produces with a rational area a medial whole.
+I say that the “side” of the remainder :g:`EC <0241.g1:< E C >>` becomes one of two irrational straight lines, either a first apotome of a medial straight line or a straight line which produces with a rational area a medial whole.
 
 .. picture:: 0241.g1.svg
    :alt: Propositions 108, 109
 
-For let a rational straight line :g:`$FG$ <0241.g1:/ F G />` be set out, and let the areas be similarly applied.
+For let a rational straight line :g:`FG <0241.g1:/ F G />` be set out, and let the areas be similarly applied.
 
 .. subclause::
 
-   It follows then that :g:`$FH$ <0241.g1:/ F H />` is rational and incommensurable in length with :g:`$FG$ <0241.g1:/ F G />`, while :g:`$KF$ <0241.g1:/ K F />` is rational and commensurable in length with :g:`$FG$ <0241.g1:/ F G />`;
+   It follows then that :g:`FH <0241.g1:/ F H />` is rational and incommensurable in length with :g:`FG <0241.g1:/ F G />`, while :g:`KF <0241.g1:/ K F />` is rational and commensurable in length with :g:`FG <0241.g1:/ F G />`;
 
 .. assertion::
 
-   therefore :g:`$FH$ <0241.g1:/ F H />`, :g:`$FK$ <0241.g1:/ F K />` are rational straight lines commensurable in square only; :just:`[x. 13]` therefore :g:`$KH$ <0241.g1:/ K H />` is an apotome, and :g:`$FK$ <0241.g1:/ F K />` the annex to it. :just:`[x. 73]`
+   therefore :g:`FH <0241.g1:/ F H />`, :g:`FK <0241.g1:/ F K />` are rational straight lines commensurable in square only; :just:`[x. 13]` therefore :g:`KH <0241.g1:/ K H />` is an apotome, and :g:`FK <0241.g1:/ F K />` the annex to it. :just:`[x. 73]`
 
-Now the square on :g:`$HF$ <0241.g1:/ H F />` is greater than the square on :g:`$FK$ <0241.g1:/ F K />` either by the square on a straight line commensurable with :g:`$HF$ <0241.g1:/ H F />` or by the square on a straight line incommensurable with it.
+Now the square on :g:`HF <0241.g1:/ H F />` is greater than the square on :g:`FK <0241.g1:/ F K />` either by the square on a straight line commensurable with :g:`HF <0241.g1:/ H F />` or by the square on a straight line incommensurable with it.
 
 .. subclause::
 
-   If then the square on :g:`$HF$ <0241.g1:/ H F />` is greater than the square on :g:`$FK$ <0241.g1:/ F K />` by the square on a straight line commensurable with :g:`$HF$ <0241.g1:/ H F />`, while the annex :g:`$FK$ <0241.g1:/ F K />` is commensurable in length with the rational straight line :g:`$FG$ <0241.g1:/ F G />` set out,
+   If then the square on :g:`HF <0241.g1:/ H F />` is greater than the square on :g:`FK <0241.g1:/ F K />` by the square on a straight line commensurable with :g:`HF <0241.g1:/ H F />`, while the annex :g:`FK <0241.g1:/ F K />` is commensurable in length with the rational straight line :g:`FG <0241.g1:/ F G />` set out,
 
 .. assertion:: [x. Deff. III. 2]
 
-   :g:`$KH$ <0241.g1:/ K H />` is a second apotome.
+   :g:`KH <0241.g1:/ K H />` is a second apotome.
 
 .. subclause::
 
-   But :g:`$FG$ <0241.g1:/ F G />` is rational;
+   But :g:`FG <0241.g1:/ F G />` is rational;
 
 .. assertion::
 
-   so that the “side” of :g:`$LH$ <0241.g1:< L H >>`, that is, of :g:`$EC$ <0241.g1:< E C >>`, is a first apotome of a medial straight line. :just:`[x. 92]`
+   so that the “side” of :g:`LH <0241.g1:< L H >>`, that is, of :g:`EC <0241.g1:< E C >>`, is a first apotome of a medial straight line. :just:`[x. 92]`
 
 .. subclause::
 
-   But, if the square on :g:`$HF$ <0241.g1:/ H F />` is greater than the square on :g:`$FK$ <0241.g1:/ F K />` by the square on a straight line incommensurable with :g:`$HF$ <0241.g1:/ H F />`, while the annex :g:`$FK$ <0241.g1:/ F K />` is commensurable in length with the rational straight line :g:`$FG$ <0241.g1:/ F G />` set out,
+   But, if the square on :g:`HF <0241.g1:/ H F />` is greater than the square on :g:`FK <0241.g1:/ F K />` by the square on a straight line incommensurable with :g:`HF <0241.g1:/ H F />`, while the annex :g:`FK <0241.g1:/ F K />` is commensurable in length with the rational straight line :g:`FG <0241.g1:/ F G />` set out,
 
 .. assertion::
 
-   :g:`$KH$ <0241.g1:/ K H />` is a fifth apotome; :just:`[x. Deff. III. 5]` so that the “side” of :g:`$EC$ <0241.g1:< E C >>` is a straight line which produces with a rational area a medial whole. :just:`[x. 95]`
+   :g:`KH <0241.g1:/ K H />` is a fifth apotome; :just:`[x. Deff. III. 5]` so that the “side” of :g:`EC <0241.g1:< E C >>` is a straight line which produces with a rational area a medial whole. :just:`[x. 95]`
 
 .. _folio-iii-0242:
 

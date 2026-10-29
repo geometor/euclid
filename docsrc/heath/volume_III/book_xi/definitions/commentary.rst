@@ -87,19 +87,19 @@ It is necessary to show that this plane angle is a proper measure of the dihedra
 
 (2) if the dihedral angle between two planes increases or diminishes in a certain ratio, the plane angle in question will increase or diminish in the same ratio.
 
-(1) If :g:`$MAN$ <0268.g1:< M A N >>`, :g:`$MAP$ <0268.g1:< M A P >>` be two planes intersecting in :g:`$MA$ <0268.g1:/ M A />`, and if :g:`$AN$ <0268.g1:/ A N />`, :g:`$AP$ <0268.g1:/ A P />` be drawn in the planes respectively and at right angles to :g:`$MA$ <0268.g1:/ M A />`, the angle :g:`$NAP$ <0268.g1:< N A P )>` is the *inclination of the plane to the plane* or the *plane angle of the dihedral angle*.
+(1) If :g:`MAN <0268.g1:< M A N >>`, :g:`MAP <0268.g1:< M A P >>` be two planes intersecting in :g:`MA <0268.g1:/ M A />`, and if :g:`AN <0268.g1:/ A N />`, :g:`AP <0268.g1:/ A P />` be drawn in the planes respectively and at right angles to :g:`MA <0268.g1:/ M A />`, the angle :g:`NAP <0268.g1:< N A P )>` is the *inclination of the plane to the plane* or the *plane angle of the dihedral angle*.
 
-Let :g:`$MC$ <0268.g1:/ M C />`, :g:`$MB$ <0268.g1:/ M B />` be also drawn in the respective planes at right angles to :g:`$MA$ <0268.g1:/ M A />`.
+Let :g:`MC <0268.g1:/ M C />`, :g:`MB <0268.g1:/ M B />` be also drawn in the respective planes at right angles to :g:`MA <0268.g1:/ M A />`.
 
-Then since, in the plane :g:`$MAN$ <0268.g1:< M A N >>`, :g:`$MC$ <0268.g1:/ M C />` and :g:`$AN$ <0268.g1:/ A N />` are drawn at right angles to the same straight line :g:`$MA$ <0268.g1:/ M A />`,
+Then since, in the plane :g:`MAN <0268.g1:< M A N >>`, :g:`MC <0268.g1:/ M C />` and :g:`AN <0268.g1:/ A N />` are drawn at right angles to the same straight line :g:`MA <0268.g1:/ M A />`,
 
-:g:`$MC$ <0268.g1:/ M C />`, :g:`$AN$ <0268.g1:/ A N />` are parallel.
+:g:`MC <0268.g1:/ M C />`, :g:`AN <0268.g1:/ A N />` are parallel.
 
-For the same reason, :g:`$MB$ <0268.g1:/ M B />`, :g:`$AP$ <0268.g1:/ A P />` are parallel.
+For the same reason, :g:`MB <0268.g1:/ M B />`, :g:`AP <0268.g1:/ A P />` are parallel.
 
-Therefore [XI. 10] the angle :g:`$BMC$ <0268.g1:< B M C )>` is :eq:`equal <0268.g1:< B M C ) = 0268.g1:< P A N )>` to the angle :g:`$PAN$ <0268.g1:< P A N )>`.
+Therefore [XI. 10] the angle :g:`BMC <0268.g1:< B M C )>` is :eq:`equal <0268.g1:< B M C ) = 0268.g1:< P A N )>` to the angle :g:`PAN <0268.g1:< P A N )>`.
 
-And :g:`$M$ <0268.g1:M>` may be any point on :g:`$MA$ <0268.g1:/ M A />`. Therefore the plane angle described in the definition is the same at all points of :g:`$AM$ <0268.g1:/ A M />`.
+And :g:`M <0268.g1:M>` may be any point on :g:`MA <0268.g1:/ M A />`. Therefore the plane angle described in the definition is the same at all points of :g:`AM <0268.g1:/ A M />`.
 
 .. picture:: 0268.g1.svg
    :alt: Dihedral angle and its plane angle
@@ -109,15 +109,15 @@ And :g:`$M$ <0268.g1:M>` may be any point on :g:`$MA$ <0268.g1:/ M A />`. Theref
 .. folio:: 0269
    :page: 265
 
-(2) In the plane :g:`$NAP$ <0268.g1:< N A P >>` draw the arc :g:`$NDP$ <0268.g1:( N D P )>` of any circle with centre :g:`$A$ <0268.g1:A>`, and draw the radius :g:`$AD$ <0268.g1:/ A D />`.
+(2) In the plane :g:`NAP <0268.g1:< N A P >>` draw the arc :g:`NDP <0268.g1:( N D P )>` of any circle with centre :g:`A <0268.g1:A>`, and draw the radius :g:`AD <0268.g1:/ A D />`.
 
-Now the planes :g:`$NAP$ <0268.g1:< N A P >>`, :g:`$CMB$ <0268.g1:< C M B >>`, being both at right angles to the straight line :g:`$MA$ <0268.g1:/ M A />`, are parallel; [XI. 14] therefore the intersections :g:`$AD$ <0268.g1:/ A D />`, :g:`$ME$ <0268.g1:/ M E />` of these planes with the plane :g:`$MAD$ <0268.g1:< M A D >>` are parallel, [XI. 16] and consequently the angles :g:`$BME$ <0268.g1:< B M E )>`, :g:`$PAD$ <0268.g1:< P A D )>` are :eq:`equal <0268.g1:< B M E ) = 0268.g1:< P A D )>`. [XI. 10]
+Now the planes :g:`NAP <0268.g1:< N A P >>`, :g:`CMB <0268.g1:< C M B >>`, being both at right angles to the straight line :g:`MA <0268.g1:/ M A />`, are parallel; [XI. 14] therefore the intersections :g:`AD <0268.g1:/ A D />`, :g:`ME <0268.g1:/ M E />` of these planes with the plane :g:`MAD <0268.g1:< M A D >>` are parallel, [XI. 16] and consequently the angles :g:`BME <0268.g1:< B M E )>`, :g:`PAD <0268.g1:< P A D )>` are :eq:`equal <0268.g1:< B M E ) = 0268.g1:< P A D )>`. [XI. 10]
 
-If now the plane angle :g:`$NAD$ <0268.g1:< N A D )>` were :eq:`equal <0268.g1:< N A D ) = 0268.g1:< D A P )>` to the plane angle :g:`$DAP$ <0268.g1:< D A P )>`, the dihedral angle :g:`$NAMD$ <0268.g1:< N A M D )>` would be :eq:`equal <0268.g1:< N A M D ) = 0268.g1:< D A M P )>` to the dihedral angle :g:`$DAMP$ <0268.g1:< D A M P )>`; for, if the angle :g:`$PAD$ <0268.g1:< P A D )>` were applied to the angle :g:`$DAN$ <0268.g1:< D A N )>`, :g:`$AM$ <0268.g1:/ A M />` remaining the same, the corresponding dihedral angles would coincide.
+If now the plane angle :g:`NAD <0268.g1:< N A D )>` were :eq:`equal <0268.g1:< N A D ) = 0268.g1:< D A P )>` to the plane angle :g:`DAP <0268.g1:< D A P )>`, the dihedral angle :g:`NAMD <0268.g1:< N A M D )>` would be :eq:`equal <0268.g1:< N A M D ) = 0268.g1:< D A M P )>` to the dihedral angle :g:`DAMP <0268.g1:< D A M P )>`; for, if the angle :g:`PAD <0268.g1:< P A D )>` were applied to the angle :g:`DAN <0268.g1:< D A N )>`, :g:`AM <0268.g1:/ A M />` remaining the same, the corresponding dihedral angles would coincide.
 
-Successive applications of this result show that, if the angles :g:`$NAD$ <0268.g1:< N A D )>`, :g:`$DAP$ <0268.g1:< D A P )>` each contain a certain angle a certain number of times, the dihedral angles :g:`$NAMD$ <0268.g1:< N A M D )>`, :g:`$DAMP$ <0268.g1:< D A M P )>` will contain the corresponding dihedral angle the same number of times respectively.
+Successive applications of this result show that, if the angles :g:`NAD <0268.g1:< N A D )>`, :g:`DAP <0268.g1:< D A P )>` each contain a certain angle a certain number of times, the dihedral angles :g:`NAMD <0268.g1:< N A M D )>`, :g:`DAMP <0268.g1:< D A M P )>` will contain the corresponding dihedral angle the same number of times respectively.
 
-Hence, where the angles :g:`$NAD$ <0268.g1:< N A D )>`, :g:`$DAP$ <0268.g1:< D A P )>` are commensurable, the dihedral angles corresponding to them are in the same ratio.
+Hence, where the angles :g:`NAD <0268.g1:< N A D )>`, :g:`DAP <0268.g1:< D A P )>` are commensurable, the dihedral angles corresponding to them are in the same ratio.
 
 :person:`Legendre <legendre>` then extends the proof to the case where the plane angles are incommensurable by reference to an exactly similar extension in his proposition corresponding to Euclid VI. 1, for which see the note on that proposition.
 
@@ -235,7 +235,7 @@ Mr :person:`H. M. Taylor <h-m-taylor>`, followed by Smith and Bryant, defines a 
 :person:`Mehler <mehler>` calls an *n-sided prism a body contained between two parallel planes and enclosed by n other planes with parallel lines of intersection.*
 
 :person:`Heron <heron>`'s definition of a prism is much wider (Def. 105). *Prisms are those figures which are connected (συνάπτοντα) from a rectilineal base to a rectilineal area by rectilineal collocation (κατ' εὐθύγραμμον σύνθεσιν).* By this :person:`Heron <heron>` must
-apparently mean any convex solid formed by connecting the sides and angles of two polygons in different planes, and each having any number of sides, by straight lines forming triangular faces (where of course two adjacent triangles may be in one plane and so form one quadrilateral face) in the manner shown in the annexed figure, where :g:`$ABCD$ <0273.g1:< A B C D >>`, :g:`$EFG$ <0273.g1:< E F G >>` represent the base and its opposite.
+apparently mean any convex solid formed by connecting the sides and angles of two polygons in different planes, and each having any number of sides, by straight lines forming triangular faces (where of course two adjacent triangles may be in one plane and so form one quadrilateral face) in the manner shown in the annexed figure, where :g:`ABCD <0273.g1:< A B C D >>`, :g:`EFG <0273.g1:< E F G >>` represent the base and its opposite.
 
 .. _folio-iii-0273:
 

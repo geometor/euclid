@@ -22,7 +22,7 @@ PROPOSITION 56.
 
    If an area be contained by a rational straight line and the third binomial, the "side" of the area is the irrational straight line called a second bimedial.
 
-For let the area :g:`$ABCD$ <0128.g1:< A B C D >>` be contained by the rational straight line :g:`$AB$ <0128.g1:/ A B />` and the third binomial :g:`$AD$ <0128.g1:/ A D />` divided into its terms at :g:`$E$ <0128.g1:E>`, of which terms :g:`$AE$ <0128.g1:/ A E />` is the greater; I say that the "side" of the area :g:`$AC$ <0128.g1:< A C >>` is the irrational straight line called a second bimedial.
+For let the area :g:`ABCD <0128.g1:< A B C D >>` be contained by the rational straight line :g:`AB <0128.g1:/ A B />` and the third binomial :g:`AD <0128.g1:/ A D />` divided into its terms at :g:`E <0128.g1:E>`, of which terms :g:`AE <0128.g1:/ A E />` is the greater; I say that the "side" of the area :g:`AC <0128.g1:< A C >>` is the irrational straight line called a second bimedial.
 
 For let the same construction be made as before.
 
@@ -31,25 +31,25 @@ For let the same construction be made as before.
 
 .. subclause::
 
-   Now, since :g:`$AD$ <0128.g1:/ A D />` is a third binomial straight line,
+   Now, since :g:`AD <0128.g1:/ A D />` is a third binomial straight line,
 
 .. assertion::
 
-   therefore :g:`$AE$ <0128.g1:/ A E />`, :g:`$ED$ <0128.g1:/ E D />` are rational straight lines commensurable in square only, the square on :g:`$AE$ <0128.g1:/ A E />` is greater than the square on :g:`$ED$ <0128.g1:/ E D />` by the square on a straight line commensurable with :g:`$AE$ <0128.g1:/ A E />`, and neither of the terms :g:`$AE$ <0128.g1:/ A E />`, :g:`$ED$ <0128.g1:/ E D />` is commensurable in length with :g:`$AB$ <0128.g1:/ A B />`. :just:`[X. Deff. II. 3]`
+   therefore :g:`AE <0128.g1:/ A E />`, :g:`ED <0128.g1:/ E D />` are rational straight lines commensurable in square only, the square on :g:`AE <0128.g1:/ A E />` is greater than the square on :g:`ED <0128.g1:/ E D />` by the square on a straight line commensurable with :g:`AE <0128.g1:/ A E />`, and neither of the terms :g:`AE <0128.g1:/ A E />`, :g:`ED <0128.g1:/ E D />` is commensurable in length with :g:`AB <0128.g1:/ A B />`. :just:`[X. Deff. II. 3]`
 
 .. assertion::
 
-   Then, in manner similar to the foregoing, we shall prove that :g:`$MO$ <0128.g1:/ M O />` is the "side" of the area :g:`$AC$ <0128.g1:< A C >>`, and :g:`$MN$ <0128.g1:/ M N />`, :g:`$NO$ <0128.g1:/ N O />` are medial straight lines commensurable in square only; so that :g:`$MO$ <0128.g1:/ M O />` is bimedial.
+   Then, in manner similar to the foregoing, we shall prove that :g:`MO <0128.g1:/ M O />` is the "side" of the area :g:`AC <0128.g1:< A C >>`, and :g:`MN <0128.g1:/ M N />`, :g:`NO <0128.g1:/ N O />` are medial straight lines commensurable in square only; so that :g:`MO <0128.g1:/ M O />` is bimedial.
 
 It is next to be proved that it is also a second bimedial straight line.
 
 .. subclause::
 
-   Since :g:`$DE$ <0128.g1:/ E D />` is incommensurable in length with :g:`$AB$ <0128.g1:/ A B />`, that is, with :g:`$EK$ <0128.g1:/ E K />`, and :g:`$DE$ <0128.g1:/ E D />` is commensurable with :g:`$EF$ <0128.g1:/ E F />`,
+   Since :g:`DE <0128.g1:/ E D />` is incommensurable in length with :g:`AB <0128.g1:/ A B />`, that is, with :g:`EK <0128.g1:/ E K />`, and :g:`DE <0128.g1:/ E D />` is commensurable with :g:`EF <0128.g1:/ E F />`,
 
 .. assertion:: [X. 13] <X.13>
 
-   therefore :g:`$EF$ <0128.g1:/ E F />` is incommensurable in length with :g:`$EK$ <0128.g1:/ E K />`.
+   therefore :g:`EF <0128.g1:/ E F />` is incommensurable in length with :g:`EK <0128.g1:/ E K />`.
 
 .. subclause::
 
@@ -62,23 +62,23 @@ It is next to be proved that it is also a second bimedial straight line.
 
 .. assertion::
 
-   therefore :g:`$FE$ <0128.g1:/ E F />`, :g:`$EK$ <0128.g1:/ E K />` are rational straight lines commensurable in square only.
+   therefore :g:`FE <0128.g1:/ E F />`, :g:`EK <0128.g1:/ E K />` are rational straight lines commensurable in square only.
 
 .. assertion:: [X. 21] <X.21>
 
-   Therefore :g:`$EL$ <0128.g1:< E L >>`, that is, :g:`$MR$ <0128.g1:< M R >>`, is medial.
+   Therefore :g:`EL <0128.g1:< E L >>`, that is, :g:`MR <0128.g1:< M R >>`, is medial.
 
 .. subclause::
 
-   And it is contained by :g:`$MN$ <0128.g1:/ M N />`, :g:`$NO$ <0128.g1:/ N O />`;
+   And it is contained by :g:`MN <0128.g1:/ M N />`, :g:`NO <0128.g1:/ N O />`;
 
 .. assertion::
 
-   therefore the rectangle :g:`$MN$ <0128.g1:/ M N />`, :g:`$NO$ <0128.g1:/ N O />` is medial.
+   therefore the rectangle :g:`MN <0128.g1:/ M N />`, :g:`NO <0128.g1:/ N O />` is medial.
 
 .. qed::
 
-   Therefore :g:`$MO$ <0128.g1:/ M O />` is a second bimedial straight line. :just:`[X. 38] <X.38>` :just:`Q. E. D.`
+   Therefore :g:`MO <0128.g1:/ M O />` is a second bimedial straight line. :just:`[X. 38] <X.38>` :just:`Q. E. D.`
 
 Dependency Graph
 ----------------

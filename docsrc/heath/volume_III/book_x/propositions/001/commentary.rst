@@ -33,18 +33,18 @@ Besides being employed in Eucl. X. 1, the "Axiom of :person:`Archimedes <archime
 
 Let the straight lines be so placed that they have a common extremity and the smaller lies along the other on the same side of the common extremity.
 
-If :g:`$AC$ <0020.g1:/ A C />` be the greater and :g:`$AB$ <0020.g1:/ A B />` the smaller, we have to prove that there exists an integral number $n$ such that $n \cdot$ :g:`$AB$ <0020.g1:/ A B />` $>$ :g:`$AC$ <0020.g1:/ A C />`.
+If :g:`AC <0020.g1:/ A C />` be the greater and :g:`AB <0020.g1:/ A B />` the smaller, we have to prove that there exists an integral number $n$ such that $n \cdot$ :g:`AB <0020.g1:/ A B />` $>$ :g:`AC <0020.g1:/ A C />`.
 
-Suppose that this is not true but that there are some points, like :g:`$B$ <0020.g1:B>`, not coincident with the extremity :g:`$A$ <0020.g1:A>`, and such that, $n$ being any integer however great, $n \cdot$ :g:`$AB$ <0020.g1:/ A B />` $<$ :g:`$AC$ <0020.g1:/ A C />`; and we have to prove that this assumption leads to an absurdity.
+Suppose that this is not true but that there are some points, like :g:`B <0020.g1:B>`, not coincident with the extremity :g:`A <0020.g1:A>`, and such that, $n$ being any integer however great, $n \cdot$ :g:`AB <0020.g1:/ A B />` $<$ :g:`AC <0020.g1:/ A C />`; and we have to prove that this assumption leads to an absurdity.
 
 .. picture:: 0020.g1.svg
    :alt: Dedekind's Postulate Diagram
 
-The points of :g:`$AC$ <0020.g1:/ A C />` may be regarded as distributed into two "parts," namely
+The points of :g:`AC <0020.g1:/ A C />` may be regarded as distributed into two "parts," namely
 
-(1) points :g:`$H$ <0020.g1:H>` for which there exists no integer $n$ such that $n \cdot$ :g:`$AH$ <0020.g1:/ A H />` $>$ :g:`$AC$ <0020.g1:/ A C />`,
-(2) points :g:`$K$ <0020.g1:K>` for which an integer $n$ does exist such that $n \cdot$ :g:`$AK$ <0020.g1:/ A K />` $>$ :g:`$AC$ <0020.g1:/ A C />`.
+(1) points :g:`H <0020.g1:H>` for which there exists no integer $n$ such that $n \cdot$ :g:`AH <0020.g1:/ A H />` $>$ :g:`AC <0020.g1:/ A C />`,
+(2) points :g:`K <0020.g1:K>` for which an integer $n$ does exist such that $n \cdot$ :g:`AK <0020.g1:/ A K />` $>$ :g:`AC <0020.g1:/ A C />`.
 
-This division into parts satisfies the conditions for the application of :person:`Dedekind <dedekind>`'s Postulate, and therefore there exists a point :g:`$M$ <0020.g1:M>` such that the points of :g:`$AM$ <0020.g1:/ A M />` belong to the first part and those of :g:`$MC$ <0020.g1:/ M C />` to the second part.
+This division into parts satisfies the conditions for the application of :person:`Dedekind <dedekind>`'s Postulate, and therefore there exists a point :g:`M <0020.g1:M>` such that the points of :g:`AM <0020.g1:/ A M />` belong to the first part and those of :g:`MC <0020.g1:/ M C />` to the second part.
 
-Take now a point :g:`$Y$ <0020.g1:Y>` on :g:`$MC$ <0020.g1:/ M C />` such that :g:`$MY$ <0020.g1:/ M Y />` $<$ :g:`$AM$ <0020.g1:/ A M />`. The middle point (:g:`$X$ <0020.g1:X>`) of :g:`$AY$ <0020.g1:/ A Y />` will fall between :g:`$A$ <0020.g1:A>` and :g:`$M$ <0020.g1:M>` and will therefore belong to the first part; but, since there exists an integer $n$ such that $n \cdot$ :g:`$AY$ <0020.g1:/ A Y />` $>$ :g:`$AC$ <0020.g1:/ A C />`, it follows that $2n \cdot$ :g:`$AX$ <0020.g1:/ A X />` $>$ :g:`$AC$ <0020.g1:/ A C />`: which is contrary to the hypothesis.
+Take now a point :g:`Y <0020.g1:Y>` on :g:`MC <0020.g1:/ M C />` such that :g:`MY <0020.g1:/ M Y />` $<$ :g:`AM <0020.g1:/ A M />`. The middle point (:g:`X <0020.g1:X>`) of :g:`AY <0020.g1:/ A Y />` will fall between :g:`A <0020.g1:A>` and :g:`M <0020.g1:M>` and will therefore belong to the first part; but, since there exists an integer $n$ such that $n \cdot$ :g:`AY <0020.g1:/ A Y />` $>$ :g:`AC <0020.g1:/ A C />`, it follows that $2n \cdot$ :g:`AX <0020.g1:/ A X />` $>$ :g:`AC <0020.g1:/ A C />`: which is contrary to the hypothesis.

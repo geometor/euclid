@@ -22,11 +22,11 @@ PROPOSITION 7.
 
    Incommensurable magnitudes have not to one another the ratio which a number has to a number.
 
-Let :g:`$A$ <0032.g1:A>`, :g:`$B$ <0032.g1:B>` be incommensurable magnitudes; I say that :g:`$A$ <0032.g1:A>` has not to :g:`$B$ <0032.g1:B>` the ratio which a number has to a number.
+Let :g:`A <0032.g1:A>`, :g:`B <0032.g1:B>` be incommensurable magnitudes; I say that :g:`A <0032.g1:A>` has not to :g:`B <0032.g1:B>` the ratio which a number has to a number.
 
 .. subclause::
 
-   For, if :g:`$A$ <0032.g1:A>` has to :g:`$B$ <0032.g1:B>` the ratio which a number has to a number, :g:`$A$ <0032.g1:A>` will be commensurable with :g:`$B$ <0032.g1:B>`. :just:`[X. 6] <X.6>`
+   For, if :g:`A <0032.g1:A>` has to :g:`B <0032.g1:B>` the ratio which a number has to a number, :g:`A <0032.g1:A>` will be commensurable with :g:`B <0032.g1:B>`. :just:`[X. 6] <X.6>`
 
 .. subclause::
 
@@ -34,7 +34,7 @@ Let :g:`$A$ <0032.g1:A>`, :g:`$B$ <0032.g1:B>` be incommensurable magnitudes; I 
 
 .. assertion::
 
-   therefore :g:`$A$ <0032.g1:A>` has not to :g:`$B$ <0032.g1:B>` the ratio which a number has to a number.
+   therefore :g:`A <0032.g1:A>` has not to :g:`B <0032.g1:B>` the ratio which a number has to a number.
 
 .. picture:: 0032.g1.svg
    :alt: Proposition 7 diagram

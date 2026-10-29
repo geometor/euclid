@@ -35,7 +35,7 @@ $$x(a - x) = \frac{b^2}{4} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots (1
 
 $x$, $(a - x)$ are commensurable in length when $\sqrt{a^2 - b^2}$, $a$ are so, and incommensurable in length when $\sqrt{a^2 - b^2}$, $a$ are incommensurable; and conversely.
 
-Observe the similarity of his proof to our algebraical method of solving the equation. $a$ being represented in the figure by :g:`$BC$ <0046.g1:/ B C />`, and $x$ by :g:`$CD$ <0046.g1:/ D C />`,
+Observe the similarity of his proof to our algebraical method of solving the equation. $a$ being represented in the figure by :g:`BC <0046.g1:/ B C />`, and $x$ by :g:`CD <0046.g1:/ D C />`,
 
 $$EF = ED = \frac{a}{2} - x$$
 

@@ -17,13 +17,13 @@ Back to :ref:`Proposition VI.22 <VI.22>`.
 .. folio:: 0248
    :page: 242
 
-The second assumption in the first step of the first part of the proof, viz. that, as :g:`$CD$ <0247.g1:/ C D />` is to :g:`$O$ <0247.g1:O>`, so :g:`$GH$ <0247.g1:/ G H />` to :g:`$P$ <0247.g1:P>`, should perhaps be explained. It is a deduction [by V. 11] from the facts that
+The second assumption in the first step of the first part of the proof, viz. that, as :g:`CD <0247.g1:/ C D />` is to :g:`O <0247.g1:O>`, so :g:`GH <0247.g1:/ G H />` to :g:`P <0247.g1:P>`, should perhaps be explained. It is a deduction [by V. 11] from the facts that
 
 .. container:: center
 
-   :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />` as :g:`$CD$ <0247.g1:/ C D />` to :g:`$O$ <0247.g1:O>`, :g:`$EF$ <0247.g1:/ E F />` is to :g:`$GH$ <0247.g1:/ G H />` as :g:`$GH$ <0247.g1:/ G H />` to :g:`$P$ <0247.g1:P>`, and :g:`$AB$ <0247.g1:/ A B />` is to :g:`$CD$ <0247.g1:/ C D />` as :g:`$EF$ <0247.g1:/ E F />` to :g:`$GH$ <0247.g1:/ G H />`.
+   :g:`AB <0247.g1:/ A B />` is to :g:`CD <0247.g1:/ C D />` as :g:`CD <0247.g1:/ C D />` to :g:`O <0247.g1:O>`, :g:`EF <0247.g1:/ E F />` is to :g:`GH <0247.g1:/ G H />` as :g:`GH <0247.g1:/ G H />` to :g:`P <0247.g1:P>`, and :g:`AB <0247.g1:/ A B />` is to :g:`CD <0247.g1:/ C D />` as :g:`EF <0247.g1:/ E F />` to :g:`GH <0247.g1:/ G H />`.
 
-The defect in the proof of this proposition is well known, namely the assumption, without proof, that, because the figures :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>` are :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>`, besides being similar and similarly situated, their corresponding sides :g:`$GH$ <0247.g1:/ G H />`, :g:`$QR$ <0247.g1:/ Q R />` are :eq:`equal <0247.g1:/ G H / = 0247.g1:/ Q R />`. Hence the minimum addition necessary to make the proof complete is a proof of a lemma to the effect that, *if two similar figures are also equal, any pair of corresponding sides are equal*.
+The defect in the proof of this proposition is well known, namely the assumption, without proof, that, because the figures :g:`NH <0247.g1:< N H >>`, :g:`SR <0247.g1:< S R >>` are :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>`, besides being similar and similarly situated, their corresponding sides :g:`GH <0247.g1:/ G H />`, :g:`QR <0247.g1:/ Q R />` are :eq:`equal <0247.g1:/ G H / = 0247.g1:/ Q R />`. Hence the minimum addition necessary to make the proof complete is a proof of a lemma to the effect that, *if two similar figures are also equal, any pair of corresponding sides are equal*.
 
 To supply this lemma is one alternative; another is to prove, as a preliminary proposition, a much more general theorem, viz. that, *if the duplicate ratios of two ratios are equal, the two ratios are themselves equal*. When this is proved, the second part of VI. 22 is an immediate inference from it, and the effect is, of course, to substitute a new proof instead of supplementing Euclid's.
 
@@ -33,19 +33,19 @@ The case of equality of the figures is the case required for VI. 22; and the pro
 
 "But that, if rectilineal figures be equal and similar, their corresponding sides are equal to one another we will prove thus.
 
-Let :g:`$NH$ <0247.g1:< N H >>`, :g:`$SR$ <0247.g1:< S R >>` be :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>` and similar rectilineal figures, and suppose that,
+Let :g:`NH <0247.g1:< N H >>`, :g:`SR <0247.g1:< S R >>` be :eq:`equal <0247.g1:< N H > = 0247.g1:< S R >>` and similar rectilineal figures, and suppose that,
 
 .. container:: center
 
-   as :g:`$HG$ <0247.g1:/ H G />` is to :g:`$GN$ <0247.g1:/ G N />`, so is :g:`$RQ$ <0247.g1:/ R Q />` to :g:`$QS$ <0247.g1:/ Q S />`;
+   as :g:`HG <0247.g1:/ H G />` is to :g:`GN <0247.g1:/ G N />`, so is :g:`RQ <0247.g1:/ R Q />` to :g:`QS <0247.g1:/ Q S />`;
 
 I say that
 
 .. container:: center
 
-   :g:`$RQ$ <0247.g1:/ R Q />` is :eq:`equal <0247.g1:/ R Q / = 0247.g1:/ H G />` to :g:`$HG$ <0247.g1:/ H G />`.
+   :g:`RQ <0247.g1:/ R Q />` is :eq:`equal <0247.g1:/ R Q / = 0247.g1:/ H G />` to :g:`HG <0247.g1:/ H G />`.
 
-For, if they are unequal, one of them is greater; let :g:`$RQ$ <0247.g1:/ R Q />` be greater than :g:`$HG$ <0247.g1:/ H G />`.
+For, if they are unequal, one of them is greater; let :g:`RQ <0247.g1:/ R Q />` be greater than :g:`HG <0247.g1:/ H G />`.
 
 .. _folio-ii-0249:
 
@@ -54,15 +54,15 @@ For, if they are unequal, one of them is greater; let :g:`$RQ$ <0247.g1:/ R Q />
 
 .. subclause::
 
-   Then, since, as :g:`$RQ$ <0247.g1:/ R Q />` is to :g:`$QS$ <0247.g1:/ Q S />`, so is :g:`$HG$ <0247.g1:/ H G />` to :g:`$GN$ <0247.g1:/ G N />`, alternately also, as :g:`$RQ$ <0247.g1:/ R Q />` is to :g:`$HG$ <0247.g1:/ H G />`, so is :g:`$QS$ <0247.g1:/ Q S />` to :g:`$GN$ <0247.g1:/ G N />`;
+   Then, since, as :g:`RQ <0247.g1:/ R Q />` is to :g:`QS <0247.g1:/ Q S />`, so is :g:`HG <0247.g1:/ H G />` to :g:`GN <0247.g1:/ G N />`, alternately also, as :g:`RQ <0247.g1:/ R Q />` is to :g:`HG <0247.g1:/ H G />`, so is :g:`QS <0247.g1:/ Q S />` to :g:`GN <0247.g1:/ G N />`;
 
 .. subclause::
 
-   and :g:`$QR$ <0247.g1:/ Q R />` is greater than :g:`$HG$ <0247.g1:/ H G />`;
+   and :g:`QR <0247.g1:/ Q R />` is greater than :g:`HG <0247.g1:/ H G />`;
 
 .. assertion::
 
-   therefore :g:`$QS$ <0247.g1:/ Q S />` is also greater than :g:`$GN$ <0247.g1:/ G N />`; so that :g:`$RS$ <0247.g1:< R S >>` is also greater than :g:`$HN$ <0247.g1:< H N >>` \*.
+   therefore :g:`QS <0247.g1:/ Q S />` is also greater than :g:`GN <0247.g1:/ G N />`; so that :g:`RS <0247.g1:< R S >>` is also greater than :g:`HN <0247.g1:< H N >>` \*.
 
 .. assertion::
 
@@ -70,7 +70,7 @@ For, if they are unequal, one of them is greater; let :g:`$RQ$ <0247.g1:/ R Q />
 
 .. assertion::
 
-   Therefore :g:`$QR$ <0247.g1:/ Q R />` is not unequal to :g:`$GH$ <0247.g1:/ G H />`; therefore it is :eq:`equal <0247.g1:/ Q R / = 0247.g1:/ G H />` to it."
+   Therefore :g:`QR <0247.g1:/ Q R />` is not unequal to :g:`GH <0247.g1:/ G H />`; therefore it is :eq:`equal <0247.g1:/ Q R / = 0247.g1:/ G H />` to it."
 
 ----
 
@@ -117,11 +117,11 @@ which makes Euclid's proof of V. 18 illegitimate, since it is nowhere proved in 
 
 Two proofs which are given of the proposition depend upon the following lemma.
 
-*If* :g:`$A$ <0250.g1:A>`, :g:`$B$ <0250.g1:B>`, :g:`$C$ <0250.g1:C>` *be three magnitudes of one kind, and* :g:`$D$ <0250.g1:D>`, :g:`$E$ <0250.g1:E>`, :g:`$F$ <0250.g1:F>` *three magnitudes of one kind, then, if*
+*If* :g:`A <0250.g1:A>`, :g:`B <0250.g1:B>`, :g:`C <0250.g1:C>` *be three magnitudes of one kind, and* :g:`D <0250.g1:D>`, :g:`E <0250.g1:E>`, :g:`F <0250.g1:F>` *three magnitudes of one kind, then, if*
 
 .. container:: center
 
-   *the ratio of* :g:`$A$ <0250.g1:A>` *to* :g:`$B$ <0250.g1:B>` *is greater than that of* :g:`$D$ <0250.g1:D>` *to* :g:`$E$ <0250.g1:E>`, *and the ratio of* :g:`$B$ <0250.g1:B>` *to* :g:`$C$ <0250.g1:C>` *greater than that of* :g:`$E$ <0250.g1:E>` *to* :g:`$F$ <0250.g1:F>`, *ex aequali, the ratio of* :g:`$A$ <0250.g1:A>` *to* :g:`$C$ <0250.g1:C>` *is greater than that of* :g:`$D$ <0250.g1:D>` *to* :g:`$F$ <0250.g1:F>`.
+   *the ratio of* :g:`A <0250.g1:A>` *to* :g:`B <0250.g1:B>` *is greater than that of* :g:`D <0250.g1:D>` *to* :g:`E <0250.g1:E>`, *and the ratio of* :g:`B <0250.g1:B>` *to* :g:`C <0250.g1:C>` *greater than that of* :g:`E <0250.g1:E>` *to* :g:`F <0250.g1:F>`, *ex aequali, the ratio of* :g:`A <0250.g1:A>` *to* :g:`C <0250.g1:C>` *is greater than that of* :g:`D <0250.g1:D>` *to* :g:`F <0250.g1:F>`.
 
 One proof of this does not depend upon the assumption referred to, and therefore, if this proof is used, the theorem can be added to Book V. The proof is that of Hauber (:person:`Camerer <camerer>`'s Euclid, p. 358 of Vol. II.) and is reproduced by Mr H. M. Taylor. For brevity we will use symbols.
 
@@ -149,18 +149,18 @@ Hence [V. Def. 7]
 $$A : C > D : F\text{.}$$
 
 Another proof given by :person:`Clavius <clavius>`, though depending on the assumption referred to, is neat.
-Take :g:`$G$ <0250.g1:G>` such that
+Take :g:`G <0250.g1:G>` such that
 
 .. container:: center
 
-   :g:`$G$ <0250.g1:G>` : :g:`$C$ <0250.g1:C>` = :g:`$E$ <0250.g1:E>` : :g:`$F$ <0250.g1:F>`.
+   :g:`G <0250.g1:G>` : :g:`C <0250.g1:C>` = :g:`E <0250.g1:E>` : :g:`F <0250.g1:F>`.
 
 .. picture:: 0250.g1.svg
    :alt: Book VI, Proposition 22, Clavius diagram
 
 .. container:: center
 
-   Therefore :g:`$B$ <0250.g1:B>` : :g:`$C$ <0250.g1:C>` &gt; :g:`$G$ <0250.g1:G>` : :g:`$C$ <0250.g1:C>`, [V. 13] and :g:`$B$ <0250.g1:B>` &gt; :g:`$G$ <0250.g1:G>`. [V. 10] Therefore :g:`$A$ <0250.g1:A>` : :g:`$G$ <0250.g1:G>` &gt; :g:`$A$ <0250.g1:A>` : :g:`$B$ <0250.g1:B>`. [V. 8]
+   Therefore :g:`B <0250.g1:B>` : :g:`C <0250.g1:C>` &gt; :g:`G <0250.g1:G>` : :g:`C <0250.g1:C>`, [V. 13] and :g:`B <0250.g1:B>` &gt; :g:`G <0250.g1:G>`. [V. 10] Therefore :g:`A <0250.g1:A>` : :g:`G <0250.g1:G>` &gt; :g:`A <0250.g1:A>` : :g:`B <0250.g1:B>`. [V. 8]
 
 .. _folio-ii-0251:
 
@@ -169,13 +169,13 @@ Take :g:`$G$ <0250.g1:G>` such that
 
 .. container:: center
 
-   But :g:`$A$ <0250.g1:A>` : :g:`$B$ <0250.g1:B>` &gt; :g:`$D$ <0250.g1:D>` : :g:`$E$ <0250.g1:E>`. Therefore, :term:`*a fortiori* <a-fortiori>`, :g:`$A$ <0250.g1:A>` : :g:`$G$ <0250.g1:G>` &gt; :g:`$D$ <0250.g1:D>` : :g:`$E$ <0250.g1:E>`.
+   But :g:`A <0250.g1:A>` : :g:`B <0250.g1:B>` &gt; :g:`D <0250.g1:D>` : :g:`E <0250.g1:E>`. Therefore, :term:`*a fortiori* <a-fortiori>`, :g:`A <0250.g1:A>` : :g:`G <0250.g1:G>` &gt; :g:`D <0250.g1:D>` : :g:`E <0250.g1:E>`.
 
-Suppose :g:`$H$ <0250.g1:H>` taken such that
+Suppose :g:`H <0250.g1:H>` taken such that
 
 .. container:: center
 
-   :g:`$H$ <0250.g1:H>` : :g:`$G$ <0250.g1:G>` = :g:`$D$ <0250.g1:D>` : :g:`$E$ <0250.g1:E>`. Therefore :g:`$A$ <0250.g1:A>` &gt; :g:`$H$ <0250.g1:H>`. [V. 13, 10] Hence :g:`$A$ <0250.g1:A>` : :g:`$C$ <0250.g1:C>` &gt; :g:`$H$ <0250.g1:H>` : :g:`$C$ <0250.g1:C>`. [V. 8] But :g:`$H$ <0250.g1:H>` : :g:`$G$ <0250.g1:G>` = :g:`$D$ <0250.g1:D>` : :g:`$E$ <0250.g1:E>`, :g:`$G$ <0250.g1:G>` : :g:`$C$ <0250.g1:C>` = :g:`$E$ <0250.g1:E>` : :g:`$F$ <0250.g1:F>`. Therefore, :term:`*ex aequali* <ex-aequali>`, :g:`$H$ <0250.g1:H>` : :g:`$C$ <0250.g1:C>` = :g:`$D$ <0250.g1:D>` : :g:`$F$ <0250.g1:F>`. [V. 22] Hence :g:`$A$ <0250.g1:A>` : :g:`$C$ <0250.g1:C>` &gt; :g:`$D$ <0250.g1:D>` : :g:`$F$ <0250.g1:F>`. [V. 13]
+   :g:`H <0250.g1:H>` : :g:`G <0250.g1:G>` = :g:`D <0250.g1:D>` : :g:`E <0250.g1:E>`. Therefore :g:`A <0250.g1:A>` &gt; :g:`H <0250.g1:H>`. [V. 13, 10] Hence :g:`A <0250.g1:A>` : :g:`C <0250.g1:C>` &gt; :g:`H <0250.g1:H>` : :g:`C <0250.g1:C>`. [V. 8] But :g:`H <0250.g1:H>` : :g:`G <0250.g1:G>` = :g:`D <0250.g1:D>` : :g:`E <0250.g1:E>`, :g:`G <0250.g1:G>` : :g:`C <0250.g1:C>` = :g:`E <0250.g1:E>` : :g:`F <0250.g1:F>`. Therefore, :term:`*ex aequali* <ex-aequali>`, :g:`H <0250.g1:H>` : :g:`C <0250.g1:C>` = :g:`D <0250.g1:D>` : :g:`F <0250.g1:F>`. [V. 22] Hence :g:`A <0250.g1:A>` : :g:`C <0250.g1:C>` &gt; :g:`D <0250.g1:D>` : :g:`F <0250.g1:F>`. [V. 13]
 
 Now we can prove that
 *Ratios of which equal ratios are duplicate are equal.*

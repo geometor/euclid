@@ -25,7 +25,7 @@ and $a$ is the greatest of the four magnitudes and $d$ the least,
 
 $$a + d > b + c.$$
 
-:person:`Simson <simson>` is right in inserting a word in the setting-out, "let :g:`$AB$ <0191.g1:/ A B />` be the greatest of them and *&lt;consequently&gt;* :g:`$F$ <0191.g1:F>` the least." This follows from the particular case, really included in Def. 5, which :person:`Simson <simson>` makes the subject of his proposition A, the case namely where the equimultiples taken are *once* the several magnitudes.
+:person:`Simson <simson>` is right in inserting a word in the setting-out, "let :g:`AB <0191.g1:/ A B />` be the greatest of them and *&lt;consequently&gt;* :g:`F <0191.g1:F>` the least." This follows from the particular case, really included in Def. 5, which :person:`Simson <simson>` makes the subject of his proposition A, the case namely where the equimultiples taken are *once* the several magnitudes.
 
 The proof is as follows.
 

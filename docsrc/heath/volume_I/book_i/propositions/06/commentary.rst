@@ -17,7 +17,7 @@ Back to :ref:`Proposition I.6 <I.6>`.
 .. folio:: 0270
    :page: 256
 
-:person:`Euclid <euclid>` assumes that, because :g:`$D$ <0269.g1:D>` is between :g:`$A$ <0269.g1:A>` and :g:`$B$ <0269.g1:B>`, the triangle :g:`$DBC$ <0269.g1:< D B C >>` is less than the triangle :g:`$ABC$ <0269.g1:< A B C >>`. Some postulate is necessary to justify this tacit assumption; considering an angle less than two right angles, say the angle :g:`$ACB$ <0269.g1:< A C B )>` in the figure of the proposition, as a cluster of rays issuing from :g:`$C$ <0269.g1:C>` and bounded by the rays :g:`$CA$ <0269.g1:/ C A />`, :g:`$CB$ <0269.g1:/ C B />`, and joining :g:`$AB$ <0269.g1:/ A B />` (where :g:`$A$ <0269.g1:A>`, :g:`$B$ <0269.g1:B>` are any two points on :g:`$CA$ <0269.g1:/ C A />`, :g:`$CB$ <0269.g1:/ C B />` respectively), we see that to each successive ray taken in the direction from :g:`$CA$ <0269.g1:/ C A />` to :g:`$CB$ <0269.g1:/ C B />` there corresponds one point on :g:`$AB$ <0269.g1:/ A B />` in which the said ray intersects :g:`$AB$ <0269.g1:/ A B />`, and that all the points on :g:`$AB$ <0269.g1:/ A B />` taken in order from :g:`$A$ <0269.g1:A>` to :g:`$B$ <0269.g1:B>` correspond univocally to all the rays taken in order from :g:`$CA$ <0269.g1:/ C A />` to :g:`$CB$ <0269.g1:/ C B />`, each point namely to the ray intersecting :g:`$AB$ <0269.g1:/ A B />` in the point.
+:person:`Euclid <euclid>` assumes that, because :g:`D <0269.g1:D>` is between :g:`A <0269.g1:A>` and :g:`B <0269.g1:B>`, the triangle :g:`DBC <0269.g1:< D B C >>` is less than the triangle :g:`ABC <0269.g1:< A B C >>`. Some postulate is necessary to justify this tacit assumption; considering an angle less than two right angles, say the angle :g:`ACB <0269.g1:< A C B )>` in the figure of the proposition, as a cluster of rays issuing from :g:`C <0269.g1:C>` and bounded by the rays :g:`CA <0269.g1:/ C A />`, :g:`CB <0269.g1:/ C B />`, and joining :g:`AB <0269.g1:/ A B />` (where :g:`A <0269.g1:A>`, :g:`B <0269.g1:B>` are any two points on :g:`CA <0269.g1:/ C A />`, :g:`CB <0269.g1:/ C B />` respectively), we see that to each successive ray taken in the direction from :g:`CA <0269.g1:/ C A />` to :g:`CB <0269.g1:/ C B />` there corresponds one point on :g:`AB <0269.g1:/ A B />` in which the said ray intersects :g:`AB <0269.g1:/ A B />`, and that all the points on :g:`AB <0269.g1:/ A B />` taken in order from :g:`A <0269.g1:A>` to :g:`B <0269.g1:B>` correspond univocally to all the rays taken in order from :g:`CA <0269.g1:/ C A />` to :g:`CB <0269.g1:/ C B />`, each point namely to the ray intersecting :g:`AB <0269.g1:/ A B />` in the point.
 
 We have here used, for the first time in the *Elements*, the method of *reductio ad absurdum*, as to which I would refer to the section above (pp. 136, 140) dealing with this among other technical terms.
 
@@ -69,37 +69,37 @@ Why, asks :person:`Proclus <proclus>`, did not :person:`Euclid <euclid>` convert
 .. picture:: 0271.g1.svg
    :alt: Proposition 6 Alternative Proof Diagram
 
-Thus, with the construction of I. 5, we first prove by means of I. 4 that the triangles :g:`$BFC$ <0271.g1:< B F C >>`, :g:`$CGB$ <0271.g1:< C G B >>` are equal in all respects, and therefore that :g:`$FC$ <0271.g1:/ F C />` is equal to :g:`$GB$ <0271.g1:/ G B />`, and the angle :g:`$BFC$ <0271.g1:< B F C )>` equal to the angle :g:`$CGB$ <0271.g1:< C G B )>`. Then we have to prove that :g:`$AF$ <0271.g1:/ A F />`, :g:`$AG$ <0271.g1:/ A G />` are equal. If they are not, let :g:`$AF$ <0271.g1:/ A F />` be the greater, and from :g:`$FA$ <0271.g1:/ F A />` cut off :g:`$FH$ <0271.g1:/ F H />` equal to :g:`$GA$ <0271.g1:/ G A />`. Join :g:`$CH$ <0271.g1:/ C H />`.
+Thus, with the construction of I. 5, we first prove by means of I. 4 that the triangles :g:`BFC <0271.g1:< B F C >>`, :g:`CGB <0271.g1:< C G B >>` are equal in all respects, and therefore that :g:`FC <0271.g1:/ F C />` is equal to :g:`GB <0271.g1:/ G B />`, and the angle :g:`BFC <0271.g1:< B F C )>` equal to the angle :g:`CGB <0271.g1:< C G B )>`. Then we have to prove that :g:`AF <0271.g1:/ A F />`, :g:`AG <0271.g1:/ A G />` are equal. If they are not, let :g:`AF <0271.g1:/ A F />` be the greater, and from :g:`FA <0271.g1:/ F A />` cut off :g:`FH <0271.g1:/ F H />` equal to :g:`GA <0271.g1:/ G A />`. Join :g:`CH <0271.g1:/ C H />`.
 
 .. _folio-i-0272:
 
 .. folio:: 0272
    :page: 258
 
-Then we have, in the two triangles :g:`$HFC$ <0271.g1:< H F C >>`, :g:`$AGB$ <0271.g1:< A G B >>`, two sides :g:`$HF$ <0271.g1:/ H F />`, :g:`$FC$ <0271.g1:/ F C />` equal to two sides :g:`$AG$ <0271.g1:/ A G />`, :g:`$GB$ <0271.g1:/ G B />` and the angle :g:`$HFC$ <0271.g1:< H F C )>` equal to the angle :g:`$AGB$ <0271.g1:< A G B )>`.
+Then we have, in the two triangles :g:`HFC <0271.g1:< H F C >>`, :g:`AGB <0271.g1:< A G B >>`, two sides :g:`HF <0271.g1:/ H F />`, :g:`FC <0271.g1:/ F C />` equal to two sides :g:`AG <0271.g1:/ A G />`, :g:`GB <0271.g1:/ G B />` and the angle :g:`HFC <0271.g1:< H F C )>` equal to the angle :g:`AGB <0271.g1:< A G B )>`.
 
-Therefore (I. 4) the triangles :g:`$HFC$ <0271.g1:< H F C >>`, :g:`$AGB$ <0271.g1:< A G B >>` are equal. But the triangles :g:`$BFC$ <0271.g1:< B F C >>`, :g:`$CGB$ <0271.g1:< C G B >>` are also equal.
+Therefore (I. 4) the triangles :g:`HFC <0271.g1:< H F C >>`, :g:`AGB <0271.g1:< A G B >>` are equal. But the triangles :g:`BFC <0271.g1:< B F C >>`, :g:`CGB <0271.g1:< C G B >>` are also equal.
 
-Therefore (if we take away these equals respectively) the triangles :g:`$HBC$ <0271.g1:< H B C >>`, :g:`$ACB$ <0271.g1:< A C B >>` are equal: which is impossible.
+Therefore (if we take away these equals respectively) the triangles :g:`HBC <0271.g1:< H B C >>`, :g:`ACB <0271.g1:< A C B >>` are equal: which is impossible.
 
-Therefore :g:`$AF$ <0271.g1:/ A F />`, :g:`$AG$ <0271.g1:/ A G />` are not unequal.
+Therefore :g:`AF <0271.g1:/ A F />`, :g:`AG <0271.g1:/ A G />` are not unequal.
 
-Hence :g:`$AF$ <0271.g1:/ A F />` is equal to :g:`$AG$ <0271.g1:/ A G />` and, if we subtract the equals :g:`$BF$ <0271.g1:/ B F />`, :g:`$CG$ <0271.g1:/ C G />` respectively, :g:`$AB$ <0271.g1:/ A B />` is equal to :g:`$AC$ <0271.g1:/ A C />`.
+Hence :g:`AF <0271.g1:/ A F />` is equal to :g:`AG <0271.g1:/ A G />` and, if we subtract the equals :g:`BF <0271.g1:/ B F />`, :g:`CG <0271.g1:/ C G />` respectively, :g:`AB <0271.g1:/ A B />` is equal to :g:`AC <0271.g1:/ A C />`.
 
 This proof is found in the commentary of :person:`an-Nairīzī <an-nairizi>` (ed. Besthorn-Heiberg, p. 61; ed. :person:`Curtze <curtze>`, p. 50).
 
 Alternative proofs of I. 6.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:person:`Todhunter <todhunter>` points out that I. 6, not being wanted till II. 4, could be postponed till later and proved by means of I. 26. Bisect the angle :g:`$BAC$ <0272.g1:< B A C )>` by a straight line meeting the base at :g:`$D$ <0272.g1:D>`. Then the triangles :g:`$ABD$ <0272.g1:< A B D >>`, :g:`$ACD$ <0272.g1:< A C D >>` are equal in all respects.
+:person:`Todhunter <todhunter>` points out that I. 6, not being wanted till II. 4, could be postponed till later and proved by means of I. 26. Bisect the angle :g:`BAC <0272.g1:< B A C )>` by a straight line meeting the base at :g:`D <0272.g1:D>`. Then the triangles :g:`ABD <0272.g1:< A B D >>`, :g:`ACD <0272.g1:< A C D >>` are equal in all respects.
 
 Another method depending on I. 26 is given by :person:`an-Nairīzī <an-nairizi>` after that proposition.
 
 .. picture:: 0272.g1.svg
    :alt: An-Nairizi Proof of I. 6 Diagram
 
-Measure equal lengths :g:`$BD$ <0272.g1:/ B D />`, :g:`$CE$ <0272.g1:/ C E />` along the sides :g:`$BA$ <0272.g1:/ B A />`, :g:`$CA$ <0272.g1:/ C A />`. Join :g:`$BE$ <0272.g1:/ B E />`, :g:`$CD$ <0272.g1:/ C D />`. Then [I. 4] the triangles :g:`$DBC$ <0272.g1:< D B C >>`, :g:`$ECB$ <0272.g1:< E C B >>` are equal in all respects; therefore :g:`$EB$ <0272.g1:/ E B />`, :g:`$DC$ <0272.g1:/ D C />` are equal, and the angles :g:`$BEC$ <0272.g1:< B E C )>`, :g:`$CDB$ <0272.g1:< C D B )>` are equal.
+Measure equal lengths :g:`BD <0272.g1:/ B D />`, :g:`CE <0272.g1:/ C E />` along the sides :g:`BA <0272.g1:/ B A />`, :g:`CA <0272.g1:/ C A />`. Join :g:`BE <0272.g1:/ B E />`, :g:`CD <0272.g1:/ C D />`. Then [I. 4] the triangles :g:`DBC <0272.g1:< D B C >>`, :g:`ECB <0272.g1:< E C B >>` are equal in all respects; therefore :g:`EB <0272.g1:/ E B />`, :g:`DC <0272.g1:/ D C />` are equal, and the angles :g:`BEC <0272.g1:< B E C )>`, :g:`CDB <0272.g1:< C D B )>` are equal.
 
-The supplements of the latter angles are equal [I. 13], and hence the triangles :g:`$ABE$ <0272.g1:< A B E >>`, :g:`$ACD$ <0272.g1:< A C D >>` have two angles equal respectively and the side :g:`$BE$ <0272.g1:/ B E />` equal to the side :g:`$CD$ <0272.g1:/ C D />`.
+The supplements of the latter angles are equal [I. 13], and hence the triangles :g:`ABE <0272.g1:< A B E >>`, :g:`ACD <0272.g1:< A C D >>` have two angles equal respectively and the side :g:`BE <0272.g1:/ B E />` equal to the side :g:`CD <0272.g1:/ C D />`.
 
-Therefore [I. 26] :g:`$AB$ <0272.g1:/ A B />` is equal to :g:`$AC$ <0272.g1:/ A C />`.
+Therefore [I. 26] :g:`AB <0272.g1:/ A B />` is equal to :g:`AC <0272.g1:/ A C />`.

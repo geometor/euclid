@@ -37,38 +37,38 @@ Rectangles, or right-angled triangles, which have one of the sides about the rig
 
 :person:`Legendre <legendre>` (:cite:`*Éléments de Géométrie* <legendre:elements-de-geometrie>`, **III.** 3) uses for this extension a rigorous method by :term:`*reductio ad absurdum* <reductio-ad-absurdum>` similar to that used by :person:`Archimedes <archimedes>` in his treatise :cite:`*On the equilibrium of planes* I. 7 <archimedes:equilibrium-of-planes:i-7>`. The following is :person:`Legendre <legendre>`'s proof of the extension of **VI. 1** to incommensurable parallelograms and bases.
 
-The proposition having been proved for commensurable bases, let there be two rectangles :g:`$ABCD$ <0199.g1:< A B C D >>`, :g:`$AEFD$ <0199.g1:< A E F D >>` as in the figure, on bases :g:`$AB$ <0199.g1:/ A B />`, :g:`$AE$ <0199.g1:/ A E />` which are incommensurable with one another.
+The proposition having been proved for commensurable bases, let there be two rectangles :g:`ABCD <0199.g1:< A B C D >>`, :g:`AEFD <0199.g1:< A E F D >>` as in the figure, on bases :g:`AB <0199.g1:/ A B />`, :g:`AE <0199.g1:/ A E />` which are incommensurable with one another.
 
 .. picture:: 0199.g1.svg
    :alt: Legendre's incommensurable rectangles
 
-To prove that rect. :g:`$ABCD$ <0199.g1:< A B C D >>` : rect. :g:`$AEFD$ <0199.g1:< A E F D >>` = :g:`$AB$ <0199.g1:/ A B />` : :g:`$AE$ <0199.g1:/ A E />`.
+To prove that rect. :g:`ABCD <0199.g1:< A B C D >>` : rect. :g:`AEFD <0199.g1:< A E F D >>` = :g:`AB <0199.g1:/ A B />` : :g:`AE <0199.g1:/ A E />`.
 
-For, if not, let rect. :g:`$ABCD$ <0199.g1:< A B C D >>` : rect. :g:`$AEFD$ <0199.g1:< A E F D >>` = :g:`$AB$ <0199.g1:/ A B />` : :g:`$AO$ <0199.g1:/ A O />`, ....................(1)
+For, if not, let rect. :g:`ABCD <0199.g1:< A B C D >>` : rect. :g:`AEFD <0199.g1:< A E F D >>` = :g:`AB <0199.g1:/ A B />` : :g:`AO <0199.g1:/ A O />`, ....................(1)
 
-where :g:`$AO$ <0199.g1:/ A O />` is (for instance) greater than :g:`$AE$ <0199.g1:/ A E />`.
+where :g:`AO <0199.g1:/ A O />` is (for instance) greater than :g:`AE <0199.g1:/ A E />`.
 
-Divide :g:`$AB$ <0199.g1:/ A B />` into equal parts each of which is less than :g:`$EO$ <0199.g1:/ E O />`, and mark off on :g:`$AO$ <0199.g1:/ A O />` lengths equal to one of the parts; then there will be at least one point of division between :g:`$E$ <0199.g1:E>` and :g:`$O$ <0199.g1:O>`.
+Divide :g:`AB <0199.g1:/ A B />` into equal parts each of which is less than :g:`EO <0199.g1:/ E O />`, and mark off on :g:`AO <0199.g1:/ A O />` lengths equal to one of the parts; then there will be at least one point of division between :g:`E <0199.g1:E>` and :g:`O <0199.g1:O>`.
 
-Let it be :g:`$I$ <0199.g1:I>`, and draw :g:`$IK$ <0199.g1:/ I K />` parallel to :g:`$EF$ <0199.g1:/ E F />`.
+Let it be :g:`I <0199.g1:I>`, and draw :g:`IK <0199.g1:/ I K />` parallel to :g:`EF <0199.g1:/ E F />`.
 
 .. _folio-ii-0200:
 
 .. folio:: 0200
    :page: 194
 
-Then the rectangles :g:`$ABCD$ <0199.g1:< A B C D >>`, :g:`$AIKD$ <0199.g1:< A I K D >>` are in the ratio of the bases :g:`$AB$ <0199.g1:/ A B />`, :g:`$AI$ <0199.g1:/ A I />`, since the latter are commensurable.
+Then the rectangles :g:`ABCD <0199.g1:< A B C D >>`, :g:`AIKD <0199.g1:< A I K D >>` are in the ratio of the bases :g:`AB <0199.g1:/ A B />`, :g:`AI <0199.g1:/ A I />`, since the latter are commensurable.
 
-Therefore, inverting the proportion, rect. :g:`$AIKD$ <0199.g1:< A I K D >>` : rect. :g:`$ABCD$ <0199.g1:< A B C D >>` = :g:`$AI$ <0199.g1:/ A I />` : :g:`$AB$ <0199.g1:/ A B />` ...........................(2).
+Therefore, inverting the proportion, rect. :g:`AIKD <0199.g1:< A I K D >>` : rect. :g:`ABCD <0199.g1:< A B C D >>` = :g:`AI <0199.g1:/ A I />` : :g:`AB <0199.g1:/ A B />` ...........................(2).
 
-From this and (1), :term:`*ex aequali* <ex-aequali>`, rect. :g:`$AIKD$ <0199.g1:< A I K D >>` : rect. :g:`$AEFD$ <0199.g1:< A E F D >>` = :g:`$AI$ <0199.g1:/ A I />` : :g:`$AO$ <0199.g1:/ A O />`.
+From this and (1), :term:`*ex aequali* <ex-aequali>`, rect. :g:`AIKD <0199.g1:< A I K D >>` : rect. :g:`AEFD <0199.g1:< A E F D >>` = :g:`AI <0199.g1:/ A I />` : :g:`AO <0199.g1:/ A O />`.
 
-But :g:`$AO$ <0199.g1:/ A O />` > :g:`$AI$ <0199.g1:/ A I />`; therefore rect. :g:`$AEFD$ <0199.g1:< A E F D >>` > rect.  :g:`$AIKD$ <0199.g1:< A I K D >>`.
+But :g:`AO <0199.g1:/ A O />` > :g:`AI <0199.g1:/ A I />`; therefore rect. :g:`AEFD <0199.g1:< A E F D >>` > rect.  :g:`AIKD <0199.g1:< A I K D >>`.
 
-But this is impossible, for the rectangle :g:`$AEFD$ <0199.g1:< A E F D >>` is less than the rectangle :g:`$AIKD$ <0199.g1:< A I K D >>`.
+But this is impossible, for the rectangle :g:`AEFD <0199.g1:< A E F D >>` is less than the rectangle :g:`AIKD <0199.g1:< A I K D >>`.
 
-Similarly an impossibility can be proved if :g:`$AO$ <0199.g1:/ A O />` < :g:`$AE$ <0199.g1:/ A E />`.
+Similarly an impossibility can be proved if :g:`AO <0199.g1:/ A O />` < :g:`AE <0199.g1:/ A E />`.
 
-Therefore rect. :g:`$ABCD$ <0199.g1:< A B C D >>` : rect. :g:`$AEFD$ <0199.g1:< A E F D >>` = :g:`$AB$ <0199.g1:/ A B />` : :g:`$AE$ <0199.g1:/ A E />`.
+Therefore rect. :g:`ABCD <0199.g1:< A B C D >>` : rect. :g:`AEFD <0199.g1:< A E F D >>` = :g:`AB <0199.g1:/ A B />` : :g:`AE <0199.g1:/ A E />`.
 
 Some modern American and German text-books adopt the less rigorous method of appealing to the theory of *limits*.

@@ -20,54 +20,54 @@ PROPOSITION 17.
 
    From a given point to draw a straight line touching a given circle.
 
-Let :g:`$A$ <0049.g1:A>` be the given point, and :g:`$BCD$ <0049.g1:( B C D )>` the given circle;
-thus it is required to draw from the point :g:`$A$ <0049.g1:A>` a straight line
-touching the circle :g:`$BCD$ <0049.g1:( B C D )>`.
+Let :g:`A <0049.g1:A>` be the given point, and :g:`BCD <0049.g1:( B C D )>` the given circle;
+thus it is required to draw from the point :g:`A <0049.g1:A>` a straight line
+touching the circle :g:`BCD <0049.g1:( B C D )>`.
 
 .. picture:: 0049.g1.svg
    :alt: Diagram for Proposition 17
 
-For let the centre :g:`$E$ <0049.g1:E>` of the circle
+For let the centre :g:`E <0049.g1:E>` of the circle
 be taken; :just:`[III. 1] <III.1>`
-let :g:`$AE$ <0049.g1:/ A E />` be joined, and with centre :g:`$E$ <0049.g1:E>`
-and distance :g:`$EA$ <0049.g1:/ E A />` let the circle :g:`$AFG$ <0049.g1:( A F G )>`
+let :g:`AE <0049.g1:/ A E />` be joined, and with centre :g:`E <0049.g1:E>`
+and distance :g:`EA <0049.g1:/ E A />` let the circle :g:`AFG <0049.g1:( A F G )>`
 be described;
-from :g:`$D$ <0049.g1:D>` let :g:`$DF$ <0049.g1:/ D F />` be drawn at right
-angles to :g:`$EA$ <0049.g1:/ E A />`,
-and let :g:`$EF$ <0049.g1:/ E F />`, :g:`$AB$ <0049.g1:/ A B />` be joined;
-I say that :g:`$AB$ <0049.g1:/ A B />` has been drawn from
-the point :g:`$A$ <0049.g1:A>` touching the circle :g:`$BCD$ <0049.g1:( B C D )>`.
+from :g:`D <0049.g1:D>` let :g:`DF <0049.g1:/ D F />` be drawn at right
+angles to :g:`EA <0049.g1:/ E A />`,
+and let :g:`EF <0049.g1:/ E F />`, :g:`AB <0049.g1:/ A B />` be joined;
+I say that :g:`AB <0049.g1:/ A B />` has been drawn from
+the point :g:`A <0049.g1:A>` touching the circle :g:`BCD <0049.g1:( B C D )>`.
 
-For, since :g:`$E$ <0049.g1:E>` is the centre of the circles :g:`$BCD$ <0049.g1:( B C D )>`, :g:`$AFG$ <0049.g1:( A F G )>`,
-
-.. assertion::
-
-   :g:`$EA$ <0049.g1:/ E A />` is :eq:`equal <0049.g1:/ E A / = 0049.g1:/ E F /; 0049.g1:/ E D / = 0049.g1:/ E B />` to :g:`$EF$ <0049.g1:/ E F />`, and :g:`$ED$ <0049.g1:/ E D />` to :g:`$EB$ <0049.g1:/ E B />`;
-
-therefore the two sides :g:`$AE$ <0049.g1:/ A E />`, :g:`$EB$ <0049.g1:/ E B />` are :eq:`equal <0049.g1:/ A E / = 0049.g1:/ F E /; 0049.g1:/ E B / = 0049.g1:/ E D />` to the two sides
-:g:`$FE$ <0049.g1:/ F E />`, :g:`$ED$ <0049.g1:/ E D />`:
-and they contain a common angle, the angle at :g:`$E$ <0049.g1:E>`;
+For, since :g:`E <0049.g1:E>` is the centre of the circles :g:`BCD <0049.g1:( B C D )>`, :g:`AFG <0049.g1:( A F G )>`,
 
 .. assertion::
 
-   therefore the base :g:`$DF$ <0049.g1:/ D F />` is :eq:`equal <0049.g1:/ D F / = 0049.g1:/ A B />` to the base :g:`$AB$ <0049.g1:/ A B />`, and the triangle :g:`$DEF$ <0049.g1:< D E F >>` is :eq:`equal <0049.g1:< D E F > = 0049.g1:< B E A >>` to the triangle :g:`$BEA$ <0049.g1:< B E A >>`, and the remaining angles to the remaining angles; :just:`[I. 4] <I.4>` therefore the angle :g:`$EDF$ <0049.g1:< E D F )>` is :eq:`equal <0049.g1:< E D F ) = 0049.g1:< E B A )>` to the angle :g:`$EBA$ <0049.g1:< E B A )>`.
+   :g:`EA <0049.g1:/ E A />` is :eq:`equal <0049.g1:/ E A / = 0049.g1:/ E F /; 0049.g1:/ E D / = 0049.g1:/ E B />` to :g:`EF <0049.g1:/ E F />`, and :g:`ED <0049.g1:/ E D />` to :g:`EB <0049.g1:/ E B />`;
 
-But the angle :g:`$EDF$ <0049.g1:< E D F )>` is right;
+therefore the two sides :g:`AE <0049.g1:/ A E />`, :g:`EB <0049.g1:/ E B />` are :eq:`equal <0049.g1:/ A E / = 0049.g1:/ F E /; 0049.g1:/ E B / = 0049.g1:/ E D />` to the two sides
+:g:`FE <0049.g1:/ F E />`, :g:`ED <0049.g1:/ E D />`:
+and they contain a common angle, the angle at :g:`E <0049.g1:E>`;
 
 .. assertion::
 
-   therefore the angle :g:`$EBA$ <0049.g1:< E B A )>` is also right.
+   therefore the base :g:`DF <0049.g1:/ D F />` is :eq:`equal <0049.g1:/ D F / = 0049.g1:/ A B />` to the base :g:`AB <0049.g1:/ A B />`, and the triangle :g:`DEF <0049.g1:< D E F >>` is :eq:`equal <0049.g1:< D E F > = 0049.g1:< B E A >>` to the triangle :g:`BEA <0049.g1:< B E A >>`, and the remaining angles to the remaining angles; :just:`[I. 4] <I.4>` therefore the angle :g:`EDF <0049.g1:< E D F )>` is :eq:`equal <0049.g1:< E D F ) = 0049.g1:< E B A )>` to the angle :g:`EBA <0049.g1:< E B A )>`.
 
-Now :g:`$EB$ <0049.g1:/ E B />` is a radius;
+But the angle :g:`EDF <0049.g1:< E D F )>` is right;
+
+.. assertion::
+
+   therefore the angle :g:`EBA <0049.g1:< E B A )>` is also right.
+
+Now :g:`EB <0049.g1:/ E B />` is a radius;
 and the straight line drawn at right angles to the diameter
 of a circle, from its extremity, touches the circle; :just:`[III. 16, Por.]`
 
 .. assertion::
 
-   therefore :g:`$AB$ <0049.g1:/ A B />` touches the circle :g:`$BCD$ <0049.g1:( B C D )>`.
+   therefore :g:`AB <0049.g1:/ A B />` touches the circle :g:`BCD <0049.g1:( B C D )>`.
 
-Therefore from the given point :g:`$A$ <0049.g1:A>` the straight line :g:`$AB$ <0049.g1:/ A B />`
-has been drawn touching the circle :g:`$BCD$ <0049.g1:( B C D )>`.
+Therefore from the given point :g:`A <0049.g1:A>` the straight line :g:`AB <0049.g1:/ A B />`
+has been drawn touching the circle :g:`BCD <0049.g1:( B C D )>`.
 
 Dependency Graph
 ----------------

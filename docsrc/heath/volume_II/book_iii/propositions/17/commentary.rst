@@ -23,4 +23,4 @@ The construction shows, of course, that two straight lines can be drawn from a g
 
 It is true that Euclid leaves out the case where the given point lies *on* the circumference of the circle, doubtless because the construction is so directly indicated by III. 16, Por. as to be scarcely worth a separate statement.
 
-An easier solution is of course possible as soon as we know (III. 31) that the angle in a semicircle is a right angle; for we have only to describe a circle on :g:`$AE$ <0049.g1:/ A E />` as diameter, and this circle cuts the given circle in the two points of contact.
+An easier solution is of course possible as soon as we know (III. 31) that the angle in a semicircle is a right angle; for we have only to describe a circle on :g:`AE <0049.g1:/ A E />` as diameter, and this circle cuts the given circle in the two points of contact.

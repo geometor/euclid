@@ -20,26 +20,26 @@ PROPOSITION 39.
 
    To find the number which is the least that will have given parts.
 
-Let :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>` be the given parts;
+Let :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>` be the given parts;
 
-thus it is required to find the number which is the least that will have the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`.
+thus it is required to find the number which is the least that will have the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`.
 
 .. picture:: 0349.g1.svg
    :alt: Proposition 39
 
-Let :g:`$D$ <0349.g1:D>`, :g:`$E$ <0349.g1:E>`, :g:`$F$ <0349.g1:F>` be numbers called by the same name as the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`, and let :g:`$G$ <0349.g1:G>`, the least number measured by :g:`$D$ <0349.g1:D>`, :g:`$E$ <0349.g1:E>`, :g:`$F$ <0349.g1:F>`, be taken. :just:`[VII. 36] <VII.36>`
+Let :g:`D <0349.g1:D>`, :g:`E <0349.g1:E>`, :g:`F <0349.g1:F>` be numbers called by the same name as the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`, and let :g:`G <0349.g1:G>`, the least number measured by :g:`D <0349.g1:D>`, :g:`E <0349.g1:E>`, :g:`F <0349.g1:F>`, be taken. :just:`[VII. 36] <VII.36>`
 
 .. assertion:: [VII. 37] <VII.37>
 
-   Therefore :g:`$G$ <0349.g1:G>` has parts called by the same name as :g:`$D$ <0349.g1:D>`, :g:`$E$ <0349.g1:E>`, :g:`$F$ <0349.g1:F>`.
+   Therefore :g:`G <0349.g1:G>` has parts called by the same name as :g:`D <0349.g1:D>`, :g:`E <0349.g1:E>`, :g:`F <0349.g1:F>`.
 
 .. subclause::
 
-   But :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>` are parts called by the same name as :g:`$D$ <0349.g1:D>`, :g:`$E$ <0349.g1:E>`, :g:`$F$ <0349.g1:F>`;
+   But :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>` are parts called by the same name as :g:`D <0349.g1:D>`, :g:`E <0349.g1:E>`, :g:`F <0349.g1:F>`;
 
 .. assertion::
 
-   therefore :g:`$G$ <0349.g1:G>` has the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`.
+   therefore :g:`G <0349.g1:G>` has the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`.
 
 I say next that it is also the least number that has.
 
@@ -48,33 +48,33 @@ I say next that it is also the least number that has.
 .. folio:: 0350
    :page: 344
 
-For, if not, there will be some number less than :g:`$G$ <0349.g1:G>` which will have the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`.
+For, if not, there will be some number less than :g:`G <0349.g1:G>` which will have the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`.
 
-Let it be :g:`$H$ <0349.g1:H>`.
-
-.. subclause::
-
-   Since :g:`$H$ <0349.g1:H>` has the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`,
-
-.. assertion::
-
-   therefore :g:`$H$ <0349.g1:H>` will be measured by numbers called by the same name as the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`. :just:`[VII. 38] <VII.38>`
+Let it be :g:`H <0349.g1:H>`.
 
 .. subclause::
 
-   But :g:`$D$ <0349.g1:D>`, :g:`$E$ <0349.g1:E>`, :g:`$F$ <0349.g1:F>` are numbers called by the same name as the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`;
+   Since :g:`H <0349.g1:H>` has the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`,
 
 .. assertion::
 
-   therefore :g:`$H$ <0349.g1:H>` is measured by :g:`$D$ <0349.g1:D>`, :g:`$E$ <0349.g1:E>`, :g:`$F$ <0349.g1:F>`.
+   therefore :g:`H <0349.g1:H>` will be measured by numbers called by the same name as the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`. :just:`[VII. 38] <VII.38>`
+
+.. subclause::
+
+   But :g:`D <0349.g1:D>`, :g:`E <0349.g1:E>`, :g:`F <0349.g1:F>` are numbers called by the same name as the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`;
 
 .. assertion::
 
-   And it is less than :g:`$G$ <0349.g1:G>`: which is impossible.
+   therefore :g:`H <0349.g1:H>` is measured by :g:`D <0349.g1:D>`, :g:`E <0349.g1:E>`, :g:`F <0349.g1:F>`.
 
 .. assertion::
 
-   Therefore there will be no number less than :g:`$G$ <0349.g1:G>` that will have the parts :g:`$A$ <0349.g1:A>`, :g:`$B$ <0349.g1:B>`, :g:`$C$ <0349.g1:C>`.
+   And it is less than :g:`G <0349.g1:G>`: which is impossible.
+
+.. assertion::
+
+   Therefore there will be no number less than :g:`G <0349.g1:G>` that will have the parts :g:`A <0349.g1:A>`, :g:`B <0349.g1:B>`, :g:`C <0349.g1:C>`.
 
 .. qed::
 

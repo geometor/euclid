@@ -20,14 +20,14 @@ PROPOSITION 8.
 
    If two magnitudes have not to one another the ratio which a number has to a number, the magnitudes will be incommensurable.
 
-For let the two magnitudes :g:`$A$ <0032.g2:A>`, :g:`$B$ <0032.g2:B>` not have to one another the ratio which a number has to a number; I say that the magnitudes :g:`$A$ <0032.g2:A>`, :g:`$B$ <0032.g2:B>` are incommensurable.
+For let the two magnitudes :g:`A <0032.g2:A>`, :g:`B <0032.g2:B>` not have to one another the ratio which a number has to a number; I say that the magnitudes :g:`A <0032.g2:A>`, :g:`B <0032.g2:B>` are incommensurable.
 
 .. picture:: 0032.g2.svg
    :alt: Proposition 8 diagram
 
 .. subclause::
 
-   For, if they are commensurable, :g:`$A$ <0032.g2:A>` will have to :g:`$B$ <0032.g2:B>` the ratio which a number has to a number. :just:`[X. 5] <X.5>`
+   For, if they are commensurable, :g:`A <0032.g2:A>` will have to :g:`B <0032.g2:B>` the ratio which a number has to a number. :just:`[X. 5] <X.5>`
 
 .. subclause::
 
@@ -35,7 +35,7 @@ For let the two magnitudes :g:`$A$ <0032.g2:A>`, :g:`$B$ <0032.g2:B>` not have t
 
 .. assertion::
 
-   therefore the magnitudes :g:`$A$ <0032.g2:A>`, :g:`$B$ <0032.g2:B>` are incommensurable.
+   therefore the magnitudes :g:`A <0032.g2:A>`, :g:`B <0032.g2:B>` are incommensurable.
 
 .. qed::
 

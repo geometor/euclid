@@ -29,61 +29,61 @@ PROPOSITION 37.
 
    the circle and the straight line intercepted on it outside between the point and the convex circumference be equal to the square on the straight line which falls on the circle, the straight line which falls on it will touch the circle.
 
-For let a point :g:`$D$ <0082.g1:D>` be taken outside the circle :g:`$ABC$ <0082.g1:( A B C )>`;
-from :g:`$D$ <0082.g1:D>` let the two straight lines
-:g:`$DCA$ <0082.g1:/ D C A />`, :g:`$DB$ <0082.g1:/ D B />` fall on the circle :g:`$ACB$ <0082.g1:( A C B )>`;
-let :g:`$DCA$ <0082.g1:/ D C A />` cut the circle and :g:`$DB$ <0082.g1:/ D B />`
-fall on it; and let the rectangle :g:`$AD$ <0082.g1:/ A D />`,
-:g:`$DC$ <0082.g1:/ D C />` be equal to the square on :g:`$DB$ <0082.g1:/ D B />`.
+For let a point :g:`D <0082.g1:D>` be taken outside the circle :g:`ABC <0082.g1:( A B C )>`;
+from :g:`D <0082.g1:D>` let the two straight lines
+:g:`DCA <0082.g1:/ D C A />`, :g:`DB <0082.g1:/ D B />` fall on the circle :g:`ACB <0082.g1:( A C B )>`;
+let :g:`DCA <0082.g1:/ D C A />` cut the circle and :g:`DB <0082.g1:/ D B />`
+fall on it; and let the rectangle :g:`AD <0082.g1:/ A D />`,
+:g:`DC <0082.g1:/ D C />` be equal to the square on :g:`DB <0082.g1:/ D B />`.
 
 .. picture:: 0082.g1.svg
    :alt: Proposition 37 diagram
 
-I say that :g:`$DB$ <0082.g1:/ D B />` touches the circle
-:g:`$ABC$ <0082.g1:( A B C )>`.
+I say that :g:`DB <0082.g1:/ D B />` touches the circle
+:g:`ABC <0082.g1:( A B C )>`.
 
-For let :g:`$DE$ <0082.g1:/ D E />` be drawn touching
-:g:`$ABC$ <0082.g1:( A B C )>`; let the centre of the circle :g:`$ABC$ <0082.g1:( A B C )>` be taken, and let it
-be :g:`$F$ <0082.g1:F>`; let :g:`$FE$ <0082.g1:/ F E />`, :g:`$FB$ <0082.g1:/ F B />`, :g:`$FD$ <0082.g1:/ F D />` be joined.
+For let :g:`DE <0082.g1:/ D E />` be drawn touching
+:g:`ABC <0082.g1:( A B C )>`; let the centre of the circle :g:`ABC <0082.g1:( A B C )>` be taken, and let it
+be :g:`F <0082.g1:F>`; let :g:`FE <0082.g1:/ F E />`, :g:`FB <0082.g1:/ F B />`, :g:`FD <0082.g1:/ F D />` be joined.
 
-Thus the angle :g:`$FED$ <0082.g1:< F E D )>` is right. :just:`[III. 18] <III.18>`
+Thus the angle :g:`FED <0082.g1:< F E D )>` is right. :just:`[III. 18] <III.18>`
 
-Now, since :g:`$DE$ <0082.g1:/ D E />` touches the circle :g:`$ABC$ <0082.g1:( A B C )>`, and :g:`$DCA$ <0082.g1:/ D C A />` cuts it,
-the rectangle :g:`$AD$ <0082.g1:/ A D />`, :g:`$DC$ <0082.g1:/ D C />` is equal to the square on :g:`$DE$ <0082.g1:/ D E />`. :just:`[III. 36] <III.36>`
+Now, since :g:`DE <0082.g1:/ D E />` touches the circle :g:`ABC <0082.g1:( A B C )>`, and :g:`DCA <0082.g1:/ D C A />` cuts it,
+the rectangle :g:`AD <0082.g1:/ A D />`, :g:`DC <0082.g1:/ D C />` is equal to the square on :g:`DE <0082.g1:/ D E />`. :just:`[III. 36] <III.36>`
 
-But the rectangle :g:`$AD$ <0082.g1:/ A D />`, :g:`$DC$ <0082.g1:/ D C />` was also equal to the square
-on :g:`$DB$ <0082.g1:/ D B />`;
-therefore the square on :g:`$DE$ <0082.g1:/ D E />` is :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B />` to the square on :g:`$DB$ <0082.g1:/ D B />`;
+But the rectangle :g:`AD <0082.g1:/ A D />`, :g:`DC <0082.g1:/ D C />` was also equal to the square
+on :g:`DB <0082.g1:/ D B />`;
+therefore the square on :g:`DE <0082.g1:/ D E />` is :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B />` to the square on :g:`DB <0082.g1:/ D B />`;
 
 .. assertion::
 
-   therefore :g:`$DE$ <0082.g1:/ D E />` is :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B />` to :g:`$DB$ <0082.g1:/ D B />`.
+   therefore :g:`DE <0082.g1:/ D E />` is :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B />` to :g:`DB <0082.g1:/ D B />`.
 
-And :g:`$FE$ <0082.g1:/ F E />` is :eq:`equal <0082.g1:/ F E / = 0082.g1:/ F B />` to :g:`$FB$ <0082.g1:/ F B />`;
-therefore the two sides :g:`$DE$ <0082.g1:/ D E />`, :g:`$EF$ <0082.g1:/ E F />` are :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B /; 0082.g1:/ E F / = 0082.g1:/ B F />` to the two sides
-:g:`$DB$ <0082.g1:/ D B />`, :g:`$BF$ <0082.g1:/ B F />`;
-and :g:`$FD$ <0082.g1:/ F D />` is the common base of the triangles;
+And :g:`FE <0082.g1:/ F E />` is :eq:`equal <0082.g1:/ F E / = 0082.g1:/ F B />` to :g:`FB <0082.g1:/ F B />`;
+therefore the two sides :g:`DE <0082.g1:/ D E />`, :g:`EF <0082.g1:/ E F />` are :eq:`equal <0082.g1:/ D E / = 0082.g1:/ D B /; 0082.g1:/ E F / = 0082.g1:/ B F />` to the two sides
+:g:`DB <0082.g1:/ D B />`, :g:`BF <0082.g1:/ B F />`;
+and :g:`FD <0082.g1:/ F D />` is the common base of the triangles;
 
 .. assertion:: [I. 8] <I.8>
 
-   therefore the angle :g:`$DEF$ <0082.g1:< D E F )>` is :eq:`equal <0082.g1:< D E F ) = 0082.g1:< D B F )>` to the angle :g:`$DBF$ <0082.g1:< D B F )>`.
+   therefore the angle :g:`DEF <0082.g1:< D E F )>` is :eq:`equal <0082.g1:< D E F ) = 0082.g1:< D B F )>` to the angle :g:`DBF <0082.g1:< D B F )>`.
 
-But the angle :g:`$DEF$ <0082.g1:< D E F )>` is right;
+But the angle :g:`DEF <0082.g1:< D E F )>` is right;
 
 .. assertion::
 
-   therefore the angle :g:`$DBF$ <0082.g1:< D B F )>` is also right.
+   therefore the angle :g:`DBF <0082.g1:< D B F )>` is also right.
 
-And :g:`$FB$ <0082.g1:/ F B />` produced is a diameter;
+And :g:`FB <0082.g1:/ F B />` produced is a diameter;
 and the straight line drawn at right angles to the diameter
 of a circle, from its extremity, touches the circle; :just:`[III. 16, Por.]`
 
 .. assertion::
 
-   therefore :g:`$DB$ <0082.g1:/ D B />` touches the circle.
+   therefore :g:`DB <0082.g1:/ D B />` touches the circle.
 
 Similarly this can be proved to be the case even if the
-centre be on :g:`$AC$ <0082.g1:/ A C />`.
+centre be on :g:`AC <0082.g1:/ A C />`.
 
 .. qed::
 
