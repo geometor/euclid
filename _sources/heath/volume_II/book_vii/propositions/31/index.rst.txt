@@ -78,6 +78,11 @@ Let a number measure it, and let it be :g:`$C$ <0338.g1:C>`.
 
 .. [#f2] **some prime number will be found which will measure.** In the Greek the sentence stops here, but it is necessary to add the words "the number before it, which will also measure :g:`$A$ <0338.g1:A>`," which are found a few lines further down. It is possible that the words may have fallen out of P here by a simple mistake due to ὁμοιοτέλευτον (:person:`Heiberg <heiberg>`).
 
+Required for
+------------
+
+:ref:`VII.32 <VII.32>`, :ref:`IX.13 <IX.13>`, :ref:`IX.20 <IX.20>`, :ref:`IX.32 <IX.32>`, :ref:`IX.36 <IX.36>`
+
 ----
 
 See :ref:`Commentary on Proposition VII.31 <VII.31.commentary>`.

@@ -6,7 +6,7 @@
 :title: Proposition XI.13
 :folios: 0299
 :pages: 295
-:dependencies: XI.3, XI.def.3
+:dependencies: XI.def.3, XI.3
 
 .. _XI.13:
 
@@ -58,6 +58,28 @@ And, since :g:`$CA$ <0299.g1:/ C A />` is at right angles to the plane of refere
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "XI.def.3" [label="XI.def.3", fillcolor="#224422", URL="../../definitions/index.html#xi-def-3", target="_top"];
+     "XI.3" [label="XI.3", fillcolor="#222244", URL="../03/index.html", target="_top"];
+     "XI.13" [label="XI.13", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "XI.13" -> "XI.def.3";
+     "XI.13" -> "XI.3";
+   }
+
+Required for
+------------
+
+:ref:`XI.19 <XI.19>`
 
 ----
 

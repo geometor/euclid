@@ -69,6 +69,78 @@ And further, by proofs similar to those in the case of the
 pentagon, we can both inscribe a circle in the given fifteen-angled
 figure and circumscribe one about it.
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "I.def.10" [label="I.def.10", fillcolor="#224422", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.15" [label="I.def.15", fillcolor="#224422", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.post.1" [label="I.post.1", fillcolor="#444422", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
+     "I.post.2" [label="I.post.2", fillcolor="#444422", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
+     "I.post.3" [label="I.post.3", fillcolor="#444422", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
+     "I.cn.1" [label="I.cn.1", fillcolor="#442222", URL="../../../../volume_I/book_i/common_notions/index.html#i-cn-1", target="_top"];
+     "I.cn.3" [label="I.cn.3", fillcolor="#442222", URL="../../../../volume_I/book_i/common_notions/index.html#i-cn-3", target="_top"];
+     "I.cn.4" [label="I.cn.4", fillcolor="#442222", URL="../../../../volume_I/book_i/common_notions/index.html#i-cn-4", target="_top"];
+     "I.1" [label="I.1", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/01/index.html", target="_top"];
+     "I.2" [label="I.2", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/02/index.html", target="_top"];
+     "I.3" [label="I.3", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/03/index.html", target="_top"];
+     "I.4" [label="I.4", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/04/index.html", target="_top"];
+     "I.5" [label="I.5", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/05/index.html", target="_top"];
+     "I.7" [label="I.7", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/07/index.html", target="_top"];
+     "I.8" [label="I.8", fillcolor="#222244", URL="../../../../volume_I/book_i/propositions/08/index.html", target="_top"];
+     "III.def.11" [label="III.def.11", fillcolor="#224422", URL="../../../book_iii/definitions/index.html#iii-def-11", target="_top"];
+     "III.1" [label="III.1", fillcolor="#222244", URL="../../../book_iii/propositions/01/index.html", target="_top"];
+     "III.5" [label="III.5", fillcolor="#222244", URL="../../../book_iii/propositions/05/index.html", target="_top"];
+     "III.10" [label="III.10", fillcolor="#222244", URL="../../../book_iii/propositions/10/index.html", target="_top"];
+     "III.24" [label="III.24", fillcolor="#222244", URL="../../../book_iii/propositions/24/index.html", target="_top"];
+     "III.26" [label="III.26", fillcolor="#222244", URL="../../../book_iii/propositions/26/index.html", target="_top"];
+     "III.28" [label="III.28", fillcolor="#222244", URL="../../../book_iii/propositions/28/index.html", target="_top"];
+     "III.30" [label="III.30", fillcolor="#222244", URL="../../../book_iii/propositions/30/index.html", target="_top"];
+     "IV.16" [label="IV.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "III.1" -> "I.def.10";
+     "I.1" -> "I.def.15";
+     "I.3" -> "I.def.15";
+     "III.5" -> "I.def.15";
+     "I.1" -> "I.post.1";
+     "I.2" -> "I.post.1";
+     "I.5" -> "I.post.1";
+     "I.7" -> "I.post.1";
+     "I.2" -> "I.post.2";
+     "I.5" -> "I.post.2";
+     "I.1" -> "I.post.3";
+     "I.2" -> "I.post.3";
+     "I.3" -> "I.post.3";
+     "I.1" -> "I.cn.1";
+     "I.2" -> "I.cn.1";
+     "I.3" -> "I.cn.1";
+     "I.2" -> "I.cn.3";
+     "I.4" -> "I.cn.4";
+     "I.2" -> "I.1";
+     "I.3" -> "I.2";
+     "I.5" -> "I.3";
+     "I.5" -> "I.4";
+     "III.26" -> "I.4";
+     "III.30" -> "I.4";
+     "I.7" -> "I.5";
+     "I.8" -> "I.7";
+     "III.1" -> "I.8";
+     "III.28" -> "I.8";
+     "III.26" -> "III.def.11";
+     "III.10" -> "III.1";
+     "III.10" -> "III.5";
+     "III.24" -> "III.10";
+     "III.26" -> "III.24";
+     "III.28" -> "III.26";
+     "III.30" -> "III.28";
+     "IV.16" -> "III.30";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition IV.16 <IV.16.commentary>`.

@@ -80,6 +80,26 @@ Let :g:`$CF$ <0312.g1:/ C F />` be subtracted from each;
 
    :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.5" [label="VII.5", fillcolor="#222244", URL="../05/index.html", target="_top"];
+     "VII.7" [label="VII.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.7" -> "VII.5";
+   }
+
+Required for
+------------
+
+:ref:`VII.8 <VII.8>`, :ref:`VII.11 <VII.11>`, :ref:`IX.35 <IX.35>`, :ref:`IX.36 <IX.36>`
+
 ----
 
 See :ref:`Commentary on Proposition VII.7 <VII.7.commentary>`.

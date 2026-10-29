@@ -65,6 +65,11 @@ Let :g:`$C$ <0336.g1:C>` measure them.
 
    :just:`Q. E. D.`
 
+Required for
+------------
+
+:ref:`VII.30 <VII.30>`, :ref:`IX.12 <IX.12>`, :ref:`IX.13 <IX.13>`, :ref:`IX.14 <IX.14>`, :ref:`IX.32 <IX.32>`, :ref:`IX.36 <IX.36>`
+
 ----
 
 See :ref:`Commentary on Proposition VII.29 <VII.29.commentary>`.

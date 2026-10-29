@@ -47,3 +47,23 @@ I say that the remainder :g:`$CA$ <0420.g3:/ A C />` is even.
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "IX.24" [label="IX.24", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.24" -> "VII.def.6";
+   }
+
+Required for
+------------
+
+:ref:`IX.25 <IX.25>`, :ref:`IX.26 <IX.26>`, :ref:`IX.27 <IX.27>`

@@ -5,7 +5,7 @@ geometor.euclid.graph
 
 .. autoapi-nested-parse::
 
-   Module for building dependency graphs from Euclid's Elements XML.
+   Build dependency graphs and inject Graphviz proof chains into composed RST files under docsrc/heath/.
 
 
 
@@ -15,9 +15,9 @@ Attributes
 .. autoapisummary::
 
    geometor.euclid.graph.ROMAN_NUMERALS
-   geometor.euclid.graph.SECTION_TYPE_MAP
-   geometor.euclid.graph.CATEGORIES_KEYWORDS
-   geometor.euclid.graph.TAGS_KEYWORDS
+   geometor.euclid.graph.ROMAN_TO_INT
+   geometor.euclid.graph.VALID_BOOKS
+   geometor.euclid.graph.SECTION_TYPE_ORDER
 
 
 Functions
@@ -25,9 +25,12 @@ Functions
 
 .. autoapisummary::
 
-   geometor.euclid.graph.get_taxonomy
-   geometor.euclid.graph.convert_inline_xml_to_rst
-   geometor.euclid.graph.parse_book_xml
+   geometor.euclid.graph.infer_justification_target
+   geometor.euclid.graph.parse_justification_arg
+   geometor.euclid.graph.canonical_sort_key
+   geometor.euclid.graph.get_node_type
+   geometor.euclid.graph.extract_dependencies_from_rst_body
+   geometor.euclid.graph.generate_proof_chain_dot
    geometor.euclid.graph.build_graph
 
 
@@ -36,46 +39,54 @@ Module Contents
 
 .. py:data:: ROMAN_NUMERALS
 
-.. py:data:: SECTION_TYPE_MAP
+.. py:data:: ROMAN_TO_INT
 
-.. py:data:: CATEGORIES_KEYWORDS
-   :value: ['construct', 'describe', 'bisect']
+.. py:data:: VALID_BOOKS
 
+.. py:data:: SECTION_TYPE_ORDER
 
-.. py:data:: TAGS_KEYWORDS
-   :value: ['line', 'circle', 'triangle']
+.. py:function:: infer_justification_target(display: str, current_book: Optional[str] = None) -> Optional[str]
 
-
-.. py:function:: get_taxonomy(enunciation_text: str) -> tuple[list[str], list[str]]
-
-   Extract categories and tags from enunciation text.
-
-   :param enunciation_text: The text of the enunciation.
-   :type enunciation_text: str
-
-   :returns: A tuple containing a list of categories and a list of tags.
-   :rtype: tuple
+   Infer canonical target ID(s) from justification text when <target> is omitted.
 
 
-.. py:function:: convert_inline_xml_to_rst(element: xml.etree.ElementTree.Element | None, dependencies: list[str], is_enunciation: bool = False) -> str
+.. py:function:: parse_justification_arg(raw_arg: str, current_book: Optional[str] = None) -> Tuple[str, Optional[str]]
 
-   Converts inline XML elements to RST format.
-
-
-.. py:function:: parse_book_xml(file_path: str | pathlib.Path, entry_number_start: int = 0) -> tuple[dict, int]
-
-   Parses a book XML file and returns structured data.
+   Parse a justification string into (display_text, target_id).
 
 
-.. py:function:: build_graph(xml_dir: pathlib.Path | None = None) -> tuple[networkx.DiGraph, list[dict]]
+.. py:function:: canonical_sort_key(ref_id: str) -> Tuple[int, int, int, int, str]
 
-   Build a NetworkX dependency graph from the XML source files.
+   Return a deterministic sort key for canonical Euclid IDs (e.g. I.def.15, I.post.1, I.cn.4, I.47).
 
-   :param xml_dir: The directory containing the XML book files.
-                   Defaults to 'resources/xml/books' in the project root.
-   :type xml_dir: Path, optional
 
-   :returns: A tuple containing the NetworkX DiGraph and a list of book data dictionaries.
-   :rtype: tuple
+.. py:function:: get_node_type(ref_id: str) -> str
+
+   Classify a canonical Euclid ID into 'prop', 'def', 'post', or 'cn'.
+
+
+.. py:function:: extract_dependencies_from_rst_body(rst_body: str, current_book: Optional[str] = None) -> List[str]
+
+   Extract sorted unique canonical dependency IDs from a composed RST body.
+
+   Strips footnote definitions and trailing commentary dividers so only dependencies
+   from Euclid's proof and porisms are recorded.
+
+
+.. py:function:: generate_proof_chain_dot(graph: networkx.DiGraph, element_ref: str, current_dir: pathlib.Path, label_to_target: Dict[str, Tuple[pathlib.Path, Optional[str]]]) -> str
+
+   Generate a Graphviz DOT string for the transitive proof chain of element_ref.
+
+   Note: Sphinx's ``sphinx.ext.graphviz.fix_svg_relative_paths`` resolves ``URL``
+   attributes in DOT relative to the source RST document's directory (``current_dir``)
+   and rewrites them to be relative to ``_images/`` in the output SVG.
+
+
+.. py:function:: build_graph(heath_out_dir: pathlib.Path | None = None, inject_rst: bool = True) -> Tuple[networkx.DiGraph, Dict[str, Any]]
+
+   Build the NetworkX dependency graph from the composed RST files under docsrc/heath/.
+
+   If inject_rst is True, updates :dependencies: and injects the 'Dependency Graph'
+   (.. graphviz::) and 'Required for' sections into every proposition's index.rst.
 
 

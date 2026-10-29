@@ -81,6 +81,21 @@ For, if possible, let it be so.
 
    :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.31" [label="VII.31", fillcolor="#222244", URL="../../../book_vii/propositions/31/index.html", target="_top"];
+     "IX.20" [label="IX.20", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.20" -> "VII.31";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition IX.20 <IX.20.commentary>`.

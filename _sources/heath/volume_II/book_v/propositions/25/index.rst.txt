@@ -69,6 +69,60 @@ And, since :g:`$AG$ <0191.g1:/ A G />` is :eq:`equal <0191.g1:/ A G / = 0191.g1:
 
    Therefore etc. :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.4" [label="V.def.4", fillcolor="#224422", URL="../../definitions/index.html#v-def-4", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.7" [label="V.def.7", fillcolor="#224422", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.1" [label="V.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
+     "V.2" [label="V.2", fillcolor="#222244", URL="../02/index.html", target="_top"];
+     "V.7" [label="V.7", fillcolor="#222244", URL="../07/index.html", target="_top"];
+     "V.8" [label="V.8", fillcolor="#222244", URL="../08/index.html", target="_top"];
+     "V.10" [label="V.10", fillcolor="#222244", URL="../10/index.html", target="_top"];
+     "V.11" [label="V.11", fillcolor="#222244", URL="../11/index.html", target="_top"];
+     "V.12" [label="V.12", fillcolor="#222244", URL="../12/index.html", target="_top"];
+     "V.13" [label="V.13", fillcolor="#222244", URL="../13/index.html", target="_top"];
+     "V.14" [label="V.14", fillcolor="#222244", URL="../14/index.html", target="_top"];
+     "V.15" [label="V.15", fillcolor="#222244", URL="../15/index.html", target="_top"];
+     "V.16" [label="V.16", fillcolor="#222244", URL="../16/index.html", target="_top"];
+     "V.17" [label="V.17", fillcolor="#222244", URL="../17/index.html", target="_top"];
+     "V.19" [label="V.19", fillcolor="#222244", URL="../19/index.html", target="_top"];
+     "V.25" [label="V.25", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.8" -> "V.def.4";
+     "V.7" -> "V.def.5";
+     "V.12" -> "V.def.5";
+     "V.13" -> "V.def.5";
+     "V.16" -> "V.def.5";
+     "V.8" -> "V.def.7";
+     "V.13" -> "V.def.7";
+     "V.8" -> "V.1";
+     "V.12" -> "V.1";
+     "V.17" -> "V.1";
+     "V.17" -> "V.2";
+     "V.10" -> "V.7";
+     "V.15" -> "V.7";
+     "V.10" -> "V.8";
+     "V.14" -> "V.8";
+     "V.14" -> "V.10";
+     "V.16" -> "V.11";
+     "V.19" -> "V.11";
+     "V.15" -> "V.12";
+     "V.14" -> "V.13";
+     "V.16" -> "V.14";
+     "V.16" -> "V.15";
+     "V.19" -> "V.16";
+     "V.19" -> "V.17";
+     "V.25" -> "V.19";
+   }
+
 ----
 
 See :ref:`Commentary on Proposition V.25 <V.25.commentary>`.

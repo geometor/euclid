@@ -77,6 +77,26 @@ Suppose this done, and let there be left :g:`$AG$ <0021.g1:/ A G />` less than :
 
    Therefore etc. :just:`Q. E. D.`
 
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "X.def.1" [label="X.def.1", fillcolor="#224422", URL="../../definitions/index.html#x-def-1", target="_top"];
+     "X.2" [label="X.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "X.2" -> "X.def.1";
+   }
+
+Required for
+------------
+
+:ref:`X.3 <X.3>`, :ref:`X.4 <X.4>`
+
 ----
 
 See :ref:`Commentary on Proposition X.2 <X.2.commentary>`.

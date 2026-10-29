@@ -6,7 +6,7 @@
 :title: Proposition IX.25
 :folios: 0421
 :pages: 415
-:dependencies: IX.24, VII.def.7
+:dependencies: VII.def.7, IX.24
 
 .. _IX.25:
 
@@ -52,3 +52,22 @@ For let the unit :g:`$CD$ <0421.g1:/ C D />` be subtracted from :g:`$BC$ <0421.g
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.7" [label="VII.def.7", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
+     "IX.24" [label="IX.24", fillcolor="#222244", URL="../24/index.html", target="_top"];
+     "IX.25" [label="IX.25", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "IX.24" -> "VII.def.6";
+     "IX.25" -> "VII.def.7";
+     "IX.25" -> "IX.24";
+   }
