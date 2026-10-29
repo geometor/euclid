@@ -53,7 +53,7 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.31" [label="VII.31", fillcolor="#222244", URL="../31/index.html", target="_top"];
-     "VII.32" [label="VII.32", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.31" [label="VII.31", fillcolor="#222244", tooltip="VII.31: Any composite number is measured by some prime number.", URL="../31/index.html", target="_top"];
+     "VII.32" [label="VII.32", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.32: Any number either is prime or is measured by some prime number.", URL="index.html", target="_top"];
      "VII.32" -> "VII.31";
    }

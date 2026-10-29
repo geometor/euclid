@@ -125,9 +125,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.1" [label="V.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
-     "V.2" [label="V.2", fillcolor="#222244", URL="../02/index.html", target="_top"];
-     "V.17" [label="V.17", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
+     "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
+     "V.17" [label="V.17", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.17: If magnitudes be proportional componendo, they will also be proportional separando.", URL="index.html", target="_top"];
      "V.17" -> "V.1";
      "V.17" -> "V.2";
    }

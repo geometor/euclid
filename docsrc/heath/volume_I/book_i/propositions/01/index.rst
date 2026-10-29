@@ -88,11 +88,11 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "I.def.15" [label="I.def.15", fillcolor="#224422", URL="../../definitions/index.html#i-def-15", target="_top"];
-     "I.post.1" [label="I.post.1", fillcolor="#444422", URL="../../postulates/index.html#i-post-1", target="_top"];
-     "I.post.3" [label="I.post.3", fillcolor="#444422", URL="../../postulates/index.html#i-post-3", target="_top"];
-     "I.cn.1" [label="I.cn.1", fillcolor="#442222", URL="../../common_notions/index.html#i-cn-1", target="_top"];
-     "I.1" [label="I.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../definitions/index.html#i-def-15", target="_top"];
+     "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../postulates/index.html#i-post-1", target="_top"];
+     "I.post.3" [label="I.post.3", fillcolor="#444422", tooltip="I.post.3: To describe a circle with any centre and distance.", URL="../../postulates/index.html#i-post-3", target="_top"];
+     "I.cn.1" [label="I.cn.1", fillcolor="#442222", tooltip="I.cn.1: Things which are equal to the same thing are also equal to one another.", URL="../../common_notions/index.html#i-cn-1", target="_top"];
+     "I.1" [label="I.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="I.1: On a given finite straight line to construct an equilateral triangle.", URL="index.html", target="_top"];
      "I.1" -> "I.def.15";
      "I.1" -> "I.post.1";
      "I.1" -> "I.post.3";

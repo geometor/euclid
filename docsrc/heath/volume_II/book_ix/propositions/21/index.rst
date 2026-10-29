@@ -57,8 +57,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.6" [label="VII.def.6", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
-     "IX.21" [label="IX.21", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "IX.21" [label="IX.21", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.21: If as many even numbers as we please be added together, the whole is even.", URL="index.html", target="_top"];
      "IX.21" -> "VII.def.6";
    }
 

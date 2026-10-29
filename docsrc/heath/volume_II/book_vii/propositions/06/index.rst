@@ -77,8 +77,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.5" [label="VII.5", fillcolor="#222244", URL="../05/index.html", target="_top"];
-     "VII.6" [label="VII.6", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../05/index.html", target="_top"];
+     "VII.6" [label="VII.6", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.6: If a number be parts of a number, and another be the same parts of another, the sum will also be the same parts of the sum that the one is of the one.", URL="index.html", target="_top"];
      "VII.6" -> "VII.5";
    }
 

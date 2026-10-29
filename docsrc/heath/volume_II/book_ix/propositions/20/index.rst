@@ -91,8 +91,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.31" [label="VII.31", fillcolor="#222244", URL="../../../book_vii/propositions/31/index.html", target="_top"];
-     "IX.20" [label="IX.20", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.31" [label="VII.31", fillcolor="#222244", tooltip="VII.31: Any composite number is measured by some prime number.", URL="../../../book_vii/propositions/31/index.html", target="_top"];
+     "IX.20" [label="IX.20", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.20: Prime numbers are more than any assigned multitude of prime numbers.", URL="index.html", target="_top"];
      "IX.20" -> "VII.31";
    }
 

@@ -76,8 +76,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "V.2" [label="V.2", fillcolor="#222244", URL="../02/index.html", target="_top"];
-     "V.3" [label="V.3", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
+     "V.3" [label="V.3", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.3: If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also ex aequali the magnitudes taken…", URL="index.html", target="_top"];
      "V.3" -> "V.2";
    }
 

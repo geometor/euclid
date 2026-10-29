@@ -76,9 +76,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.13" [label="VII.def.13", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-13", target="_top"];
-     "VII.def.15" [label="VII.def.15", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
-     "IX.7" [label="IX.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.13" [label="VII.def.13", fillcolor="#224422", tooltip="VII.def.13: A composite number is that which is measured by some number.", URL="../../../book_vii/definitions/index.html#vii-def-13", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
+     "IX.7" [label="IX.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.7: If a composite number by multiplying any number make some number, the product will be solid.", URL="index.html", target="_top"];
      "IX.7" -> "VII.def.13";
      "IX.7" -> "VII.def.15";
    }

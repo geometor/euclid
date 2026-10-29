@@ -78,8 +78,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "XI.1" [label="XI.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
-     "XI.2" [label="XI.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "XI.1" [label="XI.1", fillcolor="#222244", tooltip="XI.1: A part of a straight line cannot be in the plane of reference and a part in a plane more elevated.", URL="../01/index.html", target="_top"];
+     "XI.2" [label="XI.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.2: If two straight lines cut one another, they are in one plane, and every triangle is in one plane.", URL="index.html", target="_top"];
      "XI.2" -> "XI.1";
    }
 

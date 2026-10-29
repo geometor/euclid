@@ -68,12 +68,12 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.20" [label="VII.def.20", fillcolor="#224422", URL="../../definitions/index.html#vii-def-20", target="_top"];
-     "VII.5" [label="VII.5", fillcolor="#222244", URL="../05/index.html", target="_top"];
-     "VII.6" [label="VII.6", fillcolor="#222244", URL="../06/index.html", target="_top"];
-     "VII.12" [label="VII.12", fillcolor="#222244", URL="../12/index.html", target="_top"];
-     "VII.15" [label="VII.15", fillcolor="#222244", URL="../15/index.html", target="_top"];
-     "VII.37" [label="VII.37", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../definitions/index.html#vii-def-20", target="_top"];
+     "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../05/index.html", target="_top"];
+     "VII.6" [label="VII.6", fillcolor="#222244", tooltip="VII.6: If a number be parts of a number, and another be the same parts of another, the sum will also be the same parts of the sum that the one is of the one.", URL="../06/index.html", target="_top"];
+     "VII.12" [label="VII.12", fillcolor="#222244", tooltip="VII.12: If there be as many numbers as we please in proportion, then, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents.", URL="../12/index.html", target="_top"];
+     "VII.15" [label="VII.15", fillcolor="#222244", tooltip="VII.15: If an unit measure any number, and another number measure any other number the same number of times, alternately also, the unit will measure the third number the same number of…", URL="../15/index.html", target="_top"];
+     "VII.37" [label="VII.37", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.37: If a number be measured by any number, the number which is measured will have a part called by the same name as the measuring number.", URL="index.html", target="_top"];
      "VII.12" -> "VII.def.20";
      "VII.6" -> "VII.5";
      "VII.12" -> "VII.5";

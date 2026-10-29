@@ -118,8 +118,8 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.12" [label="VII.def.12", fillcolor="#224422", URL="../../definitions/index.html#vii-def-12", target="_top"];
-     "VII.28" [label="VII.28", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
+     "VII.28" [label="VII.28", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.28: If two numbers be prime to one another, the sum will also be prime to each of them ; and, if the sum of two numbers be prime to any one of them, the original numbers will also be…", URL="index.html", target="_top"];
      "VII.28" -> "VII.def.12";
    }
 

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
@@ -255,11 +256,53 @@ def _update_frontmatter_dependencies(rst_text: str, deps: List[str]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def clean_rst_enunciation(raw_text: str) -> str:
+    """Strip RST inline roles, footnote markers, emphasis, and item numbers from an enunciation or definition."""
+    s = re.sub(r"\\?\s*\[#[^\]]+\]_", "", raw_text or "")
+    s = re.sub(r"\s*:just:`[^`]+`", "", s)
+    s = re.sub(r":[a-z]+:`([^`<]+?)\s*<[^>]+>`", r"\1", s)
+    s = re.sub(r":[a-z]+:`([^`]+)`", r"\1", s)
+    s = s.replace("**", "").replace("*", "").replace("$", "")
+    s = re.sub(r"^(?:\[\d+\]\s*)?\d+\.\s*", "", s.strip())
+    s = re.sub(r"\s+", " ", s).strip()
+    if s.endswith(";"):
+        s = s[:-1].rstrip() + "."
+    return s
+
+
+def truncate_enunciation(text: str, max_chars: int = 180) -> str:
+    """Collapse whitespace and truncate a long enunciation cleanly at a word boundary."""
+    cleaned = re.sub(r"\s+", " ", (text or "").strip())
+    if len(cleaned) <= max_chars:
+        return cleaned
+    cut = cleaned[:max_chars].rsplit(" ", 1)[0].rstrip(".,;:")
+    return f"{cut}…"
+
+
+def format_node_tooltip(
+    node_id: str, enunciations: Dict[str, str], max_chars: int = 180
+) -> str:
+    """Format a truncated enunciation tooltip for a Graphviz node."""
+    enun = enunciations.get(node_id)
+    if not enun and node_id.lower().startswith("viii.def."):
+        enun = enunciations.get("VII." + node_id[5:])
+    if not enun:
+        for k, v in enunciations.items():
+            if k.lower() == node_id.lower():
+                enun = v
+                break
+    if not enun:
+        return node_id
+    short_text = truncate_enunciation(enun, max_chars=max_chars)
+    return f"{node_id}: {short_text}"
+
+
 def generate_proof_chain_dot(
     graph: nx.DiGraph,
     element_ref: str,
     current_dir: Path,
     label_to_target: Dict[str, Tuple[Path, Optional[str]]],
+    enunciations: Optional[Dict[str, str]] = None,
 ) -> str:
     """Generate a Graphviz DOT string for the transitive proof chain of element_ref.
 
@@ -307,6 +350,10 @@ def generate_proof_chain_dot(
 
         attrs.append(f'fillcolor="{fillcolor}"')
 
+        tooltip_str = format_node_tooltip(node, enunciations or {})
+        esc_tooltip = tooltip_str.replace("\\", "\\\\").replace('"', '\\"')
+        attrs.append(f'tooltip="{esc_tooltip}"')
+
         target_info = label_to_target.get(node.lower())
         if not target_info and node.lower().startswith("viii.def."):
             target_info = label_to_target.get("vii." + node.lower()[5:])
@@ -335,8 +382,9 @@ def build_graph(
 ) -> Tuple[nx.DiGraph, Dict[str, Any]]:
     """Build the NetworkX dependency graph from the composed RST files under docsrc/heath/.
 
-    If inject_rst is True, updates :dependencies: and injects the 'Dependency Graph'
-    (.. graphviz::) and 'Required for' sections into every proposition's index.rst.
+    If inject_rst is True, updates :dependencies:, writes resources/heath/enunciations.json,
+    and injects the 'Dependency Graph' (.. graphviz::) and 'Required for' sections into
+    every proposition's index.rst.
     """
     if heath_out_dir is None:
         current_file = Path(__file__)
@@ -345,8 +393,9 @@ def build_graph(
 
     heath_out_dir = Path(heath_out_dir)
 
-    # 1. Index all explicit labels across docsrc/heath/ to map canonical IDs to (html_path, anchor)
+    # 1. Index all explicit labels and enunciations across docsrc/heath/
     label_to_target: Dict[str, Tuple[Path, Optional[str]]] = {}
+    enunciations: Dict[str, str] = {}
     prop_files: List[Tuple[str, str, Path]] = []
 
     for rst_path in sorted(heath_out_dir.rglob("index.rst")):
@@ -356,10 +405,12 @@ def build_graph(
         m_cid = re.search(r"^:canonical_id:\s*(.+)$", txt, re.MULTILINE)
         m_type = re.search(r"^:type:\s*(.+)$", txt, re.MULTILINE)
         m_book = re.search(r"^:book:\s*(.+)$", txt, re.MULTILINE)
+        m_title = re.search(r"^:title:\s*(.+)$", txt, re.MULTILINE)
 
         cid = m_cid.group(1).strip() if m_cid else ""
         utype = m_type.group(1).strip() if m_type else ""
         book_roman = m_book.group(1).strip() if m_book else "I"
+        title_str = m_title.group(1).strip() if m_title else ""
 
         if cid:
             label_to_target[cid.lower()] = (html_path, None)
@@ -374,6 +425,43 @@ def build_graph(
 
         if utype == "proposition" and cid:
             prop_files.append((cid, book_roman, rst_path))
+            m_enun = re.search(
+                r"\.\.\s+enunciation::\s*\n+((?:[ \t]+.+\n?|\n)+)", txt
+            )
+            if m_enun:
+                cleaned_enun = clean_rst_enunciation(m_enun.group(1))
+                if cleaned_enun:
+                    enunciations[cid] = cleaned_enun
+        elif utype in ("definitions", "postulates", "common_notions"):
+            if cid and title_str:
+                enunciations[cid] = title_str
+            for m_item in re.finditer(
+                r"^\.\.\s+_([^:\n]+):\s*\n+((?:(?!\.\.\s+_).+\n?)+)",
+                txt,
+                re.MULTILINE,
+            ):
+                lbl = m_item.group(1).strip()
+                if lbl.lower().startswith("folio-") or lbl.lower() == cid.lower():
+                    continue
+                para = m_item.group(2).strip().split("\n\n")[0]
+                cleaned_item = clean_rst_enunciation(para)
+                if cleaned_item:
+                    enunciations[lbl] = cleaned_item
+
+    for k, v in list(enunciations.items()):
+        if k.startswith("VII.def."):
+            enunciations["VIII." + k[4:]] = v
+
+    # Save sorted enunciations registry to resources/heath/enunciations.json
+    sorted_enunciations = dict(
+        sorted(enunciations.items(), key=lambda kv: canonical_sort_key(kv[0]))
+    )
+    enun_json_path = heath_out_dir.parent.parent / "resources" / "heath" / "enunciations.json"
+    if enun_json_path.parent.is_dir():
+        enun_json_path.write_text(
+            json.dumps(sorted_enunciations, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
 
     # 2. Extract dependencies from each composed proposition index.rst and build DiGraph
     G = nx.DiGraph()
@@ -421,7 +509,9 @@ def build_graph(
 
             extra_sections: List[str] = []
 
-            dot_str = generate_proof_chain_dot(G, cid, rst_path.parent, label_to_target)
+            dot_str = generate_proof_chain_dot(
+                G, cid, rst_path.parent, label_to_target, enunciations=sorted_enunciations
+            )
             if dot_str:
                 indented_dot = "\n".join(f"   {line}" for line in dot_str.splitlines())
                 extra_sections.append(
@@ -462,6 +552,7 @@ def build_graph(
 
     stats = {
         "propositions_scanned": len(prop_files),
+        "enunciations_indexed": len(sorted_enunciations),
         "total_nodes": G.number_of_nodes(),
         "total_edges": G.number_of_edges(),
         "graphs_injected": graphs_injected,

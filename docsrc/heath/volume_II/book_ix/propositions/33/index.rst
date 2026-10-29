@@ -63,9 +63,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "VII.def.8" [label="VII.def.8", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-8", target="_top"];
-     "VII.def.9" [label="VII.def.9", fillcolor="#224422", URL="../../../book_vii/definitions/index.html#vii-def-9", target="_top"];
-     "IX.33" [label="IX.33", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "VII.def.8" [label="VII.def.8", fillcolor="#224422", tooltip="VII.def.8: An even-times even number is that which is measured by an even number according to an even number.", URL="../../../book_vii/definitions/index.html#vii-def-8", target="_top"];
+     "VII.def.9" [label="VII.def.9", fillcolor="#224422", tooltip="VII.def.9: An even-times odd number is that which is measured by an even number according to an odd number.", URL="../../../book_vii/definitions/index.html#vii-def-9", target="_top"];
+     "IX.33" [label="IX.33", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.33: If a number have its half odd, it is even-times odd only.", URL="index.html", target="_top"];
      "IX.33" -> "VII.def.8";
      "IX.33" -> "VII.def.9";
    }

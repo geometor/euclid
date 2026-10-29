@@ -93,9 +93,9 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
-     "I.def.23" [label="I.def.23", fillcolor="#224422", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
-     "XI.1" [label="XI.1", fillcolor="#222244", URL="../01/index.html", target="_top"];
-     "XI.16" [label="XI.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", URL="index.html", target="_top"];
+     "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
+     "XI.1" [label="XI.1", fillcolor="#222244", tooltip="XI.1: A part of a straight line cannot be in the plane of reference and a part in a plane more elevated.", URL="../01/index.html", target="_top"];
+     "XI.16" [label="XI.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.16: If two parallel planes be cut by any plane, their common sections are parallel.", URL="index.html", target="_top"];
      "XI.16" -> "I.def.23";
      "XI.16" -> "XI.1";
    }
