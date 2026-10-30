@@ -6,12 +6,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>geometor.euclid.compile_edition &mdash; Project name not set  documentation</title>
+  <title>geometor.euclid.compile_edition &mdash; geometor • euclid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=156d9f89" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=3d8cc37d" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -20,7 +20,7 @@
   <link rel="icon" href="../../../../../_static/favicon.ico" />
 </head>
 
-<body>
+<body class="book-theme-classical-serif">
   <header>
     <div class="logo">
       <a href="../../../../../index.html">
@@ -49,7 +49,7 @@
           <a href="../../../../../log/index.html"  >logs</a>
         </li>
         <li>
-          <a href="../../../../index.html"  >modules</a>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
         </li>
         <li>
           <a href="../../../../../refs/index.html"  >references</a>
@@ -61,131 +61,141 @@
     </nav>
     <div class="motto"></div>
   </header>
-  <main>
-    <article>
-      <header>
-      <nav class="breadcrumbs">
-        <span><a href="../../../../../index.html">Home</a></span>
-          <span>/</span>
-        <span><a href="../../../../index.html">modules</a></span>
-      </nav>
-        <nav class="context">
-          <div class="prev">
-             <a href="../__main__/index.html" title="geometor.euclid.__main__" >Prev</a>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; euclid</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">geometor • euclid</a>
           </div>
-          <div class="next">
-            <a href="../folio_review/index.html" title="geometor.euclid.folio_review" >Next</a>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
           </div>
-        </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../__main__/index.html" title="geometor.euclid.__main__">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../folio_review/index.html" title="geometor.euclid.folio_review"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
       </header>
-      <div class="content body" role="main">
+      <div class="content body book-content" role="main">
         <section class="level-1" id="module-geometor.euclid.compile_edition">
-          <span id="geometor-euclid-compile-edition"></span><h1>geometor.euclid.compile_edition<a class="headerlink" href="#module-geometor.euclid.compile_edition" title="Link to this heading">¶</a></h1>
-          <p>De-Pagination and Edition Compiler for GEOMETOR Euclid (Heath Edition).</p>
-          <p>Reads sequential <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.rst</span></code> files across Volumes I, II, and III of
-          <code class="docutils literal notranslate"><span class="pre">resources/heath/</span></code>, detects logical unit headers (chapters, introductions,
-          definitions, postulates, common notions, propositions, lemmas, excursuses,
-          appendices, indices), stitches blocks across folio boundaries with
-          <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">folio::</span></code> milestones, heals mid-sentence page-break splits, separates
-          Heath’s commentary into companion <code class="docutils literal notranslate"><span class="pre">commentary.rst</span></code> files linked via
-          <code class="docutils literal notranslate"><span class="pre">:ref:</span></code>, generates the scholarly apparatus pages (<code class="docutils literal notranslate"><span class="pre">bibliography.rst</span></code>,
-          <code class="docutils literal notranslate"><span class="pre">persons.rst</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary.rst</span></code>), and writes the canonical Heath Edition
-          under <code class="docutils literal notranslate"><span class="pre">docsrc/heath/</span></code>.</p>
-          <section class="level-2" id="classes">
-          <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
-          <table class="autosummary longtable docutils align-default">
-          <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.TaggedBlock" title="geometor.euclid.compile_edition.TaggedBlock"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TaggedBlock</span></code></a></p></td>
-          <td><p>A single RST block tagged with its originating folio and page number.</p></td>
-          </tr>
-          </tbody>
-          </table>
-          </section>
-          <section class="level-2" id="functions">
-          <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
-          <table class="autosummary longtable docutils align-default">
-          <tbody>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_section" title="geometor.euclid.compile_edition.compile_section"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_section</span></code></a>(→ List[pathlib.Path])</p></td>
-          <td><p>Compile a sequential non-book section directory into section_out_dir/index.rst.</p></td>
-          </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_book" title="geometor.euclid.compile_edition.compile_book"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_book</span></code></a>(→ Dict[str, Any])</p></td>
-          <td><p>Compile all sequential &lt;folio&gt;.rst files in a book directory into canonical docsrc units.</p></td>
-          </tr>
-          <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.build_apparatus_pages" title="geometor.euclid.compile_edition.build_apparatus_pages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_apparatus_pages</span></code></a>(→ List[pathlib.Path])</p></td>
-          <td><p>Generate bibliography.rst, persons.rst, and glossary.rst from JSON registries.</p></td>
-          </tr>
-          <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_edition" title="geometor.euclid.compile_edition.compile_edition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_edition</span></code></a>(, heath_out_dir, Any])</p></td>
-          <td><p>Compile the entire 3-volume Heath Edition and scholarly apparatus into docsrc/heath/.</p></td>
-          </tr>
-          </tbody>
-          </table>
-          </section>
-          <section class="level-2" id="module-contents">
-          <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
-          <dl class="py class">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock">
-          <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">TaggedBlock</span></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock" title="Link to this definition">¶</a></dt>
-          <dd><p>A single RST block tagged with its originating folio and page number.</p>
-          <dl class="py attribute">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.text">
-          <span class="sig-name descname"><span class="pre">text</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.text" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+        <span id="geometor-euclid-compile-edition"></span><h1>geometor.euclid.compile_edition<a class="headerlink" href="#module-geometor.euclid.compile_edition" title="Link to this heading">¶</a></h1>
+        <p>De-Pagination and Edition Compiler for GEOMETOR Euclid (Heath Edition).</p>
+        <p>Reads sequential <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.rst</span></code> files across Volumes I, II, and III of
+        <code class="docutils literal notranslate"><span class="pre">resources/heath/</span></code>, detects logical unit headers (chapters, introductions,
+        definitions, postulates, common notions, propositions, lemmas, excursuses,
+        appendices, indices), stitches blocks across folio boundaries with
+        <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">folio::</span></code> milestones, heals mid-sentence page-break splits, separates
+        Heath’s commentary into companion <code class="docutils literal notranslate"><span class="pre">commentary.rst</span></code> files linked via
+        <code class="docutils literal notranslate"><span class="pre">:ref:</span></code>, generates the scholarly apparatus pages (<code class="docutils literal notranslate"><span class="pre">bibliography.rst</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">persons.rst</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary.rst</span></code>), and writes the canonical Heath Edition
+        under <code class="docutils literal notranslate"><span class="pre">docsrc/heath/</span></code>.</p>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.TaggedBlock" title="geometor.euclid.compile_edition.TaggedBlock"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TaggedBlock</span></code></a></p></td>
+        <td><p>A single RST block tagged with its originating folio and page number.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_section" title="geometor.euclid.compile_edition.compile_section"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_section</span></code></a>(→ List[pathlib.Path])</p></td>
+        <td><p>Compile a sequential non-book section directory into section_out_dir/index.rst.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_book" title="geometor.euclid.compile_edition.compile_book"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_book</span></code></a>(→ Dict[str, Any])</p></td>
+        <td><p>Compile all sequential &lt;folio&gt;.rst files in a book directory into canonical docsrc units.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.build_apparatus_pages" title="geometor.euclid.compile_edition.build_apparatus_pages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_apparatus_pages</span></code></a>(→ List[pathlib.Path])</p></td>
+        <td><p>Generate bibliography.rst, persons.rst, and glossary.rst from JSON registries.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_edition" title="geometor.euclid.compile_edition.compile_edition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_edition</span></code></a>(, heath_out_dir, Any])</p></td>
+        <td><p>Compile the entire 3-volume Heath Edition and scholarly apparatus into docsrc/heath/.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">TaggedBlock</span></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock" title="Link to this definition">¶</a></dt>
+        <dd><p>A single RST block tagged with its originating folio and page number.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.text">
+        <span class="sig-name descname"><span class="pre">text</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.text" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
 
-          <dl class="py attribute">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.folio">
-          <span class="sig-name descname"><span class="pre">folio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.folio" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.folio">
+        <span class="sig-name descname"><span class="pre">folio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.folio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
 
-          <dl class="py attribute">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.page">
-          <span class="sig-name descname"><span class="pre">page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.page" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.page">
+        <span class="sig-name descname"><span class="pre">page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.page" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
 
-          <dl class="py attribute">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.source_dir">
-          <span class="sig-name descname"><span class="pre">source_dir</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.source_dir" title="Link to this definition">¶</a></dt>
-          <dd></dd></dl>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock.source_dir">
+        <span class="sig-name descname"><span class="pre">source_dir</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock.source_dir" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
 
-          </dd></dl>
+        </dd></dl>
 
-          <dl class="py function">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.compile_section">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">compile_section</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">section_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">section_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">canonical_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">vol_roman</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">section_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">merge_subtitle</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">order</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_folio_anchors</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.compile_section" title="Link to this definition">¶</a></dt>
-          <dd><p>Compile a sequential non-book section directory into section_out_dir/index.rst.</p>
-          </dd></dl>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.compile_section">
+        <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">compile_section</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">section_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">section_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">canonical_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">vol_roman</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">section_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">merge_subtitle</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">order</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_folio_anchors</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.compile_section" title="Link to this definition">¶</a></dt>
+        <dd><p>Compile a sequential non-book section directory into section_out_dir/index.rst.</p>
+        </dd></dl>
 
-          <dl class="py function">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.compile_book">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">compile_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">book_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">book_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_folio_anchors</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.compile_book" title="Link to this definition">¶</a></dt>
-          <dd><p>Compile all sequential &lt;folio&gt;.rst files in a book directory into canonical docsrc units.</p>
-          </dd></dl>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.compile_book">
+        <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">compile_book</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">book_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">book_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_folio_anchors</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.compile_book" title="Link to this definition">¶</a></dt>
+        <dd><p>Compile all sequential &lt;folio&gt;.rst files in a book directory into canonical docsrc units.</p>
+        </dd></dl>
 
-          <dl class="py function">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.build_apparatus_pages">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">build_apparatus_pages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">heath_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">heath_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_folio_anchors</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.build_apparatus_pages" title="Link to this definition">¶</a></dt>
-          <dd><p>Generate bibliography.rst, persons.rst, and glossary.rst from JSON registries.</p>
-          </dd></dl>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.build_apparatus_pages">
+        <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">build_apparatus_pages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">heath_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">heath_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">seen_folio_anchors</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.build_apparatus_pages" title="Link to this definition">¶</a></dt>
+        <dd><p>Generate bibliography.rst, persons.rst, and glossary.rst from JSON registries.</p>
+        </dd></dl>
 
-          <dl class="py function">
-          <dt class="sig sig-object py" id="geometor.euclid.compile_edition.compile_edition">
-          <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">compile_edition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">heath_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">Path('resources/heath')</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">heath_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">Path('docsrc/heath')</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.compile_edition" title="Link to this definition">¶</a></dt>
-          <dd><p>Compile the entire 3-volume Heath Edition and scholarly apparatus into docsrc/heath/.</p>
-          </dd></dl>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.compile_edition">
+        <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">compile_edition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">heath_src_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">Path('resources/heath')</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">heath_out_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">Path('docsrc/heath')</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.compile_edition.compile_edition" title="Link to this definition">¶</a></dt>
+        <dd><p>Compile the entire 3-volume Heath Edition and scholarly apparatus into docsrc/heath/.</p>
+        </dd></dl>
 
-          </section>
-          </section>
+        </section>
+        </section>
 
       </div>
-      <footer>
-
-        <nav class="context">
-          <div class="prev">
-             <a href="../__main__/index.html" title="geometor.euclid.__main__" >Prev</a>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../__main__/index.html" title="geometor.euclid.__main__">&larr; <span class="nav-label">geometor.euclid.__main__</span></a>
           </div>
-          <div class="next">
-            <a href="../folio_review/index.html" title="geometor.euclid.folio_review" >Next</a>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">geometor • euclid</a>
           </div>
-        </nav>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../folio_review/index.html" title="geometor.euclid.folio_review"><span class="nav-label">geometor.euclid.folio_review</span> &rarr;</a>
+          </div>
+        </div>
       </footer>
     </article>
   </main>
@@ -236,28 +246,28 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="../../../../../about.html">about</a></li>
-        <li><a href="../../../../../changelog.html">changelog</a></li>
-        <li><a href="../../../../../connect.html">onnect</a></li>
-        <li><a href="../../../../../glossary.html">glossary</a></li>
-        <li><a href="../../../../../todos/index.html">todos</a></li>
+        <li><a href="../../../../../about.html"  >about</a></li>
+        <li><a href="../../../../../changelog.html"  >changelog</a></li>
+        <li><a href="../../../../../connect.html"  >onnect</a></li>
+        <li><a href="../../../../../glossary.html"  >glossary</a></li>
+        <li><a href="../../../../../todos/index.html"  >todos</a></li>
       </ul>
     </div>
     <hr />
     <div role="contentinfo">
       <p>
-        &copy; Copyright .
+        &copy; Copyright 2026, geometor.
       </p>
     </div>
   </footer>
 
   <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../../../../../_static/documentation_options.js?v=5929fcd5"></script>
+  <script src="../../../../../_static/documentation_options.js?v=8da8c241"></script>
   <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="../../../../../_static/js/geometor_interactive.js?v=421e4467"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=4430a5d4"></script>
   <script src="../../../../../_static/js/search_highlight.js"></script>
 
 </body>

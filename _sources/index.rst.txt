@@ -1,12 +1,11 @@
-euclid
-======
+GEOMETOR • euclid
+=================
 
 .. include:: intro.rst
 
+----
 
-
-
-indices
+Indices
 -------
 
 * :ref:`genindex`

@@ -6,12 +6,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Heath Euclid Transcription &amp; Reconstruction Guide &mdash; Project name not set  documentation</title>
+  <title>Heath Euclid Transcription &amp; Reconstruction Guide &mdash; geometor • euclid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=156d9f89" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=3d8cc37d" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -20,7 +20,7 @@
   <link rel="icon" href="../_static/favicon.ico" />
 </head>
 
-<body>
+<body class="book-theme-classical-serif">
   <header>
     <div class="logo">
       <a href="../index.html">
@@ -43,7 +43,7 @@
           <a href="../heath/index.html"  >Heath Edition</a>
         </li>
         <li>
-          <a href="index.html"  >usage</a>
+          <a href="index.html" class="is-active" aria-selected="true" >usage</a>
         </li>
         <li>
           <a href="../log/index.html"  >logs</a>
@@ -61,303 +61,311 @@
     </nav>
     <div class="motto"></div>
   </header>
-  <main>
-    <article>
-      <header>
-      <nav class="breadcrumbs">
-        <span><a href="../index.html">Home</a></span>
-          <span>/</span>
-        <span><a href="index.html">usage</a></span>
-      </nav>
-        <nav class="context">
-          <div class="prev">
-             <a href="index.html" title="usage" >Prev</a>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; euclid</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">geometor • euclid</a>
           </div>
-          <div class="next">
-            <a href="../modules/index.html" title="modules" >Next</a>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">usage</a>
           </div>
-        </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="index.html" title="usage">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="modules"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
       </header>
-      <div class="content body" role="main">
+      <div class="content body book-content" role="main">
         <section id="heath-euclid-transcription-reconstruction-guide">
-          <h1>Heath Euclid Transcription &amp; Reconstruction Guide<a class="headerlink" href="#heath-euclid-transcription-reconstruction-guide" title="Link to this heading">¶</a></h1>
-          <section id="overview">
-          <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
-          <p>This guide establishes the architecture, standards, and procedures for transcribing and reconstructing Sir Thomas L. Heath’s <em>The Thirteen Books of Euclid’s Elements</em> (Volumes I–III, covering Books I through XIII).</p>
-          <p>Our methodology is <strong>Zero-OCR</strong>: all text is visually verified directly from the high-resolution page scans (<code class="docutils literal notranslate"><span class="pre">XXXX.png</span></code>), ensuring complete accuracy for polytonic Greek, Arabic transliterations, mathematical symbols, footnotes, and geometric diagrams.</p>
-          </section>
-          <hr class="docutils" />
-          <section id="directory-structure-co-location-standard">
-          <h2>1. Directory Structure &amp; Co-location Standard<a class="headerlink" href="#directory-structure-co-location-standard" title="Link to this heading">¶</a></h2>
-          <section id="atomic-page-files-in-resources">
-          <h3>Atomic Page Files in <code class="docutils literal notranslate"><span class="pre">resources/</span></code><a class="headerlink" href="#atomic-page-files-in-resources" title="Link to this heading">¶</a></h3>
-          <p>All atomic markdown page transcriptions must reside <strong>directly alongside the original scan images</strong>:</p>
-          <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>resources/heath/volume_I/
-          ├── book_i/
-          │   ├── definitions/
-          │   │   ├── 0167.png
-          │   │   └── 0167.md          &lt;-- Markdown alongside scan
-          │   ├── postulates/
-          │   │   ├── 0168.png
-          │   │   └── 0168.md
-          │   ├── common_notions/
-          │   │   ├── 0174.png
-          │   │   ├── 0174.md
-          │   │   ├── 0174.json        &lt;-- Crop info metadata
-          │   │   ├── 0174.g1.png      &lt;-- Clustered graphic 1
-          │   │   └── 0174.g1.inverted.png
-          │   └── propositions/
-          │       ├── 0255.png
-          │       ├── 0255.md
-          │       ├── 0255.json        &lt;-- Crop info metadata
-          │       ├── 0255.g1.png      &lt;-- Clustered graphic 1
-          │       └── 0255.g1.inverted.png
-          </pre></div>
-          </div>
-          </section>
-          <section id="demonstration-graphics-naming-standard">
-          <h3>Demonstration Graphics Naming Standard<a class="headerlink" href="#demonstration-graphics-naming-standard" title="Link to this heading">¶</a></h3>
-          <p>All assets for a given page follow the folio number as their base:</p>
-          <ol class="arabic simple">
-          <li><p><strong>Source Scan</strong>: <code class="docutils literal notranslate"><span class="pre">0021.png</span></code></p></li>
-          <li><p><strong>Markdown Transcription</strong>: <code class="docutils literal notranslate"><span class="pre">0021.md</span></code></p></li>
-          <li><p><strong>Crop Info Metadata</strong>: <code class="docutils literal notranslate"><span class="pre">0021.json</span></code> (stores bounding boxes, crop parameters, label info, offsets)</p></li>
-          <li><p><strong>Transcription Notes (Optional)</strong>: <code class="docutils literal notranslate"><span class="pre">0021.notes.md</span></code> (documents difficult-to-interpret passages, faint ink, polytonic Greek ambiguities, source typos corrected, or editorial decisions)</p></li>
-          <li><p><strong>Graphic 1</strong>: <code class="docutils literal notranslate"><span class="pre">0021.g1.png</span></code></p></li>
-          <li><p><strong>Inverted Graphic 1 (Dark Mode)</strong>: <code class="docutils literal notranslate"><span class="pre">0021.g1.inverted.png</span></code></p></li>
-          <li><p><strong>Subsequent Graphics</strong> (if multiple exist on a page): <code class="docutils literal notranslate"><span class="pre">0021.g2.png</span></code>, <code class="docutils literal notranslate"><span class="pre">0021.g2.inverted.png</span></code>, etc.</p></li>
-          </ol>
-          <p>This naming guarantees that all related files for a page cluster together alphabetically in file managers, editors, and CLI listings.</p>
-          <p>Inside the local <code class="docutils literal notranslate"><span class="pre">.md</span></code> file, reference the graphic relatively:</p>
-          <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>![<span class="nt">Proposition 1 figure</span>](<span class="na">0255.g1.png</span>)
-          </pre></div>
-          </div>
-          </section>
-          <section id="transcription-notes-folio-notes-md">
-          <h3>Transcription Notes (<code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.notes.md</span></code>)<a class="headerlink" href="#transcription-notes-folio-notes-md" title="Link to this heading">¶</a></h3>
-          <p>Whenever an agent encounters:</p>
-          <ul class="simple">
-          <li><p>Hard-to-read Greek characters, faint breathings/accents, or broken type requiring zoom inspection.</p></li>
-          <li><p>Apparent printed typographical errors in Heath’s original edition.</p></li>
-          <li><p>Textual discrepancies between Heath’s translation and the Perseus TEI XML.</p></li>
-          <li><p>Commentary references that are obscure or require clarification.</p></li>
-          </ul>
-          <p>The agent writes a <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.notes.md</span></code> file in the same folder. This preserves full scholarly rigor without cluttering the clean primary transcription in <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.md</span></code>.</p>
-          <blockquote>
-          <div><p>[!NOTE]
-          <strong>No Mirroring Yet</strong>: Do not mirror graphics to <code class="docutils literal notranslate"><span class="pre">docsrc/heath/_static/graphics/</span></code> at this stage. Our current priority is exclusively collecting and perfecting all transcription data and assets inside <code class="docutils literal notranslate"><span class="pre">resources/</span></code>. Publishing and documentation generation will occur in a later phase.</p>
-          </div></blockquote>
-          </section>
-          </section>
-          <hr class="docutils" />
-          <section id="granularity-few-shot-subagent-protocol">
-          <h2>2. Granularity &amp; Few-Shot Subagent Protocol<a class="headerlink" href="#granularity-few-shot-subagent-protocol" title="Link to this heading">¶</a></h2>
-          <section id="granular-work-units">
-          <h3>Granular Work Units<a class="headerlink" href="#granular-work-units" title="Link to this heading">¶</a></h3>
-          <p>Subagents maintain significantly higher accuracy and speed when constrained to small batches:</p>
-          <ul class="simple">
-          <li><p><strong>First Principles / Commentaries</strong>: 1 to 2 folios per task.</p></li>
-          <li><p><strong>Propositions</strong>: 1 proposition and its immediate commentary (typically 1 to 3 folios).</p></li>
-          </ul>
-          </section>
-          <section id="few-shot-context-pattern">
-          <h3>Few-Shot Context Pattern<a class="headerlink" href="#few-shot-context-pattern" title="Link to this heading">¶</a></h3>
-          <p>When dispatching a transcription subagent, always provide:</p>
-          <ol class="arabic simple">
-          <li><p><strong>Preceding Reference Files</strong>: Provide paths to the immediately preceding 1–2 completed <code class="docutils literal notranslate"><span class="pre">.md</span></code> and <code class="docutils literal notranslate"><span class="pre">.png</span></code> files as concrete examples of formatting, tone, and footnote style.</p></li>
-          <li><p><strong>Current Target Folio(s)</strong>: Path to the target <code class="docutils literal notranslate"><span class="pre">.png</span></code> scan(s).</p></li>
-          <li><p><strong>Pre-detected Graphics (if any)</strong>: If a graphic was detected on the page, provide the graphic path <code class="docutils literal notranslate"><span class="pre">0255.g1.png</span></code> so the subagent can insert the image tag at the appropriate place in the text.</p></li>
-          <li><p><strong>Output Target Path</strong>: Specific <code class="docutils literal notranslate"><span class="pre">resources/.../XXXX.md</span></code> path.</p></li>
-          </ol>
-          </section>
-          </section>
-          <hr class="docutils" />
-          <section id="compound-footnote-standard-page-num">
-          <h2>3. Compound Footnote Standard (<code class="docutils literal notranslate"><span class="pre">[^&lt;page&gt;_&lt;num&gt;]</span></code>)<a class="headerlink" href="#compound-footnote-standard-page-num" title="Link to this heading">¶</a></h2>
-          <p>Heath restarts footnote numbering (<code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">3</span></code>…) on every printed page. To allow seamless concatenation of atomic pages into unified chapter/section documents without identifier collisions, use the <strong>compound footnote format</strong>:</p>
-          <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>&lt;!-- In page 89 (folio 0103.md) --&gt;
-          ...mentioned in the <span class="ge">*Fihrist*</span>[^89_1]...
-          ...as noted by Steinschneider[^89_2]...
+        <h1>Heath Euclid Transcription &amp; Reconstruction Guide<a class="headerlink" href="#heath-euclid-transcription-reconstruction-guide" title="Link to this heading">¶</a></h1>
+        <section id="overview">
+        <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
+        <p>This guide establishes the architecture, standards, and procedures for transcribing and reconstructing Sir Thomas L. Heath’s <em>The Thirteen Books of Euclid’s Elements</em> (Volumes I–III, covering Books I through XIII).</p>
+        <p>Our methodology is <strong>Zero-OCR</strong>: all text is visually verified directly from the high-resolution page scans (<code class="docutils literal notranslate"><span class="pre">XXXX.png</span></code>), ensuring complete accuracy for polytonic Greek, Arabic transliterations, mathematical symbols, footnotes, and geometric diagrams.</p>
+        </section>
+        <hr class="docutils" />
+        <section id="directory-structure-co-location-standard">
+        <h2>1. Directory Structure &amp; Co-location Standard<a class="headerlink" href="#directory-structure-co-location-standard" title="Link to this heading">¶</a></h2>
+        <section id="atomic-page-files-in-resources">
+        <h3>Atomic Page Files in <code class="docutils literal notranslate"><span class="pre">resources/</span></code><a class="headerlink" href="#atomic-page-files-in-resources" title="Link to this heading">¶</a></h3>
+        <p>All atomic markdown page transcriptions must reside <strong>directly alongside the original scan images</strong>:</p>
+        <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>resources/heath/volume_I/
+        ├── book_i/
+        │   ├── definitions/
+        │   │   ├── 0167.png
+        │   │   └── 0167.md          &lt;-- Markdown alongside scan
+        │   ├── postulates/
+        │   │   ├── 0168.png
+        │   │   └── 0168.md
+        │   ├── common_notions/
+        │   │   ├── 0174.png
+        │   │   ├── 0174.md
+        │   │   ├── 0174.json        &lt;-- Crop info metadata
+        │   │   ├── 0174.g1.png      &lt;-- Clustered graphic 1
+        │   │   └── 0174.g1.inverted.png
+        │   └── propositions/
+        │       ├── 0255.png
+        │       ├── 0255.md
+        │       ├── 0255.json        &lt;-- Crop info metadata
+        │       ├── 0255.g1.png      &lt;-- Clustered graphic 1
+        │       └── 0255.g1.inverted.png
+        </pre></div>
+        </div>
+        </section>
+        <section id="demonstration-graphics-naming-standard">
+        <h3>Demonstration Graphics Naming Standard<a class="headerlink" href="#demonstration-graphics-naming-standard" title="Link to this heading">¶</a></h3>
+        <p>All assets for a given page follow the folio number as their base:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Source Scan</strong>: <code class="docutils literal notranslate"><span class="pre">0021.png</span></code></p></li>
+        <li><p><strong>Markdown Transcription</strong>: <code class="docutils literal notranslate"><span class="pre">0021.md</span></code></p></li>
+        <li><p><strong>Crop Info Metadata</strong>: <code class="docutils literal notranslate"><span class="pre">0021.json</span></code> (stores bounding boxes, crop parameters, label info, offsets)</p></li>
+        <li><p><strong>Transcription Notes (Optional)</strong>: <code class="docutils literal notranslate"><span class="pre">0021.notes.md</span></code> (documents difficult-to-interpret passages, faint ink, polytonic Greek ambiguities, source typos corrected, or editorial decisions)</p></li>
+        <li><p><strong>Graphic 1</strong>: <code class="docutils literal notranslate"><span class="pre">0021.g1.png</span></code></p></li>
+        <li><p><strong>Inverted Graphic 1 (Dark Mode)</strong>: <code class="docutils literal notranslate"><span class="pre">0021.g1.inverted.png</span></code></p></li>
+        <li><p><strong>Subsequent Graphics</strong> (if multiple exist on a page): <code class="docutils literal notranslate"><span class="pre">0021.g2.png</span></code>, <code class="docutils literal notranslate"><span class="pre">0021.g2.inverted.png</span></code>, etc.</p></li>
+        </ol>
+        <p>This naming guarantees that all related files for a page cluster together alphabetically in file managers, editors, and CLI listings.</p>
+        <p>Inside the local <code class="docutils literal notranslate"><span class="pre">.md</span></code> file, reference the graphic relatively:</p>
+        <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>![<span class="nt">Proposition 1 figure</span>](<span class="na">0255.g1.png</span>)
+        </pre></div>
+        </div>
+        </section>
+        <section id="transcription-notes-folio-notes-md">
+        <h3>Transcription Notes (<code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.notes.md</span></code>)<a class="headerlink" href="#transcription-notes-folio-notes-md" title="Link to this heading">¶</a></h3>
+        <p>Whenever an agent encounters:</p>
+        <ul class="simple">
+        <li><p>Hard-to-read Greek characters, faint breathings/accents, or broken type requiring zoom inspection.</p></li>
+        <li><p>Apparent printed typographical errors in Heath’s original edition.</p></li>
+        <li><p>Textual discrepancies between Heath’s translation and the Perseus TEI XML.</p></li>
+        <li><p>Commentary references that are obscure or require clarification.</p></li>
+        </ul>
+        <p>The agent writes a <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.notes.md</span></code> file in the same folder. This preserves full scholarly rigor without cluttering the clean primary transcription in <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.md</span></code>.</p>
+        <blockquote>
+        <div><p>[!NOTE]
+        <strong>No Mirroring Yet</strong>: Do not mirror graphics to <code class="docutils literal notranslate"><span class="pre">docsrc/heath/_static/graphics/</span></code> at this stage. Our current priority is exclusively collecting and perfecting all transcription data and assets inside <code class="docutils literal notranslate"><span class="pre">resources/</span></code>. Publishing and documentation generation will occur in a later phase.</p>
+        </div></blockquote>
+        </section>
+        </section>
+        <hr class="docutils" />
+        <section id="granularity-few-shot-subagent-protocol">
+        <h2>2. Granularity &amp; Few-Shot Subagent Protocol<a class="headerlink" href="#granularity-few-shot-subagent-protocol" title="Link to this heading">¶</a></h2>
+        <section id="granular-work-units">
+        <h3>Granular Work Units<a class="headerlink" href="#granular-work-units" title="Link to this heading">¶</a></h3>
+        <p>Subagents maintain significantly higher accuracy and speed when constrained to small batches:</p>
+        <ul class="simple">
+        <li><p><strong>First Principles / Commentaries</strong>: 1 to 2 folios per task.</p></li>
+        <li><p><strong>Propositions</strong>: 1 proposition and its immediate commentary (typically 1 to 3 folios).</p></li>
+        </ul>
+        </section>
+        <section id="few-shot-context-pattern">
+        <h3>Few-Shot Context Pattern<a class="headerlink" href="#few-shot-context-pattern" title="Link to this heading">¶</a></h3>
+        <p>When dispatching a transcription subagent, always provide:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Preceding Reference Files</strong>: Provide paths to the immediately preceding 1–2 completed <code class="docutils literal notranslate"><span class="pre">.md</span></code> and <code class="docutils literal notranslate"><span class="pre">.png</span></code> files as concrete examples of formatting, tone, and footnote style.</p></li>
+        <li><p><strong>Current Target Folio(s)</strong>: Path to the target <code class="docutils literal notranslate"><span class="pre">.png</span></code> scan(s).</p></li>
+        <li><p><strong>Pre-detected Graphics (if any)</strong>: If a graphic was detected on the page, provide the graphic path <code class="docutils literal notranslate"><span class="pre">0255.g1.png</span></code> so the subagent can insert the image tag at the appropriate place in the text.</p></li>
+        <li><p><strong>Output Target Path</strong>: Specific <code class="docutils literal notranslate"><span class="pre">resources/.../XXXX.md</span></code> path.</p></li>
+        </ol>
+        </section>
+        </section>
+        <hr class="docutils" />
+        <section id="compound-footnote-standard-page-num">
+        <h2>3. Compound Footnote Standard (<code class="docutils literal notranslate"><span class="pre">[^&lt;page&gt;_&lt;num&gt;]</span></code>)<a class="headerlink" href="#compound-footnote-standard-page-num" title="Link to this heading">¶</a></h2>
+        <p>Heath restarts footnote numbering (<code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">3</span></code>…) on every printed page. To allow seamless concatenation of atomic pages into unified chapter/section documents without identifier collisions, use the <strong>compound footnote format</strong>:</p>
+        <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>&lt;!-- In page 89 (folio 0103.md) --&gt;
+        ...mentioned in the <span class="ge">*Fihrist*</span>[^89_1]...
+        ...as noted by Steinschneider[^89_2]...
 
-          [<span class="nl">^89_1</span>]: <span class="na">*Fihrist*, p. 265.</span>
-          [<span class="nl">^89_2</span>]: <span class="na">*Zeitschrift für Math. u. Phys.* xxxv. (1890).</span>
-          </pre></div>
-          </div>
-          <section id="key-rules">
-          <h3>Key Rules:<a class="headerlink" href="#key-rules" title="Link to this heading">¶</a></h3>
-          <ul class="simple">
-          <li><p>The prefix is the <strong>printed page number</strong> (e.g., <code class="docutils literal notranslate"><span class="pre">89</span></code>), followed by an underscore <code class="docutils literal notranslate"><span class="pre">_</span></code> and the footnote index (<code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">3</span></code>).</p></li>
-          <li><p>In commentary and proposition text, footnote definitions appear at the bottom of the atomic <code class="docutils literal notranslate"><span class="pre">.md</span></code> file.</p></li>
-          </ul>
-          </section>
-          </section>
-          <hr class="docutils" />
-          <section id="diagram-detection-cropping-pipeline">
-          <h2>4. Diagram Detection &amp; Cropping Pipeline<a class="headerlink" href="#diagram-detection-cropping-pipeline" title="Link to this heading">¶</a></h2>
-          <section id="upfront-pre-transcription-detection">
-          <h3>Upfront Pre-Transcription Detection<a class="headerlink" href="#upfront-pre-transcription-detection" title="Link to this heading">¶</a></h3>
-          <p>We run the detection script <strong>before</strong> launching transcription for a folio. This determines upfront whether a graphic is present, identifies its bounding box, and generates <code class="docutils literal notranslate"><span class="pre">XXXX.json</span></code> and <code class="docutils literal notranslate"><span class="pre">XXXX.g1.png</span></code>. The transcription subagent is then simply instructed to position the image tag at the correct narrative location.</p>
-          <p>The automated pipeline is in <code class="docutils literal notranslate"><span class="pre">src/geometor/euclid/ingest/detect_graphics_cv.py</span></code> and <code class="docutils literal notranslate"><span class="pre">src/geometor/euclid/scripts/graphic_tool.py</span></code>.</p>
-          </section>
-          <section id="running-with-uv">
-          <h3>Running with <code class="docutils literal notranslate"><span class="pre">uv</span></code>:<a class="headerlink" href="#running-with-uv" title="Link to this heading">¶</a></h3>
-          <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>&lt;command&gt;
-          </pre></div>
-          </div>
-          </section>
-          <section id="commands">
-          <h3>Commands:<a class="headerlink" href="#commands" title="Link to this heading">¶</a></h3>
-          <section id="auto-detect-graphic-bounding-box">
-          <h4>1. Auto-Detect Graphic Bounding Box<a class="headerlink" href="#auto-detect-graphic-bounding-box" title="Link to this heading">¶</a></h4>
-          <p>Analyzes connected components, filters horizontal text lines, and finds the core diagram and letter labels:</p>
-          <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>detect<span class="w"> </span>&lt;path/to/scan.png&gt;
-          </pre></div>
-          </div>
-          <p>Output:</p>
-          <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-          <span class="w">  </span><span class="nt">"x_offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">343</span><span class="p">,</span>
-          <span class="w">  </span><span class="nt">"y_offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">158</span><span class="p">,</span>
-          <span class="w">  </span><span class="nt">"crop_box"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">287</span><span class="p">,</span><span class="w"> </span><span class="mi">189</span><span class="p">]</span>
-          <span class="p">}</span>
-          </pre></div>
-          </div>
-          </section>
-          <section id="crop-clean-invert-and-save-metadata-json">
-          <h4>2. Crop, Clean, Invert, and Save Metadata JSON<a class="headerlink" href="#crop-clean-invert-and-save-metadata-json" title="Link to this heading">¶</a></h4>
-          <p>Crops the specified bounding box, performs linear levels adjustment (<code class="docutils literal notranslate"><span class="pre">white_point=226</span></code>) to eliminate paper bleed-through, creates <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.g1.inverted.png</span></code>, and saves crop info to <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.json</span></code>:</p>
-          <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>crop<span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>resources/heath/volume_I/book_i/propositions/0255.png<span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>resources/heath/volume_I/book_i/propositions/0255.g1.png<span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>--bbox<span class="w"> </span><span class="m">343</span><span class="w"> </span><span class="m">158</span><span class="w"> </span><span class="m">287</span><span class="w"> </span><span class="m">189</span><span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>--invert
-          </pre></div>
-          </div>
-          </section>
-          <section id="precomputed-proposition-catalog">
-          <h4>3. Precomputed Proposition Catalog<a class="headerlink" href="#precomputed-proposition-catalog" title="Link to this heading">¶</a></h4>
-          <p>All 48 propositions of Book I (and books throughout Volumes I–III) have precomputed baseline offsets in:
-          <code class="docutils literal notranslate"><span class="pre">resources/heath/volume_I/book_i/propositions/index.json</span></code>
-          You can pass these offsets directly or tweak them slightly to tighten the crop box.</p>
-          </section>
-          </section>
-          </section>
-          <hr class="docutils" />
-          <section id="zoom-inspection-for-hard-to-read-text">
-          <h2>5. Zoom Inspection for Hard-to-Read Text<a class="headerlink" href="#zoom-inspection-for-hard-to-read-text" title="Link to this heading">¶</a></h2>
-          <p>When encountering tiny polytonic Greek characters, faint breathings (rough ῾ vs smooth ᾿), iota subscripts (ᾳ, ῃ, ῳ), or dense critical apparatus, use the <code class="docutils literal notranslate"><span class="pre">zoom</span></code> tool to crop a high-resolution region of interest into <code class="docutils literal notranslate"><span class="pre">scratch/</span></code>:</p>
-          <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>zoom<span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>resources/heath/volume_I/book_i/common_notions/0175.png<span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>scratch/zoom_p175_greek.png<span class="w"> </span><span class="se">\</span>
-          <span class="w">  </span>--bbox<span class="w"> </span><span class="m">150</span><span class="w"> </span><span class="m">420</span><span class="w"> </span><span class="m">500</span><span class="w"> </span><span class="m">180</span>
-          </pre></div>
-          </div>
-          <p>Then use <code class="docutils literal notranslate"><span class="pre">view_file</span></code> on <code class="docutils literal notranslate"><span class="pre">scratch/zoom_p175_greek.png</span></code> to inspect the text in isolation without surrounding page clutter.</p>
-          </section>
-          <hr class="docutils" />
-          <section id="perseus-tei-xml-ground-truth-cross-validation">
-          <h2>6. Perseus TEI XML Ground-Truth Cross-Validation<a class="headerlink" href="#perseus-tei-xml-ground-truth-cross-validation" title="Link to this heading">¶</a></h2>
-          <p>The repository contains digitized Perseus TEI XML for all 13 books in:
-          <code class="docutils literal notranslate"><span class="pre">resources/xml/books/01.xml</span></code> through <code class="docutils literal notranslate"><span class="pre">13.xml</span></code>.</p>
-          <p>The XML contains:</p>
-          <ul class="simple">
-          <li><p>English enunciation and proof text for every definition, postulate, common notion, and proposition.</p></li>
-          <li><p>Heath’s translation footnotes and critical notes (including Greek citations).</p></li>
-          <li><p>Page numbers (<code class="docutils literal notranslate"><span class="pre">&lt;pb</span> <span class="pre">n=&quot;241&quot;</span> <span class="pre">/&gt;</span></code>).</p></li>
-          </ul>
-          <section id="querying-xml">
-          <h3>Querying XML:<a class="headerlink" href="#querying-xml" title="Link to this heading">¶</a></h3>
-          <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Query Proposition 1 in Book 1:</span>
-          /home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>xml<span class="w"> </span><span class="m">1</span><span class="w"> </span>prop.1
+        [<span class="nl">^89_1</span>]: <span class="na">*Fihrist*, p. 265.</span>
+        [<span class="nl">^89_2</span>]: <span class="na">*Zeitschrift für Math. u. Phys.* xxxv. (1890).</span>
+        </pre></div>
+        </div>
+        <section id="key-rules">
+        <h3>Key Rules:<a class="headerlink" href="#key-rules" title="Link to this heading">¶</a></h3>
+        <ul class="simple">
+        <li><p>The prefix is the <strong>printed page number</strong> (e.g., <code class="docutils literal notranslate"><span class="pre">89</span></code>), followed by an underscore <code class="docutils literal notranslate"><span class="pre">_</span></code> and the footnote index (<code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">3</span></code>).</p></li>
+        <li><p>In commentary and proposition text, footnote definitions appear at the bottom of the atomic <code class="docutils literal notranslate"><span class="pre">.md</span></code> file.</p></li>
+        </ul>
+        </section>
+        </section>
+        <hr class="docutils" />
+        <section id="diagram-detection-cropping-pipeline">
+        <h2>4. Diagram Detection &amp; Cropping Pipeline<a class="headerlink" href="#diagram-detection-cropping-pipeline" title="Link to this heading">¶</a></h2>
+        <section id="upfront-pre-transcription-detection">
+        <h3>Upfront Pre-Transcription Detection<a class="headerlink" href="#upfront-pre-transcription-detection" title="Link to this heading">¶</a></h3>
+        <p>We run the detection script <strong>before</strong> launching transcription for a folio. This determines upfront whether a graphic is present, identifies its bounding box, and generates <code class="docutils literal notranslate"><span class="pre">XXXX.json</span></code> and <code class="docutils literal notranslate"><span class="pre">XXXX.g1.png</span></code>. The transcription subagent is then simply instructed to position the image tag at the correct narrative location.</p>
+        <p>The automated pipeline is in <code class="docutils literal notranslate"><span class="pre">src/geometor/euclid/ingest/detect_graphics_cv.py</span></code> and <code class="docutils literal notranslate"><span class="pre">src/geometor/euclid/scripts/graphic_tool.py</span></code>.</p>
+        </section>
+        <section id="running-with-uv">
+        <h3>Running with <code class="docutils literal notranslate"><span class="pre">uv</span></code>:<a class="headerlink" href="#running-with-uv" title="Link to this heading">¶</a></h3>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>&lt;command&gt;
+        </pre></div>
+        </div>
+        </section>
+        <section id="commands">
+        <h3>Commands:<a class="headerlink" href="#commands" title="Link to this heading">¶</a></h3>
+        <section id="auto-detect-graphic-bounding-box">
+        <h4>1. Auto-Detect Graphic Bounding Box<a class="headerlink" href="#auto-detect-graphic-bounding-box" title="Link to this heading">¶</a></h4>
+        <p>Analyzes connected components, filters horizontal text lines, and finds the core diagram and letter labels:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>detect<span class="w"> </span>&lt;path/to/scan.png&gt;
+        </pre></div>
+        </div>
+        <p>Output:</p>
+        <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+        <span class="w">  </span><span class="nt">"x_offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">343</span><span class="p">,</span>
+        <span class="w">  </span><span class="nt">"y_offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">158</span><span class="p">,</span>
+        <span class="w">  </span><span class="nt">"crop_box"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">287</span><span class="p">,</span><span class="w"> </span><span class="mi">189</span><span class="p">]</span>
+        <span class="p">}</span>
+        </pre></div>
+        </div>
+        </section>
+        <section id="crop-clean-invert-and-save-metadata-json">
+        <h4>2. Crop, Clean, Invert, and Save Metadata JSON<a class="headerlink" href="#crop-clean-invert-and-save-metadata-json" title="Link to this heading">¶</a></h4>
+        <p>Crops the specified bounding box, performs linear levels adjustment (<code class="docutils literal notranslate"><span class="pre">white_point=226</span></code>) to eliminate paper bleed-through, creates <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.g1.inverted.png</span></code>, and saves crop info to <code class="docutils literal notranslate"><span class="pre">&lt;folio&gt;.json</span></code>:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>crop<span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>resources/heath/volume_I/book_i/propositions/0255.png<span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>resources/heath/volume_I/book_i/propositions/0255.g1.png<span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>--bbox<span class="w"> </span><span class="m">343</span><span class="w"> </span><span class="m">158</span><span class="w"> </span><span class="m">287</span><span class="w"> </span><span class="m">189</span><span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>--invert
+        </pre></div>
+        </div>
+        </section>
+        <section id="precomputed-proposition-catalog">
+        <h4>3. Precomputed Proposition Catalog<a class="headerlink" href="#precomputed-proposition-catalog" title="Link to this heading">¶</a></h4>
+        <p>All 48 propositions of Book I (and books throughout Volumes I–III) have precomputed baseline offsets in:
+        <code class="docutils literal notranslate"><span class="pre">resources/heath/volume_I/book_i/propositions/index.json</span></code>
+        You can pass these offsets directly or tweak them slightly to tighten the crop box.</p>
+        </section>
+        </section>
+        </section>
+        <hr class="docutils" />
+        <section id="zoom-inspection-for-hard-to-read-text">
+        <h2>5. Zoom Inspection for Hard-to-Read Text<a class="headerlink" href="#zoom-inspection-for-hard-to-read-text" title="Link to this heading">¶</a></h2>
+        <p>When encountering tiny polytonic Greek characters, faint breathings (rough ῾ vs smooth ᾿), iota subscripts (ᾳ, ῃ, ῳ), or dense critical apparatus, use the <code class="docutils literal notranslate"><span class="pre">zoom</span></code> tool to crop a high-resolution region of interest into <code class="docutils literal notranslate"><span class="pre">scratch/</span></code>:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>zoom<span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>resources/heath/volume_I/book_i/common_notions/0175.png<span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>scratch/zoom_p175_greek.png<span class="w"> </span><span class="se">\</span>
+        <span class="w">  </span>--bbox<span class="w"> </span><span class="m">150</span><span class="w"> </span><span class="m">420</span><span class="w"> </span><span class="m">500</span><span class="w"> </span><span class="m">180</span>
+        </pre></div>
+        </div>
+        <p>Then use <code class="docutils literal notranslate"><span class="pre">view_file</span></code> on <code class="docutils literal notranslate"><span class="pre">scratch/zoom_p175_greek.png</span></code> to inspect the text in isolation without surrounding page clutter.</p>
+        </section>
+        <hr class="docutils" />
+        <section id="perseus-tei-xml-ground-truth-cross-validation">
+        <h2>6. Perseus TEI XML Ground-Truth Cross-Validation<a class="headerlink" href="#perseus-tei-xml-ground-truth-cross-validation" title="Link to this heading">¶</a></h2>
+        <p>The repository contains digitized Perseus TEI XML for all 13 books in:
+        <code class="docutils literal notranslate"><span class="pre">resources/xml/books/01.xml</span></code> through <code class="docutils literal notranslate"><span class="pre">13.xml</span></code>.</p>
+        <p>The XML contains:</p>
+        <ul class="simple">
+        <li><p>English enunciation and proof text for every definition, postulate, common notion, and proposition.</p></li>
+        <li><p>Heath’s translation footnotes and critical notes (including Greek citations).</p></li>
+        <li><p>Page numbers (<code class="docutils literal notranslate"><span class="pre">&lt;pb</span> <span class="pre">n=&quot;241&quot;</span> <span class="pre">/&gt;</span></code>).</p></li>
+        </ul>
+        <section id="querying-xml">
+        <h3>Querying XML:<a class="headerlink" href="#querying-xml" title="Link to this heading">¶</a></h3>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Query Proposition 1 in Book 1:</span>
+        /home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>xml<span class="w"> </span><span class="m">1</span><span class="w"> </span>prop.1
 
-          <span class="c1"># Query Definition 4:</span>
-          /home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>xml<span class="w"> </span><span class="m">1</span><span class="w"> </span>def.4
+        <span class="c1"># Query Definition 4:</span>
+        /home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>xml<span class="w"> </span><span class="m">1</span><span class="w"> </span>def.4
 
-          <span class="c1"># Query Postulate 1:</span>
-          /home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>xml<span class="w"> </span><span class="m">1</span><span class="w"> </span>post.1
-          </pre></div>
-          </div>
-          <blockquote>
-          <div><p>[!NOTE]
-          The TEI XML contains only the core mathematical enunciations, proofs, and translation notes. Heath’s extensive historical and mathematical commentary that follows each proposition is <strong>not in the XML</strong> and must be visually transcribed from the scan.</p>
-          </div></blockquote>
-          </section>
-          </section>
-          <hr class="docutils" />
-          <section id="proposition-anatomy-formatting-standards">
-          <h2>7. Proposition Anatomy &amp; Formatting Standards<a class="headerlink" href="#proposition-anatomy-formatting-standards" title="Link to this heading">¶</a></h2>
-          <p>Each proposition in Heath is structured into classical components:</p>
-          <ol class="arabic simple">
-          <li><p><strong>Header</strong>: <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">PROPOSITION</span> <span class="pre">N.</span></code></p></li>
-          <li><p><strong>Enunciation</strong>: The general statement of the theorem or problem.</p></li>
-          <li><p><strong>Setting-out (<em>ekthesis</em>)</strong>: “Let <em>AB</em> be the given finite straight line…”</p></li>
-          <li><p><strong>Specification (<em>diorismos</em>)</strong>: “Thus it is required to construct…”</p></li>
-          <li><p><strong>Construction (<em>kataskeue</em>)</strong>: “With centre <em>A</em> and distance <em>AB</em>…”</p></li>
-          <li><p><strong>Proof (<em>apodeixis</em>)</strong>: “Now, since the point <em>A</em> is the centre…”</p></li>
-          <li><p><strong>Conclusion (<em>sumperasma</em>)</strong>: “Therefore the triangle <em>ABC</em> is equilateral…”</p></li>
-          <li><p><strong>Q.E.D. / Q.E.F.</strong>: “Being what it was required to do.” (Q.E.F. / ὅπερ ἔδει ποιῆσαι) or “Being what it was required to prove.” (Q.E.D. / ὅπερ ἔδει δεῖξαι).</p></li>
-          </ol>
-          <section id="marginal-line-numbers">
-          <h3>Marginal Line Numbers<a class="headerlink" href="#marginal-line-numbers" title="Link to this heading">¶</a></h3>
-          <p>When Heath provides marginal line numbers in the proofs, preserve them using span tags:</p>
-          <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>Thus it is required to construct&lt;span class="lineno"&gt;5&lt;/span&gt; an equilateral triangle on the straight line <span class="ge">*AB*</span>.
-          </pre></div>
-          </div>
-          </section>
-          <section id="frontmatter-standard">
-          <h3>Frontmatter Standard<a class="headerlink" href="#frontmatter-standard" title="Link to this heading">¶</a></h3>
-          <p>Every atomic page <code class="docutils literal notranslate"><span class="pre">.md</span></code> begins with YAML frontmatter:</p>
-          <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">---</span>
-          <span class="nt">folio</span><span class="p">:</span><span class="w"> </span><span class="s">"0255"</span>
-          <span class="nt">page</span><span class="p">:</span><span class="w"> </span><span class="s">"241"</span>
-          <span class="nt">volume</span><span class="p">:</span><span class="w"> </span><span class="s">"I"</span>
-          <span class="nt">book</span><span class="p">:</span><span class="w"> </span><span class="s">"I"</span>
-          <span class="nt">section</span><span class="p">:</span><span class="w"> </span><span class="s">"propositions"</span>
-          <span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">"Proposition</span><span class="nv"> </span><span class="s">1"</span>
-          <span class="nn">---</span>
-          </pre></div>
-          </div>
-          </section>
-          </section>
-          <hr class="docutils" />
-          <section id="specialized-subagent-roles">
-          <h2>8. Specialized Subagent Roles<a class="headerlink" href="#specialized-subagent-roles" title="Link to this heading">¶</a></h2>
-          <ol class="arabic simple">
-          <li><p><strong><code class="docutils literal notranslate"><span class="pre">heath_transcriber</span></code></strong>:
-          Responsible for granular visual transcription of page folios, maintaining full polytonic Greek and footnote fidelity, cross-checking with XML, and linking local graphics.</p></li>
-          <li><p><strong><code class="docutils literal notranslate"><span class="pre">graphic_extractor</span></code></strong>:
-          Specialized subagent responsible for scanning proposition pages, detecting figures with <code class="docutils literal notranslate"><span class="pre">graphic_tool.py</span> <span class="pre">detect</span></code> or <code class="docutils literal notranslate"><span class="pre">index.json</span></code>, fine-tuning bounding boxes, applying levels cleaning, generating dark-mode negatives, and saving both assets to <code class="docutils literal notranslate"><span class="pre">resources/</span></code> and <code class="docutils literal notranslate"><span class="pre">docsrc/heath/_static/graphics/</span></code>.</p></li>
-          </ol>
-          </section>
-          <hr class="docutils" />
-          <section id="git-workflow-commits">
-          <h2>9. Git Workflow &amp; Commits<a class="headerlink" href="#git-workflow-commits" title="Link to this heading">¶</a></h2>
-          <ul class="simple">
-          <li><p>Commit completed chapters and major milestones atomically.</p></li>
-          <li><p>Use conventional commit messages:</p>
-          <ul>
-          <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Volume</span> <span class="pre">I</span> <span class="pre">Front</span> <span class="pre">Matter</span> <span class="pre">(folios</span> <span class="pre">0001-0014)</span></code></p></li>
-          <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Volume</span> <span class="pre">I</span> <span class="pre">Introduction</span> <span class="pre">Chapters</span> <span class="pre">I-IX</span> <span class="pre">(folios</span> <span class="pre">0015-0166)</span></code></p></li>
-          <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Book</span> <span class="pre">I</span> <span class="pre">First</span> <span class="pre">Principles</span> <span class="pre">pp.</span> <span class="pre">153-172</span> <span class="pre">(folios</span> <span class="pre">0167-0186)</span></code></p></li>
-          <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Book</span> <span class="pre">I</span> <span class="pre">Propositions</span> <span class="pre">1-4</span> <span class="pre">(folios</span> <span class="pre">0255-0262)</span></code></p></li>
-          </ul>
-          </li>
-          </ul>
-          </section>
-          </section>
+        <span class="c1"># Query Postulate 1:</span>
+        /home/phi/.local/bin/uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>src/geometor/euclid/scripts/graphic_tool.py<span class="w"> </span>xml<span class="w"> </span><span class="m">1</span><span class="w"> </span>post.1
+        </pre></div>
+        </div>
+        <blockquote>
+        <div><p>[!NOTE]
+        The TEI XML contains only the core mathematical enunciations, proofs, and translation notes. Heath’s extensive historical and mathematical commentary that follows each proposition is <strong>not in the XML</strong> and must be visually transcribed from the scan.</p>
+        </div></blockquote>
+        </section>
+        </section>
+        <hr class="docutils" />
+        <section id="proposition-anatomy-formatting-standards">
+        <h2>7. Proposition Anatomy &amp; Formatting Standards<a class="headerlink" href="#proposition-anatomy-formatting-standards" title="Link to this heading">¶</a></h2>
+        <p>Each proposition in Heath is structured into classical components:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Header</strong>: <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">PROPOSITION</span> <span class="pre">N.</span></code></p></li>
+        <li><p><strong>Enunciation</strong>: The general statement of the theorem or problem.</p></li>
+        <li><p><strong>Setting-out (<em>ekthesis</em>)</strong>: “Let <em>AB</em> be the given finite straight line…”</p></li>
+        <li><p><strong>Specification (<em>diorismos</em>)</strong>: “Thus it is required to construct…”</p></li>
+        <li><p><strong>Construction (<em>kataskeue</em>)</strong>: “With centre <em>A</em> and distance <em>AB</em>…”</p></li>
+        <li><p><strong>Proof (<em>apodeixis</em>)</strong>: “Now, since the point <em>A</em> is the centre…”</p></li>
+        <li><p><strong>Conclusion (<em>sumperasma</em>)</strong>: “Therefore the triangle <em>ABC</em> is equilateral…”</p></li>
+        <li><p><strong>Q.E.D. / Q.E.F.</strong>: “Being what it was required to do.” (Q.E.F. / ὅπερ ἔδει ποιῆσαι) or “Being what it was required to prove.” (Q.E.D. / ὅπερ ἔδει δεῖξαι).</p></li>
+        </ol>
+        <section id="marginal-line-numbers">
+        <h3>Marginal Line Numbers<a class="headerlink" href="#marginal-line-numbers" title="Link to this heading">¶</a></h3>
+        <p>When Heath provides marginal line numbers in the proofs, preserve them using span tags:</p>
+        <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>Thus it is required to construct&lt;span class="lineno"&gt;5&lt;/span&gt; an equilateral triangle on the straight line <span class="ge">*AB*</span>.
+        </pre></div>
+        </div>
+        </section>
+        <section id="frontmatter-standard">
+        <h3>Frontmatter Standard<a class="headerlink" href="#frontmatter-standard" title="Link to this heading">¶</a></h3>
+        <p>Every atomic page <code class="docutils literal notranslate"><span class="pre">.md</span></code> begins with YAML frontmatter:</p>
+        <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">---</span>
+        <span class="nt">folio</span><span class="p">:</span><span class="w"> </span><span class="s">"0255"</span>
+        <span class="nt">page</span><span class="p">:</span><span class="w"> </span><span class="s">"241"</span>
+        <span class="nt">volume</span><span class="p">:</span><span class="w"> </span><span class="s">"I"</span>
+        <span class="nt">book</span><span class="p">:</span><span class="w"> </span><span class="s">"I"</span>
+        <span class="nt">section</span><span class="p">:</span><span class="w"> </span><span class="s">"propositions"</span>
+        <span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">"Proposition</span><span class="nv"> </span><span class="s">1"</span>
+        <span class="nn">---</span>
+        </pre></div>
+        </div>
+        </section>
+        </section>
+        <hr class="docutils" />
+        <section id="specialized-subagent-roles">
+        <h2>8. Specialized Subagent Roles<a class="headerlink" href="#specialized-subagent-roles" title="Link to this heading">¶</a></h2>
+        <ol class="arabic simple">
+        <li><p><strong><code class="docutils literal notranslate"><span class="pre">heath_transcriber</span></code></strong>:
+        Responsible for granular visual transcription of page folios, maintaining full polytonic Greek and footnote fidelity, cross-checking with XML, and linking local graphics.</p></li>
+        <li><p><strong><code class="docutils literal notranslate"><span class="pre">graphic_extractor</span></code></strong>:
+        Specialized subagent responsible for scanning proposition pages, detecting figures with <code class="docutils literal notranslate"><span class="pre">graphic_tool.py</span> <span class="pre">detect</span></code> or <code class="docutils literal notranslate"><span class="pre">index.json</span></code>, fine-tuning bounding boxes, applying levels cleaning, generating dark-mode negatives, and saving both assets to <code class="docutils literal notranslate"><span class="pre">resources/</span></code> and <code class="docutils literal notranslate"><span class="pre">docsrc/heath/_static/graphics/</span></code>.</p></li>
+        </ol>
+        </section>
+        <hr class="docutils" />
+        <section id="git-workflow-commits">
+        <h2>9. Git Workflow &amp; Commits<a class="headerlink" href="#git-workflow-commits" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p>Commit completed chapters and major milestones atomically.</p></li>
+        <li><p>Use conventional commit messages:</p>
+        <ul>
+        <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Volume</span> <span class="pre">I</span> <span class="pre">Front</span> <span class="pre">Matter</span> <span class="pre">(folios</span> <span class="pre">0001-0014)</span></code></p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Volume</span> <span class="pre">I</span> <span class="pre">Introduction</span> <span class="pre">Chapters</span> <span class="pre">I-IX</span> <span class="pre">(folios</span> <span class="pre">0015-0166)</span></code></p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Book</span> <span class="pre">I</span> <span class="pre">First</span> <span class="pre">Principles</span> <span class="pre">pp.</span> <span class="pre">153-172</span> <span class="pre">(folios</span> <span class="pre">0167-0186)</span></code></p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">feat(heath):</span> <span class="pre">transcribe</span> <span class="pre">Book</span> <span class="pre">I</span> <span class="pre">Propositions</span> <span class="pre">1-4</span> <span class="pre">(folios</span> <span class="pre">0255-0262)</span></code></p></li>
+        </ul>
+        </li>
+        </ul>
+        </section>
+        </section>
 
       </div>
-      <footer>
-
-        <div class="meta">
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="index.html" title="usage">&larr; <span class="nav-label">usage</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">geometor • euclid</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="modules"><span class="nav-label">modules</span> &rarr;</a>
+          </div>
         </div>
-        <nav class="context">
-          <div class="prev">
-             <a href="index.html" title="usage" >Prev</a>
-          </div>
-          <div class="next">
-            <a href="../modules/index.html" title="modules" >Next</a>
-          </div>
-        </nav>
       </footer>
     </article>
   </main>
@@ -408,28 +416,28 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="../about.html">about</a></li>
-        <li><a href="../changelog.html">changelog</a></li>
-        <li><a href="../connect.html">onnect</a></li>
-        <li><a href="../glossary.html">glossary</a></li>
-        <li><a href="../todos/index.html">todos</a></li>
+        <li><a href="../about.html"  >about</a></li>
+        <li><a href="../changelog.html"  >changelog</a></li>
+        <li><a href="../connect.html"  >onnect</a></li>
+        <li><a href="../glossary.html"  >glossary</a></li>
+        <li><a href="../todos/index.html"  >todos</a></li>
       </ul>
     </div>
     <hr />
     <div role="contentinfo">
       <p>
-        &copy; Copyright .
+        &copy; Copyright 2026, geometor.
       </p>
     </div>
   </footer>
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+  <script src="../_static/documentation_options.js?v=8da8c241"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="../_static/js/geometor_interactive.js?v=421e4467"></script>
+  <script src="../_static/js/geometor_interactive.js?v=4430a5d4"></script>
   <script src="../_static/js/search_highlight.js"></script>
 
 </body>

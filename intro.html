@@ -6,12 +6,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GEOMETOR • euclid &mdash; Project name not set  documentation</title>
+  <title>Edition Highlights &mdash; geometor • euclid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=156d9f89" />
+  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=3d8cc37d" />
   <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -20,7 +20,7 @@
   <link rel="icon" href="_static/favicon.ico" />
 </head>
 
-<body>
+<body class="book-theme-classical-serif">
   <header>
     <div class="logo">
       <a href="index.html">
@@ -61,41 +61,43 @@
     </nav>
     <div class="motto"></div>
   </header>
-  <main>
-    <article>
-      <header>
-      <nav class="breadcrumbs">
-        <span><a href="index.html">Home</a></span>
-      </nav>
-        <nav class="context">
-          <div class="prev">
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="index.html" title="Return to Project Portal">&larr; euclid</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="index.html">geometor • euclid</a>
           </div>
-          <div class="next">
-          </div>
-        </nav>
+        </div>
       </header>
-      <div class="content body" role="main">
-        <section class="level-1" id="geometor-euclid">
-          <h1>GEOMETOR • euclid<a class="headerlink" href="#geometor-euclid" title="Link to this heading">¶</a></h1>
-          <p>The <code class="docutils literal notranslate"><span class="pre">geometor.euclid</span></code> project is dedicated to the <strong>semantic discovery</strong> and structural analysis of Euclid’s <em>Elements</em>.</p>
-          <p>It serves as the foundation for digital geometry by:</p>
-          <ul class="simple">
-          <li><p><strong>Ingesting</strong> raw text and diagrams from the Heath edition.</p></li>
-          <li><p><strong>Parsing</strong> the logical structure (Book, Proposition, Definition, etc.).</p></li>
-          <li><p><strong>Mapping</strong> dependencies to create a directed graph of logical precedence.</p></li>
-          <li><p><strong>Providing</strong> a structured data source for downstream modeling and analysis (see <code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code>).</p></li>
-          </ul>
-          </section>
+      <div class="content body book-content" role="main">
+        <p><strong>Digital reconstruction, semantic discovery, and critical edition of Sir Thomas L. Heath’s *The Thirteen Books of Euclid’s Elements*.</strong></p>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor.euclid</span></code> is the primary textual and visual source of truth for Euclid’s <em>Elements</em> in the GEOMETOR ecosystem. It transforms the three volumes of Sir Thomas L. Heath’s 1926 Cambridge/Dover critical edition (1,416 archival folios and 831 recalibrated geometric SVGs) into a de-paginated, semantically tagged <strong>Book Codex</strong> edition powered by <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>.</p>
+        <hr class="docutils" />
+        <section class="level-2" id="edition-highlights">
+        <h2>Edition Highlights<a class="headerlink" href="#edition-highlights" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="heath/index.html"><span class="doc">The Heath Edition (Volumes I–III)</span></a> — Complete de-paginated text of Books I–XIII with marginal <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">folio::</span></code> markers, interactive SVG diagrams, and synchronized <strong>Proposition</strong> and <strong>Commentary</strong> tracks.</p></li>
+        <li><p><strong>Scholarly Apparatus</strong> — <a class="reference internal" href="heath/bibliography.html"><span class="doc">Bibliography</span></a> · <a class="reference internal" href="heath/persons.html"><span class="doc">Index of Persons</span></a> · <a class="reference internal" href="heath/glossary.html"><span class="doc">Technical Glossary</span></a> with interactive <code class="docutils literal notranslate"><span class="pre">:cite:</span></code>, <code class="docutils literal notranslate"><span class="pre">:person:</span></code>, and <code class="docutils literal notranslate"><span class="pre">:term:</span></code> hover cards.</p></li>
+        <li><p><strong>Interactive Geometry &amp; Justifications</strong> — Bidirectional <code class="docutils literal notranslate"><span class="pre">:g:</span></code> highlighting between proof text and SVG primitives, plus <code class="docutils literal notranslate"><span class="pre">:just:</span></code> justification pills with live enunciation tooltips.</p></li>
+        <li><p><strong>Downstream Symbolic Codex</strong> — Feeds the compiled <code class="docutils literal notranslate"><span class="pre">docsrc/heath/</span></code> tree and <code class="docutils literal notranslate"><span class="pre">objects.inv</span></code> inventory into <a class="reference external" href="https://geometor.github.io/elements">GEOMETOR • elements</a> to generate the 525-node <strong>G-Index</strong> (<cite>G.1</cite>–<cite>G.525</cite>).</p></li>
+        </ul>
+        </section>
 
       </div>
-      <footer>
-
-        <nav class="context">
-          <div class="prev">
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
           </div>
-          <div class="next">
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="index.html">geometor • euclid</a>
           </div>
-        </nav>
+          <div class="book-nav-next">
+          </div>
+        </div>
       </footer>
     </article>
   </main>
@@ -146,28 +148,28 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="about.html">about</a></li>
-        <li><a href="changelog.html">changelog</a></li>
-        <li><a href="connect.html">onnect</a></li>
-        <li><a href="glossary.html">glossary</a></li>
-        <li><a href="todos/index.html">todos</a></li>
+        <li><a href="about.html"  >about</a></li>
+        <li><a href="changelog.html"  >changelog</a></li>
+        <li><a href="connect.html"  >onnect</a></li>
+        <li><a href="glossary.html"  >glossary</a></li>
+        <li><a href="todos/index.html"  >todos</a></li>
       </ul>
     </div>
     <hr />
     <div role="contentinfo">
       <p>
-        &copy; Copyright .
+        &copy; Copyright 2026, geometor.
       </p>
     </div>
   </footer>
 
   <script src="_static/jquery.js?v=5d32c60e"></script>
   <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="_static/documentation_options.js?v=5929fcd5"></script>
+  <script src="_static/documentation_options.js?v=8da8c241"></script>
   <script src="_static/doctools.js?v=fd6eb6e6"></script>
   <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="_static/js/geometor_interactive.js?v=421e4467"></script>
+  <script src="_static/js/geometor_interactive.js?v=4430a5d4"></script>
   <script src="_static/js/search_highlight.js"></script>
 
 </body>
