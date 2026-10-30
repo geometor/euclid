@@ -1,9 +1,6 @@
-:navigation: header
-:order: 4
+:order: 50
 
 references
 ==========
 
 .. collection::
-
-   
