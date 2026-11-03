@@ -6,7 +6,7 @@
 :title: Proposition III.25
 :folios: 0060, 0061, 0062
 :pages: 54, 55, 56
-:dependencies: I.6, III.9
+:dependencies: I.def.15, I.def.18, I.6, III.def.6, III.9
 
 .. _III.25:
 
@@ -18,25 +18,25 @@ PROPOSITION 25.
 
 .. enunciation::
 
-   Given a segment of a circle, to describe the complete circle\ [#f1]_ of which it is a segment.
+   Given a :term:`segment of a circle <segment-of-circle>`, to describe the complete :term:`circle <circle>`\ [#f1]_ of which it is a segment.
 
 Let :g:`ABC <0061.g1:( A B C )>` be the given segment of a circle;
 thus it is required to describe the complete circle belonging
 to the segment :g:`ABC <0061.g1:( A B C )>`, that is, of which it is a segment.
 
 For let :g:`AC <0061.g1:/ A C />` be :eq:`bisected <0061.g1:/ A D / = 0061.g1:/ D C />` at :g:`D <0061.g1:D>`, let :g:`DB <0061.g1:/ D B />` be drawn from the
-point :g:`D <0061.g1:D>` at right angles to :g:`AC <0061.g1:/ A C />`, and let :g:`AB <0061.g1:/ A B />` be joined;
+:term:`point <point>` :g:`D <0061.g1:D>` :term:`at right angles <right-angle>` to :g:`AC <0061.g1:/ A C />`, and let :g:`AB <0061.g1:/ A B />` be joined;
 
 .. _folio-ii-0061:
 
 .. folio:: 0061
    :page: 55
 
-the angle :g:`ABD <0061.g1:< A B D )>` is then greater than, equal to, or less
+the :term:`angle <plane-angle>` :g:`ABD <0061.g1:< A B D )>` is then greater than, equal to, or less
 than the angle :g:`BAD <0061.g1:< B A D )>`.
 
 First let it be greater;
-and on the straight line :g:`BA <0061.g1:/ B A />`, and at the point :g:`A <0061.g1:A>` on it, let
+and on the :term:`straight line <straight-line>` :g:`BA <0061.g1:/ B A />`, and at the point :g:`A <0061.g1:A>` on it, let
 the angle :g:`BAE <0061.g1:< B A E )>` be constructed :eq:`equal <0061.g1:< B A E ) = 0061.g1:< A B D )>` to
 the angle :g:`ABD <0061.g1:< A B D )>`; let :g:`DB <0061.g1:/ D B />` be drawn through
 to :g:`E <0061.g1:E>`, and let :g:`EC <0061.g1:/ E C />` be joined.
@@ -69,7 +69,7 @@ But :g:`AE <0061.g1:/ A E />` was proved :eq:`equal <0061.g1:/ A E / = 0061.g1:/
 therefore the three straight lines :g:`AE <0061.g1:/ A E />`, :g:`EB <0061.g1:/ E B />`, :g:`EC <0061.g1:/ E C />` are :eq:`equal <0061.g1:/ A E / = 0061.g1:/ E B / = 0061.g1:/ E C />` to
 one another.
 
-Therefore the circle drawn with centre :g:`E <0061.g1:E>` and distance
+Therefore the circle drawn with :term:`centre <centre>` :g:`E <0061.g1:E>` and distance
 one of the straight lines :g:`AE <0061.g1:/ A E />`, :g:`EB <0061.g1:/ E B />`, :g:`EC <0061.g1:/ E C />` will also pass through
 the remaining points and will have been completed. :just:`[III. 9] <III.9>`
 
@@ -77,7 +77,7 @@ Therefore, given a segment of a circle, the complete circle
 has been described.
 
 And it is manifest that the segment :g:`ABC <0061.g1:( A B C )>` is less than a
-semicircle, because the centre :g:`E <0061.g1:E>` happens to be outside it.
+:term:`semicircle <semicircle>`, because the centre :g:`E <0061.g1:E>` happens to be outside it.
 
 Similarly, even if the angle :g:`ABD <0061.g2:< A B D )>` be :eq:`equal <0061.g2:< A B D ) = 0061.g2:< B A D )>` to the angle
 :g:`BAD <0061.g2:< B A D )>`,
@@ -126,8 +126,23 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.18" [label="I.def.18", fillcolor="#224422", tooltip="I.def.18: A semicircle is the figure contained by the diameter and the circumference cut off by it. And the centre of the semicircle is the same as that of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-18", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
      "I.post.3" [label="I.post.3", fillcolor="#444422", tooltip="I.post.3: To describe a circle with any centre and distance.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
@@ -142,13 +157,84 @@ Dependency Graph
      "I.6" [label="I.6", fillcolor="#222244", tooltip="I.6: If in a triangle two angles be equal to one another, the sides which subtend the equal angles will also be equal to one another.", URL="../../../../volume_I/book_i/propositions/06/index.html", target="_top"];
      "I.7" [label="I.7", fillcolor="#222244", tooltip="I.7: Given two straight lines constructed on a straight line (from its extremities) and meeting in a point, there cannot be constructed on the same straight line (from its…", URL="../../../../volume_I/book_i/propositions/07/index.html", target="_top"];
      "I.8" [label="I.8", fillcolor="#222244", tooltip="I.8: If two triangles have the two sides equal to two sides respectively, and have also the base equal to the base, they will also have the angles equal which are contained by the…", URL="../../../../volume_I/book_i/propositions/08/index.html", target="_top"];
+     "III.def.6" [label="III.def.6", fillcolor="#224422", tooltip="III.def.6: A segment of a circle is the figure contained by a straight line and a circumference of a circle.", URL="../../definitions/index.html#iii-def-6", target="_top"];
      "III.1" [label="III.1", fillcolor="#222244", tooltip="III.1: To find the centre of a given circle.", URL="../01/index.html", target="_top"];
      "III.9" [label="III.9", fillcolor="#222244", tooltip="III.9: If a point be taken within a circle, and more than two equal straight lines fall from the point on the circle, the point taken is the centre of the circle.", URL="../09/index.html", target="_top"];
      "III.25" [label="III.25", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="III.25: Given a segment of a circle, to describe the complete circle of which it is a segment.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "III.9" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "III.def.6" -> "I.def.4";
+     "III.9" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.10" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.6" -> "I.def.8";
+     "I.8" -> "I.def.8";
      "III.1" -> "I.def.10";
      "III.9" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.def.18" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "I.6" -> "I.def.14";
+     "III.def.6" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.def.18" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "III.def.6" -> "I.def.15";
+     "III.1" -> "I.def.15";
+     "III.9" -> "I.def.15";
+     "III.25" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.def.18" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "III.1" -> "I.def.16";
+     "III.9" -> "I.def.16";
+     "I.def.18" -> "I.def.17";
+     "III.25" -> "I.def.18";
+     "I.def.20" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.6" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";
@@ -172,6 +258,7 @@ Dependency Graph
      "I.8" -> "I.7";
      "III.1" -> "I.8";
      "III.9" -> "I.8";
+     "III.25" -> "III.def.6";
      "III.9" -> "III.1";
      "III.25" -> "III.9";
    }

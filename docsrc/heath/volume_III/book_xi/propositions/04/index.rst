@@ -6,7 +6,7 @@
 :title: Proposition XI.4
 :folios: 0281, 0282, 0283
 :pages: 277, 278, 279
-:dependencies: I.4, I.8, I.15, I.26, XI.def.3
+:dependencies: I.def.1, I.def.4, I.def.10, I.4, I.8, I.15, I.26, XI.def.3
 
 .. _XI.4:
 
@@ -18,7 +18,7 @@ PROPOSITION 4.
 
 .. enunciation::
 
-   If a straight line be set up at right angles to two straight lines which cut one another, at their common point of section, it will also be at right angles to the plane through them.
+   If a :term:`straight line <straight-line>` be set up :term:`at right angles <right-angle>` to two straight lines which cut one another, at their common :term:`point <point>` of section, it will also be :term:`at right angles to the plane <right-angles-to-plane>` through them.
 
 .. _folio-iii-0282:
 
@@ -34,11 +34,11 @@ For let :g:`AE <0282.g1:/ A E />`, :g:`EB <0282.g1:/ E B />`, :g:`CE <0282.g1:/ 
 
 .. subclause::
 
-   Now, since the two straight lines :g:`AE <0282.g1:/ A E />`, :g:`ED <0282.g1:/ E D />` are :eq:`equal <0282.g1:/ A E / = 0282.g1:/ C E /; 0282.g1:/ E D / = 0282.g1:/ E B />` to the two straight lines :g:`CE <0282.g1:/ C E />`, :g:`EB <0282.g1:/ E B />`, and contain :eq:`equal <0282.g1:< A E D ) = 0282.g1:< C E B )>` angles, :just:`[I. 15] <I.15>`
+   Now, since the two straight lines :g:`AE <0282.g1:/ A E />`, :g:`ED <0282.g1:/ E D />` are :eq:`equal <0282.g1:/ A E / = 0282.g1:/ C E /; 0282.g1:/ E D / = 0282.g1:/ E B />` to the two straight lines :g:`CE <0282.g1:/ C E />`, :g:`EB <0282.g1:/ E B />`, and contain :eq:`equal <0282.g1:< A E D ) = 0282.g1:< C E B )>` :term:`angles <plane-angle>`, :just:`[I. 15] <I.15>`
 
 .. assertion::
 
-   therefore the base :g:`AD <0282.g1:/ A D />` is :eq:`equal <0282.g1:/ A D / = 0282.g1:/ C B />` to the base :g:`CB <0282.g1:/ C B />`, and the triangle :g:`AED <0282.g1:< A E D >>` will be :eq:`equal <0282.g1:< A E D > = 0282.g1:< C E B >>` to the triangle :g:`CEB <0282.g1:< C E B >>`; :just:`[I. 4] <I.4>` so that the angle :g:`DAE <0282.g1:< D A E )>` is also :eq:`equal <0282.g1:< D A E ) = 0282.g1:< E B C )>` to the angle :g:`EBC <0282.g1:< E B C )>`.
+   therefore the base :g:`AD <0282.g1:/ A D />` is :eq:`equal <0282.g1:/ A D / = 0282.g1:/ C B />` to the base :g:`CB <0282.g1:/ C B />`, and the :term:`triangle <trilateral>` :g:`AED <0282.g1:< A E D >>` will be :eq:`equal <0282.g1:< A E D > = 0282.g1:< C E B >>` to the triangle :g:`CEB <0282.g1:< C E B >>`; :just:`[I. 4] <I.4>` so that the angle :g:`DAE <0282.g1:< D A E )>` is also :eq:`equal <0282.g1:< D A E ) = 0282.g1:< E B C )>` to the angle :g:`EBC <0282.g1:< E B C )>`.
 
 .. subclause:: [I. 15] <I.15>
 
@@ -103,7 +103,7 @@ For let :g:`AE <0282.g1:/ A E />`, :g:`EB <0282.g1:/ E B />`, :g:`CE <0282.g1:/ 
 
 .. assertion::
 
-   Similarly we can prove that :g:`FE <0282.g1:/ F E />` will also make right angles with all the straight lines which meet it and are in the plane of reference.
+   Similarly we can prove that :g:`FE <0282.g1:/ F E />` will also make right angles with all the straight lines which meet it and are in the :term:`plane <plane-surface>` of reference.
 
 .. subclause::
 
@@ -135,8 +135,22 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
      "I.post.3" [label="I.post.3", fillcolor="#444422", tooltip="I.post.3: To describe a circle with any centre and distance.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
@@ -162,10 +176,80 @@ Dependency Graph
      "I.26" [label="I.26", fillcolor="#222244", tooltip="I.26: If two triangles have the two angles equal to two angles respectively, and one side equal to one side, namely, either the side adjoining the equal angles, or that subtending one…", URL="../../../../volume_I/book_i/propositions/26/index.html", target="_top"];
      "XI.def.3" [label="XI.def.3", fillcolor="#224422", tooltip="XI.def.3: A straight line is at right angles to a plane, when it makes right angles with all the straight lines which meet it and are in the plane.", URL="../../definitions/index.html#xi-def-3", target="_top"];
      "XI.4" [label="XI.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.4: If a straight line be set up at right angles to two straight lines which cut one another, at their common point of section, it will also be at right angles to the plane through…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "XI.4" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "XI.def.3" -> "I.def.4";
+     "XI.4" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "XI.def.3" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.26" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "XI.def.3" -> "I.def.10";
+     "XI.4" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "I.post.3" -> "I.def.16";
+     "I.def.20" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.26" -> "I.def.19";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";

@@ -6,7 +6,7 @@
 :title: Proposition V.5
 :folios: 0151, 0152
 :pages: 145, 146
-:dependencies: V.1
+:dependencies: V.def.2, V.1
 
 .. _V.5:
 
@@ -18,7 +18,7 @@ PROPOSITION 5.
 
 .. enunciation::
 
-   If a magnitude be the same multiple of a magnitude that a part subtracted is of a part subtracted, the remainder will also be the same multiple of the remainder that the whole is of the whole.
+   If a magnitude be the same :term:`multiple <multiple>` of a magnitude that a part subtracted is of a part subtracted, the remainder will also be the same multiple of the remainder that the whole is of the whole.
 
 For let the magnitude :g:`AB <0151.g1:/ A B />` be the same multiple of the magnitude :g:`CD <0151.g1:/ C D />` that the part :g:`AE <0151.g1:/ A E />` subtracted is of the part :g:`CF <0151.g1:/ C F />` subtracted;
 
@@ -96,8 +96,13 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.5" [label="V.5", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.5: If a magnitude be the same multiple of a magnitude that a part subtracted is of a part subtracted, the remainder will also be the same multiple of the remainder that the whole is…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.1" -> "V.def.2";
+     "V.5" -> "V.def.2";
      "V.5" -> "V.1";
    }
 

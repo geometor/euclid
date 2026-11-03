@@ -6,7 +6,7 @@
 :title: Proposition IX.7
 :folios: 0395, 0396
 :pages: 389, 390
-:dependencies: VII.def.13, VII.def.15
+:dependencies: VII.def.2, VII.def.13, VII.def.15
 
 .. _IX.7:
 
@@ -18,7 +18,7 @@ PROPOSITION 7.
 
 .. enunciation::
 
-   If a composite number by multiplying any number make some number, the product will be solid.
+   If a :term:`composite number <composite-number>` by :term:`multiplying <multiply>` any :term:`number <number>` make some number, the product will be solid.
 
 For let the composite number :g:`A <0395.g1:A>` by multiplying any number :g:`B <0395.g1:B>` make :g:`C <0395.g1:C>`;
 
@@ -33,9 +33,9 @@ I say that :g:`C <0395.g1:C>` is solid.
 
 .. assertion::
 
-   it will be measured by some number. :just:`[VII. Def. 13] <VII.def.13>`
+   it will be :term:`measured <part-aliquot>` by some number. :just:`[VII. Def. 13] <VII.def.13>`
 
-Let it be measured by :g:`D <0395.g1:D>`; and, as many times as :g:`D <0395.g1:D>` measures :g:`A <0395.g1:A>`, so many units let there be in :g:`E <0395.g1:E>`.
+Let it be measured by :g:`D <0395.g1:D>`; and, as many times as :g:`D <0395.g1:D>` measures :g:`A <0395.g1:A>`, so many :term:`units <unit>` let there be in :g:`E <0395.g1:E>`.
 
 .. _folio-ii-0396:
 
@@ -76,9 +76,18 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
      "VII.def.13" [label="VII.def.13", fillcolor="#224422", tooltip="VII.def.13: A composite number is that which is measured by some number.", URL="../../../book_vii/definitions/index.html#vii-def-13", target="_top"];
      "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
      "IX.7" [label="IX.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.7: If a composite number by multiplying any number make some number, the product will be solid.", URL="index.html", target="_top"];
+     "VII.def.13" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.def.13" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "IX.7" -> "VII.def.2";
      "IX.7" -> "VII.def.13";
      "IX.7" -> "VII.def.15";
    }

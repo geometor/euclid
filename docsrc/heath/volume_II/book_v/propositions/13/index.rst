@@ -18,7 +18,7 @@ PROPOSITION 13.
 
 .. enunciation::
 
-   If a first magnitude have to a second the same ratio as a third to a fourth, and the third have to the fourth a greater ratio than a fifth has to a sixth, the first will also have to the second a greater ratio than the fifth to the sixth.
+   If a first magnitude have to a second the :term:`same ratio <in-the-same-ratio>` as a third to a fourth, and the third have to the fourth a :term:`greater ratio <greater-ratio>` than a fifth has to a sixth, the first will also have to the second a greater ratio than the fifth to the sixth.
 
 For let a first magnitude :g:`A <0166.g1:A>` have to a second :g:`B <0166.g1:B>` the same ratio as a third :g:`C <0166.g1:C>` has to a fourth :g:`D <0166.g1:D>`, and let the third :g:`C <0166.g1:C>` have to the fourth :g:`D <0166.g1:D>` a greater ratio than a fifth :g:`E <0166.g1:E>` has to a sixth :g:`F <0166.g1:F>`;
 
@@ -27,7 +27,7 @@ I say that the first :g:`A <0166.g1:A>` will also have to the second :g:`B <0166
 .. picture:: 0166.g1.svg
    :alt: Proposition 13 diagram
 
-For, since there are some equimultiples of :g:`C <0166.g1:C>`, :g:`E <0166.g1:E>`, and of :g:`D <0166.g1:D>`, :g:`F <0166.g1:F>` other, chance, equimultiples, such that the multiple of :g:`C <0166.g1:C>` is in excess of the multiple of :g:`D <0166.g1:D>`,
+For, since there are some :term:`equimultiples <multiple>` of :g:`C <0166.g1:C>`, :g:`E <0166.g1:E>`, and of :g:`D <0166.g1:D>`, :g:`F <0166.g1:F>` other, chance, equimultiples, such that the multiple of :g:`C <0166.g1:C>` is in excess of the multiple of :g:`D <0166.g1:D>`,
 while the multiple of :g:`E <0166.g1:E>` is not in excess of the multiple of :g:`F <0166.g1:F>`, :just:`[V. Def. 7] <V.def.7>`
 
 .. _folio-ii-0167:
@@ -75,9 +75,14 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
      "V.13" [label="V.13", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.13: If a first magnitude have to a second the same ratio as a third to a fourth, and the third have to the fourth a greater ratio than a fifth has to a sixth, the first will also have…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
      "V.13" -> "V.def.5";
      "V.13" -> "V.def.7";
    }

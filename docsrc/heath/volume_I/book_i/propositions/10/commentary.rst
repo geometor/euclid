@@ -14,8 +14,6 @@ Commentary on Proposition I.10
 
 Back to :ref:`Proposition I.10 <I.10>`.
 
-.. _folio-i-0282:
-
 .. folio:: 0282
    :page: 268
 

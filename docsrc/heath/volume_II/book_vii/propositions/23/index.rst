@@ -6,7 +6,7 @@
 :title: Proposition VII.23
 :folios: 0330, 0331
 :pages: 324, 325
-:dependencies: VII.def.12
+:dependencies: V.def.1, VII.def.2, VII.def.12
 
 .. _VII.23:
 
@@ -18,7 +18,7 @@ PROPOSITION 23.
 
 .. enunciation::
 
-   If two numbers be prime to one another, the number which measures the one of them will be prime to the remaining number.
+   If two :term:`numbers <number>` be :term:`prime to one another <prime-to-one-another>`, the number which :term:`measures <part-aliquot>` the one of them will be prime to the remaining number.
 
 Let :g:`A <0330.g1:A>`, :g:`B <0330.g1:B>` be two numbers prime to one another, and let any number :g:`C <0330.g1:C>` measure :g:`A <0330.g1:A>`;
 
@@ -76,8 +76,16 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
      "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
      "VII.23" [label="VII.23", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.23: If two numbers be prime to one another, the number which measures the one of them will be prime to the remaining number.", URL="index.html", target="_top"];
+     "VII.def.12" -> "V.def.1";
+     "VII.23" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.23" -> "VII.def.2";
      "VII.23" -> "VII.def.12";
    }
 

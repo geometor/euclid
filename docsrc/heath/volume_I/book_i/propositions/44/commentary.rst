@@ -20,8 +20,6 @@ Back to :ref:`Proposition I.44 <I.44>`.
 This proposition will always remain one of the most impressive in all geometry when account is taken (1) of the great importance of the result
 obtained, the transformation of a parallelogram of any shape into another with the same angle and of equal area but with one side of any given length, e.g. a *unit* length, and (2) of the simplicity of the means employed, namely the mere application of the property that the complements of the “parallelograms about the diameter” of a parallelogram are equal. The marvellous ingenuity of the solution is indeed worthy of the “godlike men of old,” as :person:`Proclus <proclus>` calls the discoverers of the method of “application of areas”; and there would seem to be no reason to doubt that the particular solution, like the whole theory, was Pythagorean, and not a new solution due to :person:`Euclid <euclid>` himself.
 
-.. _folio-i-0357:
-
 .. folio:: 0357
    :page: 343
 
@@ -34,8 +32,6 @@ On this proposition :person:`Proclus <proclus>` gives (pp. 419, 15—420, 23) a 
 
 Other passages to a similar effect are quoted from :person:`Plutarch <plutarch>`. (1) “:person:`Pythagoras <pythagoras>` sacrificed an ox on the strength of his proposition (διάγραμμα) as Apollodotus (?-rus) says...whether it was the theorem of the hypotenuse, viz. that the square on it is equal to the squares on the sides containing the right angle, or the problem about the *application of an area*.” (*Non posse suaviter vivi secundum Epicurum*, c. 11.) (2) “Among the most geometrical theorems, or rather *problems*, is the following: given two figures, to *apply* a third equal to the one and similar to the other, on the strength of which discovery they say moreover that :person:`Pythagoras <pythagoras>` sacrificed. This is indeed unquestionably more subtle and more scientific than the theorem which
 demonstrated that the square on the hypotenuse is equal to the squares on the sides about the right angle” (*Symp.* VIII. 2, 4).
-
-.. _folio-i-0358:
 
 .. folio:: 0358
    :page: 344
@@ -62,8 +58,6 @@ but in VI. 28, 29 :person:`Euclid <euclid>` gives the equivalent of the solution
 $$ax \pm \frac{b}{c}x^2 = \frac{C}{m}.$$
 
 We are now in a position to understand the application of the terms *parabola* (application), *hyperbola* (exceeding) and *ellipse* (falling-short) to conic sections. These names were first so applied by :person:`Apollonius <apollonius>` as expressing in each case the fundamental property of the curves as stated by him. This fundamental property is the geometrical equivalent of the Cartesian equation referred to any diameter of the conic and the tangent at its extremity as (in general, oblique) axes. If the parameter of the ordinates from the several points of the conic drawn to the given diameter be denoted by $p$ ($p$ being accordingly, in the case of the hyperbola and ellipse, equal to $\frac{{d'}^2}{d}$, where $d$ is the length of the given diameter and $d'$ that of its conjugate), :person:`Apollonius <apollonius>` gives the properties of the three conics in the following form.
-
-.. _folio-i-0359:
 
 .. folio:: 0359
    :page: 345

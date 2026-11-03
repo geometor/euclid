@@ -13,8 +13,6 @@ Commentary on Book I Common Notions
 
 Back to :ref:`Book I Common Notions <I.cn>`.
 
-.. _folio-i-0235:
-
 .. folio:: 0235
    :page: 221
 
@@ -31,8 +29,6 @@ In reply to argument (1) that it is an unnatural order to place the purely geome
 
 No doubt it is difficult to feel certain that :person:`Euclid <euclid>` did himself use the term *Common Notions*, seeing that Proclus' commentary generally speaks of *Axioms*. But even :person:`Proclus <proclus>` (:cite:`p. 194, 8 <proclus:in-euclid:194.8>`), after explaining the meaning of the word "axiom," first as used by the Stoics, and secondly as used by ":person:`Aristotle <aristotle>` and
 the geometers," goes on to say: "For in their view (that of :person:`Aristotle <aristotle>` and the geometers) *axiom* and *common notion* are the same thing." This, as it seems to me, may be a sort of apology for using the word "axiom" exclusively in what has gone before, as if :person:`Proclus <proclus>` had suddenly bethought himself that he had described both :person:`Aristotle <aristotle>` and the geometers as using the one term "axiom," whereas he should have said that :person:`Aristotle <aristotle>` spoke of "axioms," while "the geometers" (in fact :person:`Euclid <euclid>`), though meaning the same thing, called them *Common Notions*. It may be for a like reason that in another passage (p. 76, 16), after quoting Aristotle's view of an "axiom," as distinct from a postulate and a hypothesis, he proceeds: "For it is not by virtue of a *common notion* that, without being taught, we preconceive the circle to be such and such a figure." If this view of the two passages just quoted is correct, it would strengthen rather than weaken the case for the genuineness of *Common Notions* as the Euclidean term.
-
-.. _folio-i-0236:
 
 .. folio:: 0236
    :page: 222
@@ -61,8 +57,6 @@ Therefore :g:`A <0236.g1:A>` also occupies the same space with :g:`C <0236.g1:C>
 
 :person:`Proclus <proclus>` rightly remarks (p. 194, 22) that "the middle term is no more
 intelligible (better known, γνωριμώτερον) than the conclusion, if it is not actually more disputable." Again (p. 195, 6), the proof assumes two things, (1) that things which "occupy the same space" (:term:`τόπος <topos>`) are equal to one another, and (2) that things which occupy the same space with one and the same thing occupy the same space with one another; which is to explain the obvious by something much more obscure, for space is an entity more unknown to us than the things which exist in space.
-
-.. _folio-i-0237:
 
 .. folio:: 0237
    :page: 223
@@ -103,8 +97,6 @@ The fourth, which was placed between (*a*) and (*b*), was:
 As regards (*b*), I agree with :person:`Tannery <tannery>` in seeing no sufficient reason why, if
 we reject it (as we certainly must), the words in I. 47 "But things which are double of equals are equal to one another" should be condemned as an interpolation. If they were interpolated, we should have expected to find the same interpolation in I. 42, where the axiom is *tacitly* assumed. I think it quite possible that :person:`Euclid <euclid>` may have inserted such words in one case and left them out in another, without necessarily implying either that he was quoting a formal *Common Notion* of his own or that he had *not* included among his Common Notions the particular fact stated as obvious.
 
-.. _folio-i-0238:
-
 .. folio:: 0238
    :page: 224
 
@@ -144,8 +136,6 @@ COMMON NOTION 4.
 The word :term:`ἐφαρμόζειν <epharmozein>`, as a geometrical term, has a different meaning according as it is used in the active or in the passive. In the passive, :term:`ἐφαρμόζεσθαι <epharmozein>`, it means "to be *applied to*" without any implication that the applied figure will exactly fit, or coincide with, the figure to which it is applied; on the other hand the active :term:`ἐφαρμόζειν <epharmozein>` is used intransitively and means "to
 fit exactly," "to coincide with." In :person:`Euclid <euclid>` and :person:`Archimedes <archimedes>` :term:`ἐφαρμόζειν <epharmozein>` is constructed with ἐπί and the accusative, in :person:`Pappus <pappus>` with the dative.
 
-.. _folio-i-0239:
-
 .. folio:: 0239
    :page: 225
 
@@ -158,8 +148,6 @@ It seems clear that the Common Notion, as here formulated, is intended to assert
 The phraseology of the propositions, e.g. I. 4 and I. 8, in which :person:`Euclid <euclid>` employs the method indicated, leaves no room for doubt that he regarded one figure as actually *moved* and *placed upon* the other. Thus in I. 4 he says, "The triangle $ABC$ being applied (ἐφαρμοζομένου) to the triangle $DEF$, and the point $A$ being *placed* (τιθεμένου) upon the point $D$, and the straight line $AB$ on $DE$, the point $B$ will also coincide with $E$ because $AB$ is equal to $DE$"; and in I. 8, "If the sides $BA$, $AC$ do not coincide with $ED$, $DF$, but *fall beside them* (take a different position, παραλλάξουσιν), then" etc. At the same time, it is clear that :person:`Euclid <euclid>` disliked the method and avoided it wherever he could, e.g. in I. 26, where he proves the equality of two triangles which have two angles respectively equal to two angles and one side of the one equal to the corresponding side of the other. It looks as though he found the method handed down by tradition (we can hardly suppose that, if :person:`Thales <thales>` proved that the diameter of a circle divides it into two equal parts, he would do so by any other method than that of superposition), and followed it, in the few cases where he does so, only because he had not been able to see his way to a satisfactory substitute. But seeing how much of the *Elements* depends on I. 4, directly or indirectly, the method can hardly be regarded as being, in :person:`Euclid <euclid>`, of only subordinate importance; on the contrary, it is fundamental. Nor, as a matter of fact, do we find in the ancient geometers any expression of doubt as to the legitimacy of the method. :person:`Archimedes <archimedes>` uses it to prove that any spheroidal figure cut by a plane through the centre is divided into two equal parts in respect of both its surface and its volume; he also postulates in *Equilibrium of Planes* I. that "when equal and similar plane figures coincide if applied to one another, their centres of gravity coincide also."
 
 :person:`Killing <killing>` (*Einführung in die Grundlagen der Geometrie*, II. pp. 4, 5)
-
-.. _folio-i-0240:
 
 .. folio:: 0240
    :page: 226
@@ -176,8 +164,6 @@ It is well known that :person:`Helmholtz <helmholtz>` maintained that geometry r
 :person:`Veronese <veronese>` exposed the fallacy in this (*Fondamenti di geometria*, pp. xxxv—xxxvi, 239—240 note, 615—7), his argument being as follows. Since geometry is concerned with empty space, which is immovable, it would be at least strange if it was necessary to have recourse to the real motion of bodies for a definition,
 and for the proof of the properties, of immovable space. We must distinguish the intuitive principle of motion in itself from that of motion *without deformation*. Every point of a figure which moves is transferred to another point in space. "Without deformation" means that the mutual relations between the points of the figure do not change, but the relations between them and other figures do change (for if they did not, the figure could not move). Now consider what we mean by saying that, when the figure $A$ has moved from the position $A_1$ to the position $A_2$, the relations between the points of $A$ in the position $A_2$ are unaltered from what they were in the position $A_1$, are the same in fact as if $A$ had not moved but remained at $A_1$. We can only say that, judging of the figure (or the body with its physical qualities eliminated) by the impressions it produces in us during its movement, the impressions produced in us in the two different positions (which are in time distinct) *are equal*. In fact, we are making use of the notion of *equality* between two distinct figures. Thus, if we say that two bodies are equal when they can be superposed by means of *movement without deformation*, we are committing a *petitio principii*. The notion of the equality of spaces is really prior to that of rigid bodies or of motion without deformation. :person:`Helmholtz <helmholtz>` supported his view by reference to the process of measurement in which the measure must be, at least approximately, a rigid body, but the existence of a rigid body as a standard to measure by, and the question how we discover two equal spaces to be equal, are matters of no concern to the geometer. The method of superposition, depending on motion without deformation, is only of use as a *practical* test; it has nothing to do with the *theory* of geometry.
 
-.. _folio-i-0241:
-
 .. folio:: 0241
    :page: 227
 
@@ -189,8 +175,6 @@ If the method of superposition is given up as a means of defining theoretically 
 
 "If a sheet of paper be folded double, and a triangle be drawn upon it and then cut out, we obtain two triangles *superposed* which we in practice call *equal*. If points $A$, $B$, $C$, $D \dots$ be marked on one of the triangles, then, when we place this triangle upon the other (so as to coincide with it), we see
 that *each* of the particular points taken on the first is superposed on one particular point of the second in such a way that the segments $AB$, $AC$, $AD$, $BC$, $BD$, $CD$, $\dots$ are respectively superposed on as many segments in the second triangle and are therefore equal to them respectively. In this way we justify the following
-
-.. _folio-i-0242:
 
 .. folio:: 0242
    :page: 228
@@ -218,8 +202,6 @@ then, if $BC$, $B'C'$ are congruent, the two *pairs of straight lines* are congr
 It is observed in the Article referred to that, from the theoretical standpoint, Veronese's system is an advance upon that of :person:`Pasch <pasch>`, since the idea of congruence between *segments* is more simple than that of congruence between *any figures*; but, didactically, the development of the theory is more complicated when we start from Veronese's system than when we start from that of :person:`Pasch <pasch>`.
 
 The system of :person:`Hilbert <hilbert>` offers advantages over both the others from the point of view of the teaching of geometry, and I shall therefore give a short account of his system only, following the Article above quoted.
-
-.. _folio-i-0243:
 
 .. folio:: 0243
    :page: 229
@@ -271,8 +253,6 @@ Then, by Hilbert's own postulate, the angles :g:`ABC <0243.g1:< A B C )>`, :g:`A
 
 If :g:`BC <0243.g1:/ B C />` is not congruent with :g:`B'C' <0243.g1:/ B' C' />`, let :g:`D <0243.g1:D>` be taken on :g:`B'C' <0243.g1:/ B' C' />` such that :g:`BC <0243.g1:/ B C />`, :g:`B'D <0243.g1:/ B' D />` are :eq:`congruent <0243.g1:/ B C / = 0243.g1:/ B' D />`, and join :g:`A'D <0243.g1:/ A' D />`.
 
-.. _folio-i-0244:
-
 .. folio:: 0244
    :page: 230
 
@@ -318,8 +298,6 @@ The triangles :g:`OAB <0244.g2:< O A B >>`, :g:`O'A'B' <0244.g2:< O' A' B' >>` a
 
 Then :g:`l' <0244.g2:[ O' C' ]>` drawn from :g:`O' <0244.g2:O'>` through :g:`C' <0244.g2:C'>` is the half-ray required.
 
-.. _folio-i-0245:
-
 .. folio:: 0245
    :page: 231
 
@@ -358,8 +336,6 @@ Lastly, :person:`Hilbert <hilbert>` proves Eucl. I. 8 by means of the theorem of
 :g:`ABC <0245.g2:< A B C >>`, :g:`A'B'C' <0245.g2:< A' B' C' >>` being the given triangles with three sides respectively :eq:`congruent <0245.g2:/ A B / = 0245.g2:/ A' B' /; 0245.g2:/ A C / = 0245.g2:/ A' C' /; 0245.g2:/ B C / = 0245.g2:/ B' C' />`, we suppose an angle :g:`CBA'' <0245.g2:< C B A'' )>` to be determined, on the side of :g:`BC <0245.g2:/ B C />` opposite to :g:`A <0245.g2:A>`, :eq:`congruent <0245.g2:< C B A'' ) = 0245.g2:< A' B' C' )>` with the angle :g:`A'B'C' <0245.g2:< A' B' C' )>`, and we make :g:`BA'' <0245.g2:/ B A'' />` :eq:`equal <0245.g2:/ B A'' / = 0245.g2:/ A' B' />` to :g:`A'B' <0245.g2:/ A' B' />`.
 
 The proof is obvious, being equivalent to the alternative proof often given in our text-books for Eucl. I. 8.
-
-.. _folio-i-0246:
 
 .. folio:: 0246
    :page: 232
@@ -405,8 +381,6 @@ An-Nairīzī's version of this refers to straight lines and plane surfaces only:
 This "axiom" of :person:`Pappus <pappus>`, as quoted by :person:`Proclus <proclus>`, seems to be taken directly from the discussion of τὸ ἄπειρον in :person:`Aristotle <aristotle>`, *Physics* III. 5—8, even to the wording, for, while :person:`Aristotle <aristotle>` uses the term *division* (διαίρεσις) most frequently as the antithesis of *addition* (σύνθεσις), he occasionally speaks of *subtraction* (ἀφαίρεσις) and *diminution* (καθαίρεσις). :person:`Hankel <hankel>` (:cite:`*Zur Geschichte der Mathematik im Alterthum und Mittelalter* <hankel:geschichte>`, 1874, pp. 119—120) gave an admirable
 summary of Aristotle's views on this subject; and they are stated in greater detail in Görland, *Aristoteles und die Mathematik*, Marburg, 1899, pp. 157—183. The infinite or unlimited (ἄπειρον) only exists potentially (δυνάμει), not in actuality (ἐνεργείᾳ). The infinite is so in virtue of its endlessly changing into something else, like day or the Olympic Games (:cite:`*Phys.* III. 6, 206 a 15—25 <aristotle:phys:III.6.206a15-25>`). The infinite is manifested in different forms in time, in Man, and in the division of magnitudes. For, in general, the infinite consists in something new being continually taken, that something being itself always finite but always different. Therefore the infinite must not be regarded as a particular thing (τόδε τι), as man, house, but as being always in course of becoming or decay, and, though finite at any moment, always different from moment to moment. But there is the distinction between the forms above referred to that, whereas in the case of magnitudes what is once taken remains, in the case of time and Man it passes or is destroyed but the succession is unbroken. The case of addition is in a sense the same as that of division; in the finite magnitude the former takes place in the converse way to the latter; for, as we see the finite magnitude divided *ad infinitum*, so we shall find that addition gives a sum tending to a definite limit. I mean that, in the case of a finite magnitude, you may take a definite fraction of it and add to it (continually) in the same ratio; if now the successive added terms do not include one and the same magnitude whatever it is [i.e. if the successive terms diminish in geometrical progression], you will not come to the end of the finite magnitude, but, if the ratio is increased so that each term does include one and the same magnitude whatever it is, you will come to the end of the finite magnitude, for every finite magnitude is exhausted by continually taking from it any definite fraction whatever. Thus in no other sense does the infinite exist, but only in the sense just mentioned, that is, potentially and by way of diminution (206 a 25—b 13). And in this sense you may have potentially infinite addition, the process being, as we say, in a manner, the same as with division *ad infinitum*: for in the case of addition you will always be able to find something outside the total for the time being, but the total will never exceed every definite (or assigned) magnitude in the way that, in the direction of division, the result will pass every definite magnitude, that is, by becoming smaller than it. The infinite therefore cannot exist even potentially in the sense of exceeding every finite magnitude as the result of successive addition (206 b 16—22). It follows that the correct view of the infinite is the opposite of that commonly held: it is not that which has nothing outside it, but that which always has something outside it (206 b 33—207 a 1).
 
-.. _folio-i-0247:
-
 .. folio:: 0247
    :page: 233
 
@@ -414,8 +388,6 @@ Contrasting the case of number and magnitude, :person:`Aristotle <aristotle>` po
 
 :person:`Aristotle <aristotle>` is aware that it is essentially of physical magnitudes that he is speaking. He had observed in an earlier passage (:cite:`*Phys.* III. 5, 204 a 34 <aristotle:phys:III.5.204a34>`) that it is perhaps a more general inquiry that would be necessary to determine
 whether the infinite is possible in mathematics, and in the domain of thought and of things which have no magnitude; but he excuses himself from entering upon this inquiry on the ground that his subject is physics and sensible objects. He returns however to the bearing of his conclusions on mathematics in III. 7, 207 b 27: "my argument does not even rob mathematicians of their study, although it denies the existence of the infinite in the sense of actual existence as something increased to such an extent that it cannot be gone through (ἀδιεξίτητον); for, as it is, they do not even need the infinite or use it, but only require that the finite (straight line) shall be as long *as they please*; and another magnitude of any size whatever can be cut in the same ratio as the greatest magnitude. Hence it will make no difference to them for the purpose of demonstration."
-
-.. _folio-i-0248:
 
 .. folio:: 0248
    :page: 234
@@ -430,8 +402,6 @@ Aristotle's denial of even the potential existence of a sum of magnitudes which 
 
 The use of actual construction as a method of proving the existence of figures having certain properties is one of the characteristics of the *Elements*. Now constructions are effected by means of straight lines and circles drawn in accordance with Postulates 1—3; the essence of them is that such straight lines and circles determine by their intersections other points in addition to those given, and these points again are used to determine new lines, and so on. This being so, the *existence* of such points of intersection must be postulated or proved in the same way as that of the lines which determine them. Yet there is no postulate of this character expressed in :person:`Euclid <euclid>` except Post. 5. This postulate asserts that two straight lines meet if they satisfy a certain condition. The condition is of the nature of a :term:`διορισμός <diorismos>` (*discrimination*, or condition of possibility) in a problem; and, if the existence of the point of
 intersection were not granted, the solutions of problems in which the points of intersection of straight lines are used would not in general furnish the required proofs of the existence of the figures to be constructed.
-
-.. _folio-i-0249:
 
 .. folio:: 0249
    :page: 235
@@ -455,8 +425,6 @@ Suppose that in a segment $AB$ of a straight line a point $C$ determines two seg
 3. Every point of the first part precedes every point of the second in the order $AB$ of the segment.
 
 (For generality we may also suppose the case in which the point $C$ falls at $A$ or at $B$. Considering $C$, in these cases respectively, as belonging to the first or second part, we still have a division into parts which have the properties above enunciated, one part being then a single point $A$ or $B$.)
-
-.. _folio-i-0250:
 
 .. folio:: 0250
    :page: 236
@@ -497,8 +465,6 @@ the corresponding points of the segment $AB$ determine two parts of the segments
 (3) any point whatever of the first part precedes any point whatever of the second.
 
 But in that case there exists a point $C$ of $AB$ (which may belong to one or the other of the two parts) such that every point of $AB$ that precedes $C$ belongs to the first part and every point of $AB$ that follows $C$ belongs to the second part.
-
-.. _folio-i-0251:
 
 .. folio:: 0251
    :page: 237
@@ -544,8 +510,6 @@ Thus, remembering that, of two obliques from a given point to a given straight l
 
 Hence, by the Postulate of :person:`Dedekind <dedekind>`, there exists on the segment :g:`PB <0251.g1:/ P B />` a
 point :g:`M <0251.g1:M>` such that all the points which precede it belong to the first part and those which follow it to the second part.
-
-.. _folio-i-0252:
 
 .. folio:: 0252
    :page: 238
@@ -636,8 +600,6 @@ $$OO' < R + R',$$
 
 whence, by $(\beta)$, :g:`AO' <0252.g2:/ A O' />` < :g:`R' <0252.g2:( O' C' )>`, so that :g:`A <0252.g2:A>` lies *inside* :g:`C' <0252.g2:( O' C' )>`.
 
-.. _folio-i-0253:
-
 .. folio:: 0253
    :page: 239
 
@@ -709,8 +671,6 @@ Hence :g:`O'M <0253.g2:/ O' M />` = :g:`R <0253.g2:( O' C' )>`.
 [To find a point :g:`M' <0254.g1:M'>` such that the chord :g:`MM' <0254.g1:/ M M' />` is not greater than :g:`σ <0254.g1:/ M M' />`, we may proceed thus.
 
 Draw from :g:`M <0254.g1:M>` a straight line :g:`MP <0254.g1:/ M P />` distinct from :g:`OM <0254.g1:/ O M />`, and cut off :g:`MP <0254.g1:/ M P />` on it equal to :g:`σ/2 <0254.g1:/ M P />`.
-
-.. _folio-i-0254:
 
 .. folio:: 0254
    :page: 240

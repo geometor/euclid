@@ -6,7 +6,7 @@
 :title: Proposition V.16
 :folios: 0170, 0171
 :pages: 164, 165
-:dependencies: V.def.5, V.11, V.14, V.15
+:dependencies: V.def.5, V.def.6, V.def.12, V.11, V.14, V.15
 
 .. _V.16:
 
@@ -18,7 +18,7 @@ PROPOSITION 16.
 
 .. enunciation::
 
-   If four magnitudes be proportional, they will also be proportional alternately.
+   If four magnitudes be :term:`proportional <proportional>`, they will also be proportional :term:`alternately <alternando>`.
 
 Let :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>`, :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` be four proportional magnitudes, so that, as :g:`A <0170.g1:A>` is to :g:`B <0170.g1:B>`, so is :g:`C <0170.g1:C>` to :g:`D <0170.g1:D>` ;\ [#f1]_
 
@@ -27,9 +27,9 @@ I say that they will also be so alternately, that is, as :g:`A <0170.g1:A>` is t
 .. picture:: 0170.g1.svg
    :alt: Proposition 16 diagram
 
-For of :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>` let equimultiples :g:`E <0170.g1:E>`, :g:`F <0170.g1:F>` be taken, and of :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` other, chance, equimultiples :g:`G <0170.g1:G>`, :g:`H <0170.g1:H>`.
+For of :g:`A <0170.g1:A>`, :g:`B <0170.g1:B>` let :term:`equimultiples <multiple>` :g:`E <0170.g1:E>`, :g:`F <0170.g1:F>` be taken, and of :g:`C <0170.g1:C>`, :g:`D <0170.g1:D>` other, chance, equimultiples :g:`G <0170.g1:G>`, :g:`H <0170.g1:H>`.
 
-Then, since :g:`E <0170.g1:E>` is the same multiple of :g:`A <0170.g1:A>` that :g:`F <0170.g1:F>` is of :g:`B <0170.g1:B>`, and parts have the same ratio as the same multiples of them, :just:`[V. 15] <V.15>`
+Then, since :g:`E <0170.g1:E>` is the same multiple of :g:`A <0170.g1:A>` that :g:`F <0170.g1:F>` is of :g:`B <0170.g1:B>`, and parts have the :term:`same ratio <in-the-same-ratio>` as the same multiples of them, :just:`[V. 15] <V.15>`
 
 .. assertion::
 
@@ -88,9 +88,21 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../definitions/index.html#v-def-12", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../definitions/index.html#v-def-13", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../07/index.html", target="_top"];
      "V.8" [label="V.8", fillcolor="#222244", tooltip="V.8: Of unequal magnitudes, the greater has to the same a greater ratio than the less has; and the same has to the less a greater ratio than it has to the greater.", URL="../08/index.html", target="_top"];
@@ -101,13 +113,40 @@ Dependency Graph
      "V.14" [label="V.14", fillcolor="#222244", tooltip="V.14: If a first magnitude have to a second the same ratio as a third has to a fourth, and the first be greater than the third, the second will also be greater than the fourth ; if…", URL="../14/index.html", target="_top"];
      "V.15" [label="V.15", fillcolor="#222244", tooltip="V.15: Parts have the same ratio as the same multiples of them taken in corresponding order.", URL="../15/index.html", target="_top"];
      "V.16" [label="V.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.16: If four magnitudes be proportional, they will also be proportional alternately.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.13" -> "I.def.3";
+     "I.def.14" -> "I.def.13";
+     "V.10" -> "I.def.14";
+     "V.11" -> "I.def.14";
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.15" -> "V.def.2";
+     "V.10" -> "V.def.3";
+     "V.11" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.10" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.11" -> "V.def.5";
      "V.12" -> "V.def.5";
      "V.13" -> "V.def.5";
+     "V.14" -> "V.def.5";
+     "V.15" -> "V.def.5";
      "V.16" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "V.12" -> "V.def.6";
+     "V.16" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.10" -> "V.def.7";
      "V.13" -> "V.def.7";
+     "V.def.12" -> "V.def.11";
+     "V.def.13" -> "V.def.11";
+     "V.12" -> "V.def.11";
+     "V.16" -> "V.def.12";
+     "V.7" -> "V.def.13";
      "V.8" -> "V.1";
      "V.12" -> "V.1";
      "V.10" -> "V.7";

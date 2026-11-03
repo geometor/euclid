@@ -6,7 +6,7 @@
 :title: Proposition VII.1
 :folios: 0302, 0303
 :pages: 296, 297
-:dependencies: VII.def.12
+:dependencies: V.def.1, VII.def.1, VII.def.2, VII.def.12
 
 .. _VII.1:
 
@@ -18,7 +18,7 @@ PROPOSITION 1.
 
 .. enunciation::
 
-   Two unequal numbers being set out, and the less being continually subtracted in turn from the greater, if the number which is left never measures the one before it until an unit is left, the original numbers will be prime to one another.
+   Two unequal :term:`numbers <number>` being set out, and the less being continually subtracted in turn from the greater, if the number which is left never :term:`measures <part-aliquot>` the one before it until an :term:`unit <unit>` is left, the original numbers will be :term:`prime to one another <prime-to-one-another>`.
 
 For, the less of two unequal numbers :g:`AB <0302.g1:/ A B />`, :g:`CD <0302.g1:/ C D />` being continually subtracted from the greater, let the number which is left never measure the one before it until an unit is left;
 
@@ -102,8 +102,17 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
      "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
      "VII.1" [label="VII.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.1: Two unequal numbers being set out, and the less being continually subtracted in turn from the greater, if the number which is left never measures the one before it until an unit…", URL="index.html", target="_top"];
+     "VII.def.12" -> "V.def.1";
+     "VII.1" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.1" -> "VII.def.1";
+     "VII.1" -> "VII.def.2";
      "VII.1" -> "VII.def.12";
    }
 

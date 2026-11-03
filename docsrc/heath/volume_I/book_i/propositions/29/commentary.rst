@@ -37,8 +37,6 @@ Therefore the angle :g:`AGH <0326.g1:< A G H )>` cannot but be :eq:`equal <0326.
 
 The rest of the proposition follows as in :person:`Euclid <euclid>`.
 
-.. _folio-i-0327:
-
 .. folio:: 0327
    :page: 313
 
@@ -72,8 +70,6 @@ Now Playfair's axiom asserts that the lines which have property ($\beta$) meet i
 
 We then argue that lines having property ($\alpha$) meet because lines having property ($\alpha$) are lines having property ($\beta$). But we do not know, until we have proved **I.** 29, that all pairs of lines having property ($\beta$) have also property
 ($\alpha$). For anything we know to the contrary, class ($\beta$) may be greater than class ($\alpha$). Hence, if you assert anything of class ($\beta$), the logical effect is more extensive than if you assert it of class ($\alpha$); for you assert it, not only of that portion of class ($\beta$) which is known to be included in class ($\alpha$), but also of the unknown (but possibly existing) portion which is *not* so included.
-
-.. _folio-i-0328:
 
 .. folio:: 0328
    :page: 314

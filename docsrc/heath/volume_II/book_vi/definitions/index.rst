@@ -5,6 +5,7 @@
 :title: Book VI Definitions
 :folios: 0194
 :pages: 188
+:dependencies: I.def.2, I.def.8, I.def.10, I.def.14, V.def.6
 
 .. _VI.def:
 
@@ -18,7 +19,7 @@ DEFINITIONS.
 
 .. _VI.def.1:
 
-1. :term:`**Similar rectilineal figures** <similar-rectilineal-figures>` are such as have their angles severally equal and the sides about the equal angles proportional.
+1. :term:`**Similar rectilineal figures** <similar-rectilineal-figures>` are such as have their :term:`angles <plane-angle>` severally equal and the sides about the equal angles :term:`proportional <proportional>`.
 
 .. _VI.def.2:
 
@@ -26,11 +27,11 @@ DEFINITIONS.
 
 .. _VI.def.3:
 
-3. :term:`**A straight line is said to have been cut in extreme and mean ratio** <extreme-and-mean-ratio>` when, as the whole line is to the greater segment, so is the greater to the less.
+3. :term:`**A straight line is said to have been cut in extreme and mean ratio** <extreme-and-mean-ratio>` when, as the whole :term:`line <line>` is to the greater segment, so is the greater to the less.
 
 .. _VI.def.4:
 
-4. :term:`**The height** <height>` of any figure is the perpendicular drawn from the vertex to the base.
+4. :term:`**The height** <height>` of any :term:`figure <figure>` is the :term:`perpendicular <perpendicular>` drawn from the vertex to the base.
 
 ----
 

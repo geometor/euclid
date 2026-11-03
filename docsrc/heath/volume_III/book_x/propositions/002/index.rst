@@ -6,7 +6,7 @@
 :title: Proposition X.2
 :folios: 0021
 :pages: 17
-:dependencies: X.def.1
+:dependencies: V.def.1, X.def.1
 
 .. _X.2:
 
@@ -20,7 +20,7 @@ PROPOSITION 2.
 
 .. enunciation::
 
-   If, when the less of two unequal magnitudes is continually subtracted in turn from the greater, that which is left never measures the one before it, the magnitudes will be incommensurable.
+   If, when the less of two unequal magnitudes is continually subtracted in turn from the greater, that which is left never :term:`measures <part-aliquot>` the one before it, the magnitudes will be :term:`incommensurable <incommensurable>`.
 
 For, there being two unequal magnitudes :g:`AB <0021.g1:/ A B />`, :g:`CD <0021.g1:/ C D />`, and :g:`AB <0021.g1:/ A B />` being the less, when the less is continually subtracted in turn from the greater, let that which is left over never measure the one before it; I say that the magnitudes :g:`AB <0021.g1:/ A B />`, :g:`CD <0021.g1:/ C D />` are incommensurable.
 
@@ -87,8 +87,11 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
      "X.def.1" [label="X.def.1", fillcolor="#224422", tooltip="X.def.1: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.", URL="../../definitions/index.html#x-def-1", target="_top"];
      "X.2" [label="X.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.2: If, when the less of two unequal magnitudes is continually subtracted in turn from the greater, that which is left never measures the one before it, the magnitudes will be…", URL="index.html", target="_top"];
+     "X.def.1" -> "V.def.1";
+     "X.2" -> "V.def.1";
      "X.2" -> "X.def.1";
    }
 

@@ -6,7 +6,7 @@
 :title: Proposition VII.22
 :folios: 0329, 0330
 :pages: 323, 324
-:dependencies: VII.def.15, VII.17
+:dependencies: V.def.5, VII.def.2, VII.def.12, VII.def.15, VII.17
 
 .. _VII.22:
 
@@ -18,7 +18,7 @@ PROPOSITION 22.
 
 .. enunciation::
 
-   The least numbers of those which have the same ratio with them are prime to one another.
+   The least :term:`numbers <number>` of those which have the :term:`same ratio <in-the-same-ratio>` with them are :term:`prime to one another <prime-to-one-another>`.
 
 Let :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>` be the least numbers of those which have the same ratio with them;
 
@@ -29,7 +29,7 @@ I say that :g:`A <0329.g1:A>`, :g:`B <0329.g1:B>` are prime to one another.
 
 .. subclause::
 
-   For, if they are not prime to one another, some number will measure them.
+   For, if they are not prime to one another, some number will :term:`measure <part-aliquot>` them.
 
 Let some number measure them, and let it be :g:`C <0329.g1:C>`.
 
@@ -38,7 +38,7 @@ Let some number measure them, and let it be :g:`C <0329.g1:C>`.
 .. folio:: 0330
    :page: 324
 
-And, as many times as :g:`C <0329.g1:C>` measures :g:`A <0329.g1:A>`, so many units let there be in :g:`D <0329.g1:D>`, and, as many times as :g:`C <0329.g1:C>` measures :g:`B <0329.g1:B>`, so many units let there be in :g:`E <0329.g1:E>`.
+And, as many times as :g:`C <0329.g1:C>` measures :g:`A <0329.g1:A>`, so many :term:`units <unit>` let there be in :g:`D <0329.g1:D>`, and, as many times as :g:`C <0329.g1:C>` measures :g:`B <0329.g1:B>`, so many units let there be in :g:`E <0329.g1:E>`.
 
 .. subclause::
 
@@ -46,7 +46,7 @@ And, as many times as :g:`C <0329.g1:C>` measures :g:`A <0329.g1:A>`, so many un
 
 .. assertion:: [VII. Def. 15] <VII.def.15>
 
-   therefore :g:`C <0329.g1:C>` by multiplying :g:`D <0329.g1:D>` has made :g:`A <0329.g1:A>`.
+   therefore :g:`C <0329.g1:C>` by :term:`multiplying <multiply>` :g:`D <0329.g1:D>` has made :g:`A <0329.g1:A>`.
 
 .. subclause::
 
@@ -90,6 +90,18 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../book_v/definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../book_v/definitions/index.html#v-def-12", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#vii-def-5", target="_top"];
+     "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
      "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../definitions/index.html#vii-def-15", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../definitions/index.html#vii-def-20", target="_top"];
      "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../05/index.html", target="_top"];
@@ -99,6 +111,46 @@ Dependency Graph
      "VII.13" [label="VII.13", fillcolor="#222244", tooltip="VII.13: If four numbers be proportional, they will also be proportional alternately.", URL="../13/index.html", target="_top"];
      "VII.17" [label="VII.17", fillcolor="#222244", tooltip="VII.17: If a number by multiplying two numbers make certain numbers, the numbers so produced will have the same ratio as the numbers multiplied.", URL="../17/index.html", target="_top"];
      "VII.22" [label="VII.22", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.22: The least numbers of those which have the same ratio with them are prime to one another.", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.def.12" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "VII.5" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
+     "VII.17" -> "V.def.5";
+     "VII.22" -> "V.def.5";
+     "VII.13" -> "V.def.6";
+     "V.def.12" -> "V.def.11";
+     "VII.9" -> "V.def.12";
+     "VII.10" -> "V.def.12";
+     "VII.13" -> "V.def.12";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.9" -> "VII.def.2";
+     "VII.10" -> "VII.def.2";
+     "VII.13" -> "VII.def.2";
+     "VII.17" -> "VII.def.2";
+     "VII.22" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.5" -> "VII.def.3";
+     "VII.9" -> "VII.def.3";
+     "VII.10" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.6" -> "VII.def.4";
+     "VII.9" -> "VII.def.4";
+     "VII.10" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
+     "VII.5" -> "VII.def.5";
+     "VII.22" -> "VII.def.12";
+     "VII.17" -> "VII.def.15";
      "VII.22" -> "VII.def.15";
      "VII.13" -> "VII.def.20";
      "VII.17" -> "VII.def.20";

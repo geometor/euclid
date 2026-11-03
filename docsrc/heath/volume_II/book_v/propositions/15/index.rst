@@ -6,7 +6,7 @@
 :title: Proposition V.15
 :folios: 0169, 0170
 :pages: 163, 164
-:dependencies: V.7, V.12
+:dependencies: V.def.2, V.def.5, V.7, V.12
 
 .. _V.15:
 
@@ -18,7 +18,7 @@ PROPOSITION 15.
 
 .. enunciation::
 
-   Parts have the same ratio as the same multiples of them taken in corresponding order.
+   Parts have the :term:`same ratio <in-the-same-ratio>` as the same :term:`multiples <multiple>` of them taken in corresponding order.
 
 For let :g:`AB <0169.g1:/ A B />` be the same multiple of :g:`C <0169.g1:C>` that :g:`DE <0169.g1:/ D E />` is of :g:`F <0169.g1:F>` ;
 
@@ -37,7 +37,7 @@ And, since :g:`AG <0169.g1:/ A G />`, :g:`GH <0169.g1:/ G H />`, :g:`HB <0169.g1
 
    therefore, as :g:`AG <0169.g1:/ A G />` is to :g:`DK <0169.g1:/ D K />`, so is :g:`GH <0169.g1:/ G H />` to :g:`KL <0169.g1:/ K L />`, and :g:`HB <0169.g1:/ H B />` to :g:`LE <0169.g1:/ L E />`.
 
-Therefore, as one of the antecedents is to one of the consequents, so will all the antecedents be to all the consequents ; :just:`[V. 12] <V.12>`
+Therefore, as one of the :term:`antecedents <corresponding-magnitudes>` is to one of the consequents, so will all the antecedents be to all the consequents ; :just:`[V. 12] <V.12>`
 
 .. assertion::
 
@@ -68,13 +68,29 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../definitions/index.html#v-def-13", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../07/index.html", target="_top"];
      "V.12" [label="V.12", fillcolor="#222244", tooltip="V.12: If any number of magnitudes be proportional, as one of the antecedents is to one of the consequents, so will all the antecedents be to all the consequents.", URL="../12/index.html", target="_top"];
      "V.15" [label="V.15", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.15: Parts have the same ratio as the same multiples of them taken in corresponding order.", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.15" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
      "V.12" -> "V.def.5";
+     "V.15" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "V.12" -> "V.def.6";
+     "V.def.13" -> "V.def.11";
+     "V.12" -> "V.def.11";
+     "V.7" -> "V.def.13";
      "V.12" -> "V.1";
      "V.15" -> "V.7";
      "V.15" -> "V.12";

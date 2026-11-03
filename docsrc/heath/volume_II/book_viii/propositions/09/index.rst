@@ -6,7 +6,7 @@
 :title: Proposition VIII.9
 :folios: 0364, 0365, 0366
 :pages: 358, 359, 360
-:dependencies: VII.def.20, VIII.1, VIII.2
+:dependencies: V.def.6, VII.def.1, VII.def.2, VII.def.12, VII.def.20, VIII.1, VIII.2
 
 .. _VIII.9:
 
@@ -18,7 +18,7 @@ PROPOSITION 9.
 
 .. enunciation::
 
-   If two numbers be prime to one another, and numbers fall between them in continued proportion, then, however many numbers fall between them in continued proportion, so many will also fall between each of them and an unit in continued proportion.
+   If two :term:`numbers <number>` be :term:`prime to one another <prime-to-one-another>`, and numbers fall between them in :term:`continued proportion <proportional>`, then, however many numbers fall between them in continued proportion, so many will also fall between each of them and an :term:`unit <unit>` in continued proportion.
 
 Let :g:`A <0365.g1:A>`, :g:`B <0365.g1:B>` be two numbers prime to one another, and let :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>` fall between them in continued proportion, and let the unit :g:`E <0365.g1:E>` be set out;
 
@@ -29,7 +29,7 @@ I say that, as many numbers as fall between :g:`A <0365.g1:A>`, :g:`B <0365.g1:B
 .. folio:: 0365
    :page: 359
 
-For let two numbers :g:`F <0365.g1:F>`, :g:`G <0365.g1:G>`, the least that are in the ratio of :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>`, be taken, three numbers :g:`H <0365.g1:H>`, :g:`K <0365.g1:K>`, :g:`L <0365.g1:L>` with the same property, and others more by one continually, until their multitude is equal to the multitude of :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>`. :just:`[VIII. 2] <VIII.2>`
+For let two numbers :g:`F <0365.g1:F>`, :g:`G <0365.g1:G>`, the least that are in the :term:`ratio <ratio>` of :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>`, be taken, three numbers :g:`H <0365.g1:H>`, :g:`K <0365.g1:K>`, :g:`L <0365.g1:L>` with the same property, and others more by one continually, until their multitude is equal to the multitude of :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>`. :just:`[VIII. 2] <VIII.2>`
 
 .. picture:: 0365.g1.svg
    :alt: Book VIII Proposition 9
@@ -38,11 +38,11 @@ Let them be taken, and let them be :g:`M <0365.g1:M>`, :g:`N <0365.g1:N>`, :g:`O
 
 .. assertion::
 
-   It is now manifest that :g:`F <0365.g1:F>` by multiplying itself has made :g:`H <0365.g1:H>` and by multiplying :g:`H <0365.g1:H>` has made :g:`M <0365.g1:M>`, while :g:`G <0365.g1:G>` by multiplying itself has made :g:`L <0365.g1:L>` and by multiplying :g:`L <0365.g1:L>` has made :g:`P <0365.g1:P>`. :just:`[VIII. 2, Por.]`
+   It is now manifest that :g:`F <0365.g1:F>` by :term:`multiplying <multiply>` itself has made :g:`H <0365.g1:H>` and by multiplying :g:`H <0365.g1:H>` has made :g:`M <0365.g1:M>`, while :g:`G <0365.g1:G>` by multiplying itself has made :g:`L <0365.g1:L>` and by multiplying :g:`L <0365.g1:L>` has made :g:`P <0365.g1:P>`. :just:`[VIII. 2, Por.]`
 
 .. subclause::
 
-   And, since :g:`M <0365.g1:M>`, :g:`N <0365.g1:N>`, :g:`O <0365.g1:O>`, :g:`P <0365.g1:P>` are the least of those which have the same ratio with :g:`F <0365.g1:F>`, :g:`G <0365.g1:G>`, and :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>` are also the least of those which have the same ratio with :g:`F <0365.g1:F>`, :g:`G <0365.g1:G>`, :just:`[VIII. 1] <VIII.1>` while the multitude of the numbers :g:`M <0365.g1:M>`, :g:`N <0365.g1:N>`, :g:`O <0365.g1:O>`, :g:`P <0365.g1:P>` is equal to the multitude of the numbers :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>`,
+   And, since :g:`M <0365.g1:M>`, :g:`N <0365.g1:N>`, :g:`O <0365.g1:O>`, :g:`P <0365.g1:P>` are the least of those which have the :term:`same ratio <in-the-same-ratio>` with :g:`F <0365.g1:F>`, :g:`G <0365.g1:G>`, and :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>` are also the least of those which have the same ratio with :g:`F <0365.g1:F>`, :g:`G <0365.g1:G>`, :just:`[VIII. 1] <VIII.1>` while the multitude of the numbers :g:`M <0365.g1:M>`, :g:`N <0365.g1:N>`, :g:`O <0365.g1:O>`, :g:`P <0365.g1:P>` is equal to the multitude of the numbers :g:`A <0365.g1:A>`, :g:`C <0365.g1:C>`, :g:`D <0365.g1:D>`, :g:`B <0365.g1:B>`,
 
 .. assertion::
 
@@ -54,7 +54,7 @@ Let them be taken, and let them be :g:`M <0365.g1:M>`, :g:`N <0365.g1:N>`, :g:`O
 
 .. assertion::
 
-   therefore :g:`F <0365.g1:F>` measures :g:`H <0365.g1:H>` according to the units in :g:`F <0365.g1:F>`.
+   therefore :g:`F <0365.g1:F>` :term:`measures <part-aliquot>` :g:`H <0365.g1:H>` according to the units in :g:`F <0365.g1:F>`.
 
 .. subclause::
 
@@ -135,13 +135,39 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
+     "I.def.22" [label="I.def.22", fillcolor="#224422", tooltip="I.def.22: Of quadrilateral figures, a square is that which is both equilateral and right-angled ; an oblong that which is right-angled but not equilateral ; a rhombus that which is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-22", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../../book_v/definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../book_v/definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../book_v/definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../../book_v/definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../book_v/definitions/index.html#v-def-12", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../../book_v/definitions/index.html#v-def-13", target="_top"];
+     "V.def.17" [label="V.def.17", fillcolor="#224422", tooltip="V.def.17: A ratio ex aequali arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to…", URL="../../../book_v/definitions/index.html#v-def-17", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../../../book_v/propositions/01/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../../../book_v/propositions/07/index.html", target="_top"];
      "V.8" [label="V.8", fillcolor="#222244", tooltip="V.8: Of unequal magnitudes, the greater has to the same a greater ratio than the less has; and the same has to the less a greater ratio than it has to the greater.", URL="../../../book_v/propositions/08/index.html", target="_top"];
      "V.9" [label="V.9", fillcolor="#222244", tooltip="V.9: Magnitudes which have the same ratio to the same are equal to one another ; and magnitudes to which the same has the same ratio are equal.", URL="../../../book_v/propositions/09/index.html", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../../book_vii/definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../book_vii/definitions/index.html#vii-def-5", target="_top"];
+     "VII.def.11" [label="VII.def.11", fillcolor="#224422", tooltip="VII.def.11: A prime number is that which is measured by an unit alone.", URL="../../../book_vii/definitions/index.html#vii-def-11", target="_top"];
      "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../../book_vii/definitions/index.html#vii-def-12", target="_top"];
      "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
@@ -171,19 +197,139 @@ Dependency Graph
      "VIII.1" [label="VIII.1", fillcolor="#222244", tooltip="VIII.1: If there be as many numbers as we please in continued proportion, and the extremes of them be prime to one another, the numbers are the least of those which have the same ratio…", URL="../01/index.html", target="_top"];
      "VIII.2" [label="VIII.2", fillcolor="#222244", tooltip="VIII.2: To find numbers in continued proportion, as many as may be prescribed, and the least that are in a given ratio.", URL="../02/index.html", target="_top"];
      "VIII.9" [label="VIII.9", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VIII.9: If two numbers be prime to one another, and numbers fall between them in continued proportion, then, however many numbers fall between them in continued proportion, so many will…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.def.7" -> "I.def.5";
+     "I.def.8" -> "I.def.7";
+     "I.def.22" -> "I.def.8";
+     "I.def.14" -> "I.def.13";
+     "V.9" -> "I.def.14";
+     "I.def.20" -> "I.def.19";
+     "I.def.22" -> "I.def.19";
+     "I.def.22" -> "I.def.20";
+     "VIII.2" -> "I.def.22";
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.def.11" -> "V.def.1";
+     "VII.def.12" -> "V.def.1";
+     "VII.1" -> "V.def.1";
+     "VII.2" -> "V.def.1";
+     "VII.15" -> "V.def.1";
+     "VII.20" -> "V.def.1";
+     "VII.23" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "VII.5" -> "V.def.2";
+     "V.def.17" -> "V.def.3";
+     "VIII.2" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.9" -> "V.def.5";
+     "VII.14" -> "V.def.5";
+     "VII.17" -> "V.def.5";
+     "VII.18" -> "V.def.5";
+     "VII.20" -> "V.def.5";
+     "VII.21" -> "V.def.5";
+     "VII.22" -> "V.def.5";
+     "VIII.1" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "VII.13" -> "V.def.6";
+     "VII.19" -> "V.def.6";
+     "VIII.1" -> "V.def.6";
+     "VIII.2" -> "V.def.6";
+     "VIII.9" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.def.12" -> "V.def.11";
+     "V.def.13" -> "V.def.11";
+     "VII.12" -> "V.def.11";
+     "VII.9" -> "V.def.12";
+     "VII.10" -> "V.def.12";
+     "VII.13" -> "V.def.12";
+     "VII.15" -> "V.def.12";
+     "V.7" -> "V.def.13";
+     "VII.14" -> "V.def.17";
      "V.8" -> "V.1";
      "VII.19" -> "V.7";
      "V.9" -> "V.8";
      "VII.19" -> "V.9";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.11" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.1" -> "VII.def.1";
+     "VII.15" -> "VII.def.1";
+     "VIII.9" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "VII.1" -> "VII.def.2";
+     "VII.2" -> "VII.def.2";
+     "VII.4" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.9" -> "VII.def.2";
+     "VII.10" -> "VII.def.2";
+     "VII.12" -> "VII.def.2";
+     "VII.13" -> "VII.def.2";
+     "VII.14" -> "VII.def.2";
+     "VII.15" -> "VII.def.2";
+     "VII.16" -> "VII.def.2";
+     "VII.17" -> "VII.def.2";
+     "VII.18" -> "VII.def.2";
+     "VII.19" -> "VII.def.2";
+     "VII.20" -> "VII.def.2";
+     "VII.21" -> "VII.def.2";
+     "VII.22" -> "VII.def.2";
+     "VII.23" -> "VII.def.2";
+     "VII.24" -> "VII.def.2";
+     "VII.25" -> "VII.def.2";
+     "VII.26" -> "VII.def.2";
+     "VII.27" -> "VII.def.2";
+     "VIII.1" -> "VII.def.2";
+     "VIII.2" -> "VII.def.2";
+     "VIII.9" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.4" -> "VII.def.3";
+     "VII.5" -> "VII.def.3";
+     "VII.9" -> "VII.def.3";
+     "VII.10" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.4" -> "VII.def.4";
+     "VII.6" -> "VII.def.4";
+     "VII.9" -> "VII.def.4";
+     "VII.10" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
+     "VII.5" -> "VII.def.5";
+     "VIII.1" -> "VII.def.11";
      "VII.1" -> "VII.def.12";
+     "VII.2" -> "VII.def.12";
      "VII.21" -> "VII.def.12";
+     "VII.22" -> "VII.def.12";
      "VII.23" -> "VII.def.12";
      "VII.24" -> "VII.def.12";
+     "VII.25" -> "VII.def.12";
+     "VII.26" -> "VII.def.12";
+     "VII.27" -> "VII.def.12";
+     "VIII.1" -> "VII.def.12";
+     "VIII.9" -> "VII.def.12";
+     "VII.16" -> "VII.def.15";
+     "VII.17" -> "VII.def.15";
+     "VII.18" -> "VII.def.15";
      "VII.22" -> "VII.def.15";
      "VII.24" -> "VII.def.15";
+     "VII.27" -> "VII.def.15";
      "VII.12" -> "VII.def.20";
      "VII.13" -> "VII.def.20";
      "VII.17" -> "VII.def.20";

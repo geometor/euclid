@@ -6,7 +6,7 @@
 :title: Proposition V.17
 :folios: 0172, 0173, 0174
 :pages: 166, 167, 168
-:dependencies: V.1, V.2
+:dependencies: I.def.2, V.def.6, V.def.14, V.def.15, V.1, V.2
 
 .. _V.17:
 
@@ -18,13 +18,13 @@ PROPOSITION 17.
 
 .. enunciation::
 
-   If magnitudes be proportional componendo, they will also be proportional separando.
+   If magnitudes be :term:`proportional <proportional>` :term:`componendo <componendo>`, they will also be proportional separando.
 
 Let $AB$, :g:`BE <0173.g1:/ E B />`, :g:`CD <0173.g1:/ C D />`, :g:`DF <0173.g1:/ F D />` be magnitudes proportional *componendo*, so that, as :g:`AB <0173.g1:/ A B />` is to :g:`BE <0173.g1:/ E B />`, so is :g:`CD <0173.g1:/ C D />` to :g:`DF <0173.g1:/ F D />`;
 
 I say that they will also be proportional :term:`*separando* <separando>`, that is, as :g:`AE <0173.g1:/ A E />` is to :g:`EB <0173.g1:/ E B />`, so is :g:`CF <0173.g1:/ C F />` to :g:`DF <0173.g1:/ F D />`.
 
-For of :g:`AE <0173.g1:/ A E />`, :g:`EB <0173.g1:/ E B />`, :g:`CF <0173.g1:/ C F />`, :g:`FD <0173.g1:/ F D />` let equimultiples :g:`GH <0173.g1:/ G H />`, :g:`HK <0173.g1:/ H K />`, :g:`LM <0173.g1:/ L M />`, :g:`MN <0173.g1:/ M N />` be taken, and of :g:`EB <0173.g1:/ E B />`, :g:`FD <0173.g1:/ F D />` other, chance, equimultiples, :g:`KO <0173.g1:/ K O />`, :g:`NP <0173.g1:/ N P />`.
+For of :g:`AE <0173.g1:/ A E />`, :g:`EB <0173.g1:/ E B />`, :g:`CF <0173.g1:/ C F />`, :g:`FD <0173.g1:/ F D />` let :term:`equimultiples <multiple>` :g:`GH <0173.g1:/ G H />`, :g:`HK <0173.g1:/ H K />`, :g:`LM <0173.g1:/ L M />`, :g:`MN <0173.g1:/ M N />` be taken, and of :g:`EB <0173.g1:/ E B />`, :g:`FD <0173.g1:/ F D />` other, chance, equimultiples, :g:`KO <0173.g1:/ K O />`, :g:`NP <0173.g1:/ N P />`.
 
 .. _folio-ii-0173:
 
@@ -125,9 +125,28 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.14" [label="V.def.14", fillcolor="#224422", tooltip="V.def.14: Composition of a ratio means taking the antecedent together with the consequent as one in relation to the consequent by itself.", URL="../../definitions/index.html#v-def-14", target="_top"];
+     "V.def.15" [label="V.def.15", fillcolor="#224422", tooltip="V.def.15: Separation of a ratio means taking the excess by which the antecedent exceeds the consequent in relation to the consequent by itself.", URL="../../definitions/index.html#v-def-15", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
      "V.17" [label="V.17", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.17: If magnitudes be proportional componendo, they will also be proportional separando.", URL="index.html", target="_top"];
+     "V.17" -> "I.def.2";
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.2" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
+     "V.17" -> "V.def.6";
+     "V.def.14" -> "V.def.11";
+     "V.def.15" -> "V.def.11";
+     "V.17" -> "V.def.14";
+     "V.17" -> "V.def.15";
      "V.17" -> "V.1";
      "V.17" -> "V.2";
    }

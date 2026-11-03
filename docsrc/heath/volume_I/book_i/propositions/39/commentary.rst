@@ -14,8 +14,6 @@ Commentary on Proposition I.39
 
 Back to :ref:`Proposition I.39 <I.39>`.
 
-.. _folio-i-0351:
-
 .. folio:: 0351
    :page: 337
 

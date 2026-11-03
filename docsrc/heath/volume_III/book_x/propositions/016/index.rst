@@ -6,7 +6,7 @@
 :title: Proposition X.16
 :folios: 0044, 0045
 :pages: 40, 41
-:dependencies: X.def.1
+:dependencies: I.def.4, I.def.14, I.def.22, II.def.1, X.def.1
 
 .. _X.16:
 
@@ -20,14 +20,14 @@ PROPOSITION 16.
 
 .. enunciation::
 
-   If two incommensurable magnitudes be added together, the whole will also be incommensurable with each of them; and, if the whole be incommensurable with one of them, the original magnitudes will also be incommensurable.
+   If two :term:`incommensurable <incommensurable>` magnitudes be added together, the whole will also be incommensurable with each of them; and, if the whole be incommensurable with one of them, the original magnitudes will also be incommensurable.
 
 For let the two incommensurable magnitudes :g:`AB <0044.g1:/ A B />`, :g:`BC <0044.g1:/ B C />` be added together; I say that the whole :g:`AC <0044.g1:/ A C />` is also incommensurable with each of the magnitudes :g:`AB <0044.g1:/ A B />`, :g:`BC <0044.g1:/ B C />`.
 
 .. picture:: 0044.g1.svg
    :alt: Proposition 16 Diagram
 
-For, if :g:`CA <0044.g1:/ A C />`, :g:`AB <0044.g1:/ A B />` are not incommensurable, some magnitude will measure them. Let it measure them, if possible, and let it be :g:`D <0044.g1:D>`.
+For, if :g:`CA <0044.g1:/ A C />`, :g:`AB <0044.g1:/ A B />` are not incommensurable, some magnitude will :term:`measure <part-aliquot>` them. Let it measure them, if possible, and let it be :g:`D <0044.g1:D>`.
 
 .. subclause::
 
@@ -121,7 +121,7 @@ LEMMA.
 
 .. enunciation::
 
-   If to any straight line there be applied a parallelogram deficient by a square figure, the applied parallelogram is equal to the rectangle contained by the segments of the straight line resulting from the application.
+   If to any :term:`straight line <straight-line>` there be applied a parallelogram deficient by a :term:`square <square>` :term:`figure <figure>`, the applied parallelogram is equal to the :term:`rectangle contained <contained-rectangle>` by the segments of the straight line resulting from the application.
 
 For let there be applied to the straight line :g:`AB <0045.g1:/ A B />` the parallelogram :g:`AD <0045.g1:< A C D E >>` deficient by the square figure :g:`DB <0045.g1:< C B F D >>`; I say that :g:`AD <0045.g1:< A C D E >>` is equal to the rectangle contained by :g:`AC <0045.g1:/ A C />`, :g:`CB <0045.g1:/ C B />`.
 
@@ -156,8 +156,49 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
+     "I.def.22" [label="I.def.22", fillcolor="#224422", tooltip="I.def.22: Of quadrilateral figures, a square is that which is both equilateral and right-angled ; an oblong that which is right-angled but not equilateral ; a rhombus that which is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-22", target="_top"];
+     "II.def.1" [label="II.def.1", fillcolor="#224422", tooltip="II.def.1: Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.", URL="../../../../volume_I/book_ii/definitions/index.html#ii-def-1", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
      "X.def.1" [label="X.def.1", fillcolor="#224422", tooltip="X.def.1: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.", URL="../../definitions/index.html#x-def-1", target="_top"];
      "X.16" [label="X.16", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.16: If two incommensurable magnitudes be added together, the whole will also be incommensurable with each of them; and, if the whole be incommensurable with one of them, the original…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "II.def.1" -> "I.def.4";
+     "X.16" -> "I.def.4";
+     "I.def.7" -> "I.def.5";
+     "I.def.8" -> "I.def.7";
+     "I.def.10" -> "I.def.8";
+     "I.def.22" -> "I.def.8";
+     "II.def.1" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "X.16" -> "I.def.14";
+     "I.def.20" -> "I.def.19";
+     "I.def.22" -> "I.def.19";
+     "I.def.22" -> "I.def.20";
+     "X.16" -> "I.def.22";
+     "X.16" -> "II.def.1";
+     "X.def.1" -> "V.def.1";
      "X.16" -> "X.def.1";
    }
 

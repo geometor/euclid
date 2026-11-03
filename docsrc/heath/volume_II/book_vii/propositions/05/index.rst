@@ -6,6 +6,7 @@
 :title: Proposition VII.5
 :folios: 0310
 :pages: 304
+:dependencies: V.def.2, VII.def.2, VII.def.3, VII.def.5
 
 .. _VII.5:
 
@@ -19,7 +20,7 @@ PROPOSITION 5.
 
 .. enunciation::
 
-   If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.
+   If a :term:`number <number>` be a :term:`part of <part-aliquot>` a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.
 
 For let the number :g:`A <0310.g1:A>` be a part of :g:`BC <0310.g1:/ B C />`, and another, :g:`D <0310.g1:D>`, the same part of another :g:`EF <0310.g1:/ E F />` that :g:`A <0310.g1:A>` is of :g:`BC <0310.g1:/ B C />`;
 
@@ -64,7 +65,7 @@ Let :g:`BC <0310.g1:/ B C />` be divided into the numbers :eq:`equal <0310.g1:/ 
 
 .. assertion::
 
-   Therefore, whatever multiple :g:`BC <0310.g1:/ B C />` is of :g:`A <0310.g1:A>`, the same multiple also is the sum of :g:`BC <0310.g1:/ B C />`, :g:`EF <0310.g1:/ E F />` of the sum of :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>`.
+   Therefore, whatever :term:`multiple <multiple>` :g:`BC <0310.g1:/ B C />` is of :g:`A <0310.g1:A>`, the :term:`same multiple <multiple>` also is the sum of :g:`BC <0310.g1:/ B C />`, :g:`EF <0310.g1:/ E F />` of the sum of :g:`A <0310.g1:A>`, :g:`D <0310.g1:D>`.
 
 .. assertion::
 
@@ -73,6 +74,35 @@ Let :g:`BC <0310.g1:/ B C />` be divided into the numbers :eq:`equal <0310.g1:/ 
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#vii-def-5", target="_top"];
+     "VII.5" [label="VII.5", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.5" -> "V.def.2";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.5" -> "VII.def.3";
+     "VII.5" -> "VII.def.5";
+   }
 
 Required for
 ------------

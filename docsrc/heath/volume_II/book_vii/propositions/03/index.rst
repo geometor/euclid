@@ -6,7 +6,7 @@
 :title: Proposition VII.3
 :folios: 0306, 0307, 0308
 :pages: 300, 301, 302
-:dependencies: VII.2
+:dependencies: V.def.1, VII.def.2, VII.def.12, VII.2
 
 .. _VII.3:
 
@@ -18,7 +18,7 @@ PROPOSITION 3.
 
 .. enunciation::
 
-   Given three numbers not prime to one another, to find their greatest common measure.
+   Given three :term:`numbers <number>` not :term:`prime to one another <prime-to-one-another>`, to find their greatest common :term:`measure <part-aliquot>`.
 
 Let :g:`A <0306.g1:A>`, :g:`B <0306.g1:B>`, :g:`C <0306.g1:C>` be the three given numbers not prime to one another ;
 
@@ -199,11 +199,26 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
      "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
      "VII.1" [label="VII.1", fillcolor="#222244", tooltip="VII.1: Two unequal numbers being set out, and the less being continually subtracted in turn from the greater, if the number which is left never measures the one before it until an unit…", URL="../01/index.html", target="_top"];
      "VII.2" [label="VII.2", fillcolor="#222244", tooltip="VII.2: Given two numbers not prime to one another, to find their greatest common measure.", URL="../02/index.html", target="_top"];
      "VII.3" [label="VII.3", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.3: Given three numbers not prime to one another, to find their greatest common measure.", URL="index.html", target="_top"];
+     "VII.def.12" -> "V.def.1";
+     "VII.1" -> "V.def.1";
+     "VII.2" -> "V.def.1";
+     "VII.3" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.1" -> "VII.def.1";
+     "VII.1" -> "VII.def.2";
+     "VII.2" -> "VII.def.2";
+     "VII.3" -> "VII.def.2";
      "VII.1" -> "VII.def.12";
+     "VII.2" -> "VII.def.12";
+     "VII.3" -> "VII.def.12";
      "VII.2" -> "VII.1";
      "VII.3" -> "VII.2";
    }

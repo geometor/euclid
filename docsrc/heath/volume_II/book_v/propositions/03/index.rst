@@ -6,7 +6,7 @@
 :title: Proposition V.3
 :folios: 0146, 0147
 :pages: 140, 141
-:dependencies: V.2
+:dependencies: V.def.2, V.def.17, V.2
 
 .. _V.3:
 
@@ -18,7 +18,7 @@ PROPOSITION 3.
 
 .. enunciation::
 
-   If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also :term:`*ex aequali* <ex-aequali>` the magnitudes taken will be equimultiples respectively, the one of the second and the other of the fourth.
+   If a first magnitude be the same :term:`multiple <multiple>` of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also :term:`*ex aequali* <ex-aequali>` the magnitudes taken will be equimultiples respectively, the one of the second and the other of the fourth.
 
 Let a first magnitude :g:`A <0147.g1:A>` be the same multiple of a second :g:`B <0147.g1:B>` that a third :g:`C <0147.g1:C>` is of a fourth :g:`D <0147.g1:D>`, and let equimultiples :g:`EF <0147.g1:/ E F />`, :g:`GH <0147.g1:/ G H />` be taken of :g:`A <0147.g1:A>`, :g:`C <0147.g1:C>`;
 
@@ -76,8 +76,17 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../definitions/index.html#v-def-3", target="_top"];
+     "V.def.17" [label="V.def.17", fillcolor="#224422", tooltip="V.def.17: A ratio ex aequali arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to…", URL="../../definitions/index.html#v-def-17", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
      "V.3" [label="V.3", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.3: If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also ex aequali the magnitudes taken…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.2" -> "V.def.2";
+     "V.3" -> "V.def.2";
+     "V.def.17" -> "V.def.3";
+     "V.3" -> "V.def.17";
      "V.3" -> "V.2";
    }
 

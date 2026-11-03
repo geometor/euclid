@@ -6,7 +6,7 @@
 :title: Proposition XII.17
 :folios: 0429, 0430, 0431, 0432, 0433, 0434, 0435
 :pages: 425, 426, 427, 428, 429, 430, 431
-:dependencies: I.26, I.33, I.47, III.27, III.31, V.12, VI.2, VI.8, XI.def.3, XI.def.4, XI.def.14, XI.2, XI.6, XI.7, XI.9, XI.11, XI.18, XII.8
+:dependencies: I.def.5, I.def.16, I.26, I.33, I.47, II.def.1, III.27, III.31, V.12, VI.2, VI.8, XI.def.1, XI.def.3, XI.def.4, XI.def.14, XI.def.17, XI.2, XI.6, XI.7, XI.9, XI.11, XI.18, XII.8
 
 .. _XII.17:
 
@@ -20,24 +20,24 @@ PROPOSITION 17.
 
 .. enunciation::
 
-   Given two spheres about the same centre, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.
+   Given two :term:`spheres <sphere>` about the same :term:`centre <centre>`, to inscribe in the greater sphere a polyhedral :term:`solid <solid>` which does not touch the lesser sphere at its :term:`surface <surface>`.
 
 Let two spheres be conceived about the same centre :g:`A <0429.g1:A>` ; thus it is required to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.
 
 .. picture:: 0429.g1.svg
    :alt: Proposition 17
 
-Let the spheres be cut by any plane through the centre ; then the sections will be circles, inasmuch as the sphere was produced by the diameter remaining fixed and the semicircle being carried round it ; :just:`[XI. Def. 14] <XI.def.14>` hence, in whatever position we conceive the semicircle to be, the plane carried through it will produce a circle on the circumference of the sphere.
+Let the spheres be cut by any :term:`plane <plane-surface>` through the centre ; then the sections will be :term:`circles <circle>`, inasmuch as the sphere was produced by the :term:`diameter <diameter>` remaining fixed and the :term:`semicircle <semicircle>` being carried round it ; :just:`[XI. Def. 14] <XI.def.14>` hence, in whatever position we conceive the semicircle to be, the plane carried through it will produce a circle on the circumference of the sphere.
 
 And it is manifest that this circle is the greatest possible,
-inasmuch as the diameter of the sphere, which is of course the diameter both of the semicircle and of the circle, is greater than all the straight lines drawn across in the circle or the sphere.
+inasmuch as the :term:`diameter of the sphere <diameter-of-sphere>`, which is of course the diameter both of the semicircle and of the circle, is greater than all the :term:`straight lines <straight-line>` drawn across in the circle or the sphere.
 
 .. _folio-iii-0430:
 
 .. folio:: 0430
    :page: 426
 
-Let then :g:`BCDE <0429.g1:( B C D E )>` be the circle in the greater sphere, and :g:`FGH <0429.g1:( F G H )>` the circle in the lesser sphere ; let two diameters in them, :g:`BD <0429.g1:/ B D />`, :g:`CE <0429.g1:/ C E />`, be drawn at right angles to one another ; then, given the two circles :g:`BCDE <0429.g1:( B C D E )>`, :g:`FGH <0429.g1:( F G H )>` about the same centre, let there be inscribed in the greater circle :g:`BCDE <0429.g1:( B C D E )>` an :eq:`equilateral <0429.g1:/ B K / = 0429.g1:/ K L / = 0429.g1:/ L M / = 0429.g1:/ M E />` polygon with an even number of sides which does not touch the lesser circle :g:`FGH <0429.g1:( F G H )>`, let :g:`BK <0429.g1:/ B K />`, :g:`KL <0429.g1:/ K L />`, :g:`LM <0429.g1:/ L M />`, :g:`ME <0429.g1:/ M E />` be its sides in the quadrant :g:`BE <0429.g1:( B E )>`, let :g:`KA <0429.g1:/ K A />` be joined and carried through to :g:`N <0429.g1:N>`, let :g:`AO <0429.g1:/ A O />` be set up from the point :g:`A <0429.g1:A>` at right angles to the plane of the circle :g:`BCDE <0429.g1:( B C D E )>`, and let it meet the surface of the sphere at :g:`O <0429.g1:O>`, and through :g:`AO <0429.g1:/ A O />` and each of the straight lines :g:`BD <0429.g1:/ B D />`, :g:`KN <0429.g1:/ K N />` let planes be carried ; they will then make greatest circles on the surface of the sphere, for the reason stated. Let them make such, and in them let :g:`BOD <0429.g1:( B O D )>`, :g:`KON <0429.g1:( K O N )>` be the semicircles on :g:`BD <0429.g1:/ B D />`, :g:`KN <0429.g1:/ K N />`.
+Let then :g:`BCDE <0429.g1:( B C D E )>` be the circle in the greater sphere, and :g:`FGH <0429.g1:( F G H )>` the circle in the lesser sphere ; let two diameters in them, :g:`BD <0429.g1:/ B D />`, :g:`CE <0429.g1:/ C E />`, be drawn :term:`at right angles <right-angle>` to one another ; then, given the two circles :g:`BCDE <0429.g1:( B C D E )>`, :g:`FGH <0429.g1:( F G H )>` about the same centre, let there be inscribed in the greater circle :g:`BCDE <0429.g1:( B C D E )>` an :eq:`equilateral <0429.g1:/ B K / = 0429.g1:/ K L / = 0429.g1:/ L M / = 0429.g1:/ M E />` polygon with an :term:`even number <even-number>` of sides which does not touch the lesser circle :g:`FGH <0429.g1:( F G H )>`, let :g:`BK <0429.g1:/ B K />`, :g:`KL <0429.g1:/ K L />`, :g:`LM <0429.g1:/ L M />`, :g:`ME <0429.g1:/ M E />` be its sides in the quadrant :g:`BE <0429.g1:( B E )>`, let :g:`KA <0429.g1:/ K A />` be joined and carried through to :g:`N <0429.g1:N>`, let :g:`AO <0429.g1:/ A O />` be set up from the :term:`point <point>` :g:`A <0429.g1:A>` :term:`at right angles to the plane <right-angles-to-plane>` of the circle :g:`BCDE <0429.g1:( B C D E )>`, and let it meet the surface of the sphere at :g:`O <0429.g1:O>`, and through :g:`AO <0429.g1:/ A O />` and each of the straight lines :g:`BD <0429.g1:/ B D />`, :g:`KN <0429.g1:/ K N />` let planes be carried ; they will then make greatest circles on the surface of the sphere, for the reason stated. Let them make such, and in them let :g:`BOD <0429.g1:( B O D )>`, :g:`KON <0429.g1:( K O N )>` be the semicircles on :g:`BD <0429.g1:/ B D />`, :g:`KN <0429.g1:/ K N />`.
 
 .. subclause::
 
@@ -81,7 +81,7 @@ and from :g:`P <0429.g1:P>`, :g:`S <0429.g1:S>` let perpendiculars be drawn to t
 
 .. assertion::
 
-   therefore the remainder :g:`VA <0429.g1:/ V A />` is also :eq:`equal <0429.g1:/ V A / = 0429.g1:/ W A />` to the remainder :g:`WA <0429.g1:/ W A />` ; therefore, as :g:`BV <0429.g1:/ B V />` is to :g:`VA <0429.g1:/ V A />`, so is :g:`KW <0429.g1:/ K W />` to :g:`WA <0429.g1:/ W A />` ; therefore :g:`WV <0429.g1:/ W V />` is parallel to :g:`KB <0429.g1:/ K B />`. :just:`[VI. 2] <VI.2>`
+   therefore the remainder :g:`VA <0429.g1:/ V A />` is also :eq:`equal <0429.g1:/ V A / = 0429.g1:/ W A />` to the remainder :g:`WA <0429.g1:/ W A />` ; therefore, as :g:`BV <0429.g1:/ B V />` is to :g:`VA <0429.g1:/ V A />`, so is :g:`KW <0429.g1:/ K W />` to :g:`WA <0429.g1:/ W A />` ; therefore :g:`WV <0429.g1:/ W V />` is :term:`parallel <parallel-straight-lines>` to :g:`KB <0429.g1:/ K B />`. :just:`[VI. 2] <VI.2>`
 
 .. subclause::
 
@@ -109,11 +109,11 @@ and from :g:`P <0429.g1:P>`, :g:`S <0429.g1:S>` let perpendiculars be drawn to t
 
 .. subclause::
 
-   And :g:`BP <0429.g1:/ B P />`, :g:`KS <0429.g1:/ K S />` join their extremities ;
+   And :g:`BP <0429.g1:/ B P />`, :g:`KS <0429.g1:/ K S />` join their :term:`extremities <extremity>` ;
 
 .. assertion::
 
-   therefore the quadrilateral :g:`KBPS <0429.g1:< K B P S >>` is in one plane, inasmuch as, if two straight lines be parallel, and points be taken at random on each of them, the straight line joining the points is in the same plane with the parallels. :just:`[XI. 7] <XI.7>`
+   therefore the :term:`quadrilateral <quadrilateral>` :g:`KBPS <0429.g1:< K B P S >>` is in one plane, inasmuch as, if two straight lines be parallel, and points be taken at random on each of them, the straight line joining the points is in the same plane with the parallels. :just:`[XI. 7] <XI.7>`
 
 .. assertion::
 
@@ -123,14 +123,14 @@ and from :g:`P <0429.g1:P>`, :g:`S <0429.g1:S>` let perpendiculars be drawn to t
 
    But the triangle :g:`URO <0429.g1:< U R O >>` is also in one plane.
 
-If then we conceive straight lines joined from the points :g:`P <0429.g1:P>`, :g:`S <0429.g1:S>`, :g:`Q <0429.g1:Q>`, :g:`T <0429.g1:T>`, :g:`R <0429.g1:R>`, :g:`U <0429.g1:U>` to :g:`A <0429.g1:A>`, there will be constructed a certain polyhedral solid figure between the circumferences :g:`BO <0429.g1:( B O )>`, :g:`KO <0429.g1:( K O )>`, consisting of pyramids of which the quadrilaterals :g:`KBPS <0429.g1:< K B P S >>`, :g:`SPQT <0429.g1:< S P Q T >>`, :g:`TQRU <0429.g1:< T Q R U >>` and the triangle :g:`URO <0429.g1:< U R O >>` are the bases and the point :g:`A <0429.g1:A>` the vertex.
+If then we conceive straight lines joined from the points :g:`P <0429.g1:P>`, :g:`S <0429.g1:S>`, :g:`Q <0429.g1:Q>`, :g:`T <0429.g1:T>`, :g:`R <0429.g1:R>`, :g:`U <0429.g1:U>` to :g:`A <0429.g1:A>`, there will be constructed a certain polyhedral solid figure between the circumferences :g:`BO <0429.g1:( B O )>`, :g:`KO <0429.g1:( K O )>`, consisting of :term:`pyramids <pyramid>` of which the quadrilaterals :g:`KBPS <0429.g1:< K B P S >>`, :g:`SPQT <0429.g1:< S P Q T >>`, :g:`TQRU <0429.g1:< T Q R U >>` and the triangle :g:`URO <0429.g1:< U R O >>` are the bases and the point :g:`A <0429.g1:A>` the vertex.
 
 .. _folio-iii-0432:
 
 .. folio:: 0432
    :page: 428
 
-And, if we make the same construction in the case of each of the sides :g:`KL <0429.g1:/ K L />`, :g:`LM <0429.g1:/ L M />`, :g:`ME <0429.g1:/ M E />` as in the case of :g:`BK <0429.g1:/ B K />`, and further in the case of the remaining three quadrants, there will be constructed a certain polyhedral figure inscribed in the sphere and contained by pyramids, of which the said quadrilaterals and the triangle :g:`URO <0429.g1:< U R O >>`, and the others corresponding to them, are the bases and the point :g:`A <0429.g1:A>` the vertex.
+And, if we make the same construction in the case of each of the sides :g:`KL <0429.g1:/ K L />`, :g:`LM <0429.g1:/ L M />`, :g:`ME <0429.g1:/ M E />` as in the case of :g:`BK <0429.g1:/ B K />`, and further in the case of the remaining three quadrants, there will be constructed a certain polyhedral :term:`figure <figure>` inscribed in the sphere and contained by pyramids, of which the said quadrilaterals and the triangle :g:`URO <0429.g1:< U R O >>`, and the others corresponding to them, are the bases and the point :g:`A <0429.g1:A>` the vertex.
 
 I say that the said polyhedron will not touch the lesser sphere at the surface on which the circle :g:`FGH <0429.g1:( F G H )>` is.
 
@@ -150,11 +150,11 @@ Let :g:`AX <0429.g1:/ A X />` be drawn from the point :g:`A <0429.g1:A>` perpend
 
 .. assertion::
 
-   the square on :g:`AB <0429.g1:/ A B />` is also :eq:`equal <0429.g1:/ A B / = 0429.g1:/ A K />` to the square on :g:`AK <0429.g1:/ A K />`.
+   the :term:`square <square>` on :g:`AB <0429.g1:/ A B />` is also :eq:`equal <0429.g1:/ A B / = 0429.g1:/ A K />` to the square on :g:`AK <0429.g1:/ A K />`.
 
 .. subclause::
 
-   And the squares on :g:`AX <0429.g1:/ A X />`, :g:`XB <0429.g1:/ X B />` are equal to the square on :g:`AB <0429.g1:/ A B />`, for the angle at :g:`X <0429.g1:X>` is right ; :just:`[I. 47] <I.47>` and the squares on :g:`AX <0429.g1:/ A X />`, :g:`XK <0429.g1:/ X K />` are equal to the square on :g:`AK <0429.g1:/ A K />`. :just:`[*id.*]`
+   And the squares on :g:`AX <0429.g1:/ A X />`, :g:`XB <0429.g1:/ X B />` are equal to the square on :g:`AB <0429.g1:/ A B />`, for the :term:`angle <plane-angle>` at :g:`X <0429.g1:X>` is right ; :just:`[I. 47] <I.47>` and the squares on :g:`AX <0429.g1:/ A X />`, :g:`XK <0429.g1:/ X K />` are equal to the square on :g:`AK <0429.g1:/ A K />`. :just:`[*id.*]`
 
 .. assertion::
 
@@ -207,7 +207,7 @@ Let :g:`KZ <0429.g1:/ K Z />` be drawn from :g:`K <0429.g1:K>` perpendicular to 
 
 .. subclause::
 
-   Then, since :g:`BD <0429.g1:/ B D />` is less than double of :g:`DZ <0429.g1:/ D Z />`, and, as :g:`BD <0429.g1:/ B D />` is to :g:`DZ <0429.g1:/ D Z />`, so is the rectangle :g:`DB <0429.g1:/ D B />`, :g:`BZ <0429.g1:/ B Z />` to the rectangle :g:`DZ <0429.g1:/ D Z />`, :g:`ZB <0429.g1:/ Z B />`, if a square be described upon :g:`BZ <0429.g1:/ B Z />` and the parallelogram on :g:`ZD <0429.g1:/ Z D />` be completed,
+   Then, since :g:`BD <0429.g1:/ B D />` is less than double of :g:`DZ <0429.g1:/ D Z />`, and, as :g:`BD <0429.g1:/ B D />` is to :g:`DZ <0429.g1:/ D Z />`, so is the :term:`rectangle <contained-rectangle>` :g:`DB <0429.g1:/ D B />`, :g:`BZ <0429.g1:/ B Z />` to the rectangle :g:`DZ <0429.g1:/ D Z />`, :g:`ZB <0429.g1:/ Z B />`, if a square be described upon :g:`BZ <0429.g1:/ B Z />` and the parallelogram on :g:`ZD <0429.g1:/ Z D />` be completed,
 
 .. assertion::
 
@@ -272,7 +272,7 @@ Let :g:`KZ <0429.g1:/ K Z />` be drawn from :g:`K <0429.g1:K>` perpendicular to 
 
 .. assertion::
 
-   PORISM. *But if in another sphere also a polyhedral solid be inscribed similar to the solid in the sphere :g:`BCDE <0429.g1:( B C D E )>`, the polyhedral solid in the sphere :g:`BCDE <0429.g1:( B C D E )>` has to the polyhedral solid in the other sphere the ratio triplicate of that which the diameter of the sphere :g:`BCDE <0429.g1:( B C D E )>` has to the diameter of the other sphere.*
+   PORISM. *But if in another sphere also a polyhedral solid be inscribed similar to the solid in the sphere :g:`BCDE <0429.g1:( B C D E )>`, the polyhedral solid in the sphere :g:`BCDE <0429.g1:( B C D E )>` has to the polyhedral solid in the other sphere the :term:`ratio <ratio>` triplicate of that which the diameter of the sphere :g:`BCDE <0429.g1:( B C D E )>` has to the diameter of the other sphere.*
 
 .. subclause::
 
@@ -280,7 +280,7 @@ Let :g:`KZ <0429.g1:/ K Z />` be drawn from :g:`K <0429.g1:K>` perpendicular to 
 
 .. subclause::
 
-   But similar pyramids are to one another in the triplicate ratio of their corresponding sides; :just:`[XII. 8, Por.]`
+   But :term:`similar pyramids <similar-solid-figures>` are to one another in the :term:`triplicate ratio <triplicate-ratio>` of their corresponding sides; :just:`[XII. 8, Por.]`
 
 .. assertion::
 
@@ -292,7 +292,7 @@ Let :g:`KZ <0429.g1:/ K Z />` be drawn from :g:`K <0429.g1:K>` perpendicular to 
 
 .. assertion::
 
-   And, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents; :just:`[V. 12] <V.12>`
+   And, as one of the :term:`antecedents <corresponding-magnitudes>` is to one of the consequents, so are all the antecedents to all the consequents; :just:`[V. 12] <V.12>`
 
 .. _folio-iii-0435:
 
@@ -313,8 +313,28 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.11" [label="I.def.11", fillcolor="#224422", tooltip="I.def.11: An obtuse angle is an angle greater than a right angle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-11", target="_top"];
+     "I.def.12" [label="I.def.12", fillcolor="#224422", tooltip="I.def.12: An acute angle is an angle less than a right angle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-12", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.18" [label="I.def.18", fillcolor="#224422", tooltip="I.def.18: A semicircle is the figure contained by the diameter and the circumference cut off by it. And the centre of the semicircle is the same as that of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-18", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
+     "I.def.21" [label="I.def.21", fillcolor="#224422", tooltip="I.def.21: Further, of trilateral figures, a right-angled triangle is that which has a right angle, an obtuse-angled triangle that which has an obtuse angle, and an acute-angled triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-21", target="_top"];
+     "I.def.22" [label="I.def.22", fillcolor="#224422", tooltip="I.def.22: Of quadrilateral figures, a square is that which is both equilateral and right-angled ; an oblong that which is right-angled but not equilateral ; a rhombus that which is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-22", target="_top"];
      "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
@@ -368,6 +388,12 @@ Dependency Graph
      "I.45" [label="I.45", fillcolor="#222244", tooltip="I.45: To construct, in a given rectilineal angle, a parallelogram equal to a given rectilineal figure.", URL="../../../../volume_I/book_i/propositions/45/index.html", target="_top"];
      "I.46" [label="I.46", fillcolor="#222244", tooltip="I.46: On a given straight line to describe a square.", URL="../../../../volume_I/book_i/propositions/46/index.html", target="_top"];
      "I.47" [label="I.47", fillcolor="#222244", tooltip="I.47: In right-angled triangles the square on the side subtending the right angle is equal to the squares on the sides containing the right angle.", URL="../../../../volume_I/book_i/propositions/47/index.html", target="_top"];
+     "II.def.1" [label="II.def.1", fillcolor="#224422", tooltip="II.def.1: Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.", URL="../../../../volume_I/book_ii/definitions/index.html#ii-def-1", target="_top"];
+     "III.def.1" [label="III.def.1", fillcolor="#224422", tooltip="III.def.1: Equal circles are those the diameters of which are equal, or the radii of which are equal.", URL="../../../../volume_II/book_iii/definitions/index.html#iii-def-1", target="_top"];
+     "III.def.6" [label="III.def.6", fillcolor="#224422", tooltip="III.def.6: A segment of a circle is the figure contained by a straight line and a circumference of a circle.", URL="../../../../volume_II/book_iii/definitions/index.html#iii-def-6", target="_top"];
+     "III.def.8" [label="III.def.8", fillcolor="#224422", tooltip="III.def.8: An angle in a segment is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line…", URL="../../../../volume_II/book_iii/definitions/index.html#iii-def-8", target="_top"];
+     "III.def.9" [label="III.def.9", fillcolor="#224422", tooltip="III.def.9: And, when the straight lines containing the angle cut off a circumference, the angle is said to stand upon that circumference.", URL="../../../../volume_II/book_iii/definitions/index.html#iii-def-9", target="_top"];
+     "III.def.10" [label="III.def.10", fillcolor="#224422", tooltip="III.def.10: A sector of a circle is the figure which, when an angle is constructed at the centre of the circle, is contained by the straight lines containing the angle and the circumference…", URL="../../../../volume_II/book_iii/definitions/index.html#iii-def-10", target="_top"];
      "III.def.11" [label="III.def.11", fillcolor="#224422", tooltip="III.def.11: Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another.", URL="../../../../volume_II/book_iii/definitions/index.html#iii-def-11", target="_top"];
      "III.1" [label="III.1", fillcolor="#222244", tooltip="III.1: To find the centre of a given circle.", URL="../../../../volume_II/book_iii/propositions/01/index.html", target="_top"];
      "III.5" [label="III.5", fillcolor="#222244", tooltip="III.5: If two circles cut one another, they will not have the same centre.", URL="../../../../volume_II/book_iii/propositions/05/index.html", target="_top"];
@@ -379,12 +405,21 @@ Dependency Graph
      "III.26" [label="III.26", fillcolor="#222244", tooltip="III.26: In equal circles equal angles stand on equal circumferences, whether they stand at the centres or at the circumferences.", URL="../../../../volume_II/book_iii/propositions/26/index.html", target="_top"];
      "III.27" [label="III.27", fillcolor="#222244", tooltip="III.27: In equal circles angles standing on equal circumferences are equal to one another, whether they stand at the centres or at the circumferences.", URL="../../../../volume_II/book_iii/propositions/27/index.html", target="_top"];
      "III.31" [label="III.31", fillcolor="#222244", tooltip="III.31: In a circle the angle in the semicircle is right, that in a greater segment less than a right angle, and that in a less segment greater than a right angle; and further the angle…", URL="../../../../volume_II/book_iii/propositions/31/index.html", target="_top"];
+     "IV.def.3" [label="IV.def.3", fillcolor="#224422", tooltip="IV.def.3: A rectilineal figure is said to be inscribed in a circle when each angle of the inscribed figure lies on the circumference of the circle.", URL="../../../../volume_II/book_iv/definitions/index.html#iv-def-3", target="_top"];
+     "IV.def.4" [label="IV.def.4", fillcolor="#224422", tooltip="IV.def.4: A rectilineal figure is said to be circumscribed about a circle, when each side of the circumscribed figure touches the circumference of the circle.", URL="../../../../volume_II/book_iv/definitions/index.html#iv-def-4", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-7", target="_top"];
      "V.def.9" [label="V.def.9", fillcolor="#224422", tooltip="V.def.9: When three magnitudes are proportional, the first is said to have to the third the duplicate ratio of that which it has to the second.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-9", target="_top"];
      "V.def.10" [label="V.def.10", fillcolor="#224422", tooltip="V.def.10: When four magnitudes are < continuously > proportional, the first is said to have to the fourth the triplicate ratio of that which it has to the second, and so on continually…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-10", target="_top"];
      "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-12", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-13", target="_top"];
+     "V.def.17" [label="V.def.17", fillcolor="#224422", tooltip="V.def.17: A ratio ex aequali arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-17", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../../../../volume_II/book_v/propositions/01/index.html", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../../../../volume_II/book_v/propositions/02/index.html", target="_top"];
      "V.3" [label="V.3", fillcolor="#222244", tooltip="V.3: If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also ex aequali the magnitudes taken…", URL="../../../../volume_II/book_v/propositions/03/index.html", target="_top"];
@@ -402,6 +437,8 @@ Dependency Graph
      "V.20" [label="V.20", fillcolor="#222244", tooltip="V.20: If there be three magnitudes, and others equal to them in multitude, which taken two and two are in the same ratio, and if ex aequali the first be greater than the third, the…", URL="../../../../volume_II/book_v/propositions/20/index.html", target="_top"];
      "V.22" [label="V.22", fillcolor="#222244", tooltip="V.22: If there be any number of magnitudes whatever, and others equal to them in multitude, which taken two and two together are in the same ratio, they will also be in the same ratio…", URL="../../../../volume_II/book_v/propositions/22/index.html", target="_top"];
      "VI.def.1" [label="VI.def.1", fillcolor="#224422", tooltip="VI.def.1: Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional.", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-1", target="_top"];
+     "VI.def.2" [label="VI.def.2", fillcolor="#224422", tooltip="VI.def.2: [2. Reciprocally related figures. See note.]", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-2", target="_top"];
+     "VI.def.4" [label="VI.def.4", fillcolor="#224422", tooltip="VI.def.4: The height of any figure is the perpendicular drawn from the vertex to the base.", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-4", target="_top"];
      "VI.1" [label="VI.1", fillcolor="#222244", tooltip="VI.1: Triangles and parallelograms which are under the same height are to one another as their bases.", URL="../../../../volume_II/book_vi/propositions/01/index.html", target="_top"];
      "VI.2" [label="VI.2", fillcolor="#222244", tooltip="VI.2: If a straight line be drawn parallel to one of the sides of a triangle, it will cut the sides of the triangle proportionally; and, if the sides of the triangle be cut…", URL="../../../../volume_II/book_vi/propositions/02/index.html", target="_top"];
      "VI.4" [label="VI.4", fillcolor="#222244", tooltip="VI.4: In equiangular triangles the sides about the equal angles are proportional, and those are corresponding sides which subtend the equal angles.", URL="../../../../volume_II/book_vi/propositions/04/index.html", target="_top"];
@@ -414,11 +451,24 @@ Dependency Graph
      "VI.19" [label="VI.19", fillcolor="#222244", tooltip="VI.19: Similar triangles are to one another in the duplicate ratio of the corresponding sides.", URL="../../../../volume_II/book_vi/propositions/19/index.html", target="_top"];
      "VI.20" [label="VI.20", fillcolor="#222244", tooltip="VI.20: Similar polygons are divided into similar triangles, and into triangles equal in multitude and in the same ratio as the wholes, and the polygon has to the polygon a ratio…", URL="../../../../volume_II/book_vi/propositions/20/index.html", target="_top"];
      "VI.22" [label="VI.22", fillcolor="#222244", tooltip="VI.22: If four straight lines be proportional, the rectilineal figures similar and similarly described upon them will also be proportional; and, if the rectilineal figures similar and…", URL="../../../../volume_II/book_vi/propositions/22/index.html", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-5", target="_top"];
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-15", target="_top"];
      "X.1" [label="X.1", fillcolor="#222244", tooltip="X.1: Two unequal magnitudes being set out, if from the greater there be subtracted a magnitude greater than its half, and from that which is left a magnitude greater than its half, and…", URL="../../../book_x/propositions/001/index.html", target="_top"];
+     "XI.def.1" [label="XI.def.1", fillcolor="#224422", tooltip="XI.def.1: A solid is that which has length, breadth, and depth.", URL="../../../book_xi/definitions/index.html#xi-def-1", target="_top"];
+     "XI.def.2" [label="XI.def.2", fillcolor="#224422", tooltip="XI.def.2: An extremity of a solid is a surface.", URL="../../../book_xi/definitions/index.html#xi-def-2", target="_top"];
      "XI.def.3" [label="XI.def.3", fillcolor="#224422", tooltip="XI.def.3: A straight line is at right angles to a plane, when it makes right angles with all the straight lines which meet it and are in the plane.", URL="../../../book_xi/definitions/index.html#xi-def-3", target="_top"];
      "XI.def.4" [label="XI.def.4", fillcolor="#224422", tooltip="XI.def.4: A plane is at right angles to a plane when the straight lines drawn, in one of the planes, at right angles to the common section of the planes are at right angles to the remaining…", URL="../../../book_xi/definitions/index.html#xi-def-4", target="_top"];
+     "XI.def.8" [label="XI.def.8", fillcolor="#224422", tooltip="XI.def.8: Parallel planes are those which do not meet.", URL="../../../book_xi/definitions/index.html#xi-def-8", target="_top"];
+     "XI.def.9" [label="XI.def.9", fillcolor="#224422", tooltip="XI.def.9: Similar solid figures are those contained by similar planes equal in multitude.", URL="../../../book_xi/definitions/index.html#xi-def-9", target="_top"];
      "XI.def.10" [label="XI.def.10", fillcolor="#224422", tooltip="XI.def.10: Equal and similar solid figures are those contained by similar planes equal in multitude and in magnitude.", URL="../../../book_xi/definitions/index.html#xi-def-10", target="_top"];
+     "XI.def.12" [label="XI.def.12", fillcolor="#224422", tooltip="XI.def.12: A pyramid is a solid figure, contained by planes, which is constructed from one plane to one point.", URL="../../../book_xi/definitions/index.html#xi-def-12", target="_top"];
+     "XI.def.13" [label="XI.def.13", fillcolor="#224422", tooltip="XI.def.13: A prism is a solid figure contained by planes two of which, namely those which are opposite, are equal, similar and parallel, while the rest are parallelograms.", URL="../../../book_xi/definitions/index.html#xi-def-13", target="_top"];
      "XI.def.14" [label="XI.def.14", fillcolor="#224422", tooltip="XI.def.14: When, the diameter of a semicircle remaining fixed, the semicircle is carried round and restored again to the same position from which it began to be moved, the figure so…", URL="../../../book_xi/definitions/index.html#xi-def-14", target="_top"];
+     "XI.def.17" [label="XI.def.17", fillcolor="#224422", tooltip="XI.def.17: A diameter of the sphere is any straight line drawn through the centre and terminated in both directions by the surface of the sphere.", URL="../../../book_xi/definitions/index.html#xi-def-17", target="_top"];
      "XI.1" [label="XI.1", fillcolor="#222244", tooltip="XI.1: A part of a straight line cannot be in the plane of reference and a part in a plane more elevated.", URL="../../../book_xi/propositions/01/index.html", target="_top"];
      "XI.2" [label="XI.2", fillcolor="#222244", tooltip="XI.2: If two straight lines cut one another, they are in one plane, and every triangle is in one plane.", URL="../../../book_xi/propositions/02/index.html", target="_top"];
      "XI.3" [label="XI.3", fillcolor="#222244", tooltip="XI.3: If two planes cut one another, their common section is a straight line.", URL="../../../book_xi/propositions/03/index.html", target="_top"];
@@ -449,16 +499,320 @@ Dependency Graph
      "XII.7" [label="XII.7", fillcolor="#222244", tooltip="XII.7: Any prism which has a triangular base is divided into three pyramids equal to one another which have triangular bases.", URL="../07/index.html", target="_top"];
      "XII.8" [label="XII.8", fillcolor="#222244", tooltip="XII.8: Similar pyramids which have triangular bases are in the triplicate ratio of their corresponding sides.", URL="../08/index.html", target="_top"];
      "XII.17" [label="XII.17", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XII.17: Given two spheres about the same centre, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.12" -> "I.def.1";
+     "I.14" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.31" -> "I.def.1";
+     "III.def.8" -> "I.def.1";
+     "III.10" -> "I.def.1";
+     "VI.2" -> "I.def.1";
+     "XI.def.12" -> "I.def.1";
+     "XI.4" -> "I.def.1";
+     "XI.5" -> "I.def.1";
+     "XI.7" -> "I.def.1";
+     "XI.11" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "VI.2" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.33" -> "I.def.3";
+     "III.def.8" -> "I.def.3";
+     "XI.def.2" -> "I.def.3";
+     "XI.29" -> "I.def.3";
+     "XI.30" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.def.23" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.post.5" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.12" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.14" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.27" -> "I.def.4";
+     "I.28" -> "I.def.4";
+     "I.29" -> "I.def.4";
+     "I.30" -> "I.def.4";
+     "I.31" -> "I.def.4";
+     "I.33" -> "I.def.4";
+     "I.44" -> "I.def.4";
+     "I.46" -> "I.def.4";
+     "II.def.1" -> "I.def.4";
+     "III.def.6" -> "I.def.4";
+     "III.def.8" -> "I.def.4";
+     "III.def.9" -> "I.def.4";
+     "III.def.10" -> "I.def.4";
+     "III.24" -> "I.def.4";
+     "VI.2" -> "I.def.4";
+     "VI.11" -> "I.def.4";
+     "VI.12" -> "I.def.4";
+     "VI.18" -> "I.def.4";
+     "VI.22" -> "I.def.4";
+     "XI.def.3" -> "I.def.4";
+     "XI.def.4" -> "I.def.4";
+     "XI.def.17" -> "I.def.4";
+     "XI.1" -> "I.def.4";
+     "XI.2" -> "I.def.4";
+     "XI.3" -> "I.def.4";
+     "XI.4" -> "I.def.4";
+     "XI.5" -> "I.def.4";
+     "XI.6" -> "I.def.4";
+     "XI.7" -> "I.def.4";
+     "XI.8" -> "I.def.4";
+     "XI.9" -> "I.def.4";
+     "XI.10" -> "I.def.4";
+     "XI.11" -> "I.def.4";
+     "XI.18" -> "I.def.4";
+     "XI.29" -> "I.def.4";
+     "XI.30" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "XI.def.17" -> "I.def.5";
+     "XII.17" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.23" -> "I.def.7";
+     "XI.def.3" -> "I.def.7";
+     "XI.def.4" -> "I.def.7";
+     "XI.def.12" -> "I.def.7";
+     "XI.def.13" -> "I.def.7";
+     "XI.1" -> "I.def.7";
+     "XI.2" -> "I.def.7";
+     "XI.3" -> "I.def.7";
+     "XI.5" -> "I.def.7";
+     "XI.7" -> "I.def.7";
+     "XI.8" -> "I.def.7";
+     "XI.9" -> "I.def.7";
+     "XI.10" -> "I.def.7";
+     "XI.11" -> "I.def.7";
+     "XI.16" -> "I.def.7";
+     "XI.18" -> "I.def.7";
+     "XI.24" -> "I.def.7";
+     "XI.25" -> "I.def.7";
+     "XI.28" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.def.11" -> "I.def.8";
+     "I.def.12" -> "I.def.8";
+     "I.def.21" -> "I.def.8";
+     "I.def.22" -> "I.def.8";
+     "I.post.5" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.14" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.17" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.26" -> "I.def.8";
+     "I.27" -> "I.def.8";
+     "I.28" -> "I.def.8";
+     "I.29" -> "I.def.8";
+     "I.32" -> "I.def.8";
+     "I.34" -> "I.def.8";
+     "III.def.8" -> "I.def.8";
+     "III.def.9" -> "I.def.8";
+     "III.def.10" -> "I.def.8";
+     "III.def.11" -> "I.def.8";
+     "III.20" -> "I.def.8";
+     "III.21" -> "I.def.8";
+     "III.22" -> "I.def.8";
+     "III.26" -> "I.def.8";
+     "III.27" -> "I.def.8";
+     "III.31" -> "I.def.8";
+     "IV.def.3" -> "I.def.8";
+     "VI.def.1" -> "I.def.8";
+     "VI.4" -> "I.def.8";
+     "VI.6" -> "I.def.8";
+     "VI.15" -> "I.def.8";
+     "XI.10" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.42" -> "I.def.9";
+     "I.44" -> "I.def.9";
+     "I.45" -> "I.def.9";
+     "I.def.11" -> "I.def.10";
+     "I.def.12" -> "I.def.10";
+     "I.def.21" -> "I.def.10";
+     "I.post.4" -> "I.def.10";
+     "I.post.5" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.12" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.14" -> "I.def.10";
+     "I.17" -> "I.def.10";
+     "I.28" -> "I.def.10";
+     "I.29" -> "I.def.10";
+     "I.32" -> "I.def.10";
+     "I.47" -> "I.def.10";
+     "II.def.1" -> "I.def.10";
      "III.1" -> "I.def.10";
+     "III.22" -> "I.def.10";
      "III.31" -> "I.def.10";
+     "VI.def.4" -> "I.def.10";
+     "VI.8" -> "I.def.10";
+     "XI.def.3" -> "I.def.10";
+     "XI.def.4" -> "I.def.10";
+     "XI.4" -> "I.def.10";
+     "XI.5" -> "I.def.10";
+     "XI.8" -> "I.def.10";
+     "XI.11" -> "I.def.10";
+     "XI.18" -> "I.def.10";
+     "I.def.21" -> "I.def.11";
+     "I.def.21" -> "I.def.12";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.def.18" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "III.def.6" -> "I.def.14";
+     "III.def.10" -> "I.def.14";
+     "IV.def.3" -> "I.def.14";
+     "IV.def.4" -> "I.def.14";
+     "V.9" -> "I.def.14";
+     "V.10" -> "I.def.14";
+     "V.11" -> "I.def.14";
+     "VI.def.4" -> "I.def.14";
+     "VI.18" -> "I.def.14";
+     "XI.def.14" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.def.18" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "III.def.6" -> "I.def.15";
+     "III.def.10" -> "I.def.15";
+     "III.1" -> "I.def.15";
      "III.5" -> "I.def.15";
+     "III.10" -> "I.def.15";
+     "III.20" -> "I.def.15";
+     "III.21" -> "I.def.15";
+     "III.22" -> "I.def.15";
+     "III.31" -> "I.def.15";
+     "IV.def.3" -> "I.def.15";
+     "IV.def.4" -> "I.def.15";
+     "XI.1" -> "I.def.15";
+     "XII.2" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.def.18" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "III.def.10" -> "I.def.16";
+     "III.1" -> "I.def.16";
+     "III.5" -> "I.def.16";
+     "III.26" -> "I.def.16";
+     "III.27" -> "I.def.16";
+     "XI.def.17" -> "I.def.16";
+     "XI.1" -> "I.def.16";
+     "XII.17" -> "I.def.16";
+     "I.def.18" -> "I.def.17";
+     "I.34" -> "I.def.17";
+     "I.43" -> "I.def.17";
+     "III.def.1" -> "I.def.17";
+     "III.31" -> "I.def.17";
+     "XI.def.14" -> "I.def.17";
+     "XI.1" -> "I.def.17";
+     "XII.1" -> "I.def.17";
+     "XII.2" -> "I.def.17";
+     "III.31" -> "I.def.18";
+     "XI.def.14" -> "I.def.18";
+     "I.def.20" -> "I.def.19";
+     "I.def.21" -> "I.def.19";
+     "I.def.22" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.17" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.26" -> "I.def.19";
+     "I.32" -> "I.def.19";
+     "I.37" -> "I.def.19";
+     "I.38" -> "I.def.19";
+     "I.39" -> "I.def.19";
+     "I.41" -> "I.def.19";
+     "I.42" -> "I.def.19";
+     "I.44" -> "I.def.19";
+     "I.45" -> "I.def.19";
+     "III.22" -> "I.def.19";
+     "IV.def.3" -> "I.def.19";
+     "IV.def.4" -> "I.def.19";
+     "VI.1" -> "I.def.19";
+     "VI.2" -> "I.def.19";
+     "VI.4" -> "I.def.19";
+     "VI.6" -> "I.def.19";
+     "VI.8" -> "I.def.19";
+     "VI.15" -> "I.def.19";
+     "VI.20" -> "I.def.19";
+     "VI.22" -> "I.def.19";
+     "XI.2" -> "I.def.19";
+     "XI.39" -> "I.def.19";
+     "I.def.22" -> "I.def.20";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
+     "I.47" -> "I.def.21";
+     "VI.8" -> "I.def.21";
+     "I.35" -> "I.def.22";
+     "I.46" -> "I.def.22";
+     "I.47" -> "I.def.22";
+     "XII.1" -> "I.def.22";
+     "XII.2" -> "I.def.22";
      "I.27" -> "I.def.23";
+     "I.28" -> "I.def.23";
+     "I.29" -> "I.def.23";
+     "I.30" -> "I.def.23";
+     "I.31" -> "I.def.23";
+     "I.33" -> "I.def.23";
+     "I.35" -> "I.def.23";
+     "I.36" -> "I.def.23";
+     "I.37" -> "I.def.23";
+     "I.38" -> "I.def.23";
+     "I.39" -> "I.def.23";
+     "I.41" -> "I.def.23";
+     "VI.2" -> "I.def.23";
+     "XI.def.13" -> "I.def.23";
+     "XI.6" -> "I.def.23";
+     "XI.7" -> "I.def.23";
+     "XI.8" -> "I.def.23";
+     "XI.9" -> "I.def.23";
+     "XI.10" -> "I.def.23";
      "XI.16" -> "I.def.23";
+     "XI.25" -> "I.def.23";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";
@@ -662,6 +1016,15 @@ Dependency Graph
      "XI.32" -> "I.45";
      "I.47" -> "I.46";
      "XII.17" -> "I.47";
+     "XII.17" -> "II.def.1";
+     "III.26" -> "III.def.1";
+     "III.27" -> "III.def.1";
+     "XII.2" -> "III.def.6";
+     "III.31" -> "III.def.8";
+     "III.26" -> "III.def.9";
+     "III.27" -> "III.def.9";
+     "III.20" -> "III.def.10";
+     "III.24" -> "III.def.11";
      "III.26" -> "III.def.11";
      "III.10" -> "III.1";
      "III.10" -> "III.5";
@@ -676,21 +1039,66 @@ Dependency Graph
      "XII.17" -> "III.27";
      "XII.1" -> "III.31";
      "XII.17" -> "III.31";
+     "XII.1" -> "IV.def.3";
+     "XII.2" -> "IV.def.4";
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.2" -> "V.def.2";
+     "V.3" -> "V.def.2";
+     "V.4" -> "V.def.2";
+     "V.15" -> "V.def.2";
+     "V.def.17" -> "V.def.3";
+     "V.10" -> "V.def.3";
+     "V.11" -> "V.def.3";
+     "VI.20" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.10" -> "V.def.4";
      "X.1" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.4" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.9" -> "V.def.5";
+     "V.11" -> "V.def.5";
      "V.12" -> "V.def.5";
      "V.13" -> "V.def.5";
+     "V.14" -> "V.def.5";
+     "V.15" -> "V.def.5";
      "V.16" -> "V.def.5";
+     "V.20" -> "V.def.5";
      "V.22" -> "V.def.5";
      "VI.1" -> "V.def.5";
+     "VI.20" -> "V.def.5";
      "XI.25" -> "V.def.5";
+     "V.def.9" -> "V.def.6";
+     "V.def.10" -> "V.def.6";
+     "V.7" -> "V.def.6";
+     "V.12" -> "V.def.6";
+     "V.16" -> "V.def.6";
+     "VI.def.1" -> "V.def.6";
+     "VI.4" -> "V.def.6";
+     "VI.6" -> "V.def.6";
+     "VI.11" -> "V.def.6";
+     "VI.12" -> "V.def.6";
+     "VI.22" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.10" -> "V.def.7";
      "V.13" -> "V.def.7";
      "VI.19" -> "V.def.9";
      "XI.33" -> "V.def.10";
+     "XII.8" -> "V.def.10";
+     "V.def.12" -> "V.def.11";
+     "V.def.13" -> "V.def.11";
+     "V.12" -> "V.def.11";
      "VI.19" -> "V.def.11";
+     "V.16" -> "V.def.12";
+     "V.7" -> "V.def.13";
+     "V.3" -> "V.def.17";
+     "V.20" -> "V.def.17";
+     "V.22" -> "V.def.17";
      "V.8" -> "V.1";
      "V.12" -> "V.1";
      "V.3" -> "V.2";
@@ -743,9 +1151,21 @@ Dependency Graph
      "VI.22" -> "V.22";
      "VI.8" -> "VI.def.1";
      "VI.18" -> "VI.def.1";
+     "VI.19" -> "VI.def.1";
      "VI.20" -> "VI.def.1";
+     "VI.22" -> "VI.def.1";
+     "XI.33" -> "VI.def.1";
      "XII.1" -> "VI.def.1";
      "XII.3" -> "VI.def.1";
+     "VI.15" -> "VI.def.2";
+     "VI.1" -> "VI.def.4";
+     "XI.29" -> "VI.def.4";
+     "XI.30" -> "VI.def.4";
+     "XI.31" -> "VI.def.4";
+     "XI.32" -> "VI.def.4";
+     "XI.39" -> "VI.def.4";
+     "XII.4" -> "VI.def.4";
+     "XII.5" -> "VI.def.4";
      "VI.2" -> "VI.1";
      "VI.15" -> "VI.1";
      "VI.19" -> "VI.1";
@@ -774,7 +1194,31 @@ Dependency Graph
      "XII.1" -> "VI.20";
      "XII.8" -> "VI.20";
      "XII.4" -> "VI.22";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "XI.1" -> "VII.def.3";
+     "X.1" -> "VII.def.5";
+     "XI.25" -> "VII.def.5";
+     "X.1" -> "VII.def.6";
+     "X.1" -> "VII.def.15";
      "XII.5" -> "X.1";
+     "XI.def.2" -> "XI.def.1";
+     "XI.def.12" -> "XI.def.1";
+     "XI.def.13" -> "XI.def.1";
+     "XI.24" -> "XI.def.1";
+     "XI.25" -> "XI.def.1";
+     "XI.28" -> "XI.def.1";
+     "XI.29" -> "XI.def.1";
+     "XI.30" -> "XI.def.1";
+     "XI.31" -> "XI.def.1";
+     "XI.32" -> "XI.def.1";
+     "XI.33" -> "XI.def.1";
+     "XII.17" -> "XI.def.1";
+     "XI.def.9" -> "XI.def.2";
+     "XI.def.10" -> "XI.def.2";
      "XI.4" -> "XI.def.3";
      "XI.5" -> "XI.def.3";
      "XI.6" -> "XI.def.3";
@@ -784,11 +1228,26 @@ Dependency Graph
      "XII.17" -> "XI.def.3";
      "XI.18" -> "XI.def.4";
      "XII.17" -> "XI.def.4";
+     "XI.16" -> "XI.def.8";
+     "XI.24" -> "XI.def.8";
+     "XII.8" -> "XI.def.9";
      "XI.28" -> "XI.def.10";
      "XI.31" -> "XI.def.10";
      "XI.33" -> "XI.def.10";
      "XII.3" -> "XI.def.10";
+     "XII.3" -> "XI.def.12";
+     "XII.4" -> "XI.def.12";
+     "XII.5" -> "XI.def.12";
+     "XII.7" -> "XI.def.12";
+     "XI.28" -> "XI.def.13";
+     "XI.29" -> "XI.def.13";
+     "XI.39" -> "XI.def.13";
+     "XII.3" -> "XI.def.13";
+     "XII.4" -> "XI.def.13";
+     "XII.7" -> "XI.def.13";
+     "XI.def.17" -> "XI.def.14";
      "XII.17" -> "XI.def.14";
+     "XII.17" -> "XI.def.17";
      "XI.2" -> "XI.1";
      "XI.16" -> "XI.1";
      "XI.6" -> "XI.2";

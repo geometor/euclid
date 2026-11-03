@@ -14,8 +14,6 @@ Commentary on Proposition I.2
 
 Back to :ref:`Proposition I.2 <I.2>`.
 
-.. _folio-i-0259:
-
 .. folio:: 0259
    :page: 245
 
@@ -31,8 +29,6 @@ This last class of “cases” he subdivides into three according as :g:`AB <025
    :alt: Proposition 2 Proclus' cases
 
 A glance at these figures will show that, if they were used in the proposition, each of them would require a slight modification in the wording (1) of the construction, since :g:`BD <0259.g1:/ D B />` is in one case produced beyond :g:`D <0259.g1:D>` instead of :g:`B <0259.g1:B>` and in the other case not produced at all, (2) of the proof, since :g:`BG <0259.g1:/ B G />`, instead of being the difference between :g:`DG <0259.g1:/ D G />` and :g:`DB <0259.g1:/ D B />`, is in one case the sum of :g:`DG <0259.g1:/ D G />` and :g:`DB <0259.g1:/ D B />` and in the other the difference between :g:`DB <0259.g1:/ D B />` and :g:`DG <0259.g1:/ D G />`.
-
-.. _folio-i-0260:
 
 .. folio:: 0260
    :page: 246

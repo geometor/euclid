@@ -37,6 +37,7 @@ SECTION_TYPE_ORDER = {
 }
 
 _JUST_ROLE_RE = re.compile(r":just:`([^`]+)`")
+_TERM_ROLE_RE = re.compile(r":term:`([^`<]+?)(?:\s*<([^>]+)>)?`")
 _DIR_JUST_RE = re.compile(
     r"^\.\.\s+(?:assertion|subclause|sub-clause)::[ \t]+([^\n]+)",
     re.MULTILINE,
@@ -168,17 +169,9 @@ def _docutils_anchor_id(label: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
 
 
-def extract_dependencies_from_rst_body(
-    rst_body: str, current_book: Optional[str] = None
-) -> List[str]:
-    """Extract sorted unique canonical dependency IDs from a composed RST body.
-
-    Strips footnote definitions and trailing commentary dividers so only dependencies
-    from Euclid's proof and porisms are recorded.
-    """
-    # Strip trailing commentary link / hidden toctree / dependency sections
+def _strip_footnotes_and_tail(rst_body: str) -> str:
+    """Return Euclid's text without footnote definitions, commentary dividers, or graph sections."""
     proof_part = re.split(r"\n----\n|\nDependency Graph\n----------------", rst_body, maxsplit=1)[0]
-    # Strip footnote definition lines (.. [#f...])
     cleaned_lines: List[str] = []
     in_footnote = False
     for line in proof_part.splitlines():
@@ -190,7 +183,14 @@ def extract_dependencies_from_rst_body(
                 continue
             in_footnote = False
         cleaned_lines.append(line)
-    cleaned_body = "\n".join(cleaned_lines)
+    return "\n".join(cleaned_lines)
+
+
+def extract_dependencies_from_rst_body(
+    rst_body: str, current_book: Optional[str] = None
+) -> List[str]:
+    """Extract sorted unique canonical dependency IDs from :just: roles and assertion directives."""
+    cleaned_body = _strip_footnotes_and_tail(rst_body)
 
     deps: Set[str] = set()
     for m in _JUST_ROLE_RE.finditer(cleaned_body):
@@ -210,6 +210,54 @@ def extract_dependencies_from_rst_body(
                     deps.add(p)
 
     return sorted(deps, key=canonical_sort_key)
+
+
+def extract_term_dependencies_from_rst_body(
+    rst_body: str, unit_id: str
+) -> Tuple[Set[str], Set[str]]:
+    """Extract (all_term_deps, enunciation_term_deps) from defined terms in rst_body."""
+    from geometor.euclid.compile_edition import _COMPILED_DEF_TERM_PATTERNS
+
+    cleaned_body = _strip_footnotes_and_tail(rst_body)
+    # Strip bold defined heads (`**...**`) so a definition doesn't match its own head phrase
+    scan_body = re.sub(r"\*\*[^*]+\*\*", "", cleaned_body)
+    scan_body = re.sub(r":[a-z]+:`([^`<]+?)\s*<[^>]+>`", r"\1", scan_body)
+    scan_body = re.sub(r":[a-z]+:`([^`]+)`", r"\1", scan_body)
+    u_key = canonical_sort_key(unit_id)
+    all_terms: Set[str] = set()
+    enun_terms: Set[str] = set()
+
+    m_enun = re.search(r"\.\.\s+enunciation::\s*\n+((?:[ \t]+.+\n?|\n)+)", scan_body)
+    enun_text = m_enun.group(1) if m_enun else ""
+
+    if re.search(r"\bplane\s+figures?\b", scan_body, re.IGNORECASE):
+        for extra_def in ("I.def.7", "I.def.14"):
+            if extra_def != unit_id and canonical_sort_key(extra_def) < u_key:
+                all_terms.add(extra_def)
+    if enun_text and re.search(r"\bplane\s+figures?\b", enun_text, re.IGNORECASE):
+        for extra_def in ("I.def.7", "I.def.14"):
+            if extra_def != unit_id and canonical_sort_key(extra_def) < u_key:
+                enun_terms.add(extra_def)
+
+    work_body = scan_body
+    work_enun = enun_text
+    for def_id, _slug, pat in _COMPILED_DEF_TERM_PATTERNS:
+        if def_id == unit_id or canonical_sort_key(def_id) >= u_key:
+            continue
+        if pat.search(work_body):
+            all_terms.add(def_id)
+            work_body = pat.sub(" ", work_body)
+        if work_enun and pat.search(work_enun):
+            enun_terms.add(def_id)
+            work_enun = pat.sub(" ", work_enun)
+
+    # In Euclid's hierarchy, I.def.4 (straight line / segment) builds on I.def.3 (extremities of a line)
+    if unit_id == "I.def.4":
+        all_terms.add("I.def.3")
+    elif unit_id == "XI.def.24":
+        all_terms.update({"XI.def.19", "XI.def.20", "XI.def.22", "XI.def.23"})
+
+    return all_terms, enun_terms
 
 
 def _strip_existing_graph_sections(rst_text: str) -> str:
@@ -463,28 +511,109 @@ def build_graph(
             encoding="utf-8",
         )
 
-    # 2. Extract dependencies from each composed proposition index.rst and build DiGraph
+    # 2. Extract dependencies from grouped items and composed proposition index.rst and build DiGraph
     G = nx.DiGraph()
     prop_deps_map: Dict[str, List[str]] = {}
+    grouped_item_paras: List[Tuple[str, str, str]] = []
 
-    for cid, book_roman, rst_path in prop_files:
+    for rst_path in sorted(heath_out_dir.rglob("index.rst")):
+        txt = rst_path.read_text(encoding="utf-8")
+        m_type = re.search(r"^:type:\s*(.+)$", txt, re.MULTILINE)
+        m_book = re.search(r"^:book:\s*(.+)$", txt, re.MULTILINE)
+        m_cid = re.search(r"^:canonical_id:\s*(.+)$", txt, re.MULTILINE)
+        utype = m_type.group(1).strip() if m_type else ""
+        book_roman = m_book.group(1).strip() if m_book else "I"
+        cid = m_cid.group(1).strip() if m_cid else ""
+        if utype in ("definitions", "postulates", "common_notions"):
+            body_main = re.split(r"\n----\n|\n\.\.\s+toctree::", txt, maxsplit=1)[0]
+            for m_item in re.finditer(
+                r"^\.\.\s+_([^:\n]+):\s*\n+((?:(?!\.\.\s+_).+\n?)+)",
+                body_main,
+                re.MULTILINE,
+            ):
+                lbl = m_item.group(1).strip()
+                if lbl.lower().startswith("folio-") or lbl.lower() == cid.lower():
+                    continue
+                item_chunk = m_item.group(2).strip()
+                grouped_item_paras.append((lbl, book_roman, item_chunk))
+
+    for lbl, book_roman, item_chunk in grouped_item_paras:
+        tdeps_set, _ = extract_term_dependencies_from_rst_body(item_chunk, lbl)
+        tdeps = sorted(tdeps_set, key=canonical_sort_key)
+        G.add_node(
+            lbl,
+            canonical_ref=lbl,
+            type=get_node_type(lbl),
+            book=lbl.split(".")[0] if "." in lbl else book_roman,
+            dependencies=tdeps,
+        )
+        for dep in tdeps:
+            if dep not in G:
+                G.add_node(
+                    dep,
+                    canonical_ref=dep,
+                    type=get_node_type(dep),
+                    book=dep.split(".")[0] if "." in dep else book_roman,
+                    dependencies=[],
+                )
+            G.add_edge(lbl, dep)
+
+    prop_term_info: Dict[str, Tuple[List[str], Set[str], Set[str]]] = {}
+
+    for cid, book_roman, rst_path in sorted(
+        prop_files, key=lambda item: canonical_sort_key(item[0])
+    ):
         raw_txt = rst_path.read_text(encoding="utf-8")
         cleaned_txt = _strip_existing_graph_sections(raw_txt)
-        deps = [
+        just_deps = [
             d
             for d in extract_dependencies_from_rst_body(cleaned_txt, current_book=book_roman)
             if d != cid
         ]
-        prop_deps_map[cid] = deps
+        all_tdeps, enun_tdeps = extract_term_dependencies_from_rst_body(cleaned_txt, cid)
+        prop_term_info[cid] = (just_deps, all_tdeps, enun_tdeps)
 
         G.add_node(
             cid,
             canonical_ref=cid,
             type="prop",
             book=book_roman,
-            dependencies=deps,
+            dependencies=list(just_deps),
             path=str(rst_path),
         )
+        for dep in just_deps:
+            if dep not in G:
+                G.add_node(
+                    dep,
+                    canonical_ref=dep,
+                    type=get_node_type(dep),
+                    book=dep.split(".")[0] if "." in dep else book_roman,
+                    dependencies=[],
+                )
+            G.add_edge(cid, dep)
+
+    # Transitive reduction for proposition term dependencies:
+    # Include all enunciation terms + any proof terms not already reachable via just_deps or enun_tdeps
+    for cid, book_roman, _ in sorted(
+        prop_files, key=lambda item: canonical_sort_key(item[0])
+    ):
+        just_deps, all_tdeps, enun_tdeps = prop_term_info[cid]
+        base_targets = set(just_deps) | set(enun_tdeps)
+        covered: Set[str] = set()
+        for b in base_targets:
+            if b in G:
+                covered |= nx.descendants(G, b)
+
+        final_deps_set = set(just_deps) | set(enun_tdeps)
+        for tdep in sorted(all_tdeps, key=canonical_sort_key):
+            if tdep not in final_deps_set and tdep not in covered:
+                final_deps_set.add(tdep)
+                if tdep in G:
+                    covered |= nx.descendants(G, tdep)
+
+        deps = sorted(final_deps_set, key=canonical_sort_key)
+        prop_deps_map[cid] = deps
+        G.nodes[cid]["dependencies"] = deps
         for dep in deps:
             if dep not in G:
                 G.add_node(

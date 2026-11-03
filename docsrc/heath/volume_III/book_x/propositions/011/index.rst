@@ -6,7 +6,7 @@
 :title: Proposition X.11
 :folios: 0037, 0038
 :pages: 33, 34
-:dependencies: X.5, X.6, X.7, X.8
+:dependencies: V.def.6, X.def.1, X.5, X.6, X.7, X.8
 
 .. _X.11:
 
@@ -18,7 +18,7 @@ PROPOSITION 11.
 
 .. enunciation::
 
-   If four magnitudes be proportional, and the first be commensurable with the second, the third will also be commensurable with the fourth ; and, if the first be incommensurable with the second, the third will also be incommensurable with the fourth.
+   If four magnitudes be :term:`proportional <proportional>`, and the first be :term:`commensurable <commensurable>` with the second, the third will also be commensurable with the fourth ; and, if the first be incommensurable with the second, the third will also be incommensurable with the fourth.
 
 Let :g:`A <0037.g1:A>`, :g:`B <0037.g1:B>`, :g:`C <0037.g1:C>`, :g:`D <0037.g1:D>` be four magnitudes in proportion, so that, as :g:`A <0037.g1:A>` is to :g:`B <0037.g1:B>`, so is :g:`C <0037.g1:C>` to :g:`D <0037.g1:D>`, and let :g:`A <0037.g1:A>` be commensurable with :g:`B <0037.g1:B>` ; I say that :g:`C <0037.g1:C>` will also be commensurable with :g:`D <0037.g1:D>`.
 
@@ -31,7 +31,7 @@ Let :g:`A <0037.g1:A>`, :g:`B <0037.g1:B>`, :g:`C <0037.g1:C>`, :g:`D <0037.g1:D
 
 .. assertion::
 
-   therefore :g:`A <0037.g1:A>` has to :g:`B <0037.g1:B>` the ratio which a number has to a number. :just:`[X. 5] <X.5>`
+   therefore :g:`A <0037.g1:A>` has to :g:`B <0037.g1:B>` the :term:`ratio <ratio>` which a :term:`number <number>` has to a number. :just:`[X. 5] <X.5>`
 
 .. subclause::
 
@@ -78,8 +78,24 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
+     "I.def.22" [label="I.def.22", fillcolor="#224422", tooltip="I.def.22: Of quadrilateral figures, a square is that which is both equilateral and right-angled ; an oblong that which is right-angled but not equilateral ; a rhombus that which is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-22", target="_top"];
      "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
@@ -122,11 +138,18 @@ Dependency Graph
      "I.38" [label="I.38", fillcolor="#222244", tooltip="I.38: Triangles which are on equal bases and in the same parallels are equal to one another.", URL="../../../../volume_I/book_i/propositions/38/index.html", target="_top"];
      "I.39" [label="I.39", fillcolor="#222244", tooltip="I.39: Equal triangles which are on the same base and on the same side are also in the same parallels.", URL="../../../../volume_I/book_i/propositions/39/index.html", target="_top"];
      "I.41" [label="I.41", fillcolor="#222244", tooltip="I.41: If a parallelogram have the same base with a triangle and be in the same parallels, the parallelogram is double of the triangle.", URL="../../../../volume_I/book_i/propositions/41/index.html", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-7", target="_top"];
      "V.def.9" [label="V.def.9", fillcolor="#224422", tooltip="V.def.9: When three magnitudes are proportional, the first is said to have to the third the duplicate ratio of that which it has to the second.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-9", target="_top"];
      "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-12", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-13", target="_top"];
+     "V.def.17" [label="V.def.17", fillcolor="#224422", tooltip="V.def.17: A ratio ex aequali arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-17", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../../../../volume_II/book_v/propositions/01/index.html", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../../../../volume_II/book_v/propositions/02/index.html", target="_top"];
      "V.3" [label="V.3", fillcolor="#222244", tooltip="V.3: If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also ex aequali the magnitudes taken…", URL="../../../../volume_II/book_v/propositions/03/index.html", target="_top"];
@@ -143,22 +166,160 @@ Dependency Graph
      "V.16" [label="V.16", fillcolor="#222244", tooltip="V.16: If four magnitudes be proportional, they will also be proportional alternately.", URL="../../../../volume_II/book_v/propositions/16/index.html", target="_top"];
      "V.20" [label="V.20", fillcolor="#222244", tooltip="V.20: If there be three magnitudes, and others equal to them in multitude, which taken two and two are in the same ratio, and if ex aequali the first be greater than the third, the…", URL="../../../../volume_II/book_v/propositions/20/index.html", target="_top"];
      "V.22" [label="V.22", fillcolor="#222244", tooltip="V.22: If there be any number of magnitudes whatever, and others equal to them in multitude, which taken two and two together are in the same ratio, they will also be in the same ratio…", URL="../../../../volume_II/book_v/propositions/22/index.html", target="_top"];
+     "VI.def.1" [label="VI.def.1", fillcolor="#224422", tooltip="VI.def.1: Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional.", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-1", target="_top"];
+     "VI.def.2" [label="VI.def.2", fillcolor="#224422", tooltip="VI.def.2: [2. Reciprocally related figures. See note.]", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-2", target="_top"];
+     "VI.def.4" [label="VI.def.4", fillcolor="#224422", tooltip="VI.def.4: The height of any figure is the perpendicular drawn from the vertex to the base.", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-4", target="_top"];
      "VI.1" [label="VI.1", fillcolor="#222244", tooltip="VI.1: Triangles and parallelograms which are under the same height are to one another as their bases.", URL="../../../../volume_II/book_vi/propositions/01/index.html", target="_top"];
      "VI.2" [label="VI.2", fillcolor="#222244", tooltip="VI.2: If a straight line be drawn parallel to one of the sides of a triangle, it will cut the sides of the triangle proportionally; and, if the sides of the triangle be cut…", URL="../../../../volume_II/book_vi/propositions/02/index.html", target="_top"];
      "VI.11" [label="VI.11", fillcolor="#222244", tooltip="VI.11: To two given straight lines to find a third proportional.", URL="../../../../volume_II/book_vi/propositions/11/index.html", target="_top"];
      "VI.15" [label="VI.15", fillcolor="#222244", tooltip="VI.15: In equal triangles which have one angle equal to one angle the sides about the equal angles are reciprocally proportional; and those triangles which have one angle equal to one…", URL="../../../../volume_II/book_vi/propositions/15/index.html", target="_top"];
      "VI.19" [label="VI.19", fillcolor="#222244", tooltip="VI.19: Similar triangles are to one another in the duplicate ratio of the corresponding sides.", URL="../../../../volume_II/book_vi/propositions/19/index.html", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-5", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-20", target="_top"];
+     "X.def.1" [label="X.def.1", fillcolor="#224422", tooltip="X.def.1: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.", URL="../../definitions/index.html#x-def-1", target="_top"];
      "X.5" [label="X.5", fillcolor="#222244", tooltip="X.5: Commensurable magnitudes have to one another the ratio which a number has to a number.", URL="../005/index.html", target="_top"];
      "X.6" [label="X.6", fillcolor="#222244", tooltip="X.6: If two magnitudes have to one another the ratio which a number has to a number, the magnitudes will be commensurable.", URL="../006/index.html", target="_top"];
      "X.7" [label="X.7", fillcolor="#222244", tooltip="X.7: Incommensurable magnitudes have not to one another the ratio which a number has to a number.", URL="../007/index.html", target="_top"];
      "X.8" [label="X.8", fillcolor="#222244", tooltip="X.8: If two magnitudes have not to one another the ratio which a number has to a number, the magnitudes will be incommensurable.", URL="../008/index.html", target="_top"];
      "X.11" [label="X.11", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.11: If four magnitudes be proportional, and the first be commensurable with the second, the third will also be commensurable with the fourth ; and, if the first be incommensurable…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.14" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.31" -> "I.def.1";
+     "VI.2" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "VI.2" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.33" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.def.23" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.post.5" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.14" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.27" -> "I.def.4";
+     "I.29" -> "I.def.4";
+     "I.31" -> "I.def.4";
+     "I.33" -> "I.def.4";
+     "VI.2" -> "I.def.4";
+     "VI.11" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.23" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.def.22" -> "I.def.8";
+     "I.post.5" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.14" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.26" -> "I.def.8";
+     "I.27" -> "I.def.8";
+     "I.29" -> "I.def.8";
+     "I.34" -> "I.def.8";
+     "VI.def.1" -> "I.def.8";
+     "VI.15" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
+     "I.post.5" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.14" -> "I.def.10";
+     "I.29" -> "I.def.10";
+     "VI.def.4" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "V.9" -> "I.def.14";
+     "V.10" -> "I.def.14";
+     "V.11" -> "I.def.14";
+     "VI.def.4" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "I.34" -> "I.def.17";
+     "I.def.20" -> "I.def.19";
+     "I.def.22" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.26" -> "I.def.19";
+     "I.37" -> "I.def.19";
+     "I.38" -> "I.def.19";
+     "I.39" -> "I.def.19";
+     "I.41" -> "I.def.19";
+     "VI.1" -> "I.def.19";
+     "VI.2" -> "I.def.19";
+     "VI.15" -> "I.def.19";
+     "I.def.22" -> "I.def.20";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
+     "I.35" -> "I.def.22";
      "I.27" -> "I.def.23";
+     "I.29" -> "I.def.23";
+     "I.31" -> "I.def.23";
+     "I.33" -> "I.def.23";
+     "I.35" -> "I.def.23";
+     "I.36" -> "I.def.23";
+     "I.37" -> "I.def.23";
+     "I.38" -> "I.def.23";
+     "I.39" -> "I.def.23";
+     "I.41" -> "I.def.23";
+     "VI.2" -> "I.def.23";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";
@@ -261,18 +422,60 @@ Dependency Graph
      "VI.2" -> "I.38";
      "VI.2" -> "I.39";
      "VI.1" -> "I.41";
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "X.def.1" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.2" -> "V.def.2";
+     "V.3" -> "V.def.2";
+     "V.4" -> "V.def.2";
+     "V.15" -> "V.def.2";
+     "V.def.17" -> "V.def.3";
+     "V.10" -> "V.def.3";
+     "V.11" -> "V.def.3";
+     "X.5" -> "V.def.3";
+     "X.6" -> "V.def.3";
+     "X.7" -> "V.def.3";
+     "X.8" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.10" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.4" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.9" -> "V.def.5";
+     "V.11" -> "V.def.5";
      "V.12" -> "V.def.5";
      "V.13" -> "V.def.5";
+     "V.14" -> "V.def.5";
+     "V.15" -> "V.def.5";
      "V.16" -> "V.def.5";
+     "V.20" -> "V.def.5";
      "V.22" -> "V.def.5";
      "VI.1" -> "V.def.5";
+     "V.def.9" -> "V.def.6";
+     "V.7" -> "V.def.6";
+     "V.12" -> "V.def.6";
+     "V.16" -> "V.def.6";
+     "VI.def.1" -> "V.def.6";
+     "VI.11" -> "V.def.6";
+     "X.11" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.10" -> "V.def.7";
      "V.13" -> "V.def.7";
      "VI.19" -> "V.def.9";
+     "V.def.12" -> "V.def.11";
+     "V.def.13" -> "V.def.11";
+     "V.12" -> "V.def.11";
      "VI.19" -> "V.def.11";
+     "V.16" -> "V.def.12";
+     "V.7" -> "V.def.13";
+     "V.3" -> "V.def.17";
+     "V.20" -> "V.def.17";
+     "V.22" -> "V.def.17";
      "V.8" -> "V.1";
      "V.12" -> "V.1";
      "V.3" -> "V.2";
@@ -309,6 +512,9 @@ Dependency Graph
      "V.22" -> "V.20";
      "X.5" -> "V.22";
      "X.6" -> "V.22";
+     "VI.19" -> "VI.def.1";
+     "VI.15" -> "VI.def.2";
+     "VI.1" -> "VI.def.4";
      "VI.2" -> "VI.1";
      "VI.15" -> "VI.1";
      "VI.19" -> "VI.1";
@@ -316,8 +522,23 @@ Dependency Graph
      "VI.19" -> "VI.11";
      "VI.19" -> "VI.15";
      "X.6" -> "VI.19";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "X.5" -> "VII.def.2";
+     "X.6" -> "VII.def.2";
+     "X.7" -> "VII.def.2";
+     "X.8" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
      "X.5" -> "VII.def.20";
      "X.6" -> "VII.def.20";
+     "X.5" -> "X.def.1";
+     "X.6" -> "X.def.1";
+     "X.7" -> "X.def.1";
+     "X.8" -> "X.def.1";
+     "X.11" -> "X.def.1";
      "X.8" -> "X.5";
      "X.11" -> "X.5";
      "X.7" -> "X.6";

@@ -22,7 +22,15 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
-from photon_platform.publish.rst_renderer import parse_rst_metadata
+try:
+    from photon_platform.publish.rst_renderer import parse_rst_metadata
+except ImportError:
+    import sys as _sys
+
+    _pub_src = Path(__file__).resolve().parents[5] / "photon-platform" / "publish" / "src"
+    if _pub_src.is_dir() and str(_pub_src) not in _sys.path:
+        _sys.path.insert(0, str(_pub_src))
+    from photon_platform.publish.rst_renderer import parse_rst_metadata
 
 from geometor.euclid.folio_review.rst_utils import validate_rst
 
@@ -77,6 +85,335 @@ _INTRO_CHAPTERS: List[Tuple[str, str, str]] = [
     ("chapter_viii", "VIII", "Chapter VIII: Principal Translations and Editions"),
     ("chapter_ix", "IX", "Chapter IX: The Nature of Elements"),
 ]
+
+_ROMAN_TO_INT: Dict[str, int] = {
+    "I": 1,
+    "II": 2,
+    "III": 3,
+    "IV": 4,
+    "V": 5,
+    "VI": 6,
+    "VII": 7,
+    "VIII": 8,
+    "IX": 9,
+    "X": 10,
+    "XI": 11,
+    "XII": 12,
+    "XIII": 13,
+}
+
+_SECTION_TYPE_ORDER: Dict[str, int] = {
+    "def": 1,
+    "post": 2,
+    "cn": 3,
+    "prop": 4,
+}
+
+
+def _canonical_sort_key(ref_id: str) -> Tuple[int, int, int, int, str]:
+    """Return a deterministic sort key (book_num, type_order, group_order, item_num, ref_id)."""
+    parts = ref_id.split(".")
+    book_num = _ROMAN_TO_INT.get(parts[0].upper(), 999) if parts else 999
+    if len(parts) == 2 and parts[1].isdigit():
+        return (book_num, _SECTION_TYPE_ORDER["prop"], 0, int(parts[1]), ref_id)
+    sec_type = parts[1].lower() if len(parts) > 1 else ""
+    type_order = _SECTION_TYPE_ORDER.get(sec_type, 99)
+    group_order = 0
+    item_num = 0
+    if len(parts) == 3 and parts[2].isdigit():
+        item_num = int(parts[2])
+    elif len(parts) == 4:
+        sub_map = {"i": 1, "ii": 2, "iii": 3}
+        group_order = sub_map.get(parts[2].lower(), 0)
+        if parts[3].isdigit():
+            item_num = int(parts[3])
+    return (book_num, type_order, group_order, item_num, ref_id)
+
+
+# Ordered from most specific (multi-word) to general (single-word) so longer phrases match first.
+DEF_TERM_PATTERNS: List[Tuple[str, str, str]] = [
+    # Book XI compound phrases
+    ("XI.def.10", "equal-and-similar-solid-figures", r"\bequal\s+and\s+similar\s+solid\s+figures?\b|\bequal\s+and\s+similar\b"),
+    ("XI.def.9", "similar-solid-figures", r"\bsimilar\s+(?:solid\s+figures?|polyhedra|pyramids|prisms)\b"),
+    ("XI.def.24", "similar-cones-and-cylinders", r"\bsimilar\s+cones\s+and\s+cylinders\b"),
+    ("XI.def.4", "plane-at-right-angles-to-plane", r"\bplanes?\s+(?:is|are|be)\s+at\s+right\s+angles\s+to\s+(?:the\s+|a\s+)?[^\n,.]*?\bplanes?\b|\bplanes?\s+at\s+right\s+angles\b"),
+    ("XI.def.3", "right-angles-to-plane", r"\bat\s+right\s+angles\s+to\s+(?:the\s+|a\s+)?(?:same\s+|reference\s+|underlying\s+)?planes?\b"),
+    ("XI.def.5", "inclination-of-line-to-plane", r"\binclinations?\s+of\s+(?:a\s+|the\s+)?straight\s+lines?\s+to\s+(?:a\s+|the\s+)?planes?\b"),
+    ("XI.def.6", "inclination-of-plane-to-plane", r"\binclinations?\s+of\s+(?:a\s+|the\s+)?planes?\s+to\s+(?:a\s+|the\s+)?planes?\b"),
+    ("XI.def.7", "similarly-inclined-planes", r"\bsimilarly\s+inclined\b"),
+    ("XI.def.8", "parallel-planes", r"\bparallel\s+planes\b"),
+    ("XI.def.11", "solid-angle", r"\bsolid\s+angles?\b"),
+    ("XI.def.15", "axis-of-sphere", r"\baxis\s+of\s+(?:the\s+|a\s+)?spheres?\b|\bremains\s+fixed,\s+and\s+about\s+which\s+the\s+semicircle\s+turns\b|\bsemicircle\s+be\s+carried\s+round\b"),
+    ("XI.def.16", "centre-of-sphere", r"\b(?:centre|center)s?\s+of\s+(?:the\s+|a\s+)?spheres?\b"),
+    ("XI.def.17", "diameter-of-sphere", r"\bdiameters?\s+of\s+(?:the\s+|a\s+)?spheres?\b"),
+    ("XI.def.19", "axis-of-cone", r"\baxis\s+of\s+(?:the\s+|a\s+)?cones?\b|\baxes\b"),
+    ("XI.def.20", "base-of-cone", r"\bbases?\s+of\s+(?:the\s+|a\s+)?cones?\b|\bdiameters\s+of\s+the\s+bases\b"),
+    ("XI.def.22", "axis-of-cylinder", r"\baxis\s+of\s+(?:the\s+|a\s+)?cylinders?\b|\baxes\s+and\s+the\s+diameters\b"),
+    ("XI.def.23", "bases-of-cylinder", r"\bbases?\s+of\s+(?:the\s+|a\s+)?cylinders?\b|\bcones\s+and\s+cylinders\s+which\s+have\s+the\s+same\s+base\b|\bcones\s+and\s+cylinders\s+which\s+are\s+on\s+equal\s+bases\b"),
+    ("XI.def.12", "pyramid", r"\bpyramids?\b"),
+    ("XI.def.13", "prism", r"\bprisms?\b"),
+    ("XI.def.14", "sphere", r"\bspheres?\b"),
+    ("XI.def.18", "cone", r"\bcones?\b"),
+    ("XI.def.21", "cylinder", r"\bcylinders?\b"),
+    ("XI.def.25", "cube", r"\bcubes?\b(?!\s+numbers?)"),
+    ("XI.def.26", "octahedron", r"\boctahedrons?\b"),
+    ("XI.def.27", "icosahedron", r"\bicosahedrons?\b"),
+    ("XI.def.28", "dodecahedron", r"\bdodecahedrons?\b"),
+    ("XI.def.2", "surface", r"\bextremit(?:y|ies)\s+of\s+(?:a\s+|the\s+)?solids?\b|\bcontained\s+by\s+similar\s+planes\b"),
+    ("XI.def.1", "solid", r"\bsolid\s+figures?\b|\bsolids?\b(?!\s+(?:angles?|numbers?))"),
+    # Book X
+    ("X.def.ii.1", "first-binomial-straight-line", r"\bfirst\s+binomial(?:\s+straight\s+line)?\b"),
+    ("X.def.ii.2", "second-binomial", r"\bsecond\s+binomial\b"),
+    ("X.def.ii.3", "third-binomial", r"\bthird\s+binomial\b"),
+    ("X.def.ii.4", "fourth-binomial", r"\bfourth\s+binomial\b"),
+    ("X.def.ii.5", "fifth-binomial", r"\bfifth\s+binomial\b"),
+    ("X.def.ii.6", "sixth-binomial", r"\bsixth\s+binomial\b"),
+    ("X.def.iii.1", "first-apotome", r"\bfirst\s+apotome\b"),
+    ("X.def.iii.2", "second-apotome", r"\bsecond\s+apotome\b"),
+    ("X.def.iii.3", "third-apotome", r"\bthird\s+apotome\b"),
+    ("X.def.iii.4", "fourth-apotome", r"\bfourth\s+apotome\b"),
+    ("X.def.iii.5", "fifth-apotome", r"\bfifth\s+apotome\b"),
+    ("X.def.iii.6", "sixth-apotome", r"\bsixth\s+apotome\b"),
+    ("X.def.2", "commensurable-in-square", r"\bcommensurable\s+in\s+square(?:\s+only)?\b"),
+    ("X.def.2", "incommensurable-in-square", r"\bincommensurable\s+in\s+square\b"),
+    ("X.def.1", "commensurable", r"\bcommensurable\b"),
+    ("X.def.1", "incommensurable", r"\bincommensurable\b"),
+    ("X.def.4", "rational", r"\brational\s+areas?\b|\birrational\s+areas?\b"),
+    ("X.def.3", "rational", r"\brational\b"),
+    ("X.def.3", "irrational", r"\birrational\b"),
+    # Book VII
+    ("VII.def.21", "similar-plane-and-solid-numbers", r"\bsimilar\s+plane\s+and\s+solid\s+numbers?\b|\bsimilar\s+plane\s+numbers?\b|\bsimilar\s+solid\s+numbers?\b"),
+    ("VII.def.8", "even-times-even-number", r"\beven-times\s+even(?:\s+numbers?)?\b"),
+    ("VII.def.9", "even-times-odd-number", r"\beven-times\s+odd(?:\s+numbers?)?\b"),
+    ("VII.def.10", "odd-times-odd-number", r"\bodd-times\s+odd(?:\s+numbers?)?\b"),
+    ("VII.def.12", "prime-to-one-another", r"\bprime\s+to\s+one\s+another\b|\bprime\s+to\b"),
+    ("VII.def.14", "composite-to-one-another", r"\bcomposite\s+to\s+one\s+another\b|\bcomposite\s+to\b"),
+    ("VII.def.6", "even-number", r"\beven\s+numbers?\b|\beven\b"),
+    ("VII.def.7", "odd-number", r"\bodd\s+numbers?\b|\bodd\b"),
+    ("VII.def.11", "prime-number", r"\bprime\s+numbers?\b|\bprime\b"),
+    ("VII.def.13", "composite-number", r"\bcomposite\s+numbers?\b|\bcomposite\b"),
+    ("VII.def.16", "plane-number", r"\bplane\s+numbers?\b"),
+    ("VII.def.17", "solid-number", r"\bsolid\s+numbers?\b"),
+    ("VII.def.18", "square-number", r"\bsquare\s+numbers?\b"),
+    ("VII.def.19", "cube-number", r"\bcube\s+numbers?\b"),
+    ("VII.def.22", "perfect-number", r"\bperfect\s+numbers?\b|\bperfect\b"),
+    ("VII.def.15", "multiply", r"\bmultipl(?:y|ied|ying|ies)\b"),
+    ("VII.def.3", "part-aliquot", r"\bsame\s+part\b|\bpart\s+of\b"),
+    ("VII.def.4", "parts-non-aliquot", r"\bsame\s+parts\b|\bparts\s+of\b"),
+    ("VII.def.5", "multiple", r"\bsame\s+multiple\b|\bmultiple\s+of\b"),
+    ("VII.def.1", "unit", r"\bunits?\b"),
+    ("VII.def.2", "number", r"\bnumbers?\b"),
+    # Book VI
+    ("VI.def.1", "similar-rectilineal-figures", r"\bsimilar\s+(?:rectilineal\s+figures?|polygons?|triangles?|parallelograms?)\b|\bsimilarly\s+described\b"),
+    ("VI.def.2", "reciprocally-related", r"\breciprocally\s+proportional\b|\breciprocally\b"),
+    ("VI.def.3", "extreme-and-mean-ratio", r"\bextreme\s+and\s+mean\s+ratio\b"),
+    ("VI.def.4", "height", r"\bheights?\b"),
+    # Book V
+    ("V.def.9", "duplicate-ratio", r"\bduplicate\s+ratio\b"),
+    ("V.def.10", "triplicate-ratio", r"\btriplicate\s+ratio\b"),
+    ("V.def.11", "corresponding-magnitudes", r"\bcorresponding\s+magnitudes\b|\bantecedents?\b|\bconsequents?\b"),
+    ("V.def.12", "alternando", r"\balternately\b|\balternando\b"),
+    ("V.def.13", "invertendo", r"\binversely\b|\binvertendo\b"),
+    ("V.def.14", "componendo", r"\bcomponendo\b|\btaken\s+jointly\b"),
+    ("V.def.15", "separando", r"\bseparando\b|\btaken\s+separately\b"),
+    ("V.def.16", "convertendo", r"\bconvertendo\b|\bin\s+conversion\b"),
+    ("V.def.17", "ex-aequali", r"\bex\s+aequali\b"),
+    ("V.def.18", "perturbed-proportion", r"\bperturbed\s+proportion\b|\bproportion\s+of\s+them\s+be\s+perturbed\b|\bperturbed\b"),
+    ("V.def.7", "greater-ratio", r"\bgreater\s+ratio\b"),
+    ("V.def.5", "in-the-same-ratio", r"\bin\s+the\s+same\s+ratio\b|\bsame\s+ratio\b"),
+    ("V.def.4", "have-a-ratio", r"\bhave\s+a\s+ratio\b"),
+    ("V.def.8", "proportion", r"\bthree\s+terms\b"),
+    ("V.def.6", "proportional", r"\bproportionals?\b|\bcontinued\s+proportion\b"),
+    ("V.def.3", "ratio", r"\bratios?\b"),
+    ("V.def.2", "multiple", r"\bequimultiples?\b|\bmultiples?\b"),
+    ("V.def.1", "part-aliquot", r"\bmeasure(?:s|d)?\b"),
+    # Book IV
+    ("IV.def.1", "inscribed-in-rectilineal-figure", r"\binscribed\s+in\s+(?:a\s+|the\s+)?(?:rectilineal\s+figure|triangle|square|pentagon)\b"),
+    ("IV.def.2", "circumscribed-about-figure", r"\bcircumscribed\s+about\s+(?:a\s+|the\s+)?(?:rectilineal\s+figure|triangle|square|pentagon)\b"),
+    ("IV.def.3", "inscribed-in-circle", r"\binscribed\s+in\s+(?:a\s+|the\s+)?circles?\b|\binscribe\s+in\s+(?:a\s+|the\s+)?(?:given\s+)?circle\b"),
+    ("IV.def.4", "circumscribed-about-circle", r"\bcircumscribed\s+about\s+(?:a\s+|the\s+)?circles?\b|\bcircumscribe\s+about\s+(?:a\s+|the\s+)?(?:given\s+)?circle\b"),
+    ("IV.def.5", "circle-inscribed-in-figure", r"\binscribe\s+(?:a\s+)?circle\s+in\b"),
+    ("IV.def.6", "circumscribed-about-figure", r"\bcircumscribe\s+(?:a\s+)?circle\s+about\b"),
+    ("IV.def.7", "fitted-into-circle", r"\bfit(?:ted)?\s+into\s+(?:the\s+|a\s+)?(?:given\s+)?circle\b"),
+    # Book III
+    ("III.def.11", "similar-segments-of-circles", r"\bsimilar\s+segments\s+of\s+circles\b"),
+    ("III.def.1", "equal-circles", r"\bequal\s+circles\b"),
+    ("III.def.2", "tangent-to-circle", r"\btouch(?:es|ing)?\s+(?:the\s+|a\s+)?circles?\b"),
+    ("III.def.3", "circles-touching", r"\btouch(?:es|ing)?\s+one\s+another\b"),
+    ("III.def.4", "equally-distant-from-centre", r"\bequally\s+distant\s+from\s+the\s+centre\b|\bequally\s+distant\b"),
+    ("III.def.5", "greater-distance-from-centre", r"\bfurther\s+from\s+the\s+centre\b|\bgreater\s+distance\b|\bnearer\s+to\s+the\s+centre\b"),
+    ("III.def.6", "segment-of-circle", r"\bsegments?\s+of\s+(?:a\s+|the\s+)?circles?\b|\bcircle\s+segments?\b"),
+    ("III.def.7", "angle-of-segment", r"\bangles?\s+of\s+(?:a\s+|the\s+)?(?:segments?|semicircles?)\b"),
+    ("III.def.8", "angle-in-segment", r"\bangles?\s+in\s+(?:a\s+|the\s+)?(?:segments?|semicircles?)\b|\bbase\s+of\s+the\s+segment\b"),
+    ("III.def.9", "stand-upon-circumference", r"\bstand(?:s|ing)?\s+(?:upon|on)\s+(?:the\s+|equal\s+|a\s+)?circumferences?\b|\bcircumferences?\s+on\s+which\s+they\s+stand\b"),
+    ("III.def.10", "sector-of-circle", r"\bsectors?\b|\bangles?\s+at\s+the\s+centres?\b"),
+    # Book II
+    ("II.def.1", "contained-rectangle", r"\brectangles?\s+contained\b|\brectangular\s+parallelograms?\b|\brectangles?\b"),
+    ("II.def.2", "gnomon", r"\bgnomons?\b"),
+    # Book I
+    ("I.def.20", "equilateral-triangle", r"\bequilateral\s+triangles?\b|\bequilateral\b"),
+    ("I.def.20", "isosceles-triangle", r"\bisosceles\s+triangles?\b|\bisosceles\b"),
+    ("I.def.20", "scalene-triangle", r"\bscalene\s+triangles?\b|\bscalene\b"),
+    ("I.def.21", "right-angled-triangle", r"\bright-angled\s+triangles?\b"),
+    ("I.def.21", "obtuse-angled-triangle", r"\bobtuse-angled\s+triangles?\b"),
+    ("I.def.21", "acute-angled-triangle", r"\bacute-angled\s+triangles?\b"),
+    ("I.def.22", "square", r"\bsquares?\b(?!\s+numbers?\b)(?<!in square)"),
+    ("I.def.22", "oblong", r"\boblongs?\b"),
+    ("I.def.22", "rhombus", r"\brhombus(?:es)?\b"),
+    ("I.def.22", "rhomboid", r"\brhomboids?\b"),
+    ("I.def.22", "trapezium", r"\btrapezi(?:um|a)\b"),
+    ("I.def.23", "parallel-straight-lines", r"\bparallel\s+straight\s+lines\b|\bparallels?\b"),
+    ("I.def.19", "rectilineal-figure", r"\brectilineal\s+figures?\b"),
+    ("I.def.19", "trilateral", r"\btrilateral\s+figures?\b|\btrilaterals?\b|\btriangles?\b"),
+    ("I.def.19", "quadrilateral", r"\bquadrilateral\s+figures?\b|\bquadrilaterals?\b"),
+    ("I.def.19", "multilateral", r"\bmultilateral\s+figures?\b|\bmultilaterals?\b"),
+    ("I.def.18", "semicircle", r"\bsemicircles?\b"),
+    ("I.def.17", "diameter", r"\bdiameters?\b"),
+    ("I.def.16", "centre", r"\b(?:centre|center)s?\b"),
+    ("I.def.15", "circle", r"\bcircles?\b"),
+    ("I.def.12", "acute-angle", r"\bacute\s+angles?\b|\bacute\b(?!-angled)"),
+    ("I.def.11", "obtuse-angle", r"\bobtuse\s+angles?\b|\bobtuse\b(?!-angled)"),
+    ("I.def.10", "right-angle", r"\bright\s+angles?\b|\bat\s+right\s+angles\b"),
+    ("I.def.10", "perpendicular", r"\bperpendiculars?\b|\bperpendicularly\b"),
+    ("I.def.9", "rectilineal-angle", r"\brectilineal\s+angles?\b|\brectilineal\b"),
+    ("I.def.8", "plane-angle", r"\bplane\s+angles?\b|\bangles?\b"),
+    ("I.def.7", "plane-surface", r"\bplane\s+surfaces?\b|\bplane\s+figures?\b|\bplanes?\b"),
+    ("I.def.14", "figure", r"\bfigures?\b"),
+    ("I.def.13", "boundary", r"\bboundar(?:y|ies)\b"),
+    ("I.def.6", "extremity", r"\bextremit(?:y|ies)\s+of\s+a\s+surface\b|\bcontained\s+by\s+one\s+line\b"),
+    ("I.def.5", "surface", r"\bsurfaces?\b"),
+    ("I.def.4", "straight-line", r"\b(?:finite\s+)?straight\s+lines?\b"),
+    ("I.def.3", "extremity", r"\bextremit(?:y|ies)\b"),
+    ("I.def.2", "line", r"\blines?\b"),
+    ("I.def.1", "point", r"\bpoints?\b"),
+]
+
+_COMPILED_DEF_TERM_PATTERNS: List[Tuple[str, str, re.Pattern[str]]] = [
+    (def_id, slug, re.compile(pat, re.IGNORECASE))
+    for def_id, slug, pat in DEF_TERM_PATTERNS
+]
+
+_SLUG_TO_DEF_ID: Dict[str, str] = {}
+for _did, _slug, _ in reversed(DEF_TERM_PATTERNS):
+    _SLUG_TO_DEF_ID[_slug] = _did
+
+
+def _inject_first_use_defined_terms(
+    blocks: List[TaggedBlock],
+    unit_id: str,
+) -> Tuple[List[TaggedBlock], Set[str], Set[str]]:
+    """Wrap the first occurrence of each earlier-defined Euclidean term in :term:`<word> <slug>`.
+
+    Returns ``(updated_blocks, all_term_deps, enunciation_term_deps)``.
+    """
+    u_key = _canonical_sort_key(unit_id)
+    seen_defs: Set[str] = set()
+    all_term_deps: Set[str] = set()
+    enun_term_deps: Set[str] = set()
+
+    # Pre-scan existing non-headword :term: roles already present in blocks
+    existing_term_re = re.compile(r":term:`([^`<]+?)(?:\s*<([^>]+)>)?`")
+    for b in blocks:
+        if _FN_DEF_RE.match(b.text):
+            continue
+        is_enun = b.text.lstrip().startswith(".. enunciation::")
+        for m_t in existing_term_re.finditer(b.text):
+            disp = m_t.group(1).strip()
+            slug = (m_t.group(2) or _apparatus_slug(disp)).strip()
+            if disp.startswith("**") and disp.endswith("**"):
+                continue
+            mapped_def = _SLUG_TO_DEF_ID.get(slug)
+            if mapped_def and mapped_def != unit_id and _canonical_sort_key(mapped_def) < u_key:
+                seen_defs.add(mapped_def)
+                all_term_deps.add(mapped_def)
+                if is_enun:
+                    enun_term_deps.add(mapped_def)
+
+    protect_re = re.compile(
+        r":[a-zA-Z0-9_-]+:`[^`]+`|\*\*[^*\n]+\*\*|``[^`\n]+``|\$[^$\n]+\$|\[#[^\]]+\]_|<[^>]+>"
+    )
+
+    updated_blocks: List[TaggedBlock] = []
+    for b in blocks:
+        txt = b.text
+        s_txt = txt.strip()
+        if (
+            not s_txt
+            or _is_heading_block(s_txt)
+            or _FN_DEF_RE.match(s_txt)
+            or s_txt.startswith((".. picture::", ".. folio::", ".. _", ".. toctree::", ".. collection::", "----"))
+        ):
+            updated_blocks.append(b)
+            continue
+
+        is_enun = s_txt.startswith(".. enunciation::")
+        lines = txt.splitlines()
+        new_lines: List[str] = []
+
+        for line in lines:
+            ls = line.strip()
+            if not ls or re.match(r"^\.\.\s+[a-zA-Z0-9_-]+::", ls) or re.match(r"^:[a-zA-Z0-9_-]+:", ls):
+                new_lines.append(line)
+                continue
+
+            # Check compound concepts before masking
+            if re.search(r"\bplane\s+figures?\b", line, re.IGNORECASE):
+                for extra_def in ("I.def.7", "I.def.14"):
+                    if extra_def != unit_id and _canonical_sort_key(extra_def) < u_key:
+                        all_term_deps.add(extra_def)
+                        if is_enun:
+                            enun_term_deps.add(extra_def)
+
+            placeholders: List[str] = []
+
+            def _save_placeholder(val: str) -> str:
+                idx = len(placeholders)
+                placeholders.append(val)
+                return f"\x00PH{idx}\x00"
+
+            work_line = protect_re.sub(lambda m: _save_placeholder(m.group(0)), line)
+
+            for def_id, slug, pat in _COMPILED_DEF_TERM_PATTERNS:
+                if def_id == unit_id or _canonical_sort_key(def_id) >= u_key:
+                    continue
+                if pat.search(work_line):
+                    all_term_deps.add(def_id)
+                    if is_enun:
+                        enun_term_deps.add(def_id)
+
+                    def _replace_match(m_pat: re.Match[str]) -> str:
+                        matched_word = m_pat.group(0)
+                        if def_id not in seen_defs:
+                            seen_defs.add(def_id)
+                            return _save_placeholder(f":term:`{matched_word} <{slug}>`")
+                        return _save_placeholder(matched_word)
+
+                    work_line = pat.sub(_replace_match, work_line)
+
+            # Restore placeholders (may be nested up to 2 levels)
+            for _ in range(2):
+                work_line = re.sub(
+                    r"\x00PH(\d+)\x00",
+                    lambda m: placeholders[int(m.group(1))],
+                    work_line,
+                )
+            new_lines.append(work_line)
+
+        updated_blocks.append(
+            TaggedBlock(
+                text="\n".join(new_lines),
+                folio=b.folio,
+                page=b.page,
+                source_dir=b.source_dir,
+            )
+        )
+
+    if unit_id == "I.def.4":
+        all_term_deps.add("I.def.3")
+    elif unit_id == "XI.def.24":
+        all_term_deps.update({"XI.def.19", "XI.def.20", "XI.def.22", "XI.def.23"})
+
+    return updated_blocks, all_term_deps, enun_term_deps
 
 
 @dataclass
@@ -505,18 +842,28 @@ def _write_unit_files(
     seen_folio_anchors: Optional[Set[Tuple[str, str]]] = None,
     extra_lead_text: Optional[str] = None,
     extra_hidden_toctree: Optional[List[str]] = None,
+    extra_deps: Optional[Set[str]] = None,
 ) -> List[Path]:
     """Write index.rst (and commentary.rst if comm_blocks is non-empty) into out_dir."""
     out_dir.mkdir(parents=True, exist_ok=True)
     written: List[Path] = []
     comm_blocks = comm_blocks or []
 
+    unit_term_deps: Set[str] = set(extra_deps or set())
+    if unit_type == "proposition":
+        main_blocks, prop_all_terms, prop_enun_terms = _inject_first_use_defined_terms(
+            main_blocks, canonical_id
+        )
+        unit_term_deps.update(prop_enun_terms)
+        unit_term_deps.update(prop_all_terms)
+
     main_body, main_folios, main_pages, main_media = _render_blocks_with_milestones(
         main_blocks,
         vol_roman=vol_roman,
         seen_folio_anchors=seen_folio_anchors,
     )
-    deps = _extract_dependencies(main_body)
+    explicit_deps = set(_extract_dependencies(main_body))
+    deps = sorted(explicit_deps | unit_term_deps, key=_canonical_sort_key)
 
     header_lines = [
         f":canonical_id: {canonical_id}",
@@ -663,29 +1010,53 @@ def compile_section(
         extra_hidden_toctree=extra_toc,
     )
 
+
 def _inject_numbered_item_anchors(
     blocks: List[TaggedBlock], prefix: str
-) -> List[TaggedBlock]:
-    """Prepend explicit Sphinx reference anchors (.. _<prefix>.<num>:) to numbered definition/postulate/CN blocks."""
+) -> Tuple[List[TaggedBlock], Set[str]]:
+    """Prepend explicit Sphinx reference anchors (.. _<prefix>.<num>:) and inject first-use :term: roles per item."""
     out: List[TaggedBlock] = []
     seen_nums: Set[str] = set()
+    section_deps: Set[str] = set()
     item_pat = re.compile(r"^(?:\[\d+\]\s*)?\[?(?:\*\*)?(\d+)\.(?:\*\*)?\s+")
+
+    current_item_id: Optional[str] = None
+    current_item_blocks: List[TaggedBlock] = []
+
+    def _flush_current_item() -> None:
+        nonlocal current_item_blocks
+        if not current_item_blocks:
+            return
+        if current_item_id:
+            tagged_blocks, item_deps, _ = _inject_first_use_defined_terms(
+                current_item_blocks, current_item_id
+            )
+            section_deps.update(item_deps)
+            out.extend(tagged_blocks)
+        else:
+            out.extend(current_item_blocks)
+        current_item_blocks = []
+
     for b in blocks:
         m = item_pat.match(b.text.strip())
         if m:
             num = m.group(1)
             if num not in seen_nums:
+                _flush_current_item()
                 seen_nums.add(num)
+                current_item_id = f"{prefix}.{num}"
                 out.append(
                     TaggedBlock(
-                        text=f".. _{prefix}.{num}:",
+                        text=f".. _{current_item_id}:",
                         folio=b.folio,
                         page=b.page,
                         source_dir=b.source_dir,
                     )
                 )
-        out.append(b)
-    return out
+        current_item_blocks.append(b)
+
+    _flush_current_item()
+    return out, section_deps
 
 
 def compile_book(
@@ -833,7 +1204,7 @@ def compile_book(
 
     # 1. Write Definitions
     if fp_sections["def_main"]:
-        norm_def = _inject_numbered_item_anchors(
+        norm_def, def_deps = _inject_numbered_item_anchors(
             _normalize_unit_headings(fp_sections["def_main"]),
             f"{book_roman}.def",
         )
@@ -853,13 +1224,14 @@ def compile_book(
                 main_blocks=norm_def,
                 comm_blocks=norm_def_comm,
                 seen_folio_anchors=seen_folio_anchors,
+                extra_deps=def_deps,
             )
         )
         toc_entries.append("definitions/index")
 
     # 2. Write Postulates
     if fp_sections["post_main"]:
-        norm_post = _inject_numbered_item_anchors(
+        norm_post, post_deps = _inject_numbered_item_anchors(
             _normalize_unit_headings(fp_sections["post_main"]),
             f"{book_roman}.post",
         )
@@ -879,13 +1251,14 @@ def compile_book(
                 main_blocks=norm_post,
                 comm_blocks=norm_post_comm,
                 seen_folio_anchors=seen_folio_anchors,
+                extra_deps=post_deps,
             )
         )
         toc_entries.append("postulates/index")
 
     # 3. Write Common Notions
     if fp_sections["cn_main"]:
-        norm_cn = _inject_numbered_item_anchors(
+        norm_cn, cn_deps = _inject_numbered_item_anchors(
             _normalize_unit_headings(fp_sections["cn_main"]),
             f"{book_roman}.cn",
         )
@@ -905,13 +1278,14 @@ def compile_book(
                 main_blocks=norm_cn,
                 comm_blocks=norm_cn_comm,
                 seen_folio_anchors=seen_folio_anchors,
+                extra_deps=cn_deps,
             )
         )
         toc_entries.append("common_notions/index")
 
     # 3b. Book X Definitions II & III
     if fp_sections["def_ii"]:
-        norm_def_ii = _inject_numbered_item_anchors(
+        norm_def_ii, def_ii_deps = _inject_numbered_item_anchors(
             _normalize_unit_headings(fp_sections["def_ii"]),
             f"{book_roman}.def.ii",
         )
@@ -925,12 +1299,13 @@ def compile_book(
                 title=f"Book {book_roman} Definitions II",
                 main_blocks=norm_def_ii,
                 seen_folio_anchors=seen_folio_anchors,
+                extra_deps=def_ii_deps,
             )
         )
         toc_entries.append("definitions_ii/index")
 
     if fp_sections["def_iii"]:
-        norm_def_iii = _inject_numbered_item_anchors(
+        norm_def_iii, def_iii_deps = _inject_numbered_item_anchors(
             _normalize_unit_headings(fp_sections["def_iii"]),
             f"{book_roman}.def.iii",
         )
@@ -944,6 +1319,7 @@ def compile_book(
                 title=f"Book {book_roman} Definitions III",
                 main_blocks=norm_def_iii,
                 seen_folio_anchors=seen_folio_anchors,
+                extra_deps=def_iii_deps,
             )
         )
         toc_entries.append("definitions_iii/index")

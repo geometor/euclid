@@ -6,7 +6,7 @@
 :title: Proposition VII.9
 :folios: 0315, 0316
 :pages: 309, 310
-:dependencies: VII.5, VII.6
+:dependencies: V.def.12, VII.def.2, VII.def.3, VII.def.4, VII.5, VII.6
 
 .. _VII.9:
 
@@ -18,7 +18,7 @@ PROPOSITION 9.
 
 .. enunciation::
 
-   If a number be a part of a number, and another be the same part of another, alternately also, whatever part or parts the first is of the third, the same part, or the same parts, will the second also be of the fourth.
+   If a :term:`number <number>` be a :term:`part of <part-aliquot>` a number, and another be the same part of another, :term:`alternately <alternando>` also, whatever part or parts the first is of the third, the same part, or the :term:`same parts <parts-non-aliquot>`, will the second also be of the fourth.
 
 For let the number :g:`A <0315.g1:A>` be a part of the number :g:`BC <0315.g1:/ B C />`, and another, :g:`D <0315.g1:D>`, the same part of another, :g:`EF <0315.g1:/ E F />`, that :g:`A <0315.g1:A>` is of :g:`BC <0315.g1:/ B C />`;
 
@@ -76,9 +76,36 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../book_v/definitions/index.html#v-def-12", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#vii-def-5", target="_top"];
      "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../05/index.html", target="_top"];
      "VII.6" [label="VII.6", fillcolor="#222244", tooltip="VII.6: If a number be parts of a number, and another be the same parts of another, the sum will also be the same parts of the sum that the one is of the one.", URL="../06/index.html", target="_top"];
      "VII.9" [label="VII.9", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.9: If a number be a part of a number, and another be the same part of another, alternately also, whatever part or parts the first is of the third, the same part, or the same parts…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.5" -> "V.def.2";
+     "V.def.12" -> "V.def.11";
+     "VII.9" -> "V.def.12";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.9" -> "VII.def.2";
+     "VII.5" -> "VII.def.3";
+     "VII.9" -> "VII.def.3";
+     "VII.6" -> "VII.def.4";
+     "VII.9" -> "VII.def.4";
+     "VII.5" -> "VII.def.5";
      "VII.6" -> "VII.5";
      "VII.9" -> "VII.5";
      "VII.9" -> "VII.6";

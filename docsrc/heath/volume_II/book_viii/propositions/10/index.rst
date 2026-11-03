@@ -6,7 +6,7 @@
 :title: Proposition VIII.10
 :folios: 0366, 0367, 0368
 :pages: 360, 361, 362
-:dependencies: VII.def.20, VII.17, VII.18
+:dependencies: V.def.6, VII.def.1, VII.def.2, VII.def.20, VII.17, VII.18
 
 .. _VIII.10:
 
@@ -18,7 +18,7 @@ PROPOSITION 10.
 
 .. enunciation::
 
-   If numbers fall between each of two numbers and an unit in continued proportion, however many numbers fall between each of them and an unit in continued proportion, so many also will fall between the numbers themselves in continued proportion.
+   If :term:`numbers <number>` fall between each of two numbers and an :term:`unit <unit>` in :term:`continued proportion <proportional>`, however many numbers fall between each of them and an unit in continued proportion, so many also will fall between the numbers themselves in continued proportion.
 
 .. _folio-ii-0367:
 
@@ -29,7 +29,7 @@ For let the numbers :g:`D <0367.g1:D>`, :g:`E <0367.g1:E>` and :g:`F <0367.g1:F>
 
 I say that, as many numbers as have fallen between each of the numbers :g:`A <0367.g1:A>`, :g:`B <0367.g1:B>` and the unit :g:`C <0367.g1:C>` in continued proportion, so many numbers will also fall between :g:`A <0367.g1:A>`, :g:`B <0367.g1:B>` in continued proportion.
 
-For let :g:`D <0367.g1:D>` by multiplying :g:`F <0367.g1:F>` make :g:`H <0367.g1:H>`, and let the numbers :g:`D <0367.g1:D>`, :g:`F <0367.g1:F>` by multiplying :g:`H <0367.g1:H>` make :g:`K <0367.g1:K>`, :g:`L <0367.g1:L>` respectively.
+For let :g:`D <0367.g1:D>` by :term:`multiplying <multiply>` :g:`F <0367.g1:F>` make :g:`H <0367.g1:H>`, and let the numbers :g:`D <0367.g1:D>`, :g:`F <0367.g1:F>` by multiplying :g:`H <0367.g1:H>` make :g:`K <0367.g1:K>`, :g:`L <0367.g1:L>` respectively.
 
 .. picture:: 0367.g1.svg
    :alt: Book VIII, Proposition 10
@@ -40,7 +40,7 @@ For let :g:`D <0367.g1:D>` by multiplying :g:`F <0367.g1:F>` make :g:`H <0367.g1
 
 .. assertion::
 
-   therefore the unit :g:`C <0367.g1:C>` measures the number :g:`D <0367.g1:D>` the same number of times as :g:`D <0367.g1:D>` measures :g:`E <0367.g1:E>`. :just:`[VII. Def. 20] <VII.def.20>`
+   therefore the unit :g:`C <0367.g1:C>` :term:`measures <part-aliquot>` the number :g:`D <0367.g1:D>` the same number of times as :g:`D <0367.g1:D>` measures :g:`E <0367.g1:E>`. :just:`[VII. Def. 20] <VII.def.20>`
 
 .. subclause::
 
@@ -185,6 +185,18 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../book_v/definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../book_v/definitions/index.html#v-def-12", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../../book_vii/definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../book_vii/definitions/index.html#vii-def-5", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
      "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../../../book_vii/propositions/05/index.html", target="_top"];
      "VII.6" [label="VII.6", fillcolor="#222244", tooltip="VII.6: If a number be parts of a number, and another be the same parts of another, the sum will also be the same parts of the sum that the one is of the one.", URL="../../../book_vii/propositions/06/index.html", target="_top"];
@@ -197,6 +209,55 @@ Dependency Graph
      "VII.17" [label="VII.17", fillcolor="#222244", tooltip="VII.17: If a number by multiplying two numbers make certain numbers, the numbers so produced will have the same ratio as the numbers multiplied.", URL="../../../book_vii/propositions/17/index.html", target="_top"];
      "VII.18" [label="VII.18", fillcolor="#222244", tooltip="VII.18: If two numbers by multiplying any number make certain numbers, the numbers so produced will have the same ratio as the multipliers.", URL="../../../book_vii/propositions/18/index.html", target="_top"];
      "VIII.10" [label="VIII.10", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VIII.10: If numbers fall between each of two numbers and an unit in continued proportion, however many numbers fall between each of them and an unit in continued proportion, so many also…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.15" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "VII.5" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
+     "VII.17" -> "V.def.5";
+     "VII.18" -> "V.def.5";
+     "VII.13" -> "V.def.6";
+     "VIII.10" -> "V.def.6";
+     "V.def.12" -> "V.def.11";
+     "VII.12" -> "V.def.11";
+     "VII.9" -> "V.def.12";
+     "VII.10" -> "V.def.12";
+     "VII.13" -> "V.def.12";
+     "VII.15" -> "V.def.12";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.15" -> "VII.def.1";
+     "VIII.10" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.9" -> "VII.def.2";
+     "VII.10" -> "VII.def.2";
+     "VII.12" -> "VII.def.2";
+     "VII.13" -> "VII.def.2";
+     "VII.15" -> "VII.def.2";
+     "VII.16" -> "VII.def.2";
+     "VII.17" -> "VII.def.2";
+     "VII.18" -> "VII.def.2";
+     "VIII.10" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.5" -> "VII.def.3";
+     "VII.9" -> "VII.def.3";
+     "VII.10" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.6" -> "VII.def.4";
+     "VII.9" -> "VII.def.4";
+     "VII.10" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
+     "VII.5" -> "VII.def.5";
+     "VII.16" -> "VII.def.15";
+     "VII.17" -> "VII.def.15";
+     "VII.18" -> "VII.def.15";
      "VII.12" -> "VII.def.20";
      "VII.13" -> "VII.def.20";
      "VII.17" -> "VII.def.20";

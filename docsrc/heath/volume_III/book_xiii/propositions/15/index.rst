@@ -6,7 +6,7 @@
 :title: Proposition XIII.15
 :folios: 0482, 0483
 :pages: 478, 479
-:dependencies: I.47, XI.def.3
+:dependencies: I.def.22, I.47, XI.def.3, XI.def.12, XI.def.14, XI.def.15, XI.def.17, XI.def.25
 
 .. _XIII.15:
 
@@ -20,9 +20,9 @@ PROPOSITION 15.
 
 .. enunciation::
 
-   To construct a cube and comprehend it in a sphere, like the pyramid; and to prove that the square on the diameter of the sphere is triple of the square on the side of the cube.
+   To construct a :term:`cube <cube>` and comprehend it in a :term:`sphere <sphere>`, like the :term:`pyramid <pyramid>`; and to prove that the :term:`square <square>` on the :term:`diameter of the sphere <diameter-of-sphere>` is triple of the square on the side of the cube.
 
-Let the diameter :g:`AB <0482.g1:/ A B />` of the given sphere be set out, and let it be cut at :g:`C <0482.g1:C>` so that :g:`AC <0482.g1:/ A C />` is double of :g:`CB <0482.g1:/ C B />`; let the semicircle :g:`ADB <0482.g1:( A D B )>` be described on :g:`AB <0482.g1:/ A B />`, let :g:`CD <0482.g1:/ C D />` be drawn from :g:`C <0482.g1:C>` at right angles to :g:`AB <0482.g1:/ A B />`, and let :g:`DB <0482.g1:/ D B />` be joined; let the square :g:`EFGH <0482.g1:< E F G H >>` having its side :eq:`equal <0482.g1:/ E F / = 0482.g1:/ F G / = 0482.g1:/ G H / = 0482.g1:/ H E / = 0482.g1:/ D B />` to :g:`DB <0482.g1:/ D B />` be set out, from :g:`E <0482.g1:E>`, :g:`F <0482.g1:F>`, :g:`G <0482.g1:G>`, :g:`H <0482.g1:H>` let :g:`EK <0482.g1:/ E K />`, :g:`FL <0482.g1:/ F L />`, :g:`GM <0482.g1:/ G M />`, :g:`HN <0482.g1:/ H N />` be drawn at right angles to the plane of the square :g:`EFGH <0482.g1:< E F G H >>`, from :g:`EK <0482.g1:/ E K />`, :g:`FL <0482.g1:/ F L />`, :g:`GM <0482.g1:/ G M />`, :g:`HN <0482.g1:/ H N />` let :g:`EK <0482.g1:/ E K />`, :g:`FL <0482.g1:/ F L />`, :g:`GM <0482.g1:/ G M />`, :g:`HN <0482.g1:/ H N />` respectively be cut off :eq:`equal <0482.g1:/ E K / = 0482.g1:/ F L / = 0482.g1:/ G M / = 0482.g1:/ H N / = 0482.g1:/ E F / = 0482.g1:/ F G / = 0482.g1:/ G H / = 0482.g1:/ H E />` to one of the straight lines :g:`EF <0482.g1:/ E F />`, :g:`FG <0482.g1:/ F G />`, :g:`GH <0482.g1:/ G H />`, :g:`HE <0482.g1:/ H E />`, and let :g:`KL <0482.g1:/ K L />`, :g:`LM <0482.g1:/ L M />`, :g:`MN <0482.g1:/ M N />`, :g:`NK <0482.g1:/ N K />` be joined; therefore the cube :g:`FN <0482.g1:< F N >>` has been constructed which is contained by six equal squares.
+Let the :term:`diameter <diameter>` :g:`AB <0482.g1:/ A B />` of the given sphere be set out, and let it be cut at :g:`C <0482.g1:C>` so that :g:`AC <0482.g1:/ A C />` is double of :g:`CB <0482.g1:/ C B />`; let the :term:`semicircle <semicircle>` :g:`ADB <0482.g1:( A D B )>` be described on :g:`AB <0482.g1:/ A B />`, let :g:`CD <0482.g1:/ C D />` be drawn from :g:`C <0482.g1:C>` :term:`at right angles <right-angle>` to :g:`AB <0482.g1:/ A B />`, and let :g:`DB <0482.g1:/ D B />` be joined; let the square :g:`EFGH <0482.g1:< E F G H >>` having its side :eq:`equal <0482.g1:/ E F / = 0482.g1:/ F G / = 0482.g1:/ G H / = 0482.g1:/ H E / = 0482.g1:/ D B />` to :g:`DB <0482.g1:/ D B />` be set out, from :g:`E <0482.g1:E>`, :g:`F <0482.g1:F>`, :g:`G <0482.g1:G>`, :g:`H <0482.g1:H>` let :g:`EK <0482.g1:/ E K />`, :g:`FL <0482.g1:/ F L />`, :g:`GM <0482.g1:/ G M />`, :g:`HN <0482.g1:/ H N />` be drawn :term:`at right angles to the plane <right-angles-to-plane>` of the square :g:`EFGH <0482.g1:< E F G H >>`, from :g:`EK <0482.g1:/ E K />`, :g:`FL <0482.g1:/ F L />`, :g:`GM <0482.g1:/ G M />`, :g:`HN <0482.g1:/ H N />` let :g:`EK <0482.g1:/ E K />`, :g:`FL <0482.g1:/ F L />`, :g:`GM <0482.g1:/ G M />`, :g:`HN <0482.g1:/ H N />` respectively be cut off :eq:`equal <0482.g1:/ E K / = 0482.g1:/ F L / = 0482.g1:/ G M / = 0482.g1:/ H N / = 0482.g1:/ E F / = 0482.g1:/ F G / = 0482.g1:/ G H / = 0482.g1:/ H E />` to one of the :term:`straight lines <straight-line>` :g:`EF <0482.g1:/ E F />`, :g:`FG <0482.g1:/ F G />`, :g:`GH <0482.g1:/ G H />`, :g:`HE <0482.g1:/ H E />`, and let :g:`KL <0482.g1:/ K L />`, :g:`LM <0482.g1:/ L M />`, :g:`MN <0482.g1:/ M N />`, :g:`NK <0482.g1:/ N K />` be joined; therefore the cube :g:`FN <0482.g1:< F N >>` has been constructed which is contained by six equal squares.
 
 .. picture:: 0482.g1.svg
    :alt: Book XIII, Proposition 15
@@ -33,7 +33,7 @@ Let the diameter :g:`AB <0482.g1:/ A B />` of the given sphere be set out, and l
 
 For let :g:`KG <0482.g1:/ K G />`, :g:`EG <0482.g1:/ E G />` be joined.
 
-Then, since the angle :g:`KEG <0482.g1:< K E G )>` is right, because :g:`KE <0482.g1:/ K E />` is also at right angles to the plane :g:`EG <0482.g1:< E F G H >>` and of course to the straight line :g:`EG <0482.g1:/ E G />` also, :just:`[XI. Def. 3] <XI.def.3>` therefore the semicircle described on :g:`KG <0482.g1:/ K G />` will also pass through the point :g:`E <0482.g1:E>`.
+Then, since the :term:`angle <plane-angle>` :g:`KEG <0482.g1:< K E G )>` is right, because :g:`KE <0482.g1:/ K E />` is also at right angles to the plane :g:`EG <0482.g1:< E F G H >>` and of course to the straight line :g:`EG <0482.g1:/ E G />` also, :just:`[XI. Def. 3] <XI.def.3>` therefore the semicircle described on :g:`KG <0482.g1:/ K G />` will also pass through the :term:`point <point>` :g:`E <0482.g1:E>`.
 
 Again, since :g:`GF <0482.g1:/ G F />` is at right angles to each of the straight lines :g:`FL <0482.g1:/ F L />`, :g:`FE <0482.g1:/ F E />`, :g:`GF <0482.g1:/ G F />` is also at right angles to the plane :g:`FK <0482.g1:< E F L K >>`; hence also, if we join :g:`FK <0482.g1:/ F K />`, :g:`GF <0482.g1:/ G F />` will be at right angles to :g:`FK <0482.g1:/ F K />`;
 
@@ -46,7 +46,7 @@ and for this reason again the semicircle described on :g:`GK <0482.g1:/ G K />` 
 
 Similarly it will also pass through the remaining angular points of the cube.
 
-If then, :g:`KG <0482.g1:/ K G />` remaining fixed, the semicircle be carried round and restored to the same position from which it began to be moved, the cube will be comprehended in a sphere.
+If then, :g:`KG <0482.g1:/ K G />` remaining fixed, the :term:`semicircle be carried round <axis-of-sphere>` and restored to the same position from which it began to be moved, the cube will be comprehended in a sphere.
 
 .. assertion::
 
@@ -80,8 +80,28 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.11" [label="I.def.11", fillcolor="#224422", tooltip="I.def.11: An obtuse angle is an angle greater than a right angle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-11", target="_top"];
+     "I.def.12" [label="I.def.12", fillcolor="#224422", tooltip="I.def.12: An acute angle is an angle less than a right angle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-12", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.18" [label="I.def.18", fillcolor="#224422", tooltip="I.def.18: A semicircle is the figure contained by the diameter and the circumference cut off by it. And the centre of the semicircle is the same as that of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-18", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
+     "I.def.21" [label="I.def.21", fillcolor="#224422", tooltip="I.def.21: Further, of trilateral figures, a right-angled triangle is that which has a right angle, an obtuse-angled triangle that which has an obtuse angle, and an acute-angled triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-21", target="_top"];
+     "I.def.22" [label="I.def.22", fillcolor="#224422", tooltip="I.def.22: Of quadrilateral figures, a square is that which is both equilateral and right-angled ; an oblong that which is right-angled but not equilateral ; a rhombus that which is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-22", target="_top"];
      "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
@@ -122,13 +142,158 @@ Dependency Graph
      "I.41" [label="I.41", fillcolor="#222244", tooltip="I.41: If a parallelogram have the same base with a triangle and be in the same parallels, the parallelogram is double of the triangle.", URL="../../../../volume_I/book_i/propositions/41/index.html", target="_top"];
      "I.46" [label="I.46", fillcolor="#222244", tooltip="I.46: On a given straight line to describe a square.", URL="../../../../volume_I/book_i/propositions/46/index.html", target="_top"];
      "I.47" [label="I.47", fillcolor="#222244", tooltip="I.47: In right-angled triangles the square on the side subtending the right angle is equal to the squares on the sides containing the right angle.", URL="../../../../volume_I/book_i/propositions/47/index.html", target="_top"];
+     "XI.def.1" [label="XI.def.1", fillcolor="#224422", tooltip="XI.def.1: A solid is that which has length, breadth, and depth.", URL="../../../book_xi/definitions/index.html#xi-def-1", target="_top"];
      "XI.def.3" [label="XI.def.3", fillcolor="#224422", tooltip="XI.def.3: A straight line is at right angles to a plane, when it makes right angles with all the straight lines which meet it and are in the plane.", URL="../../../book_xi/definitions/index.html#xi-def-3", target="_top"];
+     "XI.def.12" [label="XI.def.12", fillcolor="#224422", tooltip="XI.def.12: A pyramid is a solid figure, contained by planes, which is constructed from one plane to one point.", URL="../../../book_xi/definitions/index.html#xi-def-12", target="_top"];
+     "XI.def.14" [label="XI.def.14", fillcolor="#224422", tooltip="XI.def.14: When, the diameter of a semicircle remaining fixed, the semicircle is carried round and restored again to the same position from which it began to be moved, the figure so…", URL="../../../book_xi/definitions/index.html#xi-def-14", target="_top"];
+     "XI.def.15" [label="XI.def.15", fillcolor="#224422", tooltip="XI.def.15: The axis of the sphere is the straight line which remains fixed and about which the semicircle is turned.", URL="../../../book_xi/definitions/index.html#xi-def-15", target="_top"];
+     "XI.def.17" [label="XI.def.17", fillcolor="#224422", tooltip="XI.def.17: A diameter of the sphere is any straight line drawn through the centre and terminated in both directions by the surface of the sphere.", URL="../../../book_xi/definitions/index.html#xi-def-17", target="_top"];
+     "XI.def.25" [label="XI.def.25", fillcolor="#224422", tooltip="XI.def.25: A cube is a solid figure contained by six equal squares.", URL="../../../book_xi/definitions/index.html#xi-def-25", target="_top"];
      "XIII.15" [label="XIII.15", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XIII.15: To construct a cube and comprehend it in a sphere, like the pyramid; and to prove that the square on the diameter of the sphere is triple of the square on the side of the cube.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.14" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.31" -> "I.def.1";
+     "XI.def.12" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.def.23" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.post.5" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.14" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.27" -> "I.def.4";
+     "I.29" -> "I.def.4";
+     "I.31" -> "I.def.4";
+     "I.46" -> "I.def.4";
+     "XI.def.3" -> "I.def.4";
+     "XI.def.15" -> "I.def.4";
+     "XI.def.17" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "XI.def.17" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.23" -> "I.def.7";
+     "XI.def.3" -> "I.def.7";
+     "XI.def.12" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.def.11" -> "I.def.8";
+     "I.def.12" -> "I.def.8";
+     "I.def.21" -> "I.def.8";
+     "I.def.22" -> "I.def.8";
+     "I.post.5" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.14" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.26" -> "I.def.8";
+     "I.27" -> "I.def.8";
+     "I.29" -> "I.def.8";
+     "I.34" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.def.11" -> "I.def.10";
+     "I.def.12" -> "I.def.10";
+     "I.def.21" -> "I.def.10";
+     "I.post.4" -> "I.def.10";
+     "I.post.5" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.14" -> "I.def.10";
+     "I.29" -> "I.def.10";
+     "I.47" -> "I.def.10";
+     "XI.def.3" -> "I.def.10";
+     "I.def.21" -> "I.def.11";
+     "I.def.21" -> "I.def.12";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.def.18" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "XI.def.14" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.def.18" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.def.18" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "XI.def.17" -> "I.def.16";
+     "I.def.18" -> "I.def.17";
+     "I.34" -> "I.def.17";
+     "XI.def.14" -> "I.def.17";
+     "XI.def.14" -> "I.def.18";
+     "XI.def.15" -> "I.def.18";
+     "I.def.20" -> "I.def.19";
+     "I.def.21" -> "I.def.19";
+     "I.def.22" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.26" -> "I.def.19";
+     "I.37" -> "I.def.19";
+     "I.41" -> "I.def.19";
+     "I.def.22" -> "I.def.20";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
+     "I.47" -> "I.def.21";
+     "I.35" -> "I.def.22";
+     "I.46" -> "I.def.22";
+     "I.47" -> "I.def.22";
+     "XI.def.25" -> "I.def.22";
+     "XIII.15" -> "I.def.22";
      "I.27" -> "I.def.23";
+     "I.29" -> "I.def.23";
+     "I.31" -> "I.def.23";
+     "I.35" -> "I.def.23";
+     "I.37" -> "I.def.23";
+     "I.41" -> "I.def.23";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";
@@ -221,7 +386,15 @@ Dependency Graph
      "I.47" -> "I.41";
      "I.47" -> "I.46";
      "XIII.15" -> "I.47";
+     "XI.def.12" -> "XI.def.1";
+     "XI.def.25" -> "XI.def.1";
      "XIII.15" -> "XI.def.3";
+     "XIII.15" -> "XI.def.12";
+     "XI.def.17" -> "XI.def.14";
+     "XIII.15" -> "XI.def.14";
+     "XIII.15" -> "XI.def.15";
+     "XIII.15" -> "XI.def.17";
+     "XIII.15" -> "XI.def.25";
    }
 
 Required for

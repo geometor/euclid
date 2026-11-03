@@ -24,8 +24,6 @@ He next (pp. 415, 22—416, 14) proves the proposition that,
 *If a triangle be formed by joining the middle point of either of the non-parallel sides to the extremities of the opposite side, the area of the trapezium is always double of that of the triangle.*
 Let :g:`ABCD <0353.g1:< A B C D >>` be a trapezium in which :g:`AD <0353.g1:/ A D />`, :g:`BC <0353.g1:/ B C />` are the parallel sides, and :g:`E <0353.g1:E>` the :eq:`middle point <0353.g1:/ C E / = 0353.g1:/ D E />` of one of the non-parallel sides, say :g:`DC <0353.g1:/ D C />`. Join :g:`EA <0353.g1:/ E A />`, :g:`EB <0353.g1:/ E B />` and produce :g:`BE <0353.g1:/ B E />` to meet :g:`AD <0353.g1:/ A D />` produced in :g:`F <0353.g1:F>`.
 
-.. _folio-i-0353:
-
 .. folio:: 0353
    :page: 339
 

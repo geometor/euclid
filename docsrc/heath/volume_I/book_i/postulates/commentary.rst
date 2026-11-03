@@ -13,8 +13,6 @@ Commentary on Book I Postulates
 
 Back to :ref:`Book I Postulates <I.post>`.
 
-.. _folio-i-0209:
-
 .. folio:: 0209
    :page: 195
 
@@ -32,8 +30,6 @@ POSTULATE 1.
 It will be remembered that, according to :person:`Aristotle <aristotle>`, the geometer must in general assume *what* a thing is, or its definition, but must prove *that* it is, i.e. the *existence* of the thing corresponding to the definition: only in the case of the two most primary things, points and lines, does he assume, without proof, both the definition and the existence of the thing defined. :person:`Euclid <euclid>` has indeed no separate assumption affirming the existence of *points* such as we find nowadays in text-books like those of :person:`Veronese <veronese>`, :person:`Ingrami <ingrami>`, :person:`Enriques <enriques>`, "there exist distinct points" or "there exist an infinite number of points." But, as regards the only lines dealt with in the *Elements*, straight lines and circles, existence is asserted in Postulates 1 and 3 respectively. Postulate 1 however does much more than (1) postulate the existence of straight lines. It is (2) an answer to a possible objector who should say that you cannot, with the imperfect instruments at your disposal, draw a mathematical straight line at all, and consequently (in the words of :person:`Aristotle <aristotle>`, :cite:`*Anal. post.* I. 10, 76 b 41 <aristotle:anal-post:I.10.76b41>`) that the geometer uses false hypotheses, since he calls a line a foot long when it is not or straight when it is not straight. It would seem (if Gherard's translation is right) that :person:`an-Nairīzī <an-nairizi>` saw that one purpose of the Postulate was to refute this criticism: "the utility of the first three postulates is (to ensure) that the weakness of our equipment shall not prevent (scientific) demonstration" (ed. :person:`Curtze <curtze>`, p. 30). The fact is, as :person:`Aristotle <aristotle>` says, that the geometer's demonstration is not concerned with the particular imperfect straight line which he has drawn, but with the ideal straight line of which it is the imperfect representation. :person:`Simplicius <simplicius>` too indicates that the object of the Postulate is rather to enable the drawing of a mathematical straight line to be *imagined* than to assert that it can actually be realised in practice: "he would be a rash person who, taking things as they actually are, should postulate the drawing of a straight line from Aries to Libra."
 
 There is still something more that must be inferred from the Postulate combined with the definition of a straight line, namely (3) that the straight line joining two points is *unique*: in other words that, *if two straight lines* ("rectilineal segments," as :person:`Veronese <veronese>` would call them) *have the same extremities, they must coincide throughout their length*. The omission of :person:`Euclid <euclid>` to state this in so many words, though he assumes it in I. 4, is no doubt answerable for the interpolation in the text of the equivalent assumption that *two straight lines cannot enclose a space*, which has constantly appeared in MSS. and editions of :person:`Euclid <euclid>`, either among Axioms or Postulates. That Postulate 1 included it, by conscious implication, is even clear from Proclus' words in his note on I. 4 (p. 239, 16): "therefore two straight lines do not enclose a space, and it was with knowledge of this fact that the writer of the Elements said in the first of his Postulates, *to draw a straight line from any point to any point*, implying that it is *one* straight line which would always join the two points, not *two*."
-
-.. _folio-i-0210:
 
 .. folio:: 0210
    :page: 196
@@ -72,8 +68,6 @@ I translate πεπερασμένην by *finite*, because that is the received e
 Just as Post. 1 asserting the possibility of drawing a straight line from any one point to another must be held to declare at the same time that the straight line so drawn is unique, so Post. 2 maintaining the possibility of producing a finite straight line (a "rectilineal segment") continuously in a straight line must also be held to assert that the straight line can only be produced *in one way* at either end, or that the produced part in either direction is *unique*; in other words, that *two straight lines cannot have a common segment*. This latter assumption is not expressly appealed to by :person:`Euclid <euclid>` until XI. 1. But it is needed at the very beginning of Book I. :person:`Proclus <proclus>` (:cite:`p. 214, 18 <proclus:in-euclid:214.18>`) says that :person:`Zeno <zeno>` of Sidon, an Epicurean, maintained that the very first proposition I. 1 requires it to be admitted that "two straight lines cannot have the same segments"; otherwise $AC$, $BC$ might meet before they arrive at $C$ and have the rest of their length common, in which case the actual triangle formed by them and $AB$ would not be equilateral. The assumption that two straight lines cannot have a common segment is certainly necessary in I. 4, where one side of one triangle is placed on that side of the other
 triangle which is equal to it, and it is inferred that the two coincide throughout their length: this would by no means follow if two straight lines could have a common segment. :person:`Proclus <proclus>` (:cite:`p. 215, 24 <proclus:in-euclid:215.24>`), while observing that Post. 2 clearly indicates that the produced portion must be *one*, attempts to prove it, but unsuccessfully. Both he and :person:`Simplicius <simplicius>` practically use the same argument. Suppose, says :person:`Proclus <proclus>`, that the straight lines :g:`AC <0211.g1:/ A C />`, :g:`AD <0211.g1:/ A D />` have :g:`AB <0211.g1:/ A B />` as a common segment. With centre :g:`B <0211.g1:B>` and radius :g:`BA <0211.g1:/ B A />` describe a circle (Post. 3) meeting :g:`AC <0211.g1:/ A C />`, :g:`AD <0211.g1:/ A D />` in :g:`C <0211.g1:C>`, :g:`D <0211.g1:D>`. Then, since :g:`ABC <0211.g1:/ A B C />` is a straight line through the centre, :g:`AEC <0211.g1:( A E C )>` is a semi-circle. Similarly, :g:`ABD <0211.g1:/ A B D />` being a straight line through the centre, :g:`AED <0211.g1:( A E D )>` is a semi-circle. Therefore :g:`AEC <0211.g1:( A E C )>` is :eq:`equal <0211.g1:( A E C ) = 0211.g1:( A E D )>` to :g:`AED <0211.g1:( A E D )>`: which is impossible.
 
-.. _folio-i-0211:
-
 .. folio:: 0211
    :page: 197
 
@@ -94,8 +88,6 @@ Suppose, if possible, that :g:`AX <0211.g2:/ A X />` is a common segment of both
 (i) I maintain that, with the assumption made, *the line* :g:`AXM <0211.g2:/ A X M />` *is also a straight line which is drawn from the point* :g:`A <0211.g2:A>` *to the point* :g:`X <0211.g2:X>` *and produced beyond* :g:`X <0211.g2:X>`.
 
 For, if this line were not straight, we could draw another straight line :g:`AM <0211.g2:/ A M />` which for its part would be straight. This straight line will either (*a*) cut one of the two straight lines :g:`XB <0211.g2:/ X B />`, :g:`XC <0211.g2:/ X C />` in a certain point :g:`K <0211.g2:K>` or (*b*) enclose one of them, for instance :g:`XB <0211.g2:/ X B />`, in the area bounded by :g:`AX <0211.g2:/ A X />`, :g:`XM <0211.g2:/ X M />` and :g:`APLM <0211.g2:/ A P L M />`.
-
-.. _folio-i-0212:
 
 .. folio:: 0212
    :page: 198
@@ -131,8 +123,6 @@ Hence (*a*) only is true, and there is only *one* point :g:`D <0211.g2:D>` such 
 
 :person:`Proclus <proclus>` (:cite:`p. 217, 10 <proclus:in-euclid:217.10>`) records an ancient proof also based on the proposition I. 11. :person:`Zeno <zeno>`, he says, propounded this proof and then criticised it.
 
-.. _folio-i-0213:
-
 .. folio:: 0213
    :page: 199
 
@@ -165,8 +155,6 @@ In this case Euclid's text has the passive of the verb: "a circle can be drawn";
 *Distance*, διαστήματι. This word, meaning "distance" quite generally (cf. Arist. :cite:`*Metaph.* 1055 a 9 <aristotle:met:1055a9>` "it is between extremities that distance is greatest," *ibid.* 1056 a 36 "things which have something between them, that is, a certain distance"), and also "distance" in the sense of "dimension" (as in "space has three dimensions, length, breadth and depth," Arist. :cite:`*Physics* IV. 1, 209 a 4 <aristotle:phys:IV.1.209a4>`), was the regular word used for describing a circle with a certain *radius*, the idea being that each point of the circumference was at that *distance* from the centre (cf. Arist. *Meteorologica* III. 5, 376 b 8: "if a circle be drawn...with distance ΜΠ"). The Greeks had no word corresponding to *radius*: if they had to express it, they said "(straight lines) drawn from the centre" (αἱ ἐκ τοῦ :term:`κέντρου <centre>`, Eucl. III. Def. 1 and Prop. 26; *Meteorologica* II. 5, 362 b 1 has the full phrase αἱ ἐκ τοῦ :term:`κέντρου <centre>` ἀγόμεναι :term:`γραμμαί <line>`).
 Mr Frankland observes that it would be remarkable if, unlike Postulates 1 and 2, this Postulate implied *merely* what it says, that a circle can be drawn with any centre and distance. We may regard it, if we please, as helping to the complete delineation of the Space which Euclid's geometry is to investigate formally. The Postulate has the effect of removing any restriction upon the size of the circle. It may (1) be indefinitely small, and this implies that space is *continuous*, not discrete, with an irreducible minimum distance between
 contiguous points in it. (2) The circle may be indefinitely large, which implies the fundamental hypothesis of *infinitude* of space. This last assumed characteristic of space is essential to the proof of I. 16, a theorem not universally valid in a space which is unbounded in extent but finite in size. It would however be unsafe to suppose that :person:`Euclid <euclid>` foresaw the use to which his Postulate might thus be put, or formulated it with such an intention.
-
-.. _folio-i-0214:
 
 .. folio:: 0214
    :page: 200
@@ -202,8 +190,6 @@ Saccheri's proof is more careful in that he premises a third lemma in addition t
 .. picture:: 0214.g2.svg
    :alt: Saccheri's third lemma on intersecting straight lines
 
-.. _folio-i-0215:
-
 .. folio:: 0215
    :page: 201
 
@@ -231,8 +217,6 @@ It will be observed that :person:`Saccheri <saccheri>` speaks of "the exact equa
 :person:`Hilbert <hilbert>` takes quite a different line. He considers that :person:`Euclid <euclid>` did wrong in placing Post. 4 among "axioms." He himself, after his Group III. of Axioms containing six relating to congruence, proves several theorems about the congruence of triangles and angles, and then deduces our Postulate.
 As to the *raison d'être* and the place of Post. 4 one thing is quite certain. It was essential from Euclid's point of view that it should come before Post. 5, since the condition in the latter that a certain pair of angles are together less than two right angles would be useless unless it were first made clear that right angles are angles of determinate and invariable magnitude.
 
-.. _folio-i-0216:
-
 .. folio:: 0216
    :page: 202
 
@@ -254,12 +238,8 @@ deceived and would think it proper to place even the assumption in question amon
 "It is then clear from this that we must seek a proof of the present theorem, and that it is alien to the special character of postulates. But how it should be proved, and by what sort of arguments the objections taken to it should be removed, we must explain at the point where the writer of the Elements is actually about to recall it and use it as obvious. It will be necessary at that stage to show that its obvious character does not appear independently of proof, but is turned by proof into matter of knowledge."
 Before passing to the attempts of :person:`Ptolemy <ptolemy>` and :person:`Proclus <proclus>` to prove the Postulate, I should note here that :person:`Simplicius <simplicius>` says (in :person:`an-Nairīzī <an-nairizi>`, ed. Besthorn-Heiberg, p. 119, ed. :person:`Curtze <curtze>`, p. 65) that this Postulate is by no means manifest, but requires proof, and accordingly "Abthiniathus" and Diodorus had already proved it by means of many different propositions, while :person:`Ptolemy <ptolemy>` also had explained and proved it, using for the purpose Eucl. I. 13, 15 and 16 (or 18). The Diodorus here mentioned may be the author of the *Analemma* on which :person:`Pappus <pappus>` wrote a commentary. It is difficult even to frame a conjecture as to who "Abthiniathus" is. In one place in the Arabic text the name appears to be written "Anthisathus" (H. :person:`Suter <suter>` in *Zeitschrift für Math. und Physik*, XXXVIII., hist. litt. Abth. p. 194). It has occurred to me whether he might be Peithon, a friend of :person:`Serenus <serenus>` of Antinoeia (Antinoupolis) who was long known as :person:`Serenus <serenus>` of *Antissa*. :person:`Serenus <serenus>` says (*De sectione cylindri*, ed. :person:`Heiberg <heiberg>`, p. 96): "Peithon the geometer, explaining parallels in a work of his, was not satisfied with what :person:`Euclid <euclid>` said, but showed their nature more cleverly by an example; for he says that parallel straight lines are such a thing as we see on walls or on the ground in the shadows of pillars which are made when either a torch or a lamp is burning behind them. And, although this has only been matter of merriment to every one, I at least must not deride it, for the respect I have for the author, who is my friend." If Peithon was known as "of Antinoeia" or "of Antissa," the two forms of the mysterious name might perhaps be an attempt at an equivalent; but this is no more than a guess.
 
-.. _folio-i-0217:
-
 .. folio:: 0217
    :page: 203
-
-.. _folio-i-0218:
 
 .. folio:: 0218
    :page: 204
@@ -292,8 +272,6 @@ the angles :g:`AFG <0218.g1:< A F G )>`, :g:`FGC <0218.g1:< C G F )>` are equal 
 "Therefore it is not possible for two straight lines to meet when the interior angles are equal to two right angles. Therefore they are parallel."
 [The argument in the words italicised would be clearer if it had been shown that the two interior angles on one side of :g:`EH <0218.g1:/ E H />` are *severally* :eq:`equal <0218.g1:< B F G ) = 0218.g1:< C G F ); 0218.g1:< F G D ) = 0218.g1:< A F G )>` to the two interior angles on the other, namely :g:`BFG <0218.g1:< B F G )>` to :g:`CGF <0218.g1:< C G F )>` and :g:`FGD <0218.g1:< F G D )>` to :g:`AFG <0218.g1:< A F G )>`; whence, assuming :g:`FB <0218.g1:/ F B />`, :g:`GD <0218.g1:/ G D />` to meet in :g:`K <0218.g1:K>`, we can take the triangle :g:`KFG <0218.g1:< K F G >>` and place it (e.g. by rotating it in the plane about :g:`O <0218.g1:O>` the :eq:`middle point <0218.g1:/ O F / = 0218.g1:/ O G />` of :g:`FG <0218.g1:/ F G />`) so that :g:`FG <0218.g1:/ F G />` falls where :g:`GF <0218.g1:/ F G />` is in the figure and :g:`GD <0218.g1:/ G D />` falls on :g:`FA <0218.g1:/ F A />`, in which case :g:`FB <0218.g1:/ F B />` must also fall on :g:`GC <0218.g1:/ G C />`; hence, since :g:`FB <0218.g1:/ F B />`, :g:`GD <0218.g1:/ G D />` meet at :g:`K <0218.g1:K>`, :g:`GC <0218.g1:/ G C />` and :g:`FA <0218.g1:/ F A />` must meet at a corresponding point :g:`L <0218.g1:L>`. Or, as Mr Frankland does, we may substitute for :g:`FG <0218.g1:/ F G />` a straight line :g:`MN <0218.g1:/ M N />` through :g:`O <0218.g1:O>` the :eq:`middle point <0218.g1:/ O F / = 0218.g1:/ O G />` of :g:`FG <0218.g1:/ F G />` drawn perpendicular to one of the parallels, say :g:`AB <0218.g1:/ A B />`. Then, since the two triangles :g:`OMF <0218.g1:< O M F >>`, :g:`ONG <0218.g1:< O N G >>` have two angles :eq:`equal <0218.g1:< F O M ) = 0218.g1:< G O N ); 0218.g1:< B F G ) = 0218.g1:< F G D )>` respectively, namely :g:`FOM <0218.g1:< F O M )>` to
 :g:`GON <0218.g1:< G O N )>` (I. 15) and :g:`OFM <0218.g1:< B F G )>` to :g:`OGN <0218.g1:< F G D )>`, and one side :g:`OF <0218.g1:/ O F />` :eq:`equal <0218.g1:/ O F / = 0218.g1:/ O G />` to one side :g:`OG <0218.g1:/ O G />`, the triangles are :eq:`congruent <0218.g1:< O M F > = 0218.g1:< O N G >>`, the angle :g:`ONG <0218.g1:< O N G )>` is a right angle, and :g:`MN <0218.g1:/ M N />` is perpendicular to both :g:`AB <0218.g1:/ A B />` and :g:`CD <0218.g1:/ C D />`. Then, by the same method of application, :g:`MA <0218.g1:/ M A />`, :g:`NC <0218.g1:/ N C />` are shown to form with :g:`MN <0218.g1:/ M N />` a triangle :g:`MALCN <0218.g1:< M A L C N >>` :eq:`congruent <0218.g1:< M A L C N > = 0218.g1:< N D K B M >>` with the triangle :g:`NDKBM <0218.g1:< N D K B M >>`, and :g:`MA <0218.g1:/ M A />`, :g:`NC <0218.g1:/ N C />` meet at a point :g:`L <0218.g1:L>` corresponding to :g:`K <0218.g1:K>`. Thus the two straight lines would meet at the *two* points :g:`K <0218.g1:K>`, :g:`L <0218.g1:L>`. This is what happens under the :person:`Riemann <riemann>` hypothesis, where the axiom that two straight lines cannot enclose a space does not hold, but all straight lines meeting in one point have another point common also, and e.g. in the particular figure just used :g:`K <0218.g1:K>`, :g:`L <0218.g1:L>` are points common to all perpendiculars to :g:`MN <0218.g1:/ M N />`. If we suppose that :g:`K <0218.g1:K>`, :g:`L <0218.g1:L>` are not distinct points, but *one* point, the axiom that two straight lines cannot enclose a space is *not* contradicted.]
-
-.. _folio-i-0219:
 
 .. folio:: 0219
    :page: 205
@@ -336,8 +314,6 @@ Therefore the same angles will be both equal to and less than two right angles:
 which is impossible.
 
 Hence the straight lines will meet.
-
-.. _folio-i-0220:
 
 .. folio:: 0220
    :page: 206
@@ -389,8 +365,6 @@ Let :g:`AB <0220.g2:/ A B />`, :g:`CD <0220.g2:/ C D />` make with :g:`AC <0220.
 
 Then :g:`AF <0220.g2:/ A F />`, :g:`CG <0220.g2:/ C G />` will not meet at any point on :g:`FG <0220.g2:/ F G />`; for, if that were the case, two sides of a triangle would be together equal to the third: which is impossible.
 
-.. _folio-i-0221:
-
 .. folio:: 0221
    :page: 207
 
@@ -416,8 +390,6 @@ I. "I say that, *if any straight line cuts one of two parallels, it will cut the
    :alt: Proclus' diagram for a straight line EFG cutting parallel lines AB and CD
 
 "Therefore etc."
-
-.. _folio-i-0222:
 
 .. folio:: 0222
    :page: 208
@@ -461,8 +433,6 @@ I. (*a*) If :g:`AB <0222.g2:/ A B />`, :g:`CD <0222.g2:/ C D />` be two straight
 
 (*b*) Conversely, if the perpendiculars so drawn continually become shorter in the direction of :g:`B <0222.g2:B>`, :g:`D <0222.g2:D>`, and longer in the
 
-.. _folio-i-0223:
-
 .. folio:: 0223
    :page: 209
 
@@ -501,8 +471,6 @@ Since the angle :g:`CEG <0223.g2:< C E B )>` is acute, the perpendicular :g:`GH 
 If :g:`GH <0223.g2:/ G H />` does not coincide with :g:`CD <0223.g2:/ C D />` but falls on the side of it towards :g:`F <0223.g2:F>`, :g:`CD <0223.g2:/ C D />`, being within the triangle formed by the perpendicular and by :g:`CE <0223.g2:/ E C />`, :g:`EG <0223.g2:/ E G />`, must cut :g:`EG <0223.g2:/ E G />`. [An axiom is here used, namely that, if :g:`CD <0223.g2:/ C D />` be produced far enough, it must pass *outside* the triangle and therefore cut *some* side, which must be :g:`EB <0223.g2:/ E B />`, since it cannot be the perpendicular (I. 27), or :g:`CE <0223.g2:/ E C />`.]
 
 Lastly, let :g:`GH <0223.g2:/ G H />` fall on the side of :g:`CD <0223.g2:/ C D />` towards :g:`E <0223.g2:E>`.
-
-.. _folio-i-0224:
 
 .. folio:: 0224
    :page: 210
@@ -560,8 +528,6 @@ Let it be :g:`ACP <0224.g2:< A C P >>`.
 
 [:person:`Wallis <wallis>` here interposes a defence of the hypothetical construction.]
 
-.. _folio-i-0225:
-
 .. folio:: 0225
    :page: 211
 
@@ -586,8 +552,6 @@ Among the most important of his propositions are the following:
 (1) *If the hypothesis of the right angle, or of the obtuse angle, or of the acute angle is proved true in a single case, it is true in every other case.* (Props. V., VI., VII.)
 
 (2) *According as the hypothesis of the right angle, the obtuse angle, or the acute angle is true, the sum of the three angles of a triangle is equal to, greater than, or less than two right angles.* (Prop. IX.)
-
-.. _folio-i-0226:
 
 .. folio:: 0226
    :page: 212
@@ -616,8 +580,6 @@ The third part of Lambert's tract is devoted to the discussion of the same three
 *The area of a plane triangle, under the second and third hypotheses, is proportional to the difference between the sum of the three angles and two right angles.*
 Thus the numerical expression for the area of a triangle is, under the *third* hypothesis
 
-.. _folio-i-0227:
-
 .. folio:: 0227
    :page: 213
 
@@ -644,8 +606,6 @@ Legendre.
 
 No account of our present subject would be complete without a full reference to what is of permanent value in the investigations of Adrien Marie :person:`Legendre <legendre>` (1752—1833) relating to the theory of parallels, which extended over the space of a generation. His different attempts to prove the Euclidean hypothesis appeared in the successive editions of his :cite:`*Éléments de Géométrie* <legendre:elements-de-geometrie>` from the first (1794) to the twelfth (1823), which last may be said to contain his last word on the subject. Later, in 1833, he published, in the *Mémoires de l'Académie Royale des Sciences*, XII. p. 367 sqq., a collection of his different proofs under the title *Réflexions sur différentes manières de démontrer la théorie des parallèles*. His exposition brought out clearly, as :person:`Saccheri <saccheri>` had done, and kept steadily in view, the essential connexion between the theory of parallels and the sum of the angles of a triangle. In the first edition of the *Éléments* the proposition that *the sum of the angles of a triangle is equal to two right angles* was proved analytically on the basis of the assumption that the choice of a *unit of length* does not affect the correctness of the proposition to be proved, which is of course equivalent to Wallis' assumption of *the existence of similar figures*. A similar analytical proof is given in the notes to the twelfth edition. In his second edition :person:`Legendre <legendre>` proved Postulate 5 by means of the assumption that, *given three points not in a straight line, there exists a circle passing through all three*. In the third edition (1800) he gave the proposition that *the sum of the angles of a triangle is not greater than two right angles*; this proof, which was geometrical, was replaced later by another, the best known, depending on a construction like that of :person:`Euclid <euclid>` I. 16, the continued application of which enables any number of successive triangles to be evolved in which, while the sum of the angles in each remains always equal to the sum of the angles of the original triangle, one of the angles increases and the sum of the other two diminishes continually. But :person:`Legendre <legendre>` found the proof of the equally necessary proposition that the sum of the angles of a triangle is
 *not less* than two right angles to present great difficulties. He first observed that, as in the case of spherical triangles (in which the sum of the angles is greater than two right angles) the excess of the sum of the angles over two right angles is proportional to the area of the triangle, so in the case of rectilineal triangles, if the sum of the angles is less than two right angles by a certain *deficit*, the *deficit* will be proportional to the area of the triangle. Hence if, starting from a given triangle, we could construct another triangle in which the original triangle is contained at least $m$ times, the *deficit* of this new triangle will be equal to at least $m$ times that of the original triangle, so that the sum of the angles of the greater triangle will diminish progressively as $m$ increases, until it becomes zero or negative: which is absurd. The whole difficulty was thus reduced to that of the construction of a triangle containing the given triangle at least twice; but the solution of even this simple problem requires it to be assumed (or proved) that *through a given point within a given angle less than two-thirds of a right angle we can always draw a straight line which shall meet both sides of the angle*. This is however really equivalent to Euclid's Postulate. The proof in the course of which the necessity for the assumption appeared is as follows.
-
-.. _folio-i-0228:
 
 .. folio:: 0228
    :page: 214
@@ -677,8 +637,6 @@ Therefore etc.
 
 The difficulty caused by the necessity of making the above-mentioned assumption made :person:`Legendre <legendre>` abandon, in his ninth edition, the method of the
 editions from the third to the eighth and return to Euclid's method pure and simple.
-
-.. _folio-i-0229:
 
 .. folio:: 0229
    :page: 215
@@ -716,8 +674,6 @@ Hence the angle :g:`C'AB' <0229.g1:< C' A B' )>` is less than the angle :g:`AB'C
 
 By taking the middle point :g:`D' <0229.g1:D'>` of the side :g:`B'C' <0229.g1:/ B' C' />` and repeating the same construction, we obtain a triangle :g:`AB''C'' <0229.g1:< A B'' C'' >>` such that (1) the sum of its three angles is equal to the sum of the three angles of :g:`ABC <0229.g1:< A B C >>`, (2) the sum of the
 two angles :g:`C''AB'' <0229.g1:< C'' A B'' )>`, :g:`AB''C'' <0229.g1:< A B'' C'' )>` is equal to the angle :g:`C'AB' <0229.g1:< C' A B' )>` in the preceding triangle, and is therefore less than $\frac{1}{2}A$, and (3) the angle :g:`C''AB' <0229.g1:< C'' A B'' )>` is less than half the angle :g:`C'AB' <0229.g1:< C' A B' )>`, and therefore less than $\frac{1}{4}A$.
-
-.. _folio-i-0230:
 
 .. folio:: 0230
    :page: 216
@@ -765,8 +721,6 @@ And, at the same time, :g:`BD <0230.g1:/ B D />` is :eq:`equal <0230.g1:/ B D / 
 
 Continuing the construction of further triangles, however small the difference between :g:`AC <0230.g1:/ A C />` and :g:`BD <0230.g1:/ B D />` is, we shall ultimately reach some multiple
 of this difference, represented in the figure by (say) the difference between the straight line :g:`AJ <0230.g1:/ A J />` and the composite line :g:`BDFHK <0230.g1:/ B D F H K />`, which will be greater than any assigned length, and greater therefore than the sum of :g:`AB <0230.g1:/ A B />` and :g:`JK <0230.g1:/ J K />`.
-
-.. _folio-i-0231:
 
 .. folio:: 0231
    :page: 217
@@ -818,8 +772,6 @@ IV. *If in a triangle the sum of the three angles is equal to two right angles, 
 Let :g:`ABC <0231.g2:< A B C >>` be a triangle in which the sum of the angles is equal to two
 right angles. We can assume :g:`ABC <0232.g1:< A B C >>` to be an *isosceles right-angled* triangle because we can reduce the case to this by making subdivisions of :g:`ABC <0232.g1:< A B C >>` by straight lines through vertices (as in Prop. III. above).
 
-.. _folio-i-0232:
-
 .. folio:: 0232
    :page: 218
 
@@ -858,8 +810,6 @@ We come now to the bearing of these propositions upon Euclid's Postulate 5; and 
 
 VII. *If the sum of the three angles of a triangle is equal to two right angles, through any point in a plane there can only be drawn one parallel to a given straight line.*
 
-.. _folio-i-0233:
-
 .. folio:: 0233
    :page: 219
 
@@ -889,8 +839,6 @@ Then any straight line drawn from :g:`P <0233.g1:P>` which meets :g:`r <0233.g1:
 And since, by the Lemma, it is always possible to draw through :g:`P <0233.g1:P>` straight lines which form with :g:`r <0233.g1:[ Q R' ]>` angles as small as we please, it follows that all the straight lines through :g:`P <0233.g1:P>`, except :g:`s <0233.g1:[ P S ]>`, will meet :g:`r <0233.g1:[ Q R' ]>`. Hence :g:`s <0233.g1:[ P S ]>` is the only parallel to :g:`r <0233.g1:[ Q R' ]>` that can be drawn through :g:`P <0233.g1:P>`.
 
 The history of the attempts to prove Postulate 5 or something equivalent has now been brought down to the parting of the ways. The further developments on lines independent of the Postulate, beginning with :person:`Schweikart <schweikart>` (1780—1857), :person:`Taurinus <taurinus>` (1794—1874), :person:`Gauss <gauss>` (1777—1855), :person:`Lobachewsky <lobachevsky>` (1793—1856), :person:`J. Bolyai <bolyai>` (1802—1860), :person:`Riemann <riemann>` (1826—1866), belong to the history of non-Euclidean geometry, which is outside the scope of this work. I may refer the reader to the full article *Sulla teoria delle parallele e sulle geometrie non-euclidee* by R. :person:`Bonola <bonola>` in *Questioni riguardanti le matematiche elementari*, I., of which I have made considerable use in the above, to the same author's *La geometria non-euclidea*, Bologna, 1906, to the first volume of Killing's *Einführung in die Grundlagen der Geometrie*, Paderborn, 1893, to P. Mansion's *Premiers principes de métagéométrie*, and P. Barbarin's *La géométrie non-Euclidienne*, Paris, 1902, to the historical summary in Veronese's *Fondamenti di geometria*, 1891, p. 565 sqq., and (for original sources) to Engel and :person:`Stäckel <staeckel>`, :cite:`*Die Theorie der Parallellinien von Euklid bis auf Gauss* <staeckel-engel:parallellinien>`, 1895, and *Urkunden zur Geschichte der nicht-Euklidischen Geometrie*, I. (:person:`Lobachewsky <lobachevsky>`), 1899, and II. (Wolfgang und Johann :person:`Bolyai <bolyai>`). I will only add that it was :person:`Gauss <gauss>` who first expressed a conviction that the Postulate could never be proved; he indicated this in reviews in the *Göttingische gelehrte Anzeigen*, 20 Apr. 1816 and 28 Oct. 1822, and affirmed it in a letter to Bessel of 27 January, 1829. The actual indemonstrability of the Postulate was proved by :person:`Beltrami <beltrami>` (1868) and by :person:`Hoüel <houel>` (*Note sur l'impossibilité de démontrer par une construction plane le principe de la théorie des parallèles dit Postulatum d'Euclide* in Battaglini's *Giornale di matematiche*, VIII., 1870, pp. 84—89).
-
-.. _folio-i-0234:
 
 .. folio:: 0234
    :page: 220

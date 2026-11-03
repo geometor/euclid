@@ -32,8 +32,6 @@ Taking (1) the possible pairs on the *same* side, we may have a pair consisting 
 
 *(c)* one external and one internal angle, viz. the pairs (:g:`EGB <0324.g2:< E G B )>`, :g:`GHD <0324.g2:< G H D )>`), (:g:`FHD <0324.g2:< F H D )>`, :g:`HGB <0324.g2:< H G B )>`), (:g:`EGA <0324.g2:< E G A )>`, :g:`GHC <0324.g2:< G H C )>`) and (:g:`FHC <0324.g2:< F H C )>`, :g:`HGA <0324.g2:< H G A )>`).
 
-.. _folio-i-0325:
-
 .. folio:: 0325
    :page: 311
 

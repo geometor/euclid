@@ -6,7 +6,7 @@
 :title: Proposition VII.12
 :folios: 0318
 :pages: 312
-:dependencies: VII.def.20, VII.5, VII.6
+:dependencies: V.def.11, VII.def.2, VII.def.20, VII.5, VII.6
 
 .. _VII.12:
 
@@ -18,7 +18,7 @@ PROPOSITION 12.
 
 .. enunciation::
 
-   If there be as many numbers as we please in proportion, then, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents.
+   If there be as many :term:`numbers <number>` as we please in proportion, then, as one of the :term:`antecedents <corresponding-magnitudes>` is to one of the consequents, so are all the antecedents to all the consequents.
 
 Let :g:`A <0318.g1:A>`, :g:`B <0318.g1:B>`, :g:`C <0318.g1:C>`, :g:`D <0318.g1:D>` be as many numbers as we please in proportion, so that, as :g:`A <0318.g1:A>` is to :g:`B <0318.g1:B>`, so is :g:`C <0318.g1:C>` to :g:`D <0318.g1:D>`;
 
@@ -33,11 +33,11 @@ I say that, as :g:`A <0318.g1:A>` is to :g:`B <0318.g1:B>`, so are :g:`A <0318.g
 
 .. assertion::
 
-   whatever part or parts :g:`A <0318.g1:A>` is of :g:`B <0318.g1:B>`, the same part or parts is :g:`C <0318.g1:C>` of :g:`D <0318.g1:D>` also. :just:`[VII. Def. 20] <VII.def.20>`
+   whatever part or parts :g:`A <0318.g1:A>` is of :g:`B <0318.g1:B>`, the :term:`same part <part-aliquot>` or parts is :g:`C <0318.g1:C>` of :g:`D <0318.g1:D>` also. :just:`[VII. Def. 20] <VII.def.20>`
 
 .. assertion::
 
-   Therefore also the sum of :g:`A <0318.g1:A>`, :g:`C <0318.g1:C>` is the same part or the same parts of the sum of :g:`B <0318.g1:B>`, :g:`D <0318.g1:D>` that :g:`A <0318.g1:A>` is of :g:`B <0318.g1:B>`. :just:`[VII. 5, 6]`
+   Therefore also the sum of :g:`A <0318.g1:A>`, :g:`C <0318.g1:C>` is the same part or the :term:`same parts <parts-non-aliquot>` of the sum of :g:`B <0318.g1:B>`, :g:`D <0318.g1:D>` that :g:`A <0318.g1:A>` is of :g:`B <0318.g1:B>`. :just:`[VII. 5, 6]`
 
 .. assertion:: [VII. Def. 20] <VII.def.20>
 
@@ -53,10 +53,36 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#vii-def-5", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../definitions/index.html#vii-def-20", target="_top"];
      "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../05/index.html", target="_top"];
      "VII.6" [label="VII.6", fillcolor="#222244", tooltip="VII.6: If a number be parts of a number, and another be the same parts of another, the sum will also be the same parts of the sum that the one is of the one.", URL="../06/index.html", target="_top"];
      "VII.12" [label="VII.12", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.12: If there be as many numbers as we please in proportion, then, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents.", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.5" -> "V.def.2";
+     "VII.12" -> "V.def.11";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.12" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.5" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.6" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
+     "VII.5" -> "VII.def.5";
      "VII.12" -> "VII.def.20";
      "VII.6" -> "VII.5";
      "VII.12" -> "VII.5";

@@ -59,8 +59,6 @@ Then, in the triangle :g:`ADB <0301.g2:< A D B >>`, the exterior angle :g:`ADC <
 
 Similarly, in the triangle :g:`ADC <0301.g2:< A D C >>`, the exterior angle :g:`ADB <0301.g2:< A D B )>` is greater than the interior and opposite angle :g:`CAD <0301.g2:< C A D )>`.
 
-.. _folio-i-0302:
-
 .. folio:: 0302
    :page: 288
 

@@ -6,7 +6,7 @@
 :title: Proposition IX.35
 :folios: 0426
 :pages: 420
-:dependencies: VII.11, VII.12, VII.13
+:dependencies: V.def.6, V.def.15, VII.def.2, VII.11, VII.12, VII.13
 
 .. _IX.35:
 
@@ -18,7 +18,7 @@ PROPOSITION 35.
 
 .. enunciation::
 
-   If as many numbers as we please be in continued proportion, and there be subtracted from the second and the last numbers equal to the first, then, as the excess of the second is to the first, so will the excess of the last be to all those before it.
+   If as many :term:`numbers <number>` as we please be in :term:`continued proportion <proportional>`, and there be subtracted from the second and the last numbers equal to the first, then, as the excess of the second is to the first, so will the excess of the last be to all those before it.
 
 Let there be as many numbers as we please in continued proportion, :g:`A <0426.g1:A>`, :g:`BC <0426.g1:/ B C />`, :g:`D <0426.g1:D>`, :g:`EF <0426.g1:/ E F />`, beginning from :g:`A <0426.g1:A>` as least, and let there be subtracted from :g:`BC <0426.g1:/ B C />` and :g:`EF <0426.g1:/ E F />` the numbers :g:`BG <0426.g1:/ B G />`, :g:`FH <0426.g1:/ F H />`, each :eq:`equal <0426.g1:/ B G / = 0426.g1:/ F H / = 0426.g1:A>` to :g:`A <0426.g1:A>`;
 
@@ -47,11 +47,11 @@ For let :g:`FK <0426.g1:/ F K />` be made :eq:`equal <0426.g1:/ F K / = 0426.g1:
 
 .. assertion::
 
-   Separando, as :g:`EL <0426.g1:/ E L />` is to :g:`LF <0426.g1:/ F L />`, so is :g:`LK <0426.g1:/ K L />` to :g:`FK <0426.g1:/ F K />`, and :g:`KH <0426.g1:/ H K />` to :g:`FH <0426.g1:/ F H />`. :just:`[VII. 11, 13]`
+   :term:`Separando <separando>`, as :g:`EL <0426.g1:/ E L />` is to :g:`LF <0426.g1:/ F L />`, so is :g:`LK <0426.g1:/ K L />` to :g:`FK <0426.g1:/ F K />`, and :g:`KH <0426.g1:/ H K />` to :g:`FH <0426.g1:/ F H />`. :just:`[VII. 11, 13]`
 
 .. assertion::
 
-   Therefore also, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents; :just:`[VII. 12] <VII.12>` therefore, as :g:`KH <0426.g1:/ H K />` is to :g:`FH <0426.g1:/ F H />`, so are :g:`EL <0426.g1:/ E L />`, :g:`LK <0426.g1:/ K L />`, :g:`KH <0426.g1:/ H K />` to :g:`LF <0426.g1:/ F L />`, :g:`FK <0426.g1:/ F K />`, :g:`HF <0426.g1:/ F H />`.
+   Therefore also, as one of the :term:`antecedents <corresponding-magnitudes>` is to one of the consequents, so are all the antecedents to all the consequents; :just:`[VII. 12] <VII.12>` therefore, as :g:`KH <0426.g1:/ H K />` is to :g:`FH <0426.g1:/ F H />`, so are :g:`EL <0426.g1:/ E L />`, :g:`LK <0426.g1:/ K L />`, :g:`KH <0426.g1:/ H K />` to :g:`LF <0426.g1:/ F L />`, :g:`FK <0426.g1:/ F K />`, :g:`HF <0426.g1:/ F H />`.
 
 .. subclause::
 
@@ -79,6 +79,18 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../book_v/definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../book_v/definitions/index.html#v-def-12", target="_top"];
+     "V.def.15" [label="V.def.15", fillcolor="#224422", tooltip="V.def.15: Separation of a ratio means taking the excess by which the antecedent exceeds the consequent in relation to the consequent by itself.", URL="../../../book_v/definitions/index.html#v-def-15", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../../book_vii/definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../book_vii/definitions/index.html#vii-def-5", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
      "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../../../book_vii/propositions/05/index.html", target="_top"];
      "VII.6" [label="VII.6", fillcolor="#222244", tooltip="VII.6: If a number be parts of a number, and another be the same parts of another, the sum will also be the same parts of the sum that the one is of the one.", URL="../../../book_vii/propositions/06/index.html", target="_top"];
@@ -90,6 +102,47 @@ Dependency Graph
      "VII.12" [label="VII.12", fillcolor="#222244", tooltip="VII.12: If there be as many numbers as we please in proportion, then, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents.", URL="../../../book_vii/propositions/12/index.html", target="_top"];
      "VII.13" [label="VII.13", fillcolor="#222244", tooltip="VII.13: If four numbers be proportional, they will also be proportional alternately.", URL="../../../book_vii/propositions/13/index.html", target="_top"];
      "IX.35" [label="IX.35", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.35: If as many numbers as we please be in continued proportion, and there be subtracted from the second and the last numbers equal to the first, then, as the excess of the second is…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "VII.5" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
+     "VII.13" -> "V.def.6";
+     "IX.35" -> "V.def.6";
+     "V.def.12" -> "V.def.11";
+     "V.def.15" -> "V.def.11";
+     "VII.12" -> "V.def.11";
+     "VII.9" -> "V.def.12";
+     "VII.10" -> "V.def.12";
+     "VII.13" -> "V.def.12";
+     "IX.35" -> "V.def.15";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.7" -> "VII.def.2";
+     "VII.8" -> "VII.def.2";
+     "VII.9" -> "VII.def.2";
+     "VII.10" -> "VII.def.2";
+     "VII.11" -> "VII.def.2";
+     "VII.12" -> "VII.def.2";
+     "VII.13" -> "VII.def.2";
+     "IX.35" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.5" -> "VII.def.3";
+     "VII.7" -> "VII.def.3";
+     "VII.9" -> "VII.def.3";
+     "VII.10" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.6" -> "VII.def.4";
+     "VII.8" -> "VII.def.4";
+     "VII.9" -> "VII.def.4";
+     "VII.10" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
+     "VII.5" -> "VII.def.5";
      "VII.11" -> "VII.def.20";
      "VII.12" -> "VII.def.20";
      "VII.13" -> "VII.def.20";

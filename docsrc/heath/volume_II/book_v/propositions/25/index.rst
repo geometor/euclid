@@ -6,7 +6,7 @@
 :title: Proposition V.25
 :folios: 0191
 :pages: 185
-:dependencies: V.19
+:dependencies: V.def.6, V.19
 
 .. _V.25:
 
@@ -20,7 +20,7 @@ PROPOSITION 25.
 
 .. enunciation::
 
-   If four magnitudes be proportional, the greatest and the least are greater than the remaining two.
+   If four magnitudes be :term:`proportional <proportional>`, the greatest and the least are greater than the remaining two.
 
 Let the four magnitudes :g:`AB <0191.g1:/ A B />`, :g:`CD <0191.g1:/ C D />`, :g:`E <0191.g1:E>`, :g:`F <0191.g1:F>` be proportional so that, as :g:`AB <0191.g1:/ A B />` is to :g:`CD <0191.g1:/ C D />`, so is :g:`E <0191.g1:E>` to :g:`F <0191.g1:F>`, and let :g:`AB <0191.g1:/ A B />` be the greatest of them and :g:`F <0191.g1:F>` the least;
 
@@ -79,9 +79,24 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../definitions/index.html#v-def-12", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../definitions/index.html#v-def-13", target="_top"];
+     "V.def.14" [label="V.def.14", fillcolor="#224422", tooltip="V.def.14: Composition of a ratio means taking the antecedent together with the consequent as one in relation to the consequent by itself.", URL="../../definitions/index.html#v-def-14", target="_top"];
+     "V.def.15" [label="V.def.15", fillcolor="#224422", tooltip="V.def.15: Separation of a ratio means taking the excess by which the antecedent exceeds the consequent in relation to the consequent by itself.", URL="../../definitions/index.html#v-def-15", target="_top"];
+     "V.def.16" [label="V.def.16", fillcolor="#224422", tooltip="V.def.16: Conversion of a ratio means taking the antecedent in relation to the excess by which the antecedent exceeds the consequent.", URL="../../definitions/index.html#v-def-16", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../07/index.html", target="_top"];
@@ -96,13 +111,50 @@ Dependency Graph
      "V.17" [label="V.17", fillcolor="#222244", tooltip="V.17: If magnitudes be proportional componendo, they will also be proportional separando.", URL="../17/index.html", target="_top"];
      "V.19" [label="V.19", fillcolor="#222244", tooltip="V.19: If, as a whole is to a whole, so is a part subtracted to a part subtracted, the remainder will also be to the remainder as whole to whole.", URL="../19/index.html", target="_top"];
      "V.25" [label="V.25", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.25: If four magnitudes be proportional, the greatest and the least are greater than the remaining two.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "V.17" -> "I.def.2";
+     "I.def.13" -> "I.def.3";
+     "I.def.14" -> "I.def.13";
+     "V.10" -> "I.def.14";
+     "V.11" -> "I.def.14";
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.2" -> "V.def.2";
+     "V.15" -> "V.def.2";
+     "V.10" -> "V.def.3";
+     "V.11" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.10" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.11" -> "V.def.5";
      "V.12" -> "V.def.5";
      "V.13" -> "V.def.5";
+     "V.14" -> "V.def.5";
+     "V.15" -> "V.def.5";
      "V.16" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "V.12" -> "V.def.6";
+     "V.16" -> "V.def.6";
+     "V.17" -> "V.def.6";
+     "V.25" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.10" -> "V.def.7";
      "V.13" -> "V.def.7";
+     "V.def.12" -> "V.def.11";
+     "V.def.13" -> "V.def.11";
+     "V.def.14" -> "V.def.11";
+     "V.def.15" -> "V.def.11";
+     "V.def.16" -> "V.def.11";
+     "V.12" -> "V.def.11";
+     "V.16" -> "V.def.12";
+     "V.7" -> "V.def.13";
+     "V.17" -> "V.def.14";
+     "V.17" -> "V.def.15";
+     "V.19" -> "V.def.16";
      "V.8" -> "V.1";
      "V.12" -> "V.1";
      "V.17" -> "V.1";

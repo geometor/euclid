@@ -32,8 +32,6 @@ I think that :person:`Proclus <proclus>` must (though he does not say so) have f
 
 :person:`Proclus <proclus>` objects to the procedure of :person:`Apollonius <apollonius>` in constructing an angle under the same conditions, and certainly, if he quotes :person:`Apollonius <apollonius>` correctly, the latter’s exposition must have been somewhat slipshod.
 
-.. _folio-i-0310:
-
 .. folio:: 0310
    :page: 296
 

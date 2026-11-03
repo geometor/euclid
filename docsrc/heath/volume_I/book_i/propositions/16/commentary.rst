@@ -25,8 +25,6 @@ Now, in order that the proof of the present proposition may be universally valid
 
 The present proposition enables :person:`Proclus <proclus>` to prove what he did not succeed in establishing conclusively in his note on I. 12, namely that *from one point there cannot be drawn to the same straight line three straight lines equal in length*.
 
-.. _folio-i-0295:
-
 .. folio:: 0295
    :page: 281
 
