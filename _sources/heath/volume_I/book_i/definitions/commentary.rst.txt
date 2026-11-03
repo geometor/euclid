@@ -13,8 +13,6 @@ Commentary on Book I Definitions
 
 Back to :ref:`Book I Definitions <I.def>`.
 
-.. _folio-i-0169:
-
 .. folio:: 0169
    :page: 155
 
@@ -38,8 +36,6 @@ The first definition of a point of which we hear is that given by the Pythagorea
 :person:`Plato <plato>` appears to have objected to this definition. :person:`Aristotle <aristotle>` says (*Metaph.*
 992 a 20) that he objected “to this genus [that of points] as being a geometrical fiction (γεωμετρικὸν δόγμα), and called a point the beginning of a line (ἀρχὴ :term:`γραμμῆς <line>`), while again he frequently spoke of ‘indivisible lines.’” To which :person:`Aristotle <aristotle>` replies that even “indivisible lines” must have extremities, so that the same argument which proves the existence of *lines* can be used to prove that *points* exist. It would appear therefore that, when :person:`Aristotle <aristotle>` objects to the definition of a point as the extremity of a line (:term:`πέρας <peras>` :term:`γραμμῆς <line>`) as unscientific (:cite:`*Topics* VI. 4, 141 b 21 <aristotle:topics:VI.4.141b21>`), he is aiming at :person:`Plato <plato>`. :person:`Heiberg <heiberg>` conjectures (*Mathematisches zu Aristoteles*, p. 8) that it was due to Plato’s influence that the word for “point” generally used by :person:`Aristotle <aristotle>` (:term:`στιγμή <stigme>`) was replaced by :term:`σημεῖον <point>` (the regular term used by :person:`Euclid <euclid>`, :person:`Archimedes <archimedes>` and later writers), the latter term (= *nota*, a conventional mark) probably being considered more suitable than :term:`στιγμή <stigme>` (a puncture) which might appear to claim greater *reality* for a point.
 
-.. _folio-i-0170:
-
 .. folio:: 0170
    :page: 156
 
@@ -56,8 +52,6 @@ Criticisms by commentators.
 Euclid’s definition itself is of course practically the same as that which Aristotle’s frequent allusions show to have been then current, except that it omits to say that the point must have position. Is it then sufficient, seeing that there are other things which are without parts or indivisible, e.g. the *now* in time, and the *unit* in number? :person:`Proclus <proclus>` answers (p. 93, 18) that the point is the only thing *in the subject-matter of geometry* that is indivisible. Relatively therefore to the particular science the definition is sufficient. Secondly, the definition has been over and over again criticised because it is purely negative. :person:`Proclus <proclus>`’ answer to this is (p. 94, 10) that negative descriptions are appropriate to first principles, and he quotes Parmenides as having described his first and last cause by means of negations merely. :person:`Aristotle <aristotle>` too admits that it may sometimes be necessary for one framing a definition to use negations, e.g. in defining privative terms such as “blind”; and he seems to accept as proper
 the negative element in the definition of a point, since he says (:cite:`*De anima* III. 6, 430 b 20 <aristotle:de-anima:III.6.430b20>`) that “the point and every division [e.g. in a length or in a period of time], and that which is indivisible in this sense, is exhibited as privation (δηλοῦται ὡς στέρησις).”
 
-.. _folio-i-0171:
-
 .. folio:: 0171
    :page: 157
 
@@ -69,8 +63,6 @@ Modern views.
 ~~~~~~~~~~~~~
 
 In the new geometry represented by the excellent treatises which start from new systems of postulates or axioms, the result of the profound study of the fundamental principles of geometry during recent years (I need only mention the names of :person:`Pasch <pasch>`, :person:`Veronese <veronese>`, :person:`Enriques <enriques>` and :person:`Hilbert <hilbert>`), points come before lines, but the vain effort to define them *a priori* is not made ; instead of this, the nearest material things in nature are mentioned as illustrations, with the remark that it is from them that we can get the abstract idea. Cf. the full statement as regards the notion of a point in Weber and Wellstein, *Encyclopädie der elementaren Mathematik*, II., 1905, p. 9. “This notion is evolved from the notion of the real or supposed *material* point by the process of limits, i.e. by an act of the mind which sets a term to a series of presentations in itself unlimited. Suppose a grain of sand or a mote in a sunbeam, which continually becomes smaller and smaller. In this way vanishes more and more the possibility of determining still smaller atoms in the grain of sand, and there is evolved, so we say, with growing certainty, the presentation of the point as a definite position in space which is one and is incapable of further division. But this view is untenable ; we have, it is true, some idea how the grain of sand gets smaller and smaller, but only so long as it remains just visible ; after that we are completely in the dark, and we cannot see or imagine the further diminution. That this procedure comes to an end is unthinkable ; that nevertheless there exists a term beyond which it cannot go, we must believe or postulate without ever reaching it. . . . It is a pure act of *will*, not of the *understanding*.” :person:`Max Simon <simon>` observes similarly (*Euclid*, p. 25) “The notion ‘point’ belongs to the limit-notions (Grenzbegriffe), the necessary conclusions of continued, and in themselves unlimited, series of presentations.” He adds, “The point is the limit of localisation ; if this is more and more energetically continued, it leads to the limit-notion ‘point,’
-
-.. _folio-i-0172:
 
 .. folio:: 0172
    :page: 158
@@ -93,8 +85,6 @@ Alternative definitions.
 The alternative definition alluded to by :person:`Proclus <proclus>`, μέγεθος ἐφ' ἓν διαστατόν “magnitude in one dimension” or, better perhaps, “magnitude extended one way” (since διάστασις as used with reference to line, surface and solid scarcely corresponds to our use of “dimension” when we speak of “one,” “two,” or “three dimensions”), is attributed by :person:`an-Nairīzī <an-nairizi>` to “Heromides,” who must presumably be the same as “Herundes,” to whom he attributes a certain definition of a point. It appears however in substance in :person:`Aristotle <aristotle>`, though :person:`Aristotle <aristotle>` does not use the adjective διαστατόν, nor does he apparently use διάστασις except of *body* as having *three* “dimensions” or “having dimension (or extension) *all ways* (πάντῃ),” the “dimensions” being in his view (1) up and down, (2) before and behind, and (3) right and left, and “up” being the principle or beginning of *length*, “right” of *breadth*, and “before” of *depth* (:cite:`*De caelo* II. 2, 284 b 24 <aristotle:de-caelo:II.2.284b24>`). A line is, according to :person:`Aristotle <aristotle>`, a magnitude “*divisible in one way only*” (μοναχῇ διαιρετόν), in contrast to a magnitude divisible in *two* ways (διχῇ διαιρετόν), or a surface, and a magnitude divisible “in all or in three ways” (πάντῃ καὶ τριχῇ διαιρετόν), or a body (:cite:`*Metaph.* 1016 b 25—27 <aristotle:met:1016b25-27>`) ; or it is a magnitude “*continuous* one way (or in one direction),” as compared with magnitudes continuous *two* ways or *three* ways,
 which curiously enough he describes as “breadth” and “depth” respectively (μέγεθος δὲ τὸ μὲν ἐφ' ἓν συνεχὲς :term:`μῆκος <length>`, τὸ δ' ἐπὶ δύο :term:`πλάτος <breadth>`, τὸ δ' ἐπὶ τρία :term:`βάθος <depth>`, :cite:`*Metaph.* 1020 a 11 <aristotle:met:1020a11>`), though he immediately adds that “length” means a line, “breadth” a surface, and “depth” a body.
 
-.. _folio-i-0173:
-
 .. folio:: 0173
    :page: 159
 
@@ -109,8 +99,6 @@ After defining the “line” :person:`Euclid <euclid>` only mentions *one* spec
 
 When :person:`Proclus <proclus>` says that both :person:`Plato <plato>` and :person:`Aristotle <aristotle>` divided lines into those which are “straight,” “circular” (περιφερής) or “a mixture of the two,” adding, as regards :person:`Plato <plato>`, that he included in the last of these classes “those which are called helicoidal among plane (curves) and (curves) formed about solids, and such species of curved lines as arise from sections of solids” (p. 104, 1—5), he appears to be not quite exact. The reference as regards :person:`Plato <plato>` seems to be to :cite:`*Parmenides* 145 B <plato:parm:145B>` : “At that rate it would seem that the one must have shape, either straight or round (στρογγύλον) or some combination of the two” ; but this scarcely amounts to a formal classification of lines. As regards
 :person:`Aristotle <aristotle>`, :person:`Proclus <proclus>` seems to have in mind the passage (:cite:`*De caelo* I. 2, 268 b 17 <aristotle:de-caelo:I.2.268b17>`) where it is stated that “all *motion* in space, which we call translation (φορά), is (in) a straight line, a circle, or a combination of the two ; for the first two are the only simple (*motions*).”
-
-.. _folio-i-0174:
 
 .. folio:: 0174
    :page: 160
@@ -148,8 +136,6 @@ The additional details in the second version, which cannot easily be shown in th
 
 As the only other curve, besides the parabola and the hyperbola, which has been mentioned as proceeding to infinity is the *conchoid* (of Nicomedes), we can hardly avoid the conclusion of :person:`Tannery <tannery>`\ [#f160_1]_ that the curve which has a loop and then proceeds to infinity is a variety of the *conchoid* itself. As is
 well known, the ordinary conchoid (which was used both for doubling the cube and for trisecting the angle) is obtained in this way. Suppose any number of rays passing through a fixed point (the *pole*) and intersecting a fixed straight line ; and suppose that points are taken on the rays, beyond the fixed straight line, such that the portions of the rays intercepted between the fixed straight line and the point are equal to a constant *distance* (:term:`διάστημα <diastema>`), the locus of the points is a conchoid which has the fixed straight line for asymptote. If the “distance” :g:`a <0174.g1:/ A V />` is measured from the intersection of the ray with the given straight line, not in the direction away from the pole, but towards the pole, we obtain three other curves according as :g:`a <0174.g1:/ A V />` is less than, :eq:`equal <0174.g1:/ A V / = 0174.g1:/ O A />` to, or greater than :g:`b <0174.g1:/ O A />`, the distance of the pole from the fixed straight line, which is an asymptote in each case. The case in which :g:`a <0174.g1:/ A V />` > :g:`b <0174.g1:/ O A />` gives a curve which forms a loop and then proceeds to infinity in the way :person:`Proclus <proclus>` describes. Now we know both from :person:`Eutocius <eutocius>` (*Comm. on Archimedes*, ed. :person:`Heiberg <heiberg>`, III. p. 98) and :person:`Proclus <proclus>` (:cite:`p. 272, 3—7 <proclus:in-euclid:272.3-7>`) that Nicomedes wrote on conchoids (in the plural), and :person:`Pappus <pappus>` (IV. p. 244, 18) says that besides the “first” (used as above stated) there were “the second, the third and the fourth which are useful for other theorems.”
-
-.. _folio-i-0175:
 
 .. folio:: 0175
    :page: 161
@@ -193,8 +179,6 @@ Notes on classes of “lines” and on particular curves.
 
 We will now add the most interesting notes found in :person:`Proclus <proclus>` with reference to the above classifications or the particular curves mentioned.
 
-.. _folio-i-0176:
-
 .. folio:: 0176
    :page: 162
 
@@ -217,8 +201,6 @@ These curves, classed with conics as being sections of solids, were discovered b
 
 “Of the spiric sections, one is interlaced, resembling the horse-fetter (:term:`ἵππου πέδη <hippou-pede>`) ; another is widened out in the middle and contracts on each
 side (of the middle), a third is elongated and is narrower in the middle, broadening out on each side of it” (p. 112, 4—8).
-
-.. _folio-i-0177:
 
 .. folio:: 0177
    :page: 163
@@ -250,8 +232,6 @@ The name *hippopede* was doubtless adopted for this one of Perseus’ curves on 
 He then shows that the sections of the *closed* or *continuous* tore, corresponding to $a = r$, give curves corresponding to (2), (3) and (4) only. Instead of (1) and (5) we have only a section consisting of two equal circles touching one another.
 
 On the other hand, the *third* spire (the *interlaced* variety) gives three *new* forms, which make a group of three in addition to the first group of *five* sections.
-
-.. _folio-i-0178:
 
 .. folio:: 0178
    :page: 164
@@ -294,8 +274,6 @@ Even more peculiar is :person:`Proclus <proclus>`’ view of the
 This is really the spiral of :person:`Archimedes <archimedes>` traced by a point starting from the fixed extremity of a straight line and moving uniformly along it, while
 simultaneously the straight line itself moves uniformly in a plane about its fixed extremity. In :person:`Archimedes <archimedes>` the spiral has of course any number of turns, the straight line making the same number of complete revolutions. Yet :person:`Proclus <proclus>`, while giving the same account of the generation of the spiral (p. 180, 8—12), regards the *single-turn spiral* as actually *stopping short* at the point reached after one complete revolution of the straight line : “it is necessary to know that extending without limit is not a property of all lines ; for it neither belongs to the circle nor to the cissoid, nor in general to lines which form figures ; nor even to those which do not form figures. For even the single-turn spiral does not extend without limit—*for it is constructed between two points*—nor does any of the other lines so generated do so” (p. 187, 19—25). It is curious that :person:`Pappus <pappus>` (VIII. p. 1110 sqq.) uses the same term :term:`μονόστροφος ἕλιξ <monostrophos-helix>` to denote one turn, not of the spiral, but of the *cylindrical helix*.
 
-.. _folio-i-0179:
-
 .. folio:: 0179
    :page: 165
 
@@ -317,8 +295,6 @@ DEFINITION 4.
 
 The only definition of a straight line authenticated as pre-Euclidean is that of :person:`Plato <plato>`, who defined it as “*that of which the middle covers the ends*” (relatively, that is, to an eye placed at either end and looking along the straight line). It appears in the :cite:`*Parmenides* 137 E <plato:parm:137E>` : “straight is whatever has its middle in front of (i.e. so placed as to obstruct the view of) both its ends”
 
-.. _folio-i-0180:
-
 .. folio:: 0180
    :page: 166
 
@@ -332,8 +308,6 @@ Proclus on Euclid’s definition.
 Coming now to the interpretation of Euclid’s definition, :term:`εὐθεῖα γραμμή <straight-line>` ἐστιν, ἥτις ἐξ ἴσου τοῖς ἐφ' ἑαυτῆς σημείοις κεῖται, we find any number of slightly different versions, but none that can be described as quite satisfactory ; some authorities, e.g. :person:`Savile <savile>`, have confessed that they could make nothing of it. It is natural to appeal to :person:`Proclus <proclus>` first ; and we find that he does in fact give an interpretation which at first sight seems plausible. He says (p. 109, 8 sq.) that :person:`Euclid <euclid>` “shows by means of this that the straight line alone [of all lines] occupies a distance (κατέχειν :term:`διάστημα <diastema>`) equal to that between the points on it. For, as far as one of the points is distant from another, so great is the length (μέγεθος) of the straight line of which they are the extremities ; and this is the meaning of lying ἐξ ἴσου to (or with) the points on it” [ἐξ ἴσου being thus, apparently, interpreted as “at” (or “over”) “an equal distance”]. “But if you take two points on the circumference (of a circle) or any other line, the distance cut off between them along the line is greater than the interval separating them. And this is the case with every line except the straight line. Hence the ordinary remark, based on a common notion, that those who journey in a straight line only travel the necessary distance, while those who do *not* go straight travel more than the necessary distance.” (Cf. :person:`Aristotle <aristotle>`, :cite:`*De caelo* I. 4, 271 a 13 <aristotle:de-caelo:I.4.271a13>`, “we always call the distance of anything the straight line” drawn to it.) Thus :person:`Proclus <proclus>` would interpret somewhat in this way : “a straight line is that which represents extension equal with (the distances separating) the points on it.” This explanation seems to be an attempt to graft on to Euclid’s definition the *assumption* (it is a λαμβανόμενον, not a definition) of :person:`Archimedes <archimedes>` (*On the sphere and cylinder* I. *ad init.*) that “of all the lines which have the same extremities the straight line is least.” For this purpose ἐξ ἴσου has apparently to be taken as meaning “at an equal distance,” and again “lying at an equal distance” as equivalent to “extending over (or representing) an equal distance.” This is difficult enough in itself, but is seen to be an impossible interpretation when applied to the similar definition of a plane by :person:`Euclid <euclid>` (Def. 7) as a surface “which lies evenly with the straight lines on itself.” In that connexion :person:`Proclus <proclus>` tries to make the same words ἐξ ἴσου
 κεῖται mean “extends over an equal *area* with.” He says namely (p. 117, 2) that, “if two straight lines are set out” on the plane, the plane surface “occupies a space equal to that between the straight lines.” But two straight lines do not determine by themselves any space at all ; it would be necessary to have a *closed figure* with its boundaries in the plane before we could arrive at the equivalent of the other assumption of :person:`Archimedes <archimedes>` that “of surfaces which have the same extremities, if those extremities are in a plane, the plane is the least [in area].” This seems to be an impossible sense for ἐξ ἴσου even on the assumption that it means “at an equal distance” in the present definition. The necessity therefore of interpreting ἐξ ἴσου similarly in both definitions makes it impossible to regard it as referring to *distance* or *length* at all. It should be added that :person:`Simplicius <simplicius>` gave the same explanations as :person:`Proclus <proclus>` (:person:`an-Nairīzī <an-nairizi>`, p. 5).
 
-.. _folio-i-0181:
-
 .. folio:: 0181
    :page: 167
 
@@ -344,8 +318,6 @@ Let us now consider the actual wording and grammar of the phrase ἥτις ἐξ
 
 While the language is thus seen to be hopelessly obscure, we can safely say that the sort of idea which :person:`Euclid <euclid>` wished to express was that of a line which presents the same shape at and relatively to all points on it, without any irregular or unsymmetrical feature distinguishing one part or side of it from another. Any such irregularity could, as :person:`Saccheri <saccheri>` points out (Engel and :person:`Stäckel <staeckel>`, *Die Theorie der Parallellinien von Euklid bis Gauss*, 1895, p. 109), be at once made perceptible by keeping the ends fixed and turning the line about
 them right round ; if any two positions were distinguishable, e.g. one being to the left or right relatively to another, “it would not lie in a uniform manner between its points.”
-
-.. _folio-i-0182:
 
 .. folio:: 0182
    :page: 168
@@ -369,8 +341,6 @@ We will conclude this note with some other famous definitions of a straight line
 3. *All its parts fit on all (other parts) alike*, πάντα αὐτῆς τὰ μέρη πᾶσιν ὁμοίως ἐφαρμόζει. :person:`Heron <heron>` has this too (Def. 4), but instead of “alike” he says παντοίως, “in all ways,” which is better as indicating that the applied part may be applied one way or the *reverse* way, with the same result.
 
 4. *That line which, when its ends remain fixed, itself remains fixed*, ἡ τῶν περάτων μενόντων καὶ αὐτὴ μένουσα. Heron’s addition to this, “*when it is, as it were, turned round in the same plane*” (οἷον ἐν τῷ αὐτῷ ἐπιπέδῳ στρεφομένη), and his next variation, “and about the same ends having always the same position,” show that the definition of a straight line as “that which does not change its position when it is turned about its extremities (or any two points in it) as poles” was no original discovery of Leibniz, or :person:`Saccheri <saccheri>`, or Krafft, or :person:`Gauss <gauss>`, but goes back at least to the beginning of the Christian era. :person:`Gauss <gauss>`’ form of this definition was : “The line in which lie all points that, during the revolution of a body (a part of space) about two fixed points, maintain their position unchanged is called a straight line.” Schotten
-
-.. _folio-i-0183:
 
 .. folio:: 0183
    :page: 169
@@ -396,8 +366,6 @@ The word :term:`ἐπιφάνεια <surface>` was used by :person:`Euclid <eucl
 :term:`ἐπιφάνεια <surface>` of course means literally the feature of a body which is *apparent to the eye* (ἐπιφανής), namely the surface.
 
 :person:`Aristotle <aristotle>` tells us (*De sensu* 3, 439 a 31) that the Pythagoreans called a surface χροιά, which seems to have meant *skin* as well as *colour*. :person:`Aristotle <aristotle>` explains the term with reference to colour (χρῶμα) as a thing inseparable from the extremity (:term:`πέρας <peras>`) of a body.
-
-.. _folio-i-0184:
 
 .. folio:: 0184
    :page: 170
@@ -425,8 +393,6 @@ Classification of surfaces.
 :person:`Heron <heron>` specially mentions as belonging to the mixed class (a) the surface of cones, cylinders and the like, which are a mixture of plane and circular (μικταὶ ἐξ :term:`ἐπιπέδου <epipedon>` καὶ :term:`περιφερείας <periphereia>`) and (b) spiric surfaces, which are “a mixture of two circumferences” (by which he must mean a mixture of two circular elements, namely the generating circle and its circular motion about an axis in the same plane).
 
 :person:`Proclus <proclus>` adds the remark that, curiously enough, *mixed* surfaces may arise by the revolution either of *simple* curves, e.g. in the case of the *spire*, or of *mixed* curves, e.g. the “right-angled conoid” from a parabola, “another conoid” from the hyperbola, the “oblong” (ἐπιμήκης, in :person:`Archimedes <archimedes>` παραμάκες) and “flat” (ἐπιπλατύ) spheroids from an ellipse according as it revolves about the major or minor axis respectively (pp. 119, 6—120, 2). The *homoeomeric* surfaces, namely those any part of which will coincide with any other part, are *two* only (the plane and the spherical surface), not three as in the case of lines (p. 120, 7).
-
-.. _folio-i-0185:
 
 .. folio:: 0185
    :page: 171
@@ -460,8 +426,6 @@ The other ancient definitions recorded are as follows.
 
 1. *The surface which is stretched to the utmost* (ἐπ' ἄκρον τεταμένη) : a definition which :person:`Proclus <proclus>` describes as equivalent to Euclid’s definition (on :person:`Proclus <proclus>`’ own view of that definition). Cf. :person:`Heron <heron>`, Def. 9, “(a surface) which is right (and) stretched out” (ὀρθὴ οὖσα ἀποτεταμένη), words which he adds to Euclid’s definition.
 
-.. _folio-i-0186:
-
 .. folio:: 0186
    :page: 172
 
@@ -485,8 +449,6 @@ Difficulties in ordinary definitions.
 But, whatever definition of a plane is taken, the evolution of its essential properties is extraordinarily difficult. Crelle, who wrote an elaborate article *Zur Theorie der Ebene* (read in the Academie der Wissenschaften in 1834) of which account must be taken in any full history of the subject, observes that,
 since the plane is the field, as it were, of almost all the rest of geometry, while a proper conception of it is necessary to enable Eucl. I. 1 to be understood, it might have been expected that the theory of the plane would have been the subject of at least the same amount of attention as, say, that of parallels. This however was far from being the case, perhaps because the subject of parallels (which, for the rest, presuppose the notion of a plane) is *much easier* than that of the plane. The nature of the difficulties as regards the plane have also been pointed out recently by Mr Frankland (*The First Book of Euclid's Elements*, Cambridge, 1905): it would appear that, whatever definition is taken, whether the simplest (as containing the minimum necessary to determine a plane) or the more complex, e.g. Simson's, some postulate has to be assumed in addition before the fundamental properties, or the truth of the other definitions, can be established. Crelle notes the same thing as regards Simson's definition, containing *more* than is necessary. Suppose a plane in which lies the triangle :g:`ABC <0187.g1:< A B C >>`. *Let* :g:`AD <0187.g1:/ A D />` *join the vertex* :g:`A <0187.g1:A>` *to any point* :g:`D <0187.g1:D>` *on* :g:`BC <0187.g1:/ B C />`, *and* :g:`BE <0187.g1:/ B E />` *the vertex* :g:`B <0187.g1:B>` *to any point* :g:`E <0187.g1:E>` *on* :g:`CA <0187.g1:/ C A />`. Then, according to the definition, :g:`AD <0187.g1:/ A D />` lies wholly in the plane of the triangle; so does :g:`BE <0187.g1:/ B E />`. But, if both :g:`AD <0187.g1:/ A D />` and :g:`BE <0187.g1:/ B E />` are to lie wholly in the one plane, :g:`AD <0187.g1:/ A D />`, :g:`BE <0187.g1:/ B E />` must intersect, say at :g:`F <0187.g1:F>`: if they did not, there would be two planes in question, not one. But the fact that the lines intersect and that, say, :g:`AD <0187.g1:/ A D />` does not pass above or below :g:`BE <0187.g1:/ B E />`, is by no means self-evident.
 
-.. _folio-i-0187:
-
 .. folio:: 0187
    :page: 173
 
@@ -504,8 +466,6 @@ Crelle's essay. Definitions by Fourier, Deahna, Becker.
 Crelle takes as the standard of a good definition that it shall be, not only as simple as possible, but also the best adapted for deducing, with the aid of the simplest possible principles, further properties belonging to the thing defined. He was much attracted by a very lucid definition, due, he says, to :person:`Fourier <fourier>`, according to which *a plane is formed by the aggregate of all the straight lines which, passing through one point on a straight line in space, are perpendicular to that straight line*. (This is really no more than an adaptation from Euclid's proposition XI. 5, to the effect that, if one of four concurrent straight lines be at right angles to each of the other three, those three are in one plane, which proposition is also used in :person:`Aristotle <aristotle>`, *Meteorologica* III. 3, 373 a 13.) But Crelle confesses that he had not been able to deduce the necessary properties from this and had had to substitute the definition, already mentioned, of a plane as *the surface containing, throughout their whole length, all the straight lines passing through a fixed point and also intersecting a straight line in space*; and he only claims to have proved, after a long series of propositions, that the ":person:`Fourier <fourier>`"- or "perpendicular"-surface and the *plane* of the other definition just given are identical, after which the properties of the ":person:`Fourier <fourier>`"-surface can be used along with those of the plane. The advantage of the :person:`Fourier <fourier>` definition is that it leads easily, by means of the two propositions that
 triangles are equal in all respects (1) when two sides and the included angle are respectively equal and (2) when all three sides are respectively equal, to the property expressed in Simson's definition. But Crelle uses to establish these two congruence-theorems a number of propositions about *equal angles*, *supplementary angles*, *right angles*, *greater* and *less angles*; and it is difficult to question the soundness of Schotten's criticism that these notions in themselves really presuppose that of a plane. The difficulty due to Fourier's use of the word "perpendicular," if that were all, could no doubt be got over. Thus Deahna in a dissertation (Marburg, 1837) constructed a plane as follows. Presupposing the notions of a straight line and a sphere, he observes that, if a sphere revolve about a diameter, all the points of its surface which move describe closed curves (circles). Each of these circles, during the revolution, moves along itself, and one of them divides the surface of the sphere into two congruent parts. The aggregate then of the lines joining the centre to the points of this circle forms the *plane*. Again, J. K. Becker (*Die Elemente der Geometrie*, 1877) pointed out that the revolution of a right angle about one side of it produces a conical surface which differs from all other conical surfaces generated by the revolution of other angles in the fact that *the particular cone coincides with the cone vertically opposite to it*: this characteristic might therefore be taken in order to get rid of the use of the right angle.
 
-.. _folio-i-0188:
-
 .. folio:: 0188
    :page: 174
 
@@ -516,8 +476,6 @@ Very similar to Deahna's equivalent for Fourier's definition is the device of :p
 
 .. picture:: 0188.g1.svg
    :alt: W. Bolyai and Lobachewsky Circle with Perpendicular CD
-
-.. _folio-i-0189:
 
 .. folio:: 0189
    :page: 175
@@ -545,8 +503,6 @@ Other views.
 :person:`Enriques <enriques>` and :person:`Amaldi <amaldi>` (*Elementi di geometria*, Bologna, 1905), :person:`Veronese <veronese>` (in his *Elementi*) and :person:`Hilbert <hilbert>` all assume as a *postulate* the property stated in Simson's definition. But G. :person:`Ingrami <ingrami>` (*Elementi di geometria*, Bologna, 1904) proves it in the course of a remarkable series of closely argued proposition based upon a much less comprehensive postulate. He evolves the theory of the plane from that of a triangle, beginning with a triangle as a mere *three-side* (trilatero), i.e. a *frame*, as it were. His postulate relates to the *three-side* and is to the effect that each "(rectilineal) segment" joining a vertex to a point of the opposite side meets every segment similarly joining each of the other two vertices to the points of the sides opposite to them respectively, and, conversely, if a point be taken on a segment joining a vertex to a point of the opposite side, and if a straight line be drawn from another vertex to the point on the segment so taken, it will if produced meet the opposite side. A *triangle* is then defined as the figure formed by the aggregate of all the segments joining the respective vertices of a *three-side* to points on the opposite sides. After a series of propositions, :person:`Ingrami <ingrami>` evolves a plane as *the figure formed by the "half straight-lines" which project from an internal point of the triangle the points of the perimeter*, and then, after two more theorems, proves that a plane is determined by any three of its points which are not in a straight line, and that *a straight line which has two points in a plane has all its points in it*.
 
 The argument by which :person:`Bolyai <bolyai>` and :person:`Lobachewsky <lobachevsky>` evolved the plane is of course equivalent to the definition of a plane as *the locus of all points equidistant from two fixed points in space*.
-
-.. _folio-i-0190:
 
 .. folio:: 0190
    :page: 176
@@ -580,8 +536,6 @@ Other ancient definitions : Apollonius, Plutarch, Carpus.
 Proclus' note records other definitions of great interest. *Apollonius defined an angle as a contracting of a surface or a solid at one point under a broken line or surface* (συναγωγὴ :term:`ἐπιφανείας <surface>` ἢ στερεοῦ πρὸς ἑνὶ σημείῳ ὑπὸ κεκλασμένῃ γραμμῇ ἢ ἐπιφανείᾳ), where again an angle is supposed to be formed by *one* broken line or surface. Still more interesting, perhaps, is the definition by "those who say that *the first distance under the point* (τὸ πρῶτον
 :term:`διάστημα <diastema>` ὑπὸ τὸ :term:`σημεῖον <point>`) *is the angle*. Among these is :person:`Plutarch <plutarch>`, who insists that :person:`Apollonius <apollonius>` meant the same thing; for, he says, there must be *some* first distance under the breaking (or deflection) of the including lines or surfaces, though, the distance under the point being continuous, it is impossible to obtain the actual *first*, since every distance is divisible without limit" (ἐπ’ ἄπειρον). There is some vagueness in the use of the word "distance" (:term:`διάστημα <diastema>`); thus it was objected that "if we anyhow separate off the *first*" (distance being apparently the word understood) "and draw a straight line *through it*, we get a *triangle* and not one angle." In spite of the objection, I cannot but see in the idea of :person:`Plutarch <plutarch>` and the others the germ of a valuable conception in infinitesimals, an attempt (though partial and imperfect) to get at the *rate of divergence* between the lines at their point of meeting as a measure of the angle between them.
 
-.. _folio-i-0191:
-
 .. folio:: 0191
    :page: 177
 
@@ -595,8 +549,6 @@ There was much debate among philosophers as to the particular category (accordin
 1. Those who put it in the category of *quantity* argued from the fact that a plane angle is divided by a line and a solid angle by a surface. Since, then, it is a surface which is divided by a line, and a solid which is divided by a surface, they felt obliged to conclude that an angle *is* a surface or a solid, and therefore a magnitude. But homogeneous finite magnitudes, e.g. plane angles, must bear a ratio to one another, or one must be capable of being multiplied until it exceeds the other. This is, however, not the case with a rectilineal angle and the *horn-like* angle (:term:`κερατοειδής <keratoeides>`), by which latter is meant the "angle" between a circle and a tangent to it, since (Eucl. III. 16) the latter "angle" is less than any rectilineal angle whatever. The objection, it will be observed, assumes that the two sorts of angles *are* homogeneous. :person:`Plutarch <plutarch>` and :person:`Carpus <carpus>` are classed among those who, in one way or other, placed an angle among *magnitudes*; and, as above noted, :person:`Plutarch <plutarch>` claimed :person:`Apollonius <apollonius>` as a supporter of his view, although the word *contraction* (of a surface or solid) used by the latter does not in itself suggest magnitude much more than Euclid's *inclination*. It was this last consideration which doubtless led ":person:`Aganis <aganis>`," the "friend" (socius) apparently of :person:`Simplicius <simplicius>`, to substitute for Apollonius' wording "*a quantity which has dimensions and the extremities of which arrive at one point*" (:person:`an-Nairīzī <an-nairizi>`, p. 13).
 
 2. :person:`Eudemus <eudemus>` the Peripatetic, who wrote a whole work on the angle, maintained that it belonged to the category of *quality*. :person:`Aristotle <aristotle>` had given as his fourth variety of *quality* "figure and the shape subsisting in each thing, and,
-
-.. _folio-i-0192:
 
 .. folio:: 0192
    :page: 178
@@ -667,8 +619,6 @@ An elaborate classification of angles given by :person:`Proclus <proclus>` (:cit
 
 - **in solids** (ἐν στερεοῖς)
 
-.. _folio-i-0193:
-
 .. folio:: 0193
    :page: 179
 
@@ -699,8 +649,6 @@ The second group of definitions are (says :person:`Amaldi <amaldi>`) based on th
 The third group of definitions satisfy the condition of not including metric conceptions; but they do not entirely correspond to our intuitive conception of an angle, to which we attribute the character of an entity in *one* dimension (as :person:`Veronese <veronese>` says) with respect to the *ray* as element, or an entity in *two*
 dimensions with reference to *points* as elements, which may be called an *angular sector*. The defect is however easily remedied by considering the angle as "the aggregate of the rays issuing from the vertex and comprised in the angular sector."
 
-.. _folio-i-0194:
-
 .. folio:: 0194
    :page: 180
 
@@ -725,8 +673,6 @@ The figure given by all the straight lines joining the points of a straight line
 
 Then, after a postulate corresponding to postulates which he lays down for
 a *rectilineal segment* and for a *straight line*, :person:`Veronese <veronese>` proves that *all flat angles are equal to one another*.
-
-.. _folio-i-0195:
 
 .. folio:: 0195
    :page: 181
@@ -761,8 +707,6 @@ DEFINITIONS 10, 11, 12.
 
 The three kinds of angles are among the things which according to the Platonic Socrates (:cite:`*Republic* VI. 510 C <plato:rep:VI.510C>`) the geometer assumes and argues from, declining to give any account of them because they are obvious. :person:`Aristotle <aristotle>` discusses the *priority* of the right angle in comparison with the acute (:cite:`*Metaph.* 1084 b 7 <aristotle:met:1084b7>`): in one way the right angle is prior, i.e. *in being defined* (ὅτι ὥρισται) and by its *notion* (τῷ λόγῳ), in another way the acute is prior, i.e. as being a *part*, and because the right angle is divided into acute angles; the acute angle is prior as *matter*, the right angle in respect of *form*; cf. also :cite:`*Metaph.* 1035 b 6 <aristotle:met:1035b6>`, “the notion of the right angle is not divided into
 that of an acute angle, but the reverse; for, when defining an acute angle, you make use of the right angle.” :person:`Proclus <proclus>` (:cite:`p. 133, 15 <proclus:in-euclid:133.15>`) observes that it is by the *perpendicular* that we measure the heights of figures, and that it is by reference to the right angle that we distinguish the other rectilineal angles, which are otherwise undistinguished the one from the other.
-
-.. _folio-i-0196:
 
 .. folio:: 0196
    :page: 182
@@ -802,8 +746,6 @@ DEFINITION 14.
 :person:`Plato <plato>` in the *Meno* observes that *roundness* (στρογγυλότης) or the *round* is a “figure,” and that *the straight* and many other things are so too; he then inquires what there is common to all of them, in virtue of which we apply the term “figure” to them. His answer is (76 A): “with reference to every figure I say that *that in which the solid terminates* (τοῦτο, εἰς ὃ τὸ στερεὸν περαίνει) *is a figure*, or, to put it briefly, *a figure is an extremity of a solid*.” The first observation is similar to Aristotle's in the :cite:`*Physics* I. 5, 188 a 25 <aristotle:phys:I.5.188a25>`, where *angle*, *straight*, and *circular* are mentioned as genera of figure. In the *Categories* 8, 10 a 11, “figure” is placed with straightness and curvedness in the category of quality. Here however “figure” appears to mean *shape* (μορφή) rather than “figure” in our sense. Coming nearer to “figure” in our sense, :person:`Aristotle <aristotle>` admits that figure is “*a sort of* magnitude” (:cite:`*De anima* III. 1, 425 a 18 <aristotle:de-anima:III.1.425a18>`), and he distinguishes *plane figures* of two kinds, in language not unlike Euclid's, as *contained* by straight and circular lines respectively: “every plane figure is either rectilineal or formed by circular lines (περιφερόγραμμον), and the rectilineal figure is contained by several lines, the circular by one line” (:cite:`*De caelo* II. 4, 286 b 13 <aristotle:de-caelo:II.4.286b13>`). He is careful to explain that a plane is not a
 figure, nor a figure a plane, but that a plane figure constitutes one notion and is a *species* of the *genus* figure (:cite:`*Anal. post.* II. 3, 90 b 37 <aristotle:anal-post:II.3.90b37>`). :person:`Aristotle <aristotle>` does not attempt to define figure in general, in fact he says it would be useless: “From this it is clear that there is one definition of soul in the same way as there is one definition of *figure*; for in the one case there is no figure except the triangle, quadrilateral, and so on, nor is there any soul other than those above mentioned. A definition might be constructed which should apply to all figures but not specially to any particular figure, and similarly with the species of soul referred to. [But such a general definition would serve no purpose.] Hence it is absurd here as elsewhere to seek a general definition which will not be properly a definition of anything in existence and will not be applicable to the particular irreducible species before us, to the neglect of the definition which is so applicable” (:cite:`*De anima* II. 3, 414 b 20—28 <aristotle:de-anima:II.3.414b20-28>`).
 
-.. _folio-i-0197:
-
 .. folio:: 0197
    :page: 183
 
@@ -826,8 +768,6 @@ DEFINITIONS 15, 16.
 
 16. *And the point is called the centre of the circle.*
 
-.. _folio-i-0198:
-
 .. folio:: 0198
    :page: 184
 
@@ -839,8 +779,6 @@ The definition as it stands has no *genetic* character. It says nothing as to th
 
 :person:`Simplicius <simplicius>` indeed, who points out that the distance between the feet of a pair of compasses is a straight line from the centre to the circumference, will have it that :person:`Euclid <euclid>` intended by this definition to show how to construct a circle by the revolution of a straight line about one end as centre; and :person:`an-Nairīzī <an-nairizi>` points to this as the explanation (1) of Euclid's definition of a circle as a *plane figure*, meaning the whole surface bounded by the circumference, and not the circumference itself, and (2) of his omission to mention the “circumference,” since with this construction the circumference is not drawn separately as a *line*. But it is not necessary to suppose that :person:`Euclid <euclid>` himself did more than follow the traditional view; for the same conception of the circle as a *plane figure* appears, as we have seen, in :person:`Aristotle <aristotle>`. While, however,
 :person:`Euclid <euclid>` is generally careful to say the “*circumference* of a circle” when he means the circumference, or an arc, only, there are cases where “circle” means “circumference of a circle,” e.g. in III. 10: “A circle does not cut a circle in more points than two.”
-
-.. _folio-i-0199:
 
 .. folio:: 0199
    :page: 185
@@ -868,8 +806,6 @@ Saccheri's proof is worth quoting. It depends on three “Lemmas” immediately 
 
 “Let :g:`MDHNKM <0200.g1:( A M )>` be a circle, :g:`A <0200.g1:A>` its centre, :g:`MN <0200.g1:/ M N />` a diameter. Suppose
 the portion :g:`MNKM <0200.g1:( A M )< M A N >>` of the circle turned about the fixed points :g:`M <0200.g1:M>`, :g:`N <0200.g1:N>`, so that it ultimately comes near to or coincides with the remaining portion :g:`MNHDM <0200.g1:( A M )< N A M >>`.
-
-.. _folio-i-0200:
 
 .. folio:: 0200
    :page: 186
@@ -904,8 +840,6 @@ The last words, “And the centre of the semicircle is the same as that of the c
 
 :person:`Proclus <proclus>` and :person:`Simplicius <simplicius>` point out that, in the order adopted by :person:`Euclid <euclid>` for these definitions of figures, the first figure taken is that bounded by *one* line (the circle), then follows that bounded by *two* lines (the semicircle), then the triangle, bounded by *three* lines, and so on. :person:`Proclus <proclus>`, as usual, distinguishes
 different kinds of figures bounded by two lines (pp. 159, 14—160, 9). Thus they may be formed
-
-.. _folio-i-0201:
 
 .. folio:: 0201
    :page: 187
@@ -952,8 +886,6 @@ The latter part of this definition, distinguishing *three-sided*, *four-sided* a
 *Isosceles* (ἰσοσκελής, with equal legs) is used by :person:`Plato <plato>` as well as :person:`Aristotle <aristotle>`. *Scalene* (σκαληνός, with the variant σκαληνής) is used by :person:`Aristotle <aristotle>` of a triangle with no two sides equal: cf. also Tim. Locr. 98 B. :person:`Plato <plato>`, *Euthyphro* 12 D,
 applies the term "scalene" to an *odd* number in contrast to "isosceles" used of an even number. :person:`Proclus <proclus>` (:cite:`p. 168, 24 <proclus:in-euclid:168.24>`) seems to connect it with σκάζω, to *limp*; others make it akin to σκολιός, *crooked*, *aslant*. :person:`Apollonius <apollonius>` uses the same word "scalene" of an *oblique* circular cone.
 
-.. _folio-i-0202:
-
 .. folio:: 0202
    :page: 188
 
@@ -982,8 +914,6 @@ DEFINITION 22.
 The word *right-angled* (:term:`ὀρθογώνιον <orthogonion>`) as here applied to quadrilaterals must mean *rectangular* (i.e., practically, having all its angles right angles); for, although it is tempting to take the word in the same sense for a
 square as for a triangle (i.e. "having *one* right angle"), this will not do in the case of the oblong, which, unless it were stated that *three* of its angles are right angles, would not be sufficiently defined.
 
-.. _folio-i-0203:
-
 .. folio:: 0203
    :page: 189
 
@@ -1011,8 +941,6 @@ As :person:`Euclid <euclid>` has not yet defined parallel lines and does not any
    square   oblong    rhombus  rhomboid   |               |
                                       isosceles        scalene
                                       trapezium       trapezium
-
-.. _folio-i-0204:
 
 .. folio:: 0204
    :page: 190
@@ -1043,8 +971,6 @@ Another definition is attributed by :person:`Proclus <proclus>` to :person:`Posi
 Posidonius' definition, with the explanation as to distances between straight lines, their convergence and divergence, amounts to the definition quoted by :person:`Simplicius <simplicius>` (:person:`an-Nairīzī <an-nairizi>`, p. 25, ed. :person:`Curtze <curtze>`) which described straight lines as parallel *if, when they are produced indefinitely both ways, the distance between them, or the perpendicular drawn from either of them to the other, is always equal and not different*. To the objection that it should be *proved* that the distance between two parallel lines is the perpendicular to them :person:`Simplicius <simplicius>`
 replies that the definition will do equally well if all mention of the *perpendicular* be omitted and it be merely stated that the *distance* remains equal, although "for *proving* the matter in question it is necessary to say that one straight line is perpendicular to both" (:person:`an-Nairīzī <an-nairizi>`, ed. Besthorn-Heiberg, p. 9). He then quotes the definition of "the philosopher :person:`Aganis <aganis>`": "*Parallel straight lines are straight lines, situated in the same plane, the distance between which, if they are produced indefinitely in both directions at the same time, is everywhere the same.*" (This definition forms the basis of the attempt of ":person:`Aganis <aganis>`" to prove the Postulate of Parallels.) On the definition :person:`Simplicius <simplicius>` remarks that the words "situated in the same plane" are perhaps unnecessary, since, if the distance between the lines is everywhere the same, and one does not incline at all towards the other, they must for that reason be in the same plane. He adds that the "distance" referred to in the definition is the shortest line which joins things disjoined. Thus, between point and point, the distance is the straight line joining them; between a point and a straight line or between a point and a plane it is the perpendicular drawn from the point to the line or plane; "as regards the distance between two lines, that distance is, if the lines are parallel, one and the same, equal to itself at all places on the lines, it is the *shortest* distance and, at all places on the lines, perpendicular to both" (*ibid.* p. 10).
 
-.. _folio-i-0205:
-
 .. folio:: 0205
    :page: 191
 
@@ -1052,8 +978,6 @@ The same idea occurs in a quotation by :person:`Proclus <proclus>` (:cite:`p. 17
 
 Thus the *equidistance*-theory of parallels (to which we shall return) is very fully represented in antiquity. I seem also to see traces in Greek writers of a conception equivalent to the vicious *direction*-theory which has been adopted in so many modern text-books. :person:`Aristotle <aristotle>` has an interesting, though obscure, allusion in :cite:`*Anal. prior.* II. 16, 65 a 4 <aristotle:anal-prior:II.16.65a4>` to a *petitio principii* committed by "those who think that they draw parallels" (or "establish the theory of parallels," which is a possible translation of τὰς παραλλήλους γράφειν): "for they unconsciously assume such things as it is not possible to demonstrate if parallels do not exist." It is clear from this that there was a vicious circle in the then current theory of parallels; something which depended for its truth on the properties of parallels was assumed in the actual proof of those properties, e.g. that the three angles of a triangle make up two right angles. This is not the case in :person:`Euclid <euclid>`, and the passage makes it clear that it was :person:`Euclid <euclid>` himself who got rid of the *petitio principii* in earlier text-books by formulating and premising before I. 29 the famous Postulate 5, which must ever be regarded as among the most epoch-making achievements in the domain of geometry. But one of the commentators on :person:`Aristotle <aristotle>`, :person:`Philoponus <philoponus>`, has a note on the above passage purporting to give the specific character of the *petitio principii* alluded to; and it is here that a *direction*-theory of parallels may be hinted at,
 whether :person:`Philoponus <philoponus>` is or is not right in supposing that this was what :person:`Aristotle <aristotle>` had in mind. :person:`Philoponus <philoponus>` says: "The same thing is done by those who draw parallels, namely begging the original question; for they will have it that it is possible to draw parallel straight lines from the meridian circle, and they assume a point, so to say, falling on the plane of that circle and thus they draw the straight lines. And what was sought is thereby assumed; for he who does not admit the genesis of the parallels will not admit the point referred to either." What is meant is, I think, somewhat as follows. Given a straight line and a point through which a parallel to it is to be drawn, we are to suppose the given straight line placed in the plane of the meridian. Then we are told to draw through the given point another straight line in the plane of the meridian (strictly speaking it should be drawn in a plane parallel to the plane of the meridian, but the idea is that, compared with the size of the meridian circle, the distance between the point and the straight line is negligible); and this, as I read :person:`Philoponus <philoponus>`, is supposed to be equivalent to assuming a very distant point in the meridian plane and joining the given point to it. But obviously no ruler would stretch to such a point, and the objector would say that we cannot really direct a straight line to the assumed distant point except by drawing it, without more ado, *parallel* to the given straight line. And herein is the *petitio principii*. I am confirmed in seeing in :person:`Philoponus <philoponus>` an allusion to a *direction*-theory by a remark of Schotten on a similar reference to the meridian plane supposed to be used by advocates of that theory. Schotten is arguing that direction is not in itself a conception such that you can predicate *one* direction of *two* different lines. "If any one should reply that nevertheless many lines can be conceived *which all have the direction from north to south*," he replies that this represents only a nominal, not a real, identity of direction.
-
-.. _folio-i-0206:
 
 .. folio:: 0206
    :page: 192
@@ -1074,8 +998,6 @@ Coming now to modern times, we may classify under three groups practically all t
 
 But the three points of view have a good deal in common; some of them lead easily to the others. Thus the idea of the lines having no point common led to the notion of their having a common point at infinity, through the influence of modern geometry seeking to embrace different cases under one conception; and then again the idea of the lines having a common point at infinity might suggest their having the same direction. The "non-secant" idea would also naturally lead to that of equidistance (3), since our observation shows that it is things which come nearer to one another that tend to meet, and hence, if lines are not to meet, the obvious thing is to see that they shall not come nearer, i.e. shall remain the same distance apart.
 
-.. _folio-i-0207:
-
 .. folio:: 0207
    :page: 193
 
@@ -1085,8 +1007,6 @@ We will now take the three groups in order.
 
 It is significant, I think, that such authorities as :person:`Ingrami <ingrami>` (*Elementi di geometria*, 1904) and :person:`Enriques <enriques>` and :person:`Amaldi <amaldi>` (*Elementi di geometria*, 1905), after all the discussion of principles that has taken place of late years, give definitions of parallels equivalent to Euclid's: "those straight lines in a plane which have not any point in common are called parallels." :person:`Hilbert <hilbert>` adopts the same point of view. :person:`Veronese <veronese>`, it is true, takes a different line. In his great work *Fondamenti di geometria*, 1891, he had taken a ray to be parallel to another when a point at infinity on the second is situated on the first; but he appears to have come to the conclusion that this definition was unsuitable for his *Elementi*. He avoids however giving the Euclidean definition of parallels as "straight lines in a plane which, though produced indefinitely, never meet," because "no one has ever seen two straight lines of this sort," and because the postulate generally used in connexion with this definition is not evident in the way that, in the field of our experience, it is evident that only one straight line can pass through two points. Hence he gives a different definition, for which he claims the advantage that it is independent of the plane. It is based on a definition of figures "opposite to one another with respect to a point" (or *reflex* figures). "Two figures are opposite to one another with respect to a point $O$, e.g. the figures $ABC\dots$ and $A'B'C'\dots$, if to every point of the one there corresponds one sole point of the other, and if the segments
 $OA$, $OB$, $OC$, $\dots$ joining the points of one figure to $O$ are respectively equal and opposite to the segments $OA'$, $OB'$, $OC'$, $\dots$ joining to $O$ the corresponding points of the second": then, a *transversal* of two straight lines being any segment having as its extremities one point of one line and one point of the other, "*two straight lines are called parallel if one of them contains two points opposite to two points of the other with respect to the middle point of a common transversal.*" It is true, as :person:`Veronese <veronese>` says, that the parallels so defined and the parallels of :person:`Euclid <euclid>` are in substance the same; but it can hardly be said that the definition gives as good an idea of the essential nature of parallels as does Euclid's. :person:`Veronese <veronese>` has to *prove*, of course, that his parallels have no point in common, and his "Postulate of Parallels" can hardly be called more evident than Euclid's: "If two straight lines are parallel, they are figures opposite to one another with respect to the middle points of all their transversal segments."
-
-.. _folio-i-0208:
 
 .. folio:: 0208
    :page: 194

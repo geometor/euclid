@@ -19,15 +19,11 @@ Back to :ref:`Proposition I.47 <I.47>`.
 
 “If we listen,” says :person:`Proclus <proclus>` (:cite:`p. 426, 6 <proclus:in-euclid:426.6>` sqq.), “to those who wish to recount ancient history, we may find some of them referring this theorem to :person:`Pythagoras <pythagoras>` and saying that he sacrificed an ox in honour of his discovery. But for my part, while I admire those who first observed the truth of this theorem, I marvel more at the writer of the Elements, not only because he made it fast (κατεδήσατο) by a most lucid demonstration, but because he compelled assent to the still more general theorem by the irrefragable arguments of science in the sixth Book. For in that Book he proves generally that, in right-angled triangles, the figure on the side subtending the right angle is equal to the similar and similarly situated figures described on the sides about the right angle.”
 
-.. _folio-i-0365:
-
 .. folio:: 0365
    :page: 351
 
 In addition, :person:`Plutarch <plutarch>` (in the passages quoted above in the note on I. 44), :person:`Diogenes Laertius <diogenes-laertius>` (VIII. 12) and Athenaeus (x. 13) agree in attributing this proposition to :person:`Pythagoras <pythagoras>`. It is easy to point out, as does G. Junge (“*Wann haben die Griechen das Irrationale entdeckt?*” in *Novae Symbolae Joachimicae*, Halle a. S., 1907, pp. 221—264), that these are late witnesses, and that the Greek literature which we possess belonging to the first five centuries after :person:`Pythagoras <pythagoras>` contains no statement specifying this or any other particular great geometrical discovery as due to him. Yet the distich of Apollodorus the “calculator,” whose date (though it cannot be fixed) is at least earlier than that of :person:`Plutarch <plutarch>` and presumably of :person:`Cicero <cicero>`, is quite definite as to the existence of one “famous proposition” discovered by :person:`Pythagoras <pythagoras>`, whatever it was. Nor does :person:`Cicero <cicero>`, in commenting apparently on the verses (*De nat. deor.* III. c. 36, § 88), seem to dispute the fact of the geometrical discovery, but only the story of the sacrifice. Junge naturally emphasises the apparent uncertainty in the statements of :person:`Plutarch <plutarch>` and :person:`Proclus <proclus>`. But, as I read the passages of :person:`Plutarch <plutarch>`, I see nothing in them inconsistent with the supposition that :person:`Plutarch <plutarch>` unhesitatingly accepted as discoveries of :person:`Pythagoras <pythagoras>` *both* the theorem of the square of the hypotenuse and the problem of the application of an area, and the only doubt he felt was as to which of the two discoveries was the more appropriate occasion for the supposed sacrifice. There is also other evidence not without bearing on the question. The theorem is closely connected with the whole of the matter of Eucl. Book II., in which one of the most prominent features is the use of the *gnomon*. Now the gnomon was a well-understood term with the Pythagoreans (cf. the fragment of Philolaus quoted on p. 141 of Boeckh’s *Philolaos des Pythagoreers Lehren*, 1819). :person:`Aristotle <aristotle>` also (:cite:`*Physics* III. 4, 203 a 10—15 <aristotle:phys:III.4.203a10-15>`) clearly attributes to the Pythagoreans the placing of odd numbers as *gnomons* round successive squares beginning with 1, thereby forming new squares, while in another place (*Categ.* 14, 15 a 30) the word *gnomon* occurs in the same (obviously familiar) sense: “*e.g.* a square, when a gnomon is placed round it, is increased in size but is not altered in form.” The inference must therefore be that practically the whole doctrine of Book II. is Pythagorean. Again :person:`Heron <heron>` (? 3rd cent. A.D.), like :person:`Proclus <proclus>`, credits :person:`Pythagoras <pythagoras>` with a general rule for forming right-angled triangles with rational whole numbers for sides. Lastly, the “summary” of :person:`Proclus <proclus>` appears to credit :person:`Pythagoras <pythagoras>` with the discovery of the theory, or study, of irrationals (τὴν τῶν ἀλόγων πραγματείαν). But it is now more or less agreed that the reading here should be, not τῶν ἀλόγων, but τῶν ἀναλόγων, or rather τῶν ἀνὰ λόγον (“of proportionals”), and that the author intended to attribute to :person:`Pythagoras <pythagoras>` a theory of *proportion*, *i.e.* the (arithmetical) theory of proportion applicable only to commensurable magnitudes, as distinct from the theory of Eucl. Book V., which was due to :person:`Eudoxus <eudoxus>`. It is not however disputed that the Pythagoreans discovered the irrational (cf. the scholium No. 1 to Book X.). Now everything goes to show that this discovery of the irrational was made with reference to $\sqrt{2}$, the ratio of the diagonal of a square to its side. It is clear that this presupposes the knowledge that I. 47 is true of an isosceles right-angled triangle; and the fact that some triangles of which it had been discovered to be true were rational right-angled triangles was doubtless what suggested the inquiry whether the ratio between the lengths of the diagonal and the side of a square could also be expressed in whole numbers. On the whole, therefore, I see no sufficient reason to question the tradition that, so far as *Greek geometry is concerned* (the possible priority of the discovery of the same proposition in India will be considered later), :person:`Pythagoras <pythagoras>`
 was the first to introduce the theorem of I. 47 and to give a general proof of it.
-
-.. _folio-i-0366:
 
 .. folio:: 0366
    :page: 352
@@ -53,8 +49,6 @@ How then did :person:`Pythagoras <pythagoras>` discover the general theorem? Obs
 consider whether a similar relation was true of the sides of right-angled triangles other than the particular one. The simplest case (geometrically) to investigate was that of the *isosceles* right-angled triangle; and the truth of the theorem in this particular case would easily appear from the mere construction of a figure. :person:`Cantor <cantor>` (I₃, p. 185) and :person:`Allman <allman>` (:cite:`*Greek Geometry from Thales to Euclid* <allman:greek-geometry>`, p. 29) illustrate by a figure in which the squares are drawn outwards, as in I. 47, and divided by diagonals into equal triangles; but I think that the truth was more likely to be first observed from a figure of the kind suggested by Bürk (*Das Āpastamba-Śulba-Sūtra* in *Zeitschrift der deutschen morgenländ. Gesellschaft*, LV., 1901, p. 557) to explain how the Indians arrived at the same thing. The two figures are as shown above. When the geometrical
 consideration of the figure had shown that the isosceles right-angled triangle had the property in question, the investigation of the same fact from the arithmetical point of view would ultimately lead to the other momentous discovery of the irrationality of the length of the diagonal of a square expressed in terms of its side.
 
-.. _folio-i-0367:
-
 .. folio:: 0367
    :page: 353
 
@@ -72,8 +66,6 @@ The possible proofs by means of proportion would seem to be practically limited 
 It will be observed that this proof is *in substance* identical with that of :person:`Euclid <euclid>`, the only difference being that the equality of the two smaller squares to the respective rectangles is inferred by the method of Book VI. instead of from the relation between the areas of parallelograms and triangles on the same base and between the same parallels established in Book I. It occurred to me whether, if Pythagoras' proof had come, even in substance, so near to Euclid's, :person:`Proclus <proclus>` would have emphasised so much as he does the originality of Euclid's, or would have gone so far as to say that he marvelled more at that proof than at the original discovery of the theorem. But on the whole I see no difficulty; for there can be little doubt that the proof by proportion is what suggested to :person:`Euclid <euclid>` the method of I. 47, and the transformation of
 the method of proportions into one based on Book I. only, effected by a construction and proof so extraordinarily ingenious, is a veritable *tour de force* which compels admiration, notwithstanding the ignorant strictures of Schopenhauer, who wanted something as obvious as the second figure in the case of the isosceles right-angled triangle (p. 352), and accordingly (*Sämmtliche Werke*, III. § 39 and I. § 15) calls Euclid's proof “a mouse-trap proof” and “a proof walking on stilts, nay, a mean, underhand, proof” (“Des Eukleides stelzbeiniger, ja, hinterlistiger Beweis”).
 
-.. _folio-i-0368:
-
 .. folio:: 0368
    :page: 354
 
@@ -88,8 +80,6 @@ On the whole, the most probable supposition seems to me to be that :person:`Pyth
 
 Were it not for this difficulty, the conjecture of :person:`Bretschneider <bretschneider>` (p. 82), followed by :person:`Hankel <hankel>` (p. 98), would be the most tempting hypothesis. According to this suggestion, we are to suppose a figure like that of Eucl. II. 4 in which :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />` are the sides of the two inner squares respectively, and :g:`a + b <0368.g1:/ A B />` is the side of the complete square. Then, if the two complements, which are equal, are divided by their two diagonals into four equal triangles of sides :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />`, :g:`c <0368.g1:/ A K />`, we can place these triangles round another square of the same size as the whole square, in the manner shown in the second figure, so that the sides :g:`a <0368.g1:/ P T />`, :g:`b <0368.g1:/ T Q />` of successive triangles make up one of the sides of the square and are arranged in cyclic order. It readily follows that the remainder of the square when the four triangles are deducted is, in the one case, a square whose side is :g:`c <0368.g1:/ W T />`, and in the other the sum of two squares whose sides are :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />` respectively. Therefore the square on :g:`c <0368.g1:/ W T />` is equal
 to the sum of the squares on :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />`. All that can be said against this conjectural proof is that it has no specifically Greek colouring but rather recalls the Indian method. Thus Bhāskara (born 1114 A.D.; see :person:`Cantor <cantor>`, I₃, p. 656) simply draws four right-angled triangles equal to the original one inwards, one on each side of the square on the hypotenuse, and says “see!”, without even adding that inspection shows that
-
-.. _folio-i-0369:
 
 .. folio:: 0369
    :page: 355
@@ -119,8 +109,6 @@ Or the result might equally be seen by observing that
 The procedure would be equally easy for any rational right-angled triangle, and would be a natural method of trying to *prove* the property when it had
 once been *empirically* observed that triangles like 3, 4, 5 did in fact contain a right angle.
 
-.. _folio-i-0370:
-
 .. folio:: 0370
    :page: 356
 
@@ -143,8 +131,6 @@ Rational right-angled triangles from the arithmetical standpoint.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :person:`Pythagoras <pythagoras>` investigated the arithmetical problem of finding rational numbers which could be made the sides of right-angled triangles, or of finding square numbers which are the sum of two squares; and herein we find the beginning of the *indeterminate analysis* which reached so high a stage of development in :person:`Diophantus <diophantus>`. Fortunately :person:`Proclus <proclus>` has preserved Pythagoras' method of solution in the following passage (pp. 428, 7—429, 8). “Certain methods for the discovery of triangles of this kind are handed down, one of which they refer to :person:`Plato <plato>`, and another to :person:`Pythagoras <pythagoras>`. [The latter] starts from odd numbers. For it makes the odd number the smaller of the sides about the right angle; then it takes the square of it, subtracts unity, and makes half the difference the greater of the sides about the right angle; lastly it adds unity to this and so forms the remaining side, the hypotenuse. For example, taking 3, squaring it, and subtracting unity from the 9, the method takes half of the 8, namely 4; then, adding unity to it again, it makes 5, and a right-angled triangle has been found with one side 3, another 4 and another 5. But the method of :person:`Plato <plato>` argues from even numbers. For it takes the given even number and makes it one of the sides about the right angle; then, bisecting this number and squaring the half, it adds unity to the square to form the hypotenuse, and subtracts unity from the square to form the other side about the right angle. For example, taking 4, the method squares half of this, or 2, and so makes 4; then, subtracting unity, it produces 3, and adding unity it produces 5. Thus it has formed the same triangle as that which was obtained by the other method.”
-
-.. _folio-i-0371:
 
 .. folio:: 0371
    :page: 357
@@ -184,8 +170,6 @@ which is Plato's solution, as given by :person:`Proclus <proclus>`.
 
 The two solutions supplement each other. It is interesting to observe that the method suggested by Röth and :person:`Cantor <cantor>` is very like that of Eucl. X. (Lemma 1 following Prop. 28). We shall come to this later, but it may be mentioned here that the problem is *to find two square numbers such that their*
 *sum is also a square.* :person:`Euclid <euclid>` there uses the property of II. 6 to the effect that, if $AB$ is bisected at $C$ and produced to $D$,
-
-.. _folio-i-0372:
 
 .. folio:: 0372
    :page: 358
@@ -230,8 +214,6 @@ and
 
 $$a + 1 = \frac{1}{2}(n^2 + 1).$$
 
-.. _folio-i-0373:
-
 .. folio:: 0373
    :page: 359
 
@@ -259,8 +241,6 @@ $$4a + 4 = 4n^2,$$
 
 .. picture:: 0373.g2.svg
    :alt: Folio 0373 Figure 2 - Proposition 47 Commentary (Double-Row Dot Gnomon)
-
-.. _folio-i-0374:
 
 .. folio:: 0374
    :page: 360
@@ -293,8 +273,6 @@ The “theorem of Pythagoras” in India.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This question has been discussed anew in the last few years as the result of the publication of two important papers by Albert Bürk on *Das Āpastamba-Śulba-Sūtra* in the *Zeitschrift der deutschen morgenländischen Gesellschaft* (LV., 1901, pp. 543—591, and LVI., 1902, pp. 327—391). The first of the two papers contains the introduction and the text, the second the translation with notes. A selection of the most important parts of the material was made and issued by G. :person:`Thibaut <thibaut>` in the *Journal of the Asiatic Society of Bengal*, XLIV., 1875, Part I. (reprinted also at Calcutta, 1875, as *The Śulvasūtras*, by G. :person:`Thibaut <thibaut>`). :person:`Thibaut <thibaut>` in this work gave a most valuable comparison of extracts from the three Śulvasūtras by Bāudhāyana, Āpastamba and Kātyāyana respectively, with a running commentary and an estimate of the date and originality of the geometry of the Indians. Bürk has however done good service by making the Āpastamba-Ś.-S. accessible in its entirety and investigating the whole subject afresh. With the natural enthusiasm of an editor for the work he is editing, he roundly maintains, not only that the Pythagorean theorem was known and proved in all its generality by the Indians long before the date of :person:`Pythagoras <pythagoras>` (about 580—500 B.C.), but that they had also discovered the irrational; and further that, so far from Indian geometry being indebted to the Greek, the much-travelled :person:`Pythagoras <pythagoras>` probably obtained his theory from India (*loc. cit.* LV., p. 575 note). Three important notices and criticisms of Bürk's work have followed, by H. G. :person:`Zeuthen <zeuthen>` (“*Théorème de Pythagore*,” *Origine de la Géométrie scientifique*, 1904, already quoted), by Moritz :person:`Cantor <cantor>` (*Über die älteste indische Mathematik* in the *Archiv der Mathematik und Physik*, VIII., 1905, pp. 63—72) and by Heinrich Vogt (*Haben die alten Inder den Pythagoreischen Lehrsatz und das Irrationale gekannt?* in the *Bibliotheca Mathematica*, $\text{VII}_3$, 1906, pp. 6—23. See also Cantor's *Geschichte der Mathematik*, $\text{I}_3$, pp. 635—645.
-
-.. _folio-i-0375:
 
 .. folio:: 0375
    :page: 361
@@ -339,8 +317,6 @@ $$
 
 (b) A square on length of $1$ unit gives $1$ unit square (III. 4) $\quad$ " $\quad$ " $\quad$ $2$ units gives $4$ unit squares (III. 6) $\quad$ " $\quad$ " $\quad$ $3$ $\quad$ " $\quad$ $9$ $\quad$ " (III. 6) $\quad$ " $\quad$ " $\quad$ $1\frac{1}{2}$ $\quad$ " $\quad$ $2\frac{1}{4}$ $\quad$ " (III. 8)
 
-.. _folio-i-0376:
-
 .. folio:: 0376
    :page: 362
 
@@ -372,8 +348,6 @@ A square on length of $2\frac{1}{2}$ units gives $6\frac{1}{4}$ unit squares (II
 The first important question in relation to the above is that of date. Bürk assigns to the *Āpastamba-Śulba-Sūtra* a date at least as early as the 5th or 4th century B.C. He observes however (what is likely enough) that the matter of it must have been much older than the book itself. Further, as regards one of the constructions for right angles, that by means of cords of lengths 15, 36, 39, he shows that it was known at the time of the *Taittirīya-Saṃhitā* and the *Śatapatha-Brāhmaṇa*, still older works belonging to the 8th century B.C. at latest. It may be that (as Bürk maintains) the discovery that triangles with sides $(a, b, c)$ in rational numbers such that $a^2 + b^2 = c^2$ are right-angled was nowhere made so early as in India. We find however in two ancient Chinese treatises (1) a statement that the diagonal of the rectangle $(3, 4)$ is $5$ and (2) a rule for finding the hypotenuse of a "right triangle" from the sides, while tradition connects both works with the name of Chou Kung
 who died 1105 B.C. (D. E. Smith, *History of Mathematics*, I. pp. 30—33, II. p. 288).
 
-.. _folio-i-0377:
-
 .. folio:: 0377
    :page: 363
 
@@ -384,8 +358,6 @@ It remains to consider Bürk's claim that the Indians had discovered the *irrati
 $$\sqrt{2} = 1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot 4 \cdot 34}\text{, approximately.}$$
 
 But it is a far cry from this calculation of an approximate value to the discovery of the *irrational*. First, we ask, is there any sign that this value was known to be inexact? It comes directly after the statement (I. 6) that the square on the diagonal of a square is double of that square, and the rule is quite boldly stated without any qualification: "lengthen the unit by one-third and the latter by one-quarter of itself less one-thirty-fourth of this part." Further, the approximate value is actually used for the purpose of constructing a square when the side is given (II. 1). So familiar was the formula that it was apparently made the basis of a sub-division of measures of length.
-
-.. _folio-i-0378:
 
 .. folio:: 0378
    :page: 364
@@ -405,8 +377,6 @@ Let :g:`ABC <0379.g1:< A B C >>` be the given triangle right-angled at :g:`A <03
 
 Construct on :g:`AB <0379.g1:/ A B />` the square :g:`AD <0379.g1:< A D >>`;
 produce :g:`AC <0379.g1:/ A C />` to :g:`F <0379.g1:F>` so that :g:`EF <0379.g1:/ E F />` may be :eq:`equal <0379.g1:/ E F / = 0379.g1:/ A C />` to :g:`AC <0379.g1:/ A C />`.
-
-.. _folio-i-0379:
 
 .. folio:: 0379
    :page: 365
@@ -447,8 +417,6 @@ Then the triangle :g:`HLK <0379.g2:< H L K >>` is :eq:`equal <0379.g2:< H L K > 
 Now :g:`DB <0379.g2:/ D B />`, :g:`BG <0379.g2:/ B G />`, which bisect the angles :g:`ABE <0379.g2:< A B E )>`, :g:`CBF <0379.g2:< C B F )>` respectively, are in a straight line. Join :g:`BL <0379.g2:/ B L />`.
 
 It is easily proved that the four quadrilaterals :g:`ADGC <0379.g2:< A D G C >>`, :g:`EDGF <0379.g2:< E D G F >>`, :g:`ABLK <0379.g2:< A B L K >>`, :g:`HLBC <0379.g2:< H L B C >>` are all :eq:`equal <0379.g2:< A D G C > = 0379.g2:< E D G F > = 0379.g2:< A B L K > = 0379.g2:< H L B C >>`.
-
-.. _folio-i-0380:
 
 .. folio:: 0380
    :page: 366
@@ -499,8 +467,6 @@ Heron's proof that AL, BK, CF in Euclid's figure meet in a point.
 The final words of Proclus' note on I. 47 (p. 429, 9—15) are historically interesting. He says: "The demonstration by the writer of the Elements being clear, I consider that it is unnecessary to add anything further, and that we may be satisfied with what has been written, since in fact those who have added anything more, like :person:`Pappus <pappus>` and :person:`Heron <heron>`, were obliged to draw upon what is proved in the sixth Book, for no really useful object." These words cannot
 of course refer to the extension of I. 47 given by :person:`Pappus <pappus>`; but the key to them, so far as :person:`Heron <heron>` is concerned, is to be found in the commentary of :person:`an-Nairīzī <an-nairizi>` (pp. 175—185, ed. Besthorn-Heiberg; pp. 78—84, ed. :person:`Curtze <curtze>`) on I. 47, wherein he gives Heron's proof that the lines :g:`AL <0363.g1:/ A L />`, :g:`FC <0363.g1:/ F C />`, :g:`BK <0363.g1:/ B K />` in Euclid's figure meet in a point. :person:`Heron <heron>` proved this by means of three lemmas which would most naturally be proved from the principle of similitude as laid down in Book VI., but which :person:`Heron <heron>`, as a *tour de force*, proved on the principles of Book I. only. The *first* lemma is to the following effect.
 
-.. _folio-i-0381:
-
 .. folio:: 0381
    :page: 367
 
@@ -546,8 +512,6 @@ Adding to each the angle :g:`GHF <0381.g2:< G H F )>`, we find that the angles :
 and therefore to two right angles.
 
 Therefore :g:`AHB <0381.g2:/ A H B />` is a straight line.
-
-.. _folio-i-0382:
 
 .. folio:: 0382
    :page: 368

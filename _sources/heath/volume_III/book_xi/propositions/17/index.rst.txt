@@ -6,7 +6,7 @@
 :title: Proposition XI.17
 :folios: 0305, 0306
 :pages: 301, 302
-:dependencies: V.11, VI.2, XI.16
+:dependencies: I.def.4, V.def.3, V.11, VI.2, XI.def.8, XI.16
 
 .. _XI.17:
 
@@ -18,14 +18,14 @@ PROPOSITION 17.
 
 .. enunciation::
 
-   If two straight lines be cut by parallel planes, they will be cut in the same ratios.
+   If two :term:`straight lines <straight-line>` be cut by :term:`parallel planes <parallel-planes>`, they will be cut in the same :term:`ratios <ratio>`.
 
-For let the two straight lines :g:`AB <0305.g2:/ A B />`, :g:`CD <0305.g2:/ C D />` be cut by the parallel planes :g:`GH <0305.g2:< G H >>`, :g:`KL <0305.g2:< K L >>`, :g:`MN <0305.g2:< M N >>` at the points :g:`A <0305.g2:A>`, :g:`E <0305.g2:E>`, :g:`B <0305.g2:B>` and :g:`C <0305.g2:C>`, :g:`F <0305.g2:F>`, :g:`D <0305.g2:D>`; I say that, as the straight line :g:`AE <0305.g2:/ A E />` is to :g:`EB <0305.g2:/ E B />`, so is :g:`CF <0305.g2:/ C F />` to :g:`FD <0305.g2:/ F D />`.
+For let the two straight lines :g:`AB <0305.g2:/ A B />`, :g:`CD <0305.g2:/ C D />` be cut by the parallel planes :g:`GH <0305.g2:< G H >>`, :g:`KL <0305.g2:< K L >>`, :g:`MN <0305.g2:< M N >>` at the :term:`points <point>` :g:`A <0305.g2:A>`, :g:`E <0305.g2:E>`, :g:`B <0305.g2:B>` and :g:`C <0305.g2:C>`, :g:`F <0305.g2:F>`, :g:`D <0305.g2:D>`; I say that, as the straight line :g:`AE <0305.g2:/ A E />` is to :g:`EB <0305.g2:/ E B />`, so is :g:`CF <0305.g2:/ C F />` to :g:`FD <0305.g2:/ F D />`.
 
 .. picture:: 0305.g2.svg
    :alt: Book XI, Proposition 17
 
-For let :g:`AC <0305.g2:/ A C />`, :g:`BD <0305.g2:/ B D />`, :g:`AD <0305.g2:/ A D />` be joined, let :g:`AD <0305.g2:/ A D />` meet the plane :g:`KL <0305.g2:< K L >>` at the point :g:`O <0305.g2:O>`, and let :g:`EO <0305.g2:/ E O />`, :g:`OF <0305.g2:/ O F />` be joined.
+For let :g:`AC <0305.g2:/ A C />`, :g:`BD <0305.g2:/ B D />`, :g:`AD <0305.g2:/ A D />` be joined, let :g:`AD <0305.g2:/ A D />` meet the :term:`plane <plane-surface>` :g:`KL <0305.g2:< K L >>` at the point :g:`O <0305.g2:O>`, and let :g:`EO <0305.g2:/ E O />`, :g:`OF <0305.g2:/ O F />` be joined.
 
 .. _folio-iii-0306:
 
@@ -38,7 +38,7 @@ For let :g:`AC <0305.g2:/ A C />`, :g:`BD <0305.g2:/ B D />`, :g:`AD <0305.g2:/ 
 
 .. assertion:: [XI. 16] <XI.16>
 
-   their common sections :g:`EO <0305.g2:/ E O />`, :g:`BD <0305.g2:/ B D />` are parallel.
+   their common sections :g:`EO <0305.g2:/ E O />`, :g:`BD <0305.g2:/ B D />` are :term:`parallel <parallel-straight-lines>`.
 
 .. subclause::
 
@@ -50,7 +50,7 @@ For let :g:`AC <0305.g2:/ A C />`, :g:`BD <0305.g2:/ B D />`, :g:`AD <0305.g2:/ 
 
 .. subclause::
 
-   And, since the straight line :g:`EO <0305.g2:/ E O />` has been drawn parallel to :g:`BD <0305.g2:/ B D />`, one of the sides of the triangle :g:`ABD <0305.g2:< A B D >>`,
+   And, since the straight line :g:`EO <0305.g2:/ E O />` has been drawn parallel to :g:`BD <0305.g2:/ B D />`, one of the sides of the :term:`triangle <trilateral>` :g:`ABD <0305.g2:< A B D >>`,
 
 .. assertion:: [VI. 2] <VI.2>
 
@@ -86,8 +86,24 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
+     "I.def.22" [label="I.def.22", fillcolor="#224422", tooltip="I.def.22: Of quadrilateral figures, a square is that which is both equilateral and right-angled ; an oblong that which is right-angled but not equilateral ; a rhombus that which is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-22", target="_top"];
      "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
@@ -129,9 +145,15 @@ Dependency Graph
      "I.38" [label="I.38", fillcolor="#222244", tooltip="I.38: Triangles which are on equal bases and in the same parallels are equal to one another.", URL="../../../../volume_I/book_i/propositions/38/index.html", target="_top"];
      "I.39" [label="I.39", fillcolor="#222244", tooltip="I.39: Equal triangles which are on the same base and on the same side are also in the same parallels.", URL="../../../../volume_I/book_i/propositions/39/index.html", target="_top"];
      "I.41" [label="I.41", fillcolor="#222244", tooltip="I.41: If a parallelogram have the same base with a triangle and be in the same parallels, the parallelogram is double of the triangle.", URL="../../../../volume_I/book_i/propositions/41/index.html", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../../../volume_II/book_v/definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-13", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../../../../volume_II/book_v/propositions/01/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../../../../volume_II/book_v/propositions/07/index.html", target="_top"];
      "V.8" [label="V.8", fillcolor="#222244", tooltip="V.8: Of unequal magnitudes, the greater has to the same a greater ratio than the less has; and the same has to the less a greater ratio than it has to the greater.", URL="../../../../volume_II/book_v/propositions/08/index.html", target="_top"];
@@ -139,16 +161,148 @@ Dependency Graph
      "V.11" [label="V.11", fillcolor="#222244", tooltip="V.11: Ratios which are the same with the same ratio are also the same with one another.", URL="../../../../volume_II/book_v/propositions/11/index.html", target="_top"];
      "V.12" [label="V.12", fillcolor="#222244", tooltip="V.12: If any number of magnitudes be proportional, as one of the antecedents is to one of the consequents, so will all the antecedents be to all the consequents.", URL="../../../../volume_II/book_v/propositions/12/index.html", target="_top"];
      "V.15" [label="V.15", fillcolor="#222244", tooltip="V.15: Parts have the same ratio as the same multiples of them taken in corresponding order.", URL="../../../../volume_II/book_v/propositions/15/index.html", target="_top"];
+     "VI.def.4" [label="VI.def.4", fillcolor="#224422", tooltip="VI.def.4: The height of any figure is the perpendicular drawn from the vertex to the base.", URL="../../../../volume_II/book_vi/definitions/index.html#vi-def-4", target="_top"];
      "VI.1" [label="VI.1", fillcolor="#222244", tooltip="VI.1: Triangles and parallelograms which are under the same height are to one another as their bases.", URL="../../../../volume_II/book_vi/propositions/01/index.html", target="_top"];
      "VI.2" [label="VI.2", fillcolor="#222244", tooltip="VI.2: If a straight line be drawn parallel to one of the sides of a triangle, it will cut the sides of the triangle proportionally; and, if the sides of the triangle be cut…", URL="../../../../volume_II/book_vi/propositions/02/index.html", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "XI.def.8" [label="XI.def.8", fillcolor="#224422", tooltip="XI.def.8: Parallel planes are those which do not meet.", URL="../../definitions/index.html#xi-def-8", target="_top"];
      "XI.1" [label="XI.1", fillcolor="#222244", tooltip="XI.1: A part of a straight line cannot be in the plane of reference and a part in a plane more elevated.", URL="../01/index.html", target="_top"];
      "XI.16" [label="XI.16", fillcolor="#222244", tooltip="XI.16: If two parallel planes be cut by any plane, their common sections are parallel.", URL="../16/index.html", target="_top"];
      "XI.17" [label="XI.17", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.17: If two straight lines be cut by parallel planes, they will be cut in the same ratios.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.31" -> "I.def.1";
+     "VI.2" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "VI.2" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.33" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.def.23" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.post.5" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.27" -> "I.def.4";
+     "I.29" -> "I.def.4";
+     "I.31" -> "I.def.4";
+     "I.33" -> "I.def.4";
+     "VI.2" -> "I.def.4";
+     "XI.1" -> "I.def.4";
+     "XI.17" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.23" -> "I.def.7";
+     "XI.1" -> "I.def.7";
+     "XI.16" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.def.22" -> "I.def.8";
+     "I.post.5" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.26" -> "I.def.8";
+     "I.27" -> "I.def.8";
+     "I.29" -> "I.def.8";
+     "I.34" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
+     "I.post.5" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.29" -> "I.def.10";
+     "VI.def.4" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "V.9" -> "I.def.14";
+     "V.11" -> "I.def.14";
+     "VI.def.4" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "XI.1" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "XI.1" -> "I.def.16";
+     "I.34" -> "I.def.17";
+     "XI.1" -> "I.def.17";
+     "I.def.20" -> "I.def.19";
+     "I.def.22" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.26" -> "I.def.19";
+     "I.37" -> "I.def.19";
+     "I.38" -> "I.def.19";
+     "I.39" -> "I.def.19";
+     "I.41" -> "I.def.19";
+     "VI.1" -> "I.def.19";
+     "VI.2" -> "I.def.19";
+     "I.def.22" -> "I.def.20";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
+     "I.35" -> "I.def.22";
      "I.27" -> "I.def.23";
+     "I.29" -> "I.def.23";
+     "I.31" -> "I.def.23";
+     "I.33" -> "I.def.23";
+     "I.35" -> "I.def.23";
+     "I.36" -> "I.def.23";
+     "I.37" -> "I.def.23";
+     "I.38" -> "I.def.23";
+     "I.39" -> "I.def.23";
+     "I.41" -> "I.def.23";
+     "VI.2" -> "I.def.23";
      "XI.16" -> "I.def.23";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
@@ -245,11 +399,28 @@ Dependency Graph
      "VI.2" -> "I.38";
      "VI.2" -> "I.39";
      "VI.1" -> "I.41";
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.15" -> "V.def.2";
+     "V.11" -> "V.def.3";
+     "XI.17" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.9" -> "V.def.5";
+     "V.11" -> "V.def.5";
      "V.12" -> "V.def.5";
+     "V.15" -> "V.def.5";
      "VI.1" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "V.12" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.def.13" -> "V.def.11";
+     "V.12" -> "V.def.11";
+     "V.7" -> "V.def.13";
      "V.8" -> "V.1";
      "V.12" -> "V.1";
      "V.15" -> "V.7";
@@ -261,8 +432,14 @@ Dependency Graph
      "XI.17" -> "V.11";
      "V.15" -> "V.12";
      "VI.1" -> "V.15";
+     "VI.1" -> "VI.def.4";
      "VI.2" -> "VI.1";
      "XI.17" -> "VI.2";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "XI.1" -> "VII.def.3";
+     "XI.16" -> "XI.def.8";
+     "XI.17" -> "XI.def.8";
      "XI.16" -> "XI.1";
      "XI.17" -> "XI.16";
    }

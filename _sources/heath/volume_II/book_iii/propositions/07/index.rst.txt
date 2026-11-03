@@ -6,7 +6,7 @@
 :title: Proposition III.7
 :folios: 0020, 0021
 :pages: 14, 15
-:dependencies: I.4, I.20, I.23, I.24
+:dependencies: I.def.1, I.def.4, I.def.15, I.def.16, I.def.17, I.4, I.20, I.23, I.24
 
 .. _III.7:
 
@@ -20,7 +20,7 @@ PROPOSITION 7.
 
 .. enunciation::
 
-   If on the diameter of a circle a point be taken which is not the centre of the circle, and from the point straight lines fall upon the circle, that will be greatest on which the centre is, the remainder of the same diameter\ [#f1]_ will be least, and of the rest the nearer to the straight line through the centre is always greater than the more remote, and only two equal straight lines will fall from the point on the circle, one on each side\ [#f2]_ of the least straight line.
+   If on the :term:`diameter <diameter>` of a :term:`circle <circle>` a :term:`point <point>` be taken which is not the :term:`centre <centre>` of the circle, and from the point :term:`straight lines <straight-line>` fall upon the circle, that will be greatest on which the centre is, the remainder of the same diameter\ [#f1]_ will be least, and of the rest the nearer to the straight line through the centre is always greater than the more remote, and only two equal straight lines will fall from the point on the circle, one on each side\ [#f2]_ of the least straight line.
 
 Let :g:`ABCD <0020.g1:( A B C D )>` be a circle, and let :g:`AD <0020.g1:/ A D />` be a diameter of it; on :g:`AD <0020.g1:/ A D />` let a point :g:`F <0020.g1:F>` be taken which is not the centre of the circle, let :g:`E <0020.g1:E>` be the centre of the circle, and from :g:`F <0020.g1:F>` let straight lines :g:`FB <0020.g1:/ F B />`, :g:`FC <0020.g1:/ F C />`, :g:`FG <0020.g1:/ F G />` fall upon the circle :g:`ABCD <0020.g1:( A B C D )>`;
 
@@ -31,7 +31,7 @@ I say that :g:`FA <0020.g1:/ F A />` is greatest, :g:`FD <0020.g1:/ F D />` is l
 
 For let :g:`BE <0020.g1:/ B E />`, :g:`CE <0020.g1:/ C E />`, :g:`GE <0020.g1:/ G E />` be joined.
 
-Then, since in any triangle two sides are greater than the remaining one, :just:`[I. 20] <I.20>`
+Then, since in any :term:`triangle <trilateral>` two sides are greater than the remaining one, :just:`[I. 20] <I.20>`
 
 .. assertion::
 
@@ -43,7 +43,7 @@ But :g:`AE <0020.g1:/ A E />` is :eq:`equal <0020.g1:/ A E / = 0020.g1:/ B E />`
 
    therefore :g:`AF <0020.g1:/ A F />` is greater than :g:`BF <0020.g1:/ B F />`.
 
-Again, since :g:`BE <0020.g1:/ B E />` is :eq:`equal <0020.g1:/ B E / = 0020.g1:/ C E />` to :g:`CE <0020.g1:/ C E />`, and :g:`FE <0020.g1:/ F E />` is common, the two sides :g:`BE <0020.g1:/ B E />`, :g:`EF <0020.g1:/ E F />` are :eq:`equal <0020.g1:/ B E / = 0020.g1:/ C E />` to the two sides :g:`CE <0020.g1:/ C E />`, :g:`EF <0020.g1:/ E F />`. But the angle :g:`BEF <0020.g1:< B E F )>` is also greater than the angle :g:`CEF <0020.g1:< C E F )>`;
+Again, since :g:`BE <0020.g1:/ B E />` is :eq:`equal <0020.g1:/ B E / = 0020.g1:/ C E />` to :g:`CE <0020.g1:/ C E />`, and :g:`FE <0020.g1:/ F E />` is common, the two sides :g:`BE <0020.g1:/ B E />`, :g:`EF <0020.g1:/ E F />` are :eq:`equal <0020.g1:/ B E / = 0020.g1:/ C E />` to the two sides :g:`CE <0020.g1:/ C E />`, :g:`EF <0020.g1:/ E F />`. But the :term:`angle <plane-angle>` :g:`BEF <0020.g1:< B E F )>` is also greater than the angle :g:`CEF <0020.g1:< C E F )>`;
 
 .. assertion:: [I. 24] <I.24>
 
@@ -132,8 +132,23 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
      "I.post.3" [label="I.post.3", fillcolor="#444422", tooltip="I.post.3: To describe a circle with any centre and distance.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
@@ -163,10 +178,93 @@ Dependency Graph
      "I.23" [label="I.23", fillcolor="#222244", tooltip="I.23: On a given straight line and at a point on it to construct a rectilineal angle equal to a given rectilineal angle.", URL="../../../../volume_I/book_i/propositions/23/index.html", target="_top"];
      "I.24" [label="I.24", fillcolor="#222244", tooltip="I.24: If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also…", URL="../../../../volume_I/book_i/propositions/24/index.html", target="_top"];
      "III.7" [label="III.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="III.7: If on the diameter of a circle a point be taken which is not the centre of the circle, and from the point straight lines fall upon the circle, that will be greatest on which the…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "III.7" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.24" -> "I.def.4";
+     "III.7" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.24" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "III.7" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "III.7" -> "I.def.16";
+     "III.7" -> "I.def.17";
+     "I.def.20" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.24" -> "I.def.19";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";

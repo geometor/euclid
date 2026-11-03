@@ -6,7 +6,7 @@
 :title: Proposition XI.20
 :folios: 0311, 0312
 :pages: 307, 308
-:dependencies: I.4, I.20, I.25
+:dependencies: I.def.8, I.4, I.20, I.25, XI.def.11
 
 .. _XI.20:
 
@@ -18,7 +18,7 @@ PROPOSITION 20.
 
 .. enunciation::
 
-   If a solid angle be contained by three plane angles, any two, taken together in any manner, are greater than the remaining one.
+   If a :term:`solid angle <solid-angle>` be contained by three :term:`plane angles <plane-angle>`, any two, taken together in any manner, are greater than the remaining one.
 
 For let the solid angle at :g:`A <0311.g3:A>` be contained by the three plane angles :g:`BAC <0311.g3:< B A C )>`, :g:`CAD <0311.g3:< C A D )>`, :g:`DAB <0311.g3:< D A B )>`; I say that any two of the angles :g:`BAC <0311.g3:< B A C )>`, :g:`CAD <0311.g3:< C A D )>`, :g:`DAB <0311.g3:< D A B )>`, taken together in any manner, are greater than the remaining one.
 
@@ -37,8 +37,8 @@ For let the solid angle at :g:`A <0311.g3:A>` be contained by the three plane an
 
    But, if not, let :g:`BAC <0311.g3:< B A C )>` be greater,
 
-and on the straight line :g:`AB <0311.g3:/ A B />`, and at the point :g:`A <0311.g3:A>` on it, let the
-angle :g:`BAE <0311.g3:< B A E )>` be constructed, in the plane through :g:`BA <0311.g3:/ B A />`, :g:`AC <0311.g3:/ A C />`, :eq:`equal <0311.g3:< B A E ) = 0311.g3:< D A B )>` to the angle :g:`DAB <0311.g3:< D A B )>`; let :g:`AE <0311.g3:/ A E />` be made :eq:`equal <0311.g3:/ A E / = 0311.g3:/ A D />` to :g:`AD <0311.g3:/ A D />`, and let :g:`BEC <0311.g3:/ B E C />`, drawn across through the point :g:`E <0311.g3:E>`, cut the straight lines :g:`AB <0311.g3:/ A B />`, :g:`AC <0311.g3:/ A C />` at the points :g:`B <0311.g3:B>`, :g:`C <0311.g3:C>`; let :g:`DB <0311.g3:/ D B />`, :g:`DC <0311.g3:/ D C />` be joined.
+and on the :term:`straight line <straight-line>` :g:`AB <0311.g3:/ A B />`, and at the :term:`point <point>` :g:`A <0311.g3:A>` on it, let the
+angle :g:`BAE <0311.g3:< B A E )>` be constructed, in the :term:`plane <plane-surface>` through :g:`BA <0311.g3:/ B A />`, :g:`AC <0311.g3:/ A C />`, :eq:`equal <0311.g3:< B A E ) = 0311.g3:< D A B )>` to the angle :g:`DAB <0311.g3:< D A B )>`; let :g:`AE <0311.g3:/ A E />` be made :eq:`equal <0311.g3:/ A E / = 0311.g3:/ A D />` to :g:`AD <0311.g3:/ A D />`, and let :g:`BEC <0311.g3:/ B E C />`, drawn across through the point :g:`E <0311.g3:E>`, cut the straight lines :g:`AB <0311.g3:/ A B />`, :g:`AC <0311.g3:/ A C />` at the points :g:`B <0311.g3:B>`, :g:`C <0311.g3:C>`; let :g:`DB <0311.g3:/ D B />`, :g:`DC <0311.g3:/ D C />` be joined.
 
 .. _folio-iii-0312:
 
@@ -93,8 +93,22 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
      "I.post.3" [label="I.post.3", fillcolor="#444422", tooltip="I.post.3: To describe a circle with any centre and distance.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
@@ -124,11 +138,93 @@ Dependency Graph
      "I.23" [label="I.23", fillcolor="#222244", tooltip="I.23: On a given straight line and at a point on it to construct a rectilineal angle equal to a given rectilineal angle.", URL="../../../../volume_I/book_i/propositions/23/index.html", target="_top"];
      "I.24" [label="I.24", fillcolor="#222244", tooltip="I.24: If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also…", URL="../../../../volume_I/book_i/propositions/24/index.html", target="_top"];
      "I.25" [label="I.25", fillcolor="#222244", tooltip="I.25: If two triangles have the two sides equal to two sides respectively, but have the base greater than the base, they will also have the one of the angles contained by the equal…", URL="../../../../volume_I/book_i/propositions/25/index.html", target="_top"];
+     "XI.def.11" [label="XI.def.11", fillcolor="#224422", tooltip="XI.def.11: A solid angle is the inclination constituted by more than two lines which meet one another and are not in the same surface, towards all the lines.", URL="../../definitions/index.html#xi-def-11", target="_top"];
      "XI.20" [label="XI.20", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.20: If a solid angle be contained by three plane angles, any two, taken together in any manner, are greater than the remaining one.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "XI.def.11" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.24" -> "I.def.4";
+     "I.25" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "XI.def.11" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.24" -> "I.def.8";
+     "I.25" -> "I.def.8";
+     "XI.20" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "I.post.3" -> "I.def.16";
+     "I.def.20" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.24" -> "I.def.19";
+     "I.25" -> "I.def.19";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";
@@ -191,6 +287,7 @@ Dependency Graph
      "I.24" -> "I.23";
      "I.25" -> "I.24";
      "XI.20" -> "I.25";
+     "XI.20" -> "XI.def.11";
    }
 
 Required for

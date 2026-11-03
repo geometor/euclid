@@ -18,7 +18,7 @@ PROPOSITION 24.
 
 .. enunciation::
 
-   If from an even number an even number be subtracted, the remainder will be even.
+   If from an :term:`even number <even-number>` an even number be subtracted, the remainder will be even.
 
 For from the even number :g:`AB <0420.g3:/ A B />` let the even number :g:`BC <0420.g3:/ B C />` be subtracted :
 

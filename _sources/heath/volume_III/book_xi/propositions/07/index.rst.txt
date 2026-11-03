@@ -6,7 +6,7 @@
 :title: Proposition XI.7
 :folios: 0289, 0290
 :pages: 285, 286
-:dependencies: XI.3
+:dependencies: I.def.1, I.def.4, I.def.7, I.def.23, XI.3
 
 .. _XI.7:
 
@@ -18,7 +18,7 @@ PROPOSITION 7.
 
 .. enunciation::
 
-   If two straight lines be parallel and points be taken at random on each of them, the straight line joining the points is in the same plane with the parallel straight lines.
+   If two :term:`straight lines <straight-line>` be :term:`parallel <parallel-straight-lines>` and :term:`points <point>` be taken at random on each of them, the straight line joining the points is in the same :term:`plane <plane-surface>` with the parallel straight lines.
 
 Let :g:`AB <0289.g1:/ A B />`, :g:`CD <0289.g1:/ C D />` be two parallel straight lines, and let points :g:`E <0289.g1:E>`, :g:`F <0289.g1:F>` be taken at random on them respectively; I say that the straight line joining the points :g:`E <0289.g1:E>`, :g:`F <0289.g1:F>` is in the same plane with the parallel straight lines.
 
@@ -60,8 +60,30 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
      "XI.3" [label="XI.3", fillcolor="#222244", tooltip="XI.3: If two planes cut one another, their common section is a straight line.", URL="../03/index.html", target="_top"];
      "XI.7" [label="XI.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.7: If two straight lines be parallel and points be taken at random on each of them, the straight line joining the points is in the same plane with the parallel straight lines.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "XI.7" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.23" -> "I.def.4";
+     "XI.3" -> "I.def.4";
+     "XI.7" -> "I.def.4";
+     "I.def.7" -> "I.def.5";
+     "I.def.23" -> "I.def.7";
+     "XI.3" -> "I.def.7";
+     "XI.7" -> "I.def.7";
+     "XI.7" -> "I.def.23";
      "XI.7" -> "XI.3";
    }
 

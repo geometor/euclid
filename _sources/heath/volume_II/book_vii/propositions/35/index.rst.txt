@@ -6,6 +6,7 @@
 :title: Proposition VII.35
 :folios: 0345
 :pages: 339
+:dependencies: V.def.1, VII.def.2
 
 .. _VII.35:
 
@@ -19,7 +20,7 @@ PROPOSITION 35.
 
 .. enunciation::
 
-   If two numbers measure any number, the least number measured by them will also measure the same.
+   If two :term:`numbers <number>` :term:`measure <part-aliquot>` any number, the least number measured by them will also measure the same.
 
 For let the two numbers :g:`A <0345.g1:A>`, :g:`B <0345.g1:B>` measure any number :g:`CD <0345.g1:/ C D />`, and let :g:`E <0345.g1:E>` be the least that they measure;
 
@@ -55,6 +56,25 @@ I say that :g:`E <0345.g1:E>` also measures :g:`CD <0345.g1:/ C D />`.
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.35" [label="VII.35", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.35: If two numbers measure any number, the least number measured by them will also measure the same.", URL="index.html", target="_top"];
+     "VII.35" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.35" -> "VII.def.2";
+   }
 
 Required for
 ------------

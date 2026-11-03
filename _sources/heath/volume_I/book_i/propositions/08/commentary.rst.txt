@@ -26,8 +26,6 @@ It is to be observed that in I. 8 :person:`Euclid <euclid>` is satisfied with pr
 :person:`Heiberg <heiberg>` (*Mathematisches zu Aristoteles*, p. 18) thinks that the form of the conclusion quoted is an indication that in the corresponding proposition to Eucl. I. 8, as it lay before :person:`Aristotle <aristotle>`, it was maintained that the triangles were equal, and not only the angles, and “we see here therefore, in a clear example, how the stones of the ancient fabric were recut for the rigid structure of his
 *Elements*.” I do not, however, think that this inference from Aristotle’s language as to the form of the pre-Euclidean proposition is safe. Thus if we, nowadays, were arguing from the data in the passage of :person:`Aristotle <aristotle>`, we should doubtless infer directly that the triangles are equal in all respects, quoting I. 8 alone. Besides, Aristotle’s language is rather careless, as the next sentences of the same passage show. “Let perpendiculars,” he says, “be drawn to :g:`AEB <0277.g1:/ A E B />` from the angles, :g:`CE <0277.g1:/ C E />` from :g:`C <0277.g1:C>`, :g:`FE <0277.g1:/ F E />` from :g:`F <0277.g1:F>` and :g:`DE <0277.g1:/ D E />` from :g:`D <0277.g1:D>`. These, then, are equal; for they are all in equal triangles, and in one plane; for all of them are perpendicular to :g:`AEB <0277.g1:/ A E B />`, and they meet at one point :g:`E <0277.g1:E>`. Therefore the (line) drawn (through :g:`C <0277.g1:C>`, :g:`F <0277.g1:F>`, :g:`D <0277.g1:D>`) will be a circle, and its centre (will be) :g:`E <0277.g1:E>`.” :person:`Aristotle <aristotle>` should obviously have proved that the three perpendiculars *will* meet at one point :g:`E <0277.g1:E>` on :g:`AEB <0277.g1:/ A E B />` before he spoke of drawing the perpendiculars :g:`CE <0277.g1:/ C E />`, :g:`FE <0277.g1:/ F E />`, :g:`DE <0277.g1:/ D E />`. This of course follows from their being “in equal triangles” (by means of Eucl. I. 26); and then, from the fact that the perpendiculars meet at one point on :g:`AB <0277.g1:/ A B />`, it can be inferred that all three are in one plane.
 
-.. _folio-i-0277:
-
 .. folio:: 0277
    :page: 263
 
@@ -54,8 +52,6 @@ I. Let :g:`FG <0277.g2:/ F G />` be in a straight line with :g:`DF <0277.g2:/ D 
    :alt: Philo Proof of I. 8 Case II
 
 II. Let :g:`DF <0277.g3:/ D F />`, :g:`FG <0277.g3:/ F G />` form an angle *interior* to the figure. Let :g:`DG <0277.g3:/ D G />` be joined. Then, since :g:`DE <0277.g3:/ D E />`, :g:`EG <0277.g3:/ E G />` are equal, the angle :g:`EDG <0277.g3:< E D G )>` is equal to the angle :g:`EGD <0277.g3:< E G D )>`. Again, since :g:`DF <0277.g3:/ D F />` is equal to :g:`FG <0277.g3:/ F G />`, the angle :g:`FDG <0277.g3:< F D G )>` is equal to the angle :g:`FGD <0277.g3:< F G D )>`. Therefore, by addition, the whole angle :g:`EDF <0277.g3:< E D F )>` is equal to the whole angle :g:`EGF <0277.g3:< E G F )>`.
-
-.. _folio-i-0278:
 
 .. folio:: 0278
    :page: 264

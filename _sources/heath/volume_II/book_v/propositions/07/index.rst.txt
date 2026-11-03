@@ -6,7 +6,7 @@
 :title: Proposition V.7
 :folios: 0154, 0155
 :pages: 148, 149
-:dependencies: V.def.5
+:dependencies: V.def.5, V.def.6, V.def.13
 
 .. _V.7:
 
@@ -18,7 +18,7 @@ PROPOSITION 7.
 
 .. enunciation::
 
-   Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.
+   Equal magnitudes have to the same the :term:`same ratio <in-the-same-ratio>`, as also has the same to equal magnitudes.
 
 Let :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` be :eq:`equal <0154.g1:A = 0154.g1:B>` magnitudes and :g:`C <0154.g1:C>` any other, chance, magnitude;
 
@@ -27,7 +27,7 @@ I say that each of the magnitudes :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` has the
 .. picture:: 0154.g1.svg
    :alt: Proposition 7 Diagram
 
-For let equimultiples :g:`D <0154.g1:D>`, :g:`E <0154.g1:E>` of :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` be taken, and of :g:`C <0154.g1:C>` another, chance, multiple :g:`F <0154.g1:F>`.
+For let :term:`equimultiples <multiple>` :g:`D <0154.g1:D>`, :g:`E <0154.g1:E>` of :g:`A <0154.g1:A>`, :g:`B <0154.g1:B>` be taken, and of :g:`C <0154.g1:C>` another, chance, multiple :g:`F <0154.g1:F>`.
 
 Then, since :g:`D <0154.g1:D>` is the same multiple of :g:`A <0154.g1:A>` that :g:`E <0154.g1:E>` is of :g:`B <0154.g1:B>`,
 
@@ -70,7 +70,7 @@ Therefore etc.
 
 .. porism::
 
-   From this it is manifest that, if any magnitudes are proportional, they will also be proportional inversely.
+   From this it is manifest that, if any magnitudes are :term:`proportional <proportional>`, they will also be proportional :term:`inversely <invertendo>`.
 
 .. qed::
 
@@ -86,9 +86,20 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../definitions/index.html#v-def-13", target="_top"];
      "V.7" [label="V.7", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "V.def.13" -> "V.def.11";
+     "V.7" -> "V.def.13";
    }
 
 Required for

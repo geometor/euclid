@@ -6,7 +6,7 @@
 :title: Proposition XI.19
 :folios: 0308, 0309
 :pages: 304, 305
-:dependencies: XI.def.4, XI.13
+:dependencies: I.def.7, I.def.10, XI.def.3, XI.def.4, XI.13
 
 .. _XI.19:
 
@@ -18,14 +18,14 @@ PROPOSITION 19.
 
 .. enunciation::
 
-   If two planes which cut one another be at right angles to any plane, their common section will also be at right angles to the same plane.
+   If two :term:`planes <plane-surface>` which cut one another be :term:`at right angles <right-angle>` to any plane, their common section will also be :term:`at right angles to the same plane <right-angles-to-plane>`.
 
 For let the two planes :g:`AB <0308.g2:< A B >>`, :g:`BC <0308.g2:< B C >>` be at right angles to the plane of reference, and let :g:`BD <0308.g2:/ B D />` be their common section; I say that :g:`BD <0308.g2:/ B D />` is at right angles to the plane of reference.
 
 .. picture:: 0308.g2.svg
    :alt: Book XI, Proposition 19
 
-For suppose it is not, and from the point :g:`D <0308.g2:D>` let :g:`DE <0308.g2:/ D E />` be drawn in the plane :g:`AB <0308.g2:< A B >>` at right angles to the straight line :g:`AD <0308.g2:/ A D />`, and :g:`DF <0308.g2:/ D F />` in the plane :g:`BC <0308.g2:< B C >>` at right angles to :g:`CD <0308.g2:/ C D />`.
+For suppose it is not, and from the :term:`point <point>` :g:`D <0308.g2:D>` let :g:`DE <0308.g2:/ D E />` be drawn in the plane :g:`AB <0308.g2:< A B >>` at right angles to the :term:`straight line <straight-line>` :g:`AD <0308.g2:/ A D />`, and :g:`DF <0308.g2:/ D F />` in the plane :g:`BC <0308.g2:< B C >>` at right angles to :g:`CD <0308.g2:/ C D />`.
 
 .. subclause::
 
@@ -66,12 +66,45 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
      "XI.def.3" [label="XI.def.3", fillcolor="#224422", tooltip="XI.def.3: A straight line is at right angles to a plane, when it makes right angles with all the straight lines which meet it and are in the plane.", URL="../../definitions/index.html#xi-def-3", target="_top"];
      "XI.def.4" [label="XI.def.4", fillcolor="#224422", tooltip="XI.def.4: A plane is at right angles to a plane when the straight lines drawn, in one of the planes, at right angles to the common section of the planes are at right angles to the remaining…", URL="../../definitions/index.html#xi-def-4", target="_top"];
      "XI.3" [label="XI.3", fillcolor="#222244", tooltip="XI.3: If two planes cut one another, their common section is a straight line.", URL="../03/index.html", target="_top"];
      "XI.13" [label="XI.13", fillcolor="#222244", tooltip="XI.13: From the same point two straight lines cannot be set up at right angles to the same plane on the same side.", URL="../13/index.html", target="_top"];
      "XI.19" [label="XI.19", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.19: If two planes which cut one another be at right angles to any plane, their common section will also be at right angles to the same plane.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "XI.13" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "XI.def.3" -> "I.def.4";
+     "XI.def.4" -> "I.def.4";
+     "XI.3" -> "I.def.4";
+     "XI.13" -> "I.def.4";
+     "I.def.7" -> "I.def.5";
+     "I.def.8" -> "I.def.7";
+     "XI.def.3" -> "I.def.7";
+     "XI.def.4" -> "I.def.7";
+     "XI.3" -> "I.def.7";
+     "XI.19" -> "I.def.7";
+     "I.def.10" -> "I.def.8";
+     "XI.def.3" -> "I.def.10";
+     "XI.def.4" -> "I.def.10";
+     "XI.19" -> "I.def.10";
      "XI.13" -> "XI.def.3";
+     "XI.19" -> "XI.def.3";
      "XI.19" -> "XI.def.4";
      "XI.13" -> "XI.3";
      "XI.19" -> "XI.13";

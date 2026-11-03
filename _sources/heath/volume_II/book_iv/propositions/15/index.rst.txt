@@ -6,7 +6,7 @@
 :title: Proposition IV.15
 :folios: 0113, 0114, 0115
 :pages: 107, 108, 109
-:dependencies: I.5, I.15, I.32, III.26, III.27, III.29
+:dependencies: I.def.15, I.def.20, I.5, I.15, I.32, III.26, III.27, III.29, IV.def.3, IV.def.4, IV.def.5
 
 .. _IV.15:
 
@@ -18,19 +18,19 @@ PROPOSITION 15.
 
 .. enunciation::
 
-   In a given circle to inscribe an equilateral and equiangular hexagon.
+   In a given :term:`circle <circle>` to inscribe an :term:`equilateral <equilateral-triangle>` and equiangular hexagon.
 
 Let :g:`ABCDEF <0113.g1:( A B C D E F )>` be the given circle;
 thus it is required to inscribe an equilateral and equiangular
 hexagon in the circle :g:`ABCDEF <0113.g1:( A B C D E F )>`.
 
-Let the diameter :g:`AD <0113.g1:/ A D />` of the circle
+Let the :term:`diameter <diameter>` :g:`AD <0113.g1:/ A D />` of the circle
 :g:`ABCDEF <0113.g1:( A B C D E F )>` be drawn;
-let the centre :g:`G <0113.g1:G>` of the circle be taken, and
+let the :term:`centre <centre>` :g:`G <0113.g1:G>` of the circle be taken, and
 with centre :g:`D <0113.g1:D>` and distance :g:`DG <0113.g1:/ G D />` let the
 circle :g:`EGCH <0113.g1:( E G C H )>` be described;
 let :g:`EG <0113.g1:/ G E />`, :g:`CG <0113.g1:/ G C />` be joined and carried through
-to the points :g:`B <0113.g1:B>`, :g:`F <0113.g1:F>`,
+to the :term:`points <point>` :g:`B <0113.g1:B>`, :g:`F <0113.g1:F>`,
 and let :g:`AB <0113.g1:/ A B />`, :g:`BC <0113.g1:/ B C />`, :g:`CD <0113.g1:/ C D />`, :g:`DE <0113.g1:/ D E />`, :g:`EF <0113.g1:/ E F />`, :g:`FA <0113.g1:/ F A />` be
 joined.
 
@@ -65,14 +65,14 @@ But :g:`GE <0113.g1:/ G E />` was proved :eq:`equal <0113.g1:/ G E / = 0113.g1:/
 
 .. assertion::
 
-   therefore the triangle :g:`EGD <0113.g1:< E G D >>` is :eq:`equilateral <0113.g1:/ G E / = 0113.g1:/ G D / = 0113.g1:/ D E />`;
+   therefore the :term:`triangle <trilateral>` :g:`EGD <0113.g1:< E G D >>` is :eq:`equilateral <0113.g1:/ G E / = 0113.g1:/ G D / = 0113.g1:/ D E />`;
 
-and therefore its three angles :g:`EGD <0113.g1:< E G D )>`, :g:`GDE <0113.g1:< G D E )>`, :g:`DEG <0113.g1:< D E G )>` are :eq:`equal <0113.g1:< E G D ) = 0113.g1:< G D E ) = 0113.g1:< D E G )>`
+and therefore its three :term:`angles <plane-angle>` :g:`EGD <0113.g1:< E G D )>`, :g:`GDE <0113.g1:< G D E )>`, :g:`DEG <0113.g1:< D E G )>` are :eq:`equal <0113.g1:< E G D ) = 0113.g1:< G D E ) = 0113.g1:< D E G )>`
 to one another, inasmuch as, in isosceles triangles, the angles
 at the base are equal to one another. :just:`[I. 5] <I.5>`
 
 And the three angles of the triangle are equal to two
-right angles; :just:`[I. 32] <I.32>`
+:term:`right angles <right-angle>`; :just:`[I. 32] <I.32>`
 
 .. assertion::
 
@@ -81,7 +81,7 @@ right angles; :just:`[I. 32] <I.32>`
 Similarly, the angle :g:`DGC <0113.g1:< D G C )>` can also be proved to be one-third
 of two right angles.
 
-And, since the straight line :g:`CG <0113.g1:/ G C />` standing on :g:`EB <0113.g1:/ B E />` makes
+And, since the :term:`straight line <straight-line>` :g:`CG <0113.g1:/ G C />` standing on :g:`EB <0113.g1:/ B E />` makes
 the adjacent angles :g:`EGC <0113.g1:< E G C )>`, :g:`CGB <0113.g1:< C G B )>` equal to two right angles,
 
 .. assertion::
@@ -97,14 +97,14 @@ so that the angles vertical to them, the angles :g:`BGA <0113.g1:< B G A )>`, :g
 
    Therefore the six angles :g:`EGD <0113.g1:< E G D )>`, :g:`DGC <0113.g1:< D G C )>`, :g:`CGB <0113.g1:< C G B )>`, :g:`BGA <0113.g1:< B G A )>`, :g:`AGF <0113.g1:< A G F )>`, :g:`FGE <0113.g1:< F G E )>` are :eq:`equal <0113.g1:< E G D ) = 0113.g1:< D G C ) = 0113.g1:< C G B ) = 0113.g1:< B G A ) = 0113.g1:< A G F ) = 0113.g1:< F G E )>` to one another.
 
-But equal angles stand on equal circumferences; :just:`[III. 26] <III.26>`
+But equal angles :term:`stand on equal circumferences <stand-upon-circumference>`; :just:`[III. 26] <III.26>`
 
 .. assertion::
 
    therefore the six circumferences :g:`AB <0113.g1:( A B )>`, :g:`BC <0113.g1:( B C )>`, :g:`CD <0113.g1:( C D )>`, :g:`DE <0113.g1:( D E )>`, :g:`EF <0113.g1:( E F )>`, :g:`FA <0113.g1:( F A )>` are :eq:`equal <0113.g1:( A B ) = 0113.g1:( B C ) = 0113.g1:( C D ) = 0113.g1:( D E ) = 0113.g1:( E F ) = 0113.g1:( F A )>` to one another.
 
 And equal circumferences are subtended by equal straight
-lines; :just:`[III. 29] <III.29>`
+:term:`lines <line>`; :just:`[III. 29] <III.29>`
 
 .. assertion::
 
@@ -148,7 +148,7 @@ the angles :g:`AFE <0113.g1:< A F E )>`, :g:`FED <0113.g1:< F E D )>`;
    therefore the hexagon :g:`ABCDEF <0113.g1:< A B C D E F >>` is equiangular.
 
 But it was also proved :eq:`equilateral <0113.g1:/ A B / = 0113.g1:/ B C / = 0113.g1:/ C D / = 0113.g1:/ D E / = 0113.g1:/ E F / = 0113.g1:/ F A />`;
-and it has been inscribed in the circle :g:`ABCDEF <0113.g1:( A B C D E F )>`.
+and it has been :term:`inscribed in the circle <inscribed-in-circle>` :g:`ABCDEF <0113.g1:( A B C D E F )>`.
 
 .. qed::
 
@@ -166,7 +166,7 @@ circle an equilateral and equiangular hexagon in conformity
 with what was explained in the case of the pentagon.
 
 And further by means similar to those explained in the
-case of the pentagon we can both inscribe a circle in a given
+case of the pentagon we can both :term:`inscribe a circle in <circle-inscribed-in-figure>` a given
 hexagon and circumscribe one about it.
 
 .. qed::
@@ -183,8 +183,23 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.17" [label="I.def.17", fillcolor="#224422", tooltip="I.def.17: A diameter of the circle is any straight line drawn through the centre and terminated in both directions by the circumference of the circle, and such a straight line also bisects…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-17", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
      "I.def.23" [label="I.def.23", fillcolor="#224422", tooltip="I.def.23: Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-23", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
@@ -218,6 +233,9 @@ Dependency Graph
      "I.29" [label="I.29", fillcolor="#222244", tooltip="I.29: A straight line falling on parallel straight lines makes the alternate angles equal to one another, the exterior angle equal to the interior and opposite angle, and the interior…", URL="../../../../volume_I/book_i/propositions/29/index.html", target="_top"];
      "I.31" [label="I.31", fillcolor="#222244", tooltip="I.31: Through a given point to draw a straight line parallel to a given straight line.", URL="../../../../volume_I/book_i/propositions/31/index.html", target="_top"];
      "I.32" [label="I.32", fillcolor="#222244", tooltip="I.32: In any triangle, if one of the sides be produced, the exterior angle is equal to the two interior and opposite angles, and the three interior angles of the triangle are equal to…", URL="../../../../volume_I/book_i/propositions/32/index.html", target="_top"];
+     "III.def.1" [label="III.def.1", fillcolor="#224422", tooltip="III.def.1: Equal circles are those the diameters of which are equal, or the radii of which are equal.", URL="../../../book_iii/definitions/index.html#iii-def-1", target="_top"];
+     "III.def.9" [label="III.def.9", fillcolor="#224422", tooltip="III.def.9: And, when the straight lines containing the angle cut off a circumference, the angle is said to stand upon that circumference.", URL="../../../book_iii/definitions/index.html#iii-def-9", target="_top"];
+     "III.def.10" [label="III.def.10", fillcolor="#224422", tooltip="III.def.10: A sector of a circle is the figure which, when an angle is constructed at the centre of the circle, is contained by the straight lines containing the angle and the circumference…", URL="../../../book_iii/definitions/index.html#iii-def-10", target="_top"];
      "III.def.11" [label="III.def.11", fillcolor="#224422", tooltip="III.def.11: Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another.", URL="../../../book_iii/definitions/index.html#iii-def-11", target="_top"];
      "III.1" [label="III.1", fillcolor="#222244", tooltip="III.1: To find the centre of a given circle.", URL="../../../book_iii/propositions/01/index.html", target="_top"];
      "III.5" [label="III.5", fillcolor="#222244", tooltip="III.5: If two circles cut one another, they will not have the same centre.", URL="../../../book_iii/propositions/05/index.html", target="_top"];
@@ -227,14 +245,142 @@ Dependency Graph
      "III.26" [label="III.26", fillcolor="#222244", tooltip="III.26: In equal circles equal angles stand on equal circumferences, whether they stand at the centres or at the circumferences.", URL="../../../book_iii/propositions/26/index.html", target="_top"];
      "III.27" [label="III.27", fillcolor="#222244", tooltip="III.27: In equal circles angles standing on equal circumferences are equal to one another, whether they stand at the centres or at the circumferences.", URL="../../../book_iii/propositions/27/index.html", target="_top"];
      "III.29" [label="III.29", fillcolor="#222244", tooltip="III.29: In equal circles equal circumferences are subtended by equal straight lines.", URL="../../../book_iii/propositions/29/index.html", target="_top"];
+     "IV.def.3" [label="IV.def.3", fillcolor="#224422", tooltip="IV.def.3: A rectilineal figure is said to be inscribed in a circle when each angle of the inscribed figure lies on the circumference of the circle.", URL="../../definitions/index.html#iv-def-3", target="_top"];
+     "IV.def.4" [label="IV.def.4", fillcolor="#224422", tooltip="IV.def.4: A rectilineal figure is said to be circumscribed about a circle, when each side of the circumscribed figure touches the circumference of the circle.", URL="../../definitions/index.html#iv-def-4", target="_top"];
+     "IV.def.5" [label="IV.def.5", fillcolor="#224422", tooltip="IV.def.5: Similarly a circle is said to be inscribed in a figure when the circumference of the circle touches each side of the figure in which it is inscribed.", URL="../../definitions/index.html#iv-def-5", target="_top"];
      "IV.15" [label="IV.15", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IV.15: In a given circle to inscribe an equilateral and equiangular hexagon.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.31" -> "I.def.1";
+     "III.10" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.17" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.def.23" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.post.5" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.27" -> "I.def.4";
+     "I.29" -> "I.def.4";
+     "I.31" -> "I.def.4";
+     "III.def.9" -> "I.def.4";
+     "III.def.10" -> "I.def.4";
+     "III.24" -> "I.def.4";
+     "III.29" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.23" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.post.5" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.27" -> "I.def.8";
+     "I.29" -> "I.def.8";
+     "I.32" -> "I.def.8";
+     "III.def.9" -> "I.def.8";
+     "III.def.10" -> "I.def.8";
+     "III.def.11" -> "I.def.8";
+     "III.20" -> "I.def.8";
+     "III.26" -> "I.def.8";
+     "III.27" -> "I.def.8";
+     "IV.def.3" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
+     "I.post.5" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.29" -> "I.def.10";
+     "I.32" -> "I.def.10";
      "III.1" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "III.def.10" -> "I.def.14";
+     "IV.def.3" -> "I.def.14";
+     "IV.def.4" -> "I.def.14";
+     "IV.def.5" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.def.17" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "III.def.10" -> "I.def.15";
+     "III.1" -> "I.def.15";
      "III.5" -> "I.def.15";
+     "III.10" -> "I.def.15";
+     "III.20" -> "I.def.15";
+     "IV.def.3" -> "I.def.15";
+     "IV.def.4" -> "I.def.15";
+     "IV.def.5" -> "I.def.15";
+     "IV.15" -> "I.def.15";
+     "I.def.17" -> "I.def.16";
+     "I.post.3" -> "I.def.16";
+     "III.def.10" -> "I.def.16";
+     "III.1" -> "I.def.16";
+     "III.5" -> "I.def.16";
+     "III.26" -> "I.def.16";
+     "III.27" -> "I.def.16";
+     "III.def.1" -> "I.def.17";
+     "I.def.20" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.32" -> "I.def.19";
+     "IV.def.3" -> "I.def.19";
+     "IV.def.4" -> "I.def.19";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
+     "IV.15" -> "I.def.20";
      "I.27" -> "I.def.23";
+     "I.29" -> "I.def.23";
+     "I.31" -> "I.def.23";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";
@@ -308,6 +454,13 @@ Dependency Graph
      "I.32" -> "I.31";
      "III.20" -> "I.32";
      "IV.15" -> "I.32";
+     "III.26" -> "III.def.1";
+     "III.27" -> "III.def.1";
+     "III.29" -> "III.def.1";
+     "III.26" -> "III.def.9";
+     "III.27" -> "III.def.9";
+     "III.20" -> "III.def.10";
+     "III.24" -> "III.def.11";
      "III.26" -> "III.def.11";
      "III.10" -> "III.1";
      "III.10" -> "III.5";
@@ -319,6 +472,9 @@ Dependency Graph
      "III.29" -> "III.27";
      "IV.15" -> "III.27";
      "IV.15" -> "III.29";
+     "IV.15" -> "IV.def.3";
+     "IV.15" -> "IV.def.4";
+     "IV.15" -> "IV.def.5";
    }
 
 Required for

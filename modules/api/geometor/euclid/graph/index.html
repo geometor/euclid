@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=69acf51f" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -109,34 +109,37 @@
         <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
         <table class="autosummary longtable docutils align-default">
         <tbody>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.infer_justification_target" title="geometor.euclid.graph.infer_justification_target"><code class="xref py py-obj docutils literal notranslate"><span class="pre">infer_justification_target</span></code></a>(→ Optional[str])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.infer_justification_target" title="geometor.euclid.graph.infer_justification_target"><code class="xref py py-obj docutils literal notranslate"><span class="pre">infer_justification_target</span></code></a>(display[, current_book]) → Optional[str]</p></td>
         <td><p>Infer canonical target ID(s) from justification text when &lt;target&gt; is omitted.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.parse_justification_arg" title="geometor.euclid.graph.parse_justification_arg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_justification_arg</span></code></a>(→ Tuple[str, Optional[str]])</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.parse_justification_arg" title="geometor.euclid.graph.parse_justification_arg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_justification_arg</span></code></a>(raw_arg[, current_book]) → Tuple[str, Optional[str]]</p></td>
         <td><p>Parse a justification string into (display_text, target_id).</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.canonical_sort_key" title="geometor.euclid.graph.canonical_sort_key"><code class="xref py py-obj docutils literal notranslate"><span class="pre">canonical_sort_key</span></code></a>(→ Tuple[int, int, int, int, str])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.canonical_sort_key" title="geometor.euclid.graph.canonical_sort_key"><code class="xref py py-obj docutils literal notranslate"><span class="pre">canonical_sort_key</span></code></a>(ref_id) → Tuple[int, int, int, int, str]</p></td>
         <td><p>Return a deterministic sort key for canonical Euclid IDs (e.g. I.def.15, I.post.1, I.cn.4, I.47).</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.get_node_type" title="geometor.euclid.graph.get_node_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_node_type</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.get_node_type" title="geometor.euclid.graph.get_node_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_node_type</span></code></a>(ref_id) → str</p></td>
         <td><p>Classify a canonical Euclid ID into 'prop', 'def', 'post', or 'cn'.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.extract_dependencies_from_rst_body" title="geometor.euclid.graph.extract_dependencies_from_rst_body"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extract_dependencies_from_rst_body</span></code></a>(→ List[str])</p></td>
-        <td><p>Extract sorted unique canonical dependency IDs from a composed RST body.</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.extract_dependencies_from_rst_body" title="geometor.euclid.graph.extract_dependencies_from_rst_body"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extract_dependencies_from_rst_body</span></code></a>(rst_body[, ...]) → List[str]</p></td>
+        <td><p>Extract sorted unique canonical dependency IDs from :just: roles and assertion directives.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.clean_rst_enunciation" title="geometor.euclid.graph.clean_rst_enunciation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clean_rst_enunciation</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.extract_term_dependencies_from_rst_body" title="geometor.euclid.graph.extract_term_dependencies_from_rst_body"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extract_term_dependencies_from_rst_body</span></code></a>(rst_body, unit_id) → Tuple[Set[str], Set[str]]</p></td>
+        <td><p>Extract (all_term_deps, enunciation_term_deps) from defined terms in rst_body.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.clean_rst_enunciation" title="geometor.euclid.graph.clean_rst_enunciation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clean_rst_enunciation</span></code></a>(raw_text) → str</p></td>
         <td><p>Strip RST inline roles, footnote markers, emphasis, and item numbers from an enunciation or definition.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.truncate_enunciation" title="geometor.euclid.graph.truncate_enunciation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">truncate_enunciation</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.truncate_enunciation" title="geometor.euclid.graph.truncate_enunciation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">truncate_enunciation</span></code></a>(text[, max_chars]) → str</p></td>
         <td><p>Collapse whitespace and truncate a long enunciation cleanly at a word boundary.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.format_node_tooltip" title="geometor.euclid.graph.format_node_tooltip"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_node_tooltip</span></code></a>(→ str)</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.format_node_tooltip" title="geometor.euclid.graph.format_node_tooltip"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_node_tooltip</span></code></a>(node_id, enunciations[, max_chars]) → str</p></td>
         <td><p>Format a truncated enunciation tooltip for a Graphviz node.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.generate_proof_chain_dot" title="geometor.euclid.graph.generate_proof_chain_dot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_proof_chain_dot</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.generate_proof_chain_dot" title="geometor.euclid.graph.generate_proof_chain_dot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_proof_chain_dot</span></code></a>(graph, element_ref, ...[, ...]) → str</p></td>
         <td><p>Generate a Graphviz DOT string for the transitive proof chain of element_ref.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.graph.build_graph" title="geometor.euclid.graph.build_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_graph</span></code></a>(→ Tuple[networkx.DiGraph, Dict[str, Any]])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.graph.build_graph" title="geometor.euclid.graph.build_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_graph</span></code></a>([heath_out_dir, inject_rst]) → Tuple[networkx.DiGraph, Dict[str, Any]]</p></td>
         <td><p>Build the NetworkX dependency graph from the composed RST files under docsrc/heath/.</p></td>
         </tr>
         </tbody>
@@ -191,9 +194,13 @@
         <dl class="py function">
         <dt class="sig sig-object py" id="geometor.euclid.graph.extract_dependencies_from_rst_body">
         <span class="sig-prename descclassname"><span class="pre">geometor.euclid.graph.</span></span><span class="sig-name descname"><span class="pre">extract_dependencies_from_rst_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rst_body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">current_book</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.graph.extract_dependencies_from_rst_body" title="Link to this definition">¶</a></dt>
-        <dd><p>Extract sorted unique canonical dependency IDs from a composed RST body.</p>
-        <p>Strips footnote definitions and trailing commentary dividers so only dependencies
-        from Euclid’s proof and porisms are recorded.</p>
+        <dd><p>Extract sorted unique canonical dependency IDs from :just: roles and assertion directives.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.euclid.graph.extract_term_dependencies_from_rst_body">
+        <span class="sig-prename descclassname"><span class="pre">geometor.euclid.graph.</span></span><span class="sig-name descname"><span class="pre">extract_term_dependencies_from_rst_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rst_body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.euclid.graph.extract_term_dependencies_from_rst_body" title="Link to this definition">¶</a></dt>
+        <dd><p>Extract (all_term_deps, enunciation_term_deps) from defined terms in rst_body.</p>
         </dd></dl>
 
         <dl class="py function">
@@ -342,7 +349,7 @@
   <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="../../../../../_static/js/geometor_interactive.js?v=4430a5d4"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../../../../_static/js/search_highlight.js"></script>
 
 </body>

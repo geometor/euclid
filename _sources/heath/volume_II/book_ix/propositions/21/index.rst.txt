@@ -6,7 +6,7 @@
 :title: Proposition IX.21
 :folios: 0419
 :pages: 413
-:dependencies: VII.def.6
+:dependencies: VII.def.2, VII.def.6
 
 .. _IX.21:
 
@@ -18,7 +18,7 @@ PROPOSITION 21.
 
 .. enunciation::
 
-   If as many even numbers as we please be added together, the whole is even.
+   If as many :term:`even numbers <even-number>` as we please be added together, the whole is even.
 
 For let as many even numbers as we please, :g:`AB <0419.g1:/ A B />`, :g:`BC <0419.g1:/ B C />`, :g:`CD <0419.g1:/ C D />`, :g:`DE <0419.g1:/ D E />`, be added together ;
 
@@ -29,7 +29,7 @@ I say that the whole :g:`AE <0419.g1:/ A E />` is even.
 
 .. subclause::
 
-   For, since each of the numbers :g:`AB <0419.g1:/ A B />`, :g:`BC <0419.g1:/ B C />`, :g:`CD <0419.g1:/ C D />`, :g:`DE <0419.g1:/ D E />` is even, it has a half part ; :just:`[VII. Def. 6] <VII.def.6>`
+   For, since each of the :term:`numbers <number>` :g:`AB <0419.g1:/ A B />`, :g:`BC <0419.g1:/ B C />`, :g:`CD <0419.g1:/ C D />`, :g:`DE <0419.g1:/ D E />` is even, it has a half part ; :just:`[VII. Def. 6] <VII.def.6>`
 
 .. assertion::
 
@@ -57,8 +57,12 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
      "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
      "IX.21" [label="IX.21", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.21: If as many even numbers as we please be added together, the whole is even.", URL="index.html", target="_top"];
+     "VII.def.2" -> "VII.def.1";
+     "IX.21" -> "VII.def.2";
      "IX.21" -> "VII.def.6";
    }
 

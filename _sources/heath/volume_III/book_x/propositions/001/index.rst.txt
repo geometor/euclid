@@ -6,7 +6,7 @@
 :title: Proposition X.1
 :folios: 0018, 0019
 :pages: 14, 15
-:dependencies: V.def.4
+:dependencies: V.def.4, VII.def.5, VII.def.6, VII.def.15
 
 .. _X.1:
 
@@ -27,9 +27,9 @@ Let :g:`AB <0018.g1:/ A B />`, :g:`C <0018.g1:C>` be two unequal magnitudes of w
 .. picture:: 0018.g1.svg
    :alt: Book X, Proposition 1
 
-For :g:`C <0018.g1:C>` if multiplied will sometime be greater than :g:`AB <0018.g1:/ A B />`. :just:`[cf. v. Def. 4]`
+For :g:`C <0018.g1:C>` if :term:`multiplied <multiply>` will sometime be greater than :g:`AB <0018.g1:/ A B />`. :just:`[cf. v. Def. 4]`
 
-Let it be multiplied, and let :g:`DE <0018.g1:/ D E />` be a multiple of :g:`C <0018.g1:C>`, and greater than :g:`AB <0018.g1:/ A B />`; let :g:`DE <0018.g1:/ D E />` be divided into the parts :g:`DF <0018.g1:/ D F />`, :g:`FG <0018.g1:/ F G />`, :g:`GE <0018.g1:/ G E />` :eq:`equal <0018.g1:/ D F / = 0018.g1:/ F G / = 0018.g1:/ G E / = 0018.g1:C>` to :g:`C <0018.g1:C>`, from :g:`AB <0018.g1:/ A B />` let there be subtracted :g:`BH <0018.g1:/ B H />` greater than its half, and, from :g:`AH <0018.g1:/ A H />`, :g:`HK <0018.g1:/ H K />` greater than its half, and let this process be repeated continually until the divisions in :g:`AB <0018.g1:/ A B />` are equal in multitude with the divisions in :g:`DE <0018.g1:/ D E />`.
+Let it be multiplied, and let :g:`DE <0018.g1:/ D E />` be a :term:`multiple of <multiple>` :g:`C <0018.g1:C>`, and greater than :g:`AB <0018.g1:/ A B />`; let :g:`DE <0018.g1:/ D E />` be divided into the parts :g:`DF <0018.g1:/ D F />`, :g:`FG <0018.g1:/ F G />`, :g:`GE <0018.g1:/ G E />` :eq:`equal <0018.g1:/ D F / = 0018.g1:/ F G / = 0018.g1:/ G E / = 0018.g1:C>` to :g:`C <0018.g1:C>`, from :g:`AB <0018.g1:/ A B />` let there be subtracted :g:`BH <0018.g1:/ B H />` greater than its half, and, from :g:`AH <0018.g1:/ A H />`, :g:`HK <0018.g1:/ H K />` greater than its half, and let this process be repeated continually until the divisions in :g:`AB <0018.g1:/ A B />` are equal in multitude with the divisions in :g:`DE <0018.g1:/ D E />`.
 
 Let, then, :g:`AK <0018.g1:/ A K />`, :g:`KH <0018.g1:/ K H />`, :g:`HB <0018.g1:/ H B />` be divisions which are equal in multitude with :g:`DF <0018.g1:/ D F />`, :g:`FG <0018.g1:/ F G />`, :g:`GE <0018.g1:/ G E />`.
 
@@ -72,7 +72,7 @@ Let, then, :g:`AK <0018.g1:/ A K />`, :g:`KH <0018.g1:/ K H />`, :g:`HB <0018.g1
 
 .. assertion::
 
-   And the theorem can be similarly proved even if the parts subtracted be halves.
+   And the theorem can be similarly proved :term:`even <even-number>` if the parts subtracted be halves.
 
 Dependency Graph
 ----------------
@@ -84,9 +84,23 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-4", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-5", target="_top"];
+     "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-6", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../../volume_II/book_vii/definitions/index.html#vii-def-15", target="_top"];
      "X.1" [label="X.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.1: Two unequal magnitudes being set out, if from the greater there be subtracted a magnitude greater than its half, and from that which is left a magnitude greater than its half, and…", URL="index.html", target="_top"];
+     "VII.def.5" -> "V.def.1";
      "X.1" -> "V.def.4";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.def.5" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "X.1" -> "VII.def.5";
+     "X.1" -> "VII.def.6";
+     "X.1" -> "VII.def.15";
    }
 
 Required for

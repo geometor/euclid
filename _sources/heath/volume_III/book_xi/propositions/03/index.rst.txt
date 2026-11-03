@@ -6,6 +6,7 @@
 :title: Proposition XI.3
 :folios: 0280
 :pages: 276
+:dependencies: I.def.4, I.def.7
 
 .. _XI.3:
 
@@ -17,9 +18,9 @@ PROPOSITION 3.
 
 .. enunciation::
 
-   If two planes cut one another, their common section is a straight line.
+   If two :term:`planes <plane-surface>` cut one another, their common section is a :term:`straight line <straight-line>`.
 
-For let the two planes :g:`AB <0280.g1:< A B >>`, :g:`BC <0280.g1:< B C >>` cut one another, and let the line :g:`DB <0280.g1:/ D B />` be their common section; I say that the line :g:`DB <0280.g1:/ D B />` is a straight line.
+For let the two planes :g:`AB <0280.g1:< A B >>`, :g:`BC <0280.g1:< B C >>` cut one another, and let the :term:`line <line>` :g:`DB <0280.g1:/ D B />` be their common section; I say that the line :g:`DB <0280.g1:/ D B />` is a straight line.
 
 .. picture:: 0280.g1.svg
    :alt: Book XI, Proposition 3
@@ -28,7 +29,7 @@ For, if not, from :g:`D <0280.g1:D>` to :g:`B <0280.g1:B>` let the straight line
 
 .. assertion::
 
-   Then the two straight lines :g:`DEB <0280.g1:/ D E B />`, :g:`DFB <0280.g1:/ D F B />` will have the same extremities, and will clearly enclose an area:
+   Then the two straight lines :g:`DEB <0280.g1:/ D E B />`, :g:`DFB <0280.g1:/ D F B />` will have the same :term:`extremities <extremity>`, and will clearly enclose an area:
 
 .. assertion::
 
@@ -45,6 +46,34 @@ For, if not, from :g:`D <0280.g1:D>` to :g:`B <0280.g1:B>` let the straight line
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "XI.3" [label="XI.3", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.3: If two planes cut one another, their common section is a straight line.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "XI.3" -> "I.def.4";
+     "I.def.7" -> "I.def.5";
+     "XI.3" -> "I.def.7";
+   }
 
 Required for
 ------------

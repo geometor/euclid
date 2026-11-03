@@ -6,7 +6,7 @@
 :title: Proposition VII.4
 :folios: 0309
 :pages: 303
-:dependencies: VII.2
+:dependencies: VII.def.2, VII.def.3, VII.def.4, VII.2
 
 .. _VII.4:
 
@@ -18,7 +18,7 @@ PROPOSITION 4.
 
 .. enunciation::
 
-   Any number is either a part or parts of any number, the less of the greater.
+   Any :term:`number <number>` is either a part or :term:`parts of <parts-non-aliquot>` any number, the less of the greater.
 
 Let :g:`A <0309.g1:A>`, :g:`BC <0309.g1:/ B C />` be two numbers, and let :g:`BC <0309.g1:/ B C />` be the less ;
 
@@ -26,19 +26,19 @@ I say that :g:`BC <0309.g1:/ B C />` is either a part, or parts, of :g:`A <0309.
 
 .. subclause::
 
-   For :g:`A <0309.g1:A>`, :g:`BC <0309.g1:/ B C />` are either prime to one another or not.
+   For :g:`A <0309.g1:A>`, :g:`BC <0309.g1:/ B C />` are either :term:`prime to one another <prime-to-one-another>` or not.
 
 First, let :g:`A <0309.g1:A>`, :g:`BC <0309.g1:/ B C />` be prime to one another.
 
 .. subclause::
 
-   Then, if :g:`BC <0309.g1:/ B C />` be divided into the units in it, each unit of those in :g:`BC <0309.g1:/ B C />` will be some part of :g:`A <0309.g1:A>` ;
+   Then, if :g:`BC <0309.g1:/ B C />` be divided into the :term:`units <unit>` in it, each unit of those in :g:`BC <0309.g1:/ B C />` will be some :term:`part of <part-aliquot>` :g:`A <0309.g1:A>` ;
 
 .. assertion::
 
    so that :g:`BC <0309.g1:/ B C />` is parts of :g:`A <0309.g1:A>`.
 
-Next let :g:`A <0309.g1:A>`, :g:`BC <0309.g1:/ B C />` not be prime to one another ; then :g:`BC <0309.g1:/ B C />` either measures, or does not measure, :g:`A <0309.g1:A>`.
+Next let :g:`A <0309.g1:A>`, :g:`BC <0309.g1:/ B C />` not be prime to one another ; then :g:`BC <0309.g1:/ B C />` either :term:`measures <part-aliquot>`, or does not measure, :g:`A <0309.g1:A>`.
 
 .. subclause::
 
@@ -81,11 +81,31 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../definitions/index.html#vii-def-4", target="_top"];
      "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
      "VII.1" [label="VII.1", fillcolor="#222244", tooltip="VII.1: Two unequal numbers being set out, and the less being continually subtracted in turn from the greater, if the number which is left never measures the one before it until an unit…", URL="../01/index.html", target="_top"];
      "VII.2" [label="VII.2", fillcolor="#222244", tooltip="VII.2: Given two numbers not prime to one another, to find their greatest common measure.", URL="../02/index.html", target="_top"];
      "VII.4" [label="VII.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.4: Any number is either a part or parts of any number, the less of the greater.", URL="index.html", target="_top"];
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.12" -> "V.def.1";
+     "VII.1" -> "V.def.1";
+     "VII.2" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.1" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.1" -> "VII.def.2";
+     "VII.2" -> "VII.def.2";
+     "VII.4" -> "VII.def.2";
+     "VII.4" -> "VII.def.3";
+     "VII.4" -> "VII.def.4";
      "VII.1" -> "VII.def.12";
+     "VII.2" -> "VII.def.12";
      "VII.2" -> "VII.1";
      "VII.4" -> "VII.2";
    }

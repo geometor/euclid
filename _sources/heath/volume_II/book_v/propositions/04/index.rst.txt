@@ -6,7 +6,7 @@
 :title: Proposition V.4
 :folios: 0148, 0149
 :pages: 142, 143
-:dependencies: V.def.5, V.3
+:dependencies: V.def.2, V.def.5, V.3
 
 .. _V.4:
 
@@ -18,7 +18,7 @@ PROPOSITION 4.
 
 .. enunciation::
 
-   If a first magnitude have to a second the same ratio as a third to a fourth, any equimultiples whatever of the first and third will also have the same ratio to any equimultiples whatever of the second and fourth respectively, taken in corresponding order.
+   If a first magnitude have to a second the :term:`same ratio <in-the-same-ratio>` as a third to a fourth, any :term:`equimultiples <multiple>` whatever of the first and third will also have the same ratio to any equimultiples whatever of the second and fourth respectively, taken in corresponding order.
 
 For let a first magnitude :g:`A <0148.g1:A>` have to a second :g:`B <0148.g1:B>` the same ratio as a third :g:`C <0148.g1:C>` to a fourth :g:`D <0148.g1:D>`; and let equimultiples :g:`E <0148.g1:E>`, :g:`F <0148.g1:F>` be taken of :g:`A <0148.g1:A>`, :g:`C <0148.g1:C>`, and :g:`G <0148.g1:G>`, :g:`H <0148.g1:H>` other, chance, equimultiples of :g:`B <0148.g1:B>`, :g:`D <0148.g1:D>`;
 
@@ -72,11 +72,22 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../definitions/index.html#v-def-3", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.17" [label="V.def.17", fillcolor="#224422", tooltip="V.def.17: A ratio ex aequali arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to…", URL="../../definitions/index.html#v-def-17", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
      "V.3" [label="V.3", fillcolor="#222244", tooltip="V.3: If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also ex aequali the magnitudes taken…", URL="../03/index.html", target="_top"];
      "V.4" [label="V.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.4: If a first magnitude have to a second the same ratio as a third to a fourth, any equimultiples whatever of the first and third will also have the same ratio to any equimultiples…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.2" -> "V.def.2";
+     "V.3" -> "V.def.2";
+     "V.4" -> "V.def.2";
+     "V.def.17" -> "V.def.3";
      "V.4" -> "V.def.5";
+     "V.3" -> "V.def.17";
      "V.3" -> "V.2";
      "V.4" -> "V.3";
    }

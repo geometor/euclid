@@ -6,7 +6,7 @@
 :title: Proposition IX.14
 :folios: 0408, 0409
 :pages: 402, 403
-:dependencies: VII.30
+:dependencies: V.def.1, VII.def.2, VII.def.11, VII.30
 
 .. _IX.14:
 
@@ -18,7 +18,7 @@ PROPOSITION 14.
 
 .. enunciation::
 
-   If a number be the least that is measured by prime numbers, it will not be measured by any other prime number except those originally measuring it.
+   If a :term:`number <number>` be the least that is :term:`measured <part-aliquot>` by :term:`prime numbers <prime-number>`, it will not be measured by any other prime number except those originally measuring it.
 
 For let the number :g:`A <0409.g1:A>` be the least that is measured by the prime numbers :g:`B <0409.g1:B>`, :g:`C <0409.g1:C>`, :g:`D <0409.g1:D>` ;
 
@@ -40,7 +40,7 @@ For, if possible, let it be measured by the prime number :g:`E <0409.g1:E>`, and
 
 .. assertion::
 
-   therefore :g:`E <0409.g1:E>` by multiplying :g:`F <0409.g1:F>` has made :g:`A <0409.g1:A>`.
+   therefore :g:`E <0409.g1:E>` by :term:`multiplying <multiply>` :g:`F <0409.g1:F>` has made :g:`A <0409.g1:A>`.
 
 .. subclause::
 
@@ -80,13 +80,30 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../../book_v/definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../../book_v/definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../../book_v/definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../../book_v/definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../../book_v/definitions/index.html#v-def-11", target="_top"];
+     "V.def.12" [label="V.def.12", fillcolor="#224422", tooltip="V.def.12: Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent.", URL="../../../book_v/definitions/index.html#v-def-12", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../../book_v/definitions/index.html#v-def-13", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../../../book_v/propositions/01/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../../../book_v/propositions/07/index.html", target="_top"];
      "V.8" [label="V.8", fillcolor="#222244", tooltip="V.8: Of unequal magnitudes, the greater has to the same a greater ratio than the less has; and the same has to the less a greater ratio than it has to the greater.", URL="../../../book_v/propositions/08/index.html", target="_top"];
      "V.9" [label="V.9", fillcolor="#222244", tooltip="V.9: Magnitudes which have the same ratio to the same are equal to one another ; and magnitudes to which the same has the same ratio are equal.", URL="../../../book_v/propositions/09/index.html", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../../book_vii/definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../../book_vii/definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../../book_vii/definitions/index.html#vii-def-5", target="_top"];
+     "VII.def.11" [label="VII.def.11", fillcolor="#224422", tooltip="VII.def.11: A prime number is that which is measured by an unit alone.", URL="../../../book_vii/definitions/index.html#vii-def-11", target="_top"];
      "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../../book_vii/definitions/index.html#vii-def-12", target="_top"];
      "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
      "VII.def.20" [label="VII.def.20", fillcolor="#224422", tooltip="VII.def.20: Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.", URL="../../../book_vii/definitions/index.html#vii-def-20", target="_top"];
@@ -109,15 +126,102 @@ Dependency Graph
      "VII.29" [label="VII.29", fillcolor="#222244", tooltip="VII.29: Any prime number is prime to any number which it does not measure.", URL="../../../book_vii/propositions/29/index.html", target="_top"];
      "VII.30" [label="VII.30", fillcolor="#222244", tooltip="VII.30: If two numbers by multiplying one another make some number, and any prime number measure the product, it will also measure one of the original numbers.", URL="../../../book_vii/propositions/30/index.html", target="_top"];
      "IX.14" [label="IX.14", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.14: If a number be the least that is measured by prime numbers, it will not be measured by any other prime number except those originally measuring it.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.13" -> "I.def.3";
+     "I.def.14" -> "I.def.13";
+     "V.9" -> "I.def.14";
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.def.11" -> "V.def.1";
+     "VII.def.12" -> "V.def.1";
+     "VII.1" -> "V.def.1";
+     "VII.2" -> "V.def.1";
+     "VII.15" -> "V.def.1";
+     "VII.20" -> "V.def.1";
+     "VII.29" -> "V.def.1";
+     "VII.30" -> "V.def.1";
+     "IX.14" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "VII.5" -> "V.def.2";
      "V.8" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.9" -> "V.def.5";
+     "VII.17" -> "V.def.5";
+     "VII.18" -> "V.def.5";
+     "VII.20" -> "V.def.5";
+     "VII.21" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "VII.13" -> "V.def.6";
+     "VII.19" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.def.12" -> "V.def.11";
+     "V.def.13" -> "V.def.11";
+     "VII.12" -> "V.def.11";
+     "VII.9" -> "V.def.12";
+     "VII.10" -> "V.def.12";
+     "VII.13" -> "V.def.12";
+     "VII.15" -> "V.def.12";
+     "V.7" -> "V.def.13";
      "V.8" -> "V.1";
      "VII.19" -> "V.7";
      "V.9" -> "V.8";
      "VII.19" -> "V.9";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.11" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.1" -> "VII.def.1";
+     "VII.15" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.def.15" -> "VII.def.2";
+     "VII.1" -> "VII.def.2";
+     "VII.2" -> "VII.def.2";
+     "VII.4" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.6" -> "VII.def.2";
+     "VII.9" -> "VII.def.2";
+     "VII.10" -> "VII.def.2";
+     "VII.12" -> "VII.def.2";
+     "VII.13" -> "VII.def.2";
+     "VII.15" -> "VII.def.2";
+     "VII.16" -> "VII.def.2";
+     "VII.17" -> "VII.def.2";
+     "VII.18" -> "VII.def.2";
+     "VII.19" -> "VII.def.2";
+     "VII.20" -> "VII.def.2";
+     "VII.21" -> "VII.def.2";
+     "VII.29" -> "VII.def.2";
+     "VII.30" -> "VII.def.2";
+     "IX.14" -> "VII.def.2";
+     "VII.def.20" -> "VII.def.3";
+     "VII.4" -> "VII.def.3";
+     "VII.5" -> "VII.def.3";
+     "VII.9" -> "VII.def.3";
+     "VII.10" -> "VII.def.3";
+     "VII.def.20" -> "VII.def.4";
+     "VII.4" -> "VII.def.4";
+     "VII.6" -> "VII.def.4";
+     "VII.9" -> "VII.def.4";
+     "VII.10" -> "VII.def.4";
+     "VII.def.20" -> "VII.def.5";
+     "VII.5" -> "VII.def.5";
+     "VII.29" -> "VII.def.11";
+     "VII.30" -> "VII.def.11";
+     "IX.14" -> "VII.def.11";
      "VII.1" -> "VII.def.12";
+     "VII.2" -> "VII.def.12";
      "VII.21" -> "VII.def.12";
+     "VII.29" -> "VII.def.12";
+     "VII.16" -> "VII.def.15";
+     "VII.17" -> "VII.def.15";
+     "VII.18" -> "VII.def.15";
      "VII.30" -> "VII.def.15";
      "VII.12" -> "VII.def.20";
      "VII.13" -> "VII.def.20";

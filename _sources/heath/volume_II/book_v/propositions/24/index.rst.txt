@@ -6,7 +6,7 @@
 :title: Proposition V.24
 :folios: 0189, 0190
 :pages: 183, 184
-:dependencies: V.18, V.22
+:dependencies: V.def.5, V.18, V.22
 
 .. _V.24:
 
@@ -18,7 +18,7 @@ PROPOSITION 24.
 
 .. enunciation::
 
-   If a first magnitude have to a second the same ratio as a third has to a fourth, and also a fifth have to the second the same ratio as a sixth to the fourth, the first and fifth added together will have to the second the same ratio as the third and sixth have to the fourth.
+   If a first magnitude have to a second the :term:`same ratio <in-the-same-ratio>` as a third has to a fourth, and also a fifth have to the second the same ratio as a sixth to the fourth, the first and fifth added together will have to the second the same ratio as the third and sixth have to the fourth.
 
 Let a first magnitude :g:`AB <0189.g2:/ A B />` have to a second :g:`C <0189.g2:C>` the same ratio as a third :g:`DE <0189.g2:/ D E />` has to a fourth :g:`F <0189.g2:F>`; and let also a fifth :g:`BG <0189.g2:/ B G />` have to the second :g:`C <0189.g2:C>` the same ratio as a sixth :g:`EH <0189.g2:/ E H />` has to the fourth :g:`F <0189.g2:F>`;
 
@@ -36,7 +36,7 @@ For since, as :g:`BG <0189.g2:/ B G />` is to :g:`C <0189.g2:C>`, so is :g:`EH <
 
 .. assertion::
 
-   inversely, as :g:`C <0189.g2:C>` is to :g:`BG <0189.g2:/ B G />`, so is :g:`F <0189.g2:F>` to :g:`EH <0189.g2:/ E H />`.
+   :term:`inversely <invertendo>`, as :g:`C <0189.g2:C>` is to :g:`BG <0189.g2:/ B G />`, so is :g:`F <0189.g2:F>` to :g:`EH <0189.g2:/ E H />`.
 
 .. subclause::
 
@@ -46,7 +46,7 @@ For since, as :g:`BG <0189.g2:/ B G />` is to :g:`C <0189.g2:C>`, so is :g:`EH <
 
    therefore, :term:`*ex aequali* <ex-aequali>`, as :g:`AB <0189.g2:/ A B />` is to :g:`BG <0189.g2:/ B G />`, so is :g:`DE <0189.g2:/ D E />` to :g:`EH <0189.g2:/ E H />`.
 
-And, since the magnitudes are proportional :term:`*separando* <separando>`, they will also be proportional :term:`*componendo* <componendo>`; :just:`[V. 18] <V.18>`
+And, since the magnitudes are :term:`proportional <proportional>` :term:`*separando* <separando>`, they will also be proportional :term:`*componendo* <componendo>`; :just:`[V. 18] <V.18>`
 
 .. assertion::
 
@@ -72,9 +72,23 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../definitions/index.html#v-def-13", target="_top"];
+     "V.def.14" [label="V.def.14", fillcolor="#224422", tooltip="V.def.14: Composition of a ratio means taking the antecedent together with the consequent as one in relation to the consequent by itself.", URL="../../definitions/index.html#v-def-14", target="_top"];
+     "V.def.15" [label="V.def.15", fillcolor="#224422", tooltip="V.def.15: Separation of a ratio means taking the excess by which the antecedent exceeds the consequent in relation to the consequent by itself.", URL="../../definitions/index.html#v-def-15", target="_top"];
+     "V.def.17" [label="V.def.17", fillcolor="#224422", tooltip="V.def.17: A ratio ex aequali arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to…", URL="../../definitions/index.html#v-def-17", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
      "V.3" [label="V.3", fillcolor="#222244", tooltip="V.3: If a first magnitude be the same multiple of a second that a third is of a fourth, and if equimultiples be taken of the first and third, then also ex aequali the magnitudes taken…", URL="../03/index.html", target="_top"];
@@ -90,13 +104,51 @@ Dependency Graph
      "V.20" [label="V.20", fillcolor="#222244", tooltip="V.20: If there be three magnitudes, and others equal to them in multitude, which taken two and two are in the same ratio, and if ex aequali the first be greater than the third, the…", URL="../20/index.html", target="_top"];
      "V.22" [label="V.22", fillcolor="#222244", tooltip="V.22: If there be any number of magnitudes whatever, and others equal to them in multitude, which taken two and two together are in the same ratio, they will also be in the same ratio…", URL="../22/index.html", target="_top"];
      "V.24" [label="V.24", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.24: If a first magnitude have to a second the same ratio as a third has to a fourth, and also a fifth have to the second the same ratio as a sixth to the fourth, the first and fifth…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "V.17" -> "I.def.2";
+     "I.def.13" -> "I.def.3";
+     "I.def.14" -> "I.def.13";
+     "V.10" -> "I.def.14";
+     "V.11" -> "I.def.14";
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.2" -> "V.def.2";
+     "V.3" -> "V.def.2";
+     "V.4" -> "V.def.2";
+     "V.def.17" -> "V.def.3";
+     "V.10" -> "V.def.3";
+     "V.11" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.10" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.4" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.11" -> "V.def.5";
      "V.13" -> "V.def.5";
+     "V.14" -> "V.def.5";
+     "V.20" -> "V.def.5";
      "V.22" -> "V.def.5";
+     "V.24" -> "V.def.5";
+     "V.7" -> "V.def.6";
+     "V.17" -> "V.def.6";
+     "V.18" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.10" -> "V.def.7";
      "V.13" -> "V.def.7";
+     "V.def.13" -> "V.def.11";
+     "V.def.14" -> "V.def.11";
+     "V.def.15" -> "V.def.11";
+     "V.7" -> "V.def.13";
+     "V.17" -> "V.def.14";
+     "V.18" -> "V.def.14";
+     "V.17" -> "V.def.15";
+     "V.18" -> "V.def.15";
+     "V.3" -> "V.def.17";
+     "V.20" -> "V.def.17";
+     "V.22" -> "V.def.17";
      "V.8" -> "V.1";
      "V.17" -> "V.1";
      "V.3" -> "V.2";

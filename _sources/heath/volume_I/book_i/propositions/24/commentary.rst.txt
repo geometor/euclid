@@ -36,8 +36,6 @@ These two cases are therefore decidedly simpler than the case taken by :person:`
 If however after all we prefer to insert Simson's words and avoid the latter
 two cases, the proof is not complete unless we show that, with his assumption, :g:`F <0310.g2:F>` must, in the figure of the proposition, fall below :g:`EG <0310.g2:/ E G />`.
 
-.. _folio-i-0312:
-
 .. folio:: 0312
    :page: 298
 
@@ -63,8 +61,6 @@ Then, in the triangles :g:`FDH <0312.g2:< F D H >>`, :g:`GDH <0312.g2:< G D H >>
 
 :person:`Proclus <proclus>` (:cite:`p. 339, 11 <proclus:in-euclid:339.11>` sqq.) answers by anticipation the possible question that might occur to any one on this proposition, viz. why does :person:`Euclid <euclid>` not compare the areas of the triangles as he does in I. 4? He observes that inequality of the areas does not follow from the inequality of the angles contained by the equal sides, and that :person:`Euclid <euclid>` leaves out all reference to the question both for this reason and because the areas cannot be compared without the help of the theory of parallels. “But if,” says :person:`Proclus <proclus>`, “we must anticipate what is to come and make our comparison of the areas at once, we assert that (1) *if the angles* :g:`A <0310.g2:< B A C )>`, :g:`D <0310.g2:< E D F )>`—*supposing that our argument proceeds with reference to the figure in the proposition—are* (together) *equal to two right angles, the triangles*
 *are proved equal, (2) if greater than two right angles, that triangle which has the greater angle is less, and (3) if they are less, greater.”* :person:`Proclus <proclus>` then gives the proof, but without any reference to the source from which he quoted the proposition. Now :person:`an-Nairīzī <an-nairizi>` adds a similar proposition to I. 38, but definitely attributes it to :person:`Heron <heron>`. I shall accordingly give it in the place where :person:`Heron <heron>` put it
-
-.. _folio-i-0313:
 
 .. folio:: 0313
    :page: 299

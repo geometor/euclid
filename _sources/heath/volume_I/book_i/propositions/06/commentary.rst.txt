@@ -48,8 +48,6 @@ According to :person:`Proclus <proclus>` (:cite:`p. 252, 5 <proclus:in-euclid:25
 
 (1) The leading form (προηγουμένη), the conversion *par excellence* (ἡ κυρίως
 
-.. _folio-i-0271:
-
 .. folio:: 0271
    :page: 257
 
@@ -70,8 +68,6 @@ Why, asks :person:`Proclus <proclus>`, did not :person:`Euclid <euclid>` convert
    :alt: Proposition 6 Alternative Proof Diagram
 
 Thus, with the construction of I. 5, we first prove by means of I. 4 that the triangles :g:`BFC <0271.g1:< B F C >>`, :g:`CGB <0271.g1:< C G B >>` are equal in all respects, and therefore that :g:`FC <0271.g1:/ F C />` is equal to :g:`GB <0271.g1:/ G B />`, and the angle :g:`BFC <0271.g1:< B F C )>` equal to the angle :g:`CGB <0271.g1:< C G B )>`. Then we have to prove that :g:`AF <0271.g1:/ A F />`, :g:`AG <0271.g1:/ A G />` are equal. If they are not, let :g:`AF <0271.g1:/ A F />` be the greater, and from :g:`FA <0271.g1:/ F A />` cut off :g:`FH <0271.g1:/ F H />` equal to :g:`GA <0271.g1:/ G A />`. Join :g:`CH <0271.g1:/ C H />`.
-
-.. _folio-i-0272:
 
 .. folio:: 0272
    :page: 258

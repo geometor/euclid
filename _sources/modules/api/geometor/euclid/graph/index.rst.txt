@@ -30,6 +30,7 @@ Functions
    geometor.euclid.graph.canonical_sort_key
    geometor.euclid.graph.get_node_type
    geometor.euclid.graph.extract_dependencies_from_rst_body
+   geometor.euclid.graph.extract_term_dependencies_from_rst_body
    geometor.euclid.graph.clean_rst_enunciation
    geometor.euclid.graph.truncate_enunciation
    geometor.euclid.graph.format_node_tooltip
@@ -70,10 +71,12 @@ Module Contents
 
 .. py:function:: extract_dependencies_from_rst_body(rst_body: str, current_book: Optional[str] = None) -> List[str]
 
-   Extract sorted unique canonical dependency IDs from a composed RST body.
+   Extract sorted unique canonical dependency IDs from :just: roles and assertion directives.
 
-   Strips footnote definitions and trailing commentary dividers so only dependencies
-   from Euclid's proof and porisms are recorded.
+
+.. py:function:: extract_term_dependencies_from_rst_body(rst_body: str, unit_id: str) -> Tuple[Set[str], Set[str]]
+
+   Extract (all_term_deps, enunciation_term_deps) from defined terms in rst_body.
 
 
 .. py:function:: clean_rst_enunciation(raw_text: str) -> str

@@ -6,7 +6,7 @@
 :title: Proposition IX.30
 :folios: 0423
 :pages: 417
-:dependencies: IX.23
+:dependencies: V.def.1, VII.def.6, VII.def.7, VII.def.15, IX.23
 
 .. _IX.30:
 
@@ -18,7 +18,7 @@ PROPOSITION 30.
 
 .. enunciation::
 
-   If an odd number measure an even number, it will also measure the half of it.
+   If an :term:`odd number <odd-number>` :term:`measure <part-aliquot>` an :term:`even number <even-number>`, it will also measure the half of it.
 
 For let the odd number :g:`A <0423.g1:A>` measure the even number :g:`B <0423.g1:B>`;
 
@@ -41,7 +41,7 @@ For, if possible, let it be so.
 
 .. assertion::
 
-   therefore :g:`A <0423.g1:A>` by multiplying :g:`C <0423.g1:C>` has made :g:`B <0423.g1:B>`.
+   therefore :g:`A <0423.g1:A>` by :term:`multiplying <multiply>` :g:`C <0423.g1:C>` has made :g:`B <0423.g1:B>`.
 
 .. assertion::
 
@@ -77,15 +77,30 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
      "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
      "VII.def.7" [label="VII.def.7", fillcolor="#224422", tooltip="VII.def.7: An odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number.", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
+     "VII.def.15" [label="VII.def.15", fillcolor="#224422", tooltip="VII.def.15: A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.", URL="../../../book_vii/definitions/index.html#vii-def-15", target="_top"];
      "IX.21" [label="IX.21", fillcolor="#222244", tooltip="IX.21: If as many even numbers as we please be added together, the whole is even.", URL="../21/index.html", target="_top"];
      "IX.22" [label="IX.22", fillcolor="#222244", tooltip="IX.22: If as many odd numbers as we please be added together, and their multitude be even, the whole will be even.", URL="../22/index.html", target="_top"];
      "IX.23" [label="IX.23", fillcolor="#222244", tooltip="IX.23: If as many odd numbers as we please be added together, and their multitude be odd, the whole will also be odd.", URL="../23/index.html", target="_top"];
      "IX.30" [label="IX.30", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.30: If an odd number measure an even number, it will also measure the half of it.", URL="index.html", target="_top"];
+     "IX.30" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.7" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.1";
+     "VII.def.15" -> "VII.def.2";
+     "IX.21" -> "VII.def.2";
+     "VII.def.7" -> "VII.def.6";
      "IX.21" -> "VII.def.6";
+     "IX.22" -> "VII.def.6";
+     "IX.30" -> "VII.def.6";
      "IX.22" -> "VII.def.7";
      "IX.23" -> "VII.def.7";
+     "IX.30" -> "VII.def.7";
+     "IX.30" -> "VII.def.15";
      "IX.22" -> "IX.21";
      "IX.23" -> "IX.21";
      "IX.23" -> "IX.22";

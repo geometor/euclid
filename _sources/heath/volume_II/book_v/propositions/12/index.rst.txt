@@ -6,7 +6,7 @@
 :title: Proposition V.12
 :folios: 0165, 0166
 :pages: 159, 160
-:dependencies: V.def.5, V.1
+:dependencies: V.def.5, V.def.6, V.def.11, V.1
 
 .. _V.12:
 
@@ -18,7 +18,7 @@ PROPOSITION 12.
 
 .. enunciation::
 
-   If any number of magnitudes be proportional, as one of the antecedents is to one of the consequents, so will all the antecedents be to all the consequents.
+   If any number of magnitudes be :term:`proportional <proportional>`, as one of the :term:`antecedents <corresponding-magnitudes>` is to one of the consequents, so will all the antecedents be to all the consequents.
 
 Let any number of magnitudes :g:`A <0165.g1:A>`, :g:`B <0165.g1:B>`, :g:`C <0165.g1:C>`, :g:`D <0165.g1:D>`, :g:`E <0165.g1:E>`, :g:`F <0165.g1:F>` be proportional, so that, as :g:`A <0165.g1:A>` is to :g:`B <0165.g1:B>`, so is :g:`C <0165.g1:C>` to :g:`D <0165.g1:D>` and :g:`E <0165.g1:E>` to :g:`F <0165.g1:F>`;
 
@@ -27,7 +27,7 @@ I say that, as :g:`A <0165.g1:A>` is to :g:`B <0165.g1:B>`, so are :g:`A <0165.g
 .. picture:: 0165.g1.svg
    :alt: Proposition 12 diagram
 
-For of :g:`A <0165.g1:A>`, :g:`C <0165.g1:C>`, :g:`E <0165.g1:E>` let equimultiples :g:`G <0165.g1:G>`, :g:`H <0165.g1:H>`, :g:`K <0165.g1:K>` be taken, and of :g:`B <0165.g1:B>`, :g:`D <0165.g1:D>`, :g:`F <0165.g1:F>` other, chance, equimultiples :g:`L <0165.g1:L>`, :g:`M <0165.g1:M>`, :g:`N <0165.g1:N>`.
+For of :g:`A <0165.g1:A>`, :g:`C <0165.g1:C>`, :g:`E <0165.g1:E>` let :term:`equimultiples <multiple>` :g:`G <0165.g1:G>`, :g:`H <0165.g1:H>`, :g:`K <0165.g1:K>` be taken, and of :g:`B <0165.g1:B>`, :g:`D <0165.g1:D>`, :g:`F <0165.g1:F>` other, chance, equimultiples :g:`L <0165.g1:L>`, :g:`M <0165.g1:M>`, :g:`N <0165.g1:N>`.
 
 Then since, as :g:`A <0165.g1:A>` is to :g:`B <0165.g1:B>`, so is :g:`C <0165.g1:C>` to :g:`D <0165.g1:D>`, and :g:`E <0165.g1:E>` to :g:`F <0165.g1:F>`, and of :g:`A <0165.g1:A>`, :g:`C <0165.g1:C>`, :g:`E <0165.g1:E>` equimultiples :g:`G <0165.g1:G>`, :g:`H <0165.g1:H>`, :g:`K <0165.g1:K>` have been taken, and of :g:`B <0165.g1:B>`, :g:`D <0165.g1:D>`, :g:`F <0165.g1:F>` other, chance, equimultiples :g:`L <0165.g1:L>`, :g:`M <0165.g1:M>`, :g:`N <0165.g1:N>`,
 
@@ -66,10 +66,20 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.12" [label="V.12", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.12: If any number of magnitudes be proportional, as one of the antecedents is to one of the consequents, so will all the antecedents be to all the consequents.", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.def.6" -> "V.def.5";
      "V.12" -> "V.def.5";
+     "V.12" -> "V.def.6";
+     "V.12" -> "V.def.11";
      "V.12" -> "V.1";
    }
 

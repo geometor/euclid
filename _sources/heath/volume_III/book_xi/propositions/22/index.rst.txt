@@ -6,7 +6,7 @@
 :title: Proposition XI.22
 :folios: 0316, 0317, 0318
 :pages: 312, 313, 314
-:dependencies: I.4, I.24
+:dependencies: I.def.3, I.def.4, I.def.8, I.def.19, I.4, I.24
 
 .. _XI.22:
 
@@ -18,7 +18,7 @@ PROPOSITION 22.
 
 .. enunciation::
 
-   If there be three plane angles of which two, taken together in any manner, are greater than the remaining one, and they are contained by equal straight lines, it is possible to construct a triangle out of the straight lines joining the extremities of the equal straight lines.
+   If there be three :term:`plane angles <plane-angle>` of which two, taken together in any manner, are greater than the remaining one, and they are contained by equal :term:`straight lines <straight-line>`, it is possible to construct a :term:`triangle <trilateral>` out of the straight lines joining the :term:`extremities <extremity>` of the equal straight lines.
 
 Let there be three plane angles :g:`ABC <0317.g1:< A B C )>`, :g:`DEF <0317.g1:< D E F )>`, :g:`GHK <0317.g1:< G H K )>`, of
 which two, taken together in any manner, are greater than the remaining one, namely the angles :g:`ABC <0317.g1:< A B C )>`, :g:`DEF <0317.g1:< D E F )>` greater than the angle :g:`GHK <0317.g1:< G H K )>`, the angles :g:`DEF <0317.g1:< D E F )>`, :g:`GHK <0317.g1:< G H K )>` greater than the angle :g:`ABC <0317.g1:< A B C )>`, and, further, the angles :g:`GHK <0317.g1:< G H K )>`, :g:`ABC <0317.g1:< A B C )>` greater than the angle :g:`DEF <0317.g1:< D E F )>`; let the straight lines :g:`AB <0317.g1:/ A B />`, :g:`BC <0317.g1:/ B C />`, :g:`DE <0317.g1:/ D E />`, :g:`EF <0317.g1:/ E F />`, :g:`GH <0317.g1:/ G H />`, :g:`HK <0317.g1:/ H K />` be :eq:`equal <0317.g1:/ A B / = 0317.g1:/ B C / = 0317.g1:/ D E / = 0317.g1:/ E F / = 0317.g1:/ G H / = 0317.g1:/ H K />`, and let :g:`AC <0317.g1:/ A C />`, :g:`DF <0317.g1:/ D F />`, :g:`GK <0317.g1:/ G K />` be joined;
@@ -37,7 +37,7 @@ I say that it is possible to construct a triangle out of straight lines equal to
 
    Now, if the angles :g:`ABC <0317.g1:< A B C )>`, :g:`DEF <0317.g1:< D E F )>`, :g:`GHK <0317.g1:< G H K )>` are :eq:`equal <0317.g1:< A B C ) = 0317.g1:< D E F ) = 0317.g1:< G H K )>` to one another, it is manifest that, :g:`AC <0317.g1:/ A C />`, :g:`DF <0317.g1:/ D F />`, :g:`GK <0317.g1:/ G K />` being :eq:`equal <0317.g1:/ A C / = 0317.g1:/ D F / = 0317.g1:/ G K />` also, it is possible to construct a triangle out of straight lines equal to :g:`AC <0317.g1:/ A C />`, :g:`DF <0317.g1:/ D F />`, :g:`GK <0317.g1:/ G K />`.
 
-But, if not, let them be unequal, and on the straight line :g:`HK <0317.g2:/ H K />`, and at the point :g:`H <0317.g2:H>` on it, let the angle :g:`KHL <0317.g2:< K H L )>` be constructed :eq:`equal <0317.g2:< K H L ) = 0317.g1:< A B C )>` to the angle :g:`ABC <0317.g1:< A B C )>`; let :g:`HL <0317.g2:/ H L />` be made :eq:`equal <0317.g2:/ H L / = 0317.g1:/ A B / = 0317.g1:/ B C / = 0317.g1:/ D E / = 0317.g1:/ E F / = 0317.g2:/ G H / = 0317.g2:/ H K />` to one of the straight lines :g:`AB <0317.g1:/ A B />`, :g:`BC <0317.g1:/ B C />`, :g:`DE <0317.g1:/ D E />`, :g:`EF <0317.g1:/ E F />`, :g:`GH <0317.g2:/ G H />`, :g:`HK <0317.g2:/ H K />`, and let :g:`KL <0317.g2:/ K L />`, :g:`GL <0317.g2:/ G L />` be joined.
+But, if not, let them be unequal, and on the straight line :g:`HK <0317.g2:/ H K />`, and at the :term:`point <point>` :g:`H <0317.g2:H>` on it, let the angle :g:`KHL <0317.g2:< K H L )>` be constructed :eq:`equal <0317.g2:< K H L ) = 0317.g1:< A B C )>` to the angle :g:`ABC <0317.g1:< A B C )>`; let :g:`HL <0317.g2:/ H L />` be made :eq:`equal <0317.g2:/ H L / = 0317.g1:/ A B / = 0317.g1:/ B C / = 0317.g1:/ D E / = 0317.g1:/ E F / = 0317.g2:/ G H / = 0317.g2:/ H K />` to one of the straight lines :g:`AB <0317.g1:/ A B />`, :g:`BC <0317.g1:/ B C />`, :g:`DE <0317.g1:/ D E />`, :g:`EF <0317.g1:/ E F />`, :g:`GH <0317.g2:/ G H />`, :g:`HK <0317.g2:/ H K />`, and let :g:`KL <0317.g2:/ K L />`, :g:`GL <0317.g2:/ G L />` be joined.
 
 .. picture:: 0317.g2.svg
    :alt: Proposition 22, Figure 2
@@ -113,8 +113,22 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.4" [label="I.def.4", fillcolor="#224422", tooltip="I.def.4: A straight line is a line which lies evenly with the points on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-4", target="_top"];
+     "I.def.5" [label="I.def.5", fillcolor="#224422", tooltip="I.def.5: A surface is that which has length and breadth only.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-5", target="_top"];
+     "I.def.6" [label="I.def.6", fillcolor="#224422", tooltip="I.def.6: The extremities of a surface are lines.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-6", target="_top"];
+     "I.def.7" [label="I.def.7", fillcolor="#224422", tooltip="I.def.7: A plane surface is a surface which lies evenly with the straight lines on itself.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-7", target="_top"];
+     "I.def.8" [label="I.def.8", fillcolor="#224422", tooltip="I.def.8: A plane angle is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-8", target="_top"];
+     "I.def.9" [label="I.def.9", fillcolor="#224422", tooltip="I.def.9: And when the lines containing the angle are straight, the angle is called rectilineal.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-9", target="_top"];
      "I.def.10" [label="I.def.10", fillcolor="#224422", tooltip="I.def.10: When a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-10", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
      "I.def.15" [label="I.def.15", fillcolor="#224422", tooltip="I.def.15: A circle is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure are equal to one another.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-15", target="_top"];
+     "I.def.16" [label="I.def.16", fillcolor="#224422", tooltip="I.def.16: And the point is called the centre of the circle.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-16", target="_top"];
+     "I.def.19" [label="I.def.19", fillcolor="#224422", tooltip="I.def.19: Rectilineal figures are those which are contained by straight lines, trilateral figures being those contained by three, quadrilateral those contained by four, and multilateral…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-19", target="_top"];
+     "I.def.20" [label="I.def.20", fillcolor="#224422", tooltip="I.def.20: Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle…", URL="../../../../volume_I/book_i/definitions/index.html#i-def-20", target="_top"];
      "I.post.1" [label="I.post.1", fillcolor="#444422", tooltip="I.post.1: To draw a straight line from any point to any point.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-1", target="_top"];
      "I.post.2" [label="I.post.2", fillcolor="#444422", tooltip="I.post.2: To produce a finite straight line continuously in a straight line.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-2", target="_top"];
      "I.post.3" [label="I.post.3", fillcolor="#444422", tooltip="I.post.3: To describe a circle with any centre and distance.", URL="../../../../volume_I/book_i/postulates/index.html#i-post-3", target="_top"];
@@ -144,10 +158,89 @@ Dependency Graph
      "I.23" [label="I.23", fillcolor="#222244", tooltip="I.23: On a given straight line and at a point on it to construct a rectilineal angle equal to a given rectilineal angle.", URL="../../../../volume_I/book_i/propositions/23/index.html", target="_top"];
      "I.24" [label="I.24", fillcolor="#222244", tooltip="I.24: If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also…", URL="../../../../volume_I/book_i/propositions/24/index.html", target="_top"];
      "XI.22" [label="XI.22", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="XI.22: If there be three plane angles of which two, taken together in any manner, are greater than the remaining one, and they are contained by equal straight lines, it is possible to…", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.4" -> "I.def.1";
+     "I.def.15" -> "I.def.1";
+     "I.def.16" -> "I.def.1";
+     "I.post.1" -> "I.def.1";
+     "I.2" -> "I.def.1";
+     "I.7" -> "I.def.1";
+     "I.11" -> "I.def.1";
+     "I.23" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.4" -> "I.def.2";
+     "I.def.6" -> "I.def.2";
+     "I.def.8" -> "I.def.2";
+     "I.def.9" -> "I.def.2";
+     "I.def.4" -> "I.def.3";
+     "I.def.13" -> "I.def.3";
+     "I.2" -> "I.def.3";
+     "I.7" -> "I.def.3";
+     "XI.22" -> "I.def.3";
+     "I.def.7" -> "I.def.4";
+     "I.def.8" -> "I.def.4";
+     "I.def.10" -> "I.def.4";
+     "I.def.15" -> "I.def.4";
+     "I.def.19" -> "I.def.4";
+     "I.post.1" -> "I.def.4";
+     "I.post.2" -> "I.def.4";
+     "I.1" -> "I.def.4";
+     "I.2" -> "I.def.4";
+     "I.3" -> "I.def.4";
+     "I.4" -> "I.def.4";
+     "I.5" -> "I.def.4";
+     "I.7" -> "I.def.4";
+     "I.8" -> "I.def.4";
+     "I.10" -> "I.def.4";
+     "I.11" -> "I.def.4";
+     "I.13" -> "I.def.4";
+     "I.15" -> "I.def.4";
+     "I.22" -> "I.def.4";
+     "I.23" -> "I.def.4";
+     "I.24" -> "I.def.4";
+     "XI.22" -> "I.def.4";
+     "I.def.6" -> "I.def.5";
+     "I.def.7" -> "I.def.5";
+     "I.def.15" -> "I.def.6";
+     "I.def.8" -> "I.def.7";
+     "I.def.15" -> "I.def.7";
+     "I.def.9" -> "I.def.8";
+     "I.def.10" -> "I.def.8";
+     "I.4" -> "I.def.8";
+     "I.5" -> "I.def.8";
+     "I.8" -> "I.def.8";
+     "I.13" -> "I.def.8";
+     "I.15" -> "I.def.8";
+     "I.16" -> "I.def.8";
+     "I.18" -> "I.def.8";
+     "I.19" -> "I.def.8";
+     "I.24" -> "I.def.8";
+     "XI.22" -> "I.def.8";
+     "I.9" -> "I.def.9";
+     "I.23" -> "I.def.9";
+     "I.post.4" -> "I.def.10";
      "I.11" -> "I.def.10";
      "I.13" -> "I.def.10";
+     "I.def.14" -> "I.def.13";
+     "I.def.15" -> "I.def.14";
+     "I.4" -> "I.def.14";
+     "I.def.16" -> "I.def.15";
+     "I.post.3" -> "I.def.15";
      "I.1" -> "I.def.15";
      "I.3" -> "I.def.15";
+     "I.post.3" -> "I.def.16";
+     "I.def.20" -> "I.def.19";
+     "I.4" -> "I.def.19";
+     "I.8" -> "I.def.19";
+     "I.16" -> "I.def.19";
+     "I.18" -> "I.def.19";
+     "I.19" -> "I.def.19";
+     "I.20" -> "I.def.19";
+     "I.22" -> "I.def.19";
+     "I.24" -> "I.def.19";
+     "XI.22" -> "I.def.19";
+     "I.1" -> "I.def.20";
+     "I.5" -> "I.def.20";
      "I.1" -> "I.post.1";
      "I.2" -> "I.post.1";
      "I.5" -> "I.post.1";

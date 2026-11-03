@@ -28,8 +28,6 @@ An alternative proof of I. 18 given by :person:`Porphyry <porphyry>` (see :perso
 
 Produce :g:`AB <0297.g2:/ A B />` to :g:`E <0297.g2:E>` so that :g:`BE <0297.g2:/ B E />` is :eq:`equal <0297.g2:/ B E / = 0297.g2:/ A D />` to :g:`AD <0297.g2:/ A D />`, and join :g:`EC <0297.g2:/ E C />`. Then, since :g:`AB <0297.g2:/ A B />` is :eq:`equal <0297.g2:/ A B / = 0297.g2:/ C D /; 0297.g2:/ B E / = 0297.g2:/ A D />` to :g:`CD <0297.g2:/ C D />`, and :g:`BE <0297.g2:/ B E />` to :g:`AD <0297.g2:/ A D />`, :g:`AE <0297.g2:/ A E />` is :eq:`equal <0297.g2:/ A E / = 0297.g2:/ A C />` to :g:`AC <0297.g2:/ A C />`.
 
-.. _folio-i-0298:
-
 .. folio:: 0298
    :page: 284
 

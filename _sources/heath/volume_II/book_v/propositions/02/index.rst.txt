@@ -6,6 +6,7 @@
 :title: Proposition V.2
 :folios: 0145, 0146
 :pages: 139, 140
+:dependencies: V.def.2
 
 .. _V.2:
 
@@ -17,7 +18,7 @@ PROPOSITION 2.
 
 .. enunciation::
 
-   If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of the first and fifth will also be the same multiple of the second that the sum of the third and sixth is of the fourth.
+   If a first magnitude be the same :term:`multiple <multiple>` of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of the first and fifth will also be the same multiple of the second that the sum of the third and sixth is of the fourth.
 
 Let a first magnitude, :g:`AB <0145.g1:/ A B />`, be the same multiple of a second, :g:`C <0145.g1:C>`, that a third, :g:`DE <0145.g1:/ D E />`, is of a fourth, :g:`F <0145.g1:F>`, and let a fifth, :g:`BG <0145.g1:/ B G />`, also be the same multiple of the second, :g:`C <0145.g1:C>`, that a sixth, :g:`EH <0145.g1:/ E H />`, is of the fourth :g:`F <0145.g1:F>`;
 
@@ -58,6 +59,23 @@ For the same reason also,
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.2" [label="V.2", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.2" -> "V.def.2";
+   }
 
 Required for
 ------------

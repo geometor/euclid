@@ -5,6 +5,7 @@
 :title: Book X Definitions II
 :folios: 0105, 0106
 :pages: 101, 102
+:dependencies: I.def.4, I.def.22, X.def.1, X.def.3
 
 .. _X.def.ii:
 
@@ -18,11 +19,11 @@ DEFINITIONS II.
 
 .. _X.def.ii.1:
 
-**1.** Given a rational straight line and a binomial, divided into its terms, such that the square on the greater term is greater than the square on the lesser by the square on a straight line commensurable in length with the greater, then, if the greater term be commensurable in length with the rational straight line set out, let the whole be called a :term:`**first binomial straight line** <first-binomial-straight-line>`;
+**1.** Given a :term:`rational <rational>` :term:`straight line <straight-line>` and a binomial, divided into its terms, such that the :term:`square <square>` on the greater term is greater than the square on the lesser by the square on a straight line :term:`commensurable <commensurable>` in length with the greater, then, if the greater term be commensurable in length with the rational straight line set out, let the whole be called a :term:`**first binomial straight line** <first-binomial-straight-line>`;
 
 .. _X.def.ii.2:
 
-**2.** but if the lesser term be commensurable in length with the rational straight line set out, let the whole be called a :term:`**second binomial** <second-binomial>`;
+**2.** but if the lesser term be :term:`commensurable <commensurable>` in length with the :term:`rational <rational>` :term:`straight line <straight-line>` set out, let the whole be called a :term:`**second binomial** <second-binomial>`;
 
 .. _folio-iii-0106:
 
@@ -31,11 +32,11 @@ DEFINITIONS II.
 
 .. _X.def.ii.3:
 
-3. and if neither of the terms be commensurable in length with the rational straight line set out, let the whole be called a :term:`**third binomial** <third-binomial>`.
+3. and if neither of the terms be :term:`commensurable <commensurable>` in length with the :term:`rational <rational>` :term:`straight line <straight-line>` set out, let the whole be called a :term:`**third binomial** <third-binomial>`.
 
 .. _X.def.ii.4:
 
-4. Again, if the square on the greater term be greater than the square on the lesser by the square on a straight line incommensurable in length with the greater, then, if the greater term be commensurable in length with the rational straight line set out, let the whole be called a :term:`**fourth binomial** <fourth-binomial>`;
+4. Again, if the :term:`square <square>` on the greater term be greater than the square on the lesser by the square on a :term:`straight line <straight-line>` incommensurable in length with the greater, then, if the greater term be :term:`commensurable <commensurable>` in length with the :term:`rational <rational>` straight line set out, let the whole be called a :term:`**fourth binomial** <fourth-binomial>`;
 
 .. _X.def.ii.5:
 

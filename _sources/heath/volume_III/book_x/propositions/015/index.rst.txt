@@ -20,14 +20,14 @@ PROPOSITION 15.
 
 .. enunciation::
 
-   If two commensurable magnitudes be added together, the whole will also be commensurable with each of them; and, if the whole be commensurable with one of them, the original magnitudes will also be commensurable.
+   If two :term:`commensurable <commensurable>` magnitudes be added together, the whole will also be commensurable with each of them; and, if the whole be commensurable with one of them, the original magnitudes will also be commensurable.
 
 For let the two commensurable magnitudes :g:`AB <0043.g1:/ A B />`, :g:`BC <0043.g1:/ B C />` be added together; I say that the whole :g:`AC <0043.g1:/ A C />` is also commensurable with each of the magnitudes :g:`AB <0043.g1:/ A B />`, :g:`BC <0043.g1:/ B C />`.
 
 .. picture:: 0043.g1.svg
    :alt: Proposition 15 Diagram
 
-For, since :g:`AB <0043.g1:/ A B />`, :g:`BC <0043.g1:/ B C />` are commensurable, some magnitude will measure them. Let it measure them, and let it be :g:`D <0043.g1:D>`.
+For, since :g:`AB <0043.g1:/ A B />`, :g:`BC <0043.g1:/ B C />` are commensurable, some magnitude will :term:`measure <part-aliquot>` them. Let it measure them, and let it be :g:`D <0043.g1:D>`.
 
 .. assertion::
 
@@ -71,8 +71,10 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
      "X.def.1" [label="X.def.1", fillcolor="#224422", tooltip="X.def.1: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.", URL="../../definitions/index.html#x-def-1", target="_top"];
      "X.15" [label="X.15", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.15: If two commensurable magnitudes be added together, the whole will also be commensurable with each of them; and, if the whole be commensurable with one of them, the original…", URL="index.html", target="_top"];
+     "X.def.1" -> "V.def.1";
      "X.15" -> "X.def.1";
    }
 

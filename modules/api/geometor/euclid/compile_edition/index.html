@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=69acf51f" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -95,6 +95,16 @@
         <code class="docutils literal notranslate"><span class="pre">:ref:</span></code>, generates the scholarly apparatus pages (<code class="docutils literal notranslate"><span class="pre">bibliography.rst</span></code>,
         <code class="docutils literal notranslate"><span class="pre">persons.rst</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary.rst</span></code>), and writes the canonical Heath Edition
         under <code class="docutils literal notranslate"><span class="pre">docsrc/heath/</span></code>.</p>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.DEF_TERM_PATTERNS" title="geometor.euclid.compile_edition.DEF_TERM_PATTERNS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DEF_TERM_PATTERNS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
         <section class="level-2" id="classes">
         <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
         <table class="autosummary longtable docutils align-default">
@@ -109,16 +119,16 @@
         <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
         <table class="autosummary longtable docutils align-default">
         <tbody>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_section" title="geometor.euclid.compile_edition.compile_section"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_section</span></code></a>(→ List[pathlib.Path])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_section" title="geometor.euclid.compile_edition.compile_section"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_section</span></code></a>(section_src_dir, section_out_dir, ...) → List[pathlib.Path]</p></td>
         <td><p>Compile a sequential non-book section directory into section_out_dir/index.rst.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_book" title="geometor.euclid.compile_edition.compile_book"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_book</span></code></a>(→ Dict[str, Any])</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_book" title="geometor.euclid.compile_edition.compile_book"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_book</span></code></a>(book_src_dir, book_out_dir[, ...]) → Dict[str, Any]</p></td>
         <td><p>Compile all sequential &lt;folio&gt;.rst files in a book directory into canonical docsrc units.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.build_apparatus_pages" title="geometor.euclid.compile_edition.build_apparatus_pages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_apparatus_pages</span></code></a>(→ List[pathlib.Path])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.build_apparatus_pages" title="geometor.euclid.compile_edition.build_apparatus_pages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_apparatus_pages</span></code></a>(heath_src_dir, heath_out_dir, ...) → List[pathlib.Path]</p></td>
         <td><p>Generate bibliography.rst, persons.rst, and glossary.rst from JSON registries.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_edition" title="geometor.euclid.compile_edition.compile_edition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_edition</span></code></a>(, heath_out_dir, Any])</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.compile_edition.compile_edition" title="geometor.euclid.compile_edition.compile_edition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compile_edition</span></code></a>([heath_src_dir, heath_out_dir]) → Dict[str, Any]</p></td>
         <td><p>Compile the entire 3-volume Heath Edition and scholarly apparatus into docsrc/heath/.</p></td>
         </tr>
         </tbody>
@@ -126,6 +136,11 @@
         </section>
         <section class="level-2" id="module-contents">
         <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.euclid.compile_edition.DEF_TERM_PATTERNS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">DEF_TERM_PATTERNS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[('XI.def.10',</span> <span class="pre">'equal-and-similar-solid-figures',...</span></span><a class="headerlink" href="#geometor.euclid.compile_edition.DEF_TERM_PATTERNS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
         <dl class="py class">
         <dt class="sig sig-object py" id="geometor.euclid.compile_edition.TaggedBlock">
         <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.euclid.compile_edition.</span></span><span class="sig-name descname"><span class="pre">TaggedBlock</span></span><a class="headerlink" href="#geometor.euclid.compile_edition.TaggedBlock" title="Link to this definition">¶</a></dt>
@@ -286,7 +301,7 @@
   <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="../../../../../_static/js/geometor_interactive.js?v=4430a5d4"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../../../../_static/js/search_highlight.js"></script>
 
 </body>

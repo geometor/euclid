@@ -6,6 +6,7 @@
 :title: Proposition V.1
 :folios: 0144, 0145
 :pages: 138, 139
+:dependencies: V.def.2
 
 .. _V.1:
 
@@ -19,7 +20,7 @@ PROPOSITION 1.
 
 .. enunciation::
 
-   If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one, that multiple also will all be of all.
+   If there be any number of magnitudes whatever which are, respectively, :term:`equimultiples <multiple>` of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one, that multiple also will all be of all.
 
 Let any number of magnitudes whatever :g:`AB <0144.g1:/ A B />`, :g:`CD <0144.g1:/ C D />` be respectively equimultiples of any magnitudes :g:`E <0144.g1:E>`, :g:`F <0144.g1:F>` equal in multitude;
 
@@ -60,6 +61,23 @@ For the same reason
 .. qed::
 
    Therefore etc. :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.1" [label="V.1", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.1" -> "V.def.2";
+   }
 
 Required for
 ------------

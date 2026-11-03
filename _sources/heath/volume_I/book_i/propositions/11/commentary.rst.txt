@@ -20,8 +20,6 @@ Back to :ref:`Proposition I.11 <I.11>`.
 :person:`De Morgan <de-morgan>` remarks that this proposition, which is “to bisect the angle made by a straight line and its continuation” [i.e. a *flat angle*], should be a particular case of I. 9, the constructions being the same. This is certainly
 worth noting, though I doubt the advantage of rearranging the propositions in consequence.
 
-.. _folio-i-0284:
-
 .. folio:: 0284
    :page: 270
 

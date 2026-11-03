@@ -20,8 +20,6 @@ Back to :ref:`Proposition I.30 <I.30>`.
 The proposition is, as :person:`De Morgan <de-morgan>` points out, the *logical equivalent* of "Playfair's" axiom. Thus, if $X$ denote "pairs of straight lines intersecting one
 another," $Y$ "pairs of straight lines parallel to one and the same straight line," we have
 
-.. _folio-i-0329:
-
 .. folio:: 0329
    :page: 315
 

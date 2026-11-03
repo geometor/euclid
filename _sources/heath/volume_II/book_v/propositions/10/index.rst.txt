@@ -6,7 +6,7 @@
 :title: Proposition V.10
 :folios: 0161, 0162
 :pages: 155, 156
-:dependencies: V.7, V.8
+:dependencies: I.def.14, V.def.3, V.def.4, V.def.7, V.7, V.8
 
 .. _V.10:
 
@@ -18,7 +18,7 @@ PROPOSITION 10.
 
 .. enunciation::
 
-   Of magnitudes which have a ratio to the same, that which has a greater ratio is greater ; and that to which the same has a greater ratio is less.
+   Of magnitudes which :term:`have a ratio <have-a-ratio>` to the same, that which has a :term:`greater ratio <greater-ratio>` is greater ; and that to which the same has a greater ratio is less.
 
 For let :g:`A <0161.g1:A>` have to :g:`C <0161.g1:C>` a greater ratio than :g:`B <0161.g1:B>` has to :g:`C <0161.g1:C>` ;
 I say that :g:`A <0161.g1:A>` is greater than :g:`B <0161.g1:B>`.
@@ -30,7 +30,7 @@ For, if not, :g:`A <0161.g1:A>` is either :eq:`equal <0161.g1:A = 0161.g1:B>` to
 
 Now :g:`A <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`B <0161.g1:B>` ;
 for in that case each of the magnitudes :g:`A <0161.g1:A>`, :g:`B <0161.g1:B>` would have
-had the same ratio to :g:`C <0161.g1:C>` ; :just:`[V. 7] <V.7>`
+had the :term:`same ratio <in-the-same-ratio>` to :g:`C <0161.g1:C>` ; :just:`[V. 7] <V.7>`
 but they have not ;
 
 .. assertion::
@@ -38,7 +38,7 @@ but they have not ;
    therefore :g:`A <0161.g1:A>` is not :eq:`equal <0161.g1:A = 0161.g1:B>` to :g:`B <0161.g1:B>`.
 
 Nor again is :g:`A <0161.g1:A>` less than :g:`B <0161.g1:B>` ;
-for in that case :g:`A <0161.g1:A>` would have had to :g:`C <0161.g1:C>` a less ratio than :g:`B <0161.g1:B>`
+for in that case :g:`A <0161.g1:A>` would have had to :g:`C <0161.g1:C>` a less :term:`ratio <ratio>` than :g:`B <0161.g1:B>`
 has to :g:`C <0161.g1:C>` ; :just:`[V. 8] <V.8>`
 but it has not ;
 
@@ -100,16 +100,43 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "I.def.1" [label="I.def.1", fillcolor="#224422", tooltip="I.def.1: A point is that which has no part.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-1", target="_top"];
+     "I.def.2" [label="I.def.2", fillcolor="#224422", tooltip="I.def.2: A line is breadthless length.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-2", target="_top"];
+     "I.def.3" [label="I.def.3", fillcolor="#224422", tooltip="I.def.3: The extremities of a line are points.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-3", target="_top"];
+     "I.def.13" [label="I.def.13", fillcolor="#224422", tooltip="I.def.13: A boundary is that which is an extremity of anything.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-13", target="_top"];
+     "I.def.14" [label="I.def.14", fillcolor="#224422", tooltip="I.def.14: A figure is that which is contained by any boundary or boundaries.", URL="../../../../volume_I/book_i/definitions/index.html#i-def-14", target="_top"];
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
+     "V.def.3" [label="V.def.3", fillcolor="#224422", tooltip="V.def.3: A ratio is a sort of relation in respect of size between two magnitudes of the same kind.", URL="../../definitions/index.html#v-def-3", target="_top"];
      "V.def.4" [label="V.def.4", fillcolor="#224422", tooltip="V.def.4: Magnitudes are said to have a ratio to one another which are capable, when multiplied, of exceeding one another.", URL="../../definitions/index.html#v-def-4", target="_top"];
      "V.def.5" [label="V.def.5", fillcolor="#224422", tooltip="V.def.5: Magnitudes are said to be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any…", URL="../../definitions/index.html#v-def-5", target="_top"];
+     "V.def.6" [label="V.def.6", fillcolor="#224422", tooltip="V.def.6: Let magnitudes which have the same ratio be called proportional.", URL="../../definitions/index.html#v-def-6", target="_top"];
      "V.def.7" [label="V.def.7", fillcolor="#224422", tooltip="V.def.7: When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then…", URL="../../definitions/index.html#v-def-7", target="_top"];
+     "V.def.11" [label="V.def.11", fillcolor="#224422", tooltip="V.def.11: The term corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents.", URL="../../definitions/index.html#v-def-11", target="_top"];
+     "V.def.13" [label="V.def.13", fillcolor="#224422", tooltip="V.def.13: Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent.", URL="../../definitions/index.html#v-def-13", target="_top"];
      "V.1" [label="V.1", fillcolor="#222244", tooltip="V.1: If there be any number of magnitudes whatever which are, respectively, equimultiples of any magnitudes equal in multitude, then, whatever multiple one of the magnitudes is of one…", URL="../01/index.html", target="_top"];
      "V.7" [label="V.7", fillcolor="#222244", tooltip="V.7: Equal magnitudes have to the same the same ratio, as also has the same to equal magnitudes.", URL="../07/index.html", target="_top"];
      "V.8" [label="V.8", fillcolor="#222244", tooltip="V.8: Of unequal magnitudes, the greater has to the same a greater ratio than the less has; and the same has to the less a greater ratio than it has to the greater.", URL="../08/index.html", target="_top"];
      "V.10" [label="V.10", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.10: Of magnitudes which have a ratio to the same, that which has a greater ratio is greater ; and that to which the same has a greater ratio is less.", URL="index.html", target="_top"];
+     "I.def.3" -> "I.def.1";
+     "I.def.3" -> "I.def.2";
+     "I.def.13" -> "I.def.3";
+     "I.def.14" -> "I.def.13";
+     "V.10" -> "I.def.14";
+     "V.def.2" -> "V.def.1";
+     "V.def.5" -> "V.def.2";
+     "V.def.7" -> "V.def.2";
+     "V.1" -> "V.def.2";
+     "V.10" -> "V.def.3";
      "V.8" -> "V.def.4";
+     "V.10" -> "V.def.4";
+     "V.def.6" -> "V.def.5";
      "V.7" -> "V.def.5";
+     "V.7" -> "V.def.6";
      "V.8" -> "V.def.7";
+     "V.10" -> "V.def.7";
+     "V.def.13" -> "V.def.11";
+     "V.7" -> "V.def.13";
      "V.8" -> "V.1";
      "V.10" -> "V.7";
      "V.10" -> "V.8";

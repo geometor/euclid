@@ -28,8 +28,6 @@ Now, since the squares are :eq:`equal <0362.g1:< A D F B > = 0362.g1:< B C E G >
 
 Add to each the triangle :g:`FBC <0362.g1:< F B C >>`; therefore the triangles :g:`AFC <0362.g1:< A F C >>`, :g:`GFC <0362.g1:< G F C >>` are :eq:`equal <0362.g1:< A F C > = 0362.g1:< G F C >>`, and hence they must be in the same parallels.
 
-.. _folio-i-0363:
-
 .. folio:: 0363
    :page: 349
 

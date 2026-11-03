@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=69acf51f" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
   <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -109,28 +109,28 @@
         <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
         <table class="autosummary longtable docutils align-default">
         <tbody>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.get_taxonomy" title="geometor.euclid.transform.get_taxonomy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_taxonomy</span></code></a>(→ tuple[list[str], list[str]])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.get_taxonomy" title="geometor.euclid.transform.get_taxonomy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_taxonomy</span></code></a>(enunciation_text) → tuple[list[str], list[str]]</p></td>
         <td><p>Extracts categories and tags from enunciation text.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.convert_inline_xml_to_rst" title="geometor.euclid.transform.convert_inline_xml_to_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_inline_xml_to_rst</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.convert_inline_xml_to_rst" title="geometor.euclid.transform.convert_inline_xml_to_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_inline_xml_to_rst</span></code></a>(element, dependencies[, ...]) → str</p></td>
         <td><p>Converts inline XML elements to RST format.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.parse_book_xml" title="geometor.euclid.transform.parse_book_xml"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_book_xml</span></code></a>(→ tuple[dict, int])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.parse_book_xml" title="geometor.euclid.transform.parse_book_xml"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_book_xml</span></code></a>(file_path[, entry_number_start]) → tuple[dict, int]</p></td>
         <td><p>Parses a book XML file and returns its data structure.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.analyze_dependencies" title="geometor.euclid.transform.analyze_dependencies"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analyze_dependencies</span></code></a>(→ dict[str, list[str]])</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.analyze_dependencies" title="geometor.euclid.transform.analyze_dependencies"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analyze_dependencies</span></code></a>(graph, element_ref) → dict[str, list[str]]</p></td>
         <td><p>Analyzes the dependency graph for a given element.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.generate_proof_chain_dot" title="geometor.euclid.transform.generate_proof_chain_dot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_proof_chain_dot</span></code></a>(→ str)</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.generate_proof_chain_dot" title="geometor.euclid.transform.generate_proof_chain_dot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_proof_chain_dot</span></code></a>(graph, element_ref, ...) → str</p></td>
         <td><p>Generates a GraphViz DOT string for the proof chain of an element.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.generate_heath_rst" title="geometor.euclid.transform.generate_heath_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_heath_rst</span></code></a>(→ None)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.generate_heath_rst" title="geometor.euclid.transform.generate_heath_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_heath_rst</span></code></a>(book_data, output_dir, graph, ...) → None</p></td>
         <td><p>Generates RST files for a book and its entries.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.generate_dependency_graph" title="geometor.euclid.transform.generate_dependency_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_dependency_graph</span></code></a>(→ None)</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.transform.generate_dependency_graph" title="geometor.euclid.transform.generate_dependency_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_dependency_graph</span></code></a>(graph[, output_dir]) → None</p></td>
         <td><p>Generates a full dependency graph in DOT format.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.main" title="geometor.euclid.transform.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>(→ None)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.transform.main" title="geometor.euclid.transform.main"><code class="xref py py-obj docutils literal notranslate"><span class="pre">main</span></code></a>() → None</p></td>
         <td><p>Main execution function.</p></td>
         </tr>
         </tbody>
@@ -317,7 +317,7 @@
   <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="../../../../../_static/js/geometor_interactive.js?v=4430a5d4"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../../../../_static/js/search_highlight.js"></script>
 
 </body>

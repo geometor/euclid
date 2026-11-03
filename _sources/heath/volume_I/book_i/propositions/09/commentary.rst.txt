@@ -20,8 +20,6 @@ Back to :ref:`Proposition I.9 <I.9>`.
 It will be observed from the translation of this proposition that :person:`Euclid <euclid>` does not say, in his description of the construction, that the equilateral triangle should be constructed on the side of :g:`DE <0278.g2:/ D E />` opposite to :g:`A <0278.g2:A>`; he leaves this to be inferred from his figure. There is no particular value in :person:`Proclus <proclus>`’ explanation as to how we should proceed in case any one should assert that he could not recognise the existence of any space below :g:`DE <0278.g2:/ D E />`. He supposes, then, the equilateral triangle described on the side of :g:`DE <0278.g2:/ D E />` towards :g:`A <0278.g2:A>`, and hence has to consider three cases according as the vertex of the equilateral triangle falls on :g:`A <0278.g2:A>`, above :g:`A <0278.g2:A>` or below it. The second and third cases do not differ
 substantially from Euclid’s. In the first case, where :g:`ADE <0279.g1:< A D E >>` is the equilateral triangle constructed on :g:`DE <0279.g1:/ D E />`, take any point :g:`F <0279.g1:F>` on :g:`AD <0279.g1:/ A D />`, and from :g:`AE <0279.g1:/ A E />` cut off :g:`AG <0279.g1:/ A G />` equal to :g:`AF <0279.g1:/ A F />`. Join :g:`DG <0279.g1:/ D G />`, :g:`EF <0279.g1:/ E F />` meeting in :g:`H <0279.g1:H>`; and join :g:`AH <0279.g1:/ A H />`. Then :g:`AH <0279.g1:/ A H />` is the bisector required.
 
-.. _folio-i-0279:
-
 .. folio:: 0279
    :page: 265
 
@@ -45,8 +43,6 @@ Trisection of an angle.
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Further it is here that :person:`Proclus <proclus>` gives us his valuable historical note about the *trisection* of any acute angle, which (as well as the division of an angle in any given ratio) requires resort to other curves than circles, i.e. curves of the species which, after :person:`Geminus <geminus>`, he calls “mixed.” “This,” he says (p. 272, 1—12), “is shown by those who have set themselves the task of trisecting such a given rectilineal angle. For Nicomedes trisected any rectilineal angle by means of the *conchoidal* lines, the origin, order, and properties of which he has handed down to us, being himself the discoverer of their peculiarity. Others have done the same thing by means of the *quadratrices* of Hippias and Nicomedes, thereby again using ‘mixed’ curves. But others, starting from the Archimedean spirals, cut a given rectilineal angle in a given ratio.”
-
-.. _folio-i-0280:
 
 .. folio:: 0280
    :page: 266
@@ -88,8 +84,6 @@ Suppose (1) that a radius of the circle moves uniformly about :g:`A <0280.g2:A>`
 Then the radius :g:`AE <0280.g2:/ A E />` and the moving line :g:`BC <0280.g2:/ B C />` determine at any instant by their intersection a point :g:`F <0280.g2:F>`.
 
 The locus of :g:`F <0280.g2:F>` is the *quadratrix*.
-
-.. _folio-i-0281:
 
 .. folio:: 0281
    :page: 267

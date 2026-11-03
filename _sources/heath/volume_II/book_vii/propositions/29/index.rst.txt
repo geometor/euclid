@@ -6,6 +6,7 @@
 :title: Proposition VII.29
 :folios: 0336, 0337
 :pages: 330, 331
+:dependencies: V.def.1, VII.def.2, VII.def.11, VII.def.12
 
 .. _VII.29:
 
@@ -17,7 +18,7 @@ PROPOSITION 29.
 
 .. enunciation::
 
-   Any prime number is prime to any number which it does not measure.
+   Any :term:`prime number <prime-number>` is :term:`prime to <prime-to-one-another>` any :term:`number <number>` which it does not :term:`measure <part-aliquot>`.
 
 Let :g:`A <0336.g1:A>` be a prime number, and let it not measure :g:`B <0336.g1:B>`;
 
@@ -64,6 +65,33 @@ Let :g:`C <0336.g1:C>` measure them.
 .. qed::
 
    :just:`Q. E. D.`
+
+Dependency Graph
+----------------
+
+.. graphviz::
+
+   digraph {
+     bgcolor="transparent";
+     node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
+     edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
+     rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.11" [label="VII.def.11", fillcolor="#224422", tooltip="VII.def.11: A prime number is that which is measured by an unit alone.", URL="../../definitions/index.html#vii-def-11", target="_top"];
+     "VII.def.12" [label="VII.def.12", fillcolor="#224422", tooltip="VII.def.12: Numbers prime to one another are those which are measured by an unit alone as a common measure.", URL="../../definitions/index.html#vii-def-12", target="_top"];
+     "VII.29" [label="VII.29", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.29: Any prime number is prime to any number which it does not measure.", URL="index.html", target="_top"];
+     "VII.def.11" -> "V.def.1";
+     "VII.def.12" -> "V.def.1";
+     "VII.29" -> "V.def.1";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.11" -> "VII.def.1";
+     "VII.def.12" -> "VII.def.1";
+     "VII.29" -> "VII.def.2";
+     "VII.29" -> "VII.def.11";
+     "VII.29" -> "VII.def.12";
+   }
 
 Required for
 ------------

@@ -14,8 +14,6 @@ Commentary on Proposition I.43
 
 Back to :ref:`Proposition I.43 <I.43>`.
 
-.. _folio-i-0355:
-
 .. folio:: 0355
    :page: 341
 

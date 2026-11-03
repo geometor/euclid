@@ -6,7 +6,7 @@
 :title: Proposition X.4
 :folios: 0026, 0027
 :pages: 22, 23
-:dependencies: X.3
+:dependencies: V.def.1, X.def.1, X.3
 
 .. _X.4:
 
@@ -18,7 +18,7 @@ PROPOSITION 4.
 
 .. enunciation::
 
-   Given three commensurable magnitudes, to find their greatest common measure.
+   Given three :term:`commensurable <commensurable>` magnitudes, to find their greatest common :term:`measure <part-aliquot>`.
 
 Let :g:`A <0026.g1:A>`, :g:`B <0026.g1:B>`, :g:`C <0026.g1:C>` be the three given commensurable magnitudes ; thus it is required to find the greatest common measure of :g:`A <0026.g1:A>`, :g:`B <0026.g1:B>`, :g:`C <0026.g1:C>`.
 
@@ -142,11 +142,18 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../../volume_II/book_v/definitions/index.html#v-def-1", target="_top"];
      "X.def.1" [label="X.def.1", fillcolor="#224422", tooltip="X.def.1: Those magnitudes are said to be commensurable which are measured by the same measure, and those incommensurable which cannot have any common measure.", URL="../../definitions/index.html#x-def-1", target="_top"];
      "X.2" [label="X.2", fillcolor="#222244", tooltip="X.2: If, when the less of two unequal magnitudes is continually subtracted in turn from the greater, that which is left never measures the one before it, the magnitudes will be…", URL="../002/index.html", target="_top"];
      "X.3" [label="X.3", fillcolor="#222244", tooltip="X.3: Given two commensurable magnitudes, to find their greatest common measure.", URL="../003/index.html", target="_top"];
      "X.4" [label="X.4", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="X.4: Given three commensurable magnitudes, to find their greatest common measure.", URL="index.html", target="_top"];
+     "X.def.1" -> "V.def.1";
+     "X.2" -> "V.def.1";
+     "X.3" -> "V.def.1";
+     "X.4" -> "V.def.1";
      "X.2" -> "X.def.1";
+     "X.3" -> "X.def.1";
+     "X.4" -> "X.def.1";
      "X.3" -> "X.2";
      "X.4" -> "X.3";
    }

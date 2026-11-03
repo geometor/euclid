@@ -6,7 +6,7 @@
 :title: Proposition IX.22
 :folios: 0419, 0420
 :pages: 413, 414
-:dependencies: VII.def.7, IX.21
+:dependencies: VII.def.6, VII.def.7, IX.21
 
 .. _IX.22:
 
@@ -18,7 +18,7 @@ PROPOSITION 22.
 
 .. enunciation::
 
-   If as many odd numbers as we please be added together, and their multitude be even, the whole will be even.
+   If as many :term:`odd numbers <odd-number>` as we please be added together, and their multitude be :term:`even <even-number>`, the whole will be even.
 
 For let as many odd numbers as we please, :g:`AB <0420.g1:/ A B />`, :g:`BC <0420.g1:/ B C />`, :g:`CD <0420.g1:/ C D />`, :g:`DE <0420.g1:/ D E />`, even in multitude, be added together ;
 
@@ -31,7 +31,7 @@ I say that the whole :g:`AE <0420.g1:/ A E />` is even.
 
 .. subclause::
 
-   For, since each of the numbers :g:`AB <0420.g1:/ A B />`, :g:`BC <0420.g1:/ B C />`, :g:`CD <0420.g1:/ C D />`, :g:`DE <0420.g1:/ D E />` is odd, if an unit be subtracted from each, each of the remainders will be even ; :just:`[VII. Def. 7] <VII.def.7>`
+   For, since each of the :term:`numbers <number>` :g:`AB <0420.g1:/ A B />`, :g:`BC <0420.g1:/ B C />`, :g:`CD <0420.g1:/ C D />`, :g:`DE <0420.g1:/ D E />` is odd, if an :term:`unit <unit>` be subtracted from each, each of the remainders will be even ; :just:`[VII. Def. 7] <VII.def.7>`
 
 .. assertion:: [IX. 21] <IX.21>
 
@@ -62,11 +62,18 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../../book_vii/definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../../book_vii/definitions/index.html#vii-def-2", target="_top"];
      "VII.def.6" [label="VII.def.6", fillcolor="#224422", tooltip="VII.def.6: An even number is that which is divisible into two equal parts.", URL="../../../book_vii/definitions/index.html#vii-def-6", target="_top"];
      "VII.def.7" [label="VII.def.7", fillcolor="#224422", tooltip="VII.def.7: An odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number.", URL="../../../book_vii/definitions/index.html#vii-def-7", target="_top"];
      "IX.21" [label="IX.21", fillcolor="#222244", tooltip="IX.21: If as many even numbers as we please be added together, the whole is even.", URL="../21/index.html", target="_top"];
      "IX.22" [label="IX.22", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="IX.22: If as many odd numbers as we please be added together, and their multitude be even, the whole will be even.", URL="index.html", target="_top"];
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.7" -> "VII.def.1";
+     "IX.21" -> "VII.def.2";
+     "VII.def.7" -> "VII.def.6";
      "IX.21" -> "VII.def.6";
+     "IX.22" -> "VII.def.6";
      "IX.22" -> "VII.def.7";
      "IX.22" -> "IX.21";
    }

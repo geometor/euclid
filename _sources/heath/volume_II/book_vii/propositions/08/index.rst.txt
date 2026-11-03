@@ -6,7 +6,7 @@
 :title: Proposition VII.8
 :folios: 0313, 0314
 :pages: 307, 308
-:dependencies: VII.7
+:dependencies: VII.def.2, VII.def.4, VII.7
 
 .. _VII.8:
 
@@ -18,7 +18,7 @@ PROPOSITION 8.
 
 .. enunciation::
 
-   If a number be the same parts of a number that a number subtracted is of a number subtracted, the remainder will also be the same parts of the remainder that the whole is of the whole.
+   If a :term:`number <number>` be the :term:`same parts <parts-non-aliquot>` of a number that a number subtracted is of a number subtracted, the remainder will also be the same parts of the remainder that the whole is of the whole.
 
 For let the number :g:`AB <0313.g1:/ A B />` be the same parts of the number :g:`CD <0313.g1:/ C D />` that :g:`AE <0313.g1:/ A E />` subtracted is of :g:`CF <0313.g1:/ C F />` subtracted;
 
@@ -46,7 +46,7 @@ Let :g:`GH <0313.g1:/ G H />` be divided into the parts of :g:`CD <0313.g1:/ C D
 
 .. subclause::
 
-   Now since, whatever part :g:`GK <0313.g1:/ G K />` is of :g:`CD <0313.g1:/ C D />`, the same part also is :g:`AL <0313.g1:/ A L />` of :g:`CF <0313.g1:/ C F />`, while :g:`CD <0313.g1:/ C D />` is greater than :g:`CF <0313.g1:/ C F />`,
+   Now since, whatever part :g:`GK <0313.g1:/ G K />` is of :g:`CD <0313.g1:/ C D />`, the :term:`same part <part-aliquot>` also is :g:`AL <0313.g1:/ A L />` of :g:`CF <0313.g1:/ C F />`, while :g:`CD <0313.g1:/ C D />` is greater than :g:`CF <0313.g1:/ C F />`,
 
 .. assertion::
 
@@ -114,9 +114,31 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../../book_v/definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../../book_v/definitions/index.html#v-def-2", target="_top"];
+     "VII.def.1" [label="VII.def.1", fillcolor="#224422", tooltip="VII.def.1: An unit is that by virtue of which each of the things that exist is called one.", URL="../../definitions/index.html#vii-def-1", target="_top"];
+     "VII.def.2" [label="VII.def.2", fillcolor="#224422", tooltip="VII.def.2: A number is a multitude composed of units.", URL="../../definitions/index.html#vii-def-2", target="_top"];
+     "VII.def.3" [label="VII.def.3", fillcolor="#224422", tooltip="VII.def.3: A number is a part of a number, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#vii-def-3", target="_top"];
+     "VII.def.4" [label="VII.def.4", fillcolor="#224422", tooltip="VII.def.4: but parts when it does not measure it.", URL="../../definitions/index.html#vii-def-4", target="_top"];
+     "VII.def.5" [label="VII.def.5", fillcolor="#224422", tooltip="VII.def.5: The greater number is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#vii-def-5", target="_top"];
      "VII.5" [label="VII.5", fillcolor="#222244", tooltip="VII.5: If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.", URL="../05/index.html", target="_top"];
      "VII.7" [label="VII.7", fillcolor="#222244", tooltip="VII.7: If a number be that part of a number, which a number subtracted is of a number subtracted, the remainder will also be the same part of the remainder that the whole is of the whole.", URL="../07/index.html", target="_top"];
      "VII.8" [label="VII.8", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="VII.8: If a number be the same parts of a number that a number subtracted is of a number subtracted, the remainder will also be the same parts of the remainder that the whole is of the…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "VII.def.3" -> "V.def.1";
+     "VII.def.4" -> "V.def.1";
+     "VII.def.5" -> "V.def.1";
+     "VII.5" -> "V.def.2";
+     "VII.def.2" -> "VII.def.1";
+     "VII.def.3" -> "VII.def.2";
+     "VII.def.5" -> "VII.def.2";
+     "VII.5" -> "VII.def.2";
+     "VII.7" -> "VII.def.2";
+     "VII.8" -> "VII.def.2";
+     "VII.5" -> "VII.def.3";
+     "VII.7" -> "VII.def.3";
+     "VII.8" -> "VII.def.4";
+     "VII.5" -> "VII.def.5";
      "VII.7" -> "VII.5";
      "VII.8" -> "VII.7";
    }

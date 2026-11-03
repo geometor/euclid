@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=69acf51f" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
   <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -92,19 +92,19 @@
         <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
         <table class="autosummary longtable docutils align-default">
         <tbody>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.resolve_justification_target" title="geometor.euclid.ingest.md_to_rst.resolve_justification_target"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resolve_justification_target</span></code></a>(→ Optional[str])</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.resolve_justification_target" title="geometor.euclid.ingest.md_to_rst.resolve_justification_target"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resolve_justification_target</span></code></a>(just_text[, book]) → Optional[str]</p></td>
         <td><p>Resolve a bracketed justification label (e.g. <code class="docutils literal notranslate"><span class="pre">[Post.</span> <span class="pre">3]</span></code>, <code class="docutils literal notranslate"><span class="pre">[Def.</span> <span class="pre">15]</span></code>) to canonical target(s).</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.format_justification" title="geometor.euclid.ingest.md_to_rst.format_justification"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_justification</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.format_justification" title="geometor.euclid.ingest.md_to_rst.format_justification"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_justification</span></code></a>(raw_just[, book, as_arg]) → str</p></td>
         <td><p>Format a justification string as either a <code class="docutils literal notranslate"><span class="pre">:just:`...`</span></code> role or a directive argument.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.convert_inline" title="geometor.euclid.ingest.md_to_rst.convert_inline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_inline</span></code></a>(→ str)</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.convert_inline" title="geometor.euclid.ingest.md_to_rst.convert_inline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_inline</span></code></a>(text[, book, is_notes]) → str</p></td>
         <td><p>Convert inline HTML spans, justifications, line numbers, footnotes, and entities to RST.</p></td>
         </tr>
-        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.convert_md_to_rst" title="geometor.euclid.ingest.md_to_rst.convert_md_to_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_md_to_rst</span></code></a>(→ str)</p></td>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.convert_md_to_rst" title="geometor.euclid.ingest.md_to_rst.convert_md_to_rst"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_md_to_rst</span></code></a>(md_text[, is_notes]) → str</p></td>
         <td><p>Convert a folio Markdown string (with YAML frontmatter and HTML spans/tags) to pure RST.</p></td>
         </tr>
-        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.convert_file" title="geometor.euclid.ingest.md_to_rst.convert_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_file</span></code></a>(→ pathlib.Path)</p></td>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.euclid.ingest.md_to_rst.convert_file" title="geometor.euclid.ingest.md_to_rst.convert_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_file</span></code></a>(md_path[, overwrite]) → pathlib.Path</p></td>
         <td><p>Convert a single &lt;folio&gt;.md (or &lt;folio&gt;.notes.md) file to .rst alongside it.</p></td>
         </tr>
         </tbody>
@@ -252,7 +252,7 @@
   <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script src="../../../../../../_static/js/geometor_interactive.js?v=4430a5d4"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../../../../../_static/js/search_highlight.js"></script>
 
 </body>

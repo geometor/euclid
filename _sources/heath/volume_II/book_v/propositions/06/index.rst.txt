@@ -6,7 +6,7 @@
 :title: Proposition V.6
 :folios: 0153, 0154
 :pages: 147, 148
-:dependencies: V.2
+:dependencies: V.def.2, V.2
 
 .. _V.6:
 
@@ -18,7 +18,7 @@ PROPOSITION 6.
 
 .. enunciation::
 
-   If two magnitudes be equimultiples of two magnitudes, and any magnitudes subtracted from them be equimultiples of the same, the remainders also are either equal to the same or equimultiples of them.
+   If two magnitudes be :term:`equimultiples <multiple>` of two magnitudes, and any magnitudes subtracted from them be equimultiples of the same, the remainders also are either equal to the same or equimultiples of them.
 
 For let two magnitudes :g:`AB <0153.g1:/ A B />`, :g:`CD <0153.g1:/ C D />` be equimultiples of two magnitudes :g:`E <0153.g1:E>`, :g:`F <0153.g1:F>`, and let :g:`AG <0153.g1:/ A G />`, :g:`CH <0153.g1:/ C H />` subtracted from them be equimultiples of the same two :g:`E <0153.g1:E>`, :g:`F <0153.g1:F>`;
 
@@ -90,8 +90,13 @@ Dependency Graph
      node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#d6d3cd", fontcolor="#ffffff"];
      edge [color="#8c857b", fontcolor="#8c857b", arrowsize=0.75];
      rankdir="TB";
+     "V.def.1" [label="V.def.1", fillcolor="#224422", tooltip="V.def.1: A magnitude is a part of a magnitude, the less of the greater, when it measures the greater.", URL="../../definitions/index.html#v-def-1", target="_top"];
+     "V.def.2" [label="V.def.2", fillcolor="#224422", tooltip="V.def.2: The greater is a multiple of the less when it is measured by the less.", URL="../../definitions/index.html#v-def-2", target="_top"];
      "V.2" [label="V.2", fillcolor="#222244", tooltip="V.2: If a first magnitude be the same multiple of a second that a third is of a fourth, and a fifth also be the same multiple of the second that a sixth is of the fourth, the sum of…", URL="../02/index.html", target="_top"];
      "V.6" [label="V.6", penwidth=2.5, color="#e8b85a", fillcolor="#4a453b", tooltip="V.6: If two magnitudes be equimultiples of two magnitudes, and any magnitudes subtracted from them be equimultiples of the same, the remainders also are either equal to the same or…", URL="index.html", target="_top"];
+     "V.def.2" -> "V.def.1";
+     "V.2" -> "V.def.2";
+     "V.6" -> "V.def.2";
      "V.6" -> "V.2";
    }
 

@@ -5,6 +5,7 @@
 :title: Book II Definitions
 :folios: 0384
 :pages: 370
+:dependencies: I.def.4, I.def.10, I.def.17
 
 .. _II.def:
 
@@ -18,11 +19,11 @@ DEFINITIONS.
 
 .. _II.def.1:
 
-1. Any rectangular parallelogram is said to be :term:`**contained** <contained-rectangle>` by the two straight lines containing the right angle.
+1. Any rectangular parallelogram is said to be :term:`**contained** <contained-rectangle>` by the two :term:`straight lines <straight-line>` containing the :term:`right angle <right-angle>`.
 
 .. _II.def.2:
 
-2. And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a :term:`**gnomon** <gnomon>`.
+2. And in any parallelogrammic area let any one whatever of the parallelograms about its :term:`diameter <diameter>` with the two complements be called a :term:`**gnomon** <gnomon>`.
 
 ----
 

@@ -24,8 +24,6 @@ This theorem, according to :person:`Eudemus <eudemus>`, was first discovered by 
 The balance of MS. authority seems to be against the genuineness of this *Porism*, but :person:`Proclus <proclus>` and Psellus both have it. The word is not here used, as it is in the title of Euclid’s lost *Porisms*, to signify a particular class of independent propositions which :person:`Proclus <proclus>` describes as being in some sort intermediate between theorems and problems (requiring us, not to bring a thing into existence, but *to find* something which we know to exist). *Porism* has here (and wherever the term is used in the *Elements*) its second meaning; it is what we call a corollary, i.e. an incidental result springing from the proof of a theorem or the solution of a problem, a result not directly sought but appearing as it were by chance without any additional labour, and constituting, as :person:`Proclus <proclus>` says, a sort of *windfall* (ἕρμαιον) and *bonus* (κέρδος). These Porisms appear in both the
 geometrical and arithmetical Books of the *Elements*, and may either result from theorems or problems. Here the Porism is geometrical, and springs out of a theorem; VII. 2 affords an instance of an arithmetical Porism. As an instance of a Porism to a problem :person:`Proclus <proclus>` cites “that which is found in the second Book” (τὸ ἐν τῷ δευτέρῳ βιβλίῳ κείμενον); but as to this see notes on II. 4 and IV. 15.
 
-.. _folio-i-0293:
-
 .. folio:: 0293
    :page: 279
 

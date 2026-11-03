@@ -14,8 +14,6 @@ Commentary on Proposition I.34
 
 Back to :ref:`Proposition I.34 <I.34>`.
 
-.. _folio-i-0339:
-
 .. folio:: 0339
    :page: 325
 
@@ -27,8 +25,6 @@ I doubt whether the supposed distinction between the two parts of the propositio
 
 It would almost appear as though :person:`Proclus <proclus>` had drawn the distinction for the mere purpose of alluding to investigations by Greek geometers on the general subject of *diameters* of all sorts of figures; and it may have been these which brought the subject to the point at which :person:`Apollonius <apollonius>` could say in the first definitions at the beginning of his *Conics* that “In *any bent line*, such as is in one plane, I give the name *diameter* to any straight line which, being drawn from the bent line, bisects all the straight lines (chords) drawn in the line parallel to any straight line.” The term *bent line* (καμπύλη :term:`γραμμή <line>`) includes, e.g. in :person:`Archimedes <archimedes>`, not only curves, but any composite line made
 up of straight lines and curves joined together in any manner. It is of course clear that either diagonal of a parallelogram bisects all lines drawn within the parallelogram parallel to the other diagonal.
-
-.. _folio-i-0340:
 
 .. folio:: 0340
    :page: 326
