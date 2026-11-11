@@ -4,7 +4,7 @@ dynamic = ["version"]
 authors = [
   { name="geometor", email="github@geometor.com" },
 ]
-description = "A digital reconstruction of Euclid's Elements for dependency mapping and analysis."
+description = "Digital critical edition, semantic discovery, and calibrated diplomatic SVGs of Sir Thomas L. Heath's Euclid's Elements."
 readme = "README.rst"
 requires-python = ">=3.13"
 classifiers = [
@@ -13,9 +13,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "sympy",
-    "matplotlib",
-    "mplcursors",
     "rich",
     "networkx",
     "PyYAML",
@@ -48,6 +45,10 @@ version = {attr = "geometor.euclid.__version__"}
 "Website" = "https://geometor.github.io/euclid"
 "Repository" = "https://github.com/geometor/euclid"
 "Issues" = "https://github.com/geometor/euclid/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
 
 [tool.ruff]
 lint.select = ["ANN", "D"]

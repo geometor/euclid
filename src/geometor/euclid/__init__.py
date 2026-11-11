@@ -1,14 +1,11 @@
-"""Tools for modeling and rendering geometric constructions from Euclid's Elements.
+"""Scholarly edition compiler, semantic parser, and dependency graph tools for Heath's Euclid.
 
-Key Components:
----------------
-- **XML Parsing**: Tools (:func:`parse_element_xml`) to parse the XML source of Euclid's Elements.
-- **RST Generation**: Tools (:func:`generate_rst_from_xml`) to convert XML to ReStructuredText.
-- **Graphing**: Tools (:func:`build_graph`, :func:`generate_g_index`) to build dependency graphs and indexes.
-
-Usage:
-------
-Use the provided functions to parse XML files and generate documentation.
+``geometor.euclid`` is strictly the diplomatic/scholarly digital edition of
+Sir Thomas L. Heath's *The Thirteen Books of Euclid's Elements*, accompanied by
+calibrated historical semantic SVGs. It contains zero executable Python
+construction scripts; all symbolic constructions (``geometor.model``) and
+rendered demonstrations (``geometor.explorer``) live downstream in
+``geometor.elements``.
 """
 
 from __future__ import annotations

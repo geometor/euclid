@@ -45,16 +45,15 @@ All graphic assets are strictly co-located within their respective folio directo
 
 ```
 resources/heath/volume_{I,II,III}/<section>/
-├── <folio>.png              # Raw high-resolution page scan
-├── <folio>.md               # Markdown transcription with LaTeX math ($AB$, $A$, etc.)
-├── <folio>.notes.md         # Scholarly notes and textual apparatus
-├── <folio>.json             # Graphic metadata, bboxes, and geometry schemas
-├── <folio>.<gid>.png        # Cleaned raster crop (white background)
-├── <folio>.<gid>.inverted.png # Inverted raster crop (dark mode)
-└── <folio>.<gid>.svg        # Mathematical, semantic vector graphic
+├── <folio>.png                 # Raw high-resolution page scan
+├── <folio>.rst                 # Diplomatic RST transcription with semantic :g: and :just: roles
+├── <folio>.notes.rst           # Scholarly notes and textual apparatus
+├── <folio>.json                # Graphic metadata, bboxes, and diplomatic geometry calibration schemas
+├── <folio>.<gid>.png           # Cleaned raster crop (white background)
+└── <folio>.<gid>.svg           # Calibrated, semantically tagged historical vector graphic
 ```
 
-Legacy folders such as `resources/heath/propositions/` have been deprecated and removed. All work happens directly in the folio folders.
+Legacy folders such as `resources/heath/propositions/` have been deprecated and removed. Furthermore, **`geometor/euclid` contains zero `.py` construction scripts** (`py_file` is never stored in `<folio>.json`); all executable `geometor.model` constructions and `geometor.explorer` demonstrations live downstream in `geometor/elements`.
 
 ---
 

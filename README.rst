@@ -11,7 +11,7 @@ Overview
 
 ``geometor.euclid`` is the primary textual and visual source of truth for Euclid's *Elements* in the GEOMETOR ecosystem. It transforms the three volumes of Sir Thomas L. Heath's 1926 Cambridge/Dover critical edition (1,416 archival folios and 831 geometric diagrams) into a de-paginated, semantically tagged **Book Codex** edition powered by `photon-platform/publish <https://github.com/photon-platform/publish>`_.
 
-While ``geometor.euclid`` performs **semantic discovery**—preserving Heath's complete translation, historical introductions, critical commentary, and folio provenance—its sister repository `geometor/elements <https://github.com/geometor/elements>`_ consumes the compiled ``docsrc/heath/`` tree to generate the symbolic **G-Index** (`G.1`–`G.525`).
+While ``geometor.euclid`` performs **semantic discovery**—preserving Heath's complete translation, historical introductions, critical commentary, calibrated woodcut-proportioned SVGs, and folio provenance with **zero executable Python construction code**—its sister repository `geometor/elements <https://github.com/geometor/elements>`_ consumes the compiled ``docsrc/heath/`` tree to generate the symbolic **G-Index** (`G.1`–`G.525`) and render executable ``geometor.model`` / ``geometor.explorer`` constructions and demonstrations.
 
 Process & Pipeline
 ------------------
