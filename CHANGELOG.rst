@@ -3,6 +3,17 @@ changelog
 
 :project: geometor.euclid
 
+0.4.0
+-----
+*2026-11-12*
+
+**added**
+
+-   **Euclid's** *Data* (**Δεδομένα** **4-Track Bilingual Book Codex**):
+    -   Added complete 4-track synchronized Book Codex (``docsrc/data/``: *Proposition*, *Greek (Menge 1896)*, *Summary*, *Notes*) spanning Marinus of Neapolis's *Protheoria* (§§ 1–18), Definitions ``D.def.1``–``D.def.15``, and all 94 Propositions ``D.1``–``D.94`` across Units 0–6.
+    -   Added ``resources/data/concordance.json`` (109-node functional dependency DAG reconciling Menge 1896, Simson 1762/1806, Heath's *Elements*, ``geometor.elements`` G-Index, Pappus *Synagoge* VII, Petersen 1879, and Altshiller-Court 1952), ``enunciations.json``, ``citations.json``, ``persons.json``, and ``glossary.json``.
+    -   Added 8 interactive ``.euclid-graphic`` SVGs (``data_01_taxonomy.svg``–``data_08_functional_dag.svg``), ``src/geometor/euclid/data_codex.py``, ``src/geometor/euclid/sphinx_ext.py``, and ``tests/test_euclid_data.py``.
+
 0.3.7
 -----
 *2026-11-12*
