@@ -3,6 +3,16 @@ changelog
 
 :project: geometor.euclid
 
+0.3.7
+-----
+*2026-11-12*
+
+**refactored**
+
+-   **Strict Content / Code Separation**:
+    -   Decoupled legacy executable Python construction vestiges from the diplomatic Heath edition so ``geometor.euclid`` preserves pure scholarly text, calibrated ``.euclid-graphic`` SVGs, and citation apparatus while executable symbolic models live downstream in ``geometor.elements``.
+    -   Added ``tests/test_decouple_code.py`` verification suite and updated GitHub Actions deployment permissions.
+
 0.3.2
 -----
 *2026-10-28*

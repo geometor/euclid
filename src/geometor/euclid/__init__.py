@@ -11,7 +11,7 @@ rendered demonstrations (``geometor.explorer``) live downstream in
 from __future__ import annotations
 
 
-__version__ = "0.3.6"
+__version__ = "0.3.7"
 
 __all__ = [
     "parse_element_xml",
