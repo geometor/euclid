@@ -1,0 +1,409 @@
+src.geometor.euclid.data_codex
+==============================
+
+.. py:module:: src.geometor.euclid.data_codex
+
+.. autoapi-nested-parse::
+
+   Concordance loader, validator, and functional DAG query helpers for Euclid's *Data*.
+
+   Provides stdlib-only typed structures and validation utilities over the static
+   JSON apparatus in ``resources/data/`` (``concordance.json``, ``citations.json``,
+   ``persons.json``, ``glossary.json``, and ``enunciations.json``).
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.euclid.data_codex.DataDefinitionEntry
+   src.geometor.euclid.data_codex.DataPropositionEntry
+   src.geometor.euclid.data_codex.DataConcordance
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.euclid.data_codex.default_data_resources_dir
+   src.geometor.euclid.data_codex.load_data_concordance
+   src.geometor.euclid.data_codex.load_data_apparatus
+   src.geometor.euclid.data_codex.validate_data_concordance
+   src.geometor.euclid.data_codex.propositions_by_unit
+   src.geometor.euclid.data_codex.propositions_citing_elements
+   src.geometor.euclid.data_codex.build_data_dependency_dag
+
+
+Module Contents
+---------------
+
+.. py:class:: DataDefinitionEntry
+
+   Structured record for one of the 15 Definitions of Euclid's *Data*.
+
+   .. attribute:: id
+
+      Canonical identifier (``D.def.1`` through ``D.def.15``).
+
+   .. attribute:: number
+
+      Sequential integer index (1 through 15).
+
+   .. attribute:: greek_numeral
+
+      Milesian Greek numeral header in Menge (1896).
+
+   .. attribute:: menge_page
+
+      Page number in Menge's 1896 Teubner edition.
+
+   .. attribute:: simson_id
+
+      Corresponding definition identifier in Simson (1762/1806).
+
+   .. attribute:: authentic
+
+      Whether Menge prints the definition outside editorial brackets.
+
+   .. attribute:: category
+
+      Epistemic/geometric category of givenness.
+
+   .. attribute:: greek_text
+
+      Polytonic Greek text from Menge (1896).
+
+   .. attribute:: english_text
+
+      Public-domain / literal English translation.
+
+   .. attribute:: functional_form
+
+      Algebraic or constructive predicate specification.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: number
+      :type:  int
+
+
+   .. py:attribute:: greek_numeral
+      :type:  str
+
+
+   .. py:attribute:: menge_page
+      :type:  int
+
+
+   .. py:attribute:: simson_id
+      :type:  str
+
+
+   .. py:attribute:: authentic
+      :type:  bool
+
+
+   .. py:attribute:: category
+      :type:  str
+
+
+   .. py:attribute:: greek_text
+      :type:  str
+
+
+   .. py:attribute:: english_text
+      :type:  str
+
+
+   .. py:attribute:: functional_form
+      :type:  str
+
+
+.. py:class:: DataPropositionEntry
+
+   Structured record for one of the 94 Propositions of Euclid's *Data*.
+
+   .. attribute:: id
+
+      Canonical identifier (``D.1`` through ``D.94``).
+
+   .. attribute:: number
+
+      Sequential integer index in Menge (1896) (1 through 94).
+
+   .. attribute:: greek_numeral
+
+      Milesian Greek numeral header in Menge (1896).
+
+   .. attribute:: unit
+
+      Thematic unit number (1 through 6).
+
+   .. attribute:: unit_slug
+
+      Directory slug in ``docsrc/data/``.
+
+   .. attribute:: menge_page
+
+      Starting page in Menge's 1896 Teubner edition.
+
+   .. attribute:: simson_id
+
+      Corresponding proposition identifier in Simson (1762/1806).
+
+   .. attribute:: greek_enunciation
+
+      Polytonic Greek enunciation from Menge (1896).
+
+   .. attribute:: english_enunciation
+
+      Public-domain / literal English enunciation.
+
+   .. attribute:: given
+
+      Tuple of typed input hypotheses.
+
+   .. attribute:: determined
+
+      Tuple of typed output determinations.
+
+   .. attribute:: functional_signature
+
+      Compact ``Given(...) -> Determined(...)`` signature.
+
+   .. attribute:: data_deps
+
+      Tuple of internal *Data* dependencies (``D.def.*``, ``D.*``).
+
+   .. attribute:: elements_deps
+
+      Tuple of *Elements* dependencies (``I.1``–``VI.33``, etc.).
+
+   .. attribute:: g_index_deps
+
+      Tuple of ``geometor/elements`` G-Index identifiers.
+
+   .. attribute:: pappus_refs
+
+      Tuple of cross-references to Pappus's *Synagoge* Book VII.
+
+   .. attribute:: petersen_methods
+
+      Tuple of Julius Petersen locus/transformation tags.
+
+   .. attribute:: altshiller_court_refs
+
+      Tuple of Nathan Altshiller-Court *College Geometry* loci.
+
+   .. attribute:: computational_primitive
+
+      Modern ``geometor.model`` / solver interpretation.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: number
+      :type:  int
+
+
+   .. py:attribute:: greek_numeral
+      :type:  str
+
+
+   .. py:attribute:: unit
+      :type:  int
+
+
+   .. py:attribute:: unit_slug
+      :type:  str
+
+
+   .. py:attribute:: menge_page
+      :type:  int
+
+
+   .. py:attribute:: simson_id
+      :type:  str
+
+
+   .. py:attribute:: greek_enunciation
+      :type:  str
+
+
+   .. py:attribute:: english_enunciation
+      :type:  str
+
+
+   .. py:attribute:: given
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: determined
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: functional_signature
+      :type:  str
+
+
+   .. py:attribute:: data_deps
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: elements_deps
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: g_index_deps
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: pappus_refs
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: petersen_methods
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: altshiller_court_refs
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: computational_primitive
+      :type:  str
+
+
+.. py:class:: DataConcordance
+
+   Complete parsed concordance for Euclid's *Data* (*Δεδομένα*).
+
+   .. attribute:: title
+
+      English title of the codex.
+
+   .. attribute:: greek_title
+
+      Polytonic Greek title of the treatise.
+
+   .. attribute:: edition_greek
+
+      Bibliographic description of the Greek base text.
+
+   .. attribute:: edition_english
+
+      Bibliographic description of the English translation track.
+
+   .. attribute:: units
+
+      Tuple of unit metadata dictionaries (Units 0 through 6).
+
+   .. attribute:: definitions
+
+      Tuple of all 15 ``DataDefinitionEntry`` records.
+
+   .. attribute:: propositions
+
+      Tuple of all 94 ``DataPropositionEntry`` records.
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: greek_title
+      :type:  str
+
+
+   .. py:attribute:: edition_greek
+      :type:  str
+
+
+   .. py:attribute:: edition_english
+      :type:  str
+
+
+   .. py:attribute:: units
+      :type:  tuple[dict[str, Any], ...]
+
+
+   .. py:attribute:: definitions
+      :type:  tuple[DataDefinitionEntry, ...]
+
+
+   .. py:attribute:: propositions
+      :type:  tuple[DataPropositionEntry, ...]
+
+
+.. py:function:: default_data_resources_dir() -> pathlib.Path
+
+   Return the canonical ``resources/data`` directory inside ``geometor.euclid``.
+
+   :returns: Absolute ``Path`` to ``<repo_root>/resources/data``.
+
+
+.. py:function:: load_data_concordance(resources_dir: pathlib.Path | None = None) -> DataConcordance
+
+   Load and parse ``concordance.json`` into typed ``DataConcordance`` records.
+
+   :param resources_dir: Optional override directory containing ``concordance.json``.
+
+   :returns: Parsed ``DataConcordance`` instance.
+
+
+.. py:function:: load_data_apparatus(resources_dir: pathlib.Path | None = None) -> dict[str, dict[str, Any]]
+
+   Load the four scholarly apparatus JSON registries for ``docsrc/data/``.
+
+   :param resources_dir: Optional override directory containing the JSON registries.
+
+   :returns: Mapping with keys ``citations``, ``persons``, ``glossary``, and ``enunciations``.
+
+
+.. py:function:: validate_data_concordance(concordance: DataConcordance) -> list[str]
+
+   Validate completeness, sequential numbering, and internal DAG acyclicity.
+
+   :param concordance: Parsed ``DataConcordance`` object to inspect.
+
+   :returns: List of validation error messages (empty list when 100% valid).
+
+
+.. py:function:: propositions_by_unit(concordance: DataConcordance, unit: int) -> list[DataPropositionEntry]
+
+   Return all propositions belonging to a given thematic unit (1 through 6).
+
+   :param concordance: Parsed ``DataConcordance`` instance.
+   :param unit: Thematic unit index (1 through 6).
+
+   :returns: Ordered list of ``DataPropositionEntry`` records in ``unit``.
+
+
+.. py:function:: propositions_citing_elements(concordance: DataConcordance, element_id: str) -> list[DataPropositionEntry]
+
+   Find all *Data* propositions whose synthetic proof invokes ``element_id``.
+
+   :param concordance: Parsed ``DataConcordance`` instance.
+   :param element_id: Canonical *Elements* target such as ``"I.4"`` or ``"VI.28"``.
+
+   :returns: Ordered list of matching ``DataPropositionEntry`` records.
+
+
+.. py:function:: build_data_dependency_dag(concordance: DataConcordance) -> dict[str, tuple[str, ...]]
+
+   Build an adjacency mapping from each *Data* node to its internal *Data* prerequisites.
+
+   :param concordance: Parsed ``DataConcordance`` instance.
+
+   :returns: Dictionary mapping ``D.def.1``..``D.def.15`` and ``D.1``..``D.94`` to
+             their direct *Data* prerequisite identifiers.
+
+

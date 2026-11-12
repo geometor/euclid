@@ -1,0 +1,94 @@
+src.geometor.euclid.transform
+=============================
+
+.. py:module:: src.geometor.euclid.transform
+
+.. autoapi-nested-parse::
+
+   Module for transforming XML books into RST documentation.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.euclid.transform.ROMAN_NUMERALS
+   src.geometor.euclid.transform.SECTION_TYPE_MAP
+   src.geometor.euclid.transform.CATEGORIES_KEYWORDS
+   src.geometor.euclid.transform.TAGS_KEYWORDS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.euclid.transform.get_taxonomy
+   src.geometor.euclid.transform.convert_inline_xml_to_rst
+   src.geometor.euclid.transform.parse_book_xml
+   src.geometor.euclid.transform.analyze_dependencies
+   src.geometor.euclid.transform.generate_proof_chain_dot
+   src.geometor.euclid.transform.generate_heath_rst
+   src.geometor.euclid.transform.generate_dependency_graph
+   src.geometor.euclid.transform.main
+
+
+Module Contents
+---------------
+
+.. py:data:: ROMAN_NUMERALS
+
+.. py:data:: SECTION_TYPE_MAP
+
+.. py:data:: CATEGORIES_KEYWORDS
+   :value: ['construct', 'describe', 'bisect']
+
+
+.. py:data:: TAGS_KEYWORDS
+   :value: ['line', 'circle', 'triangle']
+
+
+.. py:function:: get_taxonomy(enunciation_text: str) -> tuple[list[str], list[str]]
+
+   Extracts categories and tags from enunciation text.
+
+
+.. py:function:: convert_inline_xml_to_rst(element: xml.etree.ElementTree.Element | None, dependencies: list[str], is_enunciation: bool = False) -> str
+
+   Converts inline XML elements to RST format.
+
+
+.. py:function:: parse_book_xml(file_path: str | pathlib.Path, entry_number_start: int = 0) -> tuple[dict, int]
+
+   Parses a book XML file and returns its data structure.
+
+
+.. py:function:: analyze_dependencies(graph: networkx.DiGraph, element_ref: str) -> dict[str, list[str]]
+
+   Analyzes the dependency graph for a given element.
+
+   An edge u -> v means u depends on v.
+
+
+.. py:function:: generate_proof_chain_dot(graph: networkx.DiGraph, element_ref: str, ref_to_path_map: dict[str, tuple[str, str]]) -> str
+
+   Generates a GraphViz DOT string for the proof chain of an element.
+
+
+.. py:function:: generate_heath_rst(book_data: dict, output_dir: str | pathlib.Path, graph: networkx.DiGraph, ref_to_path_map: dict[str, tuple[str, str]], metadata: dict) -> None
+
+   Generates RST files for a book and its entries.
+
+
+.. py:function:: generate_dependency_graph(graph: networkx.DiGraph, output_dir: str | pathlib.Path = 'docsrc/elements2') -> None
+
+   Generates a full dependency graph in DOT format.
+
+
+.. py:function:: main() -> None
+
+   Main execution function.
+
+

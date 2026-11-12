@@ -1,0 +1,114 @@
+src.geometor.euclid.graph
+=========================
+
+.. py:module:: src.geometor.euclid.graph
+
+.. autoapi-nested-parse::
+
+   Build dependency graphs and inject Graphviz proof chains into composed RST files under docsrc/heath/.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.euclid.graph.ROMAN_NUMERALS
+   src.geometor.euclid.graph.ROMAN_TO_INT
+   src.geometor.euclid.graph.VALID_BOOKS
+   src.geometor.euclid.graph.SECTION_TYPE_ORDER
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.euclid.graph.infer_justification_target
+   src.geometor.euclid.graph.parse_justification_arg
+   src.geometor.euclid.graph.canonical_sort_key
+   src.geometor.euclid.graph.get_node_type
+   src.geometor.euclid.graph.extract_dependencies_from_rst_body
+   src.geometor.euclid.graph.extract_term_dependencies_from_rst_body
+   src.geometor.euclid.graph.clean_rst_enunciation
+   src.geometor.euclid.graph.truncate_enunciation
+   src.geometor.euclid.graph.format_node_tooltip
+   src.geometor.euclid.graph.generate_proof_chain_dot
+   src.geometor.euclid.graph.build_graph
+
+
+Module Contents
+---------------
+
+.. py:data:: ROMAN_NUMERALS
+
+.. py:data:: ROMAN_TO_INT
+
+.. py:data:: VALID_BOOKS
+
+.. py:data:: SECTION_TYPE_ORDER
+
+.. py:function:: infer_justification_target(display: str, current_book: Optional[str] = None) -> Optional[str]
+
+   Infer canonical target ID(s) from justification text when <target> is omitted.
+
+
+.. py:function:: parse_justification_arg(raw_arg: str, current_book: Optional[str] = None) -> Tuple[str, Optional[str]]
+
+   Parse a justification string into (display_text, target_id).
+
+
+.. py:function:: canonical_sort_key(ref_id: str) -> Tuple[int, int, int, int, str]
+
+   Return a deterministic sort key for canonical Euclid IDs (e.g. I.def.15, I.post.1, I.cn.4, I.47).
+
+
+.. py:function:: get_node_type(ref_id: str) -> str
+
+   Classify a canonical Euclid ID into 'prop', 'def', 'post', or 'cn'.
+
+
+.. py:function:: extract_dependencies_from_rst_body(rst_body: str, current_book: Optional[str] = None) -> List[str]
+
+   Extract sorted unique canonical dependency IDs from :just: roles and assertion directives.
+
+
+.. py:function:: extract_term_dependencies_from_rst_body(rst_body: str, unit_id: str) -> Tuple[Set[str], Set[str]]
+
+   Extract (all_term_deps, enunciation_term_deps) from defined terms in rst_body.
+
+
+.. py:function:: clean_rst_enunciation(raw_text: str) -> str
+
+   Strip RST inline roles, footnote markers, emphasis, and item numbers from an enunciation or definition.
+
+
+.. py:function:: truncate_enunciation(text: str, max_chars: int = 180) -> str
+
+   Collapse whitespace and truncate a long enunciation cleanly at a word boundary.
+
+
+.. py:function:: format_node_tooltip(node_id: str, enunciations: Dict[str, str], max_chars: int = 180) -> str
+
+   Format a truncated enunciation tooltip for a Graphviz node.
+
+
+.. py:function:: generate_proof_chain_dot(graph: networkx.DiGraph, element_ref: str, current_dir: pathlib.Path, label_to_target: Dict[str, Tuple[pathlib.Path, Optional[str]]], enunciations: Optional[Dict[str, str]] = None) -> str
+
+   Generate a Graphviz DOT string for the transitive proof chain of element_ref.
+
+   Note: Sphinx's ``sphinx.ext.graphviz.fix_svg_relative_paths`` resolves ``URL``
+   attributes in DOT relative to the source RST document's directory (``current_dir``)
+   and rewrites them to be relative to ``_images/`` in the output SVG.
+
+
+.. py:function:: build_graph(heath_out_dir: pathlib.Path | None = None, inject_rst: bool = True) -> Tuple[networkx.DiGraph, Dict[str, Any]]
+
+   Build the NetworkX dependency graph from the composed RST files under docsrc/heath/.
+
+   If inject_rst is True, updates :dependencies:, writes resources/heath/enunciations.json,
+   and injects the 'Dependency Graph' (.. graphviz::) and 'Required for' sections into
+   every proposition's index.rst.
+
+

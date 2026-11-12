@@ -1,0 +1,73 @@
+src.geometor.euclid.folio_review
+================================
+
+.. py:module:: src.geometor.euclid.folio_review
+
+.. autoapi-nested-parse::
+
+   Euclid Folio Review & Vetting Web Application.
+
+   Delegates to the canonical `photon_platform.publish.folio_review` package,
+   defaulting to `resources/heath` when invoked from `geometor.euclid`.
+
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /modules/api/src/geometor/euclid/folio_review/app/index
+   /modules/api/src/geometor/euclid/folio_review/reviews/index
+   /modules/api/src/geometor/euclid/folio_review/rst_utils/index
+   /modules/api/src/geometor/euclid/folio_review/scanner/index
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.euclid.folio_review.ReviewManager
+   src.geometor.euclid.folio_review.FolioScanner
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.euclid.folio_review.create_app
+   src.geometor.euclid.folio_review.main
+
+
+Package Contents
+----------------
+
+.. py:function:: create_app(root_dir: Optional[pathlib.Path] = None, project_title: Optional[str] = 'GEOMETOR Euclid', edition_label: Optional[str] = 'Heath')
+
+   Create and configure the Flask review application for Euclid.
+
+
+.. py:function:: main() -> None
+
+   CLI entry point for `euclid-review`.
+
+
+.. py:class:: ReviewManager(storage_path: Optional[pathlib.Path] = None)
+
+   Bases: :py:obj:`photon_platform.publish.folio_review.reviews.ReviewManager`
+
+
+   ReviewManager defaulting to `resources/heath/folio_reviews.json` in `geometor.euclid`.
+
+
+.. py:class:: FolioScanner(root_dir: Optional[pathlib.Path] = None)
+
+   Bases: :py:obj:`photon_platform.publish.folio_review.scanner.FolioScanner`
+
+
+   FolioScanner defaulting to `resources/heath` in `geometor.euclid`.
+
+

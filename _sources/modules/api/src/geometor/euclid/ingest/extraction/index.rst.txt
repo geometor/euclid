@@ -1,0 +1,66 @@
+src.geometor.euclid.ingest.extraction
+=====================================
+
+.. py:module:: src.geometor.euclid.ingest.extraction
+
+.. autoapi-nested-parse::
+
+   Module for extracting images and text from PDF volumes.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.euclid.ingest.extraction.ensure_dir
+   src.geometor.euclid.ingest.extraction.extract_volume
+   src.geometor.euclid.ingest.extraction.generate_manifest
+   src.geometor.euclid.ingest.extraction.extract_toc_from_pdf
+   src.geometor.euclid.ingest.extraction.parse_outline_recursive
+   src.geometor.euclid.ingest.extraction.parse_outline_xml
+   src.geometor.euclid.ingest.extraction.run_toc_extraction
+   src.geometor.euclid.ingest.extraction.run_extraction
+
+
+Module Contents
+---------------
+
+.. py:function:: ensure_dir(path: pathlib.Path) -> None
+
+.. py:function:: extract_volume(vol_key: str, relative_path: str) -> None
+
+   Extracts images and text from a single PDF volume.
+
+
+.. py:function:: generate_manifest() -> None
+
+   Generates manifests of extracted pages for each volume.
+
+
+.. py:function:: extract_toc_from_pdf(pdf_path: pathlib.Path) -> Optional[str]
+
+   Extracts the table of contents from a PDF using pdftohtml.
+
+
+.. py:function:: parse_outline_recursive(outline_element: xml.etree.ElementTree.Element) -> List[Dict[str, Any]]
+
+   Recursively parses XML outline elements.
+
+
+.. py:function:: parse_outline_xml(xml_string: str) -> List[Dict[str, Any]]
+
+   Parses the XML outline string into a structured list.
+
+
+.. py:function:: run_toc_extraction() -> None
+
+   Runs TOC extraction for all configured volumes.
+
+
+.. py:function:: run_extraction() -> None
+
+   Runs the full extraction process: images/text, manifests, and TOC.
+
+

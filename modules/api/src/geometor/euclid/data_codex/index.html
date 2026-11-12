@@ -1,0 +1,756 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.euclid.data_codex &mdash; geometor • euclid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <img src="../../../../../../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">geometor</span>
+        •
+        <span class="repo">euclid</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../heath/index.html"  >Heath Edition</a>
+        </li>
+        <li>
+          <a href="../../../../../../data/index.html"  >Euclid’s Data (Δεδομένα)</a>
+        </li>
+        <li>
+          <a href="../../../../../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../../../../../usage/index.html"  >usage</a>
+        </li>
+        <li>
+          <a href="../../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; euclid</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">geometor • euclid</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-src.geometor.euclid.data_codex">
+        <span id="src-geometor-euclid-data-codex"></span><h1>src.geometor.euclid.data_codex<a class="headerlink" href="#module-src.geometor.euclid.data_codex" title="Link to this heading">¶</a></h1>
+        <p>Concordance loader, validator, and functional DAG query helpers for Euclid’s <em>Data</em>.</p>
+        <p>Provides stdlib-only typed structures and validation utilities over the static
+        JSON apparatus in <code class="docutils literal notranslate"><span class="pre">resources/data/</span></code> (<code class="docutils literal notranslate"><span class="pre">concordance.json</span></code>, <code class="docutils literal notranslate"><span class="pre">citations.json</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">persons.json</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary.json</span></code>, and <code class="docutils literal notranslate"><span class="pre">enunciations.json</span></code>).</p>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.DataDefinitionEntry" title="src.geometor.euclid.data_codex.DataDefinitionEntry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DataDefinitionEntry</span></code></a></p></td>
+        <td><p>Structured record for one of the 15 Definitions of Euclid's <em>Data</em>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.DataPropositionEntry" title="src.geometor.euclid.data_codex.DataPropositionEntry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DataPropositionEntry</span></code></a></p></td>
+        <td><p>Structured record for one of the 94 Propositions of Euclid's <em>Data</em>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.DataConcordance" title="src.geometor.euclid.data_codex.DataConcordance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DataConcordance</span></code></a></p></td>
+        <td><p>Complete parsed concordance for Euclid's <em>Data</em> (<em>Δεδομένα</em>).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.default_data_resources_dir" title="src.geometor.euclid.data_codex.default_data_resources_dir"><code class="xref py py-obj docutils literal notranslate"><span class="pre">default_data_resources_dir</span></code></a>() → pathlib.Path</p></td>
+        <td><p>Return the canonical <code class="docutils literal notranslate"><span class="pre">resources/data</span></code> directory inside <code class="docutils literal notranslate"><span class="pre">geometor.euclid</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.load_data_concordance" title="src.geometor.euclid.data_codex.load_data_concordance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_data_concordance</span></code></a>([resources_dir]) → DataConcordance</p></td>
+        <td><p>Load and parse <code class="docutils literal notranslate"><span class="pre">concordance.json</span></code> into typed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> records.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.load_data_apparatus" title="src.geometor.euclid.data_codex.load_data_apparatus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_data_apparatus</span></code></a>([resources_dir]) → dict[str, dict[str, Any]]</p></td>
+        <td><p>Load the four scholarly apparatus JSON registries for <code class="docutils literal notranslate"><span class="pre">docsrc/data/</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.validate_data_concordance" title="src.geometor.euclid.data_codex.validate_data_concordance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">validate_data_concordance</span></code></a>(concordance) → list[str]</p></td>
+        <td><p>Validate completeness, sequential numbering, and internal DAG acyclicity.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.propositions_by_unit" title="src.geometor.euclid.data_codex.propositions_by_unit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">propositions_by_unit</span></code></a>(concordance, unit) → list[DataPropositionEntry]</p></td>
+        <td><p>Return all propositions belonging to a given thematic unit (1 through 6).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.propositions_citing_elements" title="src.geometor.euclid.data_codex.propositions_citing_elements"><code class="xref py py-obj docutils literal notranslate"><span class="pre">propositions_citing_elements</span></code></a>(concordance, element_id) → list[DataPropositionEntry]</p></td>
+        <td><p>Find all <em>Data</em> propositions whose synthetic proof invokes <code class="docutils literal notranslate"><span class="pre">element_id</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.euclid.data_codex.build_data_dependency_dag" title="src.geometor.euclid.data_codex.build_data_dependency_dag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_data_dependency_dag</span></code></a>(concordance) → dict[str, tuple[str, ...]]</p></td>
+        <td><p>Build an adjacency mapping from each <em>Data</em> node to its internal <em>Data</em> prerequisites.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">DataDefinitionEntry</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry" title="Link to this definition">¶</a></dt>
+        <dd><p>Structured record for one of the 15 Definitions of Euclid’s <em>Data</em>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.id">
+        <span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.id" title="Link to this definition">¶</a></dt>
+        <dd><p>Canonical identifier (<code class="docutils literal notranslate"><span class="pre">D.def.1</span></code> through <code class="docutils literal notranslate"><span class="pre">D.def.15</span></code>).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.number">
+        <span class="sig-name descname"><span class="pre">number</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.number" title="Link to this definition">¶</a></dt>
+        <dd><p>Sequential integer index (1 through 15).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.greek_numeral">
+        <span class="sig-name descname"><span class="pre">greek_numeral</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.greek_numeral" title="Link to this definition">¶</a></dt>
+        <dd><p>Milesian Greek numeral header in Menge (1896).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.menge_page">
+        <span class="sig-name descname"><span class="pre">menge_page</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.menge_page" title="Link to this definition">¶</a></dt>
+        <dd><p>Page number in Menge’s 1896 Teubner edition.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.simson_id">
+        <span class="sig-name descname"><span class="pre">simson_id</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.simson_id" title="Link to this definition">¶</a></dt>
+        <dd><p>Corresponding definition identifier in Simson (1762/1806).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.authentic">
+        <span class="sig-name descname"><span class="pre">authentic</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.authentic" title="Link to this definition">¶</a></dt>
+        <dd><p>Whether Menge prints the definition outside editorial brackets.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.category">
+        <span class="sig-name descname"><span class="pre">category</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.category" title="Link to this definition">¶</a></dt>
+        <dd><p>Epistemic/geometric category of givenness.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.greek_text">
+        <span class="sig-name descname"><span class="pre">greek_text</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.greek_text" title="Link to this definition">¶</a></dt>
+        <dd><p>Polytonic Greek text from Menge (1896).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.english_text">
+        <span class="sig-name descname"><span class="pre">english_text</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.english_text" title="Link to this definition">¶</a></dt>
+        <dd><p>Public-domain / literal English translation.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataDefinitionEntry.functional_form">
+        <span class="sig-name descname"><span class="pre">functional_form</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataDefinitionEntry.functional_form" title="Link to this definition">¶</a></dt>
+        <dd><p>Algebraic or constructive predicate specification.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id0">
+        <span class="sig-name descname"><span class="pre">id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id0" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id1">
+        <span class="sig-name descname"><span class="pre">number</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#id1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id2">
+        <span class="sig-name descname"><span class="pre">greek_numeral</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id3">
+        <span class="sig-name descname"><span class="pre">menge_page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#id3" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id4">
+        <span class="sig-name descname"><span class="pre">simson_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id4" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id5">
+        <span class="sig-name descname"><span class="pre">authentic</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#id5" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id6">
+        <span class="sig-name descname"><span class="pre">category</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id6" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id7">
+        <span class="sig-name descname"><span class="pre">greek_text</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id7" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id8">
+        <span class="sig-name descname"><span class="pre">english_text</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id8" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id9">
+        <span class="sig-name descname"><span class="pre">functional_form</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id9" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">DataPropositionEntry</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry" title="Link to this definition">¶</a></dt>
+        <dd><p>Structured record for one of the 94 Propositions of Euclid’s <em>Data</em>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.id">
+        <span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.id" title="Link to this definition">¶</a></dt>
+        <dd><p>Canonical identifier (<code class="docutils literal notranslate"><span class="pre">D.1</span></code> through <code class="docutils literal notranslate"><span class="pre">D.94</span></code>).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.number">
+        <span class="sig-name descname"><span class="pre">number</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.number" title="Link to this definition">¶</a></dt>
+        <dd><p>Sequential integer index in Menge (1896) (1 through 94).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.greek_numeral">
+        <span class="sig-name descname"><span class="pre">greek_numeral</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.greek_numeral" title="Link to this definition">¶</a></dt>
+        <dd><p>Milesian Greek numeral header in Menge (1896).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.unit">
+        <span class="sig-name descname"><span class="pre">unit</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.unit" title="Link to this definition">¶</a></dt>
+        <dd><p>Thematic unit number (1 through 6).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.unit_slug">
+        <span class="sig-name descname"><span class="pre">unit_slug</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.unit_slug" title="Link to this definition">¶</a></dt>
+        <dd><p>Directory slug in <code class="docutils literal notranslate"><span class="pre">docsrc/data/</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.menge_page">
+        <span class="sig-name descname"><span class="pre">menge_page</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.menge_page" title="Link to this definition">¶</a></dt>
+        <dd><p>Starting page in Menge’s 1896 Teubner edition.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.simson_id">
+        <span class="sig-name descname"><span class="pre">simson_id</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.simson_id" title="Link to this definition">¶</a></dt>
+        <dd><p>Corresponding proposition identifier in Simson (1762/1806).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.greek_enunciation">
+        <span class="sig-name descname"><span class="pre">greek_enunciation</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.greek_enunciation" title="Link to this definition">¶</a></dt>
+        <dd><p>Polytonic Greek enunciation from Menge (1896).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.english_enunciation">
+        <span class="sig-name descname"><span class="pre">english_enunciation</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.english_enunciation" title="Link to this definition">¶</a></dt>
+        <dd><p>Public-domain / literal English enunciation.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.given">
+        <span class="sig-name descname"><span class="pre">given</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.given" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of typed input hypotheses.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.determined">
+        <span class="sig-name descname"><span class="pre">determined</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.determined" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of typed output determinations.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.functional_signature">
+        <span class="sig-name descname"><span class="pre">functional_signature</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.functional_signature" title="Link to this definition">¶</a></dt>
+        <dd><p>Compact <code class="docutils literal notranslate"><span class="pre">Given(...)</span> <span class="pre">-&gt;</span> <span class="pre">Determined(...)</span></code> signature.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.data_deps">
+        <span class="sig-name descname"><span class="pre">data_deps</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.data_deps" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of internal <em>Data</em> dependencies (<code class="docutils literal notranslate"><span class="pre">D.def.*</span></code>, <code class="docutils literal notranslate"><span class="pre">D.*</span></code>).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.elements_deps">
+        <span class="sig-name descname"><span class="pre">elements_deps</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.elements_deps" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of <em>Elements</em> dependencies (<code class="docutils literal notranslate"><span class="pre">I.1</span></code>–<code class="docutils literal notranslate"><span class="pre">VI.33</span></code>, etc.).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.g_index_deps">
+        <span class="sig-name descname"><span class="pre">g_index_deps</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.g_index_deps" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> G-Index identifiers.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.pappus_refs">
+        <span class="sig-name descname"><span class="pre">pappus_refs</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.pappus_refs" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of cross-references to Pappus’s <em>Synagoge</em> Book VII.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.petersen_methods">
+        <span class="sig-name descname"><span class="pre">petersen_methods</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.petersen_methods" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of Julius Petersen locus/transformation tags.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.altshiller_court_refs">
+        <span class="sig-name descname"><span class="pre">altshiller_court_refs</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.altshiller_court_refs" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of Nathan Altshiller-Court <em>College Geometry</em> loci.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataPropositionEntry.computational_primitive">
+        <span class="sig-name descname"><span class="pre">computational_primitive</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataPropositionEntry.computational_primitive" title="Link to this definition">¶</a></dt>
+        <dd><p>Modern <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> / solver interpretation.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id10">
+        <span class="sig-name descname"><span class="pre">id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id10" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id11">
+        <span class="sig-name descname"><span class="pre">number</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#id11" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id12">
+        <span class="sig-name descname"><span class="pre">greek_numeral</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id12" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id13">
+        <span class="sig-name descname"><span class="pre">unit</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#id13" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id14">
+        <span class="sig-name descname"><span class="pre">unit_slug</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id14" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id15">
+        <span class="sig-name descname"><span class="pre">menge_page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#id15" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id16">
+        <span class="sig-name descname"><span class="pre">simson_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id16" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id17">
+        <span class="sig-name descname"><span class="pre">greek_enunciation</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id17" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id18">
+        <span class="sig-name descname"><span class="pre">english_enunciation</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id18" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id19">
+        <span class="sig-name descname"><span class="pre">given</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id19" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id20">
+        <span class="sig-name descname"><span class="pre">determined</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id20" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id21">
+        <span class="sig-name descname"><span class="pre">functional_signature</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id21" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id22">
+        <span class="sig-name descname"><span class="pre">data_deps</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id22" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id23">
+        <span class="sig-name descname"><span class="pre">elements_deps</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id23" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id24">
+        <span class="sig-name descname"><span class="pre">g_index_deps</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id24" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id25">
+        <span class="sig-name descname"><span class="pre">pappus_refs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id25" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id26">
+        <span class="sig-name descname"><span class="pre">petersen_methods</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id26" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id27">
+        <span class="sig-name descname"><span class="pre">altshiller_court_refs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id27" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id28">
+        <span class="sig-name descname"><span class="pre">computational_primitive</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id28" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">DataConcordance</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance" title="Link to this definition">¶</a></dt>
+        <dd><p>Complete parsed concordance for Euclid’s <em>Data</em> (<em>Δεδομένα</em>).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.title">
+        <span class="sig-name descname"><span class="pre">title</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.title" title="Link to this definition">¶</a></dt>
+        <dd><p>English title of the codex.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.greek_title">
+        <span class="sig-name descname"><span class="pre">greek_title</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.greek_title" title="Link to this definition">¶</a></dt>
+        <dd><p>Polytonic Greek title of the treatise.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.edition_greek">
+        <span class="sig-name descname"><span class="pre">edition_greek</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.edition_greek" title="Link to this definition">¶</a></dt>
+        <dd><p>Bibliographic description of the Greek base text.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.edition_english">
+        <span class="sig-name descname"><span class="pre">edition_english</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.edition_english" title="Link to this definition">¶</a></dt>
+        <dd><p>Bibliographic description of the English translation track.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.units">
+        <span class="sig-name descname"><span class="pre">units</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.units" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of unit metadata dictionaries (Units 0 through 6).</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.definitions">
+        <span class="sig-name descname"><span class="pre">definitions</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.definitions" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of all 15 <code class="docutils literal notranslate"><span class="pre">DataDefinitionEntry</span></code> records.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.DataConcordance.propositions">
+        <span class="sig-name descname"><span class="pre">propositions</span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.DataConcordance.propositions" title="Link to this definition">¶</a></dt>
+        <dd><p>Tuple of all 94 <code class="docutils literal notranslate"><span class="pre">DataPropositionEntry</span></code> records.</p>
+        </dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id29">
+        <span class="sig-name descname"><span class="pre">title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id29" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id30">
+        <span class="sig-name descname"><span class="pre">greek_title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id30" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id31">
+        <span class="sig-name descname"><span class="pre">edition_greek</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id31" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id32">
+        <span class="sig-name descname"><span class="pre">edition_english</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#id32" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id33">
+        <span class="sig-name descname"><span class="pre">units</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id33" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id34">
+        <span class="sig-name descname"><span class="pre">definitions</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#src.geometor.euclid.data_codex.DataDefinitionEntry" title="src.geometor.euclid.data_codex.DataDefinitionEntry"><span class="pre">DataDefinitionEntry</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id34" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="id35">
+        <span class="sig-name descname"><span class="pre">propositions</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#src.geometor.euclid.data_codex.DataPropositionEntry" title="src.geometor.euclid.data_codex.DataPropositionEntry"><span class="pre">DataPropositionEntry</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#id35" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.default_data_resources_dir">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">default_data_resources_dir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pathlib.Path</span></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.default_data_resources_dir" title="Link to this definition">¶</a></dt>
+        <dd><p>Return the canonical <code class="docutils literal notranslate"><span class="pre">resources/data</span></code> directory inside <code class="docutils literal notranslate"><span class="pre">geometor.euclid</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Absolute <code class="docutils literal notranslate"><span class="pre">Path</span></code> to <code class="docutils literal notranslate"><span class="pre">&lt;repo_root&gt;/resources/data</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.load_data_concordance">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">load_data_concordance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">resources_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.euclid.data_codex.DataConcordance" title="src.geometor.euclid.data_codex.DataConcordance"><span class="pre">DataConcordance</span></a></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.load_data_concordance" title="Link to this definition">¶</a></dt>
+        <dd><p>Load and parse <code class="docutils literal notranslate"><span class="pre">concordance.json</span></code> into typed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> records.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>resources_dir</strong> – Optional override directory containing <code class="docutils literal notranslate"><span class="pre">concordance.json</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Parsed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> instance.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.load_data_apparatus">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">load_data_apparatus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">resources_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.load_data_apparatus" title="Link to this definition">¶</a></dt>
+        <dd><p>Load the four scholarly apparatus JSON registries for <code class="docutils literal notranslate"><span class="pre">docsrc/data/</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>resources_dir</strong> – Optional override directory containing the JSON registries.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Mapping with keys <code class="docutils literal notranslate"><span class="pre">citations</span></code>, <code class="docutils literal notranslate"><span class="pre">persons</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary</span></code>, and <code class="docutils literal notranslate"><span class="pre">enunciations</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.validate_data_concordance">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">validate_data_concordance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">concordance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.euclid.data_codex.DataConcordance" title="src.geometor.euclid.data_codex.DataConcordance"><span class="pre">DataConcordance</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.validate_data_concordance" title="Link to this definition">¶</a></dt>
+        <dd><p>Validate completeness, sequential numbering, and internal DAG acyclicity.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>concordance</strong> – Parsed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> object to inspect.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>List of validation error messages (empty list when 100% valid).</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.propositions_by_unit">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">propositions_by_unit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">concordance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.euclid.data_codex.DataConcordance" title="src.geometor.euclid.data_codex.DataConcordance"><span class="pre">DataConcordance</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#src.geometor.euclid.data_codex.DataPropositionEntry" title="src.geometor.euclid.data_codex.DataPropositionEntry"><span class="pre">DataPropositionEntry</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.propositions_by_unit" title="Link to this definition">¶</a></dt>
+        <dd><p>Return all propositions belonging to a given thematic unit (1 through 6).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>concordance</strong> – Parsed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> instance.</p></li>
+        <li><p><strong>unit</strong> – Thematic unit index (1 through 6).</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Ordered list of <code class="docutils literal notranslate"><span class="pre">DataPropositionEntry</span></code> records in <code class="docutils literal notranslate"><span class="pre">unit</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.propositions_citing_elements">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">propositions_citing_elements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">concordance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.euclid.data_codex.DataConcordance" title="src.geometor.euclid.data_codex.DataConcordance"><span class="pre">DataConcordance</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">element_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#src.geometor.euclid.data_codex.DataPropositionEntry" title="src.geometor.euclid.data_codex.DataPropositionEntry"><span class="pre">DataPropositionEntry</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.propositions_citing_elements" title="Link to this definition">¶</a></dt>
+        <dd><p>Find all <em>Data</em> propositions whose synthetic proof invokes <code class="docutils literal notranslate"><span class="pre">element_id</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>concordance</strong> – Parsed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> instance.</p></li>
+        <li><p><strong>element_id</strong> – Canonical <em>Elements</em> target such as <code class="docutils literal notranslate"><span class="pre">&quot;I.4&quot;</span></code> or <code class="docutils literal notranslate"><span class="pre">&quot;VI.28&quot;</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Ordered list of matching <code class="docutils literal notranslate"><span class="pre">DataPropositionEntry</span></code> records.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.euclid.data_codex.build_data_dependency_dag">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.euclid.data_codex.</span></span><span class="sig-name descname"><span class="pre">build_data_dependency_dag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">concordance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.euclid.data_codex.DataConcordance" title="src.geometor.euclid.data_codex.DataConcordance"><span class="pre">DataConcordance</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.euclid.data_codex.build_data_dependency_dag" title="Link to this definition">¶</a></dt>
+        <dd><p>Build an adjacency mapping from each <em>Data</em> node to its internal <em>Data</em> prerequisites.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>concordance</strong> – Parsed <code class="docutils literal notranslate"><span class="pre">DataConcordance</span></code> instance.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Dictionary mapping <code class="docutils literal notranslate"><span class="pre">D.def.1</span></code>..``D.def.15`` and <code class="docutils literal notranslate"><span class="pre">D.1</span></code>..``D.94`` to
+        their direct <em>Data</em> prerequisite identifiers.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">geometor • euclid</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../../log/26.302-183100/index.html">Complete Three-Volume Heath Edition Book Codex & Apparatus Published</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../../tags/apparatus.html">apparatus</a></li>
+        <li><a href="../../../../../../tags/books.html">books</a></li>
+        <li><a href="../../../../../../tags/heath.html">heath</a></li>
+        <li><a href="../../../../../../tags/svg.html">svg</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../../../../../../categories/codex.html">codex</a></li>
+        <li><a href="../../../../../../categories/edition.html">edition</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../../types/apparatus.html">apparatus</a></li>
+        <li><a href="../../../../../../types/appendix.html">appendix</a></li>
+        <li><a href="../../../../../../types/book.html">book</a></li>
+        <li><a href="../../../../../../types/chapter.html">chapter</a></li>
+        <li><a href="../../../../../../types/commentary.html">commentary</a></li>
+        <li><a href="../../../../../../types/common_notions.html">common_notions</a></li>
+        <li><a href="../../../../../../types/contents.html">contents</a></li>
+        <li><a href="../../../../../../types/definitions.html">definitions</a></li>
+        <li><a href="../../../../../../types/el.html">el</a></li>
+        <li><a href="../../../../../../types/excursus.html">excursus</a></li>
+        <li><a href="../../../../../../types/frontmatter.html">frontmatter</a></li>
+        <li><a href="../../../../../../types/historical_note.html">historical_note</a></li>
+        <li><a href="../../../../../../types/index.html">index</a></li>
+        <li><a href="../../../../../../types/introduction.html">introduction</a></li>
+        <li><a href="../../../../../../types/introductory_note.html">introductory_note</a></li>
+        <li><a href="../../../../../../types/log.html">log</a></li>
+        <li><a href="../../../../../../types/notes.html">notes</a></li>
+        <li><a href="../../../../../../types/postulates.html">postulates</a></li>
+        <li><a href="../../../../../../types/preface.html">preface</a></li>
+        <li><a href="../../../../../../types/proposition.html">proposition</a></li>
+        <li><a href="../../../../../../types/section.html">section</a></li>
+        <li><a href="../../../../../../types/summary.html">summary</a></li>
+        <li><a href="../../../../../../types/volume.html">volume</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../../about.html"  >about</a></li>
+        <li><a href="../../../../../../connect.html"  >connect</a></li>
+        <li><a href="../../../../../../todos/index.html"  >todos</a></li>
+        <li><a href="../../../../../../changelog.html"  >changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 2026, geometor.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=6c02275b"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
