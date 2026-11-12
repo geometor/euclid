@@ -1,17 +1,17 @@
-"""Scholarly edition compiler, semantic parser, and dependency graph tools for Heath's Euclid.
+"""Scholarly edition compiler, semantic parser, and dependency graph tools for Euclid.
 
-``geometor.euclid`` is strictly the diplomatic/scholarly digital edition of
-Sir Thomas L. Heath's *The Thirteen Books of Euclid's Elements*, accompanied by
-calibrated historical semantic SVGs. It contains zero executable Python
-construction scripts; all symbolic constructions (``geometor.model``) and
-rendered demonstrations (``geometor.explorer``) live downstream in
-``geometor.elements``.
+``geometor.euclid`` unites the diplomatic/scholarly digital edition of
+Sir Thomas L. Heath's *The Thirteen Books of Euclid's Elements* with the 4-track
+bilingual Book Codex of Euclid's *Data* (*Δεδομένα*, Menge 1896 Greek & English),
+accompanied by calibrated semantic SVGs and concordance registries. It contains
+zero executable Python construction scripts in its treatise tracks; all symbolic
+constructions (``geometor.model``) live downstream in ``geometor.elements``.
 """
 
 from __future__ import annotations
 
 
-__version__ = "0.3.7"
+__version__ = "0.4.0"
 
 __all__ = [
     "parse_element_xml",
