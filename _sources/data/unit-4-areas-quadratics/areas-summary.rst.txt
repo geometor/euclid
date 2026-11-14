@@ -18,8 +18,8 @@ Equiangular parallelograms and parabolic division of areas (D.56–D.57), quadra
 * **Scope**: 12 propositions (D.56–D.67 (Simson LXI–LXXXIV), *Menge* pp. 98–126).
 * **Analytical Function**: Each proposition below compiles into a forward-chaining inference rule ``Given(...) -> Determined(...)`` within :person:`Pappus's <pappus>` :term:`Treasury of Analysis <analyomenos-topos>` (:cite:`Synagoge Book VII <pappus:synagoge>`) and ``geometor.model`` symbolic DAGs.
 
-Functional Conspectus (D.56–D.67 (Simson LXI–LXXXIV))
------------------------------------------------------
+Functional Overview (D.56–D.67 (Simson LXI–LXXXIV))
+----------------------------------------------------
 
 .. list-table::
    :header-rows: 1
