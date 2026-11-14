@@ -18,8 +18,8 @@ Deductive closure of given magnitudes and ratios over Elements Book V: addition,
 * **Scope**: 24 propositions (D.1–D.24 (Simson I–XXVII), *Menge* pp. 4–42).
 * **Analytical Function**: Each proposition below compiles into a forward-chaining inference rule ``Given(...) -> Determined(...)`` within :person:`Pappus's <pappus>` :term:`Treasury of Analysis <analyomenos-topos>` (:cite:`Synagoge Book VII <pappus:synagoge>`) and ``geometor.model`` symbolic DAGs.
 
-Functional Conspectus (D.1–D.24 (Simson I–XXVII))
--------------------------------------------------
+Functional Overview (D.1–D.24 (Simson I–XXVII))
+------------------------------------------------
 
 .. list-table::
    :header-rows: 1

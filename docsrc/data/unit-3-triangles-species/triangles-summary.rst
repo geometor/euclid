@@ -18,8 +18,8 @@ Constructive determination of triangles up to similarity (εἴδει) from SSS-
 * **Scope**: 17 propositions (D.39–D.55 (Simson XLII–LX), *Menge* pp. 66–98).
 * **Analytical Function**: Each proposition below compiles into a forward-chaining inference rule ``Given(...) -> Determined(...)`` within :person:`Pappus's <pappus>` :term:`Treasury of Analysis <analyomenos-topos>` (:cite:`Synagoge Book VII <pappus:synagoge>`) and ``geometor.model`` symbolic DAGs.
 
-Functional Conspectus (D.39–D.55 (Simson XLII–LX))
---------------------------------------------------
+Functional Overview (D.39–D.55 (Simson XLII–LX))
+-------------------------------------------------
 
 .. list-table::
    :header-rows: 1

@@ -18,8 +18,8 @@ Compound ratio calculus for equiangular and supplementary-angle parallelograms a
 * **Scope**: 16 propositions (D.68–D.83 (Simson L–LXXVIII), *Menge* pp. 126–164).
 * **Analytical Function**: Each proposition below compiles into a forward-chaining inference rule ``Given(...) -> Determined(...)`` within :person:`Pappus's <pappus>` :term:`Treasury of Analysis <analyomenos-topos>` (:cite:`Synagoge Book VII <pappus:synagoge>`) and ``geometor.model`` symbolic DAGs.
 
-Functional Conspectus (D.68–D.83 (Simson L–LXXVIII))
-----------------------------------------------------
+Functional Overview (D.68–D.83 (Simson L–LXXVIII))
+---------------------------------------------------
 
 .. list-table::
    :header-rows: 1

@@ -1,8 +1,9 @@
 :navigation: footer
 :order: 10
+:nav_title: About
 
 =====
-about
+About
 =====
 
 ``geometor.euclid`` is part of the **GEOMETOR** initiative by **phi ARCHITECT**, exploring constructive geometry, deductive dependency graphs, and the divine proportion.

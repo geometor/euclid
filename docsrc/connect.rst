@@ -1,8 +1,9 @@
 :navigation: footer
 :order: 20
+:nav_title: Connect
 
 =======
-connect
+Connect
 =======
 
 Explore the GEOMETOR Euclid project and related repositories on GitHub:

@@ -42,8 +42,8 @@ Marinus's Fourfold Epistemic Classification (*Menge pp. 234–252*)
 
 **Marinus's Canon (§ 15)**: $\text{Δεδομένον} \iff \text{Γνώριμον (Genus)} \land \text{Πόριμον (Differentia)}$.
 
-Conspectus of the Fifteen Definitions (*Menge pp. 2–4*)
--------------------------------------------------------
+Overview of the Fifteen Definitions (*Menge pp. 2–4*)
+-----------------------------------------------------
 
 .. list-table::
    :header-rows: 1
