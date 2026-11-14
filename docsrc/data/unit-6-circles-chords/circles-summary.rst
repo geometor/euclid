@@ -18,8 +18,8 @@ Canonical two-line systems xy = A² with x − y = d (D.84), x + y = s (D.85), a
 * **Scope**: 11 propositions (D.84–D.94 (Simson LXXXV–C), *Menge* pp. 164–186).
 * **Analytical Function**: Each proposition below compiles into a forward-chaining inference rule ``Given(...) -> Determined(...)`` within :person:`Pappus's <pappus>` :term:`Treasury of Analysis <analyomenos-topos>` (:cite:`Synagoge Book VII <pappus:synagoge>`) and ``geometor.model`` symbolic DAGs.
 
-Functional Conspectus (D.84–D.94 (Simson LXXXV–C))
---------------------------------------------------
+Functional Overview (D.84–D.94 (Simson LXXXV–C))
+-------------------------------------------------
 
 .. list-table::
    :header-rows: 1

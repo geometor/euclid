@@ -18,8 +18,8 @@ Transition from abstract magnitudes to planar geometry: uniqueness of line-line 
 * **Scope**: 14 propositions (D.25–D.38 (Simson XXVIII–XL), *Menge* pp. 42–66).
 * **Analytical Function**: Each proposition below compiles into a forward-chaining inference rule ``Given(...) -> Determined(...)`` within :person:`Pappus's <pappus>` :term:`Treasury of Analysis <analyomenos-topos>` (:cite:`Synagoge Book VII <pappus:synagoge>`) and ``geometor.model`` symbolic DAGs.
 
-Functional Conspectus (D.25–D.38 (Simson XXVIII–XL))
-----------------------------------------------------
+Functional Overview (D.25–D.38 (Simson XXVIII–XL))
+---------------------------------------------------
 
 .. list-table::
    :header-rows: 1
