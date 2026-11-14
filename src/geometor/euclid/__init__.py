@@ -11,7 +11,7 @@ constructions (``geometor.model``) live downstream in ``geometor.elements``.
 from __future__ import annotations
 
 
-__version__ = "0.4.2"
+__version__ = "0.4.3"
 
 __all__ = [
     "parse_element_xml",
