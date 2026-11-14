@@ -7,11 +7,11 @@ GEOMETOR • euclid
    :hidden:
    :maxdepth: 2
 
+   about/index
    heath/index
    data/index
    persons
    bibliography
-   mission/index
    usage/index
    log/index
    modules/index
