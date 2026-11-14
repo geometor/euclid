@@ -3,6 +3,16 @@ changelog
 
 :project: geometor.euclid
 
+0.4.1
+-----
+*2026-11-13*
+
+**added**
+
+-   **Primary-Source Folio Links**:
+    -   Activated and verified 2,274 ``.. folio::`` directives and 28 ``:folio:`` frontmatter badges across Euclid's *Elements* and *Data* linking to calibrated primary facsimile scans and concordance loci.
+
+
 0.4.0
 -----
 *2026-11-12*
