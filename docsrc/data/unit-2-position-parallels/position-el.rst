@@ -12,6 +12,9 @@ Unit 2: ΘΕΣΙΣ ΚΑΙ ΠΑΡΑΛΛΗΛΟΙ ΤΟΠΟΙ (Προτάσεις κ
 
 *Euclidis Data cum commentario Marini et scholiis antiquis*, ed. :person:`Heinrich Menge <menge>` (:cite:`Leipzig: B. G. Teubner, 1896 <menge:1896>`, pp. 42–66).
 
+.. picture:: /_static/figures/data_02_position_loci.svg
+   :alt: Δεδομένα τῇ Θέσει — Θεωρήματα κε΄–λη΄ (Menge pp. 42–68)
+
 .. _D.25.el:
 
 Πρότασις κε΄ [D.25 · Prop. XXVIII]

@@ -12,6 +12,9 @@ Unit 3: ΤΡΙΓΩΝΑ ΚΑΙ ΕΥΘΥΓΡΑΜΜΑ ΤΩΙ ΕΙΔΕΙ (Προτά
 
 *Euclidis Data cum commentario Marini et scholiis antiquis*, ed. :person:`Heinrich Menge <menge>` (:cite:`Leipzig: B. G. Teubner, 1896 <menge:1896>`, pp. 66–98).
 
+.. picture:: /_static/figures/data_03_triangle_species.svg
+   :alt: Τρίγωνα τῷ Εἴδει Δεδομένα — Θεωρήματα λθ΄–νε΄ (Menge pp. 68–100)
+
 .. _D.39.el:
 
 Πρότασις λθ΄ [D.39 · Prop. XLII]
