@@ -3,6 +3,12 @@ changelog
 
 :project: geometor.euclid
 
+0.4.4
+-----
+*2026-11-15*
+
+- Synchronized ``.. picture::`` geometric figures onto all 5 illustrated Greek *Data* (*Δεδομένα*) units alongside the English translation tracks and rebuilt inline SVGs with explicit ``viewBox`` dimensions (``publish`` ``v0.4.6``).
+
 0.4.3
 -----
 *2026-11-14*
