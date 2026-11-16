@@ -2,13 +2,13 @@
 
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 ====================
 Euclid of Alexandria
 ====================
 
-The mission of this project is to capture a semantic digital library of the works of :person:`Euclid of Alexandria <euclid>` (fl. c. 300 BCE), the Alexandrian geometer whose *Elements* and *Data* established the axiomatic-deductive and analytic architecture of mathematics for over two millennia.
+The works of :person:`Euclid of Alexandria <euclid>` (fl. c. 300 BCE) established the axiomatic-deductive architecture and analytic foundations of mathematics for over two millennia through the *Elements* and the *Data*. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these immortal treatises are liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. collection::
    :type: book
