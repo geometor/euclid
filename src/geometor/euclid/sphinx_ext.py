@@ -36,10 +36,18 @@ def register_greek_book_track(label: str = GREEK_TRACK_LABEL) -> None:
     if not any(key == "el" for _pat, key, _lbl in book._TRACK_SUFFIX_PATTERNS):
         book._TRACK_SUFFIX_PATTERNS.append(el_pattern)
 
+    greek_pattern = (r"^(.+)[._-]greek$", "el", label)
+    if not any(p[0] == greek_pattern[0] for p in book._TRACK_SUFFIX_PATTERNS):
+        book._TRACK_SUFFIX_PATTERNS.append(greek_pattern)
+
     book._AUX_TRACK_BASENAMES.add("el")
+    book._AUX_TRACK_BASENAMES.add("greek")
     el_aux_re = re.compile(r"^.+[._-]el$")
     if not any(p.pattern == el_aux_re.pattern for p in book._AUX_TRACK_PATTERNS):
         book._AUX_TRACK_PATTERNS.append(el_aux_re)
+    greek_aux_re = re.compile(r"^.+[._-]greek$")
+    if not any(p.pattern == greek_aux_re.pattern for p in book._AUX_TRACK_PATTERNS):
+        book._AUX_TRACK_PATTERNS.append(greek_aux_re)
 
     if getattr(book.detect_companion_tracks, "_euclid_data_el_patched", False):
         return
@@ -54,11 +62,64 @@ def register_greek_book_track(label: str = GREEK_TRACK_LABEL) -> None:
         doc_dir = os.path.dirname(pagename)
         basename = os.path.basename(pagename)
         stem = book._extract_unit_stem(basename, doc_dir)
-        if basename == "el" and doc_dir:
+        if basename in ("el", "greek") and doc_dir:
             stem = os.path.basename(doc_dir)
 
         def _qual(local_name: str) -> str:
             return f"{doc_dir}/{local_name}" if doc_dir else local_name
+
+        # 1. Check explicit :tracks: frontmatter if available in env.metadata
+        meta_dict = getattr(env, "metadata", {})
+        page_meta = meta_dict.get(pagename, {}) if isinstance(meta_dict, dict) else {}
+        if not page_meta and doc_dir and basename != "index":
+            page_meta = meta_dict.get(f"{doc_dir}/index", {}) if isinstance(meta_dict, dict) else {}
+
+        tracks_spec = str(page_meta.get("tracks") or "").strip()
+        if tracks_spec:
+            parsed_tracks: list[dict[str, Any]] = []
+            for chunk in tracks_spec.split("|"):
+                if ":" not in chunk:
+                    continue
+                lbl, target = chunk.split(":", 1)
+                lbl = lbl.strip()
+                target = target.strip()
+                if doc_dir and not target.startswith("/") and f"{doc_dir}/{target}" in found_docs:
+                    target_doc = f"{doc_dir}/{target}"
+                elif target in found_docs:
+                    target_doc = target
+                elif target.lstrip("/") in found_docs:
+                    target_doc = target.lstrip("/")
+                else:
+                    target_doc = f"{doc_dir}/{target}" if doc_dir else target
+
+                key = "en"
+                lbl_lower = lbl.lower()
+                if "greek" in lbl_lower or "el" in lbl_lower:
+                    key = "el"
+                    lbl = label if label else "Greek (Menge 1896)"
+                elif "english" in lbl_lower or "en" in lbl_lower or "proposition" in lbl_lower:
+                    key = "en"
+                elif "summary" in lbl_lower:
+                    key = "summary"
+                elif "note" in lbl_lower:
+                    key = "notes"
+                elif "commentary" in lbl_lower:
+                    key = "commentary"
+                elif "code" in lbl_lower:
+                    key = "code"
+                elif "video" in lbl_lower:
+                    key = "video"
+                elif "folio" in lbl_lower:
+                    key = "folio"
+
+                parsed_tracks.append({
+                    "key": key,
+                    "label": lbl,
+                    "docname": target_doc,
+                    "active": target_doc == pagename,
+                })
+            if len(parsed_tracks) >= 2:
+                return parsed_tracks
 
         probe_page = pagename
         el_candidates = [
@@ -66,6 +127,10 @@ def register_greek_book_track(label: str = GREEK_TRACK_LABEL) -> None:
             _qual(f"{stem}_el"),
             _qual(f"{stem}-el"),
             _qual("el"),
+            _qual("greek"),
+            _qual(f"{stem}.greek"),
+            _qual(f"{stem}_greek"),
+            _qual(f"{stem}-greek"),
         ]
         el_doc = next((c for c in el_candidates if c in found_docs), None)
         if el_doc and pagename == el_doc:
@@ -76,6 +141,8 @@ def register_greek_book_track(label: str = GREEK_TRACK_LABEL) -> None:
                         _qual(f"{stem}-en"),
                         _qual(f"{stem}_en"),
                         _qual(f"{stem}.en"),
+                        _qual("index"),
+                        _qual("en"),
                     )
                     if c in found_docs
                 ),
@@ -101,6 +168,10 @@ def register_greek_book_track(label: str = GREEK_TRACK_LABEL) -> None:
                 continue
             item = dict(tr)
             item["active"] = item.get("docname") == pagename
+            if item.get("key") == "proposition" and not any(t.get("key") == "en" for t in tracks):
+                item["key"] = "en"
+                if item.get("label") in ("Overview", "Proposition"):
+                    item["label"] = "English"
             updated.append(item)
             if item.get("key") == "en" and not inserted_el:
                 updated.append(el_entry)

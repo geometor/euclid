@@ -94,10 +94,10 @@ def test_data_apparatus_registries_and_elements_targets() -> None:
 
 
 def test_data_codex_four_track_rst_files_and_anchors() -> None:
-    """Ensure all 33 RST files and all 218 bilingual RST anchors exist in docsrc/data."""
+    """Ensure all 447 canonical atomic RST files and all 218 bilingual RST anchors exist in docsrc/data."""
     conc = load_data_concordance()
     rst_files = sorted(DATA_DOCSRC.rglob("*.rst"))
-    assert len(rst_files) == 33
+    assert len(rst_files) == 447
 
     for root_file in (
         "index.rst",
@@ -105,29 +105,30 @@ def test_data_codex_four_track_rst_files_and_anchors() -> None:
         "bibliography.rst",
         "persons.rst",
         "glossary.rst",
+        "protheoria/index.rst",
+        "protheoria/greek.rst",
+        "protheoria/summary.rst",
+        "protheoria/notes.rst",
+        "definitions/index.rst",
+        "propositions/index.rst",
     ):
         assert (DATA_DOCSRC / root_file).is_file(), f"Missing {root_file}"
 
-    en_corpus = []
-    el_corpus = []
-    for unit_meta in conc.units:
-        unit_dir = DATA_DOCSRC / str(unit_meta["slug"])
-        stem = str(unit_meta["stem"])
-        for suffix in ("en", "el", "summary", "notes"):
-            track_path = unit_dir / f"{stem}-{suffix}.rst"
-            assert track_path.is_file(), f"Missing track file {track_path}"
-        en_corpus.append((unit_dir / f"{stem}-en.rst").read_text(encoding="utf-8"))
-        el_corpus.append((unit_dir / f"{stem}-el.rst").read_text(encoding="utf-8"))
-
-    joined_en = "\n".join(en_corpus)
-    joined_el = "\n".join(el_corpus)
-
     for d in conc.definitions:
-        assert f".. _{d.id}:" in joined_en
-        assert f".. _{d.id}.el:" in joined_el
+        d_dir = DATA_DOCSRC / "definitions" / f"{d.number:02d}"
+        for track in ("index", "greek", "summary", "notes"):
+            track_path = d_dir / f"{track}.rst"
+            assert track_path.is_file(), f"Missing definition track {track_path}"
+        assert f".. _{d.id}:" in (d_dir / "index.rst").read_text(encoding="utf-8")
+        assert f".. _{d.id}.el:" in (d_dir / "greek.rst").read_text(encoding="utf-8")
+
     for p in conc.propositions:
-        assert f".. _{p.id}:" in joined_en
-        assert f".. _{p.id}.el:" in joined_el
+        p_dir = DATA_DOCSRC / "propositions" / f"{p.number:02d}"
+        for track in ("index", "greek", "summary", "notes"):
+            track_path = p_dir / f"{track}.rst"
+            assert track_path.is_file(), f"Missing proposition track {track_path}"
+        assert f".. _{p.id}:" in (p_dir / "index.rst").read_text(encoding="utf-8")
+        assert f".. _{p.id}.el:" in (p_dir / "greek.rst").read_text(encoding="utf-8")
 
 
 def test_data_svgs_well_formed_and_geom_refs_resolve() -> None:
@@ -179,22 +180,29 @@ def test_sphinx_greek_track_registration_preserves_heath_tracks(tmp_path: Path) 
 
         env = _DummyEnv(
             found_docs={
-                "data/unit-1-magnitudes-ratios/magnitudes-en",
-                "data/unit-1-magnitudes-ratios/magnitudes-el",
-                "data/unit-1-magnitudes-ratios/magnitudes-summary",
-                "data/unit-1-magnitudes-ratios/magnitudes-notes",
+                "data/propositions/01/index",
+                "data/propositions/01/greek",
+                "data/propositions/01/summary",
+                "data/propositions/01/notes",
                 "heath/volume_I/book_i/propositions/0001-en",
                 "heath/volume_I/book_i/propositions/0001-notes",
             }
         )
 
         data_tracks = book.detect_companion_tracks(
-            env, "data/unit-1-magnitudes-ratios/magnitudes-el"
+            env, "data/propositions/01/greek"
         )
         assert [t["key"] for t in data_tracks] == ["en", "el", "summary", "notes"]
         el_track = next(t for t in data_tracks if t["key"] == "el")
         assert el_track["label"] == GREEK_TRACK_LABEL
         assert el_track["active"] is True
+
+        idx_tracks = book.detect_companion_tracks(
+            env, "data/propositions/01/index"
+        )
+        assert [t["key"] for t in idx_tracks] == ["en", "el", "summary", "notes"]
+        en_track = next(t for t in idx_tracks if t["key"] == "en")
+        assert en_track["active"] is True
 
         heath_tracks = book.detect_companion_tracks(
             env, "heath/volume_I/book_i/propositions/0001-en"

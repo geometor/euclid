@@ -15,12 +15,13 @@ from geometor.euclid.sphinx_ext import (
 version = module.__version__
 
 org = "geometor"
-org_name = "geometor"
+org_name = "GEOMETOR"
 
 repo = "euclid"
 repo_name = "euclid"
 
 setup_globals(org, org_name, repo, repo_name)
+site_title = "Euclid of Alexandria"
 
 if "geometor.euclid.sphinx_ext" not in extensions:
     extensions.append("geometor.euclid.sphinx_ext")
