@@ -1,4 +1,6 @@
-:order: 93
+:navigation: header
+:order: 16
+:nav_title: Glossary
 :type: apparatus
 :title: Technical Greek Glossary
 
