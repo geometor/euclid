@@ -21,6 +21,25 @@ Books in This Archive
 - `The Thirteen Books of Euclid's Elements <https://geometor.github.io/euclid/heath/>`_ — Translated from the Text of Heiberg with Introduction and Commentary by Sir Thomas L. Heath (1926), featuring synchronized Proposition and Commentary tracks, interactive geometric indications, and justification links.
 - `Euclid's Data <https://geometor.github.io/euclid/data/>`_ — Δεδομένα bilingual critical edition (Menge 1896 & Simson 1806) capturing Euclid's companion treatise on geometric analysis and determinacy.
 
+Python Package & Modules
+------------------------
+
+The ``geometor-euclid`` Python package (``import geometor.euclid``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
+
+- ``compile_edition.py`` — De-Pagination and Edition Compiler for GEOMETOR Euclid (Heath Edition).
+- ``data_codex.py`` — Concordance loader, validator, and functional DAG query helpers for Euclid's *Data*.
+- ``folio_review/app.py`` — Flask web application for Euclid Folio Review & Vetting.
+- ``folio_review/reviews.py`` — Persistent review and vetting status tracker for Euclid folios.
+- ``folio_review/rst_utils.py`` — Custom Docutils RST renderer for Euclid Folio Review.
+- ``folio_review/scanner.py`` — Folio discovery, metadata parsing, and statistics aggregation for Euclid.
+- ``graph.py`` — Build dependency graphs and inject Graphviz proof chains into composed RST files under docsrc/heath/.
+- ``ingest/analysis.py`` — Module for analyzing extracted text to identify propositions.
+- ``ingest/cleanup.py`` — Module for image cleanup operations.
+- ``ingest/config.py`` — Configuration settings for ingestion processes.
+- *Plus 23 additional modules under* ``src/geometor/euclid/``.
+
+See the `API Reference <https://geometor.github.io/euclid/modules/>`_ for full module documentation.
+
 Repository Contents
 -------------------
 
