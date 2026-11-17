@@ -1,14 +1,25 @@
 :navigation: footer
-:order: 20
+:order: 30
 :nav_title: Connect
+:layout: book
 
-=======
+.. _connect:
+
 Connect
 =======
 
-Explore the GEOMETOR Euclid project and related repositories on GitHub:
+.. rubric:: Community, Correspondence & Contributions
 
-- **Organization**: `GEOMETOR <https://github.com/geometor>`_
-- **Repository**: `geometor/euclid <https://github.com/geometor/euclid>`_
-- **Sister Repository (G-Index & Symbolic Models)**: `geometor/elements <https://github.com/geometor/elements>`_
-- **Issue Tracker**: `GitHub Issues <https://github.com/geometor/euclid/issues>`_
+GEOMETOR is an open-source research and publishing initiative by **phi ARCHITECT** exploring constructive geometry, the divine proportion, and historical mathematical treatises.
+
+Central Channels
+----------------
+
+* **Portal & Archive**: `geometor.com <https://geometor.com>`_
+* **Contact & Inquiries**: `geometor.com/connect <https://geometor.com/connect/>`_
+* **GitHub Organization**: `github.com/geometor <https://github.com/geometor>`_
+
+Contribute on GitHub
+--------------------
+
+All source texts, exact symbolic constructions, calibrated vector diagrams, and documentation are maintained openly on GitHub. You can report issues, suggest corrections, or contribute pull requests directly in this repository using the **GitHub** and **Support** links in the footer.

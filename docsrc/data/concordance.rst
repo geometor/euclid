@@ -1,4 +1,6 @@
-:order: 90
+:navigation: header
+:order: 14
+:nav_title: Concordance
 :type: apparatus
 :title: Master Concordance & Dependency Matrix
 

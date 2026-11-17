@@ -1,7 +1,6 @@
-:navigation: header
 :order: 92
-:title: Index of Persons & Commentators
 :nav_title: People
+:title: Index of Persons & Commentators
 :breadcrumb_title: People
 
 .. _data-persons:

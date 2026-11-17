@@ -1,7 +1,6 @@
-:navigation: header
 :order: 91
-:title: Index of Persons
 :nav_title: People
+:title: Index of Persons
 :breadcrumb_title: People
 
 .. _persons:
