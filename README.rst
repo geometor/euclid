@@ -3,6 +3,11 @@ GEOMETOR • euclid
 
 **Visit the Online Archive:** https://geometor.github.io/euclid/
 
+.. image:: docsrc/heath/volume_I/book_i/propositions/47/0363.g1.svg
+   :alt: GEOMETOR • euclid featured geometric construction
+   :target: https://geometor.github.io/euclid/
+   :align: center
+
 **Euclid of Alexandria • Elements, Data • semantic digital archive**
 
 Mission

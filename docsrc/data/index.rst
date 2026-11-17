@@ -9,6 +9,7 @@
 :author: Euclid of Alexandria
 :publisher: B. G. Teubner (1896)
 :year: c. 300 BCE / 1896
+:tracks: English: index | Greek: title-el
 :excerpt: Euclid's foundational treatise of the Ancient Treasury of Analysis (Δεδομένα) establishing functional geometric determinacy across Definitions 1–15 and Propositions 1–94, prefaced by Marinus of Neapolis.
 
 .. _euclid-data-codex:
@@ -60,3 +61,10 @@ Scholarly Apparatus
    bibliography
    persons
    glossary
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-el

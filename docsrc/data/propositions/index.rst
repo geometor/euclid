@@ -72,122 +72,122 @@ Functional Overview (D.1–D.24 (Simson I–XXVII))
      - Prop. I
      - ``Given(Mag(A), Mag(B)) -> Determined(Ratio(A : B))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 2] <D.def.2>`, :just:`[V.7] <V.7>`, :just:`[V.16] <V.16>`
-     - :ref:`EN <D.1>` · :ref:`EL <D.1.el>`
+     - :ref:`English <D.1>` · :ref:`Greek <D.1.el>`
    * - :ref:`D.2 <D.2>`
      - Prop. II
      - ``Given(Mag(A), Ratio(A : B)) -> Determined(Mag(B)) [Simson fourth-proportional diorismos]``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 2] <D.def.2>`, :just:`[V.11] <V.11>`, :just:`[V.9] <V.9>`, :just:`[VI.12] <VI.12>`
-     - :ref:`EN <D.2>` · :ref:`EL <D.2.el>`
+     - :ref:`English <D.2>` · :ref:`Greek <D.2.el>`
    * - :ref:`D.3 <D.3>`
      - Prop. III
      - ``Given(Mag(AB), Mag(BC)) -> Determined(Mag(AB + BC))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[C.N. 2] <I.cn.2>`
-     - :ref:`EN <D.3>` · :ref:`EL <D.3.el>`
+     - :ref:`English <D.3>` · :ref:`Greek <D.3.el>`
    * - :ref:`D.4 <D.4>`
      - Prop. IV
      - ``Given(Mag(AB), Mag(AC)) -> Determined(Mag(AB - AC))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[C.N. 3] <I.cn.3>`
-     - :ref:`EN <D.4>` · :ref:`EL <D.4.el>`
+     - :ref:`English <D.4>` · :ref:`Greek <D.4.el>`
    * - :ref:`D.5 <D.5>`
      - Prop. VI
      - ``Given(Ratio(AB : AC)) -> Determined(Ratio(AB : (AB - AC)))``
      - :just:`[Data Def. 2] <D.def.2>`, :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 4] <D.4>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.5>` · :ref:`EL <D.5.el>`
+     - :ref:`English <D.5>` · :ref:`Greek <D.5.el>`
    * - :ref:`D.6 <D.6>`
      - Prop. VII
      - ``Given(Ratio(AB : BC)) -> Determined(Ratio((AB+BC) : AB), Ratio((AB+BC) : BC))``
      - :just:`[Data Def. 2] <D.def.2>`, :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 3] <D.3>`, :just:`[V.18] <V.18>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.6>` · :ref:`EL <D.6.el>`
+     - :ref:`English <D.6>` · :ref:`Greek <D.6.el>`
    * - :ref:`D.7 <D.7>`
      - Prop. VIII
      - ``Given(Mag(AB), Ratio(AC : CB)) -> Determined(Mag(AC), Mag(CB))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 6] <D.6>`, :just:`[VI.10] <VI.10>`
-     - :ref:`EN <D.7>` · :ref:`EL <D.7.el>`
+     - :ref:`English <D.7>` · :ref:`Greek <D.7.el>`
    * - :ref:`D.8 <D.8>`
      - Prop. IX
      - ``Given(Ratio(A : B), Ratio(C : B)) -> Determined(Ratio(A : C))``
      - :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[V.7] <V.7>`, :just:`[V.11] <V.11>`, :just:`[V.22] <V.22>`
-     - :ref:`EN <D.8>` · :ref:`EL <D.8.el>`
+     - :ref:`English <D.8>` · :ref:`Greek <D.8.el>`
    * - :ref:`D.9 <D.9>`
      - Prop. X
      - ``Given(Ratios(A:B:C), Ratio(A:D), Ratio(B:E), Ratio(C:F)) -> Determined(Ratios(D:E:F))``
      - :just:`[Data 8] <D.8>`, :just:`[V.11] <V.11>`, :just:`[V.22] <V.22>`
-     - :ref:`EN <D.9>` · :ref:`EL <D.9.el>`
+     - :ref:`English <D.9>` · :ref:`Greek <D.9.el>`
    * - :ref:`D.10 <D.10>`
      - Prop. XVI
      - ``Given((AB - D) : BC = k) <-> Determined(((AB+BC) - D) : BC = k+1 | (AB + BE = D where BC:BE given))``
      - :just:`[Data Def. 9] <D.def.9>`, :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 3] <D.3>`, :just:`[Data 4] <D.4>`, :just:`[Data 5] <D.5>`, :just:`[Data 6] <D.6>`, :just:`[V.18] <V.18>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.10>` · :ref:`EL <D.10.el>`
+     - :ref:`English <D.10>` · :ref:`Greek <D.10.el>`
    * - :ref:`D.11 <D.11>`
      - Prop. XVII
      - ``Given((AB - D) : BC = k) <-> Determined((AB - k/(k+1)*D) : (AB + BC) = k/(k+1))``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 2] <D.2>`, :just:`[Data 4] <D.4>`, :just:`[Data 6] <D.6>`, :just:`[V.12] <V.12>`, :just:`[V.16] <V.16>`, :just:`[V.18] <V.18>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.11>` · :ref:`EL <D.11.el>`
+     - :ref:`English <D.11>` · :ref:`Greek <D.11.el>`
    * - :ref:`D.12 <D.12>`
      - Prop. V
      - ``Given(Mag(A + B), Mag(B + C)) -> Determined(A = C | ExceedsByGiven(A, C))``
      - :just:`[Data Def. 9] <D.def.9>`, :just:`[Data 4] <D.4>`, :just:`[C.N. 3] <I.cn.3>`
-     - :ref:`EN <D.12>` · :ref:`EL <D.12.el>`
+     - :ref:`English <D.12>` · :ref:`Greek <D.12.el>`
    * - :ref:`D.13 <D.13>`
      - Prop. XXIV
      - ``Given(Ratio(A : B) = r, (B - F) : C = k) -> Determined((A - r*F) : C = r*k)``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[V.11] <V.11>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.13>` · :ref:`EL <D.13.el>`
+     - :ref:`English <D.13>` · :ref:`Greek <D.13.el>`
    * - :ref:`D.14 <D.14>`
      - Prop. XVIII
      - ``Given(Ratio(A : C) = r, Mag(d1), Mag(d2)) -> Determined(Ratio(A+d1 : C+d2) | GreaterThanInRatio)``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 4] <D.4>`, :just:`[Data 8] <D.8>`, :just:`[V.12] <V.12>`, :just:`[V.18] <V.18>`
-     - :ref:`EN <D.14>` · :ref:`EL <D.14.el>`
+     - :ref:`English <D.14>` · :ref:`Greek <D.14.el>`
    * - :ref:`D.15 <D.15>`
      - Prop. XIX
      - ``Given(Ratio(A : C) = r, Mag(d1), Mag(d2)) -> Determined(Ratio(A-d1 : C-d2) | GreaterThanInRatio)``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 4] <D.4>`, :just:`[Data 8] <D.8>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.15>` · :ref:`EL <D.15.el>`
+     - :ref:`English <D.15>` · :ref:`Greek <D.15.el>`
    * - :ref:`D.16 <D.16>`
      - Prop. XX
      - ``Given(Ratio(A : C) = r, Mag(d1), Mag(d2)) -> Determined(((A+d2) - (r*d1+d2)) : (C-d1) = r)``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 2] <D.2>`, :just:`[Data 3] <D.3>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.16>` · :ref:`EL <D.16.el>`
+     - :ref:`English <D.16>` · :ref:`Greek <D.16.el>`
    * - :ref:`D.17 <D.17>`
      - Prop. XXV
      - ``Given((A - d1):B = k1, (C - d2):B = k2) -> Determined(Ratio(A:C) | GreaterThanInRatio(A, C))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 14] <D.14>`, :just:`[V.11] <V.11>`
-     - :ref:`EN <D.17>` · :ref:`EL <D.17.el>`
+     - :ref:`English <D.17>` · :ref:`Greek <D.17.el>`
    * - :ref:`D.18 <D.18>`
      - Prop. XXVI
      - ``Given((C - d1):A = k1, (C - d2):E = k2) -> Determined(Ratio(A:E) | GreaterThanInRatio(A, E))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[Data 15] <D.15>`, :just:`[V.11] <V.11>`
-     - :ref:`EN <D.18>` · :ref:`EL <D.18.el>`
+     - :ref:`English <D.18>` · :ref:`Greek <D.18.el>`
    * - :ref:`D.19 <D.19>`
      - Prop. XXVII
      - ``Given((A - d1):B = k1, (B - d2):C = k2) -> Determined((A - (d1 + k1*d2)) : C = k1*k2)``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 2] <D.2>`, :just:`[Data 3] <D.3>`, :just:`[Data 13] <D.13>`, :just:`[V.11] <V.11>`
-     - :ref:`EN <D.19>` · :ref:`EL <D.19.el>`
+     - :ref:`English <D.19>` · :ref:`Greek <D.19.el>`
    * - :ref:`D.20 <D.20>`
      - Prop. XXIII
      - ``Given(Mag(A), Mag(C), Ratio(x : y) = r) -> Determined(Ratio(A-x : C-y) | GreaterThanInRatio)``
      - :just:`[Data Def. 11] <D.def.11>`, :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 4] <D.4>`, :just:`[Data 8] <D.8>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.20>` · :ref:`EL <D.20.el>`
+     - :ref:`English <D.20>` · :ref:`Greek <D.20.el>`
    * - :ref:`D.21 <D.21>`
      - Omitted (cf. Prop. XVIII)
      - ``Given(Mag(A), Mag(C), Ratio(x : y) = r) -> Determined(Ratio(A+x : C+y) | GreaterThanInRatio)``
      - :just:`[Data 14] <D.14>`, :just:`[V.18] <V.18>`
-     - :ref:`EN <D.21>` · :ref:`EL <D.21.el>`
+     - :ref:`English <D.21>` · :ref:`Greek <D.21.el>`
    * - :ref:`D.22 <D.22>`
      - Prop. XI
      - ``Given(Ratio(A : C) = r1, Ratio(B : C) = r2) -> Determined(Ratio((A + B) : C) = r1 + r2)``
      - :just:`[Data 3] <D.3>`, :just:`[Data 6] <D.6>`, :just:`[Data 8] <D.8>`, :just:`[V.24] <V.24>`
-     - :ref:`EN <D.22>` · :ref:`EL <D.22.el>`
+     - :ref:`English <D.22>` · :ref:`Greek <D.22.el>`
    * - :ref:`D.23 <D.23>`
      - Prop. XII
      - ``Given(AB:CD = r0, AE:CF = r1 != r0, EB:FD = r2) -> Determined(All pairwise ratios)``
      - :just:`[Data 5] <D.5>`, :just:`[Data 8] <D.8>`, :just:`[V.11] <V.11>`, :just:`[V.16] <V.16>`, :just:`[V.19] <V.19>`
-     - :ref:`EN <D.23>` · :ref:`EL <D.23.el>`
+     - :ref:`English <D.23>` · :ref:`Greek <D.23.el>`
    * - :ref:`D.24 <D.24>`
      - Prop. XIII
      - ``Given(A : B = B : C, Ratio(A : C)) -> Determined(Ratio(A : B))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 2] <D.def.2>`, :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[VI.13] <VI.13>`, :just:`[VI.17] <VI.17>`, :just:`[VI.22] <VI.22>`
-     - :ref:`EN <D.24>` · :ref:`EL <D.24.el>`
+     - :ref:`English <D.24>` · :ref:`Greek <D.24.el>`
 
 Computational Primitives (``geometor.model`` & SymPy)
 -----------------------------------------------------
@@ -349,72 +349,72 @@ Functional Overview (D.25–D.38 (Simson XXVIII–XL))
      - Prop. XXVIII
      - ``Given(Pos(L1), Pos(L2), Meet(L1, L2) = E) -> Determined(Pos(E))``
      - :just:`[Data Def. 4] <D.def.4>`, :just:`[Post. 1] <I.post.1>`, :just:`[I Def. 4] <I.def.4>`
-     - :ref:`EN <D.25>` · :ref:`EL <D.25.el>`
+     - :ref:`English <D.25>` · :ref:`Greek <D.25.el>`
    * - :ref:`D.26 <D.26>`
      - Prop. XXIX
      - ``Given(Pos(A), Pos(B)) -> Determined(Pos(AB), Mag(AB))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 4] <D.def.4>`, :just:`[Post. 1] <I.post.1>`, :just:`[Post. 3] <I.post.3>`
-     - :ref:`EN <D.26>` · :ref:`EL <D.26.el>`
+     - :ref:`English <D.26>` · :ref:`Greek <D.26.el>`
    * - :ref:`D.27 <D.27>`
      - Prop. XXX
      - ``Given(Pos(Ray A->), Mag(AB), Pos(A)) -> Determined(Pos(B))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 4] <D.def.4>`, :just:`[Data Def. 6] <D.def.6>`, :just:`[Post. 3] <I.post.3>`, :just:`[I Def. 15] <I.def.15>`
-     - :ref:`EN <D.27>` · :ref:`EL <D.27.el>`
+     - :ref:`English <D.27>` · :ref:`Greek <D.27.el>`
    * - :ref:`D.28 <D.28>`
      - Prop. XXXI
      - ``Given(Pos(A), Pos(Line BC)) -> Determined(Pos(Parallel(A, BC)))``
      - :just:`[Data Def. 4] <D.def.4>`, :just:`[I.27] <I.27>`, :just:`[I.29] <I.29>`, :just:`[I.30] <I.30>`, :just:`[I.31] <I.31>`
-     - :ref:`EN <D.28>` · :ref:`EL <D.28.el>`
+     - :ref:`English <D.28>` · :ref:`Greek <D.28.el>`
    * - :ref:`D.29 <D.29>`
      - Prop. XXXII
      - ``Given(Pos(Line AB), Pos(C in AB), Mag(Angle theta)) -> Determined(Pos(Ray CD))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 4] <D.def.4>`, :just:`[I.23] <I.23>`
-     - :ref:`EN <D.29>` · :ref:`EL <D.29.el>`
+     - :ref:`English <D.29>` · :ref:`Greek <D.29.el>`
    * - :ref:`D.30 <D.30>`
      - Prop. XXXIII
      - ``Given(Pos(A), Pos(Line BC), Mag(Angle ADC)) -> Determined(Pos(Line AD))``
      - :just:`[Data 28] <D.28>`, :just:`[Data 29] <D.29>`, :just:`[I.23] <I.23>`, :just:`[I.29] <I.29>`, :just:`[I.31] <I.31>`
-     - :ref:`EN <D.30>` · :ref:`EL <D.30.el>`
+     - :ref:`English <D.30>` · :ref:`Greek <D.30.el>`
    * - :ref:`D.31 <D.31>`
      - Prop. XXXIV
      - ``Given(Pos(A), Pos(Line BC), Mag(AD >= dist(A, BC))) -> Determined(Pos(AD)) [2-root diorismos]``
      - :just:`[Data Def. 4] <D.def.4>`, :just:`[Data Def. 6] <D.def.6>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[I.12] <I.12>`, :just:`[Post. 3] <I.post.3>`
-     - :ref:`EN <D.31>` · :ref:`EL <D.31.el>`
+     - :ref:`English <D.31>` · :ref:`Greek <D.31.el>`
    * - :ref:`D.32 <D.32>`
      - Prop. XXXV
      - ``Given(Pos(AB || CD), Mag(Angle BEF)) -> Determined(Mag(EF))``
      - :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 30] <D.30>`, :just:`[I.29] <I.29>`, :just:`[I.31] <I.31>`, :just:`[I.34] <I.34>`
-     - :ref:`EN <D.32>` · :ref:`EL <D.32.el>`
+     - :ref:`English <D.32>` · :ref:`Greek <D.32.el>`
    * - :ref:`D.33 <D.33>`
      - Prop. XXXVI
      - ``Given(Pos(AB || CD), Mag(EF >= strip_width)) -> Determined(Mag(Angle BEF))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 4] <D.def.4>`, :just:`[Data 28] <D.28>`, :just:`[Data 31] <D.31>`, :just:`[I.29] <I.29>`, :just:`[I.34] <I.34>`
-     - :ref:`EN <D.33>` · :ref:`EL <D.33.el>`
+     - :ref:`English <D.33>` · :ref:`Greek <D.33.el>`
    * - :ref:`D.34 <D.34>`
      - Prop. XXXVIII
      - ``Given(Pos(AB || CD), Pos(Pole E)) -> Determined(Ratio(EF : FG))``
      - :just:`[Data 1] <D.1>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 30] <D.30>`, :just:`[I.12] <I.12>`, :just:`[VI.2] <VI.2>`, :just:`[VI.4] <VI.4>`
-     - :ref:`EN <D.34>` · :ref:`EL <D.34.el>`
+     - :ref:`English <D.34>` · :ref:`Greek <D.34.el>`
    * - :ref:`D.35 <D.35>`
      - Prop. XXXIX (pt. 1)
      - ``Given(Pos(Pole A), Pos(Line BC), InternalRatio(AE : ED)) -> Determined(Pos(Line FEG || BC))``
      - :just:`[Data 7] <D.7>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 28] <D.28>`, :just:`[Data 30] <D.30>`, :just:`[VI.2] <VI.2>`
-     - :ref:`EN <D.35>` · :ref:`EL <D.35.el>`
+     - :ref:`English <D.35>` · :ref:`Greek <D.35.el>`
    * - :ref:`D.36 <D.36>`
      - Prop. XXXIX (pt. 2)
      - ``Given(Pos(Pole A), Pos(Line BC), ExternalRatio(AD : DE)) -> Determined(Pos(Line FEG || BC))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 6] <D.6>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 28] <D.28>`, :just:`[Data 30] <D.30>`, :just:`[VI.2] <VI.2>`
-     - :ref:`EN <D.36>` · :ref:`EL <D.36.el>`
+     - :ref:`English <D.36>` · :ref:`Greek <D.36.el>`
    * - :ref:`D.37 <D.37>`
      - Prop. XL (pt. 1)
      - ``Given(Pos(AB || CD), InternalRatio(EG : GF)) -> Determined(Pos(Line HK || AB))``
      - :just:`[Data 7] <D.7>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 28] <D.28>`, :just:`[Data 30] <D.30>`, :just:`[I.30] <I.30>`, :just:`[I.34] <I.34>`, :just:`[VI.2] <VI.2>`
-     - :ref:`EN <D.37>` · :ref:`EL <D.37.el>`
+     - :ref:`English <D.37>` · :ref:`Greek <D.37.el>`
    * - :ref:`D.38 <D.38>`
      - Prop. XL (pt. 2)
      - ``Given(Pos(AB || CD), ExternalRatio(EF : FG)) -> Determined(Pos(Line HK || AB))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 28] <D.28>`, :just:`[Data 30] <D.30>`, :just:`[I.30] <I.30>`, :just:`[I.34] <I.34>`, :just:`[VI.2] <VI.2>`
-     - :ref:`EN <D.38>` · :ref:`EL <D.38.el>`
+     - :ref:`English <D.38>` · :ref:`Greek <D.38.el>`
 
 Computational Primitives (``geometor.model`` & SymPy)
 -----------------------------------------------------
@@ -560,87 +560,87 @@ Functional Overview (D.39–D.55 (Simson XLII–LX))
      - Prop. XLII
      - ``Given(Mag(a), Mag(b), Mag(c)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 1] <D.1>`, :just:`[I.8] <I.8>`, :just:`[I.22] <I.22>`
-     - :ref:`EN <D.39>` · :ref:`EL <D.39.el>`
+     - :ref:`English <D.39>` · :ref:`Greek <D.39.el>`
    * - :ref:`D.40 <D.40>`
      - Prop. XLIII
      - ``Given(Angle(A), Angle(B), Angle(C)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 29] <D.29>`, :just:`[I.32] <I.32>`, :just:`[VI.4] <VI.4>`
-     - :ref:`EN <D.40>` · :ref:`EL <D.40.el>`
+     - :ref:`English <D.40>` · :ref:`Greek <D.40.el>`
    * - :ref:`D.41 <D.41>`
      - Prop. XLIV
      - ``Given(Angle(A), Ratio(c : b)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 2] <D.2>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 29] <D.29>`, :just:`[VI.6] <VI.6>`
-     - :ref:`EN <D.41>` · :ref:`EL <D.41.el>`
+     - :ref:`English <D.41>` · :ref:`Greek <D.41.el>`
    * - :ref:`D.42 <D.42>`
      - Prop. XLV
      - ``Given(Ratio(a : b), Ratio(b : c)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 2] <D.2>`, :just:`[Data 39] <D.39>`, :just:`[I.20] <I.20>`, :just:`[I.22] <I.22>`, :just:`[VI.5] <VI.5>`
-     - :ref:`EN <D.42>` · :ref:`EL <D.42.el>`
+     - :ref:`English <D.42>` · :ref:`Greek <D.42.el>`
    * - :ref:`D.43 <D.43>`
      - Prop. XLVI
      - ``Given(Angle(A) = pi/2, Ratio(hypotenuse c : leg b)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 2] <D.2>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 29] <D.29>`, :just:`[Data 31] <D.31>`, :just:`[I.47] <I.47>`, :just:`[VI.7] <VI.7>`
-     - :ref:`EN <D.43>` · :ref:`EL <D.43.el>`
+     - :ref:`English <D.43>` · :ref:`Greek <D.43.el>`
    * - :ref:`D.44 <D.44>`
      - Prop. XLVII
      - ``Given(Angle(A), Ratio(AB : BC), Sign(cos C)) -> Determined(Species(Triangle ABC)) [SSA diorismos]``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 2] <D.2>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 29] <D.29>`, :just:`[Data 31] <D.31>`, :just:`[I.13] <I.13>`, :just:`[VI.7] <VI.7>`
-     - :ref:`EN <D.44>` · :ref:`EL <D.44.el>`
+     - :ref:`English <D.44>` · :ref:`Greek <D.44.el>`
    * - :ref:`D.45 <D.45>`
      - Prop. XLVIII
      - ``Given(Angle(A), Ratio((b + c) : a)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data 40] <D.40>`, :just:`[Data 44] <D.44>`, :just:`[I.5] <I.5>`, :just:`[I.32] <I.32>`
-     - :ref:`EN <D.45>` · :ref:`EL <D.45.el>`
+     - :ref:`English <D.45>` · :ref:`Greek <D.45.el>`
    * - :ref:`D.46 <D.46>`
      - Prop. XLIX
      - ``Given(Angle(B), Ratio((c + b) : a)) -> Determined(Species(Triangle ABC))``
      - :just:`[Data 40] <D.40>`, :just:`[Data 41] <D.41>`, :just:`[I.5] <I.5>`, :just:`[I.9] <I.9>`, :just:`[I.32] <I.32>`
-     - :ref:`EN <D.46>` · :ref:`EL <D.46.el>`
+     - :ref:`English <D.46>` · :ref:`Greek <D.46.el>`
    * - :ref:`D.47 <D.47>`
      - Prop. LI
      - ``Given(Species(n-gon P)) -> Determined(Species(ear-triangulation T_1 .. T_{n-2}))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 4] <D.4>`, :just:`[Data 8] <D.8>`, :just:`[Data 41] <D.41>`, :just:`[I.32] <I.32>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.47>` · :ref:`EL <D.47.el>`
+     - :ref:`English <D.47>` · :ref:`Greek <D.47.el>`
    * - :ref:`D.48 <D.48>`
      - Prop. LII
      - ``Given(Species(△ABC), Species(△ABD), SharedBase(AB)) -> Determined(Ratio(△ABC : △ABD))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 8] <D.8>`, :just:`[Data 28] <D.28>`, :just:`[Data 30] <D.30>`, :just:`[I.37] <I.37>`, :just:`[VI.1] <VI.1>`, :just:`[VI.4] <VI.4>`
-     - :ref:`EN <D.48>` · :ref:`EL <D.48.el>`
+     - :ref:`English <D.48>` · :ref:`Greek <D.48.el>`
    * - :ref:`D.49 <D.49>`
      - Prop. LIII
      - ``Given(Species(P1 on AB), Species(P2 on AB)) -> Determined(Ratio(Area(P1) : Area(P2)))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 22] <D.22>`, :just:`[Data 47] <D.47>`, :just:`[Data 48] <D.48>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.49>` · :ref:`EL <D.49.el>`
+     - :ref:`English <D.49>` · :ref:`Greek <D.49.el>`
    * - :ref:`D.50 <D.50>`
      - Prop. LIV
      - ``Given(Ratio(AB : CD) = r, Similar(E, F)) -> Determined(Ratio(Area(E) : Area(F)) = r^2)``
      - :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[VI.11] <VI.11>`, :just:`[VI.19] <VI.19>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.50>` · :ref:`EL <D.50.el>`
+     - :ref:`English <D.50>` · :ref:`Greek <D.50.el>`
    * - :ref:`D.51 <D.51>`
      - Prop. LV
      - ``Given(Ratio(AB : CD), Species(E), Species(F)) -> Determined(Ratio(Area(E) : Area(F)))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 49] <D.49>`, :just:`[Data 50] <D.50>`, :just:`[VI.18] <VI.18>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.51>` · :ref:`EL <D.51.el>`
+     - :ref:`English <D.51>` · :ref:`Greek <D.51.el>`
    * - :ref:`D.52 <D.52>`
      - Prop. LVI
      - ``Given(Mag(AB), Species(P on AB)) -> Determined(Mag(Area(P)))``
      - :just:`[Data Def. 1] <D.def.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 49] <D.49>`, :just:`[I.46] <I.46>`
-     - :ref:`EN <D.52>` · :ref:`EL <D.52.el>`
+     - :ref:`English <D.52>` · :ref:`Greek <D.52.el>`
    * - :ref:`D.53 <D.53>`
      - Prop. LVII
      - ``Given(Species(A), Species(B), Ratio(s1(A) : s1(B))) -> Determined(Ratio(si(A) : sj(B)))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 8] <D.8>`, :just:`[V.22] <V.22>`
-     - :ref:`EN <D.53>` · :ref:`EL <D.53.el>`
+     - :ref:`English <D.53>` · :ref:`Greek <D.53.el>`
    * - :ref:`D.54 <D.54>`
      - Prop. LIX
      - ``Given(Species(A), Species(B), Ratio(Area(A) : Area(B))) -> Determined(Ratio(si(A) : sj(B)))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 24] <D.24>`, :just:`[Data 49] <D.49>`, :just:`[Data 53] <D.53>`, :just:`[VI.18] <VI.18>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.54>` · :ref:`EL <D.54.el>`
+     - :ref:`English <D.54>` · :ref:`Greek <D.54.el>`
    * - :ref:`D.55 <D.55>`
      - Prop. LX
      - ``Given(Species(A), Mag(Area(A))) -> Determined(Mag(sides(A)))``
      - :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 52] <D.52>`, :just:`[Data 54] <D.54>`, :just:`[I.46] <I.46>`, :just:`[VI.18] <VI.18>`
-     - :ref:`EN <D.55>` · :ref:`EL <D.55.el>`
+     - :ref:`English <D.55>` · :ref:`Greek <D.55.el>`
 
 Computational Primitives (``geometor.model`` & SymPy)
 -----------------------------------------------------
@@ -802,62 +802,62 @@ Functional Overview (D.56–D.67 (Simson LXI–LXXXIV))
      - Prop. LXIII
      - ``Given(Equiangular(P1, P2), Ratio(P1 : P2) = k) -> Determined(s1 : t1 = t2 : (s2 / k))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[VI.1] <VI.1>`, :just:`[VI.14] <VI.14>`
-     - :ref:`EN <D.56>` · :ref:`EL <D.56.el>`
+     - :ref:`English <D.56>` · :ref:`Greek <D.56.el>`
    * - :ref:`D.57 <D.57>`
      - Prop. LXI
      - ``Given(Mag(Area S), Mag(Base a), Mag(Angle theta)) -> Determined(Mag(Breadth x))``
      - :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[Data 52] <D.52>`, :just:`[I.31] <I.31>`, :just:`[I.46] <I.46>`, :just:`[VI.1] <VI.1>`
-     - :ref:`EN <D.57>` · :ref:`EL <D.57.el>`
+     - :ref:`English <D.57>` · :ref:`Greek <D.57.el>`
    * - :ref:`D.58 <D.58>`
      - Prop. LXXXIII
      - ``Given(Mag(S), Mag(a), Species(Defect)) -> Determined(Roots of a*x - c*x^2 = S) [diorismos]``
      - :just:`[Data 3] <D.3>`, :just:`[Data 4] <D.4>`, :just:`[Data 52] <D.52>`, :just:`[Data 55] <D.55>`, :just:`[II.5] <II.5>`, :just:`[VI.24] <VI.24>`, :just:`[VI.27] <VI.27>`, :just:`[VI.28] <VI.28>`
-     - :ref:`EN <D.58>` · :ref:`EL <D.58.el>`
+     - :ref:`English <D.58>` · :ref:`Greek <D.58.el>`
    * - :ref:`D.59 <D.59>`
      - Prop. LXXXIV
      - ``Given(Mag(S), Mag(a), Species(Excess)) -> Determined(Positive root of a*x + c*x^2 = S)``
      - :just:`[Data 3] <D.3>`, :just:`[Data 4] <D.4>`, :just:`[Data 52] <D.52>`, :just:`[Data 55] <D.55>`, :just:`[II.6] <II.6>`, :just:`[VI.24] <VI.24>`, :just:`[VI.29] <VI.29>`
-     - :ref:`EN <D.59>` · :ref:`EL <D.59.el>`
+     - :ref:`English <D.59>` · :ref:`Greek <D.59.el>`
    * - :ref:`D.60 <D.60>`
      - Prop. LXXXII
      - ``Given(Species(P), Mag(Area(P)), Mag(Gnomon G)) -> Determined(Mag(Sides of P +/- G))``
      - :just:`[Data 3] <D.3>`, :just:`[Data 4] <D.4>`, :just:`[Data 55] <D.55>`, :just:`[VI.24] <VI.24>`
-     - :ref:`EN <D.60>` · :ref:`EL <D.60.el>`
+     - :ref:`English <D.60>` · :ref:`Greek <D.60.el>`
    * - :ref:`D.61 <D.61>`
      - Prop. LXIX
      - ``Given(Species(P on CB), Angle(CD), Ratio(Area(P) : Area(CD))) -> Determined(Species(CD))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[Data 49] <D.49>`, :just:`[I.13] <I.13>`, :just:`[I.29] <I.29>`, :just:`[I.31] <I.31>`, :just:`[I.35] <I.35>`, :just:`[VI.1] <VI.1>`
-     - :ref:`EN <D.61>` · :ref:`EL <D.61.el>`
+     - :ref:`English <D.61>` · :ref:`Greek <D.61.el>`
    * - :ref:`D.62 <D.62>`
      - Prop. LXX
      - ``Given(Ratio(AB : CD), Species(AEB on AB), Angle(DF), Ratio(AEB : DF)) -> Determined(Species(DF))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 50] <D.50>`, :just:`[Data 61] <D.61>`, :just:`[VI.18] <VI.18>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.62>` · :ref:`EL <D.62.el>`
+     - :ref:`English <D.62>` · :ref:`Greek <D.62.el>`
    * - :ref:`D.63 <D.63>`
      - Omitted (case of Prop. LIII)
      - ``Given(Species(△ABC)) -> Determined(Ratio(a^2 : △ABC), Ratio(b^2 : △ABC), Ratio(c^2 : △ABC))``
      - :just:`[Data 49] <D.49>`, :just:`[I.46] <I.46>`
-     - :ref:`EN <D.63>` · :ref:`EL <D.63.el>`
+     - :ref:`English <D.63>` · :ref:`Greek <D.63.el>`
    * - :ref:`D.64 <D.64>`
      - Prop. LXXIV
      - ``Given(ObtuseAngle B) -> Determined(Ratio((b^2 - a^2 - c^2) : △ABC) = -4 cot B)``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[I.12] <I.12>`, :just:`[I.32] <I.32>`, :just:`[II.12] <II.12>`, :just:`[VI.1] <VI.1>`
-     - :ref:`EN <D.64>` · :ref:`EL <D.64.el>`
+     - :ref:`English <D.64>` · :ref:`Greek <D.64.el>`
    * - :ref:`D.65 <D.65>`
      - Prop. LXXV
      - ``Given(AcuteAngle B) -> Determined(Ratio((a^2 + c^2 - b^2) : △ABC) = 4 cot B)``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[I.12] <I.12>`, :just:`[I.32] <I.32>`, :just:`[II.13] <II.13>`, :just:`[VI.1] <VI.1>`
-     - :ref:`EN <D.65>` · :ref:`EL <D.65.el>`
+     - :ref:`English <D.65>` · :ref:`Greek <D.65.el>`
    * - :ref:`D.66 <D.66>`
      - Prop. LXII Cor.
      - ``Given(Angle A) -> Determined(Ratio((AB * AC) : Area(△ABC)) = 2 / sin A)``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[I.12] <I.12>`, :just:`[I.41] <I.41>`, :just:`[VI.1] <VI.1>`
-     - :ref:`EN <D.66>` · :ref:`EL <D.66.el>`
+     - :ref:`English <D.66>` · :ref:`Greek <D.66.el>`
    * - :ref:`D.67 <D.67>`
      - Prop. LXXVI
      - ``Given(Angle A) -> Determined(Ratio(((b + c)^2 - a^2) : △ABC) = 4*(1 + cos A) / sin A)``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[Data 50] <D.50>`, :just:`[Data 66] <D.66>`, :just:`[I.5] <I.5>`, :just:`[I.13] <I.13>`, :just:`[I.31] <I.31>`, :just:`[I.32] <I.32>`, :just:`[II.6] <II.6>`, :just:`[VI.2] <VI.2>`, :just:`[VI.16] <VI.16>`
-     - :ref:`EN <D.67>` · :ref:`EL <D.67.el>`
+     - :ref:`English <D.67>` · :ref:`Greek <D.67.el>`
 
 Computational Primitives (``geometor.model`` & SymPy)
 -----------------------------------------------------
@@ -994,82 +994,82 @@ Functional Overview (D.68–D.83 (Simson L–LXXVIII))
      - Prop. LXV
      - ``Given(Equiangular(P1, P2), Ratio(P1 : P2), Ratio(s1 : t1)) -> Determined(Ratio(s2 : t2))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[Data 56] <D.56>`, :just:`[I.31] <I.31>`, :just:`[VI.1] <VI.1>`, :just:`[VI.14] <VI.14>`
-     - :ref:`EN <D.68>` · :ref:`EL <D.68.el>`
+     - :ref:`English <D.68>` · :ref:`Greek <D.68.el>`
    * - :ref:`D.69 <D.69>`
      - Prop. LXVI
      - ``Given(Angle(P1), Angle(P2), Ratio(P1 : P2), Ratio(s1 : t1)) -> Determined(Ratio(s2 : t2))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[Data 68] <D.68>`, :just:`[I.12] <I.12>`, :just:`[I.23] <I.23>`, :just:`[I.31] <I.31>`, :just:`[I.35] <I.35>`
-     - :ref:`EN <D.69>` · :ref:`EL <D.69.el>`
+     - :ref:`English <D.69>` · :ref:`Greek <D.69.el>`
    * - :ref:`D.70 <D.70>`
      - Props. LXVII–LXVIII
      - ``Given(Angle(P1), Angle(P2), Ratio(s1 : t1), Ratio(s2 : t2)) -> Determined(Ratio(P1 : P2))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[Data 68] <D.68>`, :just:`[I.23] <I.23>`, :just:`[I.35] <I.35>`, :just:`[VI.1] <VI.1>`, :just:`[VI.14] <VI.14>`, :just:`[VI.23] <VI.23>`
-     - :ref:`EN <D.70>` · :ref:`EL <D.70.el>`
+     - :ref:`English <D.70>` · :ref:`Greek <D.70.el>`
    * - :ref:`D.71 <D.71>`
      - Prop. LXVIII Cor. 1
      - ``Given(Angle(A), Angle(D), Ratio(c1 : c2), Ratio(b1 : b2)) -> Determined(Ratio(△1 : △2))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 70] <D.70>`, :just:`[I.31] <I.31>`, :just:`[I.34] <I.34>`, :just:`[V.15] <V.15>`
-     - :ref:`EN <D.71>` · :ref:`EL <D.71.el>`
+     - :ref:`English <D.71>` · :ref:`Greek <D.71.el>`
    * - :ref:`D.72 <D.72>`
      - Prop. LXVIII Cor. 2
      - ``Given(Ratio(b1 : b2), Ratio(d1 : d2), Angle(phi1), Angle(phi2)) -> Determined(Ratio(△1 : △2))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 70] <D.70>`, :just:`[I.29] <I.29>`, :just:`[I.31] <I.31>`, :just:`[I.34] <I.34>`, :just:`[I.41] <I.41>`
-     - :ref:`EN <D.72>` · :ref:`EL <D.72.el>`
+     - :ref:`English <D.72>` · :ref:`Greek <D.72.el>`
    * - :ref:`D.73 <D.73>`
      - Prop. LXIV (pt. 2)
      - ``Given(Angle(P1), Angle(P2), CB:FG = EF:CK, Ratio(AC:CK)) -> Determined(Ratio(P1 : P2))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[Data 56] <D.56>`, :just:`[Data 70] <D.70>`, :just:`[I.23] <I.23>`, :just:`[I.35] <I.35>`, :just:`[VI.1] <VI.1>`, :just:`[VI.14] <VI.14>`
-     - :ref:`EN <D.73>` · :ref:`EL <D.73.el>`
+     - :ref:`English <D.73>` · :ref:`Greek <D.73.el>`
    * - :ref:`D.74 <D.74>`
      - Prop. LXIV (pt. 1; cf. LXIII)
      - ``Given(Angle(P1), Angle(P2), Ratio(P1 : P2)) -> Determined(CB : FG = EF : K with GivenRatio(AC : K))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[Data 56] <D.56>`, :just:`[I.23] <I.23>`, :just:`[I.35] <I.35>`, :just:`[VI.1] <VI.1>`, :just:`[VI.14] <VI.14>`
-     - :ref:`EN <D.74>` · :ref:`EL <D.74.el>`
+     - :ref:`English <D.74>` · :ref:`Greek <D.74.el>`
    * - :ref:`D.75 <D.75>`
      - Prop. LXIV Cor.
      - ``Given(Angle(A), Angle(D), Ratio(△1 : △2)) -> Determined(AB : DE = DF : K with GivenRatio(AC : K))``
      - :just:`[Data 74] <D.74>`, :just:`[I.34] <I.34>`, :just:`[V.15] <V.15>`
-     - :ref:`EN <D.75>` · :ref:`EL <D.75.el>`
+     - :ref:`English <D.75>` · :ref:`Greek <D.75.el>`
    * - :ref:`D.76 <D.76>`
      - Prop. L
      - ``Given(Species(△ABC), AD perp BC) -> Determined(Ratio(AD : BC))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[I.12] <I.12>`, :just:`[I.32] <I.32>`
-     - :ref:`EN <D.76>` · :ref:`EL <D.76.el>`
+     - :ref:`English <D.76>` · :ref:`Greek <D.76.el>`
    * - :ref:`D.77 <D.77>`
      - Omitted (dup. of Prop. LIX / D.54)
      - ``Given(Species(A), Species(B), Ratio(Area(A) : Area(B))) -> Determined(Ratio(s(A) : s(B)))``
      - :just:`[Data 54] <D.54>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.77>` · :ref:`EL <D.77.el>`
+     - :ref:`English <D.77>` · :ref:`Greek <D.77.el>`
    * - :ref:`D.78 <D.78>`
      - Omitted (case of Prop. LXX / D.62)
      - ``Given(Species(A), Ratio(A : B), Ratio(s(A) : s1(B)), Angle(B)) -> Determined(Species(B))``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 62] <D.62>`, :just:`[VI.14] <VI.14>`
-     - :ref:`EN <D.78>` · :ref:`EL <D.78.el>`
+     - :ref:`English <D.78>` · :ref:`Greek <D.78.el>`
    * - :ref:`D.79 <D.79>`
      - Prop. LXXVII Cor. 1
      - ``Given(∠BAC = ∠EDF, BC : h_A = EF : h_D) -> Determined(△ABC ~ △DEF)``
      - :just:`[Data Def. 3] <D.def.3>`, :just:`[Data Def. 7] <D.def.7>`, :just:`[Data 40] <D.40>`, :just:`[I.12] <I.12>`, :just:`[III.21] <III.21>`, :just:`[VI.4] <VI.4>`
-     - :ref:`EN <D.79>` · :ref:`EL <D.79.el>`
+     - :ref:`English <D.79>` · :ref:`Greek <D.79.el>`
    * - :ref:`D.80 <D.80>`
      - Prop. LXXVIII
      - ``Given(Angle A, Ratio((b*c) : a^2)) -> Determined(Species(△ABC))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 66] <D.66>`, :just:`[Data 68] <D.68>`, :just:`[Data 79] <D.79>`, :just:`[I.12] <I.12>`, :just:`[I.41] <I.41>`, :just:`[VI.4] <VI.4>`, :just:`[VI.16] <VI.16>`
-     - :ref:`EN <D.80>` · :ref:`EL <D.80.el>`
+     - :ref:`English <D.80>` · :ref:`Greek <D.80.el>`
    * - :ref:`D.81 <D.81>`
      - Prop. LXXI
      - ``Given(B^2 = A*C, E^2 = D*F) -> (Given(A:D, C:F) -> Given(B:E)) & (Given(A:D, B:E) -> Given(C:F))``
      - :just:`[Data 8] <D.8>`, :just:`[Data 24] <D.24>`, :just:`[Data 50] <D.50>`, :just:`[Data 54] <D.54>`, :just:`[Data 70] <D.70>`, :just:`[VI.17] <VI.17>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.81>` · :ref:`EL <D.81.el>`
+     - :ref:`English <D.81>` · :ref:`Greek <D.81.el>`
    * - :ref:`D.82 <D.82>`
      - Prop. LXXII
      - ``Given(A : B = C : D, Ratio(B : E) = k) -> Determined(Ratio(D : F) = k when A : E = C : F)``
      - :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[V.11] <V.11>`, :just:`[V.16] <V.16>`, :just:`[V.22] <V.22>`
-     - :ref:`EN <D.82>` · :ref:`EL <D.82.el>`
+     - :ref:`English <D.82>` · :ref:`Greek <D.82.el>`
    * - :ref:`D.83 <D.83>`
      - Prop. LXXIII
      - ``Given(A * D = B * E, Ratio(C : E) = k) -> Determined(D : C = B : (A / k))``
      - :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[Data 68] <D.68>`, :just:`[V.16] <V.16>`, :just:`[V.23] <V.23>`, :just:`[VI.16] <VI.16>`
-     - :ref:`EN <D.83>` · :ref:`EL <D.83.el>`
+     - :ref:`English <D.83>` · :ref:`Greek <D.83.el>`
 
 Computational Primitives (``geometor.model`` & SymPy)
 -----------------------------------------------------
@@ -1204,57 +1204,57 @@ Functional Overview (D.84–D.94 (Simson LXXXV–C))
      - Prop. LXXXV
      - ``Given(Angle B, Area(x, y) = S, y - x = d) -> Determined(Mag(x), Mag(y))``
      - :just:`[Data 3] <D.3>`, :just:`[Data 59] <D.59>`, :just:`[I.31] <I.31>`
-     - :ref:`EN <D.84>` · :ref:`EL <D.84.el>`
+     - :ref:`English <D.84>` · :ref:`Greek <D.84.el>`
    * - :ref:`D.85 <D.85>`
      - Prop. LXXXVI
      - ``Given(Angle B, Area(x, y) = S, x + y = s) -> Determined(Mag(x), Mag(y)) [diorismos]``
      - :just:`[Data 4] <D.4>`, :just:`[Data 58] <D.58>`, :just:`[I.13] <I.13>`, :just:`[I.31] <I.31>`
-     - :ref:`EN <D.85>` · :ref:`EL <D.85.el>`
+     - :ref:`English <D.85>` · :ref:`Greek <D.85.el>`
    * - :ref:`D.86 <D.86>`
      - Prop. LXXXIX (cf. LXXXVII–LXXXVIII)
      - ``Given(Angle B, x*y*sin B = S, (y^2 - D) : x^2 = k) -> Determined(Mag(x), Mag(y))``
      - :just:`[Data 1] <D.1>`, :just:`[Data 2] <D.2>`, :just:`[Data 8] <D.8>`, :just:`[Data 55] <D.55>`, :just:`[Data 57] <D.57>`, :just:`[Data 58] <D.58>`, :just:`[Data 59] <D.59>`, :just:`[Data 68] <D.68>`, :just:`[II.4] <II.4>`, :just:`[II.6] <II.6>`, :just:`[VI.1] <VI.1>`, :just:`[VI.17] <VI.17>`, :just:`[VI.20] <VI.20>`
-     - :ref:`EN <D.86>` · :ref:`EL <D.86.el>`
+     - :ref:`English <D.86>` · :ref:`Greek <D.86.el>`
    * - :ref:`D.87 <D.87>`
      - Prop. XCI
      - ``Given(CircleRadius R, InscribedAngle theta) -> Determined(Mag(Chord BC = 2*R*sin theta))``
      - :just:`[Data Def. 5] <D.def.5>`, :just:`[Data 3] <D.3>`, :just:`[Data 40] <D.40>`, :just:`[Data 53] <D.53>`, :just:`[III.21] <III.21>`, :just:`[III.31] <III.31>`
-     - :ref:`EN <D.87>` · :ref:`EL <D.87.el>`
+     - :ref:`English <D.87>` · :ref:`Greek <D.87.el>`
    * - :ref:`D.88 <D.88>`
      - Prop. XCII
      - ``Given(CircleRadius R, Mag(Chord BC <= 2R)) -> Determined(Mag(InscribedAngle BAC))``
      - :just:`[Data Def. 5] <D.def.5>`, :just:`[Data 1] <D.1>`, :just:`[Data 3] <D.3>`, :just:`[Data 43] <D.43>`, :just:`[III.21] <III.21>`, :just:`[III.22] <III.22>`, :just:`[III.31] <III.31>`
-     - :ref:`EN <D.88>` · :ref:`EL <D.88.el>`
+     - :ref:`English <D.88>` · :ref:`Greek <D.88.el>`
    * - :ref:`D.89 <D.89>`
      - Prop. XCIII
      - ``Given(PosMag(Circle(D, R)), Pos(B on circle), Mag(InscribedAngle BAC)) -> Determined(Pos(C))``
      - :just:`[Data Def. 6] <D.def.6>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 29] <D.29>`, :just:`[III.1] <III.1>`, :just:`[III.20] <III.20>`
-     - :ref:`EN <D.89>` · :ref:`EL <D.89.el>`
+     - :ref:`English <D.89>` · :ref:`Greek <D.89.el>`
    * - :ref:`D.90 <D.90>`
      - Prop. XCIV
      - ``Given(PosMag(Circle(O, R)), Pos(D outside)) -> Determined(Pos(DA), Mag(DA = sqrt(OD^2 - R^2)))``
      - :just:`[Data Def. 6] <D.def.6>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 43] <D.43>`, :just:`[Data 53] <D.53>`, :just:`[III.17] <III.17>`, :just:`[III.18] <III.18>`, :just:`[III.31] <III.31>`
-     - :ref:`EN <D.90>` · :ref:`EL <D.90.el>`
+     - :ref:`English <D.90>` · :ref:`Greek <D.90.el>`
    * - :ref:`D.91 <D.91>`
      - Prop. XCV
      - ``Given(PosMag(Circle(O, R)), Pos(External D)) -> Determined(Mag(DB * DC = OD^2 - R^2))``
      - :just:`[Data 52] <D.52>`, :just:`[Data 90] <D.90>`, :just:`[III.17] <III.17>`, :just:`[III.36] <III.36>`
-     - :ref:`EN <D.91>` · :ref:`EL <D.91.el>`
+     - :ref:`English <D.91>` · :ref:`Greek <D.91.el>`
    * - :ref:`D.92 <D.92>`
      - Prop. XCVI
      - ``Given(PosMag(Circle(O, R)), Pos(Internal D)) -> Determined(Mag(BD * DC = R^2 - OD^2))``
      - :just:`[Data Def. 6] <D.def.6>`, :just:`[Data 3] <D.3>`, :just:`[Data 4] <D.4>`, :just:`[Data 25] <D.25>`, :just:`[Data 26] <D.26>`, :just:`[Data 52] <D.52>`, :just:`[III.1] <III.1>`, :just:`[III.35] <III.35>`
-     - :ref:`EN <D.92>` · :ref:`EL <D.92.el>`
+     - :ref:`English <D.92>` · :ref:`Greek <D.92.el>`
    * - :ref:`D.93 <D.93>`
      - Prop. XCVII (cf. Prop. XCVIII [Stanhope])
      - ``Given(CircleRadius R, InscribedAngle A, Bisector AD cap BC = E) -> Determined(Ratio((AB+AC):AD), Mag((AB+AC)*ED))``
      - :just:`[Data 1] <D.1>`, :just:`[Data 52] <D.52>`, :just:`[Data 87] <D.87>`, :just:`[III.21] <III.21>`, :just:`[III.26] <III.26>`, :just:`[V.12] <V.12>`, :just:`[V.16] <V.16>`, :just:`[VI.3] <VI.3>`, :just:`[VI.4] <VI.4>`, :just:`[VI.16] <VI.16>`
-     - :ref:`EN <D.93>` · :ref:`EL <D.93.el>`
+     - :ref:`English <D.93>` · :ref:`Greek <D.93.el>`
    * - :ref:`D.94 <D.94>`
      - Prop. XCIX (cf. Prop. C [Stewart])
      - ``Given(PosMag(Circle(H, R)), Pos(D on diam BC), ∠DAE = 90°, EF || DA) -> Determined(Pos(F = 2H - D), Mag(AD * EF = |R^2 - HD^2|))``
      - :just:`[Data Def. 6] <D.def.6>`, :just:`[Data 26] <D.26>`, :just:`[Data 27] <D.27>`, :just:`[Data 91] <D.91>`, :just:`[Data 92] <D.92>`, :just:`[I.4] <I.4>`, :just:`[I.26] <I.26>`, :just:`[I.29] <I.29>`, :just:`[III.31] <III.31>`, :just:`[III.35] <III.35>`
-     - :ref:`EN <D.94>` · :ref:`EL <D.94.el>`
+     - :ref:`English <D.94>` · :ref:`Greek <D.94.el>`
 
 Computational Primitives (``geometor.model`` & SymPy)
 -----------------------------------------------------

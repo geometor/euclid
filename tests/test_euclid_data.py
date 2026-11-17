@@ -94,13 +94,14 @@ def test_data_apparatus_registries_and_elements_targets() -> None:
 
 
 def test_data_codex_four_track_rst_files_and_anchors() -> None:
-    """Ensure all 447 canonical atomic RST files and all 218 bilingual RST anchors exist in docsrc/data."""
+    """Ensure all 448 canonical atomic RST files and all 218 bilingual RST anchors exist in docsrc/data."""
     conc = load_data_concordance()
     rst_files = sorted(DATA_DOCSRC.rglob("*.rst"))
-    assert len(rst_files) == 447
+    assert len(rst_files) == 448
 
     for root_file in (
         "index.rst",
+        "title-el.rst",
         "concordance.rst",
         "bibliography.rst",
         "persons.rst",
