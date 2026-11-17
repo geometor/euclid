@@ -36,77 +36,77 @@ Overview of the Fifteen Definitions (*Menge pp. 2–4*)
      - Def. I
      - Magnitude (μεγέθει)
      - ``GivenMagnitude(X) := exists constructible X' with X' = X``
-     - :ref:`EN <D.def.1>` · :ref:`EL <D.def.1.el>`
+     - :ref:`English <D.def.1>` · :ref:`Greek <D.def.1.el>`
    * - :ref:`D.def.2 <D.def.2>`
      - Def. II
      - Ratio (λόγῳ)
      - ``GivenRatio(A : B) := exists GivenMagnitude(C, D) with A : B = C : D``
-     - :ref:`EN <D.def.2>` · :ref:`EL <D.def.2.el>`
+     - :ref:`English <D.def.2>` · :ref:`Greek <D.def.2.el>`
    * - :ref:`D.def.3 <D.def.3>`
      - Def. III
      - Species (εἴδει)
      - ``GivenSpecies(P) := forall i,j: GivenAngle(ang_i(P)) and GivenRatio(s_i(P) : s_j(P))``
-     - :ref:`EN <D.def.3>` · :ref:`EL <D.def.3.el>`
+     - :ref:`English <D.def.3>` · :ref:`Greek <D.def.3.el>`
    * - :ref:`D.def.4 <D.def.4>`
      - Def. IV (cf. Def. A)
      - Position (θέσει)
      - ``GivenPosition(X) := X is invariant in the fixed planar reference frame (and constructible)``
-     - :ref:`EN <D.def.4>` · :ref:`EL <D.def.4.el>`
+     - :ref:`English <D.def.4>` · :ref:`Greek <D.def.4.el>`
    * - :ref:`D.def.5 <D.def.5>`
      - Def. V
      - Circle in Magnitude
      - ``GivenCircleMag(C) := GivenMagnitude(radius(C))``
-     - :ref:`EN <D.def.5>` · :ref:`EL <D.def.5.el>`
+     - :ref:`English <D.def.5>` · :ref:`Greek <D.def.5.el>`
    * - :ref:`D.def.6 <D.def.6>`
      - Def. VI
      - Circle in Position & Magnitude
      - ``GivenCirclePosMag(C) := GivenPosition(center(C)) and GivenMagnitude(radius(C))``
-     - :ref:`EN <D.def.6>` · :ref:`EL <D.def.6.el>`
+     - :ref:`English <D.def.6>` · :ref:`Greek <D.def.6.el>`
    * - :ref:`D.def.7 <D.def.7>`
      - Def. VII
      - Circular Segment in Magnitude
      - ``GivenSegmentMag(S) := GivenAngle(inscribed_angle(S)) and GivenMagnitude(base(S))``
-     - :ref:`EN <D.def.7>` · :ref:`EL <D.def.7.el>`
+     - :ref:`English <D.def.7>` · :ref:`Greek <D.def.7.el>`
    * - :ref:`D.def.8 <D.def.8>`
      - Def. VIII
      - Circular Segment in Position & Magnitude
      - ``GivenSegmentPosMag(S) := GivenAngle(inscribed_angle(S)) and GivenPosMag(base(S))``
-     - :ref:`EN <D.def.8>` · :ref:`EL <D.def.8.el>`
+     - :ref:`English <D.def.8>` · :ref:`Greek <D.def.8.el>`
    * - :ref:`D.def.9 <D.def.9>`
      - Def. IX
      - Affine Excess (δοθέντι μεῖζον)
      - ``ExceedsByGiven(A, B) := exists GivenMagnitude(D) with A - D = B``
-     - :ref:`EN <D.def.9>` · :ref:`EL <D.def.9.el>`
+     - :ref:`English <D.def.9>` · :ref:`Greek <D.def.9.el>`
    * - :ref:`D.def.10 <D.def.10>`
      - Def. X
      - Affine Defect (δοθέντι ἔλασσον)
      - ``LessByGiven(A, B) := exists GivenMagnitude(D) with A + D = B``
-     - :ref:`EN <D.def.10>` · :ref:`EL <D.def.10.el>`
+     - :ref:`English <D.def.10>` · :ref:`Greek <D.def.10.el>`
    * - :ref:`D.def.11 <D.def.11>`
      - Omitted (expanded verbally in Props. XIV–XXVII)
      - Affine-Ratio Excess (δοθέντι μεῖζον ἢ ἐν λόγῳ)
      - ``GreaterThanInRatio(A, B) := exists GivenMagnitude(D), GivenRatio(k) with (A - D) : B = k``
-     - :ref:`EN <D.def.11>` · :ref:`EL <D.def.11.el>`
+     - :ref:`English <D.def.11>` · :ref:`Greek <D.def.11.el>`
    * - :ref:`D.def.12 <D.def.12>`
      - Omitted (expanded verbally in Props. XIV–XXVII)
      - Affine-Ratio Defect (δοθέντι ἔλασσον ἢ ἐν λόγῳ)
      - ``LessThanInRatio(A, B) := exists GivenMagnitude(D), GivenRatio(k) with (A + D) : B = k``
-     - :ref:`EN <D.def.12>` · :ref:`EL <D.def.12.el>`
+     - :ref:`English <D.def.12>` · :ref:`Greek <D.def.12.el>`
    * - :ref:`D.def.13 <D.def.13>`
      - Omitted (late scholium; bracketed by Menge)
      - Directed Ordinate [Bracketed Scholium]
      - ``Kategmene(P, L, theta) := segment from GivenPoint(P) to GivenLine(L) at GivenAngle(theta)``
-     - :ref:`EN <D.def.13>` · :ref:`EL <D.def.13.el>`
+     - :ref:`English <D.def.13>` · :ref:`Greek <D.def.13.el>`
    * - :ref:`D.def.14 <D.def.14>`
      - Omitted (late scholium; bracketed by Menge)
      - Erected Line [Bracketed Scholium]
      - ``Anegmene(P, L, theta) := ray from GivenPoint(P) on GivenLine(L) at GivenAngle(theta)``
-     - :ref:`EN <D.def.14>` · :ref:`EL <D.def.14.el>`
+     - :ref:`English <D.def.14>` · :ref:`Greek <D.def.14.el>`
    * - :ref:`D.def.15 <D.def.15>`
      - Omitted (late scholium; bracketed by Menge)
      - Parallel to Position [Bracketed Scholium]
      - ``ParaThesei(P, L) := line through GivenPoint(P) parallel to GivenLine(L)``
-     - :ref:`EN <D.def.15>` · :ref:`EL <D.def.15.el>`
+     - :ref:`English <D.def.15>` · :ref:`Greek <D.def.15.el>`
 
 2. Simson's Regular-Heptagon Critique of Definition 4 (*Position*)
 ------------------------------------------------------------------
