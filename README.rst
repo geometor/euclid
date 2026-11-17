@@ -18,8 +18,8 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`The Thirteen Books of Euclid's Elements <https://geometor.github.io/euclid/heath/>`_** — Translated from the Text of Heiberg with Introduction and Commentary by Sir Thomas L. Heath (1926), featuring synchronized Proposition and Commentary tracks, interactive geometric indications, and justification links.
-- **`Euclid's Data <https://geometor.github.io/euclid/data/>`_** — Δεδομένα bilingual critical edition (Menge 1896 & Simson 1806) capturing Euclid's companion treatise on geometric analysis and determinacy.
+- `The Thirteen Books of Euclid's Elements <https://geometor.github.io/euclid/heath/>`_ — Translated from the Text of Heiberg with Introduction and Commentary by Sir Thomas L. Heath (1926), featuring synchronized Proposition and Commentary tracks, interactive geometric indications, and justification links.
+- `Euclid's Data <https://geometor.github.io/euclid/data/>`_ — Δεδομένα bilingual critical edition (Menge 1896 & Simson 1806) capturing Euclid's companion treatise on geometric analysis and determinacy.
 
 Repository Contents
 -------------------
