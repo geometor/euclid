@@ -47,5 +47,5 @@ Scholarly Apparatus
    :maxdepth: 1
 
    bibliography
-   persons
+   people/index
    glossary
