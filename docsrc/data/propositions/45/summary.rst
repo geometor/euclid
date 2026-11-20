@@ -2,6 +2,8 @@
 :breadcrumb_title: D.45
 :type: summary
 :title: Proposition 45 — Analytical Summary
+:folio: Menge 82
+:page: 82
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 45 [με΄ · Prop. Prop. XLVIII] — Analytical Summary

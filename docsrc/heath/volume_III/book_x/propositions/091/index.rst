@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.91
 :folios: 0194, 0195, 0196, 0197
+:folio: 0194
+:page: 190
 :pages: 190, 191, 192, 193
 :dependencies: I.def.4, V.11, VI.1, VI.17, VI.26, X.def.3, X.def.iii.1, X.11, X.12, X.13, X.15, X.17, X.19, X.21, X.53, X.73
 

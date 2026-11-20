@@ -2,6 +2,8 @@
 :breadcrumb_title: D.8
 :type: summary
 :title: Proposition 8 — Analytical Summary
+:folio: Menge 14
+:page: 14
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 8 [η΄ · Prop. Prop. IX] — Analytical Summary

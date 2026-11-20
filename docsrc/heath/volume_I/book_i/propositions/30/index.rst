@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.30
 :folios: 0328
+:folio: 0328
+:page: 314
 :pages: 314
 :dependencies: I.def.4, I.def.8, I.def.23, I.cn.1, I.29
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.49
 :type: summary
 :title: Proposition 49 — Analytical Summary
+:folio: Menge 88
+:page: 88
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 49 [μθ΄ · Prop. Prop. LIII] — Analytical Summary

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.42
 :type: notes
 :title: Proposition 42 — Philological & Critical Notes
+:folio: Menge 74
+:page: 74
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 42 [μβ΄ · Prop. Prop. XLV] — Philological Notes

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.19
 :folios: 0239, 0240, 0241
+:folio: 0239
+:page: 233
 :pages: 233, 234, 235
 
 .. _VI.19.commentary:

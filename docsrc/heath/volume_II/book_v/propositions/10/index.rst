@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.10
 :folios: 0161, 0162
+:folio: 0161
+:page: 155
 :pages: 155, 156
 :dependencies: I.def.14, V.def.3, V.def.4, V.def.7, V.7, V.8
 

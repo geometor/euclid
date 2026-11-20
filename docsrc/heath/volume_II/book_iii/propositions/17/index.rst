@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.17
 :folios: 0049
+:folio: 0049
+:page: 43
 :pages: 43
 :dependencies: I.def.1, I.def.4, I.def.15, I.4, III.1, III.16
 

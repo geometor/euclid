@@ -1,0 +1,55 @@
+:order: 5
+:canonical_id: I.def.commentary.def_05
+:volume: I
+:book: I
+:type: commentary
+:title: Commentary on Book I Definition 5
+:folio: 0183
+:folios: 0183, 0184
+:page: 169
+:pages: 169, 170
+
+.. _I.def.commentary.def_05:
+
+Commentary on Book I Definition 5
+=================================
+
+Back to :ref:`Book I Definitions <I.def>`.
+
+| Ἐπιφάνεια δέ ἐστιν, ὃ :term:`μῆκος <length>` καὶ :term:`πλάτος <breadth>` μόνον ἔχει.
+| *A surface is that which has length and breadth only.*
+
+The word :term:`ἐπιφάνεια <surface>` was used by :person:`Euclid <euclid>` and later writers to denote *surface* in general, while they appropriated the word :term:`ἐπίπεδον <epipedon>` for *plane surface*, thus making :term:`ἐπίπεδον <epipedon>` a *species* of the *genus* :term:`ἐπιφάνεια <surface>`. A solitary use of :term:`ἐπιφάνεια <surface>` by :person:`Euclid <euclid>` when a plane is meant (XI. Def. 11) is probably due to the fact that the particular definition came from an earlier textbook. :person:`Proclus <proclus>` (:cite:`p. 116, 17 <proclus:in-euclid:116.17>`) remarks that the older philosophers, including :person:`Plato <plato>` and :person:`Aristotle <aristotle>`, used the words :term:`ἐπιφάνεια <surface>` and :term:`ἐπίπεδον <epipedon>` indifferently for any kind of surface. :person:`Aristotle <aristotle>` does indeed use both words for a surface, with perhaps a tendency to use :term:`ἐπιφάνεια <surface>` more than :term:`ἐπίπεδον <epipedon>` for a surface not plane. Cf. *Categories* 6, 5 a 1 sq., where both words are used in one sentence : “You can find a common boundary at which the parts fit together, a point in the case of a line, and a line in the case of a surface (:term:`ἐπιφάνεια <surface>`) ; for the parts of the surface (:term:`ἐπιπέδου <epipedon>`) do fit together at some common boundary. Similarly also in the case of a body you can find a common boundary, a line or a surface (:term:`ἐπιφάνεια <surface>`), at which the parts of the body fit together.” :person:`Plato <plato>` however does not use :term:`ἐπιφάνεια <surface>` at all in the sense of *surface*, but only :term:`ἐπίπεδον <epipedon>` for both *surface* and *plane surface*. There is reason therefore for doubting the correctness of the notice in :person:`Diogenes Laertius <diogenes-laertius>`, III. 24, that :person:`Plato <plato>` “was the first philosopher to name, among extremities, the *plane surface*” (:term:`ἐπίπεδος ἐπιφάνεια <plane-surface>`).
+
+:term:`ἐπιφάνεια <surface>` of course means literally the feature of a body which is *apparent to the eye* (ἐπιφανής), namely the surface.
+
+:person:`Aristotle <aristotle>` tells us (*De sensu* 3, 439 a 31) that the Pythagoreans called a surface χροιά, which seems to have meant *skin* as well as *colour*. :person:`Aristotle <aristotle>` explains the term with reference to colour (χρῶμα) as a thing inseparable from the extremity (:term:`πέρας <peras>`) of a body.
+
+.. _folio-i-0184:
+
+.. folio:: 0184
+   :page: 170
+
+Alternative definitions.
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The definitions of a surface correspond to those of a line. As in :person:`Aristotle <aristotle>` a line is a magnitude “(extended) one way, or in one ‘dimension’” (ἐφ' ἕν), “continuous one way” (ἐφ' ἓν συνεχές), or “divisible in one way” (μοναχῇ διαιρετόν), so a surface is a magnitude extended or continuous *two* ways (ἐπὶ δύο), or divisible in *two* ways (διχῇ). As in :person:`Euclid <euclid>` a surface has “length and breadth” only, so in :person:`Aristotle <aristotle>` “breadth” is characteristic of the surface and is once used as synonymous with it (:cite:`*Metaph.* 1020 a 12 <aristotle:met:1020a12>`), and again “*lengths* are made up of long and short, *surfaces* of *broad and narrow*, and *solids* (ὄγκοι) of *deep and shallow*” (:cite:`*Metaph.* 1085 a 10 <aristotle:met:1085a10>`).
+
+:person:`Aristotle <aristotle>` mentions the common remark that *a line by its motion produces a surface* (:cite:`*De anima* I. 4, 409 a 4 <aristotle:de-anima:I.4.409a4>`). He also gives the *a posteriori* description of a surface as the “extremity of a solid” (:cite:`*Topics* VI. 4, 141 b 22 <aristotle:topics:VI.4.141b22>`), and as “the section (:term:`τομή <tome>`) or division (διαίρεσις) of a body” (:cite:`*Metaph.* 1060 b 14 <aristotle:met:1060b14>`).
+
+:person:`Proclus <proclus>` remarks (p. 114, 20) that we get a notion of a surface when we measure areas and mark their boundaries in the sense of length and breadth ; and we further get a sort of perception of it by looking at shadows, since these have no depth (for they do not penetrate the earth) but only have length and breadth.
+
+Classification of surfaces.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:person:`Heron <heron>` gives (Def. 74, p. 50, ed. :person:`Heiberg <heiberg>`) two alternative divisions of surfaces into two classes, corresponding to :person:`Geminus <geminus>`’ alternative divisions of lines, viz. into (1) *incomposite* and *composite* and (2) *simple* and *mixed*.
+
+(1) *Incomposite* surfaces are “those which, when produced, fall into (or coalesce with) themselves” (ὅσαι ἐκβαλλόμεναι αὐταὶ καθ' ἑαυτῶν πίπτουσιν), i.e. are of continuous curvature, e.g. the sphere.
+
+*Composite* surfaces are “those which, when produced, cut one another.” Of composite surfaces, again, some are (a) made up of non-homogeneous (elements) (ἐξ ἀνομοιογενῶν) such as cones, cylinders and hemispheres, others (b) made up of homogeneous (elements), namely the rectilineal (or polyhedral) surfaces.
+
+(2) Under the alternative division, *simple* surfaces are the plane and the spherical surfaces, but no others ; the *mixed* class includes all other surfaces whatever and is therefore infinite in variety.
+
+:person:`Heron <heron>` specially mentions as belonging to the mixed class (a) the surface of cones, cylinders and the like, which are a mixture of plane and circular (μικταὶ ἐξ :term:`ἐπιπέδου <epipedon>` καὶ :term:`περιφερείας <periphereia>`) and (b) spiric surfaces, which are “a mixture of two circumferences” (by which he must mean a mixture of two circular elements, namely the generating circle and its circular motion about an axis in the same plane).
+
+:person:`Proclus <proclus>` adds the remark that, curiously enough, *mixed* surfaces may arise by the revolution either of *simple* curves, e.g. in the case of the *spire*, or of *mixed* curves, e.g. the “right-angled conoid” from a parabola, “another conoid” from the hyperbola, the “oblong” (ἐπιμήκης, in :person:`Archimedes <archimedes>` παραμάκες) and “flat” (ἐπιπλατύ) spheroids from an ellipse according as it revolves about the major or minor axis respectively (pp. 119, 6—120, 2). The *homoeomeric* surfaces, namely those any part of which will coincide with any other part, are *two* only (the plane and the spherical surface), not three as in the case of lines (p. 120, 7).

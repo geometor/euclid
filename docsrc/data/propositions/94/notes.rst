@@ -2,6 +2,8 @@
 :breadcrumb_title: D.94
 :type: notes
 :title: Proposition 94 — Philological & Critical Notes
+:folio: Menge 184
+:page: 184
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 94 [ϙδ΄ · Prop. Prop. XCIX (cf. Prop. C [Stewart])] — Philological Notes

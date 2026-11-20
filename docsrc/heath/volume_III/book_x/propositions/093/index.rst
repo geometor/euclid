@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.93
 :folios: 0203, 0204, 0205, 0206
+:folio: 0203
+:page: 199
 :pages: 199, 200, 201, 202
 :dependencies: I.def.4, V.11, VI.1, VI.17, VI.26, X.def.3, X.def.iii.2, X.def.iii.3, X.11, X.13, X.15, X.17, X.21, X.75
 

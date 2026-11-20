@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.13
 :folios: 0038, 0039
+:folio: 0038
+:page: 32
 :pages: 32, 33
 :dependencies: I.def.1, I.def.15, III.def.2, III.def.3, III.2, III.11
 

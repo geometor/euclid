@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.76
 :folios: 0168
+:folio: 0168
+:page: 164
 :pages: 164
 
 .. _X.76.commentary:

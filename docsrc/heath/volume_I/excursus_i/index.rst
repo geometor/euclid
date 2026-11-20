@@ -3,6 +3,8 @@
 :type: excursus
 :title: Excursus I: Pythagoras and the Pythagoreans
 :folios: 0425, 0426, 0427, 0428
+:folio: 0425
+:page: 411
 :pages: 411, 412, 413, 414
 
 .. _VolI.excursus.I:

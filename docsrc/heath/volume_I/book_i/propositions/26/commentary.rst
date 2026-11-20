@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.26
 :folios: 0317, 0318, 0319, 0320, 0321
+:folio: 0317
+:page: 303
 :pages: 303, 304, 305, 306, 307
 
 .. _I.26.commentary:
@@ -14,10 +16,14 @@ Commentary on Proposition I.26
 
 Back to :ref:`Proposition I.26 <I.26>`.
 
+.. _folio-i-0317:
+
 .. folio:: 0317
    :page: 303
 
 The alternative method of proving this proposition, viz. by applying one triangle to the other, was very early discovered, at least so far as regards the case where the equal sides are adjacent to the equal angles in each. An-Nairīzī gives it for this case, observing that the proof is one which he had found, but of which he did not know the author.
+
+.. _folio-i-0318:
 
 .. folio:: 0318
    :page: 304
@@ -35,6 +41,8 @@ Max C. P. Schmidt also (*Kulturhistorische Beiträge zur Kenntnis des griechisch
 
 How then does the supposed use of similar triangles and their property square with Eudemus' remark about I. 26? As it stands, it asserts the equality of *two* triangles which have two angles and one side respectively equal, and the theorem can only be brought into relation with the above explanations by taking it as asserting that, if two angles and one side of *one* triangle are given, the triangle is completely determined. But, if :person:`Thales <thales>`
 practically used *proportions*, as supposed, I. 26 is surely not at all the theorem which this procedure would naturally suggest as underlying it and being “necessarily used”; the use of proportions or of similar but not equal triangles would surely have taken attention altogether away from I. 26 and fixed it on VI. 4.
+
+.. _folio-i-0319:
 
 .. folio:: 0319
    :page: 305
@@ -58,6 +66,8 @@ Recapitulation of congruence theorems.
 :person:`Proclus <proclus>`, like other commentators, gives at this point (p. 347, 20 sqq.) a summary of the cases in which the equality of two triangles in all respects can be established. We may, he says, seek the conditions of such equality by successively considering as hypotheses the equality (1) of sides alone, (2) of angles alone, (3) of sides and angles combined. Taking (1) first, we can only establish the equality of the triangles in all respects if all three sides are respectively equal; we cannot establish the equality of the triangles by any hypothesis of class (2), not even the hypothesis that all the three angles are respectively equal; among the hypotheses of class (3), the equality of one
 side and one angle in each triangle is not enough, the equality ($a$) of one side and all three angles is more than enough, as is also the equality ($b$) of two sides and two or three angles, and ($c$) of three sides and one or two angles.
 
+.. _folio-i-0320:
+
 .. folio:: 0320
    :page: 306
 
@@ -78,6 +88,8 @@ Let :g:`ABC <0320.g1:< A B C >>`, :g:`DEF <0320.g1:< D E F >>` be two triangles 
 Now (1), if the angle :g:`BAC <0320.g1:< B A C )>` be :eq:`equal <0320.g1:< B A C ) = 0320.g1:< E D F )>` to the angle :g:`EDF <0320.g1:< E D F )>`, it follows, since the two sides :g:`AB <0320.g1:/ A B />`, :g:`AC <0320.g1:/ A C />` are :eq:`equal <0320.g1:/ A B / = 0320.g1:/ D E /; 0320.g1:/ A C / = 0320.g1:/ D F />` to the two sides :g:`DE <0320.g1:/ D E />`, :g:`DF <0320.g1:/ D F />` respectively, that the triangles :g:`ABC <0320.g1:< A B C >>`, :g:`DEF <0320.g1:< D E F >>` are :eq:`equal <0320.g1:< A B C > = 0320.g1:< D E F >>` in all respects, [I. 4] and the angles :g:`ACB <0320.g1:< A C B )>`, :g:`DFE <0320.g1:< D F E )>` are :eq:`equal <0320.g1:< A C B ) = 0320.g1:< D F E )>`.
 
 (2) If the angles :g:`BAC <0320.g1:< B A C )>`, :g:`EDF <0320.g1:< E D F )>` be not :eq:`equal <0320.g1:< B A C ) = 0320.g1:< E D F )>`, make the angle :g:`EDG <0320.g1:< E D G )>` (on the same side of :g:`ED <0320.g1:/ E D />` as the angle :g:`EDF <0320.g1:< E D F )>`) :eq:`equal <0320.g1:< E D G ) = 0320.g1:< B A C )>` to the angle :g:`BAC <0320.g1:< B A C )>`. Let :g:`EF <0320.g1:/ E F />`, produced if necessary, meet :g:`DG <0320.g1:/ D G />` in :g:`G <0320.g1:G>`. Then, in the triangles :g:`ABC <0320.g1:< A B C >>`, :g:`DEG <0320.g1:< D E G >>`, the two angles :g:`BAC <0320.g1:< B A C )>`, :g:`ABC <0320.g1:< A B C )>` are :eq:`equal <0320.g1:< B A C ) = 0320.g1:< E D G ); 0320.g1:< A B C ) = 0320.g1:< D E G )>` to the two angles :g:`EDG <0320.g1:< E D G )>`, :g:`DEG <0320.g1:< D E G )>` respectively, and the side :g:`AB <0320.g1:/ A B />` is :eq:`equal <0320.g1:/ A B / = 0320.g1:/ D E />` to the side :g:`DE <0320.g1:/ D E />`;
+
+.. _folio-i-0321:
 
 .. folio:: 0321
    :page: 307

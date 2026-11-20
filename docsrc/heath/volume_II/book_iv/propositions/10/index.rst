@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IV.10
 :folios: 0102, 0103
+:folio: 0102
+:page: 96
 :pages: 96, 97
 :dependencies: I.def.8, I.def.20, I.5, I.6, I.32, II.11, III.32, III.37, IV.1, IV.5
 

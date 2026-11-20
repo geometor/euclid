@@ -2,6 +2,8 @@
 :breadcrumb_title: D.23
 :type: notes
 :title: Proposition 23 — Philological & Critical Notes
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 23 [κγ΄ · Prop. Prop. XII] — Philological Notes

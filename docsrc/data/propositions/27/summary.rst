@@ -2,6 +2,8 @@
 :breadcrumb_title: D.27
 :type: summary
 :title: Proposition 27 — Analytical Summary
+:folio: Menge 48
+:page: 48
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 27 [κζ΄ · Prop. Prop. XXX] — Analytical Summary

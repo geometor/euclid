@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.14
 :folios: 0041, 0042
+:folio: 0041
+:page: 37
 :pages: 37, 38
 :dependencies: I.def.4, I.def.22, V.def.6, V.17, V.22, VI.22, X.def.1, X.11
 

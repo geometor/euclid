@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.11
 :folios: 0030, 0031
+:folio: 0030
+:page: 24
 :pages: 24, 25
 :dependencies: I.def.1, I.def.4, I.def.15, I.def.16, III.def.3
 

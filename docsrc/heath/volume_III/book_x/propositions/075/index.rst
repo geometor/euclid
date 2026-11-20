@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.75
 :folios: 0165, 0166
+:folio: 0165
+:page: 161
 :pages: 161, 162
 :dependencies: I.def.4, II.def.1, II.7, VI.1, X.def.1, X.def.3, X.def.iii.2, X.6, X.11, X.13, X.15, X.20, X.22, X.23, X.28, X.73
 

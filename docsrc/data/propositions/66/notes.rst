@@ -2,6 +2,8 @@
 :breadcrumb_title: D.66
 :type: notes
 :title: Proposition 66 — Philological & Critical Notes
+:folio: Menge 120
+:page: 120
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 66 [ξϛ΄ · Prop. Prop. LXII Cor.] — Philological Notes

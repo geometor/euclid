@@ -4,6 +4,8 @@
 :type: commentary
 :title: Commentary on Book IV Definitions
 :folios: 0084, 0085
+:folio: 0084
+:page: 78
 :pages: 78, 79
 
 .. _IV.def.commentary:

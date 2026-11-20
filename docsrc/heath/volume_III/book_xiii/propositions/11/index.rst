@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.11
 :folios: 0465, 0466, 0467, 0468, 0469
+:folio: 0465
+:page: 461
 :pages: 461, 462, 463, 464, 465
 :dependencies: I.def.4, I.def.15, I.def.17, I.def.20, I.32, V.18, V.19, X.def.3, X.def.iii.4, X.9, X.12, X.15, X.73, X.94, XIII.1, XIII.8
 

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.35
 :folios: 0426
+:folio: 0426
+:page: 420
 :pages: 420
 :dependencies: V.def.6, V.def.15, VII.def.2, VII.11, VII.12, VII.13
 

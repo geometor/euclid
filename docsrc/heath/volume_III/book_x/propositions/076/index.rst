@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.76
 :folios: 0167
+:folio: 0167
+:page: 163
 :pages: 163
 :dependencies: I.def.4, I.def.22, II.def.1, II.7, X.def.2, X.def.3, X.16, X.33
 

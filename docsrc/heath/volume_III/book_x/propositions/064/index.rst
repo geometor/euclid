@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.64
 :folios: 0146, 0147
+:folio: 0146
+:page: 142
 :pages: 142, 143
 :dependencies: I.def.4, I.def.22, X.def.3, X.def.ii.5, X.13, X.18, X.20, X.22, X.36, X.40
 

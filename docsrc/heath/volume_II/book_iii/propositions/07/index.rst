@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.7
 :folios: 0020, 0021
+:folio: 0020
+:page: 14
 :pages: 14, 15
 :dependencies: I.def.1, I.def.4, I.def.15, I.def.16, I.def.17, I.4, I.20, I.23, I.24
 

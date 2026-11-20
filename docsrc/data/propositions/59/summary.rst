@@ -2,6 +2,8 @@
 :breadcrumb_title: D.59
 :type: summary
 :title: Proposition 59 — Analytical Summary
+:folio: Menge 106
+:page: 106
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 59 [νθ΄ · Prop. Prop. LXXXIV] — Analytical Summary

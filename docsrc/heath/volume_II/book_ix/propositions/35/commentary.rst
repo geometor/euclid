@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.35
 :folios: 0427
+:folio: 0427
+:page: 421
 :pages: 421
 
 .. _IX.35.commentary:

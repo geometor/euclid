@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.17
 :folios: 0429, 0430, 0431, 0432, 0433, 0434, 0435
+:folio: 0429
+:page: 425
 :pages: 425, 426, 427, 428, 429, 430, 431
 :dependencies: I.def.5, I.def.16, I.26, I.33, I.47, II.def.1, III.27, III.31, V.12, VI.2, VI.8, XI.def.1, XI.def.3, XI.def.4, XI.def.14, XI.def.17, XI.2, XI.6, XI.7, XI.9, XI.11, XI.18, XII.8
 

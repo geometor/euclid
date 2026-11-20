@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.34
 :folios: 0425, 0426
+:folio: 0425
+:page: 419
 :pages: 419, 420
 :dependencies: VII.def.2, VII.def.7, VII.def.8, VII.def.9
 

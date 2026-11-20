@@ -2,6 +2,8 @@
 :breadcrumb_title: D.88
 :type: notes
 :title: Proposition 88 — Philological & Critical Notes
+:folio: Menge 172
+:page: 172
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 88 [πη΄ · Prop. Prop. XCII] — Philological Notes

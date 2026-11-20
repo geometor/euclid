@@ -2,6 +2,8 @@
 :breadcrumb_title: D.23
 :type: summary
 :title: Proposition 23 — Analytical Summary
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 23 [κγ΄ · Prop. Prop. XII] — Analytical Summary

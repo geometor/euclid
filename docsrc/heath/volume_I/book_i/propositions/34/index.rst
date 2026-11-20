@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.34
 :folios: 0337, 0338, 0339
+:folio: 0337
+:page: 323
 :pages: 323, 324, 325
 :dependencies: I.def.4, I.def.8, I.def.17, I.def.19, I.def.23, I.cn.2, I.4, I.26, I.29
 
@@ -21,6 +23,8 @@ PROPOSITION 34.
    In parallelogrammic areas\ [#f1]_ the opposite sides and :term:`angles <plane-angle>` are equal to one another, and the :term:`diameter <diameter>` bisects the areas.
 
 Let :g:`ACDB <0338.g1:< A C D B >>` be a parallelogrammic area, and :g:`BC <0338.g1:/ B C />` its diameter;
+
+.. _folio-i-0338:
 
 .. folio:: 0338
    :page: 324

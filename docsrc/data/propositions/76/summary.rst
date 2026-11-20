@@ -2,6 +2,8 @@
 :breadcrumb_title: D.76
 :type: summary
 :title: Proposition 76 — Analytical Summary
+:folio: Menge 144
+:page: 144
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 76 [οϚ΄ · Prop. Prop. L] — Analytical Summary

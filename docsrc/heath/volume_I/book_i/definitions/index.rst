@@ -4,10 +4,14 @@
 :type: definitions
 :title: Book I Definitions
 :folios: 0167, 0168
+:folio: 0167
+:page: 153
 :pages: 153, 154
 :dependencies: I.def.1, I.def.2, I.def.3, I.def.4, I.def.5, I.def.6, I.def.7, I.def.8, I.def.10, I.def.11, I.def.12, I.def.13, I.def.14, I.def.15, I.def.16, I.def.17, I.def.19, I.def.20
 
 .. _I.def:
+
+.. _folio-i-0167:
 
 .. folio:: 0167
    :page: 153
@@ -74,6 +78,8 @@ DEFINITIONS.
 .. _I.def.15:
 
 15. A :term:`**circle** <circle>` is a :term:`plane figure <plane-surface>` :term:`contained by one line <extremity>` such that all the :term:`straight lines <straight-line>` falling upon it from one :term:`point <point>` among those lying within the :term:`figure <figure>` are equal to one another ;
+
+.. _folio-i-0168:
 
 .. folio:: 0168
    :page: 154

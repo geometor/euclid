@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.27
 :folios: 0388
+:folio: 0388
+:page: 382
 :pages: 382
 :dependencies: V.def.3, VII.def.19, VII.def.21, VII.33, VIII.2, VIII.19
 

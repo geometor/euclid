@@ -2,6 +2,8 @@
 :breadcrumb_title: D.2
 :type: summary
 :title: Proposition 2 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 2 [β΄ · Prop. Prop. II] — Analytical Summary

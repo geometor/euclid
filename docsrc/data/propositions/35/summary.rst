@@ -2,6 +2,8 @@
 :breadcrumb_title: D.35
 :type: summary
 :title: Proposition 35 — Analytical Summary
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 35 [λε΄ · Prop. Prop. XXXIX (pt. 1)] — Analytical Summary

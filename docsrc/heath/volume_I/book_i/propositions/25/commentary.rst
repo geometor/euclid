@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.25
 :folios: 0314, 0315
+:folio: 0314
+:page: 300
 :pages: 300, 301
 
 .. _I.25.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.25
 ==============================
 
 Back to :ref:`Proposition I.25 <I.25>`.
+
+.. _folio-i-0314:
 
 .. folio:: 0314
    :page: 300
@@ -55,6 +59,8 @@ Then shall the angle at :g:`A <0314.g1:< B A C )>` be greater than the angle at 
 From :g:`BC <0314.g1:/ B C />` cut off :g:`BG <0314.g1:/ B G />` :eq:`equal <0314.g1:/ B G / = 0314.g1:/ E F />` to :g:`EF <0314.g1:/ E F />`. At :g:`B <0314.g1:B>`, on the straight line :g:`BC <0314.g1:/ B C />`, make the angle :g:`GBH <0314.g1:< G B H )>` (on the side of :g:`BG <0314.g1:/ B G />` remote from :g:`A <0314.g1:A>`) :eq:`equal <0314.g1:< G B H ) = 0314.g1:< F E D )>` to the angle :g:`FED <0314.g1:< F E D )>`. Make :g:`BH <0314.g1:/ B H />` :eq:`equal <0314.g1:/ B H / = 0314.g1:/ D E />` to :g:`DE <0314.g1:/ D E />`; join :g:`HG <0314.g1:/ H G />`, and produce it to meet :g:`AC <0314.g1:/ A C />` in :g:`K <0314.g1:K>`. Join :g:`AH <0314.g1:/ A H />`.
 
 Then, since the two sides :g:`GB <0314.g1:/ G B />`, :g:`BH <0314.g1:/ B H />` are :eq:`equal <0314.g1:/ G B / = 0314.g1:/ F E /; 0314.g1:/ B H / = 0314.g1:/ E D />` to the two sides :g:`FE <0314.g1:/ F E />`, :g:`ED <0314.g1:/ E D />` respectively, and the angles contained by them are :eq:`equal <0314.g1:< G B H ) = 0314.g1:< F E D )>`, :g:`HG <0314.g1:/ H G />` is :eq:`equal <0314.g1:/ H G / = 0314.g1:/ D F / = 0314.g1:/ A C />` to :g:`DF <0314.g1:/ D F />` or :g:`AC <0314.g1:/ A C />`, and the angle :g:`BHG <0314.g1:< B H G )>` is :eq:`equal <0314.g1:< B H G ) = 0314.g1:< E D F )>` to the angle :g:`EDF <0314.g1:< E D F )>`. Now :g:`HK <0314.g1:/ H K />` is greater than :g:`HG <0314.g1:/ H G />` or :g:`AC <0314.g1:/ A C />`, and *a fortiori* greater than :g:`AK <0314.g1:/ A K />`; therefore the angle :g:`KAH <0314.g1:< K A H )>` is greater than the angle :g:`KHA <0314.g1:< K H A )>`. And, since :g:`AB <0314.g1:/ A B />` is :eq:`equal <0314.g1:/ A B / = 0314.g1:/ B H />` to :g:`BH <0314.g1:/ B H />`, the angle :g:`BAH <0314.g1:< B A H )>` is :eq:`equal <0314.g1:< B A H ) = 0314.g1:< B H A )>` to the angle :g:`BHA <0314.g1:< B H A )>`. Therefore, by addition, the whole angle :g:`BAC <0314.g1:< B A C )>` is greater than the whole angle :g:`BHG <0314.g1:< B H G )>`, that is, greater than the angle :g:`EDF <0314.g1:< E D F )>`.
+
+.. _folio-i-0315:
 
 .. folio:: 0315
    :page: 301

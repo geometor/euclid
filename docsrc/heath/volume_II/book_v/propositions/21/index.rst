@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.21
 :folios: 0184, 0185
+:folio: 0184
+:page: 178
 :pages: 178, 179
 :dependencies: V.def.5, V.def.17, V.def.18, V.8, V.10, V.13
 

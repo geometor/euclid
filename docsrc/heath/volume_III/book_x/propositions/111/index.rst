@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.111
 :folios: 0244, 0245
+:folio: 0244
+:page: 240
 :pages: 240, 241
 :dependencies: I.def.4, X.def.ii.1, X.def.iii.1, X.12, X.13, X.15, X.60, X.73, X.97
 

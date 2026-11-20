@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.20
 :folios: 0052, 0053
+:folio: 0052
+:page: 46
 :pages: 46, 47
 :dependencies: I.def.8, I.def.15, I.5, I.32, III.def.10
 

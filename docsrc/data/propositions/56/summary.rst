@@ -2,6 +2,8 @@
 :breadcrumb_title: D.56
 :type: summary
 :title: Proposition 56 — Analytical Summary
+:folio: Menge 100
+:page: 100
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-4-summary:

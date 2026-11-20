@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.110
 :folios: 0242, 0243
+:folio: 0242
+:page: 238
 :pages: 238, 239
 :dependencies: I.def.4, VI.1, X.def.1, X.def.3, X.def.iii.2, X.def.iii.3, X.def.iii.6, X.11, X.22, X.73, X.93, X.96
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.38
 :type: summary
 :title: Proposition 38 — Analytical Summary
+:folio: Menge 62
+:page: 62
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 38 [λη΄ · Prop. Prop. XL (pt. 2)] — Analytical Summary

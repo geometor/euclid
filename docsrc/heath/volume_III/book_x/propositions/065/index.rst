@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.65
 :folios: 0147, 0148
+:folio: 0147
+:page: 143
 :pages: 143, 144
 :dependencies: I.def.4, I.def.22, VI.1, X.def.3, X.def.ii.6, X.11, X.22, X.36, X.41
 

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.24
 :folios: 0060
+:folio: 0060
+:page: 54
 :pages: 54
 
 .. _III.24.commentary:

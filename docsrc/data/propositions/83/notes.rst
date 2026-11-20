@@ -2,6 +2,8 @@
 :breadcrumb_title: D.83
 :type: notes
 :title: Proposition 83 — Philological & Critical Notes
+:folio: Menge 160
+:page: 160
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 83 [πγ΄ · Prop. Prop. LXXIII] — Philological Notes

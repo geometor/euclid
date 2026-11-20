@@ -2,6 +2,8 @@
 :breadcrumb_title: D.17
 :type: summary
 :title: Proposition 17 — Analytical Summary
+:folio: Menge 32
+:page: 32
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 17 [ιζ΄ · Prop. Prop. XXV] — Analytical Summary

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.70
 :type: summary
 :title: Proposition 70 — Analytical Summary
+:folio: Menge 130
+:page: 130
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 70 [ο΄ · Prop. Props. LXVII–LXVIII] — Analytical Summary

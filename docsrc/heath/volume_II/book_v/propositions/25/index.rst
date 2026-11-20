@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.25
 :folios: 0191
+:folio: 0191
+:page: 185
 :pages: 185
 :dependencies: V.def.6, V.19
 

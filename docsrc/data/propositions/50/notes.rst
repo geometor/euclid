@@ -2,6 +2,8 @@
 :breadcrumb_title: D.50
 :type: notes
 :title: Proposition 50 — Philological & Critical Notes
+:folio: Menge 88
+:page: 88
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 50 [ν΄ · Prop. Prop. LIV] — Philological Notes

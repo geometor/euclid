@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.46
 :folios: 0361, 0362
+:folio: 0361
+:page: 347
 :pages: 347, 348
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.def.20, I.def.22, I.def.23, I.11, I.29, I.31, I.34
 

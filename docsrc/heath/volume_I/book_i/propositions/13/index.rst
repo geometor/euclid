@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.13
 :folios: 0289, 0290
+:folio: 0289
+:page: 275
 :pages: 275, 276
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.cn.1, I.cn.2, I.11
 
@@ -64,6 +66,8 @@ But the angles :g:`CBE <0289.g1:< C B E )>`, :g:`EBD <0289.g1:< E B D )>` were a
 .. assertion::
 
    therefore the angles :g:`CBE <0289.g1:< C B E )>`, :g:`EBD <0289.g1:< E B D )>` are also equal to the angles :g:`DBA <0289.g1:< D B A )>`, :g:`ABC <0289.g1:< A B C )>`.
+
+.. _folio-i-0290:
 
 .. folio:: 0290
    :page: 276

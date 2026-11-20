@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.53
 :folios: 0118, 0119, 0120
+:folio: 0118
+:page: 114
 :pages: 114, 115, 116
 
 .. _X.53.commentary:

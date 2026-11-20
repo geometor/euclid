@@ -5,10 +5,14 @@
 :type: proposition
 :title: Proposition I.21
 :folios: 0303
+:folio: 0303
+:page: 289
 :pages: 289
 :dependencies: I.def.3, I.def.4, I.def.8, I.def.19, I.16, I.20
 
 .. _I.21:
+
+.. _folio-i-0303:
 
 .. folio:: 0303
    :page: 289

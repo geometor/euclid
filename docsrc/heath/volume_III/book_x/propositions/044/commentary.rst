@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.44
 :folios: 0101
+:folio: 0101
+:page: 97
 :pages: 97
 
 .. _X.44.commentary:

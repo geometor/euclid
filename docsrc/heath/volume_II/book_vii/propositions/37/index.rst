@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.37
 :folios: 0347, 0348
+:folio: 0347
+:page: 341
 :pages: 341, 342
 :dependencies: V.def.1, VII.def.2, VII.15
 

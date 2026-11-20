@@ -2,6 +2,8 @@
 :breadcrumb_title: D.19
 :type: notes
 :title: Proposition 19 — Philological & Critical Notes
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 19 [ιθ΄ · Prop. Prop. XXVII] — Philological Notes

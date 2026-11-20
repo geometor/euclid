@@ -2,6 +2,8 @@
 :breadcrumb_title: D.25
 :type: summary
 :title: Proposition 25 — Analytical Summary
+:folio: Menge 46
+:page: 46
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-2-summary:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.4
 :folios: 0206, 0207, 0208
+:folio: 0206
+:page: 200
 :pages: 200, 201, 202
 :dependencies: I.def.8, I.def.19, I.post.5, I.17, I.28, I.34, V.def.6, V.16, V.22, VI.2
 

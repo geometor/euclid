@@ -2,6 +2,8 @@
 :breadcrumb_title: D.43
 :type: notes
 :title: Proposition 43 — Philological & Critical Notes
+:folio: Menge 76
+:page: 76
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 43 [μγ΄ · Prop. Prop. XLVI] — Philological Notes

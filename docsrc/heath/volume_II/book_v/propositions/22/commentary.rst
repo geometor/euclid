@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.22
 :folios: 0186, 0187
+:folio: 0186
+:page: 180
 :pages: 180, 181
 
 .. _V.22.commentary:

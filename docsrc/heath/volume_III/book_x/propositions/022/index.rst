@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.22
 :folios: 0055, 0056
+:folio: 0055
+:page: 51
 :pages: 51, 52
 :dependencies: I.def.4, I.def.22, VI.14, VI.22, X.def.1, X.def.3, X.def.4, X.11, X.13, X.21
 

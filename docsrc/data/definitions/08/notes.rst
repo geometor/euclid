@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 8
 :type: notes
 :title: Definition 8 — Philological & Critical Notes
+:folio: Menge 2
+:page: 2
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 8 [η΄ · Def. VIII]**: Segment Given in Position & Magnitude

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.21
 :folios: 0053, 0054
+:folio: 0053
+:page: 49
 :pages: 49, 50
 :dependencies: I.def.4, I.def.22, II.def.1, VI.1, X.def.2, X.def.3, X.def.4, X.11
 

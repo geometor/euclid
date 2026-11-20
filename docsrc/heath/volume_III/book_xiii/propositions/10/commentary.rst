@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XIII.10
 :folios: 0464, 0465
+:folio: 0464
+:page: 460
 :pages: 460, 461
 
 .. _XIII.10.commentary:

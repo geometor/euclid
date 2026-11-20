@@ -2,6 +2,8 @@
 :breadcrumb_title: D.15
 :type: notes
 :title: Proposition 15 — Philological & Critical Notes
+:folio: Menge 26
+:page: 26
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 15 [ιε΄ · Prop. Prop. XIX] — Philological Notes

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.23
 :folios: 0187, 0188
+:folio: 0187
+:page: 181
 :pages: 181, 182
 :dependencies: V.def.5, V.def.17, V.def.18, V.11, V.15, V.16, V.21
 

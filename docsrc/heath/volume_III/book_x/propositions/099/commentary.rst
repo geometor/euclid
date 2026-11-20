@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.99
 :folios: 0224, 0225
+:folio: 0224
+:page: 220
 :pages: 220, 221
 
 .. _X.99.commentary:

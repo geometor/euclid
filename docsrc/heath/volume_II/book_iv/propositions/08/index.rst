@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IV.8
 :folios: 0100
+:folio: 0100
+:page: 94
 :pages: 94
 :dependencies: I.def.15, I.def.22, I.10, I.31, I.34, III.16, IV.def.1, IV.def.5
 

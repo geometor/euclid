@@ -2,6 +2,8 @@
 :breadcrumb_title: D.72
 :type: summary
 :title: Proposition 72 — Analytical Summary
+:folio: Menge 136
+:page: 136
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 72 [οβ΄ · Prop. Prop. LXVIII Cor. 2] — Analytical Summary

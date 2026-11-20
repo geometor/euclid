@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.28
 :folios: 0268, 0269, 0270, 0271
+:folio: 0268
+:page: 262
 :pages: 262, 263, 264, 265
 
 .. _VI.28.commentary:

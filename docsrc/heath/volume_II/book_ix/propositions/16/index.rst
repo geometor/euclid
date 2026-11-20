@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.16
 :folios: 0412
+:folio: 0412
+:page: 406
 :pages: 406
 :dependencies: VII.def.2, VII.def.11, VII.def.12, VII.20, VII.21
 

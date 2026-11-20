@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.27
 :folios: 0263
+:folio: 0263
+:page: 257
 :pages: 257
 :dependencies: I.def.4, I.def.14, I.36, I.43, II.def.2, VI.26
 

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.114
 :folios: 0257, 0258
+:folio: 0257
+:page: 253
 :pages: 253, 254
 
 .. _X.114.commentary:

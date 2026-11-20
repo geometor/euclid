@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.25
 :folios: 0313
+:folio: 0313
+:page: 299
 :pages: 299
 :dependencies: I.def.4, I.def.8, I.def.19, I.4, I.24
 

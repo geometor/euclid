@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.99
 :folios: 0222, 0223, 0224
+:folio: 0222
+:page: 218
 :pages: 218, 219, 220
 :dependencies: I.def.4, I.def.22, II.7, V.11, VI.1, X.def.3, X.def.iii.2, X.def.iii.3, X.11, X.13, X.15, X.17, X.22, X.23, X.73, X.75
 

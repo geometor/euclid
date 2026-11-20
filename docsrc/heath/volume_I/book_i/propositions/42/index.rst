@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.42
 :folios: 0353, 0354
+:folio: 0353
+:page: 339
 :pages: 339, 340
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.9, I.def.19, I.def.23, I.23, I.31, I.38, I.41
 
@@ -40,6 +42,8 @@ And, since :g:`BE <0353.g2:/ B E />` is :eq:`equal <0353.g2:/ B E / = 0353.g2:/ 
 .. assertion::
 
    therefore the triangle :g:`ABC <0353.g2:< A B C >>` is double of the triangle :g:`AEC <0353.g2:< A E C >>`.
+
+.. _folio-i-0354:
 
 .. folio:: 0354
    :page: 340

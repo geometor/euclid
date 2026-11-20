@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.48
 :folios: 0383
+:folio: 0383
+:page: 369
 :pages: 369
 
 .. _I.48.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.48
 ==============================
 
 Back to :ref:`Proposition I.48 <I.48>`.
+
+.. _folio-i-0383:
 
 .. folio:: 0383
    :page: 369

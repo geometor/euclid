@@ -2,6 +2,8 @@
 :breadcrumb_title: D.68
 :type: notes
 :title: Proposition 68 — Philological & Critical Notes
+:folio: Menge 126
+:page: 126
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-5-notes:

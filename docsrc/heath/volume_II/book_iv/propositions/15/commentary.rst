@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IV.15
 :folios: 0115
+:folio: 0115
+:page: 109
 :pages: 109
 
 .. _IV.15.commentary:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.19
 :folios: 0052
+:folio: 0052
+:page: 48
 :pages: 48
 
 .. _X.19.commentary:

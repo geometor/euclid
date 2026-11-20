@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 15
 :type: summary
 :title: Definition 15 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 15 [ιε΄ · Omitted (late scholium; bracketed by Menge)]**: Parallel to Position / Para Thesei [Scholium]

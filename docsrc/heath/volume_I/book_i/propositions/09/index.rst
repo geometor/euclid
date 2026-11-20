@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.9
 :folios: 0278
+:folio: 0278
+:page: 264
 :pages: 264
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.9, I.def.19, I.post.1, I.1, I.3, I.8
 

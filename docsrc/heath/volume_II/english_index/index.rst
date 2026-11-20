@@ -3,6 +3,8 @@
 :type: index
 :title: English Index (Vol. II)
 :folios: 0437, 0438, 0439, 0440, 0441, 0442
+:folio: 0437
+:page: 431
 :pages: 431, 432, 433, 434, 435, 436
 
 .. _VolII.index.english:

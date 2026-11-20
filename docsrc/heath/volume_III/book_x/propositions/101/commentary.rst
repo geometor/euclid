@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.101
 :folios: 0230
+:folio: 0230
+:page: 226
 :pages: 226
 
 .. _X.101.commentary:

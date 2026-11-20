@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.114
 :folios: 0256, 0257
+:folio: 0256
+:page: 252
 :pages: 252, 253
 :dependencies: I.def.4, V.def.5, V.19, VI.1, X.def.1, X.def.3, X.11, X.12, X.112
 

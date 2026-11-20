@@ -2,6 +2,8 @@
 :breadcrumb_title: D.59
 :type: notes
 :title: Proposition 59 — Philological & Critical Notes
+:folio: Menge 106
+:page: 106
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 59 [νθ΄ · Prop. Prop. LXXXIV] — Philological Notes

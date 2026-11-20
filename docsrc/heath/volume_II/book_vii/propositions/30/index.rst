@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.30
 :folios: 0337
+:folio: 0337
+:page: 331
 :pages: 331
 :dependencies: V.def.1, VII.def.2, VII.def.11, VII.def.15, VII.19, VII.20, VII.21, VII.29
 

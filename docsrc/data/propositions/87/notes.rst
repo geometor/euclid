@@ -2,6 +2,8 @@
 :breadcrumb_title: D.87
 :type: notes
 :title: Proposition 87 — Philological & Critical Notes
+:folio: Menge 172
+:page: 172
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 87 [πζ΄ · Prop. Prop. XCI] — Philological Notes

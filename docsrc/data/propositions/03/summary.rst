@@ -2,6 +2,8 @@
 :breadcrumb_title: D.3
 :type: summary
 :title: Proposition 3 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 3 [γ΄ · Prop. Prop. III] — Analytical Summary

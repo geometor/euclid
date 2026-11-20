@@ -2,6 +2,8 @@
 :breadcrumb_title: D.34
 :type: notes
 :title: Proposition 34 — Philological & Critical Notes
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 34 [λδ΄ · Prop. Prop. XXXVIII] — Philological Notes

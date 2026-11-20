@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 4
 :type: summary
 :title: Definition 4 — Analytical Summary
+:folio: Menge 2
+:page: 2
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 4 [δ΄ · Def. IV (cf. Def. A)]**: Given in Position

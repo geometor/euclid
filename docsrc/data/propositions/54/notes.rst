@@ -2,6 +2,8 @@
 :breadcrumb_title: D.54
 :type: notes
 :title: Proposition 54 — Philological & Critical Notes
+:folio: Menge 94
+:page: 94
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 54 [νδ΄ · Prop. Prop. LIX] — Philological Notes

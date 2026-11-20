@@ -8,6 +8,7 @@
 :persons_label: Πρόσωπα
 :bibliography_label: Βιβλιογραφία
 :glossary_label: Γλωσσάριον
+:folio: Menge 234–256, 2–4
 :tracks: English: index | Greek: title-el
 
 .. _euclid-data-title-el:

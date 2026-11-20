@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 12
 :type: summary
 :title: Definition 12 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 12 [ιβ΄ · Omitted (expanded verbally in Props. XIV–XXVII)]**: Affine-Ratio Defect (δοθέντι ἔλασσον ἢ ἐν λόγῳ)

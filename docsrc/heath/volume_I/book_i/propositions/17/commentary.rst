@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.17
 :folios: 0296
+:folio: 0296
+:page: 282
 :pages: 282
 
 .. _I.17.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.17
 ==============================
 
 Back to :ref:`Proposition I.17 <I.17>`.
+
+.. _folio-i-0296:
 
 .. folio:: 0296
    :page: 282

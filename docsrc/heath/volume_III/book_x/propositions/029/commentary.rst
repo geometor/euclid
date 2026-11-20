@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.29
 :folios: 0072
+:folio: 0072
+:page: 68
 :pages: 68
 
 .. _X.29.commentary:

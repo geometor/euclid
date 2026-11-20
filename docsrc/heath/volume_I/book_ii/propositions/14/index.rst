@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition II.14
 :folios: 0423, 0424
+:folio: 0423
+:page: 409
 :pages: 409, 410
 :dependencies: I.def.18, I.def.19, I.def.22, I.45, I.47, II.5
 

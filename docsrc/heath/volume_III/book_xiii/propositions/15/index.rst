@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.15
 :folios: 0482, 0483
+:folio: 0482
+:page: 478
 :pages: 478, 479
 :dependencies: I.def.22, I.47, XI.def.3, XI.def.12, XI.def.14, XI.def.15, XI.def.17, XI.def.25
 

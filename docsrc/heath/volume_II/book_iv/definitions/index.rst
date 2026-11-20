@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book IV Definitions
 :folios: 0084
+:folio: 0084
+:page: 78
 :pages: 78
 :dependencies: I.def.3, I.def.4, I.def.8, I.def.14, I.def.15, I.def.19
 

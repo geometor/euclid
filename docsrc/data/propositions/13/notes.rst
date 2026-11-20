@@ -2,6 +2,8 @@
 :breadcrumb_title: D.13
 :type: notes
 :title: Proposition 13 — Philological & Critical Notes
+:folio: Menge 24
+:page: 24
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 13 [ιγ΄ · Prop. Prop. XXIV] — Philological Notes

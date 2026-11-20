@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.39
 :folios: 0351
+:folio: 0351
+:page: 337
 :pages: 337
 
 .. _I.39.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.39
 ==============================
 
 Back to :ref:`Proposition I.39 <I.39>`.
+
+.. _folio-i-0351:
 
 .. folio:: 0351
    :page: 337

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.22
 :folios: 0318
+:folio: 0318
+:page: 314
 :pages: 314
 
 .. _XI.22.commentary:

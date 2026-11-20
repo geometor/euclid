@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.23
 :folios: 0309, 0310
+:folio: 0309
+:page: 295
 :pages: 295, 296
 
 .. _I.23.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.23
 ==============================
 
 Back to :ref:`Proposition I.23 <I.23>`.
+
+.. _folio-i-0309:
 
 .. folio:: 0309
    :page: 295
@@ -31,6 +35,8 @@ Then, by drawing circles (1) with centre :g:`A <0309.g1:A>` and radius :g:`AF <0
 I think that :person:`Proclus <proclus>` must (though he does not say so) have felt the same difficulty with regard to the use in **I.** 23 of the result of **I.** 22, and that this is probably the reason why he gives over again the construction which I have given above, with the remark (p. 334, 6) that “you may obtain the construction of the triangle in a more instructive manner (διδασκαλικώτερον) as follows.”
 
 :person:`Proclus <proclus>` objects to the procedure of :person:`Apollonius <apollonius>` in constructing an angle under the same conditions, and certainly, if he quotes :person:`Apollonius <apollonius>` correctly, the latter’s exposition must have been somewhat slipshod.
+
+.. _folio-i-0310:
 
 .. folio:: 0310
    :page: 296

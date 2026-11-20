@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.25
 :folios: 0259, 0260
+:folio: 0259
+:page: 253
 :pages: 253, 254
 :dependencies: I.def.14, I.def.19, I.44, I.45, V.16, VI.1, VI.13, VI.18, VI.19
 

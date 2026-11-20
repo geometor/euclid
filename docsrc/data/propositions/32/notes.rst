@@ -2,6 +2,8 @@
 :breadcrumb_title: D.32
 :type: notes
 :title: Proposition 32 — Philological & Critical Notes
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 32 [λβ΄ · Prop. Prop. XXXV] — Philological Notes

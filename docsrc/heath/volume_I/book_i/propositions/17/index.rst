@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.17
 :folios: 0295, 0296
+:folio: 0295
+:page: 281
 :pages: 281, 282
 :dependencies: I.def.8, I.def.10, I.def.19, I.post.2, I.13
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.10
 :type: summary
 :title: Proposition 10 — Analytical Summary
+:folio: Menge 16
+:page: 16
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 10 [ι΄ · Prop. Prop. XVI] — Analytical Summary

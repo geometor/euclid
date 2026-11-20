@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.41
 :folios: 0093, 0094
+:folio: 0093
+:page: 89
 :pages: 89, 90
 :dependencies: I.def.4, I.def.22, II.def.1, II.4, VI.1, X.def.1, X.def.2, X.def.3, X.def.4, X.11, X.22, X.35, X.36
 

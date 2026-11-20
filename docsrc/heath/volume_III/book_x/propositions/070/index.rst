@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.70
 :folios: 0155
+:folio: 0155
+:page: 151
 :pages: 151
 :dependencies: I.def.4, X.def.1, X.41
 

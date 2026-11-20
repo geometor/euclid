@@ -2,6 +2,8 @@
 :breadcrumb_title: D.81
 :type: notes
 :title: Proposition 81 — Philological & Critical Notes
+:folio: Menge 158
+:page: 158
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 81 [πα΄ · Prop. Prop. LXXI] — Philological Notes

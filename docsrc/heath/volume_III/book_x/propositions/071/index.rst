@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.71
 :folios: 0155, 0156, 0157, 0158
+:folio: 0155
+:page: 151
 :pages: 151, 152, 153, 154
 :dependencies: I.def.4, VI.1, X.def.3, X.def.ii.1, X.def.ii.2, X.def.ii.4, X.def.ii.5, X.11, X.20, X.22, X.36, X.54, X.55, X.57, X.58
 

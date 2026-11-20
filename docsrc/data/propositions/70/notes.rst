@@ -2,6 +2,8 @@
 :breadcrumb_title: D.70
 :type: notes
 :title: Proposition 70 — Philological & Critical Notes
+:folio: Menge 130
+:page: 130
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 70 [ο΄ · Prop. Props. LXVII–LXVIII] — Philological Notes

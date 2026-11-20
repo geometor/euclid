@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.43
 :folios: 0355
+:folio: 0355
+:page: 341
 :pages: 341
 
 .. _I.43.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.43
 ==============================
 
 Back to :ref:`Proposition I.43 <I.43>`.
+
+.. _folio-i-0355:
 
 .. folio:: 0355
    :page: 341

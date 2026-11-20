@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.31
 :folios: 0274, 0275
+:folio: 0274
+:page: 268
 :pages: 268, 269
 :dependencies: I.def.10, I.def.14, I.def.21, VI.def.1, VI.8, VI.19
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.80
 :type: notes
 :title: Proposition 80 — Philological & Critical Notes
+:folio: Menge 154
+:page: 154
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 80 [π΄ · Prop. Prop. LXXVIII] — Philological Notes

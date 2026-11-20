@@ -2,6 +2,8 @@
 :breadcrumb_title: D.26
 :type: summary
 :title: Proposition 26 — Analytical Summary
+:folio: Menge 46
+:page: 46
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 26 [κϛ΄ · Prop. Prop. XXIX] — Analytical Summary

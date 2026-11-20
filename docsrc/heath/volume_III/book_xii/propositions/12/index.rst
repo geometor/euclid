@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.12
 :folios: 0414, 0415, 0416, 0417, 0418, 0419
+:folio: 0414
+:page: 410
 :pages: 410, 411, 412, 413, 414, 415
 :dependencies: I.def.17, IV.6, V.def.10, V.12, V.16, V.22, VI.def.1, VI.5, VI.6, X.1, XI.def.9, XI.def.24, XII.8, XII.10
 

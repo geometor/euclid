@@ -4,9 +4,13 @@
 :type: common_notions
 :title: Book I Common Notions
 :folios: 0169
+:folio: 0169
+:page: 155
 :pages: 155
 
 .. _I.cn:
+
+.. _folio-i-0169:
 
 .. folio:: 0169
    :page: 155

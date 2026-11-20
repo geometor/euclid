@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.10
 :folios: 0461, 0462, 0463, 0464
+:folio: 0461
+:page: 457
 :pages: 457, 458, 459, 460
 :dependencies: I.def.15, I.def.20, I.def.22, I.4, I.5, I.26, I.32, II.2, III.26, IV.def.3, IV.15, VI.4, VI.17, VI.33
 

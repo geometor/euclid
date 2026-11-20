@@ -2,6 +2,8 @@
 :breadcrumb_title: D.76
 :type: notes
 :title: Proposition 76 — Philological & Critical Notes
+:folio: Menge 144
+:page: 144
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 76 [οϚ΄ · Prop. Prop. L] — Philological Notes

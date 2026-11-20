@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.25
 :folios: 0421
+:folio: 0421
+:page: 415
 :pages: 415
 :dependencies: VII.def.6, VII.def.7, IX.24
 

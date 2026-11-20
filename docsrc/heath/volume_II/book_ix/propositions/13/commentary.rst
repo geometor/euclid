@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.13
 :folios: 0408
+:folio: 0408
+:page: 402
 :pages: 402
 
 .. _IX.13.commentary:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.8
 :folios: 0158, 0159
+:folio: 0158
+:page: 152
 :pages: 152, 153
 
 .. _V.8.commentary:

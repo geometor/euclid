@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.115
 :folios: 0258
+:folio: 0258
+:page: 254
 :pages: 254
 :dependencies: I.def.4, II.def.1, VII.def.2, X.def.3, X.def.4, X.20
 

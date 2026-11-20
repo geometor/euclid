@@ -2,6 +2,8 @@
 :breadcrumb_title: D.41
 :type: notes
 :title: Proposition 41 — Philological & Critical Notes
+:folio: Menge 66
+:page: 66
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 41 [μα΄ · Prop. Prop. XLIV] — Philological Notes

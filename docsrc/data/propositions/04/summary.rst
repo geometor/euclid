@@ -2,6 +2,8 @@
 :breadcrumb_title: D.4
 :type: summary
 :title: Proposition 4 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 4 [δ΄ · Prop. Prop. IV] — Analytical Summary

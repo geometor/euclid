@@ -2,6 +2,8 @@
 :breadcrumb_title: D.37
 :type: notes
 :title: Proposition 37 — Philological & Critical Notes
+:folio: Menge 62
+:page: 62
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 37 [λζ΄ · Prop. Prop. XL (pt. 1)] — Philological Notes

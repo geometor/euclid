@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.1
 :folios: 0197, 0198
+:folio: 0197
+:page: 191
 :pages: 191, 192
 :dependencies: I.def.19, I.38, I.41, V.def.5, V.11, V.15, VI.def.4
 

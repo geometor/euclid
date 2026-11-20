@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.35
 :folios: 0341, 0342, 0343, 0344, 0345
+:folio: 0341
+:page: 327
 :pages: 327, 328, 329, 330, 331
 
 .. _I.35.commentary:
@@ -14,6 +16,8 @@ Commentary on Proposition I.35
 
 Back to :ref:`Proposition I.35 <I.35>`.
 
+.. _folio-i-0341:
+
 .. folio:: 0341
    :page: 327
 
@@ -22,6 +26,8 @@ Equality in a new sense.
 
 It is important to observe that we are in this proposition introduced for the first time to a new conception of equality between figures. Hitherto we have had equality in the sense of *congruence* only, as applied to straight lines, angles, and even triangles (cf. I. 4). Now, without any explicit reference to any change in the meaning of the term, figures are inferred to be *equal* which are equal in *area* or in *content* but need not be of the *same form*. No *definition* of equality is anywhere given by :person:`Euclid <euclid>`; we are left to infer its meaning from the few axioms about “equal things.” It will be observed that in the above proof the “equality” of two parallelograms on the same base and between the same parallels is inferred by the successive steps (1) of subtracting one and the same area (the triangle :g:`DGE <0341.g1:< D G E >>`) from two areas :eq:`equal <0341.g1:< A E B > = 0341.g1:< D F C >>` in the sense of congruence (the triangles :g:`AEB <0341.g1:< A E B >>`, :g:`DFC <0341.g1:< D F C >>`), and inferring that the remainders (the trapezia :g:`ABGD <0341.g1:< A B G D >>`, :g:`EGCF <0341.g1:< E G C F >>`) are “:eq:`equal <0341.g1:< A B G D > = 0341.g1:< E G C F >>`”; (2) of adding one and
 the same area (the triangle :g:`GBC <0341.g1:< G B C >>`) to each of the latter “equal” trapezia, and inferring the equality of the respective sums (the two given parallelograms).
+
+.. _folio-i-0342:
 
 .. folio:: 0342
    :page: 328
@@ -49,6 +55,8 @@ The different cases.
 
 As usual, :person:`Proclus <proclus>` (:cite:`pp. 399—400 <proclus:in-euclid:399-400>`), observing that :person:`Euclid <euclid>` has given only the most difficult of the three possible cases, adds the other two with separate proofs. In the case where :g:`E <0341.g1:E>` in the figure of the proposition falls between :g:`A <0341.g1:A>` and :g:`D <0341.g1:D>`, he adds the :eq:`congruent <0341.g1:< A B E > = 0341.g1:< D C F >>` triangles :g:`ABE <0341.g1:< A B E >>`, :g:`DCF <0341.g1:< D C F >>` respectively to the smaller trapezium :g:`EBCD <0341.g1:< E B C D >>`, instead of subtracting them (as :person:`Simson <simson>` does) from the larger trapezium :g:`ABCF <0341.g1:< A B C F >>`.
 
+.. _folio-i-0343:
+
 .. folio:: 0343
    :page: 329
 
@@ -67,6 +75,8 @@ The proposition I. 35 is, says :person:`Proclus <proclus>` (:cite:`pp. 394–6 <
 Leaving out of sight for the moment the class of *loci on surfaces*, we find that the distinction between *plane and solid loci*, or *plane and solid lines*, was similarly understood by :person:`Eutocius <eutocius>`, who says (*Apollonius*, ed. :person:`Heiberg <heiberg>`, II. p. 184) that “*solid loci* have obtained their name from the fact that the lines used in the solution of problems regarding them have their origin in the section of solids, for example the sections of the cone and several others.” Similarly we gather from :person:`Pappus <pappus>` that *plane loci* were straight lines and circles, and *solid loci* were conics. Thus he tells us (VII. p. 672, 20) that :person:`Aristaeus <aristaeus>` wrote five books of *Solid Loci* “supplementary to (literally, continuous with) the conics”; and, though :person:`Hultsch <hultsch>` brackets the passage (VII. p. 662, 10—15) which says plainly that *plane loci* are straight lines and circles, while *solid loci* are sections of cones, i.e. parabolas, ellipses and hyperbolas, we have the exactly corresponding distinction drawn by :person:`Pappus <pappus>` (III. p. 54, 7—16) between *plane and solid problems*, *plane problems* being those solved by means of straight lines and circumferences of circles, and *solid problems* those solved by means of one or more of the sections of the cone. But, whereas :person:`Proclus <proclus>`
 and :person:`Eutocius <eutocius>` speak of other *solid loci* besides conics, there is nothing in :person:`Pappus <pappus>` to support the wider application of the term. According to :person:`Pappus <pappus>` (III. p. 54, 16—21) problems which could not be solved by means of straight lines, circles, or conics were *linear* (γραμμικά) because they used for their construction lines having a more complicated and unnatural origin than those mentioned, namely such curves as *quadratrices*, *conchoids* and *cissoids*. Similarly, in the passage supposed to be interpolated, *linear loci* are distinguished as those which are neither straight lines nor circles nor any of the conic sections (VII. p. 662, 13—15). Thus the classification given by :person:`Proclus <proclus>` and :person:`Eutocius <eutocius>` is less precise than that which we find in :person:`Pappus <pappus>`; and the inclusion by :person:`Proclus <proclus>` of the cylindrical helix among *solid loci*, on the ground that it arises from a section of a solid figure, would seem to be, in any case, due to some misapprehension.
 
+.. _folio-i-0344:
+
 .. folio:: 0344
    :page: 330
 
@@ -74,6 +84,8 @@ Comparing these passages and the hints in :person:`Pappus <pappus>` about *loci 
 
 :person:`Proclus <proclus>` notes lastly (p. 395, 13—21) that, according to :person:`Geminus <geminus>`, “Chrysippus likened *locus-theorems* to the *ideas*. For, as the *ideas* confine
 the genesis of unlimited (particulars) within defined limits, so in such theorems the unlimited (particular figures) are confined within defined places or loci (:term:`τόποι <topos>`). And it is this boundary which is the cause of the equality; for the height of the parallels, which remains the same, while an infinite number of parallelograms are conceived on the same base, is what makes them all equal to one another.”
+
+.. _folio-i-0345:
 
 .. folio:: 0345
    :page: 331

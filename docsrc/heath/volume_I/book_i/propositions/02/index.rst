@@ -5,10 +5,14 @@
 :type: proposition
 :title: Proposition I.2
 :folios: 0258, 0259
+:folio: 0258
+:page: 244
 :pages: 244, 245
 :dependencies: I.def.1, I.def.3, I.def.4, I.def.15, I.def.16, I.def.19, I.post.1, I.post.2, I.post.3, I.cn.1, I.cn.3, I.1
 
 .. _I.2:
+
+.. _folio-i-0258:
 
 .. folio:: 0258
    :page: 244

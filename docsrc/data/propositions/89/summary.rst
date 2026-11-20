@@ -2,6 +2,8 @@
 :breadcrumb_title: D.89
 :type: summary
 :title: Proposition 89 — Analytical Summary
+:folio: Menge 172
+:page: 172
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 89 [πθ΄ · Prop. Prop. XCIII] — Analytical Summary

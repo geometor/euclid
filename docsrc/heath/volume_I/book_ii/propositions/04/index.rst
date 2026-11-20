@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition II.4
 :folios: 0393, 0394
+:folio: 0393
+:page: 379
 :pages: 379, 380
 :dependencies: I.def.4, I.def.22, I.5, I.6, I.29, I.31, I.34, I.46, II.def.1
 

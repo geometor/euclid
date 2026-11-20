@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.34
 :folios: 0344
+:folio: 0344
+:page: 338
 :pages: 338
 
 .. _VII.34.commentary:

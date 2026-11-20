@@ -2,6 +2,8 @@
 :breadcrumb_title: D.62
 :type: summary
 :title: Proposition 62 — Analytical Summary
+:folio: Menge 112
+:page: 112
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 62 [ξβ΄ · Prop. Prop. LXX] — Analytical Summary

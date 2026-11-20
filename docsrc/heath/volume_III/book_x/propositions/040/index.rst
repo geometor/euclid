@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.40
 :folios: 0092, 0093
+:folio: 0092
+:page: 88
 :pages: 88, 89
 :dependencies: I.def.4, I.def.22, II.def.1, X.def.2, X.def.3, X.def.4, X.16, X.34
 

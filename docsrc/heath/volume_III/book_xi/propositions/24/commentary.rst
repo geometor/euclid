@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.24
 :folios: 0328
+:folio: 0328
+:page: 324
 :pages: 324
 
 .. _XI.24.commentary:

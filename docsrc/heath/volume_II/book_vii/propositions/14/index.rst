@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.14
 :folios: 0319, 0320
+:folio: 0319
+:page: 313
 :pages: 313, 314
 :dependencies: V.def.5, V.def.17, VII.def.2, VII.13
 

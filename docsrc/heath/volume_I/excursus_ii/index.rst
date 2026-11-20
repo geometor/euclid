@@ -3,6 +3,8 @@
 :type: excursus
 :title: Excursus II: Popular Names for Euclidean Propositions
 :folios: 0429, 0430, 0431, 0432
+:folio: 0429
+:page: 415
 :pages: 415, 416, 417, 418
 
 .. _VolI.excursus.II:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.19
 :folios: 0308, 0309
+:folio: 0308
+:page: 304
 :pages: 304, 305
 :dependencies: I.def.7, I.def.10, XI.def.3, XI.def.4, XI.13
 

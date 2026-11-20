@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XIII.17
 :folios: 0502, 0503, 0504, 0505, 0506, 0507
+:folio: 0502
+:page: 498
 :pages: 498, 499, 500, 501, 502, 503
 
 .. _XIII.17.commentary:

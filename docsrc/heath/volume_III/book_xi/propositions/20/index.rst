@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.20
 :folios: 0311, 0312
+:folio: 0311
+:page: 307
 :pages: 307, 308
 :dependencies: I.def.8, I.4, I.20, I.25, XI.def.11
 

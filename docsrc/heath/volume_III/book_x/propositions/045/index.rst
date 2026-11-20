@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.45
 :folios: 0102
+:folio: 0102
+:page: 98
 :pages: 98
 :dependencies: I.def.1, I.def.4, X.26, X.39
 

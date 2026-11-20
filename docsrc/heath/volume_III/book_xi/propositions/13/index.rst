@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.13
 :folios: 0299
+:folio: 0299
+:page: 295
 :pages: 295
 :dependencies: I.def.1, I.def.4, XI.def.3, XI.3
 

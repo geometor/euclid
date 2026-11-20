@@ -2,6 +2,8 @@
 :breadcrumb_title: D.21
 :type: notes
 :title: Proposition 21 — Philological & Critical Notes
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 21 [κα΄ · Prop. Omitted (cf. Prop. XVIII)] — Philological Notes

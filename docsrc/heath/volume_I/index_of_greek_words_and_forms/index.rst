@@ -3,6 +3,8 @@
 :type: index
 :title: Index of Greek Words and Forms (Vol. I)
 :folios: 0433, 0434
+:folio: 0433
+:page: 419
 :pages: 419, 420
 
 .. _VolI.index.greek:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.42
 :folios: 0096, 0097
+:folio: 0096
+:page: 92
 :pages: 92, 93
 :dependencies: I.def.1, I.def.4, II.4, X.21, X.26, X.36
 

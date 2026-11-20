@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.7
 :folios: 0272, 0273, 0274
+:folio: 0272
+:page: 258
 :pages: 258, 259, 260
 :dependencies: I.def.1, I.def.3, I.def.4, I.def.8, I.post.1, I.cn.5, I.5
 

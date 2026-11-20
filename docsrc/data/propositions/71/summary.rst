@@ -2,6 +2,8 @@
 :breadcrumb_title: D.71
 :type: summary
 :title: Proposition 71 — Analytical Summary
+:folio: Menge 134
+:page: 134
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 71 [οα΄ · Prop. Prop. LXVIII Cor. 1] — Analytical Summary

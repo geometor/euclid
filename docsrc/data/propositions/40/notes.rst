@@ -2,6 +2,8 @@
 :breadcrumb_title: D.40
 :type: notes
 :title: Proposition 40 — Philological & Critical Notes
+:folio: Menge 66
+:page: 66
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 40 [μ΄ · Prop. Prop. XLIII] — Philological Notes

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.109
 :folios: 0240, 0241, 0242
+:folio: 0240
+:page: 236
 :pages: 236, 237, 238
 :dependencies: I.def.4, X.def.3, X.def.4, X.def.iii.1, X.def.iii.2, X.def.iii.5, X.13, X.73, X.92, X.95
 

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.15
 :folios: 0375
+:folio: 0375
+:page: 369
 :pages: 369
 
 .. _VIII.15.commentary:

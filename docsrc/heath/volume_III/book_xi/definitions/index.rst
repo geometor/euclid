@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book XI Definitions
 :folios: 0264, 0265, 0266
+:folio: 0264
+:page: 260
 :pages: 260, 261, 262
 :dependencies: I.def.1, I.def.2, I.def.3, I.def.4, I.def.5, I.def.7, I.def.8, I.def.10, I.def.12, I.def.14, I.def.15, I.def.16, I.def.17, I.def.18, I.def.19, I.def.20, I.def.21, I.def.22, I.def.23, II.def.1, V.def.6, XI.def.1, XI.def.2, XI.def.14, XI.def.19, XI.def.20, XI.def.22, XI.def.23
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.54
 :type: summary
 :title: Proposition 54 — Analytical Summary
+:folio: Menge 94
+:page: 94
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 54 [νδ΄ · Prop. Prop. LIX] — Analytical Summary

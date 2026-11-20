@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.14
 :folios: 0291
+:folio: 0291
+:page: 277
 :pages: 277
 
 .. _I.14.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.14
 ==============================
 
 Back to :ref:`Proposition I.14 <I.14>`.
+
+.. _folio-i-0291:
 
 .. folio:: 0291
    :page: 277

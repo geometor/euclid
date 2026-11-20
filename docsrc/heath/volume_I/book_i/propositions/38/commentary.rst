@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.38
 :folios: 0348, 0349, 0350
+:folio: 0348
+:page: 334
 :pages: 334, 335, 336
 
 .. _I.38.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.38
 ==============================
 
 Back to :ref:`Proposition I.38 <I.38>`.
+
+.. _folio-i-0348:
 
 .. folio:: 0348
    :page: 334
@@ -34,6 +38,8 @@ Let two triangles :g:`ABC <0348.g1:< A B C >>`, :g:`DEF <0348.g1:< D E F >>` hav
 (1) First, suppose that the angles at :g:`A <0348.g1:A>` and :g:`D <0348.g1:D>` in the triangles :g:`ABC <0348.g1:< A B C >>`, :g:`DEF <0348.g1:< D E F >>` are together equal to two right angles.
 
 Heron's construction is now as follows. Make the angle :g:`EDG <0348.g1:< E D G )>` :eq:`equal <0348.g1:< E D G ) = 0348.g1:< B A C )>` to the angle :g:`BAC <0348.g1:< B A C )>`. Draw :g:`FH <0348.g1:/ F H />` parallel to :g:`ED <0348.g1:/ E D />` meeting :g:`DG <0348.g1:/ D G />` in :g:`H <0348.g1:H>`. Join :g:`EH <0348.g1:/ E H />`.
+
+.. _folio-i-0349:
 
 .. folio:: 0349
    :page: 335
@@ -63,6 +69,8 @@ Make :g:`DG <0349.g2:/ D G />` :eq:`equal <0349.g2:/ D G / = 0349.g2:/ A C />` t
 It then follows that the triangle :g:`DEF <0349.g2:< D E F >>` is greater than the triangle :g:`ABC <0349.g2:< A B C >>`.
 
 [In the second and third cases again :person:`Proclus <proclus>` starts from the construction in I. 24, and proves, in the second case, that the parallel, :g:`FH <0349.g1:/ F H />`, to :g:`ED <0349.g1:/ E D />` cuts :g:`DG <0349.g1:/ D G />` and, in the third case, that it cuts :g:`DG <0349.g2:/ D G />` produced.]
+
+.. _folio-i-0350:
 
 .. folio:: 0350
    :page: 336

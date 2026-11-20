@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.20
 :folios: 0181, 0182
+:folio: 0181
+:page: 175
 :pages: 175, 176
 :dependencies: V.def.5, V.def.17, V.8, V.10, V.13
 

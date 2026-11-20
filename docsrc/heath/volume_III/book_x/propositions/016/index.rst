@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.16
 :folios: 0044, 0045
+:folio: 0044
+:page: 40
 :pages: 40, 41
 :dependencies: I.def.4, I.def.14, I.def.22, II.def.1, X.def.1
 

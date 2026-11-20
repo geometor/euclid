@@ -2,6 +2,8 @@
 :breadcrumb_title: D.71
 :type: notes
 :title: Proposition 71 — Philological & Critical Notes
+:folio: Menge 134
+:page: 134
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 71 [οα΄ · Prop. Prop. LXVIII Cor. 1] — Philological Notes

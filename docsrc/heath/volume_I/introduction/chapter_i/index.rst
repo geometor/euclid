@@ -4,6 +4,8 @@
 :type: chapter
 :title: Chapter I: Euclid and the Traditions About Him
 :folios: 0015, 0016, 0017, 0018, 0019, 0020
+:folio: 0015
+:page: 1
 :pages: 1, 2, 3, 4, 5, 6
 
 .. _Intro.I:

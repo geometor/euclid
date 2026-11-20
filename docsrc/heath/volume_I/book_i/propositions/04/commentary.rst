@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.4
 :folios: 0263, 0264
+:folio: 0263
+:page: 249
 :pages: 249, 250
 
 .. _I.4.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.4
 =============================
 
 Back to :ref:`Proposition I.4 <I.4>`.
+
+.. _folio-i-0263:
 
 .. folio:: 0263
    :page: 249
@@ -24,6 +28,8 @@ In the note on *Common Notion 4* I have already mentioned that :person:`Euclid <
 Expressed in terms of the modern systems of Congruence-Axioms referred to in the note on *Common Notion 4*, what :person:`Euclid <euclid>` really assumes amounts to the following:
 
 (1) On the line :g:`DE <0261.g1:/ D E />`, there is a point :g:`E <0261.g1:E>`, on either side of :g:`D <0261.g1:D>`, such that :g:`AB <0261.g1:/ A B />` is equal to :g:`DE <0261.g1:/ D E />`.
+
+.. _folio-i-0264:
 
 .. folio:: 0264
    :page: 250

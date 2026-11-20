@@ -2,6 +2,8 @@
 :breadcrumb_title: D.78
 :type: notes
 :title: Proposition 78 — Philological & Critical Notes
+:folio: Menge 148
+:page: 148
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 78 [οη΄ · Prop. Omitted (case of Prop. LXX / D.62)] — Philological Notes

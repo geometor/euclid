@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book VI Definitions
 :folios: 0194
+:folio: 0194
+:page: 188
 :pages: 188
 :dependencies: I.def.2, I.def.8, I.def.10, I.def.14, V.def.6
 

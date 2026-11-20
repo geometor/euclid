@@ -2,6 +2,8 @@
 :breadcrumb_title: D.81
 :type: summary
 :title: Proposition 81 — Analytical Summary
+:folio: Menge 158
+:page: 158
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 81 [πα΄ · Prop. Prop. LXXI] — Analytical Summary

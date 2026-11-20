@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.30
 :folios: 0338
+:folio: 0338
+:page: 332
 :pages: 332
 
 .. _VII.30.commentary:

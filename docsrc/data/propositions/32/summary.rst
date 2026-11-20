@@ -2,6 +2,8 @@
 :breadcrumb_title: D.32
 :type: summary
 :title: Proposition 32 — Analytical Summary
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 32 [λβ΄ · Prop. Prop. XXXV] — Analytical Summary

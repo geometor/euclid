@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.19
 :folios: 0298
+:folio: 0298
+:page: 284
 :pages: 284
 :dependencies: I.def.8, I.def.19, I.5, I.18
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.35
 :type: notes
 :title: Proposition 35 — Philological & Critical Notes
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 35 [λε΄ · Prop. Prop. XXXIX (pt. 1)] — Philological Notes

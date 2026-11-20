@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.11
 :folios: 0165
+:folio: 0165
+:page: 159
 :pages: 159
 
 .. _V.11.commentary:

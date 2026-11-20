@@ -2,6 +2,8 @@
 :breadcrumb_title: D.88
 :type: summary
 :title: Proposition 88 — Analytical Summary
+:folio: Menge 172
+:page: 172
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 88 [πη΄ · Prop. Prop. XCII] — Analytical Summary

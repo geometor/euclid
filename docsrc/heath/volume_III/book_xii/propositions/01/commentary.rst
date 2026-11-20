@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XII.1
 :folios: 0374
+:folio: 0374
+:page: 370
 :pages: 370
 
 .. _XII.1.commentary:

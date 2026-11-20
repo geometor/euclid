@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.45
 :folios: 0359, 0360
+:folio: 0359
+:page: 345
 :pages: 345, 346
 :dependencies: I.def.1, I.def.3, I.def.4, I.def.8, I.def.9, I.def.10, I.def.19, I.def.23, I.cn.1, I.cn.2, I.14, I.29, I.30, I.33, I.34, I.42, I.44
 

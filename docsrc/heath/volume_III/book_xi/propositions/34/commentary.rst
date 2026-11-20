@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.34
 :folios: 0353, 0354, 0355
+:folio: 0353
+:page: 349
 :pages: 349, 350, 351
 
 .. _XI.34.commentary:

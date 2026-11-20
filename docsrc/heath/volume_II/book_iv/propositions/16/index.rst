@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IV.16
 :folios: 0116
+:folio: 0116
+:page: 110
 :pages: 110
 :dependencies: I.def.14, I.def.15, I.def.20, III.30, IV.def.3, IV.def.4, IV.def.5, IV.def.7
 

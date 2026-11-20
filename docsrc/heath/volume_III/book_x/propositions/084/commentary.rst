@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.84
 :folios: 0181
+:folio: 0181
+:page: 177
 :pages: 177
 
 .. _X.84.commentary:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.10
 :folios: 0366, 0367, 0368
+:folio: 0366
+:page: 360
 :pages: 360, 361, 362
 :dependencies: V.def.6, VII.def.1, VII.def.2, VII.def.20, VII.17, VII.18
 

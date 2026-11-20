@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.18
 :folios: 0413, 0414
+:folio: 0413
+:page: 407
 :pages: 407, 408
 :dependencies: I.def.22, V.def.6, VII.def.2, VII.19, IX.16
 

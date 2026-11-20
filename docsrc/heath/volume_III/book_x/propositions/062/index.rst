@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.62
 :folios: 0141, 0142
+:folio: 0141
+:page: 137
 :pages: 137, 138
 :dependencies: I.def.4, I.def.22, VI.1, X.def.3, X.def.ii.3, X.11, X.12, X.13, X.15, X.22, X.23, X.36, X.38
 

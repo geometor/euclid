@@ -3,6 +3,8 @@
 :type: index
 :title: English Index (Vol. I)
 :folios: 0435, 0436, 0437, 0438, 0439, 0440, 0441, 0442, 0443, 0444, 0445, 0446
+:folio: 0435
+:page: 421
 :pages: 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432
 
 .. _VolI.index.english:

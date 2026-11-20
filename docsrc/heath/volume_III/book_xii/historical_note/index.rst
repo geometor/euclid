@@ -4,6 +4,8 @@
 :type: historical_note
 :title: Book XII Historical Note
 :folios: 0369, 0370, 0371, 0372
+:folio: 0369
+:page: 365
 :pages: 365, 366, 367, 368
 
 .. _XII.intro:

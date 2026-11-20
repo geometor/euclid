@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XII.17
 :folios: 0435, 0436, 0437, 0438
+:folio: 0435
+:page: 431
 :pages: 431, 432, 433, 434
 
 .. _XII.17.commentary:

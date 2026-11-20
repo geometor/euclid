@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.16
 :folios: 0294, 0295
+:folio: 0294
+:page: 280
 :pages: 280, 281
 
 .. _I.16.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.16
 ==============================
 
 Back to :ref:`Proposition I.16 <I.16>`.
+
+.. _folio-i-0294:
 
 .. folio:: 0294
    :page: 280
@@ -24,6 +28,8 @@ Now, in order that the proof of the present proposition may be universally valid
 :person:`Proclus <proclus>` tells us (p. 307, 1—12) that some combined this theorem with the next in *one* enunciation thus: *In any triangle, if one side be produced, the exterior angle of the triangle is greater than either of the interior and opposite angles, and any two of the interior angles are less than two right angles*, the combination having been suggested by the similar enunciation of :person:`Euclid <euclid>` I. 32, *In any triangle, if one of the sides be produced, the exterior angle is equal to the two interior and opposite angles, and the three interior angles of the triangle are equal to two right angles.*
 
 The present proposition enables :person:`Proclus <proclus>` to prove what he did not succeed in establishing conclusively in his note on I. 12, namely that *from one point there cannot be drawn to the same straight line three straight lines equal in length*.
+
+.. _folio-i-0295:
 
 .. folio:: 0295
    :page: 281

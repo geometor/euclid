@@ -4,6 +4,8 @@
 :type: chapter
 :title: Chapter II: Euclid's Other Works
 :folios: 0021, 0022, 0023, 0024, 0025, 0026, 0027, 0028, 0029, 0030, 0031, 0032
+:folio: 0021
+:page: 7
 :pages: 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 
 .. _Intro.II:

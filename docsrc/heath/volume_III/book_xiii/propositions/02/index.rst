@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.2
 :folios: 0447, 0448
+:folio: 0447
+:page: 443
 :pages: 443, 444
 :dependencies: I.def.4, I.def.22, II.def.1, II.def.2, VI.def.3, VI.1, VII.def.3
 

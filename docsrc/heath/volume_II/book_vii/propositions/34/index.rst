@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.34
 :folios: 0342, 0343, 0344
+:folio: 0342
+:page: 336
 :pages: 336, 337, 338
 :dependencies: V.def.1, VII.def.2, VII.def.11, VII.def.15, VII.16, VII.17, VII.19, VII.20, VII.21, VII.33
 

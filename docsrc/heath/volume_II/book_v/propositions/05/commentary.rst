@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.5
 :folios: 0152, 0153
+:folio: 0152
+:page: 146
 :pages: 146, 147
 
 .. _V.5.commentary:

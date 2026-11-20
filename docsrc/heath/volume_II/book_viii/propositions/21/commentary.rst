@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.21
 :folios: 0384, 0385
+:folio: 0384
+:page: 378
 :pages: 378, 379
 
 .. _VIII.21.commentary:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.2
 :folios: 0200, 0201
+:folio: 0200
+:page: 194
 :pages: 194, 195
 :dependencies: I.def.1, I.def.2, I.def.4, I.def.19, I.def.23, I.38, I.39, V.7, V.9, V.11, VI.1
 

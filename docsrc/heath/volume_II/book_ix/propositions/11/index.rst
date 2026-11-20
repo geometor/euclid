@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.11
 :folios: 0401, 0402
+:folio: 0401
+:page: 395
 :pages: 395, 396
 :dependencies: V.def.1, V.def.6, VII.def.1, VII.def.2, VII.15
 

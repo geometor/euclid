@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.90
 :folios: 0192, 0193, 0194
+:folio: 0192
+:page: 188
 :pages: 188, 189, 190
 :dependencies: V.19, V.22, X.def.iii.6, X.6, X.9, X.73
 

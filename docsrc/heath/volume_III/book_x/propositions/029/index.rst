@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.29
 :folios: 0070, 0071
+:folio: 0070
+:page: 66
 :pages: 66, 67
 :dependencies: I.def.4, I.def.22, I.47, III.31, V.19, X.def.1, X.def.2, X.def.3, X.def.4, X.6, X.9
 

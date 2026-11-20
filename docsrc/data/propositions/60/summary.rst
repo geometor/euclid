@@ -2,6 +2,8 @@
 :breadcrumb_title: D.60
 :type: summary
 :title: Proposition 60 — Analytical Summary
+:folio: Menge 108
+:page: 108
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 60 [ξ΄ · Prop. Prop. LXXXII] — Analytical Summary

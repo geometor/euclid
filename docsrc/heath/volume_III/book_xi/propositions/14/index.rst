@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.14
 :folios: 0300
+:folio: 0300
+:page: 296
 :pages: 296
 :dependencies: I.def.4, I.def.7, I.def.10, I.def.23, I.17, XI.def.3, XI.def.8, XI.3
 

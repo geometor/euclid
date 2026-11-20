@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book III Definitions
 :folios: 0007, 0008
+:folio: 0007
+:page: 1
 :pages: 1, 2
 :dependencies: I.def.1, I.def.3, I.def.4, I.def.8, I.def.10, I.def.14, I.def.15, I.def.16, I.def.17
 

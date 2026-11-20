@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition II.13
 :folios: 0420
+:folio: 0420
+:page: 406
 :pages: 406
 :dependencies: I.def.4, I.def.10, I.def.12, I.def.21, I.def.22, I.47, II.def.1, II.7
 

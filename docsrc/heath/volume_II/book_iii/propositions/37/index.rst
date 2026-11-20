@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.37
 :folios: 0081, 0082
+:folio: 0081
+:page: 75
 :pages: 75, 76
 :dependencies: I.def.1, I.def.4, I.def.15, I.8, II.def.1, III.16, III.18, III.36
 

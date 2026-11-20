@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.18
 :folios: 0414
+:folio: 0414
+:page: 408
 :pages: 408
 
 .. _IX.18.commentary:

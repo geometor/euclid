@@ -2,6 +2,8 @@
 :breadcrumb_title: D.25
 :type: notes
 :title: Proposition 25 — Philological & Critical Notes
+:folio: Menge 46
+:page: 46
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-2-notes:

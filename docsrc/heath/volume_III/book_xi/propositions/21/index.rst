@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.21
 :folios: 0313, 0314
+:folio: 0313
+:page: 309
 :pages: 309, 310
 :dependencies: I.def.8, I.def.10, I.32, XI.def.11, XI.20
 

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.46
 :folios: 0103
+:folio: 0103
+:page: 99
 :pages: 99
 :dependencies: I.def.1, X.def.3, X.26, X.40
 

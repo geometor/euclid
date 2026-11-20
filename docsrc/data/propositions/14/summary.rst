@@ -2,6 +2,8 @@
 :breadcrumb_title: D.14
 :type: summary
 :title: Proposition 14 — Analytical Summary
+:folio: Menge 26
+:page: 26
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 14 [ιδ΄ · Prop. Prop. XVIII] — Analytical Summary

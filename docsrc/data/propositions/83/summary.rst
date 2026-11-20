@@ -2,6 +2,8 @@
 :breadcrumb_title: D.83
 :type: summary
 :title: Proposition 83 — Analytical Summary
+:folio: Menge 160
+:page: 160
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 83 [πγ΄ · Prop. Prop. LXXIII] — Analytical Summary

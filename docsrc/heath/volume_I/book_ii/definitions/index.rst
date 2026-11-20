@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book II Definitions
 :folios: 0384
+:folio: 0384
+:page: 370
 :pages: 370
 :dependencies: I.def.4, I.def.10, I.def.17
 

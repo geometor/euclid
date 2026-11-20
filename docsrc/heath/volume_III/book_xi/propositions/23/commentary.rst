@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.23
 :folios: 0322, 0323, 0324, 0325, 0326, 0327
+:folio: 0322
+:page: 318
 :pages: 318, 319, 320, 321, 322, 323
 
 .. _XI.23.commentary:

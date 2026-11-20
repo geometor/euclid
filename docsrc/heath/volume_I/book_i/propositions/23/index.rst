@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.23
 :folios: 0308, 0309
+:folio: 0308
+:page: 294
 :pages: 294, 295
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.9, I.def.19, I.8, I.22
 

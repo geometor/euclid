@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.33
 :folios: 0337
+:folio: 0337
+:page: 323
 :pages: 323
 
 .. _I.33.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.33
 ==============================
 
 Back to :ref:`Proposition I.33 <I.33>`.
+
+.. _folio-i-0337:
 
 .. folio:: 0337
    :page: 323

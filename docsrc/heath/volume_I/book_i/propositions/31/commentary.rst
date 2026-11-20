@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.31
 :folios: 0330
+:folio: 0330
+:page: 316
 :pages: 316
 
 .. _I.31.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.31
 ==============================
 
 Back to :ref:`Proposition I.31 <I.31>`.
+
+.. _folio-i-0330:
 
 .. folio:: 0330
    :page: 316

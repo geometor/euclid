@@ -2,6 +2,8 @@
 :breadcrumb_title: D.50
 :type: summary
 :title: Proposition 50 — Analytical Summary
+:folio: Menge 88
+:page: 88
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 50 [ν΄ · Prop. Prop. LIV] — Analytical Summary

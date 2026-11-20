@@ -2,6 +2,8 @@
 :breadcrumb_title: D.29
 :type: summary
 :title: Proposition 29 — Analytical Summary
+:folio: Menge 50
+:page: 50
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 29 [κθ΄ · Prop. Prop. XXXII] — Analytical Summary

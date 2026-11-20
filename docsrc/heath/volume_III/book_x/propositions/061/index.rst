@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.61
 :folios: 0139, 0140
+:folio: 0139
+:page: 135
 :pages: 135, 136
 :dependencies: I.def.4, I.def.22, VI.1, X.def.3, X.def.ii.2, X.11, X.13, X.15, X.17, X.20, X.21, X.22, X.23, X.36, X.37
 

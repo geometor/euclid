@@ -2,6 +2,8 @@
 :breadcrumb_title: D.45
 :type: notes
 :title: Proposition 45 — Philological & Critical Notes
+:folio: Menge 82
+:page: 82
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 45 [με΄ · Prop. Prop. XLVIII] — Philological Notes

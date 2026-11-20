@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.16
 :folios: 0304
+:folio: 0304
+:page: 300
 :pages: 300
 :dependencies: I.def.7, I.def.23, XI.def.8, XI.1
 

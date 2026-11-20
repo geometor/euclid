@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.83
 :folios: 0177, 0178
+:folio: 0177
+:page: 173
 :pages: 173, 174
 :dependencies: I.def.4, I.def.22, II.def.1, X.def.2, X.def.3, X.def.4, X.26, X.77
 

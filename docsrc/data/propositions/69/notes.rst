@@ -2,6 +2,8 @@
 :breadcrumb_title: D.69
 :type: notes
 :title: Proposition 69 — Philological & Critical Notes
+:folio: Menge 128
+:page: 128
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 69 [ξθ΄ · Prop. Prop. LXVI] — Philological Notes

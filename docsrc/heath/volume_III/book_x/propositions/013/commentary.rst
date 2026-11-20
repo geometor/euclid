@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.13
 :folios: 0041
+:folio: 0041
+:page: 37
 :pages: 37
 
 .. _X.13.commentary:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.79
 :folios: 0171, 0172
+:folio: 0171
+:page: 167
 :pages: 167, 168
 :dependencies: I.def.4, II.7, X.def.1, X.def.3, X.21, X.26, X.73
 

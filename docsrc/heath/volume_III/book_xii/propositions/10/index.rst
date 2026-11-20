@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.10
 :folios: 0404, 0405, 0406, 0407, 0408
+:folio: 0404
+:page: 400
 :pages: 400, 401, 402, 403, 404
 :dependencies: IV.6, IV.7, VI.def.4, VII.def.3, X.1, XI.def.18, XI.def.21, XI.28, XI.32, XII.2, XII.6, XII.7
 

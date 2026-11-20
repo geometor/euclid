@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.18
 :folios: 0507, 0508, 0509, 0510, 0511
+:folio: 0507
+:page: 503
 :pages: 503, 504, 505, 506, 507
 :dependencies: I.def.14, IV.15, V.def.9, VI.4, VI.8, VI.20, XIII.9, XIII.10, XIII.13, XIII.14, XIII.15, XIII.16, XIII.17
 

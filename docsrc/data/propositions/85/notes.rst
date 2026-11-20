@@ -2,6 +2,8 @@
 :breadcrumb_title: D.85
 :type: notes
 :title: Proposition 85 — Philological & Critical Notes
+:folio: Menge 166
+:page: 166
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 85 [πε΄ · Prop. Prop. LXXXVI] — Philological Notes

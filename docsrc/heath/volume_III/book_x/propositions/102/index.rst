@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.102
 :folios: 0231, 0232, 0233
+:folio: 0231
+:page: 227
 :pages: 227, 228, 229
 :dependencies: I.def.4, I.def.22, II.7, VI.1, X.def.3, X.def.iii.6, X.11, X.18, X.22, X.73, X.78
 

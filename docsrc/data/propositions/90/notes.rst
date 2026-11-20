@@ -2,6 +2,8 @@
 :breadcrumb_title: D.90
 :type: notes
 :title: Proposition 90 — Philological & Critical Notes
+:folio: Menge 176
+:page: 176
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 90 [ϙ΄ · Prop. Prop. XCIV] — Philological Notes

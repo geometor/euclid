@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IV.10
 :folios: 0103, 0104, 0105, 0106
+:folio: 0103
+:page: 97
 :pages: 97, 98, 99, 100
 
 .. _IV.10.commentary:

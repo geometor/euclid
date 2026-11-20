@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book X Definitions III
 :folios: 0181
+:folio: 0181
+:page: 177
 :pages: 177
 :dependencies: I.def.4, I.def.22, X.def.1, X.def.3
 

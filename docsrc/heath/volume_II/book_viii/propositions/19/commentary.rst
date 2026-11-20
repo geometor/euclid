@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.19
 :folios: 0381
+:folio: 0381
+:page: 375
 :pages: 375
 
 .. _VIII.19.commentary:

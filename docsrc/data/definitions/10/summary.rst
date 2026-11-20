@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 10
 :type: summary
 :title: Definition 10 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 10 [ι΄ · Def. X]**: Affine Defect (δοθέντι ἔλασσον)

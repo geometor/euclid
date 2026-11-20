@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.31
 :folios: 0069, 0070, 0071
+:folio: 0069
+:page: 63
 :pages: 63, 64, 65
 
 .. _III.31.commentary:

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.19
 :type: summary
 :title: Proposition 19 — Analytical Summary
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 19 [ιθ΄ · Prop. Prop. XXVII] — Analytical Summary

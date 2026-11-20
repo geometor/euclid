@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.18
 :folios: 0176, 0177, 0178, 0179, 0180
+:folio: 0176
+:page: 170
 :pages: 170, 171, 172, 173, 174
 
 .. _V.18.commentary:

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.22
 :type: summary
 :title: Proposition 22 — Analytical Summary
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 22 [κβ΄ · Prop. Prop. XI] — Analytical Summary

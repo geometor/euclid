@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.4
 :folios: 0309
+:folio: 0309
+:page: 303
 :pages: 303
 
 .. _VII.4.commentary:

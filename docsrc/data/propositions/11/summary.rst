@@ -2,6 +2,8 @@
 :breadcrumb_title: D.11
 :type: summary
 :title: Proposition 11 — Analytical Summary
+:folio: Menge 20
+:page: 20
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 11 [ια΄ · Prop. Prop. XVII] — Analytical Summary

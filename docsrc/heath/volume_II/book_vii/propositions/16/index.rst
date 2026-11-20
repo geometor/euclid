@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.16
 :folios: 0322
+:folio: 0322
+:page: 316
 :pages: 316
 :dependencies: VII.def.2, VII.def.15, VII.15
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 9
 :type: summary
 :title: Definition 9 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 9 [θ΄ · Def. IX]**: Affine Excess (δοθέντι μεῖζον)

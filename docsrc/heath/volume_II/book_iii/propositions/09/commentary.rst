@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.9
 :folios: 0028
+:folio: 0028
+:page: 22
 :pages: 22
 
 .. _III.9.commentary:

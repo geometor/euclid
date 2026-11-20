@@ -2,6 +2,8 @@
 :breadcrumb_title: D.75
 :type: notes
 :title: Proposition 75 — Philological & Critical Notes
+:folio: Menge 144
+:page: 144
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 75 [οε΄ · Prop. Prop. LXIV Cor.] — Philological Notes

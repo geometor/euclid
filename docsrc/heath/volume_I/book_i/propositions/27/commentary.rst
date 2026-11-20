@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.27
 :folios: 0322, 0323
+:folio: 0322
+:page: 308
 :pages: 308, 309
 
 .. _I.27.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.27
 ==============================
 
 Back to :ref:`Proposition I.27 <I.27>`.
+
+.. _folio-i-0322:
 
 .. folio:: 0322
    :page: 308
@@ -29,6 +33,8 @@ We have already seen reason to believe that Euclid's personal contribution to th
 But it is clear that the propositions **I.** 27, 28 were contained in earlier text-books. They were familiar to :person:`Aristotle <aristotle>`, as we may judge from two interesting passages.
 
 (1) In *Anal. Post.* **I.** 5 he is explaining that a scientific demonstration must not only prove a fact of every individual of a class (κατὰ παντός) but must prove it primarily and generally true (πρῶτον καθόλου) of the whole of the class as one; it will not do to prove it first of one part, then of another part, and so on, until the class is exhausted. He illustrates this (74 a 13—16) by a reference to parallels: “If then one were to show that right (angles) do not meet, the proof of this might be thought to depend on the fact that this is true of all (pairs of actual) right angles. But this is not so, inasmuch as the result does not follow because (the two angles are) equal (to two right
+
+.. _folio-i-0323:
 
 .. folio:: 0323
    :page: 309

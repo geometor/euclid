@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XIII.18
 :folios: 0511, 0512, 0513, 0514, 0515
+:folio: 0511
+:page: 507
 :pages: 507, 508, 509, 510, 511
 
 .. _XIII.18.commentary:

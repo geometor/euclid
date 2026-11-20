@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.47
 :folios: 0103, 0104, 0105
+:folio: 0103
+:page: 99
 :pages: 99, 100, 101
 :dependencies: I.def.1, II.4, VI.1, X.11, X.22, X.36, X.42
 

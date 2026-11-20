@@ -2,6 +2,8 @@
 :breadcrumb_title: D.73
 :type: notes
 :title: Proposition 73 — Philological & Critical Notes
+:folio: Menge 138
+:page: 138
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 73 [ογ΄ · Prop. Prop. LXIV (pt. 2)] — Philological Notes

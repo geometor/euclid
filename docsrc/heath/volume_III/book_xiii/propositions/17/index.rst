@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.17
 :folios: 0497, 0498, 0499, 0500, 0501, 0502
+:folio: 0497
+:page: 493
 :pages: 493, 494, 495, 496, 497, 498
 :dependencies: I.def.4, I.def.14, I.8, I.47, V.15, VI.32, X.def.3, XI.def.14, XI.def.16, XI.def.28, XI.1, XI.6, XI.38, XIII.4, XIII.5, XIII.6, XIII.7, XIII.15
 

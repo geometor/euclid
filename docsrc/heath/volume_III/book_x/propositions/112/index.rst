@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.112
 :folios: 0247, 0248, 0249, 0250
+:folio: 0247
+:page: 243
 :pages: 243, 244, 245, 246
 :dependencies: I.def.4, I.def.22, V.def.5, V.def.9, V.11, V.12, V.14, V.16, V.17, VI.16, VI.22, X.def.1, X.def.3, X.11, X.12, X.14, X.15, X.20, X.36, X.73
 

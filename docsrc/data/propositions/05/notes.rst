@@ -2,6 +2,8 @@
 :breadcrumb_title: D.5
 :type: notes
 :title: Proposition 5 — Philological & Critical Notes
+:folio: Menge 10
+:page: 10
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 5 [ε΄ · Prop. Prop. VI] — Philological Notes

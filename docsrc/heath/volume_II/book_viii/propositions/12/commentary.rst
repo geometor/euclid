@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.12
 :folios: 0371
+:folio: 0371
+:page: 365
 :pages: 365
 
 .. _VIII.12.commentary:

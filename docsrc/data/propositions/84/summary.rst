@@ -2,6 +2,8 @@
 :breadcrumb_title: D.84
 :type: summary
 :title: Proposition 84 — Analytical Summary
+:folio: Menge 164
+:page: 164
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-6-summary:

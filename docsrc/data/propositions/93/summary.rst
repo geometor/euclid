@@ -2,6 +2,8 @@
 :breadcrumb_title: D.93
 :type: summary
 :title: Proposition 93 — Analytical Summary
+:folio: Menge 178
+:page: 178
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 93 [ϙγ΄ · Prop. Prop. XCVII (cf. Prop. XCVIII [Stanhope])] — Analytical Summary

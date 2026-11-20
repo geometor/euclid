@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.8
 :folios: 0217
+:folio: 0217
+:page: 211
 :pages: 211
 
 .. _VI.8.commentary:

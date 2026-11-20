@@ -2,6 +2,8 @@
 :breadcrumb_title: D.64
 :type: notes
 :title: Proposition 64 — Philological & Critical Notes
+:folio: Menge 114
+:page: 114
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 64 [ξδ΄ · Prop. Prop. LXXIV] — Philological Notes

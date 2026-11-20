@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.22
 :folios: 0316, 0317, 0318
+:folio: 0316
+:page: 312
 :pages: 312, 313, 314
 :dependencies: I.def.3, I.def.4, I.def.8, I.def.19, I.4, I.24
 

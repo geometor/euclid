@@ -2,6 +2,8 @@
 :breadcrumb_title: D.53
 :type: notes
 :title: Proposition 53 — Philological & Critical Notes
+:folio: Menge 94
+:page: 94
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 53 [νγ΄ · Prop. Prop. LVII] — Philological Notes

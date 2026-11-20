@@ -2,6 +2,8 @@
 :breadcrumb_title: D.7
 :type: notes
 :title: Proposition 7 — Philological & Critical Notes
+:folio: Menge 12
+:page: 12
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 7 [ζ΄ · Prop. Prop. VIII] — Philological Notes

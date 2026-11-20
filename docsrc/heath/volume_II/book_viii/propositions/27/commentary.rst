@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.27
 :folios: 0389
+:folio: 0389
+:page: 383
 :pages: 383
 
 .. _VIII.27.commentary:

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.77
 :type: notes
 :title: Proposition 77 — Philological & Critical Notes
+:folio: Menge 148
+:page: 148
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 77 [οζ΄ · Prop. Omitted (dup. of Prop. LIX / D.54)] — Philological Notes

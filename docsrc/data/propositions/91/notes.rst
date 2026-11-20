@@ -2,6 +2,8 @@
 :breadcrumb_title: D.91
 :type: notes
 :title: Proposition 91 — Philological & Critical Notes
+:folio: Menge 178
+:page: 178
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 91 [ϙα΄ · Prop. Prop. XCV] — Philological Notes

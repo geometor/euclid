@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.21
 :folios: 0185
+:folio: 0185
+:page: 179
 :pages: 179
 
 .. _V.21.commentary:

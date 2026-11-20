@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.38
 :folios: 0089, 0090, 0091
+:folio: 0089
+:page: 85
 :pages: 85, 86, 87
 :dependencies: I.def.4, I.44, II.def.1, II.4, VI.1, X.def.2, X.def.3, X.def.4, X.6, X.11, X.13, X.15, X.20, X.22, X.36
 

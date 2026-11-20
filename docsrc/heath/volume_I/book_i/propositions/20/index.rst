@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.20
 :folios: 0300, 0301
+:folio: 0300
+:page: 286
 :pages: 286, 287
 :dependencies: I.def.1, I.def.8, I.def.19, I.cn.5, I.5, I.19
 

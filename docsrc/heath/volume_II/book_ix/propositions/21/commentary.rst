@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.21
 :folios: 0419
+:folio: 0419
+:page: 413
 :pages: 413
 
 .. _IX.21.commentary:

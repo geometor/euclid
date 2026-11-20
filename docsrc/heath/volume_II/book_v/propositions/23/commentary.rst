@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.23
 :folios: 0188, 0189
+:folio: 0188
+:page: 182
 :pages: 182, 183
 
 .. _V.23.commentary:

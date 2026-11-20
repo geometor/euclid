@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.21
 :folios: 0304, 0305, 0306
+:folio: 0304
+:page: 290
 :pages: 290, 291, 292
 
 .. _I.21.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.21
 ==============================
 
 Back to :ref:`Proposition I.21 <I.21>`.
+
+.. _folio-i-0304:
 
 .. folio:: 0304
    :page: 290
@@ -36,6 +40,8 @@ As a specimen of the proofs we will give that of the proposition which has been 
 .. picture:: 0304.g2.svg
    :alt: Folio 0304 Figure 2 - Pappus Proof of Erycinus Paradox (Isosceles Case)
 
+.. _folio-i-0305:
+
 .. folio:: 0305
    :page: 291
 
@@ -53,6 +59,8 @@ Produce :g:`AD <0305.g1:/ A D />` to :g:`A' <0305.g1:A'>`, making :g:`A'D <0305.
    :alt: Folio 0305 Figure 1 - De Morgan Perpendicular and Obliques from a Point
 
 Now (1) in the triangle :g:`AEA' <0305.g1:< A E A' >>` the two sides :g:`AE <0305.g1:/ A E />`, :g:`EA' <0305.g1:/ E A' />` are greater than :g:`AA' <0305.g1:/ A A' />` [I. 20], that is, twice :g:`AE <0305.g1:/ A E />` is greater than twice :g:`AD <0305.g1:/ A D />`.
+
+.. _folio-i-0306:
 
 .. folio:: 0306
    :page: 292

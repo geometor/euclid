@@ -3,6 +3,8 @@
 :type: frontmatter
 :title: Title Page (Vol. II)
 :folios: 0001, 0002, 0003, 0004
+:folio: 0001
+:page: i
 :pages: i, ii, iii, iv
 
 .. _VolII.frontmatter:

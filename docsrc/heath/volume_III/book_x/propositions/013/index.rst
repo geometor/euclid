@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.13
 :folios: 0040, 0041
+:folio: 0040
+:page: 36
 :pages: 36, 37
 :dependencies: I.47, III.31, IV.1, X.def.1, X.12
 
