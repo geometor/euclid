@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • euclid Medallion
+   :target: https://geometor.github.io/euclid/
+   :width: 150px
+   :align: right
+
 GEOMETOR • euclid
 =================
 
 **Visit the Online Archive:** https://geometor.github.io/euclid/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • euclid Medallion
-   :target: https://geometor.github.io/euclid/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/heath/volume_I/book_i/propositions/47/0363.g1.svg
    :alt: GEOMETOR • euclid featured geometric construction
