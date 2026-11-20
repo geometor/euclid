@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.32
 :folios: 0424
+:folio: 0424
+:page: 418
 :pages: 418
 :dependencies: VII.def.2, VII.def.8, IX.13
 

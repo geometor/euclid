@@ -4,6 +4,8 @@
 :type: introductory_note
 :title: Book V Introductory Note
 :folios: 0118, 0119
+:folio: 0118
+:page: 112
 :pages: 112, 113
 
 .. _V.intro:

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.85
 :type: summary
 :title: Proposition 85 — Analytical Summary
+:folio: Menge 166
+:page: 166
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 85 [πε΄ · Prop. Prop. LXXXVI] — Analytical Summary

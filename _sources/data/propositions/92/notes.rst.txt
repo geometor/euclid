@@ -2,6 +2,8 @@
 :breadcrumb_title: D.92
 :type: notes
 :title: Proposition 92 — Philological & Critical Notes
+:folio: Menge 178
+:page: 178
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 92 [ϙβ΄ · Prop. Prop. XCVI] — Philological Notes

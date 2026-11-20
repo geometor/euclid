@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.22
 :folios: 0058
+:folio: 0058
+:page: 52
 :pages: 52
 
 .. _III.22.commentary:

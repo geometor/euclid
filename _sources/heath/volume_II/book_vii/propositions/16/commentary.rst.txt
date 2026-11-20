@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.16
 :folios: 0322, 0323
+:folio: 0322
+:page: 316
 :pages: 316, 317
 
 .. _VII.16.commentary:

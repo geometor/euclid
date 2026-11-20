@@ -2,6 +2,8 @@
 :breadcrumb_title: D.43
 :type: summary
 :title: Proposition 43 — Analytical Summary
+:folio: Menge 76
+:page: 76
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 43 [μγ΄ · Prop. Prop. XLVI] — Analytical Summary

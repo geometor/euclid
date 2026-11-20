@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.10
 :folios: 0281
+:folio: 0281
+:page: 267
 :pages: 267
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.19, I.1, I.4, I.9
 

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.13
 :folios: 0222
+:folio: 0222
+:page: 216
 :pages: 216
 :dependencies: I.def.4, III.31, V.def.6, VI.8
 

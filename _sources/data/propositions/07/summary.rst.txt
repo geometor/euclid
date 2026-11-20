@@ -2,6 +2,8 @@
 :breadcrumb_title: D.7
 :type: summary
 :title: Proposition 7 — Analytical Summary
+:folio: Menge 12
+:page: 12
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 7 [ζ΄ · Prop. Prop. VIII] — Analytical Summary

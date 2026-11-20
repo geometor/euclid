@@ -2,6 +2,8 @@
 :breadcrumb_title: D.30
 :type: summary
 :title: Proposition 30 — Analytical Summary
+:folio: Menge 50
+:page: 50
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 30 [λ΄ · Prop. Prop. XXXIII] — Analytical Summary

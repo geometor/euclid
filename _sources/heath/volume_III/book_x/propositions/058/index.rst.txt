@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.58
 :folios: 0132, 0133
+:folio: 0132
+:page: 128
 :pages: 128, 129
 :dependencies: I.def.4, VI.1, X.def.3, X.def.ii.5, X.11, X.12, X.13, X.18, X.19, X.21, X.40
 

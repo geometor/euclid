@@ -2,6 +2,8 @@
 :breadcrumb_title: D.55
 :type: summary
 :title: Proposition 55 — Analytical Summary
+:folio: Menge 98
+:page: 98
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 55 [νε΄ · Prop. Prop. LX] — Analytical Summary

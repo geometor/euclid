@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.26
 :folios: 0315, 0316, 0317
+:folio: 0315
+:page: 301
 :pages: 301, 302, 303
 :dependencies: I.def.8, I.def.19, I.4, I.16
 
@@ -19,6 +21,8 @@ PROPOSITION 26.
 .. enunciation::
 
    If two :term:`triangles <trilateral>` have the two :term:`angles <plane-angle>` equal to two angles respectively, and one side equal to one side, namely, either the side adjoining the equal angles,\ [#f1]_ or that subtending one of the equal angles, they will also have the remaining sides equal to the remaining sides and the remaining angle to the remaining angle.
+
+.. _folio-i-0316:
 
 .. folio:: 0316
    :page: 302

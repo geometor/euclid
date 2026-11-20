@@ -2,6 +2,8 @@
 :breadcrumb_title: D.62
 :type: notes
 :title: Proposition 62 — Philological & Critical Notes
+:folio: Menge 112
+:page: 112
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 62 [ξβ΄ · Prop. Prop. LXX] — Philological Notes

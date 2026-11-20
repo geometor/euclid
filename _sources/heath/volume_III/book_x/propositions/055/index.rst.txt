@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.55
 :folios: 0124, 0125, 0126
+:folio: 0124
+:page: 120
 :pages: 120, 121, 122
 :dependencies: I.def.4, VI.1, X.def.3, X.def.ii.2, X.11, X.12, X.13, X.15, X.17, X.19, X.21, X.37
 

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.20
 :folios: 0326, 0327
+:folio: 0326
+:page: 320
 :pages: 320, 321
 :dependencies: V.def.1, V.def.5, VII.def.2, VII.def.20, VII.4, VII.12, VII.13
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.17
 :type: notes
 :title: Proposition 17 — Philological & Critical Notes
+:folio: Menge 32
+:page: 32
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 17 [ιζ΄ · Prop. Prop. XXV] — Philological Notes

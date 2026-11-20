@@ -1,0 +1,41 @@
+:order: 10
+:canonical_id: III.def.commentary.def_10
+:volume: II
+:book: III
+:type: commentary
+:title: Commentary on Book III Definition 10
+:folio: 0011
+:folios: 0011
+:page: 5
+:pages: 5
+
+.. _III.def.commentary.def_10:
+
+Commentary on Book III Definition 10
+====================================
+
+Back to :ref:`Book III Definitions <III.def>`.
+
+.. _folio-ii-0011:
+
+.. folio:: 0011
+   :page: 5
+
+
+Τομεὺς δὲ :term:`κύκλου <circle>` ἐστίν, ὅταν πρὸς τῷ κέντρῳ τοῦ :term:`κύκλου <circle>` συσταθῇ γωνία, τὸ περιεχόμενον σχῆμα ὑπό τε τῶν τὴν γωνίαν περιεχουσῶν εὐθειῶν καὶ τῆς ἀπολαμβανομένης ὑπ᾽ αὐτῶν :term:`περιφερείας <periphereia>`.
+
+A scholiast says that it was the *shoemaker's knife*, σκυτοτομικὸς :term:`τομεύς <sector-of-circle>`, which suggested the name :term:`τομεύς <sector-of-circle>` for a sector of a circle. The derivation of the name from a resemblance of shape is parallel to the use of ἄρβηλος (also a *shoemaker's knife*) to denote the well known figure of the Book of Lemmas partly attributed to :person:`Archimedes <archimedes>`.
+
+A wider definition of a sector than that given by Euclid is found in a Greek scholiast (:person:`Heiberg <heiberg>`'s Euclid, Vol. V. p. 260) and in :person:`an-Nairīzī <an-nairizi>` (ed. Curtze, p. 112). "There are two varieties of sectors; the one kind have the angular vertices at the centres, the other at the circumferences. Those others which have their vertices neither at the circumferences nor at the centres, but at some other points, are for that reason not called sectors but sector-like figures (τομοειδῆ σχήματα)." The exact agreement between the scholiast and :person:`an-Nairīzī <an-nairizi>` suggests that :person:`Heron <heron>` was the authority for this explanation.
+
+The *sector-like figure* bounded by an arc of a circle and two lines drawn from its extremities to meet at any point actually appears in Euclid's book :cite:`*On divisions* <euclid:on-divisions>` (περὶ διαιρέσεων) discovered in an Arabic MS. and edited by Woepcke (cf. Vol. I. pp. 8—10 above). This treatise, alluded to by :person:`Proclus <proclus>`, had for its object the division of figures such as triangles, trapezia, quadrilaterals and circles, by means of straight lines, into parts equal or in given ratios. One proposition e.g. is, *To divide a triangle into two equal parts by a straight line passing through a given point on one side*. The proposition (28) in which the *quasi-sector* occurs is, *To divide such a figure by a straight line into two equal parts*. The solution in this case is given by :person:`Cantor <cantor>` (:cite:`*Gesch. d. Math.* <cantor:vorlesungen>` $\text{I}_3$, pp. 287—8).
+
+If :g:`ABCD <0011.g1:< A B C D >>` be the given figure, :g:`E <0011.g1:E>` the middle point of :g:`BD <0011.g1:/ B D />` and :g:`EC <0011.g1:/ E C />` at right angles to :g:`BD <0011.g1:/ B D />`,
+the broken line :g:`AEC <0011.g1:/ A E C />` clearly divides the figure into two equal parts.
+
+.. picture:: 0011.g1.svg
+   :alt: Division of a sector-like figure ABCD into two equal parts
+
+Join :g:`AC <0011.g1:/ A C />`, and draw :g:`EF <0011.g1:/ E F />` parallel to it meeting :g:`AB <0011.g1:/ A B />` in :g:`F <0011.g1:F>`.
+
+Join :g:`CF <0011.g1:/ C F />`, when it is seen that :g:`CF <0011.g1:/ C F />` divides the figure into two equal parts.

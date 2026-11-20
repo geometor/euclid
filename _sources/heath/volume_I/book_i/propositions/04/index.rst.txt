@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.4
 :folios: 0261, 0262, 0263
+:folio: 0261
+:page: 247
 :pages: 247, 248, 249
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.19, I.cn.4
 
@@ -28,6 +30,8 @@ Let :g:`ABC <0261.g1:< A B C >>`, :g:`DEF <0261.g1:< D E F >>` be two triangles 
 I say that the base :g:`BC <0261.g1:/ B C />` is also :eq:`equal <0261.g1:/ B C / = 0261.g1:/ E F />` to the base :g:`EF <0261.g1:/ E F />`, the triangle :g:`ABC <0261.g1:< A B C >>` will be :eq:`equal <0261.g1:< A B C > = 0261.g1:< D E F >>` to the triangle :g:`DEF <0261.g1:< D E F >>`, and the remaining angles will be :eq:`equal <0261.g1:< A B C ) = 0261.g1:< D E F ); 0261.g1:< A C B ) = 0261.g1:< D F E )>` to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle :g:`ABC <0261.g1:< A B C )>` to the angle :g:`DEF <0261.g1:< D E F )>`, and the angle :g:`ACB <0261.g1:< A C B )>` to the angle :g:`DFE <0261.g1:< D F E )>`.
 
 For, if the triangle :g:`ABC <0261.g1:< A B C >>` be :coincide:`applied <0261.g1:< A B C > ≡ 0261.g1:< D E F >>`\ [#f6]_ to the triangle :g:`DEF <0261.g1:< D E F >>`, and if the :term:`point <point>` :g:`A <0261.g1:A>` be :coincide:`placed on <0261.g1:A ≡ 0261.g1:D; 0261.g1:/ A B / ≡ 0261.g1:/ D E />` the point :g:`D <0261.g1:D>` and the straight line :g:`AB <0261.g1:/ A B />` on :g:`DE <0261.g1:/ D E />`, then the point :g:`B <0261.g1:B>` will also :coincide:`coincide <0261.g1:B ≡ 0261.g1:E>` with :g:`E <0261.g1:E>`, because :g:`AB <0261.g1:/ A B />` is :eq:`equal <0261.g1:/ A B / = 0261.g1:/ D E />` to :g:`DE <0261.g1:/ D E />`.
+
+.. _folio-i-0262:
 
 .. folio:: 0262
    :page: 248

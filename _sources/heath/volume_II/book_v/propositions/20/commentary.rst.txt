@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.20
 :folios: 0182, 0183, 0184
+:folio: 0182
+:page: 176
 :pages: 176, 177, 178
 
 .. _V.20.commentary:

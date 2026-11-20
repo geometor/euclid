@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.22
 :folios: 0385
+:folio: 0385
+:page: 379
 :pages: 379
 
 .. _VIII.22.commentary:

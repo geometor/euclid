@@ -2,6 +2,8 @@
 :breadcrumb_title: D.40
 :type: summary
 :title: Proposition 40 — Analytical Summary
+:folio: Menge 66
+:page: 66
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 40 [μ΄ · Prop. Prop. XLIII] — Analytical Summary

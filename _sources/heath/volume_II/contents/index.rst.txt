@@ -3,6 +3,8 @@
 :type: contents
 :title: Contents of Volume II
 :folios: 0005, 0006
+:folio: 0005
+:page: v
 :pages: v, vi
 
 .. _VolII.contents:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.33
 :folios: 0346, 0347, 0348
+:folio: 0346
+:page: 342
 :pages: 342, 343, 344
 :dependencies: V.def.10, VI.def.1, VI.1, XI.def.1, XI.def.10, XI.24, XI.32
 

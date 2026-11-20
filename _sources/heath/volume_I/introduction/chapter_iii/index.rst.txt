@@ -4,6 +4,8 @@
 :type: chapter
 :title: Chapter III: Greek Commentators Other Than Proclus
 :folios: 0033, 0034, 0035, 0036, 0037, 0038, 0039, 0040, 0041, 0042
+:folio: 0033
+:page: 19
 :pages: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
 
 .. _Intro.III:

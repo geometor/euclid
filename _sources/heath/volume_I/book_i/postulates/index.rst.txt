@@ -4,6 +4,8 @@
 :type: postulates
 :title: Book I Postulates
 :folios: 0168, 0169
+:folio: 0168
+:page: 154
 :pages: 154, 155
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.def.15, I.def.16
 

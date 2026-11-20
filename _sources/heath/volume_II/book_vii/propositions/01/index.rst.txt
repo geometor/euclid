@@ -5,10 +5,14 @@
 :type: proposition
 :title: Proposition VII.1
 :folios: 0302, 0303
+:folio: 0302
+:page: 296
 :pages: 296, 297
 :dependencies: V.def.1, VII.def.1, VII.def.2, VII.def.12
 
 .. _VII.1:
+
+.. _folio-ii-0302:
 
 .. folio:: 0302
    :page: 296

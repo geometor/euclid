@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.86
 :folios: 0184, 0185
+:folio: 0184
+:page: 180
 :pages: 180, 181
 :dependencies: V.19, X.def.iii.2, X.6, X.9, X.73
 

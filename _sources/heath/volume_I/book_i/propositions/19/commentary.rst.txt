@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.19
 :folios: 0298, 0299, 0300
+:folio: 0298
+:page: 284
 :pages: 284, 285, 286
 
 .. _I.19.commentary:
@@ -38,6 +40,8 @@ $$
 &\text{when } R \text{ is true, } Z \text{ is true.”}
 \end{aligned}
 $$
+
+.. _folio-i-0299:
 
 .. folio:: 0299
    :page: 285
@@ -86,6 +90,8 @@ Let :g:`AD <0299.g1:/ A D />`, the bisector of the angle :g:`A <0299.g1:< B A C 
    :alt: Heron/an-Nairizi Lemma for Direct Proof of I. 19 Figure
 
 Produce :g:`AD <0299.g1:/ A D />` to :g:`E <0299.g1:E>` so that :g:`DE <0299.g1:/ D E />` is :eq:`equal <0299.g1:/ D E / = 0299.g1:/ A D />` to :g:`AD <0299.g1:/ A D />`. And, since :g:`DC <0299.g1:/ D C />` is greater than :g:`BD <0299.g1:/ B D />`, cut off :g:`DF <0299.g1:/ D F />` :eq:`equal <0299.g1:/ D F / = 0299.g1:/ B D />` to :g:`BD <0299.g1:/ B D />`. Join :g:`EF <0299.g1:/ E F />` and produce it to :g:`G <0299.g1:G>`. Then, since the two sides :g:`AD <0299.g1:/ A D />`, :g:`DB <0299.g1:/ D B />` are :eq:`equal <0299.g1:/ A D / = 0299.g1:/ E D /; 0299.g1:/ D B / = 0299.g1:/ D F />` to the two sides :g:`ED <0299.g1:/ E D />`, :g:`DF <0299.g1:/ D F />`, and the vertical angles at :g:`D <0299.g1:D>` are :eq:`equal <0299.g1:< A D B ) = 0299.g1:< E D F )>`, :g:`AB <0299.g1:/ A B />` is :eq:`equal <0299.g1:/ A B / = 0299.g1:/ E F /; 0299.g1:< D E F ) = 0299.g1:< B A D ) = 0299.g1:< D A G )>` to :g:`EF <0299.g1:/ E F />`, and the angle :g:`DEF <0299.g1:< D E F )>` to the angle :g:`BAD <0299.g1:< B A D )>`, i.e. to the angle :g:`DAG <0299.g1:< D A G )>` (by hypothesis). Therefore :g:`AG <0299.g1:/ A G />` is :eq:`equal <0299.g1:/ A G / = 0299.g1:/ E G />` to :g:`EG <0299.g1:/ E G />`, and therefore greater than :g:`EF <0299.g1:/ E F />`, or :g:`AB <0299.g1:/ A B />`. Hence, *a fortiori*, :g:`AC <0299.g1:/ A C />` is greater than :g:`AB <0299.g1:/ A B />`.
+
+.. _folio-i-0300:
 
 .. folio:: 0300
    :page: 286

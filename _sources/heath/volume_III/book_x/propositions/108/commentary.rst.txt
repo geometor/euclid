@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.108
 :folios: 0240
+:folio: 0240
+:page: 236
 :pages: 236
 
 .. _X.108.commentary:

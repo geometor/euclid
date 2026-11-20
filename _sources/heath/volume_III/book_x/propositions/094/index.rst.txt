@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.94
 :folios: 0207, 0208, 0209
+:folio: 0207
+:page: 203
 :pages: 203, 204, 205
 :dependencies: I.def.4, V.11, VI.1, VI.17, VI.26, X.def.3, X.def.iii.4, X.11, X.18, X.19, X.21, X.76
 

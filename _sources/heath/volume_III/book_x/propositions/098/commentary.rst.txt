@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.98
 :folios: 0221
+:folio: 0221
+:page: 217
 :pages: 217
 
 .. _X.98.commentary:

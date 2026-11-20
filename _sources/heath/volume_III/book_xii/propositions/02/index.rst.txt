@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.2
 :folios: 0375, 0376, 0377, 0378
+:folio: 0375
+:page: 371
 :pages: 371, 372, 373, 374
 :dependencies: I.def.15, I.def.17, I.def.22, III.def.6, IV.def.4, V.11, V.16, XII.1
 

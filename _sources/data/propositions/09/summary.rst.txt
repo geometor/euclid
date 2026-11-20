@@ -2,6 +2,8 @@
 :breadcrumb_title: D.9
 :type: summary
 :title: Proposition 9 — Analytical Summary
+:folio: Menge 14
+:page: 14
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 9 [θ΄ · Prop. Prop. X] — Analytical Summary

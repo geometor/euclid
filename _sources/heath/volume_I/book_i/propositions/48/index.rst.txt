@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.48
 :folios: 0382, 0383
+:folio: 0382
+:page: 368
 :pages: 368, 369
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.def.19, I.def.22, I.8, I.47
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 11
 :type: summary
 :title: Definition 11 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 11 [ια΄ · Omitted (expanded verbally in Props. XIV–XXVII)]**: Affine-Ratio Excess (δοθέντι μεῖζον ἢ ἐν λόγῳ)

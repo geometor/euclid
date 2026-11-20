@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.19
 :folios: 0379, 0380, 0381
+:folio: 0379
+:page: 373
 :pages: 373, 374, 375
 :dependencies: V.def.3, V.def.6, V.def.10, VII.def.2, VII.def.17, VII.def.21, VII.13, VII.17, VII.18, VIII.18
 

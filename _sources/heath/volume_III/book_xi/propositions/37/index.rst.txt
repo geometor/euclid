@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.37
 :folios: 0362, 0363
+:folio: 0362
+:page: 358
 :pages: 358, 359
 :dependencies: I.def.4, V.def.6, VI.def.1, XI.def.1, XI.33
 

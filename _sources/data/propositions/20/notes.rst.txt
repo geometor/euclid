@@ -2,6 +2,8 @@
 :breadcrumb_title: D.20
 :type: notes
 :title: Proposition 20 — Philological & Critical Notes
+:folio: Menge 34
+:page: 34
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 20 [κ΄ · Prop. Prop. XXIII] — Philological Notes

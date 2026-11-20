@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.15
 :folios: 0321
+:folio: 0321
+:page: 315
 :pages: 315
 
 .. _VII.15.commentary:

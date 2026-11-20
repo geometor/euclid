@@ -2,6 +2,8 @@
 :breadcrumb_title: D.31
 :type: summary
 :title: Proposition 31 — Analytical Summary
+:folio: Menge 50
+:page: 50
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 31 [λα΄ · Prop. Prop. XXXIV] — Analytical Summary

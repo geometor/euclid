@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.25
 :folios: 0387
+:folio: 0387
+:page: 381
 :pages: 381
 
 .. _VIII.25.commentary:

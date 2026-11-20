@@ -2,6 +2,8 @@
 :breadcrumb_title: D.52
 :type: notes
 :title: Proposition 52 — Philological & Critical Notes
+:folio: Menge 94
+:page: 94
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 52 [νβ΄ · Prop. Prop. LVI] — Philological Notes

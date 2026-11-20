@@ -2,6 +2,8 @@
 :breadcrumb_title: D.74
 :type: notes
 :title: Proposition 74 — Philological & Critical Notes
+:folio: Menge 142
+:page: 142
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 74 [οδ΄ · Prop. Prop. LXIV (pt. 1; cf. LXIII)] — Philological Notes

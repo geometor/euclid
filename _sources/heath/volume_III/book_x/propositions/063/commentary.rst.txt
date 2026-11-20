@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.63
 :folios: 0145
+:folio: 0145
+:page: 141
 :pages: 141
 
 .. _X.63.commentary:

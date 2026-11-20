@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.31
 :folios: 0344, 0345
+:folio: 0344
+:page: 340
 :pages: 340, 341
 
 .. _XI.31.commentary:

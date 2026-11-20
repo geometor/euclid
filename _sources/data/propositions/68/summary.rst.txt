@@ -2,6 +2,8 @@
 :breadcrumb_title: D.68
 :type: summary
 :title: Proposition 68 — Analytical Summary
+:folio: Menge 126
+:page: 126
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-5-summary:

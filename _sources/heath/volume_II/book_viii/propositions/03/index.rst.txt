@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.3
 :folios: 0354, 0355
+:folio: 0354
+:page: 348
 :pages: 348, 349
 :dependencies: V.def.5, V.def.6, VII.def.2, VII.def.12, VII.22, VII.27, VII.33, VIII.2
 

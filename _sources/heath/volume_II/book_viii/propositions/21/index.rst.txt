@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.21
 :folios: 0383, 0384
+:folio: 0383
+:page: 377
 :pages: 377, 378
 :dependencies: V.def.6, VII.def.2, VII.def.21, VII.14, VII.18, VII.20, VII.21, VII.33, VIII.2, VIII.3, VIII.20
 

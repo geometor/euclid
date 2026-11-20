@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.9
 :folios: 0032, 0033, 0034
+:folio: 0032
+:page: 28
 :pages: 28, 29, 30
 :dependencies: I.def.4, I.def.22, V.def.3, VI.20, VII.def.18, VIII.11, VIII.26, X.def.1, X.def.2, X.5, X.6
 

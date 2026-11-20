@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.33
 :folios: 0081, 0082
+:folio: 0081
+:page: 77
 :pages: 77, 78
 
 .. _X.33.commentary:

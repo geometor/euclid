@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.26
 :folios: 0262
+:folio: 0262
+:page: 256
 :pages: 256
 
 .. _VI.26.commentary:

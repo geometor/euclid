@@ -2,6 +2,8 @@
 :breadcrumb_title: D.28
 :type: summary
 :title: Proposition 28 — Analytical Summary
+:folio: Menge 48
+:page: 48
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 28 [κη΄ · Prop. Prop. XXXI] — Analytical Summary

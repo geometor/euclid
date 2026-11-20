@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.28
 :folios: 0334, 0335
+:folio: 0334
+:page: 330
 :pages: 330, 331
 :dependencies: I.def.7, I.34, XI.def.1, XI.def.10, XI.def.13
 

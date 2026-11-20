@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.8
 :folios: 0275, 0276
+:folio: 0275
+:page: 261
 :pages: 261, 262
 :dependencies: I.def.1, I.def.3, I.def.4, I.def.8, I.def.19, I.cn.4, I.7
 

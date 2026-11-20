@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.20
 :folios: 0312, 0313
+:folio: 0312
+:page: 308
 :pages: 308, 309
 
 .. _XI.20.commentary:

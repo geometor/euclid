@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.24
 :folios: 0386
+:folio: 0386
+:page: 380
 :pages: 380
 
 .. _VIII.24.commentary:

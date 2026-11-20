@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 7
 :type: summary
 :title: Definition 7 — Analytical Summary
+:folio: Menge 2
+:page: 2
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 7 [ζ΄ · Def. VII]**: Segment Given in Magnitude

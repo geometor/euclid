@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.28
 :folios: 0066
+:folio: 0066
+:page: 60
 :pages: 60
 
 .. _III.28.commentary:

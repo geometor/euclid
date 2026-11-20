@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.51
 :folios: 0113, 0114
+:folio: 0113
+:page: 109
 :pages: 109, 110
 :dependencies: I.def.4, V.19, X.def.ii.4, X.6, X.9
 

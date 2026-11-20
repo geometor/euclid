@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.6
 :folios: 0396, 0397
+:folio: 0396
+:page: 392
 :pages: 392, 393
 :dependencies: V.18, V.22, VI.def.4, XI.def.12, XII.5
 

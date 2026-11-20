@@ -3,6 +3,8 @@
 :type: index
 :title: General Index of Greek Words and Forms
 :folios: 0525, 0526, 0527, 0528, 0529, 0530
+:folio: 0525
+:page: 521
 :pages: 521, 522, 523, 524, 525, 526
 
 .. _VolIII.index.greek:

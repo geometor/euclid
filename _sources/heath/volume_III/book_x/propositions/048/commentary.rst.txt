@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.48
 :folios: 0107, 0108
+:folio: 0107
+:page: 103
 :pages: 103, 104
 
 .. _X.48.commentary:

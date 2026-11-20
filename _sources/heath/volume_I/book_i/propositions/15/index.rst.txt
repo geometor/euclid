@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.15
 :folios: 0291, 0292
+:folio: 0291
+:page: 277
 :pages: 277, 278
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.post.4, I.cn.1, I.cn.3, I.13
 

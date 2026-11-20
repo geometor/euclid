@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.21
 :folios: 0246
+:folio: 0246
+:page: 240
 :pages: 240
 
 .. _VI.21.commentary:

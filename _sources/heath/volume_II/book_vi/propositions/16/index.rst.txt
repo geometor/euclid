@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.16
 :folios: 0227, 0228
+:folio: 0227
+:page: 221
 :pages: 221, 222
 :dependencies: I.def.4, II.def.1, V.def.6, VI.14
 

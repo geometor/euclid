@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.5
 :folios: 0266, 0267, 0268, 0269
+:folio: 0266
+:page: 252
 :pages: 252, 253, 254, 255
 
 .. _I.5.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.5
 =============================
 
 Back to :ref:`Proposition I.5 <I.5>`.
+
+.. _folio-i-0266:
 
 .. folio:: 0266
    :page: 252
@@ -25,6 +29,8 @@ A pre-Euclidean proof of I. 5.
 One of the most interesting of the passages in :person:`Aristotle <aristotle>` indicating differences between Euclid's proofs and those with which :person:`Aristotle <aristotle>` was familiar, in other words, those of the text-books immediately preceding Euclid's, has reference to the theorem of I. 5. The passage (:cite:`*Anal. Prior.* I. 24, 41 b 13—22 <aristotle:anal-prior:I.24.41b13-22>`) is so important that I must quote it in full. :person:`Aristotle <aristotle>` is illustrating the fact that in any syllogism one of the propositions must be affirmative and *universal* (καθόλου). “This,” he says, “is better shown in the case of geometrical propositions” (ἐν τοῖς διαγράμμασιν), e.g. the proposition that *the angles at the base of an isosceles triangle are equal.*
 
 “For let :g:`A <0267.g1:A; 0267.g1:/ O A />`, :g:`B <0267.g1:B; 0267.g1:/ O B />` be drawn [i.e. joined] to the centre.
+
+.. _folio-i-0267:
 
 .. folio:: 0267
    :page: 253
@@ -47,6 +53,8 @@ But the most significant facts to be gathered from the extract are that in the t
 But it is remarkable enough that the second proposition (that *the two “angles of” any segment of a circle are equal*) should, in earlier text-books, have been placed before the theorem of Eucl. I. 5. We can hardly suppose it to have been proved otherwise than by the superposition of the semicircles into which the circle is divided by the diameter which bisects at right angles the base of the segment; and no doubt the proof would be closely connected with that of Thales' other proposition that any diameter of a circle bisects it, which must also (as :person:`Proclus <proclus>` indicates) have been proved by superposing one of the two parts upon the other.
 
 It is a natural inference from the passage of :person:`Aristotle <aristotle>` that Euclid's proof of
+
+.. _folio-i-0268:
 
 .. folio:: 0268
    :page: 254
@@ -84,6 +92,8 @@ This will no doubt be recognised as the foundation of the alternative proof freq
 
 It seems to me that the form given to the proof by :person:`Pappus <pappus>` himself is by far the best, for the reasons (1) that it assumes no construction of a second triangle, real or hypothetical, (2) that it avoids the distinct awkwardness involved by a proof which, instead of merely quoting and applying the *result* of a previous proposition, repeats, with reference to a new set of data, the *process* by which that result was established. If it is asked how we are to realise Pappus' idea of *two* triangles, surely we may answer that we keep to one triangle and merely view it in two aspects. If it were a question of helping a beginner to understand this, we might say that one triangle is the triangle
 looked at in front and that the other triangle is the *same* triangle looked at from *behind*; but even this is not really necessary.
+
+.. _folio-i-0269:
 
 .. folio:: 0269
    :page: 255

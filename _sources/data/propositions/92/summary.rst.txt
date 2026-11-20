@@ -2,6 +2,8 @@
 :breadcrumb_title: D.92
 :type: summary
 :title: Proposition 92 — Analytical Summary
+:folio: Menge 178
+:page: 178
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 92 [ϙβ΄ · Prop. Prop. XCVI] — Analytical Summary

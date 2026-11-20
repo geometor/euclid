@@ -2,6 +2,8 @@
 :breadcrumb_title: D.57
 :type: summary
 :title: Proposition 57 — Analytical Summary
+:folio: Menge 102
+:page: 102
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 57 [νζ΄ · Prop. Prop. LXI] — Analytical Summary

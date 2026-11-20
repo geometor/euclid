@@ -2,6 +2,8 @@
 :breadcrumb_title: D.80
 :type: summary
 :title: Proposition 80 — Analytical Summary
+:folio: Menge 154
+:page: 154
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 80 [π΄ · Prop. Prop. LXXVIII] — Analytical Summary

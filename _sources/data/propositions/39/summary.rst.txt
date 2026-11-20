@@ -2,6 +2,8 @@
 :breadcrumb_title: D.39
 :type: summary
 :title: Proposition 39 — Analytical Summary
+:folio: Menge 66
+:page: 66
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-3-summary:

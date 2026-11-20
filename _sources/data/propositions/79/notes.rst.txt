@@ -2,6 +2,8 @@
 :breadcrumb_title: D.79
 :type: notes
 :title: Proposition 79 — Philological & Critical Notes
+:folio: Menge 152
+:page: 152
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 79 [οθ΄ · Prop. Prop. LXXVII Cor. 1] — Philological Notes

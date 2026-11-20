@@ -2,6 +2,8 @@
 :breadcrumb_title: D.72
 :type: notes
 :title: Proposition 72 — Philological & Critical Notes
+:folio: Menge 136
+:page: 136
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 72 [οβ΄ · Prop. Prop. LXVIII Cor. 2] — Philological Notes

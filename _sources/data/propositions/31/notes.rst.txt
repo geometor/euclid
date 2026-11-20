@@ -2,6 +2,8 @@
 :breadcrumb_title: D.31
 :type: notes
 :title: Proposition 31 — Philological & Critical Notes
+:folio: Menge 50
+:page: 50
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 31 [λα΄ · Prop. Prop. XXXIV] — Philological Notes

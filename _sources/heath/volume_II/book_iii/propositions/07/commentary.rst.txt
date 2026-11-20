@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.7
 :folios: 0021, 0022, 0023
+:folio: 0021
+:page: 15
 :pages: 15, 16, 17
 
 .. _III.7.commentary:

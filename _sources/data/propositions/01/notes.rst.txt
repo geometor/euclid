@@ -2,6 +2,8 @@
 :breadcrumb_title: D.1
 :type: notes
 :title: Proposition 1 — Philological & Critical Notes
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _data-unit-1-notes:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XIII.16
 :folios: 0490, 0491, 0492, 0493, 0494, 0495, 0496
+:folio: 0490
+:page: 486
 :pages: 486, 487, 488, 489, 490, 491, 492
 
 .. _XIII.16.commentary:

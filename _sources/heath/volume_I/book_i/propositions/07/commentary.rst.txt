@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.7
 :folios: 0273, 0274, 0275
+:folio: 0273
+:page: 259
 :pages: 259, 260, 261
 
 .. _I.7.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.7
 =============================
 
 Back to :ref:`Proposition I.7 <I.7>`.
+
+.. _folio-i-0273:
 
 .. folio:: 0273
    :page: 259
@@ -23,6 +27,8 @@ The reason why :person:`Euclid <euclid>` allowed himself to use, in this enuncia
 
 If a paraphrase is allowed instead of a translation adhering as closely as possible to the original, Simson’s is the best that could be found, since the fact that the straight lines form *triangles on the same base* is really conveyed in the Greek. Simson’s enunciation is, *Upon the same base, and on the same side of it, there cannot be two triangles that have their sides which are terminated in one extremity of the base equal to one another, and likewise those which are terminated at the other extremity.* Th. Taylor (the translator of :person:`Proclus <proclus>`) attacks Simson’s alteration as “indiscreet” and as detracting from the beauty and accuracy of Euclid’s enunciation which are enlarged upon by :person:`Proclus <proclus>` in his commentary. Yet, when Taylor says “Whatever difficulty learners may find in conceiving this proposition abstractedly is easily removed by its exposition in the figure,” he really gives his case away. The fact is that Taylor, always enthusiastic over his author, was nettled by Simson’s slighting remarks on :person:`Proclus <proclus>`’ comments on the proposition. :person:`Simson <simson>` had said, with reference to :person:`Proclus <proclus>`’ explanation of the bearing of the second part of I. 5 on I. 7, that it was not “worth while
 to relate his trifles at full length,” to which Taylor retorts “But Mr :person:`Simson <simson>` was no philosopher; and therefore the greatest part of these Commentaries must be considered by him as trifles, from the want of a philosophic genius to comprehend their meaning, and a taste superior to that of a mere mathematician, to discover their beauty and elegance.”
+
+.. _folio-i-0274:
 
 .. folio:: 0274
    :page: 260
@@ -45,6 +51,8 @@ Again, since :g:`DB <0274.g1:/ D B />` is equal to :g:`CB <0274.g1:/ C B />`, th
 Therefore the same angle :g:`BDC <0274.g1:< B D C )>` is both greater than and equal to the angle :g:`BCD <0274.g1:< B C D )>`: which is impossible.
 
 The case in which :g:`D <0274.g1:D>` falls on :g:`AC <0274.g1:/ A C />` or :g:`BC <0274.g1:/ B C />` does not require proof.
+
+.. _folio-i-0275:
 
 .. folio:: 0275
    :page: 261

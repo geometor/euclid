@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book V Definitions
 :folios: 0119, 0120, 0121
+:folio: 0119
+:page: 113
 :pages: 113, 114, 115
 :dependencies: V.def.1, V.def.2, V.def.3, V.def.5, V.def.6, V.def.11
 

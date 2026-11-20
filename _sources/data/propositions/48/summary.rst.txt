@@ -2,6 +2,8 @@
 :breadcrumb_title: D.48
 :type: summary
 :title: Proposition 48 — Analytical Summary
+:folio: Menge 84
+:page: 84
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 48 [μη΄ · Prop. Prop. LII] — Analytical Summary

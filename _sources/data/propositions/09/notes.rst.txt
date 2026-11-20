@@ -2,6 +2,8 @@
 :breadcrumb_title: D.9
 :type: notes
 :title: Proposition 9 — Philological & Critical Notes
+:folio: Menge 14
+:page: 14
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 9 [θ΄ · Prop. Prop. X] — Philological Notes

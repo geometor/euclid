@@ -2,6 +2,8 @@
 :breadcrumb_title: D.49
 :type: notes
 :title: Proposition 49 — Philological & Critical Notes
+:folio: Menge 88
+:page: 88
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 49 [μθ΄ · Prop. Prop. LIII] — Philological Notes

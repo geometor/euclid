@@ -2,6 +2,8 @@
 :breadcrumb_title: D.51
 :type: summary
 :title: Proposition 51 — Analytical Summary
+:folio: Menge 92
+:page: 92
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 51 [να΄ · Prop. Prop. LV] — Analytical Summary

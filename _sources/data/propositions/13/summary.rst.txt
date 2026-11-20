@@ -2,6 +2,8 @@
 :breadcrumb_title: D.13
 :type: summary
 :title: Proposition 13 — Analytical Summary
+:folio: Menge 24
+:page: 24
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 13 [ιγ΄ · Prop. Prop. XXIV] — Analytical Summary

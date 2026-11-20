@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.36
 :folios: 0362
+:folio: 0362
+:page: 358
 :pages: 358
 
 .. _XI.36.commentary:

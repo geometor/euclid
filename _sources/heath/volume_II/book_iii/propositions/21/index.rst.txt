@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.21
 :folios: 0055
+:folio: 0055
+:page: 49
 :pages: 49
 :dependencies: I.def.8, I.def.15, III.20
 

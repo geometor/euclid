@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.103
 :folios: 0233, 0234, 0235
+:folio: 0233
+:page: 229
 :pages: 229, 230, 231
 :dependencies: I.def.4, V.12, V.16, VI.12, X.def.1, X.def.2, X.11, X.12, X.13, X.14, X.73
 

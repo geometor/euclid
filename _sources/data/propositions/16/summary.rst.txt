@@ -2,6 +2,8 @@
 :breadcrumb_title: D.16
 :type: summary
 :title: Proposition 16 — Analytical Summary
+:folio: Menge 30
+:page: 30
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 16 [ιϛ΄ · Prop. Prop. XX] — Analytical Summary

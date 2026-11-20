@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.11
 :folios: 0369, 0370
+:folio: 0369
+:page: 363
 :pages: 363, 364
 
 .. _VIII.11.commentary:

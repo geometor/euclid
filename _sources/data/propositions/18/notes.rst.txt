@@ -2,6 +2,8 @@
 :breadcrumb_title: D.18
 :type: notes
 :title: Proposition 18 — Philological & Critical Notes
+:folio: Menge 32
+:page: 32
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 18 [ιη΄ · Prop. Prop. XXVI] — Philological Notes

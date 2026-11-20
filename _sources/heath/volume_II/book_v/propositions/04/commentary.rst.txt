@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition V.4
 :folios: 0149, 0150, 0151
+:folio: 0149
+:page: 143
 :pages: 143, 144, 145
 
 .. _V.4.commentary:

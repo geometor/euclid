@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XIII.7
 :folios: 0457
+:folio: 0457
+:page: 453
 :pages: 453
 
 .. _XIII.7.commentary:

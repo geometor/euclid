@@ -2,6 +2,8 @@
 :breadcrumb_title: D.67
 :type: summary
 :title: Proposition 67 — Analytical Summary
+:folio: Menge 120
+:page: 120
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 67 [ξζ΄ · Prop. Prop. LXXVI] — Analytical Summary

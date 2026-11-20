@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.2
 :folios: 0391
+:folio: 0391
+:page: 385
 :pages: 385
 :dependencies: VII.def.2, VII.def.15, VII.def.18, VII.def.21, VII.17, VIII.8, VIII.18, VIII.20
 

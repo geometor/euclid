@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.5
 :folios: 0393, 0394
+:folio: 0393
+:page: 387
 :pages: 387, 388
 :dependencies: VII.def.2, VII.def.15, VII.def.19, VII.17, VIII.8, VIII.19, VIII.23, IX.3
 

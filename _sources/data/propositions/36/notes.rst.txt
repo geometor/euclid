@@ -2,6 +2,8 @@
 :breadcrumb_title: D.36
 :type: notes
 :title: Proposition 36 — Philological & Critical Notes
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 36 [λϛ΄ · Prop. Prop. XXXIX (pt. 2)] — Philological Notes

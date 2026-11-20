@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.27
 :folios: 0064, 0065
+:folio: 0064
+:page: 60
 :pages: 60, 61
 :dependencies: I.def.4, II.def.1, V.16, VI.12, VI.13, VI.17, X.def.2, X.def.3, X.11, X.21, X.23
 

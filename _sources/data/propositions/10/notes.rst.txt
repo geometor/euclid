@@ -2,6 +2,8 @@
 :breadcrumb_title: D.10
 :type: notes
 :title: Proposition 10 — Philological & Critical Notes
+:folio: Menge 16
+:page: 16
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 10 [ι΄ · Prop. Prop. XVI] — Philological Notes

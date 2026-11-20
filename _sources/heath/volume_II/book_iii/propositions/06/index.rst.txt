@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.6
 :folios: 0019
+:folio: 0019
+:page: 13
 :pages: 13
 :dependencies: I.def.15, I.def.16, III.def.3
 

@@ -4,6 +4,8 @@
 :type: section
 :title: Ancient Extensions of the Theory of Book X
 :folios: 0259, 0260, 0261, 0262, 0263
+:folio: 0259
+:page: 255
 :pages: 255, 256, 257, 258, 259
 :dependencies: X.72, X.108
 

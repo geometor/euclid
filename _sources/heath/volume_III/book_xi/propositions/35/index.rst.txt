@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.35
 :folios: 0356, 0357, 0358
+:folio: 0356
+:page: 352
 :pages: 352, 353, 354
 :dependencies: I.def.1, I.def.4, I.def.7, I.def.8, I.def.10, I.4, I.8, I.26, I.47, I.48, XI.8
 

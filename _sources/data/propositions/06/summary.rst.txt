@@ -2,6 +2,8 @@
 :breadcrumb_title: D.6
 :type: summary
 :title: Proposition 6 — Analytical Summary
+:folio: Menge 10
+:page: 10
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 6 [Ϛ΄ · Prop. Prop. VII] — Analytical Summary

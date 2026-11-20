@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.16
 :folios: 0045, 0046, 0047, 0048, 0049
+:folio: 0045
+:page: 39
 :pages: 39, 40, 41, 42, 43
 
 .. _III.16.commentary:

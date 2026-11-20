@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition II.1
 :folios: 0389, 0390
+:folio: 0389
+:page: 375
 :pages: 375, 376
 :dependencies: I.def.4, I.3, I.11, I.31, I.34, II.def.1
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.47
 :type: summary
 :title: Proposition 47 — Analytical Summary
+:folio: Menge 84
+:page: 84
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 47 [μζ΄ · Prop. Prop. LI] — Analytical Summary

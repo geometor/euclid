@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 14
 :type: summary
 :title: Definition 14 — Analytical Summary
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 14 [ιδ΄ · Omitted (late scholium; bracketed by Menge)]**: Erected Line / Anēgmenē [Scholium]

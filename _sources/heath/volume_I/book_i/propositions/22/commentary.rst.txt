@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.22
 :folios: 0307, 0308
+:folio: 0307
+:page: 293
 :pages: 293, 294
 
 .. _I.22.commentary:
@@ -14,6 +16,8 @@ Commentary on Proposition I.22
 
 Back to :ref:`Proposition I.22 <I.22>`.
 
+.. _folio-i-0307:
+
 .. folio:: 0307
    :page: 293
 
@@ -21,6 +25,8 @@ It was early observed that :person:`Euclid <euclid>` assumes, without giving any
 
 :person:`Simson <simson>` says: “Some authors blame :person:`Euclid <euclid>` because he does not demonstrate that the two circles made use of in the construction of this problem must cut one another: but this is very plain from the determination he has given, namely, that any two of the straight lines :g:`DF <0306.g1:/ D F />`, :g:`FG <0306.g1:/ F G />`, :g:`GH <0306.g1:/ G H />` must be greater than the third. For who is so dull, though only beginning to learn the Elements, as not to perceive that the circle described from the centre :g:`F <0306.g1:F>`, at the distance :g:`FD <0306.g1:/ F D />`, must meet :g:`FH <0306.g1:/ F H />` betwixt :g:`F <0306.g1:F>` and :g:`H <0306.g1:H>`, because :g:`FD <0306.g1:/ F D />` is less than :g:`FH <0306.g1:/ F H />`; and that, for the like reason, the circle described from the
 centre :g:`G <0306.g1:G>` at the distance :g:`GH <0306.g1:/ G H />` must meet :g:`DG <0306.g1:/ D G />` betwixt :g:`D <0306.g1:D>` and :g:`G <0306.g1:G>`; and that these circles must meet one another, because :g:`FD <0306.g1:/ F D />` and :g:`GH <0306.g1:/ G H />` are together greater than :g:`FG <0306.g1:/ F G />`.”
+
+.. _folio-i-0308:
 
 .. folio:: 0308
    :page: 294

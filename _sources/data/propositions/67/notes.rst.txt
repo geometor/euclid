@@ -2,6 +2,8 @@
 :breadcrumb_title: D.67
 :type: notes
 :title: Proposition 67 — Philological & Critical Notes
+:folio: Menge 120
+:page: 120
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 67 [ξζ΄ · Prop. Prop. LXXVI] — Philological Notes

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.12
 :type: summary
 :title: Proposition 12 — Analytical Summary
+:folio: Menge 22
+:page: 22
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 12 [ιβ΄ · Prop. Prop. V] — Analytical Summary

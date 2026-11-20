@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.35
 :folios: 0079
+:folio: 0079
+:page: 73
 :pages: 73
 
 .. _III.35.commentary:

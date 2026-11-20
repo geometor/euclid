@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.27
 :folios: 0334
+:folio: 0334
+:page: 328
 :pages: 328
 :dependencies: VII.def.2, VII.def.12, VII.def.15, VII.25, VII.26
 

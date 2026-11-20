@@ -2,6 +2,8 @@
 :breadcrumb_title: D.73
 :type: summary
 :title: Proposition 73 — Analytical Summary
+:folio: Menge 138
+:page: 138
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 73 [ογ΄ · Prop. Prop. LXIV (pt. 2)] — Analytical Summary

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.28
 :folios: 0324, 0325
+:folio: 0324
+:page: 310
 :pages: 310, 311
 
 .. _I.28.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.28
 ==============================
 
 Back to :ref:`Proposition I.28 <I.28>`.
+
+.. _folio-i-0324:
 
 .. folio:: 0324
    :page: 310
@@ -31,6 +35,8 @@ Taking (1) the possible pairs on the *same* side, we may have a pair consisting 
 *(b)* two external angles, viz. the pairs (:g:`EGB <0324.g2:< E G B )>`, :g:`DHF <0324.g2:< D H F )>`) and (:g:`EGA <0324.g2:< E G A )>`, :g:`CHF <0324.g2:< C H F )>`);
 
 *(c)* one external and one internal angle, viz. the pairs (:g:`EGB <0324.g2:< E G B )>`, :g:`GHD <0324.g2:< G H D )>`), (:g:`FHD <0324.g2:< F H D )>`, :g:`HGB <0324.g2:< H G B )>`), (:g:`EGA <0324.g2:< E G A )>`, :g:`GHC <0324.g2:< G H C )>`) and (:g:`FHC <0324.g2:< F H C )>`, :g:`HGA <0324.g2:< H G A )>`).
+
+.. _folio-i-0325:
 
 .. folio:: 0325
    :page: 311

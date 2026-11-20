@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.25
 :folios: 0260, 0261
+:folio: 0260
+:page: 254
 :pages: 254, 255
 
 .. _VI.25.commentary:

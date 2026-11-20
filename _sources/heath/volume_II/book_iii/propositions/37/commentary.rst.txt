@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.37
 :folios: 0082, 0083
+:folio: 0082
+:page: 76
 :pages: 76, 77
 
 .. _III.37.commentary:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.11
 :folios: 0317, 0318
+:folio: 0317
+:page: 311
 :pages: 311, 312
 
 .. _VII.11.commentary:

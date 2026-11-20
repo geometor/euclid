@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition III.35
 :folios: 0077, 0078
+:folio: 0077
+:page: 71
 :pages: 71, 72
 :dependencies: I.def.4, I.def.15, I.47, II.def.1, II.5, III.3
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.24
 :type: summary
 :title: Proposition 24 — Analytical Summary
+:folio: Menge 44
+:page: 44
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 24 [κδ΄ · Prop. Prop. XIII] — Analytical Summary

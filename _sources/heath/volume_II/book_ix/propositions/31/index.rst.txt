@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.31
 :folios: 0423, 0424
+:folio: 0423
+:page: 417
 :pages: 417, 418
 :dependencies: VII.def.2, VII.def.7, VII.def.12, IX.30
 

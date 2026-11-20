@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.28
 :folios: 0266, 0267, 0268
+:folio: 0266
+:page: 260
 :pages: 260, 261, 262
 :dependencies: I.def.4, I.def.14, I.def.19, I.36, II.def.2, VI.18, VI.21, VI.25, VI.26
 

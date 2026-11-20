@@ -4,6 +4,8 @@
 :type: introductory_note
 :title: Book VI Introductory Note
 :folios: 0193
+:folio: 0193
+:page: 187
 :pages: 187
 
 .. _VI.intro:

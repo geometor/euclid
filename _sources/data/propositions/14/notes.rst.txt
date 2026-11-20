@@ -2,6 +2,8 @@
 :breadcrumb_title: D.14
 :type: notes
 :title: Proposition 14 — Philological & Critical Notes
+:folio: Menge 26
+:page: 26
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 14 [ιδ΄ · Prop. Prop. XVIII] — Philological Notes

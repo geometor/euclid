@@ -2,6 +2,8 @@
 :breadcrumb_title: D.79
 :type: summary
 :title: Proposition 79 — Analytical Summary
+:folio: Menge 152
+:page: 152
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 79 [οθ΄ · Prop. Prop. LXXVII Cor. 1] — Analytical Summary

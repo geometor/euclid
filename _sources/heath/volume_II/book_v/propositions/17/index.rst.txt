@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.17
 :folios: 0172, 0173, 0174
+:folio: 0172
+:page: 166
 :pages: 166, 167, 168
 :dependencies: I.def.2, V.def.6, V.def.14, V.def.15, V.1, V.2
 

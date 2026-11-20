@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.36
 :folios: 0430, 0431, 0432
+:folio: 0430
+:page: 424
 :pages: 424, 425, 426
 
 .. _IX.36.commentary:

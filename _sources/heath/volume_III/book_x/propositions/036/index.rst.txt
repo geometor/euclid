@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.36
 :folios: 0087
+:folio: 0087
+:page: 83
 :pages: 83
 :dependencies: I.def.4, II.4, V.def.14, X.def.2, X.def.3, X.def.4, X.6, X.11, X.13, X.15, X.16
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.57
 :type: notes
 :title: Proposition 57 — Philological & Critical Notes
+:folio: Menge 102
+:page: 102
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 57 [νζ΄ · Prop. Prop. LXI] — Philological Notes

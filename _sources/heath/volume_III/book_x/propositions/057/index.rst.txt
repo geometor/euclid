@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.57
 :folios: 0129, 0130, 0131
+:folio: 0129
+:page: 125
 :pages: 125, 126, 127
 :dependencies: I.def.4, VI.1, X.def.3, X.def.ii.4, X.11, X.13, X.18, X.19, X.21, X.39
 

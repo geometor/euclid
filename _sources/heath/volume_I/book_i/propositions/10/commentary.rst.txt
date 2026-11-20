@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.10
 :folios: 0282
+:folio: 0282
+:page: 268
 :pages: 268
 
 .. _I.10.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.10
 ==============================
 
 Back to :ref:`Proposition I.10 <I.10>`.
+
+.. _folio-i-0282:
 
 .. folio:: 0282
    :page: 268

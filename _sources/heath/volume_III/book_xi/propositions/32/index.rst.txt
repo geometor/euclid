@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.32
 :folios: 0345
+:folio: 0345
+:page: 341
 :pages: 341
 :dependencies: I.45, VI.def.4, XI.def.1, XI.25, XI.31
 

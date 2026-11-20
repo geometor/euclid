@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.20
 :folios: 0053
+:folio: 0053
+:page: 49
 :pages: 49
 :dependencies: I.def.4, VI.1, X.def.1, X.def.3, X.def.4, X.11
 

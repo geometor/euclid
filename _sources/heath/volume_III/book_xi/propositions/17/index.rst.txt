@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.17
 :folios: 0305, 0306
+:folio: 0305
+:page: 301
 :pages: 301, 302
 :dependencies: I.def.4, V.def.3, V.11, VI.2, XI.def.8, XI.16
 

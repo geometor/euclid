@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IV.12
 :folios: 0110
+:folio: 0110
+:page: 104
 :pages: 104
 
 .. _IV.12.commentary:

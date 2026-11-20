@@ -2,6 +2,8 @@
 :breadcrumb_title: D.46
 :type: notes
 :title: Proposition 46 — Philological & Critical Notes
+:folio: Menge 84
+:page: 84
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 46 [μϛ΄ · Prop. Prop. XLIX] — Philological Notes

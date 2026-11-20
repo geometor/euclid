@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition II.14
 :folios: 0424
+:folio: 0424
+:page: 410
 :pages: 410
 
 .. _II.14.commentary:

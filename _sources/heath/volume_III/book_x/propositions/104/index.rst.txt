@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.104
 :folios: 0235, 0236
+:folio: 0235
+:page: 231
 :pages: 231, 232
 :dependencies: I.def.4, V.12, V.16, VI.12, X.def.1, X.def.4, X.11, X.13, X.23, X.74, X.75
 

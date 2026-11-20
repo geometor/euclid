@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.13
 :folios: 0471, 0472, 0473, 0474
+:folio: 0471
+:page: 467
 :pages: 467, 468, 469, 470
 :dependencies: I.def.22, I.4, III.1, III.31, IV.2, V.def.16, VI.8, VI.17, XI.def.3, XI.def.12, XI.def.14, XI.def.15, XI.def.17, XI.12, XIII.12
 

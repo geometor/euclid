@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.77
 :folios: 0168
+:folio: 0168
+:page: 164
 :pages: 164
 :dependencies: I.def.4, I.def.22, II.def.1, II.7, X.def.2, X.def.3, X.16, X.34
 

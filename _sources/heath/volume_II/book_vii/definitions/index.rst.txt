@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book VII Definitions
 :folios: 0283, 0284
+:folio: 0283
+:page: 277
 :pages: 277, 278
 :dependencies: V.def.1, V.def.6, VII.def.1, VII.def.2, VII.def.3, VII.def.4, VII.def.5, VII.def.6, VII.def.7, VII.def.15
 

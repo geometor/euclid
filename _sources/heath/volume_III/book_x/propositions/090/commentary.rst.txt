@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.90
 :folios: 0194
+:folio: 0194
+:page: 190
 :pages: 190
 
 .. _X.90.commentary:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.4
 :folios: 0028
+:folio: 0028
+:page: 24
 :pages: 24
 
 .. _X.4.commentary:

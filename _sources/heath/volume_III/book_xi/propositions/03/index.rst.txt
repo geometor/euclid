@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.3
 :folios: 0280
+:folio: 0280
+:page: 276
 :pages: 276
 :dependencies: I.def.4, I.def.7
 

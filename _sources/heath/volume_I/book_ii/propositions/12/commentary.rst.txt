@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition II.12
 :folios: 0418, 0419, 0420
+:folio: 0418
+:page: 404
 :pages: 404, 405, 406
 
 .. _II.12.commentary:

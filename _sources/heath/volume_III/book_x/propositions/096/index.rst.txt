@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.96
 :folios: 0213, 0214, 0215
+:folio: 0213
+:page: 209
 :pages: 209, 210, 211
 :dependencies: I.def.4, VI.1, VI.26, X.def.3, X.def.iii.6, X.11, X.18, X.21, X.78
 

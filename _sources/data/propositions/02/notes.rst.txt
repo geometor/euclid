@@ -2,6 +2,8 @@
 :breadcrumb_title: D.2
 :type: notes
 :title: Proposition 2 — Philological & Critical Notes
+:folio: Menge 4
+:page: 4
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 2 [β΄ · Prop. Prop. II] — Philological Notes

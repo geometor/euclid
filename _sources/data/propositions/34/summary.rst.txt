@@ -2,6 +2,8 @@
 :breadcrumb_title: D.34
 :type: summary
 :title: Proposition 34 — Analytical Summary
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 34 [λδ΄ · Prop. Prop. XXXVIII] — Analytical Summary

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.12
 :type: notes
 :title: Proposition 12 — Philological & Critical Notes
+:folio: Menge 22
+:page: 22
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 12 [ιβ΄ · Prop. Prop. V] — Philological Notes

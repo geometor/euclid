@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.9
 :folios: 0217, 0218
+:folio: 0217
+:page: 211
 :pages: 211, 212
 :dependencies: I.def.4, I.3, I.31, VI.2
 

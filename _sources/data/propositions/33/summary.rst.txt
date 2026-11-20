@@ -2,6 +2,8 @@
 :breadcrumb_title: D.33
 :type: summary
 :title: Proposition 33 — Analytical Summary
+:folio: Menge 54
+:page: 54
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 33 [λγ΄ · Prop. Prop. XXXVI] — Analytical Summary

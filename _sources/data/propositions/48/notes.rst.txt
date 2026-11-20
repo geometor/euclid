@@ -2,6 +2,8 @@
 :breadcrumb_title: D.48
 :type: notes
 :title: Proposition 48 — Philological & Critical Notes
+:folio: Menge 84
+:page: 84
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 48 [μη΄ · Prop. Prop. LII] — Philological Notes

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.24
 :folios: 0420, 0421
+:folio: 0420
+:page: 414
 :pages: 414, 415
 :dependencies: VII.def.6
 

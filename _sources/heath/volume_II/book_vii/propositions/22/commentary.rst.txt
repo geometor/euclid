@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.22
 :folios: 0330
+:folio: 0330
+:page: 324
 :pages: 324
 
 .. _VII.22.commentary:

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.58
 :type: notes
 :title: Proposition 58 — Philological & Critical Notes
+:folio: Menge 104
+:page: 104
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 58 [νη΄ · Prop. Prop. LXXXIII] — Philological Notes

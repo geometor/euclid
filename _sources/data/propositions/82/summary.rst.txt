@@ -2,6 +2,8 @@
 :breadcrumb_title: D.82
 :type: summary
 :title: Proposition 82 — Analytical Summary
+:folio: Menge 160
+:page: 160
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 82 [πβ΄ · Prop. Prop. LXXII] — Analytical Summary

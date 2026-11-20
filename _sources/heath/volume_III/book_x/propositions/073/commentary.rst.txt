@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.73
 :folios: 0163
+:folio: 0163
+:page: 159
 :pages: 159
 
 .. _X.73.commentary:

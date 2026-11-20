@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VII.31
 :folios: 0338, 0339
+:folio: 0338
+:page: 332
 :pages: 332, 333
 :dependencies: V.def.1, VII.def.11, VII.def.13
 

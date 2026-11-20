@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.39
 :folios: 0368
+:folio: 0368
+:page: 364
 :pages: 364
 
 .. _XI.39.commentary:

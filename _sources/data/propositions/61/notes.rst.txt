@@ -2,6 +2,8 @@
 :breadcrumb_title: D.61
 :type: notes
 :title: Proposition 61 — Philological & Critical Notes
+:folio: Menge 108
+:page: 108
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 61 [ξα΄ · Prop. Prop. LXIX] — Philological Notes

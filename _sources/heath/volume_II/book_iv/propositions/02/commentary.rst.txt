@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IV.2
 :folios: 0088, 0089
+:folio: 0088
+:page: 82
 :pages: 82, 83
 
 .. _IV.2.commentary:

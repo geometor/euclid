@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.67
 :folios: 0151, 0152
+:folio: 0151
+:page: 147
 :pages: 147, 148
 :dependencies: I.def.4, V.11, V.16, V.19, X.def.1, X.11, X.23, X.37, X.38
 

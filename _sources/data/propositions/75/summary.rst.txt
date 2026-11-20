@@ -2,6 +2,8 @@
 :breadcrumb_title: D.75
 :type: summary
 :title: Proposition 75 — Analytical Summary
+:folio: Menge 144
+:page: 144
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 75 [οε΄ · Prop. Prop. LXIV Cor.] — Analytical Summary

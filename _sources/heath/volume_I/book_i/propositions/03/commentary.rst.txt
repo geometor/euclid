@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.3
 :folios: 0261
+:folio: 0261
+:page: 247
 :pages: 247
 
 .. _I.3.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.3
 =============================
 
 Back to :ref:`Proposition I.3 <I.3>`.
+
+.. _folio-i-0261:
 
 .. folio:: 0261
    :page: 247

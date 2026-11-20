@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.24
 :folios: 0059
+:folio: 0059
+:page: 55
 :pages: 55
 :dependencies: I.def.4, II.def.1, VI.1, X.def.1, X.11, X.23
 

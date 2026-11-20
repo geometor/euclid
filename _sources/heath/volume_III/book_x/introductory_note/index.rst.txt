@@ -4,6 +4,8 @@
 :type: introductory_note
 :title: Book X Introductory Note
 :folios: 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0013, 0014
+:folio: 0005
+:page: 1
 :pages: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 :dependencies: I.47
 

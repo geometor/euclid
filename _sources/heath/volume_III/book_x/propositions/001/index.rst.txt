@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.1
 :folios: 0018, 0019
+:folio: 0018
+:page: 14
 :pages: 14, 15
 :dependencies: V.def.4, VII.def.5, VII.def.6, VII.def.15
 

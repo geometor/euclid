@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.32
 :folios: 0425
+:folio: 0425
+:page: 419
 :pages: 419
 
 .. _IX.32.commentary:

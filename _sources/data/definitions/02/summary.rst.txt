@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 2
 :type: summary
 :title: Definition 2 — Analytical Summary
+:folio: Menge 2
+:page: 2
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 2 [β΄ · Def. II]**: Given in Ratio

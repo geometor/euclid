@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.24
 :folios: 0189, 0190
+:folio: 0189
+:page: 183
 :pages: 183, 184
 :dependencies: V.def.5, V.18, V.22
 

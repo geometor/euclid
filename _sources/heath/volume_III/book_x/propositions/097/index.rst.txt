@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.97
 :folios: 0216, 0217, 0218
+:folio: 0216
+:page: 212
 :pages: 212, 213, 214
 :dependencies: I.def.4, I.def.22, II.7, VI.1, VI.17, X.def.3, X.def.iii.1, X.11, X.17, X.20, X.22, X.73
 

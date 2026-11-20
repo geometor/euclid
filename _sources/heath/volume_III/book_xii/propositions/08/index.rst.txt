@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.8
 :folios: 0399, 0400, 0401
+:folio: 0399
+:page: 395
 :pages: 395, 396, 397
 :dependencies: V.def.10, V.12, VI.20, XI.def.9, XI.24, XI.28, XI.33, XII.7
 

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.35
 :folios: 0340, 0341
+:folio: 0340
+:page: 326
 :pages: 326, 327
 :dependencies: I.def.8, I.def.19, I.def.22, I.def.23, I.cn.1, I.cn.2, I.cn.3, I.4, I.29, I.34
 

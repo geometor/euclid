@@ -2,6 +2,8 @@
 :breadcrumb_title: D.52
 :type: summary
 :title: Proposition 52 — Analytical Summary
+:folio: Menge 94
+:page: 94
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 52 [νβ΄ · Prop. Prop. LVI] — Analytical Summary

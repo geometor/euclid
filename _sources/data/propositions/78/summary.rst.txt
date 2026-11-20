@@ -2,6 +2,8 @@
 :breadcrumb_title: D.78
 :type: summary
 :title: Proposition 78 — Analytical Summary
+:folio: Menge 148
+:page: 148
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 78 [οη΄ · Prop. Omitted (case of Prop. LXX / D.62)] — Analytical Summary

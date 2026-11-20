@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.92
 :folios: 0198, 0199, 0200, 0201
+:folio: 0198
+:page: 194
 :pages: 194, 195, 196, 197
 :dependencies: I.def.4, V.11, VI.1, VI.17, VI.26, X.def.3, X.def.iii.1, X.def.iii.2, X.11, X.13, X.15, X.17, X.19, X.21, X.73, X.74
 

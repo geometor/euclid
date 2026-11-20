@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.39
 :folios: 0367
+:folio: 0367
+:page: 363
 :pages: 363
 :dependencies: I.def.19, I.34, VI.def.4, XI.def.13, XI.28, XI.31
 

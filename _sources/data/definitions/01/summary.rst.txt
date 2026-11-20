@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 1
 :type: summary
 :title: Definition 1 — Analytical Summary
+:folio: Menge 2
+:page: 2
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 1 [α΄ · Def. I]**: Given in Magnitude

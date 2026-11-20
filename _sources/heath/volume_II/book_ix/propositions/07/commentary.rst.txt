@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition IX.7
 :folios: 0396
+:folio: 0396
+:page: 390
 :pages: 390
 
 .. _IX.7.commentary:

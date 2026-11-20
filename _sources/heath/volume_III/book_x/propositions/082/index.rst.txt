@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.82
 :folios: 0176, 0177
+:folio: 0176
+:page: 172
 :pages: 172, 173
 :dependencies: I.def.4, I.def.22, II.def.1, X.def.2, X.def.3, X.26, X.76
 

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.55
 :type: notes
 :title: Proposition 55 — Philological & Critical Notes
+:folio: Menge 98
+:page: 98
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 55 [νε΄ · Prop. Prop. LX] — Philological Notes

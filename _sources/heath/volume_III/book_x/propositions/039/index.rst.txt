@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.39
 :folios: 0091, 0092
+:folio: 0091
+:page: 87
 :pages: 87, 88
 :dependencies: I.def.4, I.def.22, II.def.1, X.def.2, X.def.3, X.def.4, X.6, X.16, X.23, X.33
 

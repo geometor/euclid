@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XI.21
 :folios: 0314, 0315, 0316
+:folio: 0314
+:page: 310
 :pages: 310, 311, 312
 
 .. _XI.21.commentary:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VIII.14
 :folios: 0374
+:folio: 0374
+:page: 368
 :pages: 368
 
 .. _VIII.14.commentary:

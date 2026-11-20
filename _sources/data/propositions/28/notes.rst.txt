@@ -2,6 +2,8 @@
 :breadcrumb_title: D.28
 :type: notes
 :title: Proposition 28 — Philological & Critical Notes
+:folio: Menge 48
+:page: 48
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 28 [κη΄ · Prop. Prop. XXXI] — Philological Notes

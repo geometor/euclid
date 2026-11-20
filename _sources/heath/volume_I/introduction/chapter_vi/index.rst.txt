@@ -4,6 +4,8 @@
 :type: chapter
 :title: Chapter VI: The Scholia
 :folios: 0078, 0079, 0080, 0081, 0082, 0083, 0084, 0085, 0086, 0087, 0088
+:folio: 0078
+:page: 64
 :pages: 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74
 
 .. _Intro.VI:

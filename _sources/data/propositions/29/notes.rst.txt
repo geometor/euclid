@@ -2,6 +2,8 @@
 :breadcrumb_title: D.29
 :type: notes
 :title: Proposition 29 — Philological & Critical Notes
+:folio: Menge 50
+:page: 50
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 29 [κθ΄ · Prop. Prop. XXXII] — Philological Notes

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.38
 :folios: 0364, 0365, 0366
+:folio: 0364
+:page: 360
 :pages: 360, 361, 362
 :dependencies: I.def.1, I.def.7, I.def.17, I.4, I.14, I.15, I.26, I.29, I.33, XI.def.25, XI.9
 

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.16
 :folios: 0376
+:folio: 0376
+:page: 370
 :pages: 370
 :dependencies: I.def.22, V.def.1, VII.def.18, VIII.14
 

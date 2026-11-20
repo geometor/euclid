@@ -2,6 +2,8 @@
 :breadcrumb_title: D.61
 :type: summary
 :title: Proposition 61 — Analytical Summary
+:folio: Menge 108
+:page: 108
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 61 [ξα΄ · Prop. Prop. LXIX] — Analytical Summary

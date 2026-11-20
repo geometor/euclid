@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.12
 :folios: 0285, 0286, 0287, 0288, 0289
+:folio: 0285
+:page: 271
 :pages: 271, 272, 273, 274, 275
 
 .. _I.12.commentary:
@@ -14,10 +16,14 @@ Commentary on Proposition I.12
 
 Back to :ref:`Proposition I.12 <I.12>`.
 
+.. _folio-i-0285:
+
 .. folio:: 0285
    :page: 271
 
 “This problem,” says :person:`Proclus <proclus>` (:cite:`p. 283, 7—10 <proclus:in-euclid:283.7-10>`), “was first investigated by :person:`Oenopides <oenopides>` [5th cent. B.C.], who thought it useful for astronomy. He however calls the perpendicular, in the archaic manner, (a line drawn)
+
+.. _folio-i-0286:
 
 .. folio:: 0286
    :page: 272
@@ -47,6 +53,8 @@ Lastly, since :g:`CK <0286.g1:/ C K />` is equal to :g:`CG <0286.g1:/ C G />` an
 Since the angles :g:`CGK <0286.g1:< C G K )>`, :g:`CEK <0286.g1:< C E K )>` are equal, it follows that the angles :g:`CKG <0286.g1:< C K G )>`, :g:`CKE <0286.g1:< C K E )>` are equal and therefore both right.
 
 Therefore the angle :g:`CKH <0286.g1:< C K H )>` is equal to the angle :g:`CHK <0286.g1:< C H K )>`, and :g:`CH <0286.g1:/ C H />` is equal to :g:`CK <0286.g1:/ C K />`.
+
+.. _folio-i-0287:
 
 .. folio:: 0287
    :page: 273
@@ -85,6 +93,8 @@ It is natural therefore that, for a proof that in Euclidean space there is only 
 
 But if we wish, after all, to prove the truth of the assumption *without recourse to any later proposition than* I. 12, we can do so by means of this same invaluable I. 7.
 
+.. _folio-i-0288:
+
 .. folio:: 0288
    :page: 274
 
@@ -112,6 +122,8 @@ Then, since :g:`CM <0288.g2:/ C M />` is equal to :g:`CG <0288.g2:/ C G />`, the
 
 :person:`Proclus <proclus>` rightly adds (p. 289, 18 sqq.) that it is not necessary to take :g:`D <0285.g1:D>` on the side of :g:`AB <0285.g1:[ A B ]>` away from :g:`C <0285.g1:C>` if an objector “says that there is no space on
 that side.” If it is not desired to trespass on that side of :g:`AB <0285.g1:[ A B ]>`, we can take :g:`D <0285.g1:D>` anywhere on :g:`AB <0285.g1:[ A B ]>` and describe the arc of a circle between :g:`D <0285.g1:D>` and the point where it meets :g:`AB <0285.g1:[ A B ]>` again, drawing the arc on the side of :g:`AB <0285.g1:[ A B ]>` on which :g:`C <0285.g1:C>` is. If it should happen that the selected point :g:`D <0285.g1:D>` is such that the circle only meets :g:`AB <0285.g1:[ A B ]>` in *one* point (:g:`D <0285.g1:D>` itself), we have only to describe the circle with :g:`CD <0285.g1:/ C D />` as radius, then, if :g:`E <0285.g1:E>` be a point on this circle, take :g:`F <0285.g1:F>` a point further from :g:`C <0285.g1:C>` than :g:`E <0285.g1:E>` is, and describe with :g:`CF <0285.g1:/ C F />` as radius the circular arc meeting :g:`AB <0285.g1:[ A B ]>` in two points.
+
+.. _folio-i-0289:
 
 .. folio:: 0289
    :page: 275

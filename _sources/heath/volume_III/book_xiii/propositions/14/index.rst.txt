@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XIII.14
 :folios: 0478, 0479, 0480
+:folio: 0478
+:page: 474
 :pages: 474, 475, 476
 :dependencies: I.def.22, I.4, I.47, III.31, XI.def.14, XI.def.15, XI.def.17, XI.def.26, XI.12
 

@@ -4,6 +4,8 @@
 :type: historical_note
 :title: Book XIII Historical Note
 :folios: 0442, 0443
+:folio: 0442
+:page: 438
 :pages: 438, 439
 
 .. _XIII.intro:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.12
 :folios: 0284, 0285
+:folio: 0284
+:page: 270
 :pages: 270, 271
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.def.15, I.def.16, I.post.1, I.post.3, I.8, I.10
 

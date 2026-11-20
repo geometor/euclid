@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.33
 :folios: 0279, 0280
+:folio: 0279
+:page: 273
 :pages: 273, 274
 :dependencies: I.def.8, I.def.16, III.def.1, III.def.9, III.27, V.def.5
 

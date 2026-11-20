@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.25
 :folios: 0329, 0330
+:folio: 0329
+:page: 325
 :pages: 325, 326
 :dependencies: I.def.7, I.def.23, V.def.5, VII.def.5, XI.def.1, XI.24
 

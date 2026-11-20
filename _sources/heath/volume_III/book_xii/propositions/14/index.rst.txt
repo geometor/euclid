@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.14
 :folios: 0423
+:folio: 0423
+:page: 419
 :pages: 419
 :dependencies: VI.def.4, XI.def.23, XII.10, XII.11, XII.13
 

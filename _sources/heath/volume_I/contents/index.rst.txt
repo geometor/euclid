@@ -3,6 +3,8 @@
 :type: contents
 :title: Contents of Volume I
 :folios: 0013, 0014
+:folio: 0013
+:page: xi
 :pages: xi, xii
 
 .. _VolI.contents:

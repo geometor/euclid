@@ -2,6 +2,8 @@
 :breadcrumb_title: D.86
 :type: summary
 :title: Proposition 86 — Analytical Summary
+:folio: Menge 168
+:page: 168
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 86 [πϛ΄ · Prop. Prop. LXXXIX (cf. LXXXVII–LXXXVIII)] — Analytical Summary

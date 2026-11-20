@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.32
 :folios: 0075, 0076, 0077
+:folio: 0075
+:page: 71
 :pages: 71, 72, 73
 :dependencies: I.def.4, I.def.22, II.def.1, X.def.1, X.def.2, X.11, X.14, X.21, X.23, X.29, X.30
 

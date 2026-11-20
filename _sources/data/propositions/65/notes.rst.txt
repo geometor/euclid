@@ -2,6 +2,8 @@
 :breadcrumb_title: D.65
 :type: notes
 :title: Proposition 65 — Philological & Critical Notes
+:folio: Menge 118
+:page: 118
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 65 [ξε΄ · Prop. Prop. LXXV] — Philological Notes

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.18
 :folios: 0306, 0307
+:folio: 0306
+:page: 302
 :pages: 302, 303
 :dependencies: I.def.4, I.def.7, I.def.10, I.11, I.28, XI.def.3, XI.def.4, XI.8
 

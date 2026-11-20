@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XII.11
 :folios: 0413
+:folio: 0413
+:page: 409
 :pages: 409
 
 .. _XII.11.commentary:

@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.10
 :folios: 0035, 0036
+:folio: 0035
+:page: 31
 :pages: 31, 32
 :dependencies: I.def.4, V.def.9, X.def.1, X.6, X.9, X.11
 

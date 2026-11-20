@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition V.22
 :folios: 0185, 0186
+:folio: 0185
+:page: 179
 :pages: 179, 180
 :dependencies: V.def.5, V.def.17, V.4, V.20
 

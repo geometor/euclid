@@ -2,6 +2,8 @@
 :breadcrumb_title: Def. 3
 :type: summary
 :title: Definition 3 — Analytical Summary
+:folio: Menge 2
+:page: 2
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 **Definition 3 [γ΄ · Def. III]**: Given in Species

@@ -2,6 +2,8 @@
 :breadcrumb_title: D.65
 :type: summary
 :title: Proposition 65 — Analytical Summary
+:folio: Menge 118
+:page: 118
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 65 [ξε΄ · Prop. Prop. LXXV] — Analytical Summary

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.20
 :folios: 0301, 0302
+:folio: 0301
+:page: 287
 :pages: 287, 288
 
 .. _I.20.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.20
 ==============================
 
 Back to :ref:`Proposition I.20 <I.20>`.
+
+.. _folio-i-0301:
 
 .. folio:: 0301
    :page: 287
@@ -58,6 +62,8 @@ Cut off from :g:`BC <0301.g2:/ B C />` a length :g:`BD <0301.g2:/ B D />` :eq:`e
 Then, in the triangle :g:`ADB <0301.g2:< A D B >>`, the exterior angle :g:`ADC <0301.g2:< A D C )>` is greater than the interior and opposite angle :g:`BAD <0301.g2:< B A D )>`. [I. 16]
 
 Similarly, in the triangle :g:`ADC <0301.g2:< A D C >>`, the exterior angle :g:`ADB <0301.g2:< A D B )>` is greater than the interior and opposite angle :g:`CAD <0301.g2:< C A D )>`.
+
+.. _folio-i-0302:
 
 .. folio:: 0302
    :page: 288

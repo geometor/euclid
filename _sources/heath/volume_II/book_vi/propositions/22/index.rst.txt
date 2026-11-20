@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.22
 :folios: 0246, 0247, 0248
+:folio: 0246
+:page: 240
 :pages: 240, 241, 242
 :dependencies: I.def.4, I.def.19, V.def.6, V.9, V.11, V.22, VI.def.1, VI.11, VI.12, VI.18, VI.19
 

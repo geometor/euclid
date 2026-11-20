@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VIII.20
 :folios: 0381, 0382
+:folio: 0381
+:page: 375
 :pages: 375, 376
 :dependencies: I.def.7, V.def.6, VII.def.2, VII.def.16, VII.def.21, VII.13, VII.17, VII.20, VII.33
 

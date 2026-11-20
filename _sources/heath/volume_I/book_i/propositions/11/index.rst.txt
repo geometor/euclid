@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.11
 :folios: 0283
+:folio: 0283
+:page: 269
 :pages: 269
 :dependencies: I.def.1, I.def.4, I.def.8, I.def.10, I.def.19, I.post.1, I.1, I.3, I.8
 

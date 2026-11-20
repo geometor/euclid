@@ -1,0 +1,33 @@
+:order: 5
+:canonical_id: VI.def.commentary.def_05
+:volume: II
+:book: VI
+:type: commentary
+:title: Commentary on Book VI Definition 5 [Interpolated]
+:folio: 0195
+:folios: 0195, 0196
+:page: 189
+:pages: 189, 190
+
+.. _VI.def.commentary.def_05:
+
+Commentary on Book VI Definition 5 [Interpolated]
+=================================================
+
+Back to :ref:`Book VI Definitions <VI.def>`.
+
+.. container:: center
+
+   Λόγος ἐκ :term:`λόγων <ratio>` συγκεῖσθαι λέγεται, ὅταν αἱ τῶν :term:`λόγων <ratio>` πηλικότητες ἐφ' ἑαυτὰς πολλαπλασιασθεῖσαι ποιῶσί τινα.
+
+“A ratio is said to be compounded of ratios when the sizes (πηλικότητες) of the ratios multiplied together make some (? ratio, or size).”]
+
+As already remarked (pp. 116, 132), it is beyond doubt that this definition of ratio is interpolated. It has little ms. authority. The best ms. (P) only has it in the margin; it is omitted altogether in :person:`Campanus <campanus>`' translation from the
+Arabic; and the other mss. which contain it do not agree in the position which they give to it. There is no reference to the definition in the place where compound ratio is mentioned for the first time (**VI. 23**), nor anywhere else in Euclid; neither is it ever referred to by the other great geometers, :person:`Archimedes <archimedes>`, :person:`Apollonius <apollonius>` and the rest. It appears to be only twice mentioned at all, (1) in the passage of :person:`Eutocius <eutocius>` referred to above (p. 116) and (2) by Theon in his commentary on :person:`Ptolemy <ptolemy>`'s σύνταξις. Moreover the content of the definition is in itself suspicious. It speaks of the “sizes of ratios being multiplied together (literally, into themselves),” an operation unknown to geometry. There is no wonder that :person:`Eutocius <eutocius>`, and apparently Theon also, in their efforts to explain it, had to give the word :term:`πηλικότης <pelikotes>` a meaning which has no application except in the case of such ratios as can be expressed by numbers (:person:`Eutocius <eutocius>` e.g. making it the “number by which the ratio is called”). Nor is it surprising that :person:`Wallis <wallis>` should have found it necessary to substitute for the “quantitas” of Commandinus a different translation, “quantuplicity,” which he said was represented by the “*exponent of the ratio*” (rationis exponens), what :person:`Peletarius <peletier>` had described as “denominatio ipsae proportionis” and :person:`Clavius <clavius>` as “denominator.” The fact is that the definition is ungeometrical and useless, as was already seen by :person:`Savile <savile>`, in whose view it was one of the two blemishes in the body of geometry (the other being of course Postulate 5).
+
+.. _folio-ii-0196:
+
+.. folio:: 0196
+   :page: 190
+
+It is right to add that :person:`Hultsch <hultsch>` (art. “Eukleides” in Pauly-Wissowa's *Real-Encyclopädie der classischen Altertumswissenschaft*) thought the definition genuine. His grounds are (1) that it stood in the παλαιὰ ἔκδοσις represented by P (though P has it in the margin only) and (2) that some explanation on the subject must have been given by way of preparation for **VI. 23**, while there is nothing in the definition which is *inconsistent* with the mode of statement of **VI. 23**. If the definition is after all genuine, I should be inclined to regard it as a mere survival from earlier textbooks, like the first of the two alternative definitions of a solid angle (**XI. Def. 11**); for its form seems to suit the old theory of proportion, applicable to commensurable magnitudes only, better than the generalised theory of :person:`Eudoxus <eudoxus>`.

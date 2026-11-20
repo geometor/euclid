@@ -2,6 +2,8 @@
 :breadcrumb_title: D.63
 :type: notes
 :title: Proposition 63 — Philological & Critical Notes
+:folio: Menge 114
+:page: 114
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 63 [ξγ΄ · Prop. Omitted (case of Prop. LIII)] — Philological Notes

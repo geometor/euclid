@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.39
 :folios: 0350, 0351
+:folio: 0350
+:page: 336
 :pages: 336, 337
 :dependencies: I.def.1, I.def.4, I.def.19, I.def.23, I.cn.1, I.31, I.37
 

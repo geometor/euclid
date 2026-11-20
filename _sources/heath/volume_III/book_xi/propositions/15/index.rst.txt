@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XI.15
 :folios: 0301, 0302
+:folio: 0301
+:page: 297
 :pages: 297, 298
 :dependencies: I.def.4, I.def.7, I.def.23, I.29, I.31, XI.def.3, XI.4, XI.9, XI.11, XI.14
 

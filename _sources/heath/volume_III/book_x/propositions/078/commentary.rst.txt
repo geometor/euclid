@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.78
 :folios: 0171
+:folio: 0171
+:page: 167
 :pages: 167
 
 .. _X.78.commentary:

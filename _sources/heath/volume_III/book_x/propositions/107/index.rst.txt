@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.107
 :folios: 0238
+:folio: 0238
+:page: 234
 :pages: 234
 :dependencies: I.def.4, X.def.1, X.78
 

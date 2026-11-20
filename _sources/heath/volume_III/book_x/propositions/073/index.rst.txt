@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.73
 :folios: 0162, 0163
+:folio: 0162
+:page: 158
 :pages: 158, 159
 :dependencies: I.def.4, II.7, X.def.1, X.def.3, X.def.4, X.6, X.11, X.13, X.15, X.16
 

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition X.102
 :folios: 0233
+:folio: 0233
+:page: 229
 :pages: 229
 
 .. _X.102.commentary:

@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.25
 :folios: 0062
+:folio: 0062
+:page: 56
 :pages: 56
 
 .. _III.25.commentary:

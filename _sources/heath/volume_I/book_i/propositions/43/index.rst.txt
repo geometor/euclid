@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition I.43
 :folios: 0354, 0355
+:folio: 0354
+:page: 340
 :pages: 340, 341
 :dependencies: I.def.17, I.def.19, I.cn.2, I.cn.3, I.34
 

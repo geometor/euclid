@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VII.21
 :folios: 0329
+:folio: 0329
+:page: 323
 :pages: 323
 
 .. _VII.21.commentary:

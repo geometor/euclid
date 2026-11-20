@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.44
 :folios: 0099, 0100, 0101
+:folio: 0099
+:page: 95
 :pages: 95, 96, 97
 :dependencies: I.def.1, I.def.4, II.4, VI.1, X.6, X.11, X.13, X.15, X.22, X.36, X.38
 

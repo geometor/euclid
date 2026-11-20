@@ -2,6 +2,8 @@
 :breadcrumb_title: D.44
 :type: summary
 :title: Proposition 44 — Analytical Summary
+:folio: Menge 78
+:page: 78
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 44 [μδ΄ · Prop. Prop. XLVII] — Analytical Summary

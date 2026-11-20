@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition XII.6
 :folios: 0397
+:folio: 0397
+:page: 393
 :pages: 393
 
 .. _XII.6.commentary:

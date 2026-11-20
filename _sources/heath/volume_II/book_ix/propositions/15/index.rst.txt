@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition IX.15
 :folios: 0410, 0411
+:folio: 0410
+:page: 404
 :pages: 404, 405
 :dependencies: II.3, II.4, V.def.5, V.def.6, V.def.15, VII.def.2, VII.def.12, VII.22, VII.24, VII.25, VII.28, VIII.2
 

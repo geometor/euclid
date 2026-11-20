@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition XII.18
 :folios: 0438, 0439, 0440
+:folio: 0438
+:page: 434
 :pages: 434, 435, 436
 :dependencies: I.def.17, V.def.10, V.16, XI.def.14, XII.2, XII.17
 

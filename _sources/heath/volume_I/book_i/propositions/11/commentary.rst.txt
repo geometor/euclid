@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.11
 :folios: 0283, 0284
+:folio: 0283
+:page: 269
 :pages: 269, 270
 
 .. _I.11.commentary:
@@ -14,11 +16,15 @@ Commentary on Proposition I.11
 
 Back to :ref:`Proposition I.11 <I.11>`.
 
+.. _folio-i-0283:
+
 .. folio:: 0283
    :page: 269
 
 :person:`De Morgan <de-morgan>` remarks that this proposition, which is “to bisect the angle made by a straight line and its continuation” [i.e. a *flat angle*], should be a particular case of I. 9, the constructions being the same. This is certainly
 worth noting, though I doubt the advantage of rearranging the propositions in consequence.
+
+.. _folio-i-0284:
 
 .. folio:: 0284
    :page: 270

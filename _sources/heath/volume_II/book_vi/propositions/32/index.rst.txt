@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition VI.32
 :folios: 0276, 0277
+:folio: 0276
+:page: 270
 :pages: 270, 271
 :dependencies: I.def.4, I.def.8, I.def.19, I.def.23, I.14, I.29, I.32, V.def.6, VI.6
 

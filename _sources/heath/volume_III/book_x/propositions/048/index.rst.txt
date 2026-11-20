@@ -5,6 +5,8 @@
 :type: proposition
 :title: Proposition X.48
 :folios: 0106, 0107
+:folio: 0106
+:page: 102
 :pages: 102, 103
 :dependencies: V.19, X.def.ii.1, X.6, X.9, X.28, X.36
 

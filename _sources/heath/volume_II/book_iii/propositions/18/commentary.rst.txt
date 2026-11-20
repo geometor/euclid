@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition III.18
 :folios: 0051
+:folio: 0051
+:page: 45
 :pages: 45
 
 .. _III.18.commentary:

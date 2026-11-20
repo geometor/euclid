@@ -8,6 +8,10 @@
 Euclid of Alexandria
 ====================
 
+.. image:: _static/medallion.svg
+   :alt: Euclid of Alexandria Medallion
+   :class: repo-medallion-hero
+
 The works of :person:`Euclid of Alexandria <euclid>` (fl. c. 300 BCE) established the axiomatic-deductive architecture and analytic foundations of mathematics for over two millennia through the *Elements* and the *Data*. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these immortal treatises are liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. reference-directory::

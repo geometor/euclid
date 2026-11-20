@@ -4,6 +4,8 @@
 :type: definitions
 :title: Book X Definitions II
 :folios: 0105, 0106
+:folio: 0105
+:page: 101
 :pages: 101, 102
 :dependencies: I.def.4, I.def.22, X.def.1, X.def.3
 

@@ -1,0 +1,37 @@
+:order: 19
+:canonical_id: VII.def.commentary.def_20
+:volume: II
+:book: VII
+:type: commentary
+:title: Commentary on Book VII Definition 20
+:folio: 0298
+:folios: 0298, 0299
+:page: 292
+:pages: 292, 293
+
+.. _VII.def.commentary.def_20:
+
+Commentary on Book VII Definition 20
+====================================
+
+Back to :ref:`Book VII Definitions <VII.def>`.
+
+.. _folio-ii-0298:
+
+.. folio:: 0298
+   :page: 292
+
+
+Ἀριθμοὶ ἀνάλογόν εἰσιν, ὅταν ὁ :term:`πρῶτος <prime-number>` τοῦ δευτέρου καὶ ὁ τρίτος τοῦ τετάρτου :term:`ἰσάκις <isakis>` ᾖ :term:`πολλαπλάσιος <multiple>` ἢ τὸ αὐτὸ :term:`μέρος <part-aliquot>` ἢ τὰ αὐτὰ :term:`μέρη <parts-non-aliquot>` ὦσιν.
+
+Euclid does not give in this Book any definition of *ratio*, doubtless because it could only be the same as that given at the beginning of Book V., with numbers substituted for "homogeneous magnitudes" and "in respect of *size*" (:term:`πηλικότητα <pelikotes>`) omitted or altered. We do not find that :person:`Nicomachus <nicomachus>` and the rest give any substantially different definition of a *ratio* between numbers. :person:`Theon of Smyrna <theon-of-smyrna>` says, in fact (p. 73, 16), that "ratio in the sense of proportion (:term:`λόγος <ratio>` ὁ κατ᾽ :term:`ἀνάλογον <proportional>`) is a sort of relation of two homogeneous terms to one another, as for example, double, triple." Similarly :person:`Nicomachus <nicomachus>` says (II. 21, 3) that "a ratio is a relation of two terms to one another," the word for "relation" being in both cases the same as Euclid's (:term:`σχέσις <schesis>`). :person:`Theon of Smyrna <theon-of-smyrna>` goes on to classify ratios as greater, less, or equal, i.e. as ratios of greater inequality, less inequality, or equality, and then to specify certain arithmetical ratios which had special names, for which he quotes the authority of Adrastus. The names were :term:`πολλαπλάσιος <multiple>`, ἐπιμόριος, ἐπιμερής, πολλαπλασιεπιμόριος, πολλαπλασιεπιμερής (the first of which is, of course, a multiple, while the rest are the equivalent of certain types of improper fractions as we should call them), and the reciprocals of each of these described by prefixing ὑπό or *sub*. After describing these particular classes of arithmetical ratios, Theon goes on to say that numbers still have ratios to one another even if they are different from all those previously described. We need not therefore concern ourselves with the various types; it is sufficient to observe that any ratio between numbers can be expressed in the manner indicated in Euclid's definition of arithmetical proportion, for the greater is, in relation to the less, either one or a combination of more than one of the three things, (1) a multiple, (2) a submultiple, (3) a proper fraction.
+
+It is when we come to the definition of *proportion* that we begin to find differences between Euclid, :person:`Nicomachus <nicomachus>`, Theon and :person:`Iamblichus <iamblichus>`. "Proportion," says Theon (p. 82, 6), "is similarity or sameness of more ratios than one," which is of course unobjectionable if it is previously understood what a *ratio* is; but confusion was brought in by those (like Thrasyllus) who said that there were *three proportions* (:term:`ἀναλογίαι <analogia>`), the arithmetic, geometric, and harmonic, where of course the reference is to arithmetic, geometric and harmonic *means* (:term:`μεσότητες <mesotes>`). Hence it was necessary to explain, as Adrastus did (Theon, p. 106, 15), that of the several *means* "the geometric was called both proportion *par excellence* and primary...though the other means were also commonly called *proportions by some writers*." Accordingly we have :person:`Nicomachus <nicomachus>` trying to extend the term "proportion" to cover the various *means* as well as a proportion in three or four terms in the ordinary sense. He says (II. 21, 2): "Proportion, *par excellence* (κυρίως), is the bringing together (σύλληψις) to the same (point) of two or more *ratios*; or, more generally, (the bringing together) of two or more *relations* (σχέσεων), even though they be subjected not to the same *ratio* but to a difference or some other (law)." :person:`Iamblichus <iamblichus>` keeps the senses of the word more distinct. He says, like Theon, that "proportion is similarity or sameness of several ratios" (p. 98, 14), and that "it is to be premised that it was the geometrical (proportion) which the ancients called proportion *par excellence*, though it is now common to apply the name generally to all the remaining means as well" (p. 100, 15). :person:`Pappus <pappus>`
+remarks (III. p. 70, 17), "A mean differs from a proportion in this respect that, if anything is a proportion, it is also a mean, but not conversely. For there are three means, of which one is arithmetic, one geometric and one harmonic." The last remark implies plainly enough that there is only one *proportion* (:term:`ἀναλογία <analogia>`) in the proper sense. So, too, says :person:`Iamblichus <iamblichus>` in another place (p. 104, 19): "the second, the geometric, mean has been called *proportion par excellence* because the terms contain the same ratio, being separated according to the same proportion (ἀνὰ τὸν αὐτὸν :term:`λόγον <ratio>` διεστῶτες)." The natural conclusion is that of :person:`Nesselmann <nesselmann>`, that originally the geometric proportion was called :term:`ἀναλογία <analogia>`, the others, the arithmetic, the harmonic, etc., *means*; but later usage had obliterated the distinction.
+
+.. _folio-ii-0299:
+
+.. folio:: 0299
+   :page: 293
+
+Of proportions in the ancient and Euclidean sense Theon (p. 82, 10) distinguished the *continuous* (συνεχής) and the *separated* (διῃρημένη), using the same terms as :person:`Aristotle <aristotle>` (:cite:`*Eth. Nic.* 1131 a 32 <aristotle:eth-nic:1131-a-32>`). The meaning is of course clear: in the *continuous* proportion the consequent of one ratio is the antecedent of the next; in the *separated* proportion this is not so. :person:`Nicomachus <nicomachus>` (:cite:`II. 21, 5 <nicomachus:intro-arith:ii-21-5>`—6) uses the words *connected* (συνημμένη) and *disjoined* (διεζευγμένη) respectively. Euclid regularly speaks of numbers in continuous proportion as "proportional in order, or successively" (ἑξῆς :term:`ἀνάλογον <proportional>`).

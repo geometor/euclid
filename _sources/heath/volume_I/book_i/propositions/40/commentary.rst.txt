@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition I.40
 :folios: 0352
+:folio: 0352
+:page: 338
 :pages: 338
 
 .. _I.40.commentary:
@@ -13,6 +15,8 @@ Commentary on Proposition I.40
 ==============================
 
 Back to :ref:`Proposition I.40 <I.40>`.
+
+.. _folio-i-0352:
 
 .. folio:: 0352
    :page: 338

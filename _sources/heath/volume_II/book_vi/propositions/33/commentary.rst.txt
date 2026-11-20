@@ -5,6 +5,8 @@
 :type: commentary
 :title: Commentary on Proposition VI.33
 :folios: 0280, 0281, 0282
+:folio: 0280
+:page: 274
 :pages: 274, 275, 276
 
 .. _VI.33.commentary:

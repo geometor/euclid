@@ -2,6 +2,8 @@
 :breadcrumb_title: D.44
 :type: notes
 :title: Proposition 44 — Philological & Critical Notes
+:folio: Menge 78
+:page: 78
 :tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 Proposition 44 [μδ΄ · Prop. Prop. XLVII] — Philological Notes
