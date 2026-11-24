@@ -8,7 +8,9 @@
 :book_subtitle: Translated from the Text of Heiberg with Introduction and Commentary — Sir Thomas L. Heath (1926)
 :author: Euclid of Alexandria
 :publisher: Cambridge University Press / Dover Publications
-:year: 1926
+:year: -300
+:year_label: ca. 300 BCE
+:edition_year: 1926
 :featured_image: volume_I/book_i/propositions/01/0255.g1.svg
 :featured_image_alt: Euclid Book I, Proposition 1 — Equilateral Triangle on a Given Finite Straight Line
 :excerpt: The thirteen books of plane geometry, proportion, number theory, incommensurable magnitudes, and the five regular polyhedra, translated from Heiberg's Greek text with commentary by Sir Thomas Little Heath.
