@@ -116,7 +116,7 @@ the complete circle has been described.
 
    :just:`Q. E. F.`
 
-.. [#f1] **to describe the complete circle**, $\text{προσαναγράψαι τὸν κύκλον}$, literally “to describe the circle *on to it*.”
+.. [#f1] **to describe the complete circle**, :math:`\text{προσαναγράψαι τὸν κύκλον}`, literally “to describe the circle *on to it*.”
 
 Dependency Graph
 ----------------

@@ -88,37 +88,37 @@ Now, joining :g:`AC <0284.g1:/ A C />`, :g:`AE <0284.g1:/ A E />`, :g:`AD <0284.
 
 .. assertion::
 
-   :g:`AC^2 <0284.g1:/ A C />` $+$ :g:`AD^2 <0284.g1:/ A D />` $= 2$ :g:`AE^2 <0284.g1:/ A E />` $+ 2$ :g:`ED^2 <0284.g1:/ E D />`,
+   :g:`AC^2 <0284.g1:/ A C />` :math:`+` :g:`AD^2 <0284.g1:/ A D />` :math:`= 2` :g:`AE^2 <0284.g1:/ A E />` :math:`+ 2` :g:`ED^2 <0284.g1:/ E D />`,
 
 and also (2) in the triangle :g:`BCD <0284.g1:< B C D >>`,
 
 .. assertion::
 
-   :g:`BC^2 <0284.g1:/ B C />` $+$ :g:`BD^2 <0284.g1:/ B D />` $= 2$ :g:`BE^2 <0284.g1:/ B E />` $+ 2$ :g:`ED^2 <0284.g1:/ E D />`.
+   :g:`BC^2 <0284.g1:/ B C />` :math:`+` :g:`BD^2 <0284.g1:/ B D />` :math:`= 2` :g:`BE^2 <0284.g1:/ B E />` :math:`+ 2` :g:`ED^2 <0284.g1:/ E D />`.
 
 Subtracting, and remembering that the triangles :g:`ABC <0284.g1:< A B C >>`, :g:`ABD <0284.g1:< A B D >>` are right-angled, so that
 
 .. assertion::
 
-   :g:`AC^2 <0284.g1:/ A C />` $-$ :g:`BC^2 <0284.g1:/ B C />` $=$ :g:`AB^2 <0284.g1:/ A B />`,
+   :g:`AC^2 <0284.g1:/ A C />` :math:`-` :g:`BC^2 <0284.g1:/ B C />` :math:`=` :g:`AB^2 <0284.g1:/ A B />`,
 
 and
 
 .. assertion::
 
-   :g:`AD^2 <0284.g1:/ A D />` $-$ :g:`BD^2 <0284.g1:/ B D />` $=$ :g:`AB^2 <0284.g1:/ A B />`,
+   :g:`AD^2 <0284.g1:/ A D />` :math:`-` :g:`BD^2 <0284.g1:/ B D />` :math:`=` :g:`AB^2 <0284.g1:/ A B />`,
 
 we have
 
 .. assertion::
 
-   $2$ :g:`AB^2 <0284.g1:/ A B />` $= 2$ :g:`AE^2 <0284.g1:/ A E />` $- 2$ :g:`BE^2 <0284.g1:/ B E />`,
+   :math:`2` :g:`AB^2 <0284.g1:/ A B />` :math:`= 2` :g:`AE^2 <0284.g1:/ A E />` :math:`- 2` :g:`BE^2 <0284.g1:/ B E />`,
 
 or
 
 .. assertion::
 
-   :g:`AE^2 <0284.g1:/ A E />` $=$ :g:`AB^2 <0284.g1:/ A B />` $+$ :g:`BE^2 <0284.g1:/ B E />`,
+   :g:`AE^2 <0284.g1:/ A E />` :math:`=` :g:`AB^2 <0284.g1:/ A B />` :math:`+` :g:`BE^2 <0284.g1:/ B E />`,
 
 .. _folio-iii-0285:
 

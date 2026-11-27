@@ -21,4 +21,4 @@ Back to :ref:`Proposition VII.35 <VII.35>`.
 
 The *least common multiple of any two numbers must measure any other common multiple*.
 
-The proof is obvious, depending on the fact that, if any number divides $a$ and $b$, it also divides $a - pb$.
+The proof is obvious, depending on the fact that, if any number divides :math:`a` and :math:`b`, it also divides :math:`a - pb`.

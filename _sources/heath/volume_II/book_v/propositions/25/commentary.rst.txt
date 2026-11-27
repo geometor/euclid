@@ -21,11 +21,15 @@ Back to :ref:`Proposition V.25 <V.25>`.
 
 Algebraically, if
 
-$$a : b = c : d\text{,}$$
+.. math::
 
-and $a$ is the greatest of the four magnitudes and $d$ the least,
+   a : b = c : d\text{,}
 
-$$a + d > b + c.$$
+and :math:`a` is the greatest of the four magnitudes and :math:`d` the least,
+
+.. math::
+
+   a + d > b + c.
 
 :person:`Simson <simson>` is right in inserting a word in the setting-out, "let :g:`AB <0191.g1:/ A B />` be the greatest of them and *&lt;consequently&gt;* :g:`F <0191.g1:F>` the least." This follows from the particular case, really included in Def. 5, which :person:`Simson <simson>` makes the subject of his proposition A, the case namely where the equimultiples taken are *once* the several magnitudes.
 
@@ -33,24 +37,28 @@ The proof is as follows.
 
 Since
 
-$$a : b = c : d\text{,}$$
+.. math::
 
-$$a - c : b - d = a : b. \qquad [\text{V. } 19]$$
+   a : b = c : d\text{,}
+
+.. math::
+
+   a - c : b - d = a : b. \qquad [\text{V. } 19]
 
 .. _folio-ii-0192:
 
 .. folio:: 0192
    :page: 186
 
-But $a > b$; therefore $(a - c) > (b - d)$. :just:`[V. 16 and 14]`
+But :math:`a > b`; therefore :math:`(a - c) > (b - d)`. :just:`[V. 16 and 14]`
 
-Add to each $(c + d)$; therefore
+Add to each :math:`(c + d)`; therefore
 
 .. assertion::
 
-   $(a + d) > (b + c)$.
+   :math:`(a + d) > (b + c)`.
 
-There is an important particular case of this proposition, which is, however, not mentioned here, viz. the case where $b = c$. The result shows, in this case, that *the arithmetic mean between two magnitudes is greater than their geometric mean*. The truth of this is proved for straight lines in VI. 27 by "geometrical algebra," and the theorem forms the :term:`διορισμός <diorismos>` for equations of the second degree.
+There is an important particular case of this proposition, which is, however, not mentioned here, viz. the case where :math:`b = c`. The result shows, in this case, that *the arithmetic mean between two magnitudes is greater than their geometric mean*. The truth of this is proved for straight lines in VI. 27 by "geometrical algebra," and the theorem forms the :term:`διορισμός <diorismos>` for equations of the second degree.
 
 ----
 

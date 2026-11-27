@@ -19,4 +19,4 @@ Back to :ref:`Proposition VII.29 <VII.29>`.
 .. folio:: 0337
    :page: 331
 
-If $a$ is prime and does not measure $b$, then $a$, $b$ are prime to one another. The proof is self-evident.
+If :math:`a` is prime and does not measure :math:`b`, then :math:`a`, :math:`b` are prime to one another. The proof is self-evident.

@@ -21,20 +21,28 @@ Back to :ref:`Proposition X.76 <X.76>`.
 .. folio:: 0168
    :page: 164
 
-$x, y$ are here of the form found in x. 33, viz.
+:math:`x, y` are here of the form found in x. 33, viz.
 
-$$\frac{\rho}{\sqrt 2} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}}, \quad \frac{\rho}{\sqrt 2} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}}.$$
+.. math::
 
-By hypothesis $(x^2 + y^2)$ is a rational, $xy$ a medial, area. Therefore
+   \frac{\rho}{\sqrt 2} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}}, \quad \frac{\rho}{\sqrt 2} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}}.
 
-$$(x^2 + y^2) \smile 2xy,$$
+By hypothesis :math:`(x^2 + y^2)` is a rational, :math:`xy` a medial, area. Therefore
+
+.. math::
+
+   (x^2 + y^2) \smile 2xy,
 
 whence
 
-$$(x - y)^2 \smile (x^2 + y^2).$$
+.. math::
 
-Therefore $(x - y)^2$, and consequently $(x - y)$, is irrational. The *minor* (irrational) straight line is thus of the form
+   (x - y)^2 \smile (x^2 + y^2).
 
-$$\frac{\rho}{\sqrt 2} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}} - \frac{\rho}{\sqrt 2} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}}.$$
+Therefore :math:`(x - y)^2`, and consequently :math:`(x - y)`, is irrational. The *minor* (irrational) straight line is thus of the form
 
-Observe the use of :term:`*convertendo* <convertendo>` ($\alpha\nu\alpha\sigma\tau\rho\acute{\epsilon}\psi\alpha\nu\tau\iota$) for the inference that, since $(x^2 + y^2) \smile 2xy$, $(x^2 + y^2) \smile (x - y)^2$. The use of the word corresponds exactly to its use in proportions.
+.. math::
+
+   \frac{\rho}{\sqrt 2} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}} - \frac{\rho}{\sqrt 2} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}}.
+
+Observe the use of :term:`*convertendo* <convertendo>` (:math:`\alpha\nu\alpha\sigma\tau\rho\acute{\epsilon}\psi\alpha\nu\tau\iota`) for the inference that, since :math:`(x^2 + y^2) \smile 2xy`, :math:`(x^2 + y^2) \smile (x - y)^2`. The use of the word corresponds exactly to its use in proportions.

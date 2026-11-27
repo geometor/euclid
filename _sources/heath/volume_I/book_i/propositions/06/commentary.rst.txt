@@ -30,23 +30,23 @@ This proposition also, being the *converse* of the preceding proposition, brings
 Geometrical Conversion.
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-This must of course be distinguished from the *logical* conversion of a proposition. Thus, from the proposition that all isosceles triangles have the angles opposite to the equal sides equal, *logical* conversion would only enable us to conclude that *some* triangles with two angles equal are isosceles. Thus I. 6 is the geometrical, but not the logical, converse of I. 5. On the other hand, as :person:`De Morgan <de-morgan>` points out (*Companion to the Almanac*, 1849, p. 7), I. 6 is a purely *logical* deduction from I. 5 and I. 18 taken together, as is I. 19 also. For the general argument see the note on I. 19. For the present proposition it is enough to state the matter thus. Let $X$ denote the class of triangles which have the two sides other than the base equal, $Y$ the class of triangles which have the base angles equal; then we may call non-$X$ the class of triangles having the sides other than the base unequal, non-$Y$ the class of triangles having the base angles unequal.
+This must of course be distinguished from the *logical* conversion of a proposition. Thus, from the proposition that all isosceles triangles have the angles opposite to the equal sides equal, *logical* conversion would only enable us to conclude that *some* triangles with two angles equal are isosceles. Thus I. 6 is the geometrical, but not the logical, converse of I. 5. On the other hand, as :person:`De Morgan <de-morgan>` points out (*Companion to the Almanac*, 1849, p. 7), I. 6 is a purely *logical* deduction from I. 5 and I. 18 taken together, as is I. 19 also. For the general argument see the note on I. 19. For the present proposition it is enough to state the matter thus. Let :math:`X` denote the class of triangles which have the two sides other than the base equal, :math:`Y` the class of triangles which have the base angles equal; then we may call non-:math:`X` the class of triangles having the sides other than the base unequal, non-:math:`Y` the class of triangles having the base angles unequal.
 
 Thus we have
 
 .. subclause:: [I. 5] <I.5>
 
-   All $X$ is $Y$,
+   All :math:`X` is :math:`Y`,
 
 .. subclause:: [I. 18] <I.18>
 
-   All non-$X$ is non-$Y$;
+   All non-:math:`X` is non-:math:`Y`;
 
 and it is a purely logical deduction that
 
 .. subclause:: [I. 6] <I.6>
 
-   All $Y$ is $X$.
+   All :math:`Y` is :math:`X`.
 
 According to :person:`Proclus <proclus>` (:cite:`p. 252, 5 <proclus:in-euclid:252.5>` sqq.) two forms of *geometrical conversion* were distinguished.
 

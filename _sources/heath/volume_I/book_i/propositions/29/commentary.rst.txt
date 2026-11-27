@@ -70,12 +70,12 @@ Yet the case for preferring Euclid's Postulate is argued with some force by :per
 
 Given :g:`AB <0327.g1:/ A B />`, :g:`CD <0327.g1:/ C D />` making with :g:`EF <0327.g1:/ E F />` the angles :g:`AEF <0327.g1:< A E F )>`, :g:`EFC <0327.g1:< E F C )>` together less than two right angles, draw :g:`GH <0327.g1:/ G H />` through :g:`E <0327.g1:E>` so that the angles :g:`GEF <0327.g1:< G E F )>`, :g:`EFC <0327.g1:< E F C )>` are together equal to two right angles. Then, by **I.** 28, :g:`GH <0327.g1:/ G H />`, :g:`CD <0327.g1:/ C D />` are "separational."
 
-We see then that any lines which have the property ($\alpha$) that they make with a transversal angles less than two right angles have also the property ($\beta$) that one of them intersects a straight line which is "separational" from the other.
+We see then that any lines which have the property (:math:`\alpha`) that they make with a transversal angles less than two right angles have also the property (:math:`\beta`) that one of them intersects a straight line which is "separational" from the other.
 
-Now Playfair's axiom asserts that the lines which have property ($\beta$) meet if produced: for, if they did not, we should have two intersecting straight lines both "separational" from a third, which is impossible.
+Now Playfair's axiom asserts that the lines which have property (:math:`\beta`) meet if produced: for, if they did not, we should have two intersecting straight lines both "separational" from a third, which is impossible.
 
-We then argue that lines having property ($\alpha$) meet because lines having property ($\alpha$) are lines having property ($\beta$). But we do not know, until we have proved **I.** 29, that all pairs of lines having property ($\beta$) have also property
-($\alpha$). For anything we know to the contrary, class ($\beta$) may be greater than class ($\alpha$). Hence, if you assert anything of class ($\beta$), the logical effect is more extensive than if you assert it of class ($\alpha$); for you assert it, not only of that portion of class ($\beta$) which is known to be included in class ($\alpha$), but also of the unknown (but possibly existing) portion which is *not* so included.
+We then argue that lines having property (:math:`\alpha`) meet because lines having property (:math:`\alpha`) are lines having property (:math:`\beta`). But we do not know, until we have proved **I.** 29, that all pairs of lines having property (:math:`\beta`) have also property
+(:math:`\alpha`). For anything we know to the contrary, class (:math:`\beta`) may be greater than class (:math:`\alpha`). Hence, if you assert anything of class (:math:`\beta`), the logical effect is more extensive than if you assert it of class (:math:`\alpha`); for you assert it, not only of that portion of class (:math:`\beta`) which is known to be included in class (:math:`\alpha`), but also of the unknown (but possibly existing) portion which is *not* so included.
 
 .. _folio-i-0328:
 

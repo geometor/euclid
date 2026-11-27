@@ -21,78 +21,104 @@ Back to :ref:`Proposition XII.11 <XII.11>`.
 
 We need not again repeat the preliminary construction of successive pyramids and prisms exhausting the cones and cylinders.
 
-Let $Z, Z'$ be the volumes of the two cones, $\beta, \beta'$ their respective bases.
+Let :math:`Z, Z'` be the volumes of the two cones, :math:`\beta, \beta'` their respective bases.
 
 If
 
-$$\beta : \beta' \ne Z : Z',$$
+.. math::
+
+   \beta : \beta' \ne Z : Z',
 
 then must
 
-$$\beta : \beta' = Z : O,$$
+.. math::
 
-where $O$ is either less or greater than $Z'$.
+   \beta : \beta' = Z : O,
 
-I. Suppose, if possible, that $O$ is *less* than $Z'$.
+where :math:`O` is either less or greater than :math:`Z'`.
 
-Inscribe in $Z'$ a pyramid ($\Pi'$) leaving over portions of it together less than $(Z' - O)$, i.e. such that
+I. Suppose, if possible, that :math:`O` is *less* than :math:`Z'`.
 
-$$Z' > \Pi' > O.$$
+Inscribe in :math:`Z'` a pyramid (:math:`\Pi'`) leaving over portions of it together less than :math:`(Z' - O)`, i.e. such that
 
-Inscribe in $Z$ a pyramid $\Pi$ on a polygon inscribed in the circular base of $Z$ similar to the polygon which is the base of $\Pi'$.
+.. math::
 
-Now, if $d, d'$ be the diameters of the bases,
+   Z' > \Pi' > O.
 
-$$\begin{aligned}
-\beta : \beta' &= d^2 : {d'}^2 & \text{[XII. 2]} \\
-&= (\text{polygon in } \beta) : (\text{polygon in } \beta') & \text{[XII. 1]} \\
-&= \Pi : \Pi'. & \text{[XII. 6]}
-\end{aligned}$$
+Inscribe in :math:`Z` a pyramid :math:`\Pi` on a polygon inscribed in the circular base of :math:`Z` similar to the polygon which is the base of :math:`\Pi'`.
+
+Now, if :math:`d, d'` be the diameters of the bases,
+
+.. math::
+
+   \begin{aligned}
+   \beta : \beta' &= d^2 : {d'}^2 & \text{[XII. 2]} \\
+   &= (\text{polygon in } \beta) : (\text{polygon in } \beta') & \text{[XII. 1]} \\
+   &= \Pi : \Pi'. & \text{[XII. 6]}
+   \end{aligned}
 
 Therefore
 
-$$Z : O = \Pi : \Pi',$$
+.. math::
+
+   Z : O = \Pi : \Pi',
 
 and, alternately,
 
-$$Z : \Pi = O : \Pi'.$$
+.. math::
 
-But $Z > \Pi$, since it includes it; therefore
+   Z : \Pi = O : \Pi'.
 
-$$O > \Pi'.$$
+But :math:`Z > \Pi`, since it includes it; therefore
+
+.. math::
+
+   O > \Pi'.
 
 But, by construction,
 
-$$O < \Pi' :$$
+.. math::
+
+   O < \Pi' :
 
 which is impossible.
 
 Therefore
 
-$$O \nless Z'.$$
+.. math::
+
+   O \nless Z'.
 
 II. Suppose, if possible, that
 
-$$\beta : \beta' = Z : O,$$
+.. math::
 
-where $O$ is *greater* than $Z'$.
+   \beta : \beta' = Z : O,
+
+where :math:`O` is *greater* than :math:`Z'`.
 
 Therefore
 
-$$\beta : \beta' = O' : Z',$$
+.. math::
 
-where $O'$ is some solid less than $Z$.
+   \beta : \beta' = O' : Z',
+
+where :math:`O'` is some solid less than :math:`Z`.
 
 That is,
 
-$$\beta' : \beta = Z' : O',$$
+.. math::
 
-where $O' < Z$.
+   \beta' : \beta = Z' : O',
+
+where :math:`O' < Z`.
 
 This is proved impossible exactly in the same way as the assumption in Part I. was proved impossible.
 
-Therefore $Z$ has not either to a less solid than $Z'$ or to a greater solid than $Z'$ the ratio of $\beta$ to $\beta'$ ; therefore
+Therefore :math:`Z` has not either to a less solid than :math:`Z'` or to a greater solid than :math:`Z'` the ratio of :math:`\beta` to :math:`\beta'` ; therefore
 
-$$\beta : \beta' = Z : Z'.$$
+.. math::
 
-The same is true of the cylinders which are equal to $3Z, 3Z'$ respectively.
+   \beta : \beta' = Z : Z'.
+
+The same is true of the cylinders which are equal to :math:`3Z, 3Z'` respectively.

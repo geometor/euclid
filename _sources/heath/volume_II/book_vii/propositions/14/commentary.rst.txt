@@ -19,24 +19,24 @@ Back to :ref:`Proposition VII.14 <VII.14>`.
 .. folio:: 0320
    :page: 314
 
-$$
-\begin{aligned}
-\text{If} \quad & a : b = d : e, \\
-\text{and} \quad & b : c = e : f, \\
-\text{then, } \textit{ex aequali}, \quad & a : c = d : f;
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   \text{If} \quad & a : b = d : e, \\
+   \text{and} \quad & b : c = e : f, \\
+   \text{then, } \textit{ex aequali}, \quad & a : c = d : f;
+   \end{aligned}
 
 and the same is true however many successive numbers are so related. The proof is simplicity itself.
 
-$$
-\begin{aligned}
-\text{By VII. 13, alternately,} \quad & a : d = b : e, \\
-\text{and} \quad & b : e = c : f. \\
-\text{Therefore} \quad & a : d = c : f, \\
-\text{and, again alternately,} \quad & a : c = d : f.
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   \text{By VII. 13, alternately,} \quad & a : d = b : e, \\
+   \text{and} \quad & b : e = c : f. \\
+   \text{Therefore} \quad & a : d = c : f, \\
+   \text{and, again alternately,} \quad & a : c = d : f.
+   \end{aligned}
 
 Observe that this simple method cannot be used to prove the corresponding proposition for magnitudes, V. 22, although V. 22 has been preceded by the two propositions in that Book corresponding to the propositions used here, viz. V. 16 and V. 11. The reason of this is that this method would only prove V. 22 for six magnitudes *all of the same kind*, whereas the magnitudes in V. 22 are not subject to this limitation.
 

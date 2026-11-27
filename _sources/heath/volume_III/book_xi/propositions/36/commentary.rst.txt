@@ -25,20 +25,31 @@ Then the solids have the same height. [XI. 35, Por.]
 
 Hence
 
-$$\text{(solid } HL\text{)} : \text{(solid } KE\text{)} = \mathbin{▱} MN : \mathbin{▱} FD. \qquad \text{[XI. 32]}$$
+.. math::
+
+   \text{(solid } HL\text{)} : \text{(solid } KE\text{)} = \mathbin{▱} MN : \mathbin{▱} FD. \qquad \text{[XI. 32]}
 
 But, since :g:`A <0361.g1:/ A />`, :g:`B <0361.g1:/ B />`, :g:`C <0361.g1:/ C />` are in continued proportion,
 
-$$A : B = B : C,$$
+.. math::
+
+   A : B = B : C,
 
 or
 
-$$LM : EF = DE : LN.$$
+.. math::
+
+   LM : EF = DE : LN.
 
 Thus the sides of the equiangular ▱s :g:`MN <0361.g1:< M N >>`, :g:`FD <0361.g1:< F D >>` are reciprocally proportional, whence
 
-$$\mathbin{▱} MN = \mathbin{▱} FD, \qquad \text{[VI. 14]}$$
+.. math::
+
+   \mathbin{▱} MN = \mathbin{▱} FD, \qquad \text{[VI. 14]}
 
 and therefore
 
-$$\text{(solid } HL\text{)} = \text{(solid } KE\text{)}.$$
+.. math::
+
+   \text{(solid } HL\text{)} = \text{(solid } KE\text{)}.
+

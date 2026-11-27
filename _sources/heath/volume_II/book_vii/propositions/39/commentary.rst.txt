@@ -21,10 +21,10 @@ Back to :ref:`Proposition VII.39 <VII.39>`.
 
 This again is practically a restatement in another form of the problem of finding the L.C.M.
 
-To find a number which has $\frac{1}{a}\text{th}$, $\frac{1}{b}\text{th}$ and $\frac{1}{c}\text{th}$ parts.
+To find a number which has :math:`\frac{1}{a}\text{th}`, :math:`\frac{1}{b}\text{th}` and :math:`\frac{1}{c}\text{th}` parts.
 
-Let $d$ be the L.C.M. of $a, b, c$.
+Let :math:`d` be the L.C.M. of :math:`a, b, c`.
 
-Thus $d$ has $\frac{1}{a}\text{th}$, $\frac{1}{b}\text{th}$ and $\frac{1}{c}\text{th}$ parts. :just:`[VII. 37] <VII.37>`
+Thus :math:`d` has :math:`\frac{1}{a}\text{th}`, :math:`\frac{1}{b}\text{th}` and :math:`\frac{1}{c}\text{th}` parts. :just:`[VII. 37] <VII.37>`
 
-If it is not the least number which has, let the least such number be $e$. Then, since $e$ has those parts, $e$ is measured by $a, b, c$; and $e < d$: which is impossible.
+If it is not the least number which has, let the least such number be :math:`e`. Then, since :math:`e` has those parts, :math:`e` is measured by :math:`a, b, c`; and :math:`e < d`: which is impossible.

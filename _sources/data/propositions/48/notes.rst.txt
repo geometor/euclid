@@ -12,7 +12,7 @@ Proposition 48 [μη΄ · Prop. Prop. LII] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.48 <D.48>`–:ref:`D.51 <D.51>` establish that any two species-given figures on the same or ratio-given segments have a **given area ratio**, culminating in :ref:`D.52 <D.52>` (*species-given figure on a magnitude-given segment is given in area*, calibrated against the unit square $AB^2$).
+* :ref:`D.48 <D.48>`–:ref:`D.51 <D.51>` establish that any two species-given figures on the same or ratio-given segments have a **given area ratio**, culminating in :ref:`D.52 <D.52>` (*species-given figure on a magnitude-given segment is given in area*, calibrated against the unit square :math:`AB^2`).
 
 Textual & Critical Apparatus
 ----------------------------

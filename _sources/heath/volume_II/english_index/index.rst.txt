@@ -30,8 +30,8 @@ Anaximenes 111
 *Antiparallels*: may be used for construction of VI. 12, 215
 Apollonius: *Plane νεύσεις*, problem from, 81, lemma by Pappus on, 64-5: :cite:`*Plane Loci* <apollonius:plane-loci>`, theorem from (arising out of Eucl. VI. 3), also found in Aristotle 198-200: 75, 190, 258
 *Application of areas* (including *exceeding* and *falling short*) corresponding to solution of quadratic equations 187, 258-60, 263-5, 266-7
-Approximations: 7/5 as approximation to $\sqrt{2}$ (Pythagoreans and Plato) 119: approximations to $\sqrt{3}$ in Archimedes and (in sexagesimal fractions) in Ptolemy 119: to $\pi$ (Archimedes) 119: to $\sqrt{4500}$ (Theon of Alexandria) 119
-Archimedes: *Method of*, 40: :cite:`*Liber assumptorum* <archimedes:liber-assumptorum>`, proposition from, 65: approximations to $\sqrt{3}$, square roots of large numbers, and to $\pi$ 119: extension of a proportion in commensurables to cover incommensurables 193: 136, 190
+Approximations: 7/5 as approximation to :math:`\sqrt{2}` (Pythagoreans and Plato) 119: approximations to :math:`\sqrt{3}` in Archimedes and (in sexagesimal fractions) in Ptolemy 119: to :math:`\pi` (Archimedes) 119: to :math:`\sqrt{4500}` (Theon of Alexandria) 119
+Archimedes: *Method of*, 40: :cite:`*Liber assumptorum* <archimedes:liber-assumptorum>`, proposition from, 65: approximations to :math:`\sqrt{3}`, square roots of large numbers, and to :math:`\pi` 119: extension of a proportion in commensurables to cover incommensurables 193: 136, 190
 Archytas: proof that there is no numerical geometric mean between *n* and *n* + 1 295
 Aristotle: indicates proof (pre-Euclidean) that angle in semicircle is right 63: on def. of same ratio (=same :term:`ἀνταναίρεσις <antanairesis>`) 120-1: on proportion as "equality of ratios" 119: on theorem in proportion not proved generally till his time 113: on proportion in three terms (συνεχής, continuous), and in four terms (διῃρημένη, discrete) 131, 293: on *alternate ratios* 134: on *inverse ratio* 134, 149: on similar rectilinear figures 188: has locus-theorem (arising *out of Eucl.* VI. 3) also given in Apollonius' :cite:`*Plane Loci* <apollonius:plane-loci>` 198-200: on *unit* 279: on *number* 280: on non-applicability of arithmetical proofs to magnitudes if these are not numbers 113: on definitions of odd and even by one another 281: on prime numbers 284-5: on composite numbers as plane and solid 286, 288, 290: on representation of numbers by pebbles forming figures 288
 *Arithmetic, Elements of*, anterior to Euclid 295
@@ -145,7 +145,7 @@ Hankel, H. 116, 117
 Hauber, C. F. 244
 Heiberg, J. L. *passim*
 Henrici and Treutlein 30
-Heron of Alexandria: Eucl. III. 12 interpolated from, 28: extends III. 20, 21 to angles in segments less than semicircles 47-8: does not recognise angles equal to or greater than two right angles 47-8: proof of formula for area of triangle, $\Delta = \sqrt{s(s-a)(s-b)(s-c)}$ 87-8: 5, 16-17, 24, 28, 34, 36, 44, 116, 189, 302, 320, 383, 395
+Heron of Alexandria: Eucl. III. 12 interpolated from, 28: extends III. 20, 21 to angles in segments less than semicircles 47-8: does not recognise angles equal to or greater than two right angles 47-8: proof of formula for area of triangle, :math:`\Delta = \sqrt{s(s-a)(s-b)(s-c)}` 87-8: 5, 16-17, 24, 28, 34, 36, 44, 116, 189, 302, 320, 383, 395
 Hippasus 97
 Hippocrates of Chios 133
 *Hornlike angle* (:term:`κερατοειδὴς γωνία <hornlike-angle>`) 4, 39, 40: *hornlike* angle and angle of semicircle, controversies on, 39-42: Proclus on, 39-40: Democritus may have written on *hornlike* angle 40: Campanus ("not angles in same sense") 41: Cardano (quantities of different orders or kinds): Peletier (*hornlike* angle no angle, no quantity, nothing; angles of all semicircles right angles and equal) 41: Clavius 42: Vieta and Galileo ("angle of contact no angle") 42: Wallis (angle of contact not inclination at all but degree of curvature) 42
@@ -153,7 +153,7 @@ Hultsch, F. 133, 190
 
 Iamblichus 97, 116, 279, 280, 281, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 419, 425, 426
 Icosahedron 98
-Incommensurables: method of testing incommensurability (process of finding G.C.M.) 118: means of expression consist in power of approximation without limit (De Morgan) 119: approximations to $\sqrt{2}$ (by means of *side-* and *diagonal-numbers*) 119, to $\sqrt{3}$ and to $\pi$, 119: to $\sqrt{4500}$ by means of sexagesimal fractions 119
+Incommensurables: method of testing incommensurability (process of finding G.C.M.) 118: means of expression consist in power of approximation without limit (De Morgan) 119: approximations to :math:`\sqrt{2}` (by means of *side-* and *diagonal-numbers*) 119, to :math:`\sqrt{3}` and to :math:`\pi`, 119: to :math:`\sqrt{4500}` by means of sexagesimal fractions 119
 *Incomposite* (of number) = prime 284
 Ingrami, G. 30, 126
 *Inverse* (ratio), inversely (:term:`ἀνάπαλιν <invertendo>`) 134: inversion is subject of V. 4, Por. (Theon) 144, and of V. 7, Por. 149, but is not properly put in either place 149: Simson's Prop. B on, directly deducible from V. Def. 5, 144
@@ -211,7 +211,7 @@ Pentagonal numbers 289
 Pfleiderer, C. F. 2
 Philoponus 234, 282
 Plane numbers, product of two factors ("sides" or "length" and "breadth") 287-8: in Plato either square or oblong 287-8: similar plane numbers 293: one mean proportional between similar plane numbers 371-2
-Plato: construction of regular solids from triangles 97-8: on *golden section* 99: 7/5 as approximation to $\sqrt{2}$, 119: on square and oblong numbers 288, 293: on δυνάμεις (square roots or surds) 288, 290: theorem that between square numbers one mean suffices, between cube numbers two means necessary 294, 364
+Plato: construction of regular solids from triangles 97-8: on *golden section* 99: 7/5 as approximation to :math:`\sqrt{2}`, 119: on square and oblong numbers 288, 293: on δυνάμεις (square roots or surds) 288, 290: theorem that between square numbers one mean suffices, between cube numbers two means necessary 294, 364
 Playfair, John 2
 Plutarch 98, 254
 *Porism* (corollary) to proposition precedes "Q.E.D." or "Q.E.F." 8, 64: Porism to IV. 15 mentioned by Proclus 109: Porism to VI. 19, 234
@@ -233,7 +233,7 @@ Psellus 234
 Ptolemy, Claudius: lemma about quadrilateral in circle (Simson's *VI. Prop. D*) 225-7: 111, 117, 119
 Pyramidal numbers 290: pyramids truncated, twice-truncated *etc.* 291
 Pythagoras: reputed discoverer of construction of five regular solids 97: introduced "the most perfect proportion in four terms and specially called 'harmonic'" into Greece 112: construction of figure equal to one and similar to another rectilinear figure 254
-Pythagoreans: construction of dodecahedron in sphere 97: construction of isosceles triangle of IV. 10 and of regular pentagon due to, 97-8: possible method of discovery of latter 97-9: theorem about only three regular polygons filling space round a point 98: distinguished three sorts of *means*, arithmetic, geometric, harmonic 112: had theory of proportion applicable to commensurables only 112: 7/5 as approximation to $\sqrt{2}$, 119: definitions of unit 279: of even and odd 281: called 10 "perfect" 294
+Pythagoreans: construction of dodecahedron in sphere 97: construction of isosceles triangle of IV. 10 and of regular pentagon due to, 97-8: possible method of discovery of latter 97-9: theorem about only three regular polygons filling space round a point 98: distinguished three sorts of *means*, arithmetic, geometric, harmonic 112: had theory of proportion applicable to commensurables only 112: 7/5 as approximation to :math:`\sqrt{2}`, 119: definitions of unit 279: of even and odd 281: called 10 "perfect" 294
 
 Quadratic equations: solution by means of proportions 187, 263-5, 266-7: :term:`διορισμός <diorismos>` or condition of possibility of solving equation of Eucl. VI. 28, 259: one solution only given, for obvious reasons 260, 264, 267: but method gives both roots if real 258: exact correspondence of geometrical to algebraical solution 263-4, 266-7
 Quadrilateral: inscribing in circle of quadrilateral equiangular to another 91-2: condition for inscribing circle in, 93, 95: quadrilateral in circle, Ptolemy's lemma on (Simson's VI. Prop. D), 225-7: quadrilateral not a "polygon" 239
@@ -298,7 +298,7 @@ Thymaridas 279, 285
 *Timaeus* of Plato 97-8, 294-5, 363
 Todhunter, I., 3, 7, 22, 49, 51, 52, 67, 73, 90, 99, 172, 195, 202, 204, 208, 259, 271, 272, 300
 Trapezium: name applied to truncated pyramidal numbers (Theon of Smyrna) 291
-Triangle: Heron's proof of expression for area in terms of sides, $\sqrt{s(s-a)(s-b)(s-c)}$ 87-8: right-angled triangle which is half of equilateral triangle used for construction of tetrahedron, octahedron and icosahedron (*Timaeus* of Plato) 98
+Triangle: Heron's proof of expression for area in terms of sides, :math:`\sqrt{s(s-a)(s-b)(s-c)}` 87-8: right-angled triangle which is half of equilateral triangle used for construction of tetrahedron, octahedron and icosahedron (*Timaeus* of Plato) 98
 Triangular numbers 289
 *Triplicate*, distinct from *triple*, ratio 133
 *aṭ-Ṭūsī, see* Naṣīraddin

@@ -154,7 +154,7 @@ Then, since the rectangles :g:`AD <0232.g2:/ A D />`, :g:`BC <0232.g2:/ B C />`;
 
    the rectangle :g:`AC <0232.g2:/ A C />`, :g:`BD <0232.g2:/ B D />` is equal to the sum of the rectangles :g:`AD <0232.g2:/ A D />`, :g:`BC <0232.g2:/ B C />` and :g:`AB <0232.g2:/ A B />`, :g:`CD <0232.g2:/ C D />`.
 
-$Conversely$, if the latter statement is true, while we are supposed to know nothing about the position of :g:`D <0232.g2:D>`, it follows that
+:math:`Conversely`, if the latter statement is true, while we are supposed to know nothing about the position of :g:`D <0232.g2:D>`, it follows that
 
 .. assertion::
 

@@ -28,7 +28,7 @@ Back to :ref:`Proposition I.47 <I.47>`.
 .. folio:: 0365
    :page: 351
 
-In addition, :person:`Plutarch <plutarch>` (in the passages quoted above in the note on I. 44), :person:`Diogenes Laertius <diogenes-laertius>` (VIII. 12) and Athenaeus (x. 13) agree in attributing this proposition to :person:`Pythagoras <pythagoras>`. It is easy to point out, as does G. Junge (“*Wann haben die Griechen das Irrationale entdeckt?*” in *Novae Symbolae Joachimicae*, Halle a. S., 1907, pp. 221—264), that these are late witnesses, and that the Greek literature which we possess belonging to the first five centuries after :person:`Pythagoras <pythagoras>` contains no statement specifying this or any other particular great geometrical discovery as due to him. Yet the distich of Apollodorus the “calculator,” whose date (though it cannot be fixed) is at least earlier than that of :person:`Plutarch <plutarch>` and presumably of :person:`Cicero <cicero>`, is quite definite as to the existence of one “famous proposition” discovered by :person:`Pythagoras <pythagoras>`, whatever it was. Nor does :person:`Cicero <cicero>`, in commenting apparently on the verses (*De nat. deor.* III. c. 36, § 88), seem to dispute the fact of the geometrical discovery, but only the story of the sacrifice. Junge naturally emphasises the apparent uncertainty in the statements of :person:`Plutarch <plutarch>` and :person:`Proclus <proclus>`. But, as I read the passages of :person:`Plutarch <plutarch>`, I see nothing in them inconsistent with the supposition that :person:`Plutarch <plutarch>` unhesitatingly accepted as discoveries of :person:`Pythagoras <pythagoras>` *both* the theorem of the square of the hypotenuse and the problem of the application of an area, and the only doubt he felt was as to which of the two discoveries was the more appropriate occasion for the supposed sacrifice. There is also other evidence not without bearing on the question. The theorem is closely connected with the whole of the matter of Eucl. Book II., in which one of the most prominent features is the use of the *gnomon*. Now the gnomon was a well-understood term with the Pythagoreans (cf. the fragment of Philolaus quoted on p. 141 of Boeckh’s *Philolaos des Pythagoreers Lehren*, 1819). :person:`Aristotle <aristotle>` also (:cite:`*Physics* III. 4, 203 a 10—15 <aristotle:phys:III.4.203a10-15>`) clearly attributes to the Pythagoreans the placing of odd numbers as *gnomons* round successive squares beginning with 1, thereby forming new squares, while in another place (*Categ.* 14, 15 a 30) the word *gnomon* occurs in the same (obviously familiar) sense: “*e.g.* a square, when a gnomon is placed round it, is increased in size but is not altered in form.” The inference must therefore be that practically the whole doctrine of Book II. is Pythagorean. Again :person:`Heron <heron>` (? 3rd cent. A.D.), like :person:`Proclus <proclus>`, credits :person:`Pythagoras <pythagoras>` with a general rule for forming right-angled triangles with rational whole numbers for sides. Lastly, the “summary” of :person:`Proclus <proclus>` appears to credit :person:`Pythagoras <pythagoras>` with the discovery of the theory, or study, of irrationals (τὴν τῶν ἀλόγων πραγματείαν). But it is now more or less agreed that the reading here should be, not τῶν ἀλόγων, but τῶν ἀναλόγων, or rather τῶν ἀνὰ λόγον (“of proportionals”), and that the author intended to attribute to :person:`Pythagoras <pythagoras>` a theory of *proportion*, *i.e.* the (arithmetical) theory of proportion applicable only to commensurable magnitudes, as distinct from the theory of Eucl. Book V., which was due to :person:`Eudoxus <eudoxus>`. It is not however disputed that the Pythagoreans discovered the irrational (cf. the scholium No. 1 to Book X.). Now everything goes to show that this discovery of the irrational was made with reference to $\sqrt{2}$, the ratio of the diagonal of a square to its side. It is clear that this presupposes the knowledge that I. 47 is true of an isosceles right-angled triangle; and the fact that some triangles of which it had been discovered to be true were rational right-angled triangles was doubtless what suggested the inquiry whether the ratio between the lengths of the diagonal and the side of a square could also be expressed in whole numbers. On the whole, therefore, I see no sufficient reason to question the tradition that, so far as *Greek geometry is concerned* (the possible priority of the discovery of the same proposition in India will be considered later), :person:`Pythagoras <pythagoras>`
+In addition, :person:`Plutarch <plutarch>` (in the passages quoted above in the note on I. 44), :person:`Diogenes Laertius <diogenes-laertius>` (VIII. 12) and Athenaeus (x. 13) agree in attributing this proposition to :person:`Pythagoras <pythagoras>`. It is easy to point out, as does G. Junge (“*Wann haben die Griechen das Irrationale entdeckt?*” in *Novae Symbolae Joachimicae*, Halle a. S., 1907, pp. 221—264), that these are late witnesses, and that the Greek literature which we possess belonging to the first five centuries after :person:`Pythagoras <pythagoras>` contains no statement specifying this or any other particular great geometrical discovery as due to him. Yet the distich of Apollodorus the “calculator,” whose date (though it cannot be fixed) is at least earlier than that of :person:`Plutarch <plutarch>` and presumably of :person:`Cicero <cicero>`, is quite definite as to the existence of one “famous proposition” discovered by :person:`Pythagoras <pythagoras>`, whatever it was. Nor does :person:`Cicero <cicero>`, in commenting apparently on the verses (*De nat. deor.* III. c. 36, § 88), seem to dispute the fact of the geometrical discovery, but only the story of the sacrifice. Junge naturally emphasises the apparent uncertainty in the statements of :person:`Plutarch <plutarch>` and :person:`Proclus <proclus>`. But, as I read the passages of :person:`Plutarch <plutarch>`, I see nothing in them inconsistent with the supposition that :person:`Plutarch <plutarch>` unhesitatingly accepted as discoveries of :person:`Pythagoras <pythagoras>` *both* the theorem of the square of the hypotenuse and the problem of the application of an area, and the only doubt he felt was as to which of the two discoveries was the more appropriate occasion for the supposed sacrifice. There is also other evidence not without bearing on the question. The theorem is closely connected with the whole of the matter of Eucl. Book II., in which one of the most prominent features is the use of the *gnomon*. Now the gnomon was a well-understood term with the Pythagoreans (cf. the fragment of Philolaus quoted on p. 141 of Boeckh’s *Philolaos des Pythagoreers Lehren*, 1819). :person:`Aristotle <aristotle>` also (:cite:`*Physics* III. 4, 203 a 10—15 <aristotle:phys:III.4.203a10-15>`) clearly attributes to the Pythagoreans the placing of odd numbers as *gnomons* round successive squares beginning with 1, thereby forming new squares, while in another place (*Categ.* 14, 15 a 30) the word *gnomon* occurs in the same (obviously familiar) sense: “*e.g.* a square, when a gnomon is placed round it, is increased in size but is not altered in form.” The inference must therefore be that practically the whole doctrine of Book II. is Pythagorean. Again :person:`Heron <heron>` (? 3rd cent. A.D.), like :person:`Proclus <proclus>`, credits :person:`Pythagoras <pythagoras>` with a general rule for forming right-angled triangles with rational whole numbers for sides. Lastly, the “summary” of :person:`Proclus <proclus>` appears to credit :person:`Pythagoras <pythagoras>` with the discovery of the theory, or study, of irrationals (τὴν τῶν ἀλόγων πραγματείαν). But it is now more or less agreed that the reading here should be, not τῶν ἀλόγων, but τῶν ἀναλόγων, or rather τῶν ἀνὰ λόγον (“of proportionals”), and that the author intended to attribute to :person:`Pythagoras <pythagoras>` a theory of *proportion*, *i.e.* the (arithmetical) theory of proportion applicable only to commensurable magnitudes, as distinct from the theory of Eucl. Book V., which was due to :person:`Eudoxus <eudoxus>`. It is not however disputed that the Pythagoreans discovered the irrational (cf. the scholium No. 1 to Book X.). Now everything goes to show that this discovery of the irrational was made with reference to :math:`\sqrt{2}`, the ratio of the diagonal of a square to its side. It is clear that this presupposes the knowledge that I. 47 is true of an isosceles right-angled triangle; and the fact that some triangles of which it had been discovered to be true were rational right-angled triangles was doubtless what suggested the inquiry whether the ratio between the lengths of the diagonal and the side of a square could also be expressed in whole numbers. On the whole, therefore, I see no sufficient reason to question the tradition that, so far as *Greek geometry is concerned* (the possible priority of the discovery of the same proposition in India will be considered later), :person:`Pythagoras <pythagoras>`
 was the first to introduce the theorem of I. 47 and to give a general proof of it.
 
 .. _folio-i-0366:
@@ -36,20 +36,20 @@ was the first to introduce the theorem of I. 47 and to give a general proof of i
 .. folio:: 0366
    :page: 352
 
-On this assumption, how was :person:`Pythagoras <pythagoras>` led to this discovery? It has been suggested and commonly assumed that the Egyptians were aware that a triangle with its sides in the ratio 3, 4, 5 was right-angled. :person:`Cantor <cantor>` inferred this from the fact that this was precisely the triangle with which :person:`Pythagoras <pythagoras>` began, if we may accept the testimony of :person:`Vitruvius <vitruvius>` (IX. 2) that :person:`Pythagoras <pythagoras>` taught how to make a right angle by means of three lengths measured by the numbers 3, 4, 5. If then he took from the Egyptians the triangle 3, 4, 5, he presumably learnt its property from them also. Now the Egyptians must certainly be credited from a period at least as far back as 2000 B.C. with the knowledge that $4^2 + 3^2 = 5^2$. :person:`Cantor <cantor>` finds proof of this in a fragment of papyrus belonging to the time of the 12th Dynasty newly discovered at Kahun. In this papyrus we have extractions of square roots : *e.g.* that of 16 is 4, that of $1\frac{7}{9}$ is $1\frac{1}{3}$, that of $6\frac{1}{4}$ is $2\frac{1}{2}$, and the following equations can be traced :
+On this assumption, how was :person:`Pythagoras <pythagoras>` led to this discovery? It has been suggested and commonly assumed that the Egyptians were aware that a triangle with its sides in the ratio 3, 4, 5 was right-angled. :person:`Cantor <cantor>` inferred this from the fact that this was precisely the triangle with which :person:`Pythagoras <pythagoras>` began, if we may accept the testimony of :person:`Vitruvius <vitruvius>` (IX. 2) that :person:`Pythagoras <pythagoras>` taught how to make a right angle by means of three lengths measured by the numbers 3, 4, 5. If then he took from the Egyptians the triangle 3, 4, 5, he presumably learnt its property from them also. Now the Egyptians must certainly be credited from a period at least as far back as 2000 B.C. with the knowledge that :math:`4^2 + 3^2 = 5^2`. :person:`Cantor <cantor>` finds proof of this in a fragment of papyrus belonging to the time of the 12th Dynasty newly discovered at Kahun. In this papyrus we have extractions of square roots : *e.g.* that of 16 is 4, that of :math:`1\frac{7}{9}` is :math:`1\frac{1}{3}`, that of :math:`6\frac{1}{4}` is :math:`2\frac{1}{2}`, and the following equations can be traced :
 
-$$
-\begin{aligned}
-1^2 + \left(\frac{3}{4}\right)^2 &= \left(1\frac{1}{4}\right)^2 \\
-8^2 + 6^2 &= 10^2 \\
-2^2 + \left(1\frac{1}{2}\right)^2 &= \left(2\frac{1}{2}\right)^2 \\
-16^2 + 12^2 &= 20^2.
-\end{aligned}
-$$
+.. math::
 
-It will be seen that $4^2 + 3^2 = 5^2$ can be derived from each of these by multiplying, or dividing out, by one and the same factor. We may therefore admit that the Egyptians knew that $3^2 + 4^2 = 5^2$. But there seems to be no evidence that they knew that the triangle (3, 4, 5) is *right-angled*; indeed, according to the latest authority (T. Eric Peet, *The Rhind Mathematical Papyrus*, 1923), nothing in Egyptian mathematics suggests that the Egyptians were acquainted with this or any special cases of the Pythagorean theorem.
+   \begin{aligned}
+   1^2 + \left(\frac{3}{4}\right)^2 &= \left(1\frac{1}{4}\right)^2 \\
+   8^2 + 6^2 &= 10^2 \\
+   2^2 + \left(1\frac{1}{2}\right)^2 &= \left(2\frac{1}{2}\right)^2 \\
+   16^2 + 12^2 &= 20^2.
+   \end{aligned}
 
-How then did :person:`Pythagoras <pythagoras>` discover the general theorem? Observing that 3, 4, 5 was a right-angled triangle, while $3^2 + 4^2 = 5^2$, he was probably led to
+It will be seen that :math:`4^2 + 3^2 = 5^2` can be derived from each of these by multiplying, or dividing out, by one and the same factor. We may therefore admit that the Egyptians knew that :math:`3^2 + 4^2 = 5^2`. But there seems to be no evidence that they knew that the triangle (3, 4, 5) is *right-angled*; indeed, according to the latest authority (T. Eric Peet, *The Rhind Mathematical Papyrus*, 1923), nothing in Egyptian mathematics suggests that the Egyptians were acquainted with this or any special cases of the Pythagorean theorem.
+
+How then did :person:`Pythagoras <pythagoras>` discover the general theorem? Observing that 3, 4, 5 was a right-angled triangle, while :math:`3^2 + 4^2 = 5^2`, he was probably led to
 
 .. picture:: 0366.g1.svg
    :alt: Folio 0366 Figure 1 - Proposition 47 Commentary (Bürk Āpastamba-Śulba-Sūtra)
@@ -101,24 +101,24 @@ to the sum of the squares on :g:`a <0368.g1:/ A E />`, :g:`b <0368.g1:/ E B />`.
 .. picture:: 0369.g1.svg
    :alt: Folio 0369 Figure 1 - Proposition 47 Commentary (Bhāskara Dissection)
 
-$$
-c^2 = 4\frac{ab}{2} + (a-b)^2 = a^2 + b^2.
-$$
+.. math::
 
-Though, for the reason given, there is difficulty in supposing that :person:`Pythagoras <pythagoras>` used a general proof of this kind, which applies of course to right-angled triangles with sides incommensurable as well as commensurable, there is no objection, I think, to supposing that the truth of the proposition in the case of the first rational right-angled triangles discovered, *e.g.* 3, 4, 5, was proved by a method of this sort. Where the sides are commensurable in this way, the squares can be divided up into small (unit) squares, which would much facilitate the comparison between them. That this subdivision was in fact resorted to in adding and subtracting squares is made probable by Aristotle's allusion to odd numbers as *gnomons* placed round unity to form successive squares in *Physics* III. 4; this must mean that the squares were represented by dots arranged in the form of a square and a gnomon formed of dots put round, or that (if the given square was drawn in the usual way) the gnomon was divided up into unit squares. :person:`Zeuthen <zeuthen>` has shown (“*Théorème de Pythagore*,” *Origine de la Géométrie scientifique* in *Comptes rendus du II*\ :sup:`me` *Congrès international de Philosophie*, Genève, 1904), how easily the proposition could be proved by a method of this kind for the triangle 3, 4, 5. To admit of the two smaller squares being shown side by side, take a square on a line containing 7 units of length ($4 + 3$), and divide it up into 49 small squares. It would be obvious that the whole square could be exhibited as containing four rectangles of sides 4, 3 cyclically arranged round the figure with one unit square in the middle. (This same figure is given by :person:`Cantor <cantor>`, I₃, p. 680, to illustrate the method given in the Chinese “Chóu-peï”.) It would be seen that
+   c^2 = 4\frac{ab}{2} + (a-b)^2 = a^2 + b^2.
+
+Though, for the reason given, there is difficulty in supposing that :person:`Pythagoras <pythagoras>` used a general proof of this kind, which applies of course to right-angled triangles with sides incommensurable as well as commensurable, there is no objection, I think, to supposing that the truth of the proposition in the case of the first rational right-angled triangles discovered, *e.g.* 3, 4, 5, was proved by a method of this sort. Where the sides are commensurable in this way, the squares can be divided up into small (unit) squares, which would much facilitate the comparison between them. That this subdivision was in fact resorted to in adding and subtracting squares is made probable by Aristotle's allusion to odd numbers as *gnomons* placed round unity to form successive squares in *Physics* III. 4; this must mean that the squares were represented by dots arranged in the form of a square and a gnomon formed of dots put round, or that (if the given square was drawn in the usual way) the gnomon was divided up into unit squares. :person:`Zeuthen <zeuthen>` has shown (“*Théorème de Pythagore*,” *Origine de la Géométrie scientifique* in *Comptes rendus du II*\ :sup:`me` *Congrès international de Philosophie*, Genève, 1904), how easily the proposition could be proved by a method of this kind for the triangle 3, 4, 5. To admit of the two smaller squares being shown side by side, take a square on a line containing 7 units of length (:math:`4 + 3`), and divide it up into 49 small squares. It would be obvious that the whole square could be exhibited as containing four rectangles of sides 4, 3 cyclically arranged round the figure with one unit square in the middle. (This same figure is given by :person:`Cantor <cantor>`, I₃, p. 680, to illustrate the method given in the Chinese “Chóu-peï”.) It would be seen that
 
 .. picture:: 0369.g2.svg
    :alt: Folio 0369 Figure 2 - Proposition 47 Commentary (Chóu-peï Grid)
 
-(i) the whole square ($7^2$) is made up of two squares $3^2$ and $4^2$, and two rectangles 3, 4;
+(i) the whole square (:math:`7^2`) is made up of two squares :math:`3^2` and :math:`4^2`, and two rectangles 3, 4;
 
-(ii) the same square is made up of the square :g:`EFGH <0369.g2:< E F G H >>` and the halves of four of the same rectangles 3, 4, whence the square :g:`EFGH <0369.g2:< E F G H >>`, being equal to the sum of the squares $3^2$ and $4^2$, must contain 25 unit squares and its side, or the diagonal of one of the rectangles, must contain 5 units of length.
+(ii) the same square is made up of the square :g:`EFGH <0369.g2:< E F G H >>` and the halves of four of the same rectangles 3, 4, whence the square :g:`EFGH <0369.g2:< E F G H >>`, being equal to the sum of the squares :math:`3^2` and :math:`4^2`, must contain 25 unit squares and its side, or the diagonal of one of the rectangles, must contain 5 units of length.
 
 Or the result might equally be seen by observing that
 
 (i) the square :g:`EFGH <0369.g2:< E F G H >>` on the diagonal of one of the rectangles is made up of the halves of four rectangles and the unit square in the middle, while
 
-(ii) the squares $3^2$ and $4^2$ placed at adjacent corners of the large square make up two rectangles 3, 4 with the unit square in the middle.
+(ii) the squares :math:`3^2` and :math:`4^2` placed at adjacent corners of the large square make up two rectangles 3, 4 with the unit square in the middle.
 
 The procedure would be equally easy for any rational right-angled triangle, and would be a natural method of trying to *prove* the property when it had
 once been *empirically* observed that triangles like 3, 4, 5 did in fact contain a right angle.
@@ -141,7 +141,7 @@ Now, since the diagonals of the small rectangles are all equal, each being of un
 
 But the sum of the triangles :g:`ABD <0370.g1:< A B D >>`, :g:`ADC <0370.g1:< A D C >>` is equal to the triangle :g:`ABC <0370.g1:< A B C >>`.
 
-Hence the rectangle with :g:`BC <0370.g1:/ B C />` as diagonal contains $9 + 16$ or 25 of the small rectangles; and therefore :g:`BC <0370.g1:/ B C />` $= 5$.
+Hence the rectangle with :g:`BC <0370.g1:/ B C />` as diagonal contains :math:`9 + 16` or 25 of the small rectangles; and therefore :g:`BC <0370.g1:/ B C />` :math:`= 5`.
 
 Rational right-angled triangles from the arithmetical standpoint.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -153,95 +153,123 @@ Rational right-angled triangles from the arithmetical standpoint.
 .. folio:: 0371
    :page: 357
 
-The formula of :person:`Pythagoras <pythagoras>` amounts, if $m$ be an odd number, to
+The formula of :person:`Pythagoras <pythagoras>` amounts, if :math:`m` be an odd number, to
 
-$$m^2 + \left(\frac{m^2 - 1}{2}\right)^2 = \left(\frac{m^2 + 1}{2}\right)^2,$$
+.. math::
 
-the sides of the right-angled triangle being $m$, $\frac{m^2 - 1}{2}$, $\frac{m^2 + 1}{2}$. :person:`Cantor <cantor>` ($\text{I}_3$, pp. 185—6), taking up an idea of Röth (*Geschichte der abendländischen Philosophie*, II. 527), gives the following as a possible explanation of the way in which :person:`Pythagoras <pythagoras>` arrived at his formula. If $c^2 = a^2 + b^2$, it follows that
+   m^2 + \left(\frac{m^2 - 1}{2}\right)^2 = \left(\frac{m^2 + 1}{2}\right)^2,
 
-$$a^2 = c^2 - b^2 = (c + b)(c - b).$$
+the sides of the right-angled triangle being :math:`m`, :math:`\frac{m^2 - 1}{2}`, :math:`\frac{m^2 + 1}{2}`. :person:`Cantor <cantor>` (:math:`\text{I}_3`, pp. 185—6), taking up an idea of Röth (*Geschichte der abendländischen Philosophie*, II. 527), gives the following as a possible explanation of the way in which :person:`Pythagoras <pythagoras>` arrived at his formula. If :math:`c^2 = a^2 + b^2`, it follows that
 
-Numbers can be found satisfying the first equation if (1) $c + b$ and $c - b$ are either both even or both odd, and if further (2) $c + b$ and $c - b$ are such numbers as, when multiplied together, produce a square number. The first condition is necessary because, in order that $c$ and $b$ may both be whole numbers, the sum and difference of $c + b$ and $c - b$ must both be even. The second condition is satisfied if $c + b$ and $c - b$ are what were called *similar numbers* (ὅμοιοι ἀριθμοί); and that such numbers were most probably known in the time before :person:`Plato <plato>` may be inferred from their appearing in :person:`Theon of Smyrna <theon-of-smyrna>` (*Expositio rerum mathematicarum ad legendum Platonem utilium*, ed. Hiller, p. 36, 12), who says that similar plane numbers are, first, all square numbers and, secondly, such oblong numbers as have the sides which contain them proportional. Thus $6$ is an oblong number with length $3$ and breadth $2$; $24$ is another with length $6$ and breadth $4$. Since therefore $6$ is to $3$ as $4$ is to $2$, the numbers $6$ and $24$ are similar.
+.. math::
 
-Now the simplest case of two similar numbers is that of $1$ and $a^2$, and, since $1$ is odd, the condition (1) requires that $a^2$, and therefore $a$, is also odd. That is, we may take $1$ and $(2n + 1)^2$ and equate them respectively to $c - b$ and $c + b$, whence we have
+   a^2 = c^2 - b^2 = (c + b)(c - b).
 
-$$\begin{aligned}
-b &= \frac{(2n + 1)^2 - 1}{2}, \\
-c &= \frac{(2n + 1)^2 - 1}{2} + 1,
-\end{aligned}$$
+Numbers can be found satisfying the first equation if (1) :math:`c + b` and :math:`c - b` are either both even or both odd, and if further (2) :math:`c + b` and :math:`c - b` are such numbers as, when multiplied together, produce a square number. The first condition is necessary because, in order that :math:`c` and :math:`b` may both be whole numbers, the sum and difference of :math:`c + b` and :math:`c - b` must both be even. The second condition is satisfied if :math:`c + b` and :math:`c - b` are what were called *similar numbers* (ὅμοιοι ἀριθμοί); and that such numbers were most probably known in the time before :person:`Plato <plato>` may be inferred from their appearing in :person:`Theon of Smyrna <theon-of-smyrna>` (*Expositio rerum mathematicarum ad legendum Platonem utilium*, ed. Hiller, p. 36, 12), who says that similar plane numbers are, first, all square numbers and, secondly, such oblong numbers as have the sides which contain them proportional. Thus :math:`6` is an oblong number with length :math:`3` and breadth :math:`2`; :math:`24` is another with length :math:`6` and breadth :math:`4`. Since therefore :math:`6` is to :math:`3` as :math:`4` is to :math:`2`, the numbers :math:`6` and :math:`24` are similar.
+
+Now the simplest case of two similar numbers is that of :math:`1` and :math:`a^2`, and, since :math:`1` is odd, the condition (1) requires that :math:`a^2`, and therefore :math:`a`, is also odd. That is, we may take :math:`1` and :math:`(2n + 1)^2` and equate them respectively to :math:`c - b` and :math:`c + b`, whence we have
+
+.. math::
+
+   \begin{aligned}
+   b &= \frac{(2n + 1)^2 - 1}{2}, \\
+   c &= \frac{(2n + 1)^2 - 1}{2} + 1,
+   \end{aligned}
 
 while
 
-$$a = 2n + 1.$$
+.. math::
 
-As :person:`Cantor <cantor>` remarks, the form in which $c$ and $b$ appear correspond sufficiently closely to the description in the text of :person:`Proclus <proclus>`.
+   a = 2n + 1.
 
-Another obvious possibility would be, instead of equating $c - b$ to unity, to put $c - b = 2$, in which case the similar number $c + b$ must be equated to double of some square, i.e. to a number of the form $2n^2$, or to the half of an even square number, say $\frac{(2n)^2}{2}$. This would give
+As :person:`Cantor <cantor>` remarks, the form in which :math:`c` and :math:`b` appear correspond sufficiently closely to the description in the text of :person:`Proclus <proclus>`.
 
-$$\begin{aligned}
-a &= 2n, \\
-b &= n^2 - 1, \\
-c &= n^2 + 1,
-\end{aligned}$$
+Another obvious possibility would be, instead of equating :math:`c - b` to unity, to put :math:`c - b = 2`, in which case the similar number :math:`c + b` must be equated to double of some square, i.e. to a number of the form :math:`2n^2`, or to the half of an even square number, say :math:`\frac{(2n)^2}{2}`. This would give
+
+.. math::
+
+   \begin{aligned}
+   a &= 2n, \\
+   b &= n^2 - 1, \\
+   c &= n^2 + 1,
+   \end{aligned}
 
 which is Plato's solution, as given by :person:`Proclus <proclus>`.
 
 The two solutions supplement each other. It is interesting to observe that the method suggested by Röth and :person:`Cantor <cantor>` is very like that of Eucl. X. (Lemma 1 following Prop. 28). We shall come to this later, but it may be mentioned here that the problem is *to find two square numbers such that their*
-*sum is also a square.* :person:`Euclid <euclid>` there uses the property of II. 6 to the effect that, if $AB$ is bisected at $C$ and produced to $D$,
+*sum is also a square.* :person:`Euclid <euclid>` there uses the property of II. 6 to the effect that, if :math:`AB` is bisected at :math:`C` and produced to :math:`D`,
 
 .. _folio-i-0372:
 
 .. folio:: 0372
    :page: 358
 
-$$AD \cdot DB + BC^2 = CD^2.$$
+.. math::
+
+   AD \cdot DB + BC^2 = CD^2.
 
 We may write this
 
-$$uv = c^2 - b^2,$$
+.. math::
+
+   uv = c^2 - b^2,
 
 where
 
-$$u = c + b, \quad v = c - b.$$
+.. math::
 
-In order that $uv$ may be a square, :person:`Euclid <euclid>` points out that $u$ and $v$ must be similar numbers, and further that $u$ and $v$ must be either both odd or both even in order that $b$ may be a whole number. We may then put for the similar numbers, say, $\alpha\beta^2$ and $\alpha\gamma^2$, whence (if $\alpha\beta^2$, $\alpha\gamma^2$ are either both odd or both even) we obtain the solution
+   u = c + b, \quad v = c - b.
 
-$$\alpha\beta^2 \cdot \alpha\gamma^2 + \left(\frac{\alpha\beta^2 - \alpha\gamma^2}{2}\right)^2 = \left(\frac{\alpha\beta^2 + \alpha\gamma^2}{2}\right)^2.$$
+In order that :math:`uv` may be a square, :person:`Euclid <euclid>` points out that :math:`u` and :math:`v` must be similar numbers, and further that :math:`u` and :math:`v` must be either both odd or both even in order that :math:`b` may be a whole number. We may then put for the similar numbers, say, :math:`\alpha\beta^2` and :math:`\alpha\gamma^2`, whence (if :math:`\alpha\beta^2`, :math:`\alpha\gamma^2` are either both odd or both even) we obtain the solution
+
+.. math::
+
+   \alpha\beta^2 \cdot \alpha\gamma^2 + \left(\frac{\alpha\beta^2 - \alpha\gamma^2}{2}\right)^2 = \left(\frac{\alpha\beta^2 + \alpha\gamma^2}{2}\right)^2.
 
 But I think a serious, and even fatal, objection to the conjecture of :person:`Cantor <cantor>` and Röth is the very fact that the method enables both the Pythagorean and the Platonic series of triangles to be deduced with equal ease. If this had been the case with the method used by :person:`Pythagoras <pythagoras>`, it would not, I think, have been left to :person:`Plato <plato>` to discover the second series of such triangles. It seems to me therefore that :person:`Pythagoras <pythagoras>` must have used some method which would produce his rule *only*; and further it would be some less recondite method, suggested by direct *observation* rather than by argument from general principles.
 
-One solution satisfying these conditions is that of :person:`Bretschneider <bretschneider>` (p. 83), who suggests the following simple method. :person:`Pythagoras <pythagoras>` was certainly aware that the successive odd numbers are *gnomons*, or the differences between successive square numbers. It was then a simple matter to write down in three rows ($a$) the natural numbers, ($b$) their squares, ($c$) the successive odd numbers constituting the differences between the successive squares in ($b$), thus:
+One solution satisfying these conditions is that of :person:`Bretschneider <bretschneider>` (p. 83), who suggests the following simple method. :person:`Pythagoras <pythagoras>` was certainly aware that the successive odd numbers are *gnomons*, or the differences between successive square numbers. It was then a simple matter to write down in three rows (:math:`a`) the natural numbers, (:math:`b`) their squares, (:math:`c`) the successive odd numbers constituting the differences between the successive squares in (:math:`b`), thus:
 
-$$\begin{array}{ccccccccccccccccccccccccccc}
-& 1 & & 2 & & 3 & & 4 & & 5 & & 6 & & 7 & & 8 & & 9 & & 10 & & 11 & & 12 & & 13 & & 14 \\
-& 1 & & 4 & & 9 & & 16 & & 25 & & 36 & & 49 & & 64 & & 81 & & 100 & & 121 & & 144 & & 169 & & 196 \\
-1 & & 3 & & 5 & & 7 & & 9 & & 11 & & 13 & & 15 & & 17 & & 19 & & 21 & & 23 & & 25 & & 27 &
-\end{array}$$
+.. math::
+
+   \begin{array}{ccccccccccccccccccccccccccc}
+   & 1 & & 2 & & 3 & & 4 & & 5 & & 6 & & 7 & & 8 & & 9 & & 10 & & 11 & & 12 & & 13 & & 14 \\
+   & 1 & & 4 & & 9 & & 16 & & 25 & & 36 & & 49 & & 64 & & 81 & & 100 & & 121 & & 144 & & 169 & & 196 \\
+   1 & & 3 & & 5 & & 7 & & 9 & & 11 & & 13 & & 15 & & 17 & & 19 & & 21 & & 23 & & 25 & & 27 &
+   \end{array}
 
 :person:`Pythagoras <pythagoras>` had then only to pick out the numbers in the third row which are squares, and his rule would be obtained by finding the formula connecting the square in the third line with the two adjacent squares in the second line. But even this would require some little argument; and I think a still better suggestion, because making pure observation play a greater part, is that of P. Treutlein (*Zeitschrift für Mathematik und Physik*, XXVIII., 1883, Hist.-litt. Abtheilung, pp. 209 sqq.).
 
 We have the best evidence (e.g. in :person:`Theon of Smyrna <theon-of-smyrna>`) of the practice of representing square numbers and other figured numbers, e.g. oblong, triangular, hexagonal, by dots or signs arranged in the shape of the particular figure. (Cf. :person:`Aristotle <aristotle>`, :cite:`*Metaph.* 1092 b 12 <aristotle:met:1092b12>`). Thus, says Treutlein, it would be easily seen that any square number can be turned into the next higher square by putting a single row of dots round two adjacent sides, in the form of a gnomon (see figures on next page).
 
-If $a$ is the side of a particular square, the gnomon round it is shown by simple inspection to contain $2a + 1$ dots or units. Now, in order that $2a + 1$ may itself be a square, let us suppose
+If :math:`a` is the side of a particular square, the gnomon round it is shown by simple inspection to contain :math:`2a + 1` dots or units. Now, in order that :math:`2a + 1` may itself be a square, let us suppose
 
-$$2a + 1 = n^2,$$
+.. math::
+
+   2a + 1 = n^2,
 
 whence
 
-$$a = \frac{1}{2}(n^2 - 1),$$
+.. math::
+
+   a = \frac{1}{2}(n^2 - 1),
 
 and
 
-$$a + 1 = \frac{1}{2}(n^2 + 1).$$
+.. math::
+
+   a + 1 = \frac{1}{2}(n^2 + 1).
 
 .. _folio-i-0373:
 
 .. folio:: 0373
    :page: 359
 
-In order that $a$ and $a + 1$ may be integral, $n$ must be odd, and we have at once the Pythagorean formula
+In order that :math:`a` and :math:`a + 1` may be integral, :math:`n` must be odd, and we have at once the Pythagorean formula
 
-$$n^2 + \left(\frac{n^2 - 1}{2}\right)^2 = \left(\frac{n^2 + 1}{2}\right)^2.$$
+.. math::
+
+   n^2 + \left(\frac{n^2 - 1}{2}\right)^2 = \left(\frac{n^2 + 1}{2}\right)^2.
 
 I think Treutlein's hypothesis is shown to be the correct one by the passage in Aristotle's *Physics* already quoted, where the reference is undoubtedly to the Pythagoreans, and odd numbers are clearly identified with *gnomons* “placed round 1.” But the ancient commentaries on the passage make the matter clearer still. :person:`Philoponus <philoponus>` says: “As a proof...the Pythagoreans refer to what
 
@@ -253,13 +281,17 @@ happens with the addition of numbers; for when the odd numbers are successively 
 The next question is: assuming this explanation of the Pythagorean formula, what are we to say of the origin of Plato's? It could of course be obtained as a particular case of the general formula of Eucl. X. already referred to; but there are two simple alternative explanations in this case also. (1) :person:`Bretschneider <bretschneider>` observes that, to obtain Plato's formula, we have only to double the sides of the squares in the Pythagorean formula,
 for
 
-$$(2n)^2 + (n^2 - 1)^2 = (n^2 + 1)^2,$$
+.. math::
 
-where however $n$ is not necessarily odd.
+   (2n)^2 + (n^2 - 1)^2 = (n^2 + 1)^2,
 
-(2) Treutlein would explain by means of an extension of the gnomon idea. As, he says, the Pythagorean formula was obtained by placing a gnomon consisting of a single row of dots round two adjacent sides of a square, it would be natural to try whether another solution could not be found by placing round the square a gnomon consisting of a *double* row of dots. Such a gnomon would equally turn the square into a larger square; and the question would be whether the double-row gnomon itself could be a square. If the side of the original square was $a$, it would easily be seen that the number of units in the double-row gnomon would be $4a + 4$, and we have only to put
+where however :math:`n` is not necessarily odd.
 
-$$4a + 4 = 4n^2,$$
+(2) Treutlein would explain by means of an extension of the gnomon idea. As, he says, the Pythagorean formula was obtained by placing a gnomon consisting of a single row of dots round two adjacent sides of a square, it would be natural to try whether another solution could not be found by placing round the square a gnomon consisting of a *double* row of dots. Such a gnomon would equally turn the square into a larger square; and the question would be whether the double-row gnomon itself could be a square. If the side of the original square was :math:`a`, it would easily be seen that the number of units in the double-row gnomon would be :math:`4a + 4`, and we have only to put
+
+.. math::
+
+   4a + 4 = 4n^2,
 
 .. picture:: 0373.g2.svg
    :alt: Folio 0373 Figure 2 - Proposition 47 Commentary (Double-Row Dot Gnomon)
@@ -271,24 +303,32 @@ $$4a + 4 = 4n^2,$$
 
 whence
 
-$$\begin{aligned}
-a &= n^2 - 1, \\
-a + 2 &= n^2 + 1,
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   a &= n^2 - 1, \\
+   a + 2 &= n^2 + 1,
+   \end{aligned}
 
 and we have the Platonic formula
 
-$$(2n)^2 + (n^2 - 1)^2 = (n^2 + 1)^2.$$
+.. math::
 
-I think this is, in substance, the right explanation, but, in form, not quite correct. The Greeks would not, I think, have treated the *double* row as a gnomon. Their comparison would have been between (1) a certain square *plus* a single-row gnomon and (2) the same square *minus* a single-row gnomon. As the application of Eucl. II. 4 to the case where the segments of the side of the square are $a, 1$ enables the Pythagorean formula to be obtained as Treutlein obtains it, so I think that Eucl. II. 8 confirms the idea that the Platonic formula was obtained by comparing a square *plus* a gnomon with the same square *minus* a gnomon. For II. 8 proves that
+   (2n)^2 + (n^2 - 1)^2 = (n^2 + 1)^2.
 
-$$4ab + (a - b)^2 = (a + b)^2,$$
+I think this is, in substance, the right explanation, but, in form, not quite correct. The Greeks would not, I think, have treated the *double* row as a gnomon. Their comparison would have been between (1) a certain square *plus* a single-row gnomon and (2) the same square *minus* a single-row gnomon. As the application of Eucl. II. 4 to the case where the segments of the side of the square are :math:`a, 1` enables the Pythagorean formula to be obtained as Treutlein obtains it, so I think that Eucl. II. 8 confirms the idea that the Platonic formula was obtained by comparing a square *plus* a gnomon with the same square *minus* a gnomon. For II. 8 proves that
 
-whence, substituting $1$ for $b$, we have
+.. math::
 
-$$4a + (a - 1)^2 = (a + 1)^2,$$
+   4ab + (a - b)^2 = (a + b)^2,
 
-and we have only to put $a = n^2$ to obtain Plato's formula.
+whence, substituting :math:`1` for :math:`b`, we have
+
+.. math::
+
+   4a + (a - 1)^2 = (a + 1)^2,
+
+and we have only to put :math:`a = n^2` to obtain Plato's formula.
 
 .. picture:: 0374.g1.svg
    :alt: Folio 0374 Figure 1 - Proposition 47 Commentary (Platonic Dot Gnomon)
@@ -296,7 +336,7 @@ and we have only to put $a = n^2$ to obtain Plato's formula.
 The “theorem of Pythagoras” in India.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This question has been discussed anew in the last few years as the result of the publication of two important papers by Albert Bürk on *Das Āpastamba-Śulba-Sūtra* in the *Zeitschrift der deutschen morgenländischen Gesellschaft* (LV., 1901, pp. 543—591, and LVI., 1902, pp. 327—391). The first of the two papers contains the introduction and the text, the second the translation with notes. A selection of the most important parts of the material was made and issued by G. :person:`Thibaut <thibaut>` in the *Journal of the Asiatic Society of Bengal*, XLIV., 1875, Part I. (reprinted also at Calcutta, 1875, as *The Śulvasūtras*, by G. :person:`Thibaut <thibaut>`). :person:`Thibaut <thibaut>` in this work gave a most valuable comparison of extracts from the three Śulvasūtras by Bāudhāyana, Āpastamba and Kātyāyana respectively, with a running commentary and an estimate of the date and originality of the geometry of the Indians. Bürk has however done good service by making the Āpastamba-Ś.-S. accessible in its entirety and investigating the whole subject afresh. With the natural enthusiasm of an editor for the work he is editing, he roundly maintains, not only that the Pythagorean theorem was known and proved in all its generality by the Indians long before the date of :person:`Pythagoras <pythagoras>` (about 580—500 B.C.), but that they had also discovered the irrational; and further that, so far from Indian geometry being indebted to the Greek, the much-travelled :person:`Pythagoras <pythagoras>` probably obtained his theory from India (*loc. cit.* LV., p. 575 note). Three important notices and criticisms of Bürk's work have followed, by H. G. :person:`Zeuthen <zeuthen>` (“*Théorème de Pythagore*,” *Origine de la Géométrie scientifique*, 1904, already quoted), by Moritz :person:`Cantor <cantor>` (*Über die älteste indische Mathematik* in the *Archiv der Mathematik und Physik*, VIII., 1905, pp. 63—72) and by Heinrich Vogt (*Haben die alten Inder den Pythagoreischen Lehrsatz und das Irrationale gekannt?* in the *Bibliotheca Mathematica*, $\text{VII}_3$, 1906, pp. 6—23. See also Cantor's *Geschichte der Mathematik*, $\text{I}_3$, pp. 635—645.
+This question has been discussed anew in the last few years as the result of the publication of two important papers by Albert Bürk on *Das Āpastamba-Śulba-Sūtra* in the *Zeitschrift der deutschen morgenländischen Gesellschaft* (LV., 1901, pp. 543—591, and LVI., 1902, pp. 327—391). The first of the two papers contains the introduction and the text, the second the translation with notes. A selection of the most important parts of the material was made and issued by G. :person:`Thibaut <thibaut>` in the *Journal of the Asiatic Society of Bengal*, XLIV., 1875, Part I. (reprinted also at Calcutta, 1875, as *The Śulvasūtras*, by G. :person:`Thibaut <thibaut>`). :person:`Thibaut <thibaut>` in this work gave a most valuable comparison of extracts from the three Śulvasūtras by Bāudhāyana, Āpastamba and Kātyāyana respectively, with a running commentary and an estimate of the date and originality of the geometry of the Indians. Bürk has however done good service by making the Āpastamba-Ś.-S. accessible in its entirety and investigating the whole subject afresh. With the natural enthusiasm of an editor for the work he is editing, he roundly maintains, not only that the Pythagorean theorem was known and proved in all its generality by the Indians long before the date of :person:`Pythagoras <pythagoras>` (about 580—500 B.C.), but that they had also discovered the irrational; and further that, so far from Indian geometry being indebted to the Greek, the much-travelled :person:`Pythagoras <pythagoras>` probably obtained his theory from India (*loc. cit.* LV., p. 575 note). Three important notices and criticisms of Bürk's work have followed, by H. G. :person:`Zeuthen <zeuthen>` (“*Théorème de Pythagore*,” *Origine de la Géométrie scientifique*, 1904, already quoted), by Moritz :person:`Cantor <cantor>` (*Über die älteste indische Mathematik* in the *Archiv der Mathematik und Physik*, VIII., 1905, pp. 63—72) and by Heinrich Vogt (*Haben die alten Inder den Pythagoreischen Lehrsatz und das Irrationale gekannt?* in the *Bibliotheca Mathematica*, :math:`\text{VII}_3`, 1906, pp. 6—23. See also Cantor's *Geschichte der Mathematik*, :math:`\text{I}_3`, pp. 635—645.
 
 .. _folio-i-0375:
 
@@ -309,46 +349,46 @@ I proceed to give a short summary of the portions of the contents of the Āpasta
 
 (1) Constructions of right angles by means of cords of the following relative lengths respectively:
 
-$$
-\begin{aligned}
-&\left\{ \begin{array}{r@{\;,\;}r@{\;,\;}r@{\quad}l}
-3 & 4 & 5 & (\text{I. } 3, \text{ V. } 3) \\
-12 & 16 & 20 & (\text{V. } 3) \\
-15 & 20 & 25 & (\text{V. } 3)
-\end{array} \right. \\
-&\left\{ \begin{array}{r@{\;,\;}r@{\;,\;}r@{\quad}l}
-5 & 12 & 13 & (\text{V. } 4) \\
-15 & 36 & 39 & (\text{I. } 2, \text{ V. } 2, 4)
-\end{array} \right. \\
-&\begin{array}{r@{\;,\;}r@{\;,\;}r@{\quad}l}
-\phantom{\{} 8 & 15 & 17 & (\text{V. } 5) \\
-\phantom{\{} 12 & 35 & 37 & (\text{V. } 5)
-\end{array}
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\left\{ \begin{array}{r@{\;,\;}r@{\;,\;}r@{\quad}l}
+   3 & 4 & 5 & (\text{I. } 3, \text{ V. } 3) \\
+   12 & 16 & 20 & (\text{V. } 3) \\
+   15 & 20 & 25 & (\text{V. } 3)
+   \end{array} \right. \\
+   &\left\{ \begin{array}{r@{\;,\;}r@{\;,\;}r@{\quad}l}
+   5 & 12 & 13 & (\text{V. } 4) \\
+   15 & 36 & 39 & (\text{I. } 2, \text{ V. } 2, 4)
+   \end{array} \right. \\
+   &\begin{array}{r@{\;,\;}r@{\;,\;}r@{\quad}l}
+   \phantom{\{} 8 & 15 & 17 & (\text{V. } 5) \\
+   \phantom{\{} 12 & 35 & 37 & (\text{V. } 5)
+   \end{array}
+   \end{aligned}
 
 (2) A general enunciation of the Pythagorean theorem thus: "The diagonal of a rectangle produces [i.e. the square on the diagonal is equal to] the sum of what the longer and shorter sides separately produce [i.e. the squares on the two sides]." (I. 4)
 
 (3) The application of the Pythagorean theorem to a *square* instead of a rectangle [i.e. to an *isosceles* right-angled triangle]: "The diagonal of a square produces an area double [of the original square]." (I. 5)
 
-(4) An approximation to the value of $\sqrt{2}$; the diagonal of a square is $\left(1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot 4 \cdot 34}\right)$ times the side. (I. 6)
+(4) An approximation to the value of :math:`\sqrt{2}`; the diagonal of a square is :math:`\left(1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot 4 \cdot 34}\right)` times the side. (I. 6)
 
 (5) Application of this approximate value to the construction of a square with side of any length. (II. 1)
 
-(6) The construction of $a\sqrt{3}$, by means of the Pythagorean theorem, as the diagonal of a rectangle with sides $a$ and $a\sqrt{2}$. (II. 2)
+(6) The construction of :math:`a\sqrt{3}`, by means of the Pythagorean theorem, as the diagonal of a rectangle with sides :math:`a` and :math:`a\sqrt{2}`. (II. 2)
 
 (7) Remarks equivalent to the following:
 
-(a) $a\sqrt{\frac{1}{3}}$ is the side of $\frac{1}{9}(a\sqrt{3})^2$, or $a\sqrt{\frac{1}{3}} = \frac{1}{3}a\sqrt{3}$. (II. 3)
+(a) :math:`a\sqrt{\frac{1}{3}}` is the side of :math:`\frac{1}{9}(a\sqrt{3})^2`, or :math:`a\sqrt{\frac{1}{3}} = \frac{1}{3}a\sqrt{3}`. (II. 3)
 
-(b) A square on length of $1$ unit gives $1$ unit square (III. 4) $\quad$ " $\quad$ " $\quad$ $2$ units gives $4$ unit squares (III. 6) $\quad$ " $\quad$ " $\quad$ $3$ $\quad$ " $\quad$ $9$ $\quad$ " (III. 6) $\quad$ " $\quad$ " $\quad$ $1\frac{1}{2}$ $\quad$ " $\quad$ $2\frac{1}{4}$ $\quad$ " (III. 8)
+(b) A square on length of :math:`1` unit gives :math:`1` unit square (III. 4) :math:`\quad` " :math:`\quad` " :math:`\quad` :math:`2` units gives :math:`4` unit squares (III. 6) :math:`\quad` " :math:`\quad` " :math:`\quad` :math:`3` :math:`\quad` " :math:`\quad` :math:`9` :math:`\quad` " (III. 6) :math:`\quad` " :math:`\quad` " :math:`\quad` :math:`1\frac{1}{2}` :math:`\quad` " :math:`\quad` :math:`2\frac{1}{4}` :math:`\quad` " (III. 8)
 
 .. _folio-i-0376:
 
 .. folio:: 0376
    :page: 362
 
-A square on length of $2\frac{1}{2}$ units gives $6\frac{1}{4}$ unit squares (III. 8) $\quad$ " $\quad$ " $\quad$ $\frac{1}{2}$ unit gives $\frac{1}{4}$ unit square (III. 10) $\quad$ " $\quad$ " $\quad$ $\frac{1}{3}$ $\quad$ " $\quad$ $\frac{1}{9}$ $\quad$ " (III. 10)
+A square on length of :math:`2\frac{1}{2}` units gives :math:`6\frac{1}{4}` unit squares (III. 8) :math:`\quad` " :math:`\quad` " :math:`\quad` :math:`\frac{1}{2}` unit gives :math:`\frac{1}{4}` unit square (III. 10) :math:`\quad` " :math:`\quad` " :math:`\quad` :math:`\frac{1}{3}` :math:`\quad` " :math:`\quad` :math:`\frac{1}{9}` :math:`\quad` " (III. 10)
 
 (c) Generally, the square on any length contains as many rows (of small, unit, squares) as the length contains units. (III. 7)
 
@@ -363,17 +403,17 @@ A square on length of $2\frac{1}{2}$ units gives $6\frac{1}{4}$ unit squares (II
 .. picture:: 0376.g1.svg
    :alt: Folio 0376 Figure 1 - Proposition 47 Commentary (Transformation of Rectangle into Square)
 
-[This is not directly done as by :person:`Euclid <euclid>` in II. 14, but the rectangle is first transformed into a gnomon, i.e. into the difference between two squares, which difference is then transformed into one square by the preceding rule. If :g:`ABCD <0376.g1:< A B C D >>` be the given rectangle of which :g:`BC <0376.g1:/ B C />` is the longer side, cut off the square :g:`ABEF <0376.g1:< A B E F >>`, bisect the rectangle :g:`DE <0376.g1:< D E >>` left over by :g:`HG <0376.g1:/ H G />` parallel to :g:`FE <0376.g1:/ F E />`, move the upper half :g:`DG <0376.g1:< D G >>` and place it on :g:`AF <0376.g1:/ A F />` as base in the position :g:`AK <0376.g1:< A K >>`. Then the rectangle :g:`ABCD <0376.g1:< A B C D >>` is equal to the gnomon which is the difference between the square :g:`LB <0376.g1:< L B >>` and the square :g:`LF <0376.g1:< L F >>`. In other words, Āpastamba transforms the rectangle $ab$ into the difference between the squares $\left(\frac{a+b}{2}\right)^2$ and $\left(\frac{a-b}{2}\right)^2$.]
+[This is not directly done as by :person:`Euclid <euclid>` in II. 14, but the rectangle is first transformed into a gnomon, i.e. into the difference between two squares, which difference is then transformed into one square by the preceding rule. If :g:`ABCD <0376.g1:< A B C D >>` be the given rectangle of which :g:`BC <0376.g1:/ B C />` is the longer side, cut off the square :g:`ABEF <0376.g1:< A B E F >>`, bisect the rectangle :g:`DE <0376.g1:< D E >>` left over by :g:`HG <0376.g1:/ H G />` parallel to :g:`FE <0376.g1:/ F E />`, move the upper half :g:`DG <0376.g1:< D G >>` and place it on :g:`AF <0376.g1:/ A F />` as base in the position :g:`AK <0376.g1:< A K >>`. Then the rectangle :g:`ABCD <0376.g1:< A B C D >>` is equal to the gnomon which is the difference between the square :g:`LB <0376.g1:< L B >>` and the square :g:`LF <0376.g1:< L F >>`. In other words, Āpastamba transforms the rectangle :math:`ab` into the difference between the squares :math:`\left(\frac{a+b}{2}\right)^2` and :math:`\left(\frac{a-b}{2}\right)^2`.]
 
-(10) An attempt at a transformation of a square ($a^2$) into a rectangle which shall have one side of given length ($b$). (III. 1)
+(10) An attempt at a transformation of a square (:math:`a^2`) into a rectangle which shall have one side of given length (:math:`b`). (III. 1)
 
-[This shows no sign of such a procedure as that of Eucl. I. 44, and indeed does no more than say that we must subtract $ab$ from $a^2$ and then adapt the remainder $a^2 - ab$ so that it may "fit on" to the rectangle $ab$. The problem is therefore only reduced to another of the same kind, and presumably it was only solved *arithmetically* in the case where $a, b$ are given numerically. The Indian was therefore far from the general, geometrical, solution.]
+[This shows no sign of such a procedure as that of Eucl. I. 44, and indeed does no more than say that we must subtract :math:`ab` from :math:`a^2` and then adapt the remainder :math:`a^2 - ab` so that it may "fit on" to the rectangle :math:`ab`. The problem is therefore only reduced to another of the same kind, and presumably it was only solved *arithmetically* in the case where :math:`a, b` are given numerically. The Indian was therefore far from the general, geometrical, solution.]
 
 (11) Increase of a given square into a larger square. (III. 9)
 
-[This amounts to saying that you must add two rectangles $(a, b)$ and another square $(b^2)$ in order to transform a square $a^2$ into a square $(a+b)^2$. The formula is therefore that of Eucl. II. 4, $a^2 + 2ab + b^2 = (a+b)^2$.]
+[This amounts to saying that you must add two rectangles :math:`(a, b)` and another square :math:`(b^2)` in order to transform a square :math:`a^2` into a square :math:`(a+b)^2`. The formula is therefore that of Eucl. II. 4, :math:`a^2 + 2ab + b^2 = (a+b)^2`.]
 
-The first important question in relation to the above is that of date. Bürk assigns to the *Āpastamba-Śulba-Sūtra* a date at least as early as the 5th or 4th century B.C. He observes however (what is likely enough) that the matter of it must have been much older than the book itself. Further, as regards one of the constructions for right angles, that by means of cords of lengths 15, 36, 39, he shows that it was known at the time of the *Taittirīya-Saṃhitā* and the *Śatapatha-Brāhmaṇa*, still older works belonging to the 8th century B.C. at latest. It may be that (as Bürk maintains) the discovery that triangles with sides $(a, b, c)$ in rational numbers such that $a^2 + b^2 = c^2$ are right-angled was nowhere made so early as in India. We find however in two ancient Chinese treatises (1) a statement that the diagonal of the rectangle $(3, 4)$ is $5$ and (2) a rule for finding the hypotenuse of a "right triangle" from the sides, while tradition connects both works with the name of Chou Kung
+The first important question in relation to the above is that of date. Bürk assigns to the *Āpastamba-Śulba-Sūtra* a date at least as early as the 5th or 4th century B.C. He observes however (what is likely enough) that the matter of it must have been much older than the book itself. Further, as regards one of the constructions for right angles, that by means of cords of lengths 15, 36, 39, he shows that it was known at the time of the *Taittirīya-Saṃhitā* and the *Śatapatha-Brāhmaṇa*, still older works belonging to the 8th century B.C. at latest. It may be that (as Bürk maintains) the discovery that triangles with sides :math:`(a, b, c)` in rational numbers such that :math:`a^2 + b^2 = c^2` are right-angled was nowhere made so early as in India. We find however in two ancient Chinese treatises (1) a statement that the diagonal of the rectangle :math:`(3, 4)` is :math:`5` and (2) a rule for finding the hypotenuse of a "right triangle" from the sides, while tradition connects both works with the name of Chou Kung
 who died 1105 B.C. (D. E. Smith, *History of Mathematics*, I. pp. 30—33, II. p. 288).
 
 .. _folio-i-0377:
@@ -381,11 +421,13 @@ who died 1105 B.C. (D. E. Smith, *History of Mathematics*, I. pp. 30—33, II. p
 .. folio:: 0377
    :page: 363
 
-As regards the various "rational rectangles" used by Āpastamba, it is to be observed that two of the seven, viz. $8, 15, 17$ and $12, 35, 37$, do not belong to the Pythagorean series, the others consist of two which belong to it, viz. $3, 4, 5$ and $5, 12, 13$, and multiples of these. It is true, as remarked by :person:`Zeuthen <zeuthen>` (*op. cit.* p. 842), that the rules of II. 7 and III. 9, numbered (9) and (11) above respectively, would furnish the means of finding any number of "rational rectangles." But it would not appear that the Indians had been able to formulate any general rule; otherwise their list of such rectangles would hardly have been so meagre. Āpastamba mentions seven only, really reducible to four (though one other, $7, 24, 25$, appears in the Bāudhāyana-Ś.-S., supposed to be older than Āpastamba). These are all that Āpastamba knew of, for he adds (v. 6): "So many *recognisable* (erkennbare) constructions are there," implying that he knew of no other "rational rectangles" that could be employed. But the words also imply that the theorem of the square on the diagonal is also true of other rectangles not of the "recognisable" kind, i.e. rectangles in which the sides and the diagonal are not in the ratio of integers; this is indeed implied by the constructions for $\sqrt{2}$, $\sqrt{3}$ etc. up to $\sqrt{6}$ (cf. II. 2, VIII. 5). This is all that can be said. The theorem is, it is true, enunciated as a general proposition, but there is no sign of anything like a general proof; there is nothing to show that the assumption of its universal truth was founded on anything better than an imperfect induction from a certain number of cases, discovered empirically, of triangles with sides in the ratio of whole numbers in which the property (1) that the square on the longest side is equal to the sum of the squares on the other two sides was found to be always accompanied by the property (2) that the latter two sides include a right angle.
+As regards the various "rational rectangles" used by Āpastamba, it is to be observed that two of the seven, viz. :math:`8, 15, 17` and :math:`12, 35, 37`, do not belong to the Pythagorean series, the others consist of two which belong to it, viz. :math:`3, 4, 5` and :math:`5, 12, 13`, and multiples of these. It is true, as remarked by :person:`Zeuthen <zeuthen>` (*op. cit.* p. 842), that the rules of II. 7 and III. 9, numbered (9) and (11) above respectively, would furnish the means of finding any number of "rational rectangles." But it would not appear that the Indians had been able to formulate any general rule; otherwise their list of such rectangles would hardly have been so meagre. Āpastamba mentions seven only, really reducible to four (though one other, :math:`7, 24, 25`, appears in the Bāudhāyana-Ś.-S., supposed to be older than Āpastamba). These are all that Āpastamba knew of, for he adds (v. 6): "So many *recognisable* (erkennbare) constructions are there," implying that he knew of no other "rational rectangles" that could be employed. But the words also imply that the theorem of the square on the diagonal is also true of other rectangles not of the "recognisable" kind, i.e. rectangles in which the sides and the diagonal are not in the ratio of integers; this is indeed implied by the constructions for :math:`\sqrt{2}`, :math:`\sqrt{3}` etc. up to :math:`\sqrt{6}` (cf. II. 2, VIII. 5). This is all that can be said. The theorem is, it is true, enunciated as a general proposition, but there is no sign of anything like a general proof; there is nothing to show that the assumption of its universal truth was founded on anything better than an imperfect induction from a certain number of cases, discovered empirically, of triangles with sides in the ratio of whole numbers in which the property (1) that the square on the longest side is equal to the sum of the squares on the other two sides was found to be always accompanied by the property (2) that the latter two sides include a right angle.
 
-It remains to consider Bürk's claim that the Indians had discovered the *irrational*. This is based upon the approximate value of $\sqrt{2}$ given by Āpastamba in his rule I. 6 numbered (4) above. There is nothing to show how this was arrived at, but Thibaut's suggestion certainly seems the best and most natural. The Indians may have observed that $17^2 = 289$ is nearly double of $12^2 = 144$. If so, the next question which would naturally occur to them would be, by how much the side $17$ must be diminished in order that the square on it may be $288$ *exactly*. If, in accordance with the Indian fashion, a gnomon with unit area were to be subtracted from a square with $17$ as side, this would approximately be secured by giving the gnomon the breadth $\frac{1}{34}$, for $2 \times 17 \times \frac{1}{34} = 1$. The side of the smaller square thus arrived at would be $17 - \frac{1}{34} = 12 + 4 + 1 - \frac{1}{34}$, whence, dividing out by $12$, we have
+It remains to consider Bürk's claim that the Indians had discovered the *irrational*. This is based upon the approximate value of :math:`\sqrt{2}` given by Āpastamba in his rule I. 6 numbered (4) above. There is nothing to show how this was arrived at, but Thibaut's suggestion certainly seems the best and most natural. The Indians may have observed that :math:`17^2 = 289` is nearly double of :math:`12^2 = 144`. If so, the next question which would naturally occur to them would be, by how much the side :math:`17` must be diminished in order that the square on it may be :math:`288` *exactly*. If, in accordance with the Indian fashion, a gnomon with unit area were to be subtracted from a square with :math:`17` as side, this would approximately be secured by giving the gnomon the breadth :math:`\frac{1}{34}`, for :math:`2 \times 17 \times \frac{1}{34} = 1`. The side of the smaller square thus arrived at would be :math:`17 - \frac{1}{34} = 12 + 4 + 1 - \frac{1}{34}`, whence, dividing out by :math:`12`, we have
 
-$$\sqrt{2} = 1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot 4 \cdot 34}\text{, approximately.}$$
+.. math::
+
+   \sqrt{2} = 1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot 4 \cdot 34}\text{, approximately.}
 
 But it is a far cry from this calculation of an approximate value to the discovery of the *irrational*. First, we ask, is there any sign that this value was known to be inexact? It comes directly after the statement (I. 6) that the square on the diagonal of a square is double of that square, and the rule is quite boldly stated without any qualification: "lengthen the unit by one-third and the latter by one-quarter of itself less one-thirty-fourth of this part." Further, the approximate value is actually used for the purpose of constructing a square when the side is given (II. 1). So familiar was the formula that it was apparently made the basis of a sub-division of measures of length.
 
@@ -394,7 +436,7 @@ But it is a far cry from this calculation of an approximate value to the discove
 .. folio:: 0378
    :page: 364
 
-:person:`Thibaut <thibaut>` observes (*Journal of the Asiatic Society of Bengal*, XLIX., p. 241) that, according to Bāudhāyana, the unit of length was divided into $12$ *fingerbreadths*, and that one of two divisions of the *fingerbreadth* was into $34$ *sesame-corns*, and he adds that he has no doubt that this division, which he has not elsewhere met, owes its origin to the formula for $\sqrt{2}$. The result of using this sub-division would be that, in a square with side equal to $12$ *fingerbreadths*, the diagonal would be $17$ *fingerbreadths* less $1$ *sesame-corn*. Is it conceivable that a sub-division of a measure of length would be based on an evaluation known to be inexact? No doubt the first discoverer would be aware that the area of a gnomon with breadth $\frac{1}{34}$ and outer side $17$ is not exactly equal to $1$ but less than it by the square of $\frac{1}{34}$ or by $\frac{1}{1156}$, and therefore that, in taking that gnomon as the proper area to be subtracted from $17^2$, he was leaving out of account the small fraction $\frac{1}{1156}$; as, however, the object of the whole proceeding was purely practical, he would, without hesitation, ignore this as being of no practical importance, and, thereafter, the formula would be handed down and taken as a matter of course without arousing suspicion as to its accuracy. This supposition is confirmed by reference to the sort of rules which the Indians allowed themselves to regard as accurate. Thus Āpastamba himself gives a construction for a circle equal in area to a given square, which is equivalent to taking $\pi = 3.09$, and yet observes that it gives the required circle "*exactly*" (III. 2), while his construction of a square equal to a circle, which he equally calls "exact," makes the side of the square equal to $\frac{13}{15}$ths of the diameter of the circle (III. 3), and is equivalent to taking $\pi = 3.004$. But, even if some who used the approximation for $\sqrt{2}$ were conscious that it was not quite accurate (of which there is no evidence), there is an immeasurable difference between arrival at this consciousness and the discovery of the irrational. As Vogt says, three stages had to be passed through before the irrationality of the diagonal of a square was discovered in any real sense. (1) All values found by direct measurement or calculations based thereon have to be recognised as being inaccurate. Next (2) must supervene the conviction that it is *impossible* to arrive at an accurate arithmetical expression of the value. And lastly (3) the impossibility must be proved. Now there is no real evidence that the Indians, at the date in question, had even reached the first stage, still less the second or third.
+:person:`Thibaut <thibaut>` observes (*Journal of the Asiatic Society of Bengal*, XLIX., p. 241) that, according to Bāudhāyana, the unit of length was divided into :math:`12` *fingerbreadths*, and that one of two divisions of the *fingerbreadth* was into :math:`34` *sesame-corns*, and he adds that he has no doubt that this division, which he has not elsewhere met, owes its origin to the formula for :math:`\sqrt{2}`. The result of using this sub-division would be that, in a square with side equal to :math:`12` *fingerbreadths*, the diagonal would be :math:`17` *fingerbreadths* less :math:`1` *sesame-corn*. Is it conceivable that a sub-division of a measure of length would be based on an evaluation known to be inexact? No doubt the first discoverer would be aware that the area of a gnomon with breadth :math:`\frac{1}{34}` and outer side :math:`17` is not exactly equal to :math:`1` but less than it by the square of :math:`\frac{1}{34}` or by :math:`\frac{1}{1156}`, and therefore that, in taking that gnomon as the proper area to be subtracted from :math:`17^2`, he was leaving out of account the small fraction :math:`\frac{1}{1156}`; as, however, the object of the whole proceeding was purely practical, he would, without hesitation, ignore this as being of no practical importance, and, thereafter, the formula would be handed down and taken as a matter of course without arousing suspicion as to its accuracy. This supposition is confirmed by reference to the sort of rules which the Indians allowed themselves to regard as accurate. Thus Āpastamba himself gives a construction for a circle equal in area to a given square, which is equivalent to taking :math:`\pi = 3.09`, and yet observes that it gives the required circle "*exactly*" (III. 2), while his construction of a square equal to a circle, which he equally calls "exact," makes the side of the square equal to :math:`\frac{13}{15}`\ ths of the diameter of the circle (III. 3), and is equivalent to taking :math:`\pi = 3.004`. But, even if some who used the approximation for :math:`\sqrt{2}` were conscious that it was not quite accurate (of which there is no evidence), there is an immeasurable difference between arrival at this consciousness and the discovery of the irrational. As Vogt says, three stages had to be passed through before the irrationality of the diagonal of a square was discovered in any real sense. (1) All values found by direct measurement or calculations based thereon have to be recognised as being inaccurate. Next (2) must supervene the conviction that it is *impossible* to arrive at an accurate arithmetical expression of the value. And lastly (3) the impossibility must be proved. Now there is no real evidence that the Indians, at the date in question, had even reached the first stage, still less the second or third.
 
 The net results then of Bürk's papers and of the criticisms to which they have given rise appear to be these. (1) It must be admitted that Indian geometry had reached the stage at which we find it in Āpastamba quite independently of Greek influence. But (2) the old Indian geometry was purely empirical and practical, far removed from abstractions such as the irrational. The Indians had indeed, by trial in particular cases, persuaded themselves of the truth of the Pythagorean theorem and enunciated it in all its generality; but they had not established it by scientific proof.
 

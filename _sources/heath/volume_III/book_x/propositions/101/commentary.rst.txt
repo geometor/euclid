@@ -21,44 +21,61 @@ Back to :ref:`Proposition X.101 <X.101>`.
 
 We have to find and classify
 
-$$\frac{1}{\sigma}\left\{\frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}+k} - \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}-k}\right\}^2.$$
+.. math::
 
-Call this $\frac{1}{\sigma}(u-v)^2$, and take $x, y, z$ such that
+   \frac{1}{\sigma}\left\{\frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}+k} - \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}-k}\right\}^2.
 
-$$\left.\begin{aligned}
-\sigma x &= u^2 \\
-\sigma y &= v^2 \\
-\sigma \cdot 2z &= 2uv
-\end{aligned}\right\}.$$
+Call this :math:`\frac{1}{\sigma}(u-v)^2`, and take :math:`x, y, z` such that
 
-In this case $u^2, v^2$ are incommensurable, $(u^2+v^2)$ is a medial area and $2uv$ a rational area.
+.. math::
 
-Since $\sigma(x+y)$ is medial and $\sigma \cdot 2z$ rational, $(x+y)$ is rational and $\smile \sigma$, $2z$ is rational and $\frown \sigma$, while
+   \left.\begin{aligned}
+   \sigma x &= u^2 \\
+   \sigma y &= v^2 \\
+   \sigma \cdot 2z &= 2uv
+   \end{aligned}\right\}.
 
-$$(x+y) \smile 2z.$$
+In this case :math:`u^2, v^2` are incommensurable, :math:`(u^2+v^2)` is a medial area and :math:`2uv` a rational area.
 
-It follows that $(x+y), 2z$ are rational and $\sim$, so that $(x+y) - 2z$ is an apotome.
+Since :math:`\sigma(x+y)` is medial and :math:`\sigma \cdot 2z` rational, :math:`(x+y)` is rational and :math:`\smile \sigma`, :math:`2z` is rational and :math:`\frown \sigma`, while
+
+.. math::
+
+   (x+y) \smile 2z.
+
+It follows that :math:`(x+y), 2z` are rational and :math:`\sim`, so that :math:`(x+y) - 2z` is an apotome.
 
 Again, as before,
 
-$$xy = z^2 = \frac{1}{4}(2z)^2,$$
+.. math::
 
-and, since $u^2 \smile v^2$,
+   xy = z^2 = \frac{1}{4}(2z)^2,
 
-$$\sigma x \smile \sigma y,$$
+and, since :math:`u^2 \smile v^2`,
+
+.. math::
+
+   \sigma x \smile \sigma y,
 
 or
 
-$$x \smile y.$$
+.. math::
+
+   x \smile y.
 
 Hence [X. 18]
 
-$$\sqrt{(x+y)^2 - (2z)^2} \smile (x+y).$$
+.. math::
 
-And $2z \frown \sigma$.
+   \sqrt{(x+y)^2 - (2z)^2} \smile (x+y).
 
-Therefore $(x+y) - 2z$ is a :term:`*fifth apotome* <fifth-apotome>`.
+And :math:`2z \frown \sigma`.
+
+Therefore :math:`(x+y) - 2z` is a :term:`*fifth apotome* <fifth-apotome>`.
 
 It is of course equal to
 
-$$\frac{\rho^2}{\sigma}\left(\frac{1}{\sqrt{1+k^2}} - \frac{1}{1+k^2}\right).$$
+.. math::
+
+   \frac{\rho^2}{\sigma}\left(\frac{1}{\sqrt{1+k^2}} - \frac{1}{1+k^2}\right).
+

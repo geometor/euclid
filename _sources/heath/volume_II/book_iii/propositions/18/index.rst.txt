@@ -68,7 +68,7 @@ Similarly we can prove that neither is any other straight
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] **the tangent**, $\text{ἡ ἐφαπτομένη}$.
+.. [#f1] **the tangent**, :math:`\text{ἡ ἐφαπτομένη}`.
 
 Dependency Graph
 ----------------

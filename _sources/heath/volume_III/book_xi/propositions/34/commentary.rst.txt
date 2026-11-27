@@ -44,11 +44,13 @@ I. Suppose the edges terminating at the corners of the base to be *perpendicular
 
 Then (*a*), if the base :g:`EH <0350.g1:< E H >>` be :eq:`equal <0350.g1:< E H > = 0350.g1:< N Q >>` to the base :g:`NQ <0350.g1:< N Q >>`, the parallelepipeds being also equal, the heights must be equal (converse of XI. 31), so that the bases are reciprocally proportional to the heights, the ratio of the bases and the ratio of the heights being both ratios of equality.
 
-(*b*) If the base :g:`EH <0350.g1:< E H >>` be greater than the base :g:`NQ <0350.g1:< N Q >>`, and consequently (by deduction from XI. 32) the height :g:`CM <0350.g1:/ C M />` greater than the height :g:`AG <0350.g1:/ A G />`, cut off :g:`CT <0350.g1:/ C T />` from :g:`CM <0350.g1:/ C M />` :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`AG <0350.g1:/ A G />`, and draw the plane :g:`TV <0350.g1:< T V >>` through :g:`T <0350.g1:T>` parallel to the base :g:`NQ <0350.g1:< N Q >>`, making the parallelepiped :g:`CV <0350.g1:< C V >>`, with :g:`CT <0350.g1:/ C T />` ($=$ :g:`AG <0350.g1:/ A G />`) for its height.
+(*b*) If the base :g:`EH <0350.g1:< E H >>` be greater than the base :g:`NQ <0350.g1:< N Q >>`, and consequently (by deduction from XI. 32) the height :g:`CM <0350.g1:/ C M />` greater than the height :g:`AG <0350.g1:/ A G />`, cut off :g:`CT <0350.g1:/ C T />` from :g:`CM <0350.g1:/ C M />` :eq:`equal <0350.g1:/ C T / = 0350.g1:/ A G />` to :g:`AG <0350.g1:/ A G />`, and draw the plane :g:`TV <0350.g1:< T V >>` through :g:`T <0350.g1:T>` parallel to the base :g:`NQ <0350.g1:< N Q >>`, making the parallelepiped :g:`CV <0350.g1:< C V >>`, with :g:`CT <0350.g1:/ C T />` (:math:`=` :g:`AG <0350.g1:/ A G />`) for its height.
 
 Then, since the solids :g:`AB <0350.g1:< A B >>`, :g:`CD <0350.g1:< C D >>` are :eq:`equal <0350.g1:< A B > = 0350.g1:< C D >>`,
 
-$$(\text{solid } AB) : (\text{solid } CV) = (\text{solid } CD) : (\text{solid } CV)\text{.} \qquad \text{[V. 7]}$$
+.. math::
+
+   (\text{solid } AB) : (\text{solid } CV) = (\text{solid } CD) : (\text{solid } CV)\text{.} \qquad \text{[V. 7]}
 
 .. _folio-iii-0355:
 
@@ -57,49 +59,65 @@ $$(\text{solid } AB) : (\text{solid } CV) = (\text{solid } CD) : (\text{solid } 
 
 But
 
-$$\begin{aligned}
-(\text{solid } AB) : (\text{solid } CV) &= \text{▱ } HE : \text{▱ } NQ, & \text{[XI. 32]} \\
-\text{and}\qquad (\text{solid } CD) : (\text{solid } CV) &= \text{▱ } MQ : \text{▱ } TQ & \text{[XI. 25]} \\
-&= CM : CT. & \text{[VI. 1]}
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   (\text{solid } AB) : (\text{solid } CV) &= \text{▱ } HE : \text{▱ } NQ, & \text{[XI. 32]} \\
+   \text{and}\qquad (\text{solid } CD) : (\text{solid } CV) &= \text{▱ } MQ : \text{▱ } TQ & \text{[XI. 25]} \\
+   &= CM : CT. & \text{[VI. 1]}
+   \end{aligned}
 
 Therefore
 
-$$\begin{aligned}
-\text{▱ } HE : \text{▱ } NQ &= CM : CT \\
-&= CM : AG.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \text{▱ } HE : \text{▱ } NQ &= CM : CT \\
+   &= CM : AG.
+   \end{aligned}
 
 Conversely (*a*), if the bases :g:`EH <0350.g1:< E H >>`, :g:`NQ <0350.g1:< N Q >>` be :eq:`equal <0350.g1:< E H > = 0350.g1:< N Q >>` and reciprocally proportional to the heights, the heights must be equal.
 
 Consequently
 
-$$\text{(solid } AB\text{)} = \text{(solid } CD\text{)}. \qquad \text{[XI. 31]}$$
+.. math::
+
+   \text{(solid } AB\text{)} = \text{(solid } CD\text{)}. \qquad \text{[XI. 31]}
 
 (*b*) If the bases :g:`EH <0350.g1:< E H >>`, :g:`NQ <0350.g1:< N Q >>` be unequal, if, e.g. ▱ :g:`EH <0350.g1:< E H >>` > ▱ :g:`NQ <0350.g1:< N Q >>`, then, since
 
-$$\text{▱ } EH : \text{▱ } NQ = CM : AG,$$
+.. math::
 
-$$CM > AG.$$
+   \text{▱ } EH : \text{▱ } NQ = CM : AG,
+
+.. math::
+
+   CM > AG.
 
 Make the same construction as before.
 
 Then
 
-$$\begin{aligned}
-\text{▱ } EH : \text{▱ } NQ &= (\text{solid } AB) : (\text{solid } CV), & \text{[XI. 32]} \\
-\text{and}\qquad CM : AG &= CM : CT \\
-&= \text{▱ } MQ : \text{▱ } TQ & \text{[VI. 1]} \\
-&= (\text{solid } CD) : (\text{solid } CV). & \text{[XI. 25]}
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \text{▱ } EH : \text{▱ } NQ &= (\text{solid } AB) : (\text{solid } CV), & \text{[XI. 32]} \\
+   \text{and}\qquad CM : AG &= CM : CT \\
+   &= \text{▱ } MQ : \text{▱ } TQ & \text{[VI. 1]} \\
+   &= (\text{solid } CD) : (\text{solid } CV). & \text{[XI. 25]}
+   \end{aligned}
 
 Therefore
 
-$$(\text{solid } AB) : (\text{solid } CV) = (\text{solid } CD) : (\text{solid } CV),$$
+.. math::
+
+   (\text{solid } AB) : (\text{solid } CV) = (\text{solid } CD) : (\text{solid } CV),
 
 whence
 
-$$\text{(solid } AB\text{)} = \text{solid } CD. \qquad \text{[V. 9]}$$
+.. math::
+
+   \text{(solid } AB\text{)} = \text{solid } CD. \qquad \text{[V. 9]}
 
 II. Suppose that the edges terminating at the corners of the bases are not perpendicular to it.
 
@@ -109,27 +127,39 @@ We thus have two parallelepipeds equal to :g:`AB <0352.g1:< A B >>`, :g:`CD <035
 
 If then (1) the solid :g:`AB <0352.g1:< A B >>` is :eq:`equal <0352.g1:< A B > = 0352.g1:< C D >>` to the solid :g:`CD <0352.g1:< C D >>`,
 
-$$\text{(solid } BT\text{)} = \text{(solid } DX\text{),}$$
+.. math::
+
+   \text{(solid } BT\text{)} = \text{(solid } DX\text{),}
 
 and, by the first part of this proposition,
 
-$$\text{▱ } KF : \text{▱ } OR = MX : GT,$$
+.. math::
+
+   \text{▱ } KF : \text{▱ } OR = MX : GT,
 
 or
 
-$$\text{▱ } HE : \text{▱ } NQ = MX : GT.$$
+.. math::
+
+   \text{▱ } HE : \text{▱ } NQ = MX : GT.
 
 (2) If
 
-$$\text{▱ } HE : \text{▱ } NQ = MX : GT,$$
+.. math::
+
+   \text{▱ } HE : \text{▱ } NQ = MX : GT,
 
 then
 
-$$\text{▱ } KF : \text{▱ } OR = MX : GT,$$
+.. math::
+
+   \text{▱ } KF : \text{▱ } OR = MX : GT,
 
 so that, by the first half of the proposition, the solids :g:`BT <0352.g1:< B T >>`, :g:`DX <0352.g1:< D X >>` are :eq:`equal <0352.g1:< B T > = 0352.g1:< D X >>`, and consequently
 
-$$\text{(solid } AB\text{)} = \text{(solid } CD\text{).}$$
+.. math::
+
+   \text{(solid } AB\text{)} = \text{(solid } CD\text{).}
 
 ----
 

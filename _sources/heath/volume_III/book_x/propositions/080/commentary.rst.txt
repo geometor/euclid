@@ -21,12 +21,16 @@ Back to :ref:`Proposition X.80 <X.80>`.
 
 Suppose, if possible, that the same :term:`*first apotome of a medial* <first-apotome-of-a-medial-straight-line>` straight line can be expressed in terms of the required character in two ways, so that
 
-$$x - y = x' - y',$$
+.. math::
 
-and suppose that $x > x'$.
+   x - y = x' - y',
 
-In this case $x^2 + y^2$, $(x'^2 + y'^2)$ are both medial areas, and $2xy$, $2x'y'$ are both rational areas; and
+and suppose that :math:`x > x'`.
 
-$$x^2 + y^2 - (x'^2 + y'^2) = 2xy - 2x'y'.$$
+In this case :math:`x^2 + y^2`, :math:`(x'^2 + y'^2)` are both medial areas, and :math:`2xy`, :math:`2x'y'` are both rational areas; and
+
+.. math::
+
+   x^2 + y^2 - (x'^2 + y'^2) = 2xy - 2x'y'.
 
 Hence x. 26 is contradicted again; therefore etc.

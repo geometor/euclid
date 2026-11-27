@@ -19,34 +19,44 @@ Back to :ref:`Proposition X.28 <X.28>`.
 .. folio:: 0066
    :page: 62
 
-Euclid takes three straight lines commensurable in square only, i.e. of the form $\rho$, $k^{\frac{1}{2}}\rho$, $\lambda^{\frac{1}{2}}\rho$, and proceeds as follows. Take the mean proportional to $\rho$, $k^{\frac{1}{2}}\rho$, i.e. $k^{\frac{1}{4}}\rho$. Then take $x$ such that
+Euclid takes three straight lines commensurable in square only, i.e. of the form :math:`\rho`, :math:`k^{\frac{1}{2}}\rho`, :math:`\lambda^{\frac{1}{2}}\rho`, and proceeds as follows. Take the mean proportional to :math:`\rho`, :math:`k^{\frac{1}{2}}\rho`, i.e. :math:`k^{\frac{1}{4}}\rho`. Then take :math:`x` such that
 
-$$k^{\frac{1}{2}}\rho : \lambda^{\frac{1}{2}}\rho = k^{\frac{1}{4}}\rho : x \ \text{.........................................(1),}$$
+.. math::
 
-so that $x = \lambda^{\frac{1}{2}}\rho / k^{\frac{1}{4}}$. $k^{\frac{1}{4}}\rho$, $\lambda^{\frac{1}{2}}\rho / k^{\frac{1}{4}}$ are the required medial straight lines. For $k^{\frac{1}{4}}\rho$ is medial. Now, by (1), since $k^{\frac{1}{2}}\rho \sim \lambda^{\frac{1}{2}}\rho$,
+   k^{\frac{1}{2}}\rho : \lambda^{\frac{1}{2}}\rho = k^{\frac{1}{4}}\rho : x \ \text{.........................................(1),}
 
-$$k^{\frac{1}{4}}\rho \sim x,$$
+so that :math:`x = \lambda^{\frac{1}{2}}\rho / k^{\frac{1}{4}}`. :math:`k^{\frac{1}{4}}\rho`, :math:`\lambda^{\frac{1}{2}}\rho / k^{\frac{1}{4}}` are the required medial straight lines. For :math:`k^{\frac{1}{4}}\rho` is medial. Now, by (1), since :math:`k^{\frac{1}{2}}\rho \sim \lambda^{\frac{1}{2}}\rho`,
 
-whence $x$ is also medial [X. 23, addition], while $\sim k^{\frac{1}{4}}\rho$. Next, by (1),
+.. math::
 
-$$\lambda^{\frac{1}{2}}\rho : x = k^{\frac{1}{2}}\rho : k^{\frac{1}{4}}\rho$$
+   k^{\frac{1}{4}}\rho \sim x,
 
-$$= k^{\frac{1}{4}}\rho : \rho,$$
+whence :math:`x` is also medial [X. 23, addition], while :math:`\sim k^{\frac{1}{4}}\rho`. Next, by (1),
+
+.. math::
+
+   \lambda^{\frac{1}{2}}\rho : x = k^{\frac{1}{2}}\rho : k^{\frac{1}{4}}\rho
+
+.. math::
+
+   = k^{\frac{1}{4}}\rho : \rho,
 
 whence
 
-$$x \,.\, k^{\frac{1}{4}}\rho = \lambda^{\frac{1}{2}}\rho^2\text{, which is medial.}$$
+.. math::
 
-The straight lines $k^{\frac{1}{4}}\rho$, $\lambda^{\frac{1}{2}}\rho / k^{\frac{1}{4}}$ of course take different forms according as the original straight lines are of the forms (1) $a$, $\sqrt{B}$, $\sqrt{C}$, (2) $\sqrt{A}$, $\sqrt{B}$, $\sqrt{C}$,
+   x \,.\, k^{\frac{1}{4}}\rho = \lambda^{\frac{1}{2}}\rho^2\text{, which is medial.}
 
-(3) $\sqrt{A}$, $b$, $\sqrt{C}$, and (4) $\sqrt{A}$, $\sqrt{B}$, $c$.
+The straight lines :math:`k^{\frac{1}{4}}\rho`, :math:`\lambda^{\frac{1}{2}}\rho / k^{\frac{1}{4}}` of course take different forms according as the original straight lines are of the forms (1) :math:`a`, :math:`\sqrt{B}`, :math:`\sqrt{C}`, (2) :math:`\sqrt{A}`, :math:`\sqrt{B}`, :math:`\sqrt{C}`,
+
+(3) :math:`\sqrt{A}`, :math:`b`, :math:`\sqrt{C}`, and (4) :math:`\sqrt{A}`, :math:`\sqrt{B}`, :math:`c`.
 
 .. _folio-iii-0067:
 
 .. folio:: 0067
    :page: 63
 
-E.g. in case (1) they are $\sqrt{a\sqrt{B}}$, $\sqrt{\frac{aC}{\sqrt{B}}}$, in case (2) they are $\sqrt[4]{AB}$, $\sqrt{\frac{C\sqrt{A}}{\sqrt{B}}}$, and so on.
+E.g. in case (1) they are :math:`\sqrt{a\sqrt{B}}`, :math:`\sqrt{\frac{aC}{\sqrt{B}}}`, in case (2) they are :math:`\sqrt[4]{AB}`, :math:`\sqrt{\frac{C\sqrt{A}}{\sqrt{B}}}`, and so on.
 
 ----
 
@@ -102,20 +112,22 @@ Let :g:`AB <0067.g1:/ A B />`, :g:`BC <0067.g1:/ B C />` also be either similar 
 
 Euclid's method of forming right-angled triangles in integral numbers, already alluded to in the note on I. 47, is as follows.
 
-Take two similar plane numbers, e.g. $mnp^2$, $mnq^2$, *which are either both even or both odd*, so that their difference is divisible by 2.
+Take two similar plane numbers, e.g. :math:`mnp^2`, :math:`mnq^2`, *which are either both even or both odd*, so that their difference is divisible by 2.
 
 .. _folio-iii-0068:
 
 .. folio:: 0068
    :page: 64
 
-Now the product of the two numbers, or $m^2n^2p^2q^2$, is square, :just:`[IX. 1] <IX.1>` and, by II. 6,
+Now the product of the two numbers, or :math:`m^2n^2p^2q^2`, is square, :just:`[IX. 1] <IX.1>` and, by II. 6,
 
-$$mnp^2 \cdot mnq^2 + \left(\frac{mnp^2 - mnq^2}{2}\right)^2 = \left(\frac{mnp^2 + mnq^2}{2}\right)^2,$$
+.. math::
 
-so that the numbers $mnpq$, $\frac{1}{2}(mnp^2 - mnq^2)$ satisfy the condition that the sum of their squares is also a square number.
+   mnp^2 \cdot mnq^2 + \left(\frac{mnp^2 - mnq^2}{2}\right)^2 = \left(\frac{mnp^2 + mnq^2}{2}\right)^2,
 
-It is also clear that $\frac{1}{2}(mnp^2 + mnq^2)$, $mnpq$ are numbers such that the *difference* of their squares is also square.
+so that the numbers :math:`mnpq`, :math:`\frac{1}{2}(mnp^2 - mnq^2)` satisfy the condition that the sum of their squares is also a square number.
+
+It is also clear that :math:`\frac{1}{2}(mnp^2 + mnq^2)`, :math:`mnpq` are numbers such that the *difference* of their squares is also square.
 
 ----
 
@@ -218,13 +230,17 @@ For, if possible, let it be equal to the square on :g:`BF <0068.g1:/ B F />`, an
 
 We can, of course, write the identity in the note on Lemma 1 above (p. 64) in the simpler form
 
-$$mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2}\right)^2 = \left(\frac{mp^2 + mq^2}{2}\right)^2,$$
+.. math::
 
-where, as before, $mp^2$, $mq^2$ are both odd or both even.
+   mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2}\right)^2 = \left(\frac{mp^2 + mq^2}{2}\right)^2,
+
+where, as before, :math:`mp^2`, :math:`mq^2` are both odd or both even.
 
 Now, says Euclid,
 
-$$mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 \text{ is not a square number.}$$
+.. math::
+
+   mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 \text{ is not a square number.}
 
 This is proved by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`.
 
@@ -233,32 +249,38 @@ This is proved by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`.
 .. folio:: 0070
    :page: 66
 
-The number is clearly less than $mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2}\right)^2$, i.e. less than $\left(\frac{mp^2 + mq^2}{2}\right)^2$.
+The number is clearly less than :math:`mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2}\right)^2`, i.e. less than :math:`\left(\frac{mp^2 + mq^2}{2}\right)^2`.
 
-If then the number is square, its side must be greater than, equal to, or less than $\left(\frac{mp^2 + mq^2}{2} - 1\right)$, the number next less than $\frac{mp^2 + mq^2}{2}$.
+If then the number is square, its side must be greater than, equal to, or less than :math:`\left(\frac{mp^2 + mq^2}{2} - 1\right)`, the number next less than :math:`\frac{mp^2 + mq^2}{2}`.
 
-But (1) the side cannot be $> \left(\frac{mp^2 + mq^2}{2} - 1\right)$ without being equal to $\frac{mp^2 + mq^2}{2}$, since they are consecutive numbers.
+But (1) the side cannot be :math:`> \left(\frac{mp^2 + mq^2}{2} - 1\right)` without being equal to :math:`\frac{mp^2 + mq^2}{2}`, since they are consecutive numbers.
 
-(2) $(mp^2 - 2) mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 = \left(\frac{mp^2 + mq^2}{2} - 1\right)^2$. :just:`[II. 6] <II.6>`
+(2) :math:`(mp^2 - 2) mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 = \left(\frac{mp^2 + mq^2}{2} - 1\right)^2`. :just:`[II. 6] <II.6>`
 
-If then $mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2$ is also equal to $\left(\frac{mp^2 + mq^2}{2} - 1\right)^2$, we must have
+If then :math:`mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2` is also equal to :math:`\left(\frac{mp^2 + mq^2}{2} - 1\right)^2`, we must have
 
-$$(mp^2 - 2) mq^2 = mp^2 \cdot mq^2,$$
+.. math::
+
+   (mp^2 - 2) mq^2 = mp^2 \cdot mq^2,
 
 or
 
-$$mp^2 - 2 = mp^2 :$$
+.. math::
+
+   mp^2 - 2 = mp^2 :
 
 which is impossible.
 
-(3) If $mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 < \left(\frac{mp^2 + mq^2}{2} - 1\right)^2$, suppose it equal to $\left(\frac{mp^2 + mq^2}{2} - r\right)^2$.
+(3) If :math:`mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 < \left(\frac{mp^2 + mq^2}{2} - 1\right)^2`, suppose it equal to :math:`\left(\frac{mp^2 + mq^2}{2} - r\right)^2`.
 
-But :just:`[II. 6] <II.6>` $(mp^2 - 2r) mq^2 + \left(\frac{mp^2 - mq^2}{2} - r\right)^2 = \left(\frac{mp^2 + mq^2}{2} - r\right)^2$.
+But :just:`[II. 6] <II.6>` :math:`(mp^2 - 2r) mq^2 + \left(\frac{mp^2 - mq^2}{2} - r\right)^2 = \left(\frac{mp^2 + mq^2}{2} - r\right)^2`.
 
 Therefore
 
-$$(mp^2 - 2r) mq^2 + \left(\frac{mp^2 - mq^2}{2} - r\right)^2 = mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 :$$
+.. math::
+
+   (mp^2 - 2r) mq^2 + \left(\frac{mp^2 - mq^2}{2} - r\right)^2 = mp^2 \cdot mq^2 + \left(\frac{mp^2 - mq^2}{2} - 1\right)^2 :
 
 which is impossible.
 
-Hence all three hypotheses are false, and the sum of the squares $mp^2 \cdot mq^2$ and $\left(\frac{mp^2 - mq^2}{2} - 1\right)^2$ is *not* square.
+Hence all three hypotheses are false, and the sum of the squares :math:`mp^2 \cdot mq^2` and :math:`\left(\frac{mp^2 - mq^2}{2} - 1\right)^2` is *not* square.

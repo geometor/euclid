@@ -21,23 +21,27 @@ Back to :ref:`Proposition V.16 <V.16>`.
 
 Algebraically, if
 
-$$\begin{aligned}
-a : b &= c : d, \\
-\text{then}\qquad a : c &= b : d.
-\end{aligned}$$
+.. math::
 
-Taking equimultiples $ma$, $mb$ of $a$, $b$, and equimultiples $nc$, $nd$ of $c$, $d$, we have, by V. 15,
+   \begin{aligned}
+   a : b &= c : d, \\
+   \text{then}\qquad a : c &= b : d.
+   \end{aligned}
 
-$$\begin{aligned}
-a : b &= ma : mb, \\
-c : d &= nc : nd.
-\end{aligned}$$
+Taking equimultiples :math:`ma`, :math:`mb` of :math:`a`, :math:`b`, and equimultiples :math:`nc`, :math:`nd` of :math:`c`, :math:`d`, we have, by V. 15,
 
-And, since $a : b = c : d$, we have [V. 11] $ma : mb = nc : nd$.
+.. math::
 
-Therefore [V. 14], according as $ma > = < nc$, $mb > = < nd$, so that $a : c = b : d$.
+   \begin{aligned}
+   a : b &= ma : mb, \\
+   c : d &= nc : nd.
+   \end{aligned}
 
-:person:`Aristotle <aristotle>` tacitly uses the theorem in $Meteorologica$ III. 5, 376 a 22—24.
+And, since :math:`a : b = c : d`, we have [V. 11] :math:`ma : mb = nc : nd`.
+
+Therefore [V. 14], according as :math:`ma > = < nc`, :math:`mb > = < nd`, so that :math:`a : c = b : d`.
+
+:person:`Aristotle <aristotle>` tacitly uses the theorem in :math:`Meteorologica` III. 5, 376 a 22—24.
 
 The four magnitudes in this proposition must all be *of the same kind*, and :person:`Simson <simson>` inserts "of the same kind" in the enunciation.
 
@@ -47,13 +51,17 @@ To prove that, *If four magnitudes of the same kind* [straight lines or rectilin
 
 Let :g:`P <0172.g1:< a b c d >>`, :g:`Q <0172.g1:< b c e f >>`, :g:`R <0172.g1:< a b g h >>`, :g:`S <0172.g1:< b f k g >>` be the four magnitudes of the same kind such that
 
-$$P : Q = R : S ;$$
+.. math::
+
+   P : Q = R : S ;
 
 then it is required to prove that
 
-$$P : R = Q : S.$$
+.. math::
 
-$First$, let all the magnitudes be areas.
+   P : R = Q : S.
+
+:math:`First`, let all the magnitudes be areas.
 
 Construct a rectangle :g:`abcd <0172.g1:< a b c d >>` equal to the area :g:`P <0172.g1:< a b c d >>`, and to :g:`bc <0172.g1:/ b c />` apply the rectangle :g:`bcef <0172.g1:< b c e f >>` equal to :g:`Q <0172.g1:< b c e f >>`.
 
@@ -73,16 +81,18 @@ Then, since the rectangles :g:`ac <0172.g1:< a b c d >>`, :g:`be <0172.g1:< b c 
 
    Hence P : Q = ab : bf. But P : Q = R : S. Therefore R : S = ab : bf, [V. 11] i.e. rect. :g:`ag <0172.g1:< a b g h >>` : rect. :g:`bk <0172.g1:< b f k g >>` = ab : bf.
 
-Hence (by the converse of VI. 1) the rectangles $ag, bk$ have the same height, so that :g:`k <0172.g1:k>` is on the line :g:`hg <0172.g1:/ h g />`.
+Hence (by the converse of VI. 1) the rectangles :math:`ag, bk` have the same height, so that :g:`k <0172.g1:k>` is on the line :g:`hg <0172.g1:/ h g />`.
 
 Hence the rectangles :g:`ac <0172.g1:< a b c d >>`, :g:`ag <0172.g1:< a b g h >>` have the same height, namely :g:`ab <0172.g1:/ a b />`; also :g:`be <0172.g1:< b c e f >>`, :g:`bk <0172.g1:< b f k g >>` have the same height, namely :g:`bf <0172.g1:/ b f />`.
 
-$$\begin{aligned}
-\text{Therefore} \qquad \text{rect. } ac : \text{rect. } ag &= bc : bg, \\
-\text{and} \qquad \text{rect. } be : \text{rect. } bk &= bc : bg. && [\text{VI. 1}] \\
-\text{Therefore} \qquad \text{rect. } ac : \text{rect. } ag &= \text{rect. } be : \text{rect. } bk. && [\text{V. 11}] \\
-\text{That is,} \qquad P : R &= Q : S.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \text{Therefore} \qquad \text{rect. } ac : \text{rect. } ag &= bc : bg, \\
+   \text{and} \qquad \text{rect. } be : \text{rect. } bk &= bc : bg. && [\text{VI. 1}] \\
+   \text{Therefore} \qquad \text{rect. } ac : \text{rect. } ag &= \text{rect. } be : \text{rect. } bk. && [\text{V. 11}] \\
+   \text{That is,} \qquad P : R &= Q : S.
+   \end{aligned}
 
 Secondly, let the magnitudes be straight lines :g:`AB <0172.g2:/ A B />`, :g:`BC <0172.g2:/ B C />`, :g:`CD <0172.g2:/ C D />`, :g:`DE <0172.g2:/ D E />`. Construct the rectangles :g:`Ab <0172.g2:< A B b a >>`, :g:`Bc <0172.g2:< B C c b >>`, :g:`Cd <0172.g2:< C D d c >>`, :g:`De <0172.g2:< D E e d >>` with the same height.
 
@@ -95,8 +105,13 @@ Secondly, let the magnitudes be straight lines :g:`AB <0172.g2:/ A B />`, :g:`BC
 
 Hence, by the first case,
 
-$$Ab : Cd = Bc : De,$$
+.. math::
+
+   Ab : Cd = Bc : De,
 
 and, since these rectangles have the same height,
 
-$$AB : CD = BC : DE.$$
+.. math::
+
+   AB : CD = BC : DE.
+

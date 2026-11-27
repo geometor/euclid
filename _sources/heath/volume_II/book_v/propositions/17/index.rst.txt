@@ -22,7 +22,7 @@ PROPOSITION 17.
 
    If magnitudes be :term:`proportional <proportional>` :term:`componendo <componendo>`, they will also be proportional separando.
 
-Let $AB$, :g:`BE <0173.g1:/ E B />`, :g:`CD <0173.g1:/ C D />`, :g:`DF <0173.g1:/ F D />` be magnitudes proportional *componendo*, so that, as :g:`AB <0173.g1:/ A B />` is to :g:`BE <0173.g1:/ E B />`, so is :g:`CD <0173.g1:/ C D />` to :g:`DF <0173.g1:/ F D />`;
+Let :math:`AB`, :g:`BE <0173.g1:/ E B />`, :g:`CD <0173.g1:/ C D />`, :g:`DF <0173.g1:/ F D />` be magnitudes proportional *componendo*, so that, as :g:`AB <0173.g1:/ A B />` is to :g:`BE <0173.g1:/ E B />`, so is :g:`CD <0173.g1:/ C D />` to :g:`DF <0173.g1:/ F D />`;
 
 I say that they will also be proportional :term:`*separando* <separando>`, that is, as :g:`AE <0173.g1:/ A E />` is to :g:`EB <0173.g1:/ E B />`, so is :g:`CF <0173.g1:/ C F />` to :g:`DF <0173.g1:/ F D />`.
 

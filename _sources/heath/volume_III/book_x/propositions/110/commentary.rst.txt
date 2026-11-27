@@ -21,29 +21,37 @@ Back to :ref:`Proposition X.110 <X.110>`.
 
 We have to classify
 
-$$\sqrt{\sqrt{k} \cdot \rho^2 - \sqrt{\lambda} \cdot \rho^2},$$
+.. math::
 
-where $\sqrt{k} \cdot \rho^2$ is incommensurable with $\sqrt{\lambda} \cdot \rho^2$.
+   \sqrt{\sqrt{k} \cdot \rho^2 - \sqrt{\lambda} \cdot \rho^2},
+
+where :math:`\sqrt{k} \cdot \rho^2` is incommensurable with :math:`\sqrt{\lambda} \cdot \rho^2`.
 
 Put
 
-$$\sigma u = \sqrt{k} \cdot \rho^2,$$
+.. math::
 
-$$\sigma v = \sqrt{\lambda} \cdot \rho^2.$$
+   \sigma u = \sqrt{k} \cdot \rho^2,
+
+.. math::
+
+   \sigma v = \sqrt{\lambda} \cdot \rho^2.
 
 .. _folio-iii-0244:
 
 .. folio:: 0244
    :page: 240
 
-Then $u$ is rational and $\smile \sigma$, $v$ is rational and $\smile \sigma$, and
+Then :math:`u` is rational and :math:`\smile \sigma`, :math:`v` is rational and :math:`\smile \sigma`, and
 
-$$u \smile v.$$
+.. math::
 
-Therefore $u, v$ are rational and $\sim$, so that $(u - v)$ is an apotome.
+   u \smile v.
+
+Therefore :math:`u, v` are rational and :math:`\sim`, so that :math:`(u - v)` is an apotome.
 
 Now either
 
-(1) $\sqrt{u^2 - v^2} \mathbin{\Cap} u$, or (2) $\sqrt{u^2 - v^2} \smile u$, while in both cases both $u$ and $v$ are $\smile \sigma$.
+(1) :math:`\sqrt{u^2 - v^2} \mathbin{\Cap} u`, or (2) :math:`\sqrt{u^2 - v^2} \smile u`, while in both cases both :math:`u` and :math:`v` are :math:`\smile \sigma`.
 
-In case (1) $(u - v)$ is a :term:`*third apotome* <third-apotome>`, and in case (2) $(u - v)$ is a :term:`*sixth apotome* <sixth-apotome>`, so that $\sqrt{\sigma (u - v)}$ is either (1) a :term:`*second apotome of a medial straight line* <second-apotome-of-a-medial-straight-line>` :just:`[x. 93]`, or (2) a "*side" of the difference between two medial areas* :just:`[x. 96]`.
+In case (1) :math:`(u - v)` is a :term:`*third apotome* <third-apotome>`, and in case (2) :math:`(u - v)` is a :term:`*sixth apotome* <sixth-apotome>`, so that :math:`\sqrt{\sigma (u - v)}` is either (1) a :term:`*second apotome of a medial straight line* <second-apotome-of-a-medial-straight-line>` :just:`[x. 93]`, or (2) a "*side" of the difference between two medial areas* :just:`[x. 96]`.

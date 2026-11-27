@@ -19,25 +19,25 @@ Back to :ref:`Proposition VI.23 <VI.23>`.
 .. folio:: 0254
    :page: 248
 
-The second definition of the $Data$ says that *A ratio is said to be given if we can find* (πορίσασθαι) [*another ratio that is*] *the same with it*. Accordingly VI. 23 not only proves that equiangular parallelograms have to one another a ratio which is compounded of two others, but shows that that ratio is "given" when its component ratios are given, or that it can be represented as a simple ratio between straight lines.
+The second definition of the :math:`Data` says that *A ratio is said to be given if we can find* (πορίσασθαι) [*another ratio that is*] *the same with it*. Accordingly VI. 23 not only proves that equiangular parallelograms have to one another a ratio which is compounded of two others, but shows that that ratio is "given" when its component ratios are given, or that it can be represented as a simple ratio between straight lines.
 
 .. _folio-ii-0255:
 
 .. folio:: 0255
    :page: 249
 
-Just as VI. 23 exhibits the operation necessary for compounding two ratios, a proposition (8) of the $Data$ indicates the operation by which we may divide one ratio by another. The proposition proves that *Things which have a given ratio to the same thing have also a given ratio to one another*. Euclid's procedure is of course to compound one ratio with the *inverse* of the other; but, when this is once done and the result of Prop. 8 obtained, he uses the result in the later propositions as a substitute for the method of composition. Thus he uses the division of ratios, instead of composition, in the propositions of the $Data$ which deal with the same subject-matter as VI. 23. The effect is to represent the ratio of two equiangular parallelograms as a ratio between straight lines one of which is *one side of one of the parallelograms*. Prop. 56 of the $Data$ shows us that, if we want to express the ratio of the parallelogram :g:`AC <0255.g1:< A C >>` to the parallelogram :g:`CF <0255.g1:< C F >>` in the figure
+Just as VI. 23 exhibits the operation necessary for compounding two ratios, a proposition (8) of the :math:`Data` indicates the operation by which we may divide one ratio by another. The proposition proves that *Things which have a given ratio to the same thing have also a given ratio to one another*. Euclid's procedure is of course to compound one ratio with the *inverse* of the other; but, when this is once done and the result of Prop. 8 obtained, he uses the result in the later propositions as a substitute for the method of composition. Thus he uses the division of ratios, instead of composition, in the propositions of the :math:`Data` which deal with the same subject-matter as VI. 23. The effect is to represent the ratio of two equiangular parallelograms as a ratio between straight lines one of which is *one side of one of the parallelograms*. Prop. 56 of the :math:`Data` shows us that, if we want to express the ratio of the parallelogram :g:`AC <0255.g1:< A C >>` to the parallelogram :g:`CF <0255.g1:< C F >>` in the figure
 
 .. picture:: 0255.g1.svg
    :alt: Proposition 23 Commentary Diagram - Data Prop. 56 & 68
 
-of VI. 23 in the form of a ratio in which, for example, the side :g:`BC <0255.g1:/ B C />` is the antecedent term, the required ratio of the parallelograms is :g:`BC <0255.g1:/ B C />` : $X$, where
+of VI. 23 in the form of a ratio in which, for example, the side :g:`BC <0255.g1:/ B C />` is the antecedent term, the required ratio of the parallelograms is :g:`BC <0255.g1:/ B C />` : :math:`X`, where
 
 .. container:: center
 
    :g:`DC <0255.g1:/ D C />` : :g:`CE <0255.g1:/ C E />` = :g:`CG <0255.g1:/ C G />` : X,
 
-or $X$ is a fourth proportional to :g:`DC <0255.g1:/ D C />` and the two sides of the parallelogram :g:`CF <0255.g1:< C F >>`.
+or :math:`X` is a fourth proportional to :g:`DC <0255.g1:/ D C />` and the two sides of the parallelogram :g:`CF <0255.g1:< C F >>`.
 
 Measure :g:`CK <0255.g1:/ C K />` along :g:`CB <0255.g1:/ C B />`, produced if necessary, so that
 
@@ -45,7 +45,7 @@ Measure :g:`CK <0255.g1:/ C K />` along :g:`CB <0255.g1:/ C B />`, produced if n
 
    :g:`DC <0255.g1:/ D C />` : :g:`CE <0255.g1:/ C E />` = :g:`CG <0255.g1:/ C G />` : :g:`CK <0255.g1:/ C K />`
 
-(whence :g:`CK <0255.g1:/ C K />` is equal to $X$).
+(whence :g:`CK <0255.g1:/ C K />` is equal to :math:`X`).
 
 [This may be simply done by joining :g:`DG <0255.g1:/ D G />` and then drawing :g:`EK <0255.g1:/ E K />` parallel to it meeting :g:`CB <0255.g1:/ C B />` in :g:`K <0255.g1:K>`.]
 
@@ -65,9 +65,9 @@ Therefore
 
    (:g:`AC <0255.g1:< A C >>`) : (:g:`CF <0255.g1:< C F >>`) = (:g:`AC <0255.g1:< A C >>`) : (:g:`DK <0255.g1:< D K >>`) [v. 7] = :g:`BC <0255.g1:/ B C />` : :g:`CK <0255.g1:/ C K />` [VI. 1] = :g:`BC <0255.g1:/ B C />` : X.
 
-Prop. 68 of the $Data$ uses the same construction to prove that, *If two equiangular parallelograms have to one another a given ratio, and one side have to one side a given ratio, the remaining side will also have to the remaining side a given ratio*.
+Prop. 68 of the :math:`Data` uses the same construction to prove that, *If two equiangular parallelograms have to one another a given ratio, and one side have to one side a given ratio, the remaining side will also have to the remaining side a given ratio*.
 
-I do not use the figure of the $Data$ but, for convenience' sake, I adhere to the figure given above. Suppose that the ratio of the parallelograms is given, and also that of :g:`CD <0255.g1:/ C D />` to :g:`CE <0255.g1:/ C E />`.
+I do not use the figure of the :math:`Data` but, for convenience' sake, I adhere to the figure given above. Suppose that the ratio of the parallelograms is given, and also that of :g:`CD <0255.g1:/ C D />` to :g:`CE <0255.g1:/ C E />`.
 
 Apply to :g:`CD <0255.g1:/ C D />` the parallelogram :g:`DK <0255.g1:< D K >>` :eq:`equal <0255.g1:< D K > = 0255.g1:< C F >>` to :g:`CF <0255.g1:< C F >>` and such that :g:`CK <0255.g1:/ C K />`, :g:`CB <0255.g1:/ C B />` coincide in direction. :just:`[I. 45] <I.45>`
 

@@ -23,50 +23,65 @@ The same link to connect the proportion of numbers with the proportion of magnit
 
 Suppose
 
-$$a : b = m : n,$$
+.. math::
 
-where $m, n$ are (integral) numbers.
+   a : b = m : n,
 
-Divide $a$ into $m$ parts, each equal to $c$, say, so that
+where :math:`m, n` are (integral) numbers.
 
-$$a = mc.$$
+Divide :math:`a` into :math:`m` parts, each equal to :math:`c`, say, so that
 
-Now take $d$ such that
+.. math::
 
-$$d = nc.$$
+   a = mc.
+
+Now take :math:`d` such that
+
+.. math::
+
+   d = nc.
 
 Therefore we have
 
-$$a : c = m : 1,$$
+.. math::
+
+   a : c = m : 1,
 
 and
 
-$$c : d = 1 : n,$$
+.. math::
+
+   c : d = 1 : n,
 
 so that, :term:`*ex aequali* <ex-aequali>`,
 
-$$
-\begin{aligned}
-a : d &= m : n \\
-&= a : b\text{, by hypothesis.}
-\end{aligned}
-$$
+.. math::
 
-Therefore $b = d = nc$, so that $c$ measures $b$ $n$ times, and $a, b$ are commensurable.
+   \begin{aligned}
+   a : d &= m : n \\
+   &= a : b\text{, by hypothesis.}
+   \end{aligned}
 
-The Porism is often used in the later propositions. It follows (1) that, if $a$ be a given straight line, and $m, n$ any numbers, a straight line $x$ can be found such that
+Therefore :math:`b = d = nc`, so that :math:`c` measures :math:`b` :math:`n` times, and :math:`a, b` are commensurable.
 
-$$a : x = m : n.$$
+The Porism is often used in the later propositions. It follows (1) that, if :math:`a` be a given straight line, and :math:`m, n` any numbers, a straight line :math:`x` can be found such that
 
-(2) We can find a straight line $y$ such that
+.. math::
 
-$$a^2 : y^2 = m : n.$$
+   a : x = m : n.
 
-For we have only to take $y$, a mean proportional between $a$ and $x$, as previously found, in which case $a, y, x$ are in continued proportion and :just:`[V. Def. 9] <V.def.9>`
+(2) We can find a straight line :math:`y` such that
 
-$$
-\begin{aligned}
-a^2 : y^2 &= a : x \\
-&= m : n.
-\end{aligned}
-$$
+.. math::
+
+   a^2 : y^2 = m : n.
+
+For we have only to take :math:`y`, a mean proportional between :math:`a` and :math:`x`, as previously found, in which case :math:`a, y, x` are in continued proportion and :just:`[V. Def. 9] <V.def.9>`
+
+.. math::
+
+   \begin{aligned}
+   a^2 : y^2 &= a : x \\
+   &= m : n.
+   \end{aligned}
+

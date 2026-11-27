@@ -50,35 +50,45 @@ Now twice the square on :g:`AD <0412.g1:/ A D />` is the sum of the squares on :
 
 Therefore twice the squares on :g:`AD <0412.g1:/ A D />`, :g:`DB <0412.g1:/ D B />` are equal to twice the inner square :g:`GK <0412.g1:< G K >>` together with once the remainder of the large square :g:`AE <0412.g1:< A E >>`, that is, to the sum of the squares :g:`AE <0412.g1:< A E >>`, :g:`GK <0412.g1:< G K >>`, which are the squares on :g:`AB <0412.g1:/ A B />`, :g:`CD <0412.g1:/ C D />`.
 
-"Side" and "diagonal" numbers giving successive approximations to $\sqrt{2}$.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"Side" and "diagonal" numbers giving successive approximations to :math:`\sqrt{2}`.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:person:`Zeuthen <zeuthen>` pointed out (:cite:`*Die Lehre von den Kegelschnitten im Altertum* <zeuthen:kegelschnitte>`, 1886, pp. 27, 28) that II. 9, 10 have great interest in connexion with a problem of indeterminate analysis which received much attention from the ancient Greeks. If we take the straight line :g:`AB <0412.g2:/ A B />` divided at :g:`C <0412.g2:C>` and :g:`D <0412.g2:D>` as in II. 9, and if we put :g:`CD <0412.g2:/ C D />` $= x$, :g:`DB <0412.g2:/ D B />` $= y$, the result obtained by :person:`Euclid <euclid>`, namely:
+:person:`Zeuthen <zeuthen>` pointed out (:cite:`*Die Lehre von den Kegelschnitten im Altertum* <zeuthen:kegelschnitte>`, 1886, pp. 27, 28) that II. 9, 10 have great interest in connexion with a problem of indeterminate analysis which received much attention from the ancient Greeks. If we take the straight line :g:`AB <0412.g2:/ A B />` divided at :g:`C <0412.g2:C>` and :g:`D <0412.g2:D>` as in II. 9, and if we put :g:`CD <0412.g2:/ C D />` :math:`= x`, :g:`DB <0412.g2:/ D B />` :math:`= y`, the result obtained by :person:`Euclid <euclid>`, namely:
 
 .. picture:: 0412.g2.svg
    :alt: Divided straight line AB
 
-$$AD^2 + DB^2 = 2AC^2 + 2CD^2,$$
+.. math::
+
+   AD^2 + DB^2 = 2AC^2 + 2CD^2,
 
 or
 
-$$AD^2 - 2AC^2 = 2CD^2 - DB^2,$$
+.. math::
+
+   AD^2 - 2AC^2 = 2CD^2 - DB^2,
 
 becomes the formula
 
-$$(2x + y)^2 - 2(x + y)^2 = 2x^2 - y^2.$$
+.. math::
 
-If therefore $x$, $y$ be numbers which satisfy one of the two equations
+   (2x + y)^2 - 2(x + y)^2 = 2x^2 - y^2.
 
-$$2x^2 - y^2 = \pm 1,$$
+If therefore :math:`x`, :math:`y` be numbers which satisfy one of the two equations
 
-the formula gives us two higher numbers, $x + y$ and $2x + y$, which satisfy the other of the two equations.
+.. math::
+
+   2x^2 - y^2 = \pm 1,
+
+the formula gives us two higher numbers, :math:`x + y` and :math:`2x + y`, which satisfy the other of the two equations.
 
 Euclid's propositions thus give a general proof of the very formula used for the formation of the succession of what were called "*side*" and "*diagonal* numbers."
 
-As is well known, :person:`Theon of Smyrna <theon-of-smyrna>` (pp. 43, 44, ed. Hiller) describes this system of numbers. The unit, being the beginning of all things, must be potentially both a *side* and a *diameter*. Consequently we begin with two units, the one being the first *side* and the other the first *diameter*, and ($a$) from the sum of them, ($b$) from the sum of twice the first unit and once the second, we form two new numbers
+As is well known, :person:`Theon of Smyrna <theon-of-smyrna>` (pp. 43, 44, ed. Hiller) describes this system of numbers. The unit, being the beginning of all things, must be potentially both a *side* and a *diameter*. Consequently we begin with two units, the one being the first *side* and the other the first *diameter*, and (:math:`a`) from the sum of them, (:math:`b`) from the sum of twice the first unit and once the second, we form two new numbers
 
-$$1 . 1 + 1 = 2, \quad 2 . 1 + 1 = 3.$$
+.. math::
+
+   1 . 1 + 1 = 2, \quad 2 . 1 + 1 = 3.
 
 .. _folio-i-0413:
 
@@ -87,42 +97,52 @@ $$1 . 1 + 1 = 2, \quad 2 . 1 + 1 = 3.$$
 
 Of these new numbers the first is a *side*- and the second a *diagonal*-number, or (as we may say)
 
-$$a_2 = 2, \quad d_2 = 3.$$
+.. math::
 
-In the same way as these numbers were formed from $a_1 = 1$, $d_1 = 1$, successive pairs of numbers are formed from $a_2$, $d_2$, and so on, according to the formula
+   a_2 = 2, \quad d_2 = 3.
 
-$$a_{n+1} = a_n + d_n, \quad d_{n+1} = 2a_n + d_n.$$
+In the same way as these numbers were formed from :math:`a_1 = 1`, :math:`d_1 = 1`, successive pairs of numbers are formed from :math:`a_2`, :math:`d_2`, and so on, according to the formula
+
+.. math::
+
+   a_{n+1} = a_n + d_n, \quad d_{n+1} = 2a_n + d_n.
 
 Thus
 
-$$\begin{aligned}
-a_3 &= 2 + 3 = 5, & d_3 &= 2 . 2 + 3 = 7, \\
-a_4 &= 5 + 7 = 12, & d_4 &= 2 . 5 + 7 = 17,
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   a_3 &= 2 + 3 = 5, & d_3 &= 2 . 2 + 3 = 7, \\
+   a_4 &= 5 + 7 = 12, & d_4 &= 2 . 5 + 7 = 17,
+   \end{aligned}
 
 and so on.
 
 :person:`Theon <theon-of-alexandria>` states, with reference to these numbers, the general proposition that
 
-$$d_n^2 = 2a_n^2 \pm 1,$$
+.. math::
 
-and he observes (1) that the signs alternate as successive $d$'s and $a$'s are taken, $d_1^2 - 2a_1^2$ being equal to $-1$, $d_2^2 - 2a_2^2$ equal to $+1$, $d_3^2 - 2a_3^2$ equal to $-1$, and so on, (2) that the sum of the squares of *all* the $d$'s will be double of the sum of the squares of *all* the $a$'s. [If the number of successive terms in each series is *finite*, it is of course necessary that the number should be even.] The proof, no doubt omitted because it was well known, may be put algebraically thus
+   d_n^2 = 2a_n^2 \pm 1,
 
-$$\begin{aligned}
-d_n^2 - 2a_n^2 &= (2a_{n-1} + d_{n-1})^2 - 2(a_{n-1} + d_{n-1})^2 \\
-&= 2a_{n-1}^2 - d_{n-1}^2 \\
-&= -(d_{n-1}^2 - 2a_{n-1}^2) \\
-&= +(d_{n-2}^2 - 2a_{n-2}^2), \text{ in like manner,}
-\end{aligned}$$
+and he observes (1) that the signs alternate as successive :math:`d`'s and :math:`a`'s are taken, :math:`d_1^2 - 2a_1^2` being equal to :math:`-1`, :math:`d_2^2 - 2a_2^2` equal to :math:`+1`, :math:`d_3^2 - 2a_3^2` equal to :math:`-1`, and so on, (2) that the sum of the squares of *all* the :math:`d`'s will be double of the sum of the squares of *all* the :math:`a`'s. [If the number of successive terms in each series is *finite*, it is of course necessary that the number should be even.] The proof, no doubt omitted because it was well known, may be put algebraically thus
 
-and so on, while $d_1^2 - 2a_1^2 = -1$. Thus the theorem is established.
+.. math::
 
-Euclid's propositions enable us to establish the theorem geometrically; and this fact might well be thought to confirm the conjecture that the investigation of the indeterminate equation $2x^2 - y^2 = \pm 1$ in the manner explained by :person:`Theon <theon-of-alexandria>` was no new thing but began at a period long before Euclid's time. No one familiar with the truth of the proposition stated by :person:`Theon <theon-of-alexandria>` could have failed to observe that, as the corresponding *side*- and *diagonal*-numbers were successively formed, the value of $d_n^2 / a_n^2$ would approach more and more nearly to $2$, and consequently that the successive fractions $d_n / a_n$ would give nearer and nearer approximations to the value of $\sqrt{2}$, viz. $\frac{1}{1}, \frac{3}{2}, \frac{7}{5}, \frac{17}{12}, \frac{41}{29}, \dots$.
+   \begin{aligned}
+   d_n^2 - 2a_n^2 &= (2a_{n-1} + d_{n-1})^2 - 2(a_{n-1} + d_{n-1})^2 \\
+   &= 2a_{n-1}^2 - d_{n-1}^2 \\
+   &= -(d_{n-1}^2 - 2a_{n-1}^2) \\
+   &= +(d_{n-2}^2 - 2a_{n-2}^2), \text{ in like manner,}
+   \end{aligned}
 
-It is fairly clear that in the famous passage of Plato's *Republic* (546 C) about the "geometrical number" some such system of approximations is hinted at. :person:`Plato <plato>` there contrasts the "*rational diameter of five*" (ῥητὴ :term:`διάμετρος <diameter>` τῆς πεμπάδος) with the "irrational" (diameter). This was certainly taken from the Pythagorean theory of numbers (cf. the expression immediately preceding, 546 B, C πάντα προσήγορα καὶ ῥητὰ πρὸς ἄλληλα ἀπέφηναν, with the phrase πάντα γνωστὰ καὶ ποτάγορα ἀλλάλοις ἀπεργάζεται in the fragment of Philolaus). The reference of :person:`Plato <plato>` is to the following consideration. If the square of side $5$ be taken, the diagonal is $\sqrt{2 . 25}$ or $\sqrt{50}$. This is the Pythagorean "*irrational diameter*" of $5$; and the "rational diameter" was the approximation $\sqrt{50 - 1}$, or $7$.
+and so on, while :math:`d_1^2 - 2a_1^2 = -1`. Thus the theorem is established.
+
+Euclid's propositions enable us to establish the theorem geometrically; and this fact might well be thought to confirm the conjecture that the investigation of the indeterminate equation :math:`2x^2 - y^2 = \pm 1` in the manner explained by :person:`Theon <theon-of-alexandria>` was no new thing but began at a period long before Euclid's time. No one familiar with the truth of the proposition stated by :person:`Theon <theon-of-alexandria>` could have failed to observe that, as the corresponding *side*- and *diagonal*-numbers were successively formed, the value of :math:`d_n^2 / a_n^2` would approach more and more nearly to :math:`2`, and consequently that the successive fractions :math:`d_n / a_n` would give nearer and nearer approximations to the value of :math:`\sqrt{2}`, viz. :math:`\frac{1}{1}, \frac{3}{2}, \frac{7}{5}, \frac{17}{12}, \frac{41}{29}, \dots`.
+
+It is fairly clear that in the famous passage of Plato's *Republic* (546 C) about the "geometrical number" some such system of approximations is hinted at. :person:`Plato <plato>` there contrasts the "*rational diameter of five*" (ῥητὴ :term:`διάμετρος <diameter>` τῆς πεμπάδος) with the "irrational" (diameter). This was certainly taken from the Pythagorean theory of numbers (cf. the expression immediately preceding, 546 B, C πάντα προσήγορα καὶ ῥητὰ πρὸς ἄλληλα ἀπέφηναν, with the phrase πάντα γνωστὰ καὶ ποτάγορα ἀλλάλοις ἀπεργάζεται in the fragment of Philolaus). The reference of :person:`Plato <plato>` is to the following consideration. If the square of side :math:`5` be taken, the diagonal is :math:`\sqrt{2 . 25}` or :math:`\sqrt{50}`. This is the Pythagorean "*irrational diameter*" of :math:`5`; and the "rational diameter" was the approximation :math:`\sqrt{50 - 1}`, or :math:`7`.
 
 But the conjecture of :person:`Zeuthen <zeuthen>`, and the attribution of the whole theory of *side*- and *diagonal*-numbers to the Pythagoreans, have now been fully confirmed by the publication of Kroll's edition of *Procli Diadochi in Platonis rempublicam commentarii* (Teubner), Vol. II., 1901. The passages (cc. 23 and 27, pp. 24, 25 and 27—29) which there saw the light for the first time describe the same
-system of forming *side-* and *diagonal-*numbers and definitely attribute it, as well as the distinction between the "rational" and "irrational diameter," to the Pythagoreans. :person:`Proclus <proclus>` further says (p. 27, 16—22) that the property of the *side-* and *diagonal-*numbers "is proved graphically (γραμμικῶς) in the second book of the Elements by *'him'* (ἀπ’ ἐκείνου). *For, if a straight line be bisected and a straight line be added to it, the square on the whole line including the added straight line and the square on the latter alone are double of the square on the half of the original straight line and of the square on the straight line made up of the half and of the added straight line.*" And this is simply Eucl. II. 10. :person:`Proclus <proclus>` then goes on to show specifically how this proposition was used to prove that, with the notation above used, the *diameter* corresponding to the *side* $a + d$ is $2a + d$. Let :g:`AB <0414.g1:/ A B />` be a *side* and :g:`BC <0414.g1:/ B C />` :eq:`equal <0414.g1:/ B C / = 0414.g1:/ A B />` to it, while :g:`CD <0414.g1:/ C D />` is the *diameter* corresponding to :g:`AB <0414.g1:/ A B />`, i.e. a straight line such that the square on it is double of the square on :g:`AB <0414.g1:/ A B />`. (I use the figure supplied by :person:`Hultsch <hultsch>` on p. 397 of Kroll's Vol. II.)
+system of forming *side-* and *diagonal-*numbers and definitely attribute it, as well as the distinction between the "rational" and "irrational diameter," to the Pythagoreans. :person:`Proclus <proclus>` further says (p. 27, 16—22) that the property of the *side-* and *diagonal-*numbers "is proved graphically (γραμμικῶς) in the second book of the Elements by *'him'* (ἀπ’ ἐκείνου). *For, if a straight line be bisected and a straight line be added to it, the square on the whole line including the added straight line and the square on the latter alone are double of the square on the half of the original straight line and of the square on the straight line made up of the half and of the added straight line.*" And this is simply Eucl. II. 10. :person:`Proclus <proclus>` then goes on to show specifically how this proposition was used to prove that, with the notation above used, the *diameter* corresponding to the *side* :math:`a + d` is :math:`2a + d`. Let :g:`AB <0414.g1:/ A B />` be a *side* and :g:`BC <0414.g1:/ B C />` :eq:`equal <0414.g1:/ B C / = 0414.g1:/ A B />` to it, while :g:`CD <0414.g1:/ C D />` is the *diameter* corresponding to :g:`AB <0414.g1:/ A B />`, i.e. a straight line such that the square on it is double of the square on :g:`AB <0414.g1:/ A B />`. (I use the figure supplied by :person:`Hultsch <hultsch>` on p. 397 of Kroll's Vol. II.)
 
 .. _folio-i-0414:
 
@@ -140,9 +160,9 @@ And the square on :g:`DF <0414.g1:/ D F />`, the *diagonal* corresponding to the
 
 Therefore the square on :g:`DF <0414.g1:/ D F />` is :eq:`equal <0414.g1:/ D F / = 0414.g1:/ A D />` to the square on :g:`AD <0414.g1:/ A D />`, so that :g:`DF <0414.g1:/ D F />` is :eq:`equal <0414.g1:/ D F / = 0414.g1:/ A D />` to :g:`AD <0414.g1:/ A D />`.
 
-That is, while the *side* :g:`BD <0414.g1:/ B D />` is, with our notation, $a + d$, the corresponding *diagonal*, being equal to :g:`AD <0414.g1:/ A D />`, is $2a + d$.
+That is, while the *side* :g:`BD <0414.g1:/ B D />` is, with our notation, :math:`a + d`, the corresponding *diagonal*, being equal to :g:`AD <0414.g1:/ A D />`, is :math:`2a + d`.
 
-In the above reference by :person:`Proclus <proclus>` to II. 10 ἀπ’ ἐκείνου "by *him*" must apparently mean ὑπ’ Εὐκλείδου, "by :person:`Euclid <euclid>`," although Euclid's name has not been mentioned in the chapter; the phrase would be equivalent to saying "in the second Book of the famous Elements." But, when :person:`Proclus <proclus>` says "this *is proved* in the second Book of the Elements," he does not imply that it had not been proved before; on the contrary, it is clear that the theorem had been proved by the Pythagoreans, and we have therefore here a confirmation of the inference from the part played by the *gnomon* and by I. 47 in Book II. that the whole of the substance of that Book was Pythagorean. For further detailed explanation of the passages of :person:`Proclus <proclus>` reference should be made to Hultsch's note in Kroll's Vol. II. pp. 393—400, and to the separate article, also by :person:`Hultsch <hultsch>`, in the *Bibliotheca Mathematica* $\text{I}_3$, 1900, pp. 8—12.
+In the above reference by :person:`Proclus <proclus>` to II. 10 ἀπ’ ἐκείνου "by *him*" must apparently mean ὑπ’ Εὐκλείδου, "by :person:`Euclid <euclid>`," although Euclid's name has not been mentioned in the chapter; the phrase would be equivalent to saying "in the second Book of the famous Elements." But, when :person:`Proclus <proclus>` says "this *is proved* in the second Book of the Elements," he does not imply that it had not been proved before; on the contrary, it is clear that the theorem had been proved by the Pythagoreans, and we have therefore here a confirmation of the inference from the part played by the *gnomon* and by I. 47 in Book II. that the whole of the substance of that Book was Pythagorean. For further detailed explanation of the passages of :person:`Proclus <proclus>` reference should be made to Hultsch's note in Kroll's Vol. II. pp. 393—400, and to the separate article, also by :person:`Hultsch <hultsch>`, in the *Bibliotheca Mathematica* :math:`\text{I}_3`, 1900, pp. 8—12.
 
 P. Bergh has an ingenious suggestion (see *Zeitschrift für Math. u. Physik*
 
@@ -151,7 +171,7 @@ P. Bergh has an ingenious suggestion (see *Zeitschrift für Math. u. Physik*
 .. folio:: 0415
    :page: 401
 
-XXXI. Hist.-litt. Abt. p. 135, and :person:`Cantor <cantor>`, *Geschichte der Mathematik*, $\text{I}_3$, p. 437) as to the way in which the formation of the successive *side-* and *diagonal-*numbers may have been discovered, namely by observation from a very simple geometrical figure. Let :g:`ABC <0415.g1:< A B C >>` be an :eq:`isosceles <0415.g1:/ A B / = 0415.g1:/ A C />` triangle, right-angled at :g:`A <0415.g1:< B A C )>`, with sides $a_{n-1}$, $a_{n-1}$, $d_{n-1}$ respectively. If now the two sides :g:`AB <0415.g1:/ A B />`, :g:`AC <0415.g1:/ A C />` about the right angle be lengthened by adding $d_{n-1}$ to each, and the extremities :g:`D <0415.g1:D>`, :g:`E <0415.g1:E>` be joined, it is easily seen by means of the figure (in which :g:`BF <0415.g1:/ B F />`, :g:`CG <0415.g1:/ C G />` are perpendicular to :g:`DE <0415.g1:/ D E />`) that the new *diagonal* $d_n$ is equal to $2a_{n-1} + d_{n-1}$, while the equal *sides* $a_n$ are, by construction, equal to $a_{n-1} + d_{n-1}$.
+XXXI. Hist.-litt. Abt. p. 135, and :person:`Cantor <cantor>`, *Geschichte der Mathematik*, :math:`\text{I}_3`, p. 437) as to the way in which the formation of the successive *side-* and *diagonal-*\ numbers may have been discovered, namely by observation from a very simple geometrical figure. Let :g:`ABC <0415.g1:< A B C >>` be an :eq:`isosceles <0415.g1:/ A B / = 0415.g1:/ A C />` triangle, right-angled at :g:`A <0415.g1:< B A C )>`, with sides :math:`a_{n-1}`, :math:`a_{n-1}`, :math:`d_{n-1}` respectively. If now the two sides :g:`AB <0415.g1:/ A B />`, :g:`AC <0415.g1:/ A C />` about the right angle be lengthened by adding :math:`d_{n-1}` to each, and the extremities :g:`D <0415.g1:D>`, :g:`E <0415.g1:E>` be joined, it is easily seen by means of the figure (in which :g:`BF <0415.g1:/ B F />`, :g:`CG <0415.g1:/ C G />` are perpendicular to :g:`DE <0415.g1:/ D E />`) that the new *diagonal* :math:`d_n` is equal to :math:`2a_{n-1} + d_{n-1}`, while the equal *sides* :math:`a_n` are, by construction, equal to :math:`a_{n-1} + d_{n-1}`.
 
 .. picture:: 0415.g1.svg
    :alt: 0415.g1

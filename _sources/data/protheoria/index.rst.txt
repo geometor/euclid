@@ -9,9 +9,9 @@
 .. _data-unit-0-en:
 .. _marinus-protheoria:
 
-===========================================================
+=============================================================
 Marinus of Neapolis: Commentary (Protheoria) on Euclid's Data
-===========================================================
+=============================================================
 
 *Epistemology of Givenness (Δεδομένον)* — **Menge (1896) pp. 234–256**
 
@@ -107,7 +107,7 @@ In like manner stand the :term:`ordered <tetagmenon>` and :term:`unordered <atak
 .. folio:: Menge 244
    :page: 244
 
-So too stand the :term:`ordered <tetagmenon>` and :term:`unordered <atakton>` toward the :term:`rational <rheton>` and :term:`irrational <alogon>`. Neither are these coextensive, nor does either include the other: for the binomial (:just:`[X.36] <X.36>`) and the other classified irrationals of Book X, as well as the ratio of the square's diagonal to its side ($\sqrt{2} : 1$), are thoroughly *ordered*, yet not *rational*; while many *rational* magnitudes are *unordered*, such as figures formed variably and indeterminately—for a scalene triangle can have all its sides measured by an assigned rational unit (e.g. $13, 14, 15$) while remaining unordered as a class.
+So too stand the :term:`ordered <tetagmenon>` and :term:`unordered <atakton>` toward the :term:`rational <rheton>` and :term:`irrational <alogon>`. Neither are these coextensive, nor does either include the other: for the binomial (:just:`[X.36] <X.36>`) and the other classified irrationals of Book X, as well as the ratio of the square's diagonal to its side (:math:`\sqrt{2} : 1`), are thoroughly *ordered*, yet not *rational*; while many *rational* magnitudes are *unordered*, such as figures formed variably and indeterminately—for a scalene triangle can have all its sides measured by an assigned rational unit (e.g. :math:`13, 14, 15`) while remaining unordered as a class.
 
 .. _marinus-p11:
 
@@ -131,7 +131,7 @@ Again, the :term:`known <gnorimon>` and the :term:`rational <rheton>` partly ove
 § 13. Logical Cross-Comparison VI: Procurable Includes Rational
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-That the :term:`procurable <porimon>` and :term:`unprocurable <aporon>` also differ from the :term:`rational <rheton>` and :term:`irrational <alogon>` is clear from this: some irrationals can be *procurable* (such as $\sqrt{2}$ or the golden section via :just:`[II.11] <II.11>`), whereas nothing rational is irrational; thus the *procurable* is of wider extension than the *rational*.
+That the :term:`procurable <porimon>` and :term:`unprocurable <aporon>` also differ from the :term:`rational <rheton>` and :term:`irrational <alogon>` is clear from this: some irrationals can be *procurable* (such as :math:`\sqrt{2}` or the golden section via :just:`[II.11] <II.11>`), whereas nothing rational is irrational; thus the *procurable* is of wider extension than the *rational*.
 
 .. _marinus-p14:
 

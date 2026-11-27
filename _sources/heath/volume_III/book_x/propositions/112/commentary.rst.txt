@@ -25,22 +25,26 @@ I will only point out what seems to me open to doubt in the above, namely that X
 
 X. 112 is the equivalent of rationalising the denominators of the fractions
 
-$$\frac{c^2}{\sqrt A + \sqrt B},\quad \frac{c^2}{a + \sqrt B},$$
+.. math::
 
-by multiplying numerator and denominator by $\sqrt A - \sqrt B$ and $a - \sqrt B$ respectively.
+   \frac{c^2}{\sqrt A + \sqrt B},\quad \frac{c^2}{a + \sqrt B},
+
+by multiplying numerator and denominator by :math:`\sqrt A - \sqrt B` and :math:`a - \sqrt B` respectively.
 
 Euclid proves that
 
-$$\frac{\sigma^2}{\rho + \sqrt k \cdot \rho} = \lambda\rho - \sqrt k \cdot \lambda\rho \quad (k < 1),$$
+.. math::
 
-and his method enables us to see that $\lambda = \sigma^2/(\rho^2 - k\rho^2)$.
+   \frac{\sigma^2}{\rho + \sqrt k \cdot \rho} = \lambda\rho - \sqrt k \cdot \lambda\rho \quad (k < 1),
+
+and his method enables us to see that :math:`\lambda = \sigma^2/(\rho^2 - k\rho^2)`.
 
 The proof is a remarkable instance of the dexterity of the Greeks in using geometry as the equivalent of our algebra. Like so many proofs in :person:`Archimedes <archimedes>` and :person:`Apollonius <apollonius>`, it leaves us completely in the dark as to how it was evolved. That the Greeks must have had some analytical method which suggested the steps of such proofs seems certain; but *what* it was must remain apparently an insoluble mystery.
 
 I will reproduce by means of algebraical symbols the exact course of Euclid's proof.
 
-He has to prove that $\frac{\sigma^2}{\rho + \sqrt k \cdot \rho}$ is an apotome related in a certain way to
-the binomial straight line $\rho + \sqrt k \cdot \rho$. If $u$ be the straight line required, $(u + w) - w$ is shown to be an apotome of the kind described, where $w$ is determined in the following manner.
+He has to prove that :math:`\frac{\sigma^2}{\rho + \sqrt k \cdot \rho}` is an apotome related in a certain way to
+the binomial straight line :math:`\rho + \sqrt k \cdot \rho`. If :math:`u` be the straight line required, :math:`(u + w) - w` is shown to be an apotome of the kind described, where :math:`w` is determined in the following manner.
 
 .. _folio-iii-0251:
 
@@ -49,112 +53,157 @@ the binomial straight line $\rho + \sqrt k \cdot \rho$. If $u$ be the straight l
 
 We have
 
-$$\left.\begin{aligned}
-(\rho + \sqrt k \cdot \rho)\, u &= \sigma^2 = \sqrt k \cdot \rho \cdot x\text{, say,} \\
-\text{whence}\quad x &> u.
-\end{aligned}\right\} \dots\dots\dots\dots\dots\dots(1).$$
+.. math::
+
+   \left.\begin{aligned}
+   (\rho + \sqrt k \cdot \rho)\, u &= \sigma^2 = \sqrt k \cdot \rho \cdot x\text{, say,} \\
+   \text{whence}\quad x &> u.
+   \end{aligned}\right\} \dots\dots\dots\dots\dots\dots(1).
 
 Let
 
-$$x = u + v.$$
+.. math::
+
+   x = u + v.
 
 Then
 
-$$(\rho + \sqrt k \cdot \rho) : \sqrt k \cdot \rho = (u + v) : u,$$
+.. math::
+
+   (\rho + \sqrt k \cdot \rho) : \sqrt k \cdot \rho = (u + v) : u,
 
 and hence
 
-$$\rho : \sqrt k \cdot \rho = v : u \dots\dots\dots\dots\dots\dots(2).$$
+.. math::
 
-Let $w$ be taken such that
+   \rho : \sqrt k \cdot \rho = v : u \dots\dots\dots\dots\dots\dots(2).
 
-$$v : u = (u + w) : w \dots\dots\dots\dots\dots\dots(3).$$
+Let :math:`w` be taken such that
+
+.. math::
+
+   v : u = (u + w) : w \dots\dots\dots\dots\dots\dots(3).
 
 Thus
 
-$$v : u = (u + v + w) : (u + w) \dots\dots\dots\dots\dots\dots(4),$$
+.. math::
+
+   v : u = (u + v + w) : (u + w) \dots\dots\dots\dots\dots\dots(4),
 
 and therefore
 
-$$\rho : \sqrt k \cdot \rho = (u + v + w) : (u + w).$$
+.. math::
+
+   \rho : \sqrt k \cdot \rho = (u + v + w) : (u + w).
 
 From the last proportion,
 
-$$(u + v + w)^2 \mathbin{\cap} (u + w)^2,$$
+.. math::
 
-and, from the two preceding, $(u + w)$ is a mean proportional between $(u + v + w)$, $w$, so that
+   (u + v + w)^2 \mathbin{\cap} (u + w)^2,
 
-$$(u + v + w)^2 : (u + w)^2 = (u + v + w) : w.$$
+and, from the two preceding, :math:`(u + w)` is a mean proportional between :math:`(u + v + w)`, :math:`w`, so that
+
+.. math::
+
+   (u + v + w)^2 : (u + w)^2 = (u + v + w) : w.
 
 Therefore
 
-$$(u + v + w) \mathbin{\cap} w,$$
+.. math::
+
+   (u + v + w) \mathbin{\cap} w,
 
 whence
 
-$$(u + v) \mathbin{\cap} w.$$
+.. math::
 
-Now $\sqrt k \cdot \rho\, (u + v) = \sigma^2$, which is rational; therefore $(u + v)$ is rational and $\mathbin{\cap} \sqrt k \cdot \rho$; hence
+   (u + v) \mathbin{\cap} w.
 
-$$w \text{ is also rational and } \mathbin{\cap} \sqrt k \cdot \rho \dots\dots\dots\dots\dots\dots(5).$$
+Now :math:`\sqrt k \cdot \rho\, (u + v) = \sigma^2`, which is rational; therefore :math:`(u + v)` is rational and :math:`\mathbin{\cap} \sqrt k \cdot \rho`; hence
 
-Next, by (2), (3), since $\rho$, $\sqrt k \cdot \rho$ are $\mathbin{\sim}$,
+.. math::
 
-$$(u + w) \mathbin{\sim} w,$$
+   w \text{ is also rational and } \mathbin{\cap} \sqrt k \cdot \rho \dots\dots\dots\dots\dots\dots(5).
 
-and $w$ is rational; therefore $(u + w)$ is rational, and $(u + w)$, $w$ are rational and $\mathbin{\sim}$. Hence $(u + w) - w$ is an apotome.
+Next, by (2), (3), since :math:`\rho`, :math:`\sqrt k \cdot \rho` are :math:`\mathbin{\sim}`,
+
+.. math::
+
+   (u + w) \mathbin{\sim} w,
+
+and :math:`w` is rational; therefore :math:`(u + w)` is rational, and :math:`(u + w)`, :math:`w` are rational and :math:`\mathbin{\sim}`. Hence :math:`(u + w) - w` is an apotome.
 
 Now either
 
-$$\begin{aligned}
-\text{(I)} &\quad \sqrt{\rho^2 - k\rho^2} \mathbin{\cap} \rho, \\
-\text{or (II)} &\quad \sqrt{\rho^2 - k\rho^2} \mathbin{\cup} \rho.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \text{(I)} &\quad \sqrt{\rho^2 - k\rho^2} \mathbin{\cap} \rho, \\
+   \text{or (II)} &\quad \sqrt{\rho^2 - k\rho^2} \mathbin{\cup} \rho.
+   \end{aligned}
 
 In case (I)
 
-$$\sqrt{(u + w)^2 - w^2} \mathbin{\cap} (u + w), \qquad \text{[(2), (3) and X. 14]}$$
+.. math::
+
+   \sqrt{(u + w)^2 - w^2} \mathbin{\cap} (u + w), \qquad \text{[(2), (3) and X. 14]}
 
 and in case (II)
 
-$$\sqrt{(u + w)^2 - w^2} \mathbin{\cup} (u + w). \qquad \text{[*id*.]}$$
+.. math::
 
-Then, since [(5)] $w \mathbin{\cap} \sqrt k \cdot \rho$, by X. 11 and (2), (3),
+   \sqrt{(u + w)^2 - w^2} \mathbin{\cup} (u + w). \qquad \text{[*id*.]}
 
-$$(u + w) \mathbin{\cap} \rho \dots\dots\dots\dots\dots\dots(6).$$
+Then, since [(5)] :math:`w \mathbin{\cap} \sqrt k \cdot \rho`, by X. 11 and (2), (3),
+
+.. math::
+
+   (u + w) \mathbin{\cap} \rho \dots\dots\dots\dots\dots\dots(6).
 
 [This step is omitted in Euclid, but the result is assumed.]
 
-If therefore $\rho \mathbin{\cap} \sigma$, $(u + w) \mathbin{\cap} \sigma$; if $\sqrt k \cdot \rho \mathbin{\cap} \sigma$, $w \mathbin{\cap} \sigma$; [(5)] and, if neither $\rho$ nor $\sqrt k \cdot \rho$ is $\mathbin{\cap} \sigma$, neither $(u + w)$ nor $w$ will be $\mathbin{\cap} \sigma$.
+If therefore :math:`\rho \mathbin{\cap} \sigma`, :math:`(u + w) \mathbin{\cap} \sigma`; if :math:`\sqrt k \cdot \rho \mathbin{\cap} \sigma`, :math:`w \mathbin{\cap} \sigma`; [(5)] and, if neither :math:`\rho` nor :math:`\sqrt k \cdot \rho` is :math:`\mathbin{\cap} \sigma`, neither :math:`(u + w)` nor :math:`w` will be :math:`\mathbin{\cap} \sigma`.
 
-Thus the order of the apotome $(u + w) - w$ is the same as that of the binomial straight line $\rho + \sqrt k \cdot \rho$; while [(2), (3)] the terms are proportional and [(5), (6)] commensurable respectively.
+Thus the order of the apotome :math:`(u + w) - w` is the same as that of the binomial straight line :math:`\rho + \sqrt k \cdot \rho`; while [(2), (3)] the terms are proportional and [(5), (6)] commensurable respectively.
 
 .. _folio-iii-0252:
 
 .. folio:: 0252
    :page: 248
 
-We find $(u + w)$, $w$ algebraically thus.
+We find :math:`(u + w)`, :math:`w` algebraically thus.
 
 By (1),
 
-$$u = \frac{\sigma^2}{\rho + \sqrt k \cdot \rho};$$
+.. math::
+
+   u = \frac{\sigma^2}{\rho + \sqrt k \cdot \rho};
 
 and, by (2), (3),
 
-$$\frac{u + w}{w} = \frac{\rho}{\sqrt k \cdot \rho},$$
+.. math::
+
+   \frac{u + w}{w} = \frac{\rho}{\sqrt k \cdot \rho},
 
 whence
 
-$$\begin{aligned}
-w &= \frac{u \cdot \sqrt k \cdot \rho}{\rho - \sqrt k \cdot \rho} \\
-&= \frac{\sigma^2 \cdot \sqrt k \cdot \rho}{\rho^2 - k\rho^2}.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   w &= \frac{u \cdot \sqrt k \cdot \rho}{\rho - \sqrt k \cdot \rho} \\
+   &= \frac{\sigma^2 \cdot \sqrt k \cdot \rho}{\rho^2 - k\rho^2}.
+   \end{aligned}
 
 Thus
 
-$$u + w = w \cdot \frac{1}{\sqrt k} = \frac{\sigma^2 \cdot \rho}{\rho^2 - k\rho^2}.$$
+.. math::
+
+   u + w = w \cdot \frac{1}{\sqrt k} = \frac{\sigma^2 \cdot \rho}{\rho^2 - k\rho^2}.
 
 Therefore
 
-$$(u + w) - w = \sigma^2 \cdot \frac{\rho - \sqrt k \cdot \rho}{\rho^2 - k\rho^2}.$$
+.. math::
+
+   (u + w) - w = \sigma^2 \cdot \frac{\rho - \sqrt k \cdot \rho}{\rho^2 - k\rho^2}.
+

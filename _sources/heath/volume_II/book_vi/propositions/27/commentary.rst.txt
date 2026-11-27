@@ -38,7 +38,7 @@ Thus it is seen that :g:`BD <0264.g1:[ B D ]>` produced both ways is the *locus*
 
 The importance of VI. 27—29 from a historical point of view cannot be overrated. They give the geometrical equivalent of the algebraical solution of the most general form of quadratic equation when that equation has a real and positive root. It will also enable us to find a real *negative* root of a quadratic equation ; for such an equation can, by altering the sign of *x*, be turned into another with a real *positive* root, when the geometrical method again becomes applicable. It will also, as we shall see, enable us to represent *both* roots when both are real and positive, and therefore to represent both roots when both are real but either positive or negative.
 
-The method of these propositions was constantly used by the Greek geometers in the solution of problems, and they constitute the foundation of Book X. of the $Elements$ and of :person:`Apollonius <apollonius>`' treatment of the conic sections. :person:`Simson <simson>`'s observation on the subject is entirely justified. He says namely on VI. 28, 29 : "These two problems, to the first of which the 27th Prop. is necessary, are the most general and useful of all in the Elements, and are most frequently made use of by the ancient geometers in the solution of other problems ; and therefore are very ignorantly left out by :person:`Tacquet <tacquet>` and
+The method of these propositions was constantly used by the Greek geometers in the solution of problems, and they constitute the foundation of Book X. of the :math:`Elements` and of :person:`Apollonius <apollonius>`' treatment of the conic sections. :person:`Simson <simson>`'s observation on the subject is entirely justified. He says namely on VI. 28, 29 : "These two problems, to the first of which the 27th Prop. is necessary, are the most general and useful of all in the Elements, and are most frequently made use of by the ancient geometers in the solution of other problems ; and therefore are very ignorantly left out by :person:`Tacquet <tacquet>` and
 Dechales in their editions of the Elements, who pretend that they are scarce of any use."
 
 .. _folio-ii-0265:
@@ -50,9 +50,11 @@ It is strange that, with this observation before him, even :person:`Todhunter <t
 
 VI. 27 contains the :term:`διορισμός <diorismos>`, the condition for a real solution, of the problem contained in the proposition following it. The maximum of all the parallelograms having the given property which can be applied to a given straight line is that which is described upon half the line (τὸ ἀπὸ τῆς ἡμισείας ἀναγραφόμενον). This corresponds to the condition that an equation of the form
 
-$$ax - px^2 = A$$
+.. math::
 
-may have a real root. The correctness of the result may be seen by taking the case in which the parallelograms are rectangles, which enables us to leave out of account the sine of the angle of the parallelograms without any real loss of generality. Suppose the sides of the rectangle to which the defect is to be similar to be as $b$ to $c$, $b$ corresponding to the side of the defect which lies along :g:`AB <0265.g1:/ A B />`. Suppose that :g:`AKFG <0265.g1:< A K F G >>` is any parallelogram applied to :g:`AB <0265.g1:/ A B />` having the given property, that :g:`AB <0265.g1:/ A B />` $= a$, and that :g:`FK <0265.g1:/ F K />` $= x$.
+   ax - px^2 = A
+
+may have a real root. The correctness of the result may be seen by taking the case in which the parallelograms are rectangles, which enables us to leave out of account the sine of the angle of the parallelograms without any real loss of generality. Suppose the sides of the rectangle to which the defect is to be similar to be as :math:`b` to :math:`c`, :math:`b` corresponding to the side of the defect which lies along :g:`AB <0265.g1:/ A B />`. Suppose that :g:`AKFG <0265.g1:< A K F G >>` is any parallelogram applied to :g:`AB <0265.g1:/ A B />` having the given property, that :g:`AB <0265.g1:/ A B />` :math:`= a`, and that :g:`FK <0265.g1:/ F K />` :math:`= x`.
 
 .. picture:: 0265.g1.svg
    :alt: Proposition 27 algebraic interpretation
@@ -61,19 +63,23 @@ Then
 
 .. container:: center
 
-   :g:`KB <0265.g1:/ K B />` $= \frac{b}{c}x$, and therefore :g:`AK <0265.g1:/ A K />` $= a - \frac{b}{c}x$.
+   :g:`KB <0265.g1:/ K B />` :math:`= \frac{b}{c}x`, and therefore :g:`AK <0265.g1:/ A K />` :math:`= a - \frac{b}{c}x`.
 
-Hence $(a - \frac{b}{c}x)x = S$, where $S$ is the area of the rectangle :g:`AKFG <0265.g1:< A K F G >>`.
+Hence :math:`(a - \frac{b}{c}x)x = S`, where :math:`S` is the area of the rectangle :g:`AKFG <0265.g1:< A K F G >>`.
 
 Thus, given the equation
 
-$$ax - \frac{b}{c}x^2 = S,$$
+.. math::
 
-where $S$ is undetermined, VI. 27 tells us that, if $x$ is to have a real value, $S$ cannot be greater than the rectangle :g:`CE <0265.g1:< C E >>`.
+   ax - \frac{b}{c}x^2 = S,
 
-Now :g:`CB <0265.g1:/ C B />` $= \frac{a}{2}$, and therefore :g:`CD <0265.g1:/ C D />` $= \frac{c}{b}\cdot\frac{a}{2}$; whence
+where :math:`S` is undetermined, VI. 27 tells us that, if :math:`x` is to have a real value, :math:`S` cannot be greater than the rectangle :g:`CE <0265.g1:< C E >>`.
 
-$$S \ngtr \frac{c}{b}\cdot\frac{a^2}{4},$$
+Now :g:`CB <0265.g1:/ C B />` :math:`= \frac{a}{2}`, and therefore :g:`CD <0265.g1:/ C D />` :math:`= \frac{c}{b}\cdot\frac{a}{2}`; whence
+
+.. math::
+
+   S \ngtr \frac{c}{b}\cdot\frac{a^2}{4},
 
 which is just the same result as we obtain by the algebraical method.
 

@@ -93,25 +93,25 @@ and :g:`GH <0157.g1:/ G H />`, :g:`FH <0157.g1:/ F H />` are equimultiples of :g
 
 The proof may perhaps be more readily grasped in the more symbolical form thus.
 
-Take the $m$th equimultiples of :g:`C <0157.g1:C>`, and of the excess of :g:`AB <0157.g1:/ A B />` over :g:`C <0157.g1:C>` (that is, of :g:`AE <0157.g1:/ A E />`), such that each is greater than :g:`D <0157.g1:D>` ;
-and, of the multiples of :g:`D <0157.g1:D>`, let $pD$ be the first that is greater than $mC$, and $nD$ the next less multiple of :g:`D <0157.g1:D>`.
+Take the :math:`m`\ th equimultiples of :g:`C <0157.g1:C>`, and of the excess of :g:`AB <0157.g1:/ A B />` over :g:`C <0157.g1:C>` (that is, of :g:`AE <0157.g1:/ A E />`), such that each is greater than :g:`D <0157.g1:D>` ;
+and, of the multiples of :g:`D <0157.g1:D>`, let :math:`pD` be the first that is greater than :math:`mC`, and :math:`nD` the next less multiple of :g:`D <0157.g1:D>`.
 
-Then, since $mC$ is not less than $nD$,
-and, by the construction, $m(AE)$ is greater than :g:`D <0157.g1:D>`,
-the sum of $mC$ and $m(AE)$ is greater than the sum of $nD$ and :g:`D <0157.g1:D>`.
-
-.. assertion::
-
-   That is, m(:g:`AB <0157.g1:/ A B />`) is greater than $pD$.
-
-And, by the construction, $mC$ is less than $pD$.
+Then, since :math:`mC` is not less than :math:`nD`,
+and, by the construction, :math:`m(AE)` is greater than :g:`D <0157.g1:D>`,
+the sum of :math:`mC` and :math:`m(AE)` is greater than the sum of :math:`nD` and :g:`D <0157.g1:D>`.
 
 .. assertion::
 
-   Therefore :just:`[V. Def. 7] <V.def.7>` $AB$ has to :g:`D <0157.g1:D>` a greater ratio than :g:`C <0157.g1:C>` has to :g:`D <0157.g1:D>`.
+   That is, m(:g:`AB <0157.g1:/ A B />`) is greater than :math:`pD`.
 
-Again, since $pD$ is less than $m(AB)$,
-and $pD$ is greater than $mC$,
+And, by the construction, :math:`mC` is less than :math:`pD`.
+
+.. assertion::
+
+   Therefore :just:`[V. Def. 7] <V.def.7>` :math:`AB` has to :g:`D <0157.g1:D>` a greater ratio than :g:`C <0157.g1:C>` has to :g:`D <0157.g1:D>`.
+
+Again, since :math:`pD` is less than :math:`m(AB)`,
+and :math:`pD` is greater than :math:`mC`,
 
 .. assertion::
 

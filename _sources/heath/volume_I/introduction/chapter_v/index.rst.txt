@@ -41,7 +41,7 @@ The other MSS. are "Theonine."
 
 (2) **F = MS. XXVIII, 3, in the Laurentian Library at Florence, 4to; 10th c.**
 
-This MS. is written in a beautiful and scholarly hand and contains the *Elements* I.—XV., the *Optics* and the *Phaenomena*, but is not well preserved. Not only is the original writing renewed in many places, where it had become faint, by a later hand of the 16th c., but the same hand has filled certain smaller lacunae by gumming on to torn pages new pieces of parchment, and has replaced bodily certain portions of the MS., which had doubtless become illegible, by fresh leaves. The larger gaps so made good extend from *Eucl.* VII. 12 to IX. 15, and from XII. 3 to the end; so that, besides the conclusion of the *Elements*, the *Optics* and *Phaenomena* are also in the later hand, and we cannot even tell what in addition to the *Elements* I.—XIII. the original MS. contained. :person:`Heiberg <heiberg>` denotes the later hand by $\phi$ and observes that, while in restoring words which had become faint and filling up minor lacunae the writer used no other MS., yet in the two larger restorations he used the Laurentian MS. XXVIII, 6, belonging to the 13th—14th c. The latter MS. (which :person:`Heiberg <heiberg>` denotes by **f**) was copied from the Viennese MS. (V) to be described below.
+This MS. is written in a beautiful and scholarly hand and contains the *Elements* I.—XV., the *Optics* and the *Phaenomena*, but is not well preserved. Not only is the original writing renewed in many places, where it had become faint, by a later hand of the 16th c., but the same hand has filled certain smaller lacunae by gumming on to torn pages new pieces of parchment, and has replaced bodily certain portions of the MS., which had doubtless become illegible, by fresh leaves. The larger gaps so made good extend from *Eucl.* VII. 12 to IX. 15, and from XII. 3 to the end; so that, besides the conclusion of the *Elements*, the *Optics* and *Phaenomena* are also in the later hand, and we cannot even tell what in addition to the *Elements* I.—XIII. the original MS. contained. :person:`Heiberg <heiberg>` denotes the later hand by :math:`\phi` and observes that, while in restoring words which had become faint and filling up minor lacunae the writer used no other MS., yet in the two larger restorations he used the Laurentian MS. XXVIII, 6, belonging to the 13th—14th c. The latter MS. (which :person:`Heiberg <heiberg>` denotes by **f**) was copied from the Viennese MS. (V) to be described below.
 
 (3) **B = Bodleian MS., D'Orville X. 1 inf. 2, 30, 4to; A.D. 888.**
 
@@ -140,13 +140,13 @@ The following possibilities arise.
 
 (2) The Theonine MSS. all combine against P. In this case the explanation was assumed by :person:`Heiberg <heiberg>` to be one or other of the following.
 
-($\alpha$) The common reading is due to an error which cannot be imputed to :person:`Theon <theon-of-alexandria>` (though it may have escaped him when putting together the archetype of his edition); such error may either have arisen accidentally in all alike, or (more frequently) may be referred to a common archetype of all the MSS.
+(:math:`\alpha`) The common reading is due to an error which cannot be imputed to :person:`Theon <theon-of-alexandria>` (though it may have escaped him when putting together the archetype of his edition); such error may either have arisen accidentally in all alike, or (more frequently) may be referred to a common archetype of all the MSS.
 
-($\beta$) There may be an accidental error in P; e.g. something has dropped out of P in a good many places, generally through ὁμοιοτέλευτον.
+(:math:`\beta`) There may be an accidental error in P; e.g. something has dropped out of P in a good many places, generally through ὁμοιοτέλευτον.
 
-($\gamma$) There may be words interpolated in P.
+(:math:`\gamma`) There may be words interpolated in P.
 
-($\delta$) Lastly, we may have in the Theonine MSS. a change made by :person:`Theon <theon-of-alexandria>` himself.
+(:math:`\delta`) Lastly, we may have in the Theonine MSS. a change made by :person:`Theon <theon-of-alexandria>` himself.
 
 (The discovery of the ancient papyrus showing readings agreeing
 with some, or with all, of the Theonine MSS. against P now makes it necessary to be very cautious in applying these criteria.)
@@ -156,7 +156,7 @@ with some, or with all, of the Theonine MSS. against P now makes it necessary to
 .. folio:: 0067
    :page: 53
 
-It is of course the last class ($\delta$) of changes which we have to investigate in order to get a proper idea of Theon's recension.
+It is of course the last class (:math:`\delta`) of changes which we have to investigate in order to get a proper idea of Theon's recension.
 
 :person:`Heiberg <heiberg>` first observes, as regards these, that we shall find that :person:`Theon <theon-of-alexandria>`, in editing the *Elements*, altered hardly anything without some reason, often inadequate according to our ideas, but still some reason which seemed to him sufficient. Hence, in cases of very slight differences where both the Theonine MSS. and P have readings good and probable in themselves, :person:`Heiberg <heiberg>` is not prepared to put the differences down to :person:`Theon <theon-of-alexandria>`. In those passages where we cannot see the least reason why :person:`Theon <theon-of-alexandria>`, if he had the reading of P before him, should have altered it, :person:`Heiberg <heiberg>` would not at once assume the superiority of P unless there was such a consistency in the differences as would indicate that they were due not to accident but to design. In the absence of such indications, he thinks that the ordinary principles of criticism should be followed and that proper weight should be attached to the *antiquity* of the sources. And it cannot be denied that the sources of the Theonine version are the more ancient. For not only is the British Museum palimpsest (L), which is intimately connected with the rest of our MSS., at least two centuries older than P, but the other Theonine MSS. are so nearly allied that they must be held to have had a common archetype intermediate between them and the actual edition of :person:`Theon <theon-of-alexandria>`; and, since they themselves are as old as, or older than P, their archetype must have been much older. :person:`Heiberg <heiberg>` gives (pp. xlvi, xlvii) a list of passages where, for this reason, he has followed the Theonine MSS. in preference to P.
 
@@ -205,7 +205,7 @@ We now come to the alterations made by :person:`Theon <theon-of-alexandria>` in 
 
 38, because :person:`Theon <theon-of-alexandria>` observed, correctly enough, that it was true of the parallelepipedal solid in general as well as of the cube, but failed to give weight to the fact that :person:`Euclid <euclid>` must have given the particular case of the cube for the simple reason that that was all he wanted for use in XIII. 17.
 
-(*f*) the substitution of the letter $\Phi$ for $\Omega$ (*V* for *Z* in my figure) because he saw that the perpendicular from K to B$\Phi$ would fall on $\Phi$ itself, so that $\Phi, \Omega$ coincide. But, if the substitution is made, it should be proved that $\Phi, \Omega$ coincide. :person:`Euclid <euclid>` can hardly have failed to notice the fact, but it may be that he deliberately ignored it as unnecessary for his purpose, because he did not want to lengthen his proposition by giving the proof.
+(*f*) the substitution of the letter :math:`\Phi` for :math:`\Omega` (*V* for *Z* in my figure) because he saw that the perpendicular from K to B\ :math:`\Phi` would fall on :math:`\Phi` itself, so that :math:`\Phi, \Omega` coincide. But, if the substitution is made, it should be proved that :math:`\Phi, \Omega` coincide. :person:`Euclid <euclid>` can hardly have failed to notice the fact, but it may be that he deliberately ignored it as unnecessary for his purpose, because he did not want to lengthen his proposition by giving the proof.
 
 *II. Emendations intended to improve the form or diction of Euclid.*
 

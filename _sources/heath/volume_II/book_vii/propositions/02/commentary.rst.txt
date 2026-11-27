@@ -30,22 +30,22 @@ Here we have the exact method of finding the greatest common measure given in th
                   d) c ( r
                      rd
 
-We shall arrive, says Euclid, at some number, say $d$, which measures the one before it, i.e. such that $c = rd$. Otherwise the process would go on until we arrived at unity. This is impossible because in that case $a$, $b$ would be prime to one another, which is contrary to the hypothesis.
+We shall arrive, says Euclid, at some number, say :math:`d`, which measures the one before it, i.e. such that :math:`c = rd`. Otherwise the process would go on until we arrived at unity. This is impossible because in that case :math:`a`, :math:`b` would be prime to one another, which is contrary to the hypothesis.
 
-Next, like the text-books of algebra, he goes on to show that $d$ will be *some* common measure of $a$, $b$. For $d$ measures $c$; therefore it measures $qc + d$, that is, $b$, and hence it measures $pb + c$, that is, $a$.
+Next, like the text-books of algebra, he goes on to show that :math:`d` will be *some* common measure of :math:`a`, :math:`b`. For :math:`d` measures :math:`c`; therefore it measures :math:`qc + d`, that is, :math:`b`, and hence it measures :math:`pb + c`, that is, :math:`a`.
 
-Lastly, he proves that $d$ is the *greatest* common measure of $a$, $b$ as follows.
+Lastly, he proves that :math:`d` is the *greatest* common measure of :math:`a`, :math:`b` as follows.
 
-Suppose that $e$ is a common measure greater than $d$.
+Suppose that :math:`e` is a common measure greater than :math:`d`.
 
-Then $e$, measuring $a$, $b$, must measure $a - pb$, or $c$.
+Then :math:`e`, measuring :math:`a`, :math:`b`, must measure :math:`a - pb`, or :math:`c`.
 
 .. _folio-ii-0306:
 
 .. folio:: 0306
    :page: 300
 
-Similarly $e$ must measure $b - qc$, that is, $d$: which is impossible, since $e$ is by hypothesis greater than $d$.
+Similarly :math:`e` must measure :math:`b - qc`, that is, :math:`d`: which is impossible, since :math:`e` is by hypothesis greater than :math:`d`.
 
 Therefore etc.
 

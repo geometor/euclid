@@ -80,7 +80,7 @@ angle :g:`BDC <0052.g1:< B D C )>`.
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] **let another straight line be inflected**, $\text{κεκλάσθω δὴ πάλιν}$ (without $\text{εὐθεῖα}$). The verb $\text{κλάω}$ (to *break off*) was the regular technical term for drawing from a point a (broken) straight line which first meets another straight line or curve and is then *bent back* from it to another point, or (in other words) for drawing straight lines from two points meeting at a point on a curve or another straight line. $\text{κεκλάσθαι}$ is one of the geometrical terms the definition of which must according to :person:`Aristotle <aristotle>` be assumed (:cite:`*Anal. Post.* I. 10, 76 b 9 <aristotle:anal-post:i-10-76-b-9>`).
+.. [#f1] **let another straight line be inflected**, :math:`\text{κεκλάσθω δὴ πάλιν}` (without :math:`\text{εὐθεῖα}`). The verb :math:`\text{κλάω}` (to *break off*) was the regular technical term for drawing from a point a (broken) straight line which first meets another straight line or curve and is then *bent back* from it to another point, or (in other words) for drawing straight lines from two points meeting at a point on a curve or another straight line. :math:`\text{κεκλάσθαι}` is one of the geometrical terms the definition of which must according to :person:`Aristotle <aristotle>` be assumed (:cite:`*Anal. Post.* I. 10, 76 b 9 <aristotle:anal-post:i-10-76-b-9>`).
 
 Dependency Graph
 ----------------

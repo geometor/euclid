@@ -24,6 +24,6 @@ Proposition 29 [κθ΄ · Prop. XXXII]
 
 *Functional Signature*: ``Given(Pos(Line AB), Pos(C in AB), Mag(Angle theta)) -> Determined(Pos(Ray CD))`` · *Dependencies*: :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 4] <D.def.4>`, :just:`[I.23] <I.23>`
 
-To a straight line $AB$ given in position, and at a given point $C$ on it, let a straight line $CD$ be drawn making a given angle $\angle BCD$ (:just:`[I.23] <I.23>`). I say that $CD$ is given in position.
+To a straight line :math:`AB` given in position, and at a given point :math:`C` on it, let a straight line :math:`CD` be drawn making a given angle :math:`\angle BCD` (:just:`[I.23] <I.23>`). I say that :math:`CD` is given in position.
 
-For if $CD$ did not retain the same place (on the assigned side of $AB$) while $AB$ and $C$ remain fixed, it would shift to another ray $CE$ through $C$ making $\angle BCE = \angle BCD$, the lesser equal to the greater—which is impossible (:just:`[C.N. 5] <I.cn.5>`). Therefore $CD$ is given in position (:just:`[Data Def. 4] <D.def.4>`).
+For if :math:`CD` did not retain the same place (on the assigned side of :math:`AB`) while :math:`AB` and :math:`C` remain fixed, it would shift to another ray :math:`CE` through :math:`C` making :math:`\angle BCE = \angle BCD`, the lesser equal to the greater—which is impossible (:just:`[C.N. 5] <I.cn.5>`). Therefore :math:`CD` is given in position (:just:`[Data Def. 4] <D.def.4>`).

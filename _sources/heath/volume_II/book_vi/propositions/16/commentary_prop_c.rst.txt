@@ -58,6 +58,9 @@ Therefore,
 
    whence the rectangle :g:`BA <0230.g3:/ B A />`, :g:`AC <0230.g3:/ A C />` is equal to the rectangle :g:`EA <0230.g3:/ E A />`, :g:`AD <0230.g3:/ A D />`.
 
-This result corresponds to the trigonometrical formula for $R$, the radius of the circumscribed circle,
+This result corresponds to the trigonometrical formula for :math:`R`, the radius of the circumscribed circle,
 
-$$R = \frac{abc}{4\Delta}.$$
+.. math::
+
+   R = \frac{abc}{4\Delta}.
+

@@ -48,7 +48,7 @@ to the interior: which is impossible. :just:`[I. 16] <I.16>`
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] **cannot be constructed**, $\text{οὐ συσταθήσεται}$, the same phrase as in I. 7.
+.. [#f1] **cannot be constructed**, :math:`\text{οὐ συσταθήσεται}`, the same phrase as in I. 7.
 
 Dependency Graph
 ----------------

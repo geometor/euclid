@@ -102,10 +102,10 @@ Let :g:`KLMN <0337.g1:< K L M N >>` be a right section of the parallelepiped cut
 .. picture:: 0337.g1.svg
    :alt: Parallelepiped cut by plane
 
-Now the prism of which the $\Delta\text{s}$ :g:`ABG <0337.g1:< A B G >>`, :g:`DCF <0337.g1:< D C F >>` are the bases is equal to the right prism on :g:`△KLM <0337.g1:< K L M >>` as base and of height :g:`AD <0337.g1:/ A D />`.
+Now the prism of which the :math:`\Delta\text{s}` :g:`ABG <0337.g1:< A B G >>`, :g:`DCF <0337.g1:< D C F >>` are the bases is equal to the right prism on :g:`△KLM <0337.g1:< K L M >>` as base and of height :g:`AD <0337.g1:/ A D />`.
 
-Similarly the prism of which the $\Delta\text{s}$ :g:`AGH <0337.g1:< A G H >>`, :g:`DFE <0337.g1:< D F E >>` are the bases is equal to the right prism on :g:`△MNK <0337.g1:< M N K >>` as base and with height :g:`AD <0337.g1:/ A D />`. :just:`[(3) above]`
+Similarly the prism of which the :math:`\Delta\text{s}` :g:`AGH <0337.g1:< A G H >>`, :g:`DFE <0337.g1:< D F E >>` are the bases is equal to the right prism on :g:`△MNK <0337.g1:< M N K >>` as base and with height :g:`AD <0337.g1:/ A D />`. :just:`[(3) above]`
 
-And the right prisms on $\Delta\text{s}$ :g:`KLM <0337.g1:< K L M >>`, :g:`MNK <0337.g1:< M N K >>` as bases and of equal height :g:`AD <0337.g1:/ A D />` are equal. :just:`[(2), Cor. above]`
+And the right prisms on :math:`\Delta\text{s}` :g:`KLM <0337.g1:< K L M >>`, :g:`MNK <0337.g1:< M N K >>` as bases and of equal height :g:`AD <0337.g1:/ A D />` are equal. :just:`[(2), Cor. above]`
 
 Consequently the two prisms into which the parallelepiped is divided are equivalent.

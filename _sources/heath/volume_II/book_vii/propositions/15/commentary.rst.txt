@@ -19,6 +19,6 @@ Back to :ref:`Proposition VII.15 <VII.15>`.
 .. folio:: 0321
    :page: 315
 
-If there be four numbers $1, m, a, ma$ (such that $1$ measures $m$ the same number of times that $a$ measures $ma$), $1$ measures $a$ the same number of times that $m$ measures $ma$.
+If there be four numbers :math:`1, m, a, ma` (such that :math:`1` measures :math:`m` the same number of times that :math:`a` measures :math:`ma`), :math:`1` measures :math:`a` the same number of times that :math:`m` measures :math:`ma`.
 
 Except that the first number is unity and the numbers are said to *measure* instead of being a *part* of others, this proposition and its proof do not differ from VII. 9; in fact this proposition is a particular case of the other.

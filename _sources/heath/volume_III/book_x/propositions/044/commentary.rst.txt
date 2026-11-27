@@ -23,48 +23,62 @@ As the irrationality of the :term:`*second bimedial* <second-bimedial>` straight
 
 Suppose, if possible, that the second bimedial straight line can be divided into its terms as such in two ways, i.e. that
 
-$$x + y = x' + y',$$
+.. math::
 
-where $x', y'$ are nearer equality than $x, y$.
+   x + y = x' + y',
 
-Apply $x^2 + y^2$, $2xy$ to a rational straight line $\sigma$, i.e. let
+where :math:`x', y'` are nearer equality than :math:`x, y`.
 
-$$\begin{aligned}
-x^2 + y^2 &= \sigma u, \\
-2xy &= \sigma v.
-\end{aligned}$$
+Apply :math:`x^2 + y^2`, :math:`2xy` to a rational straight line :math:`\sigma`, i.e. let
 
-Then, as in x. 38, the areas $x^2 + y^2$, $2xy$ are medial, so that $\sigma u, \sigma v$ are medial ; therefore $u, v$ are both rational and $\smile \sigma$ .....................................................(1).
+.. math::
 
-Again, by hypothesis, $x, y$ are medial straight lines commensurable in square only; therefore
+   \begin{aligned}
+   x^2 + y^2 &= \sigma u, \\
+   2xy &= \sigma v.
+   \end{aligned}
 
-$$x \smile y.$$
+Then, as in x. 38, the areas :math:`x^2 + y^2`, :math:`2xy` are medial, so that :math:`\sigma u, \sigma v` are medial ; therefore :math:`u, v` are both rational and :math:`\smile \sigma` .....................................................(1).
+
+Again, by hypothesis, :math:`x, y` are medial straight lines commensurable in square only; therefore
+
+.. math::
+
+   x \smile y.
 
 Hence
 
-$$x^2 \smile xy.$$
+.. math::
 
-And $x^2 \sim (x^2 + y^2)$, while $xy \sim 2xy$;
+   x^2 \smile xy.
+
+And :math:`x^2 \sim (x^2 + y^2)`, while :math:`xy \sim 2xy`;
 therefore
 
-$$(x^2 + y^2) \smile 2xy,$$
+.. math::
+
+   (x^2 + y^2) \smile 2xy,
 
 or
 
-$$\sigma u \smile \sigma v,$$
+.. math::
+
+   \sigma u \smile \sigma v,
 
 and hence
 
-$$u \smile v$$
+.. math::
+
+   u \smile v
 
 .................................................................(2).
 
-Therefore, by (1) and (2), $u, v$ are rational straight lines commensurable in square only; therefore $u + v$ is a binomial straight line.
+Therefore, by (1) and (2), :math:`u, v` are rational straight lines commensurable in square only; therefore :math:`u + v` is a binomial straight line.
 
-Similarly, if $x'^2 + y'^2 = \sigma u'$ and $2x'y' = \sigma v'$, $u' + v'$ will be proved to be a binomial straight line.
+Similarly, if :math:`x'^2 + y'^2 = \sigma u'` and :math:`2x'y' = \sigma v'`, :math:`u' + v'` will be proved to be a binomial straight line.
 
-And, since $(x + y)^2 = (x' + y')^2$, and therefore $(u + v) = (u' + v')$, it follows that a binomial straight line is divided as such in two ways : which is impossible. [x. 42]
+And, since :math:`(x + y)^2 = (x' + y')^2`, and therefore :math:`(u + v) = (u' + v')`, it follows that a binomial straight line is divided as such in two ways : which is impossible. [x. 42]
 
-Therefore $x + y$, the given second bimedial straight line, can only be so divided in one way.
+Therefore :math:`x + y`, the given second bimedial straight line, can only be so divided in one way.
 
-In order to prove that $u + v$, $u' + v'$ represent a *different* division of the same straight line, Euclid assumes that $x^2 + y^2 > 2xy$. This is of course an easy inference from II. 7; but the assumption of it here renders it probable that the Lemma after x. 59 is interpolated.
+In order to prove that :math:`u + v`, :math:`u' + v'` represent a *different* division of the same straight line, Euclid assumes that :math:`x^2 + y^2 > 2xy`. This is of course an easy inference from II. 7; but the assumption of it here renders it probable that the Lemma after x. 59 is interpolated.

@@ -50,9 +50,9 @@ Suppose, if possible, that there are *two* different planes through :g:`A <0279.
 
 The straight lines :g:`BC <0279.g1:/ B C />`, :g:`CA <0279.g1:/ C A />`, :g:`AB <0279.g1:/ A B />` then lie wholly in each of the two planes.
 
-Now any straight line in *one* of the two planes must intersect at least two of the straight lines (produced if necessary); let it intersect two of them in $K$, $L$.
+Now any straight line in *one* of the two planes must intersect at least two of the straight lines (produced if necessary); let it intersect two of them in :math:`K`, :math:`L`.
 
-Then, since $K$, $L$ are also in the second plane; the line $KL$ lies wholly in that plane.
+Then, since :math:`K`, :math:`L` are also in the second plane; the line :math:`KL` lies wholly in that plane.
 
 Hence every straight line in either of the planes lies wholly in the other also; and therefore the planes are coincident throughout their whole surface.
 

@@ -32,7 +32,7 @@ different kinds of figures bounded by two lines (pp. 159, 14—160, 9). Thus the
 .. folio:: 0201
    :page: 187
 
-(1) by circumference and circumference, e.g. ($a$) those forming angles, as a *lune* (τὸ :term:`μηνοειδές <menoeides>`) and the figure included by two arcs with convexities outward, and ($b$) the *angle-less* (ἀγώνιον), as the figure included between two concentric circles (the *coronal*);
+(1) by circumference and circumference, e.g. (:math:`a`) those forming angles, as a *lune* (τὸ :term:`μηνοειδές <menoeides>`) and the figure included by two arcs with convexities outward, and (:math:`b`) the *angle-less* (ἀγώνιον), as the figure included between two concentric circles (the *coronal*);
 
 (2) by circumference and straight line, e.g. the semicircle or segments of circles (ἁψῖδες is a name given to those less than a semicircle);
 

@@ -114,7 +114,7 @@ Therefore
 
    (sq. on :g:`AR <0449.g1:/ A R />`) = (sq. on :g:`AD <0449.g1:/ A D />`),
 
-or :g:`AR <0449.g1:/ A R />` $= $ :g:`AD <0449.g1:/ A D />`.
+or :g:`AR <0449.g1:/ A R />` :math:`=` :g:`AD <0449.g1:/ A D />`.
 
 Now
 

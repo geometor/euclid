@@ -19,48 +19,59 @@ Back to :ref:`Proposition X.31 <X.31>`.
 .. folio:: 0074
    :page: 70
 
-I. Take the rational straight lines commensurable in square only found in x. 29, i.e. $\rho$, $\rho\sqrt{1 - k^2}$.
+I. Take the rational straight lines commensurable in square only found in x. 29, i.e. :math:`\rho`, :math:`\rho\sqrt{1 - k^2}`.
 
-Take the mean proportional $\rho(1 - k^2)^\frac{1}{4}$ and $x$ such that
+Take the mean proportional :math:`\rho(1 - k^2)^\frac{1}{4}` and :math:`x` such that
 
-$$\rho(1 - k^2)^\frac{1}{4} : \rho\sqrt{1 - k^2} = \rho\sqrt{1 - k^2} : x.$$
+.. math::
 
-Then $\rho(1 - k^2)^\frac{1}{4}$, $x$, or $\rho(1 - k^2)^\frac{1}{4}$, $\rho(1 - k^2)^\frac{3}{4}$ are straight lines satisfying the given conditions.
+   \rho(1 - k^2)^\frac{1}{4} : \rho\sqrt{1 - k^2} = \rho\sqrt{1 - k^2} : x.
+
+Then :math:`\rho(1 - k^2)^\frac{1}{4}`, :math:`x`, or :math:`\rho(1 - k^2)^\frac{1}{4}`, :math:`\rho(1 - k^2)^\frac{3}{4}` are straight lines satisfying the given conditions.
 
 .. _folio-iii-0075:
 
 .. folio:: 0075
    :page: 71
 
-For ($\alpha$) $\rho^2\sqrt{1-k^2}$ is a medial area, and therefore $\rho(1-k^2)^{\frac{1}{4}}$ is a medial straight line .................................................(1); and $x\ .\ \rho(1-k^2)^{\frac{1}{4}} = \rho^2(1-k^2)$ and is therefore a rational area.
+For (:math:`\alpha`) :math:`\rho^2\sqrt{1-k^2}` is a medial area, and therefore :math:`\rho(1-k^2)^{\frac{1}{4}}` is a medial straight line .................................................(1); and :math:`x\ .\ \rho(1-k^2)^{\frac{1}{4}} = \rho^2(1-k^2)` and is therefore a rational area.
 
-($\beta$) $\rho$, $\rho(1-k^2)^{\frac{1}{4}}$, $\rho\sqrt{1-k^2}$, $x$ are straight lines in continued proportion, by construction.
+(:math:`\beta`) :math:`\rho`, :math:`\rho(1-k^2)^{\frac{1}{4}}`, :math:`\rho\sqrt{1-k^2}`, :math:`x` are straight lines in continued proportion, by construction.
 
 Therefore
 
-$$\rho : \rho\sqrt{1-k^2} = \rho(1-k^2)^{\frac{1}{4}} : x \text{ ....................(2).}$$
+.. math::
 
-(This Euclid has to prove in a somewhat roundabout way by means of the lemma after x. 21 to the effect that $a : b = ab : b^2$.)
+   \rho : \rho\sqrt{1-k^2} = \rho(1-k^2)^{\frac{1}{4}} : x \text{ ....................(2).}
 
-From (2) it follows [x. 11] that $x \mathbin{\sim} \rho(1-k^2)^{\frac{1}{4}}$; whence, since $\rho(1-k^2)^{\frac{1}{4}}$ is medial, $x$ or $\rho(1-k^2)^{\frac{3}{4}}$ is medial also.
+(This Euclid has to prove in a somewhat roundabout way by means of the lemma after x. 21 to the effect that :math:`a : b = ab : b^2`.)
 
-($\gamma$) From (2), since $\rho$, $\rho\sqrt{1-k^2}$ satisfy the remaining condition of the problem, $\rho(1-k^2)^{\frac{1}{4}}$, $\rho(1-k^2)^{\frac{3}{4}}$ do so also [x. 14].
+From (2) it follows [x. 11] that :math:`x \mathbin{\sim} \rho(1-k^2)^{\frac{1}{4}}`; whence, since :math:`\rho(1-k^2)^{\frac{1}{4}}` is medial, :math:`x` or :math:`\rho(1-k^2)^{\frac{3}{4}}` is medial also.
 
-According as $\rho$ is of the form $a$ or $\sqrt{A}$, the straight lines take the forms
+(:math:`\gamma`) From (2), since :math:`\rho`, :math:`\rho\sqrt{1-k^2}` satisfy the remaining condition of the problem, :math:`\rho(1-k^2)^{\frac{1}{4}}`, :math:`\rho(1-k^2)^{\frac{3}{4}}` do so also [x. 14].
 
-$$\begin{array}{lcc}
-(1) & \sqrt{a\sqrt{a^2-b^2}}, & \dfrac{a^2-b^2}{\sqrt{a\sqrt{a^2-b^2}}}, \\
-\text{or}\quad (2) & \sqrt[4]{A(A-k^2A)}, & \dfrac{A-k^2A}{\sqrt[4]{A(A-k^2A)}}.
-\end{array}$$
+According as :math:`\rho` is of the form :math:`a` or :math:`\sqrt{A}`, the straight lines take the forms
 
-II. To find medial straight lines :term:`*commensurable in square only* <commensurable-in-square-only>` containing a rational rectangle, and such that the square on one exceeds the square on the other by the square on a straight line *incommensurable* with the former, we simply begin with the rational straight lines having the corresponding property [x. 30], viz. $\rho$, $\dfrac{\rho}{\sqrt{1+k^2}}$, and we arrive at the straight lines
+.. math::
 
-$$\dfrac{\rho}{(1+k^2)^{\frac{1}{4}}},\quad \dfrac{\rho}{(1+k^2)^{\frac{3}{4}}}.$$
+   \begin{array}{lcc}
+   (1) & \sqrt{a\sqrt{a^2-b^2}}, & \dfrac{a^2-b^2}{\sqrt{a\sqrt{a^2-b^2}}}, \\
+   \text{or}\quad (2) & \sqrt[4]{A(A-k^2A)}, & \dfrac{A-k^2A}{\sqrt[4]{A(A-k^2A)}}.
+   \end{array}
 
-According as $\rho$ is of the form $a$ or $\sqrt{A}$, these (if we use the same transformation as at the end of the note on x. 30) may take any of the forms
+II. To find medial straight lines :term:`*commensurable in square only* <commensurable-in-square-only>` containing a rational rectangle, and such that the square on one exceeds the square on the other by the square on a straight line *incommensurable* with the former, we simply begin with the rational straight lines having the corresponding property [x. 30], viz. :math:`\rho`, :math:`\dfrac{\rho}{\sqrt{1+k^2}}`, and we arrive at the straight lines
 
-$$\begin{array}{lcc}
-(1) & \sqrt{a\sqrt{a^2-B}}, & \dfrac{a^2-B}{\sqrt{a\sqrt{a^2-B}}}, \\
-\text{or}\quad (2) & \sqrt[4]{A(A-B)}, & \dfrac{A-B}{\sqrt[4]{A(A-B)}}, \\
-\text{or} & \sqrt[4]{A(A-b^2)}, & \dfrac{A-b^2}{\sqrt[4]{A(A-b^2)}}.
-\end{array}$$
+.. math::
+
+   \dfrac{\rho}{(1+k^2)^{\frac{1}{4}}},\quad \dfrac{\rho}{(1+k^2)^{\frac{3}{4}}}.
+
+According as :math:`\rho` is of the form :math:`a` or :math:`\sqrt{A}`, these (if we use the same transformation as at the end of the note on x. 30) may take any of the forms
+
+.. math::
+
+   \begin{array}{lcc}
+   (1) & \sqrt{a\sqrt{a^2-B}}, & \dfrac{a^2-B}{\sqrt{a\sqrt{a^2-B}}}, \\
+   \text{or}\quad (2) & \sqrt[4]{A(A-B)}, & \dfrac{A-B}{\sqrt[4]{A(A-B)}}, \\
+   \text{or} & \sqrt[4]{A(A-b^2)}, & \dfrac{A-b^2}{\sqrt[4]{A(A-b^2)}}.
+   \end{array}
+

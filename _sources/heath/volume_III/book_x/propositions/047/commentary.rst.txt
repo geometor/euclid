@@ -21,25 +21,35 @@ Back to :ref:`Proposition X.47 <X.47>`.
 
 Using the same notation as in the note on X. 44, we suppose that, if possible,
 
-$$x + y = x' + y',$$
+.. math::
+
+   x + y = x' + y',
 
 and we put
 
-$$\left. \begin{array}{r} x^2 + y^2 = \sigma u \\ 2xy = \sigma v \end{array} \right\} \quad \text{and} \quad \left. \begin{array}{r} x'^2 + y'^2 = \sigma u' \\ 2x'y' = \sigma v' \end{array} \right\}.$$
+.. math::
 
-Then, since $x^2 + y^2, 2xy$ are medial areas, and $\sigma$ rational, $u, v$ are both rational and $\smile \sigma$ ........................................(1).
+   \left. \begin{array}{r} x^2 + y^2 = \sigma u \\ 2xy = \sigma v \end{array} \right\} \quad \text{and} \quad \left. \begin{array}{r} x'^2 + y'^2 = \sigma u' \\ 2x'y' = \sigma v' \end{array} \right\}.
+
+Then, since :math:`x^2 + y^2, 2xy` are medial areas, and :math:`\sigma` rational, :math:`u, v` are both rational and :math:`\smile \sigma` ........................................(1).
 
 Also, by hypothesis,
 
-$$x^2 + y^2 \smile 2xy,$$
+.. math::
+
+   x^2 + y^2 \smile 2xy,
 
 whence
 
-$$u \smile v \text{ .................................................................(2).}$$
+.. math::
 
-Therefore, by (1) and (2), $u, v$ are rational and $\sim$. Hence $u + v$ is a binomial straight line. :just:`[X. 36] <X.36>` Similarly $u' + v'$ is a binomial straight line. But
+   u \smile v \text{ .................................................................(2).}
 
-$$u + v = u' + v';$$
+Therefore, by (1) and (2), :math:`u, v` are rational and :math:`\sim`. Hence :math:`u + v` is a binomial straight line. :just:`[X. 36] <X.36>` Similarly :math:`u' + v'` is a binomial straight line. But
+
+.. math::
+
+   u + v = u' + v';
 
 therefore a binomial straight line is divided into terms in two ways: which is impossible. :just:`[X. 42] <X.42>`
 

@@ -19,57 +19,76 @@ Back to :ref:`Proposition X.87 <X.87>`.
 .. folio:: 0187
    :page: 183
 
-Let $\rho$ be a rational straight line. Take numbers $p$, $qm^2$, $q(m^2 - n^2)$ which have not to one another the ratio of square to square.
+Let :math:`\rho` be a rational straight line. Take numbers :math:`p`, :math:`qm^2`, :math:`q(m^2 - n^2)` which have not to one another the ratio of square to square.
 
-Now let $x$, $y$ be such that
+Now let :math:`x`, :math:`y` be such that
 
-$$p : qm^2 = \rho^2 : x^2 \text{ .................................................(1)}$$
+.. math::
+
+   p : qm^2 = \rho^2 : x^2 \text{ .................................................(1)}
 
 and
 
-$$qm^2 : q(m^2 - n^2) = x^2 : y^2 \text{ ...................................(2).}$$
+.. math::
 
-Then shall $(x - y)$ be a :term:`*third apotome* <third-apotome>`.
+   qm^2 : q(m^2 - n^2) = x^2 : y^2 \text{ ...................................(2).}
 
-For ($\alpha$), from (1), $x$ is rational but $\smile \rho$ ................................................................(3).
+Then shall :math:`(x - y)` be a :term:`*third apotome* <third-apotome>`.
 
-And, from (2), $y$ is rational but $\smile x$. Therefore $x, y$ are rational and $\sim$, so that $(x - y)$ is an apotome.
+For (:math:`\alpha`), from (1), :math:`x` is rational but :math:`\smile \rho` ................................................................(3).
+
+And, from (2), :math:`y` is rational but :math:`\smile x`. Therefore :math:`x, y` are rational and :math:`\sim`, so that :math:`(x - y)` is an apotome.
 
 .. _folio-iii-0188:
 
 .. folio:: 0188
    :page: 184
 
-($\beta$) By (1), (2), :term:`*ex aequali* <ex-aequali>`,
+(:math:`\beta`) By (1), (2), :term:`*ex aequali* <ex-aequali>`,
 
-$$p : q(m^2 - n^2) = \rho^2 : y^2,$$
+.. math::
 
-whence $y \smile \rho$.
+   p : q(m^2 - n^2) = \rho^2 : y^2,
 
-Thus, by this and (3), $x, y$ are both $\smile \rho$ .................................................(4).
+whence :math:`y \smile \rho`.
 
-Lastly, let $z^2 = x^2 - y^2$, so that, from (2), :term:`*convertendo* <convertendo>`,
+Thus, by this and (3), :math:`x, y` are both :math:`\smile \rho` .................................................(4).
 
-$$qm^2 : qn^2 = x^2 : z^2;$$
+Lastly, let :math:`z^2 = x^2 - y^2`, so that, from (2), :term:`*convertendo* <convertendo>`,
 
-therefore $z$, or $\sqrt{x^2 - y^2}, \frown x$ .................................................(5).
+.. math::
 
-Thus [(4) and (5)] $(x - y)$ is a third apotome.
+   qm^2 : qn^2 = x^2 : z^2;
+
+therefore :math:`z`, or :math:`\sqrt{x^2 - y^2}, \frown x` .................................................(5).
+
+Thus [(4) and (5)] :math:`(x - y)` is a third apotome.
 
 To find its form, we have, from (1) and (2),
 
-$$x = \rho \cdot \frac{m\sqrt{q}}{\sqrt{p}},$$
+.. math::
 
-$$y = \rho \cdot \frac{\sqrt{m^2 - n^2} \cdot \sqrt{q}}{\sqrt{p}},$$
+   x = \rho \cdot \frac{m\sqrt{q}}{\sqrt{p}},
+
+.. math::
+
+   y = \rho \cdot \frac{\sqrt{m^2 - n^2} \cdot \sqrt{q}}{\sqrt{p}},
 
 so that
 
-$$x - y = \sqrt{\frac{q}{p}} \cdot \rho (m - \sqrt{m^2 - n^2}).$$
+.. math::
+
+   x - y = \sqrt{\frac{q}{p}} \cdot \rho (m - \sqrt{m^2 - n^2}).
 
 This may be written in the form
 
-$$m\sqrt{k} \cdot \rho - m\sqrt{k} \cdot \rho \sqrt{1 - \lambda^2}.$$
+.. math::
+
+   m\sqrt{k} \cdot \rho - m\sqrt{k} \cdot \rho \sqrt{1 - \lambda^2}.
 
 As explained in the note on x. 50, this is the lesser root of the equation
 
-$$x^2 - 2m\sqrt{k} \cdot \rho x + \lambda^2 m^2 k\rho^2 = 0.$$
+.. math::
+
+   x^2 - 2m\sqrt{k} \cdot \rho x + \lambda^2 m^2 k\rho^2 = 0.
+

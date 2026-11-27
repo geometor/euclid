@@ -12,7 +12,7 @@ Proposition 40 [μ΄ · Prop. Prop. XLIII] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.40 <D.40>` (**AAA / AA** $\to$ species, via :just:`[I.32] <I.32>` & :just:`[VI.4] <VI.4>`);
+* :ref:`D.40 <D.40>` (**AAA / AA** :math:`\to` species, via :just:`[I.32] <I.32>` & :just:`[VI.4] <VI.4>`);
 
 Textual & Critical Apparatus
 ----------------------------

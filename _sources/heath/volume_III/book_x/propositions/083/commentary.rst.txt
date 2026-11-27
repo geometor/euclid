@@ -21,11 +21,15 @@ Back to :ref:`Proposition X.83 <X.83>`.
 
 Suppose, with the same notation, that
 
-$$x - y = x' - y'. \qquad (x > x')$$
+.. math::
 
-Here, $(x^2 + y^2)$, $(x'^2 + y'^2)$ being both medial areas, and $2xy$, $2x'y'$ both rational areas, while
+   x - y = x' - y'. \qquad (x > x')
 
-$$(x^2 + y^2) - (x'^2 + y'^2) = 2xy - 2x'y',$$
+Here, :math:`(x^2 + y^2)`, :math:`(x'^2 + y'^2)` being both medial areas, and :math:`2xy`, :math:`2x'y'` both rational areas, while
+
+.. math::
+
+   (x^2 + y^2) - (x'^2 + y'^2) = 2xy - 2x'y',
 
 X. 26 is contradicted again.
 

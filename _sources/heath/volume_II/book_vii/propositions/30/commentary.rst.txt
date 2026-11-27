@@ -21,17 +21,21 @@ Back to :ref:`Proposition VII.30 <VII.30>`.
 .. folio:: 0338
    :page: 332
 
-If $c$, a prime number, measure $ab$, $c$ will measure either $a$ or $b$.
-Suppose $c$ does not measure $a$.
-Therefore $c$, $a$ are prime to one another. [VII. 29]
+If :math:`c`, a prime number, measure :math:`ab`, :math:`c` will measure either :math:`a` or :math:`b`.
+Suppose :math:`c` does not measure :math:`a`.
+Therefore :math:`c`, :math:`a` are prime to one another. [VII. 29]
 Suppose
 
-$$ab = mc.$$
+.. math::
+
+   ab = mc.
 
 Therefore
 
-$$c : a = b : m. \quad \text{[VII. 19]}$$
+.. math::
 
-Hence [VII. 20, 21] $c$ measures $b$.
-Similarly, if $c$ does not measure $b$, it measures $a$.
-Therefore it measures one or other of the two numbers $a$, $b$.
+   c : a = b : m. \quad \text{[VII. 19]}
+
+Hence [VII. 20, 21] :math:`c` measures :math:`b`.
+Similarly, if :math:`c` does not measure :math:`b`, it measures :math:`a`.
+Therefore it measures one or other of the two numbers :math:`a`, :math:`b`.

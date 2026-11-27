@@ -25,4 +25,4 @@ Back to :ref:`Proposition X.115 <X.115>`.
 
 The proposition amounts to this.
 
-The straight line $k^{\frac{1}{4}}\rho$ being medial, if $\sigma$ be a rational straight line, $\sqrt{k^{\frac{1}{4}}\rho\sigma}$ is a new irrational straight line. So is the mean proportional between this and another rational straight line $\sigma'$, and so on indefinitely.
+The straight line :math:`k^{\frac{1}{4}}\rho` being medial, if :math:`\sigma` be a rational straight line, :math:`\sqrt{k^{\frac{1}{4}}\rho\sigma}` is a new irrational straight line. So is the mean proportional between this and another rational straight line :math:`\sigma'`, and so on indefinitely.

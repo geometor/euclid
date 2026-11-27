@@ -187,7 +187,7 @@ Prop. 2, and must therefore precede it. But Prop. 1 showing how to construct an 
 
 :person:`Proclus <proclus>` does not however seem to reject definitely the view of :person:`Carpus <carpus>`, for he goes on\ [#f128_2]_: “And perhaps problems are in order before theorems, and especially for those who need to ascend from the arts which are concerned with things of sense to theoretical investigation. But in dignity theorems are prior to problems.... It is then foolish to blame :person:`Geminus <geminus>` for saying that the theorem is more perfect than the problem. For :person:`Carpus <carpus>` himself gave the priority to problems in respect of *order*, and :person:`Geminus <geminus>` to theorems in point of more perfect *dignity*,” so that there was no real inconsistency between the two.
 
-Problems were classified according to the number of their possible solutions. Amphinomus said that those which had a unique solution (μοναχῶς) were called “ordered” (the word has dropped out in :person:`Proclus <proclus>`, but it must be τεταγμένα, in contrast to the third kind, ἄτακτα); those which had a definite number of solutions “intermediate” (μέσα); and those with an infinite variety of solutions “unordered” (ἄτακτα)\ [#f128_3]_. :person:`Proclus <proclus>` gives as an example of the last the problem *To divide a given straight line into three parts in continued proportion*\ [#f128_4]_. This is the same thing as solving the equations $x+y+z=a$, $xz=y^2$. Proclus' remarks upon the problem show that it was solved, like all quadratic equations, by the method of “application of areas.” The straight line $a$ was first divided into any two parts, $(x+z)$ and $y$, subject to the sole limitation that $(x+z)$ must not be less than $2y$, which limitation is the :term:`διορισμός <diorismos>`, or condition of possibility. Then an area was applied to $(x+z)$, or $(a-y)$, “falling short by a square figure” (ἐλλεῖπον εἴδει τετραγώνῳ) and equal to the square on $y$. This determines $x$ and $z$ separately in terms of $a$ and $y$. For, if $z$ be the side of the square by which the area (i.e. rectangle) “falls short,” we have $\{(a-y)-z\}z = y^2$, whence $2z = (a-y) \pm \sqrt{\{(a-y)^2 - 4y^2\}}$. And $y$ may be chosen arbitrarily, provided that it is not greater than $a/3$. Hence there are an infinite number of solutions. If $y = a/3$, then, as :person:`Proclus <proclus>` remarks, the three parts are equal.
+Problems were classified according to the number of their possible solutions. Amphinomus said that those which had a unique solution (μοναχῶς) were called “ordered” (the word has dropped out in :person:`Proclus <proclus>`, but it must be τεταγμένα, in contrast to the third kind, ἄτακτα); those which had a definite number of solutions “intermediate” (μέσα); and those with an infinite variety of solutions “unordered” (ἄτακτα)\ [#f128_3]_. :person:`Proclus <proclus>` gives as an example of the last the problem *To divide a given straight line into three parts in continued proportion*\ [#f128_4]_. This is the same thing as solving the equations :math:`x+y+z=a`, :math:`xz=y^2`. Proclus' remarks upon the problem show that it was solved, like all quadratic equations, by the method of “application of areas.” The straight line :math:`a` was first divided into any two parts, :math:`(x+z)` and :math:`y`, subject to the sole limitation that :math:`(x+z)` must not be less than :math:`2y`, which limitation is the :term:`διορισμός <diorismos>`, or condition of possibility. Then an area was applied to :math:`(x+z)`, or :math:`(a-y)`, “falling short by a square figure” (ἐλλεῖπον εἴδει τετραγώνῳ) and equal to the square on :math:`y`. This determines :math:`x` and :math:`z` separately in terms of :math:`a` and :math:`y`. For, if :math:`z` be the side of the square by which the area (i.e. rectangle) “falls short,” we have :math:`\{(a-y)-z\}z = y^2`, whence :math:`2z = (a-y) \pm \sqrt{\{(a-y)^2 - 4y^2\}}`. And :math:`y` may be chosen arbitrarily, provided that it is not greater than :math:`a/3`. Hence there are an infinite number of solutions. If :math:`y = a/3`, then, as :person:`Proclus <proclus>` remarks, the three parts are equal.
 
 Other distinctions between different kinds of problems are added by :person:`Proclus <proclus>`. The word “problem,” he says, is used in several senses. In its widest sense it may mean anything “propounded” (προτεινόμενον), whether for the purpose of instruction (μαθήσεως) or construction (ποιήσεως). (In this sense, therefore, it would include a theorem.)
 
@@ -383,15 +383,15 @@ It would be difficult to find a better illustration of the above than the exampl
 
 **Analysis.**
 
-Suppose the problem solved and the tangent at $A$ drawn, meeting $ED$ produced in $F$.
+Suppose the problem solved and the tangent at :math:`A` drawn, meeting :math:`ED` produced in :math:`F`.
 
 (Part I. *Transformation*.)
 
-Then, since $AC$ is parallel to $DE$, the angle at $C$ is equal to the angle $CDE$.
+Then, since :math:`AC` is parallel to :math:`DE`, the angle at :math:`C` is equal to the angle :math:`CDE`.
 
-But, since $FA$ is a tangent, the angle at $C$ is equal to the angle $FAE$.
+But, since :math:`FA` is a tangent, the angle at :math:`C` is equal to the angle :math:`FAE`.
 
-Therefore the angle $FAE$ is equal to the angle $CDE$, whence $A$, $B$, $D$, $F$ are concyclic.
+Therefore the angle :math:`FAE` is equal to the angle :math:`CDE`, whence :math:`A`, :math:`B`, :math:`D`, :math:`F` are concyclic.
 
 .. _folio-i-0156:
 

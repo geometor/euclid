@@ -103,7 +103,7 @@ GENERAL INDEX OF GREEK WORDS AND FORMS.
 .. folio:: 0526
    :page: 522
 
-**I.** 137: **ἄρρητος διάμετρος τῆς πεμπάδος**, "irrational diameter of 5" (Plato) = $\sqrt{50}$, **I.** 399, **III.** 12, 525
+**I.** 137: **ἄρρητος διάμετρος τῆς πεμπάδος**, "irrational diameter of 5" (Plato) = :math:`\sqrt{50}`, **I.** 399, **III.** 12, 525
 
 **ἀρτιάκις ἀρτιοδύναμον** (Nicomachus) **II.** 282
 
@@ -253,7 +253,7 @@ GENERAL INDEX OF GREEK WORDS AND FORMS.
 
 **ἐπεζεύχθωσαν** (ἐπιζεύγνυμι, *join*) **I.** 242
 
-**ἐπιμόριος λόγος**, *superparticularis ratio* = ratio $(n + 1) : n$, **II.** 295
+**ἐπιμόριος λόγος**, *superparticularis ratio* = ratio :math:`(n + 1) : n`, **II.** 295
 
 **ἐπίπεδον**, *plane* in Euclid, used for *surface* also in Plato and Aristotle **I.** 169, **III.** 263
 
@@ -531,7 +531,7 @@ GENERAL INDEX OF GREEK WORDS AND FORMS.
 
 **πυραμίς**, pyramid **III.** 268
 
-**ῥητός**, *rational* (literally "expressible") **I.** 137, **II.** 117, **III.** 1: a relative term, unlike **ἀσύμμετρος** (incommensurable) which is a *natural kind* (Pythagoreans) **III.** 1: **ῥητὴ διάμετρος τῆς πεμπάδος**, "rational diameter of 5" (= 7, as approximation to $\sqrt{50}$) **I.** 399, **III.** 12, 525: **ῥητὸν καὶ μέσον δυναμένη** (= side of square equal to sum of a rational and a medial area) etc. **III.** 7
+**ῥητός**, *rational* (literally "expressible") **I.** 137, **II.** 117, **III.** 1: a relative term, unlike **ἀσύμμετρος** (incommensurable) which is a *natural kind* (Pythagoreans) **III.** 1: **ῥητὴ διάμετρος τῆς πεμπάδος**, "rational diameter of 5" (= 7, as approximation to :math:`\sqrt{50}`) **I.** 399, **III.** 12, 525: **ῥητὸν καὶ μέσον δυναμένη** (= side of square equal to sum of a rational and a medial area) etc. **III.** 7
 
 **σημεῖον**, point **I.** 155-6
 

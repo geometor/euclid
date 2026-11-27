@@ -71,7 +71,7 @@ Then we infer that, alternately,
 
    :g:`CA <0218.g2:/ C A />` is to :g:`BA <0218.g2:/ B A />` as :g:`AD <0218.g2:/ A D />` to :g:`AE <0218.g2:/ A E />`.
 
-But :g:`AD <0218.g2:/ A D />` is to :g:`AE <0218.g2:/ A E />` as n · :g:`AD <0218.g2:/ A D />` to n · :g:`AE <0218.g2:/ A E />` (where $n$ is the number of times that :g:`AD <0218.g2:/ A D />` is contained in :g:`AC <0218.g2:/ A C />`); :just:`[V. 15] <V.15>`
+But :g:`AD <0218.g2:/ A D />` is to :g:`AE <0218.g2:/ A E />` as n · :g:`AD <0218.g2:/ A D />` to n · :g:`AE <0218.g2:/ A E />` (where :math:`n` is the number of times that :g:`AD <0218.g2:/ A D />` is contained in :g:`AC <0218.g2:/ A C />`); :just:`[V. 15] <V.15>`
 
 .. assertion:: [V. 11] <V.11>
 
@@ -83,6 +83,6 @@ the second is equal to the fourth,
 
 .. assertion::
 
-   so that :g:`AB <0218.g2:/ A B />` is equal to $n$ times :g:`AE <0218.g2:/ A E />`.
+   so that :g:`AB <0218.g2:/ A B />` is equal to :math:`n` times :g:`AE <0218.g2:/ A E />`.
 
 Prop. 9 is of course only a particular case of Prop. 10.

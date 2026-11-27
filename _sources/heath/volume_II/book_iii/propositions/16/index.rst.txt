@@ -131,7 +131,7 @@ straight line :g:`AE <0044.g1:/ A E />`.—
 
    :just:`Q. E. D.`
 
-.. [#f1] **cannot be interposed**, literally "will not fall in between" ($\text{οὐ παρεμπεσεῖται}$).
+.. [#f1] **cannot be interposed**, literally "will not fall in between" (:math:`\text{οὐ παρεμπεσεῖται}`).
 
 Dependency Graph
 ----------------

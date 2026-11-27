@@ -21,52 +21,70 @@ Back to :ref:`Proposition X.59 <X.59>`.
 
 Euclid here finds the square root of the expression [cf. X. 53]
 
-$$\rho(\sqrt{k}\cdot\rho + \sqrt{\lambda}\cdot\rho).$$
+.. math::
+
+   \rho(\sqrt{k}\cdot\rho + \sqrt{\lambda}\cdot\rho).
 
 As usual, we solve the equations
 
-$$\left.\begin{aligned} u+v &= \sqrt{k}\cdot\rho \\ uv &= \frac{1}{4}\lambda\rho^2 \end{aligned}\right\}\quad\quad\quad\quad\dots\dots(1);$$
+.. math::
 
-then, $u$, $v$ being found, we put
+   \left.\begin{aligned} u+v &= \sqrt{k}\cdot\rho \\ uv &= \frac{1}{4}\lambda\rho^2 \end{aligned}\right\}\quad\quad\quad\quad\dots\dots(1);
 
-$$\left.\begin{aligned} x^2 &= \rho u \\ y^2 &= \rho v \end{aligned}\right\}\quad\quad\quad\quad\dots\dots(2),$$
+then, :math:`u`, :math:`v` being found, we put
 
-and $(x+y)$ is the square root required.
+.. math::
 
-Euclid proves that $(x+y)$ is the *side of (the sum of) two medial areas*, as follows.
+   \left.\begin{aligned} x^2 &= \rho u \\ y^2 &= \rho v \end{aligned}\right\}\quad\quad\quad\quad\dots\dots(2),
 
-As in the last two propositions, $x$, $y$ are proved to be incommensurable in square.
+and :math:`(x+y)` is the square root required.
 
-Now $\sqrt{k}\cdot\rho$, $\rho$ are commensurable in square only;
-therefore $\rho(u+v)$, or $(x^2+y^2)$, is a medial area $\dots\dots(3).$
+Euclid proves that :math:`(x+y)` is the *side of (the sum of) two medial areas*, as follows.
 
-Next, $xy = \frac{1}{2}\sqrt{\lambda}\cdot\rho^2$, which is again a medial area $\dots\dots(4).$
+As in the last two propositions, :math:`x`, :math:`y` are proved to be incommensurable in square.
+
+Now :math:`\sqrt{k}\cdot\rho`, :math:`\rho` are commensurable in square only;
+therefore :math:`\rho(u+v)`, or :math:`(x^2+y^2)`, is a medial area :math:`\dots\dots(3).`
+
+Next, :math:`xy = \frac{1}{2}\sqrt{\lambda}\cdot\rho^2`, which is again a medial area :math:`\dots\dots(4).`
 
 Lastly,
 
-$$\sqrt{k}\cdot\rho \smile \frac{1}{2}\sqrt{\lambda}\cdot\rho,$$
+.. math::
 
-$$\sqrt{k}\cdot\rho^2 \smile \frac{1}{2}\sqrt{\lambda}\cdot\rho^2;$$
+   \sqrt{k}\cdot\rho \smile \frac{1}{2}\sqrt{\lambda}\cdot\rho,
+
+.. math::
+
+   \sqrt{k}\cdot\rho^2 \smile \frac{1}{2}\sqrt{\lambda}\cdot\rho^2;
 
 that is,
 
-$$(x^2+y^2) \smile xy \dots\dots(5).$$
+.. math::
 
-Hence [(3), (4), (5)] $(x+y)$ is the *side of the sum of two medial areas*.
+   (x^2+y^2) \smile xy \dots\dots(5).
+
+Hence [(3), (4), (5)] :math:`(x+y)` is the *side of the sum of two medial areas*.
 
 Solving the equations algebraically, we have
 
-$$\begin{aligned} u &= \frac{\rho}{2}(\sqrt{k} + \sqrt{k-\lambda}), \\ v &= \frac{\rho}{2}(\sqrt{k} - \sqrt{k-\lambda}), \end{aligned}$$
+.. math::
+
+   \begin{aligned} u &= \frac{\rho}{2}(\sqrt{k} + \sqrt{k-\lambda}), \\ v &= \frac{\rho}{2}(\sqrt{k} - \sqrt{k-\lambda}), \end{aligned}
 
 and
 
-$$x+y = \rho\sqrt{\frac{1}{2}(\sqrt{k}+\sqrt{k-\lambda})} + \rho\sqrt{\frac{1}{2}(\sqrt{k}-\sqrt{k-\lambda})}.$$
+.. math::
 
-The corresponding square root found in X. 96 is $x-y$, where $x$, $y$ are the same as here.
+   x+y = \rho\sqrt{\frac{1}{2}(\sqrt{k}+\sqrt{k-\lambda})} + \rho\sqrt{\frac{1}{2}(\sqrt{k}-\sqrt{k-\lambda})}.
+
+The corresponding square root found in X. 96 is :math:`x-y`, where :math:`x`, :math:`y` are the same as here.
 
 The two square roots are (cf. note on X. 53) the roots of the biquadratic equation
 
-$$x^4 - 2\sqrt{k}\cdot\rho^2 x^2 + (k-\lambda)\rho^4 = 0.$$
+.. math::
+
+   x^4 - 2\sqrt{k}\cdot\rho^2 x^2 + (k-\lambda)\rho^4 = 0.
 
 ----
 
@@ -107,6 +125,8 @@ For let :g:`AB <0135.g1:/ A B />` be :eq:`bisected <0135.g1:/ A D / = 0135.g1:/ 
 
 We have already remarked (note on X. 44) that the Lemma here proving that
 
-$$x^2 + y^2 > 2xy$$
+.. math::
+
+   x^2 + y^2 > 2xy
 
 can hardly be genuine, since the result is used in X. 44.

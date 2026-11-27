@@ -18,23 +18,23 @@ Back to :ref:`Book I Common Notions <I.cn>`.
 
 [9] *Two straight lines do not enclose (or contain) a space.*
 
-:person:`Proclus <proclus>` (:cite:`p. 196, 21 <proclus:in-euclid:196.21>`) mentions this in illustration of the undue multiplication of axioms, and he points out, as an objection to it, that it belongs to the subject matter of geometry, whereas axioms are of a general character, and not peculiar to any one science. The real objection to the axiom is that it is unnecessary, since the fact which it states is included in the meaning of Postulate 1. It was no doubt taken from the passage in I. 4, "if...the base $BC$ does not coincide with the base $EF$, *two straight lines will enclose a space: which is impossible*"; and we must certainly regard it as an interpolation, notwithstanding that two of the best MSS. have it after Postulate 5, and one gives it as *Common Notion* 9.
+:person:`Proclus <proclus>` (:cite:`p. 196, 21 <proclus:in-euclid:196.21>`) mentions this in illustration of the undue multiplication of axioms, and he points out, as an objection to it, that it belongs to the subject matter of geometry, whereas axioms are of a general character, and not peculiar to any one science. The real objection to the axiom is that it is unnecessary, since the fact which it states is included in the meaning of Postulate 1. It was no doubt taken from the passage in I. 4, "if...the base :math:`BC` does not coincide with the base :math:`EF`, *two straight lines will enclose a space: which is impossible*"; and we must certainly regard it as an interpolation, notwithstanding that two of the best MSS. have it after Postulate 5, and one gives it as *Common Notion* 9.
 
 :person:`Pappus <pappus>` added some others which :person:`Proclus <proclus>` objects to (p. 198, 5) because they are either anticipated in the definitions or follow from them.
 
-($g$) *All the parts of a plane, or of a straight line, coincide with one another.*
+(:math:`g`) *All the parts of a plane, or of a straight line, coincide with one another.*
 
-($h$) *A point divides a line, a line a surface, and a surface a solid*; on which :person:`Proclus <proclus>` remarks that everything is *divided* by the same things as those by which it is *bounded*.
+(:math:`h`) *A point divides a line, a line a surface, and a surface a solid*; on which :person:`Proclus <proclus>` remarks that everything is *divided* by the same things as those by which it is *bounded*.
 
 An-Nairīzī (ed. Besthorn-Heiberg, p. 31, ed. :person:`Curtze <curtze>`, p. 38) in his version of this axiom, which he also attributes to :person:`Pappus <pappus>`, omits the reference to solids, but mentions planes as a particular case of surfaces.
 
-"($\alpha$) *A surface cuts a surface in a line*;
+"(:math:`\alpha`) *A surface cuts a surface in a line*;
 
-($\beta$) *If two surfaces which cut one another are plane, they cut one another in a straight line*;
+(:math:`\beta`) *If two surfaces which cut one another are plane, they cut one another in a straight line*;
 
-($\gamma$) *A line cuts a line in a point* (this last we need in the first proposition)."
+(:math:`\gamma`) *A line cuts a line in a point* (this last we need in the first proposition)."
 
-($k$) *Magnitudes are susceptible of the infinite (or unlimited) both by way of addition and by way of successive diminution, but in both cases potentially only* (τὸ ἄπειρον ἐν τοῖς μεγέθεσίν ἐστιν καὶ τῇ προσθέσει καὶ τῇ ἐπικαθαιρέσει, δυνάμει δὲ ἑκάτερον).
+(:math:`k`) *Magnitudes are susceptible of the infinite (or unlimited) both by way of addition and by way of successive diminution, but in both cases potentially only* (τὸ ἄπειρον ἐν τοῖς μεγέθεσίν ἐστιν καὶ τῇ προσθέσει καὶ τῇ ἐπικαθαιρέσει, δυνάμει δὲ ἑκάτερον).
 
 An-Nairīzī's version of this refers to straight lines and plane surfaces only: "*as regards the straight line and the plane surface, in consequence of their evenness, it is possible to produce them indefinitely.*"
 
@@ -84,13 +84,13 @@ The deficiency can only be made good by the *Principle of Continuity*.
 
 In the *Questioni riguardanti le matematiche elementari*, I., Art. 5, pp. 123—143, the principle of continuity is discussed with special reference to the Postulate of :person:`Dedekind <dedekind>`, and it is shown, first, how the Postulate may be led up to and, secondly, how it may be applied for the purposes of elementary geometry.
 
-Suppose that in a segment $AB$ of a straight line a point $C$ determines two segments $AC$, $CB$. If we consider the point $C$ as belonging to only one of the two segments $AC$, $CB$, we have a division of the segment $AB$ into two parts with the following properties.
+Suppose that in a segment :math:`AB` of a straight line a point :math:`C` determines two segments :math:`AC`, :math:`CB`. If we consider the point :math:`C` as belonging to only one of the two segments :math:`AC`, :math:`CB`, we have a division of the segment :math:`AB` into two parts with the following properties.
 
-1. Every point of the segment $AB$ belongs to *one* of the two parts.
-2. The point $A$ belongs to one of the two parts (which we will call the *first*) and the point $B$ to the other; the point $C$ may belong indifferently to one or the other of the two parts according as we choose to premise.
-3. Every point of the first part precedes every point of the second in the order $AB$ of the segment.
+1. Every point of the segment :math:`AB` belongs to *one* of the two parts.
+2. The point :math:`A` belongs to one of the two parts (which we will call the *first*) and the point :math:`B` to the other; the point :math:`C` may belong indifferently to one or the other of the two parts according as we choose to premise.
+3. Every point of the first part precedes every point of the second in the order :math:`AB` of the segment.
 
-(For generality we may also suppose the case in which the point $C$ falls at $A$ or at $B$. Considering $C$, in these cases respectively, as belonging to the first or second part, we still have a division into parts which have the properties above enunciated, one part being then a single point $A$ or $B$.)
+(For generality we may also suppose the case in which the point :math:`C` falls at :math:`A` or at :math:`B`. Considering :math:`C`, in these cases respectively, as belonging to the first or second part, we still have a division into parts which have the properties above enunciated, one part being then a single point :math:`A` or :math:`B`.)
 
 .. _folio-i-0250:
 
@@ -99,15 +99,15 @@ Suppose that in a segment $AB$ of a straight line a point $C$ determines two seg
 
 Now, considering carefully the inverse of the above proposition, we see that it agrees with the idea which we have of the continuity of the straight line. Consequently we are induced to admit as a *postulate* the following.
 
-*If a segment of a straight line* $AB$ *is divided into two parts so that*
+*If a segment of a straight line* :math:`AB` *is divided into two parts so that*
 
-(1) *every point of the segment* $AB$ *belongs to one of the parts,*
-(2) *the extremity* $A$ *belongs to the first part and* $B$ *to the second, and*
-(3) *any point whatever of the first part precedes any point whatever of the second part, in the order* $AB$ *of the segment,*
+(1) *every point of the segment* :math:`AB` *belongs to one of the parts,*
+(2) *the extremity* :math:`A` *belongs to the first part and* :math:`B` *to the second, and*
+(3) *any point whatever of the first part precedes any point whatever of the second part, in the order* :math:`AB` *of the segment,*
 
-*there exists a point* $C$ *of the segment* $AB$ *(which may belong either to one part or to the other) such that every point of* $AB$ *that precedes* $C$ *belongs to the first part, and every point of* $AB$ *that follows* $C$ *belongs to the second part in the division originally assumed.*
+*there exists a point* :math:`C` *of the segment* :math:`AB` *(which may belong either to one part or to the other) such that every point of* :math:`AB` *that precedes* :math:`C` *belongs to the first part, and every point of* :math:`AB` *that follows* :math:`C` *belongs to the second part in the division originally assumed.*
 
-(If one of the two parts consists of the single point $A$ or $B$, the point $C$ is the said extremity $A$ or $B$ of the segment.)
+(If one of the two parts consists of the single point :math:`A` or :math:`B`, the point :math:`C` is the said extremity :math:`A` or :math:`B` of the segment.)
 
 This is the Postulate of :person:`Dedekind <dedekind>`, which was enunciated by :person:`Dedekind <dedekind>` himself in the following slightly different form (*Stetigkeit und irrationale Zahlen*, 1872, new edition 1905, p. 11).
 
@@ -118,39 +118,39 @@ The above enunciation may be said to correspond to the intuitive notion which we
 *Application of Dedekind's postulate to angles.*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If we consider an angle less than two right angles bounded by two rays $a$, $b$, and draw the straight line connecting $A$, a point on $a$, with $B$, a point on $b$, we see that all points on the finite segment $AB$ correspond univocally to all the rays of the angle, the point corresponding to any ray being the point in which the ray cuts the segment $AB$; and if a ray be supposed to move about the vertex of the angle from the position $a$ to the position $b$, the corresponding points of the segment $AB$ are seen to follow in the same order as the corresponding rays of the angle $(ab)$.
+If we consider an angle less than two right angles bounded by two rays :math:`a`, :math:`b`, and draw the straight line connecting :math:`A`, a point on :math:`a`, with :math:`B`, a point on :math:`b`, we see that all points on the finite segment :math:`AB` correspond univocally to all the rays of the angle, the point corresponding to any ray being the point in which the ray cuts the segment :math:`AB`; and if a ray be supposed to move about the vertex of the angle from the position :math:`a` to the position :math:`b`, the corresponding points of the segment :math:`AB` are seen to follow in the same order as the corresponding rays of the angle :math:`(ab)`.
 
-Consequently, if the angle $(ab)$ is divided into two parts so that
+Consequently, if the angle :math:`(ab)` is divided into two parts so that
 
-(1) each ray of the angle $(ab)$ belongs to one of the two parts,
-(2) the outside ray $a$ belongs to the first part and the ray $b$ to the second,
+(1) each ray of the angle :math:`(ab)` belongs to one of the two parts,
+(2) the outside ray :math:`a` belongs to the first part and the ray :math:`b` to the second,
 (3) any ray whatever of the first part precedes any ray whatever of the second part,
 
-the corresponding points of the segment $AB$ determine two parts of the segments such that
+the corresponding points of the segment :math:`AB` determine two parts of the segments such that
 
-(1) every point of the segment $AB$ belongs to one of the two parts,
-(2) the extremity $A$ belongs to the first part and $B$ to the second,
+(1) every point of the segment :math:`AB` belongs to one of the two parts,
+(2) the extremity :math:`A` belongs to the first part and :math:`B` to the second,
 (3) any point whatever of the first part precedes any point whatever of the second.
 
-But in that case there exists a point $C$ of $AB$ (which may belong to one or the other of the two parts) such that every point of $AB$ that precedes $C$ belongs to the first part and every point of $AB$ that follows $C$ belongs to the second part.
+But in that case there exists a point :math:`C` of :math:`AB` (which may belong to one or the other of the two parts) such that every point of :math:`AB` that precedes :math:`C` belongs to the first part and every point of :math:`AB` that follows :math:`C` belongs to the second part.
 
 .. _folio-i-0251:
 
 .. folio:: 0251
    :page: 237
 
-Thus exactly the same thing holds of $c$, the ray corresponding to $C$, with reference to the division of the angle $(ab)$ into two parts.
+Thus exactly the same thing holds of :math:`c`, the ray corresponding to :math:`C`, with reference to the division of the angle :math:`(ab)` into two parts.
 
-It is not difficult to extend this to an angle $(ab)$ which is either *flat* or greater than two right angles; this is done (Vitali, *op. cit.* pp. 126—127) by supposing the angle to be divided into two, $(ad)$, $(db)$, each less than two right angles, and considering the three cases in which
+It is not difficult to extend this to an angle :math:`(ab)` which is either *flat* or greater than two right angles; this is done (Vitali, *op. cit.* pp. 126—127) by supposing the angle to be divided into two, :math:`(ad)`, :math:`(db)`, each less than two right angles, and considering the three cases in which
 
-(1) the ray $d$ is such that all the rays that precede it belong to the first part and those which follow it to the second part,
-(2) the ray $d$ is followed by some rays of the first part,
-(3) the ray $d$ is preceded by some rays of the second part.
+(1) the ray :math:`d` is such that all the rays that precede it belong to the first part and those which follow it to the second part,
+(2) the ray :math:`d` is followed by some rays of the first part,
+(3) the ray :math:`d` is preceded by some rays of the second part.
 
 *Application to circular arcs.*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If we consider an arc $AB$ of a circle with centre $O$, the points of the arc correspond univocally, and in the same order, to the rays from the point $O$ passing through those points respectively, and the same argument by which we passed from a segment of a straight line to an angle can be used to make the transition from an angle to an arc.
+If we consider an arc :math:`AB` of a circle with centre :math:`O`, the points of the arc correspond univocally, and in the same order, to the rays from the point :math:`O` passing through those points respectively, and the same argument by which we passed from a segment of a straight line to an angle can be used to make the transition from an angle to an arc.
 
 Intersections of a straight line with a circle.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -168,13 +168,15 @@ Consider the circle :g:`(C) <0251.g1:( O R )>` with centre :g:`O <0251.g1:O>`, a
 
 By the definition of the circle, if :g:`R <0251.g1:/ O M />` is the radius,
 
-$$OA < R, \quad OB > R.$$
+.. math::
+
+   OA < R, \quad OB > R.
 
 Draw :g:`OP <0251.g1:/ O P />` perpendicular to the straight line :g:`r <0251.g1:[ P B ]>`.
 
 Then :g:`OP <0251.g1:/ O P />` < :g:`OA <0251.g1:/ O A />`, so that :g:`OP <0251.g1:/ O P />` is always less than :g:`R <0251.g1:/ O M />`, and :g:`P <0251.g1:P>` is therefore within the circle :g:`C <0251.g1:( O R )>`.
 
-Now let us fix our attention on the finite segment :g:`AB <0251.g1:/ A B />` of the straight line :g:`r <0251.g1:[ P B ]>`. It can be divided into two parts, (1) that containing all the points :g:`H <0251.g1:A>` for which $OH < R$ (i.e. points inside :g:`C <0251.g1:( O R )>`), and (2) that containing all the points :g:`K <0251.g1:B>` for which $OK \geqq R$ (points outside :g:`C <0251.g1:( O R )>` or on the circumference of :g:`C <0251.g1:( O R )>`).
+Now let us fix our attention on the finite segment :g:`AB <0251.g1:/ A B />` of the straight line :g:`r <0251.g1:[ P B ]>`. It can be divided into two parts, (1) that containing all the points :g:`H <0251.g1:A>` for which :math:`OH < R` (i.e. points inside :g:`C <0251.g1:( O R )>`), and (2) that containing all the points :g:`K <0251.g1:B>` for which :math:`OK \geqq R` (points outside :g:`C <0251.g1:( O R )>` or on the circumference of :g:`C <0251.g1:( O R )>`).
 
 Thus, remembering that, of two obliques from a given point to a given straight line, that is greater the projection of which is greater, we can assert that all the points of the segment :g:`PB <0251.g1:/ P B />` which *precede* a point inside :g:`C <0251.g1:( O R )>` are inside :g:`C <0251.g1:( O R )>`, and those which *follow* a point on the circumference of :g:`C <0251.g1:( O R )>` or outside :g:`C <0251.g1:( O R )>` are outside :g:`C <0251.g1:( O R )>`.
 
@@ -188,7 +190,9 @@ point :g:`M <0251.g1:M>` such that all the points which precede it belong to the
 
 I say that :g:`M <0251.g1:M>` is common to the straight line :g:`r <0251.g1:[ P B ]>` and the circle :g:`C <0251.g1:( O R )>`, or
 
-$$OM = R.$$
+.. math::
+
+   OM = R.
 
 For suppose, e.g., that :g:`OM <0251.g1:/ O M />` < :g:`R <0251.g1:/ O M />`.
 
@@ -198,15 +202,21 @@ Consider the point :g:`M' <0251.g1:M'>`, one of those which *follow* :g:`M <0251
 
 Then, because any side of a triangle is less than the sum of the other two,
 
-$$OM' < OM + MM'.$$
+.. math::
+
+   OM' < OM + MM'.
 
 But
 
-$$OM + MM' = OM + \sigma < R,$$
+.. math::
+
+   OM + MM' = OM + \sigma < R,
 
 whence
 
-$$OM' < R,$$
+.. math::
+
+   OM' < R,
 
 which is absurd.
 
@@ -241,17 +251,23 @@ Now one of these points must fall (1) on the prolongation of :g:`O'O <0252.g1:/ 
 
 Then
 
-$$AO' = AO + OO' = R + OO' \ldots\ldots (\alpha).$$
+.. math::
+
+   AO' = AO + OO' = R + OO' \ldots\ldots (\alpha).
 
 But, in the triangle :g:`OO'Y <0252.g1:< O O' Y >>`,
 
-$$O'Y < OY + OO',$$
+.. math::
+
+   O'Y < OY + OO',
 
 and, since :g:`O'Y <0252.g1:/ O' Y />` > :g:`R' <0252.g1:( O' C' )>`, :g:`OY <0252.g1:/ O Y />` = :g:`R <0252.g1:/ A O />`,
 
-$$R' < R + OO'.$$
+.. math::
 
-It follows from $(\alpha)$ that :g:`AO' <0252.g1:/ A O' />` > :g:`R' <0252.g1:( O' C' )>`; and :g:`A <0252.g1:A>` therefore lies *outside* :g:`C' <0252.g1:( O' C' )>`.
+   R' < R + OO'.
+
+It follows from :math:`(\alpha)` that :g:`AO' <0252.g1:/ A O' />` > :g:`R' <0252.g1:( O' C' )>`; and :g:`A <0252.g1:A>` therefore lies *outside* :g:`C' <0252.g1:( O' C' )>`.
 
 .. picture:: 0252.g2.svg
    :alt: Intersections of two circles, Lemma Case 2
@@ -260,17 +276,23 @@ It follows from $(\alpha)$ that :g:`AO' <0252.g1:/ A O' />` > :g:`R' <0252.g1:( 
 
 Then
 
-$$OO' = OA + AO' = R + AO' \ldots (\beta).$$
+.. math::
+
+   OO' = OA + AO' = R + AO' \ldots (\beta).
 
 From the triangle :g:`OO'X <0252.g2:< O O' X >>` we have
 
-$$OO' < OX + O'X,$$
+.. math::
+
+   OO' < OX + O'X,
 
 and, since :g:`OX <0252.g2:/ O X />` = :g:`R <0252.g2:/ O A />`, :g:`O'X <0252.g2:/ O' X />` < :g:`R' <0252.g2:( O' C' )>`, it follows that
 
-$$OO' < R + R',$$
+.. math::
 
-whence, by $(\beta)$, :g:`AO' <0252.g2:/ A O' />` < :g:`R' <0252.g2:( O' C' )>`, so that :g:`A <0252.g2:A>` lies *inside* :g:`C' <0252.g2:( O' C' )>`.
+   OO' < R + R',
+
+whence, by :math:`(\beta)`, :g:`AO' <0252.g2:/ A O' />` < :g:`R' <0252.g2:( O' C' )>`, so that :g:`A <0252.g2:A>` lies *inside* :g:`C' <0252.g2:( O' C' )>`.
 
 .. _folio-i-0253:
 
@@ -284,23 +306,33 @@ whence, by $(\beta)$, :g:`AO' <0252.g2:/ A O' />` < :g:`R' <0252.g2:( O' C' )>`,
 
 Then
 
-$$R = OA = OO' + O'A \ldots\ldots\ldots (\gamma).$$
+.. math::
+
+   R = OA = OO' + O'A \ldots\ldots\ldots (\gamma).
 
 And, in the triangle :g:`OO'X <0253.g1:< O O' X >>`,
 
-$$OX < OO' + O'X,$$
+.. math::
+
+   OX < OO' + O'X,
 
 that is
 
-$$R < OO' + O'X,$$
+.. math::
 
-whence, by $(\gamma)$,
+   R < OO' + O'X,
 
-$$OO' + O'A < OO' + O'X,$$
+whence, by :math:`(\gamma)`,
+
+.. math::
+
+   OO' + O'A < OO' + O'X,
 
 or
 
-$$O'A < O'X,$$
+.. math::
+
+   O'A < O'X,
 
 and :g:`A <0253.g1:A>` lies *inside* :g:`C' <0253.g1:( O' C' )>`.
 
@@ -330,11 +362,15 @@ If then :g:`σ <0253.g2:/ M M' />` signifies the difference between :g:`R' <0253
 
 Then, in the triangle :g:`O'MM' <0253.g2:< O' M M' >>`,
 
-$$O'M' < O'M + MM' < O'M + \sigma,$$
+.. math::
+
+   O'M' < O'M + MM' < O'M + \sigma,
 
 and therefore
 
-$$O'M' < R'.$$
+.. math::
+
+   O'M' < R'.
 
 It follows that :g:`M' <0253.g2:M'>`, a point on the arc :g:`MB <0253.g2:( O A )< M O B >>`, is inside the circle :g:`C' <0253.g2:( O' C' )>`: which is absurd.
 

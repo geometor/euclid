@@ -120,7 +120,7 @@ Therefore the sum of the three exterior angles is equal to four right angles; fr
 
 But it is to be observed that the straight line :g:`BD <0335.g1:/ B D />` revolves about *different points in it*, so that there is translation combined with *rotatory* motion, and it is necessary to assume as an axiom that the two motions are independent, and therefore that the translation may be neglected.
 
-Schumacher (letter to :person:`Gauss <gauss>` of 3 May, 1831) tried to represent the rotatory motion graphically in a second figure as mere motion round a point; but :person:`Gauss <gauss>` (letter of 17 May, 1831) pointed out in reply that he really assumed, without proving it, a proposition to the effect that "If two straight lines (1) and (2) which cut one another make angles $A$, $A''$ with a straight line (3) cutting both of them, and if a straight line (4) in the same plane is likewise cut by (1) at an angle $A'$, then (4) will be cut by (2) at the angle $A''$. But this proposition not only needs proof, but we may say that it is, in essence, the very proposition to be proved" (see Engel and :person:`Stäckel <staeckel>`, :cite:`*Die Theorie der Parallellinien von Euklid bis auf Gauss* <staeckel-engel:parallellinien>`, 1895, p. 230).
+Schumacher (letter to :person:`Gauss <gauss>` of 3 May, 1831) tried to represent the rotatory motion graphically in a second figure as mere motion round a point; but :person:`Gauss <gauss>` (letter of 17 May, 1831) pointed out in reply that he really assumed, without proving it, a proposition to the effect that "If two straight lines (1) and (2) which cut one another make angles :math:`A`, :math:`A''` with a straight line (3) cutting both of them, and if a straight line (4) in the same plane is likewise cut by (1) at an angle :math:`A'`, then (4) will be cut by (2) at the angle :math:`A''`. But this proposition not only needs proof, but we may say that it is, in essence, the very proposition to be proved" (see Engel and :person:`Stäckel <staeckel>`, :cite:`*Die Theorie der Parallellinien von Euklid bis auf Gauss* <staeckel-engel:parallellinien>`, 1895, p. 230).
 
 How easy it is to be deluded in this way is plainly shown by Proclus' attempt on the same lines. He says (p. 384, 13–21) that the truth of the theorem is borne in upon us by the help of "common notions" only. "For, if we conceive a straight line with two perpendiculars drawn to it at its extremities, and if we then suppose the perpendiculars to (revolve about their feet and) approach one another, so as to form a triangle, we see that,
 to the extent to which they converge, they diminish the right angles which they made with the straight line, so that the amount taken from the right angles is also the amount added to the vertical angle of the triangle, and the three angles are necessarily made equal to two right angles." But a moment's reflection shows that, so far from being founded on mere "common notions," the supposed proof assumes, to begin with, that, if the perpendiculars approach one another ever so little, they will then form a triangle immediately, i.e., it assumes Postulate 5 itself; and the fact about the vertical angle can only be seen by means of the equality of the alternate angles exhibited by drawing a perpendicular from the vertex of the triangle to the base, i.e. a *parallel* to either of the original perpendiculars.
@@ -148,13 +148,13 @@ The figure is then divided into triangles, and mere inspection shows
 
 (2) that the sum of the angles of all the triangles is equal to the sum of all the interior angles of the figure.
 
-Since then the sum of the angles of each triangle is equal to two right angles the sum of the interior angles of the figure is equal to $2(n - 2)$ right angles, i.e. $(2n - 4)$ right angles, where $n$ is the number of sides in the figure.
+Since then the sum of the angles of each triangle is equal to two right angles the sum of the interior angles of the figure is equal to :math:`2(n - 2)` right angles, i.e. :math:`(2n - 4)` right angles, where :math:`n` is the number of sides in the figure.
 
 2. *The exterior angles of any convex rectilineal figure are together equal to four right angles.*
 
-For the interior and exterior angles together are equal to $2n$ right angles, where $n$ is the number of sides.
+For the interior and exterior angles together are equal to :math:`2n` right angles, where :math:`n` is the number of sides.
 
-And the interior angles are together equal to $(2n - 4)$ right angles.
+And the interior angles are together equal to :math:`(2n - 4)` right angles.
 
 Therefore the exterior angles are together equal to four right angles.
 

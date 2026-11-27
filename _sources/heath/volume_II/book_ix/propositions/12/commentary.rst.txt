@@ -19,41 +19,51 @@ Back to :ref:`Proposition IX.12 <IX.12>`.
 .. folio:: 0404
    :page: 398
 
-If $1, a, a_2, \dots a_n$ be a geometrical progression, and $a_n$ be measured by any prime number $p$, $a$ will also be measured by $p$.
+If :math:`1, a, a_2, \dots a_n` be a geometrical progression, and :math:`a_n` be measured by any prime number :math:`p`, :math:`a` will also be measured by :math:`p`.
 
 .. _folio-ii-0405:
 
 .. folio:: 0405
    :page: 399
 
-For, if possible, suppose that $p$ does not measure $a$; then, $p$ being prime, $p, a$ are prime to one another. :just:`[VII. 29] <VII.29>`
+For, if possible, suppose that :math:`p` does not measure :math:`a`; then, :math:`p` being prime, :math:`p, a` are prime to one another. :just:`[VII. 29] <VII.29>`
 
 Suppose
 
-$$a_n = m \cdot p.$$
+.. math::
+
+   a_n = m \cdot p.
 
 Now
 
-$$a_n = a \cdot a_{n-1}. \qquad \text{[IX. 11]}$$
+.. math::
+
+   a_n = a \cdot a_{n-1}. \qquad \text{[IX. 11]}
 
 Therefore
 
-$$a \cdot a_{n-1} = m \cdot p,$$
+.. math::
+
+   a \cdot a_{n-1} = m \cdot p,
 
 and
 
-$$a : p = m : a_{n-1}. \qquad \text{[VII. 19]}$$
+.. math::
 
-Hence, $a, p$ being prime to one another,
+   a : p = m : a_{n-1}. \qquad \text{[VII. 19]}
 
-$$p \text{ measures } a_{n-1}. \qquad \text{[VII. 20, 21]}$$
+Hence, :math:`a, p` being prime to one another,
 
-By a repetition of the same process, we can prove that $p$ measures $a_{n-2}$ and therefore $a_{n-3}$, and so on, and finally that $p$ measures $a$.
+.. math::
 
-But, by hypothesis, $p$ does not measure $a$: which is impossible.
+   p \text{ measures } a_{n-1}. \qquad \text{[VII. 20, 21]}
 
-Hence $p, a$ are not prime to one another: therefore they have some common factor. :just:`[VII. Def. 14] <VII.def.14>`
+By a repetition of the same process, we can prove that :math:`p` measures :math:`a_{n-2}` and therefore :math:`a_{n-3}`, and so on, and finally that :math:`p` measures :math:`a`.
 
-But $p$ is the only number which measures $p$; therefore $p$ measures $a$.
+But, by hypothesis, :math:`p` does not measure :math:`a`: which is impossible.
+
+Hence :math:`p, a` are not prime to one another: therefore they have some common factor. :just:`[VII. Def. 14] <VII.def.14>`
+
+But :math:`p` is the only number which measures :math:`p`; therefore :math:`p` measures :math:`a`.
 
 :person:`Heiberg <heiberg>` remarks that, as, in the :term:`ἔκθεσις <ekthesis>`, Euclid sets himself to prove that :g:`E <0403.g1:E>` measures :g:`A <0403.g1:A>`, the words bracketed above are unnecessary and therefore perhaps interpolated.

@@ -19,14 +19,18 @@ Back to :ref:`Proposition X.15 <X.15>`.
 .. folio:: 0043
    :page: 39
 
-(1) If $a$, $b$ be any two commensurable magnitudes, they are of the form $mc$, $nc$, where $c$ is a common measure of $a$, $b$ and $m$, $n$ some integers. It follows that
+(1) If :math:`a`, :math:`b` be any two commensurable magnitudes, they are of the form :math:`mc`, :math:`nc`, where :math:`c` is a common measure of :math:`a`, :math:`b` and :math:`m`, :math:`n` some integers. It follows that
 
-$$a + b = (m + n) c;$$
+.. math::
 
-therefore $(a + b)$, being measured by $c$, is commensurable with both $a$ and $b$.
+   a + b = (m + n) c;
 
-(2) If $a + b$ is commensurable with either $a$ or $b$, say $a$, we may put $a + b = mc$, $a = nc$, where $c$ is a common measure of $(a + b)$, $a$, and $m$, $n$ are integers. Subtracting, we have
+therefore :math:`(a + b)`, being measured by :math:`c`, is commensurable with both :math:`a` and :math:`b`.
 
-$$b = (m - n) c,$$
+(2) If :math:`a + b` is commensurable with either :math:`a` or :math:`b`, say :math:`a`, we may put :math:`a + b = mc`, :math:`a = nc`, where :math:`c` is a common measure of :math:`(a + b)`, :math:`a`, and :math:`m`, :math:`n` are integers. Subtracting, we have
 
-whence $b ⌢ a$.
+.. math::
+
+   b = (m - n) c,
+
+whence :math:`b ⌢ a`.

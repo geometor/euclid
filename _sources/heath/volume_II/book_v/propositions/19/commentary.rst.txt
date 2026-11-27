@@ -19,9 +19,11 @@ Back to :ref:`Proposition V.19 <V.19>`.
 .. folio:: 0180
    :page: 174
 
-Algebraically, if $a : b = c : d$ (where $c < a$ and $d < b$), then
+Algebraically, if :math:`a : b = c : d` (where :math:`c < a` and :math:`d < b`), then
 
-$$(a - c) : (b - d) = a : b.$$
+.. math::
+
+   (a - c) : (b - d) = a : b.
 
 The "Porism" at the end of this proposition is led up to by a few lines which :person:`Heiberg <heiberg>` brackets because it is not Euclid's habit to explain a Porism, and indeed a Porism, from its very nature, should not need any
 explanation, being a sort of by-product appearing without effort or trouble, ἀπραγματεύτως (:person:`Proclus <proclus>`, :cite:`p. 303, 6 <proclus:in-euclid:303-6>`). But :person:`Heiberg <heiberg>` thinks that :person:`Simson <simson>` does wrong in finding fault with the argument leading to the "Porism," and that it does contain the true demonstration of *conversion* of a ratio. In this it appears to me that :person:`Heiberg <heiberg>` is clearly mistaken, the supposed proof on the basis of Prop. 19 being no more correct than the similar attempt to prove the *inversion* of a ratio from Prop. 4. The words are: "And since it was proved that, as :g:`AB <0180.g1:/ A B />` is to :g:`CD <0180.g1:/ C D />`, so is :g:`EB <0180.g1:/ E B />` to :g:`FD <0180.g1:/ F D />`,
@@ -35,17 +37,23 @@ explanation, being a sort of by-product appearing without effort or trouble, ἀ
 
    alternately also, as :g:`AB <0180.g1:/ A B />` is to :g:`BE <0180.g1:/ E B />`, so is :g:`CD <0180.g1:/ C D />` to :g:`FD <0180.g1:/ F D />`:
 
-$$\text{therefore magnitudes when compounded are proportional.}$$
+.. math::
+
+   \text{therefore magnitudes when compounded are proportional.}
 
 But it was proved that, as :g:`BA <0180.g1:/ A B />` is to :g:`AE <0180.g1:/ A E />`, so is :g:`DC <0180.g1:/ C D />` to :g:`CF <0180.g1:/ C F />`, and this is :term:`*convertendo* <convertendo>`."
 
-It will be seen that this amounts to proving *from the hypothesis* $a : b = c : d$ that the following transformations are simultaneously true, viz.:
+It will be seen that this amounts to proving *from the hypothesis* :math:`a : b = c : d` that the following transformations are simultaneously true, viz.:
 
-$$a : a - c = b : b - d,$$
+.. math::
+
+   a : a - c = b : b - d,
 
 and
 
-$$a : c = b : d.$$
+.. math::
+
+   a : c = b : d.
 
 The former is not proved from the latter as it ought to be if it were intended to prove *conversion*.
 
@@ -72,7 +80,9 @@ and, by inversion,
 
    :g:`BE <0181.g1:/ E B />` is to :g:`EA <0181.g1:/ A E />` as :g:`DF <0181.g1:/ F D />` to :g:`FC <0181.g1:/ C F />`.
 
-$$[\text{Simson's Prop. B directly obtained from V. Def. } 5]$$
+.. math::
+
+   [\text{Simson's Prop. B directly obtained from V. Def. } 5]
 
 Wherefore, by composition [:term:`*componendo* <componendo>`],
 

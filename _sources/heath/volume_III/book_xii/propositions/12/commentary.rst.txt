@@ -28,18 +28,18 @@ Let :g:`KL <0419.g1:/ K L />`, :g:`MN <0419.g1:/ M N />` be the axes of the cone
 
 Now :g:`BKL <0419.g1:< B K L >>`, :g:`FMN <0419.g1:< F M N >>` are right-angled triangles, and, since the cones are similar, :g:`BK <0419.g1:/ B K />` : :g:`KL <0419.g1:/ K L />` = :g:`FM <0419.g1:/ F M />` : :g:`MN <0419.g1:/ M N />`. :just:`[XI. Def. 24] <XI.def.24>`
 
-Therefore (1) $\Delta$s :g:`BKL <0419.g1:< B K L >>`, :g:`FMN <0419.g1:< F M N >>` are similar. :just:`[VI. 6] <VI.6>` Similarly (2) $\Delta$s :g:`TKL <0419.g1:< T K L >>`, :g:`PMN <0419.g1:< P M N >>` are similar.
+Therefore (1) :math:`\Delta`\ s :g:`BKL <0419.g1:< B K L >>`, :g:`FMN <0419.g1:< F M N >>` are similar. :just:`[VI. 6] <VI.6>` Similarly (2) :math:`\Delta`\ s :g:`TKL <0419.g1:< T K L >>`, :g:`PMN <0419.g1:< P M N >>` are similar.
 
-Next, in $\Delta$s :g:`BKT <0419.g1:< B K T >>`, :g:`FMP <0419.g1:< F M P >>`, the angles :g:`BKT <0419.g1:< B K T )>`, :g:`FMP <0419.g1:< F M P )>` are :eq:`equal <0419.g1:< B K T ) = 0419.g1:< F M P )>`, since each is the same fraction of four right angles; and the sides about the :eq:`equal <0419.g1:< B K T ) = 0419.g1:< F M P )>` angles are proportional; therefore (3) $\Delta$s :g:`BKT <0419.g1:< B K T >>`, :g:`FMP <0419.g1:< F M P >>` are similar.
+Next, in :math:`\Delta`\ s :g:`BKT <0419.g1:< B K T >>`, :g:`FMP <0419.g1:< F M P >>`, the angles :g:`BKT <0419.g1:< B K T )>`, :g:`FMP <0419.g1:< F M P )>` are :eq:`equal <0419.g1:< B K T ) = 0419.g1:< F M P )>`, since each is the same fraction of four right angles; and the sides about the :eq:`equal <0419.g1:< B K T ) = 0419.g1:< F M P )>` angles are proportional; therefore (3) :math:`\Delta`\ s :g:`BKT <0419.g1:< B K T >>`, :g:`FMP <0419.g1:< F M P >>` are similar.
 
 .. _folio-iii-0420:
 
 .. folio:: 0420
    :page: 416
 
-Again, since from the similar $\triangle\text{s}$ :g:`BKL <0419.g1:< B K L >>`, :g:`FMN <0419.g1:< F M N >>`, and the similar $\triangle\text{s}$ :g:`BKT <0419.g1:< B K T >>`, :g:`FMP <0419.g1:< F M P >>` respectively, :g:`LB <0419.g1:/ L B />` : :g:`BK <0419.g1:/ B K />` = :g:`NF <0419.g1:/ N F />` : :g:`FM <0419.g1:/ F M />`, :g:`BK <0419.g1:/ B K />` : :g:`BT <0419.g1:/ B T />` = :g:`MF <0419.g1:/ M F />` : :g:`FP <0419.g1:/ F P />`, :term:`*ex aequali* <ex-aequali>`, :g:`LB <0419.g1:/ L B />` : :g:`BT <0419.g1:/ B T />` = :g:`NF <0419.g1:/ N F />` : :g:`FP <0419.g1:/ F P />`. Similarly :g:`LT <0419.g1:/ L T />` : :g:`TB <0419.g1:/ T B />` = :g:`NP <0419.g1:/ N P />` : :g:`PF <0419.g1:/ P F />`. Inverting the latter ratio and compounding it with the preceding one, we have, :term:`*ex aequali* <ex-aequali>`, :g:`LB <0419.g1:/ L B />` : :g:`LT <0419.g1:/ L T />` = :g:`NF <0419.g1:/ N F />` : :g:`NP <0419.g1:/ N P />`.
+Again, since from the similar :math:`\triangle\text{s}` :g:`BKL <0419.g1:< B K L >>`, :g:`FMN <0419.g1:< F M N >>`, and the similar :math:`\triangle\text{s}` :g:`BKT <0419.g1:< B K T >>`, :g:`FMP <0419.g1:< F M P >>` respectively, :g:`LB <0419.g1:/ L B />` : :g:`BK <0419.g1:/ B K />` = :g:`NF <0419.g1:/ N F />` : :g:`FM <0419.g1:/ F M />`, :g:`BK <0419.g1:/ B K />` : :g:`BT <0419.g1:/ B T />` = :g:`MF <0419.g1:/ M F />` : :g:`FP <0419.g1:/ F P />`, :term:`*ex aequali* <ex-aequali>`, :g:`LB <0419.g1:/ L B />` : :g:`BT <0419.g1:/ B T />` = :g:`NF <0419.g1:/ N F />` : :g:`FP <0419.g1:/ F P />`. Similarly :g:`LT <0419.g1:/ L T />` : :g:`TB <0419.g1:/ T B />` = :g:`NP <0419.g1:/ N P />` : :g:`PF <0419.g1:/ P F />`. Inverting the latter ratio and compounding it with the preceding one, we have, :term:`*ex aequali* <ex-aequali>`, :g:`LB <0419.g1:/ L B />` : :g:`LT <0419.g1:/ L T />` = :g:`NF <0419.g1:/ N F />` : :g:`NP <0419.g1:/ N P />`.
 
-Thus in $\triangle\text{s}$ :g:`LTB <0419.g1:< L T B >>`, :g:`NPF <0419.g1:< N P F >>` the sides are proportional in pairs ; therefore (4) $\triangle\text{s}$ :g:`LTB <0419.g1:< L T B >>`, :g:`NPF <0419.g1:< N P F >>` are similar.
+Thus in :math:`\triangle\text{s}` :g:`LTB <0419.g1:< L T B >>`, :g:`NPF <0419.g1:< N P F >>` the sides are proportional in pairs ; therefore (4) :math:`\triangle\text{s}` :g:`LTB <0419.g1:< L T B >>`, :g:`NPF <0419.g1:< N P F >>` are similar.
 
 Thus the partial pyramids :g:`L-BKT <0419.g1:< L B K T >>`, :g:`N-FMP <0419.g1:< N F M P >>` are similar. In exactly the same way it is proved that all the other partial pyramids are similar.
 
@@ -47,42 +47,56 @@ Now (pyramid :g:`L-BKT <0419.g1:< L B K T >>`) : (pyramid :g:`N-FMP <0419.g1:< N
 
 [The fact that Euclid makes this transition from the partial pyramids to the whole pyramids in the body of this proposition seems to me to suggest grave doubts as to the genuineness of the Porism to XII. 8, which contains a similar but rather more general extension from the case of triangular pyramids to pyramids with polygonal bases. Were that Porism genuine, Euclid would have been more likely to refer to it than to repeat here the same arguments which it contains.]
 
-Now we are in a position to apply the method of exhaustion. If $X$, $X'$ be the volumes of the cones, $d$, $d'$ the diameters of their bases, and if
+Now we are in a position to apply the method of exhaustion. If :math:`X`, :math:`X'` be the volumes of the cones, :math:`d`, :math:`d'` the diameters of their bases, and if
 
-$$(\text{ratio triplicate of } d : d') \ne X : X',$$
+.. math::
+
+   (\text{ratio triplicate of } d : d') \ne X : X',
 
 then must
 
-$$(\text{ratio triplicate of } d : d') = X : O,$$
+.. math::
 
-where $O$ is either less or greater than $X'$.
+   (\text{ratio triplicate of } d : d') = X : O,
 
-I. Suppose that $O$ is *less* than $X'$. Construct in the way described a pyramid ($\Pi'$) in $X'$ leaving over portions of $X'$ together less than $(X' - O)$, so that $X' > \Pi' > O$, and construct in $X$ a pyramid ($\Pi$), with the same vertex as $X$ has, on a polygon inscribed in its base similar to the base of $\Pi'$.
+where :math:`O` is either less or greater than :math:`X'`.
+
+I. Suppose that :math:`O` is *less* than :math:`X'`. Construct in the way described a pyramid (:math:`\Pi'`) in :math:`X'` leaving over portions of :math:`X'` together less than :math:`(X' - O)`, so that :math:`X' > \Pi' > O`, and construct in :math:`X` a pyramid (:math:`\Pi`), with the same vertex as :math:`X` has, on a polygon inscribed in its base similar to the base of :math:`\Pi'`.
 
 Then, by what has just been proved,
 
-$$\begin{aligned}
-\Pi : \Pi' &= (\text{ratio triplicate of } d : d') \\
-&= X : O\text{, by hypothesis,}
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \Pi : \Pi' &= (\text{ratio triplicate of } d : d') \\
+   &= X : O\text{, by hypothesis,}
+   \end{aligned}
 
 and, alternately,
 
-$$\Pi : X = \Pi' : O.$$
+.. math::
 
-But $X$ includes, and is therefore greater than, $\Pi$; therefore
+   \Pi : X = \Pi' : O.
 
-$$O > \Pi'.$$
+But :math:`X` includes, and is therefore greater than, :math:`\Pi`; therefore
+
+.. math::
+
+   O > \Pi'.
 
 But, by construction,
 
-$$O < \Pi' :$$
+.. math::
+
+   O < \Pi' :
 
 which is impossible.
 
 Therefore
 
-$$O\text{ cannot be less than } X'.$$
+.. math::
+
+   O\text{ cannot be less than } X'.
 
 .. _folio-iii-0421:
 
@@ -91,18 +105,27 @@ $$O\text{ cannot be less than } X'.$$
 
 II. Suppose, if possible, that
 
-$$(\text{ratio triplicate of } d : d') = X : O,$$
+.. math::
 
-where $O$ is *greater* than $X'$; then
+   (\text{ratio triplicate of } d : d') = X : O,
 
-$$(\text{ratio triplicate of } d : d') = Z : X',$$
+where :math:`O` is *greater* than :math:`X'`; then
+
+.. math::
+
+   (\text{ratio triplicate of } d : d') = Z : X',
 
 or, inversely,
 
-$$(\text{ratio triplicate of } d' : d) = X' : Z,$$
+.. math::
 
-where $Z$ is *some solid less than* $X$.
+   (\text{ratio triplicate of } d' : d) = X' : Z,
 
-This is proved impossible by the exact method of Part I. Hence $O$ cannot be either greater or less than $X'$, and
+where :math:`Z` is *some solid less than* :math:`X`.
 
-$$X : X' = (\text{ratio triplicate of ratio } d : d').$$
+This is proved impossible by the exact method of Part I. Hence :math:`O` cannot be either greater or less than :math:`X'`, and
+
+.. math::
+
+   X : X' = (\text{ratio triplicate of ratio } d : d').
+

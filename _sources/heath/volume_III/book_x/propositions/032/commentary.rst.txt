@@ -19,66 +19,80 @@ Back to :ref:`Proposition X.32 <X.32>`.
 .. folio:: 0077
    :page: 73
 
-I. Euclid takes three straight lines of the form $\rho$, $\rho\sqrt{\lambda}$, $\rho\sqrt{1-k^2}$, takes the mean proportional $\rho\lambda^{\frac{1}{4}}$ between the first two ....................(1), and then finds $x$ such that
+I. Euclid takes three straight lines of the form :math:`\rho`, :math:`\rho\sqrt{\lambda}`, :math:`\rho\sqrt{1-k^2}`, takes the mean proportional :math:`\rho\lambda^{\frac{1}{4}}` between the first two ....................(1), and then finds :math:`x` such that
 
-$$\rho\lambda^{\frac{1}{4}} : \rho\sqrt{\lambda} = \rho\sqrt{1-k^2} : x \text{ .........................................(2),}$$
+.. math::
 
-whence $x = \rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}$, and the straight lines $\rho\lambda^{\frac{1}{4}}$, $\rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}$ satisfy the given conditions.
+   \rho\lambda^{\frac{1}{4}} : \rho\sqrt{\lambda} = \rho\sqrt{1-k^2} : x \text{ .........................................(2),}
 
-Now ($\alpha$) $\rho\lambda^{\frac{1}{4}}$ is medial.
+whence :math:`x = \rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}`, and the straight lines :math:`\rho\lambda^{\frac{1}{4}}`, :math:`\rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}` satisfy the given conditions.
 
-($\beta$) We have, from (1) and (2),
+Now (:math:`\alpha`) :math:`\rho\lambda^{\frac{1}{4}}` is medial.
 
-$$\rho : \rho\sqrt{1-k^2} = \rho\lambda^{\frac{1}{4}} : x \text{ .........................................(3),}$$
+(:math:`\beta`) We have, from (1) and (2),
 
-whence $x \mathbin{\sim} \rho\lambda^{\frac{1}{4}}$ ; and $x$ is therefore medial and $\mathbin{\sim} \rho\lambda^{\frac{1}{4}}$.
+.. math::
 
-($\gamma$) $x\ .\ \rho\lambda^{\frac{1}{4}} = \rho\sqrt{\lambda}\ .\ \rho\sqrt{1-k^2}$. But the latter is medial ; [x. 21] therefore $x\ .\ \rho\lambda^{\frac{1}{4}}$, or $\rho\lambda^{\frac{1}{4}}\ .\ \rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}$, is medial.
+   \rho : \rho\sqrt{1-k^2} = \rho\lambda^{\frac{1}{4}} : x \text{ .........................................(3),}
 
-Lastly ($\delta$) $\rho$, $\rho\sqrt{1-k^2}$ have the remaining property in the enunciation ; therefore $\rho\lambda^{\frac{1}{4}}$, $\rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}$ have it also. [x. 14]
+whence :math:`x \mathbin{\sim} \rho\lambda^{\frac{1}{4}}` ; and :math:`x` is therefore medial and :math:`\mathbin{\sim} \rho\lambda^{\frac{1}{4}}`.
 
-(Euclid has not the assistance of symbols to prove the proportion (3) above. He therefore uses the lemmas $ab : bc = a : c$ and $d^2 : de = d : e$ to deduce from the relations
+(:math:`\gamma`) :math:`x\ .\ \rho\lambda^{\frac{1}{4}} = \rho\sqrt{\lambda}\ .\ \rho\sqrt{1-k^2}`. But the latter is medial ; [x. 21] therefore :math:`x\ .\ \rho\lambda^{\frac{1}{4}}`, or :math:`\rho\lambda^{\frac{1}{4}}\ .\ \rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}`, is medial.
 
-$$\left.\begin{array}{r} ab = d^2 \\ d : b = c : e \end{array}\right\}$$
+Lastly (:math:`\delta`) :math:`\rho`, :math:`\rho\sqrt{1-k^2}` have the remaining property in the enunciation ; therefore :math:`\rho\lambda^{\frac{1}{4}}`, :math:`\rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}` have it also. [x. 14]
 
-and that $a : c = d : e$.)
+(Euclid has not the assistance of symbols to prove the proportion (3) above. He therefore uses the lemmas :math:`ab : bc = a : c` and :math:`d^2 : de = d : e` to deduce from the relations
 
-The straight lines $\rho\lambda^{\frac{1}{4}}$, $\rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}$ may take any of the following forms according as the straight lines first taken are (1) $a$, $\sqrt{B}$, $\sqrt{a^2-c^2}$, (2) $\sqrt{A}$, $\sqrt{B}$, $\sqrt{A-k^2A}$, (3) $\sqrt{A}$, $b$, $\sqrt{A-k^2A}$.
+.. math::
 
-$$\begin{array}{lcc}
-(1) & \sqrt{a\sqrt{B}}, & \dfrac{\sqrt{B(a^2-c^2)}}{\sqrt{a\sqrt{B}}} ; \\
-(2) & \sqrt[4]{AB}, & \dfrac{\sqrt{B(A-k^2A)}}{\sqrt[4]{AB}} ; \\
-(3) & \sqrt{b\sqrt{A}}, & \dfrac{b\sqrt{A-k^2A}}{\sqrt{b\sqrt{A}}}.
-\end{array}$$
+   \left.\begin{array}{r} ab = d^2 \\ d : b = c : e \end{array}\right\}
+
+and that :math:`a : c = d : e`.)
+
+The straight lines :math:`\rho\lambda^{\frac{1}{4}}`, :math:`\rho\lambda^{\frac{1}{4}}\sqrt{1-k^2}` may take any of the following forms according as the straight lines first taken are (1) :math:`a`, :math:`\sqrt{B}`, :math:`\sqrt{a^2-c^2}`, (2) :math:`\sqrt{A}`, :math:`\sqrt{B}`, :math:`\sqrt{A-k^2A}`, (3) :math:`\sqrt{A}`, :math:`b`, :math:`\sqrt{A-k^2A}`.
+
+.. math::
+
+   \begin{array}{lcc}
+   (1) & \sqrt{a\sqrt{B}}, & \dfrac{\sqrt{B(a^2-c^2)}}{\sqrt{a\sqrt{B}}} ; \\
+   (2) & \sqrt[4]{AB}, & \dfrac{\sqrt{B(A-k^2A)}}{\sqrt[4]{AB}} ; \\
+   (3) & \sqrt{b\sqrt{A}}, & \dfrac{b\sqrt{A-k^2A}}{\sqrt{b\sqrt{A}}}.
+   \end{array}
 
 .. _folio-iii-0078:
 
 .. folio:: 0078
    :page: 74
 
-II. If the other conditions are the same, but the square on the first medial straight line is to exceed the square on the second by the square on a straight line *incommensurable* with the first, we begin with the three straight lines $\rho$, $\rho\sqrt{\lambda}$, $\dfrac{\rho}{\sqrt{1+k^2}}$, and the medial straight lines are
+II. If the other conditions are the same, but the square on the first medial straight line is to exceed the square on the second by the square on a straight line *incommensurable* with the first, we begin with the three straight lines :math:`\rho`, :math:`\rho\sqrt{\lambda}`, :math:`\dfrac{\rho}{\sqrt{1+k^2}}`, and the medial straight lines are
 
-$$\rho\lambda^{\frac{1}{4}},\quad \dfrac{\rho\lambda^{\frac{1}{4}}}{\sqrt{1+k^2}}.$$
+.. math::
+
+   \rho\lambda^{\frac{1}{4}},\quad \dfrac{\rho\lambda^{\frac{1}{4}}}{\sqrt{1+k^2}}.
 
 The possible forms are even more various in this case owing to the more various forms that the original lines may take, e.g.
 
-$$\begin{array}{llll}
-(1) & a, & \sqrt{B}, & \sqrt{a^2-C} ; \\
-(2) & \sqrt{A}, & b, & \sqrt{A-c^2} ; \\
-(3) & \sqrt{A}, & b, & \sqrt{A-C} ; \\
-(4) & \sqrt{A}, & \sqrt{B}, & \sqrt{A-c^2} ; \\
-(5) & \sqrt{A}, & \sqrt{B}, & \sqrt{A-C} ;
-\end{array}$$
+.. math::
+
+   \begin{array}{llll}
+   (1) & a, & \sqrt{B}, & \sqrt{a^2-C} ; \\
+   (2) & \sqrt{A}, & b, & \sqrt{A-c^2} ; \\
+   (3) & \sqrt{A}, & b, & \sqrt{A-C} ; \\
+   (4) & \sqrt{A}, & \sqrt{B}, & \sqrt{A-c^2} ; \\
+   (5) & \sqrt{A}, & \sqrt{B}, & \sqrt{A-C} ;
+   \end{array}
 
 the medial straight lines corresponding to these being
 
-$$\begin{array}{lcc}
-(1) & \sqrt{a\sqrt{B}}, & \dfrac{\sqrt{B(a^2-C)}}{\sqrt{a\sqrt{B}}} ; \\
-(2) & \sqrt{b\sqrt{A}}, & \dfrac{b\sqrt{A-c^2}}{\sqrt{b\sqrt{A}}} ; \\
-(3) & \sqrt{b\sqrt{A}}, & \dfrac{b\sqrt{A-C}}{\sqrt{b\sqrt{A}}} ; \\
-(4) & \sqrt[4]{AB}, & \dfrac{\sqrt{B(A-c^2)}}{\sqrt[4]{AB}} ; \\
-(5) & \sqrt[4]{AB}, & \dfrac{\sqrt{B(A-C)}}{\sqrt[4]{AB}}.
-\end{array}$$
+.. math::
+
+   \begin{array}{lcc}
+   (1) & \sqrt{a\sqrt{B}}, & \dfrac{\sqrt{B(a^2-C)}}{\sqrt{a\sqrt{B}}} ; \\
+   (2) & \sqrt{b\sqrt{A}}, & \dfrac{b\sqrt{A-c^2}}{\sqrt{b\sqrt{A}}} ; \\
+   (3) & \sqrt{b\sqrt{A}}, & \dfrac{b\sqrt{A-C}}{\sqrt{b\sqrt{A}}} ; \\
+   (4) & \sqrt[4]{AB}, & \dfrac{\sqrt{B(A-c^2)}}{\sqrt[4]{AB}} ; \\
+   (5) & \sqrt[4]{AB}, & \dfrac{\sqrt{B(A-C)}}{\sqrt[4]{AB}}.
+   \end{array}
 
 ----
 

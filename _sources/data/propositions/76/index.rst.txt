@@ -21,6 +21,6 @@ Proposition 76 [οϚ΄ · Prop. L]
 
 *Functional Signature*: ``Given(Species(△ABC), AD perp BC) -> Determined(Ratio(AD : BC))`` · *Dependencies*: :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 8] <D.8>`, :just:`[Data 40] <D.40>`, :just:`[I.12] <I.12>`, :just:`[I.32] <I.32>`
 
-In a triangle $\\triangle ABC$ given in species, let the perpendicular $AD$ be drawn from the vertex $A$ to the base $BC$ (:just:`[I.12] <I.12>`). I say that the perpendicular $AD$ has a given ratio to the base $BC$.
+In a triangle :math:`\\triangle ABC` given in species, let the perpendicular :math:`AD` be drawn from the vertex :math:`A` to the base :math:`BC` (:just:`[I.12] <I.12>`). I say that the perpendicular :math:`AD` has a given ratio to the base :math:`BC`.
 
-Since $\\triangle ABC$ is given in species, the angle $\angle ABD$ (or its supplement if $\angle ABC$ is obtuse) is given (:just:`[Data Def. 3] <D.def.3>`), and the side ratio $AB : BC$ is also given. In right-angled $\\triangle ABD$, $\angle ADB = 1\\text{ rt.}$ and $\angle ABD$ is given, so $\\triangle ABD$ is given in species (:just:`[Data 40] <D.40>`), whence the ratio $AD : AB$ is given. Combining $AD : AB$ with $AB : BC$ yields $AD : BC$ given (:just:`[Data 8] <D.8>`).
+Since :math:`\\triangle ABC` is given in species, the angle :math:`\angle ABD` (or its supplement if :math:`\angle ABC` is obtuse) is given (:just:`[Data Def. 3] <D.def.3>`), and the side ratio :math:`AB : BC` is also given. In right-angled :math:`\\triangle ABD`, :math:`\angle ADB = 1\\text{ rt.}` and :math:`\angle ABD` is given, so :math:`\\triangle ABD` is given in species (:just:`[Data 40] <D.40>`), whence the ratio :math:`AD : AB` is given. Combining :math:`AD : AB` with :math:`AB : BC` yields :math:`AD : BC` given (:just:`[Data 8] <D.8>`).

@@ -21,7 +21,6 @@ Back to :ref:`Book I Postulates <I.post>`.
 .. folio:: 0216
    :page: 202
 
-
 **Καὶ ἐὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας δύο ὀρθῶν ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ' ἄπειρον συμπίπτειν, ἐφ' ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες.**
 
 *That, if a straight line falling on two straight lines make the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles.*
@@ -112,7 +111,7 @@ Then, *a fortiori*, they will not meet on the other side on which are the angles
 
 Hence the straight lines will not meet in either direction; they are therefore *parallel*.
 
-But, if so, the angles made by them with the transversal are equal to two right angles, by the preceding proposition ($=$ I. 29).
+But, if so, the angles made by them with the transversal are equal to two right angles, by the preceding proposition (:math:`=` I. 29).
 
 Therefore the same angles will be both equal to and less than two right angles:
 
@@ -300,15 +299,15 @@ For take the first perpendicular, that from :g:`N <0223.g2:N>`, and call it :g:`
 
 Draw :g:`EQ <0223.g2:/ E Q />` at right angles to :g:`EH <0223.g2:/ E H />` and :eq:`equal <0223.g2:/ E Q / = 0223.g2:/ G H />` to :g:`GH <0223.g2:/ G H />`, and set off :g:`SR <0223.g2:/ S R />` along :g:`SN <0223.g2:/ N S />` also :eq:`equal <0223.g2:/ S R / = 0223.g2:/ G H />` to :g:`GH <0223.g2:/ G H />`. Join :g:`QG <0223.g2:/ Q G />`, :g:`GR <0223.g2:/ G R />`.
 
-Then (second lemma) the angles :g:`EQG <0223.g2:< E Q G )>`, :g:`QGH <0223.g2:< Q G H )>` are :eq:`right <0223.g2:< E Q G ) = 0223.g2:< Q G H )>`, and :g:`QG <0223.g2:/ Q G />` $=$ :g:`EH <0223.g2:/ E H />`.
+Then (second lemma) the angles :g:`EQG <0223.g2:< E Q G )>`, :g:`QGH <0223.g2:< Q G H )>` are :eq:`right <0223.g2:< E Q G ) = 0223.g2:< Q G H )>`, and :g:`QG <0223.g2:/ Q G />` :math:`=` :g:`EH <0223.g2:/ E H />`.
 
-Similarly the angles :g:`SRG <0223.g2:< S R G )>`, :g:`RGH <0223.g2:< R G H )>` are :eq:`right <0223.g2:< S R G ) = 0223.g2:< R G H )>`, and :g:`RG <0223.g2:/ G R />` $=$ :g:`SH <0223.g2:/ H K />`.
+Similarly the angles :g:`SRG <0223.g2:< S R G )>`, :g:`RGH <0223.g2:< R G H )>` are :eq:`right <0223.g2:< S R G ) = 0223.g2:< R G H )>`, and :g:`RG <0223.g2:/ G R />` :math:`=` :g:`SH <0223.g2:/ H K />`.
 
-Thus :g:`RGQ <0223.g2:/ R Q />` is one straight line, and the vertically opposite angles :g:`NGR <0223.g2:< N G R )>`, :g:`EGQ <0223.g2:< E G Q )>` are :eq:`equal <0223.g2:< N G R ) = 0223.g2:< E G Q )>`. The angles :g:`NRG <0223.g2:< N R G )>`, :g:`EQG <0223.g2:< E Q G )>` are both :eq:`right <0223.g2:< N R G ) = 0223.g2:< E Q G )>`, and :g:`NG <0223.g2:/ G N />` $=$ :g:`GE <0223.g2:/ E G />`, by construction.
+Thus :g:`RGQ <0223.g2:/ R Q />` is one straight line, and the vertically opposite angles :g:`NGR <0223.g2:< N G R )>`, :g:`EGQ <0223.g2:< E G Q )>` are :eq:`equal <0223.g2:< N G R ) = 0223.g2:< E G Q )>`. The angles :g:`NRG <0223.g2:< N R G )>`, :g:`EQG <0223.g2:< E Q G )>` are both :eq:`right <0223.g2:< N R G ) = 0223.g2:< E Q G )>`, and :g:`NG <0223.g2:/ G N />` :math:`=` :g:`GE <0223.g2:/ E G />`, by construction.
 
-Therefore (I. 26) :g:`RG <0223.g2:/ G R />` $=$ :g:`GQ <0223.g2:/ Q G />`;
+Therefore (I. 26) :g:`RG <0223.g2:/ G R />` :math:`=` :g:`GQ <0223.g2:/ Q G />`;
 
-whence :g:`SH <0223.g2:/ H K />` $=$ :g:`HE <0223.g2:/ E H />` $=$ :g:`KH <0223.g2:/ H K />`, and :g:`S <0223.g2:S>` coincides with :g:`K <0223.g2:K>`.
+whence :g:`SH <0223.g2:/ H K />` :math:`=` :g:`HE <0223.g2:/ E H />` :math:`=` :g:`KH <0223.g2:/ H K />`, and :g:`S <0223.g2:S>` coincides with :g:`K <0223.g2:K>`.
 
 We may proceed similarly with the other perpendiculars.
 
@@ -348,9 +347,9 @@ Let it be :g:`ACP <0224.g2:< A C P >>`.
 .. folio:: 0225
    :page: 211
 
-Thus $CP$ and $AP$ meet at $P$; and, as by the definition of similar figures the angles of the triangles $PCA$, $\pi C \alpha$ are respectively equal, the angle $PCA$ being equal to the angle $\pi C \alpha$ and the angle $PAC$ to the angle $\pi \alpha C$ or $BAC$, it follows that $CP$, $AP$ lie on $CD$, $AB$ produced respectively.
+Thus :math:`CP` and :math:`AP` meet at :math:`P`; and, as by the definition of similar figures the angles of the triangles :math:`PCA`, :math:`\pi C \alpha` are respectively equal, the angle :math:`PCA` being equal to the angle :math:`\pi C \alpha` and the angle :math:`PAC` to the angle :math:`\pi \alpha C` or :math:`BAC`, it follows that :math:`CP`, :math:`AP` lie on :math:`CD`, :math:`AB` produced respectively.
 
-Hence $AB$, $CD$ meet on the side on which are the angles less than two right angles.
+Hence :math:`AB`, :math:`CD` meet on the side on which are the angles less than two right angles.
 
 [The whole gist of this proof lies in the assumed postulate as to the existence of similar figures; and, as :person:`Saccheri <saccheri>` points out, this is equivalent to unconditionally assuming the "hypothesis of the right angle," and consequently Euclid's Postulate 5.]
 
@@ -404,13 +403,17 @@ Thus the numerical expression for the area of a triangle is, under the *third* h
 .. folio:: 0227
    :page: 213
 
-$$\Delta = k (\pi - A - B - C) \quad \text{...........................(1),}$$
+.. math::
+
+   \Delta = k (\pi - A - B - C) \quad \text{...........................(1),}
 
 and under the *second* hypothesis
 
-$$\Delta = k (A + B + C - \pi) \quad \text{...........................(2),}$$
+.. math::
 
-where $k$ is a positive constant.
+   \Delta = k (A + B + C - \pi) \quad \text{...........................(2),}
+
+where :math:`k` is a positive constant.
 
 A remarkable observation is appended (§ 82): "In connexion with this it seems to be remarkable that the *second* hypothesis holds if *spherical* instead of plane triangles are taken, because in the former also the sum of the angles is greater than two right angles, and the excess is proportional to the area of the triangle.
 
@@ -420,13 +423,13 @@ This discovery that the *second* hypothesis is realised on the surface of a sphe
 
 Still more remarkable is the following prophetic sentence: "*I am almost inclined to draw the conclusion that the third hypothesis arises with an imaginary spherical surface*" (cf. Lobachewsky's *Géométrie imaginaire*, 1837).
 
-No doubt :person:`Lambert <lambert>` was confirmed in this by the fact that, in the formula (2) above, which, for $k = r^2$, represents the area of a spherical triangle, if $r\sqrt{-1}$ is substituted for $r$, and $r^2 = k$, we obtain the formula (1).
+No doubt :person:`Lambert <lambert>` was confirmed in this by the fact that, in the formula (2) above, which, for :math:`k = r^2`, represents the area of a spherical triangle, if :math:`r\sqrt{-1}` is substituted for :math:`r`, and :math:`r^2 = k`, we obtain the formula (1).
 
 Legendre.
 ^^^^^^^^^
 
 No account of our present subject would be complete without a full reference to what is of permanent value in the investigations of Adrien Marie :person:`Legendre <legendre>` (1752—1833) relating to the theory of parallels, which extended over the space of a generation. His different attempts to prove the Euclidean hypothesis appeared in the successive editions of his :cite:`*Éléments de Géométrie* <legendre:elements-de-geometrie>` from the first (1794) to the twelfth (1823), which last may be said to contain his last word on the subject. Later, in 1833, he published, in the *Mémoires de l'Académie Royale des Sciences*, XII. p. 367 sqq., a collection of his different proofs under the title *Réflexions sur différentes manières de démontrer la théorie des parallèles*. His exposition brought out clearly, as :person:`Saccheri <saccheri>` had done, and kept steadily in view, the essential connexion between the theory of parallels and the sum of the angles of a triangle. In the first edition of the *Éléments* the proposition that *the sum of the angles of a triangle is equal to two right angles* was proved analytically on the basis of the assumption that the choice of a *unit of length* does not affect the correctness of the proposition to be proved, which is of course equivalent to Wallis' assumption of *the existence of similar figures*. A similar analytical proof is given in the notes to the twelfth edition. In his second edition :person:`Legendre <legendre>` proved Postulate 5 by means of the assumption that, *given three points not in a straight line, there exists a circle passing through all three*. In the third edition (1800) he gave the proposition that *the sum of the angles of a triangle is not greater than two right angles*; this proof, which was geometrical, was replaced later by another, the best known, depending on a construction like that of :person:`Euclid <euclid>` I. 16, the continued application of which enables any number of successive triangles to be evolved in which, while the sum of the angles in each remains always equal to the sum of the angles of the original triangle, one of the angles increases and the sum of the other two diminishes continually. But :person:`Legendre <legendre>` found the proof of the equally necessary proposition that the sum of the angles of a triangle is
-*not less* than two right angles to present great difficulties. He first observed that, as in the case of spherical triangles (in which the sum of the angles is greater than two right angles) the excess of the sum of the angles over two right angles is proportional to the area of the triangle, so in the case of rectilineal triangles, if the sum of the angles is less than two right angles by a certain *deficit*, the *deficit* will be proportional to the area of the triangle. Hence if, starting from a given triangle, we could construct another triangle in which the original triangle is contained at least $m$ times, the *deficit* of this new triangle will be equal to at least $m$ times that of the original triangle, so that the sum of the angles of the greater triangle will diminish progressively as $m$ increases, until it becomes zero or negative: which is absurd. The whole difficulty was thus reduced to that of the construction of a triangle containing the given triangle at least twice; but the solution of even this simple problem requires it to be assumed (or proved) that *through a given point within a given angle less than two-thirds of a right angle we can always draw a straight line which shall meet both sides of the angle*. This is however really equivalent to Euclid's Postulate. The proof in the course of which the necessity for the assumption appeared is as follows.
+*not less* than two right angles to present great difficulties. He first observed that, as in the case of spherical triangles (in which the sum of the angles is greater than two right angles) the excess of the sum of the angles over two right angles is proportional to the area of the triangle, so in the case of rectilineal triangles, if the sum of the angles is less than two right angles by a certain *deficit*, the *deficit* will be proportional to the area of the triangle. Hence if, starting from a given triangle, we could construct another triangle in which the original triangle is contained at least :math:`m` times, the *deficit* of this new triangle will be equal to at least :math:`m` times that of the original triangle, so that the sum of the angles of the greater triangle will diminish progressively as :math:`m` increases, until it becomes zero or negative: which is absurd. The whole difficulty was thus reduced to that of the construction of a triangle containing the given triangle at least twice; but the solution of even this simple problem requires it to be assumed (or proved) that *through a given point within a given angle less than two-thirds of a right angle we can always draw a straight line which shall meet both sides of the angle*. This is however really equivalent to Euclid's Postulate. The proof in the course of which the necessity for the assumption appeared is as follows.
 
 .. _folio-i-0228:
 
@@ -440,21 +443,23 @@ Suppose :g:`A <0228.g1:< C A B )>` is the least of the three angles of a triangl
 .. picture:: 0228.g1.svg
    :alt: Legendre's construction for doubling the angle deficit of a triangle
 
-If now the sum of the angles of the triangle :g:`ABC <0228.g1:< A B C >>` is less than two right angles, being equal to $2R - \delta$ say, the sum of the angles of the triangle :g:`DBC <0228.g1:< D B C >>`, :eq:`equal <0228.g1:< D B C > = 0228.g1:< A B C >>` to the triangle :g:`ABC <0228.g1:< A B C >>`, is also $2R - \delta$.
+If now the sum of the angles of the triangle :g:`ABC <0228.g1:< A B C >>` is less than two right angles, being equal to :math:`2R - \delta` say, the sum of the angles of the triangle :g:`DBC <0228.g1:< D B C >>`, :eq:`equal <0228.g1:< D B C > = 0228.g1:< A B C >>` to the triangle :g:`ABC <0228.g1:< A B C >>`, is also :math:`2R - \delta`.
 
 Since the sum of the three angles of the remaining triangles :g:`DEB <0228.g1:< D E B >>`, :g:`FDC <0228.g1:< F D C >>` respectively cannot at all events be *greater* than two right angles [for Legendre's proofs of this see below], the sum of the twelve angles of the four triangles in the figure *cannot be greater* than
 
-$$4R + (2R - \delta) + (2R - \delta), \text{ i.e. } 8R - 2\delta.$$
+.. math::
 
-Now the sum of the three angles at each of the points :g:`B <0228.g1:B>`, :g:`C <0228.g1:C>`, :g:`D <0228.g1:D>` is $2R$.
+   4R + (2R - \delta) + (2R - \delta), \text{ i.e. } 8R - 2\delta.
 
-Subtracting these nine angles, we have the result that the three angles of the triangle :g:`AEF <0228.g1:< A E F >>` *cannot be greater* than $2R - 2\delta$.
+Now the sum of the three angles at each of the points :g:`B <0228.g1:B>`, :g:`C <0228.g1:C>`, :g:`D <0228.g1:D>` is :math:`2R`.
 
-Hence, if the sum of the angles of the triangle :g:`ABC <0228.g1:< A B C >>` is less than two right angles by $\delta$, the sum of the angles of the larger triangle :g:`AEF <0228.g1:< A E F >>` is less than two right angles by *at least* $2\delta$.
+Subtracting these nine angles, we have the result that the three angles of the triangle :g:`AEF <0228.g1:< A E F >>` *cannot be greater* than :math:`2R - 2\delta`.
+
+Hence, if the sum of the angles of the triangle :g:`ABC <0228.g1:< A B C >>` is less than two right angles by :math:`\delta`, the sum of the angles of the larger triangle :g:`AEF <0228.g1:< A E F >>` is less than two right angles by *at least* :math:`2\delta`.
 
 We can continue the construction, making a still larger triangle from :g:`AEF <0228.g1:< A E F >>`, and so on.
 
-But, however small $\delta$ is, we can arrive at a multiple $2^n \delta$ which shall exceed any given angle and therefore $2R$ itself; so that the sum of the three angles of a triangle sufficiently large would be zero or even less than zero: which is absurd.
+But, however small :math:`\delta` is, we can arrive at a multiple :math:`2^n \delta` which shall exceed any given angle and therefore :math:`2R` itself; so that the sum of the three angles of a triangle sufficiently large would be zero or even less than zero: which is absurd.
 
 Therefore etc.
 
@@ -493,21 +498,21 @@ It follows that the sum of the three angles of the new triangle :g:`AB'C' <0229.
 
 Moreover, the side :g:`AC' <0229.g1:/ A C' />`, being :eq:`equal <0229.g1:/ A C' / = 0229.g1:/ A B />` to :g:`AB <0229.g1:/ A B />`, and therefore greater than :g:`AC <0229.g1:/ A C />`, is greater than :g:`B'C' <0229.g1:/ B' C' />` which is :eq:`equal <0229.g1:/ B' C' / = 0229.g1:/ A C />` to :g:`AC <0229.g1:/ A C />`.
 
-Hence the angle :g:`C'AB' <0229.g1:< C' A B' )>` is less than the angle :g:`AB'C' <0229.g1:< A B' C' )>`; so that the angle :g:`C'AB' <0229.g1:< C' A B' )>` is less than $\frac{1}{2}A$, where :g:`A <0229.g1:< C A B )>` denotes the angle :g:`CAB <0229.g1:< C A B )>` of the original triangle.
+Hence the angle :g:`C'AB' <0229.g1:< C' A B' )>` is less than the angle :g:`AB'C' <0229.g1:< A B' C' )>`; so that the angle :g:`C'AB' <0229.g1:< C' A B' )>` is less than :math:`\frac{1}{2}A`, where :g:`A <0229.g1:< C A B )>` denotes the angle :g:`CAB <0229.g1:< C A B )>` of the original triangle.
 
 [It will be observed that the triangle :g:`AB'C' <0229.g1:< A B' C' >>` is really the same triangle as the triangle :g:`AEB <0229.g1:< A E B >>` obtained by the construction of Eucl. I. 16, but differently placed so that the longest side lies along :g:`AB <0229.g1:/ A B />`.]
 
 By taking the middle point :g:`D' <0229.g1:D'>` of the side :g:`B'C' <0229.g1:/ B' C' />` and repeating the same construction, we obtain a triangle :g:`AB''C'' <0229.g1:< A B'' C'' >>` such that (1) the sum of its three angles is equal to the sum of the three angles of :g:`ABC <0229.g1:< A B C >>`, (2) the sum of the
-two angles :g:`C''AB'' <0229.g1:< C'' A B'' )>`, :g:`AB''C'' <0229.g1:< A B'' C'' )>` is equal to the angle :g:`C'AB' <0229.g1:< C' A B' )>` in the preceding triangle, and is therefore less than $\frac{1}{2}A$, and (3) the angle :g:`C''AB' <0229.g1:< C'' A B'' )>` is less than half the angle :g:`C'AB' <0229.g1:< C' A B' )>`, and therefore less than $\frac{1}{4}A$.
+two angles :g:`C''AB'' <0229.g1:< C'' A B'' )>`, :g:`AB''C'' <0229.g1:< A B'' C'' )>` is equal to the angle :g:`C'AB' <0229.g1:< C' A B' )>` in the preceding triangle, and is therefore less than :math:`\frac{1}{2}A`, and (3) the angle :g:`C''AB' <0229.g1:< C'' A B'' )>` is less than half the angle :g:`C'AB' <0229.g1:< C' A B' )>`, and therefore less than :math:`\frac{1}{4}A`.
 
 .. _folio-i-0230:
 
 .. folio:: 0230
    :page: 216
 
-Continuing in this way, we shall obtain a triangle $Abc$ such that the sum of two angles, those at :g:`A <0229.g1:A>` and $b$, is less than $\frac{1}{2^n} A$, and the angle at $c$ is greater than the corresponding angle in the preceding triangle.
+Continuing in this way, we shall obtain a triangle :math:`Abc` such that the sum of two angles, those at :g:`A <0229.g1:A>` and :math:`b`, is less than :math:`\frac{1}{2^n} A`, and the angle at :math:`c` is greater than the corresponding angle in the preceding triangle.
 
-If, :person:`Legendre <legendre>` argues, the construction be continued indefinitely so that $\frac{1}{2^n} A$ becomes smaller than any assigned angle, the point $c$ ultimately lies on $Ab$, and the sum of the three angles of the triangle (which is equal to the sum of the three angles of the original triangle) becomes identical with the angle at $c$, which is then a *flat* angle, and therefore equal to two right angles.
+If, :person:`Legendre <legendre>` argues, the construction be continued indefinitely so that :math:`\frac{1}{2^n} A` becomes smaller than any assigned angle, the point :math:`c` ultimately lies on :math:`Ab`, and the sum of the three angles of the triangle (which is equal to the sum of the three angles of the original triangle) becomes identical with the angle at :math:`c`, which is then a *flat* angle, and therefore equal to two right angles.
 
 This proof was however shown to be unsound (in respect of the final inference) by J. P. W. Stein in Gergonne's *Annales de Mathématiques* XV., 1824, pp. 77—79.
 
@@ -530,7 +535,7 @@ If then the sum of the three angles of the triangle :g:`ABC <0230.g1:< A B C >>`
 .. picture:: 0230.g1.svg
    :alt: Legendre's first proof that the sum of the angles of a triangle cannot be greater than two right angles
 
-$2R$, the said sum must be greater than the sum of the angles :g:`BCA <0230.g1:< B C A )>`, :g:`BCD <0230.g1:< B C D )>`, :g:`DCE <0230.g1:< D C E )>`, which sum is *equal* to $2R$.
+:math:`2R`, the said sum must be greater than the sum of the angles :g:`BCA <0230.g1:< B C A )>`, :g:`BCD <0230.g1:< B C D )>`, :g:`DCE <0230.g1:< D C E )>`, which sum is *equal* to :math:`2R`.
 
 Subtracting the equal angles on both sides, we have the result that
 
@@ -554,13 +559,13 @@ of this difference, represented in the figure by (say) the difference between th
 .. folio:: 0231
    :page: 217
 
-Hence, on the assumption that the sum of the angles of the triangle :g:`ABC <0230.g1:< A B C >>` is greater than $2R$, the broken line :g:`ABDFHKJ <0230.g1:/ A B D F H K J />` may be less than the straight line :g:`AJ <0230.g1:/ A J />`: which is impossible.
+Hence, on the assumption that the sum of the angles of the triangle :g:`ABC <0230.g1:< A B C >>` is greater than :math:`2R`, the broken line :g:`ABDFHKJ <0230.g1:/ A B D F H K J />` may be less than the straight line :g:`AJ <0230.g1:/ A J />`: which is impossible.
 
 Therefore etc.
 
 (2) *Proof substituted later.*
 
-If possible, let $2R + \alpha$ be the sum of the three angles of the triangle :g:`ABC <0231.g1:< A B C >>`, of which :g:`A <0231.g1:< C A B )>` is not greater than either of the others.
+If possible, let :math:`2R + \alpha` be the sum of the three angles of the triangle :g:`ABC <0231.g1:< A B C >>`, of which :g:`A <0231.g1:< C A B )>` is not greater than either of the others.
 
 :eq:`Bisect <0231.g1:/ B H / = 0231.g1:/ H C />` :g:`BC <0231.g1:/ B C />` at :g:`H <0231.g1:H>`, and produce :g:`AH <0231.g1:/ A H />` to :g:`D <0231.g1:D>`, making :g:`HD <0231.g1:/ H D />` :eq:`equal <0231.g1:/ H D / = 0231.g1:/ A H />` to :g:`AH <0231.g1:/ A H />`; join :g:`BD <0231.g1:/ B D />`.
 
@@ -569,29 +574,31 @@ If possible, let $2R + \alpha$ be the sum of the three angles of the triangle :g
 
 Then the triangles :g:`AHC <0231.g1:< A H C >>`, :g:`DHB <0231.g1:< D H B >>` are :eq:`equal <0231.g1:< A H C > = 0231.g1:< D H B >>` in all respects (I. 4); and the angles :g:`CAH <0231.g1:< C A H )>`, :g:`ACH <0231.g1:< A C H )>` are respectively :eq:`equal <0231.g1:< C A H ) = 0231.g1:< B D H ); 0231.g1:< A C H ) = 0231.g1:< D B H )>` to the angles :g:`BDH <0231.g1:< B D H )>`, :g:`DBH <0231.g1:< D B H )>`.
 
-It follows that the sum of the angles of the triangle :g:`ABD <0231.g1:< A B D >>` is equal to the sum of the angles of the original triangle, i.e. to $2R + \alpha$.
+It follows that the sum of the angles of the triangle :g:`ABD <0231.g1:< A B D >>` is equal to the sum of the angles of the original triangle, i.e. to :math:`2R + \alpha`.
 
 And one of the angles :g:`DAB <0231.g1:< D A B )>`, :g:`ADB <0231.g1:< B D H )>` is either equal to or less than half the angle :g:`CAB <0231.g1:< C A B )>`.
 
-Continuing the same construction with the triangle :g:`ADB <0231.g1:< A B D >>`, we find a third triangle in which the sum of the angles is still $2R + \alpha$, while one of them is equal to or less than :g:`(∠CAB)/4 <0231.g1:< C A B )>`.
+Continuing the same construction with the triangle :g:`ADB <0231.g1:< A B D >>`, we find a third triangle in which the sum of the angles is still :math:`2R + \alpha`, while one of them is equal to or less than :g:`(∠CAB)/4 <0231.g1:< C A B )>`.
 
-Proceeding in this way, we arrive at a triangle in which the sum of the angles is $2R + \alpha$, and one of them is not greater than :g:`(∠CAB)/2^n <0231.g1:< C A B )>`.
+Proceeding in this way, we arrive at a triangle in which the sum of the angles is :math:`2R + \alpha`, and one of them is not greater than :g:`(∠CAB)/2^n <0231.g1:< C A B )>`.
 
-And, if $n$ is sufficiently large, this will be less than $\alpha$; in which case we should have a triangle in which two angles are together greater than two right angles: which is absurd.
+And, if :math:`n` is sufficiently large, this will be less than :math:`\alpha`; in which case we should have a triangle in which two angles are together greater than two right angles: which is absurd.
 
-Therefore $\alpha$ is equal to or less than zero.
+Therefore :math:`\alpha` is equal to or less than zero.
 
 (It will be noted that in both these proofs, as in Eucl. I. 16, it is taken for granted that *a straight line is infinite in length* and does not return into itself, which is not true under the :person:`Riemann <riemann>` hypothesis.)
 
 II. On the assumption that the sum of the angles of a triangle is *less* than two right angles, *if a triangle is made up of two others, the "deficit" of the former is equal to the sum of the "deficits" of the others*.
 
-In fact, if the sums of the angles of the component triangles are $2R - \alpha$, $2R - \beta$ respectively, the sum of the angles of the whole triangle is
+In fact, if the sums of the angles of the component triangles are :math:`2R - \alpha`, :math:`2R - \beta` respectively, the sum of the angles of the whole triangle is
 
-$$(2R - \alpha) + (2R - \beta) - 2R = 2R - (\alpha + \beta).$$
+.. math::
+
+   (2R - \alpha) + (2R - \beta) - 2R = 2R - (\alpha + \beta).
 
 III. *If the sum of the three angles of a triangle is equal to two right angles, the same is true of all triangles obtained by subdividing it by straight lines drawn from a vertex to meet the opposite side.*
 
-Since the sum of the angles of the triangle :g:`ABC <0231.g2:< A B C >>` is equal to $2R$, if the sum of the angles of the triangle :g:`ABD <0231.g2:< A B D >>` were $2R - \alpha$, it would follow that the sum of the angles of the triangle :g:`ADC <0231.g2:< A D C >>` must be $2R + \alpha$, which is absurd (by I. above).
+Since the sum of the angles of the triangle :g:`ABC <0231.g2:< A B C >>` is equal to :math:`2R`, if the sum of the angles of the triangle :g:`ABD <0231.g2:< A B D >>` were :math:`2R - \alpha`, it would follow that the sum of the angles of the triangle :g:`ADC <0231.g2:< A D C >>` must be :math:`2R + \alpha`, which is absurd (by I. above).
 
 .. picture:: 0231.g2.svg
    :alt: Diagram for Proposition III of Legendre's theorems
@@ -610,7 +617,7 @@ Taking two equal triangles of this kind and placing their hypotenuses together, 
 
 Putting four of these quadrilaterals together, we obtain a new quadrilateral of the same kind but with its sides double of those of the first quadrilateral.
 
-After $n$ such operations we have a quadrilateral with four right angles and four equal sides, each being equal to $2^n$ times the side :g:`AB <0232.g1:/ A B />`.
+After :math:`n` such operations we have a quadrilateral with four right angles and four equal sides, each being equal to :math:`2^n` times the side :g:`AB <0232.g1:/ A B />`.
 
 The diagonal of this quadrilateral divides it into two equal isosceles right-angled triangles in each of which the sum of the angles is equal to two right angles.
 
@@ -661,9 +668,9 @@ Join :g:`PR <0233.g1:/ P R />`, and mark off the segment :g:`RR' <0233.g1:/ R R'
 
 If :g:`ω <0233.g1:< Q P R )>` represents the angle :g:`QPR <0233.g1:< Q P R )>` or the angle :g:`QRP <0233.g1:< Q R P )>`, each of the :eq:`equal <0233.g1:< R P R' ) = 0233.g1:< R R' P )>` angles :g:`RPR' <0233.g1:< R P R' )>`, :g:`RR'P <0233.g1:< R R' P )>` is not greater than :g:`ω/2 <0233.g1:< R P R' )>`.
 
-Continuing the construction, we obtain, after the requisite number of operations, a triangle $PR_{n-1}R_n$ in which each of the equal angles is equal to or less than $\omega/2^n$.
+Continuing the construction, we obtain, after the requisite number of operations, a triangle :math:`PR_{n-1}R_n` in which each of the equal angles is equal to or less than :math:`\omega/2^n`.
 
-Hence we shall arrive at a straight line $PR_n$ which, starting from :g:`P <0233.g1:P>` and meeting :g:`r <0233.g1:[ Q R' ]>`, makes with :g:`r <0233.g1:[ Q R' ]>` an angle as small as we please.
+Hence we shall arrive at a straight line :math:`PR_n` which, starting from :g:`P <0233.g1:P>` and meeting :g:`r <0233.g1:[ Q R' ]>`, makes with :g:`r <0233.g1:[ Q R' ]>` an angle as small as we please.
 
 To return now to the Proposition. Draw from :g:`P <0233.g1:P>` the straight line :g:`s <0233.g1:[ P S ]>` perpendicular to :g:`PQ <0233.g1:/ P Q />`.
 

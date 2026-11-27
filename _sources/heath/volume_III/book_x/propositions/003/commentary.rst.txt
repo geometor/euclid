@@ -21,19 +21,19 @@ Back to :ref:`Proposition X.3 <X.3>`.
 
 This proposition for two commensurable magnitudes is, *mutatis mutandis*, exactly the same as VII. 2 for numbers. We have the process
 
-$$
-\begin{array}{l}
-b )\, a \,( p \\
-\underline{\phantom{b )\,} pb\phantom{ )\,}} \\
-\phantom{b )\,} c )\, b \,( q \\
-\phantom{b )\,} \underline{\phantom{c )\,} qc\phantom{ )\,}} \\
-\phantom{b )\, \phantom{c )\,}} d )\, c \,( r \\
-\phantom{b )\, \phantom{c )\,}} \underline{\phantom{d )\,} rd\phantom{ )\,}}
-\end{array}
-$$
+.. math::
 
-where $c$ is equal to $rd$ and therefore there is no remainder,
-It is then proved that $d$ is a common measure of $a$, $b$ ; and next, by a :term:`*reductio ad absurdum* <reductio-ad-absurdum>`, that it is the *greatest* common measure, since any common measure must measure $d$, and no magnitude greater than $d$ can measure $d$. The :term:`*reductio ad absurdum* <reductio-ad-absurdum>` is of course one of form only.
+   \begin{array}{l}
+   b )\, a \,( p \\
+   \underline{\phantom{b )\,} pb\phantom{ )\,}} \\
+   \phantom{b )\,} c )\, b \,( q \\
+   \phantom{b )\,} \underline{\phantom{c )\,} qc\phantom{ )\,}} \\
+   \phantom{b )\, \phantom{c )\,}} d )\, c \,( r \\
+   \phantom{b )\, \phantom{c )\,}} \underline{\phantom{d )\,} rd\phantom{ )\,}}
+   \end{array}
+
+where :math:`c` is equal to :math:`rd` and therefore there is no remainder,
+It is then proved that :math:`d` is a common measure of :math:`a`, :math:`b` ; and next, by a :term:`*reductio ad absurdum* <reductio-ad-absurdum>`, that it is the *greatest* common measure, since any common measure must measure :math:`d`, and no magnitude greater than :math:`d` can measure :math:`d`. The :term:`*reductio ad absurdum* <reductio-ad-absurdum>` is of course one of form only.
 
 .. _folio-iii-0026:
 

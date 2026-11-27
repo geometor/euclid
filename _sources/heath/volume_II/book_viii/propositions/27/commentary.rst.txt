@@ -33,13 +33,15 @@ The propositions are of course the converses of VIII. 26, 27 respectively. They 
 
 (1) If
 
-$$a : b = c^2 : d^2,$$
+.. math::
 
-then, since there is one mean proportional ($cd$) between $c^2, d^2$, :just:`[VIII. 11 or 18]`
+   a : b = c^2 : d^2,
 
-there is also one mean proportional between $a, b$. :just:`[VIII. 8] <VIII.8>`
+then, since there is one mean proportional (:math:`cd`) between :math:`c^2, d^2`, :just:`[VIII. 11 or 18]`
 
-Therefore $a, b$ are similar plane numbers. :just:`[VIII. 20] <VIII.20>`
+there is also one mean proportional between :math:`a, b`. :just:`[VIII. 8] <VIII.8>`
+
+Therefore :math:`a, b` are similar plane numbers. :just:`[VIII. 20] <VIII.20>`
 
 (2) is similarly proved by the use of VIII. 12 or 19, VIII. 8, VIII. 21.
 

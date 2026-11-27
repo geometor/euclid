@@ -25,95 +25,129 @@ The first essential in this proposition is to prove that we can *exhaust* a circ
 
 Euclid proves that the inscribed square is greater than half the circle and that the regular octagon when subtracted takes away more than half of what was left by the square. He then infers that the same thing will happen whenever the number of sides is doubled.
 
-This can be seen generally by taking *any* arc of a circle cut off by a chord :g:`AB <0378.g1:/ A B />`. :eq:`Bisect <0378.g1:/ A C / = 0378.g1:/ C B />` the arc in :g:`C <0378.g1:C>`. Draw a tangent to the circle at :g:`C <0378.g1:C>`, and let :g:`AD <0378.g1:/ A D />`, :g:`BE <0378.g1:/ B E />` be drawn perpendicular to the tangent. Join :g:`AC <0378.g1:/ A C />`, :g:`CB <0378.g1:/ C B />`. Then :g:`DE <0378.g1:/ D E />` is parallel to :g:`AB <0378.g1:/ A B />`, since $\angle$ :g:`ECB <0378.g1:< E C B )>` $= \angle$ :g:`CAB <0378.g1:< C A B )>`, in alternate segment, :just:`[III. 32] <III.32>` $= \angle$ :g:`CBA <0378.g1:< C B A )>`. :just:`[III. 29, I. 5] <III.29, I.5>` Thus :g:`ABED <0378.g1:< A B E D >>` is a $\square$; and it is greater than the segment :g:`ACB <0378.g1:( A C B )>`. Therefore its half, the $\triangle$ :g:`ACB <0378.g1:< A C B >>`, is greater than half the segment.
+This can be seen generally by taking *any* arc of a circle cut off by a chord :g:`AB <0378.g1:/ A B />`. :eq:`Bisect <0378.g1:/ A C / = 0378.g1:/ C B />` the arc in :g:`C <0378.g1:C>`. Draw a tangent to the circle at :g:`C <0378.g1:C>`, and let :g:`AD <0378.g1:/ A D />`, :g:`BE <0378.g1:/ B E />` be drawn perpendicular to the tangent. Join :g:`AC <0378.g1:/ A C />`, :g:`CB <0378.g1:/ C B />`. Then :g:`DE <0378.g1:/ D E />` is parallel to :g:`AB <0378.g1:/ A B />`, since :math:`\angle` :g:`ECB <0378.g1:< E C B )>` :math:`= \angle` :g:`CAB <0378.g1:< C A B )>`, in alternate segment, :just:`[III. 32] <III.32>` :math:`= \angle` :g:`CBA <0378.g1:< C B A )>`. :just:`[III. 29, I. 5] <III.29, I.5>` Thus :g:`ABED <0378.g1:< A B E D >>` is a :math:`\square`; and it is greater than the segment :g:`ACB <0378.g1:( A C B )>`. Therefore its half, the :math:`\triangle` :g:`ACB <0378.g1:< A C B >>`, is greater than half the segment.
 
 .. picture:: 0378.g1.svg
    :alt: Exhaustion of circular segment
 
 Thus, by X. 1, Euclid's construction of successive regular polygons in a circle, if continued far enough, will at length leave segments which are together less than any given area.
 
-Now let $X$, $X'$ be the areas of the circles, $d$, $d'$ their diameters, respectively. Then, if
+Now let :math:`X`, :math:`X'` be the areas of the circles, :math:`d`, :math:`d'` their diameters, respectively. Then, if
 
-$$X : X' \ne d^2 : {d'}^2,$$
+.. math::
 
-$$d^2 : {d'}^2 = X : S,$$
+   X : X' \ne d^2 : {d'}^2,
 
-where $S$ is some area either greater or less than $X'$.
+.. math::
 
-**I.** Suppose $S < X'$. Continue the construction of polygons in $X'$ until we arrive at one which
-leaves over segments together less than the excess of $X'$ over $S$, i.e. a polygon such that
+   d^2 : {d'}^2 = X : S,
+
+where :math:`S` is some area either greater or less than :math:`X'`.
+
+**I.** Suppose :math:`S < X'`. Continue the construction of polygons in :math:`X'` until we arrive at one which
+leaves over segments together less than the excess of :math:`X'` over :math:`S`, i.e. a polygon such that
 
 .. _folio-iii-0379:
 
 .. folio:: 0379
    :page: 375
 
-$$X' > (\text{polygon in } X') > S.$$
+.. math::
 
-Inscribe in the circle $X$ a polygon similar to that in $X'$. Then
+   X' > (\text{polygon in } X') > S.
 
-$$(\text{polygon in } X) : (\text{polygon in } X') = d^2 : {d'}^2$$
+Inscribe in the circle :math:`X` a polygon similar to that in :math:`X'`. Then
+
+.. math::
+
+   (\text{polygon in } X) : (\text{polygon in } X') = d^2 : {d'}^2
 
 :just:`[XII. 1] <XII.1>`
 
-$$= X : S\text{, by hypothesis;}$$
+.. math::
+
+   = X : S\text{, by hypothesis;}
 
 and, alternately,
 
-$$(\text{polygon in } X) : X = (\text{polygon in } X') : S.$$
+.. math::
+
+   (\text{polygon in } X) : X = (\text{polygon in } X') : S.
 
 But
 
-$$(\text{polygon in } X) < X;$$
+.. math::
+
+   (\text{polygon in } X) < X;
 
 therefore
 
-$$(\text{polygon in } X') < S.$$
+.. math::
+
+   (\text{polygon in } X') < S.
 
 But, by construction,
 
-$$(\text{polygon in } X') > S:$$
+.. math::
+
+   (\text{polygon in } X') > S:
 
 which is impossible.
 
-Hence $S$ cannot be *less* than $X'$ as supposed.
+Hence :math:`S` cannot be *less* than :math:`X'` as supposed.
 
-**II.** Suppose $S > X'$. Since
+**II.** Suppose :math:`S > X'`. Since
 
-$$d^2 : {d'}^2 = X : S,$$
+.. math::
+
+   d^2 : {d'}^2 = X : S,
 
 we have, inversely,
 
-$${d'}^2 : d^2 = S : X.$$
+.. math::
+
+   {d'}^2 : d^2 = S : X.
 
 Suppose that
 
-$$S : X = X' : T,$$
+.. math::
 
-whence, since $S > X'$,
+   S : X = X' : T,
 
-$$X > T.$$
+whence, since :math:`S > X'`,
+
+.. math::
+
+   X > T.
 
 :just:`[v. 14]`
 Consequently
 
-$${d'}^2 : d^2 = X' : T,$$
+.. math::
 
-where $T < X$.
+   {d'}^2 : d^2 = X' : T,
 
-This can be proved impossible in exactly the same way as shown in Part I. Hence $S$ cannot be *greater* than $X'$ as supposed. Since then $S$ is neither greater nor less than $X'$,
+where :math:`T < X`.
 
-$$S = X',$$
+This can be proved impossible in exactly the same way as shown in Part I. Hence :math:`S` cannot be *greater* than :math:`X'` as supposed. Since then :math:`S` is neither greater nor less than :math:`X'`,
+
+.. math::
+
+   S = X',
 
 and therefore
 
-$$d^2 : {d'}^2 = X : X'.$$
+.. math::
 
-With reference to the assumption that *there is some space $S$ such that*
+   d^2 : {d'}^2 = X : X'.
 
-$$d^2 : {d'}^2 = X : S,$$
+With reference to the assumption that *there is some space* :math:`S` *such that*
 
-i.e. that there is a fourth proportional to the areas $d^2$, ${d'}^2$, $X$, :person:`Simson <simson>` observes that it is sufficient, in this and the like cases, that a thing made use of in the reasoning can possibly *exist*, though it cannot be exhibited by a geometrical construction. As regards the assumption see note on v. 18 above.
+.. math::
+
+   d^2 : {d'}^2 = X : S,
+
+i.e. that there is a fourth proportional to the areas :math:`d^2`, :math:`{d'}^2`, :math:`X`, :person:`Simson <simson>` observes that it is sufficient, in this and the like cases, that a thing made use of in the reasoning can possibly *exist*, though it cannot be exhibited by a geometrical construction. As regards the assumption see note on v. 18 above.
 
 There is grave reason for suspecting the genuineness of the Lemma at the end of the proposition; though, if it be rejected, it will be necessary to delete the words "as was before proved" in corresponding places in XII. 5, 18.
 
@@ -123,7 +157,7 @@ It will be observed that Euclid proves the impossibility in the second case by r
 
    Similar polygons circumscribed about circles are to one another as the squares on the diameters.
 
-Let :g:`AB <0379.g1:/ A B />`, :g:`A'B' <0379.g1:/ A' B' />` be corresponding sides of the two similar polygons. Then $\angle\text{s}$ :g:`OAB <0379.g1:< O A B )>`, :g:`O'A'B' <0379.g1:< O' A' B' )>` are :eq:`equal <0379.g1:< O A B ) = 0379.g1:< O' A' B' )>`, since :g:`AO <0379.g1:/ A O />`, :g:`A'O' <0379.g1:/ A' O' />` bisect equal angles.
+Let :g:`AB <0379.g1:/ A B />`, :g:`A'B' <0379.g1:/ A' B' />` be corresponding sides of the two similar polygons. Then :math:`\angle\text{s}` :g:`OAB <0379.g1:< O A B )>`, :g:`O'A'B' <0379.g1:< O' A' B' )>` are :eq:`equal <0379.g1:< O A B ) = 0379.g1:< O' A' B' )>`, since :g:`AO <0379.g1:/ A O />`, :g:`A'O' <0379.g1:/ A' O' />` bisect equal angles.
 
 .. picture:: 0379.g1.svg
    :alt: Similar circumscribed polygons about two circles
@@ -133,78 +167,106 @@ Let :g:`AB <0379.g1:/ A B />`, :g:`A'B' <0379.g1:/ A' B' />` be corresponding si
 .. folio:: 0380
    :page: 376
 
-Similarly $\angle$ :g:`ABO <0379.g1:< A B O )>` $= \angle$ :g:`A'B'O' <0379.g1:< A' B' O' )>`. Therefore $\triangle\text{s}$ :g:`AOB <0379.g1:< A O B >>`, :g:`A'O'B' <0379.g1:< A' O' B' >>` are similar, so that their areas are in the duplicate ratio of :g:`AB <0379.g1:/ A B />` to :g:`A'B' <0379.g1:/ A' B' />`. The radii :g:`OC <0379.g1:/ O C />`, :g:`O'C' <0379.g1:/ O' C' />` drawn to the points of contact are perpendicular to :g:`AB <0379.g1:/ A B />`, :g:`A'B' <0379.g1:/ A' B' />`, and it follows that
+Similarly :math:`\angle` :g:`ABO <0379.g1:< A B O )>` :math:`= \angle` :g:`A'B'O' <0379.g1:< A' B' O' )>`. Therefore :math:`\triangle\text{s}` :g:`AOB <0379.g1:< A O B >>`, :g:`A'O'B' <0379.g1:< A' O' B' >>` are similar, so that their areas are in the duplicate ratio of :g:`AB <0379.g1:/ A B />` to :g:`A'B' <0379.g1:/ A' B' />`. The radii :g:`OC <0379.g1:/ O C />`, :g:`O'C' <0379.g1:/ O' C' />` drawn to the points of contact are perpendicular to :g:`AB <0379.g1:/ A B />`, :g:`A'B' <0379.g1:/ A' B' />`, and it follows that
 
-$$AB : A'B' = CO : C'O'.$$
+.. math::
+
+   AB : A'B' = CO : C'O'.
 
 Thus the polygons are to one another in the duplicate ratio of the radii, and therefore of the diameters.
 
-Now suppose a square :g:`ABCD <0380.g1:< A B C D >>` described about a circle. Make an octagon described about the circle by drawing tangents at the points :g:`E <0380.g1:E>` etc., where :g:`OA <0380.g1:/ O A />` etc. meet the circle. Then shall the tangent at :g:`E <0380.g1:E>` cut off more than half of the area between :g:`AK <0380.g1:/ A K />`, :g:`AH <0380.g1:/ A H />` and the arc :g:`HEK <0380.g1:( H E K )>`. For the angle :g:`AEG <0380.g1:< A E G )>` is right, and is therefore $> \angle$ :g:`EAG <0380.g1:< E A G )>`.
+Now suppose a square :g:`ABCD <0380.g1:< A B C D >>` described about a circle. Make an octagon described about the circle by drawing tangents at the points :g:`E <0380.g1:E>` etc., where :g:`OA <0380.g1:/ O A />` etc. meet the circle. Then shall the tangent at :g:`E <0380.g1:E>` cut off more than half of the area between :g:`AK <0380.g1:/ A K />`, :g:`AH <0380.g1:/ A H />` and the arc :g:`HEK <0380.g1:( H E K )>`. For the angle :g:`AEG <0380.g1:< A E G )>` is right, and is therefore :math:`> \angle` :g:`EAG <0380.g1:< E A G )>`.
 
 .. picture:: 0380.g1.svg
    :alt: Circumscribed square and octagon about circle
 
 'Therefore
 
-$$\begin{aligned}
-AG &> EG \\
-&> GK.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   AG &> EG \\
+   &> GK.
+   \end{aligned}
 
 Therefore
 
-$$\triangle\text{">$AGE} > \triangle\text{">$EGK.}$$
+.. math::
+
+   \triangle AGE > \triangle EGK.
 
 Similarly
 
-$$\triangle\text{">$AFE} > \triangle\text{">$EFH.}$$
+.. math::
+
+   \triangle AFE > \triangle EFH.
 
 Hence
 
-$$\triangle\text{">$AFG} > \tfrac{1}{2}\text{ (re-entrant quadrilateral ">$AHEK),}$$
+.. math::
+
+   \triangle AFG > \tfrac{1}{2}\text{ (re-entrant quadrilateral } AHEK\text{),}
 
 and :term:`*a fortiori* <a-fortiori>`,
 
-$$\triangle\text{">$AFG} > \tfrac{1}{2}\text{ (area between AH, AK and the arc).}$$
+.. math::
+
+   \triangle AFG > \tfrac{1}{2}\text{ (area between } AH, AK \text{ and the arc).}
 
 Thus the octagon takes from the square more than half the space between the square and the circle. Similarly, if a figure of 16 equal sides be circumscribed by cutting off symmetrically the corners of the octagon, it will take away more than half of the space between the octagon and circle.
 
 Suppose now, with the original notation, that
 
-$$d^2 : {d'}^2 = X : S,$$
+.. math::
 
-where $S$ is greater than $X'$.
+   d^2 : {d'}^2 = X : S,
 
-Continue the construction of circumscribed polygons about $X'$ until the total area between the polygon and the circle is less than the difference between $S$ and $X'$, i.e. till
+where :math:`S` is greater than :math:`X'`.
 
-$$S > (\text{polygon about } X') > X'.$$
+Continue the construction of circumscribed polygons about :math:`X'` until the total area between the polygon and the circle is less than the difference between :math:`S` and :math:`X'`, i.e. till
 
-Circumscribe a similar polygon about $X$. Then
+.. math::
 
-$$(\text{polygon about } X) : (\text{polygon about } X') = d^2 : {d'}^2$$
+   S > (\text{polygon about } X') > X'.
 
-$$= X : S\text{, by hypothesis,}$$
+Circumscribe a similar polygon about :math:`X`. Then
+
+.. math::
+
+   (\text{polygon about } X) : (\text{polygon about } X') = d^2 : {d'}^2
+
+.. math::
+
+   = X : S\text{, by hypothesis,}
 
 and, alternately,
 
-$$(\text{polygon about } X) : X = (\text{polygon about } X') : S.$$
+.. math::
+
+   (\text{polygon about } X) : X = (\text{polygon about } X') : S.
 
 But
 
-$$(\text{polygon about } X) > X.$$
+.. math::
+
+   (\text{polygon about } X) > X.
 
 Therefore
 
-$$(\text{polygon about } X') > S.$$
+.. math::
+
+   (\text{polygon about } X') > S.
 
 But
 
-$$S > (\text{polygon about } X'):$$
+.. math::
+
+   S > (\text{polygon about } X'):
 
 :just:`[above]`
 which is impossible.
 
-Hence $S$ cannot be *greater* than $X'$.
+Hence :math:`S` cannot be *greater* than :math:`X'`.
 
 .. _folio-iii-0381:
 
@@ -226,20 +288,20 @@ Let :g:`CA <0381.g1:/ C A />`, :g:`CB <0381.g1:/ C B />` be the radii of the cir
 
 **II.** Join :g:`CM <0381.g1:/ C M />`, :g:`CN <0381.g1:/ C N />`, meeting :g:`DE <0381.g1:/ D E />` in :g:`P <0381.g1:P>`, :g:`Q <0381.g1:Q>`. Then :g:`PQ <0381.g1:/ P Q />` will be the side of a polygon circumscribed about the inner circle and similar to the polygon inscribed in the outer; and the circumscribed polygon of which :g:`PQ <0381.g1:/ P Q />` is a side will not anywhere meet the outer circle.
 
-:person:`Legendre <legendre>` now proves XII. 2 after the following manner. For brevity, let us denote the area of the circle with radius :g:`CA <0381.g2:/ C A />` by $(\text{circ. }$ :g:`CA <0381.g2:( C A )>` $)$. Then it is required to prove that, if :g:`OB <0381.g2:/ O B />` be the radius of a second circle, $(\text{circ. }$ :g:`CA <0381.g2:( C A )>` $) : (\text{circ. }$ :g:`OB <0381.g2:( O B )>` $) =$ :g:`CA^2 <0381.g2:/ C A />` $:$ :g:`OB^2 <0381.g2:/ O B />`.
+:person:`Legendre <legendre>` now proves XII. 2 after the following manner. For brevity, let us denote the area of the circle with radius :g:`CA <0381.g2:/ C A />` by (circ. :g:`CA <0381.g2:( C A )>`). Then it is required to prove that, if :g:`OB <0381.g2:/ O B />` be the radius of a second circle, (circ. :g:`CA <0381.g2:( C A )>`) :math:`:` (circ. :g:`OB <0381.g2:( O B )>`) :math:`=` :g:`CA^2 <0381.g2:/ C A />` :math:`:` :g:`OB^2 <0381.g2:/ O B />`.
 
 .. picture:: 0381.g2.svg
    :alt: Legendre's two circles
 
-Suppose, if possible, that this relation is not true. Then :g:`CA^2 <0381.g2:/ C A />` will be to :g:`OB^2 <0381.g2:/ O B />` as $(\text{circ. }$ :g:`CA <0381.g2:( C A )>` $)$ is to an area greater or less than $(\text{circ. }$ :g:`OB <0381.g2:( O B )>`)$. **I.** Suppose, first, that :g:`CA^2 <0381.g2:/ C A />` $:$ :g:`OB^2 <0381.g2:/ O B />` $= (\text{circ. }$ :g:`CA <0381.g2:( C A )>` $) : (\text{circ. }$ :g:`OD <0381.g2:( O D )>` $)$, where :g:`OD <0381.g2:/ O D />` is less than :g:`OB <0381.g2:/ O B />`.
+Suppose, if possible, that this relation is not true. Then :g:`CA^2 <0381.g2:/ C A />` will be to :g:`OB^2 <0381.g2:/ O B />` as (circ. :g:`CA <0381.g2:( C A )>`) is to an area greater or less than (circ. :g:`OB <0381.g2:( O B )>`). **I.** Suppose, first, that :g:`CA^2 <0381.g2:/ C A />` :math:`:` :g:`OB^2 <0381.g2:/ O B />` :math:`=` (circ. :g:`CA <0381.g2:( C A )>`) :math:`:` (circ. :g:`OD <0381.g2:( O D )>`), where :g:`OD <0381.g2:/ O D />` is less than :g:`OB <0381.g2:/ O B />`.
 
 .. _folio-iii-0382:
 
 .. folio:: 0382
    :page: 378
 
-Inscribe in the circle with radius :g:`OB <0381.g2:/ O B />` a regular polygon such that its sides do not anywhere meet the circumference of the circle with centre :g:`OD <0381.g2:/ O D />`; :just:`[Lemma]` and inscribe a similar polygon in the other circle. The areas of the polygons will then be in the duplicate ratio of :g:`CA <0381.g2:/ C A />` to :g:`OB <0381.g2:/ O B />`, or :just:`[XII. 1] <XII.1>` $(\text{polygon in circ. }$ :g:`CA <0381.g2:( C A )>` $) : (\text{polygon in circ. }$ :g:`OB <0381.g2:( O B )>` $)$ $=$ :g:`CA^2 <0381.g2:/ C A />` $:$ :g:`OB^2 <0381.g2:/ O B />` $= (\text{circ. }$ :g:`CA <0381.g2:( C A )>` $) : (\text{circ. }$ :g:`OD <0381.g2:( O D )>` $)$, by hypothesis.
+Inscribe in the circle with radius :g:`OB <0381.g2:/ O B />` a regular polygon such that its sides do not anywhere meet the circumference of the circle with centre :g:`OD <0381.g2:/ O D />`; :just:`[Lemma]` and inscribe a similar polygon in the other circle. The areas of the polygons will then be in the duplicate ratio of :g:`CA <0381.g2:/ C A />` to :g:`OB <0381.g2:/ O B />`, or :just:`[XII. 1] <XII.1>` (polygon in circ. :g:`CA <0381.g2:( C A )>`) :math:`:` (polygon in circ. :g:`OB <0381.g2:( O B )>`) :math:`=` :g:`CA^2 <0381.g2:/ C A />` :math:`:` :g:`OB^2 <0381.g2:/ O B />` :math:`=` (circ. :g:`CA <0381.g2:( C A )>`) :math:`:` (circ. :g:`OD <0381.g2:( O D )>`), by hypothesis.
 
-But this is impossible, because the polygon in $(\text{circ. }$ :g:`CA <0381.g2:( C A )>` $)$ is less than $(\text{circ. }$ :g:`CA <0381.g2:( C A )>` $)$, but the polygon in $(\text{circ. }$ :g:`OB <0381.g2:( O B )>` $)$ is *greater* than $(\text{circ. }$ :g:`OD <0381.g2:( O D )>`)$. 'Therefore :g:`CA^2 <0381.g2:/ C A />` cannot be to :g:`OB^2 <0381.g2:/ O B />` as $(\text{circ. }$ :g:`CA <0381.g2:( C A )>` $)$ is to a *less* circle than $(\text{circ. }$ :g:`OB <0381.g2:( O B )>` $)$.
+But this is impossible, because the polygon in (circ. :g:`CA <0381.g2:( C A )>`) is less than (circ. :g:`CA <0381.g2:( C A )>`), but the polygon in (circ. :g:`OB <0381.g2:( O B )>`) is *greater* than (circ. :g:`OD <0381.g2:( O D )>`). Therefore :g:`CA^2 <0381.g2:/ C A />` cannot be to :g:`OB^2 <0381.g2:/ O B />` as (circ. :g:`CA <0381.g2:( C A )>`) is to a *less* circle than (circ. :g:`OB <0381.g2:( O B )>`).
 
-**II.** Suppose, if possible, that :g:`CA^2 <0381.g2:/ C A />` $:$ :g:`OB^2 <0381.g2:/ O B />` $= (\text{circ. }$ :g:`CA <0381.g2:( C A )>` $) : (\text{some circle} > \text{circ. }$ :g:`OB <0381.g2:( O B )>`)$. Then inversely :g:`OB^2 <0381.g2:/ O B />` $:$ :g:`CA^2 <0381.g2:/ C A />` $= (\text{circ. }$ :g:`OB <0381.g2:( O B )>` $) : (\text{some circle} < \text{circ. }$ :g:`CA <0381.g2:( C A )>` $), and this is proved impossible exactly as in Part I. Therefore :g:`CA^2 <0381.g2:/ C A />` $:$ :g:`OB^2 <0381.g2:/ O B />` $= (\text{circ. }$ :g:`CA <0381.g2:( C A )>` $) : (\text{circ. }$ :g:`OB <0381.g2:( O B )>` $)$.
+**II.** Suppose, if possible, that :g:`CA^2 <0381.g2:/ C A />` :math:`:` :g:`OB^2 <0381.g2:/ O B />` :math:`=` (circ. :g:`CA <0381.g2:( C A )>`) :math:`:` (some circle :math:`>` circ. :g:`OB <0381.g2:( O B )>`). Then inversely :g:`OB^2 <0381.g2:/ O B />` :math:`:` :g:`CA^2 <0381.g2:/ C A />` :math:`=` (circ. :g:`OB <0381.g2:( O B )>`) :math:`:` (some circle :math:`<` circ. :g:`CA <0381.g2:( C A )>`), and this is proved impossible exactly as in Part I. Therefore :g:`CA^2 <0381.g2:/ C A />` :math:`:` :g:`OB^2 <0381.g2:/ O B />` :math:`=` (circ. :g:`CA <0381.g2:( C A )>`) :math:`:` (circ. :g:`OB <0381.g2:( O B )>`).

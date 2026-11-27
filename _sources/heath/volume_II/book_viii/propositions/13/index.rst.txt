@@ -63,43 +63,53 @@ And again let :g:`B <0372.g1:B>` by multiplying :g:`C <0372.g1:C>` make :g:`O <0
 .. folio:: 0373
    :page: 367
 
-If $a, b, c \dots$ be a series in geometrical progression, then
+If :math:`a, b, c \dots` be a series in geometrical progression, then
 
-$$\left. \begin{array}{l} a^2,\; b^2,\; c^2 \dots \\ a^3,\; b^3,\; c^3 \dots \end{array} \right\} \text{are also in geometrical progression.}$$
+.. math::
+
+   \left. \begin{array}{l} a^2,\; b^2,\; c^2 \dots \\ a^3,\; b^3,\; c^3 \dots \end{array} \right\} \text{are also in geometrical progression.}
 
 :person:`Heiberg <heiberg>` brackets the words added to the enunciation which extend the theorem to any powers. The words are “and this always occurs with the extremes” (καὶ ἀεὶ περὶ τοὺς ἄκρους τοῦτο συμβαίνει). They seem to be rightly suspected on the same grounds as the same words added to the enunciation of VII. 27. There is no allusion to them in the proof, much less any proof of the extension.
 
-Euclid forms, besides the :term:`squares <square>` and cubes of the given numbers, the products $ab$, $a^2b$, $ab^2$, $bc$, $b^2c$, $bc^2$. When he says that “we prove in manner similar to the foregoing,” he indicates successive uses of VII. 17, 18 as in VIII. 12.
+Euclid forms, besides the :term:`squares <square>` and cubes of the given numbers, the products :math:`ab`, :math:`a^2b`, :math:`ab^2`, :math:`bc`, :math:`b^2c`, :math:`bc^2`. When he says that “we prove in manner similar to the foregoing,” he indicates successive uses of VII. 17, 18 as in VIII. 12.
 
 With our notation the proof is as easy to see for *any* powers as for squares and cubes.
 
-To prove that $a^n, b^n, c^n \dots$ are in geometrical progression.
+To prove that :math:`a^n, b^n, c^n \dots` are in geometrical progression.
 
-Form all the means between $a^n, b^n$, and set out the series
+Form all the means between :math:`a^n, b^n`, and set out the series
 
-$$a^n,\quad a^{n-1}b,\quad a^{n-2}b^2\;\dots\;ab^{n-1},\quad b^n.$$
+.. math::
 
-The common ratio of one term to the next is $a : b$.
+   a^n,\quad a^{n-1}b,\quad a^{n-2}b^2\;\dots\;ab^{n-1},\quad b^n.
+
+The common ratio of one term to the next is :math:`a : b`.
 
 Next take the geometrical progression
 
-$$b^n,\quad b^{n-1}c,\quad b^{n-2}c^2\;\dots\;bc^{n-1},\quad c^n,$$
+.. math::
 
-the common ratio of which is $b : c$.
+   b^n,\quad b^{n-1}c,\quad b^{n-2}c^2\;\dots\;bc^{n-1},\quad c^n,
+
+the common ratio of which is :math:`b : c`.
 
 Proceed thus for all pairs of consecutive terms.
 
 Now
 
-$$a : b = b : c = \dots$$
+.. math::
+
+   a : b = b : c = \dots
 
 Therefore any pair of succeeding terms in one series are in the same ratio as any pair of succeeding terms in any other of the series.
 
-And the number of terms in each is the same, namely $(n + 1)$.
+And the number of terms in each is the same, namely :math:`(n + 1)`.
 
 Therefore, :term:`*ex aequali* <ex-aequali>`,
 
-$$a^n : b^n = b^n : c^n = c^n : d^n = \dots$$
+.. math::
+
+   a^n : b^n = b^n : c^n = c^n : d^n = \dots
 
 Dependency Graph
 ----------------

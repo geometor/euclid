@@ -19,40 +19,52 @@ Back to :ref:`Proposition X.72 <X.72>`.
 .. folio:: 0161
    :page: 157
 
-We have to classify, according to the different possible relations between $k, \lambda$, the straight line
+We have to classify, according to the different possible relations between :math:`k, \lambda`, the straight line
 
-$$\sqrt{\sqrt k.\rho^2 + \sqrt\lambda.\rho^2},$$
+.. math::
 
-where $\sqrt k.\rho^2$ and $\sqrt\lambda.\rho^2$ are incommensurable.
+   \sqrt{\sqrt k.\rho^2 + \sqrt\lambda.\rho^2},
+
+where :math:`\sqrt k.\rho^2` and :math:`\sqrt\lambda.\rho^2` are incommensurable.
 
 Suppose that
 
-$$\begin{aligned}
-\sigma u &= \sqrt k.\rho^2, \\
-\sigma v &= \sqrt\lambda.\rho^2.
-\end{aligned}$$
+.. math::
 
-It is immaterial whether $\sqrt k.\rho^2$ or $\sqrt\lambda.\rho^2$ is the greater. Suppose, e.g., that the former is.
+   \begin{aligned}
+   \sigma u &= \sqrt k.\rho^2, \\
+   \sigma v &= \sqrt\lambda.\rho^2.
+   \end{aligned}
 
-Now, $\sqrt k.\rho^2, \sqrt\lambda.\rho^2$ being both *medial* areas, and $\sigma$ rational, $u, v$ are both rational and $\smile \sigma \dotfill (1).$
+It is immaterial whether :math:`\sqrt k.\rho^2` or :math:`\sqrt\lambda.\rho^2` is the greater. Suppose, e.g., that the former is.
+
+Now, :math:`\sqrt k.\rho^2, \sqrt\lambda.\rho^2` being both *medial* areas, and :math:`\sigma` rational, :math:`u, v` are both rational and :math:`\smile \sigma \dotfill (1).`
 
 Again, by hypothesis,
 
-$$\sigma u \smile \sigma v,$$
+.. math::
 
-$$\text{or } u \smile v \dotfill (2).$$
+   \sigma u \smile \sigma v,
 
-Hence [(1), (2)] $(u + v)$ is a binomial straight line.
+.. math::
 
-Next, $\sqrt{u^2 - v^2}$ is either commensurable or incommensurable in length with $u$.
+   \text{or } u \smile v \dotfill (2).
 
-($\alpha$) Suppose $\sqrt{u^2 - v^2} \frown u$. In this case $(u + v)$ is a :term:`*third binomial* <third-binomial>` straight line, and therefore :just:`[X. 56] <X.56>`
+Hence [(1), (2)] :math:`(u + v)` is a binomial straight line.
 
-$$\sqrt{\sigma(u + v)} \text{ is a second bimedial straight line.}$$
+Next, :math:`\sqrt{u^2 - v^2}` is either commensurable or incommensurable in length with :math:`u`.
 
-($\beta$) If $\sqrt{u^2 - v^2} \smile u$, $(u + v)$ is a :term:`*sixth binomial* <sixth-binomial>` straight line, and therefore :just:`[X. 59] <X.59>`
+(:math:`\alpha`) Suppose :math:`\sqrt{u^2 - v^2} \frown u`. In this case :math:`(u + v)` is a :term:`*third binomial* <third-binomial>` straight line, and therefore :just:`[X. 56] <X.56>`
 
-$$\sqrt{\sigma(u + v)} \text{ is a side of the sum of two medial areas.}$$
+.. math::
+
+   \sqrt{\sigma(u + v)} \text{ is a second bimedial straight line.}
+
+(:math:`\beta`) If :math:`\sqrt{u^2 - v^2} \smile u`, :math:`(u + v)` is a :term:`*sixth binomial* <sixth-binomial>` straight line, and therefore :just:`[X. 59] <X.59>`
+
+.. math::
+
+   \sqrt{\sigma(u + v)} \text{ is a side of the sum of two medial areas.}
 
 ----
 

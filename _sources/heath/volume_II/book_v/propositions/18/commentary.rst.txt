@@ -19,10 +19,12 @@ Back to :ref:`Proposition V.18 <V.18>`.
 .. folio:: 0176
    :page: 170
 
-$$\begin{aligned}
-\text{Algebraically, if} \qquad a : b &= c : d, \\
-\text{then} \qquad (a + b) : b &= (c + d) : d.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \text{Algebraically, if} \qquad a : b &= c : d, \\
+   \text{then} \qquad (a + b) : b &= (c + d) : d.
+   \end{aligned}
 
 In the enunciation of this proposition there is the same special use of διῃρημένα and συντεθέντα as there was of συγκείμενα and διαιρεθέντα in the last enunciation. Practically, as the algebraical form shows, διῃρημένα might have been left out.
 
@@ -30,22 +32,24 @@ The following is the method of proof employed by Euclid.
 
 .. assertion::
 
-   Given that $a : b = c : d$,
+   Given that :math:`a : b = c : d`,
 
 suppose, if possible, that
 
 .. assertion::
 
-   $(a + b) : b = (c + d) : (d \pm x)$.
+   :math:`(a + b) : b = (c + d) : (d \pm x)`.
 
 Therefore, :term:`*separando* <separando>` :just:`[V. 17] <V.17>`,
 
-$$\begin{aligned}
-a : b &= (c \mp x) : (d \pm x), \\
-\text{whence, by V. 11,} \qquad (c \mp x) : (d \pm x) &= c : d. \\
-\text{But} \qquad (c - x) < c, \text{ while } (d + x) &> d, \\
-\text{and} \qquad (c + x) > c, \text{ while } (d - x) &< d,
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   a : b &= (c \mp x) : (d \pm x), \\
+   \text{whence, by V. 11,} \qquad (c \mp x) : (d \pm x) &= c : d. \\
+   \text{But} \qquad (c - x) < c, \text{ while } (d + x) &> d, \\
+   \text{and} \qquad (c + x) > c, \text{ while } (d - x) &< d,
+   \end{aligned}
 
 which relations respectively contradict V. 14.
 
@@ -63,13 +67,13 @@ Smith and Bryant (*loc. cit.*) in proving the theorems of Euclid V. 16, 17, 18, 
 .. folio:: 0177
    :page: 171
 
-:person:`De Morgan <de-morgan>` gives a sketch of a general proof of the assumed proposition that, $B$ being any magnitude, and $P$ and $Q$ two magnitudes of the same kind, there does exist a magnitude $A$ which is to $B$ in the same ratio as $P$ to $Q$.
+:person:`De Morgan <de-morgan>` gives a sketch of a general proof of the assumed proposition that, :math:`B` being any magnitude, and :math:`P` and :math:`Q` two magnitudes of the same kind, there does exist a magnitude :math:`A` which is to :math:`B` in the same ratio as :math:`P` to :math:`Q`.
 
 “The right to reason upon any aliquot part of any magnitude is assumed; though, in truth, aliquot parts obtained by continual bisection would suffice: and it is taken as previously proved that the tests of greater and of less ratio are never both presented in any one scale of relation as compared with another” (see note on V. Def. 7 *ad fin.*).
 
-“(1) If $M$ be to $B$ in a greater ratio than $P$ to $Q$, so is every magnitude greater than $M$, and so are *some less magnitudes*; and if $M$ be to $B$ in a less ratio than $P$ to $Q$, so is every magnitude less than $M$, and so are *some greater magnitudes*. Part of this is in every system: the rest is proved thus. If $M$ be to $B$ in a greater ratio than $P$ to $Q$, say, for instance, we find that $15M$ lies between $22B$ and $23B$, while $15P$ lies before $22Q$. Let $15M$ exceed $22B$ by $Z$; then, if $N$ be less than $M$ by anything less than the 15th part of $Z$, $15N$ is between $22B$ and $23B$: or $N$, less than $M$, is in a greater ratio to $B$ than $P$ to $Q$. And similarly for the other case.
+“(1) If :math:`M` be to :math:`B` in a greater ratio than :math:`P` to :math:`Q`, so is every magnitude greater than :math:`M`, and so are *some less magnitudes*; and if :math:`M` be to :math:`B` in a less ratio than :math:`P` to :math:`Q`, so is every magnitude less than :math:`M`, and so are *some greater magnitudes*. Part of this is in every system: the rest is proved thus. If :math:`M` be to :math:`B` in a greater ratio than :math:`P` to :math:`Q`, say, for instance, we find that :math:`15M` lies between :math:`22B` and :math:`23B`, while :math:`15P` lies before :math:`22Q`. Let :math:`15M` exceed :math:`22B` by :math:`Z`; then, if :math:`N` be less than :math:`M` by anything less than the 15th part of :math:`Z`, :math:`15N` is between :math:`22B` and :math:`23B`: or :math:`N`, less than :math:`M`, is in a greater ratio to :math:`B` than :math:`P` to :math:`Q`. And similarly for the other case.
 
-(2) $M$ can certainly be taken so small as to be in a less ratio to $B$ than $P$ to $Q$, and so large as to be in a greater; and since we can never pass from the greater ratio back again to the smaller by increasing $M$, it follows that, while we pass from the first designated value to the second, we come upon an intermediate magnitude $A$ such that every smaller is in a less ratio to $B$ than $P$ to $Q$, and every greater in a greater ratio. Now $A$ cannot be in a less ratio to $B$ than $P$ to $Q$, for then some greater magnitudes would also be in a less ratio; nor in a greater ratio, for then some less magnitudes would be in a greater ratio; therefore $A$ is in the same ratio to $B$ as $P$ to $Q$. The previously proved proposition above mentioned shows the three alternatives to be the only ones.”
+(2) :math:`M` can certainly be taken so small as to be in a less ratio to :math:`B` than :math:`P` to :math:`Q`, and so large as to be in a greater; and since we can never pass from the greater ratio back again to the smaller by increasing :math:`M`, it follows that, while we pass from the first designated value to the second, we come upon an intermediate magnitude :math:`A` such that every smaller is in a less ratio to :math:`B` than :math:`P` to :math:`Q`, and every greater in a greater ratio. Now :math:`A` cannot be in a less ratio to :math:`B` than :math:`P` to :math:`Q`, for then some greater magnitudes would also be in a less ratio; nor in a greater ratio, for then some less magnitudes would be in a greater ratio; therefore :math:`A` is in the same ratio to :math:`B` as :math:`P` to :math:`Q`. The previously proved proposition above mentioned shows the three alternatives to be the only ones.”
 
 Alternative proofs of V. 18.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,19 +82,19 @@ Alternative proofs of V. 18.
 
 :person:`Simson <simson>`'s proof is however, as it seems to me, intolerably long and difficult to follow unless it be put in the symbolical form as follows.
 
-Suppose that $a$ is to $b$ as $c$ is to $d$; it is required to prove that $a + b$ is to $b$ as $c + d$ is to $d$.
+Suppose that :math:`a` is to :math:`b` as :math:`c` is to :math:`d`; it is required to prove that :math:`a + b` is to :math:`b` as :math:`c + d` is to :math:`d`.
 
 Take any equimultiples of the last four magnitudes, say
 
 .. assertion::
 
-   $m(a + b), \quad mb, \quad m(c + d), \quad md,$
+   :math:`m(a + b), \quad mb, \quad m(c + d), \quad md,`
 
-and any equimultiples of $b, d$, as
+and any equimultiples of :math:`b, d`, as
 
 .. assertion::
 
-   $nb, \quad nd.$
+   :math:`nb, \quad nd.`
 
 .. _folio-ii-0178:
 
@@ -101,63 +105,63 @@ Clearly, if
 
 .. assertion::
 
-   $nb$ is greater than $mb$, $nd$ is greater than $md$; if equal, equal; and if less, less.
+   :math:`nb` is greater than :math:`mb`, :math:`nd` is greater than :math:`md`; if equal, equal; and if less, less.
 
-I. Suppose $nb$ not greater than $mb$, so that $nd$ is also not greater than $md$.
-
-.. assertion::
-
-   Now $m(a + b)$ is greater than $mb$: therefore $m(a + b)$ is greater than $nb$.
+I. Suppose :math:`nb` not greater than :math:`mb`, so that :math:`nd` is also not greater than :math:`md`.
 
 .. assertion::
 
-   Similarly $m(c + d)$ is greater than $nd$.
-
-II. Suppose $nb$ greater than $mb$.
-
-Since $m(a + b), mb, m(c + d), md$ are equimultiples of $(a + b), b, (c + d), d$,
+   Now :math:`m(a + b)` is greater than :math:`mb`: therefore :math:`m(a + b)` is greater than :math:`nb`.
 
 .. assertion::
 
-   $ma$ is the same multiple of $a$ that $m(a + b)$ is of $(a + b)$, and $mc$ is the same multiple of $c$ that $m(c + d)$ is of $(c + d)$, so that $ma, mc$ are equimultiples of $a, c$. :just:`[V. 5] <V.5>`
+   Similarly :math:`m(c + d)` is greater than :math:`nd`.
 
-Again $nb, nd$ are equimultiples of $b, d$, and so are $mb, md$; therefore $(n - m)b, (n - m)d$ are equimultiples of $b, d$ and, whether $n - m$ is equal to unity or to any other integer :just:`[V. 6] <V.6>`, it follows, by Def. 5, that, since $a, b, c, d$ are proportionals,
+II. Suppose :math:`nb` greater than :math:`mb`.
 
-.. assertion::
-
-   if $ma$ is greater than $(n - m)b$, then $mc$ is greater than $(n - m)d$; if equal, equal; and if less, less.
-
-(1) If now $m(a + b)$ is greater than $nb$, subtracting $mb$ from each, we have
+Since :math:`m(a + b), mb, m(c + d), md` are equimultiples of :math:`(a + b), b, (c + d), d`,
 
 .. assertion::
 
-   $ma$ is greater than $(n - m)b$; therefore $mc$ is greater than $(n - m)d$,
+   :math:`ma` is the same multiple of :math:`a` that :math:`m(a + b)` is of :math:`(a + b)`, and :math:`mc` is the same multiple of :math:`c` that :math:`m(c + d)` is of :math:`(c + d)`, so that :math:`ma, mc` are equimultiples of :math:`a, c`. :just:`[V. 5] <V.5>`
 
-and, if we add $md$ to each,
+Again :math:`nb, nd` are equimultiples of :math:`b, d`, and so are :math:`mb, md`; therefore :math:`(n - m)b, (n - m)d` are equimultiples of :math:`b, d` and, whether :math:`n - m` is equal to unity or to any other integer :just:`[V. 6] <V.6>`, it follows, by Def. 5, that, since :math:`a, b, c, d` are proportionals,
 
 .. assertion::
 
-   $m(c + d)$ is greater than $nd$.
+   if :math:`ma` is greater than :math:`(n - m)b`, then :math:`mc` is greater than :math:`(n - m)d`; if equal, equal; and if less, less.
+
+(1) If now :math:`m(a + b)` is greater than :math:`nb`, subtracting :math:`mb` from each, we have
+
+.. assertion::
+
+   :math:`ma` is greater than :math:`(n - m)b`; therefore :math:`mc` is greater than :math:`(n - m)d`,
+
+and, if we add :math:`md` to each,
+
+.. assertion::
+
+   :math:`m(c + d)` is greater than :math:`nd`.
 
 (2) Similarly it may be proved that,
 
 .. assertion::
 
-   if $m(a + b)$ is equal to $nb$, then $m(c + d)$ is equal to $nd$, and (3) that, if $m(a + b)$ is less than $nb$, then $m(c + d)$ is less than $nd$.
+   if :math:`m(a + b)` is equal to :math:`nb`, then :math:`m(c + d)` is equal to :math:`nd`, and (3) that, if :math:`m(a + b)` is less than :math:`nb`, then :math:`m(c + d)` is less than :math:`nd`.
 
-But (under I. above) it was proved that, in the case where $nb$ is not greater than $mb$,
+But (under I. above) it was proved that, in the case where :math:`nb` is not greater than :math:`mb`,
 
 .. assertion::
 
-   $m(a + b)$ is always greater than $nb$, and $m(c + d)$ is always greater than $nd$.
+   :math:`m(a + b)` is always greater than :math:`nb`, and :math:`m(c + d)` is always greater than :math:`nd`.
 
-Hence, whatever be the values of $m$ and $n$, $m(c + d)$ is always greater than, equal to, or less than $nd$ according as $m(a + b)$ is greater than, equal to, or less than $nb$.
+Hence, whatever be the values of :math:`m` and :math:`n`, :math:`m(c + d)` is always greater than, equal to, or less than :math:`nd` according as :math:`m(a + b)` is greater than, equal to, or less than :math:`nb`.
 
 Therefore, by Def. 5,
 
 .. assertion::
 
-   $a + b$ is to $b$ as $c + d$ is to $d$.
+   :math:`a + b` is to :math:`b` as :math:`c + d` is to :math:`d`.
 
 :person:`Todhunter <todhunter>` gives the following short demonstration from Austin (*Examination of the first six books of Euclid's Elements*).
 
@@ -176,21 +180,21 @@ For, because :g:`AE <0179.g1:/ A E />` is to :g:`EB <0179.g1:/ E B />` as :g:`CF
 
 .. assertion:: [V. 16] <V.16>
 
-   $AE$ is to $CF$ as :g:`EB <0179.g1:/ E B />` is to :g:`FD <0179.g1:/ F D />`.
+   :math:`AE` is to :math:`CF` as :g:`EB <0179.g1:/ E B />` is to :g:`FD <0179.g1:/ F D />`.
 
 And, as one of the antecedents is to its consequent, so is the sum of the antecedents to the sum of the consequents: :just:`[V. 12] <V.12>`
 
-therefore, as $EB$ is to $FD$, so are :g:`AE <0179.g1:/ A E />`, :g:`EB <0179.g1:/ E B />` together to :g:`CF <0179.g1:/ C F />`, :g:`FD <0179.g1:/ F D />` together; that is,
+therefore, as :math:`EB` is to :math:`FD`, so are :g:`AE <0179.g1:/ A E />`, :g:`EB <0179.g1:/ E B />` together to :g:`CF <0179.g1:/ C F />`, :g:`FD <0179.g1:/ F D />` together; that is,
 
 .. assertion::
 
-   $AB$ is to $CD$ as $EB$ is to $FD$.
+   :math:`AB` is to :math:`CD` as :math:`EB` is to :math:`FD`.
 
 Therefore, alternately,
 
 .. assertion::
 
-   $AB$ is to $BE$ as $CD$ is to $FD$.”
+   :math:`AB` is to :math:`BE` as :math:`CD` is to :math:`FD`.”
 
 .. picture:: 0179.g1.svg
    :alt: Simson's proof for V. 18
@@ -203,9 +207,9 @@ Suppose that
 
 .. assertion::
 
-   $A : B = C : D$.
+   :math:`A : B = C : D`.
 
-$First$, let all the magnitudes be areas.
+:math:`First`, let all the magnitudes be areas.
 
 Construct a rectangle :g:`abcd <0179.g2:< a b c d >>` equal to :g:`A <0179.g2:< a b c d >>`, and to :g:`bc <0179.g2:/ c b />` apply the rectangle :g:`bcef <0179.g2:< b c e f >>` equal to :g:`B <0179.g2:< b c e f >>`. Also to :g:`ab <0179.g2:/ a b />`, :g:`bf <0179.g2:/ b f />` apply the rectangles :g:`ag <0179.g2:< a b g h >>`, :g:`bk <0179.g2:< b f k g >>` equal to :g:`C <0179.g2:< a b g h >>`, :g:`D <0179.g2:< b f k g >>` respectively.
 
@@ -220,7 +224,7 @@ Hence
 
    ab : bf = rect. ac : rect. be = A : B = C : D = rect. :g:`ag <0179.g2:< a b g h >>` : rect. :g:`bk <0179.g2:< b f k g >>`.
 
-Therefore :just:`[VI. 1, converse]` the rectangles $ag, bk$ have the same height, so that :g:`k <0179.g2:k>` is on the straight line :g:`hg <0179.g2:/ h g />`.
+Therefore :just:`[VI. 1, converse]` the rectangles :math:`ag, bk` have the same height, so that :g:`k <0179.g2:k>` is on the straight line :g:`hg <0179.g2:/ h g />`.
 
 Hence
 
@@ -228,17 +232,19 @@ Hence
 
    :g:`A <0179.g2:/ a b />` + :g:`B <0179.g2:/ b f />` : B = rect. ae : rect. be = af : bf = rect. ak : rect. bk = :g:`C <0179.g2:< a b g h >>` + :g:`D <0179.g2:< b f k g >>` : D.
 
-$Secondly$, let the magnitudes $A$, $B$ be straight lines and the magnitudes $C$, $D$ areas.
+:math:`Secondly`, let the magnitudes :math:`A`, :math:`B` be straight lines and the magnitudes :math:`C`, :math:`D` areas.
 
 Let :g:`ab <0179.g2:/ a b />`, :g:`bf <0179.g2:/ b f />` be equal to the straight lines :g:`A <0179.g2:/ a b />`, :g:`B <0179.g2:/ b f />`, and to :g:`ab <0179.g2:/ a b />`, :g:`bf <0179.g2:/ b f />` apply the rectangles :g:`ag <0179.g2:< a b g h >>`, :g:`bk <0179.g2:< b f k g >>` equal to :g:`C <0179.g2:< a b g h >>`, :g:`D <0179.g2:< b f k g >>` respectively. Then, as before, the rectangles :g:`ag <0179.g2:< a b g h >>`, :g:`bk <0179.g2:< b f k g >>` have the same height. Now
 
-$$\begin{aligned}
-A + B : B &= af : bf \\
-&= \text{rect. } ak : \text{rect. } bk \\
-&= C + D : D.
-\end{aligned}$$
+.. math::
 
-$Thirdly$, let all the magnitudes be straight lines. Apply to the straight lines $C$, $D$ rectangles $P$, $Q$ having the same height.
+   \begin{aligned}
+   A + B : B &= af : bf \\
+   &= \text{rect. } ak : \text{rect. } bk \\
+   &= C + D : D.
+   \end{aligned}
+
+:math:`Thirdly`, let all the magnitudes be straight lines. Apply to the straight lines :math:`C`, :math:`D` rectangles :math:`P`, :math:`Q` having the same height.
 
 .. _folio-ii-0180:
 
@@ -247,16 +253,25 @@ $Thirdly$, let all the magnitudes be straight lines. Apply to the straight lines
 
 Then
 
-$$P : Q = C : D. \quad [\text{VI. } 1]$$
+.. math::
+
+   P : Q = C : D. \quad [\text{VI. } 1]
 
 Hence, by the second case,
 
-$$A + B : B = P + Q : Q.$$
+.. math::
+
+   A + B : B = P + Q : Q.
 
 Also
 
-$$P + Q : Q = C + D : D.$$
+.. math::
+
+   P + Q : Q = C + D : D.
 
 Therefore
 
-$$A + B : B = C + D : D.$$
+.. math::
+
+   A + B : B = C + D : D.
+

@@ -30,23 +30,33 @@ Make :g:`AB <0363.g1:/ A B />`, :g:`CD <0363.g1:/ C D />`, :g:`O <0363.g1:/ O />
 
 I. Then, since
 
-$$AB : CD = EF : GH,$$
+.. math::
+
+   AB : CD = EF : GH,
 
 we have, :term:`*ex aequali* <ex-aequali>`,
 
-$$AB : P = EF : R. \qquad \text{[V. 22]}$$
+.. math::
+
+   AB : P = EF : R. \qquad \text{[V. 22]}
 
 But
 
-$$\text{(solid } AK\text{)} : \text{(solid } CL\text{)} = AB : P, \qquad \text{[XI. 33 and Por.]}$$
+.. math::
+
+   \text{(solid } AK\text{)} : \text{(solid } CL\text{)} = AB : P, \qquad \text{[XI. 33 and Por.]}
 
 and
 
-$$\text{(solid } EM\text{)} : \text{(solid } GN\text{)} = EF : R.$$
+.. math::
+
+   \text{(solid } EM\text{)} : \text{(solid } GN\text{)} = EF : R.
 
 Therefore
 
-$$\text{(solid } AK\text{)} : \text{(solid } CL\text{)} = \text{(solid } EM\text{)} : \text{(solid } GN\text{)}$$
+.. math::
+
+   \text{(solid } AK\text{)} : \text{(solid } CL\text{)} = \text{(solid } EM\text{)} : \text{(solid } GN\text{)}
 
 .. _folio-iii-0364:
 
@@ -55,17 +65,23 @@ $$\text{(solid } AK\text{)} : \text{(solid } CL\text{)} = \text{(solid } EM\text
 
 II. If the solids are proportional, take :g:`ST <0363.g1:/ S T />` such that
 
-$$AB : CD = EF : ST,$$
+.. math::
+
+   AB : CD = EF : ST,
 
 and on :g:`ST <0363.g1:/ S T />` describe the parallelepiped :g:`SV <0363.g1:< S V >>` similar and similarly situated to either of the parallelepipeds :g:`EM <0363.g1:< E M >>`, :g:`GN <0363.g1:< G N >>`.
 
 Then, by the first part,
 
-$$\text{(solid } AK\text{)} : \text{(solid } CL\text{)} = \text{(solid } EM\text{)} : \text{(solid } SV\text{)},$$
+.. math::
+
+   \text{(solid } AK\text{)} : \text{(solid } CL\text{)} = \text{(solid } EM\text{)} : \text{(solid } SV\text{)},
 
 whence it follows that
 
-$$\text{(solid } GN\text{)} = \text{(solid } SV\text{)}.$$
+.. math::
+
+   \text{(solid } GN\text{)} = \text{(solid } SV\text{)}.
 
 But these solids are similar and similarly situated; therefore their faces are similar and equal; :just:`[XI. Def. 10] <XI.def.10>` therefore the corresponding sides :g:`GH <0363.g1:/ G H />`, :g:`ST <0363.g1:/ S T />` are :eq:`equal <0363.g1:/ G H / = 0363.g1:/ S T />`.
 
@@ -73,7 +89,9 @@ But these solids are similar and similarly situated; therefore their faces are s
 
 Hence
 
-$$AB : CD = EF : GH.$$
+.. math::
+
+   AB : CD = EF : GH.
 
 ----
 

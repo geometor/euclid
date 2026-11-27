@@ -99,112 +99,122 @@ Let :g:`ABCDE <0512.g1:< A B C D E >>` be an :eq:`equilateral <0512.g1:/ A B / =
 
 ----
 
-We have seen in the preceding notes that, if $r$ be the radius of the sphere circumscribing the five solid figures,
+We have seen in the preceding notes that, if :math:`r` be the radius of the sphere circumscribing the five solid figures,
 
-$$\begin{aligned}
-(\text{edge of tetrahedron}) &= \tfrac{2}{3} \sqrt{6} \cdot r, \\
-(\text{edge of octahedron}) &= \sqrt{2} \cdot r, \\
-(\text{edge of cube}) &= \tfrac{2}{3} \sqrt{3} \cdot r, \\
-(\text{edge of icosahedron}) &= \tfrac{r}{5} \sqrt{10(5-\sqrt{5})}, \\
-(\text{edge of dodecahedron}) &= \tfrac{r}{3} (\sqrt{15}-\sqrt{3}).
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   (\text{edge of tetrahedron}) &= \tfrac{2}{3} \sqrt{6} \cdot r, \\
+   (\text{edge of octahedron}) &= \sqrt{2} \cdot r, \\
+   (\text{edge of cube}) &= \tfrac{2}{3} \sqrt{3} \cdot r, \\
+   (\text{edge of icosahedron}) &= \tfrac{r}{5} \sqrt{10(5-\sqrt{5})}, \\
+   (\text{edge of dodecahedron}) &= \tfrac{r}{3} (\sqrt{15}-\sqrt{3}).
+   \end{aligned}
 
 Euclid here exhibits the edges of all the five regular solids in one figure.
 
-(1) Make :g:`AD <0507.g1:/ A D />` equal to $2$ :g:`DB <0507.g1:/ D B />`. Thus :g:`BA <0507.g1:/ A B />` $= \tfrac{3}{2}$ :g:`AD <0507.g1:/ A D />`, and :g:`BA <0507.g1:/ A B />` $:$ :g:`AD <0507.g1:/ A D />` $=$ :g:`BA <0507.g1:/ A B />` $^2 :$ :g:`AF <0507.g1:/ A F />` $^2$; therefore :g:`BA <0507.g1:/ A B />` $^2 = \tfrac{3}{2}$ :g:`AF <0507.g1:/ A F />` $^2$. Thus :g:`AF <0507.g1:/ A F />` $= \sqrt{\tfrac{2}{3}} \cdot 2r = \tfrac{2}{3} \sqrt{6} \cdot r = (\text{edge of tetrahedron})$.
+(1) Make :g:`AD <0507.g1:/ A D />` equal to :math:`2` :g:`DB <0507.g1:/ D B />`. Thus :g:`BA <0507.g1:/ A B />` :math:`= \tfrac{3}{2}` :g:`AD <0507.g1:/ A D />`, and :g:`BA <0507.g1:/ A B />` :math:`:` :g:`AD <0507.g1:/ A D />` :math:`=` :g:`BA <0507.g1:/ A B />` :math:`^2 :` :g:`AF <0507.g1:/ A F />` :math:`^2`; therefore :g:`BA <0507.g1:/ A B />` :math:`^2 = \tfrac{3}{2}` :g:`AF <0507.g1:/ A F />` :math:`^2`. Thus :g:`AF <0507.g1:/ A F />` :math:`= \sqrt{\tfrac{2}{3}} \cdot 2r = \tfrac{2}{3} \sqrt{6} \cdot r = (\text{edge of tetrahedron})`.
 
-(2) :g:`AB <0507.g1:/ A B />` $^2 :$ :g:`BF <0507.g1:/ F B />` $^2 =$ :g:`AB <0507.g1:/ A B />` $:$ :g:`BD <0507.g1:/ D B />` $= 3 : 1$. Therefore :g:`BF <0507.g1:/ F B />` $^2 = \tfrac{1}{3}$ :g:`AB <0507.g1:/ A B />` $^2$, or :g:`BF <0507.g1:/ F B />` $= \frac{2}{\sqrt{3}} \cdot r = \tfrac{2}{3} \sqrt{3} \cdot r = (\text{edge of cube})$.
+(2) :g:`AB <0507.g1:/ A B />` :math:`^2 :` :g:`BF <0507.g1:/ F B />` :math:`^2 =` :g:`AB <0507.g1:/ A B />` :math:`:` :g:`BD <0507.g1:/ D B />` :math:`= 3 : 1`. Therefore :g:`BF <0507.g1:/ F B />` :math:`^2 = \tfrac{1}{3}` :g:`AB <0507.g1:/ A B />` :math:`^2`, or :g:`BF <0507.g1:/ F B />` :math:`= \frac{2}{\sqrt{3}} \cdot r = \tfrac{2}{3} \sqrt{3} \cdot r = (\text{edge of cube})`.
 
-(3) :g:`AB <0507.g1:/ A B />` $^2 = 2$ :g:`BE <0507.g1:/ E B />` $^2$. Therefore :g:`BE <0507.g1:/ E B />` $= \sqrt{2} \cdot r = (\text{edge of octahedron})$.
+(3) :g:`AB <0507.g1:/ A B />` :math:`^2 = 2` :g:`BE <0507.g1:/ E B />` :math:`^2`. Therefore :g:`BE <0507.g1:/ E B />` :math:`= \sqrt{2} \cdot r = (\text{edge of octahedron})`.
 
-(4) Draw :g:`AG <0507.g1:/ A G />` perpendicular and :eq:`equal <0507.g1:/ A G / = 0507.g1:/ A B />` to :g:`AB <0507.g1:/ A B />`. Join :g:`GC <0507.g1:/ G C />`, meeting the semicircle in :g:`H <0507.g1:H>`, and draw :g:`HK <0507.g1:/ H K />` perpendicular to :g:`AB <0507.g1:/ A B />`. Then :g:`GA <0507.g1:/ A G />` $= 2$ :g:`AC <0507.g1:/ A C />`; therefore, by similar triangles, :g:`HK <0507.g1:/ H K />` $= 2$ :g:`KC <0507.g1:/ C K />`. Hence :g:`HK <0507.g1:/ H K />` $^2 = 4$ :g:`KC <0507.g1:/ C K />` $^2$, and therefore $5$ :g:`KC <0507.g1:/ C K />` $^2 =$ :g:`HK <0507.g1:/ H K />` $^2 +$ :g:`KC <0507.g1:/ C K />` $^2$ $= $ :g:`HC <0507.g1:/ H C />` $^2$ $= $ :g:`CB <0507.g1:/ C B />` $^2$.
+(4) Draw :g:`AG <0507.g1:/ A G />` perpendicular and :eq:`equal <0507.g1:/ A G / = 0507.g1:/ A B />` to :g:`AB <0507.g1:/ A B />`. Join :g:`GC <0507.g1:/ G C />`, meeting the semicircle in :g:`H <0507.g1:H>`, and draw :g:`HK <0507.g1:/ H K />` perpendicular to :g:`AB <0507.g1:/ A B />`. Then :g:`GA <0507.g1:/ A G />` :math:`= 2` :g:`AC <0507.g1:/ A C />`; therefore, by similar triangles, :g:`HK <0507.g1:/ H K />` :math:`= 2` :g:`KC <0507.g1:/ C K />`. Hence :g:`HK <0507.g1:/ H K />` :math:`^2 = 4` :g:`KC <0507.g1:/ C K />` :math:`^2`, and therefore :math:`5` :g:`KC <0507.g1:/ C K />` :math:`^2 =` :g:`HK <0507.g1:/ H K />` :math:`^2 +` :g:`KC <0507.g1:/ C K />` :math:`^2` :math:`=` :g:`HC <0507.g1:/ H C />` :math:`^2` :math:`=` :g:`CB <0507.g1:/ C B />` :math:`^2`.
 
-Again, since :g:`AB <0507.g1:/ A B />` $= 2$ :g:`CB <0507.g1:/ C B />`, and :g:`AD <0507.g1:/ A D />` $= 2$ :g:`DB <0507.g1:/ D B />`, by subtraction, :g:`BD <0507.g1:/ D B />` $= 2$ :g:`DC <0507.g1:/ C D />`, or :g:`BC <0507.g1:/ C B />` $= 3$ :g:`DC <0507.g1:/ C D />`.
+Again, since :g:`AB <0507.g1:/ A B />` :math:`= 2` :g:`CB <0507.g1:/ C B />`, and :g:`AD <0507.g1:/ A D />` :math:`= 2` :g:`DB <0507.g1:/ D B />`, by subtraction, :g:`BD <0507.g1:/ D B />` :math:`= 2` :g:`DC <0507.g1:/ C D />`, or :g:`BC <0507.g1:/ C B />` :math:`= 3` :g:`DC <0507.g1:/ C D />`.
 
 .. _folio-iii-0514:
 
 .. folio:: 0514
    :page: 510
 
-Therefore $9$ :g:`DC <0507.g1:/ C D />` $^2 =$ :g:`BC <0507.g1:/ C B />` $^2$ $= 5$ :g:`KC <0507.g1:/ C K />` $^2$.
+Therefore :math:`9` :g:`DC <0507.g1:/ C D />` :math:`^2 =` :g:`BC <0507.g1:/ C B />` :math:`^2` :math:`= 5` :g:`KC <0507.g1:/ C K />` :math:`^2`.
 
-Hence :g:`KC <0507.g1:/ C K />` $>$ :g:`CD <0507.g1:/ C D />`.
+Hence :g:`KC <0507.g1:/ C K />` :math:`>` :g:`CD <0507.g1:/ C D />`.
 
 Make :g:`CL <0507.g1:/ C L />` :eq:`equal <0507.g1:/ C L / = 0507.g1:/ C K />` to :g:`KC <0507.g1:/ C K />`, draw :g:`LM <0507.g1:/ L M />` at right angles to :g:`AB <0507.g1:/ A B />`, and join :g:`AM <0507.g1:/ A M />`, :g:`MB <0507.g1:/ M B />`.
 
-Since :g:`CB <0507.g1:/ C B />` $^2 = 5$ :g:`KC <0507.g1:/ C K />` $^2$, :g:`AB <0507.g1:/ A B />` $^2 = 5$ :g:`KL <0507.g1:/ K L />` $^2$.
+Since :g:`CB <0507.g1:/ C B />` :math:`^2 = 5` :g:`KC <0507.g1:/ C K />` :math:`^2`, :g:`AB <0507.g1:/ A B />` :math:`^2 = 5` :g:`KL <0507.g1:/ K L />` :math:`^2`.
 
-It follows that :g:`KL <0507.g1:/ K L />` ($= \sqrt{\tfrac{4}{5}} \cdot r$) is the radius of, or the side of the regular hexagon in, the circle containing the pentagonal sections of the icosahedron. :just:`[XIII. 16] <XIII.16>`
+It follows that :g:`KL <0507.g1:/ K L />` (:math:`= \sqrt{\tfrac{4}{5}} \cdot r`) is the radius of, or the side of the regular hexagon in, the circle containing the pentagonal sections of the icosahedron. :just:`[XIII. 16] <XIII.16>`
 
-And, since $2r = (\text{side of hexagon}) + 2 (\text{side of decagon in same circle})$ :just:`[XIII. 16, Por.]` :g:`AK <0507.g1:/ A K />` $=$ :g:`LB <0507.g1:/ L B />` $= (\text{side of decagon in the said circle})$.
+And, since :math:`2r = (\text{side of hexagon}) + 2 (\text{side of decagon in same circle})` :just:`[XIII. 16, Por.]` :g:`AK <0507.g1:/ A K />` :math:`=` :g:`LB <0507.g1:/ L B />` :math:`= (\text{side of decagon in the said circle})`.
 
-But :g:`LM <0507.g1:/ L M />` $=$ :g:`HK <0507.g1:/ H K />` $=$ :g:`KL <0507.g1:/ K L />` $= (\text{side of hexagon in circle})$.
+But :g:`LM <0507.g1:/ L M />` :math:`=` :g:`HK <0507.g1:/ H K />` :math:`=` :g:`KL <0507.g1:/ K L />` :math:`= (\text{side of hexagon in circle})`.
 
-Therefore :g:`LM <0507.g1:/ L M />` $^2 +$ :g:`LB <0507.g1:/ L B />` $^2 (=$ :g:`BM <0507.g1:/ M B />` $^2) = (\text{side of pentagon in circle})^2$ :just:`[XIII. 10] <XIII.10>` $= (\text{edge of icosahedron})^2$, and :g:`BM <0507.g1:/ M B />` $= (\text{edge of icosahedron})$.
+Therefore :g:`LM <0507.g1:/ L M />` :math:`^2 +` :g:`LB <0507.g1:/ L B />` :math:`^2 (=` :g:`BM <0507.g1:/ M B />` :math:`^2) = (\text{side of pentagon in circle})^2` :just:`[XIII. 10] <XIII.10>` :math:`= (\text{edge of icosahedron})^2`, and :g:`BM <0507.g1:/ M B />` :math:`= (\text{edge of icosahedron})`.
 
-[More shortly, :g:`HK <0507.g1:/ H K />` $= 2$ :g:`KC <0507.g1:/ C K />`, whence :g:`HK <0507.g1:/ H K />` $^2 = 4$ :g:`KC <0507.g1:/ C K />` $^2$, and $5$ :g:`KC <0507.g1:/ C K />` $^2 =$ :g:`HC <0507.g1:/ H C />` $^2 = r^2$.
+[More shortly, :g:`HK <0507.g1:/ H K />` :math:`= 2` :g:`KC <0507.g1:/ C K />`, whence :g:`HK <0507.g1:/ H K />` :math:`^2 = 4` :g:`KC <0507.g1:/ C K />` :math:`^2`, and :math:`5` :g:`KC <0507.g1:/ C K />` :math:`^2 =` :g:`HC <0507.g1:/ H C />` :math:`^2 = r^2`.
 
-Also :g:`AK <0507.g1:/ A K />` $= r -$ :g:`CK <0507.g1:/ C K />` $= r \left( 1 - \frac{1}{\sqrt{5}} \right)$.
+Also :g:`AK <0507.g1:/ A K />` :math:`= r -` :g:`CK <0507.g1:/ C K />` :math:`= r \left( 1 - \frac{1}{\sqrt{5}} \right)`.
 
-Thus :g:`BM <0507.g1:/ M B />` $^2 =$ :g:`HK <0507.g1:/ H K />` $^2 +$ :g:`AK <0507.g1:/ A K />` $^2$ $= \tfrac{4}{5} r^2 + r^2 \left( 1 - \frac{1}{\sqrt{5}} \right)^2$ $= r^2 \left( \frac{10}{5} - \frac{2}{\sqrt{5}} \right)$ $= \frac{r^2}{5} (10 - 2\sqrt{5})$, and :g:`BM <0507.g1:/ M B />` $= \frac{r}{5} \sqrt{10(5-\sqrt{5})} = (\text{edge of icosahedron})$.]
+Thus :g:`BM <0507.g1:/ M B />` :math:`^2 =` :g:`HK <0507.g1:/ H K />` :math:`^2 +` :g:`AK <0507.g1:/ A K />` :math:`^2` :math:`= \tfrac{4}{5} r^2 + r^2 \left( 1 - \frac{1}{\sqrt{5}} \right)^2` :math:`= r^2 \left( \frac{10}{5} - \frac{2}{\sqrt{5}} \right)` :math:`= \frac{r^2}{5} (10 - 2\sqrt{5})`, and :g:`BM <0507.g1:/ M B />` :math:`= \frac{r}{5} \sqrt{10(5-\sqrt{5})} = (\text{edge of icosahedron})`.]
 
-(5) Cut :g:`BF <0507.g1:/ F B />` (the edge of the cube) in extreme and mean ratio at :g:`N <0507.g1:N>`. Then, if :g:`BN <0507.g1:/ N B />` be the greater segment, :g:`BN <0507.g1:/ N B />` $= (\text{edge of dodecahedron})$. :just:`[XIII. 17] <XIII.17>`
+(5) Cut :g:`BF <0507.g1:/ F B />` (the edge of the cube) in extreme and mean ratio at :g:`N <0507.g1:N>`. Then, if :g:`BN <0507.g1:/ N B />` be the greater segment, :g:`BN <0507.g1:/ N B />` :math:`= (\text{edge of dodecahedron})`. :just:`[XIII. 17] <XIII.17>`
 
-[Solving, we obtain :g:`BN <0507.g1:/ N B />` $= \frac{\sqrt{5}-1}{2} \cdot$ :g:`BF <0507.g1:/ F B />` $= \frac{\sqrt{5}-1}{2} \cdot \frac{2}{\sqrt{3}} \cdot r$ $= \frac{r}{3} (\sqrt{15}-\sqrt{3})$ $= (\text{edge of dodecahedron})$.]
+[Solving, we obtain :g:`BN <0507.g1:/ N B />` :math:`= \frac{\sqrt{5}-1}{2} \cdot` :g:`BF <0507.g1:/ F B />` :math:`= \frac{\sqrt{5}-1}{2} \cdot \frac{2}{\sqrt{3}} \cdot r` :math:`= \frac{r}{3} (\sqrt{15}-\sqrt{3})` :math:`= (\text{edge of dodecahedron})`.]
 
 .. _folio-iii-0515:
 
 .. folio:: 0515
    :page: 511
 
-(6) If $t, o, c$ are the edges of the tetrahedron, octahedron and cube respectively,
+(6) If :math:`t, o, c` are the edges of the tetrahedron, octahedron and cube respectively,
 
-$$4r^2 = \tfrac{3}{2} t^2 = 2o^2 = 3c^2.$$
+.. math::
 
-If each of these equals is put equal to $X$,
+   4r^2 = \tfrac{3}{2} t^2 = 2o^2 = 3c^2.
 
-$$\begin{aligned}
-4r^2 &= X, \\
-t^2 &= \tfrac{2}{3} \cdot X, \\
-o^2 &= \tfrac{1}{2} \cdot X, \\
-c^2 &= \tfrac{1}{3} \cdot X,
-\end{aligned}$$
+If each of these equals is put equal to :math:`X`,
+
+.. math::
+
+   \begin{aligned}
+   4r^2 &= X, \\
+   t^2 &= \tfrac{2}{3} \cdot X, \\
+   o^2 &= \tfrac{1}{2} \cdot X, \\
+   c^2 &= \tfrac{1}{3} \cdot X,
+   \end{aligned}
 
 whence
 
-$$4r^2 : t^2 : o^2 : c^2 = 6 : 4 : 3 : 2,$$
+.. math::
 
-and the ratios between $2r, t, o, c$ are all rational (in Euclid's sense). The ratios between these and the edges of the icosahedron and the dodecahedron are *irrational*.
+   4r^2 : t^2 : o^2 : c^2 = 6 : 4 : 3 : 2,
+
+and the ratios between :math:`2r, t, o, c` are all rational (in Euclid's sense). The ratios between these and the edges of the icosahedron and the dodecahedron are *irrational*.
 
 (7) To prove that
 
-$$(\text{edge of icosahedron}) > (\text{edge of dodecahedron}),$$
+.. math::
 
-i.e. that :g:`MB <0507.g1:/ M B />` $>$ :g:`NB <0507.g1:/ N B />`.
+   (\text{edge of icosahedron}) > (\text{edge of dodecahedron}),
 
-.. subclause::
-
-   By similar $\triangle\text{s}$ :g:`FDB <0507.g1:< F D B >>`, :g:`AFB <0507.g1:< A F B >>`,
-
-.. assertion::
-
-   :g:`DB <0507.g1:/ D B />` $:$ :g:`BF <0507.g1:/ F B />` $=$ :g:`BF <0507.g1:/ F B />` $:$ :g:`BA <0507.g1:/ A B />`, or :g:`DB <0507.g1:/ D B />` $:$ :g:`BA <0507.g1:/ A B />` $=$ :g:`DB <0507.g1:/ D B />` $^2 :$ :g:`BF <0507.g1:/ F B />` $^2$.
+i.e. that :g:`MB <0507.g1:/ M B />` :math:`>` :g:`NB <0507.g1:/ N B />`.
 
 .. subclause::
 
-   But $3$ :g:`DB <0507.g1:/ D B />` $=$ :g:`BA <0507.g1:/ A B />`;
+   By similar :math:`\triangle\text{s}` :g:`FDB <0507.g1:< F D B >>`, :g:`AFB <0507.g1:< A F B >>`,
 
 .. assertion::
 
-   therefore :g:`BF <0507.g1:/ F B />` $^2 = 3$ :g:`DB <0507.g1:/ D B />` $^2$.
+   :g:`DB <0507.g1:/ D B />` :math:`:` :g:`BF <0507.g1:/ F B />` :math:`=` :g:`BF <0507.g1:/ F B />` :math:`:` :g:`BA <0507.g1:/ A B />`, or :g:`DB <0507.g1:/ D B />` :math:`:` :g:`BA <0507.g1:/ A B />` :math:`=` :g:`DB <0507.g1:/ D B />` :math:`^2 :` :g:`BF <0507.g1:/ F B />` :math:`^2`.
 
 .. subclause::
 
-   By hypothesis, :g:`AD <0507.g1:/ A D />` $^2 = 4$ :g:`DB <0507.g1:/ D B />` $^2$;
+   But :math:`3` :g:`DB <0507.g1:/ D B />` :math:`=` :g:`BA <0507.g1:/ A B />`;
 
 .. assertion::
 
-   therefore :g:`AD <0507.g1:/ A D />` $>$ :g:`BF <0507.g1:/ F B />`, and, :term:`*a fortiori* <a-fortiori>`, :g:`AL <0507.g1:/ A L />` $>$ :g:`FB <0507.g1:/ F B />`.
+   therefore :g:`BF <0507.g1:/ F B />` :math:`^2 = 3` :g:`DB <0507.g1:/ D B />` :math:`^2`.
+
+.. subclause::
+
+   By hypothesis, :g:`AD <0507.g1:/ A D />` :math:`^2 = 4` :g:`DB <0507.g1:/ D B />` :math:`^2`;
+
+.. assertion::
+
+   therefore :g:`AD <0507.g1:/ A D />` :math:`>` :g:`BF <0507.g1:/ F B />`, and, :term:`*a fortiori* <a-fortiori>`, :g:`AL <0507.g1:/ A L />` :math:`>` :g:`FB <0507.g1:/ F B />`.
 
 .. subclause::
 
@@ -220,8 +230,8 @@ i.e. that :g:`MB <0507.g1:/ M B />` $>$ :g:`NB <0507.g1:/ N B />`.
 
 .. assertion::
 
-   Therefore, since :g:`AL <0507.g1:/ A L />` $>$ :g:`BF <0507.g1:/ F B />`, :g:`KL <0507.g1:/ K L />` $>$ :g:`BN <0507.g1:/ N B />`, or :g:`LM <0507.g1:/ L M />` $>$ :g:`BN <0507.g1:/ N B />`.
+   Therefore, since :g:`AL <0507.g1:/ A L />` :math:`>` :g:`BF <0507.g1:/ F B />`, :g:`KL <0507.g1:/ K L />` :math:`>` :g:`BN <0507.g1:/ N B />`, or :g:`LM <0507.g1:/ L M />` :math:`>` :g:`BN <0507.g1:/ N B />`.
 
 .. assertion::
 
-   And therefore, :term:`*a fortiori* <a-fortiori>`, :g:`MB <0507.g1:/ M B />` $>$ :g:`BN <0507.g1:/ N B />`.
+   And therefore, :term:`*a fortiori* <a-fortiori>`, :g:`MB <0507.g1:/ M B />` :math:`>` :g:`BN <0507.g1:/ N B />`.

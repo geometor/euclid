@@ -62,7 +62,7 @@ segment :g:`AEB <0060.g1:( A E B )>` will not fail to :coincide:`coincide <0060.
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] **fall awry**, $\text{παραλλάξει}$, the same word as used in the like case in I. 8. The word implies that the applied figure will partly fall short of, and partly overlap, the figure to which it is applied.
+.. [#f1] **fall awry**, :math:`\text{παραλλάξει}`, the same word as used in the like case in I. 8. The word implies that the applied figure will partly fall short of, and partly overlap, the figure to which it is applied.
 
 Dependency Graph
 ----------------

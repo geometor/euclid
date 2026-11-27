@@ -97,7 +97,7 @@ internally.
 
 .. [#f1] **ABDC.** Euclid writes :g:`ABCD <0038.g3:( A B C D )>` (here and in the next proposition), notwithstanding the order in which the points are placed in the figure.
 
-.. [#f2] **does it so touch it.** It is necessary to supply these words which the Greek ($\text{ὅτι οὐδὲ ἐκτός}$ and $\text{ὅτι οὐδὲ ἐντός}$) leaves to be understood.
+.. [#f2] **does it so touch it.** It is necessary to supply these words which the Greek (:math:`\text{ὅτι οὐδὲ ἐκτός}` and :math:`\text{ὅτι οὐδὲ ἐντός}`) leaves to be understood.
 
 Dependency Graph
 ----------------

@@ -34,7 +34,7 @@ The result here, and in the next propositions, is really seen more readily by me
 .. picture:: 0445.g1.svg
    :alt: Book XIII, Proposition 1 - Alternative / Lemma Figure
 
-In this figure :g:`SR <0445.g1:/ S R />` = :g:`AC <0445.g1:/ A C />` + $\frac{1}{2}$ :g:`AB <0445.g1:/ A B />`, by construction; and we have therefore to prove that (sq. on :g:`SR <0445.g1:/ S R />`) = 5 (sq. on :g:`AR <0445.g1:/ A R />`).
+In this figure :g:`SR <0445.g1:/ S R />` = :g:`AC <0445.g1:/ A C />` + :math:`\frac{1}{2}` :g:`AB <0445.g1:/ A B />`, by construction; and we have therefore to prove that (sq. on :g:`SR <0445.g1:/ S R />`) = 5 (sq. on :g:`AR <0445.g1:/ A R />`).
 
 .. _folio-iii-0446:
 
@@ -52,14 +52,14 @@ To show the character of the interpolated matter I need only give the analysis a
 .. picture:: 0446.g1.svg
    :alt: Book XIII, Proposition 1 - Analysis Straight Line
 
-Let :g:`AB <0446.g1:/ A B />` be divided in extreme and mean ratio at :g:`C <0446.g1:C>`, :g:`AC <0446.g1:/ A C />` being the greater segment; and let $AD = \frac{1}{2}AB$, that is, :g:`AD <0446.g1:/ A D />` = $\frac{1}{2}$ :g:`AB <0446.g1:/ A B />`. I say that (sq. on :g:`CD <0446.g1:/ C D />`) = 5 (sq. on :g:`AD <0446.g1:/ A D />`). (Analysis.) "For, since (sq. on :g:`CD <0446.g1:/ C D />`) = 5 (sq. on :g:`AD <0446.g1:/ A D />`)," and (sq. on :g:`CD <0446.g1:/ C D />`) = (sq. on :g:`CA <0446.g1:/ C A />`) + (sq. on :g:`AD <0446.g1:/ A D />`) + 2 (rect. :g:`CA <0446.g1:/ C A />`, :g:`AD <0446.g1:/ A D />`), therefore (sq. on :g:`CA <0446.g1:/ C A />`) + 2 (rect. :g:`CA <0446.g1:/ C A />`, :g:`AD <0446.g1:/ A D />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`). But rect. :g:`BA <0446.g1:/ B A />` . :g:`AC <0446.g1:/ A C />` = 2 (rect. :g:`CA <0446.g1:/ C A />` . :g:`AD <0446.g1:/ A D />`), and (sq. on :g:`CA <0446.g1:/ C A />`) = (rect. :g:`AB <0446.g1:/ A B />`, :g:`BC <0446.g1:/ B C />`).
+Let :g:`AB <0446.g1:/ A B />` be divided in extreme and mean ratio at :g:`C <0446.g1:C>`, :g:`AC <0446.g1:/ A C />` being the greater segment; and let :math:`AD = \frac{1}{2}AB`, that is, :g:`AD <0446.g1:/ A D />` = :math:`\frac{1}{2}` :g:`AB <0446.g1:/ A B />`. I say that (sq. on :g:`CD <0446.g1:/ C D />`) = 5 (sq. on :g:`AD <0446.g1:/ A D />`). (Analysis.) "For, since (sq. on :g:`CD <0446.g1:/ C D />`) = 5 (sq. on :g:`AD <0446.g1:/ A D />`)," and (sq. on :g:`CD <0446.g1:/ C D />`) = (sq. on :g:`CA <0446.g1:/ C A />`) + (sq. on :g:`AD <0446.g1:/ A D />`) + 2 (rect. :g:`CA <0446.g1:/ C A />`, :g:`AD <0446.g1:/ A D />`), therefore (sq. on :g:`CA <0446.g1:/ C A />`) + 2 (rect. :g:`CA <0446.g1:/ C A />`, :g:`AD <0446.g1:/ A D />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`). But rect. :g:`BA <0446.g1:/ B A />` . :g:`AC <0446.g1:/ A C />` = 2 (rect. :g:`CA <0446.g1:/ C A />` . :g:`AD <0446.g1:/ A D />`), and (sq. on :g:`CA <0446.g1:/ C A />`) = (rect. :g:`AB <0446.g1:/ A B />`, :g:`BC <0446.g1:/ B C />`).
 
 .. _folio-iii-0447:
 
 .. folio:: 0447
    :page: 443
 
-Therefore (rect. :g:`BA <0446.g1:/ B A />`, :g:`AC <0446.g1:/ A C />`) + (rect. :g:`AB <0446.g1:/ A B />`, :g:`BC <0446.g1:/ B C />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`), or (sq. on :g:`AB <0446.g1:/ A B />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`): *and this is true, since* :g:`AD <0446.g1:/ A D />` = $\frac{1}{2}$ :g:`AB <0446.g1:/ A B />`.
+Therefore (rect. :g:`BA <0446.g1:/ B A />`, :g:`AC <0446.g1:/ A C />`) + (rect. :g:`AB <0446.g1:/ A B />`, :g:`BC <0446.g1:/ B C />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`), or (sq. on :g:`AB <0446.g1:/ A B />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`): *and this is true, since* :g:`AD <0446.g1:/ A D />` = :math:`\frac{1}{2}` :g:`AB <0446.g1:/ A B />`.
 
 (Synthesis.) Since (sq. on :g:`AB <0446.g1:/ A B />`) = 4 (sq. on :g:`AD <0446.g1:/ A D />`), and (sq. on :g:`AB <0446.g1:/ A B />`) = (rect. :g:`BA <0446.g1:/ B A />`, :g:`AC <0446.g1:/ A C />`) + (rect. :g:`AB <0446.g1:/ A B />`, :g:`BC <0446.g1:/ B C />`), therefore 4 (sq. on :g:`AD <0446.g1:/ A D />`) = 2 (rect. :g:`DA <0446.g1:/ D A />`, :g:`AC <0446.g1:/ A C />`) + sq. on :g:`AC <0446.g1:/ A C />`.
 

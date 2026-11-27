@@ -19,30 +19,40 @@ Back to :ref:`Proposition VIII.9 <VIII.9>`.
 .. folio:: 0366
    :page: 360
 
-Suppose there are $n$ geometric means between $a$, $b$, two numbers prime to one another; there are the same number ($n$) of geometric means between $1$ and $a$ and between $1$ and $b$.
+Suppose there are :math:`n` geometric means between :math:`a`, :math:`b`, two numbers prime to one another; there are the same number (:math:`n`) of geometric means between :math:`1` and :math:`a` and between :math:`1` and :math:`b`.
 
-If $c, d\dots$ are the $n$ means between $a$, $b$,
+If :math:`c, d\dots` are the :math:`n` means between :math:`a`, :math:`b`,
 
-$$a,\quad c,\quad d\dots b$$
+.. math::
 
-are the least numbers in that ratio, since $a$, $b$ are prime to one another. :just:`[VIII. 1] <VIII.1>`
+   a,\quad c,\quad d\dots b
+
+are the least numbers in that ratio, since :math:`a`, :math:`b` are prime to one another. :just:`[VIII. 1] <VIII.1>`
 
 The terms are therefore respectively identical with
 
-$$\alpha^{n+1},\quad \alpha^n\beta,\quad \alpha^{n-1}\beta^2\dots \alpha\beta^n,\quad \beta^{n+1},$$
+.. math::
 
-where $\alpha$, $\beta$ is the common ratio in its lowest terms. :just:`[VIII. 2, Por.]`
+   \alpha^{n+1},\quad \alpha^n\beta,\quad \alpha^{n-1}\beta^2\dots \alpha\beta^n,\quad \beta^{n+1},
+
+where :math:`\alpha`, :math:`\beta` is the common ratio in its lowest terms. :just:`[VIII. 2, Por.]`
 
 Thus
 
-$$a = \alpha^{n+1},\quad b = \beta^{n+1}.$$
+.. math::
+
+   a = \alpha^{n+1},\quad b = \beta^{n+1}.
 
 Now
 
-$$1 : \alpha = \alpha : \alpha^2 = \alpha^2 : \alpha^3 \dots = \alpha^n : \alpha^{n+1},$$
+.. math::
+
+   1 : \alpha = \alpha : \alpha^2 = \alpha^2 : \alpha^3 \dots = \alpha^n : \alpha^{n+1},
 
 and
 
-$$1 : \beta = \beta : \beta^2 = \beta^2 : \beta^3 \dots = \beta^n : \beta^{n+1};$$
+.. math::
 
-whence there are $n$ geometric means between $1$, $a$, and between $1$, $b$.
+   1 : \beta = \beta : \beta^2 = \beta^2 : \beta^3 \dots = \beta^n : \beta^{n+1};
+
+whence there are :math:`n` geometric means between :math:`1`, :math:`a`, and between :math:`1`, :math:`b`.

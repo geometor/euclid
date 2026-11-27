@@ -12,7 +12,7 @@ Proposition 54 [νδ΄ · Prop. Prop. LIX] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.54 <D.54>` and :ref:`D.55 <D.55>` invert the quadratic scaling map $S \propto x^2$! Using :ref:`D.24 <D.24>` (which extracted the square root of a ratio via the geometric mean :just:`[VI.13] <VI.13>`), :ref:`D.54 <D.54>` deduces linear side-ratios from area-ratios, and :ref:`D.55 <D.55>` proves the grand converse of :ref:`D.52 <D.52>`: **any figure given both in species and in magnitude has all its sides given in magnitude**—the exact analytical counterpart of :just:`[Elements VI.25] <VI.25>` (*constructing a figure similar to one given figure and equal in area to another*).
+* :ref:`D.54 <D.54>` and :ref:`D.55 <D.55>` invert the quadratic scaling map :math:`S \propto x^2`! Using :ref:`D.24 <D.24>` (which extracted the square root of a ratio via the geometric mean :just:`[VI.13] <VI.13>`), :ref:`D.54 <D.54>` deduces linear side-ratios from area-ratios, and :ref:`D.55 <D.55>` proves the grand converse of :ref:`D.52 <D.52>`: **any figure given both in species and in magnitude has all its sides given in magnitude**—the exact analytical counterpart of :just:`[Elements VI.25] <VI.25>` (*constructing a figure similar to one given figure and equal in area to another*).
 
 Textual & Critical Apparatus
 ----------------------------

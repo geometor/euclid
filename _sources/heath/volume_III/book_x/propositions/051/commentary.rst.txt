@@ -19,32 +19,45 @@ Back to :ref:`Proposition X.51 <X.51>`.
 .. folio:: 0114
    :page: 110
 
-Take numbers $m$, $n$ such that $(m + n)$ has not to either $m$ or $n$ the ratio of square to square.
+Take numbers :math:`m`, :math:`n` such that :math:`(m + n)` has not to either :math:`m` or :math:`n` the ratio of square to square.
 
-Take $x$ such that
+Take :math:`x` such that
 
-$$(m + n) : m = k^2 p^2 : x^2,$$
+.. math::
+
+   (m + n) : m = k^2 p^2 : x^2,
 
 whence
 
-$$x = kp \sqrt{\frac{m}{m + n}} = \frac{kp}{\sqrt{1 + \lambda}}\text{, say.}$$
+.. math::
 
-Then $kp + x$, or $kp + \frac{kp}{\sqrt{1 + \lambda}}$, is a :term:`*fourth binomial* <fourth-binomial>` straight line.
+   x = kp \sqrt{\frac{m}{m + n}} = \frac{kp}{\sqrt{1 + \lambda}}\text{, say.}
 
-For $\sqrt{k^2 p^2 - x^2}$ is incommensurable in length with $kp$, and $kp$ is commensurable in length with $p$.
+Then :math:`kp + x`, or :math:`kp + \frac{kp}{\sqrt{1 + \lambda}}`, is a :term:`*fourth binomial* <fourth-binomial>` straight line.
+
+For :math:`\sqrt{k^2 p^2 - x^2}` is incommensurable in length with :math:`kp`, and :math:`kp` is commensurable in length with :math:`p`.
 
 The corresponding :term:`*fourth apotome* <fourth-apotome>` [x. 88] is
 
-$$kp - \frac{kp}{\sqrt{1 + \lambda}}.$$
+.. math::
+
+   kp - \frac{kp}{\sqrt{1 + \lambda}}.
 
 The equation of which the two expressions are the roots is
 
-$$x^2 - 2kp \cdot x + \frac{\lambda}{1 + \lambda} k^2 p^2 = 0,$$
+.. math::
+
+   x^2 - 2kp \cdot x + \frac{\lambda}{1 + \lambda} k^2 p^2 = 0,
 
 or
 
-$$x^2 - 2ax + \frac{\lambda}{1 + \lambda} a^2 = 0,$$
+.. math::
+
+   x^2 - 2ax + \frac{\lambda}{1 + \lambda} a^2 = 0,
 
 where
 
-$$a = kp.$$
+.. math::
+
+   a = kp.
+

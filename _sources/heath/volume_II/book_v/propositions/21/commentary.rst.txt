@@ -21,12 +21,16 @@ Back to :ref:`Proposition V.21 <V.21>`.
 
 Algebraically, if
 
-$$\begin{aligned}
-& a : b = e : f, \\
-\text{and} \quad & b : c = d : e,
-\end{aligned}$$
+.. math::
 
-$$\text{then, according as } a > = < c, \quad d > = < f.$$
+   \begin{aligned}
+   & a : b = e : f, \\
+   \text{and} \quad & b : c = d : e,
+   \end{aligned}
+
+.. math::
+
+   \text{then, according as } a > = < c, \quad d > = < f.
 
 :person:`Simson <simson>`'s alterations correspond to those which he makes in Prop. 20. After the first case he proceeds thus.
 
@@ -62,11 +66,16 @@ therefore :g:`F <0184.g1:F>` is greater than :g:`D <0184.g1:D>`, by the first ca
 
 The proof may be shown thus.
 
-$$\text{According as } a > = < c, \quad a : b > = < c : b.$$
+.. math::
 
-But $a : b = e : f$, and, by inversion, $c : b = e : d$.
+   \text{According as } a > = < c, \quad a : b > = < c : b.
 
-$$\begin{aligned}
-\text{Therefore, according as } a > = < c, \quad & e : f > = < e : d, \\
-\text{and therefore } & d > = < f.
-\end{aligned}$$
+But :math:`a : b = e : f`, and, by inversion, :math:`c : b = e : d`.
+
+.. math::
+
+   \begin{aligned}
+   \text{Therefore, according as } a > = < c, \quad & e : f > = < e : d, \\
+   \text{and therefore } & d > = < f.
+   \end{aligned}
+

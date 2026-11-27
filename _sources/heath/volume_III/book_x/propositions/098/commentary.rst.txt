@@ -21,51 +21,68 @@ Back to :ref:`Proposition X.98 <X.98>`.
 
 In this case we have to find and classify
 
-$$\frac{(k^{\frac{1}{4}}\rho \sim k^{\frac{3}{4}}\rho)^2}{\sigma}.$$
+.. math::
 
-Take $x$, $y$, $z$ such that
+   \frac{(k^{\frac{1}{4}}\rho \sim k^{\frac{3}{4}}\rho)^2}{\sigma}.
 
-$$\left.\begin{aligned}
-\sigma x &= k^{\frac{1}{2}}\rho^2 \\
-\sigma y &= k^{\frac{3}{2}}\rho^2 \\
-\sigma \cdot 2z &= 2k\rho^2
-\end{aligned}\right\} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1).$$
+Take :math:`x`, :math:`y`, :math:`z` such that
 
-$(\alpha)$ Now $k^{\frac{1}{2}}\rho^2$, $k^{\frac{3}{2}}\rho^2$ are medial areas;
-therefore $\sigma (x + y)$ is medial,
-whence $(x + y)$ is rational and $\smile \sigma\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).$
+.. math::
 
-But $2k\rho^2$, and therefore $\sigma \cdot 2z$, is rational,
-whence $2z$ is rational and $\sim \sigma\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(3).$
+   \left.\begin{aligned}
+   \sigma x &= k^{\frac{1}{2}}\rho^2 \\
+   \sigma y &= k^{\frac{3}{2}}\rho^2 \\
+   \sigma \cdot 2z &= 2k\rho^2
+   \end{aligned}\right\} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1).
 
-And, $\sigma (x + y)$ being medial, and $\sigma \cdot 2z$ rational,
+:math:`(\alpha)` Now :math:`k^{\frac{1}{2}}\rho^2`, :math:`k^{\frac{3}{2}}\rho^2` are medial areas;
+therefore :math:`\sigma (x + y)` is medial,
+whence :math:`(x + y)` is rational and :math:`\smile \sigma\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).`
 
-$$\sigma (x + y) \smile \sigma \cdot 2z,$$
+But :math:`2k\rho^2`, and therefore :math:`\sigma \cdot 2z`, is rational,
+whence :math:`2z` is rational and :math:`\sim \sigma\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(3).`
+
+And, :math:`\sigma (x + y)` being medial, and :math:`\sigma \cdot 2z` rational,
+
+.. math::
+
+   \sigma (x + y) \smile \sigma \cdot 2z,
 
 or
 
-$$(x + y) \smile 2z.$$
+.. math::
 
-Hence $(x + y)$, $2z$ are rational straight lines commensurable in square only, and therefore $(x + y) - 2z$ is an *apotome*.
+   (x + y) \smile 2z.
 
-$(\beta)$ We prove, as before, that
+Hence :math:`(x + y)`, :math:`2z` are rational straight lines commensurable in square only, and therefore :math:`(x + y) - 2z` is an *apotome*.
 
-$$xy = \frac{1}{4}(2z)^2\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(4).$$
+:math:`(\beta)` We prove, as before, that
 
-Also $k^{\frac{1}{2}}\rho^2 \sim k^{\frac{3}{2}}\rho^2$, or $\sigma x \sim \sigma y$,
+.. math::
+
+   xy = \frac{1}{4}(2z)^2\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(4).
+
+Also :math:`k^{\frac{1}{2}}\rho^2 \sim k^{\frac{3}{2}}\rho^2`, or :math:`\sigma x \sim \sigma y`,
 so that
 
-$$x \sim y\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(5).$$
+.. math::
+
+   x \sim y\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(5).
 
 [This step is omitted in P, and :person:`Heiberg <heiberg>` accordingly brackets it. The result is, however, assumed.]
 
 Therefore [(4), (5)], by x. 17,
 
-$$\sqrt{(x + y)^2 - (2z)^2} \sim (x + y).$$
+.. math::
 
-And $2z \sim \sigma$.
-Therefore $(x + y) - 2z$ is a :term:`*second apotome* <second-apotome>`.
+   \sqrt{(x + y)^2 - (2z)^2} \sim (x + y).
+
+And :math:`2z \sim \sigma`.
+Therefore :math:`(x + y) - 2z` is a :term:`*second apotome* <second-apotome>`.
 
 Obviously
 
-$$(x + y) - 2z = \frac{\rho^2}{\sigma}\{\sqrt{k}(1 + k) - 2k\}.$$
+.. math::
+
+   (x + y) - 2z = \frac{\rho^2}{\sigma}\{\sqrt{k}(1 + k) - 2k\}.
+

@@ -21,7 +21,9 @@ Back to :ref:`Proposition X.46 <X.46>`.
 
 Here, as before, if we use the same notation,
 
-$$(x^2 + y^2) - (x'^2 + y'^2) = 2x'y' - 2xy,$$
+.. math::
+
+   (x^2 + y^2) - (x'^2 + y'^2) = 2x'y' - 2xy,
 
 and the areas on the left side are, by hypothesis, both medial, while the areas on the right side are both rational.
 

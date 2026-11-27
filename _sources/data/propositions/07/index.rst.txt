@@ -24,6 +24,6 @@ Proposition 7 [ζ΄ · Prop. VIII]
 
 *Functional Signature*: ``Given(Mag(AB), Ratio(AC : CB)) -> Determined(Mag(AC), Mag(CB))`` · *Dependencies*: :just:`[Data 2] <D.2>`, :just:`[Data 6] <D.6>`, :just:`[VI.10] <VI.10>`
 
-Let the given magnitude $AC$ be divided into $AB$ and $BC$ in a given ratio $AB : BC$. I say that each of $AB$ and $BC$ is given.
+Let the given magnitude :math:`AC` be divided into :math:`AB` and :math:`BC` in a given ratio :math:`AB : BC`. I say that each of :math:`AB` and :math:`BC` is given.
 
-Since the ratio $AB : BC$ is given, the whole $AC$ has a given ratio to each of $AB$ and $BC$ (:just:`[Data 6] <D.6>`). Yet $AC$ is given in magnitude; therefore each of $AB$ and $BC$ is given in magnitude (:just:`[Data 2] <D.2>`).
+Since the ratio :math:`AB : BC` is given, the whole :math:`AC` has a given ratio to each of :math:`AB` and :math:`BC` (:just:`[Data 6] <D.6>`). Yet :math:`AC` is given in magnitude; therefore each of :math:`AB` and :math:`BC` is given in magnitude (:just:`[Data 2] <D.2>`).

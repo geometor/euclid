@@ -24,9 +24,9 @@ Proposition 63 [ξγ΄ · Omitted (case of Prop. LIII)]
 
 *Functional Signature*: ``Given(Species(△ABC)) -> Determined(Ratio(a^2 : △ABC), Ratio(b^2 : △ABC), Ratio(c^2 : △ABC))`` · *Dependencies*: :just:`[Data 49] <D.49>`, :just:`[I.46] <I.46>`
 
-Let $\\triangle ABC$ be given in species, and on its three sides $AB, BC, CA$ let rectilinear figures $ABDE, BCFG, CAHK$ given in species be described respectively. I say that each of those figures has a given ratio to each of the others.
+Let :math:`\\triangle ABC` be given in species, and on its three sides :math:`AB, BC, CA` let rectilinear figures :math:`ABDE, BCFG, CAHK` given in species be described respectively. I say that each of those figures has a given ratio to each of the others.
 
-Since $\\triangle ABC$ is given in species, the pairwise ratios of its sides $AB : BC$, $BC : CA$, and $CA : AB$ are all given (:just:`[Data Def. 3] <D.def.3>`). Moreover, on the two straight lines $AB$ and $BC$ having the given ratio $AB : BC$, the rectilinear figures $ABDE$ and $BCFG$ are each given in species; therefore the ratio $ABDE : BCFG$ is given (:just:`[Data 51] <D.51>`). For the very same reason the ratios $BCFG : CAHK$ and $CAHK : ABDE$ are also given (:just:`[Data 51] <D.51>`).
+Since :math:`\\triangle ABC` is given in species, the pairwise ratios of its sides :math:`AB : BC`, :math:`BC : CA`, and :math:`CA : AB` are all given (:just:`[Data Def. 3] <D.def.3>`). Moreover, on the two straight lines :math:`AB` and :math:`BC` having the given ratio :math:`AB : BC`, the rectilinear figures :math:`ABDE` and :math:`BCFG` are each given in species; therefore the ratio :math:`ABDE : BCFG` is given (:just:`[Data 51] <D.51>`). For the very same reason the ratios :math:`BCFG : CAHK` and :math:`CAHK : ABDE` are also given (:just:`[Data 51] <D.51>`).
 
 .. picture:: /_static/figures/data_05_cosine_projection.svg
    :alt: Obtuse (D.64) and Acute (D.65) Altitude Projections & Euclidean Law of Cosines

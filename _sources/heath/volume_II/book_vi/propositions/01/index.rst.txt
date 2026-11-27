@@ -94,9 +94,9 @@ Since, then, it was proved that, as the base :g:`BC <0197.g1:/ B C />` is to :g:
 
 .. [#f1] **Under the same height.** The Greek text has “under the same height :g:`AC <0197.g1:/ A C />`,” with a figure in which the side :g:`AC <0197.g1:/ A C />` common to the two triangles is perpendicular to the base and is therefore itself the “height.” But, even if the two triangles are placed contiguously so as to have a common side :g:`AC <0197.g1:/ A C />`, it is quite gratuitous to require it to be perpendicular to the base. Theon, on this occasion making an improvement, altered to “which are (ὄντα) under the same height, (namely) the perpendicular drawn from :g:`A <0197.g1:A>` to :g:`BD <0197.g1:/ B D />`.” I have ventured to alter so far as to omit “:g:`AC <0197.g1:/ A C />`” and to draw the figure in the usual way.
 
-.. [#f2] **ABC, AGB**, :g:`AHG <0197.g1:< A H G >>`. Euclid, indifferent to exact order, writes “$AHG$, :g:`AGB <0197.g1:< A G B >>`, :g:`ABC <0197.g1:< A B C >>`.”
+.. [#f2] **ABC, AGB**, :g:`AHG <0197.g1:< A H G >>`. Euclid, indifferent to exact order, writes “:math:`AHG`, :g:`AGB <0197.g1:< A G B >>`, :g:`ABC <0197.g1:< A B C >>`.”
 
-.. [#f3] **Since then it was proved that, as the base** :g:`BC <0197.g1:/ B C />` **is to** :g:`CD <0197.g1:/ C D />`, **so is the triangle** :g:`ABC <0197.g1:< A B C >>` **to the triangle** :g:`ACD <0197.g1:< A C D >>`. Here again words have to be supplied in translating the extremely terse Greek ἐπεὶ οὖν ἐδείχθη, ὡς μὲν ἡ :term:`βάσις <basis>` ΒΓ πρὸς τὴν ΓΔ, οὕτως τὸ ΑΒΓ τρίγωνον πρὸς τὸ ΑΓΔ τρίγωνον, literally “since was proved, as the base $BC$ to $CD$, so the triangle $ABC$ to the triangle $ACD$.” Cf. note on **v. 16**, p. 165.
+.. [#f3] **Since then it was proved that, as the base** :g:`BC <0197.g1:/ B C />` **is to** :g:`CD <0197.g1:/ C D />`, **so is the triangle** :g:`ABC <0197.g1:< A B C >>` **to the triangle** :g:`ACD <0197.g1:< A C D >>`. Here again words have to be supplied in translating the extremely terse Greek ἐπεὶ οὖν ἐδείχθη, ὡς μὲν ἡ :term:`βάσις <basis>` ΒΓ πρὸς τὴν ΓΔ, οὕτως τὸ ΑΒΓ τρίγωνον πρὸς τὸ ΑΓΔ τρίγωνον, literally “since was proved, as the base :math:`BC` to :math:`CD`, so the triangle :math:`ABC` to the triangle :math:`ACD`.” Cf. note on **v. 16**, p. 165.
 
 Dependency Graph
 ----------------

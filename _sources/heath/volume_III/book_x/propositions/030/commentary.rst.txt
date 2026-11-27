@@ -19,22 +19,28 @@ Back to :ref:`Proposition X.30 <X.30>`.
 .. folio:: 0073
    :page: 69
 
-In this case we take $m^2$, $n^2$ such that $m^2 + n^2$ is not square.
+In this case we take :math:`m^2`, :math:`n^2` such that :math:`m^2 + n^2` is not square.
 
-Find $x$ such that
+Find :math:`x` such that
 
-$$m^2 + n^2 : m^2 = \rho^2 : x^2,$$
+.. math::
+
+   m^2 + n^2 : m^2 = \rho^2 : x^2,
 
 whence
 
-$$x^2 = \frac{m^2}{m^2 + n^2} \rho^2,$$
+.. math::
+
+   x^2 = \frac{m^2}{m^2 + n^2} \rho^2,
 
 or
 
-$$x = \frac{\rho}{\sqrt{1 + k^2}}, \quad \text{where } k = \frac{n}{m}.$$
+.. math::
 
-Then $\rho$, $\frac{\rho}{\sqrt{1 + k^2}}$ satisfy the condition.
+   x = \frac{\rho}{\sqrt{1 + k^2}}, \quad \text{where } k = \frac{n}{m}.
+
+Then :math:`\rho`, :math:`\frac{\rho}{\sqrt{1 + k^2}}` satisfy the condition.
 
 The proof is after the manner of the proof of the preceding proposition and need not be repeated.
 
-According as $\rho$ is of the form $a$ or $\sqrt{A}$, the straight lines take the form (1) $a$, $\sqrt{a^2 - \frac{k^2 a^2}{1 + k^2}}$, that is, $a$, $\sqrt{a^2 - B}$, or (2) $\sqrt{A}$, $\sqrt{A - B}$ and $\sqrt{A}$, $\sqrt{A - b^2}$.
+According as :math:`\rho` is of the form :math:`a` or :math:`\sqrt{A}`, the straight lines take the form (1) :math:`a`, :math:`\sqrt{a^2 - \frac{k^2 a^2}{1 + k^2}}`, that is, :math:`a`, :math:`\sqrt{a^2 - B}`, or (2) :math:`\sqrt{A}`, :math:`\sqrt{A - B}` and :math:`\sqrt{A}`, :math:`\sqrt{A - b^2}`.

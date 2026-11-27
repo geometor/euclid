@@ -19,7 +19,7 @@ Back to :ref:`Proposition V.10 <V.10>`.
 .. folio:: 0162
    :page: 156
 
-No better example can, I think, be found of the acuteness which :person:`Simson <simson>` brought to bear in his critical examination of the $Elements$, and of his great services to the study of Euclid, than is furnished by the admirable note on this proposition where he points out a serious flaw in the proof as given in the text.
+No better example can, I think, be found of the acuteness which :person:`Simson <simson>` brought to bear in his critical examination of the :math:`Elements`, and of his great services to the study of Euclid, than is furnished by the admirable note on this proposition where he points out a serious flaw in the proof as given in the text.
 
 For the first time Euclid is arguing about *greater* and *less* ratios, and it will be found by an examination of the steps of the proof that he assumes more with regard to the meaning of the terms than he is entitled to assume, having regard to the fact that the definition of greater ratio (Def. 7) is all that, as yet, he has to go upon. That we cannot argue, at present, about *greater* and *less* as applied to *ratios* in the same way as about the same terms in relation to *magnitudes* is indeed sufficiently indicated by the fact that Euclid does not assume for ratios what is in Book I. an axiom, viz. that things which are equal to the same thing are equal to one another; on the contrary, he *proves*, in Prop. 11, that ratios which are the same with the same ratio are the same with one another.
 
@@ -81,21 +81,21 @@ The proof substituted by :person:`Simson <simson>` is satisfactory and simple.
 For, because :g:`A <0161.g1:A>` has a greater ratio to :g:`C <0161.g1:C>` than :g:`B <0161.g1:B>` has to :g:`C <0161.g1:C>`, there are some equimultiples of :g:`A <0161.g1:A>`, :g:`B <0161.g1:B>` and some multiple of :g:`C <0161.g1:C>` such that
 the multiple of :g:`A <0161.g1:A>` is greater than the multiple of :g:`C <0161.g1:C>`, but the multiple of :g:`B <0161.g1:B>` is *not* greater than it. :just:`[V. Def. 7] <V.def.7>`
 
-Let them be taken, and let $D$, $E$ be equimultiples of :g:`A <0161.g1:A>`, :g:`B <0161.g1:B>`, and $F$ a multiple of :g:`C <0161.g1:C>`, such that
+Let them be taken, and let :math:`D`, :math:`E` be equimultiples of :g:`A <0161.g1:A>`, :g:`B <0161.g1:B>`, and :math:`F` a multiple of :g:`C <0161.g1:C>`, such that
 
 .. assertion::
 
-   $D$ is greater than $F$,
+   :math:`D` is greater than :math:`F`,
 
 .. subclause::
 
-   but $E$ is not greater than $F$.
+   but :math:`E` is not greater than :math:`F`.
 
 .. assertion::
 
-   Therefore $D$ is greater than $E$.
+   Therefore :math:`D` is greater than :math:`E`.
 
-And, because $D$ and $E$ are equimultiples of :g:`A <0161.g1:A>` and :g:`B <0161.g1:B>`, and $D$ is greater than $E$,
+And, because :math:`D` and :math:`E` are equimultiples of :g:`A <0161.g1:A>` and :g:`B <0161.g1:B>`, and :math:`D` is greater than :math:`E`,
 
 .. assertion:: [Simson's 4th Ax.]
 
@@ -104,17 +104,17 @@ And, because $D$ and $E$ are equimultiples of :g:`A <0161.g1:A>` and :g:`B <0161
 Next, let :g:`C <0161.g1:C>` have a greater ratio to :g:`B <0161.g1:B>` than it has to :g:`A <0161.g1:A>` ;
 :g:`B <0161.g1:B>` is less than :g:`A <0161.g1:A>`.
 
-For there is some multiple $F$ of :g:`C <0161.g1:C>` and some equimultiples $E$ and $D$ of :g:`B <0161.g1:B>` and :g:`A <0161.g1:A>` such that
+For there is some multiple :math:`F` of :g:`C <0161.g1:C>` and some equimultiples :math:`E` and :math:`D` of :g:`B <0161.g1:B>` and :g:`A <0161.g1:A>` such that
 
 .. assertion:: [V. Def. 7] <V.def.7>
 
-   $F$ is greater than $E$ but not greater than $D$.
+   :math:`F` is greater than :math:`E` but not greater than :math:`D`.
 
 .. assertion::
 
-   Therefore $E$ is less than $D$ ;
+   Therefore :math:`E` is less than :math:`D` ;
 
-and, because $E$ and $D$ are equimultiples of :g:`B <0161.g1:B>` and :g:`A <0161.g1:A>`,
+and, because :math:`E` and :math:`D` are equimultiples of :g:`B <0161.g1:B>` and :g:`A <0161.g1:A>`,
 
 .. assertion::
 

@@ -144,4 +144,4 @@ Take away the common angle :g:`BAD <0230.g1:< B A D )>`, and
 .. picture:: 0230.g1.svg
    :alt: Converse of Simson's Prop. B
 
-Euclid himself assumes, in Prop. 67 of the $Data$, the result of so much of this proposition as relates to the case where :g:`BA <0230.g1:/ B A />` = :g:`AC <0230.g1:/ A C />`. He assumes namely, without proof, that, if :g:`BA <0230.g1:/ B A />` = :g:`AC <0230.g1:/ A C />`, and if :g:`D <0230.g1:D>` be any point on :g:`BC <0230.g1:/ B C />`, the rectangle :g:`BD <0230.g1:/ B D />`, :g:`DC <0230.g1:/ D C />` together with the square on :g:`AD <0230.g1:/ A D />` is equal to the square on :g:`AB <0230.g1:/ A B />`.
+Euclid himself assumes, in Prop. 67 of the :math:`Data`, the result of so much of this proposition as relates to the case where :g:`BA <0230.g1:/ B A />` = :g:`AC <0230.g1:/ A C />`. He assumes namely, without proof, that, if :g:`BA <0230.g1:/ B A />` = :g:`AC <0230.g1:/ A C />`, and if :g:`D <0230.g1:D>` be any point on :g:`BC <0230.g1:/ B C />`, the rectangle :g:`BD <0230.g1:/ B D />`, :g:`DC <0230.g1:/ D C />` together with the square on :g:`AD <0230.g1:/ A D />` is equal to the square on :g:`AB <0230.g1:/ A B />`.

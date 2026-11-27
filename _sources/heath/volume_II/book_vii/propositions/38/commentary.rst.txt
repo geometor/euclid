@@ -19,22 +19,33 @@ Back to :ref:`Proposition VII.38 <VII.38>`.
 .. folio:: 0349
    :page: 343
 
-This proposition is practically a restatement of the preceding proposition. It asserts that, if $b$ is $\frac{1}{m}\text{th}$ part of $a$, i.e., if
+This proposition is practically a restatement of the preceding proposition. It asserts that, if :math:`b` is :math:`\frac{1}{m}\text{th}` part of :math:`a`, i.e., if
 
-$$b = \frac{1}{m} a,$$
+.. math::
+
+   b = \frac{1}{m} a,
 
 then
 
-$$m\text{ measures }a.$$
+.. math::
+
+   m\text{ measures }a.
 
 We have
 
-$$b = \frac{1}{m} a,$$
+.. math::
+
+   b = \frac{1}{m} a,
 
 and
 
-$$1 = \frac{1}{m} m.$$
+.. math::
 
-Therefore $1, m, b, a$, satisfy the enunciation of VII. 15, and therefore $m$ measures $a$ the same number of times as $1$ measures $b$, or
+   1 = \frac{1}{m} m.
 
-$$m = \frac{1}{b} a.$$
+Therefore :math:`1, m, b, a`, satisfy the enunciation of VII. 15, and therefore :math:`m` measures :math:`a` the same number of times as :math:`1` measures :math:`b`, or
+
+.. math::
+
+   m = \frac{1}{b} a.
+

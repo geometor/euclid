@@ -19,12 +19,12 @@ Back to :ref:`Proposition VII.12 <VII.12>`.
 .. folio:: 0318
    :page: 312
 
-$$
-\begin{aligned}
-\text{If} \quad & a : a' = b : b' = c : c' = \dots, \\
-\text{then each ratio is equal to} \quad & (a + b + c + \dots) : (a' + b' + c' + \dots).
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   \text{If} \quad & a : a' = b : b' = c : c' = \dots, \\
+   \text{then each ratio is equal to} \quad & (a + b + c + \dots) : (a' + b' + c' + \dots).
+   \end{aligned}
 
 The proposition corresponds to V. 12, and the enunciation is word for word the same with that of V. 12 except that :term:`ἀριθμός <number>` takes the place of :term:`μέγεθος <megethos>`.
 

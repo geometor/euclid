@@ -21,15 +21,19 @@ Back to :ref:`Proposition X.82 <X.82>`.
 
 Suppose, if possible, that, with the usual notation,
 
-$$x - y = x' - y' ;$$
+.. math::
 
-and let $x$ (say) be greater than $x'$.
+   x - y = x' - y' ;
 
-In this case $(x^2 + y^2)$, $(x'^2 + y'^2)$ are both *rational* areas, and $2xy$, $2x'y'$ are both *medial* areas.
+and let :math:`x` (say) be greater than :math:`x'`.
+
+In this case :math:`(x^2 + y^2)`, :math:`(x'^2 + y'^2)` are both *rational* areas, and :math:`2xy`, :math:`2x'y'` are both *medial* areas.
 
 But, as before,
 
-$$(x^2 + y^2) - (x'^2 + y'^2) = 2xy - 2x'y',$$
+.. math::
+
+   (x^2 + y^2) - (x'^2 + y'^2) = 2xy - 2x'y',
 
 so that the difference between two medial areas is rational : which is impossible [x. 26].
 

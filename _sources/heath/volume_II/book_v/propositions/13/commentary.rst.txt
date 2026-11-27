@@ -21,11 +21,13 @@ Back to :ref:`Proposition V.13 <V.13>`.
 
 Algebraically, if
 
-$$\begin{aligned}
-a : b &= c : d, \\
-\text{and}\qquad c : d &> e : f, \\
-\text{then}\qquad a : b &> e : f.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   a : b &= c : d, \\
+   \text{and}\qquad c : d &> e : f, \\
+   \text{then}\qquad a : b &> e : f.
+   \end{aligned}
 
 After the words "for, since" in the first line of the proof, Theon added ":g:`C <0166.g1:C>` has to :g:`D <0166.g1:D>` a greater ratio than :g:`E <0166.g1:E>` has to :g:`F <0166.g1:F>`," so that "there are some equimultiples" began, with him, the principal sentence.
 
@@ -35,24 +37,28 @@ The following will show the method of Euclid's proof.
 
 Since
 
-$$c : d > e : f,$$
+.. math::
 
-there will be some equimultiples $mc$, $me$ of $c$, $e$, and some equimultiples $nd$, $nf$ of $d$, $f$, such that
+   c : d > e : f,
 
-$$mc > nd, \text{ while } me \ngtr nf.$$
+there will be some equimultiples :math:`mc`, :math:`me` of :math:`c`, :math:`e`, and some equimultiples :math:`nd`, :math:`nf` of :math:`d`, :math:`f`, such that
+
+.. math::
+
+   mc > nd, \text{ while } me \ngtr nf.
 
 .. _folio-ii-0168:
 
 .. folio:: 0168
    :page: 162
 
-But, since $a : b = c : d$, therefore, according as $ma > = < nb$, $mc > = < nd$.
+But, since :math:`a : b = c : d`, therefore, according as :math:`ma > = < nb`, :math:`mc > = < nd`.
 
-And $mc > nd$ ; therefore $ma > nb$, while (from above) $me \ngtr nf$.
+And :math:`mc > nd` ; therefore :math:`ma > nb`, while (from above) :math:`me \ngtr nf`.
 
 .. assertion::
 
-   Therefore $a : b > e : f$.
+   Therefore :math:`a : b > e : f`.
 
 :person:`Simson <simson>` adds as a corollary the following :
 

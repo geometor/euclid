@@ -21,43 +21,57 @@ Back to :ref:`Proposition X.94 <X.94>`.
 
 We have here to find and classify the straight line
 
-$$\sqrt{\rho\left(k\rho - \frac{k\rho}{\sqrt{1+\lambda}}\right)}.$$
+.. math::
 
-As usual, we find $u$, $v$ from the equations
+   \sqrt{\rho\left(k\rho - \frac{k\rho}{\sqrt{1+\lambda}}\right)}.
 
-$$\left.\begin{aligned}
-u + v &= k\rho \\
-uv &= \frac{1}{4}\frac{k^2\rho^2}{1+\lambda}
-\end{aligned}\right\} \tag{1},$$
+As usual, we find :math:`u`, :math:`v` from the equations
 
-and then, giving $u$, $v$ their values, we put
+.. math::
 
-$$\left.\begin{aligned}
-x^2 &= \rho u \\
-y^2 &= \rho v
-\end{aligned}\right\} \tag{2}.$$
+   \left.\begin{aligned}
+   u + v &= k\rho \\
+   uv &= \frac{1}{4}\frac{k^2\rho^2}{1+\lambda}
+   \end{aligned}\right\} \tag{1},
 
-Then $(x - y)$ is the required square root.
+and then, giving :math:`u`, :math:`v` their values, we put
+
+.. math::
+
+   \left.\begin{aligned}
+   x^2 &= \rho u \\
+   y^2 &= \rho v
+   \end{aligned}\right\} \tag{2}.
+
+Then :math:`(x - y)` is the required square root.
 This is proved in the same way as before, and, as before, it is proved that
 
-$$xy = \frac{1}{2}\frac{k\rho^2}{\sqrt{1+\lambda}}.$$
+.. math::
+
+   xy = \frac{1}{2}\frac{k\rho^2}{\sqrt{1+\lambda}}.
 
 Now, from (1), by x. 18,
 
-$$u \mathbin{\sim\kern-0.6em\raisebox{0.1ex}{/}} v;$$
+.. math::
+
+   u \mathbin{\sim\kern-0.6em\raisebox{0.1ex}{/}} v;
 
 therefore
 
-$$\rho u \mathbin{\sim\kern-0.6em\raisebox{0.1ex}{/}} \rho v,$$
+.. math::
+
+   \rho u \mathbin{\sim\kern-0.6em\raisebox{0.1ex}{/}} \rho v,
 
 or
 
-$$x^2 \mathbin{\sim\kern-0.6em\raisebox{0.1ex}{/}} y^2,$$
+.. math::
 
-so that $x$, $y$ are incommensurable in square.
-And $x^2 + y^2$, or $\rho(u + v)$, is a rational area ($k\rho^2$).
-But $2xy = \frac{k\rho^2}{\sqrt{1+\lambda}}$, which is a medial area.
-Hence [x. 76] $(x - y)$ is the irrational straight line called *minor*.
+   x^2 \mathbin{\sim\kern-0.6em\raisebox{0.1ex}{/}} y^2,
+
+so that :math:`x`, :math:`y` are incommensurable in square.
+And :math:`x^2 + y^2`, or :math:`\rho(u + v)`, is a rational area (:math:`k\rho^2`).
+But :math:`2xy = \frac{k\rho^2}{\sqrt{1+\lambda}}`, which is a medial area.
+Hence [x. 76] :math:`(x - y)` is the irrational straight line called *minor*.
 
 .. _folio-iii-0210:
 
@@ -66,14 +80,23 @@ Hence [x. 76] $(x - y)$ is the irrational straight line called *minor*.
 
 Algebraical solution gives
 
-$$u = \frac{1}{2} k\rho \left(1 + \sqrt{\frac{\lambda}{1 + \lambda}}\right),$$
+.. math::
 
-$$v = \frac{1}{2} k\rho \left(1 - \sqrt{\frac{\lambda}{1 + \lambda}}\right),$$
+   u = \frac{1}{2} k\rho \left(1 + \sqrt{\frac{\lambda}{1 + \lambda}}\right),
+
+.. math::
+
+   v = \frac{1}{2} k\rho \left(1 - \sqrt{\frac{\lambda}{1 + \lambda}}\right),
 
 whence
 
-$$x - y = \rho \sqrt{\frac{k}{2}\left(1 + \sqrt{\frac{\lambda}{1 + \lambda}}\right)} - \rho \sqrt{\frac{k}{2}\left(1 - \sqrt{\frac{\lambda}{1 + \lambda}}\right)}.$$
+.. math::
+
+   x - y = \rho \sqrt{\frac{k}{2}\left(1 + \sqrt{\frac{\lambda}{1 + \lambda}}\right)} - \rho \sqrt{\frac{k}{2}\left(1 - \sqrt{\frac{\lambda}{1 + \lambda}}\right)}.
 
 As explained in the note on x. 57, this is the lesser positive root of the equation
 
-$$x^4 - 2k\rho^2 \cdot x^2 + \frac{\lambda}{1 + \lambda} k^2\rho^4 = 0.$$
+.. math::
+
+   x^4 - 2k\rho^2 \cdot x^2 + \frac{\lambda}{1 + \lambda} k^2\rho^4 = 0.
+

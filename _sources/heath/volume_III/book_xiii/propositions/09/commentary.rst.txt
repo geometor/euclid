@@ -32,59 +32,64 @@ Since :g:`BC <0459.g1:/ B C />` is the side of a regular decagon,
 
 .. assertion::
 
-   $(\text{arc }$ :g:`BCA <0459.g1:( B C A )>` $) = 5\,(\text{arc }$ :g:`BC <0459.g1:( B C )>` $)$, so that $(\text{arc }$ :g:`CFA <0459.g1:( C F A )>` $) = 4\,(\text{arc }$ :g:`BC <0459.g1:( B C )>` $)$, whence $\angle$ :g:`CEA <0459.g1:< C E A )>` $= 4\,\angle$ :g:`BEC <0459.g1:< B E C )>`.
+   :math:`(\text{arc }` :g:`BCA <0459.g1:( B C A )>` :math:`) = 5\,(\text{arc }` :g:`BC <0459.g1:( B C )>` :math:`)`, so that :math:`(\text{arc }` :g:`CFA <0459.g1:( C F A )>` :math:`) = 4\,(\text{arc }` :g:`BC <0459.g1:( B C )>` :math:`)`, whence :math:`\angle` :g:`CEA <0459.g1:< C E A )>` :math:`= 4\,\angle` :g:`BEC <0459.g1:< B E C )>`.
 
 .. subclause::
 
-   But $\angle$ :g:`CEA <0459.g1:< C E A )>` $= 2\,\angle$ :g:`ECB <0459.g1:< E C B )>`.
+   But :math:`\angle` :g:`CEA <0459.g1:< C E A )>` :math:`= 2\,\angle` :g:`ECB <0459.g1:< E C B )>`.
 
 .. assertion::
 
-   Therefore $\angle$ :g:`ECB <0459.g1:< E C B )>` $= 2\,\angle$ :g:`BEC <0459.g1:< B E C )>` $\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\text{(1)}$.
+   Therefore :math:`\angle` :g:`ECB <0459.g1:< E C B )>` :math:`= 2\,\angle` :g:`BEC <0459.g1:< B E C )>` :math:`\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\text{(1)}`.
 
 .. subclause::
 
-   But, since :g:`CD <0459.g1:/ C D />` $= $ :g:`CE <0459.g1:/ C E />`, $\angle$ :g:`CDE <0459.g1:< C D E )>` $= \angle$ :g:`CED <0459.g1:< C E D )>`, so that $\angle$ :g:`ECB <0459.g1:< E C B )>` $= 2\,\angle$ :g:`CDE <0459.g1:< C D E )>`.
+   But, since :g:`CD <0459.g1:/ C D />` :math:`=` :g:`CE <0459.g1:/ C E />`, :math:`\angle` :g:`CDE <0459.g1:< C D E )>` :math:`= \angle` :g:`CED <0459.g1:< C E D )>`, so that :math:`\angle` :g:`ECB <0459.g1:< E C B )>` :math:`= 2\,\angle` :g:`CDE <0459.g1:< C D E )>`.
 
 .. assertion::
 
-   It follows from (1) that $\angle$ :g:`BEC <0459.g1:< B E C )>` $= \angle$ :g:`CDE <0459.g1:< C D E )>`.
+   It follows from (1) that :math:`\angle` :g:`BEC <0459.g1:< B E C )>` :math:`= \angle` :g:`CDE <0459.g1:< C D E )>`.
 
-Now, in the $\Delta\text{s}$ :g:`EBC <0459.g1:< E B C >>`, :g:`DBE <0459.g1:< D B E >>`,
+Now, in the :math:`\Delta\text{s}` :g:`EBC <0459.g1:< E B C >>`, :g:`DBE <0459.g1:< D B E >>`,
 
 .. assertion::
 
-   $\angle$ :g:`BEC <0459.g1:< B E C )>` $= \angle$ :g:`BDE <0459.g1:< B D E )>`,
+   :math:`\angle` :g:`BEC <0459.g1:< B E C )>` :math:`= \angle` :g:`BDE <0459.g1:< B D E )>`,
 
 .. subclause::
 
-   and $\angle$ :g:`EBC <0459.g1:< E B C )>` is common,
+   and :math:`\angle` :g:`EBC <0459.g1:< E B C )>` is common,
 
-so that $\angle$ :g:`ECB <0459.g1:< E C B )>` $= \angle$ :g:`DEB <0459.g1:< D E B )>`,
+so that :math:`\angle` :g:`ECB <0459.g1:< E C B )>` :math:`= \angle` :g:`DEB <0459.g1:< D E B )>`,
 and
 
 .. assertion::
 
-   $\Delta\text{s}$ :g:`EBC <0459.g1:< E B C >>`, :g:`DBE <0459.g1:< D B E >>` are similar.
+   :math:`\Delta\text{s}` :g:`EBC <0459.g1:< E B C >>`, :g:`DBE <0459.g1:< D B E >>` are similar.
 
 Hence
 
 .. assertion::
 
-   :g:`DB <0459.g1:/ D B />` $:$ :g:`BE <0459.g1:/ B E />` $= $ :g:`EB <0459.g1:/ E B />` $:$ :g:`BC <0459.g1:/ B C />`,
+   :g:`DB <0459.g1:/ D B />` :math:`:` :g:`BE <0459.g1:/ B E />` :math:`=` :g:`EB <0459.g1:/ E B />` :math:`:` :g:`BC <0459.g1:/ B C />`,
 
 or
 
 .. assertion::
 
-   $(\text{rect. }$ :g:`DB <0459.g1:/ D B />`, :g:`BC <0459.g1:/ B C />` $) = (\text{sq. on }$ :g:`EB <0459.g1:/ E B />` $)$ $= (\text{sq. on }$ :g:`CD <0459.g1:/ C D />` $)$,
+   :math:`(\text{rect. }` :g:`DB <0459.g1:/ D B />`, :g:`BC <0459.g1:/ B C />` :math:`) = (\text{sq. on }` :g:`EB <0459.g1:/ E B />` :math:`)` :math:`= (\text{sq. on }` :g:`CD <0459.g1:/ C D />` :math:`)`,
 
 and :g:`DB <0459.g1:/ D B />` is divided at :g:`C <0459.g1:C>` in extreme and mean ratio.
 
-To find the side of the decagon algebraically in terms of the radius we have, if $x$ be the side required,
+To find the side of the decagon algebraically in terms of the radius we have, if :math:`x` be the side required,
 
-$$(r + x)x = r^2,$$
+.. math::
+
+   (r + x)x = r^2,
 
 whence
 
-$$x = \frac{r}{2}(\sqrt{5} - 1).$$
+.. math::
+
+   x = \frac{r}{2}(\sqrt{5} - 1).
+
