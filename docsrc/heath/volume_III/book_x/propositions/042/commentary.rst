@@ -21,19 +21,27 @@ Back to :ref:`Proposition X.42 <X.42>`.
 
 This proposition proves the equivalent of the well-known theorem in surds that,
 
-$$\text{if } a + \sqrt{b} = x + \sqrt{y},$$
+.. math::
+
+   \text{if } a + \sqrt{b} = x + \sqrt{y},
 
 then
 
-$$a = x,\quad b = y,$$
+.. math::
+
+   a = x,\quad b = y,
 
 and if
 
-$$\sqrt{a} + \sqrt{b} = \sqrt{x} + \sqrt{y},$$
+.. math::
+
+   \sqrt{a} + \sqrt{b} = \sqrt{x} + \sqrt{y},
 
 then
 
-$$a = x,\quad b = y\text{ (or } a = y,\quad b = x\text{)}.$$
+.. math::
+
+   a = x,\quad b = y\text{ (or } a = y,\quad b = x\text{)}.
 
 .. _folio-iii-0098:
 
@@ -42,16 +50,20 @@ $$a = x,\quad b = y\text{ (or } a = y,\quad b = x\text{)}.$$
 
 The proposition states that a binomial straight line cannot be split up into *terms* (ὀνόματα) in two ways. For, if possible, let
 
-$$x + y = x' + y',$$
+.. math::
 
-where $x$, $y$, and also $x'$, $y'$, are the *terms* of a binomial straight line, $x'$, $y'$ being different from $x$, $y$ (or $y$, $x$).
+   x + y = x' + y',
 
-One pair is necessarily more nearly equal than the other. Let $x'$, $y'$ be more nearly equal than $x$, $y$.
+where :math:`x`, :math:`y`, and also :math:`x'`, :math:`y'`, are the *terms* of a binomial straight line, :math:`x'`, :math:`y'` being different from :math:`x`, :math:`y` (or :math:`y`, :math:`x`).
+
+One pair is necessarily more nearly equal than the other. Let :math:`x'`, :math:`y'` be more nearly equal than :math:`x`, :math:`y`.
 
 Then
 
-$$(x^2 + y^2) - (x'^2 + y'^2) = 2x'y' - 2xy.$$
+.. math::
 
-Now by hypothesis $(x^2 + y^2)$, $(x'^2 + y'^2)$ are rational areas, being of the form $\rho^2 + k\rho^2$; but $2x'y'$, $2xy$ are medial areas, being of the form $\sqrt{k}\cdot\rho^2$; therefore the difference of two medial areas is rational: which is impossible. [x. 26]
+   (x^2 + y^2) - (x'^2 + y'^2) = 2x'y' - 2xy.
 
-Therefore $x'$, $y'$ cannot be different from $x$, $y$ (or $y$, $x$).
+Now by hypothesis :math:`(x^2 + y^2)`, :math:`(x'^2 + y'^2)` are rational areas, being of the form :math:`\rho^2 + k\rho^2`; but :math:`2x'y'`, :math:`2xy` are medial areas, being of the form :math:`\sqrt{k}\cdot\rho^2`; therefore the difference of two medial areas is rational: which is impossible. [x. 26]
+
+Therefore :math:`x'`, :math:`y'` cannot be different from :math:`x`, :math:`y` (or :math:`y`, :math:`x`).

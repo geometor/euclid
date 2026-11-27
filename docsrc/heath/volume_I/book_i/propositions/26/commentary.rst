@@ -64,7 +64,7 @@ Recapitulation of congruence theorems.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :person:`Proclus <proclus>`, like other commentators, gives at this point (p. 347, 20 sqq.) a summary of the cases in which the equality of two triangles in all respects can be established. We may, he says, seek the conditions of such equality by successively considering as hypotheses the equality (1) of sides alone, (2) of angles alone, (3) of sides and angles combined. Taking (1) first, we can only establish the equality of the triangles in all respects if all three sides are respectively equal; we cannot establish the equality of the triangles by any hypothesis of class (2), not even the hypothesis that all the three angles are respectively equal; among the hypotheses of class (3), the equality of one
-side and one angle in each triangle is not enough, the equality ($a$) of one side and all three angles is more than enough, as is also the equality ($b$) of two sides and two or three angles, and ($c$) of three sides and one or two angles.
+side and one angle in each triangle is not enough, the equality (:math:`a`) of one side and all three angles is more than enough, as is also the equality (:math:`b`) of two sides and two or three angles, and (:math:`c`) of three sides and one or two angles.
 
 .. _folio-i-0320:
 

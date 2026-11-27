@@ -19,14 +19,14 @@ Back to :ref:`Proposition VIII.15 <VIII.15>`.
 .. folio:: 0375
    :page: 369
 
-If $a^3$ measures $b^3$, $a$ measures $b$; and vice versa. The proof is, *mutatis mutandis*, the same as for squares.
+If :math:`a^3` measures :math:`b^3`, :math:`a` measures :math:`b`; and vice versa. The proof is, *mutatis mutandis*, the same as for squares.
 
-(1) $a^3$, $a^2b$, $ab^2$, $b^3$ are continuously proportional in the ratio of $a$ to $b$; and $a^3$ measures $b^3$.
+(1) :math:`a^3`, :math:`a^2b`, :math:`ab^2`, :math:`b^3` are continuously proportional in the ratio of :math:`a` to :math:`b`; and :math:`a^3` measures :math:`b^3`.
 
-Therefore $a^3$ measures $a^2b$; :just:`[VIII. 7] <VIII.7>`
+Therefore :math:`a^3` measures :math:`a^2b`; :just:`[VIII. 7] <VIII.7>`
 
-and hence $a$ measures $b$.
+and hence :math:`a` measures :math:`b`.
 
-(2) Since $a$ measures $b$, $a^3$ measures $a^2b$.
+(2) Since :math:`a` measures :math:`b`, :math:`a^3` measures :math:`a^2b`.
 
-And, $a^3$, $a^2b$, $ab^2$, $b^3$ being continuously proportional, each term measures the succeeding term; therefore $a^3$ measures $b^3$.
+And, :math:`a^3`, :math:`a^2b`, :math:`ab^2`, :math:`b^3` being continuously proportional, each term measures the succeeding term; therefore :math:`a^3` measures :math:`b^3`.

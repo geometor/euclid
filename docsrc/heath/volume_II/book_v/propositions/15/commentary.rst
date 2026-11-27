@@ -21,4 +21,7 @@ Back to :ref:`Proposition V.15 <V.15>`.
 
 Algebraically,
 
-$$a : b = ma : mb.$$
+.. math::
+
+   a : b = ma : mb.
+

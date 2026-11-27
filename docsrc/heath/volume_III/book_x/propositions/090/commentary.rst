@@ -19,56 +19,77 @@ Back to :ref:`Proposition X.90 <X.90>`.
 .. folio:: 0194
    :page: 190
 
-Let $\rho$ be the given rational straight line.
+Let :math:`\rho` be the given rational straight line.
 
-Take numbers $p$, $(m+n)$, $n$ which have not to one another the ratio of a square number to a square number, $m$, $n$ being also chosen such that the ratio $(m+n) : m$ is not that of square to square.
+Take numbers :math:`p`, :math:`(m+n)`, :math:`n` which have not to one another the ratio of a square number to a square number, :math:`m`, :math:`n` being also chosen such that the ratio :math:`(m+n) : m` is not that of square to square.
 
-Take $x$, $y$ such that
+Take :math:`x`, :math:`y` such that
 
-$$p : (m+n) = \rho^2 : x^2 \text{ ..............................(1),}$$
+.. math::
 
-$$(m+n) : n = x^2 : y^2 \text{ ..............................(2).}$$
+   p : (m+n) = \rho^2 : x^2 \text{ ..............................(1),}
 
-Then shall $(x-y)$ be a :term:`*sixth apotome* <sixth-apotome>`.
+.. math::
 
-For, by (1), $x$ is rational and $\sim \rho$ .........................................(3).
+   (m+n) : n = x^2 : y^2 \text{ ..............................(2).}
 
-By (2), since $x$ is rational,
+Then shall :math:`(x-y)` be a :term:`*sixth apotome* <sixth-apotome>`.
 
-$$y \text{ is rational and } \sim x \text{ .........................................(4).}$$
+For, by (1), :math:`x` is rational and :math:`\sim \rho` .........................................(3).
 
-Thus [(3), (4)] $(x-y)$ is an apotome.
+By (2), since :math:`x` is rational,
+
+.. math::
+
+   y \text{ is rational and } \sim x \text{ .........................................(4).}
+
+Thus [(3), (4)] :math:`(x-y)` is an apotome.
 
 Again, :term:`*ex aequali* <ex-aequali>`,
 
-$$p : n = \rho^2 : y^2\text{,}$$
+.. math::
 
-whence $y \sim \rho$.
+   p : n = \rho^2 : y^2\text{,}
 
-Thus $x$, $y$ are both $\sim \rho$.
+whence :math:`y \sim \rho`.
+
+Thus :math:`x`, :math:`y` are both :math:`\sim \rho`.
 
 Lastly, :term:`*convertendo* <convertendo>` from (2),
 
-$$(m+n) : m = x^2 : (x^2 - y^2)\text{,}$$
+.. math::
 
-whence $\sqrt{x^2 - y^2} \sim x$.
+   (m+n) : m = x^2 : (x^2 - y^2)\text{,}
 
-Therefore $(x-y)$ is a :term:`*sixth apotome* <sixth-apotome>`.
+whence :math:`\sqrt{x^2 - y^2} \sim x`.
+
+Therefore :math:`(x-y)` is a :term:`*sixth apotome* <sixth-apotome>`.
 
 From (1) and (2) we have
 
-$$x = \rho \sqrt{\frac{m+n}{p}}\text{,}$$
+.. math::
 
-$$y = \rho \sqrt{\frac{n}{p}}\text{,}$$
+   x = \rho \sqrt{\frac{m+n}{p}}\text{,}
+
+.. math::
+
+   y = \rho \sqrt{\frac{n}{p}}\text{,}
 
 so that the sixth apotome may be written
 
-$$\rho \sqrt{\frac{m+n}{p}} - \rho \sqrt{\frac{n}{p}}\text{,}$$
+.. math::
+
+   \rho \sqrt{\frac{m+n}{p}} - \rho \sqrt{\frac{n}{p}}\text{,}
 
 or, more simply,
 
-$$\sqrt{k}\cdot\rho - \sqrt{\lambda}\cdot\rho\text{.}$$
+.. math::
+
+   \sqrt{k}\cdot\rho - \sqrt{\lambda}\cdot\rho\text{.}
 
 As explained in the note on x. 53, the :term:`*sixth apotome* <sixth-apotome>` is the lesser root of the equation
 
-$$x^2 - 2\sqrt{k}\cdot\rho x + (k-\lambda)\rho^2 = 0\text{.}$$
+.. math::
+
+   x^2 - 2\sqrt{k}\cdot\rho x + (k-\lambda)\rho^2 = 0\text{.}
+

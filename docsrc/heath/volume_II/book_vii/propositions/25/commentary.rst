@@ -19,8 +19,10 @@ Back to :ref:`Proposition VII.25 <VII.25>`.
 .. folio:: 0333
    :page: 327
 
-If $a$, $b$ are prime to one another,
+If :math:`a`, :math:`b` are prime to one another,
 
-$$a^2\text{ is prime to }b.$$
+.. math::
 
-Euclid takes $d$ equal to $a$, so that $d$, $a$ are both prime to $b$. Hence, by VII. 24, $da$, i.e. $a^2$, is prime to $b$. The proposition is a particular case of the preceding proposition ; and the method of proof is by substitution of different numbers in the result of that proposition.
+   a^2\text{ is prime to }b.
+
+Euclid takes :math:`d` equal to :math:`a`, so that :math:`d`, :math:`a` are both prime to :math:`b`. Hence, by VII. 24, :math:`da`, i.e. :math:`a^2`, is prime to :math:`b`. The proposition is a particular case of the preceding proposition ; and the method of proof is by substitution of different numbers in the result of that proposition.

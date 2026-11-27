@@ -21,29 +21,39 @@ Back to :ref:`Proposition X.84 <X.84>`.
 
 With the usual notation, suppose that
 
-$$x - y = x' - y'. \qquad (x > x')$$
+.. math::
+
+   x - y = x' - y'. \qquad (x > x')
 
 Let
 
-$$\left. \begin{array}{r} x^2 + y^2 = \sigma u \\ 2xy = \sigma v \end{array} \right\} \quad \text{and} \quad \left. \begin{array}{r} x'^2 + y'^2 = \sigma u' \\ 2x'y' = \sigma v' \end{array} \right\}.$$
+.. math::
 
-Consider $(x - y)$ first ; it follows, since $(x^2 + y^2)$, $2xy$ are both medial areas, that $u, v$ are both rational and $\smile \sigma$ .................................................(1).
+   \left. \begin{array}{r} x^2 + y^2 = \sigma u \\ 2xy = \sigma v \end{array} \right\} \quad \text{and} \quad \left. \begin{array}{r} x'^2 + y'^2 = \sigma u' \\ 2x'y' = \sigma v' \end{array} \right\}.
+
+Consider :math:`(x - y)` first ; it follows, since :math:`(x^2 + y^2)`, :math:`2xy` are both medial areas, that :math:`u, v` are both rational and :math:`\smile \sigma` .................................................(1).
 
 But
 
-$$x^2 + y^2 \smile 2xy,$$
+.. math::
+
+   x^2 + y^2 \smile 2xy,
 
 that is,
 
-$$\sigma u \smile \sigma v,$$
+.. math::
+
+   \sigma u \smile \sigma v,
 
 and therefore
 
-$$u \smile v \text{ .................................................(2).}$$
+.. math::
 
-Therefore [(1) and (2)] $u, v$ are rational and $\sim$ ; hence $(u - v)$ is an apotome.
+   u \smile v \text{ .................................................(2).}
 
-Similarly $(u' - v')$ is proved to be the same apotome.
+Therefore [(1) and (2)] :math:`u, v` are rational and :math:`\sim` ; hence :math:`(u - v)` is an apotome.
+
+Similarly :math:`(u' - v')` is proved to be the same apotome.
 
 Thus the same apotome is formed as such in two ways : which is impossible :just:`[X. 79] <X.79>`.
 

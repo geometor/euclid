@@ -39,11 +39,15 @@ The Greek text of part of this proposition is hopelessly corrupt. According to i
 
 The text now takes case (1) and asserts that a fourth proportional cannot be found in this case either. We have only to think of 4, 6, 9 in order to see that there is something wrong here. The supposed proof is also wrong. *If possible, says the text, let d be a fourth proportional to a, b, c, and let e be taken such that*
 
-$$b : c = d : e.$$
+.. math::
+
+   b : c = d : e.
 
 Then, :term:`*ex aequali* <ex-aequali>`,
 
-$$a : c = c : e,$$
+.. math::
+
+   a : c = c : e,
 
 whence *a* measures *c* : :just:`[VII. 20, 21]`
 
@@ -51,11 +55,15 @@ which is impossible, since *a*, *c* are prime to one another.
 
 But this does not prove that a fourth proportional *d* cannot be found ; it only proves that, if *d* is a fourth proportional, no integer *e* can be found to satisfy the equation
 
-$$b : c = d : e.$$
+.. math::
+
+   b : c = d : e.
 
 Indeed it is obvious from IX. 16 that in the equation
 
-$$a : c = c : e$$
+.. math::
+
+   a : c = c : e
 
 *e* cannot be integral.
 
@@ -65,9 +73,11 @@ These two cases really give all that is necessary.
 
 Let the product *bc* be taken.
 
-Then, if *a* measures *bc*, suppose $bc = ad$ ; therefore
+Then, if *a* measures *bc*, suppose :math:`bc = ad` ; therefore
 
-$$a : b = c : d,$$
+.. math::
+
+   a : b = c : d,
 
 and *d* is a fourth proportional.
 

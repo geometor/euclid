@@ -31,61 +31,79 @@ The proof, which is necessarily somewhat long, may be summarised thus. It is req
 
 If :g:`AH <0356.g1:/ A H />` is made :eq:`equal <0356.g1:/ A H / = 0356.g1:/ D M />` to :g:`DM <0356.g1:/ D M />`, and :g:`HK <0356.g1:/ H K />` is drawn in the plane :g:`GAL <0356.g1:< G A L >>` parallel to :g:`GL <0356.g1:/ G L />`,
 
-$$\text{\it HK\rm{} is also perpendicular to the plane \it BAC\rm{}.} \qquad \text{[XI. 8]}$$
+.. math::
+
+   \text{\it HK\rm{} is also perpendicular to the plane \it BAC\rm{}.} \qquad \text{[XI. 8]}
 
 Draw :g:`KB <0356.g1:/ K B />`, :g:`KC <0356.g1:/ K C />` :eq:`perpendicular <0356.g1:/ K B / = 0356.g1:/ A B /; 0356.g1:/ K C / = 0356.g1:/ A C />` to :g:`AB <0356.g1:/ A B />`, :g:`AC <0356.g1:/ A C />` respectively and :g:`NE <0356.g1:/ N E />`, :g:`NF <0356.g1:/ N F />` :eq:`perpendicular <0356.g1:/ N E / = 0356.g1:/ D E /; 0356.g1:/ N F / = 0356.g1:/ D F />` to :g:`DE <0356.g1:/ D E />`, :g:`DF <0356.g1:/ D F />` respectively, and complete the figures.
 
 Now (1)
 
-$$\left.\begin{aligned}
-HA^2 &= HK^2 + KA^2 \\
-&= HK^2 + KC^2 + CA^2 \\
-&= HC^2 + CA^2
-\end{aligned}\right\} \qquad \text{[I. 47]}$$
+.. math::
 
-$$\begin{aligned}
-\text{Therefore}\qquad \angle HCA &= \text{a right angle.} \\
-\text{Similarly}\qquad \angle MFD &= \text{a right angle.}
-\end{aligned}$$
+   \left.\begin{aligned}
+   HA^2 &= HK^2 + KA^2 \\
+   &= HK^2 + KC^2 + CA^2 \\
+   &= HC^2 + CA^2
+   \end{aligned}\right\} \qquad \text{[I. 47]}
 
-(2) $\Delta$s :g:`HAC <0356.g1:< H A C >>`, :g:`MDF <0356.g1:< M D F >>` have therefore two angles equal and one side.
+.. math::
 
-$$\text{Therefore}\qquad \Delta HAC \equiv \Delta MDF\text{, and } AC = DF. \qquad \text{[I. 26]}$$
+   \begin{aligned}
+   \text{Therefore}\qquad \angle HCA &= \text{a right angle.} \\
+   \text{Similarly}\qquad \angle MFD &= \text{a right angle.}
+   \end{aligned}
 
-(3) Similarly $\Delta$ :g:`HAB <0356.g1:< H A B >>` $\equiv \Delta$ :g:`MDE <0356.g1:< M D E >>`, and :g:`AB <0356.g1:/ A B />` $=$ :g:`DE <0356.g1:/ D E />`.
+(2) :math:`\Delta`\ s :g:`HAC <0356.g1:< H A C >>`, :g:`MDF <0356.g1:< M D F >>` have therefore two angles equal and one side.
 
-(4) Hence $\Delta$s :g:`ABC <0356.g1:< A B C >>`, :g:`DEF <0356.g1:< D E F >>` are :eq:`equal <0356.g1:< A B C > = 0356.g1:< D E F >>` in all respects, so that :g:`BC <0356.g1:/ B C />` $=$ :g:`EF <0356.g1:/ E F />`, and
+.. math::
 
-$$\begin{aligned}
-\angle ABC &= \angle DEF, \\
-\angle ACB &= \angle DFE.
-\end{aligned}$$
+   \text{Therefore}\qquad \Delta HAC \equiv \Delta MDF\text{, and } AC = DF. \qquad \text{[I. 26]}
+
+(3) Similarly :math:`\Delta` :g:`HAB <0356.g1:< H A B >>` :math:`\equiv \Delta` :g:`MDE <0356.g1:< M D E >>`, and :g:`AB <0356.g1:/ A B />` :math:`=` :g:`DE <0356.g1:/ D E />`.
+
+(4) Hence :math:`\Delta`\ s :g:`ABC <0356.g1:< A B C >>`, :g:`DEF <0356.g1:< D E F >>` are :eq:`equal <0356.g1:< A B C > = 0356.g1:< D E F >>` in all respects, so that :g:`BC <0356.g1:/ B C />` :math:`=` :g:`EF <0356.g1:/ E F />`, and
+
+.. math::
+
+   \begin{aligned}
+   \angle ABC &= \angle DEF, \\
+   \angle ACB &= \angle DFE.
+   \end{aligned}
 
 (5) Therefore the complements of these angles are equal, i.e.
 
-$$\begin{aligned}
-\angle KBC &= \angle NEF, \\
-\text{and}\qquad \angle KCB &= \angle NFE.
-\end{aligned}$$
+.. math::
 
-(6) The $\Delta$s :g:`KBC <0356.g1:< K B C >>`, :g:`NEF <0356.g1:< N E F >>` have two angles equal and one side, and are therefore :eq:`equal <0356.g1:< K B C > = 0356.g1:< N E F >>` in all respects, so that
+   \begin{aligned}
+   \angle KBC &= \angle NEF, \\
+   \text{and}\qquad \angle KCB &= \angle NFE.
+   \end{aligned}
 
-$$\begin{aligned}
-KB &= NE, \\
-KC &= NF.
-\end{aligned}$$
+(6) The :math:`\Delta`\ s :g:`KBC <0356.g1:< K B C >>`, :g:`NEF <0356.g1:< N E F >>` have two angles equal and one side, and are therefore :eq:`equal <0356.g1:< K B C > = 0356.g1:< N E F >>` in all respects, so that
 
-(7) The right-angled triangles :g:`KAC <0356.g1:< K A C >>`, :g:`NDF <0356.g1:< N D F >>` are :eq:`equal <0356.g1:< K A C > = 0356.g1:< N D F >>` in all respects, since :g:`AC <0356.g1:/ A C />` $=$ :g:`DF <0356.g1:/ D F />` [(2) above], :g:`KC <0356.g1:/ K C />` $=$ :g:`NF <0356.g1:/ N F />`.
+.. math::
 
-$$\text{Consequently}\qquad AK = DN.$$
+   \begin{aligned}
+   KB &= NE, \\
+   KC &= NF.
+   \end{aligned}
 
-(8) In $\Delta$s :g:`HAK <0356.g1:< H A K >>`, :g:`MDN <0356.g1:< M D N >>`,
+(7) The right-angled triangles :g:`KAC <0356.g1:< K A C >>`, :g:`NDF <0356.g1:< N D F >>` are :eq:`equal <0356.g1:< K A C > = 0356.g1:< N D F >>` in all respects, since :g:`AC <0356.g1:/ A C />` :math:`=` :g:`DF <0356.g1:/ D F />` [(2) above], :g:`KC <0356.g1:/ K C />` :math:`=` :g:`NF <0356.g1:/ N F />`.
 
-$$\begin{aligned}
-HK^2 + KA^2 &= HA^2 \\
-&= MD^2\text{, by hypothesis,} \\
-&= MN^2 + ND^2.
-\end{aligned}$$
+.. math::
+
+   \text{Consequently}\qquad AK = DN.
+
+(8) In :math:`\Delta`\ s :g:`HAK <0356.g1:< H A K >>`, :g:`MDN <0356.g1:< M D N >>`,
+
+.. math::
+
+   \begin{aligned}
+   HK^2 + KA^2 &= HA^2 \\
+   &= MD^2\text{, by hypothesis,} \\
+   &= MN^2 + ND^2.
+   \end{aligned}
 
 .. _folio-iii-0360:
 
@@ -94,14 +112,18 @@ HK^2 + KA^2 &= HA^2 \\
 
 Subtracting the :eq:`equals <0356.g1:/ K A / = 0356.g1:/ N D />` :g:`KA <0356.g1:/ K A />` ², :g:`ND <0356.g1:/ N D />` ²,
 
-$$\begin{aligned}
-\text{we have}\qquad HK^2 &= MN^2, \\
-\text{or}\qquad HK &= MN.
-\end{aligned}$$
+.. math::
 
-(9) $\Delta$s :g:`HAK <0356.g1:< H A K >>`, :g:`MDN <0356.g1:< M D N >>` are now :eq:`equal <0356.g1:< H A K > = 0356.g1:< M D N >>` in all respects, by I. 8 and I. 4, and therefore
+   \begin{aligned}
+   \text{we have}\qquad HK^2 &= MN^2, \\
+   \text{or}\qquad HK &= MN.
+   \end{aligned}
 
-$$\angle HAK = \angle MDN.$$
+(9) :math:`\Delta`\ s :g:`HAK <0356.g1:< H A K >>`, :g:`MDN <0356.g1:< M D N >>` are now :eq:`equal <0356.g1:< H A K > = 0356.g1:< M D N >>` in all respects, by I. 8 and I. 4, and therefore
+
+.. math::
+
+   \angle HAK = \angle MDN.
 
 The Porism is merely a statement of the result arrived at in (8).
 
@@ -109,14 +131,18 @@ The Porism is merely a statement of the result arrived at in (8).
 
 Since [(1)] :g:`HC <0356.g1:/ H C />`, :g:`KC <0356.g1:/ K C />` are both :eq:`perpendicular <0356.g1:/ H C / = 0356.g1:/ A C /; 0356.g1:/ K C / = 0356.g1:/ A C />` to :g:`AC <0356.g1:/ A C />`, and :g:`MF <0356.g1:/ M F />`, :g:`NF <0356.g1:/ N F />` both :eq:`perpendicular <0356.g1:/ M F / = 0356.g1:/ D F /; 0356.g1:/ N F / = 0356.g1:/ D F />` to :g:`DF <0356.g1:/ D F />`, the angles :g:`HCK <0356.g1:< H C K )>`, :g:`MFN <0356.g1:< M F N )>` are the measures of the dihedral angles between the planes :g:`HAC <0356.g1:< H A C >>`, :g:`BAC <0356.g1:< B A C >>`, and :g:`MDF <0356.g1:< M D F >>`, :g:`EDF <0356.g1:< E D F >>` respectively. :just:`[XI. Def. 6] <XI.def.6>`
 
-$$\begin{aligned}
-\text{By (6),}\qquad KC &= NF, \\
-\text{and, by (8),}\qquad HK &= MN,
-\end{aligned}$$
+.. math::
 
-while the angles :g:`HKC <0356.g1:< H K C )>`, :g:`MNF <0356.g1:< M N F )>`, both being right, are :eq:`equal <0356.g1:< H K C ) = 0356.g1:< M N F )>`. Consequently the $\Delta$s :g:`HCK <0356.g1:< H C K >>`, :g:`MFN <0356.g1:< M F N >>` are :eq:`equal <0356.g1:< H C K > = 0356.g1:< M F N >>` in all respects, :just:`[I. 4] <I.4>` so that
+   \begin{aligned}
+   \text{By (6),}\qquad KC &= NF, \\
+   \text{and, by (8),}\qquad HK &= MN,
+   \end{aligned}
 
-$$\angle HCK = \angle MFN.$$
+while the angles :g:`HKC <0356.g1:< H K C )>`, :g:`MNF <0356.g1:< M N F )>`, both being right, are :eq:`equal <0356.g1:< H K C ) = 0356.g1:< M N F )>`. Consequently the :math:`\Delta`\ s :g:`HCK <0356.g1:< H C K >>`, :g:`MFN <0356.g1:< M F N >>` are :eq:`equal <0356.g1:< H C K > = 0356.g1:< M F N >>` in all respects, :just:`[I. 4] <I.4>` so that
+
+.. math::
+
+   \angle HCK = \angle MFN.
 
 :person:`Simson <simson>` substituted a different proof of (1) in the above summary, as follows.
 

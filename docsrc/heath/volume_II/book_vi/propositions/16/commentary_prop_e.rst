@@ -17,7 +17,7 @@ Commentary on Proposition VI.16 — Proposition E (Playfair / Data 93)
 
 Back to :ref:`Proposition VI.16 <VI.16>`.
 
-Lastly, the following proposition may be given which :person:`Playfair <playfair>` added as VI. E. It appears in the $Data$ of Euclid, Prop. 93, and may be thus enunciated.
+Lastly, the following proposition may be given which :person:`Playfair <playfair>` added as VI. E. It appears in the :math:`Data` of Euclid, Prop. 93, and may be thus enunciated.
 
 .. enunciation::
 
@@ -36,7 +36,7 @@ For the rectangle :g:`AD <0233.g1:/ A D />`, :g:`BC <0233.g1:/ B C />` is equal 
 
    Therefore the sum of :g:`BA <0233.g1:/ B A />`, :g:`AC <0233.g1:/ A C />` is to :g:`AD <0233.g1:/ A D />` as :g:`BC <0233.g1:/ B C />` is to :g:`BD <0233.g1:/ B D />`. :just:`[VI. 16] <VI.16>`
 
-(2) Euclid proves it differently in $Data$, Prop. 93.
+(2) Euclid proves it differently in :math:`Data`, Prop. 93.
 
 Let :g:`AD <0233.g1:/ A D />` meet :g:`BC <0233.g1:/ B C />` in :g:`E <0233.g1:E>`.
 
@@ -87,7 +87,7 @@ and, alternately,
 
    :g:`BA <0233.g1:/ B A />` + :g:`AC <0233.g1:/ A C />` is to :g:`AD <0233.g1:/ A D />` as :g:`BC <0233.g1:/ B C />` to :g:`BD <0233.g1:/ B D />`.
 
-Euclid concludes that, if the circle :g:`ABC <0233.g1:( A B C )>` is given in magnitude, and the chord :g:`BC <0233.g1:/ B C />` cuts off a segment of it containing a given angle (so that, by $Data$ Prop. 87, :g:`BC <0233.g1:/ B C />` and also :g:`BD <0233.g1:/ B D />` are given in magnitude),
+Euclid concludes that, if the circle :g:`ABC <0233.g1:( A B C )>` is given in magnitude, and the chord :g:`BC <0233.g1:/ B C />` cuts off a segment of it containing a given angle (so that, by :math:`Data` Prop. 87, :g:`BC <0233.g1:/ B C />` and also :g:`BD <0233.g1:/ B D />` are given in magnitude),
 
 .. assertion::
 

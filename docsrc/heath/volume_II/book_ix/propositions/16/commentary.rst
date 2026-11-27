@@ -23,6 +23,8 @@ If *a*, *b* are prime to one another, they can have no integral third proportion
 
 If possible, let
 
-$$a : b = b : x.$$
+.. math::
+
+   a : b = b : x.
 
 Therefore :just:`[VII. 20, 21]` *a* measures *b* ; and *a*, *b* have the common measure *a*, which is contrary to the hypothesis.

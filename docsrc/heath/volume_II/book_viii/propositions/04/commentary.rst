@@ -27,61 +27,81 @@ Euclid takes *three* given ratios and therefore requires to find *four* numbers.
 
 Let the ratios in their lowest terms be
 
-$$a : b,\quad c : d,\quad e : f$$
+.. math::
 
-Take $l_1$, the L.C.M. of $b$, $c$, and suppose that
+   a : b,\quad c : d,\quad e : f
 
-$$l_1 = mb = nc.$$
+Take :math:`l_1`, the L.C.M. of :math:`b`, :math:`c`, and suppose that
+
+.. math::
+
+   l_1 = mb = nc.
 
 Form the numbers
 
-$$\left. \begin{array}{r} ma,\, mb \\ = nc \end{array} \right\},\, nd.$$
+.. math::
 
-These are in the ratios of $a$ to $b$ and of $c$ to $d$ respectively.
+   \left. \begin{array}{r} ma,\, mb \\ = nc \end{array} \right\},\, nd.
 
-Next, let $l_2$ be the L.C.M. of $nd$, $e$, and let
+These are in the ratios of :math:`a` to :math:`b` and of :math:`c` to :math:`d` respectively.
 
-$$l_2 = pnd = qe.$$
+Next, let :math:`l_2` be the L.C.M. of :math:`nd`, :math:`e`, and let
+
+.. math::
+
+   l_2 = pnd = qe.
 
 Now form the numbers
 
-$$\left. \begin{array}{r} pma,\, pmb \\ = pnc \end{array} \right\},\, \left. \begin{array}{r} pnd \\ = qe \end{array} \right\},\, qf,$$
+.. math::
+
+   \left. \begin{array}{r} pma,\, pmb \\ = pnc \end{array} \right\},\, \left. \begin{array}{r} pnd \\ = qe \end{array} \right\},\, qf,
 
 and these are the four numbers required.
 
 If they are *not the least* in the given ratios, let
 
-$$x,\, y,\, z,\, u$$
+.. math::
+
+   x,\, y,\, z,\, u
 
 be less numbers in the given ratios.
 
-Since $a : b$ is in its lowest terms, and
+Since :math:`a : b` is in its lowest terms, and
 
-$$a : b = x : y,$$
+.. math::
 
-$b$ measures $y$.
+   a : b = x : y,
+
+:math:`b` measures :math:`y`.
 
 Similarly, since
 
-$$c : d = y : z,$$
+.. math::
 
-$c$ measures $y$.
+   c : d = y : z,
 
-Therefore $l_1$, the L.C.M. of $b$, $c$, measures $y$.
+:math:`c` measures :math:`y`.
+
+Therefore :math:`l_1`, the L.C.M. of :math:`b`, :math:`c`, measures :math:`y`.
 
 But
 
-$$l_1 : nd\ [= c : d] = y : z.$$
+.. math::
 
-Therefore $nd$ measures $z$.
+   l_1 : nd\ [= c : d] = y : z.
+
+Therefore :math:`nd` measures :math:`z`.
 
 And, since
 
-$$e : f = z : u,$$
+.. math::
 
-$e$ measures $z$.
+   e : f = z : u,
 
-Therefore $l_2$, the L.C.M. of $nd$, $e$, measures $z$: which is impossible, since $z < l_2$ or $pnd$.
+:math:`e` measures :math:`z`.
+
+Therefore :math:`l_2`, the L.C.M. of :math:`nd`, :math:`e`, measures :math:`z`: which is impossible, since :math:`z < l_2` or :math:`pnd`.
 
 The step (line 86) inferring that :g:`G <0357.g1:G>` : :g:`R <0357.g1:R>` = :g:`K <0357.g1:K>` : :g:`S <0357.g1:S>` is of course :term:`*alternando* <alternando>` from :g:`G <0357.g1:G>` : :g:`K <0357.g1:K>` [:g:`C <0357.g1:C>` : :g:`D <0357.g1:D>`] = :g:`R <0357.g1:R>` : :g:`S <0357.g1:S>`.
 

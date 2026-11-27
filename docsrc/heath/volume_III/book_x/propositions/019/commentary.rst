@@ -27,12 +27,14 @@ Exactly the same arguments apply to the Lemma added (without the heading "Lemma"
 
 Hence I have bracketed the Lemma added to X. 23 and left out the objectionable words in the enunciation of X. 24.
 
-If $\rho$ be one of the given rational straight lines (rational of course in the sense of X. Def. 3), the other can be denoted by $k\rho$, where $k$ is, as usual, of the form $m/n$ (where $m, n$ are integers). Thus the rectangle is $k\rho^2$, which is obviously rational since it is commensurable with $\rho^2$. :just:`[X. Def. 4.]`
+If :math:`\rho` be one of the given rational straight lines (rational of course in the sense of X. Def. 3), the other can be denoted by :math:`k\rho`, where :math:`k` is, as usual, of the form :math:`m/n` (where :math:`m, n` are integers). Thus the rectangle is :math:`k\rho^2`, which is obviously rational since it is commensurable with :math:`\rho^2`. :just:`[X. Def. 4.]`
 
-A rational rectangle may have any of the forms $ab$, $ka^2$, $kA$ or $A$, where $a, b$ are commensurable with the unit of length, and $A$ with the unit of area.
+A rational rectangle may have any of the forms :math:`ab`, :math:`ka^2`, :math:`kA` or :math:`A`, where :math:`a, b` are commensurable with the unit of length, and :math:`A` with the unit of area.
 
-Since Euclid is not able to use $k\rho$ as a symbol for a straight line commensurable in length with $\rho$, he has to put his proof in a form corresponding to
+Since Euclid is not able to use :math:`k\rho` as a symbol for a straight line commensurable in length with :math:`\rho`, he has to put his proof in a form corresponding to
 
-$$\rho^2 : k\rho^2 = \rho : k\rho,$$
+.. math::
 
-whence, $\rho, k\rho$ being commensurable, $\rho^2, k\rho^2$ are so also. :just:`[X. 11] <X.11>`
+   \rho^2 : k\rho^2 = \rho : k\rho,
+
+whence, :math:`\rho, k\rho` being commensurable, :math:`\rho^2, k\rho^2` are so also. :just:`[X. 11] <X.11>`

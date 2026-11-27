@@ -21,14 +21,16 @@ Back to :ref:`Proposition IX.1 <IX.1>`.
 
 The product of two similar plane numbers is a square.
 
-Let $a$, $b$ be two similar plane numbers.
+Let :math:`a`, :math:`b` be two similar plane numbers.
 
 Now
 
-$$a : b = a^2 : ab. \hfill \text{[VII. 17]}$$
+.. math::
 
-And between $a$, $b$ there is one mean proportional. :just:`[VIII. 18] <VIII.18>`
+   a : b = a^2 : ab. \hfill \text{[VII. 17]}
 
-Therefore between $a^2 : ab$ there is one mean proportional. :just:`[VIII. 8] <VIII.8>`
+And between :math:`a`, :math:`b` there is one mean proportional. :just:`[VIII. 18] <VIII.18>`
 
-And $a^2$ is square; therefore $ab$ is square. :just:`[VIII. 22] <VIII.22>`
+Therefore between :math:`a^2 : ab` there is one mean proportional. :just:`[VIII. 8] <VIII.8>`
+
+And :math:`a^2` is square; therefore :math:`ab` is square. :just:`[VIII. 22] <VIII.22>`

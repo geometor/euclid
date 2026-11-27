@@ -100,7 +100,9 @@ The property of the curve is that, if :g:`F <0280.g2:F>` is any point, the arc :
 
 In other words, if :g:`φ <0280.g2:< F A D )>` is the angle :g:`FAD <0280.g2:< F A D )>`, :g:`ρ <0280.g2:/ A F />` the radius vector :g:`AF <0280.g2:/ A F />` and :g:`a <0280.g2:/ A D />` the side of the square,
 
-$$(\rho \sin \phi)/a = \phi/\frac{1}{2}\pi.$$
+.. math::
+
+   (\rho \sin \phi)/a = \phi/\frac{1}{2}\pi.
 
 Now the angle :g:`EAD <0280.g2:< E A D )>` can not only be *trisected* but *divided in any given ratio* by means of the quadratrix (:person:`Pappus <pappus>` iv. p. 286).
 
@@ -113,4 +115,4 @@ Then the angles :g:`EAN <0280.g2:< E A N )>`, :g:`NAD <0280.g2:< N A D )>` are i
 (c) Use of the *spiral of Archimedes*.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The trisection of an angle, or the division of an angle in any ratio, by means of the *spiral of Archimedes* is of course an equally simple matter.  Suppose any angle included between the two radii vectores $OA$ and $OB$ of the spiral, and let it be required to cut the angle $AOB$ in a given ratio.  Since the radius vector increases proportionally with the angle described by the vector which generates the curve (reckoned from the original position of the vector coinciding with the initial line to the particular position assumed), we have only to take the radius vector $OB$ (the greater of the two $OA$, $OB$), mark off $OC$ along it equal to $OA$, cut $CB$ in the given ratio (at $D$ say), and then draw the circle with centre $O$ and radius $OD$ cutting the spiral in $E$.  Then $OE$ will divide the angle $AOB$ in the required manner.
+The trisection of an angle, or the division of an angle in any ratio, by means of the *spiral of Archimedes* is of course an equally simple matter.  Suppose any angle included between the two radii vectores :math:`OA` and :math:`OB` of the spiral, and let it be required to cut the angle :math:`AOB` in a given ratio.  Since the radius vector increases proportionally with the angle described by the vector which generates the curve (reckoned from the original position of the vector coinciding with the initial line to the particular position assumed), we have only to take the radius vector :math:`OB` (the greater of the two :math:`OA`, :math:`OB`), mark off :math:`OC` along it equal to :math:`OA`, cut :math:`CB` in the given ratio (at :math:`D` say), and then draw the circle with centre :math:`O` and radius :math:`OD` cutting the spiral in :math:`E`.  Then :math:`OE` will divide the angle :math:`AOB` in the required manner.

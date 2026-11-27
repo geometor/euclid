@@ -86,7 +86,7 @@ That is, the remainder :g:`EB <0151.g1:/ E B />` will be the same multiple of th
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] **let EB be made that multiple of** :g:`CG <0151.g1:/ C G />`, τοσαυταπλάσιον γεγονέτω καὶ τὸ ΕΒ τοῦ ΓΗ. From this way of stating the construction one might suppose that $CG$ was given and :g:`EB <0151.g1:/ E B />` had to be found equal to a certain multiple of it. But in fact :g:`EB <0151.g1:/ E B />` is what is given and :g:`CG <0151.g1:/ C G />` has to be found, i.e. :g:`CG <0151.g1:/ C G />` has to be constructed as a certain *submultiple* of :g:`EB <0151.g1:/ E B />`.
+.. [#f1] **let EB be made that multiple of** :g:`CG <0151.g1:/ C G />`, τοσαυταπλάσιον γεγονέτω καὶ τὸ ΕΒ τοῦ ΓΗ. From this way of stating the construction one might suppose that :math:`CG` was given and :g:`EB <0151.g1:/ E B />` had to be found equal to a certain multiple of it. But in fact :g:`EB <0151.g1:/ E B />` is what is given and :g:`CG <0151.g1:/ C G />` has to be found, i.e. :g:`CG <0151.g1:/ C G />` has to be constructed as a certain *submultiple* of :g:`EB <0151.g1:/ E B />`.
 
 Dependency Graph
 ----------------

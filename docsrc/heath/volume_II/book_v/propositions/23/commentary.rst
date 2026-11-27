@@ -29,7 +29,7 @@ or, with the notation used in the note on Prop. 20,
 
 .. assertion::
 
-   $ma : mb = ne : nf$,
+   :math:`ma : mb = ne : nf`,
 
 it has to be proved further that,
 
@@ -41,7 +41,7 @@ or
 
 .. assertion::
 
-   $mb : nc = md : ne$,
+   :math:`mb : nc = md : ne`,
 
 and it is clear that the latter result may be directly inferred from v. 4. The reading translated by :person:`Simson <simson>` makes this inference:
 

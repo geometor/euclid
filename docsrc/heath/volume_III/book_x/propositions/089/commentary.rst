@@ -19,22 +19,33 @@ Back to :ref:`Proposition X.89 <X.89>`.
 .. folio:: 0191
    :page: 187
 
-Let $\rho$, $k\rho$ and the numbers $m$, $n$ of the last proposition be taken. Take $x$ such that
+Let :math:`\rho`, :math:`k\rho` and the numbers :math:`m`, :math:`n` of the last proposition be taken. Take :math:`x` such that
 
-$$n : (m+n) = k^2\rho^2 : x^2 \text{ ..............................(1).}$$
+.. math::
 
-In this case $x > k\rho$, and
+   n : (m+n) = k^2\rho^2 : x^2 \text{ ..............................(1).}
 
-$$x = k\rho \sqrt{\frac{m+n}{n}}$$
+In this case :math:`x > k\rho`, and
 
-$$= k\rho \sqrt{1+\lambda}\text{, say.}$$
+.. math::
 
-Then shall $(x - k\rho)$, or $(k\rho\sqrt{1+\lambda} - k\rho)$, be a :term:`*fifth apotome* <fifth-apotome>`. For, by (1), $x$ is rational and $\sim k\rho$. And since, by (1), $(m+n) : m = x^2 : (x^2 - k^2\rho^2)$, $\sqrt{x^2 - k^2\rho^2}$ is incommensurable with $x$.
+   x = k\rho \sqrt{\frac{m+n}{n}}
 
-Also $k\rho \sim \rho$. As explained in the note on x. 52, the :term:`*fifth apotome* <fifth-apotome>`
+.. math::
 
-$$k\rho\sqrt{1+\lambda} - k\rho$$
+   = k\rho \sqrt{1+\lambda}\text{, say.}
+
+Then shall :math:`(x - k\rho)`, or :math:`(k\rho\sqrt{1+\lambda} - k\rho)`, be a :term:`*fifth apotome* <fifth-apotome>`. For, by (1), :math:`x` is rational and :math:`\sim k\rho`. And since, by (1), :math:`(m+n) : m = x^2 : (x^2 - k^2\rho^2)`, :math:`\sqrt{x^2 - k^2\rho^2}` is incommensurable with :math:`x`.
+
+Also :math:`k\rho \sim \rho`. As explained in the note on x. 52, the :term:`*fifth apotome* <fifth-apotome>`
+
+.. math::
+
+   k\rho\sqrt{1+\lambda} - k\rho
 
 is the lesser root of the quadratic
 
-$$x^2 - 2k\rho\sqrt{1+\lambda}\cdot x + \lambda k^2\rho^2 = 0.$$
+.. math::
+
+   x^2 - 2k\rho\sqrt{1+\lambda}\cdot x + \lambda k^2\rho^2 = 0.
+

@@ -21,20 +21,22 @@ Back to :ref:`Proposition X.18 <X.18>`.
 
 With the same notation as before, we have to prove in this proposition that
 
-(1) if $(a - x)$, $x$ are incommensurable in length, so are $a$, $\sqrt{a^2 - b^2}$, and
+(1) if :math:`(a - x)`, :math:`x` are incommensurable in length, so are :math:`a`, :math:`\sqrt{a^2 - b^2}`, and
 
-(2) if $a$, $\sqrt{a^2 - b^2}$ are incommensurable in length, so are $(a - x)$, $x$. Or, with the equations
+(2) if :math:`a`, :math:`\sqrt{a^2 - b^2}` are incommensurable in length, so are :math:`(a - x)`, :math:`x`. Or, with the equations
 
-$$\left.\begin{aligned} xy &= \frac{b^2}{4} \\ x + y &= a \end{aligned}\right\},$$
+.. math::
+
+   \left.\begin{aligned} xy &= \frac{b^2}{4} \\ x + y &= a \end{aligned}\right\},
 
 .. _folio-iii-0051:
 
 .. folio:: 0051
    :page: 47
 
-(1) if $x \mathrel{⌣} y$, then $a \mathrel{⌣} \sqrt{a^2 - b^2}$, and
+(1) if :math:`x \mathrel{⌣} y`, then :math:`a \mathrel{⌣} \sqrt{a^2 - b^2}`, and
 
-(2) if $a \mathrel{⌣} \sqrt{a^2 - b^2}$, then $x \mathrel{⌣} y$. The steps are exactly the same as shown under (1) and (2) of the last note, with $\mathrel{⌣}$ instead of $\mathrel{⌢}$, except only in the lines "$x \mathrel{⌢} 2x$" and "$2x \mathrel{⌢} x$" which are unaltered, while, in the references, X. 13, 16 take the place of X. 12, 15 respectively.
+(2) if :math:`a \mathrel{⌣} \sqrt{a^2 - b^2}`, then :math:`x \mathrel{⌣} y`. The steps are exactly the same as shown under (1) and (2) of the last note, with :math:`\mathrel{⌣}` instead of :math:`\mathrel{⌢}`, except only in the lines ":math:`x \mathrel{⌢} 2x`" and ":math:`2x \mathrel{⌢} x`" which are unaltered, while, in the references, X. 13, 16 take the place of X. 12, 15 respectively.
 
 ----
 

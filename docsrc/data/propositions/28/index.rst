@@ -21,6 +21,6 @@ Proposition 28 [κη΄ · Prop. XXXI]
 
 *Functional Signature*: ``Given(Pos(A), Pos(Line BC)) -> Determined(Pos(Parallel(A, BC)))`` · *Dependencies*: :just:`[Data Def. 4] <D.def.4>`, :just:`[I.27] <I.27>`, :just:`[I.29] <I.29>`, :just:`[I.30] <I.30>`, :just:`[I.31] <I.31>`
 
-Through a given point $A$, let the straight line $DAE$ be drawn parallel to a straight line $BC$ given in position (:just:`[I.31] <I.31>`). I say that $DAE$ is given in position.
+Through a given point :math:`A`, let the straight line :math:`DAE` be drawn parallel to a straight line :math:`BC` given in position (:just:`[I.31] <I.31>`). I say that :math:`DAE` is given in position.
 
-For if $DAE$ were not given in position while passing through the fixed point $A$, it could shift into another straight line $FAE$ through $A$ still parallel to $BC$. Then $BC$ would be parallel simultaneously to two intersecting straight lines $DAE$ and $FAE$—which is impossible by :just:`[I.29] <I.29>` and :just:`[I.30] <I.30>` (Playfair's / Euclid's Fifth Postulate :just:`[Post. 5] <I.post.5>`). Therefore $DAE$ always occupies the same place and is given in position (:just:`[Data Def. 4] <D.def.4>`).
+For if :math:`DAE` were not given in position while passing through the fixed point :math:`A`, it could shift into another straight line :math:`FAE` through :math:`A` still parallel to :math:`BC`. Then :math:`BC` would be parallel simultaneously to two intersecting straight lines :math:`DAE` and :math:`FAE`—which is impossible by :just:`[I.29] <I.29>` and :just:`[I.30] <I.30>` (Playfair's / Euclid's Fifth Postulate :just:`[Post. 5] <I.post.5>`). Therefore :math:`DAE` always occupies the same place and is given in position (:just:`[Data Def. 4] <D.def.4>`).

@@ -21,34 +21,46 @@ Back to :ref:`Proposition X.29 <X.29>`.
 .. folio:: 0072
    :page: 68
 
-Take a rational straight line $\rho$ and two numbers $m^2$, $n^2$ such that $(m^2 - n^2)$ is not a square.
+Take a rational straight line :math:`\rho` and two numbers :math:`m^2`, :math:`n^2` such that :math:`(m^2 - n^2)` is not a square.
 
-Take a straight line $x$ such that
+Take a straight line :math:`x` such that
 
-$$m^2 : m^2 - n^2 = \rho^2 : x^2 \tag{1},$$
+.. math::
+
+   m^2 : m^2 - n^2 = \rho^2 : x^2 \tag{1},
 
 whence
 
-$$x^2 = \frac{m^2 - n^2}{m^2}\rho^2,$$
+.. math::
+
+   x^2 = \frac{m^2 - n^2}{m^2}\rho^2,
 
 and
 
-$$x = \rho\sqrt{1 - k^2}, \quad \text{where } k = \frac{n}{m}.$$
+.. math::
 
-Then $\rho$, $\rho\sqrt{1 - k^2}$ are the straight lines required.
+   x = \rho\sqrt{1 - k^2}, \quad \text{where } k = \frac{n}{m}.
+
+Then :math:`\rho`, :math:`\rho\sqrt{1 - k^2}` are the straight lines required.
 
 It follows from (1) that
 
-$$x^2 \sim \rho^2,$$
+.. math::
 
-and $x$ is rational, but
+   x^2 \sim \rho^2,
 
-$$x \smile \rho.$$
+and :math:`x` is rational, but
+
+.. math::
+
+   x \smile \rho.
 
 By (1), :term:`*convertendo* <convertendo>`,
 
-$$m^2 : n^2 = \rho^2 : \rho^2 - x^2,$$
+.. math::
 
-so that $\sqrt{\rho^2 - x^2} \sim \rho$, and in fact $= k\rho$.
+   m^2 : n^2 = \rho^2 : \rho^2 - x^2,
 
-According as $\rho$ is of the form $a$ or $\sqrt{A}$, the straight lines are (1) $a$, $\sqrt{a^2 - b^2}$ or (2) $\sqrt{A}$, $\sqrt{A - k^2 A}$.
+so that :math:`\sqrt{\rho^2 - x^2} \sim \rho`, and in fact :math:`= k\rho`.
+
+According as :math:`\rho` is of the form :math:`a` or :math:`\sqrt{A}`, the straight lines are (1) :math:`a`, :math:`\sqrt{a^2 - b^2}` or (2) :math:`\sqrt{A}`, :math:`\sqrt{A - k^2 A}`.

@@ -27,7 +27,9 @@ It has often been pointed out (e.g. by :person:`Clavius <clavius>`, Lardner and 
 .. folio:: 0278
    :page: 272
 
-$$CD : DE = BA : AC.$$
+.. math::
+
+   CD : DE = BA : AC.
 
 Then the triangles :g:`ABC <0278.g1:< A B C >>`, :g:`ECD <0278.g1:< E C D >>`, which have the angular point :g:`C <0278.g1:C>` common literally satisfy Euclid's enunciation; but by no possibility can :g:`CE <0278.g1:/ C E />` be in a straight line with :g:`CB <0278.g1:/ C B />` if, as in the case supposed, the angles included by the corresponding sides are supplementary (unless both are right angles). Hence the included angles must be *equal*, so that the triangles must be *similar*. That being so, if they are to have nothing more than one angular point common, and two pairs of corresponding sides are to be *parallel* as distinguished from one or both being in the *same straight line*, the triangles can only be placed so that the corresponding sides in both are on the same side of the third side of either, and the sides (other than the third sides) which meet at the common angular point are not corresponding sides.
 

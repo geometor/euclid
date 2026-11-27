@@ -21,39 +21,53 @@ Back to :ref:`Proposition VII.8 <VII.8>`.
 
 If
 
-$$a = \frac{m}{n}b \text{ and } c = \frac{m}{n}d, \quad (m < n)$$
+.. math::
+
+   a = \frac{m}{n}b \text{ and } c = \frac{m}{n}d, \quad (m < n)
 
 then
 
-$$a - c = \frac{m}{n}(b - d).$$
+.. math::
+
+   a - c = \frac{m}{n}(b - d).
 
 Euclid's proof amounts to the following.
 
-Take $e$ equal to $\frac{1}{n}b$, and $f$ equal to $\frac{1}{n}d$.
+Take :math:`e` equal to :math:`\frac{1}{n}b`, and :math:`f` equal to :math:`\frac{1}{n}d`.
 
-Then since, by hypothesis, $b > d$,
+Then since, by hypothesis, :math:`b > d`,
 
-$$e > f,$$
+.. math::
+
+   e > f,
 
 and, by VII. 7,
 
-$$e - f = \frac{1}{n}(b - d).$$
+.. math::
+
+   e - f = \frac{1}{n}(b - d).
 
 .. _folio-ii-0315:
 
 .. folio:: 0315
    :page: 309
 
-Repeat this for all the parts equal to $e$ and $f$ that there are in $a$, $b$ respectively, and we have, by addition ($a$, $b$ containing $m$ of such parts respectively),
+Repeat this for all the parts equal to :math:`e` and :math:`f` that there are in :math:`a`, :math:`b` respectively, and we have, by addition (:math:`a`, :math:`b` containing :math:`m` of such parts respectively),
 
-$$m(e - f) = \frac{m}{n}(b - d).$$
+.. math::
+
+   m(e - f) = \frac{m}{n}(b - d).
 
 But
 
-$$m(e - f) = a - c.$$
+.. math::
+
+   m(e - f) = a - c.
 
 Therefore
 
-$$a - c = \frac{m}{n}(b - d).$$
+.. math::
+
+   a - c = \frac{m}{n}(b - d).
 
 The propositions VII. 7, 8 are complementary to V. 5 which gives the corresponding result with *multiple* in the place of "part" or "parts."

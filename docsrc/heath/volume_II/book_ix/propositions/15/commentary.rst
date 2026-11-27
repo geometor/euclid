@@ -23,7 +23,9 @@ If *a*, *b*, *c* be a geometrical progression in the least terms which have a gi
 
 Let *α* : *β* be the common ratio in its lowest terms, so that the geometrical progression is
 
-$$\alpha^2,\quad \alpha\beta,\quad \beta^2. \qquad \text{[VIII. 2]}$$
+.. math::
+
+   \alpha^2,\quad \alpha\beta,\quad \beta^2. \qquad \text{[VIII. 2]}
 
 Now, *α*, *β* being prime to one another, *α* + *β* is prime to both *α* and *β*. :just:`[VII. 28] <VII.28>`
 
@@ -31,16 +33,16 @@ Therefore (*α* + *β*), *α* are both prime to *β*.
 
 Hence (*α* + *β*) *α* is prime to *β*, :just:`[VII. 24] <VII.24>`
 
-and therefore to $\beta^2$ ; :just:`[VII. 25] <VII.25>`
+and therefore to :math:`\beta^2` ; :just:`[VII. 25] <VII.25>`
 
-i.e. $\alpha^2 + \alpha\beta$ is prime to $\beta^2$, or $a + b$ is prime to $c$.
+i.e. :math:`\alpha^2 + \alpha\beta` is prime to :math:`\beta^2`, or :math:`a + b` is prime to :math:`c`.
 
-Similarly, $\alpha\beta + \beta^2$ is prime to $\alpha^2$, or $b + c$ is prime to $a$.
+Similarly, :math:`\alpha\beta + \beta^2` is prime to :math:`\alpha^2`, or :math:`b + c` is prime to :math:`a`.
 
-Lastly, $\alpha + \beta$ being prime to both $\alpha$ and $\beta$, $(\alpha + \beta)^2$ is prime to $\alpha\beta$, :just:`[VII. 24, 25]`
+Lastly, :math:`\alpha + \beta` being prime to both :math:`\alpha` and :math:`\beta`, :math:`(\alpha + \beta)^2` is prime to :math:`\alpha\beta`, :just:`[VII. 24, 25]`
 
-or $\alpha^2 + \beta^2 + 2\alpha\beta$ is prime to $\alpha\beta$ : whence $\alpha^2 + \beta^2$ is prime to $\alpha\beta$.
+or :math:`\alpha^2 + \beta^2 + 2\alpha\beta` is prime to :math:`\alpha\beta` : whence :math:`\alpha^2 + \beta^2` is prime to :math:`\alpha\beta`.
 
 The latter inference, made in two steps, may be proved by *reductio ad absurdum* as Commandinus proves it.
 
-If $\alpha^2 + \beta^2$ is not prime to $\alpha\beta$, let $x$ measure them ; therefore $x$ measures $\alpha^2 + \beta^2 + 2\alpha\beta$ as well as $\alpha\beta$ ; hence $\alpha^2 + \beta^2 + 2\alpha\beta$ and $\alpha\beta$ are not prime to one another, which is contrary to the hypothesis.
+If :math:`\alpha^2 + \beta^2` is not prime to :math:`\alpha\beta`, let :math:`x` measure them ; therefore :math:`x` measures :math:`\alpha^2 + \beta^2 + 2\alpha\beta` as well as :math:`\alpha\beta` ; hence :math:`\alpha^2 + \beta^2 + 2\alpha\beta` and :math:`\alpha\beta` are not prime to one another, which is contrary to the hypothesis.

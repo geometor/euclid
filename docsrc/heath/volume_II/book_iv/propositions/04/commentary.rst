@@ -39,7 +39,9 @@ two sides *produced*. Next, taking the pairs of interior angles formed by a seco
 
 It may perhaps not be inappropriate to give at this point :person:`Heron <heron>`'s elegant proof of the formula for the area of a triangle in terms of the sides, which we usually write thus:
 
-$$\Delta = \sqrt{s(s - a)(s - b)(s - c)},$$
+.. math::
+
+   \Delta = \sqrt{s(s - a)(s - b)(s - c)},
 
 although it requires the theory of proportions and uses some ungeometrical expressions, e.g. the product of two areas and the "side" of such a product, where of course the areas are so many square units of length. The proof is given in the :cite:`*Metrica* <heron:metrica>`, I. 8, and in the :cite:`*Dioptra* <heron:dioptra>`, 30 (:person:`Heron <heron>`, Vol. III., Teubner, 1903, pp. 20—24 and pp. 280—4, or :person:`Heron <heron>`, ed. :person:`Hultsch <hultsch>`, pp. 235—7).
 
@@ -54,37 +56,47 @@ Join :g:`AG <0093.g1:/ A G />`, :g:`BG <0093.g1:/ B G />`, :g:`CG <0093.g1:/ C G
 
 Then
 
-$$\begin{aligned}
-BC \cdot EG &= 2 \cdot \Delta BGC, \\
-CA \cdot FG &= 2 \cdot \Delta ACG, \\
-AB \cdot DG &= 2 \cdot \Delta ABG.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   BC \cdot EG &= 2 \cdot \Delta BGC, \\
+   CA \cdot FG &= 2 \cdot \Delta ACG, \\
+   AB \cdot DG &= 2 \cdot \Delta ABG.
+   \end{aligned}
 
 Therefore, by addition,
 
-$$p \cdot EG = 2 \cdot \Delta ABC,$$
+.. math::
 
-where $p$ is the perimeter.
+   p \cdot EG = 2 \cdot \Delta ABC,
+
+where :math:`p` is the perimeter.
 
 Produce :g:`CB <0093.g1:/ C B />` to :g:`H <0093.g1:H>`, so that :g:`BH <0093.g1:/ B H />` :eq:`= <0093.g1:/ B H / = 0093.g1:/ A D />` :g:`AD <0093.g1:/ A D />`.
 
 Then, since :g:`AD <0093.g1:/ A D />` :eq:`= <0093.g1:/ A D / = 0093.g1:/ A F />` :g:`AF <0093.g1:/ A F />`, :g:`DB <0093.g1:/ D B />` :eq:`= <0093.g1:/ D B / = 0093.g1:/ B E />` :g:`BE <0093.g1:/ B E />`, :g:`FC <0093.g1:/ F C />` :eq:`= <0093.g1:/ F C / = 0093.g1:/ C E />` :g:`CE <0093.g1:/ C E />`,
 
-$$CH = \tfrac{1}{2}p.$$
+.. math::
+
+   CH = \tfrac{1}{2}p.
 
 Hence
 
-$$CH \cdot EG = \Delta ABC.$$
+.. math::
+
+   CH \cdot EG = \Delta ABC.
 
 .. _folio-ii-0094:
 
 .. folio:: 0094
    :page: 88
 
-But :g:`CH <0093.g1:/ C H />` · :g:`EG <0093.g1:/ E G />` is the "side" of the product $CH^2 \cdot EG^2$, that is $\sqrt{CH^2 \cdot EG^2}$;
+But :g:`CH <0093.g1:/ C H />` · :g:`EG <0093.g1:/ E G />` is the "side" of the product :math:`CH^2 \cdot EG^2`, that is :math:`\sqrt{CH^2 \cdot EG^2}`;
 therefore
 
-$$(\Delta ABC)^2 = CH^2 \cdot EG^2.$$
+.. math::
+
+   (\Delta ABC)^2 = CH^2 \cdot EG^2.
 
 Draw :g:`GL <0093.g1:/ G L />` at right angles to :g:`CG <0093.g1:/ C G />`, and :g:`BL <0093.g1:/ B L />` at right angles to :g:`CB <0093.g1:/ C B />`, meeting at :g:`L <0093.g1:L>`. Join :g:`CL <0093.g1:/ C L />`.
 
@@ -102,28 +114,36 @@ Therefore the triangles :g:`AGD <0093.g1:< A G D >>`, :g:`CLB <0093.g1:< C L B >
 
 Hence
 
-$$\begin{aligned}
-BC : BL &= AD : DG \\
-&= BH : EG,
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   BC : BL &= AD : DG \\
+   &= BH : EG,
+   \end{aligned}
 
 and, alternately,
 
-$$\begin{aligned}
-CB : BH &= BL : EG \\
-&= BK : KE,
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   CB : BH &= BL : EG \\
+   &= BK : KE,
+   \end{aligned}
 
 whence, :term:`*componendo* <componendo>`,
 
-$$CH : HB = BE : EK.$$
+.. math::
+
+   CH : HB = BE : EK.
 
 It follows that
 
-$$\begin{aligned}
-CH^2 : CH \cdot HB &= BE \cdot EC : CE \cdot EK \\
-&= BE \cdot EC : EG^2
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   CH^2 : CH \cdot HB &= BE \cdot EC : CE \cdot EK \\
+   &= BE \cdot EC : EG^2
+   \end{aligned}
 
 Therefore
 

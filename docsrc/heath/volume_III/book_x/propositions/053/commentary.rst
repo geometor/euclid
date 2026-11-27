@@ -19,53 +19,69 @@ Back to :ref:`Proposition X.53 <X.53>`.
 .. folio:: 0118
    :page: 114
 
-Take numbers $m$, $n$ such that $(m + n)$ has not to either of the numbers $m$, $n$ the ratio of square to square; take also a third number $p$, which is not square, and which has not to either of the numbers $(m + n)$, $m$ the ratio of square to square.
+Take numbers :math:`m`, :math:`n` such that :math:`(m + n)` has not to either of the numbers :math:`m`, :math:`n` the ratio of square to square; take also a third number :math:`p`, which is not square, and which has not to either of the numbers :math:`(m + n)`, :math:`m` the ratio of square to square.
 
 Let
 
-$$p : (m + n) = p^2 : x^2 \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1)$$
+.. math::
+
+   p : (m + n) = p^2 : x^2 \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1)
 
 and
 
-$$(m + n) : m = x^2 : y^2 \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).$$
+.. math::
 
-Then shall $(x + y)$ be a sixth binomial straight line.
+   (m + n) : m = x^2 : y^2 \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).
 
-For, by (1), $x$ is rational and $\smile p$.
+Then shall :math:`(x + y)` be a sixth binomial straight line.
 
-By (2), since $x$ is rational, $y$ is rational and $\smile x$.
+For, by (1), :math:`x` is rational and :math:`\smile p`.
 
-Hence $x$, $y$ are rational and commensurable in square only, so that $(x + y)$ is a binomial straight line.
+By (2), since :math:`x` is rational, :math:`y` is rational and :math:`\smile x`.
+
+Hence :math:`x`, :math:`y` are rational and commensurable in square only, so that :math:`(x + y)` is a binomial straight line.
 
 Again, :term:`*ex aequali* <ex-aequali>`, from (1) and (2),
 
-$$p : m = p^2 : y^2 \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(3),$$
+.. math::
 
-whence $y \smile p$.
+   p : m = p^2 : y^2 \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(3),
 
-Thus $x$, $y$ are both incommensurable in length with $p$.
+whence :math:`y \smile p`.
+
+Thus :math:`x`, :math:`y` are both incommensurable in length with :math:`p`.
 
 Lastly, from (2), :term:`*convertendo* <convertendo>`,
 
-$$(m + n) : n = x^2 : (x^2 - y^2),$$
+.. math::
 
-so that $\sqrt{x^2 - y^2} \smile x$.
+   (m + n) : n = x^2 : (x^2 - y^2),
 
-Therefore $(x + y)$ is a sixth binomial straight line.
+so that :math:`\sqrt{x^2 - y^2} \smile x`.
+
+Therefore :math:`(x + y)` is a sixth binomial straight line.
 
 Now, from (1) and (3),
 
-$$x = p \cdot \sqrt{\frac{m + n}{p}} = p\sqrt{k}\text{, say,}$$
+.. math::
 
-$$y = p \cdot \sqrt{\frac{m}{p}} = p\sqrt{\lambda}\text{, say,}$$
+   x = p \cdot \sqrt{\frac{m + n}{p}} = p\sqrt{k}\text{, say,}
+
+.. math::
+
+   y = p \cdot \sqrt{\frac{m}{p}} = p\sqrt{\lambda}\text{, say,}
 
 and the sixth binomial straight line may be written
 
-$$\sqrt{k}\cdot p + \sqrt{\lambda}\cdot p.$$
+.. math::
+
+   \sqrt{k}\cdot p + \sqrt{\lambda}\cdot p.
 
 The corresponding :term:`*sixth apotome* <sixth-apotome>` is [X. 90]
 
-$$\sqrt{k}\cdot p - \sqrt{\lambda}\cdot p;$$
+.. math::
+
+   \sqrt{k}\cdot p - \sqrt{\lambda}\cdot p;
 
 .. _folio-iii-0119:
 
@@ -74,33 +90,41 @@ $$\sqrt{k}\cdot p - \sqrt{\lambda}\cdot p;$$
 
 and the equation of which the two expressions are the roots is
 
-$$x^2 - 2\sqrt{k}\cdot px + (k - \lambda)p^2 = 0,$$
+.. math::
+
+   x^2 - 2\sqrt{k}\cdot px + (k - \lambda)p^2 = 0,
 
 or
 
-$$x^2 - 2ax + \frac{k - \lambda}{k} a^2 = 0,$$
+.. math::
 
-where $a = \sqrt{k}\cdot p$.
+   x^2 - 2ax + \frac{k - \lambda}{k} a^2 = 0,
+
+where :math:`a = \sqrt{k}\cdot p`.
 
 :person:`Tannery <tannery>` remarks ("De la solution géométrique des problèmes du second degré avant Euclide" in :cite:`*Mémoires de la Société des sciences physiques et naturelles de Bordeaux* <tannery:memoires-bordeaux>`, 2e Série, T. iv.) that Euclid admits as binomials and apotomes the third and sixth binomials and apotomes which are the square roots of first binomials and apotomes respectively. Hence the third and sixth binomials and apotomes are the positive roots of biquadratic equations of the same form as the quadratics which give as roots the first and fourth binomials and apotomes. But this remark seems to be of no value because (as was pointed out a hundred years ago by :person:`Cossali <cossali>`, II. p. 260) the squares of *all* the six binomials and apotomes (including the first and fourth) give *first* binomials and apotomes respectively. Hence we may equally well regard them all as roots of biquadratics reducible to quadratics, or generally as roots of equations of the form
 
-$$x^{2n} \pm 2a\cdot x^n \pm q = 0;$$
+.. math::
+
+   x^{2n} \pm 2a\cdot x^n \pm q = 0;
 
 and nothing is gained by raising the degree of the equations in this way.
 
 It is, of course, easy to see that the most general form of binomial and apotome, viz.
 
-$$p\cdot\sqrt{k} \pm p\cdot\sqrt{\lambda},$$
+.. math::
+
+   p\cdot\sqrt{k} \pm p\cdot\sqrt{\lambda},
 
 give *first* binomials and apotomes when squared.
 
-For the square is $p\{(k + \lambda)p \pm 2\sqrt{k\lambda}\cdot p\}$; and the expression within the bracket is a first binomial or apotome, because
+For the square is :math:`p\{(k + \lambda)p \pm 2\sqrt{k\lambda}\cdot p\}`; and the expression within the bracket is a first binomial or apotome, because
 
-(1) $k + \lambda > 2\sqrt{k\lambda}$,
+(1) :math:`k + \lambda > 2\sqrt{k\lambda}`,
 
-(2) $\sqrt{(k + \lambda)^2 - 4k\lambda} = k - \lambda$, which is $\frown (k + \lambda)$,
+(2) :math:`\sqrt{(k + \lambda)^2 - 4k\lambda} = k - \lambda`, which is :math:`\frown (k + \lambda)`,
 
-(3) $(k + \lambda)p \frown p$.
+(3) :math:`(k + \lambda)p \frown p`.
 
 ----
 
@@ -185,10 +209,14 @@ I say next that :g:`DC <0119.g1:< D C >>` is also a mean proportional between :g
 
 It is here proved that
 
-$$x^2 : xy = xy : y^2,$$
+.. math::
+
+   x^2 : xy = xy : y^2,
 
 and
 
-$$(x + y)^2 : (x + y)y = (x + y)y : y^2.$$
+.. math::
+
+   (x + y)^2 : (x + y)y = (x + y)y : y^2.
 
 The first of the two results is proved in the course of X. 25 (lines 6—8 on p. 57 above). This fact may, I think, suggest doubt as to the genuineness of this Lemma.

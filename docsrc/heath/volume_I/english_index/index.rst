@@ -69,7 +69,7 @@ ENGLISH INDEX.
    :page: 422
 
 - "Anthisathus" (or "Abthiniathus") 203
-- Āpastamba-Śulba-Sūtra 352: evidence in, as to early discovery of Eucl. I. 47 and use of gnomon 360–4: Bürk's claim that Indians had discovered the irrational 363–4: approximation to $\sqrt{2}$ and Thibaut's explanation 361, 363–4: inaccurate values of $\pi$ in, 364
+- Āpastamba-Śulba-Sūtra 352: evidence in, as to early discovery of Eucl. I. 47 and use of gnomon 360–4: Bürk's claim that Indians had discovered the irrational 363–4: approximation to :math:`\sqrt{2}` and Thibaut's explanation 361, 363–4: inaccurate values of :math:`\pi` in, 364
 - Apollodorus "Logisticus" 37, 319, 351
 - Apollonius: disparaged by Pappus in comparison with Euclid 3: supposed by some Arabians to be author of the *Elements* 5: a "carpenter" 5: on elementary geometry 42: on the *line* 159: on the *angle* 176: general definition of *diameter* 325: tried to prove axioms 42, 62, 222–3: his "general treatise" 42: constructions by, for bisection of straight line 268, for a perpendicular 270, for an angle equal to an angle 296: on parallel-axiom (?) 42–3: adaptation to conics of theory of application of areas 344–5: geometrical algebra in, 373: *Plane Loci* 14, 259, 330: *Plane* :term:`νεύσεις <neuseis>` 151: comparison of dodecahedron and icosahedron 6: on the *cochlias* 34, 42, 162: on unordered irrationals 42, 115: 138, 188, 221, 222, 246, 249, 259, 370, 373
 - Application of areas 36, 343–5: contrasted with *exceeding* and *falling-short* 343: complete method equivalent to geometric solution of mixed quadratic equation 344–5, 383–5, 386–8: adaptation to conics (Apollonius) 344–5: *application* contrasted with *construction* (Proclus) 343
@@ -255,7 +255,7 @@ ENGLISH INDEX.
 - Dou, Jan Pieterszoon 108
 - Duhamel 139, 328
 - *Dulcarnon*, name for Eucl. I. 47, 416, 418
-- Egyptians, knowledge of $3^2 + 4^2 = 5^2$, 352
+- Egyptians, knowledge of :math:`3^2 + 4^2 = 5^2`, 352
 - Eibe, Thyra 113
 - *Elefuga*, name for Eucl. I. 5, 416–7
 - *Elements*: pre-Euclidean Elements, by Hippocrates of Chios, Leon 116, Theudius 117: contributions to, by Eudoxus 1, 37, Theaetetus 1, 37, Hermotimus of Colophon 117: Euclid's *Elements*, ultimate aims of 2, 115–6: commentators on 19–45, Proclus 19, 29–45 and *passim*, Heron 20–24, an-Nairīzī 21–24, Porphyry 24, Pappus 24–27, Simplicius 28, Aenaeas (Aigeias) 28: MSS. of 46–51: Theon's changes in text 54–58: means of comparing Theonine with ante-Theonine text 51–53: interpolations before Theon's time 58–63: scholia 64–74: external sources throwing light on text, Heron, Taurus, Sextus Empiricus, Proclus, Iamblichus 62–3: Arabic translations (1) by al-Ḥajjāj 75, 76, 79, 80, 83–4, (2) by Isḥāq and Thābit b. Qurra 75–80, 83–4, (3) Naṣīraddīn at-Ṭūsī 77–80, 84: Hebrew translation by Moses b. Tibbon or Jakob b. Machir 76: Arabian versions compared with Greek text 79–83, with one another 83, 84: translation by Boethius 92: old translation of 10th c., 92: translation by Athelhard 93–6, Gherard of Cremona 93–4,
@@ -387,7 +387,7 @@ ENGLISH INDEX
 - Ingrami, G. 175, 193, 195, 201, 227–8
 - *Interior* and *exterior* (of angles) 263, 280: *interior and opposite* angle 280
 - Interpolations in the *Elements* before Theon's time 58–63: by Theon 46, 55–6: I. 40 interpolated 338
-- *Irrational*: discovered with reference to $\sqrt{2}$ 351, 411, 412–3: claim of India to priority of discovery 363–4: "irrational diameter of 5" (Pythagoreans and Plato) 399–400, 413: approximation to $\sqrt{2}$ by means of "side-" and "diagonal-" numbers 399–401, to $\sqrt{2}$ and $\sqrt{3}$ in sexagesimal fractions 74 *n.*: Indian approximation to $\sqrt{2}$ 361, 363–4: *unordered irrationals* (Apollonius) 42, 115: irrational ratio (:term:`ἄρρητος <arrhetos>` λόγος) 137
+- *Irrational*: discovered with reference to :math:`\sqrt{2}` 351, 411, 412–3: claim of India to priority of discovery 363–4: "irrational diameter of 5" (Pythagoreans and Plato) 399–400, 413: approximation to :math:`\sqrt{2}` by means of "side-" and "diagonal-" numbers 399–401, to :math:`\sqrt{2}` and :math:`\sqrt{3}` in sexagesimal fractions 74 *n.*: Indian approximation to :math:`\sqrt{2}` 361, 363–4: *unordered irrationals* (Apollonius) 42, 115: irrational ratio (:term:`ἄρρητος <arrhetos>` λόγος) 137
 - Isaacus Monachus (or Argyrus) 73–4, 407
 - Isḥāq b. Ḥunain b. Isḥāq al-ʿIbādī, Abū Yaʿqūb, translation of *Elements* by, 75–80, 83–4
 - Ismaʿīl b. Bulbul 88
@@ -665,7 +665,7 @@ ENGLISH INDEX
 - Sexagesimal fractions in scholia to Book X. 74
 - Sextus Empiricus 62, 63, 184
 - Shamsaddīn as-Samarqandī 5 *n.*, 89
-- "Side-" and "diagonal-" numbers, described 398–400: due to Pythagoreans 400: connexion with Eucl. II. 9, 10 398–400: use for approximation to $\sqrt{2}$ 399
+- "Side-" and "diagonal-" numbers, described 398–400: due to Pythagoreans 400: connexion with Eucl. II. 9, 10 398–400: use for approximation to :math:`\sqrt{2}` 399
 - Sigboto 94
 - "Similar" (=equal) angles 182, 252: "similar" numbers 357
 - Simon, Max 108, 155, 157–8, 167, 202, 328

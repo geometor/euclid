@@ -57,7 +57,7 @@ Similarly we can prove that :g:`P <0029.g1:P>` is also the centre of the circle 
 
    Therefore etc. :just:`Q. E. D.`
 
-.. [#f1] The word **circle** ($\kappa\acute{\upsilon}\kappa\lambda\omicron\varsigma$) is here employed in the unusual sense of the *circumference* ($\pi\epsilon\rho\iota\phi\acute{\epsilon}\rho\epsilon\iota\alpha$) of a circle. Cf. note on I. Def. 15.
+.. [#f1] The word **circle** (:math:`\kappa\acute{\upsilon}\kappa\lambda\omicron\varsigma`) is here employed in the unusual sense of the *circumference* (:math:`\pi\epsilon\rho\iota\phi\acute{\epsilon}\rho\epsilon\iota\alpha`) of a circle. Cf. note on I. Def. 15.
 
 Dependency Graph
 ----------------

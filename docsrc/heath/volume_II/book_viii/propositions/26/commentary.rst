@@ -19,10 +19,10 @@ Back to :ref:`Proposition VIII.26 <VIII.26>`.
 .. folio:: 0388
    :page: 382
 
-If $a, b$ are similar “plane numbers,” let $c$ be the mean proportional between them. :just:`[VIII. 18] <VIII.18>`
+If :math:`a, b` are similar “plane numbers,” let :math:`c` be the mean proportional between them. :just:`[VIII. 18] <VIII.18>`
 
-Take $\alpha, \beta, \gamma$ the smallest numbers in the ratio of $a, c, b$. :just:`[VII. 33 or VIII. 2]`
+Take :math:`\alpha, \beta, \gamma` the smallest numbers in the ratio of :math:`a, c, b`. :just:`[VII. 33 or VIII. 2]`
 
-Then $\alpha, \gamma$ are squares. :just:`[VIII. 2, Por.]`
+Then :math:`\alpha, \gamma` are squares. :just:`[VIII. 2, Por.]`
 
-Therefore $a, b$ are in the ratio of a square to a square.
+Therefore :math:`a, b` are in the ratio of a square to a square.

@@ -19,63 +19,89 @@ Back to :ref:`Proposition VII.34 <VII.34>`.
 .. folio:: 0344
    :page: 338
 
-This is the problem of finding the least common multiple of two numbers, as $a, b$.
+This is the problem of finding the least common multiple of two numbers, as :math:`a, b`.
 
-I. If $a, b$ be prime to one another, the L.C.M. is $ab$.
+I. If :math:`a, b` be prime to one another, the L.C.M. is :math:`ab`.
 
-For, if not, let it be $d$, some number less than $ab$. Then
+For, if not, let it be :math:`d`, some number less than :math:`ab`. Then
 
-$$d = ma = nb\text{, where } m, n \text{ are integers.}$$
+.. math::
+
+   d = ma = nb\text{, where } m, n \text{ are integers.}
 
 Therefore
 
-$$a : b = n : m, \quad \text{[VII. 19]}$$
+.. math::
 
-and hence, $a, b$ being prime to one another,
+   a : b = n : m, \quad \text{[VII. 19]}
 
-$$b \text{ measures } m. \quad \text{[VII. 20, 21]}$$
+and hence, :math:`a, b` being prime to one another,
+
+.. math::
+
+   b \text{ measures } m. \quad \text{[VII. 20, 21]}
 
 But
 
-$$b : m = ab : am \quad \text{[VII. 17]}$$
+.. math::
 
-$$= ab : d.$$
+   b : m = ab : am \quad \text{[VII. 17]}
 
-Therefore $ab$ measures $d$: which is impossible.
+.. math::
 
-II. If $a, b$ be not prime to one another, find the numbers which are the least of those having the ratio of $a$ to $b$, say $m, n$; [VII. 33] then
+   = ab : d.
 
-$$a : b = m : n,$$
+Therefore :math:`ab` measures :math:`d`: which is impossible.
+
+II. If :math:`a, b` be not prime to one another, find the numbers which are the least of those having the ratio of :math:`a` to :math:`b`, say :math:`m, n`; [VII. 33] then
+
+.. math::
+
+   a : b = m : n,
 
 and
 
-$$an = bm \text{ } (= c\text{, say}); \quad \text{[VII. 19]}$$
+.. math::
 
-$c$ is then the L.C.M.
+   an = bm \text{ } (= c\text{, say}); \quad \text{[VII. 19]}
 
-For, if not, let it be $d$ ($< c$), so that
+:math:`c` is then the L.C.M.
 
-$$ap = bq = d\text{, where } p, q \text{ are integers.}$$
+For, if not, let it be :math:`d` (:math:`< c`), so that
+
+.. math::
+
+   ap = bq = d\text{, where } p, q \text{ are integers.}
 
 Then
 
-$$a : b = q : p, \quad \text{[VII. 19]}$$
+.. math::
+
+   a : b = q : p, \quad \text{[VII. 19]}
 
 whence
 
-$$m : n = q : p,$$
+.. math::
+
+   m : n = q : p,
 
 so that
 
-$$n \text{ measures } p. \quad \text{[VII. 20, 21]}$$
+.. math::
+
+   n \text{ measures } p. \quad \text{[VII. 20, 21]}
 
 And
 
-$$n : p = an : ap = c : d,$$
+.. math::
+
+   n : p = an : ap = c : d,
 
 so that
 
-$$c \text{ measures } d\text{:}$$
+.. math::
+
+   c \text{ measures } d\text{:}
 
 which is impossible.
 
@@ -83,13 +109,13 @@ Therefore etc.
 
 By VII. 33,
 
-$$
-\left.
-\begin{aligned}
-m &= \frac{a}{g} \\
-n &= \frac{b}{g}
-\end{aligned}
-\right\}, \text{ where } g \text{ is the G.C.M. of } a, b.
-$$
+.. math::
 
-Hence the L.C.M. is $\frac{ab}{g}$.
+   \left.
+   \begin{aligned}
+   m &= \frac{a}{g} \\
+   n &= \frac{b}{g}
+   \end{aligned}
+   \right\}, \text{ where } g \text{ is the G.C.M. of } a, b.
+
+Hence the L.C.M. is :math:`\frac{ab}{g}`.

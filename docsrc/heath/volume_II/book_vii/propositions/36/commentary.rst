@@ -19,23 +19,23 @@ Back to :ref:`Proposition VII.36 <VII.36>`.
 .. folio:: 0347
    :page: 341
 
-Euclid's rule for finding the L.C.M. of *three numbers* $a, b, c$ is the rule with which we are familiar. The L.C.M. of $a, b$ is first found, say $d$, and then the L.C.M. of $d$ and $c$ is found. Euclid distinguishes the cases (1) in which $c$ measures $d$, (2) in which $c$ does not measure $d$. We need only reproduce the proof of the general case (2). The method is that of :term:`*reductio ad absurdum* <reductio-ad-absurdum>`.
+Euclid's rule for finding the L.C.M. of *three numbers* :math:`a, b, c` is the rule with which we are familiar. The L.C.M. of :math:`a, b` is first found, say :math:`d`, and then the L.C.M. of :math:`d` and :math:`c` is found. Euclid distinguishes the cases (1) in which :math:`c` measures :math:`d`, (2) in which :math:`c` does not measure :math:`d`. We need only reproduce the proof of the general case (2). The method is that of :term:`*reductio ad absurdum* <reductio-ad-absurdum>`.
 
-Let $e$ be the L.C.M. of $d, c$.
+Let :math:`e` be the L.C.M. of :math:`d, c`.
 
-Since $a, b$ both measure $d$, and $d$ measures $e$,
+Since :math:`a, b` both measure :math:`d`, and :math:`d` measures :math:`e`,
 
 .. container:: center
 
-   $a, b$ both measure $e$.
+   :math:`a, b` both measure :math:`e`.
 
-So does $c$.
+So does :math:`c`.
 
-Therefore $e$ is *some* common multiple of $a, b, c$. If it is not the *least*, let $f$ be the L.C.M. Now $a, b$ both measure $f$; therefore $d$, their L.C.M., also measures $f$. :just:`[VII. 35] <VII.35>`
+Therefore :math:`e` is *some* common multiple of :math:`a, b, c`. If it is not the *least*, let :math:`f` be the L.C.M. Now :math:`a, b` both measure :math:`f`; therefore :math:`d`, their L.C.M., also measures :math:`f`. :just:`[VII. 35] <VII.35>`
 
-Thus $d, c$ both measure $f$; therefore $e$, their L.C.M., measures $f$: :just:`[VII. 35] <VII.35>`
+Thus :math:`d, c` both measure :math:`f`; therefore :math:`e`, their L.C.M., measures :math:`f`: :just:`[VII. 35] <VII.35>`
 
-which is impossible, since $f < e$.
+which is impossible, since :math:`f < e`.
 
 Therefore etc.
 

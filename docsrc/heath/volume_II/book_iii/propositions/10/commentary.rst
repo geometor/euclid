@@ -37,7 +37,7 @@ Since then a point :g:`K <0030.g1:K>` has been taken within the circle :g:`DEF <
 .. picture:: 0030.g1.svg
    :alt: Diagram of two intersecting circles ABC and DEF with assumed common centre :g:`K <0030.g1:K>`
 
-But $K$ is also the centre of the circle :g:`ABC <0030.g1:( A B C )>`.
+But :math:`K` is also the centre of the circle :g:`ABC <0030.g1:( A B C )>`.
 
 Therefore two circles cutting one another have the same centre :g:`K <0030.g1:K>`: which is impossible. :just:`[III. 5] <III.5>`
 

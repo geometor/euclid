@@ -23,27 +23,27 @@ Back to :ref:`Proposition I.25 <I.25>`.
 
 :person:`De Morgan <de-morgan>` points out that this proposition (as also I. 8) is a purely *logical* consequence of I. 4 and I. 24 in the same way as I. 19 and I. 6 are purely *logical* consequences of I. 18 and I. 5. If :g:`a <0313.g1:/ B C />`, :g:`b <0313.g1:/ A C />`, :g:`c <0313.g1:/ A B />` denote the sides, :g:`A <0313.g1:< B A C )>`, :g:`B <0313.g1:< A B C )>`, :g:`C <0313.g1:< A C B )>` the angles opposite to them in a triangle :g:`ABC <0313.g1:< A B C >>`, and :g:`a' <0313.g1:/ E F />`, :g:`b' <0313.g1:/ D F />`, :g:`c' <0313.g1:/ D E />`, :g:`A' <0313.g1:< E D F )>`, :g:`B' <0313.g1:< D E F )>`, :g:`C' <0313.g1:< D F E )>` the sides and opposite angles respectively in a triangle :g:`A'B'C' <0313.g1:< D E F >>`, I. 4 and I. 24 tell us that, :g:`b <0313.g1:/ A C />`, :g:`c <0313.g1:/ A B />` being respectively :eq:`equal <0313.g1:/ A C / = 0313.g1:/ D F /; 0313.g1:/ A B / = 0313.g1:/ D E />` to :g:`b' <0313.g1:/ D F />`, :g:`c' <0313.g1:/ D E />`,
 
-$$
-\begin{aligned}
-&\text{(1) if } A \text{ is equal to } A'\text{, then } a \text{ is equal to } a'\text{,} \\
-&\text{(2) if } A \text{ is less than } A'\text{, then } a \text{ is less than } a'\text{,} \\
-&\text{(3) if } A \text{ is greater than } A'\text{, then } a \text{ is greater than } a'\text{;}
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\text{(1) if } A \text{ is equal to } A'\text{, then } a \text{ is equal to } a'\text{,} \\
+   &\text{(2) if } A \text{ is less than } A'\text{, then } a \text{ is less than } a'\text{,} \\
+   &\text{(3) if } A \text{ is greater than } A'\text{, then } a \text{ is greater than } a'\text{;}
+   \end{aligned}
 
 and it follows logically that,
 
-$$
-\begin{aligned}
-&\text{(1) if } a \text{ is equal to } a'\text{, the angle } A \text{ is equal to the angle } A'\text{,} & [\textbf{I. 8}] \\
-&\left.
-\begin{aligned}
-&\text{(2) if } a \text{ is less than } a'\text{, } A \text{ is less than } A'\text{,} \\
-&\text{(3) if } a \text{ is greater than } a'\text{, } A \text{ is greater than } A'\text{.}
-\end{aligned}
-\right\} & [\textbf{I. 25}]
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\text{(1) if } a \text{ is equal to } a'\text{, the angle } A \text{ is equal to the angle } A'\text{,} & [\textbf{I. 8}] \\
+   &\left.
+   \begin{aligned}
+   &\text{(2) if } a \text{ is less than } a'\text{, } A \text{ is less than } A'\text{,} \\
+   &\text{(3) if } a \text{ is greater than } a'\text{, } A \text{ is greater than } A'\text{.}
+   \end{aligned}
+   \right\} & [\textbf{I. 25}]
+   \end{aligned}
 
 Two alternative proofs of this theorem are given by :person:`Proclus <proclus>` (:cite:`pp. 345–7 <proclus:in-euclid:345-7>`), and they are both interesting. Moreover both are *direct*.
 

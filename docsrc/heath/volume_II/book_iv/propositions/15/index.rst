@@ -39,7 +39,7 @@ joined.
 .. picture:: 0113.g1.svg
    :alt: Book IV Proposition 15: Regular hexagon :g:`ABCDEF <0113.g1:< A B C D E F >>` inscribed in circle with auxiliary circle EGCH
 
-I say that the hexagon $ABCDEF$ is
+I say that the hexagon :math:`ABCDEF` is
 :eq:`equilateral <0113.g1:/ A B / = 0113.g1:/ B C / = 0113.g1:/ C D / = 0113.g1:/ D E / = 0113.g1:/ E F / = 0113.g1:/ F A />` and equiangular.
 
 For, since the point :g:`G <0113.g1:G>` is the centre of the circle :g:`ABCDEF <0113.g1:( A B C D E F )>`,

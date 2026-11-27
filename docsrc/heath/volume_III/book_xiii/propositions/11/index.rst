@@ -206,11 +206,11 @@ Let the square on :g:`N <0466.g1:/ N />` be equal to that by which the square on
 
 .. assertion::
 
-   therefore the square on :g:`BK <0466.g1:/ B K />` has to the square on :g:`KM <0466.g1:/ K M />` the ratio which $5$ has to $1$.
+   therefore the square on :g:`BK <0466.g1:/ B K />` has to the square on :g:`KM <0466.g1:/ K M />` the ratio which :math:`5` has to :math:`1`.
 
 .. assertion::
 
-   Therefore, :term:`*convertendo* <convertendo>`, the square on :g:`BK <0466.g1:/ B K />` has to the square on :g:`N <0466.g1:/ N />` the ratio which $5$ has to $4$ :just:`[v. 19, Por.]`, and this is not the ratio which a square number has to a square number; therefore :g:`BK <0466.g1:/ B K />` is incommensurable with :g:`N <0466.g1:/ N />`; :just:`[x. 9]` therefore the square on :g:`BK <0466.g1:/ B K />` is greater than the square on :g:`KM <0466.g1:/ K M />` by the square on a straight line incommensurable with :g:`BK <0466.g1:/ B K />`.
+   Therefore, :term:`*convertendo* <convertendo>`, the square on :g:`BK <0466.g1:/ B K />` has to the square on :g:`N <0466.g1:/ N />` the ratio which :math:`5` has to :math:`4` :just:`[v. 19, Por.]`, and this is not the ratio which a square number has to a square number; therefore :g:`BK <0466.g1:/ B K />` is incommensurable with :g:`N <0466.g1:/ N />`; :just:`[x. 9]` therefore the square on :g:`BK <0466.g1:/ B K />` is greater than the square on :g:`KM <0466.g1:/ K M />` by the square on a straight line incommensurable with :g:`BK <0466.g1:/ B K />`.
 
 .. subclause::
 

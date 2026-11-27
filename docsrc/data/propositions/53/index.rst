@@ -21,6 +21,6 @@ Proposition 53 [νγ΄ · Prop. LVII]
 
 *Functional Signature*: ``Given(Species(A), Species(B), Ratio(s1(A) : s1(B))) -> Determined(Ratio(si(A) : sj(B)))`` · *Dependencies*: :just:`[Data Def. 3] <D.def.3>`, :just:`[Data 8] <D.8>`, :just:`[V.22] <V.22>`
 
-Let two rectilinear figures $A$ and $B$ be given in species, and let two sides—say $CD$ of $A$ and $EF$ of $B$—have a given ratio $CD : EF$. I say that the remaining sides also have given ratios to the remaining sides.
+Let two rectilinear figures :math:`A` and :math:`B` be given in species, and let two sides—say :math:`CD` of :math:`A` and :math:`EF` of :math:`B`—have a given ratio :math:`CD : EF`. I say that the remaining sides also have given ratios to the remaining sides.
 
-Let $GH$ be any other side of $A$ and $KL$ any other side of $B$. Since $A$ is given in species, the ratio of its own sides $GH : CD$ is given (:just:`[Data Def. 3] <D.def.3>`). By hypothesis, the ratio $CD : EF$ is given. And since $B$ is given in species, the ratio $EF : KL$ is given (:just:`[Data Def. 3] <D.def.3>`). Chaining $GH : CD$, $CD : EF$, and $EF : KL$ via :just:`[Data 8] <D.8>` proves that the ratio $GH : KL$ is given.
+Let :math:`GH` be any other side of :math:`A` and :math:`KL` any other side of :math:`B`. Since :math:`A` is given in species, the ratio of its own sides :math:`GH : CD` is given (:just:`[Data Def. 3] <D.def.3>`). By hypothesis, the ratio :math:`CD : EF` is given. And since :math:`B` is given in species, the ratio :math:`EF : KL` is given (:just:`[Data Def. 3] <D.def.3>`). Chaining :math:`GH : CD`, :math:`CD : EF`, and :math:`EF : KL` via :just:`[Data 8] <D.8>` proves that the ratio :math:`GH : KL` is given.

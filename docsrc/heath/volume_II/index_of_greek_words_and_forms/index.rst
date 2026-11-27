@@ -127,7 +127,7 @@ INDEX OF GREEK WORDS AND FORMS.
 
 **ἑξῆς ἀνάλογον**, in continued proportion (of terms in geometrical progression) **346**
 
-**ἐπιμόριος λόγος**, *superparticularis ratio*, = the ratio $(n + 1) : n$, **295**
+**ἐπιμόριος λόγος**, *superparticularis ratio*, = the ratio :math:`(n + 1) : n`, **295**
 
 **ἐπίπεδος (ἀριθμός)**, plane (number) **287–8**
 

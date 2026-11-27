@@ -19,32 +19,40 @@ Back to :ref:`Proposition VIII.20 <VIII.20>`.
 .. folio:: 0382
    :page: 376
 
-This proposition is the converse of VIII. 18. If $a, c, b$ are in geometrical progression, $a, b$ are "similar plane numbers."
+This proposition is the converse of VIII. 18. If :math:`a, c, b` are in geometrical progression, :math:`a, b` are "similar plane numbers."
 
-Let $\alpha : \beta$ be the ratio $a : c$ (and therefore also the ratio $c : b$) in its lowest terms.
+Let :math:`\alpha : \beta` be the ratio :math:`a : c` (and therefore also the ratio :math:`c : b`) in its lowest terms.
 
 Then :just:`[VII. 20] <VII.20>`
 
-$$\begin{aligned}
-a &= m\alpha, & c &= m\beta, && \text{where } m \text{ is some integer,} \\
-c &= n\alpha, & b &= n\beta, && \text{where } n \text{ is some integer.}
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   a &= m\alpha, & c &= m\beta, && \text{where } m \text{ is some integer,} \\
+   c &= n\alpha, & b &= n\beta, && \text{where } n \text{ is some integer.}
+   \end{aligned}
 
 .. _folio-ii-0383:
 
 .. folio:: 0383
    :page: 377
 
-Thus $a$, $b$ are both products of two factors, i.e. plane.
+Thus :math:`a`, :math:`b` are both products of two factors, i.e. plane.
 Again,
 
-$$\alpha : \beta = a : c = c : b$$
+.. math::
 
-$$= m : n. \qquad \text{[VII. 18]}$$
+   \alpha : \beta = a : c = c : b
+
+.. math::
+
+   = m : n. \qquad \text{[VII. 18]}
 
 Therefore, alternately,
 
-$$\alpha : m = \beta : n, \qquad \text{[VII. 13]}$$
+.. math::
 
-and hence $m\alpha$, $n\beta$ are similar plane numbers.
-[Our notation makes the second part still more obvious, for $c = m\beta = n\alpha$.]
+   \alpha : m = \beta : n, \qquad \text{[VII. 13]}
+
+and hence :math:`m\alpha`, :math:`n\beta` are similar plane numbers.
+[Our notation makes the second part still more obvious, for :math:`c = m\beta = n\alpha`.]

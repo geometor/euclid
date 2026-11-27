@@ -21,62 +21,89 @@ Back to :ref:`Proposition X.34 <X.34>`.
 
 In this case we take [x. 31, 2nd part] the medial straight lines
 
-$$\frac{\rho}{(1 + k^2)^{\frac{1}{4}}}, \quad \frac{\rho}{(1 + k^2)^{\frac{3}{4}}}.$$
+.. math::
+
+   \frac{\rho}{(1 + k^2)^{\frac{1}{4}}}, \quad \frac{\rho}{(1 + k^2)^{\frac{3}{4}}}.
 
 Solve the equations
 
-$$\left. \begin{aligned} x + y &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \\ xy &= \frac{\rho^2}{4(1 + k^2)^{\frac{3}{2}}} \end{aligned} \right\} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1).$$
+.. math::
 
-Take $u$, $v$ such that, if $x$, $y$ be the result of the solution,
+   \left. \begin{aligned} x + y &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \\ xy &= \frac{\rho^2}{4(1 + k^2)^{\frac{3}{2}}} \end{aligned} \right\} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(1).
 
-$$\left. \begin{aligned} u^2 &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \cdot x \\ v^2 &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \cdot y \end{aligned} \right\} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2),$$
+Take :math:`u`, :math:`v` such that, if :math:`x`, :math:`y` be the result of the solution,
 
-and $u$, $v$ are straight lines satisfying the given conditions.
+.. math::
+
+   \left. \begin{aligned} u^2 &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \cdot x \\ v^2 &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \cdot y \end{aligned} \right\} \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2),
+
+and :math:`u`, :math:`v` are straight lines satisfying the given conditions.
 
 Euclid's proof is similar to the preceding.
 
-($\alpha$) From (1) it follows [x. 18] that
+(:math:`\alpha`) From (1) it follows [x. 18] that
 
-$$x \mathbin{\smile} y,$$
+.. math::
+
+   x \mathbin{\smile} y,
 
 whence
 
-$$u^2 \mathbin{\smile} v^2,$$
+.. math::
 
-and $u$, $v$ are thus incommensurable in square.
+   u^2 \mathbin{\smile} v^2,
+
+and :math:`u`, :math:`v` are thus incommensurable in square.
 
 .. _folio-iii-0084:
 
 .. folio:: 0084
    :page: 80
 
-($\beta$) $u^2 + v^2 = \frac{\rho^2}{\sqrt{1 + k^2}}$, which is a medial area.
+(:math:`\beta`) :math:`u^2 + v^2 = \frac{\rho^2}{\sqrt{1 + k^2}}`, which is a medial area.
 
-($\gamma$)
+(:math:`\gamma`)
 
-$$\begin{aligned}
-uv &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \cdot \sqrt{xy} \\
-&= \frac{1}{2} \cdot \frac{\rho^2}{1 + k^2}, \text{ which is a rational area.}
-\end{aligned}$$
+.. math::
 
-Therefore $uv$ is rational.
+   \begin{aligned}
+   uv &= \frac{\rho}{(1 + k^2)^{\frac{1}{4}}} \cdot \sqrt{xy} \\
+   &= \frac{1}{2} \cdot \frac{\rho^2}{1 + k^2}, \text{ which is a rational area.}
+   \end{aligned}
 
-To find the actual form of $u$, $v$, we have, by solving the equations (1) (if $x > y$),
+Therefore :math:`uv` is rational.
 
-$$x = \frac{\rho}{2(1 + k^2)^{\frac{3}{4}}} (\sqrt{1 + k^2} + k),$$
+To find the actual form of :math:`u`, :math:`v`, we have, by solving the equations (1) (if :math:`x > y`),
 
-$$y = \frac{\rho}{2(1 + k^2)^{\frac{3}{4}}} (\sqrt{1 + k^2} - k);$$
+.. math::
+
+   x = \frac{\rho}{2(1 + k^2)^{\frac{3}{4}}} (\sqrt{1 + k^2} + k),
+
+.. math::
+
+   y = \frac{\rho}{2(1 + k^2)^{\frac{3}{4}}} (\sqrt{1 + k^2} - k);
 
 and hence
 
-$$u = \frac{\rho}{\sqrt{2}(1 + k^2)^{\frac{1}{2}}} \sqrt{\sqrt{1 + k^2} + k},$$
+.. math::
 
-$$v = \frac{\rho}{\sqrt{2}(1 + k^2)^{\frac{1}{2}}} \sqrt{\sqrt{1 + k^2} - k}.$$
+   u = \frac{\rho}{\sqrt{2}(1 + k^2)^{\frac{1}{2}}} \sqrt{\sqrt{1 + k^2} + k},
 
-Bearing in mind the forms which $\frac{\rho}{(1 + k^2)^{\frac{1}{4}}}$, $\frac{\rho}{(1 + k^2)^{\frac{3}{4}}}$ may take (see note on x. 31), we shall find that $u$, $v$ may have any of the forms
+.. math::
 
-$$(1) \quad \sqrt{\frac{(a + \sqrt{B})\sqrt{a^2 - B}}{2}}, \quad \sqrt{\frac{(a - \sqrt{B})\sqrt{a^2 - B}}{2}};$$
+   v = \frac{\rho}{\sqrt{2}(1 + k^2)^{\frac{1}{2}}} \sqrt{\sqrt{1 + k^2} - k}.
 
-$$(2) \quad \sqrt{\frac{(\sqrt{A} + \sqrt{B})\sqrt{A - B}}{2}}, \quad \sqrt{\frac{(\sqrt{A} - \sqrt{B})\sqrt{A - B}}{2}};$$
+Bearing in mind the forms which :math:`\frac{\rho}{(1 + k^2)^{\frac{1}{4}}}`, :math:`\frac{\rho}{(1 + k^2)^{\frac{3}{4}}}` may take (see note on x. 31), we shall find that :math:`u`, :math:`v` may have any of the forms
 
-$$(3) \quad \sqrt{\frac{(\sqrt{A} + b)\sqrt{A - b^2}}{2}}, \quad \sqrt{\frac{(\sqrt{A} - b)\sqrt{A - b^2}}{2}}.$$
+.. math::
+
+   (1) \quad \sqrt{\frac{(a + \sqrt{B})\sqrt{a^2 - B}}{2}}, \quad \sqrt{\frac{(a - \sqrt{B})\sqrt{a^2 - B}}{2}};
+
+.. math::
+
+   (2) \quad \sqrt{\frac{(\sqrt{A} + \sqrt{B})\sqrt{A - B}}{2}}, \quad \sqrt{\frac{(\sqrt{A} - \sqrt{B})\sqrt{A - B}}{2}};
+
+.. math::
+
+   (3) \quad \sqrt{\frac{(\sqrt{A} + b)\sqrt{A - b^2}}{2}}, \quad \sqrt{\frac{(\sqrt{A} - b)\sqrt{A - b^2}}{2}}.
+

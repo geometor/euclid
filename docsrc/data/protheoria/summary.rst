@@ -39,6 +39,6 @@ Marinus's Fourfold Epistemic Classification (*Menge pp. 234–252*)
    * - :term:`ῥητόν <rheton>` / :term:`ἄλογον <alogon>` (*Rational / Irrational*)
      - Unit measure (*πρὸς τὸ μέτρον*)
      - :person:`Claudius Ptolemy <ptolemy>` (*Syntaxis*)
-     - Numerical commensurability. Strictly narrower than *given*: $\sqrt{2}$ and Book X binomials (:just:`[X.36] <X.36>`) are *irrational* yet completely *given*.
+     - Numerical commensurability. Strictly narrower than *given*: :math:`\sqrt{2}` and Book X binomials (:just:`[X.36] <X.36>`) are *irrational* yet completely *given*.
 
-**Marinus's Canon (§ 15)**: $\text{Δεδομένον} \iff \text{Γνώριμον (Genus)} \land \text{Πόριμον (Differentia)}$.
+**Marinus's Canon (§ 15)**: :math:`\text{Δεδομένον} \iff \text{Γνώριμον (Genus)} \land \text{Πόριμον (Differentia)}`.

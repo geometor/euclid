@@ -23,54 +23,55 @@ Back to :ref:`Proposition X.65 <X.65>`.
 
 To prove that :just:`[cf. X. 41]`
 
-$$
-\frac{1}{\sigma} \left\{ \frac{\rho \lambda^{\frac{1}{4}}}{\sqrt{2}} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}} + \frac{\rho \lambda^{\frac{1}{4}}}{\sqrt{2}} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}} \right\}^2
-$$
+.. math::
+
+   \frac{1}{\sigma} \left\{ \frac{\rho \lambda^{\frac{1}{4}}}{\sqrt{2}} \sqrt{1 + \frac{k}{\sqrt{1 + k^2}}} + \frac{\rho \lambda^{\frac{1}{4}}}{\sqrt{2}} \sqrt{1 - \frac{k}{\sqrt{1 + k^2}}} \right\}^2
 
 is a :term:`*sixth binomial* <sixth-binomial>` straight line.
 
-Denote it by $\frac{1}{\sigma} (u + v)^2$, and put
+Denote it by :math:`\frac{1}{\sigma} (u + v)^2`, and put
 
-$$
-\left.
-\begin{aligned}
-\sigma x &= u^2, \\
-\sigma y &= v^2, \\
-\sigma \cdot 2z &= 2uv.
-\end{aligned}
-\right.
-$$
+.. math::
 
-Now, by X. 41, $u^2 \smile v^2$, $(u^2 + v^2)$ is medial, $2uv$ is medial, and $(u^2 + v^2) \smile 2uv$.
+   \left.
+   \begin{aligned}
+   \sigma x &= u^2, \\
+   \sigma y &= v^2, \\
+   \sigma \cdot 2z &= 2uv.
+   \end{aligned}
+   \right.
 
-($\alpha$) In this case $\sigma(x + y)$ is medial ; therefore $(x + y)$ is rational and $\smile \sigma$ .................................(1).
+Now, by X. 41, :math:`u^2 \smile v^2`, :math:`(u^2 + v^2)` is medial, :math:`2uv` is medial, and :math:`(u^2 + v^2) \smile 2uv`.
 
-In like manner, $2z$ is rational and $\smile \sigma$ ............................(2).
+(:math:`\alpha`) In this case :math:`\sigma(x + y)` is medial ; therefore :math:`(x + y)` is rational and :math:`\smile \sigma` .................................(1).
 
-And, since $\sigma(x + y) \smile \sigma \cdot 2z$,
+In like manner, :math:`2z` is rational and :math:`\smile \sigma` ............................(2).
 
-$$
-(x + y) \smile 2z \text{ .........................................(3).}
-$$
+And, since :math:`\sigma(x + y) \smile \sigma \cdot 2z`,
 
-Therefore $(x + y) + 2z$ is a binomial straight line.
+.. math::
 
-($\beta$) As before,
+   (x + y) \smile 2z \text{ .........................................(3).}
 
-$$
-\begin{aligned}
-x + y &> 2z, \\
-xy &= z^2, \\
-x &\smile y ;
-\end{aligned}
-$$
+Therefore :math:`(x + y) + 2z` is a binomial straight line.
 
-therefore :just:`[X. 18] <X.18>` $\sqrt{(x + y)^2 - (2z)^2} \smile (x + y)$ .......................(4).
+(:math:`\beta`) As before,
 
-Hence [(1), (2), (3), (4)] $(x + y) + 2z$ is a :term:`*sixth binomial* <sixth-binomial>` straight line.
+.. math::
+
+   \begin{aligned}
+   x + y &> 2z, \\
+   xy &= z^2, \\
+   x &\smile y ;
+   \end{aligned}
+
+therefore :just:`[X. 18] <X.18>` :math:`\sqrt{(x + y)^2 - (2z)^2} \smile (x + y)` .......................(4).
+
+Hence [(1), (2), (3), (4)] :math:`(x + y) + 2z` is a :term:`*sixth binomial* <sixth-binomial>` straight line.
 
 It is obviously
 
-$$
-\frac{\rho^2}{\sigma} \left\{ \sqrt{\lambda} + \frac{\sqrt{\lambda}}{\sqrt{1 + k^2}} \right\}.
-$$
+.. math::
+
+   \frac{\rho^2}{\sigma} \left\{ \sqrt{\lambda} + \frac{\sqrt{\lambda}}{\sqrt{1 + k^2}} \right\}.
+

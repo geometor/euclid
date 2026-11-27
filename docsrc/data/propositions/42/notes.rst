@@ -12,7 +12,7 @@ Proposition 42 [μβ΄ · Prop. Prop. XLV] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.42 <D.42>` (**SSS-ratios** $\to$ species, via :just:`[VI.5] <VI.5>`).
+* :ref:`D.42 <D.42>` (**SSS-ratios** :math:`\to` species, via :just:`[VI.5] <VI.5>`).
 
 Textual & Critical Apparatus
 ----------------------------

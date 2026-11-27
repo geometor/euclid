@@ -21,6 +21,6 @@ Proposition 3 [γ΄ · Prop. III]
 
 *Functional Signature*: ``Given(Mag(AB), Mag(BC)) -> Determined(Mag(AB + BC))`` · *Dependencies*: :just:`[Data Def. 1] <D.def.1>`, :just:`[C.N. 2] <I.cn.2>`
 
-Let any multitude of given magnitudes $AB$ and $BC$ be compounded. I say that the whole $AC$ compounded out of them is given.
+Let any multitude of given magnitudes :math:`AB` and :math:`BC` be compounded. I say that the whole :math:`AC` compounded out of them is given.
 
-Since $AB$ is given, it is possible to procure a magnitude equal to it (:just:`[Data Def. 1] <D.def.1>`); let it be procured and be $DE$. Again, since $BC$ is given, let $EF$ be procured equal to $BC$ (:just:`[Data Def. 1] <D.def.1>`). Because $AB = DE$ and $BC = EF$, the whole $AC$ is equal to the whole $DF$ (:just:`[C.N. 2] <I.cn.2>`). Therefore $AC$ is given, since $DF$ has been procured equal to it (:just:`[Data Def. 1] <D.def.1>`).
+Since :math:`AB` is given, it is possible to procure a magnitude equal to it (:just:`[Data Def. 1] <D.def.1>`); let it be procured and be :math:`DE`. Again, since :math:`BC` is given, let :math:`EF` be procured equal to :math:`BC` (:just:`[Data Def. 1] <D.def.1>`). Because :math:`AB = DE` and :math:`BC = EF`, the whole :math:`AC` is equal to the whole :math:`DF` (:just:`[C.N. 2] <I.cn.2>`). Therefore :math:`AC` is given, since :math:`DF` has been procured equal to it (:just:`[Data Def. 1] <D.def.1>`).

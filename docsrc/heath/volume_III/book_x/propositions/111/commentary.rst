@@ -19,36 +19,46 @@ Back to :ref:`Proposition X.111 <X.111>`.
 .. folio:: 0245
    :page: 241
 
-This proposition proves the equivalent of the fact that $\sqrt{x} + \sqrt{y}$ cannot be equal to $\sqrt{x'} - \sqrt{y'}$, and $x + \sqrt{y}$ cannot be equal to $x' - \sqrt{y'}$.
+This proposition proves the equivalent of the fact that :math:`\sqrt{x} + \sqrt{y}` cannot be equal to :math:`\sqrt{x'} - \sqrt{y'}`, and :math:`x + \sqrt{y}` cannot be equal to :math:`x' - \sqrt{y'}`.
 
 We should prove these results by squaring the respective expressions; and Euclid's procedure corresponds to this exactly.
 
 He has to prove that
 
-$$\rho + \sqrt{k} \cdot \rho \text{ cannot be equal to } \rho' - \sqrt{\lambda} \cdot \rho'.$$
+.. math::
+
+   \rho + \sqrt{k} \cdot \rho \text{ cannot be equal to } \rho' - \sqrt{\lambda} \cdot \rho'.
 
 For, if possible, let this be so.
 
-Take the straight lines $\frac{(\rho + \sqrt{k} \cdot \rho)^2}{\sigma}$, $\frac{(\rho' - \sqrt{\lambda} \cdot \rho')^2}{\sigma}$; these must be equal, and therefore
+Take the straight lines :math:`\frac{(\rho + \sqrt{k} \cdot \rho)^2}{\sigma}`, :math:`\frac{(\rho' - \sqrt{\lambda} \cdot \rho')^2}{\sigma}`; these must be equal, and therefore
 
-$$\frac{\rho^2}{\sigma} (1 + k + 2\sqrt{k}) = \frac{\rho'^2}{\sigma} (1 + \lambda - 2\sqrt{\lambda}) \dots\dots\dots\dots\dots(1).$$
+.. math::
 
-Now $\frac{\rho^2}{\sigma} (1 + k)$, $\frac{\rho'^2}{\sigma} (1 + \lambda)$ are rational and $\mathbin{\Cap}$; therefore
+   \frac{\rho^2}{\sigma} (1 + k + 2\sqrt{k}) = \frac{\rho'^2}{\sigma} (1 + \lambda - 2\sqrt{\lambda}) \dots\dots\dots\dots\dots(1).
 
-$$\left\{ \frac{\rho'^2}{\sigma} (1 + \lambda) - \frac{\rho^2}{\sigma} (1 + k) \right\} \mathbin{\Cap} \frac{\rho'^2}{\sigma} (1 + \lambda)$$
+Now :math:`\frac{\rho^2}{\sigma} (1 + k)`, :math:`\frac{\rho'^2}{\sigma} (1 + \lambda)` are rational and :math:`\mathbin{\Cap}`; therefore
 
-$$\smile \frac{\rho'^2}{\sigma} \cdot 2\sqrt{\lambda}.$$
+.. math::
+
+   \left\{ \frac{\rho'^2}{\sigma} (1 + \lambda) - \frac{\rho^2}{\sigma} (1 + k) \right\} \mathbin{\Cap} \frac{\rho'^2}{\sigma} (1 + \lambda)
+
+.. math::
+
+   \smile \frac{\rho'^2}{\sigma} \cdot 2\sqrt{\lambda}.
 
 And, since both sides are rational, it follows that
 
-$$\left\{ \frac{\rho'^2}{\sigma} (1 + \lambda) - \frac{\rho^2}{\sigma} (1 + k) \right\} - \frac{\rho'^2}{\sigma} \cdot 2\sqrt{\lambda} \text{ is an \textit{apotome}}.$$
+.. math::
+
+   \left\{ \frac{\rho'^2}{\sigma} (1 + \lambda) - \frac{\rho^2}{\sigma} (1 + k) \right\} - \frac{\rho'^2}{\sigma} \cdot 2\sqrt{\lambda} \text{ is an \textit{apotome}}.
 
 .. _folio-iii-0246:
 
 .. folio:: 0246
    :page: 242
 
-But, by (1), this expression is equal to $\frac{\rho^2}{\sigma} \cdot 2\sqrt{k}$, which is *rational*.
+But, by (1), this expression is equal to :math:`\frac{\rho^2}{\sigma} \cdot 2\sqrt{k}`, which is *rational*.
 
 Hence an *apotome*, which is *irrational*, is also *rational*: which is impossible.
 

@@ -25,11 +25,13 @@ Euclid's construction in this case is really identical with that given by Mr :pe
 
 Euclid starts from the cube inscribed in a sphere, as in XIII. 15, and then finds the side of the regular pentagon in which the side of the cube is a diagonal.
 
-Mr Taylor takes $l$ to be the diagonal of a regular pentagon of side $a$, so that, by :person:`Ptolemy <ptolemy>`'s theorem,
+Mr Taylor takes :math:`l` to be the diagonal of a regular pentagon of side :math:`a`, so that, by :person:`Ptolemy <ptolemy>`'s theorem,
 
-$$l^2 = al + a^2,$$
+.. math::
 
-constructs a cube of which $l$ is the edge, and gets the side of the pentagon by drawing :g:`ZX <0503.g1:/ Z X />` from :g:`Z <0503.g1:Z>`, the centre of the cube, perpendicular to the face :g:`BF <0503.g1:< B F >>` and equal to $\frac{1}{2}(l + a)$, then drawing :g:`UV <0503.g1:/ U V />` through :g:`X <0503.g1:X>` parallel to :g:`BC <0503.g1:/ B C />`, and making :g:`UX <0503.g1:/ U X />`, :g:`XV <0503.g1:/ X V />` both :eq:`equal <0503.g1:/ U X / = 0503.g1:/ X V />` to $\frac{1}{2}a$.
+   l^2 = al + a^2,
+
+constructs a cube of which :math:`l` is the edge, and gets the side of the pentagon by drawing :g:`ZX <0503.g1:/ Z X />` from :g:`Z <0503.g1:Z>`, the centre of the cube, perpendicular to the face :g:`BF <0503.g1:< B F >>` and equal to :math:`\frac{1}{2}(l + a)`, then drawing :g:`UV <0503.g1:/ U V />` through :g:`X <0503.g1:X>` parallel to :g:`BC <0503.g1:/ B C />`, and making :g:`UX <0503.g1:/ U X />`, :g:`XV <0503.g1:/ X V />` both :eq:`equal <0503.g1:/ U X / = 0503.g1:/ X V />` to :math:`\frac{1}{2}a`.
 
 Euclid finds :g:`UV <0503.g1:/ U V />` thus.
 
@@ -60,14 +62,14 @@ Euclid now proves
 
 (5) that all the other vertices lie on the same sphere, and (6) that the side of the dodecahedron is an *apotome*.
 
-(1) To prove that the pentagon :g:`BUVCW <0503.g1:< B U V C W >>` is :eq:`equilateral <0503.g1:/ B U / = 0503.g1:/ U V / = 0503.g1:/ V C / = 0503.g1:/ C W / = 0503.g1:/ W B />`. We have :g:`BU <0503.g1:/ B U />` $^2 = $ :g:`BR <0503.g1:/ B R />` $^2 + $ :g:`RU <0503.g1:/ R U />` $^2$ $= ($ :g:`BN <0503.g1:/ B N />` $^2 + $ :g:`NR <0503.g1:/ N R />` $^2) + $ :g:`RP <0503.g1:/ R P />` $^2$ $= ($ :g:`PN <0503.g1:/ P N />` $^2 + $ :g:`NR <0503.g1:/ N R />` $^2) + $ :g:`RP <0503.g1:/ R P />` $^2$ $= 3$ :g:`RP <0503.g1:/ R P />` $^2 + $ :g:`RP <0503.g1:/ R P />` $^2$ :just:`[XIII. 4] <XIII.4>` $= 4$ :g:`RP <0503.g1:/ R P />` $^2$ $= $ :g:`UV <0503.g1:/ U V />` $^2$. Therefore :g:`BU <0503.g1:/ B U />` $= $ :g:`UV <0503.g1:/ U V />`.
+(1) To prove that the pentagon :g:`BUVCW <0503.g1:< B U V C W >>` is :eq:`equilateral <0503.g1:/ B U / = 0503.g1:/ U V / = 0503.g1:/ V C / = 0503.g1:/ C W / = 0503.g1:/ W B />`. We have :g:`BU <0503.g1:/ B U />` :math:`^2 =` :g:`BR <0503.g1:/ B R />` :math:`^2 +` :g:`RU <0503.g1:/ R U />` :math:`^2` :math:`= (` :g:`BN <0503.g1:/ B N />` :math:`^2 +` :g:`NR <0503.g1:/ N R />` :math:`^2) +` :g:`RP <0503.g1:/ R P />` :math:`^2` :math:`= (` :g:`PN <0503.g1:/ P N />` :math:`^2 +` :g:`NR <0503.g1:/ N R />` :math:`^2) +` :g:`RP <0503.g1:/ R P />` :math:`^2` :math:`= 3` :g:`RP <0503.g1:/ R P />` :math:`^2 +` :g:`RP <0503.g1:/ R P />` :math:`^2` :just:`[XIII. 4] <XIII.4>` :math:`= 4` :g:`RP <0503.g1:/ R P />` :math:`^2` :math:`=` :g:`UV <0503.g1:/ U V />` :math:`^2`. Therefore :g:`BU <0503.g1:/ B U />` :math:`=` :g:`UV <0503.g1:/ U V />`.
 
 .. picture:: 0503.g1.svg
    :alt: Proposition 17 Commentary: Regular dodecahedron constructed upon cube
 
 Similarly it may be proved that :g:`BW <0503.g1:/ B W />`, :g:`WC <0503.g1:/ W C />`, :g:`CV <0503.g1:/ C V />` are all :eq:`equal <0503.g1:/ W B / = 0503.g1:/ C W / = 0503.g1:/ V C / = 0503.g1:/ U V / = 0503.g1:/ B U />` to :g:`UV <0503.g1:/ U V />` or :g:`BU <0503.g1:/ B U />`.
 
-[Mr Taylor proceeds in this way. With his notation, the projections of :g:`BU <0503.g1:/ B U />` on :g:`BA <0503.g1:/ B A />`, :g:`BC <0503.g1:/ B C />`, :g:`BE <0503.g1:/ B E />` are respectively $\frac{1}{2}a$, $\frac{1}{2}(l - a)$, $\frac{1}{2}l$. Therefore :g:`BU <0503.g1:/ B U />` $^2 = \frac{1}{4}a^2 + \frac{1}{4}(l - a)^2 + \frac{1}{4}l^2$ $= \frac{1}{2}(l^2 - al + a^2)$ $= a^2$. Similarly for :g:`BW <0503.g1:/ B W />`, :g:`WC <0503.g1:/ W C />` etc.]
+[Mr Taylor proceeds in this way. With his notation, the projections of :g:`BU <0503.g1:/ B U />` on :g:`BA <0503.g1:/ B A />`, :g:`BC <0503.g1:/ B C />`, :g:`BE <0503.g1:/ B E />` are respectively :math:`\frac{1}{2}a`, :math:`\frac{1}{2}(l - a)`, :math:`\frac{1}{2}l`. Therefore :g:`BU <0503.g1:/ B U />` :math:`^2 = \frac{1}{4}a^2 + \frac{1}{4}(l - a)^2 + \frac{1}{4}l^2` :math:`= \frac{1}{2}(l^2 - al + a^2)` :math:`= a^2`. Similarly for :g:`BW <0503.g1:/ B W />`, :g:`WC <0503.g1:/ W C />` etc.]
 
 (2) To prove that the pentagon :g:`BUVCW <0503.g1:< B U V C W >>` is in one plane. Draw :g:`PX <0503.g1:/ P X />` parallel to :g:`RU <0503.g1:/ R U />` or :g:`SV <0503.g1:/ S V />` meeting :g:`UV <0503.g1:/ U V />` in :g:`X <0503.g1:X>`. Join :g:`XH <0503.g1:/ X H />`, :g:`HW <0503.g1:/ H W />`.
 
@@ -76,21 +78,25 @@ Similarly it may be proved that :g:`BW <0503.g1:/ B W />`, :g:`WC <0503.g1:/ W C
 .. folio:: 0504
    :page: 500
 
-Then we have to prove that :g:`XH <0503.g1:/ X H />`, :g:`HW <0503.g1:/ H W />` are in one straight line. Now :g:`HP <0503.g1:/ H P />`, :g:`WT <0503.g1:/ W T />`, being both perpendicular to the face :g:`BD <0503.g1:< B D >>`, are parallel. For the same reason :g:`XP <0503.g1:/ X P />`, :g:`HT <0503.g1:/ H T />` are parallel. Also, since :g:`QH <0503.g1:/ Q H />` is divided at :g:`T <0503.g1:T>` in extreme and mean ratio, :g:`QH <0503.g1:/ Q H />` $:$ :g:`QT <0503.g1:/ Q T />` $= $ :g:`QT <0503.g1:/ Q T />` $:$ :g:`TH <0503.g1:/ T H />`. And :g:`QH <0503.g1:/ Q H />` $= $ :g:`HP <0503.g1:/ H P />` $,\quad$ :g:`QT <0503.g1:/ Q T />` $= $ :g:`WT <0503.g1:/ W T />` $= $ :g:`PX <0503.g1:/ P X />`. Therefore :g:`HP <0503.g1:/ H P />` $:$ :g:`PX <0503.g1:/ P X />` $= $ :g:`WT <0503.g1:/ W T />` $:$ :g:`TH <0503.g1:/ T H />`. Consequently the triangles :g:`HPX <0503.g1:< H P X >>`, :g:`WTH <0503.g1:< W T H >>` satisfy the conditions of **VI. 32** ; hence :g:`XHW <0503.g1:/ X H W />` is a straight line.
+Then we have to prove that :g:`XH <0503.g1:/ X H />`, :g:`HW <0503.g1:/ H W />` are in one straight line. Now :g:`HP <0503.g1:/ H P />`, :g:`WT <0503.g1:/ W T />`, being both perpendicular to the face :g:`BD <0503.g1:< B D >>`, are parallel. For the same reason :g:`XP <0503.g1:/ X P />`, :g:`HT <0503.g1:/ H T />` are parallel. Also, since :g:`QH <0503.g1:/ Q H />` is divided at :g:`T <0503.g1:T>` in extreme and mean ratio, :g:`QH <0503.g1:/ Q H />` :math:`:` :g:`QT <0503.g1:/ Q T />` :math:`=` :g:`QT <0503.g1:/ Q T />` :math:`:` :g:`TH <0503.g1:/ T H />`. And :g:`QH <0503.g1:/ Q H />` :math:`=` :g:`HP <0503.g1:/ H P />` :math:`,\quad` :g:`QT <0503.g1:/ Q T />` :math:`=` :g:`WT <0503.g1:/ W T />` :math:`=` :g:`PX <0503.g1:/ P X />`. Therefore :g:`HP <0503.g1:/ H P />` :math:`:` :g:`PX <0503.g1:/ P X />` :math:`=` :g:`WT <0503.g1:/ W T />` :math:`:` :g:`TH <0503.g1:/ T H />`. Consequently the triangles :g:`HPX <0503.g1:< H P X >>`, :g:`WTH <0503.g1:< W T H >>` satisfy the conditions of **VI. 32** ; hence :g:`XHW <0503.g1:/ X H W />` is a straight line.
 
-[Mr Taylor proves this as follows : The projections of :g:`WH <0503.g1:/ W H />`, :g:`WX <0503.g1:/ W X />` on :g:`BE <0503.g1:/ B E />` are $\frac{1}{2}a$ and $\frac{1}{2}(a + l)$, and the projections of :g:`WH <0503.g1:/ W H />`, :g:`WX <0503.g1:/ W X />` on :g:`BA <0503.g1:/ B A />` are $\frac{1}{2}(l - a)$ and $\frac{1}{2}l$ ; and
+[Mr Taylor proves this as follows : The projections of :g:`WH <0503.g1:/ W H />`, :g:`WX <0503.g1:/ W X />` on :g:`BE <0503.g1:/ B E />` are :math:`\frac{1}{2}a` and :math:`\frac{1}{2}(a + l)`, and the projections of :g:`WH <0503.g1:/ W H />`, :g:`WX <0503.g1:/ W X />` on :g:`BA <0503.g1:/ B A />` are :math:`\frac{1}{2}(l - a)` and :math:`\frac{1}{2}l` ; and
 
-$$a : (a + l) = (l - a) : l,$$
+.. math::
+
+   a : (a + l) = (l - a) : l,
 
 since
 
-$$al = l^2 - a^2.$$
+.. math::
+
+   al = l^2 - a^2.
 
 Therefore :g:`WHX <0503.g1:/ W H X />` is a straight line.]
 
-(3) To prove that the pentagon :g:`BUVCW <0503.g1:< B U V C W >>` is equiangular. We have :g:`BV <0503.g1:/ B V />` $^2 = $ :g:`BS <0503.g1:/ B S />` $^2 + $ :g:`SV <0503.g1:/ S V />` $^2$ $= ($ :g:`BN <0503.g1:/ B N />` $^2 + $ :g:`NS <0503.g1:/ N S />` $^2) + $ :g:`SP <0503.g1:/ S P />` $^2$ $= $ :g:`PN <0503.g1:/ P N />` $^2 + ($ :g:`NS <0503.g1:/ N S />` $^2 + $ :g:`SP <0503.g1:/ S P />` $^2)$ $= $ :g:`PN <0503.g1:/ P N />` $^2 + 3$ :g:`PN <0503.g1:/ P N />` $^2$, since :g:`NS <0503.g1:/ N S />` is divided in extreme and mean ratio at :g:`P <0503.g1:P>` :just:`[XIII. 5] <XIII.5>`, so that :g:`NS <0503.g1:/ N S />` $^2 + $ :g:`SP <0503.g1:/ S P />` $^2 = 3$ :g:`PN <0503.g1:/ P N />` $^2$. :just:`[XIII. 4] <XIII.4>` Consequently :g:`BV <0503.g1:/ B V />` $^2 = 4$ :g:`PN <0503.g1:/ P N />` $^2$ $= $ :g:`BC <0503.g1:/ B C />` $^2$, or :g:`BV <0503.g1:/ B V />` $= $ :g:`BC <0503.g1:/ B C />`. The $\Delta\text{s }$ :g:`UBV <0503.g1:< U B V >>`, :g:`WBC <0503.g1:< W B C >>` are therefore :eq:`equal <0503.g1:< U B V > = 0503.g1:< W B C >>` in all respects, and $\angle$ :g:`BUV <0503.g1:< B U V )>` $= \angle$ :g:`BWC <0503.g1:< B W C )>`. Similarly $\angle$ :g:`CVU <0503.g1:< C V U )>` $= \angle$ :g:`BWC <0503.g1:< B W C )>`. Therefore the pentagon is equiangular. :just:`[XIII. 7] <XIII.7>`
+(3) To prove that the pentagon :g:`BUVCW <0503.g1:< B U V C W >>` is equiangular. We have :g:`BV <0503.g1:/ B V />` :math:`^2 =` :g:`BS <0503.g1:/ B S />` :math:`^2 +` :g:`SV <0503.g1:/ S V />` :math:`^2` :math:`= (` :g:`BN <0503.g1:/ B N />` :math:`^2 +` :g:`NS <0503.g1:/ N S />` :math:`^2) +` :g:`SP <0503.g1:/ S P />` :math:`^2` :math:`=` :g:`PN <0503.g1:/ P N />` :math:`^2 + (` :g:`NS <0503.g1:/ N S />` :math:`^2 +` :g:`SP <0503.g1:/ S P />` :math:`^2)` :math:`=` :g:`PN <0503.g1:/ P N />` :math:`^2 + 3` :g:`PN <0503.g1:/ P N />` :math:`^2`, since :g:`NS <0503.g1:/ N S />` is divided in extreme and mean ratio at :g:`P <0503.g1:P>` :just:`[XIII. 5] <XIII.5>`, so that :g:`NS <0503.g1:/ N S />` :math:`^2 +` :g:`SP <0503.g1:/ S P />` :math:`^2 = 3` :g:`PN <0503.g1:/ P N />` :math:`^2`. :just:`[XIII. 4] <XIII.4>` Consequently :g:`BV <0503.g1:/ B V />` :math:`^2 = 4` :g:`PN <0503.g1:/ P N />` :math:`^2` :math:`=` :g:`BC <0503.g1:/ B C />` :math:`^2`, or :g:`BV <0503.g1:/ B V />` :math:`=` :g:`BC <0503.g1:/ B C />`. The :math:`\Delta\text{s }` :g:`UBV <0503.g1:< U B V >>`, :g:`WBC <0503.g1:< W B C >>` are therefore :eq:`equal <0503.g1:< U B V > = 0503.g1:< W B C >>` in all respects, and :math:`\angle` :g:`BUV <0503.g1:< B U V )>` :math:`= \angle` :g:`BWC <0503.g1:< B W C )>`. Similarly :math:`\angle` :g:`CVU <0503.g1:< C V U )>` :math:`= \angle` :g:`BWC <0503.g1:< B W C )>`. Therefore the pentagon is equiangular. :just:`[XIII. 7] <XIII.7>`
 
-(4) To prove that the sphere which circumscribes the cube also circumscribes the dodecahedron we have only to prove that, if :g:`Z <0503.g1:Z>` be the centre of the sphere, :g:`ZU <0503.g1:/ Z U />` $= $ :g:`ZB <0503.g1:/ Z B />`, for example. Now, by **XI. 38**, :g:`XP <0503.g1:/ X P />` produced meets the diagonal of the cube, and the portion of :g:`XP <0503.g1:/ X P />` produced which is within the cube and the diagonal bisect one another. And :g:`ZU <0503.g1:/ Z U />` $^2 = $ :g:`ZX <0503.g1:/ Z X />` $^2 + $ :g:`XU <0503.g1:/ X U />` $^2$ $= $ :g:`NS <0503.g1:/ N S />` $^2 + $ :g:`PS <0503.g1:/ P S />` $^2$ $= 3$ :g:`PN <0503.g1:/ P N />` $^2$, as before. Also (cf. XIII. 15) :g:`ZB <0503.g1:/ Z B />` $^2 = $ :g:`ZP <0503.g1:/ Z P />` $^2 + $ :g:`PB <0503.g1:/ P B />` $^2$ $= $ :g:`ZP <0503.g1:/ Z P />` $^2 + $ :g:`PN <0503.g1:/ P N />` $^2 + $ :g:`NB <0503.g1:/ N B />` $^2$ $= 3$ :g:`PN <0503.g1:/ P N />` $^2$. Hence :g:`ZU <0503.g1:/ Z U />` $= $ :g:`ZB <0503.g1:/ Z B />`.
+(4) To prove that the sphere which circumscribes the cube also circumscribes the dodecahedron we have only to prove that, if :g:`Z <0503.g1:Z>` be the centre of the sphere, :g:`ZU <0503.g1:/ Z U />` :math:`=` :g:`ZB <0503.g1:/ Z B />`, for example. Now, by **XI. 38**, :g:`XP <0503.g1:/ X P />` produced meets the diagonal of the cube, and the portion of :g:`XP <0503.g1:/ X P />` produced which is within the cube and the diagonal bisect one another. And :g:`ZU <0503.g1:/ Z U />` :math:`^2 =` :g:`ZX <0503.g1:/ Z X />` :math:`^2 +` :g:`XU <0503.g1:/ X U />` :math:`^2` :math:`=` :g:`NS <0503.g1:/ N S />` :math:`^2 +` :g:`PS <0503.g1:/ P S />` :math:`^2` :math:`= 3` :g:`PN <0503.g1:/ P N />` :math:`^2`, as before. Also (cf. XIII. 15) :g:`ZB <0503.g1:/ Z B />` :math:`^2 =` :g:`ZP <0503.g1:/ Z P />` :math:`^2 +` :g:`PB <0503.g1:/ P B />` :math:`^2` :math:`=` :g:`ZP <0503.g1:/ Z P />` :math:`^2 +` :g:`PN <0503.g1:/ P N />` :math:`^2 +` :g:`NB <0503.g1:/ N B />` :math:`^2` :math:`= 3` :g:`PN <0503.g1:/ P N />` :math:`^2`. Hence :g:`ZU <0503.g1:/ Z U />` :math:`=` :g:`ZB <0503.g1:/ Z B />`.
 
 (5) Similarly for :g:`ZV <0503.g1:/ Z V />`, :g:`ZW <0503.g1:/ Z W />` etc.
 
@@ -99,11 +105,11 @@ Therefore :g:`WHX <0503.g1:/ W H X />` is a straight line.]
 .. folio:: 0505
    :page: 501
 
-(6) Since :g:`PN <0503.g1:/ P N />` is divided in extreme and mean ratio at :g:`R <0503.g1:R>`, :g:`NP <0503.g1:/ N P />` $:$ :g:`PR <0503.g1:/ P R />` $= $ :g:`PR <0503.g1:/ P R />` $:$ :g:`RN <0503.g1:/ R N />`. Doubling the terms, we have :g:`NO <0503.g1:/ N O />` $:$ :g:`RS <0503.g1:/ R S />` $= $ :g:`RS <0503.g1:/ R S />` $: ($ :g:`NR <0503.g1:/ N R />` $+ $ :g:`SO <0503.g1:/ S O />` $),$ so that, if :g:`NO <0503.g1:/ N O />` is divided in extreme and mean ratio, the greater segment is equal to :g:`RS <0503.g1:/ R S />`.
+(6) Since :g:`PN <0503.g1:/ P N />` is divided in extreme and mean ratio at :g:`R <0503.g1:R>`, :g:`NP <0503.g1:/ N P />` :math:`:` :g:`PR <0503.g1:/ P R />` :math:`=` :g:`PR <0503.g1:/ P R />` :math:`:` :g:`RN <0503.g1:/ R N />`. Doubling the terms, we have :g:`NO <0503.g1:/ N O />` :math:`:` :g:`RS <0503.g1:/ R S />` :math:`=` :g:`RS <0503.g1:/ R S />` :math:`: (` :g:`NR <0503.g1:/ N R />` :math:`+` :g:`SO <0503.g1:/ S O />` :math:`),` so that, if :g:`NO <0503.g1:/ N O />` is divided in extreme and mean ratio, the greater segment is equal to :g:`RS <0503.g1:/ R S />`.
 
 Now, since the diameter of the sphere is rational,
 
-and                     $(\text{diam. of sphere})^2 = 3 (\text{edge of cube})^2$,
+and                     :math:`(\text{diam. of sphere})^2 = 3 (\text{edge of cube})^2`,
 
 the edge of the cube (i.e. :g:`NO <0503.g1:/ N O />`) is rational. Consequently :g:`RS <0503.g1:/ R S />` is an apotome.
 
@@ -111,13 +117,17 @@ the edge of the cube (i.e. :g:`NO <0503.g1:/ N O />`) is rational. Consequently 
 
 As a matter of fact, with Mr Taylor's notation,
 
-$$l^2 = la + a^2,$$
+.. math::
 
-and                             $a = \frac{\sqrt{5} - 1}{2} l$.
+   l^2 = la + a^2,
 
-Since, if $r$ is the radius of the circumscribing sphere, $r = \sqrt{3} \cdot \frac{l}{2}$,
+and                             :math:`a = \frac{\sqrt{5} - 1}{2} l`.
 
-$$a = \frac{r}{\sqrt{3}}(\sqrt{5} - 1) = \frac{r}{3}(\sqrt{15} - \sqrt{3}).$$
+Since, if :math:`r` is the radius of the circumscribing sphere, :math:`r = \sqrt{3} \cdot \frac{l}{2}`,
+
+.. math::
+
+   a = \frac{r}{\sqrt{3}}(\sqrt{5} - 1) = \frac{r}{3}(\sqrt{15} - \sqrt{3}).
 
 **Pappus' solution.**
 
@@ -143,7 +153,7 @@ And :g:`LC <0506.g1:/ L C />`, :g:`CO <0506.g1:/ C O />`, :g:`OU <0506.g1:/ O U 
 
 Also :g:`L <0506.g1:L>`, :g:`C <0506.g1:C>`, :g:`O <0506.g1:O>`, :g:`U <0506.g1:U>` are on a plane section, i.e. a circle ; therefore :g:`LCOU <0506.g1:< L C O U >>` is a square.
 
-Therefore                 :g:`OL <0506.g1:/ O L />` $^2 = 2$ :g:`LC <0506.g1:/ L C />` $^2 = 2$ :g:`LF <0506.g1:/ L F />` $^2$
+Therefore                 :g:`OL <0506.g1:/ O L />` :math:`^2 = 2` :g:`LC <0506.g1:/ L C />` :math:`^2 = 2` :g:`LF <0506.g1:/ L F />` :math:`^2`
 
 (for :g:`LC <0506.g1:/ L C />`, :g:`LF <0506.g1:/ L F />` subtend angles of equal pentagons).
 
@@ -154,32 +164,32 @@ Therefore                 :g:`OL <0506.g1:/ O L />` $^2 = 2$ :g:`LC <050
 
 And the angle :g:`OLF <0506.g1:< O L F )>` is right; for :g:`PO <0506.g1:/ P O />`, :g:`LF <0506.g1:/ L F />` are :eq:`equal <0506.g1:/ P O / = 0506.g1:/ L F />` and parallel chords in two :eq:`equal <0506.g1:( M N O P Q ) = 0506.g1:( F G H K L )>` and parallel circular sections of a sphere [:person:`Pappus <pappus>`' lemma, p. 138, 20—26].
 
-Therefore                     :g:`OF <0506.g1:/ O F />` $^2 = $ :g:`OL <0506.g1:/ O L />` $^2 + $ :g:`FL <0506.g1:/ F L />` $^2 = 3$ :g:`FL <0506.g1:/ F L />` $^2$. :just:`[from above]`
+Therefore                     :g:`OF <0506.g1:/ O F />` :math:`^2 =` :g:`OL <0506.g1:/ O L />` :math:`^2 +` :g:`FL <0506.g1:/ F L />` :math:`^2 = 3` :g:`FL <0506.g1:/ F L />` :math:`^2`. :just:`[from above]`
 
 And :g:`OF <0506.g1:/ O F />` is a diameter of the sphere; for :g:`PO <0506.g1:/ P O />`, :g:`LF <0506.g1:/ L F />` are on opposite sides of the centres of the circles in which they are [:person:`Pappus <pappus>`' lemma, pp. 136—8].
 
 .. picture:: 0506.g1.svg
    :alt: Proposition 17 Dodecahedron Construction Diagram
 
-Now suppose $p$, $t$, $h$ to be the sides of an equilateral pentagon, triangle and hexagon in the circle :g:`FGHKL <0506.g1:( F G H K L )>`, $d$ the diameter of the sphere.
+Now suppose :math:`p`, :math:`t`, :math:`h` to be the sides of an equilateral pentagon, triangle and hexagon in the circle :g:`FGHKL <0506.g1:( F G H K L )>`, :math:`d` the diameter of the sphere.
 
-Then                             $d : $ :g:`FL <0506.g1:/ F L />` $= \sqrt{3} : 1$ :just:`[from above]`
+Then                             :math:`d :` :g:`FL <0506.g1:/ F L />` :math:`= \sqrt{3} : 1` :just:`[from above]`
 
-$= t : h$ ; :just:`[Eucl. XIII. 12]` and it follows :term:`*alternando* <alternando>` (since :g:`FL <0506.g1:/ F L />` $= p$) that $d : t = p : h$.
+:math:`= t : h` ; :just:`[Eucl. XIII. 12]` and it follows :term:`*alternando* <alternando>` (since :g:`FL <0506.g1:/ F L />` :math:`= p`) that :math:`d : t = p : h`.
 
-Now let $d'$, $p'$, $h'$ be the sides of a regular decagon, pentagon and hexagon respectively inscribed in *any one* circle.
+Now let :math:`d'`, :math:`p'`, :math:`h'` be the sides of a regular decagon, pentagon and hexagon respectively inscribed in *any one* circle.
 
-Since, if :g:`FL <0506.g1:/ F L />` be divided in extreme and mean ratio, the greater segment is equal to :g:`ED <0506.g1:/ E D />`, :just:`[XIII. 8] <XIII.8>` :g:`FL <0506.g1:/ F L />` $:$ :g:`ED <0506.g1:/ E D />` $= h' : d'$. :just:`[VI. Def. 3, XIII. 9] <VI.def.3, XIII.9>`
+Since, if :g:`FL <0506.g1:/ F L />` be divided in extreme and mean ratio, the greater segment is equal to :g:`ED <0506.g1:/ E D />`, :just:`[XIII. 8] <XIII.8>` :g:`FL <0506.g1:/ F L />` :math:`:` :g:`ED <0506.g1:/ E D />` :math:`= h' : d'`. :just:`[VI. Def. 3, XIII. 9] <VI.def.3, XIII.9>`
 
-And :g:`FL <0506.g1:/ F L />` $:$ :g:`ED <0506.g1:/ E D />` is the ratio of the sides of the regular pentagons inscribed in the circles :g:`FGHKL <0506.g1:( F G H K L )>`, :g:`ABCDE <0506.g1:( A B C D E )>`, and is therefore equal to the ratio of the sides of the equilateral triangles inscribed in the same circles.
+And :g:`FL <0506.g1:/ F L />` :math:`:` :g:`ED <0506.g1:/ E D />` is the ratio of the sides of the regular pentagons inscribed in the circles :g:`FGHKL <0506.g1:( F G H K L )>`, :g:`ABCDE <0506.g1:( A B C D E )>`, and is therefore equal to the ratio of the sides of the equilateral triangles inscribed in the same circles.
 
-Therefore             $t : (\text{side of }\triangle\text{ in }$ :g:`ABCDE <0506.g1:( A B C D E )>` $) = h' : d'$.
+Therefore             :math:`t : (\text{side of }\triangle\text{ in }` :g:`ABCDE <0506.g1:( A B C D E )>` :math:`) = h' : d'`.
 
-But                                 $d : t = p : h$
+But                                 :math:`d : t = p : h`
 
-$= p' : h'$ ; therefore, :term:`*ex aequali* <ex-aequali>`, $d : (\text{side of }\triangle\text{ in }$ :g:`ABCDE <0506.g1:( A B C D E )>` $) = p' : d'$.
+:math:`= p' : h'` ; therefore, :term:`*ex aequali* <ex-aequali>`, :math:`d : (\text{side of }\triangle\text{ in }` :g:`ABCDE <0506.g1:( A B C D E )>` :math:`) = p' : d'`.
 
-Now $d$ is given ; therefore the sides of the equilateral triangles inscribed in the circles :g:`ABCDE <0506.g1:( A B C D E )>`, :g:`FGHKL <0506.g1:( F G H K L )>` respectively are given, whence the radii of those circles are also given.
+Now :math:`d` is given ; therefore the sides of the equilateral triangles inscribed in the circles :g:`ABCDE <0506.g1:( A B C D E )>`, :g:`FGHKL <0506.g1:( F G H K L )>` respectively are given, whence the radii of those circles are also given.
 
 .. _folio-iii-0507:
 
@@ -188,4 +198,4 @@ Now $d$ is given ; therefore the sides of the equilateral triangles inscribed in
 
 Thus the two circles are given, and so accordingly are the equal and parallel circular sections.
 
-*Synthesis.* Set out two straight lines :g:`x <0506.g1:/ x />`, :g:`y <0506.g1:/ y />` such that $d$, :g:`x <0506.g1:/ x />`, :g:`y <0506.g1:/ y />` are in the ratio of the sides of a regular pentagon, hexagon and decagon respectively inscribed in one and the same circle. Find two circular sections of the sphere with radii $r, r'$, where $r^2 = \tfrac{1}{3}$ :g:`x <0506.g1:/ x />` $^2,\quad {r'}^2 = \tfrac{1}{3}$ :g:`y <0506.g1:/ y />` $^2.$ Let these be the circles :g:`FGHKL <0506.g1:( F G H K L )>`, :g:`ABCDE <0506.g1:( A B C D E )>` respectively, and draw the :eq:`equal <0506.g1:( M N O P Q ) = 0506.g1:( F G H K L ); 0506.g1:( R S T U V ) = 0506.g1:( A B C D E )>` and parallel circles on the other side of the centre, namely :g:`MNOPQ <0506.g1:( M N O P Q )>`, :g:`RSTUV <0506.g1:( R S T U V )>`. In the first two circles inscribe regular pentagons with their sides respectively parallel, :g:`ED <0506.g1:/ E D />` being parallel to :g:`FL <0506.g1:/ F L />`. Draw equal and parallel chords (on the other sides of the centres) in the other two circles, namely :g:`ST <0506.g1:/ S T />` :eq:`equal <0506.g1:/ S T / = 0506.g1:/ E D />` and parallel to :g:`ED <0506.g1:/ E D />`, and :g:`PO <0506.g1:/ P O />` :eq:`equal <0506.g1:/ P O / = 0506.g1:/ F L />` and parallel to :g:`FL <0506.g1:/ F L />`; and complete the regular pentagons on :g:`ST <0506.g1:/ S T />`, :g:`PO <0506.g1:/ P O />` inscribed in the circles. Thus all the vertices of the dodecahedron are determined. The proof of the correctness of the construction is clear from the analysis. :person:`Pappus <pappus>` adds that the construction shows that the circles containing five vertices of the dodecahedron are the same respectively as those containing three vertices of the icosahedron, and that the same circle circumscribes the triangle of the icosahedron and the pentagonal face of the dodecahedron in the same sphere.
+*Synthesis.* Set out two straight lines :g:`x <0506.g1:/ x />`, :g:`y <0506.g1:/ y />` such that :math:`d`, :g:`x <0506.g1:/ x />`, :g:`y <0506.g1:/ y />` are in the ratio of the sides of a regular pentagon, hexagon and decagon respectively inscribed in one and the same circle. Find two circular sections of the sphere with radii :math:`r, r'`, where :math:`r^2 = \tfrac{1}{3}` :g:`x <0506.g1:/ x />` :math:`^2,\quad {r'}^2 = \tfrac{1}{3}` :g:`y <0506.g1:/ y />` :math:`^2.` Let these be the circles :g:`FGHKL <0506.g1:( F G H K L )>`, :g:`ABCDE <0506.g1:( A B C D E )>` respectively, and draw the :eq:`equal <0506.g1:( M N O P Q ) = 0506.g1:( F G H K L ); 0506.g1:( R S T U V ) = 0506.g1:( A B C D E )>` and parallel circles on the other side of the centre, namely :g:`MNOPQ <0506.g1:( M N O P Q )>`, :g:`RSTUV <0506.g1:( R S T U V )>`. In the first two circles inscribe regular pentagons with their sides respectively parallel, :g:`ED <0506.g1:/ E D />` being parallel to :g:`FL <0506.g1:/ F L />`. Draw equal and parallel chords (on the other sides of the centres) in the other two circles, namely :g:`ST <0506.g1:/ S T />` :eq:`equal <0506.g1:/ S T / = 0506.g1:/ E D />` and parallel to :g:`ED <0506.g1:/ E D />`, and :g:`PO <0506.g1:/ P O />` :eq:`equal <0506.g1:/ P O / = 0506.g1:/ F L />` and parallel to :g:`FL <0506.g1:/ F L />`; and complete the regular pentagons on :g:`ST <0506.g1:/ S T />`, :g:`PO <0506.g1:/ P O />` inscribed in the circles. Thus all the vertices of the dodecahedron are determined. The proof of the correctness of the construction is clear from the analysis. :person:`Pappus <pappus>` adds that the construction shows that the circles containing five vertices of the dodecahedron are the same respectively as those containing three vertices of the icosahedron, and that the same circle circumscribes the triangle of the icosahedron and the pentagonal face of the dodecahedron in the same sphere.

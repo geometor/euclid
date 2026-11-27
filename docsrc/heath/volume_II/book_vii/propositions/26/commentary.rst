@@ -19,16 +19,23 @@ Back to :ref:`Proposition VII.26 <VII.26>`.
 .. folio:: 0333
    :page: 327
 
-If both $a$ and $b$ are prime to each of two numbers $c$, $d$, then $ab$, $cd$ will be prime to one another.
+If both :math:`a` and :math:`b` are prime to each of two numbers :math:`c`, :math:`d`, then :math:`ab`, :math:`cd` will be prime to one another.
 
-Since $a$, $b$ are both prime to $c$,
+Since :math:`a`, :math:`b` are both prime to :math:`c`,
 
-$$ab,\ c\text{ are prime to one another. \qquad [VII. 24]}$$
+.. math::
+
+   ab,\ c\text{ are prime to one another. \qquad [VII. 24]}
 
 Similarly
 
-$$ab,\ d\text{ are prime to one another.}$$
+.. math::
 
-Therefore $c$, $d$ are both prime to $ab$,
+   ab,\ d\text{ are prime to one another.}
 
-$$\text{and so therefore is }cd.\text{ \qquad [VII. 24]}$$
+Therefore :math:`c`, :math:`d` are both prime to :math:`ab`,
+
+.. math::
+
+   \text{and so therefore is }cd.\text{ \qquad [VII. 24]}
+

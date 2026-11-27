@@ -19,46 +19,58 @@ Back to :ref:`Proposition IX.13 <IX.13>`.
 .. folio:: 0408
    :page: 402
 
-If $1, a, a_2, \dots a_n$ be a geometrical progression, and if $a$ is prime, $a_n$ will not be measured by any numbers except the preceding terms of the series.
+If :math:`1, a, a_2, \dots a_n` be a geometrical progression, and if :math:`a` is prime, :math:`a_n` will not be measured by any numbers except the preceding terms of the series.
 
-If possible, let $a_n$ be measured by $b$, a number different from all the preceding terms.
+If possible, let :math:`a_n` be measured by :math:`b`, a number different from all the preceding terms.
 
-Now $b$ cannot be prime, for, if it were, it would measure $a$. :just:`[IX. 12] <IX.12>`
+Now :math:`b` cannot be prime, for, if it were, it would measure :math:`a`. :just:`[IX. 12] <IX.12>`
 
-Therefore $b$ is composite, and hence will be measured by *some* prime number :just:`[VII. 31] <VII.31>`, say $p$.
+Therefore :math:`b` is composite, and hence will be measured by *some* prime number :just:`[VII. 31] <VII.31>`, say :math:`p`.
 
-Thus $p$ must measure $a_n$ and therefore $a$ :just:`[IX. 12] <IX.12>`; so that $p$ cannot be different from $a$, and $b$ is not measured by any prime number except $a$.
+Thus :math:`p` must measure :math:`a_n` and therefore :math:`a` :just:`[IX. 12] <IX.12>`; so that :math:`p` cannot be different from :math:`a`, and :math:`b` is not measured by any prime number except :math:`a`.
 
 Suppose that
 
-$$a_n = b \cdot c.$$
+.. math::
 
-Now $c$ cannot be identical with any of the terms $a, a_2, \dots a_{n-1}$; for, if it were, $b$ would be identical with another of them : :just:`[IX. 11] <IX.11>`
+   a_n = b \cdot c.
+
+Now :math:`c` cannot be identical with any of the terms :math:`a, a_2, \dots a_{n-1}`; for, if it were, :math:`b` would be identical with another of them : :just:`[IX. 11] <IX.11>`
 
 which is contrary to the hypothesis.
 
-We can now prove (just as for $b$) that $c$ cannot be prime and cannot be measured by any prime number except $a$.
+We can now prove (just as for :math:`b`) that :math:`c` cannot be prime and cannot be measured by any prime number except :math:`a`.
 
 Since
 
-$$b \cdot c = a_n = a \cdot a_{n-1}, \quad \text{[IX. 11]}$$
+.. math::
 
-$$a : b = c : a_{n-1},$$
+   b \cdot c = a_n = a \cdot a_{n-1}, \quad \text{[IX. 11]}
 
-whence, since $a$ measures $b$,
+.. math::
 
-$$c \text{ measures } a_{n-1}.$$
+   a : b = c : a_{n-1},
+
+whence, since :math:`a` measures :math:`b`,
+
+.. math::
+
+   c \text{ measures } a_{n-1}.
 
 Let
 
-$$a_{n-1} = c \cdot d.$$
+.. math::
 
-We now prove in the same way that $d$ is not identical with any of the terms $a, a_2, \dots a_{n-2}$, is not prime, and is not measured by any prime except $a$, and also that
+   a_{n-1} = c \cdot d.
 
-$$d \text{ measures } a_{n-2}.$$
+We now prove in the same way that :math:`d` is not identical with any of the terms :math:`a, a_2, \dots a_{n-2}`, is not prime, and is not measured by any prime except :math:`a`, and also that
 
-Proceeding in this way, we get a last factor, say $k$, which measures $a$ though different from it : which is absurd, since $a$ is prime.
+.. math::
 
-Thus the original supposition that $a_n$ can be measured by a number $b$ different from all the terms $a, a_2, \dots a_{n-1}$ must be incorrect.
+   d \text{ measures } a_{n-2}.
+
+Proceeding in this way, we get a last factor, say :math:`k`, which measures :math:`a` though different from it : which is absurd, since :math:`a` is prime.
+
+Thus the original supposition that :math:`a_n` can be measured by a number :math:`b` different from all the terms :math:`a, a_2, \dots a_{n-1}` must be incorrect.
 
 Therefore etc.

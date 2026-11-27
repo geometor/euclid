@@ -19,6 +19,6 @@ Back to :ref:`Proposition VIII.16 <VIII.16>`.
 .. folio:: 0376
    :page: 370
 
-If $a^2$ does not measure $b^2$, $a$ will not measure $b$; and, if $a$ does not measure $b$, $a^2$ will not measure $b^2$.
+If :math:`a^2` does not measure :math:`b^2`, :math:`a` will not measure :math:`b`; and, if :math:`a` does not measure :math:`b`, :math:`a^2` will not measure :math:`b^2`.
 
 The proof is a mere :term:`*reductio ad absurdum* <reductio-ad-absurdum>` using VIII. 14.

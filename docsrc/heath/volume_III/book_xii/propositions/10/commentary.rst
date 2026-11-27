@@ -34,8 +34,8 @@ Now suppose a prism erected on the polygon of which :g:`AB <0408.g1:/ A B />` is
 
 To obtain the prism of the same height on the next polygon we add all the triangular prisms of the same height on the bases :g:`ACB <0408.g1:< A C B >>` and the rest.
 
-Now the prism on :g:`ACB <0408.g1:< A C B >>` is half the prism of the same height on the $\square$ :g:`ABED <0408.g1:< A B E D >>` as base. :just:`[cf. XI. 28]`
-And the prism on $\square$ :g:`ABED <0408.g1:< A B E D >>` includes, and is greater than, the portion of the cylinder standing on the segment :g:`ACB <0408.g1:( A C B )>` of the circle.
+Now the prism on :g:`ACB <0408.g1:< A C B >>` is half the prism of the same height on the :math:`\square` :g:`ABED <0408.g1:< A B E D >>` as base. :just:`[cf. XI. 28]`
+And the prism on :math:`\square` :g:`ABED <0408.g1:< A B E D >>` includes, and is greater than, the portion of the cylinder standing on the segment :g:`ACB <0408.g1:( A C B )>` of the circle.
 
 .. _folio-iii-0409:
 
@@ -50,49 +50,69 @@ The construction of pyramids on the successive polygons exhausts the cone in exa
 
 Now, if the cone is not equal to one-third of the cylinder, it must be either greater or less.
 
-I. Suppose, if possible, that, $V$, $O$ being their volumes respectively,
+I. Suppose, if possible, that, :math:`V`, :math:`O` being their volumes respectively,
 
-$$O > 3V.$$
+.. math::
 
-Construct successive inscribed polygons in the bases and prisms on them until we arrive at a prism $P$ leaving over portions of the cylinder together less than $(O - 3V)$, i.e. such that
+   O > 3V.
 
-$$O > P > 3V.$$
+Construct successive inscribed polygons in the bases and prisms on them until we arrive at a prism :math:`P` leaving over portions of the cylinder together less than :math:`(O - 3V)`, i.e. such that
 
-But $P$ is triple of the pyramid on the same base and of the same height; and this pyramid is included by, and is therefore less than, $V$; therefore
+.. math::
 
-$$P < 3V.$$
+   O > P > 3V.
+
+But :math:`P` is triple of the pyramid on the same base and of the same height; and this pyramid is included by, and is therefore less than, :math:`V`; therefore
+
+.. math::
+
+   P < 3V.
 
 But, by construction,
 
-$$P > 3V\text{:}$$
+.. math::
+
+   P > 3V\text{:}
 
 which is impossible.
 
 Therefore
 
-$$O \ngtr 3V.$$
+.. math::
 
-II. Suppose, if possible, that $O < 3V$. Therefore
+   O \ngtr 3V.
 
-$$V > \tfrac{1}{3}O.$$
+II. Suppose, if possible, that :math:`O < 3V`. Therefore
 
-Construct successive pyramids in the cone in the manner described until we arrive at a pyramid $\Pi$ leaving over portions of the cone together less than $(V - \tfrac{1}{3}O)$, i.e. such that
+.. math::
 
-$$V > \Pi > \tfrac{1}{3}O.$$
+   V > \tfrac{1}{3}O.
 
-Now $\Pi$ is one-third of the prism on the same base and of the same height; and this prism is included by, and is therefore less than, the cylinder; therefore
+Construct successive pyramids in the cone in the manner described until we arrive at a pyramid :math:`\Pi` leaving over portions of the cone together less than :math:`(V - \tfrac{1}{3}O)`, i.e. such that
 
-$$\Pi < \tfrac{1}{3}O.$$
+.. math::
+
+   V > \Pi > \tfrac{1}{3}O.
+
+Now :math:`\Pi` is one-third of the prism on the same base and of the same height; and this prism is included by, and is therefore less than, the cylinder; therefore
+
+.. math::
+
+   \Pi < \tfrac{1}{3}O.
 
 But, by construction,
 
-$$\Pi > \tfrac{1}{3}O\text{:}$$
+.. math::
+
+   \Pi > \tfrac{1}{3}O\text{:}
 
 which is impossible.
 
-Therefore $O$ is neither greater nor less than $3V$, so that
+Therefore :math:`O` is neither greater nor less than :math:`3V`, so that
 
-$$O = 3V.$$
+.. math::
+
+   O = 3V.
 
 It will be observed that here, as in XII. 2, Euclid always *exhausts* the solid by (as it were) building up to it from inside. Hence the solid to be exhausted must, with him, be supposed *greater* than the solid to which it is to be proved equal; and this is the reason why, in the second part, the initial supposition is turned round.
 

@@ -21,40 +21,59 @@ Back to :ref:`Proposition X.38 <X.38>`.
 
 After proving (l. 21) that each of the squares on :g:`AB <0089.g1:/ A B />`, :g:`BC <0089.g1:/ B C />` is medial, Euclid states (ll. 24, 26) that :g:`EH <0089.g1:< E H >>`, which is equal to the *sum* of the squares, is a medial area, but does not explain why. It is because, by hypothesis, the squares on :g:`AB <0089.g1:/ A B />`, :g:`BC <0089.g1:/ B C />` are commensurable, so that the sum of the squares is commensurable with either [x. 15] and is therefore a medial area [x. 23, Por.].
 
-In this case [x. 28, note] $x$, $y$ are of the forms $k^{\frac{1}{4}}\rho$, $\lambda^{\frac{1}{2}}\rho/k^{\frac{1}{4}}$ respectively. Apply each of the areas $(x^2 + y^2)$ and $2xy$ to a rational straight line $\sigma$, i.e. suppose
+In this case [x. 28, note] :math:`x`, :math:`y` are of the forms :math:`k^{\frac{1}{4}}\rho`, :math:`\lambda^{\frac{1}{2}}\rho/k^{\frac{1}{4}}` respectively. Apply each of the areas :math:`(x^2 + y^2)` and :math:`2xy` to a rational straight line :math:`\sigma`, i.e. suppose
 
-$$x^2 + y^2 = \sigma u,$$
+.. math::
 
-$$2xy = \sigma v.$$
+   x^2 + y^2 = \sigma u,
 
-Now it follows from the hypothesis, x. 15 and x. 23, Por. that $(x^2 + y^2)$ is a medial area; and so is $2xy$, by hypothesis; therefore $\sigma u$, $\sigma v$ are medial areas. Therefore each of the straight lines $u$, $v$ is rational and $\mathbin{\smile} \sigma$ ........ (1). Again
+.. math::
 
-$$x \mathbin{\smile} y;$$
+   2xy = \sigma v.
+
+Now it follows from the hypothesis, x. 15 and x. 23, Por. that :math:`(x^2 + y^2)` is a medial area; and so is :math:`2xy`, by hypothesis; therefore :math:`\sigma u`, :math:`\sigma v` are medial areas. Therefore each of the straight lines :math:`u`, :math:`v` is rational and :math:`\mathbin{\smile} \sigma` ........ (1). Again
+
+.. math::
+
+   x \mathbin{\smile} y;
 
 therefore
 
-$$x^2 \mathbin{\smile} xy.$$
+.. math::
+
+   x^2 \mathbin{\smile} xy.
 
 But
 
-$$x^2 \mathbin{\sim} x^2 + y^2 \text{ and } xy \mathbin{\sim} 2xy;$$
+.. math::
+
+   x^2 \mathbin{\sim} x^2 + y^2 \text{ and } xy \mathbin{\sim} 2xy;
 
 therefore
 
-$$x^2 + y^2 \mathbin{\smile} 2xy,$$
+.. math::
+
+   x^2 + y^2 \mathbin{\smile} 2xy,
 
 or
 
-$$\sigma u \mathbin{\smile} \sigma v,$$
+.. math::
+
+   \sigma u \mathbin{\smile} \sigma v,
 
 whence
 
-$$u \mathbin{\smile} v \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).$$
+.. math::
 
-Therefore, by (1), (2), $u$, $v$ are rational and $\sim$. It follows, by x. 36, that $(u + v)$ is irrational. Therefore $(u + v)\,\sigma$ is an irrational area [this can be deduced from x. 20 by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`], whence $(x + y)^2$, and consequently $(x + y)$, is irrational.
+   u \mathbin{\smile} v \dots\dots\dots\dots\dots\dots\dots\dots\dots\dots(2).
 
-The irrational straight line $k^{\frac{1}{4}}\rho + \frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}}$ is called a :term:`**second bimedial straight line** <second-bimedial>`.
+Therefore, by (1), (2), :math:`u`, :math:`v` are rational and :math:`\sim`. It follows, by x. 36, that :math:`(u + v)` is irrational. Therefore :math:`(u + v)\,\sigma` is an irrational area [this can be deduced from x. 20 by :term:`*reductio ad absurdum* <reductio-ad-absurdum>`], whence :math:`(x + y)^2`, and consequently :math:`(x + y)`, is irrational.
 
-This and the corresponding :term:`*second apotome of a medial* <second-apotome-of-a-medial-straight-line>` $\left(k^{\frac{1}{4}}\rho - \frac{\sqrt{\lambda}}{k^{\frac{1}{4}}}\rho\right)$ found in x. 75 are the positive roots of the equation
+The irrational straight line :math:`k^{\frac{1}{4}}\rho + \frac{\lambda^{\frac{1}{2}}\rho}{k^{\frac{1}{4}}}` is called a :term:`**second bimedial straight line** <second-bimedial>`.
 
-$$x^4 - 2\,\frac{k+\lambda}{\sqrt{k}}\,\rho^2 \cdot x^2 + \frac{(k-\lambda)^2}{k}\,\rho^4 = 0.$$
+This and the corresponding :term:`*second apotome of a medial* <second-apotome-of-a-medial-straight-line>` :math:`\left(k^{\frac{1}{4}}\rho - \frac{\sqrt{\lambda}}{k^{\frac{1}{4}}}\rho\right)` found in x. 75 are the positive roots of the equation
+
+.. math::
+
+   x^4 - 2\,\frac{k+\lambda}{\sqrt{k}}\,\rho^2 \cdot x^2 + \frac{(k-\lambda)^2}{k}\,\rho^4 = 0.
+

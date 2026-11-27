@@ -32,17 +32,17 @@ let :g:`A <0160.g1:A>` be the greater.
 
 Then, by what was shown in the preceding proposition, there are some equimultiples of :g:`A <0160.g1:A>` and :g:`B <0160.g1:B>`, and some multiple of :g:`C <0160.g1:C>`, such that the multiple of :g:`A <0160.g1:A>` is greater than the multiple of :g:`C <0160.g1:C>`, but the multiple of :g:`B <0160.g1:B>` is not greater than that of :g:`C <0160.g1:C>`.
 
-Let such multiples be taken, and let $D$, $E$ be the equimultiples of :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>`, and $F$ the multiple of :g:`C <0160.g1:C>`, so that $D$ may be greater than $F$, and $E$ not greater than $F$.
+Let such multiples be taken, and let :math:`D`, :math:`E` be the equimultiples of :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>`, and :math:`F` the multiple of :g:`C <0160.g1:C>`, so that :math:`D` may be greater than :math:`F`, and :math:`E` not greater than :math:`F`.
 
 But, because :g:`A <0160.g1:A>` is to :g:`C <0160.g1:C>` as :g:`B <0160.g1:B>` is to :g:`C <0160.g1:C>`,
-and of :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>` are taken equimultiples $D$, $E$, and of :g:`C <0160.g1:C>` is taken a multiple $F$,
-and $D$ is greater than $F$,
+and of :g:`A <0160.g1:A>`, :g:`B <0160.g1:B>` are taken equimultiples :math:`D`, :math:`E`, and of :g:`C <0160.g1:C>` is taken a multiple :math:`F`,
+and :math:`D` is greater than :math:`F`,
 
 .. assertion:: [V. Def. 5] <V.def.5>
 
-   $E$ must also be greater than $F$.
+   :math:`E` must also be greater than :math:`F`.
 
-But $E$ is not greater than $F$ : which is impossible.
+But :math:`E` is not greater than :math:`F` : which is impossible.
 
 Next, let :g:`C <0160.g1:C>` have the same ratio to each of the magnitudes :g:`A <0160.g1:A>` and :g:`B <0160.g1:B>` ;
 :g:`A <0160.g1:A>` is :eq:`equal <0160.g1:A = 0160.g1:B>` to :g:`B <0160.g1:B>`.
@@ -55,18 +55,18 @@ let :g:`A <0160.g1:A>` be the greater.
 .. folio:: 0161
    :page: 155
 
-Therefore, as was shown in Prop. 8, there is some multiple $F$ of :g:`C <0160.g1:C>`, and
-some equimultiples $E$ and $D$ of :g:`B <0160.g1:B>` and :g:`A <0160.g1:A>`, such that $F$ is greater than $E$ and
-not greater than $D$.
+Therefore, as was shown in Prop. 8, there is some multiple :math:`F` of :g:`C <0160.g1:C>`, and
+some equimultiples :math:`E` and :math:`D` of :g:`B <0160.g1:B>` and :g:`A <0160.g1:A>`, such that :math:`F` is greater than :math:`E` and
+not greater than :math:`D`.
 
 But, because :g:`C <0160.g1:C>` is to :g:`B <0160.g1:B>` as :g:`C <0160.g1:C>` is to :g:`A <0160.g1:A>`,
-and $F$ the multiple of the first is greater than $E$ the multiple of the second,
+and :math:`F` the multiple of the first is greater than :math:`E` the multiple of the second,
 
 .. assertion:: [V. Def. 5] <V.def.5>
 
-   $F$ the multiple of the third is greater than $D$ the multiple of the fourth.
+   :math:`F` the multiple of the third is greater than :math:`D` the multiple of the fourth.
 
-But $F$ is not greater than $D$ : which is impossible.
+But :math:`F` is not greater than :math:`D` : which is impossible.
 
 .. assertion::
 

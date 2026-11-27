@@ -30,13 +30,13 @@ So are :g:`KL <0480.g1:/ K L />`, :g:`KM <0480.g1:/ K M />`, by construction; he
 
 Thus (1) the figure is made up of eight :eq:`equilateral <0480.g1:/ E F / = 0480.g1:/ F G / = 0480.g1:/ G H / = 0480.g1:/ H E / = 0480.g1:/ L E / = 0480.g1:/ L F / = 0480.g1:/ L G / = 0480.g1:/ L H / = 0480.g1:/ M E / = 0480.g1:/ M F / = 0480.g1:/ M G / = 0480.g1:/ M H />` triangles and is therefore a regular octahedron.
 
-(2) Since :g:`KE <0480.g1:/ K E />` $= $ :g:`KL <0480.g1:/ K L />` $= $ :g:`KM <0480.g1:/ K M />`, the semicircle on :g:`LM <0480.g1:/ L M />` in the plane :g:`LKE <0480.g1:< L K E >>` passes through :g:`E <0480.g1:E>`.
+(2) Since :g:`KE <0480.g1:/ K E />` :math:`=` :g:`KL <0480.g1:/ K L />` :math:`=` :g:`KM <0480.g1:/ K M />`, the semicircle on :g:`LM <0480.g1:/ L M />` in the plane :g:`LKE <0480.g1:< L K E >>` passes through :g:`E <0480.g1:E>`.
 
 Similarly :g:`F <0480.g1:F>`, :g:`G <0480.g1:G>`, :g:`H <0480.g1:H>` lie on semicircles on :g:`LM <0480.g1:/ L M />` as diameter.
 
 Thus all the vertices of the tetrahedron lie on the sphere of which :g:`LM <0480.g1:/ L M />` is a diameter.
 
-(3) :g:`LE <0480.g1:/ L E />` $= $ :g:`EM <0480.g1:/ E M />` $= $ :g:`BD <0480.g1:/ B D />`; therefore :g:`LM <0480.g1:/ L M />` $^2 = 2$ :g:`EL <0480.g1:/ E L />` $^2 = 2$ :g:`BD <0480.g1:/ B D />` $^2$ $= $ :g:`AB <0480.g1:/ A B />` $^2$, or :g:`LM <0480.g1:/ L M />` $= $ :g:`AB <0480.g1:/ A B />`.
+(3) :g:`LE <0480.g1:/ L E />` :math:`=` :g:`EM <0480.g1:/ E M />` :math:`=` :g:`BD <0480.g1:/ B D />`; therefore :g:`LM <0480.g1:/ L M />` :math:`^2 = 2` :g:`EL <0480.g1:/ E L />` :math:`^2 = 2` :g:`BD <0480.g1:/ B D />` :math:`^2` :math:`=` :g:`AB <0480.g1:/ A B />` :math:`^2`, or :g:`LM <0480.g1:/ L M />` :math:`=` :g:`AB <0480.g1:/ A B />`.
 
 .. _folio-iii-0481:
 
@@ -45,14 +45,18 @@ Thus all the vertices of the tetrahedron lie on the sphere of which :g:`LM <0480
 
 (4)
 
-$$\begin{aligned}
-\text{\it AB}^2 &= 2\text{\it BD}^2 \\
-&= 2\text{\it EF}^2.
-\end{aligned}$$
+.. math::
 
-If $r$ be the radius of the circumscribed sphere,
+   \begin{aligned}
+   \text{\it AB}^2 &= 2\text{\it BD}^2 \\
+   &= 2\text{\it EF}^2.
+   \end{aligned}
 
-$$\text{(edge of octahedron)} = \sqrt{2}\cdot r.$$
+If :math:`r` be the radius of the circumscribed sphere,
+
+.. math::
+
+   \text{(edge of octahedron)} = \sqrt{2}\cdot r.
 
 Pappus' method.
 ^^^^^^^^^^^^^^^
@@ -78,25 +82,31 @@ Therefore the circles through :g:`D <0481.g1:D>`, :g:`E <0481.g1:E>`, :g:`F <048
 
 Now, :g:`ABC <0481.g1:( A B C )>`, :g:`DEF <0481.g1:( D E F )>` being :eq:`equal <0481.g1:( A B C ) = 0481.g1:( D E F )>` and parallel circular sections, and :g:`AB <0481.g1:/ A B />`, :g:`EF <0481.g1:/ E F />` :eq:`equal <0481.g1:/ A B / = 0481.g1:/ E F />` and parallel chords "not on the same side of the centres," :g:`AF <0481.g1:/ A F />` is a diameter of the sphere. [:person:`Pappus <pappus>` has a lemma for this, pp. 136—138].
 
-And :g:`AE <0481.g1:/ A E />` $=$ :g:`EF <0481.g1:/ E F />`, so that $\text{\it AF}^2 = 2\text{\it FE}^2$.
+And :g:`AE <0481.g1:/ A E />` :math:`=` :g:`EF <0481.g1:/ E F />`, so that :math:`\text{\it AF}^2 = 2\text{\it FE}^2`.
 
-But, if $d'$ be the diameter of the circle :g:`DEF <0481.g1:( D E F )>`,
+But, if :math:`d'` be the diameter of the circle :g:`DEF <0481.g1:( D E F )>`,
 
-$$d'^2 = \frac{4}{3}\text{\it EF}^2. \qquad \text{[cf. XIII. 12]}$$
+.. math::
 
-Therefore, if $d$ be the diameter of the sphere,
+   d'^2 = \frac{4}{3}\text{\it EF}^2. \qquad \text{[cf. XIII. 12]}
 
-$$d^2 : d'^2 = 3 : 2.$$
+Therefore, if :math:`d` be the diameter of the sphere,
 
-Now $d$ is given, and therefore $d'$ is given; hence the circles :g:`DEF <0481.g1:( D E F )>`, :g:`ABC <0481.g1:( A B C )>` are given.
+.. math::
+
+   d^2 : d'^2 = 3 : 2.
+
+Now :math:`d` is given, and therefore :math:`d'` is given; hence the circles :g:`DEF <0481.g1:( D E F )>`, :g:`ABC <0481.g1:( A B C )>` are given.
 
 *Synthesis.*
 
-Draw two equal and parallel circular sections with diameter $d'$, such that
+Draw two equal and parallel circular sections with diameter :math:`d'`, such that
 
-$$d^2 = \frac{3}{2}d'^2,$$
+.. math::
 
-where $d$ is the diameter of the sphere.
+   d^2 = \frac{3}{2}d'^2,
+
+where :math:`d` is the diameter of the sphere.
 
 Inscribe an :eq:`equilateral <0481.g1:/ A B / = 0481.g1:/ B C / = 0481.g1:/ A C />` triangle :g:`ABC <0481.g1:< A B C >>` in either circle (:g:`ABC <0481.g1:( A B C )>`).
 

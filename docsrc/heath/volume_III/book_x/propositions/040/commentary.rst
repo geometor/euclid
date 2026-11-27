@@ -19,26 +19,37 @@ Back to :ref:`Proposition X.40 <X.40>`.
 .. folio:: 0093
    :page: 89
 
-Here $x$, $y$ have :just:`[X. 34] <X.34>` the forms
+Here :math:`x`, :math:`y` have :just:`[X. 34] <X.34>` the forms
 
-$$\frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}+k},\quad \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}-k}.$$
+.. math::
 
-In this case $(x^2+y^2)$ is a medial, and $2xy$ a rational, area; thus
+   \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}+k},\quad \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}-k}.
 
-$$x^2+y^2 \cup 2xy.$$
+In this case :math:`(x^2+y^2)` is a medial, and :math:`2xy` a rational, area; thus
+
+.. math::
+
+   x^2+y^2 \cup 2xy.
 
 Therefore
 
-$$(x+y)^2 \cup 2xy,$$
+.. math::
 
-whence, since $2xy$ is rational, $(x+y)^2$, and consequently $(x+y)$, is irrational.
+   (x+y)^2 \cup 2xy,
+
+whence, since :math:`2xy` is rational, :math:`(x+y)^2`, and consequently :math:`(x+y)`, is irrational.
 
 The irrational straight line
 
-$$\frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}+k} + \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}-k}$$
+.. math::
+
+   \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}+k} + \frac{\rho}{\sqrt{2(1+k^2)}}\sqrt{\sqrt{1+k^2}-k}
 
 is called (for an obvious reason) the “*side*” of a rational plus a medial (area).
 
 This and the corresponding irrational with a minus sign found in x. 77 are the positive roots of the equation
 
-$$x^4 - \frac{2}{\sqrt{1+k^2}}\rho^2 \cdot x^2 + \frac{k^2}{(1+k^2)^2}\rho^4 = 0.$$
+.. math::
+
+   x^4 - \frac{2}{\sqrt{1+k^2}}\rho^2 \cdot x^2 + \frac{k^2}{(1+k^2)^2}\rho^4 = 0.
+

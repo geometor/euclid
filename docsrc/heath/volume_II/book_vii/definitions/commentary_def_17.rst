@@ -34,7 +34,7 @@ These three writers make the following further distinctions between solid number
 
 2. The other extreme is the unequal by unequal by unequal (ἀνισάκις ἀνισάκις ἄνισος), or that in which all the dimensions are different, e.g. the product of 2, 3, 4 or 2, 4, 8 or 3, 5, 12. These were, according to :person:`Nicomachus <nicomachus>` (:cite:`II. 16 <nicomachus:intro-arith:ii-16>`), called *scalene*, while some called them σφηνίσκοι (*wedge-shaped*), others σφηκίσκοι (from σφήξ, a *wasp*), and others βωμίσκοι (*altar-shaped*). Theon appears to use the last term only, while :person:`Iamblichus <iamblichus>` of course gives all three names.
 
-3. Intermediate to these, as it were, come the numbers "whose *planes* form :term:`ἑτερομήκεις <heteromekes-arithmos>` numbers" (i.e. numbers of the form $n(n + 1)$). These, says :person:`Nicomachus <nicomachus>`, are called *parallelepipedal*.
+3. Intermediate to these, as it were, come the numbers "whose *planes* form :term:`ἑτερομήκεις <heteromekes-arithmos>` numbers" (i.e. numbers of the form :math:`n(n + 1)`). These, says :person:`Nicomachus <nicomachus>`, are called *parallelepipedal*.
 
 Lastly come two classes of such numbers each of which has two equal dimensions but not more.
 
@@ -43,8 +43,8 @@ Lastly come two classes of such numbers each of which has two equal dimensions b
 .. folio:: 0297
    :page: 291
 
-4. If the third dimension is less than the others, the number is *equal by equal by less* (:term:`ἰσάκις <isakis>` ἴσος ἐλαττονάκις) and is called a *plinth* (:term:`πλινθίς <plinthis>`), e.g. $8 \cdot 8 \cdot 3$.
+4. If the third dimension is less than the others, the number is *equal by equal by less* (:term:`ἰσάκις <isakis>` ἴσος ἐλαττονάκις) and is called a *plinth* (:term:`πλινθίς <plinthis>`), e.g. :math:`8 \cdot 8 \cdot 3`.
 
-5. If the third dimension is greater than the others, the number is *equal by equal by greater* (:term:`ἰσάκις <isakis>` ἴσος μειζονάκις) and is called a *beam* (:term:`δοκίς <dokis>`), e.g. $3 \cdot 3 \cdot 7$. Another name for this latter kind of number (according to :person:`Iamblichus <iamblichus>`) was στηλίς (diminutive of στήλη).
+5. If the third dimension is greater than the others, the number is *equal by equal by greater* (:term:`ἰσάκις <isakis>` ἴσος μειζονάκις) and is called a *beam* (:term:`δοκίς <dokis>`), e.g. :math:`3 \cdot 3 \cdot 7`. Another name for this latter kind of number (according to :person:`Iamblichus <iamblichus>`) was στηλίς (diminutive of στήλη).
 
 Lastly, in connexion with pyramidal numbers, :person:`Nicomachus <nicomachus>` (:cite:`II. 14, 5 <nicomachus:intro-arith:ii-14-5>`) distinguishes numbers corresponding to *frusta* of pyramids. These are *truncated* (κόλουροι), *twice-truncated* (δικόλουροι), *thrice-truncated* (τρικόλουροι) pyramids, and so on, the term being used mostly in theoretic treatises (ἐν συγγράμμασι μάλιστα τοῖς θεωρηματικοῖς). The *truncated* pyramid was formed by cutting off the point forming the vertex. The *twice-truncated* was that which lacked the vertex and the next plane, and so on. :person:`Theon of Smyrna <theon-of-smyrna>` (p. 42, 4) only mentions the *truncated* pyramid as "that with its vertex cut off" (ἡ τὴν κορυφὴν ἀποτετμημένη), saying that some also called it a trapezium, after the similitude of a plane trapezium formed by cutting the top off a triangle by a straight line parallel to the base.

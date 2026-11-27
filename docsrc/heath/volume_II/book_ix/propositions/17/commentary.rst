@@ -19,20 +19,24 @@ Back to :ref:`Proposition IX.17 <IX.17>`.
 .. folio:: 0413
    :page: 407
 
-If $a, a_2, a_3, \dots a_n$ be a geometrical progression, and $a, a_n$ are prime to one another, then $a, a_2, a_n$ can have no integral fourth proportional.
+If :math:`a, a_2, a_3, \dots a_n` be a geometrical progression, and :math:`a, a_n` are prime to one another, then :math:`a, a_2, a_n` can have no integral fourth proportional.
 
 For, if possible, let
 
-$$a : a_2 = a_n : x.$$
+.. math::
+
+   a : a_2 = a_n : x.
 
 Therefore
 
-$$a : a_n = a_2 : x,$$
+.. math::
 
-and hence :just:`[VII. 20, 21]` *a* measures $a_2$.
+   a : a_n = a_2 : x,
 
-Therefore $a_2$ measures $a_3$, :just:`[VII. Def. 20] <VII.def.20>`
+and hence :just:`[VII. 20, 21]` *a* measures :math:`a_2`.
 
-and hence *a* measures $a_3$, and therefore also ultimately $a_n$.
+Therefore :math:`a_2` measures :math:`a_3`, :just:`[VII. Def. 20] <VII.def.20>`
 
-Thus $a, a_n$ are both measured by *a* : which is contrary to the hypothesis.
+and hence *a* measures :math:`a_3`, and therefore also ultimately :math:`a_n`.
+
+Thus :math:`a, a_n` are both measured by *a* : which is contrary to the hypothesis.

@@ -19,10 +19,10 @@ Back to :ref:`Proposition VII.9 <VII.9>`.
 .. folio:: 0316
    :page: 310
 
-If $a = \frac{1}{n}b$ and $c = \frac{1}{n}d$, then, whatever fraction ("part" or "parts") $a$ is of $c$, the same fraction will $b$ be of $d$.
+If :math:`a = \frac{1}{n}b` and :math:`c = \frac{1}{n}d`, then, whatever fraction ("part" or "parts") :math:`a` is of :math:`c`, the same fraction will :math:`b` be of :math:`d`.
 
-Dividing $b$ into each of its parts equal to $a$, and $d$ into each of its parts equal to $c$, it is clear that, whatever fraction one of the parts $a$ is of one of the parts $c$, the same fraction is any other of the parts $a$ of any other of the parts $c$.
+Dividing :math:`b` into each of its parts equal to :math:`a`, and :math:`d` into each of its parts equal to :math:`c`, it is clear that, whatever fraction one of the parts :math:`a` is of one of the parts :math:`c`, the same fraction is any other of the parts :math:`a` of any other of the parts :math:`c`.
 
-And the number of the parts $a$ is equal to the number of the parts $c$, viz. $n$.
+And the number of the parts :math:`a` is equal to the number of the parts :math:`c`, viz. :math:`n`.
 
-Therefore, by VII. 5, 6, $na$ is the same fraction of $nc$ that $a$ is of $c$, i.e. $b$ is the same fraction of $d$ that $a$ is of $c$.
+Therefore, by VII. 5, 6, :math:`na` is the same fraction of :math:`nc` that :math:`a` is of :math:`c`, i.e. :math:`b` is the same fraction of :math:`d` that :math:`a` is of :math:`c`.

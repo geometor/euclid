@@ -12,7 +12,7 @@ Proposition 47 [μζ΄ · Prop. Prop. LI] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.47 <D.47>` proves that every species-given $n$-gon triangulates into $(n-2)$ species-given triangles by ear-clipping diagonals (:ref:`D.41 <D.41>`).
+* :ref:`D.47 <D.47>` proves that every species-given :math:`n`-gon triangulates into :math:`(n-2)` species-given triangles by ear-clipping diagonals (:ref:`D.41 <D.41>`).
 
 Textual & Critical Apparatus
 ----------------------------

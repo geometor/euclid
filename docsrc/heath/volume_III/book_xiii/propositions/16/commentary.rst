@@ -37,7 +37,7 @@ Euclid's method is
 
 I have drawn another figure which will perhaps show the pentagons, and the position of the poles with regard to them, more clearly than does Euclid's figure.
 
-(1) *If* :g:`AB <0491.g1:/ A B />` *is the diameter of the given sphere, divide* :g:`AB <0491.g1:/ A B />` *at* :g:`C <0491.g1:C>` *so that* :g:`AC <0491.g1:/ A C />` $= 4$ :g:`CB <0491.g1:/ C B />`; *draw* :g:`CD <0491.g1:/ C D />` *at right angles to* :g:`AB <0491.g1:/ A B />` *meeting the semicircle on* :g:`AB <0491.g1:/ A B />` *in* :g:`D <0491.g1:D>`. *Join* :g:`BD <0491.g1:/ B D />`.
+(1) *If* :g:`AB <0491.g1:/ A B />` *is the diameter of the given sphere, divide* :g:`AB <0491.g1:/ A B />` *at* :g:`C <0491.g1:C>` *so that* :g:`AC <0491.g1:/ A C />` :math:`= 4` :g:`CB <0491.g1:/ C B />`; *draw* :g:`CD <0491.g1:/ C D />` *at right angles to* :g:`AB <0491.g1:/ A B />` *meeting the semicircle on* :g:`AB <0491.g1:/ A B />` *in* :g:`D <0491.g1:D>`. *Join* :g:`BD <0491.g1:/ B D />`.
 
 .. _folio-iii-0491:
 
@@ -46,11 +46,13 @@ I have drawn another figure which will perhaps show the pentagons, and the posit
 
 :g:`BD <0491.g1:/ B D />` *is the radius of the circular sections containing the pentagons.*
 
-[If $r$ is the radius of the sphere, since :g:`AB <0491.g1:/ A B />` $:$ :g:`BC <0491.g1:/ B C />` $= $ :g:`AB <0491.g1:/ A B />` $^2 : $ :g:`AB <0491.g1:/ A B />` $\cdot$ :g:`BC <0491.g1:/ B C />` $= $ :g:`AB <0491.g1:/ A B />` $^2 : $ :g:`BD <0491.g1:/ B D />` $^2$, while :g:`AB <0491.g1:/ A B />` $= 5$ :g:`BC <0491.g1:/ B C />`, it follows that :g:`AB <0491.g1:/ A B />` $^2 = 5$ :g:`BD <0491.g1:/ B D />` $^2$, or
+[If :math:`r` is the radius of the sphere, since :g:`AB <0491.g1:/ A B />` :math:`:` :g:`BC <0491.g1:/ B C />` :math:`=` :g:`AB <0491.g1:/ A B />` :math:`^2 :` :g:`AB <0491.g1:/ A B />` :math:`\cdot` :g:`BC <0491.g1:/ B C />` :math:`=` :g:`AB <0491.g1:/ A B />` :math:`^2 :` :g:`BD <0491.g1:/ B D />` :math:`^2`, while :g:`AB <0491.g1:/ A B />` :math:`= 5` :g:`BC <0491.g1:/ B C />`, it follows that :g:`AB <0491.g1:/ A B />` :math:`^2 = 5` :g:`BD <0491.g1:/ B D />` :math:`^2`, or
 
-$$\text{(radius of section)}^2 = \frac{4}{5} r^2.$$
+.. math::
 
-Thus :just:`[XIII. 10, note]` $\text{(side of pentagon)}^2 = \frac{r^2}{5} (10 - 2\sqrt{5})$.]
+   \text{(radius of section)}^2 = \frac{4}{5} r^2.
+
+Thus :just:`[XIII. 10, note]` :math:`\text{(side of pentagon)}^2 = \frac{r^2}{5} (10 - 2\sqrt{5})`.]
 
 .. picture:: 0491.g1.svg
    :alt: Proposition 16, Alternative Figure
@@ -84,23 +86,31 @@ Similarly for :g:`QR <0491.g1:/ Q R />`, :g:`EF <0491.g1:/ E F />` etc.
 
 Thus the pentagons have their sides :eq:`equal <0491.g1:/ Q R / = 0491.g1:/ R S / = 0491.g1:/ S T / = 0491.g1:/ T U / = 0491.g1:/ U Q / = 0491.g1:/ E F / = 0491.g1:/ F G / = 0491.g1:/ G H / = 0491.g1:/ H K / = 0491.g1:/ K E />`.
 
-To prove that the triangles :g:`QPL <0491.g1:< Q P L >>` etc., are equilateral, we have, e.g. :g:`QL <0491.g1:/ Q L />` $^2 = $ :g:`LE <0491.g1:/ L E />` $^2 + $ :g:`EQ <0491.g1:/ E Q />` $^2$
+To prove that the triangles :g:`QPL <0491.g1:< Q P L >>` etc., are equilateral, we have, e.g. :g:`QL <0491.g1:/ Q L />` :math:`^2 =` :g:`LE <0491.g1:/ L E />` :math:`^2 +` :g:`EQ <0491.g1:/ E Q />` :math:`^2`
 
-$$= (\text{side of decagon})^2 + (\text{side of hexagon})^2$$
+.. math::
 
-$$= (\text{side of pentagon})^2, \qquad \text{[XIII. 10]}$$
+   = (\text{side of decagon})^2 + (\text{side of hexagon})^2
 
-i.e. :g:`QL <0491.g1:/ Q L />` $= (\text{side of pentagon in circle})$ $= $ :g:`LP <0491.g1:/ L P />`. Similarly :g:`QP <0491.g1:/ Q P />` $= $ :g:`LP <0491.g1:/ L P />`, and $\triangle$ :g:`QPL <0491.g1:< Q P L >>` is :eq:`equilateral <0491.g1:/ Q L / = 0491.g1:/ P Q / = 0491.g1:/ P L />`.
+.. math::
+
+   = (\text{side of pentagon})^2, \qquad \text{[XIII. 10]}
+
+i.e. :g:`QL <0491.g1:/ Q L />` :math:`= (\text{side of pentagon in circle})` :math:`=` :g:`LP <0491.g1:/ L P />`. Similarly :g:`QP <0491.g1:/ Q P />` :math:`=` :g:`LP <0491.g1:/ L P />`, and :math:`\triangle` :g:`QPL <0491.g1:< Q P L >>` is :eq:`equilateral <0491.g1:/ Q L / = 0491.g1:/ P Q / = 0491.g1:/ P L />`.
 
 So for the other triangles between the two pentagons.
 
 (4) Since :g:`VW <0491.g1:/ V W />`, :g:`EQ <0491.g1:/ E Q />` are :eq:`equal <0491.g1:/ V W / = 0491.g1:/ E Q />` and parallel, :g:`VE <0491.g1:/ V E />`, :g:`WQ <0491.g1:/ W Q />` are :eq:`equal <0491.g1:/ V E / = 0491.g1:/ W Q />` and parallel. Thus :g:`WQ <0491.g1:/ W Q />` is equal to the side of a regular hexagon in the circles.
 
-Now the angle :g:`ZWQ <0491.g1:< Z W Q )>` is right; therefore :g:`ZQ <0491.g1:/ Z Q />` $^2 = $ :g:`ZW <0491.g1:/ Z W />` $^2 + $ :g:`WQ <0491.g1:/ W Q />` $^2$
+Now the angle :g:`ZWQ <0491.g1:< Z W Q )>` is right; therefore :g:`ZQ <0491.g1:/ Z Q />` :math:`^2 =` :g:`ZW <0491.g1:/ Z W />` :math:`^2 +` :g:`WQ <0491.g1:/ W Q />` :math:`^2`
 
-$$= (\text{side of decagon})^2 + (\text{side of hexagon})^2$$
+.. math::
 
-$$= (\text{side of pentagon})^2. \qquad \text{[XIII. 10]}$$
+   = (\text{side of decagon})^2 + (\text{side of hexagon})^2
+
+.. math::
+
+   = (\text{side of pentagon})^2. \qquad \text{[XIII. 10]}
 
 Thus :g:`ZQ <0491.g1:/ Z Q />`, :g:`ZR <0491.g1:/ Z R />`, :g:`ZS <0491.g1:/ Z S />`, :g:`ZT <0491.g1:/ Z T />`, :g:`ZU <0491.g1:/ Z U />` are all :eq:`equal <0491.g1:/ Z Q / = 0491.g1:/ Z R / = 0491.g1:/ Z S / = 0491.g1:/ Z T / = 0491.g1:/ Z U / = 0491.g1:/ Q R / = 0491.g1:/ R S />` to :g:`QR <0491.g1:/ Q R />`, :g:`RS <0491.g1:/ R S />` etc. ; and the triangles with :g:`Z <0491.g1:Z>` as vertex and bases :g:`QR <0491.g1:/ Q R />`, :g:`RS <0491.g1:/ R S />` etc. are :eq:`equilateral <0491.g1:/ Z Q / = 0491.g1:/ Z R / = 0491.g1:/ Z S / = 0491.g1:/ Z T / = 0491.g1:/ Z U / = 0491.g1:/ Q R / = 0491.g1:/ R S / = 0491.g1:/ S T / = 0491.g1:/ T U / = 0491.g1:/ U Q />`.
 
@@ -112,7 +122,7 @@ Hence the figure is an icosahedron, being contained by twenty equal equilateral 
 
 :g:`VW <0491.g1:/ V W />` being :eq:`equal <0491.g1:/ V W / = 0491.g1:/ V E />; 0491.g1:/ W Z / = 0491.g1:/ E L />` to the side of a regular hexagon, and :g:`WZ <0491.g1:/ W Z />` to the side of a regular decagon inscribed in the same circle, :g:`VZ <0491.g1:/ V Z />` is divided at :g:`W <0491.g1:W>` in extreme and mean ratio. :just:`[XIII. 9] <XIII.9>`
 
-Therefore :g:`ZV <0491.g1:/ Z V />` $:$ :g:`VW <0491.g1:/ V W />` $= $ :g:`VW <0491.g1:/ V W />` $:$ :g:`WZ <0491.g1:/ W Z />`, or, since :g:`VW <0491.g1:/ V W />` $= $ :g:`VE <0491.g1:/ V E />`, :g:`WZ <0491.g1:/ W Z />` $= $ :g:`VX <0491.g1:/ V X />`, :g:`ZV <0491.g1:/ Z V />` $:$ :g:`VE <0491.g1:/ V E />` $= $ :g:`VE <0491.g1:/ V E />` $:$ :g:`VX <0491.g1:/ V X />`.
+Therefore :g:`ZV <0491.g1:/ Z V />` :math:`:` :g:`VW <0491.g1:/ V W />` :math:`=` :g:`VW <0491.g1:/ V W />` :math:`:` :g:`WZ <0491.g1:/ W Z />`, or, since :g:`VW <0491.g1:/ V W />` :math:`=` :g:`VE <0491.g1:/ V E />`, :g:`WZ <0491.g1:/ W Z />` :math:`=` :g:`VX <0491.g1:/ V X />`, :g:`ZV <0491.g1:/ Z V />` :math:`:` :g:`VE <0491.g1:/ V E />` :math:`=` :g:`VE <0491.g1:/ V E />` :math:`:` :g:`VX <0491.g1:/ V X />`.
 
 Thus :g:`E <0491.g1:E>` lies on the semicircle on :g:`ZX <0491.g1:/ Z X />` as diameter. :just:`[VI. 8] <VI.8>`
 
@@ -120,33 +130,43 @@ Similarly for all the other vertices of the icosahedron.
 
 Hence the sphere with diameter :g:`XZ <0491.g1:/ X Z />` circumscribes it.
 
-(6) *To prove* :g:`XZ <0491.g1:/ X Z />` $= $ :g:`AB <0491.g1:/ A B />`.
+(6) *To prove* :g:`XZ <0491.g1:/ X Z />` :math:`=` :g:`AB <0491.g1:/ A B />`.
 
-Since :g:`VZ <0491.g1:/ V Z />` is divided in extreme and mean ratio at :g:`W <0491.g1:W>`, and :g:`VW <0491.g1:/ V W />` is bisected at :g:`A' <0491.g1:A'>`, :g:`A'Z <0491.g1:/ A' Z />` $^2 = 5$ :g:`A'W <0491.g1:/ A' W />` $^2$. :just:`[XIII. 3] <XIII.3>`
+Since :g:`VZ <0491.g1:/ V Z />` is divided in extreme and mean ratio at :g:`W <0491.g1:W>`, and :g:`VW <0491.g1:/ V W />` is bisected at :g:`A' <0491.g1:A'>`, :g:`A'Z <0491.g1:/ A' Z />` :math:`^2 = 5` :g:`A'W <0491.g1:/ A' W />` :math:`^2`. :just:`[XIII. 3] <XIII.3>`
 
-Taking the doubles of :g:`A'Z <0491.g1:/ A' Z />`, :g:`A'W <0491.g1:/ A' W />`, we have :g:`XZ <0491.g1:/ X Z />` $^2 = 5$ :g:`VW <0491.g1:/ V W />` $^2$ $= 5$ :g:`BD <0491.g1:/ B D />` $^2$ $= $ :g:`AB <0491.g1:/ A B />` $^2$. :just:`[see under (1) above]`
-That is, :g:`XZ <0491.g1:/ X Z />` $= $ :g:`AB <0491.g1:/ A B />`.
+Taking the doubles of :g:`A'Z <0491.g1:/ A' Z />`, :g:`A'W <0491.g1:/ A' W />`, we have :g:`XZ <0491.g1:/ X Z />` :math:`^2 = 5` :g:`VW <0491.g1:/ V W />` :math:`^2` :math:`= 5` :g:`BD <0491.g1:/ B D />` :math:`^2` :math:`=` :g:`AB <0491.g1:/ A B />` :math:`^2`. :just:`[see under (1) above]`
+That is, :g:`XZ <0491.g1:/ X Z />` :math:`=` :g:`AB <0491.g1:/ A B />`.
 
 .. _folio-iii-0493:
 
 .. folio:: 0493
    :page: 489
 
-[If $r$ is the radius of the sphere, :g:`VW <0491.g1:/ V W />` $= $ :g:`BD <0491.g1:/ B D />` $= \frac{2}{\sqrt{5}} r$, :g:`VX <0491.g1:/ V X />` $= (\text{side of decagon in circle of radius }$ :g:`BD <0491.g1:/ B D />` $)$ $= \frac{1}{2}$ :g:`BD <0491.g1:/ B D />` $(\sqrt{5} - 1)$ :just:`[XIII. 9, note]`
+[If :math:`r` is the radius of the sphere, :g:`VW <0491.g1:/ V W />` :math:`=` :g:`BD <0491.g1:/ B D />` :math:`= \frac{2}{\sqrt{5}} r`, :g:`VX <0491.g1:/ V X />` :math:`= (\text{side of decagon in circle of radius }` :g:`BD <0491.g1:/ B D />` :math:`)` :math:`= \frac{1}{2}` :g:`BD <0491.g1:/ B D />` :math:`(\sqrt{5} - 1)` :just:`[XIII. 9, note]`
 
-$$= \frac{r}{\sqrt{5}}(\sqrt{5} - 1).$$
+.. math::
 
-Consequently :g:`XZ <0491.g1:/ X Z />` $= $ :g:`VW <0491.g1:/ V W />` $+ 2$ :g:`VX <0491.g1:/ V X />`
+   = \frac{r}{\sqrt{5}}(\sqrt{5} - 1).
 
-$$= \frac{2}{\sqrt{5}} r + \frac{2}{\sqrt{5}} r (\sqrt{5} - 1)$$
+Consequently :g:`XZ <0491.g1:/ X Z />` :math:`=` :g:`VW <0491.g1:/ V W />` :math:`+ 2` :g:`VX <0491.g1:/ V X />`
 
-$$= 2r.]$$
+.. math::
 
-(6) The radius of the circle :g:`EFGHK <0491.g1:( E F G H K )>` is equal to $\frac{2}{\sqrt{5}} r$, and is therefore "rational" in Euclid's sense. Hence the side of the inscribed pentagon is the irrational straight line called *minor*. :just:`[XIII. 11] <XIII.11>` [The side of this pentagon is the edge of the icosahedron, and its value is :just:`(note on XIII. 10)` $\frac{1}{2}$ :g:`BD <0491.g1:/ B D />` $\sqrt{10 - 2\sqrt{5}}$
+   = \frac{2}{\sqrt{5}} r + \frac{2}{\sqrt{5}} r (\sqrt{5} - 1)
 
-$$= \frac{r}{\sqrt{5}} \sqrt{10 - 2\sqrt{5}}$$
+.. math::
 
-$$= \frac{r}{5} \sqrt{10(5 - \sqrt{5})}.]$$
+   = 2r.]
+
+(6) The radius of the circle :g:`EFGHK <0491.g1:( E F G H K )>` is equal to :math:`\frac{2}{\sqrt{5}} r`, and is therefore "rational" in Euclid's sense. Hence the side of the inscribed pentagon is the irrational straight line called *minor*. :just:`[XIII. 11] <XIII.11>` [The side of this pentagon is the edge of the icosahedron, and its value is :just:`(note on XIII. 10)` :math:`\frac{1}{2}` :g:`BD <0491.g1:/ B D />` :math:`\sqrt{10 - 2\sqrt{5}}`
+
+.. math::
+
+   = \frac{r}{\sqrt{5}} \sqrt{10 - 2\sqrt{5}}
+
+.. math::
+
+   = \frac{r}{5} \sqrt{10(5 - \sqrt{5})}.]
 
 **Pappus' solution.** This solution (:person:`Pappus <pappus>`, III. pp. 150—6) differs considerably from that of Euclid. Whereas Euclid uses *two* circular sections of the sphere (those circumscribing the pentagons of his construction), :person:`Pappus <pappus>` finds *four* parallel circular sections each passing through three of the vertices of the icosahedron; two of the circles are small circles circumscribing two opposite triangular faces respectively, and the other two circles are between these two circles, parallel to them and equal to one another.
 
@@ -174,13 +194,13 @@ Now in the :eq:`equal <0494.g1:( D E F ) = 0494.g1:( K G H )>` and parallel circ
 
 In the pentagon :g:`GEACF <0494.g1:< G E A C F >>`, if :g:`EF <0494.g1:/ E F />` be divided in extreme and mean ratio, the greater segment is equal to :g:`AC <0494.g1:/ A C />`. :just:`[Eucl. XIII. 8]`
 
-Therefore :g:`EF <0494.g1:/ E F />` $:$ :g:`AC <0494.g1:/ A C />` = (side of hexagon) : (side of decagon in same circle). :just:`[XIII. 9] <XIII.9>`
+Therefore :g:`EF <0494.g1:/ E F />` :math:`:` :g:`AC <0494.g1:/ A C />` = (side of hexagon) : (side of decagon in same circle). :just:`[XIII. 9] <XIII.9>`
 
-And :g:`EF <0494.g1:/ E F />` $^2 + $ :g:`AC <0494.g1:/ A C />` $^2 = $ :g:`EF <0494.g1:/ E F />` $^2 + $ :g:`EK <0494.g1:/ E K />` $^2 = d^2$, where $d$ is the diameter of the sphere.
+And :g:`EF <0494.g1:/ E F />` :math:`^2 +` :g:`AC <0494.g1:/ A C />` :math:`^2 =` :g:`EF <0494.g1:/ E F />` :math:`^2 +` :g:`EK <0494.g1:/ E K />` :math:`^2 = d^2`, where :math:`d` is the diameter of the sphere.
 
 Thus :g:`FK <0494.g1:/ F K />`, :g:`EF <0494.g1:/ E F />`, :g:`AC <0494.g1:/ A C />` are as the sides of the pentagon, hexagon and decagon respectively inscribed in the same circle. :just:`[XIII. 10] <XIII.10>`
 
-But :g:`FK <0494.g1:/ F K />`, the diameter of the sphere, is given; therefore :g:`EF <0494.g1:/ E F />`, :g:`AC <0494.g1:/ A C />` are given respectively; thus the radii of the circles :g:`EFD <0494.g1:( E F D )>`, :g:`ACB <0494.g1:( A C B )>` are given (if $r, r'$ are their radii, $r^2 = \frac{1}{3}$ :g:`EF <0494.g1:/ E F />` $^2$, $r'^2 = \frac{1}{3}$ :g:`AC <0494.g1:/ A C />` $^2$).
+But :g:`FK <0494.g1:/ F K />`, the diameter of the sphere, is given; therefore :g:`EF <0494.g1:/ E F />`, :g:`AC <0494.g1:/ A C />` are given respectively; thus the radii of the circles :g:`EFD <0494.g1:( E F D )>`, :g:`ACB <0494.g1:( A C B )>` are given (if :math:`r, r'` are their radii, :math:`r^2 = \frac{1}{3}` :g:`EF <0494.g1:/ E F />` :math:`^2`, :math:`r'^2 = \frac{1}{3}` :g:`AC <0494.g1:/ A C />` :math:`^2`).
 
 .. _folio-iii-0495:
 
@@ -189,37 +209,37 @@ But :g:`FK <0494.g1:/ F K />`, the diameter of the sphere, is given; therefore :
 
 Hence the circles are given. and so are the circles :g:`KHG <0494.g1:( K H G )>`, :g:`LMN <0494.g1:( L M N )>` which are :eq:`equal <0494.g1:( K G H ) = 0494.g1:( D E F ); 0494.g1:( L M N ) = 0494.g1:( A B C )>` and parallel to them respectively.
 
-*Synthesis.* If $d$ be the diameter of the sphere, set out two straight lines :g:`x <0494.g1:/ x />`, :g:`y <0494.g1:/ y />`, such that $d$, :g:`x <0494.g1:/ x />`, :g:`y <0494.g1:/ y />` are in the ratio of the sides of the pentagon, hexagon and decagon respectively inscribed in one and the same circle.
+*Synthesis.* If :math:`d` be the diameter of the sphere, set out two straight lines :g:`x <0494.g1:/ x />`, :g:`y <0494.g1:/ y />`, such that :math:`d`, :g:`x <0494.g1:/ x />`, :g:`y <0494.g1:/ y />` are in the ratio of the sides of the pentagon, hexagon and decagon respectively inscribed in one and the same circle.
 
-Draw (1) two :eq:`equal <0494.g1:( D E F ) = 0494.g1:( K G H )>` and parallel circular sections in the sphere, with radii equal to $r$, where $r^2 = \frac{1}{3}$ :g:`x <0494.g1:/ x />` $^2$, as :g:`DEF <0494.g1:( D E F )>`, :g:`KGH <0494.g1:( K G H )>`, and (2) two :eq:`equal <0494.g1:( A B C ) = 0494.g1:( L M N )>` and parallel circular sections as :g:`ABC <0494.g1:( A B C )>`, :g:`LMN <0494.g1:( L M N )>`, with radius $r'$ such that $r'^2 = \frac{1}{3}$ :g:`y <0494.g1:/ y />` $^2$.
+Draw (1) two :eq:`equal <0494.g1:( D E F ) = 0494.g1:( K G H )>` and parallel circular sections in the sphere, with radii equal to :math:`r`, where :math:`r^2 = \frac{1}{3}` :g:`x <0494.g1:/ x />` :math:`^2`, as :g:`DEF <0494.g1:( D E F )>`, :g:`KGH <0494.g1:( K G H )>`, and (2) two :eq:`equal <0494.g1:( A B C ) = 0494.g1:( L M N )>` and parallel circular sections as :g:`ABC <0494.g1:( A B C )>`, :g:`LMN <0494.g1:( L M N )>`, with radius :math:`r'` such that :math:`r'^2 = \frac{1}{3}` :g:`y <0494.g1:/ y />` :math:`^2`.
 
 In the circles (1) draw :g:`EF <0494.g1:/ E F />`, :g:`KH <0494.g1:/ K H />` as sides of inscribed equilateral triangles, parallel to one another, and on opposite sides of the centres; and in the circles (2) draw :g:`AC <0494.g1:/ A C />`, :g:`LM <0494.g1:/ L M />` as sides of inscribed equilateral triangles parallel to one another and to :g:`EF <0494.g1:/ E F />`, :g:`KH <0494.g1:/ K H />`, and so that :g:`AC <0494.g1:/ A C />`, :g:`EF <0494.g1:/ E F />` are on opposite sides of the centres, and likewise :g:`KH <0494.g1:/ K H />`, :g:`LM <0494.g1:/ L M />`.
 
-Complete the figure. The correctness of the construction is proved as in the analysis. It follows also (says :person:`Pappus <pappus>`) that (diam. of sphere)$^2 = 3$ (side of pentagon in :g:`DEF <0494.g1:( D E F )>`)$^2$.
+Complete the figure. The correctness of the construction is proved as in the analysis. It follows also (says :person:`Pappus <pappus>`) that (diam. of sphere)\ :math:`^2 = 3` (side of pentagon in :g:`DEF <0494.g1:( D E F )>`)\ :math:`^2`.
 
-For, by construction, :g:`KF <0494.g1:/ K F />` : :g:`FE <0494.g1:/ F E />` = $p : h$, where $p, h$ are the sides of the pentagon and hexagon inscribed in the same circle :g:`DEF <0494.g1:( D E F )>`.
+For, by construction, :g:`KF <0494.g1:/ K F />` : :g:`FE <0494.g1:/ F E />` = :math:`p : h`, where :math:`p, h` are the sides of the pentagon and hexagon inscribed in the same circle :g:`DEF <0494.g1:( D E F )>`.
 
-And :g:`FE <0494.g1:/ F E />` : $h$ = the ratio of the side of an equilateral triangle to that of a hexagon inscribed in the same circle; that is, :g:`FE <0494.g1:/ F E />` : $h = \sqrt{3} : 1$, whence :g:`KF <0494.g1:/ K F />` : $p = \sqrt{3} : 1$, or :g:`KF <0494.g1:/ K F />` $^2 = 3p^2$.
+And :g:`FE <0494.g1:/ F E />` : :math:`h` = the ratio of the side of an equilateral triangle to that of a hexagon inscribed in the same circle; that is, :g:`FE <0494.g1:/ F E />` : :math:`h = \sqrt{3} : 1`, whence :g:`KF <0494.g1:/ K F />` : :math:`p = \sqrt{3} : 1`, or :g:`KF <0494.g1:/ K F />` :math:`^2 = 3p^2`.
 
 **Another construction.**
 
-Mr :person:`H. M. Taylor <h-m-taylor>` has a neat construction for an icosahedron of edge $a$. Let $l$ be the length of the diagonal of a regular pentagon with side equal to $a$.
+Mr :person:`H. M. Taylor <h-m-taylor>` has a neat construction for an icosahedron of edge :math:`a`. Let :math:`l` be the length of the diagonal of a regular pentagon with side equal to :math:`a`.
 
-Then (figure of XIII. 8), by :person:`Ptolemy <ptolemy>`’s theorem, $l^2 = la + a^2$.
+Then (figure of XIII. 8), by :person:`Ptolemy <ptolemy>`’s theorem, :math:`l^2 = la + a^2`.
 
-Construct a cube with edge equal to $l$. Let :g:`O <0496.g1:O>` be the centre of the cube.
+Construct a cube with edge equal to :math:`l`. Let :g:`O <0496.g1:O>` be the centre of the cube.
 
 From :g:`O <0496.g1:O>` draw :g:`OL <0496.g1:/ O L />`, :g:`OM <0496.g1:/ O M />`, :g:`ON <0496.g1:/ O N />` perpendicular to three adjacent faces, and in these draw :g:`PP' <0496.g1:/ P P' />`, :g:`QQ' <0496.g1:/ Q Q' />`, :g:`RR' <0496.g1:/ R R' />` parallel to :g:`AB <0496.g1:/ A B />`, :g:`AD <0496.g1:/ A D />`, :g:`AE <0496.g1:/ A E />` respectively.
 
-Make :g:`LP <0496.g1:/ L P />`, :g:`LP' <0496.g1:/ L P' />`, :g:`MQ <0496.g1:/ M Q />`, :g:`MQ' <0496.g1:/ M Q' />`, :g:`NR <0496.g1:/ N R />`, :g:`NR' <0496.g1:/ N R' />` all :eq:`equal <0496.g1:/ L P / = 0496.g1:/ L P' / = 0496.g1:/ M Q / = 0496.g1:/ M Q' / = 0496.g1:/ N R / = 0496.g1:/ N R' />` to $\frac{1}{2}a$.
+Make :g:`LP <0496.g1:/ L P />`, :g:`LP' <0496.g1:/ L P' />`, :g:`MQ <0496.g1:/ M Q />`, :g:`MQ' <0496.g1:/ M Q' />`, :g:`NR <0496.g1:/ N R />`, :g:`NR' <0496.g1:/ N R' />` all :eq:`equal <0496.g1:/ L P / = 0496.g1:/ L P' / = 0496.g1:/ M Q / = 0496.g1:/ M Q' / = 0496.g1:/ N R / = 0496.g1:/ N R' />` to :math:`\frac{1}{2}a`.
 
 Let :g:`p̄ <0496.g1:p>`, :g:`p̄' <0496.g1:p'>`, :g:`q̄ <0496.g1:q>`, :g:`q̄' <0496.g1:q'>`, :g:`r̄ <0496.g1:r>`, :g:`r̄' <0496.g1:r'>` be the reflexes of :g:`P <0496.g1:P>`, :g:`P' <0496.g1:P'>`, :g:`Q <0496.g1:Q>`, :g:`Q' <0496.g1:Q'>`, :g:`R <0496.g1:R>`, :g:`R' <0496.g1:R'>` respectively.
 
 Then will :g:`P <0496.g1:P>`, :g:`P' <0496.g1:P'>`, :g:`Q <0496.g1:Q>`, :g:`Q' <0496.g1:Q'>`, :g:`R <0496.g1:R>`, :g:`R' <0496.g1:R'>`, :g:`p̄ <0496.g1:p>`, :g:`p̄' <0496.g1:p'>`, :g:`q̄ <0496.g1:q>`, :g:`q̄' <0496.g1:q'>`, :g:`r̄ <0496.g1:r>`, :g:`r̄' <0496.g1:r'>` be the vertices of a regular icosahedron.
 
-The projections of :g:`PQ <0496.g1:/ P Q />` on :g:`AB <0496.g1:/ A B />`, :g:`AD <0496.g1:/ A D />`, :g:`AE <0496.g1:/ A E />` are equal to $\frac{1}{2}(l - a), \frac{1}{2}a, \frac{1}{2}l$ respectively.
+The projections of :g:`PQ <0496.g1:/ P Q />` on :g:`AB <0496.g1:/ A B />`, :g:`AD <0496.g1:/ A D />`, :g:`AE <0496.g1:/ A E />` are equal to :math:`\frac{1}{2}(l - a), \frac{1}{2}a, \frac{1}{2}l` respectively.
 
-Therefore :g:`PQ <0496.g1:/ P Q />` $^2 = \frac{1}{4}(l - a)^2 + \frac{1}{4}a^2 + \frac{1}{4}l^2$ = $\frac{1}{2}(l^2 - al + a^2)$ = $a^2$.
+Therefore :g:`PQ <0496.g1:/ P Q />` :math:`^2 = \frac{1}{4}(l - a)^2 + \frac{1}{4}a^2 + \frac{1}{4}l^2` = :math:`\frac{1}{2}(l^2 - al + a^2)` = :math:`a^2`.
 
 .. _folio-iii-0496:
 
@@ -230,34 +250,40 @@ Therefore
 
 .. container:: center
 
-   :g:`PQ <0496.g1:/ P Q />` $= a$.
+   :g:`PQ <0496.g1:/ P Q />` :math:`= a`.
 
-Similarly it may be proved that every other edge is equal to $a$. All the angular points lie on a sphere with radius :g:`OP <0496.g1:/ O P />`, and
+Similarly it may be proved that every other edge is equal to :math:`a`. All the angular points lie on a sphere with radius :g:`OP <0496.g1:/ O P />`, and
 
 .. container:: center
 
-   :g:`OP <0496.g1:/ O P />` $^2 = \frac{1}{4}(a^2 + l^2)$.
+   :g:`OP <0496.g1:/ O P />` :math:`^2 = \frac{1}{4}(a^2 + l^2)`.
 
 .. picture:: 0496.g1.svg
    :alt: Proposition 16 Commentary: Icosahedron inscribed in a cube
 
 Each solid pentahedral angle is composed of five equal plane angles, each of which is the angle of an equilateral triangle. Therefore the icosahedron is regular.
 
-[$a^2 = 4$ :g:`OP <0496.g1:/ O P />` $^2 - l^2$. And, from the equation $l^2 = la + a^2$, we derive
+[:math:`a^2 = 4` :g:`OP <0496.g1:/ O P />` :math:`^2 - l^2`. And, from the equation :math:`l^2 = la + a^2`, we derive
 
-$$l = \frac{a}{2}(\sqrt{5} + 1).$$
+.. math::
 
-Therefore, if $r$ be the radius of the sphere,
+   l = \frac{a}{2}(\sqrt{5} + 1).
 
-$$a^2 \left\{ 1 + \frac{(\sqrt{5} + 1)^2}{4} \right\} = 4r^2,$$
+Therefore, if :math:`r` be the radius of the sphere,
+
+.. math::
+
+   a^2 \left\{ 1 + \frac{(\sqrt{5} + 1)^2}{4} \right\} = 4r^2,
 
 whence
 
-$$\begin{aligned}
-a &= 4r / \sqrt{10 + 2\sqrt{5}} \\
-&= 4r \sqrt{10 - 2\sqrt{5}} / \sqrt{80} \\
-&= \frac{r}{\sqrt{5}} \sqrt{10 - 2\sqrt{5}} \\
-&= \frac{r}{5} \sqrt{10(5 - \sqrt{5})},
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   a &= 4r / \sqrt{10 + 2\sqrt{5}} \\
+   &= 4r \sqrt{10 - 2\sqrt{5}} / \sqrt{80} \\
+   &= \frac{r}{\sqrt{5}} \sqrt{10 - 2\sqrt{5}} \\
+   &= \frac{r}{5} \sqrt{10(5 - \sqrt{5})},
+   \end{aligned}
 
 as above.]

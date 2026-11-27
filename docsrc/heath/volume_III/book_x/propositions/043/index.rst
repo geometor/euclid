@@ -50,13 +50,17 @@ For, if possible, let it be divided at :g:`D <0098.g1:D>` also, so that :g:`AD <
 
 In this case, with the same hypothesis, viz. that
 
-$$x + y = x' + y',$$
+.. math::
 
-and $x', y'$ are more nearly equal than $x, y$, we have as before
+   x + y = x' + y',
 
-$$(x^2 + y^2) - (x'^2 + y'^2) = 2x'y' - 2xy.$$
+and :math:`x', y'` are more nearly equal than :math:`x, y`, we have as before
 
-But, from the given properties of $x, y$, and $x', y'$, it follows that $2xy, 2x'y'$ are *rational*, and $(x^2 + y^2), (x'^2 + y'^2)$ medial, areas.
+.. math::
+
+   (x^2 + y^2) - (x'^2 + y'^2) = 2x'y' - 2xy.
+
+But, from the given properties of :math:`x, y`, and :math:`x', y'`, it follows that :math:`2xy, 2x'y'` are *rational*, and :math:`(x^2 + y^2), (x'^2 + y'^2)` medial, areas.
 
 Therefore the difference between two medial areas is rational : which is impossible. [x. 26]
 

@@ -19,9 +19,11 @@ Back to :ref:`Proposition X.52 <X.52>`.
 .. folio:: 0115
    :page: 111
 
-If $m$, $n$ be numbers of the kind taken in the last proposition, take $x$ such that
+If :math:`m`, :math:`n` be numbers of the kind taken in the last proposition, take :math:`x` such that
 
-$$m : (m + n) = k^2 p^2 : x^2.$$
+.. math::
+
+   m : (m + n) = k^2 p^2 : x^2.
 
 .. _folio-iii-0116:
 
@@ -30,26 +32,37 @@ $$m : (m + n) = k^2 p^2 : x^2.$$
 
 In this case
 
-$$x = kp \sqrt{\frac{m + n}{m}} = kp \sqrt{1 + \lambda}\text{, say,}$$
+.. math::
 
-and $x > kp$.
+   x = kp \sqrt{\frac{m + n}{m}} = kp \sqrt{1 + \lambda}\text{, say,}
 
-Then $kp \sqrt{1 + \lambda} + kp$ is a :term:`*fifth binomial* <fifth-binomial>` straight line.
+and :math:`x > kp`.
 
-For $\sqrt{x^2 - k^2 p^2}$, or $\sqrt{\lambda}\cdot kp$, is incommensurable in length with $kp \sqrt{1 + \lambda}$, or $x$; and $kp$, but not $kp \sqrt{1 + \lambda}$, is commensurable in length with $p$.
+Then :math:`kp \sqrt{1 + \lambda} + kp` is a :term:`*fifth binomial* <fifth-binomial>` straight line.
+
+For :math:`\sqrt{x^2 - k^2 p^2}`, or :math:`\sqrt{\lambda}\cdot kp`, is incommensurable in length with :math:`kp \sqrt{1 + \lambda}`, or :math:`x`; and :math:`kp`, but not :math:`kp \sqrt{1 + \lambda}`, is commensurable in length with :math:`p`.
 
 The corresponding :term:`*fifth apotome* <fifth-apotome>` [x. 89] is
 
-$$kp \sqrt{1 + \lambda} - kp.$$
+.. math::
+
+   kp \sqrt{1 + \lambda} - kp.
 
 The equation of which the fifth binomial and the fifth apotome are the roots is
 
-$$x^2 - 2kp \sqrt{1 + \lambda}\cdot x + \lambda k^2 p^2 = 0,$$
+.. math::
+
+   x^2 - 2kp \sqrt{1 + \lambda}\cdot x + \lambda k^2 p^2 = 0,
 
 or
 
-$$x^2 - 2ax + \frac{\lambda}{1 + \lambda} a^2 = 0,$$
+.. math::
+
+   x^2 - 2ax + \frac{\lambda}{1 + \lambda} a^2 = 0,
 
 where
 
-$$a = kp \sqrt{1 + \lambda}.$$
+.. math::
+
+   a = kp \sqrt{1 + \lambda}.
+

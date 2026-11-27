@@ -21,40 +21,57 @@ Back to :ref:`Proposition X.102 <X.102>`.
 
 We have to find and classify
 
-$$\frac{1}{\sigma}\left\{\frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1+\frac{k}{\sqrt{1+k^2}}} - \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1-\frac{k}{\sqrt{1+k^2}}}\right\}^2.$$
+.. math::
 
-Call this $\frac{1}{\sigma}(u-v)^2$, and put
+   \frac{1}{\sigma}\left\{\frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1+\frac{k}{\sqrt{1+k^2}}} - \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1-\frac{k}{\sqrt{1+k^2}}}\right\}^2.
 
-$$\left.\begin{aligned}
-\sigma x &= u^2, \\
-\sigma y &= v^2, \\
-\sigma \cdot 2z &= 2uv.
-\end{aligned}\right.$$
+Call this :math:`\frac{1}{\sigma}(u-v)^2`, and put
 
-Here $u^2, v^2$ are incommensurable, $(u^2+v^2), 2uv$ are both medial areas, and
+.. math::
 
-$$(u^2+v^2) \smile 2uv.$$
+   \left.\begin{aligned}
+   \sigma x &= u^2, \\
+   \sigma y &= v^2, \\
+   \sigma \cdot 2z &= 2uv.
+   \end{aligned}\right.
 
-Since $\sigma(x+y), \sigma \cdot 2z$ are medial and incommensurable, $(x+y)$ is rational and $\smile \sigma$, $2z$ is rational and $\smile \sigma$, and
+Here :math:`u^2, v^2` are incommensurable, :math:`(u^2+v^2), 2uv` are both medial areas, and
 
-$$(x+y) \smile 2z.$$
+.. math::
 
-Hence $(x+y), 2z$ are rational and $\sim$, so that $(x+y) - 2z$ is an apotome.
+   (u^2+v^2) \smile 2uv.
 
-Again, since $u^2, v^2$, or $\sigma x, \sigma y$, are incommensurable,
+Since :math:`\sigma(x+y), \sigma \cdot 2z` are medial and incommensurable, :math:`(x+y)` is rational and :math:`\smile \sigma`, :math:`2z` is rational and :math:`\smile \sigma`, and
 
-$$x \smile y.$$
+.. math::
+
+   (x+y) \smile 2z.
+
+Hence :math:`(x+y), 2z` are rational and :math:`\sim`, so that :math:`(x+y) - 2z` is an apotome.
+
+Again, since :math:`u^2, v^2`, or :math:`\sigma x, \sigma y`, are incommensurable,
+
+.. math::
+
+   x \smile y.
 
 And, as before,
 
-$$xy = z^2 = \frac{1}{4}(2z)^2.$$
+.. math::
+
+   xy = z^2 = \frac{1}{4}(2z)^2.
 
 Therefore [X. 18]
 
-$$\sqrt{(x+y)^2 - (2z)^2} \smile (x+y).$$
+.. math::
 
-And neither $(x+y)$ nor $2z$ is $\frown \sigma$; therefore $(x+y) - 2z$ is a :term:`*sixth apotome* <sixth-apotome>`.
+   \sqrt{(x+y)^2 - (2z)^2} \smile (x+y).
+
+And neither :math:`(x+y)` nor :math:`2z` is :math:`\frown \sigma`; therefore :math:`(x+y) - 2z` is a :term:`*sixth apotome* <sixth-apotome>`.
 
 It is of course
 
-$$\frac{\rho^2}{\sigma}\left(\sqrt{\lambda} - \frac{\sqrt{\lambda}}{\sqrt{1+k^2}}\right).$$
+.. math::
+
+   \frac{\rho^2}{\sigma}\left(\sqrt{\lambda} - \frac{\sqrt{\lambda}}{\sqrt{1+k^2}}\right).
+

@@ -14,7 +14,7 @@ Proposition 39 [λθ΄ · Prop. Prop. XLII] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.39 <D.39>` (**SSS** $\to$ species, via :just:`[I.22] <I.22>` & :just:`[I.8] <I.8>`);
+* :ref:`D.39 <D.39>` (**SSS** :math:`\to` species, via :just:`[I.22] <I.22>` & :just:`[I.8] <I.8>`);
 
 Textual & Critical Apparatus
 ----------------------------

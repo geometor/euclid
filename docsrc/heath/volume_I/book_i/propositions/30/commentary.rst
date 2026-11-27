@@ -19,19 +19,23 @@ Back to :ref:`Proposition I.30 <I.30>`.
 .. folio:: 0328
    :page: 314
 
-The proposition is, as :person:`De Morgan <de-morgan>` points out, the *logical equivalent* of "Playfair's" axiom. Thus, if $X$ denote "pairs of straight lines intersecting one
-another," $Y$ "pairs of straight lines parallel to one and the same straight line," we have
+The proposition is, as :person:`De Morgan <de-morgan>` points out, the *logical equivalent* of "Playfair's" axiom. Thus, if :math:`X` denote "pairs of straight lines intersecting one
+another," :math:`Y` "pairs of straight lines parallel to one and the same straight line," we have
 
 .. _folio-i-0329:
 
 .. folio:: 0329
    :page: 315
 
-$$\text{No } X \text{ is } Y,$$
+.. math::
+
+   \text{No } X \text{ is } Y,
 
 and it follows logically that
 
-$$\text{No } Y \text{ is } X.$$
+.. math::
+
+   \text{No } Y \text{ is } X.
 
 :person:`De Morgan <de-morgan>` adds that a proposition is much wanted about parallels (or perpendiculars) to two straight lines respectively making the same angles with one another as the latter do. The proposition may be enunciated thus:
 

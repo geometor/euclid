@@ -63,8 +63,8 @@ This locus was discussed by :person:`Apollonius <apollonius>` in his :cite:`*Pla
 
 *Given two points in a plane and a proportion between unequal straight lines, it is possible to describe a circle in the plane so that the straight lines inflected from the given points to the circumference of the circle shall have a ratio the same as the given one.*
 
-:person:`Apollonius <apollonius>`' construction, as given by :person:`Eutocius <eutocius>`, is remarkable because he makes no use of either of the points :g:`D <0205.g1:D>`, :g:`E <0205.g1:E>`. He finds :g:`O <0205.g1:O>`, the centre of the required circle, and the length of its radius directly from the data :g:`BC <0205.g1:/ B C />` and the given ratio which we will call $h : k$. But the construction was not discovered by :person:`Apollonius <apollonius>`; it belongs to a much earlier date, since it appears in exactly
-the same form in :person:`Aristotle <aristotle>`, :cite:`*Meteorologica* III. 5, 376 a 3 <aristotle:meteorologica:iii-5-376-a-3>` sqq. The analysis leading up to the construction is, as usual, not given either by :person:`Aristotle <aristotle>` or :person:`Eutocius <eutocius>`. We are told to take three straight lines $x$, :g:`CO <0205.g1:/ C O />` (a length measured along :g:`BC <0205.g1:/ B C />` produced beyond :g:`C <0205.g1:C>`, where :g:`B <0205.g1:B>`, :g:`C <0205.g1:C>` are the points at which the greater and smaller of the inflected lines respectively terminate), and $r$, such that, if $h : k$ be the given ratio and $h > k$,
+:person:`Apollonius <apollonius>`' construction, as given by :person:`Eutocius <eutocius>`, is remarkable because he makes no use of either of the points :g:`D <0205.g1:D>`, :g:`E <0205.g1:E>`. He finds :g:`O <0205.g1:O>`, the centre of the required circle, and the length of its radius directly from the data :g:`BC <0205.g1:/ B C />` and the given ratio which we will call :math:`h : k`. But the construction was not discovered by :person:`Apollonius <apollonius>`; it belongs to a much earlier date, since it appears in exactly
+the same form in :person:`Aristotle <aristotle>`, :cite:`*Meteorologica* III. 5, 376 a 3 <aristotle:meteorologica:iii-5-376-a-3>` sqq. The analysis leading up to the construction is, as usual, not given either by :person:`Aristotle <aristotle>` or :person:`Eutocius <eutocius>`. We are told to take three straight lines :math:`x`, :g:`CO <0205.g1:/ C O />` (a length measured along :g:`BC <0205.g1:/ B C />` produced beyond :g:`C <0205.g1:C>`, where :g:`B <0205.g1:B>`, :g:`C <0205.g1:C>` are the points at which the greater and smaller of the inflected lines respectively terminate), and :math:`r`, such that, if :math:`h : k` be the given ratio and :math:`h > k`,
 
 .. _folio-ii-0205:
 
@@ -73,20 +73,20 @@ the same form in :person:`Aristotle <aristotle>`, :cite:`*Meteorologica* III. 5,
 
 .. container:: center
 
-   $k : h = h : k + x$, $(\alpha)$ $x :$ :g:`BC <0205.g1:/ B C />` $= k :$ :g:`CO <0205.g1:/ C O />` $= h : r$. $(\beta)$
+   :math:`k : h = h : k + x`, :math:`(\alpha)` :math:`x :` :g:`BC <0205.g1:/ B C />` :math:`= k :` :g:`CO <0205.g1:/ C O />` :math:`= h : r`. :math:`(\beta)`
 
 .. picture:: 0205.g1.svg
    :alt: Apollonius Circle Construction Diagram
 
-This determines the position of :g:`O <0205.g1:O>`, and the length of $r$, the radius of the required circle. The circle is then drawn, any point :g:`P <0205.g1:P>` is taken on it and joined to :g:`B <0205.g1:B>`, :g:`C <0205.g1:C>` respectively, and it is proved that
+This determines the position of :g:`O <0205.g1:O>`, and the length of :math:`r`, the radius of the required circle. The circle is then drawn, any point :g:`P <0205.g1:P>` is taken on it and joined to :g:`B <0205.g1:B>`, :g:`C <0205.g1:C>` respectively, and it is proved that
 
 .. container:: center
 
-   :g:`PB <0205.g1:/ P B />` $:$ :g:`PC <0205.g1:/ P C />` $= h : k$.
+   :g:`PB <0205.g1:/ P B />` :math:`:` :g:`PC <0205.g1:/ P C />` :math:`= h : k`.
 
 We may conjecture that the analysis proceeded somewhat as follows.
 
-It would be seen that :g:`B <0205.g1:B>`, :g:`C <0205.g1:C>` are "conjugate points" with reference to the circle on :g:`DE <0205.g1:/ D E />` as diameter. (*Cf.* :person:`Apollonius <apollonius>`, :cite:`*Conics* <apollonius:conics>`, I. 36, where it is proved, in terms, for a circle as well as for an ellipse and a hyperbola, that, if the polar of :g:`B <0205.g1:B>` meets the diameter :g:`DE <0205.g1:/ D E />` in :g:`C <0205.g1:C>`, then :g:`EC <0205.g1:/ E C />` $:$ :g:`CD <0205.g1:/ C D />` $=$ :g:`EB <0205.g1:/ E B />` $:$ :g:`BD <0205.g1:/ B D />`.)
+It would be seen that :g:`B <0205.g1:B>`, :g:`C <0205.g1:C>` are "conjugate points" with reference to the circle on :g:`DE <0205.g1:/ D E />` as diameter. (*Cf.* :person:`Apollonius <apollonius>`, :cite:`*Conics* <apollonius:conics>`, I. 36, where it is proved, in terms, for a circle as well as for an ellipse and a hyperbola, that, if the polar of :g:`B <0205.g1:B>` meets the diameter :g:`DE <0205.g1:/ D E />` in :g:`C <0205.g1:C>`, then :g:`EC <0205.g1:/ E C />` :math:`:` :g:`CD <0205.g1:/ C D />` :math:`=` :g:`EB <0205.g1:/ E B />` :math:`:` :g:`BD <0205.g1:/ B D />`.)
 
 If :g:`O <0205.g1:O>` be the middle point of :g:`DE <0205.g1:/ D E />`, and therefore the centre of the circle, :g:`D <0205.g1:D>`, :g:`E <0205.g1:E>` may be eliminated, as in the :cite:`*Conics* <apollonius:conics>`, I. 37, thus.
 
@@ -94,50 +94,50 @@ Since
 
 .. container:: center
 
-   :g:`EC <0205.g1:/ E C />` $:$ :g:`CD <0205.g1:/ C D />` $=$ :g:`EB <0205.g1:/ E B />` $:$ :g:`BD <0205.g1:/ B D />`,
+   :g:`EC <0205.g1:/ E C />` :math:`:` :g:`CD <0205.g1:/ C D />` :math:`=` :g:`EB <0205.g1:/ E B />` :math:`:` :g:`BD <0205.g1:/ B D />`,
 
-it follows that :g:`EC <0205.g1:/ E C />` $+$ :g:`CD <0205.g1:/ C D />` $:$ :g:`EC <0205.g1:/ E C />` $\sim$ :g:`CD <0205.g1:/ C D />` $=$ :g:`EB <0205.g1:/ E B />` $+$ :g:`BD <0205.g1:/ B D />` $:$ :g:`EB <0205.g1:/ E B />` $\sim$ :g:`BD <0205.g1:/ B D />`,
+it follows that :g:`EC <0205.g1:/ E C />` :math:`+` :g:`CD <0205.g1:/ C D />` :math:`:` :g:`EC <0205.g1:/ E C />` :math:`\sim` :g:`CD <0205.g1:/ C D />` :math:`=` :g:`EB <0205.g1:/ E B />` :math:`+` :g:`BD <0205.g1:/ B D />` :math:`:` :g:`EB <0205.g1:/ E B />` :math:`\sim` :g:`BD <0205.g1:/ B D />`,
 or
 
 .. container:: center
 
-   $2$ :g:`OD <0205.g1:/ O D />` $: 2$ :g:`OC <0205.g1:/ O C />` $= 2$ :g:`OB <0205.g1:/ O B />` $: 2$ :g:`OD <0205.g1:/ O D />`,
+   :math:`2` :g:`OD <0205.g1:/ O D />` :math:`: 2` :g:`OC <0205.g1:/ O C />` :math:`= 2` :g:`OB <0205.g1:/ O B />` :math:`: 2` :g:`OD <0205.g1:/ O D />`,
 
 that is,
 
 .. container:: center
 
-   :g:`BO <0205.g1:/ B O />` $\cdot$ :g:`OC <0205.g1:/ O C />` $=$ :g:`OD^2 <0205.g1:/ O D />` $= r^2$, say.
+   :g:`BO <0205.g1:/ B O />` :math:`\cdot` :g:`OC <0205.g1:/ O C />` :math:`=` :g:`OD^2 <0205.g1:/ O D />` :math:`= r^2`, say.
 
-If therefore :g:`P <0205.g1:P>` be any point on the circle with centre :g:`O <0205.g1:O>` and radius $r$,
+If therefore :g:`P <0205.g1:P>` be any point on the circle with centre :g:`O <0205.g1:O>` and radius :math:`r`,
 
 .. container:: center
 
-   :g:`BO <0205.g1:/ B O />` $:$ :g:`OP <0205.g1:/ O P />` $=$ :g:`OP <0205.g1:/ O P />` $:$ :g:`OC <0205.g1:/ O C />`,
+   :g:`BO <0205.g1:/ B O />` :math:`:` :g:`OP <0205.g1:/ O P />` :math:`=` :g:`OP <0205.g1:/ O P />` :math:`:` :g:`OC <0205.g1:/ O C />`,
 
 so that :g:`BOP <0205.g1:< B O P >>`, :g:`POC <0205.g1:< P O C >>` are similar triangles.
 
-In addition, $h : k =$ :g:`BD <0205.g1:/ B D />` $:$ :g:`DC <0205.g1:/ D C />` $=$ :g:`BE <0205.g1:/ B E />` $:$ :g:`EC <0205.g1:/ E C />`
+In addition, :math:`h : k =` :g:`BD <0205.g1:/ B D />` :math:`:` :g:`DC <0205.g1:/ D C />` :math:`=` :g:`BE <0205.g1:/ B E />` :math:`:` :g:`EC <0205.g1:/ E C />`
 
 .. container:: center
 
-   $=$ :g:`BD <0205.g1:/ B D />` $+$ :g:`BE <0205.g1:/ B E />` $:$ :g:`DE <0205.g1:/ D E />` $=$ :g:`BO <0205.g1:/ B O />` $: r$.
+   :math:`=` :g:`BD <0205.g1:/ B D />` :math:`+` :g:`BE <0205.g1:/ B E />` :math:`:` :g:`DE <0205.g1:/ D E />` :math:`=` :g:`BO <0205.g1:/ B O />` :math:`: r`.
 
 Hence we require that
 
 .. container:: center
 
-   :g:`BO <0205.g1:/ B O />` $: r = r :$ :g:`OC <0205.g1:/ O C />` $=$ :g:`BP <0205.g1:/ B P />` $:$ :g:`PC <0205.g1:/ P C />` $= h : k$. $(\delta)$
+   :g:`BO <0205.g1:/ B O />` :math:`: r = r :` :g:`OC <0205.g1:/ O C />` :math:`=` :g:`BP <0205.g1:/ B P />` :math:`:` :g:`PC <0205.g1:/ P C />` :math:`= h : k`. :math:`(\delta)`
 
 Therefore, alternately,
 
 .. container:: center
 
-   $k :$ :g:`CO <0205.g1:/ C O />` $= h : r$,
+   :math:`k :` :g:`CO <0205.g1:/ C O />` :math:`= h : r`,
 
-which is the second relation in $(\beta)$ above.
+which is the second relation in :math:`(\beta)` above.
 
-Now assume a length $x$ such that each of the last ratios is equal to $x :$ :g:`BC <0205.g1:/ B C />`, as in $(\beta)$.
+Now assume a length :math:`x` such that each of the last ratios is equal to :math:`x :` :g:`BC <0205.g1:/ B C />`, as in :math:`(\beta)`.
 
 .. _folio-ii-0206:
 
@@ -162,11 +162,11 @@ and, alternately,
 
    x + k : h = :g:`BO <0205.g1:/ B O />` : r = h : k, from (\delta) above;
 
-and this is the relation $(\alpha)$ which remained to be found.
+and this is the relation :math:`(\alpha)` which remained to be found.
 
-:person:`Apollonius <apollonius>`' proof of the construction is given by :person:`Eutocius <eutocius>`, who begins by saying that it is manifest that $r$ is a mean proportional between :g:`BO <0205.g1:/ B O />` and :g:`OC <0205.g1:/ O C />`. This is seen as follows.
+:person:`Apollonius <apollonius>`' proof of the construction is given by :person:`Eutocius <eutocius>`, who begins by saying that it is manifest that :math:`r` is a mean proportional between :g:`BO <0205.g1:/ B O />` and :g:`OC <0205.g1:/ O C />`. This is seen as follows.
 
-From $(\beta)$ we derive
+From :math:`(\beta)` we derive
 
 .. container:: center
 

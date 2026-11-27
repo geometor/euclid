@@ -21,25 +21,25 @@ Back to :ref:`Proposition I.19 <I.19>`.
 
 This proposition, like I. 6, can be proved by merely *logical* deduction from I. 5 and I. 18 taken together, as pointed out by :person:`De Morgan <de-morgan>`. The general form of the argument used by :person:`De Morgan <de-morgan>` is given in his *Formal Logic* (1847), p. 25, thus:
 
-“*Hypothesis.* Let there be any number of propositions or assertions—three for instance, $X$, $Y$ and $Z$—of which it is the property that one or the other must be true, *and one only*. Let there be three other propositions $P$, $Q$ and $R$ of which it is also the property that one, and one only, must be true. Let it be a connexion of those assertions that:
+“*Hypothesis.* Let there be any number of propositions or assertions—three for instance, :math:`X`, :math:`Y` and :math:`Z`—of which it is the property that one or the other must be true, *and one only*. Let there be three other propositions :math:`P`, :math:`Q` and :math:`R` of which it is also the property that one, and one only, must be true. Let it be a connexion of those assertions that:
 
-$$
-\begin{aligned}
-&\text{when } X \text{ is true, } P \text{ is true,} \\
-&\text{when } Y \text{ is true, } Q \text{ is true,} \\
-&\text{when } Z \text{ is true, } R \text{ is true.}
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\text{when } X \text{ is true, } P \text{ is true,} \\
+   &\text{when } Y \text{ is true, } Q \text{ is true,} \\
+   &\text{when } Z \text{ is true, } R \text{ is true.}
+   \end{aligned}
 
 *Consequence:* then it follows that,
 
-$$
-\begin{aligned}
-&\text{when } P \text{ is true, } X \text{ is true,} \\
-&\text{when } Q \text{ is true, } Y \text{ is true,} \\
-&\text{when } R \text{ is true, } Z \text{ is true.”}
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\text{when } P \text{ is true, } X \text{ is true,} \\
+   &\text{when } Q \text{ is true, } Y \text{ is true,} \\
+   &\text{when } R \text{ is true, } Z \text{ is true.”}
+   \end{aligned}
 
 .. _folio-i-0299:
 
@@ -50,31 +50,31 @@ To apply this to the case before us, let us denote the sides of the triangle :g:
 
 Then we have the three propositions,
 
-$$
-\begin{aligned}
-&\text{when } b \text{ is equal to } c\text{, } B \text{ is equal to } C\text{,} & [\textbf{I. } 5] \\
-&\left.
-\begin{aligned}
-&\text{when } b \text{ is greater than } c\text{, } B \text{ is greater than } C\text{,} \\
-&\text{when } b \text{ is less than } c\text{, } B \text{ is less than } C\text{,}
-\end{aligned}
-\right\} & [\textbf{I. } 18]
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\text{when } b \text{ is equal to } c\text{, } B \text{ is equal to } C\text{,} & [\textbf{I. } 5] \\
+   &\left.
+   \begin{aligned}
+   &\text{when } b \text{ is greater than } c\text{, } B \text{ is greater than } C\text{,} \\
+   &\text{when } b \text{ is less than } c\text{, } B \text{ is less than } C\text{,}
+   \end{aligned}
+   \right\} & [\textbf{I. } 18]
+   \end{aligned}
 
 and it follows logically that,
 
-$$
-\begin{aligned}
-&\text{when } B \text{ is equal to } C\text{, } b \text{ is equal to } c\text{,} & [\textbf{I. } 6] \\
-&\left.
-\begin{aligned}
-&\text{when } B \text{ is greater than } C\text{, } b \text{ is greater than } c\text{,} \\
-&\text{when } B \text{ is less than } C\text{, } b \text{ is less than } c\text{.}
-\end{aligned}
-\right\} & [\textbf{I. } 19]
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   &\text{when } B \text{ is equal to } C\text{, } b \text{ is equal to } c\text{,} & [\textbf{I. } 6] \\
+   &\left.
+   \begin{aligned}
+   &\text{when } B \text{ is greater than } C\text{, } b \text{ is greater than } c\text{,} \\
+   &\text{when } B \text{ is less than } C\text{, } b \text{ is less than } c\text{.}
+   \end{aligned}
+   \right\} & [\textbf{I. } 19]
+   \end{aligned}
 
 **Reductio ad absurdum by exhaustion.** Here, says :person:`Proclus <proclus>` (:cite:`p. 318, 16—23 <proclus:in-euclid:318.16-23>`), :person:`Euclid <euclid>` proves the impossibility “by means of division” (ἐκ διαιρέσεως). This means simply the separation of different hypotheses, each of which is inconsistent with the truth of the theorem to be proved, and which therefore must be successively shown to be impossible. If a straight line is not greater than a straight line, it must be either equal to it or less; thus in a *reductio ad absurdum* intended to prove such a theorem as I. 19 it is necessary to dispose successively of *two* hypotheses inconsistent with the truth of the theorem.
 

@@ -76,38 +76,40 @@ The proof is in three parts, the object of which is to prove
 
 (2) that it is inscribable in a sphere of diameter equal to :g:`AB <0472.g1:/ A B />`,
 
-(3) that :g:`AB <0472.g1:/ A B />` $^2 = \frac{3}{2}$ :g:`AD <0472.g1:/ A D />` $^2$.
+(3) that :g:`AB <0472.g1:/ A B />` :math:`^2 = \frac{3}{2}` :g:`AD <0472.g1:/ A D />` :math:`^2`.
 
 To prove (1) we have to show
 
-(a) that :g:`KE <0472.g1:/ K E />` $= $ :g:`KF <0472.g1:/ K F />` $= $ :g:`KG <0472.g1:/ K G />` $= $ :g:`AD <0472.g1:/ A D />`,
+(a) that :g:`KE <0472.g1:/ K E />` :math:`=` :g:`KF <0472.g1:/ K F />` :math:`=` :g:`KG <0472.g1:/ K G />` :math:`=` :g:`AD <0472.g1:/ A D />`,
 
-(b) that :g:`AD <0472.g1:/ A D />` $= $ :g:`EF <0472.g1:/ E F />`.
+(b) that :g:`AD <0472.g1:/ A D />` :math:`=` :g:`EF <0472.g1:/ E F />`.
 
-(a) Since :g:`HE <0472.g1:/ H E />` $= $ :g:`HF <0472.g1:/ H F />` $= $ :g:`HG <0472.g1:/ H G />` $= $ :g:`CD <0472.g1:/ C D />`, :g:`KH <0472.g1:/ K H />` $= $ :g:`AC <0472.g1:/ A C />`, and $\angle\text{s}$ :g:`ACD <0472.g1:< A C D )>`, :g:`KHE <0472.g1:< K H E )>`, :g:`KHF <0472.g1:< K H F )>`, :g:`KHG <0472.g1:< K H G )>` are :eq:`right <0472.g1:< A C D ) = 0472.g1:< K H E ) = 0472.g1:< K H F ) = 0472.g1:< K H G )>`, $\Delta\text{s}$ :g:`ACD <0472.g1:< A C D >>`, :g:`KHE <0472.g1:< K H E >>`, :g:`KHF <0472.g1:< K H F >>`, :g:`KHG <0472.g1:< K H G >>` are :eq:`equal <0472.g1:< A C D > = 0472.g1:< K H E > = 0472.g1:< K H F > = 0472.g1:< K H G >>` in all respects; therefore :g:`KE <0472.g1:/ K E />` $= $ :g:`KF <0472.g1:/ K F />` $= $ :g:`KG <0472.g1:/ K G />` $= $ :g:`AD <0472.g1:/ A D />`.
+(a) Since :g:`HE <0472.g1:/ H E />` :math:`=` :g:`HF <0472.g1:/ H F />` :math:`=` :g:`HG <0472.g1:/ H G />` :math:`=` :g:`CD <0472.g1:/ C D />`, :g:`KH <0472.g1:/ K H />` :math:`=` :g:`AC <0472.g1:/ A C />`, and :math:`\angle\text{s}` :g:`ACD <0472.g1:< A C D )>`, :g:`KHE <0472.g1:< K H E )>`, :g:`KHF <0472.g1:< K H F )>`, :g:`KHG <0472.g1:< K H G )>` are :eq:`right <0472.g1:< A C D ) = 0472.g1:< K H E ) = 0472.g1:< K H F ) = 0472.g1:< K H G )>`, :math:`\Delta\text{s}` :g:`ACD <0472.g1:< A C D >>`, :g:`KHE <0472.g1:< K H E >>`, :g:`KHF <0472.g1:< K H F >>`, :g:`KHG <0472.g1:< K H G >>` are :eq:`equal <0472.g1:< A C D > = 0472.g1:< K H E > = 0472.g1:< K H F > = 0472.g1:< K H G >>` in all respects; therefore :g:`KE <0472.g1:/ K E />` :math:`=` :g:`KF <0472.g1:/ K F />` :math:`=` :g:`KG <0472.g1:/ K G />` :math:`=` :g:`AD <0472.g1:/ A D />`.
 
-(b) Since :g:`AB <0472.g1:/ A B />` $= 3$ :g:`BC <0472.g1:/ B C />`, and :g:`AB <0472.g1:/ A B />` $:$ :g:`BC <0472.g1:/ B C />` $= $ :g:`AB <0472.g1:/ A B />` $\cdot$ :g:`AC <0472.g1:/ A C />` $:$ :g:`AC <0472.g1:/ A C />` $\cdot$ :g:`CB <0472.g1:/ C B />` $= $ :g:`AD <0472.g1:/ A D />` $^2 : $ :g:`CD <0472.g1:/ C D />` $^2$, it follows that :g:`AD <0472.g1:/ A D />` $^2 = 3$ :g:`CD <0472.g1:/ C D />` $^2$. But [XIII. 12] :g:`EF <0472.g1:/ E F />` $^2 = 3$ :g:`EH <0472.g1:/ E H />` $^2$; and :g:`EH <0472.g1:/ E H />` $= $ :g:`CD <0472.g1:/ C D />`, by construction
+(b) Since :g:`AB <0472.g1:/ A B />` :math:`= 3` :g:`BC <0472.g1:/ B C />`, and :g:`AB <0472.g1:/ A B />` :math:`:` :g:`BC <0472.g1:/ B C />` :math:`=` :g:`AB <0472.g1:/ A B />` :math:`\cdot` :g:`AC <0472.g1:/ A C />` :math:`:` :g:`AC <0472.g1:/ A C />` :math:`\cdot` :g:`CB <0472.g1:/ C B />` :math:`=` :g:`AD <0472.g1:/ A D />` :math:`^2 :` :g:`CD <0472.g1:/ C D />` :math:`^2`, it follows that :g:`AD <0472.g1:/ A D />` :math:`^2 = 3` :g:`CD <0472.g1:/ C D />` :math:`^2`. But [XIII. 12] :g:`EF <0472.g1:/ E F />` :math:`^2 = 3` :g:`EH <0472.g1:/ E H />` :math:`^2`; and :g:`EH <0472.g1:/ E H />` :math:`=` :g:`CD <0472.g1:/ C D />`, by construction
 
 .. _folio-iii-0476:
 
 .. folio:: 0476
    :page: 472
 
-Therefore :g:`AD <0472.g1:/ A D />` $= $ :g:`EF <0472.g1:/ E F />`. Thus :g:`EFGK <0472.g1:< E F G K >>` is a regular tetrahedron.
+Therefore :g:`AD <0472.g1:/ A D />` :math:`=` :g:`EF <0472.g1:/ E F />`. Thus :g:`EFGK <0472.g1:< E F G K >>` is a regular tetrahedron.
 
 (2) We now observe the usefulness of Euclid’s description of a sphere [in XI. Def. 14].
 
-Producing :g:`KH <0472.g1:/ K H />` ($= $ :g:`AC <0472.g1:/ A C />`) to :g:`L <0472.g1:L>` so that :g:`HL <0472.g1:/ H L />` $= $ :g:`CB <0472.g1:/ C B />`, we have :g:`KL <0472.g1:/ K L />` :eq:`equal <0472.g1:/ K L / = 0472.g1:/ A B />` to :g:`AB <0472.g1:/ A B />`; thus :g:`KL <0472.g1:/ K L />` is a diameter of the sphere which should circumscribe our tetrahedron, and we have only to prove that :g:`E <0472.g1:E>`, :g:`F <0472.g1:F>`, :g:`G <0472.g1:G>` lie on semicircles described on :g:`KL <0472.g1:/ K L />` as diameter.
+Producing :g:`KH <0472.g1:/ K H />` (:math:`=` :g:`AC <0472.g1:/ A C />`) to :g:`L <0472.g1:L>` so that :g:`HL <0472.g1:/ H L />` :math:`=` :g:`CB <0472.g1:/ C B />`, we have :g:`KL <0472.g1:/ K L />` :eq:`equal <0472.g1:/ K L / = 0472.g1:/ A B />` to :g:`AB <0472.g1:/ A B />`; thus :g:`KL <0472.g1:/ K L />` is a diameter of the sphere which should circumscribe our tetrahedron, and we have only to prove that :g:`E <0472.g1:E>`, :g:`F <0472.g1:F>`, :g:`G <0472.g1:G>` lie on semicircles described on :g:`KL <0472.g1:/ K L />` as diameter.
 
-E.g. for the point :g:`E <0472.g1:E>`, since :g:`AC <0472.g1:/ A C />` $:$ :g:`CD <0472.g1:/ C D />` $= $ :g:`CD <0472.g1:/ C D />` $:$ :g:`CB <0472.g1:/ C B />`, while :g:`AC <0472.g1:/ A C />` $= $ :g:`KH <0472.g1:/ K H />`, :g:`CD <0472.g1:/ C D />` $= $ :g:`HE <0472.g1:/ H E />`, :g:`CB <0472.g1:/ C B />` $= $ :g:`HL <0472.g1:/ H L />`, we have :g:`KH <0472.g1:/ K H />` $:$ :g:`HE <0472.g1:/ H E />` $= $ :g:`HE <0472.g1:/ H E />` $:$ :g:`HL <0472.g1:/ H L />`, or :g:`KH <0472.g1:/ K H />` $\cdot$ :g:`HL <0472.g1:/ H L />` $= $ :g:`HE <0472.g1:/ H E />` $^2$, whence, the angles :g:`KHE <0472.g1:< K H E )>`, :g:`EHL <0472.g1:< E H L )>` being :eq:`right <0472.g1:< K H E ) = 0472.g1:< E H L )>`, :g:`EKL <0472.g1:< E K L >>` is a triangle right-angled at :g:`E <0472.g1:E>` [cf. VI. 8].
+E.g. for the point :g:`E <0472.g1:E>`, since :g:`AC <0472.g1:/ A C />` :math:`:` :g:`CD <0472.g1:/ C D />` :math:`=` :g:`CD <0472.g1:/ C D />` :math:`:` :g:`CB <0472.g1:/ C B />`, while :g:`AC <0472.g1:/ A C />` :math:`=` :g:`KH <0472.g1:/ K H />`, :g:`CD <0472.g1:/ C D />` :math:`=` :g:`HE <0472.g1:/ H E />`, :g:`CB <0472.g1:/ C B />` :math:`=` :g:`HL <0472.g1:/ H L />`, we have :g:`KH <0472.g1:/ K H />` :math:`:` :g:`HE <0472.g1:/ H E />` :math:`=` :g:`HE <0472.g1:/ H E />` :math:`:` :g:`HL <0472.g1:/ H L />`, or :g:`KH <0472.g1:/ K H />` :math:`\cdot` :g:`HL <0472.g1:/ H L />` :math:`=` :g:`HE <0472.g1:/ H E />` :math:`^2`, whence, the angles :g:`KHE <0472.g1:< K H E )>`, :g:`EHL <0472.g1:< E H L )>` being :eq:`right <0472.g1:< K H E ) = 0472.g1:< E H L )>`, :g:`EKL <0472.g1:< E K L >>` is a triangle right-angled at :g:`E <0472.g1:E>` [cf. VI. 8].
 
 Hence :g:`E <0472.g1:E>` lies on a semicircle on :g:`KL <0472.g1:/ K L />` as diameter. Similarly for :g:`F <0472.g1:F>`, :g:`G <0472.g1:G>`. Thus a semicircle on :g:`KL <0472.g1:/ K L />` as diameter revolving round :g:`KL <0472.g1:/ K L />` passes successively through :g:`E <0472.g1:E>`, :g:`F <0472.g1:F>`, :g:`G <0472.g1:G>`.
 
-(3) :g:`AB <0472.g1:/ A B />` $= 3$ :g:`BC <0472.g1:/ B C />`; therefore :g:`BA <0472.g1:/ B A />` $= \frac{3}{2}$ :g:`AC <0472.g1:/ A C />`. And :g:`BA <0472.g1:/ B A />` $:$ :g:`AC <0472.g1:/ A C />` $= $ :g:`BA <0472.g1:/ B A />` $^2 : $ :g:`BA <0472.g1:/ B A />` $\cdot$ :g:`AC <0472.g1:/ A C />` $= $ :g:`BA <0472.g1:/ B A />` $^2 : $ :g:`AD <0472.g1:/ A D />` $^2$. Therefore :g:`BA <0472.g1:/ B A />` $^2 = \frac{3}{2}$ :g:`AD <0472.g1:/ A D />` $^2$.
+(3) :g:`AB <0472.g1:/ A B />` :math:`= 3` :g:`BC <0472.g1:/ B C />`; therefore :g:`BA <0472.g1:/ B A />` :math:`= \frac{3}{2}` :g:`AC <0472.g1:/ A C />`. And :g:`BA <0472.g1:/ B A />` :math:`:` :g:`AC <0472.g1:/ A C />` :math:`=` :g:`BA <0472.g1:/ B A />` :math:`^2 :` :g:`BA <0472.g1:/ B A />` :math:`\cdot` :g:`AC <0472.g1:/ A C />` :math:`=` :g:`BA <0472.g1:/ B A />` :math:`^2 :` :g:`AD <0472.g1:/ A D />` :math:`^2`. Therefore :g:`BA <0472.g1:/ B A />` :math:`^2 = \frac{3}{2}` :g:`AD <0472.g1:/ A D />` :math:`^2`.
 
-If $r$ be the radius of the circumscribed sphere,
+If :math:`r` be the radius of the circumscribed sphere,
 
-$$\text{(edge of tetrahedron)} = \frac{2\sqrt{2}}{\sqrt{3}}\cdot r = \frac{2}{3}\sqrt{6}\cdot r.$$
+.. math::
+
+   \text{(edge of tetrahedron)} = \frac{2\sqrt{2}}{\sqrt{3}}\cdot r = \frac{2}{3}\sqrt{6}\cdot r.
 
 It will be observed that, although in these cases Euclid’s construction is equivalent to inscribing the particular regular solid in a given sphere, he does not actually construct the solid in the sphere but constructs a solid which a sphere *equal* to the given sphere will circumscribe. :person:`Pappus <pappus>`, on the other hand, in dealing with the same problems, actually constructs the respective solids in the given spheres. His method is to find circular sections in the given spheres containing a certain number of the angular points of the given solids. His solutions are interesting, although they require a knowledge of some properties of a sphere which are of course not found in the :cite:`*Elements* <euclid:elements>` but belonged to treatises such as the :cite:`*Sphaerica* <theodosius:sphaerica>` of :person:`Theodosius <theodosius>`.
 
@@ -139,21 +141,23 @@ Through the centre :g:`K <0477.g1:K>` of that circular section, and in the plane
 
 :g:`BM <0477.g1:/ B M />` is then perpendicular to :g:`AB <0477.g1:/ A B />`, :g:`LM <0477.g1:/ L M />`, and :g:`LB <0477.g1:/ L B />` is a diameter of the sphere. Join :g:`MC <0477.g1:/ M C />`.
 
-Then :g:`LM <0477.g1:/ L M />` $^2 = 2$ :g:`MC <0477.g1:/ M C />` $^2$, and :g:`BC <0477.g1:/ B C />` $= $ :g:`AB <0477.g1:/ A B />` $= $ :g:`LM <0477.g1:/ L M />`, so that :g:`BC <0477.g1:/ B C />` $^2 = 2$ :g:`MC <0477.g1:/ M C />` $^2$.
+Then :g:`LM <0477.g1:/ L M />` :math:`^2 = 2` :g:`MC <0477.g1:/ M C />` :math:`^2`, and :g:`BC <0477.g1:/ B C />` :math:`=` :g:`AB <0477.g1:/ A B />` :math:`=` :g:`LM <0477.g1:/ L M />`, so that :g:`BC <0477.g1:/ B C />` :math:`^2 = 2` :g:`MC <0477.g1:/ M C />` :math:`^2`.
 
-And :g:`BM <0477.g1:/ B M />`, being perpendicular to the plane of the circle :g:`LM <0477.g1:( L M )>`, is perpendicular to :g:`CM <0477.g1:/ C M />`, whence :g:`BC <0477.g1:/ B C />` $^2 = $ :g:`BM <0477.g1:/ B M />` $^2 + $ :g:`MC <0477.g1:/ M C />` $^2$, so that :g:`BM <0477.g1:/ B M />` $= $ :g:`MC <0477.g1:/ M C />`. But :g:`BC <0477.g1:/ B C />` $= $ :g:`LM <0477.g1:/ L M />`; therefore :g:`LM <0477.g1:/ L M />` $^2 = 2$ :g:`BM <0477.g1:/ B M />` $^2$.
+And :g:`BM <0477.g1:/ B M />`, being perpendicular to the plane of the circle :g:`LM <0477.g1:( L M )>`, is perpendicular to :g:`CM <0477.g1:/ C M />`, whence :g:`BC <0477.g1:/ B C />` :math:`^2 =` :g:`BM <0477.g1:/ B M />` :math:`^2 +` :g:`MC <0477.g1:/ M C />` :math:`^2`, so that :g:`BM <0477.g1:/ B M />` :math:`=` :g:`MC <0477.g1:/ M C />`. But :g:`BC <0477.g1:/ B C />` :math:`=` :g:`LM <0477.g1:/ L M />`; therefore :g:`LM <0477.g1:/ L M />` :math:`^2 = 2` :g:`BM <0477.g1:/ B M />` :math:`^2`.
 
-And, since the angle :g:`LMB <0477.g1:< L M B )>` is right, :g:`BL <0477.g1:/ B L />` $^2 = $ :g:`LM <0477.g1:/ L M />` $^2 + $ :g:`MB <0477.g1:/ M B />` $^2 = \frac{3}{2}$ :g:`LM <0477.g1:/ L M />` $^2$.
+And, since the angle :g:`LMB <0477.g1:< L M B )>` is right, :g:`BL <0477.g1:/ B L />` :math:`^2 =` :g:`LM <0477.g1:/ L M />` :math:`^2 +` :g:`MB <0477.g1:/ M B />` :math:`^2 = \frac{3}{2}` :g:`LM <0477.g1:/ L M />` :math:`^2`.
 
 *Synthesis.*
 
-Draw two parallel circular sections of the sphere with diameter $d'$, such that
+Draw two parallel circular sections of the sphere with diameter :math:`d'`, such that
 
-$$d'^2 = \frac{2}{3}d^2,$$
+.. math::
 
-where $d$ is the diameter of the sphere.
+   d'^2 = \frac{2}{3}d^2,
 
-[This is easily done by dividing :g:`BL <0477.g1:/ B L />`, any diameter of the sphere, at :g:`P <0477.g1:P>`, so that :g:`LP <0477.g1:/ L P />` $= 2$ :g:`PB <0477.g1:/ P B />`, and then drawing :g:`PM <0477.g1:/ P M />` at right angles to :g:`LB <0477.g1:/ L B />` meeting the great circle :g:`LMB <0477.g1:( L M B )>` of the sphere in :g:`M <0477.g1:M>`. Then :g:`LM <0477.g1:/ L M />` $^2 : $ :g:`LB <0477.g1:/ L B />` $^2 = $ :g:`LP <0477.g1:/ L P />` $:$ :g:`LB <0477.g1:/ L B />` $= 2 : 3$.]
+where :math:`d` is the diameter of the sphere.
+
+[This is easily done by dividing :g:`BL <0477.g1:/ B L />`, any diameter of the sphere, at :g:`P <0477.g1:P>`, so that :g:`LP <0477.g1:/ L P />` :math:`= 2` :g:`PB <0477.g1:/ P B />`, and then drawing :g:`PM <0477.g1:/ P M />` at right angles to :g:`LB <0477.g1:/ L B />` meeting the great circle :g:`LMB <0477.g1:( L M B )>` of the sphere in :g:`M <0477.g1:M>`. Then :g:`LM <0477.g1:/ L M />` :math:`^2 :` :g:`LB <0477.g1:/ L B />` :math:`^2 =` :g:`LP <0477.g1:/ L P />` :math:`:` :g:`LB <0477.g1:/ L B />` :math:`= 2 : 3`.]
 
 Draw sections through :g:`M <0477.g1:M>`, :g:`B <0477.g1:B>` perpendicular to :g:`MB <0477.g1:/ M B />`, and in these sections respectively draw the parallel diameters :g:`LM <0477.g1:/ L M />`, :g:`AB <0477.g1:/ A B />`.
 

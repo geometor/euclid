@@ -19,13 +19,13 @@ Back to :ref:`Proposition VII.10 <VII.10>`.
 .. folio:: 0317
    :page: 311
 
-If $a = \frac{m}{n} b$ and $c = \frac{m}{n} d$, then, whatever fraction $a$ is of $c$, the same fraction is $b$ of $d$.
+If :math:`a = \frac{m}{n} b` and :math:`c = \frac{m}{n} d`, then, whatever fraction :math:`a` is of :math:`c`, the same fraction is :math:`b` of :math:`d`.
 
-To prove this, $a$ is divided into its $m$ parts equal to $b/n$, and $c$ into its $m$ parts equal to $d/n$.
+To prove this, :math:`a` is divided into its :math:`m` parts equal to :math:`b/n`, and :math:`c` into its :math:`m` parts equal to :math:`d/n`.
 
-Then, by VII. 9, whatever fraction one of the $m$ parts of $a$ is of one of the $m$ parts of $c$, the same fraction is $b$ of $d$.
+Then, by VII. 9, whatever fraction one of the :math:`m` parts of :math:`a` is of one of the :math:`m` parts of :math:`c`, the same fraction is :math:`b` of :math:`d`.
 
-And, by VII. 5, 6, whatever fraction one of the $m$ parts of $a$ is of one of the $m$ parts of $c$, the same fraction is the sum of the parts of $a$ (that is, $a$) of the sum of the parts of $c$ (that is, $c$).
+And, by VII. 5, 6, whatever fraction one of the :math:`m` parts of :math:`a` is of one of the :math:`m` parts of :math:`c`, the same fraction is the sum of the parts of :math:`a` (that is, :math:`a`) of the sum of the parts of :math:`c` (that is, :math:`c`).
 
 Whence the result follows.
 

@@ -44,7 +44,7 @@ Again, when the proposition III. 12 is once proved, III. 8 helps us to prove at 
 
 Among :person:`Pappus <pappus>`' lemmas to :person:`Apollonius <apollonius>`' :cite:`*Tactiones* <apollonius:tactiones>` are the two partial converses of this proposition corresponding to those given in the last note. Lemma 4 (VII. p. 824) is to the effect that, *if* :g:`AB <0035.g1:/ A B />`, :g:`AC <0035.g1:/ A C />` *be in one straight line*, :g:`B <0035.g1:B>` *and* :g:`C <0035.g1:C>` *being on opposite sides of* :g:`A <0035.g1:A>`, *the circles drawn on* :g:`AB <0035.g1:/ A B />`, :g:`AC <0035.g1:/ A C />` *as diameters touch externally at* :g:`A <0035.g1:A>`. Lemma 3 (VII. p. 822) states that, *if two circles touch externally at* :g:`A <0035.g1:A>` *and* :g:`BAC <0035.g1:[ B A C ]>` *is drawn through* :g:`A <0035.g1:A>` *cutting both circles and containing the centre of one*, :g:`BAC <0035.g1:[ B A C ]>` *will also contain the centre of the other*. The proofs, as before, use the common tangent at :g:`A <0035.g1:A>`.
 
-Mr H. M. Taylor gets over the difficulties involved by III. 11, 12 in a manner which is most ingenious but not Euclidean. He first proves that, *if two circles meet at a point not in the same straight line with their centres, the circles intersect at that point*; this is very easily established by means of III. 7, 8 and the third similar theorem. Then he gives as a corollary the statement that, *if two circles touch, the point of contact is in the same straight line with their centres*. It is not explained how this is inferred from the substantive proposition; it seems, however, to be a *logical* inference simply. By the proposition, every $A$ (circles meeting at a point not in the same straight line with the centre) is $B$ (circles which intersect); therefore every not-$B$ is not-$A$, i.e. circles which do not intersect do not meet at a point not in the same straight line with the centres. Now non-intersecting circles may either meet (i.e. touch) or not meet. In the former case they must meet *on* the line of centres: for, if they met at a point not in that line, they would intersect. But such a purely *logical* inference is foreign to Euclid's manner. As :person:`De Morgan <de-morgan>` says, "Euclid may have been ignorant of the identity of 'Every $X$ is $Y$' and 'Every not-$Y$ is not-$X$,' for anything that appears in his writings; he makes the one follow from the other by a new proof each time" (quoted in Keynes' :cite:`*Formal Logic* <de-morgan:formal-logic>`, p. 81).
+Mr H. M. Taylor gets over the difficulties involved by III. 11, 12 in a manner which is most ingenious but not Euclidean. He first proves that, *if two circles meet at a point not in the same straight line with their centres, the circles intersect at that point*; this is very easily established by means of III. 7, 8 and the third similar theorem. Then he gives as a corollary the statement that, *if two circles touch, the point of contact is in the same straight line with their centres*. It is not explained how this is inferred from the substantive proposition; it seems, however, to be a *logical* inference simply. By the proposition, every :math:`A` (circles meeting at a point not in the same straight line with the centre) is :math:`B` (circles which intersect); therefore every not-:math:`B` is not-:math:`A`, i.e. circles which do not intersect do not meet at a point not in the same straight line with the centres. Now non-intersecting circles may either meet (i.e. touch) or not meet. In the former case they must meet *on* the line of centres: for, if they met at a point not in that line, they would intersect. But such a purely *logical* inference is foreign to Euclid's manner. As :person:`De Morgan <de-morgan>` says, "Euclid may have been ignorant of the identity of 'Every :math:`X` is :math:`Y`' and 'Every not-:math:`Y` is not-:math:`X`,' for anything that appears in his writings; he makes the one follow from the other by a new proof each time" (quoted in Keynes' :cite:`*Formal Logic* <de-morgan:formal-logic>`, p. 81).
 
 There is no difficulty in proving, by means of I. 20, Mr Taylor's next proposition that, *if two circles meet at a point which lies in the same straight line as their centres and is between the centres, the circles touch at that point, and each circle lies without the other*. But the similar proof, by means of I. 20, of the corresponding theorem for internal contact seems to be open to the same objection as Euclid's proof of III. 11 in that it assumes without proof that the circle which has its centre nearest to the point of meeting is the "inner" circle. Lastly, in order to prove that, *if two circles have a point of contact, they*
 *do not meet at any other point*, Mr Taylor uses the questionable corollary. Therefore in any case his alternative procedure does not seem preferable to Euclid's.
@@ -60,16 +60,16 @@ The alternative to Eucl. III. 11—13 which finds most favour in modern continen
 
 Let :g:`O <0036.g1:O>`, :g:`O' <0036.g1:O'>` be the centres of the circles (which we will call "the circles :g:`O <0036.g1:( O A )>`, :g:`O' <0036.g1:( O' A' )>`"), :g:`r <0036.g1:/ O A />`, :g:`r' <0036.g1:/ O' A' />` their radii respectively.
 
-Since then :g:`OO' <0036.g1:/ O O' />` $>$ :g:`r <0036.g1:/ O A />` $+$ :g:`r' <0036.g1:/ O' A' />`, :term:`*a fortiori* <a-fortiori>` :g:`OO' <0036.g1:/ O O' />` $>$ :g:`r <0036.g1:/ O A />`, and :g:`O' <0036.g1:O'>` is therefore exterior to the circle :g:`O <0036.g1:( O A )>`.
+Since then :g:`OO' <0036.g1:/ O O' />` :math:`>` :g:`r <0036.g1:/ O A />` :math:`+` :g:`r' <0036.g1:/ O' A' />`, :term:`*a fortiori* <a-fortiori>` :g:`OO' <0036.g1:/ O O' />` :math:`>` :g:`r <0036.g1:/ O A />`, and :g:`O' <0036.g1:O'>` is therefore exterior to the circle :g:`O <0036.g1:( O A )>`.
 
-Next, the circumference of the circle :g:`O <0036.g1:( O A )>` intersects :g:`OO' <0036.g1:/ O O' />` in a point :g:`A <0036.g1:A>`, and since :g:`OO' <0036.g1:/ O O' />` $>$ :g:`r <0036.g1:/ O A />` $+$ :g:`r' <0036.g1:/ O' A' />`, :g:`AO' <0036.g1:/ A O' />` $>$ :g:`r' <0036.g1:/ O' A' />`, and :g:`A <0036.g1:A>` is external to the circle :g:`O' <0036.g1:( O' A' )>`.
+Next, the circumference of the circle :g:`O <0036.g1:( O A )>` intersects :g:`OO' <0036.g1:/ O O' />` in a point :g:`A <0036.g1:A>`, and since :g:`OO' <0036.g1:/ O O' />` :math:`>` :g:`r <0036.g1:/ O A />` :math:`+` :g:`r' <0036.g1:/ O' A' />`, :g:`AO' <0036.g1:/ A O' />` :math:`>` :g:`r' <0036.g1:/ O' A' />`, and :g:`A <0036.g1:A>` is external to the circle :g:`O' <0036.g1:( O' A' )>`.
 
 .. picture:: 0036.g1.svg
    :alt: Commentary diagram for two external circles
 
 But :g:`O'A <0036.g1:/ O' A />` is less than any straight line, as :g:`O'B <0036.g1:/ O' B />`, drawn to the circumference of the circle :g:`O <0036.g1:( O A )>` [III. 8]; hence all points, as :g:`B <0036.g1:B>`, on the circumference of the circle :g:`O <0036.g1:( O A )>` are external to the circle :g:`O' <0036.g1:( O' A' )>`.
 
-Lastly, if :g:`C <0036.g1:C>` be any point internal to the circle :g:`O <0036.g1:( O A )>`, the sum of :g:`OC <0036.g1:/ O C />`, :g:`O'C <0036.g1:/ O' C />` is greater than :g:`O'O <0036.g1:/ O' O />`, and :term:`*a fortiori* <a-fortiori>` greater than :g:`r <0036.g1:/ O A />` $+$ :g:`r' <0036.g1:/ O' A' />`.
+Lastly, if :g:`C <0036.g1:C>` be any point internal to the circle :g:`O <0036.g1:( O A )>`, the sum of :g:`OC <0036.g1:/ O C />`, :g:`O'C <0036.g1:/ O' C />` is greater than :g:`O'O <0036.g1:/ O' O />`, and :term:`*a fortiori* <a-fortiori>` greater than :g:`r <0036.g1:/ O A />` :math:`+` :g:`r' <0036.g1:/ O' A' />`.
 
 But :g:`OC <0036.g1:/ O C />` is less than :g:`r <0036.g1:/ O A />`: therefore :g:`O'C <0036.g1:/ O' C />` is greater than :g:`r' <0036.g1:/ O' A' />`, or :g:`C <0036.g1:C>` is external to :g:`O <0036.g1:( O A )>`.
 
@@ -77,9 +77,9 @@ Similarly we prove that any point on or within the circumference of the circle :
 
 2. *If the distance between the centres of two unequal circles is less than the difference of the radii, the two circumferences have no common point and the lesser circle is entirely within the greater.*
 
-Let :g:`O <0036.g2:O>`, :g:`O' <0036.g2:O'>` be the centres of the two circles, :g:`r <0036.g2:/ O A />`, :g:`r' <0036.g2:/ O' A' />` their radii respectively (:g:`r <0036.g2:/ O A />` $<$ :g:`r' <0036.g2:/ O' A' />`).
+Let :g:`O <0036.g2:O>`, :g:`O' <0036.g2:O'>` be the centres of the two circles, :g:`r <0036.g2:/ O A />`, :g:`r' <0036.g2:/ O' A' />` their radii respectively (:g:`r <0036.g2:/ O A />` :math:`<` :g:`r' <0036.g2:/ O' A' />`).
 
-Since :g:`OO' <0036.g2:/ O O' />` $<$ :g:`r' <0036.g2:/ O' A' />` $-$ :g:`r <0036.g2:/ O A />`, :term:`*a fortiori* <a-fortiori>` :g:`OO' <0036.g2:/ O O' />` $<$ :g:`r' <0036.g2:/ O' A' />`, so that :g:`O <0036.g2:O>` is internal to the circle :g:`O' <0036.g2:( O' A' )>`.
+Since :g:`OO' <0036.g2:/ O O' />` :math:`<` :g:`r' <0036.g2:/ O' A' />` :math:`-` :g:`r <0036.g2:/ O A />`, :term:`*a fortiori* <a-fortiori>` :g:`OO' <0036.g2:/ O O' />` :math:`<` :g:`r' <0036.g2:/ O' A' />`, so that :g:`O <0036.g2:O>` is internal to the circle :g:`O' <0036.g2:( O' A' )>`.
 
 .. picture:: 0036.g2.svg
    :alt: Commentary diagram for one circle entirely within another
@@ -88,9 +88,9 @@ If :g:`A <0036.g2:A>`, :g:`A' <0036.g2:A'>` be the points in which the straight 
 
 .. assertion::
 
-   :g:`O'O <0036.g2:/ O' O />` is less than :g:`O'A' <0036.g2:/ O' A' />` $-$ :g:`OA <0036.g2:/ O A />`,
+   :g:`O'O <0036.g2:/ O' O />` is less than :g:`O'A' <0036.g2:/ O' A' />` :math:`-` :g:`OA <0036.g2:/ O A />`,
 
-so that :g:`O'O <0036.g2:/ O' O />` $+$ :g:`OA <0036.g2:/ O A />`, or :g:`O'A <0036.g2:/ O' A />`, is less than :g:`O'A' <0036.g2:/ O' A' />`,
+so that :g:`O'O <0036.g2:/ O' O />` :math:`+` :g:`OA <0036.g2:/ O A />`, or :g:`O'A <0036.g2:/ O' A />`, is less than :g:`O'A' <0036.g2:/ O' A' />`,
 and therefore :g:`A <0036.g2:A>` is internal to the circle :g:`O' <0036.g2:( O' A' )>`.
 
 But, of all the straight lines from :g:`O' <0036.g2:O'>` to the circumference of the circle :g:`O <0036.g2:( O A )>`, :g:`O'A <0036.g2:/ O' A />` passing through the centre :g:`O <0036.g2:O>` is the greatest [III. 7];
@@ -105,14 +105,14 @@ A similar argument to the preceding will show that all points within the circle 
 
 3. *If the distance between the centres of two circles is equal to the sum of the radii, the two circumferences have one point common and one only, and that point is on the line of centres. Each circle is external to the other.*
 
-Let :g:`O <0037.g1:O>`, :g:`O' <0037.g1:O'>` be the centres, :g:`r <0037.g1:/ O A />`, :g:`r' <0037.g1:/ O' A />` the radii of the circles, so that :g:`OO' <0037.g1:/ O O' />` is equal to :g:`r <0037.g1:/ O A />` $+$ :g:`r' <0037.g1:/ O' A />`.
+Let :g:`O <0037.g1:O>`, :g:`O' <0037.g1:O'>` be the centres, :g:`r <0037.g1:/ O A />`, :g:`r' <0037.g1:/ O' A />` the radii of the circles, so that :g:`OO' <0037.g1:/ O O' />` is equal to :g:`r <0037.g1:/ O A />` :math:`+` :g:`r' <0037.g1:/ O' A />`.
 
 .. picture:: 0037.g1.svg
    :alt: Commentary diagram for two circles touching externally
 
 Thus :g:`OO' <0037.g1:/ O O' />` is greater than :g:`r <0037.g1:/ O A />`, so that :g:`O' <0037.g1:O'>` is external to the circle :g:`O <0037.g1:( O A )>`, and the circumference of the circle :g:`O <0037.g1:( O A )>` cuts :g:`OO' <0037.g1:/ O O' />` in a point :g:`A <0037.g1:A>`.
 
-And, since :g:`OO' <0037.g1:/ O O' />` is equal to :g:`r <0037.g1:/ O A />` $+$ :g:`r' <0037.g1:/ O' A />`, and :g:`OA <0037.g1:/ O A />` to :g:`r <0037.g1:/ O A />`, it follows that :g:`O'A <0037.g1:/ O' A />` is equal to :g:`r' <0037.g1:/ O' A />`, so that :g:`A <0037.g1:A>` belongs also to the circumference of the circle :g:`O' <0037.g1:( O' A )>`.
+And, since :g:`OO' <0037.g1:/ O O' />` is equal to :g:`r <0037.g1:/ O A />` :math:`+` :g:`r' <0037.g1:/ O' A />`, and :g:`OA <0037.g1:/ O A />` to :g:`r <0037.g1:/ O A />`, it follows that :g:`O'A <0037.g1:/ O' A />` is equal to :g:`r' <0037.g1:/ O' A />`, so that :g:`A <0037.g1:A>` belongs also to the circumference of the circle :g:`O' <0037.g1:( O' A )>`.
 
 The proof that all other points on, and all points within, the circumference of the circle :g:`O <0037.g1:( O A )>` are external to the circle :g:`O' <0037.g1:( O' A )>` follows the similar proof of prop. 1 above. And similarly all points (except :g:`A <0037.g1:A>`) on, and all points within, the circumference of the circle :g:`O' <0037.g1:( O' A )>` are external to the circle :g:`O <0037.g1:( O A )>`.
 
@@ -130,9 +130,9 @@ Let :g:`O <0037.g2:O>`, :g:`O' <0037.g2:O'>` be the centres of the two circles, 
 
 .. assertion::
 
-   :g:`r' <0037.g2:/ O' A />` $-$ :g:`r <0037.g2:/ O M />` $<$ :g:`OO' <0037.g2:/ O O' />` $<$ :g:`r <0037.g2:/ O M />` $+$ :g:`r' <0037.g2:/ O' A />`.
+   :g:`r' <0037.g2:/ O' A />` :math:`-` :g:`r <0037.g2:/ O M />` :math:`<` :g:`OO' <0037.g2:/ O O' />` :math:`<` :g:`r <0037.g2:/ O M />` :math:`+` :g:`r' <0037.g2:/ O' A />`.
 
-It follows that in any case :g:`OO' <0037.g2:/ O O' />` $+$ :g:`r <0037.g2:/ O M />` $>$ :g:`r' <0037.g2:/ O' A />`, so that, if :g:`OM <0037.g2:/ O M />` be taken on :g:`O'O <0037.g2:[ O' O ]>` produced equal to :g:`r <0037.g2:/ O M />` (so that :g:`M <0037.g2:M>` is on the circumference of the circle :g:`O <0037.g2:( O M )>`), :g:`M <0037.g2:M>` is external to the circle :g:`O' <0037.g2:( O' A )>`.
+It follows that in any case :g:`OO' <0037.g2:/ O O' />` :math:`+` :g:`r <0037.g2:/ O M />` :math:`>` :g:`r' <0037.g2:/ O' A />`, so that, if :g:`OM <0037.g2:/ O M />` be taken on :g:`O'O <0037.g2:[ O' O ]>` produced equal to :g:`r <0037.g2:/ O M />` (so that :g:`M <0037.g2:M>` is on the circumference of the circle :g:`O <0037.g2:( O M )>`), :g:`M <0037.g2:M>` is external to the circle :g:`O' <0037.g2:( O' A )>`.
 
 We have to use the same Postulate as in Eucl. I. 1 that
 
@@ -153,25 +153,25 @@ Three cases have to be distinguished according as :g:`OO' <0038.g1:/ O O' />` is
 .. picture:: 0038.g1.svg
    :alt: Commentary diagram for intersecting circles, Case 2
 
-(1) :g:`OO' <0037.g2:/ O O' />` $>$ :g:`r <0037.g2:/ O M />`. (See the preceding figure.)
+(1) :g:`OO' <0037.g2:/ O O' />` :math:`>` :g:`r <0037.g2:/ O M />`. (See the preceding figure.)
 
 Measure :g:`OL <0037.g2:/ O L />` along :g:`OO' <0037.g2:/ O O' />` equal to :g:`r <0037.g2:/ O M />`, so that :g:`L <0037.g2:L>` lies on the circumference of the circle :g:`O <0037.g2:( O M )>`.
 
-Then, since :g:`OO' <0037.g2:/ O O' />` $<$ :g:`r <0037.g2:/ O M />` $+$ :g:`r' <0037.g2:/ O' A />`, :g:`O'L <0037.g2:/ L O' />` will be less than :g:`r' <0037.g2:/ O' A />`, so that :g:`L <0037.g2:L>` is within the circle :g:`O' <0037.g2:( O' A )>`.
+Then, since :g:`OO' <0037.g2:/ O O' />` :math:`<` :g:`r <0037.g2:/ O M />` :math:`+` :g:`r' <0037.g2:/ O' A />`, :g:`O'L <0037.g2:/ L O' />` will be less than :g:`r' <0037.g2:/ O' A />`, so that :g:`L <0037.g2:L>` is within the circle :g:`O' <0037.g2:( O' A )>`.
 
-(2) :g:`OO' <0038.g1:/ O O' />` $=$ :g:`r <0038.g1:/ O M />`.
+(2) :g:`OO' <0038.g1:/ O O' />` :math:`=` :g:`r <0038.g1:/ O M />`.
 
 In this case the circumference of the circle :g:`O <0038.g1:( O M )>` passes through :g:`O' <0038.g1:O'>`, or :g:`L <0038.g1:L>` coincides with :g:`O' <0038.g1:O'>`.
 
-(3) :g:`OO' <0038.g2:/ O O' />` $<$ :g:`r <0038.g2:/ O M />`.
+(3) :g:`OO' <0038.g2:/ O O' />` :math:`<` :g:`r <0038.g2:/ O M />`.
 
 If we measure :g:`OL <0038.g2:/ O L />` along :g:`OO' <0038.g2:[ O O' ]>` equal to :g:`r <0038.g2:/ O M />`, the point :g:`L <0038.g2:L>` will lie on the circumference of the circle :g:`O <0038.g2:( O M )>`.
 
 .. picture:: 0038.g2.svg
    :alt: Commentary diagram for intersecting circles, Case 3
 
-Then :g:`O'L <0038.g2:/ O' L />` $=$ :g:`r <0038.g2:/ O M />` $-$ :g:`OO' <0038.g2:/ O O' />`,
-so that :g:`O'L <0038.g2:/ O' L />` $<$ :g:`r <0038.g2:/ O M />`, and :term:`*a fortiori* <a-fortiori>` :g:`O'L <0038.g2:/ O' L />` $<$ :g:`r' <0038.g2:/ O' A />`, so that :g:`L <0038.g2:L>` lies within the circle :g:`O' <0038.g2:( O' A )>`.
+Then :g:`O'L <0038.g2:/ O' L />` :math:`=` :g:`r <0038.g2:/ O M />` :math:`-` :g:`OO' <0038.g2:/ O O' />`,
+so that :g:`O'L <0038.g2:/ O' L />` :math:`<` :g:`r <0038.g2:/ O M />`, and :term:`*a fortiori* <a-fortiori>` :g:`O'L <0038.g2:/ O' L />` :math:`<` :g:`r' <0038.g2:/ O' A />`, so that :g:`L <0038.g2:L>` lies within the circle :g:`O' <0038.g2:( O' A )>`.
 
 Thus, in all three cases, since the circumference of :g:`O <0038.g2:( O M )>` passes through one point (:g:`M <0038.g2:M>`) external to, and one point (:g:`L <0038.g2:L>`) internal to, the circle :g:`O' <0038.g2:( O' A )>`, the two circumferences intersect in two points :g:`A <0038.g2:A>`, :g:`B <0038.g2:B>` [Post.].
 

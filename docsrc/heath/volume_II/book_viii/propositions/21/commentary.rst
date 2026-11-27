@@ -19,21 +19,25 @@ Back to :ref:`Proposition VIII.21 <VIII.21>`.
 .. folio:: 0384
    :page: 378
 
-The converse of VIII. 19. If $a, c, d, b$ are in geometrical progression, $a, b$ are "similar solid numbers."
+The converse of VIII. 19. If :math:`a, c, d, b` are in geometrical progression, :math:`a, b` are "similar solid numbers."
 
-Let $\alpha, \beta, \gamma$ be the least numbers in the ratio of $a, c, d$ (and therefore also of $c, d, b$). :just:`[VII. 33 or VIII. 2]`
+Let :math:`\alpha, \beta, \gamma` be the least numbers in the ratio of :math:`a, c, d` (and therefore also of :math:`c, d, b`). :just:`[VII. 33 or VIII. 2]`
 
-Therefore $\alpha, \gamma$ are prime to one another. :just:`[VIII. 3] <VIII.3>`
+Therefore :math:`\alpha, \gamma` are prime to one another. :just:`[VIII. 3] <VIII.3>`
 
 They are also "similar plane numbers." :just:`[VIII. 20] <VIII.20>`
 
 Let
 
-$$\alpha = mn, \quad \gamma = pq,$$
+.. math::
+
+   \alpha = mn, \quad \gamma = pq,
 
 where
 
-$$m : n = p : q.$$
+.. math::
+
+   m : n = p : q.
 
 .. _folio-ii-0385:
 
@@ -42,40 +46,56 @@ $$m : n = p : q.$$
 
 Then, by the proof of VIII. 20,
 
-$$\alpha : \beta = m : p = n : q.$$
+.. math::
+
+   \alpha : \beta = m : p = n : q.
 
 Now, :term:`*ex aequali* <ex-aequali>`,
 
-$$a : d = \alpha : \gamma, \qquad \text{[VII. 14]}$$
+.. math::
 
-and, since $\alpha, \gamma$ are prime to one another,
+   a : d = \alpha : \gamma, \qquad \text{[VII. 14]}
 
-$$a = r\alpha, \quad d = r\gamma, \quad \text{where } r \text{ is an integer.}$$
+and, since :math:`\alpha, \gamma` are prime to one another,
 
-But $\alpha = mn$:
-therefore $a = rmn$, and therefore $a$ is "solid."
+.. math::
+
+   a = r\alpha, \quad d = r\gamma, \quad \text{where } r \text{ is an integer.}
+
+But :math:`\alpha = mn`:
+therefore :math:`a = rmn`, and therefore :math:`a` is "solid."
 Again, :term:`*ex aequali* <ex-aequali>`,
 
-$$c : b = \alpha : \gamma,$$
+.. math::
+
+   c : b = \alpha : \gamma,
 
 and therefore
 
-$$c = s\alpha, \quad b = s\gamma, \quad \text{where } s \text{ is an integer.}$$
+.. math::
 
-Thus $b = spq$, and $b$ is therefore "solid."
+   c = s\alpha, \quad b = s\gamma, \quad \text{where } s \text{ is an integer.}
+
+Thus :math:`b = spq`, and :math:`b` is therefore "solid."
 Now
 
-$$\begin{aligned}
-\alpha : \beta = a : c &= r\alpha : s\alpha \\
-&= r : s.
-\end{aligned} \qquad \text{[VII. 18]}$$
+.. math::
+
+   \begin{aligned}
+   \alpha : \beta = a : c &= r\alpha : s\alpha \\
+   &= r : s.
+   \end{aligned} \qquad \text{[VII. 18]}
 
 And, from above,
 
-$$\alpha : \beta = m : p = n : q.$$
+.. math::
+
+   \alpha : \beta = m : p = n : q.
 
 Therefore
 
-$$r : s = m : p = n : q,$$
+.. math::
 
-and hence $a, b$ are similar solid numbers.
+   r : s = m : p = n : q,
+
+and hence :math:`a, b` are similar solid numbers.

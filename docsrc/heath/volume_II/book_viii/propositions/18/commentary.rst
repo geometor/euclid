@@ -19,32 +19,42 @@ Back to :ref:`Proposition VIII.18 <VIII.18>`.
 .. folio:: 0378
    :page: 372
 
-If $ab$, $cd$ be "similar plane numbers," i.e. products of factors such that
+If :math:`ab`, :math:`cd` be "similar plane numbers," i.e. products of factors such that
 
-$$a : b = c : d,$$
+.. math::
 
-there is one mean proportional between $ab$ and $cd$; and $ab$ is to $cd$ in the duplicate ratio of $a$ to $c$ or of $b$ to $d$.
+   a : b = c : d,
 
-Form the product $bc$ (or $ad$, which is equal to it, by VII. 19).
+there is one mean proportional between :math:`ab` and :math:`cd`; and :math:`ab` is to :math:`cd` in the duplicate ratio of :math:`a` to :math:`c` or of :math:`b` to :math:`d`.
+
+Form the product :math:`bc` (or :math:`ad`, which is equal to it, by VII. 19).
 
 Then
 
-$$\left.\begin{array}{r} ab,\ bc \\ = ad \end{array}\right\},\ cd$$
+.. math::
+
+   \left.\begin{array}{r} ab,\ bc \\ = ad \end{array}\right\},\ cd
 
 is a series of terms in geometrical progression.
 
 For
 
-$$a : b = c : d.$$
+.. math::
+
+   a : b = c : d.
 
 Therefore
 
-$$a : c = b : d. \qquad \text{[VII. 13]}$$
+.. math::
+
+   a : c = b : d. \qquad \text{[VII. 13]}
 
 Therefore
 
-$$ab : bc = bc : cd. \qquad \text{[VII. 17 and 16]}$$
+.. math::
 
-Thus $bc$ (or $ad$) is a geometric mean between $ab$, $cd$.
+   ab : bc = bc : cd. \qquad \text{[VII. 17 and 16]}
 
-And $ab$ is to $cd$ in the duplicate ratio of $ab$ to $bc$ or of $bc$ to $cd$, that is, of $a$ to $c$ or of $b$ to $d$.
+Thus :math:`bc` (or :math:`ad`) is a geometric mean between :math:`ab`, :math:`cd`.
+
+And :math:`ab` is to :math:`cd` in the duplicate ratio of :math:`ab` to :math:`bc` or of :math:`bc` to :math:`cd`, that is, of :math:`a` to :math:`c` or of :math:`b` to :math:`d`.

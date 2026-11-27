@@ -23,16 +23,21 @@ Given two numbers *a*, *b*, to find the condition that they may have an integral
 
 (1) *a*, *b* must not be prime to one another. :just:`[IX. 16] <IX.16>`
 
-(2) *a* must measure $b^2$.
+(2) *a* must measure :math:`b^2`.
 
 For, if *a*, *b*, *c* be in continued proportion,
 
-$$ac = b^2.$$
+.. math::
 
-Therefore *a* measures $b^2$.
+   ac = b^2.
 
-Condition (1) is included in condition (2) since, if $b^2 = ma$, *a* and *b* cannot be prime to one another.
+Therefore *a* measures :math:`b^2`.
+
+Condition (1) is included in condition (2) since, if :math:`b^2 = ma`, *a* and *b* cannot be prime to one another.
 
 The result is of course easily seen if the three terms in continued proportion be written
 
-$$a,\quad a\frac{b}{a},\quad a\left(\frac{b}{a}\right)^2.$$
+.. math::
+
+   a,\quad a\frac{b}{a},\quad a\left(\frac{b}{a}\right)^2.
+

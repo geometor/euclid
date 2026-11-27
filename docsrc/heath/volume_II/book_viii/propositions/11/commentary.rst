@@ -26,14 +26,18 @@ According to :person:`Nicomachus <nicomachus>` the theorems in this proposition 
 .. folio:: 0370
    :page: 364
 
-$a^2$, $b^2$ being two squares, it is only necessary to form the product $ab$ and to prove that
+:math:`a^2`, :math:`b^2` being two squares, it is only necessary to form the product :math:`ab` and to prove that
 
-$$a^2,\quad ab,\quad b^2$$
+.. math::
+
+   a^2,\quad ab,\quad b^2
 
 are in geometrical progression. Euclid proves that
 
-$$a^2 : ab = ab : b^2$$
+.. math::
+
+   a^2 : ab = ab : b^2
 
 by means of VII. 17, 18, as usual.
 
-In assuming that, since $a^2$ is to $b^2$ in the duplicate ratio of $a^2$ to $ab$, $a^2$ is to $b^2$ in the duplicate ratio of $a$ to $b$, Euclid assumes that ratios which are the duplicates of equal ratios are equal. This, an obvious inference from V. 22, can be inferred just as easily for numbers from VII. 14.
+In assuming that, since :math:`a^2` is to :math:`b^2` in the duplicate ratio of :math:`a^2` to :math:`ab`, :math:`a^2` is to :math:`b^2` in the duplicate ratio of :math:`a` to :math:`b`, Euclid assumes that ratios which are the duplicates of equal ratios are equal. This, an obvious inference from V. 22, can be inferred just as easily for numbers from VII. 14.

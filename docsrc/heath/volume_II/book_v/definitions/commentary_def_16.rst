@@ -18,4 +18,4 @@ Back to :ref:`Book V Definitions <V.def>`.
 
 **Ἀναστροφὴ λόγου ἐστὶ λῆψις τοῦ ἡγουμένου πρὸς τὴν ὑπεροχήν, ᾗ ὑπερέχει τὸ ἡγούμενον τοῦ ἑπομένου.**
 
-*Conversion* of a ratio means taking, e.g., instead of the ratio of $A$ to $B$, the ratio of $A$ to $A - B$ ($A$ being again supposed greater than $B$). As ἀναστροφή is used for *conversion*, so :term:`ἀναστρέψαντι <convertendo>` is used for :term:`*convertendo* <convertendo>` (corresponding to the terms :term:`συνθέντι <componendo>` and :term:`διελόντι <separando>`).
+*Conversion* of a ratio means taking, e.g., instead of the ratio of :math:`A` to :math:`B`, the ratio of :math:`A` to :math:`A - B` (:math:`A` being again supposed greater than :math:`B`). As ἀναστροφή is used for *conversion*, so :term:`ἀναστρέψαντι <convertendo>` is used for :term:`*convertendo* <convertendo>` (corresponding to the terms :term:`συνθέντι <componendo>` and :term:`διελόντι <separando>`).

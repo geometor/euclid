@@ -19,44 +19,58 @@ Back to :ref:`Proposition X.75 <X.75>`.
 .. folio:: 0166
    :page: 162
 
-We have here the difference between $k^{\frac{1}{4}}\rho$, $\sqrt\lambda \cdot \rho / k^{\frac{1}{4}}$, two medial straight lines commensurable in square only and containing a medial rectangle. Apply each of the areas $(x^2 + y^2)$, $2xy$ to a rational straight line $\sigma$, i.e. suppose that
+We have here the difference between :math:`k^{\frac{1}{4}}\rho`, :math:`\sqrt\lambda \cdot \rho / k^{\frac{1}{4}}`, two medial straight lines commensurable in square only and containing a medial rectangle. Apply each of the areas :math:`(x^2 + y^2)`, :math:`2xy` to a rational straight line :math:`\sigma`, i.e. suppose that
 
-$$\begin{aligned}
-x^2 + y^2 &= \sigma u, \\
-2xy &= \sigma v.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   x^2 + y^2 &= \sigma u, \\
+   2xy &= \sigma v.
+   \end{aligned}
 
 .. _folio-iii-0167:
 
 .. folio:: 0167
    :page: 163
 
-Then $\sigma u, \sigma v$ are medial areas, so that $u, v$ are both rational and $\smile \sigma$ .........................................(1).
+Then :math:`\sigma u, \sigma v` are medial areas, so that :math:`u, v` are both rational and :math:`\smile \sigma` .........................................(1).
 
 Again,
 
-$$x \smile y;$$
+.. math::
+
+   x \smile y;
 
 therefore
 
-$$x^2 \smile xy,$$
+.. math::
+
+   x^2 \smile xy,
 
 and consequently
 
-$$x^2 + y^2 \smile 2xy,$$
+.. math::
+
+   x^2 + y^2 \smile 2xy,
 
 or
 
-$$\sigma u \smile \sigma v,$$
+.. math::
+
+   \sigma u \smile \sigma v,
 
 and
 
-$$u \smile v \text{ .................................................(2).}$$
+.. math::
 
-Thus [(1), (2)] $u, v$ are rational and $\sim$; therefore [x. 73] $(u - v)$ is an *apotome*, and, $(u - v)$ being thus irrational,
+   u \smile v \text{ .................................................(2).}
 
-$$(u - v)\sigma \text{ is an irrational area.}$$
+Thus [(1), (2)] :math:`u, v` are rational and :math:`\sim`; therefore [x. 73] :math:`(u - v)` is an *apotome*, and, :math:`(u - v)` being thus irrational,
 
-Hence $(x - y)^2$, and consequently $(x - y)$, is irrational.
+.. math::
 
-The irrational straight line $k^{\frac{1}{4}}\rho \sim \frac{\sqrt\lambda \cdot \rho}{k^{\frac{1}{4}}}$ is called a :term:`**second apotome of a medial straight line** <second-apotome-of-a-medial-straight-line>`.
+   (u - v)\sigma \text{ is an irrational area.}
+
+Hence :math:`(x - y)^2`, and consequently :math:`(x - y)`, is irrational.
+
+The irrational straight line :math:`k^{\frac{1}{4}}\rho \sim \frac{\sqrt\lambda \cdot \rho}{k^{\frac{1}{4}}}` is called a :term:`**second apotome of a medial straight line** <second-apotome-of-a-medial-straight-line>`.

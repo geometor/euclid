@@ -54,40 +54,50 @@ What is meant by saying that the applied parallelogram (1) *exceeds* or (2) *fal
 
 We shall have occasion to see, when we come to the relative propositions in the second and sixth Books, that the general problem here stated is equivalent to that of solving geometrically a mixed quadratic equation. We shall see that, even by means of II. 5 and 6, we can solve geometrically the equations
 
-$$
-\begin{aligned}
-ax \pm x^2 &= b^2, \\
-x^2 - ax &= b^2;
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   ax \pm x^2 &= b^2, \\
+   x^2 - ax &= b^2;
+   \end{aligned}
 
 but in VI. 28, 29 :person:`Euclid <euclid>` gives the equivalent of the solution of the general equations
 
-$$ax \pm \frac{b}{c}x^2 = \frac{C}{m}.$$
+.. math::
 
-We are now in a position to understand the application of the terms *parabola* (application), *hyperbola* (exceeding) and *ellipse* (falling-short) to conic sections. These names were first so applied by :person:`Apollonius <apollonius>` as expressing in each case the fundamental property of the curves as stated by him. This fundamental property is the geometrical equivalent of the Cartesian equation referred to any diameter of the conic and the tangent at its extremity as (in general, oblique) axes. If the parameter of the ordinates from the several points of the conic drawn to the given diameter be denoted by $p$ ($p$ being accordingly, in the case of the hyperbola and ellipse, equal to $\frac{{d'}^2}{d}$, where $d$ is the length of the given diameter and $d'$ that of its conjugate), :person:`Apollonius <apollonius>` gives the properties of the three conics in the following form.
+   ax \pm \frac{b}{c}x^2 = \frac{C}{m}.
+
+We are now in a position to understand the application of the terms *parabola* (application), *hyperbola* (exceeding) and *ellipse* (falling-short) to conic sections. These names were first so applied by :person:`Apollonius <apollonius>` as expressing in each case the fundamental property of the curves as stated by him. This fundamental property is the geometrical equivalent of the Cartesian equation referred to any diameter of the conic and the tangent at its extremity as (in general, oblique) axes. If the parameter of the ordinates from the several points of the conic drawn to the given diameter be denoted by :math:`p` (:math:`p` being accordingly, in the case of the hyperbola and ellipse, equal to :math:`\frac{{d'}^2}{d}`, where :math:`d` is the length of the given diameter and :math:`d'` that of its conjugate), :person:`Apollonius <apollonius>` gives the properties of the three conics in the following form.
 
 .. _folio-i-0359:
 
 .. folio:: 0359
    :page: 345
 
-(1) For the *parabola*, the square on the ordinate at any point is equal to a rectangle applied to $p$ as base with altitude equal to the corresponding abscissa. That is to say, with the usual notation,
+(1) For the *parabola*, the square on the ordinate at any point is equal to a rectangle applied to :math:`p` as base with altitude equal to the corresponding abscissa. That is to say, with the usual notation,
 
-$$y^2 = px.$$
+.. math::
 
-(2) For the *hyperbola* and *ellipse*, the square on the ordinate is equal to the rectangle applied to $p$ having as its width the abscissa and *exceeding* (for the hyperbola) or *falling-short* (for the ellipse) by a figure similar and similarly situated to the rectangle contained by the given diameter and $p$.
+   y^2 = px.
+
+(2) For the *hyperbola* and *ellipse*, the square on the ordinate is equal to the rectangle applied to :math:`p` having as its width the abscissa and *exceeding* (for the hyperbola) or *falling-short* (for the ellipse) by a figure similar and similarly situated to the rectangle contained by the given diameter and :math:`p`.
 
 That is, in the *hyperbola*
 
-$$y^2 = px + \frac{x^2}{d^2} pd,$$
+.. math::
+
+   y^2 = px + \frac{x^2}{d^2} pd,
 
 or
 
-$$y^2 = px + \frac{p}{d} x^2;$$
+.. math::
+
+   y^2 = px + \frac{p}{d} x^2;
 
 and in the *ellipse*
 
-$$y^2 = px - \frac{p}{d} x^2.$$
+.. math::
+
+   y^2 = px - \frac{p}{d} x^2.
 
 The form of these equations will be seen to be exactly the same as that of the general equations above given, and thus :person:`Apollonius <apollonius>`’ nomenclature followed exactly the traditional theory of *application*, *exceeding*, and *falling-short*.

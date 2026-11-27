@@ -19,14 +19,18 @@ Back to :ref:`Proposition VII.22 <VII.22>`.
 .. folio:: 0330
    :page: 324
 
-If $a : b$ is "in its lowest terms," $a$, $b$ are prime to one another. Again the proof is indirect. If $a$, $b$ are not prime to one another, they have some common measure $c$, and
+If :math:`a : b` is "in its lowest terms," :math:`a`, :math:`b` are prime to one another. Again the proof is indirect. If :math:`a`, :math:`b` are not prime to one another, they have some common measure :math:`c`, and
 
-$$a = mc, \quad b = nc.$$
+.. math::
+
+   a = mc, \quad b = nc.
 
 Therefore
 
-$$m : n = a : b. \qquad \text{[VII. 17 or 18]}$$
+.. math::
 
-But $m$, $n$ are less than $a$, $b$ respectively, so that $a : b$ is not in its lowest terms : which is contrary to the hypothesis.
+   m : n = a : b. \qquad \text{[VII. 17 or 18]}
+
+But :math:`m`, :math:`n` are less than :math:`a`, :math:`b` respectively, so that :math:`a : b` is not in its lowest terms : which is contrary to the hypothesis.
 
 Therefore etc.

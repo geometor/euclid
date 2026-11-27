@@ -12,7 +12,7 @@ Proposition 41 [μα΄ · Prop. Prop. XLIV] — Philological Notes
 Cross-Corpus Concordance
 ------------------------
 
-* :ref:`D.41 <D.41>` (**SAS-ratio** $\to$ species, via :just:`[VI.6] <VI.6>`);
+* :ref:`D.41 <D.41>` (**SAS-ratio** :math:`\to` species, via :just:`[VI.6] <VI.6>`);
 
 Textual & Critical Apparatus
 ----------------------------

@@ -19,15 +19,17 @@ Back to :ref:`Proposition X.21 <X.21>`.
 .. folio:: 0054
    :page: 50
 
-A *medial* straight line, now defined for the first time, is so called because it is a mean proportional between two rational straight lines commensurable in square only. Such straight lines can be denoted by $\rho$, $\rho \sqrt{k}$. A medial straight line is therefore of the form $\sqrt{\rho^2 \sqrt{k}}$ or $k^{\frac{1}{4}} \rho$. Euclid's proof that this is irrational is equivalent to the following. Take $\rho$, $\rho \sqrt{k}$ commensurable in square only, so that they are incommensurable in length.
+A *medial* straight line, now defined for the first time, is so called because it is a mean proportional between two rational straight lines commensurable in square only. Such straight lines can be denoted by :math:`\rho`, :math:`\rho \sqrt{k}`. A medial straight line is therefore of the form :math:`\sqrt{\rho^2 \sqrt{k}}` or :math:`k^{\frac{1}{4}} \rho`. Euclid's proof that this is irrational is equivalent to the following. Take :math:`\rho`, :math:`\rho \sqrt{k}` commensurable in square only, so that they are incommensurable in length.
 
 Now
 
-$$\rho : \rho \sqrt{k} = \rho^2 : \rho^2 \sqrt{k},$$
+.. math::
 
-whence [X. 11] $\rho^2 \sqrt{k}$ is incommensurable with $\rho^2$ and therefore irrational [X. Def. 4], so that $\sqrt{\rho^2 \sqrt{k}}$ is also irrational [ibid.].
+   \rho : \rho \sqrt{k} = \rho^2 : \rho^2 \sqrt{k},
 
-A medial straight line may evidently take either of the forms $\sqrt{a\sqrt{B}}$ or $\sqrt[4]{AB}$, where of course $B$ is not of the form $k^2 A$.
+whence [X. 11] :math:`\rho^2 \sqrt{k}` is incommensurable with :math:`\rho^2` and therefore irrational [X. Def. 4], so that :math:`\sqrt{\rho^2 \sqrt{k}}` is also irrational [ibid.].
+
+A medial straight line may evidently take either of the forms :math:`\sqrt{a\sqrt{B}}` or :math:`\sqrt[4]{AB}`, where of course :math:`B` is not of the form :math:`k^2 A`.
 
 ----
 
@@ -70,6 +72,9 @@ For on :g:`FE <0054.g2:/ F E />` let the square :g:`DF <0054.g2:< D F >>` be des
 
 ----
 
-If $a$, $b$ be two straight lines,
+If :math:`a`, :math:`b` be two straight lines,
 
-$$a : b = a^2 : ab.$$
+.. math::
+
+   a : b = a^2 : ab.
+

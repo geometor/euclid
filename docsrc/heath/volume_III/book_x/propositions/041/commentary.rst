@@ -19,50 +19,64 @@ Back to :ref:`Proposition X.41 <X.41>`.
 .. folio:: 0094
    :page: 90
 
-In this case $x$, $y$ are of the form
+In this case :math:`x`, :math:`y` are of the form
 
-$$\frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1+\frac{k}{\sqrt{1+k^2}}},\quad \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1-\frac{k}{\sqrt{1+k^2}}}.$$
+.. math::
+
+   \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1+\frac{k}{\sqrt{1+k^2}}},\quad \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1-\frac{k}{\sqrt{1+k^2}}}.
 
 .. _folio-iii-0095:
 
 .. folio:: 0095
    :page: 91
 
-By hypothesis, $(x^2+y^2)$ and $2xy$ are medial areas, and
+By hypothesis, :math:`(x^2+y^2)` and :math:`2xy` are medial areas, and
 
-$$x^2+y^2 \cup 2xy \dots\dots\dots\dots\dots\dots\dots\dots(1).$$
+.. math::
 
-‘Apply’ these areas respectively to a rational straight line $\sigma$, and suppose
+   x^2+y^2 \cup 2xy \dots\dots\dots\dots\dots\dots\dots\dots(1).
 
-$$\left.\begin{aligned} x^2+y^2 &= \sigma u \\ 2xy &= \sigma v \end{aligned}\right\} \dots\dots\dots\dots\dots\dots\dots\dots(2).$$
+‘Apply’ these areas respectively to a rational straight line :math:`\sigma`, and suppose
 
-Since then $\sigma u$ and $\sigma v$ are both medial areas, $u$, $v$ are rational and both are $\cup\ \sigma$ $\dots\dots\dots\dots\dots\dots\dots\dots(3)$.
+.. math::
+
+   \left.\begin{aligned} x^2+y^2 &= \sigma u \\ 2xy &= \sigma v \end{aligned}\right\} \dots\dots\dots\dots\dots\dots\dots\dots(2).
+
+Since then :math:`\sigma u` and :math:`\sigma v` are both medial areas, :math:`u`, :math:`v` are rational and both are :math:`\cup\ \sigma` :math:`\dots\dots\dots\dots\dots\dots\dots\dots(3)`.
 
 Now, by (1) and (2),
 
-$$\sigma u \cup \sigma v,$$
+.. math::
+
+   \sigma u \cup \sigma v,
 
 so that
 
-$$u \cup v.$$
+.. math::
 
-By this and (3), $u$, $v$ are rational and $\sim$.
+   u \cup v.
 
-Therefore [x. 36] $(u+v)$ is irrational.
+By this and (3), :math:`u`, :math:`v` are rational and :math:`\sim`.
 
-Hence $\sigma(u+v)$ is irrational [deduction from x. 20].
+Therefore [x. 36] :math:`(u+v)` is irrational.
 
-Thus $(x+y)^2$, and therefore $(x+y)$, is irrational.
+Hence :math:`\sigma(u+v)` is irrational [deduction from x. 20].
+
+Thus :math:`(x+y)^2`, and therefore :math:`(x+y)`, is irrational.
 
 The irrational straight line
 
-$$\frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1+\frac{k}{\sqrt{1+k^2}}} + \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1-\frac{k}{\sqrt{1+k^2}}}$$
+.. math::
+
+   \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1+\frac{k}{\sqrt{1+k^2}}} + \frac{\rho\lambda^{\frac{1}{4}}}{\sqrt{2}}\sqrt{1-\frac{k}{\sqrt{1+k^2}}}
 
 is called (again for an obvious reason) the “*side*” *of the sum of two medials* (medial areas).
 
 This and the corresponding irrational with a minus sign found in x. 78 are the positive roots of the equation
 
-$$x^4 - 2\sqrt{\lambda}\cdot x^2\rho^2 + \lambda\frac{k^2}{1+k^2}\rho^4 = 0.$$
+.. math::
+
+   x^4 - 2\sqrt{\lambda}\cdot x^2\rho^2 + \lambda\frac{k^2}{1+k^2}\rho^4 = 0.
 
 ----
 
@@ -131,14 +145,18 @@ For let :g:`AB <0095.g1:/ A B />` be :eq:`bisected <0095.g1:/ A E / = 0095.g1:/ 
 
 ----
 
-This proves that, if $x + y = u + v$, and if $u$, $v$ are more nearly equal than $x$, $y$ (i.e. if the straight line is divided in the second case nearer to the point of bisection), then
+This proves that, if :math:`x + y = u + v`, and if :math:`u`, :math:`v` are more nearly equal than :math:`x`, :math:`y` (i.e. if the straight line is divided in the second case nearer to the point of bisection), then
 
-$$(x^2 + y^2) > (u^2 + v^2).$$
+.. math::
+
+   (x^2 + y^2) > (u^2 + v^2).
 
 It is first proved by means of II. 5 that
 
-$$2xy < 2uv,$$
+.. math::
 
-whence, since $(x+y)^2 = (u+v)^2$, the required result follows.
+   2xy < 2uv,
+
+whence, since :math:`(x+y)^2 = (u+v)^2`, the required result follows.
 
 .. [#f1] **and which produce the types in question.** The Greek is ποιουσῶν τὰ προκείμενα εἴδη, and I have taken εἴδη to mean “types (of irrational straight lines),” though the expression might perhaps mean “satisfying the conditions in question.”

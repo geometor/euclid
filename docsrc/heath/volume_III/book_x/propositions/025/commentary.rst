@@ -19,15 +19,15 @@ Back to :ref:`Proposition X.25 <X.25>`.
 .. folio:: 0061
    :page: 57
 
-Two medial straight lines commensurable in square only are of the form $k^{\frac{1}{4}}\rho$, $\sqrt{\lambda} \,.\, k^{\frac{1}{4}}\rho$.
+Two medial straight lines commensurable in square only are of the form :math:`k^{\frac{1}{4}}\rho`, :math:`\sqrt{\lambda} \,.\, k^{\frac{1}{4}}\rho`.
 
-The rectangle contained by them is $\sqrt{\lambda} \,.\, k^{\frac{1}{2}}\rho^2$. Now this is in general *medial*; but, if $\sqrt{\lambda} = k' \sqrt{k}$, the rectangle is $k k'\rho^2$, which is *rational*.
+The rectangle contained by them is :math:`\sqrt{\lambda} \,.\, k^{\frac{1}{2}}\rho^2`. Now this is in general *medial*; but, if :math:`\sqrt{\lambda} = k' \sqrt{k}`, the rectangle is :math:`k k'\rho^2`, which is *rational*.
 
-Euclid's argument is as follows. Let us, for convenience, put $x$ for $k^{\frac{1}{4}}\rho$, so that the medial straight lines are $x$, $\sqrt{\lambda} \,.\, x$.
+Euclid's argument is as follows. Let us, for convenience, put :math:`x` for :math:`k^{\frac{1}{4}}\rho`, so that the medial straight lines are :math:`x`, :math:`\sqrt{\lambda} \,.\, x`.
 
-Form the areas $x^2$, $x \,.\, \sqrt{\lambda} \,.\, x$, $\lambda x^2$, and let these be respectively equal to $\sigma u$, $\sigma v$, $\sigma w$, where $\sigma$ is a rational straight line.
+Form the areas :math:`x^2`, :math:`x \,.\, \sqrt{\lambda} \,.\, x`, :math:`\lambda x^2`, and let these be respectively equal to :math:`\sigma u`, :math:`\sigma v`, :math:`\sigma w`, where :math:`\sigma` is a rational straight line.
 
-Since $x^2$, $\lambda x^2$ are *medial areas*, so are $\sigma u$, $\sigma w$, whence $u$, $w$ are respectively rational and $\smile \sigma$.
+Since :math:`x^2`, :math:`\lambda x^2` are *medial areas*, so are :math:`\sigma u`, :math:`\sigma w`, whence :math:`u`, :math:`w` are respectively rational and :math:`\smile \sigma`.
 
 .. _folio-iii-0062:
 
@@ -36,34 +36,48 @@ Since $x^2$, $\lambda x^2$ are *medial areas*, so are $\sigma u$, $\sigma w$, wh
 
 But
 
-$$x^2 \frown \lambda x^2,$$
+.. math::
+
+   x^2 \frown \lambda x^2,
 
 so that
 
-$$\sigma u \frown \sigma w,$$
+.. math::
+
+   \sigma u \frown \sigma w,
 
 or
 
-$$u \frown w \ \text{................................................(1).}$$
+.. math::
 
-Therefore, $u$, $w$ being both rational, $u w$ is rational $\text{..........................(2).}$
+   u \frown w \ \text{................................................(1).}
+
+Therefore, :math:`u`, :math:`w` being both rational, :math:`u w` is rational :math:`\text{..........................(2).}`
 
 Now
 
-$$x^2 : \sqrt{\lambda} \,.\, x^2 = \sqrt{\lambda} \,.\, x^2 : \lambda x^2$$
+.. math::
+
+   x^2 : \sqrt{\lambda} \,.\, x^2 = \sqrt{\lambda} \,.\, x^2 : \lambda x^2
 
 or
 
-$$\sigma u : \sigma v = \sigma v : \sigma w,$$
+.. math::
+
+   \sigma u : \sigma v = \sigma v : \sigma w,
 
 so that
 
-$$u : v = v : w,$$
+.. math::
+
+   u : v = v : w,
 
 and
 
-$$u w = v^2.$$
+.. math::
 
-Hence, by (2), $v^2$, and therefore $v$, is rational $\text{.............................(3).}$
+   u w = v^2.
 
-Now ($\alpha$) if $v \frown \sigma$, $\sigma v$ or $\sqrt{\lambda} \,.\, x^2$ is *rational*; ($\beta$) if $v \smile \sigma$, so that $v \sim \sigma$, $\sigma v$ or $\sqrt{\lambda} \,.\, x^2$ is *medial*.
+Hence, by (2), :math:`v^2`, and therefore :math:`v`, is rational :math:`\text{.............................(3).}`
+
+Now (:math:`\alpha`) if :math:`v \frown \sigma`, :math:`\sigma v` or :math:`\sqrt{\lambda} \,.\, x^2` is *rational*; (:math:`\beta`) if :math:`v \smile \sigma`, so that :math:`v \sim \sigma`, :math:`\sigma v` or :math:`\sqrt{\lambda} \,.\, x^2` is *medial*.

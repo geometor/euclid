@@ -28,12 +28,12 @@ It will be observed that, in dealing with the proportions in Props. 11—13, Euc
 
 or "parts" of the third also; that is, the first number is in all three propositions assumed to be less than the second, and in Prop. 13 less than the third also. Yet the figures in Props. 11 and 13 are inconsistent with these assumptions. If the facts are taken to correspond to the figures in these propositions, it is necessary to take account of the other possibilities involved in the definition of proportion (VII. Def. 20), that the first number may also be a multiple, or a multiple *plus* "a part" or "parts" (including *once* as a multiple in this case), of each number with which it is compared. Thus a number of different cases would have to be considered. The remedy is to make the ratio which is in the lower terms the first ratio, and to invert the ratios, if necessary, in order to make "a part" or "parts" literally apply.
 
-$$
-\begin{aligned}
-\text{If} \quad & a : b = c : d, \quad (a > c, b > d) \\
-\text{then} \quad & (a - c) : (b - d) = a : b.
-\end{aligned}
-$$
+.. math::
+
+   \begin{aligned}
+   \text{If} \quad & a : b = c : d, \quad (a > c, b > d) \\
+   \text{then} \quad & (a - c) : (b - d) = a : b.
+   \end{aligned}
 
 This proposition for numbers corresponds to V. 19 for magnitudes. The enunciation is the same except that the masculine (agreeing with :term:`ἀριθμός <number>`) takes the place of the neuter (agreeing with :term:`μέγεθος <megethos>`).
 

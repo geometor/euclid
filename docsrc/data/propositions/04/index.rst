@@ -21,6 +21,6 @@ Proposition 4 [δ΄ · Prop. IV]
 
 *Functional Signature*: ``Given(Mag(AB), Mag(AC)) -> Determined(Mag(AB - AC))`` · *Dependencies*: :just:`[Data Def. 1] <D.def.1>`, :just:`[C.N. 3] <I.cn.3>`
 
-From the given magnitude $AB$ let the given magnitude $AG$ be subtracted. I say that the remainder $GB$ is given.
+From the given magnitude :math:`AB` let the given magnitude :math:`AG` be subtracted. I say that the remainder :math:`GB` is given.
 
-Since $AB$ is given, let $DF$ be procured equal to it (:just:`[Data Def. 1] <D.def.1>`); and since $AG$ is given, let $DE$ be cut off equal to $AG$ (:just:`[Data Def. 1] <D.def.1>`). Because the whole $AB = DF$, of which the subtracted parts $AG$ and $DE$ are equal, the remainder $GB$ is equal to the remainder $EF$ (:just:`[C.N. 3] <I.cn.3>`). Therefore $GB$ is given, since $EF$ has been procured equal to it (:just:`[Data Def. 1] <D.def.1>`).
+Since :math:`AB` is given, let :math:`DF` be procured equal to it (:just:`[Data Def. 1] <D.def.1>`); and since :math:`AG` is given, let :math:`DE` be cut off equal to :math:`AG` (:just:`[Data Def. 1] <D.def.1>`). Because the whole :math:`AB = DF`, of which the subtracted parts :math:`AG` and :math:`DE` are equal, the remainder :math:`GB` is equal to the remainder :math:`EF` (:just:`[C.N. 3] <I.cn.3>`). Therefore :math:`GB` is given, since :math:`EF` has been procured equal to it (:just:`[Data Def. 1] <D.def.1>`).

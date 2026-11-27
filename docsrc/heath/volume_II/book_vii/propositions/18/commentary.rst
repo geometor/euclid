@@ -21,13 +21,18 @@ Back to :ref:`Proposition VII.18 <VII.18>`.
 
 It is here proved that
 
-$$a : b = ac : bc.$$
+.. math::
+
+   a : b = ac : bc.
 
 The argument is as follows.
 
-$$\begin{aligned}
-ac &= ca. & \text{[VII. 16]} \\
-\text{Similarly}\qquad bc &= cb. \\
-\text{And}\qquad a : b &= ca : cb; & \text{[VII. 17]} \\
-\text{therefore}\qquad a : b &= ac : bc.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   ac &= ca. & \text{[VII. 16]} \\
+   \text{Similarly}\qquad bc &= cb. \\
+   \text{And}\qquad a : b &= ca : cb; & \text{[VII. 17]} \\
+   \text{therefore}\qquad a : b &= ac : bc.
+   \end{aligned}
+

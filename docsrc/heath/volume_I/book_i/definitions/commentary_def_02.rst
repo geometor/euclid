@@ -167,23 +167,23 @@ side (of the middle), a third is elongated and is narrower in the middle, broade
 
 Thus the spiric surface was what we call a *tore*, or (when open) an *anchor-ring*. :person:`Heron <heron>` (Def. 97) says it was called alternatively *spire* (σπεῖρα) or *ring* (κρίκος) ; he calls the variety in which “the circle cuts itself,” not “interlaced,” but “crossing-itself” (ἐπαλλάττουσα).
 
-:person:`Tannery <tannery>`\ [#f163_1]_ has discussed these passages, as also did Schiaparelli\ [#f163_2]_. It is clear that :person:`Proclus <proclus>`’ remark that the difference in the three curves which he mentions corresponds to the difference between the three surfaces is a slip, due perhaps to too hurried transcribing from :person:`Geminus <geminus>` : all three arise from plane sections of the *open* anchor-ring. If $r$ is the radius of the revolving circle, $a$ the distance of its centre from the axis of rotation, $d$ the distance of the plane section (supposed to be parallel to the axis) from the axis, the three curves described in the first extract correspond to the following cases :
+:person:`Tannery <tannery>`\ [#f163_1]_ has discussed these passages, as also did Schiaparelli\ [#f163_2]_. It is clear that :person:`Proclus <proclus>`’ remark that the difference in the three curves which he mentions corresponds to the difference between the three surfaces is a slip, due perhaps to too hurried transcribing from :person:`Geminus <geminus>` : all three arise from plane sections of the *open* anchor-ring. If :math:`r` is the radius of the revolving circle, :math:`a` the distance of its centre from the axis of rotation, :math:`d` the distance of the plane section (supposed to be parallel to the axis) from the axis, the three curves described in the first extract correspond to the following cases :
 
-(1) $d = a - r$. In this case the curve is the *hippopede*, of which the lemniscate of Bernoulli is a particular case, namely that in which $a = 2r$.
+(1) :math:`d = a - r`. In this case the curve is the *hippopede*, of which the lemniscate of Bernoulli is a particular case, namely that in which :math:`a = 2r`.
 
 The name *hippopede* was doubtless adopted for this one of Perseus’ curves on the ground of its resemblance to the *hippopede* of :person:`Eudoxus <eudoxus>`, which seems to have been the curve of intersection of a sphere with a cylinder touching it internally.
 
-(2) $a + r > d > a$. Here the curve is an oval.
+(2) :math:`a + r > d > a`. Here the curve is an oval.
 
-(3) $a > d > a - r$. The curve is now narrowest in the middle.
+(3) :math:`a > d > a - r`. The curve is now narrowest in the middle.
 
 :person:`Tannery <tannery>` explains the “three lines upon (in addition to) five sections” thus. He points out that with the *open* tore there are two other sections corresponding to
 
-(4) $d = a$ : transition from (2) to (3).
+(4) :math:`d = a` : transition from (2) to (3).
 
-(5) $a - r > d > 0$, in which case the section consists of two symmetrical ovals.
+(5) :math:`a - r > d > 0`, in which case the section consists of two symmetrical ovals.
 
-He then shows that the sections of the *closed* or *continuous* tore, corresponding to $a = r$, give curves corresponding to (2), (3) and (4) only. Instead of (1) and (5) we have only a section consisting of two equal circles touching one another.
+He then shows that the sections of the *closed* or *continuous* tore, corresponding to :math:`a = r`, give curves corresponding to (2), (3) and (4) only. Instead of (1) and (5) we have only a section consisting of two equal circles touching one another.
 
 On the other hand, the *third* spire (the *interlaced* variety) gives three *new* forms, which make a group of three in addition to the first group of *five* sections.
 
@@ -214,7 +214,9 @@ It is easy to see that the curve extends in the direction :g:`AB <0178.g1:/ A B 
 
 If :g:`OA <0178.g1:/ O A />`, :g:`OD <0178.g1:/ O D />` are coordinate axes, the equation of the curve is obviously
 
-$$y^2 (a + x) = (a - x)^3,$$
+.. math::
+
+   y^2 (a + x) = (a - x)^3,
 
 where :g:`a <0178.g1:/ O A />` is the radius of the circle.
 

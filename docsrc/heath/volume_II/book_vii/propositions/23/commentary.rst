@@ -19,6 +19,6 @@ Back to :ref:`Proposition VII.23 <VII.23>`.
 .. folio:: 0331
    :page: 325
 
-If $a$, $mb$ are prime to one another, $b$ is prime to $a$. For, if not, some number $d$ will measure both $a$ and $b$, and therefore both $a$ and $mb$: which is contrary to the hypothesis.
+If :math:`a`, :math:`mb` are prime to one another, :math:`b` is prime to :math:`a`. For, if not, some number :math:`d` will measure both :math:`a` and :math:`b`, and therefore both :math:`a` and :math:`mb`: which is contrary to the hypothesis.
 
 Therefore etc.

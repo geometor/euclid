@@ -24,7 +24,7 @@ PROPOSITION 5.
 
 Let :g:`ABC <0094.g1:< A B C >>` be the given triangle;
 thus it is required to :term:`circumscribe a circle about <circumscribed-about-figure>` the given
-triangle $ABC$.
+triangle :math:`ABC`.
 
 .. picture:: 0094.g1.svg
    :alt: Proposition 5 diagrams

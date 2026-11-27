@@ -21,7 +21,7 @@ Back to :ref:`Proposition VI.25 <VI.25>`.
 
 This is the highly important problem which :person:`Pythagoras <pythagoras>` is credited with having solved. Compare the passage from :person:`Plutarch <plutarch>` (*Symp.* VIII. 2, 4) quoted in the note on I. 44 above, Vol. I. pp. 343—4.
 
-We are bidden to construct a rectilineal figure which shall have the *form* of one and the *size* of another rectilineal figure. The corresponding proposition of the $Data$, Prop. 55, asserts that, "if an area (χωρίον) be given in form (εἴδει) and in magnitude, its sides will also be given in magnitude."
+We are bidden to construct a rectilineal figure which shall have the *form* of one and the *size* of another rectilineal figure. The corresponding proposition of the :math:`Data`, Prop. 55, asserts that, "if an area (χωρίον) be given in form (εἴδει) and in magnitude, its sides will also be given in magnitude."
 
 :person:`Simson <simson>` sees signs of corruption in the text of this proposition also. In the first place, the proof speaks of the *triangle* :g:`ABC <0259.g1:< A B C >>`, though, according to the enunciation, the figure for which :g:`ABC <0259.g1:< A B C >>` is taken may be *any* rectilineal figure, εὐθύγραμμον "rectilineal figure" would be more correct, or εἶδος, "figure"; the mistake, however, of using τρίγωνον is not one of great importance, being no
 doubt due to the accident by which the figure was drawn as a triangle in the diagram.
@@ -37,7 +37,7 @@ The other observation is more important. After Euclid has proved that
 
    (fig. :g:`ABC <0259.g1:< A B C >>`) : (fig. :g:`KGH <0259.g1:< K G H >>`) = (:g:`BE <0259.g1:< B L E C >>`) : (:g:`EF <0259.g1:< C E M F >>`),
 
-he might have inferred *directly* from V. 14 that, since :g:`ABC <0259.g1:< A B C >>` is :eq:`equal <0259.g1:< A B C > = 0259.g1:< B L E C >>` to :g:`BE <0259.g1:< B L E C >>`, :g:`KGH <0259.g1:< K G H >>` is :eq:`equal <0259.g1:< K G H > = 0259.g1:< C E M F >>` to :g:`EF <0259.g1:< C E M F >>`. For V. 14 includes the proof of the fact that, if $A$ is to $B$ as $C$ is to $D$, and $A$ is equal to $C$, then $B$ is equal to $D$, or that of four proportional magnitudes, if the first is equal to the third, the second is equal to the fourth. Instead of proceeding in this way, Euclid first permutes the proportion by V. 16 into
+he might have inferred *directly* from V. 14 that, since :g:`ABC <0259.g1:< A B C >>` is :eq:`equal <0259.g1:< A B C > = 0259.g1:< B L E C >>` to :g:`BE <0259.g1:< B L E C >>`, :g:`KGH <0259.g1:< K G H >>` is :eq:`equal <0259.g1:< K G H > = 0259.g1:< C E M F >>` to :g:`EF <0259.g1:< C E M F >>`. For V. 14 includes the proof of the fact that, if :math:`A` is to :math:`B` as :math:`C` is to :math:`D`, and :math:`A` is equal to :math:`C`, then :math:`B` is equal to :math:`D`, or that of four proportional magnitudes, if the first is equal to the third, the second is equal to the fourth. Instead of proceeding in this way, Euclid first permutes the proportion by V. 16 into
 
 .. container:: center
 

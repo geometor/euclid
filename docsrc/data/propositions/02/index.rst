@@ -21,6 +21,6 @@ Proposition 2 [β΄ · Prop. II]
 
 *Functional Signature*: ``Given(Mag(A), Ratio(A : B)) -> Determined(Mag(B)) [Simson fourth-proportional diorismos]`` · *Dependencies*: :just:`[Data Def. 1] <D.def.1>`, :just:`[Data Def. 2] <D.def.2>`, :just:`[V.11] <V.11>`, :just:`[V.9] <V.9>`, :just:`[VI.12] <VI.12>`
 
-Let the given magnitude $A$ have a given ratio to $B$. I say that $B$ is also given in magnitude.
+Let the given magnitude :math:`A` have a given ratio to :math:`B`. I say that :math:`B` is also given in magnitude.
 
-Since $A$ is given, let a magnitude $C$ be procured equal to it (:just:`[Data Def. 1] <D.def.1>`). And since the ratio of $A$ to $B$ is given—for so it was assumed—let the ratio of $C$ to $D$ be made the same with it (:just:`[Data Def. 2] <D.def.2>`). Then as $A$ is to $B$, so is $C$ to $D$ (:just:`[V.11] <V.11>`); and *alternando*, as $A$ is to $C$, so is $B$ to $D$ (:just:`[V.16] <V.16>`). Yet $A = C$; therefore $B = D$ (:just:`[V.14] <V.14>`). Hence the magnitude $B$ is given, for $D$ has been procured equal to it (:just:`[Data Def. 1] <D.def.1>`).
+Since :math:`A` is given, let a magnitude :math:`C` be procured equal to it (:just:`[Data Def. 1] <D.def.1>`). And since the ratio of :math:`A` to :math:`B` is given—for so it was assumed—let the ratio of :math:`C` to :math:`D` be made the same with it (:just:`[Data Def. 2] <D.def.2>`). Then as :math:`A` is to :math:`B`, so is :math:`C` to :math:`D` (:just:`[V.11] <V.11>`); and *alternando*, as :math:`A` is to :math:`C`, so is :math:`B` to :math:`D` (:just:`[V.16] <V.16>`). Yet :math:`A = C`; therefore :math:`B = D` (:just:`[V.14] <V.14>`). Hence the magnitude :math:`B` is given, for :math:`D` has been procured equal to it (:just:`[Data Def. 1] <D.def.1>`).

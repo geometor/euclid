@@ -19,28 +19,36 @@ Back to :ref:`Proposition VIII.19 <VIII.19>`.
 .. folio:: 0381
    :page: 375
 
-In other words, if $a : b : c = d : e : f$, then there are two geometric means between $abc$, $def$; and $abc$ is to $def$ in the triplicate ratio of $a$ to $d$, or $b$ to $e$, or $c$ to $f$.
+In other words, if :math:`a : b : c = d : e : f`, then there are two geometric means between :math:`abc`, :math:`def`; and :math:`abc` is to :math:`def` in the triplicate ratio of :math:`a` to :math:`d`, or :math:`b` to :math:`e`, or :math:`c` to :math:`f`.
 
-Euclid first takes the plane numbers $ab$, $de$ (leaving out $c$, $f$) and forms the product $bd$. Thus, as in VIII. 18,
+Euclid first takes the plane numbers :math:`ab`, :math:`de` (leaving out :math:`c`, :math:`f`) and forms the product :math:`bd`. Thus, as in VIII. 18,
 
-$$\left.\begin{array}{r} ab,\ bd \\ = ea \end{array}\right\},\ de$$
+.. math::
 
-are three terms in geometrical progression in the ratio of $a$ to $d$, or of $b$ to $e$.
+   \left.\begin{array}{r} ab,\ bd \\ = ea \end{array}\right\},\ de
 
-He next forms the products of $c$, $f$ respectively into the mean $bd$.
+are three terms in geometrical progression in the ratio of :math:`a` to :math:`d`, or of :math:`b` to :math:`e`.
+
+He next forms the products of :math:`c`, :math:`f` respectively into the mean :math:`bd`.
 
 Then
 
-$$abc,\ cbd,\ fbd,\ def$$
+.. math::
 
-are in geometrical progression in the ratio of $a$ to $d$ etc.
+   abc,\ cbd,\ fbd,\ def
+
+are in geometrical progression in the ratio of :math:`a` to :math:`d` etc.
 
 For
 
-$$\left.\begin{aligned} abc : cbd &= ab : bd = a : d \\ bd : fbd &= c : f \\ fbd : def &= bd : de = b : e \end{aligned}\right\} \qquad \text{[VII. 17]}$$
+.. math::
+
+   \left.\begin{aligned} abc : cbd &= ab : bd = a : d \\ bd : fbd &= c : f \\ fbd : def &= bd : de = b : e \end{aligned}\right\} \qquad \text{[VII. 17]}
 
 And
 
-$$a : d = b : e = c : f.$$
+.. math::
 
-The ratio of $abc$ to $def$ is the ratio triplicate of that of $abc$ to $cbd$, i.e. of that of $a$ to $d$ etc.
+   a : d = b : e = c : f.
+
+The ratio of :math:`abc` to :math:`def` is the ratio triplicate of that of :math:`abc` to :math:`cbd`, i.e. of that of :math:`a` to :math:`d` etc.

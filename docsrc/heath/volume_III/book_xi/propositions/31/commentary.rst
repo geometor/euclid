@@ -35,33 +35,43 @@ Complete the parallelograms :g:`YT <0343.g1:< Y T >>`, :g:`DT <0343.g1:< D T >>`
 
 Then
 
-$$\text{(solid } YX\text{)} = \text{(solid } UX\text{)},$$
+.. math::
+
+   \text{(solid } YX\text{)} = \text{(solid } UX\text{)},
 
 because they are on the same base :g:`ST <0343.g1:< S T >>` and of the same height. :just:`[XI. 29] <XI.29>`
 
 Also, :g:`CI <0343.g1:< C I >>`, :g:`YI <0343.g1:< Y I >>` being parallelepipeds cut by planes :g:`RF <0343.g1:< R F >>`, :g:`RX <0343.g1:< R X >>` parallel to pairs of opposite faces respectively,
 
-$$\text{(solid } CF\text{)} : \text{(solid } RI\text{)} = \Box CD : \Box DT, \quad \text{[XI. 25]}$$
+.. math::
+
+   \text{(solid } CF\text{)} : \text{(solid } RI\text{)} = \Box CD : \Box DT, \quad \text{[XI. 25]}
 
 and
 
-$$\text{(solid } YX\text{)} : \text{(solid } RI\text{)} = \Box YT : \Box DT.$$
+.. math::
+
+   \text{(solid } YX\text{)} : \text{(solid } RI\text{)} = \Box YT : \Box DT.
 
 But [I. 35]
 
-$$\begin{aligned}
-\Box YT &= \Box UT \\
-&= \Box AB \\
-&= \Box CD\text{, by hypothesis.}
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \Box YT &= \Box UT \\
+   &= \Box AB \\
+   &= \Box CD\text{, by hypothesis.}
+   \end{aligned}
 
 Therefore
 
-$$\begin{aligned}
-\text{(solid } CF\text{)} &= \text{(solid } YX\text{)} \\
-&= \text{(solid } UX\text{)} \\
-&= \text{(solid } AE\text{)}.
-\end{aligned}$$
+.. math::
+
+   \begin{aligned}
+   \text{(solid } CF\text{)} &= \text{(solid } YX\text{)} \\
+   &= \text{(solid } UX\text{)} \\
+   &= \text{(solid } AE\text{)}.
+   \end{aligned}
 
 II. If the edges terminating at the base are *not* perpendicular to it, turn each solid into an equivalent one on the same base with edges perpendicular to it (by drawing four perpendiculars from the angular points of the base to the plane of the opposite face). (XI. 29, 30 prove the equivalence.)
 
